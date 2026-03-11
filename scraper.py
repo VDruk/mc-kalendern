@@ -75,6 +75,8 @@ CITY_REGIONS = {
     "borlänge": "Dalarna",
     "karlstad": "Värmland", "arvika": "Värmland",
     "ockelbo": "Gävleborg", "gävle": "Gävleborg", "sandviken": "Gävleborg",
+    "överhärde": "Gävleborg", "söderhamn": "Gävleborg",
+    "borgeby": "Skåne",
     "gotland": "Gotland", "visby": "Gotland",
     "karlskrona": "Blekinge", "ronneby": "Blekinge",
     "strängnäs": "Södermanland",
@@ -135,7 +137,7 @@ def detect_event_type(title, tag=""):
         return "Mässa"
     if any(w in t for w in ["racing", "roadracing", "tävling", "race"]):
         return "Racing"
-    if any(w in t for w in ["tur", "körning", "ride", "mc-tur", "utflykt", "on bike", "dagstur"]):
+    if any(w in t for w in ["tur", "körning", "ride", "mc-tur", "utflykt", "on bike", "dagstur", "bussresa"]):
         return "Tur"
     if any(w in t for w in ["show", "bike show", "bikeshow"]):
         return "Show"
@@ -627,6 +629,180 @@ def scrape_gwcs():
     return unique_events
 
 
+def scrape_mchk():
+    """
+    Scrape MCHK (Motorcykelhistoriska Klubben) events from mchk.org.
+    They have a plain calendar page with events listed as contentgroup widgets.
+    Each heading follows the pattern: "date - MCHK Chapter - EventType"
+    Body text contains location details (Plats: ..., addresses, etc.)
+    """
+    print("Scraping MCHK (mchk.org)...")
+    url = "https://mchk.org/evenemang/kalender-34490789"
+    r = safe_get(url)
+    if not r:
+        return []
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    events = []
+
+    months_sv = {
+        "januari": "01", "februari": "02", "mars": "03", "april": "04",
+        "maj": "05", "juni": "06", "juli": "07", "augusti": "08",
+        "september": "09", "oktober": "10", "november": "11", "december": "12"
+    }
+
+    # MCHK chapter -> region mapping
+    mchk_regions = {
+        "stockholm": "Stockholm", "gävleborg": "Gävleborg",
+        "närke": "Närke", "gotland": "Gotland",
+        "skaraborg": "Västra Götaland", "syd": "Skåne",
+        "mälardalen": "Västmanland",
+    }
+
+    # Find all contentgroup widgets (each is an event)
+    groups = soup.select(".widget__contentgroup")
+
+    for g in groups:
+        heading_el = g.select_one(".contentgroup__heading, h2, h3")
+        body_el = g.select_one(".contentgroup__body")
+
+        if not heading_el:
+            continue
+
+        heading = re.sub(r'\s+', ' ', heading_el.get_text(strip=True))
+
+        # Match heading pattern: "25 februari - MCHK Gävleborg - Årsmöte"
+        # or multi-day: "22 - 29 april - bussresa till England"
+        # or "13-16 juni - Trondhjemsridtet"
+        m = re.match(
+            r'(\d{1,2})(?:\s*-\s*(\d{1,2}))?\s+'
+            r'(januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december)'
+            r'\s*-\s*(.*)',
+            heading, re.IGNORECASE
+        )
+        if not m:
+            continue
+
+        day_start = m.group(1).zfill(2)
+        day_end = m.group(2)
+        month_name = m.group(3).lower()
+        rest = m.group(4).strip()
+        month_num = months_sv.get(month_name, "01")
+
+        start_date = f"{YEAR}-{month_num}-{day_start}"
+        if day_end:
+            end_date = f"{YEAR}-{month_num}-{day_end.zfill(2)}"
+        else:
+            end_date = start_date
+
+        # Parse title: usually "MCHK Chapter - EventType" or just event name
+        title = rest
+        chapter = ""
+        chapter_match = re.match(
+            r'MCHK\s*(?:-\s*)?([\wåäöÅÄÖ]+(?:\s+[\wåäöÅÄÖ]+)?)\s*-\s*(.*)',
+            rest
+        )
+        if chapter_match:
+            chapter = chapter_match.group(1).strip()
+            event_name_part = chapter_match.group(2).strip()
+            title = f"MCHK {chapter}: {event_name_part}"
+        elif rest.startswith("MCHK"):
+            title = rest
+
+        # Get description text
+        desc = ""
+        if body_el:
+            desc = re.sub(r'\s+', ' ', body_el.get_text(strip=True))
+
+        # Extract location from description
+        location = ""
+
+        # Extract location from description
+        location = ""
+
+        # Pattern 1: "Plats: <location>" or "Plats <Venue>"
+        plats_m = re.search(
+            r'[Pp]lats:?\s+([A-ZÅÄÖ][\wåäöÅÄÖ\s,\-]+?)(?:\s+tid\b|\s+kl[\s.]|\.?\s+[A-ZÅÄÖ]|\.\s|\s*$)',
+            desc
+        )
+        if plats_m:
+            location = plats_m.group(1).strip().rstrip('.,;')
+
+        # Pattern 2: "i klubblokalen <address>" or "på museet <name>"
+        if not location:
+            loc_m = re.search(
+                r'(?:i klubblokalen|på museet|på plats på kansliet,?|Jakobsbergs gård)\s*([^.]{3,80})',
+                desc
+            )
+            if loc_m:
+                location = loc_m.group(0).strip()
+
+        # Pattern 3: Street address pattern (e.g. "Martallsgatan i Visby")
+        if not location:
+            addr_m = re.search(
+                r'([A-ZÅÄÖ][\wåäöÅÄÖ]*(?:gatan|vägen|allén|gård|slott)'
+                r'(?:\s+\d+(?:\s*-\s*\d+)?)?'
+                r'(?:\s+i\s+[\wåäöÅÄÖ]+)?'
+                r'(?:,\s*[\wåäöÅÄÖ]+)?)',
+                desc
+            )
+            if addr_m:
+                location = addr_m.group(1).strip()
+
+        # Pattern 4: City from desc (e.g. "Örebro", "Götene", "Visby")
+        if not location and desc:
+            for city_key in sorted(CITY_REGIONS.keys(), key=len, reverse=True):
+                if city_key in desc.lower():
+                    location = city_key.capitalize()
+                    break
+
+        # Pattern 5: City from event name (e.g. "bussresa till Söderhamn")
+        if not location:
+            till_m = re.search(r'till\s+([A-ZÅÄÖ][\wåäöÅÄÖ]+)', title)
+            if till_m:
+                location = till_m.group(1)
+
+        # Pattern 6: Use chapter name as fallback region hint
+        if not location and chapter:
+            ch_lower = chapter.lower()
+            if ch_lower in mchk_regions:
+                location = mchk_regions[ch_lower]
+
+        # Determine region
+        region = "Sverige"
+        if chapter:
+            ch_lower = chapter.lower()
+            if ch_lower in mchk_regions:
+                region = mchk_regions[ch_lower]
+        if region == "Sverige" and location:
+            region = guess_region(location)
+
+        # Clean up location: truncate if too long
+        if len(location) > 80:
+            # Try to cut at comma
+            short = location[:80]
+            if ',' in short:
+                short = short.rsplit(',', 1)[0]
+            location = short.strip()
+
+        events.append({
+            "id": make_id(title, start_date, "mchk"),
+            "name": title,
+            "date": start_date,
+            "dateEnd": end_date,
+            "location": location or "Sverige",
+            "type": detect_event_type(title, desc[:100]),
+            "organizer": f"MCHK{' ' + chapter if chapter else ''}",
+            "description": (desc or title)[:250],
+            "link": "https://mchk.org/evenemang/kalender-34490789",
+            "region": region,
+            "source": "mchk.org"
+        })
+
+    print(f"  Extracted {len(events)} events from MCHK")
+    return events
+
+
 def scrape_oamck():
     """
     Scrape ÖAMCK (Östra Aros MCK) events from oamck.se.
@@ -859,6 +1035,7 @@ def deduplicate(all_events):
         "custombikeshow.se": 1, "vasterassummermeet.se": 1,
         "elmia.se": 1, "bvnevent.se": 1, "advmotorcycleexpo.com": 1,
         "vics.se": 1, "gwcs.se": 1, "gwef.eu": 1, "oamck.se": 1,
+        "mchk.org": 1,
         # Federation sites
         "svmc.se": 2, "sulas.se": 2, "alltommc.se": 2,
         # Aggregators (lowest priority)
@@ -962,16 +1139,22 @@ def main():
     except Exception as e:
         print(f"  ERROR scraping ÖAMCK: {e}")
 
-    # 8. Deduplicate and sort
+    # 8. Scrape MCHK
+    try:
+        all_events.extend(scrape_mchk())
+    except Exception as e:
+        print(f"  ERROR scraping MCHK: {e}")
+
+    # 9. Deduplicate and sort
     unique_events = deduplicate(all_events)
 
-    # 8. Enrich locations (fix "Se länk" using name/district patterns)
+    # 10. Enrich locations (fix "Se länk" using name/district patterns)
     unique_events = enrich_all_locations(unique_events)
 
-    # 9. Write output
+    # 11. Write output
     write_events_js(unique_events)
 
-    # 8. Stats
+    # 12. Stats
     sources = {}
     types = {}
     regions = {}
