@@ -1843,7 +1843,7 @@ const EVENTS_DATA = {
       "type": "Racing",
       "organizer": "MotoSE / Svemo",
       "description": "Svensk roadracing SM. MotoSE blir navet för svensk roadracing med ny struktur och ambition.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/179",
       "region": "Halland",
       "source": "mcparken.se"
     },
@@ -2207,7 +2207,7 @@ const EVENTS_DATA = {
       "type": "Trackday",
       "organizer": "KCS",
       "description": "Bandagar på Gelleråsen. Pris 2000kr för KTM, Husqvarna och GasGas. Övriga märken välkomna.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/172",
       "region": "Närke",
       "source": "mcparken.se"
     },
@@ -2467,7 +2467,7 @@ const EVENTS_DATA = {
       "type": "Trackday",
       "organizer": "SpeedSkills",
       "description": "Kemora vecka 21 - en tradition i över 30 år. Bankörning och speedträning i Finland.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/173",
       "region": "Finland",
       "source": "mcparken.se"
     },
@@ -2610,7 +2610,7 @@ const EVENTS_DATA = {
       "type": "Trackday",
       "organizer": "Kinnekulle Trackdays",
       "description": "Bankörning enbart för tjejer på Kinnekulle Ring. Upplev fartens tjusning i trygg miljö.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/181",
       "region": "Västra Götaland",
       "source": "mcparken.se"
     },
@@ -2701,7 +2701,7 @@ const EVENTS_DATA = {
       "type": "Träff",
       "organizer": "Rapido MCK / SMC Stockholm",
       "description": "Hälsa på Stans mesta hojklubb, träffa likasinnade, titta på hojar och provkörning.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/168",
       "region": "Stockholm",
       "source": "mcparken.se"
     },
@@ -2709,14 +2709,14 @@ const EVENTS_DATA = {
       "id": "strangnas-bikeshow-2026",
       "name": "Strängnäs Bike Show",
       "date": "2026-05-23",
-      "dateEnd": null,
+      "dateEnd": "2026-05-23",
       "location": "Strängnäs",
       "type": "Show",
-      "organizer": "Strängnäs MC-klubb",
+      "organizer": "Blotsvens MC",
       "description": "Populär bike show sedan 90-talet. MC-förare från hela Mälardalen samlas för en dag av gemenskap.",
-      "link": "https://www.facebook.com/",
+      "link": "https://www.alltommc.se/kategori/evenemang/strangnas-bike-show/",
       "region": "Södermanland",
-      "source": "facebook.com"
+      "source": "alltommc.se"
     },
     {
       "id": "hdcs-nopla-meeting-2026",
@@ -3013,7 +3013,7 @@ const EVENTS_DATA = {
       "type": "Racing",
       "organizer": "MotoSE / Svemo",
       "description": "Svensk roadracing SM på Ring Knutstorp.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/175",
       "region": "Skåne",
       "source": "mcparken.se"
     },
@@ -3195,7 +3195,7 @@ const EVENTS_DATA = {
       "type": "Trackday",
       "organizer": "Filip Backlund Trackdays",
       "description": "Trackdays 2.0 - eventet för dig som vill lyfta din körupplevelse till nya höjder.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/180",
       "region": "Östergötland",
       "source": "mcparken.se"
     },
@@ -3754,7 +3754,7 @@ const EVENTS_DATA = {
       "type": "Tur",
       "organizer": "Privat arrangör",
       "description": "Äventyrsresa på 76 mil grusvägar genom Gävleborgs vackra landskap.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/166",
       "region": "Gävleborg",
       "source": "mcparken.se"
     },
@@ -4417,7 +4417,7 @@ const EVENTS_DATA = {
       "type": "Racing",
       "organizer": "MotoSE / Svemo",
       "description": "Svensk roadracing SM på Sviestad.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/178",
       "region": "Östergötland",
       "source": "mcparken.se"
     },
@@ -5262,7 +5262,7 @@ const EVENTS_DATA = {
       "type": "Racing",
       "organizer": "MotoSE / Svemo",
       "description": "Svensk roadracing SM på Gelleråsen.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/176",
       "region": "Närke",
       "source": "mcparken.se"
     },
@@ -6102,12 +6102,12 @@ const EVENTS_DATA = {
       "id": "malaren-runt-2026",
       "name": "Mälaren Runt",
       "date": "2026-08-16",
-      "dateEnd": null,
+      "dateEnd": "2026-08-16",
       "location": "Mälardalen",
       "type": "Körning",
-      "organizer": "SMC",
+      "organizer": "SMC / Mälaren Runt",
       "description": "Sveriges största gemensamma MC-körning, 40:e gången!",
-      "link": "https://sulas.se/",
+      "link": "https://www.svmc.se/club/maelaren-runt/",
       "region": "Mälardalen",
       "source": "svmc.se"
     },
@@ -7030,7 +7030,7 @@ const EVENTS_DATA = {
       "type": "Racing",
       "organizer": "MotoSE / Svemo",
       "description": "Svensk roadracing SM på Anderstorp. Säsongens avslutande deltävling.",
-      "link": "https://mcparken.se/pages/calendar/calendar-overview.aspx",
+      "link": "https://mcparken.se/calendar/177",
       "region": "Småland",
       "source": "mcparken.se"
     },

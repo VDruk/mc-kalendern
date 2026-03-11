@@ -543,9 +543,9 @@ def load_manual_events():
             "id": "malaren-runt-2026", "name": "Mälaren Runt",
             "date": "2026-08-16", "dateEnd": "2026-08-16",
             "location": "Mälardalen", "type": "Körning",
-            "organizer": "SMC",
+            "organizer": "SMC / Mälaren Runt",
             "description": "Sveriges största gemensamma MC-körning, 40:e gången!",
-            "link": "https://sulas.se/",
+            "link": "https://www.svmc.se/club/maelaren-runt/",
             "region": "Mälardalen", "source": "svmc.se"
         },
         {
