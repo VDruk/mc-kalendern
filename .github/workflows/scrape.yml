@@ -1,0 +1,55 @@
+name: Scrape MC Events
+
+# Runs every Monday at 06:00 UTC (08:00 Swedish time)
+# Can also be triggered manually from GitHub Actions tab
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet events.js && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated events
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "MC Kalendern Bot"
+          git config user.email "bot@druk.se"
+
+          # Count events for commit message
+          EVENT_COUNT=$(python3 -c "
+          import json, re
+          with open('events.js') as f:
+              content = f.read()
+          match = re.search(r'const EVENTS_DATA\s*=\s*(\{[\s\S]*\})\s*;', content)
+          data = json.loads(match.group(1))
+          print(len(data['events']))
+          ")
+
+          git add events.js
+          git commit -m "Update events: ${EVENT_COUNT} events [bot]"
+          git push
