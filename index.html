@@ -587,8 +587,7 @@ document.getElementById('tipsaModal').addEventListener('click', e => {
 // Formspree form IDs (slava.druk@gmail.com account)
 const FORMSPREE_TIPSA_ID = 'xbdzoavq';
 const FORMSPREE_FAVORITES_ID = 'mnjgdbkw';
-// Set to true to test without using Formspree credits (logs to console instead)
-const TEST_MODE = true;
+const TEST_MODE = false;
 
 function clearTipsaErrors() {
   document.querySelectorAll('#tipsaModal .modal-error').forEach(el => el.classList.remove('show'));
