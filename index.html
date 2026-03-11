@@ -1015,11 +1015,51 @@
         <div class="events-grid" id="eventsGrid"></div>
     </div>
 
+    <!-- SEO: Static text content for Google (hidden when JS loads events above) -->
+    <section id="seoContent" style="max-width: 900px; margin: 3rem auto; padding: 0 2rem; color: #555; line-height: 1.8;">
+        <h2 style="color: #1a1a1a; font-size: 1.5rem; margin-bottom: 1rem;">Sveriges mest kompletta MC-kalender</h2>
+        <p>
+            MC Kalendern samlar alla MC-evenemang i Sverige pa ett och samma stalle.
+            Har hittar du allt fran lokala fikatraffar och pubkvallar till stora massor
+            som MC-Massan i Jonkoping, Custom Bike Show i Norrtalje och HojRock i Vargarda.
+        </p>
+        <p style="margin-top: 1rem;">
+            Vi samlar evenemang fran Harley-Davidson Club Sweden (H-DCS), BMW MC-klubben,
+            Sveriges MotorCyklister (SMC), MCparken och manga fler kallor. Over 600 evenemang
+            fran januari till december - traffar, massor, korningar, racing, trackdays,
+            shower och fester over hela landet.
+        </p>
+        <p style="margin-top: 1rem;">
+            Oavsett om du korer Harley, BMW, Honda Gold Wing, sporthojar eller aventyrsmotorcyklar
+            finns det nagonting for dig. Filtrera pa typ av evenemang eller sok efter stad.
+            Spara dina favoriter och missa aldrig ett evenemang igen.
+        </p>
+
+        <h3 style="color: #1a1a1a; font-size: 1.2rem; margin-top: 2rem; margin-bottom: 0.5rem;">Populara MC-evenemang 2026</h3>
+        <p>
+            <strong>MC-Massan Jonkoping (Elmia)</strong> - Sveriges storsta MC-massa, januari 2026.
+            <strong>Custom Bike Show Norrtalje</strong> - Europas aldsta custom bike show, juni 2026.
+            <strong>HojRock</strong> - Nordens storsta MC-traff med livemusik pa Tanga Hed, juli 2026.
+            <strong>Malaren Runt</strong> - Sveriges storsta gemensamma MC-korning for 40:e gangen, augusti 2026.
+            <strong>Gotland Ring Bike Week</strong> - Racing och bankornig pa Gotland, juli 2026.
+        </p>
+
+        <h3 style="color: #1a1a1a; font-size: 1.2rem; margin-top: 2rem; margin-bottom: 0.5rem;">Om MC Kalendern</h3>
+        <p>
+            MC Kalendern ar ett ideellt projekt som syftar till att gora det lattare for
+            svenska MC-forare att hitta evenemang i narheten. Kalendern uppdateras automatiskt
+            varje vecka med nya evenemang fran organisatorernas egna hemsidor.
+            Har du ett evenemang som saknas? Anvand "Tipsa om evenemang" knappen for att
+            skicka in det sa lagger vi till det.
+        </p>
+    </section>
+
     <!-- Footer -->
     <footer>
-        <strong>MC Kalendern</strong> - Svenska MC-evenemang samlat på ett ställe
+        <strong>MC Kalendern</strong> - Svenska MC-evenemang samlat pa ett stalle.
+        Evenemang fran H-DCS, BMW MC-klubben, SMC, MCparken och fler.
         <br>
-        Ett projekt av <strong>druk.se</strong>
+        Ett projekt av <strong>druk.se</strong> | Kontakt: slava.druk@gmail.com
     </footer>
 
     <!-- Favorites Drawer -->
@@ -1153,6 +1193,10 @@
             renderEvents();
             updateFavoritesUI();
             updateUpcomingBanner();
+            generateEventSchema();
+            // Hide SEO text section once events are loaded (users see event cards instead)
+            const seoSection = document.getElementById('seoContent');
+            if (seoSection) seoSection.style.display = 'none';
         });
 
         function loadEvents() {
@@ -1499,6 +1543,47 @@
 
                 banner.style.display = 'block';
             }
+        }
+
+        // Generate Schema.org Event structured data for Google rich results
+        function generateEventSchema() {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            // Take next 20 upcoming events for structured data
+            const upcoming = allEvents
+                .filter(e => new Date(e.date) >= today)
+                .slice(0, 20);
+
+            const schemaEvents = upcoming.map(e => ({
+                "@type": "Event",
+                "name": e.name,
+                "startDate": e.date,
+                "endDate": e.dateEnd || e.date,
+                "location": {
+                    "@type": "Place",
+                    "name": e.location || "Se arrangoren",
+                    "address": {"@type": "PostalAddress", "addressCountry": "SE"}
+                },
+                "organizer": {"@type": "Organization", "name": e.organizer || ""},
+                "description": e.description || e.name,
+                "url": e.link || "https://druk.se/",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+            }));
+
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.textContent = JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "name": "MC-evenemang i Sverige 2026",
+                "numberOfItems": allEvents.length,
+                "itemListElement": schemaEvents.map((e, i) => ({
+                    "@type": "ListItem",
+                    "position": i + 1,
+                    "item": e
+                }))
+            });
+            document.head.appendChild(script);
         }
 
         function showSuccessMessage(msg = 'Tack för ditt tips!') {
