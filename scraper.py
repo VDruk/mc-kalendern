@@ -500,7 +500,7 @@ def load_manual_events():
             "location": "Upplands Väsby, Stockholms län", "type": "Mässa",
             "organizer": "Backroads AB / ADV Expo",
             "description": "Nordens största mässa för äventyrsmotorcyklister.",
-            "link": "https://www.advmotorcycleexpo.com/",
+            "link": "https://www.backroads.eu/adv-motorcycle-expo/",
             "region": "Stockholm", "source": "advmotorcycleexpo.com"
         },
         {
