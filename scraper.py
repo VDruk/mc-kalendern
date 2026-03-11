@@ -320,152 +320,112 @@ def scrape_hdcs():
 
 def scrape_bmw_klubben():
     """
-    Scrape BMW MC-klubben via their WordPress REST API.
-    They use a custom post type 'aktivitet' with WP REST API.
+    Scrape BMW MC-klubben via their admin-ajax.php endpoint.
+    The site uses Alpine.js with loadMorePosts which calls:
+    POST /wp-admin/admin-ajax.php with action=load_more_posts
+    Returns JSON with full event data including dates, addresses, districts.
     """
     print("Scraping BMW MC-klubben (bmwklubben.se)...")
     events = []
-    page = 1
-    per_page = 50
 
-    while True:
-        url = (
-            f"https://www.bmwklubben.se/wp-json/wp/v2/aktivitet"
-            f"?per_page={per_page}&page={page}&orderby=date&order=asc"
-            f"&status=publish"
-        )
-        r = safe_get(url)
-        if not r:
-            # Fallback: try the page scraping approach
-            print("  API not accessible, trying HTML scraping...")
-            return scrape_bmw_klubben_html()
+    url = "https://www.bmwklubben.se/wp-admin/admin-ajax.php"
+    payload = {
+        "action": "load_more_posts",
+        "post_type": "product",
+        "display_selection": "upcoming",
+        "offset": "0",
+        "posts_per_page": "500",
+    }
 
-        try:
-            posts = r.json()
-        except Exception:
-            break
-
-        if not posts or not isinstance(posts, list):
-            break
-
-        for post in posts:
-            title = clean_html(post.get("title", {}).get("rendered", ""))
-            # BMW uses ACF or custom fields for dates
-            acf = post.get("acf", {}) or {}
-            meta = post.get("meta", {}) or {}
-
-            date_time = acf.get("date_time") or meta.get("date_time") or ""
-            date_time_end = acf.get("date_time_end") or meta.get("date_time_end") or ""
-
-            start = date_time[:10] if date_time else ""
-            end = date_time_end[:10] if date_time_end else start
-
-            address = acf.get("address") or meta.get("address") or ""
-            city = acf.get("city") or meta.get("city") or ""
-            location = address or city or "Se länk"
-
-            link = post.get("link", "https://www.bmwklubben.se/aktiviteter/")
-
-            # District info from taxonomy
-            district_ids = post.get("distrikt", []) or []
-
-            events.append({
-                "id": make_id(title, start, "bmw"),
-                "name": title,
-                "date": start,
-                "dateEnd": end,
-                "location": location[:150],
-                "type": detect_event_type(title),
-                "organizer": "BMW MC-klubben",
-                "description": clean_html(post.get("excerpt", {}).get("rendered", "")),
-                "link": link,
-                "region": "Sverige",  # Will be refined if districts are available
-                "source": "bmwklubben.se"
-            })
-
-        # Check if there are more pages
-        total_pages = int(r.headers.get("X-WP-TotalPages", 1))
-        if page >= total_pages:
-            break
-        page += 1
-
-    print(f"  Extracted {len(events)} events from BMW MC-klubben")
-    return events
-
-
-def scrape_bmw_klubben_html():
-    """
-    Fallback: Scrape BMW MC-klubben from the HTML page.
-    Their page uses Alpine.js with lazy loading (VISA FLER button).
-    We scrape what's in the initial page load.
-    """
-    print("  Trying HTML scraping for BMW...")
-    url = "https://www.bmwklubben.se/aktiviteter/"
-    r = safe_get(url)
-    if not r:
+    try:
+        r = requests.post(url, data=payload, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        data = r.json()
+    except Exception as e:
+        print(f"  WARN: BMW AJAX failed: {e}")
         return []
 
-    events = []
-    soup = BeautifulSoup(r.text, "html.parser")
+    posts = data.get("posts", [])
+    if not posts:
+        print("  WARN: No BMW events returned")
+        return []
 
-    # Extract Alpine.js data from inline scripts
-    # Look for x-data containing posts
-    for script in soup.find_all("script"):
-        text = script.string or ""
-        if "allFutureActivities" in text or "aktivitet" in text:
-            # Try to extract JSON data
-            json_match = re.search(r'allFutureActivities\s*:\s*(\[.*?\])', text, re.DOTALL)
-            if json_match:
-                try:
-                    activities = json.loads(json_match.group(1))
-                    for act in activities:
-                        events.append({
-                            "id": make_id(act.get("title", ""), "", "bmw"),
-                            "name": act.get("title", ""),
-                            "date": "",
-                            "dateEnd": "",
-                            "location": "Se länk",
-                            "type": "Träff",
-                            "organizer": "BMW MC-klubben",
-                            "description": "",
-                            "link": act.get("url", "https://www.bmwklubben.se/aktiviteter/"),
-                            "region": "Sverige",
-                            "source": "bmwklubben.se"
-                        })
-                except json.JSONDecodeError:
-                    pass
+    print(f"  Found {len(posts)} events from BMW AJAX")
 
-    # Also look for activity cards in the HTML
-    for card in soup.select("a.activity-card, a[href*='/aktiviteter/']"):
-        title = card.get("title", "") or card.get_text(strip=True)
-        href = card.get("href", "")
-        if not title or title == "VISA FLER" or not href:
+    # District name -> region mapping
+    district_map = {
+        "D1": "Norrbotten", "D2": "Västerbotten", "D3": "Västernorrland",
+        "D4": "Dalarna", "D5": "Västmanland", "D6": "Värmland",
+        "D7": "Stockholm", "D8": "Västra Götaland", "D9": "Östergötland",
+        "D10": "Västra Götaland", "D11": "Småland", "D12": "Halland",
+        "D14": "Jönköping", "D15": "Skåne",
+    }
+
+    for post in posts:
+        title = clean_html(post.get("title", ""))
+        if not title:
             continue
 
-        full_url = href if href.startswith("http") else f"https://www.bmwklubben.se{href}"
+        # Date from date_time field (format: "2026-03-12 18:30")
+        date_time = post.get("date_time") or post.get("start_date") or ""
+        date_time_end = post.get("date_time_end") or post.get("end_date") or ""
 
-        # Try to extract date from nearby elements
-        day_el = card.select_one("[class*='day'], .display_day")
-        month_el = card.select_one("[class*='month'], .display_month")
+        start = date_time[:10] if date_time else ""
+        end = date_time_end[:10] if date_time_end else start
+
+        if not start:
+            continue  # Skip events without dates
+
+        # Location from address field (full address) or city
+        address = post.get("address") or ""
+        city = post.get("city") or ""
+
+        # Clean up address: remove postal code and country for shorter display
+        location = address or city
+        if location:
+            # Shorten "Agnesfridsvägen 119, 213 75 Malmö, Sverige" -> "Agnesfridsvägen 119, Malmö"
+            location = re.sub(r',?\s*\d{3}\s*\d{2}\s*', ', ', location)
+            location = re.sub(r',?\s*Sverige\s*$', '', location)
+            location = re.sub(r',\s*,', ',', location).strip(', ')
+
+        # Region from districts
+        region = "Sverige"
+        districts = post.get("districts") or []
+        if isinstance(districts, list):
+            for d in districts:
+                d_name = d.get("name", "") if isinstance(d, dict) else str(d)
+                # Match "D15" etc from district name
+                d_match = re.match(r'(D\d+)', d_name)
+                if d_match and d_match.group(1) in district_map:
+                    region = district_map[d_match.group(1)]
+                    break
+        elif isinstance(districts, str):
+            d_match = re.match(r'(D\d+)', districts)
+            if d_match and d_match.group(1) in district_map:
+                region = district_map[d_match.group(1)]
+
+        # Build URL
+        link = post.get("url", "")
+        if not link:
+            link = "https://www.bmwklubben.se/aktiviteter/"
+
+        desc = clean_html(post.get("preamble") or post.get("excerpt") or "")
 
         events.append({
-            "id": make_id(title, "", "bmw"),
+            "id": make_id(title, start, "bmw"),
             "name": title,
-            "date": "",  # Hard to extract without JS rendering
-            "dateEnd": "",
-            "location": "Se länk",
+            "date": start,
+            "dateEnd": end,
+            "location": location[:150] or "Se länk",
             "type": detect_event_type(title),
             "organizer": "BMW MC-klubben",
-            "description": "",
-            "link": full_url,
-            "region": "Sverige",
+            "description": desc or title,
+            "link": link,
+            "region": region,
             "source": "bmwklubben.se"
         })
 
-    # Remove events without dates (they're not useful)
-    events = [e for e in events if e["date"]]
-
-    print(f"  Extracted {len(events)} events from BMW HTML")
+    print(f"  Extracted {len(events)} events from BMW MC-klubben")
     return events
 
 
@@ -550,8 +510,10 @@ def scrape_mcparken():
 def scrape_gwcs():
     """
     Scrape GWCS (GoldWing Club Sweden) calendar.
-    They use The Events Calendar on WordPress but API is disabled.
-    We scrape the traffkalendern page HTML instead.
+    They use The Events Calendar on WordPress but REST API is disabled (404).
+    We scrape the traffkalendern page HTML and extract specific event URLs
+    from the "Visa detaljer" links (a[href*="/events/"]).
+    URL format: gwcs.se/events/{slug}/?occurrence={date}
     """
     print("Scraping GWCS (gwcs.se)...")
     url = "https://gwcs.se/traffkalendern/"
@@ -567,55 +529,191 @@ def scrape_gwcs():
         "september": "09", "oktober": "10", "november": "11", "december": "12"
     }
 
-    # Find event entries (The Events Calendar list view)
-    for article in soup.select("article, .type-tribe_events, [class*='tribe-events']"):
-        title_el = article.select_one("h2 a, h3 a, .tribe-events-list-event-title a")
-        if not title_el:
+    # Find all "Visa detaljer" links which point to specific event pages
+    # These are the a[href*="/events/"] links on the calendar page
+    event_links = soup.select('a[href*="/events/"]')
+
+    for link_el in event_links:
+        href = link_el.get("href", "")
+        if not href or href.endswith("/events/"):
             continue
 
-        title = title_el.get_text(strip=True)
-        link = title_el.get("href", "")
+        # Extract occurrence date from URL: ?occurrence=2026-03-15
+        occ_match = re.search(r'occurrence=(\d{4}-\d{2}-\d{2})', href)
+        start_date = occ_match.group(1) if occ_match else ""
 
-        # Try to find date
-        date_text = article.get_text(" ", strip=True).lower()
-        start_date = ""
-        end_date = ""
+        # Walk up the DOM to find the event container and extract title/venue
+        parent = link_el.parent
+        for _ in range(5):
+            if parent and parent.parent:
+                parent = parent.parent
+            else:
+                break
 
-        # Look for date patterns in surrounding text
-        for month_name, month_num in months_sv.items():
-            if month_name in date_text:
-                day_match = re.search(r'(\d{1,2})\s*' + month_name, date_text)
-                if day_match:
-                    day = day_match.group(1).zfill(2)
-                    start_date = f"{YEAR}-{month_num}-{day}"
-                    # Try to find end date
-                    range_match = re.search(r'(\d{1,2})\s*-\s*(\d{1,2})\s*' + month_name, date_text)
-                    if range_match:
-                        start_date = f"{YEAR}-{month_num}-{range_match.group(1).zfill(2)}"
-                        end_date = f"{YEAR}-{month_num}-{range_match.group(2).zfill(2)}"
+        if not parent:
+            continue
+
+        text = parent.get_text(" ", strip=True)
+
+        # Extract title: the text between weekday name and venue/link
+        # Pattern in text: "15 mars söndag Sörmlandswingarnas fikaträff Sigridslunds Café | Årdala Visa detaljer"
+        title = ""
+        venue = ""
+
+        # Find title from heading or link text before "Visa detaljer"
+        title_el = None
+        for heading in parent.select("h2, h3, h4, strong, b"):
+            t = heading.get_text(strip=True)
+            if t and len(t) > 3 and t != "Visa detaljer":
+                title_el = heading
+                break
+
+        if title_el:
+            title = title_el.get_text(strip=True)
+        else:
+            # Try to extract from text: everything after weekday, before "|" or "Visa"
+            m = re.search(
+                r'(?:måndag|tisdag|onsdag|torsdag|fredag|lördag|söndag)\s+(.+?)(?:\s*\||\s*Visa)',
+                text, re.IGNORECASE
+            )
+            if m:
+                title = m.group(1).strip()
+
+        if not title:
+            continue
+
+        # Extract venue: text after "|" before "Visa detaljer"
+        venue_match = re.search(r'\|\s*(.+?)\s*Visa\s+detaljer', text, re.IGNORECASE)
+        if venue_match:
+            venue = venue_match.group(1).strip()
+
+        # If no occurrence date, try to extract from surrounding text
+        if not start_date:
+            for month_name, month_num in months_sv.items():
+                day_m = re.search(r'(\d{1,2})\s*' + month_name, text.lower())
+                if day_m:
+                    start_date = f"{YEAR}-{month_num}-{day_m.group(1).zfill(2)}"
                     break
 
         if not start_date:
             continue
 
-        venue_el = article.select_one(".tribe-venue, [class*='venue']")
-        venue = venue_el.get_text(strip=True) if venue_el else ""
+        # Build full URL
+        full_url = href if href.startswith("http") else f"https://gwcs.se{href}"
 
         events.append({
             "id": make_id(title, start_date, "gwcs"),
             "name": title,
             "date": start_date,
-            "dateEnd": end_date or start_date,
-            "location": venue or "Se lank",
+            "dateEnd": start_date,  # Single-day events (multi-day have it in title)
+            "location": venue or title,  # Use title as fallback (often contains venue)
             "type": detect_event_type(title),
             "organizer": "GoldWing Club Sweden",
             "description": title,
-            "link": link or "https://gwcs.se/traffkalendern/",
-            "region": guess_region(venue),
+            "link": full_url,
+            "region": guess_region(venue or title),
             "source": "gwcs.se"
         })
 
-    print(f"  Extracted {len(events)} events from GWCS")
+    # Deduplicate by URL (same event can appear in multiple parent containers)
+    seen_urls = {}
+    unique_events = []
+    for e in events:
+        if e["link"] not in seen_urls:
+            seen_urls[e["link"]] = True
+            unique_events.append(e)
+
+    print(f"  Extracted {len(unique_events)} events from GWCS")
+    return unique_events
+
+
+def scrape_oamck():
+    """
+    Scrape ÖAMCK (Östra Aros MCK) events from oamck.se.
+    They use The Events Calendar with Schema.org JSON-LD structured data
+    embedded in the page. Each event has full details: name, date, URL,
+    location, and organizer.
+
+    We skip:
+    - Weekly "Fikakväll i klubbkåken" (too frequent, internal club meetings)
+    - Foreign trips (Andalusien etc.)
+    """
+    print("Scraping ÖAMCK (oamck.se)...")
+    url = "https://oamck.se/events/"
+    r = safe_get(url)
+    if not r:
+        return []
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    events = []
+
+    # Extract Schema.org JSON-LD event data
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(script.string or "")
+            items = data if isinstance(data, list) else [data]
+            for item in items:
+                if item.get("@type") != "Event":
+                    continue
+
+                name = clean_html(item.get("name", ""))
+                if not name:
+                    continue
+
+                # Skip weekly fikakväll (too many, very internal)
+                if "fikakväll" in name.lower() or "fikakvall" in name.lower():
+                    continue
+
+                # Skip foreign trips
+                name_lower = name.lower()
+                if any(w in name_lower for w in ["andalusien", "italien", "spanien"]):
+                    continue
+
+                start_raw = item.get("startDate", "")
+                end_raw = item.get("endDate", "")
+                start = start_raw[:10] if start_raw else ""
+                end = end_raw[:10] if end_raw else start
+
+                if not start:
+                    continue
+
+                event_url = item.get("url", "")
+
+                # Location from structured data
+                loc_data = item.get("location", {})
+                location = ""
+                if isinstance(loc_data, dict):
+                    loc_name = loc_data.get("name", "")
+                    loc_addr = loc_data.get("address", {})
+                    if isinstance(loc_addr, dict):
+                        loc_city = loc_addr.get("addressLocality", "")
+                        location = ", ".join(filter(None, [loc_name, loc_city]))
+                    else:
+                        location = loc_name
+
+                # Organizer
+                org_data = item.get("organizer", {})
+                organizer = "ÖAMCK"
+                if isinstance(org_data, dict):
+                    organizer = org_data.get("name", "ÖAMCK")
+
+                events.append({
+                    "id": make_id(name, start, "oamck"),
+                    "name": name,
+                    "date": start,
+                    "dateEnd": end,
+                    "location": location or "Uppsala",
+                    "type": detect_event_type(name),
+                    "organizer": organizer,
+                    "description": name,
+                    "link": event_url or "https://oamck.se/events/",
+                    "region": guess_region(location or "Uppsala"),
+                    "source": "oamck.se"
+                })
+        except (json.JSONDecodeError, KeyError):
+            continue
+
+    print(f"  Extracted {len(events)} events from ÖAMCK")
     return events
 
 
@@ -858,7 +956,13 @@ def main():
     except Exception as e:
         print(f"  ERROR scraping GWCS: {e}")
 
-    # 7. Deduplicate and sort
+    # 7. Scrape ÖAMCK
+    try:
+        all_events.extend(scrape_oamck())
+    except Exception as e:
+        print(f"  ERROR scraping ÖAMCK: {e}")
+
+    # 8. Deduplicate and sort
     unique_events = deduplicate(all_events)
 
     # 8. Enrich locations (fix "Se länk" using name/district patterns)
