@@ -920,7 +920,7 @@ const EVENTS_DATA = {
       "type": "Mässa",
       "organizer": "Backroads AB / ADV Expo",
       "description": "Nordens största mässa för äventyrsmotorcyklister. Utställare, föreläsningar och provkörningar.",
-      "link": "https://www.advmotorcycleexpo.com/",
+      "link": "https://www.backroads.eu/adv-motorcycle-expo/",
       "region": "Stockholm",
       "source": "advmotorcycleexpo.com"
     },
