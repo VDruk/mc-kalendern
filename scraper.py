@@ -150,6 +150,105 @@ def detect_event_type(title, tag=""):
     return "Träff"
 
 
+# ---- Location enrichment ----
+
+# Known Swedish places to match in event names/descriptions
+KNOWN_PLACES = {
+    "stockholm": "Stockholm", "malmö": "Malmö", "göteborg": "Göteborg",
+    "kristianstad": "Kristianstad", "hedemora": "Hedemora", "falun": "Falun",
+    "linköping": "Linköping", "norrtälje": "Norrtälje", "ekerö": "Ekerö",
+    "öland": "Öland", "bornholm": "Bornholm, Danmark", "surahammar": "Surahammar",
+    "markaryd": "Markaryd", "hovmantorp": "Hovmantorp", "växjö": "Växjö",
+    "bankeryd": "Bankeryd", "staffanstorp": "Staffanstorp", "ljungby": "Ljungby",
+    "kristianopel": "Kristianopel", "eringsboda": "Eringsboda", "alstermo": "Alstermo",
+    "moheda": "Moheda", "oskarshamn": "Oskarshamn", "värnamo": "Värnamo",
+    "trollhättan": "Trollhättan", "östersund": "Östersund", "motala": "Motala",
+    "fredericia": "Fredericia, Danmark", "kinnekulle": "Kinnekulle",
+    "falkenberg": "Falkenberg", "bromölla": "Bromölla", "vollsjö": "Vollsjö",
+    "tiveden": "Tiveden", "dalsland": "Dalsland", "sikhall": "Sikhall",
+    "rådis": "Rådis, Dalarna", "babel": "Babel, Stockholm",
+    "probike malmö": "Probike, Malmö",
+}
+
+# BMW district prefix -> region
+BMW_DISTRICT_LOCATIONS = {
+    "D1": "Norrbotten", "D2": "Västerbotten", "D3": "Västernorrland",
+    "D4": "Dalarna", "D5": "Västmanland", "D6": "Värmland",
+    "D7": "Stockholm", "D8": "Västra Götaland", "D9": "Östergötland",
+    "D10": "Västra Götaland", "D11": "Småland", "D12": "Halland",
+    "D14": "Jönköping", "D15": "Skåne",
+}
+
+# HDCS district prefix -> region
+HDCS_DISTRICT_LOCATIONS = {
+    "DOA": "Stockholm", "DOB": "Skåne", "DO-C": "Halland/VGötaland",
+    "DOE": "Småland", "DOG": "Dalarna", "DOH": "Västerbotten",
+    "DO-I": "Västernorrland", "DKB": "Blekinge", "LOB": "Skåne",
+    "LOD": "Västra Götaland",
+}
+
+
+def enrich_location(event):
+    """
+    Try to determine a real location for events with 'Se länk' or empty location.
+    Uses event name, description, source, and district patterns.
+    Returns the enriched location string, or the original if no match found.
+    """
+    loc = (event.get("location") or "").strip()
+    if loc.lower() not in ("se länk", "se lank", "", "tbd"):
+        return loc  # Already has a location
+
+    name = event.get("name", "")
+    desc = event.get("description", "")
+    source = event.get("source", "")
+    text = f"{name} {desc}".lower()
+
+    # 1. Check for online/digital events
+    if any(w in text for w in ["teams", "digitalt", "zoom", "online", "webinar"]):
+        return "Online / Digitalt"
+
+    # 2. Try "från <City>" pattern in name
+    m = re.search(r'från\s+([A-ZÅÄÖ][a-zåäö]+(?:\s+[A-ZÅÄÖ][a-zåäö]+)?)', name)
+    if m:
+        return m.group(1)
+
+    # 3. Try known places in name/description
+    for key, city in KNOWN_PLACES.items():
+        if key in text:
+            return city
+
+    # 4. BMW district prefix
+    if source == "bmwklubben.se":
+        m = re.match(r'(D\d+)\b', name)
+        if m and m.group(1) in BMW_DISTRICT_LOCATIONS:
+            return BMW_DISTRICT_LOCATIONS[m.group(1)]
+        if "region väst" in name.lower():
+            return "Västra Götaland"
+
+    # 5. HDCS district prefix
+    if source == "hdcs.se":
+        for prefix, region in HDCS_DISTRICT_LOCATIONS.items():
+            if name.startswith(prefix + " ") or name.startswith(prefix + "-"):
+                return region
+
+    # 6. Fallback: keep original (will show as "Se länk")
+    return loc or "Sverige"
+
+
+def enrich_all_locations(events):
+    """Run location enrichment on all events, fix 'Se länk' locations."""
+    fixed = 0
+    for e in events:
+        old_loc = e.get("location", "")
+        new_loc = enrich_location(e)
+        if new_loc != old_loc:
+            e["location"] = new_loc
+            fixed += 1
+    if fixed:
+        print(f"  Location enrichment: fixed {fixed} events")
+    return events
+
+
 # ---- Scrapers ----
 
 def scrape_hdcs():
@@ -661,7 +760,7 @@ def deduplicate(all_events):
         "hdcs.se": 1, "bmwklubben.se": 1, "hojrock.se": 1,
         "custombikeshow.se": 1, "vasterassummermeet.se": 1,
         "elmia.se": 1, "bvnevent.se": 1, "advmotorcycleexpo.com": 1,
-        "vics.se": 1, "gwcs.se": 1, "gwef.eu": 1,
+        "vics.se": 1, "gwcs.se": 1, "gwef.eu": 1, "oamck.se": 1,
         # Federation sites
         "svmc.se": 2, "sulas.se": 2, "alltommc.se": 2,
         # Aggregators (lowest priority)
@@ -762,7 +861,10 @@ def main():
     # 7. Deduplicate and sort
     unique_events = deduplicate(all_events)
 
-    # 7. Write output
+    # 8. Enrich locations (fix "Se länk" using name/district patterns)
+    unique_events = enrich_all_locations(unique_events)
+
+    # 9. Write output
     write_events_js(unique_events)
 
     # 8. Stats
