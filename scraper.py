@@ -448,6 +448,78 @@ def scrape_mcparken():
     return events
 
 
+def scrape_gwcs():
+    """
+    Scrape GWCS (GoldWing Club Sweden) calendar.
+    They use The Events Calendar on WordPress but API is disabled.
+    We scrape the traffkalendern page HTML instead.
+    """
+    print("Scraping GWCS (gwcs.se)...")
+    url = "https://gwcs.se/traffkalendern/"
+    r = safe_get(url)
+    if not r:
+        return []
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    events = []
+    months_sv = {
+        "januari": "01", "februari": "02", "mars": "03", "april": "04",
+        "maj": "05", "juni": "06", "juli": "07", "augusti": "08",
+        "september": "09", "oktober": "10", "november": "11", "december": "12"
+    }
+
+    # Find event entries (The Events Calendar list view)
+    for article in soup.select("article, .type-tribe_events, [class*='tribe-events']"):
+        title_el = article.select_one("h2 a, h3 a, .tribe-events-list-event-title a")
+        if not title_el:
+            continue
+
+        title = title_el.get_text(strip=True)
+        link = title_el.get("href", "")
+
+        # Try to find date
+        date_text = article.get_text(" ", strip=True).lower()
+        start_date = ""
+        end_date = ""
+
+        # Look for date patterns in surrounding text
+        for month_name, month_num in months_sv.items():
+            if month_name in date_text:
+                day_match = re.search(r'(\d{1,2})\s*' + month_name, date_text)
+                if day_match:
+                    day = day_match.group(1).zfill(2)
+                    start_date = f"{YEAR}-{month_num}-{day}"
+                    # Try to find end date
+                    range_match = re.search(r'(\d{1,2})\s*-\s*(\d{1,2})\s*' + month_name, date_text)
+                    if range_match:
+                        start_date = f"{YEAR}-{month_num}-{range_match.group(1).zfill(2)}"
+                        end_date = f"{YEAR}-{month_num}-{range_match.group(2).zfill(2)}"
+                    break
+
+        if not start_date:
+            continue
+
+        venue_el = article.select_one(".tribe-venue, [class*='venue']")
+        venue = venue_el.get_text(strip=True) if venue_el else ""
+
+        events.append({
+            "id": make_id(title, start_date, "gwcs"),
+            "name": title,
+            "date": start_date,
+            "dateEnd": end_date or start_date,
+            "location": venue or "Se lank",
+            "type": detect_event_type(title),
+            "organizer": "GoldWing Club Sweden",
+            "description": title,
+            "link": link or "https://gwcs.se/traffkalendern/",
+            "region": guess_region(venue),
+            "source": "gwcs.se"
+        })
+
+    print(f"  Extracted {len(events)} events from GWCS")
+    return events
+
+
 # ---- Manual events (verified, always included) ----
 
 def load_manual_events():
@@ -681,7 +753,13 @@ def main():
     except Exception as e:
         print(f"  ERROR scraping MCparken: {e}")
 
-    # 6. Deduplicate and sort
+    # 6. Scrape GWCS
+    try:
+        all_events.extend(scrape_gwcs())
+    except Exception as e:
+        print(f"  ERROR scraping GWCS: {e}")
+
+    # 7. Deduplicate and sort
     unique_events = deduplicate(all_events)
 
     # 7. Write output
