@@ -13,6 +13,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -24,7 +25,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install -r requirements.txt
 
       - name: Run scraper
         run: python scraper.py
@@ -40,16 +41,23 @@ jobs:
           git config user.name "MC Kalendern Bot"
           git config user.email "bot@druk.se"
 
-          # Count events for commit message
-          EVENT_COUNT=$(python3 -c "
+          # Count events and sources for commit message
+          STATS=$(python3 -c "
           import json, re
           with open('events.js') as f:
               content = f.read()
           match = re.search(r'const EVENTS_DATA\s*=\s*(\{[\s\S]*\})\s*;', content)
           data = json.loads(match.group(1))
-          print(len(data['events']))
+          events = data['events']
+          sources = {}
+          for e in events:
+              s = e.get('source', '?')
+              sources[s] = sources.get(s, 0) + 1
+          top = sorted(sources.items(), key=lambda x: -x[1])[:5]
+          src_str = ', '.join(f'{s}:{c}' for s,c in top)
+          print(f'{len(events)} events ({src_str})')
           ")
 
           git add events.js
-          git commit -m "Update events: ${EVENT_COUNT} events [bot]"
+          git commit -m "Auto-update: ${STATS} [bot]"
           git push
