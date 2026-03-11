@@ -587,6 +587,8 @@ document.getElementById('tipsaModal').addEventListener('click', e => {
 // Formspree form IDs (slava.druk@gmail.com account)
 const FORMSPREE_TIPSA_ID = 'xbdzoavq';
 const FORMSPREE_FAVORITES_ID = 'mnjgdbkw';
+// Set to true to test without using Formspree credits (logs to console instead)
+const TEST_MODE = true;
 
 function clearTipsaErrors() {
   document.querySelectorAll('#tipsaModal .modal-error').forEach(el => el.classList.remove('show'));
@@ -658,12 +660,17 @@ document.getElementById('tipsaSubmit').addEventListener('click', async () => {
   };
 
   try {
-    const res = await fetch('https://formspree.io/f/' + FORMSPREE_TIPSA_ID, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify(tip)
-    });
-    if (!res.ok) throw new Error('Server error');
+    if (TEST_MODE) {
+      console.log('[TEST] Tipsa submission:', tip);
+      await new Promise(r => setTimeout(r, 500)); // simulate delay
+    } else {
+      const res = await fetch('https://formspree.io/f/' + FORMSPREE_TIPSA_ID, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(tip)
+      });
+      if (!res.ok) throw new Error('Server error');
+    }
 
     document.getElementById('tipsaModal').classList.remove('open');
     document.querySelectorAll('#tipsaModal input, #tipsaModal textarea').forEach(el => el.value = '');
@@ -720,12 +727,17 @@ document.getElementById('reminderBtn').addEventListener('click', async () => {
   };
 
   try {
-    const res = await fetch('https://formspree.io/f/' + FORMSPREE_FAVORITES_ID, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify(payload)
-    });
-    if (!res.ok) throw new Error('Server error');
+    if (TEST_MODE) {
+      console.log('[TEST] Favorites submission:', payload);
+      await new Promise(r => setTimeout(r, 500));
+    } else {
+      const res = await fetch('https://formspree.io/f/' + FORMSPREE_FAVORITES_ID, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (!res.ok) throw new Error('Server error');
+    }
 
     localStorage.setItem('mc_reminder_email', email);
     const msg = document.getElementById('successMsg');
