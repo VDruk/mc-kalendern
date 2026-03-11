@@ -230,6 +230,7 @@
     font-family: inherit; white-space: nowrap;
   }
   .drawer-email-row button:hover { background: #333; }
+  .drawer-email-row button:disabled { background: #999; cursor: not-allowed; }
 
   /* Tipsa modal */
   .modal-overlay {
@@ -259,6 +260,10 @@
     border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 13px; font-weight: 600;
   }
   .modal-submit:hover { background: #333; }
+  .modal-submit:disabled { background: #999; cursor: not-allowed; }
+  .modal-error { color: #c00; font-size: 12px; margin-top: 2px; display: none; }
+  .modal-error.show { display: block; }
+  .field-error { border-color: #c00 !important; }
 
   /* Success message */
   .success-msg {
@@ -365,11 +370,12 @@
     <div class="drawer-empty">Tryck pa stjarnan pa ett evenemang for att spara det har.</div>
   </div>
   <div class="drawer-footer">
-    <p>Vill du bli pamind? Skriv din e-post:</p>
+    <p>Skicka listan till din e-post:</p>
     <div class="drawer-email-row">
       <input type="email" id="reminderEmail" placeholder="din@epost.se">
-      <button id="reminderBtn">Spara</button>
+      <button id="reminderBtn">Skicka</button>
     </div>
+    <div class="modal-error" id="drawerError"></div>
   </div>
 </div>
 
@@ -378,13 +384,17 @@
   <div class="modal">
     <h3>Tipsa om evenemang</h3>
     <label>Namn pa evenemanget *</label>
-    <input type="text" id="tipName" required>
+    <input type="text" id="tipName" required maxlength="150">
+    <div class="modal-error" id="errName">Ange ett namn for evenemanget</div>
     <label>Startdatum *</label>
     <input type="date" id="tipDate" required>
+    <div class="modal-error" id="errDate">Ange ett giltigt datum (inte i det forflutna)</div>
     <label>Slutdatum</label>
     <input type="date" id="tipDateEnd">
-    <label>Plats</label>
-    <input type="text" id="tipLocation" placeholder="Stad eller plats">
+    <div class="modal-error" id="errDateEnd">Slutdatum kan inte vara fore startdatum</div>
+    <label>Plats *</label>
+    <input type="text" id="tipLocation" placeholder="Stad eller plats" required maxlength="100">
+    <div class="modal-error" id="errLocation">Ange en plats</div>
     <label>Typ</label>
     <select id="tipType">
       <option value="Träff">Träff</option>
@@ -396,13 +406,15 @@
       <option value="Fest">Fest</option>
     </select>
     <label>Arrangor</label>
-    <input type="text" id="tipOrganizer" placeholder="Klubb eller foretag">
+    <input type="text" id="tipOrganizer" placeholder="Klubb eller foretag" maxlength="100">
     <label>Lank</label>
     <input type="url" id="tipLink" placeholder="https://...">
+    <div class="modal-error" id="errLink">Ange en giltig URL (borja med https://)</div>
     <label>Beskrivning</label>
-    <textarea id="tipDesc" placeholder="Kort beskrivning av evenemanget"></textarea>
+    <textarea id="tipDesc" placeholder="Kort beskrivning av evenemanget" maxlength="300"></textarea>
     <label>Din e-post (valfritt)</label>
     <input type="email" id="tipEmail" placeholder="for uppfoljning">
+    <div class="modal-error" id="errEmail">Ange en giltig e-postadress</div>
     <div class="modal-buttons">
       <button class="modal-cancel" id="tipsaCancel">Avbryt</button>
       <button class="modal-submit" id="tipsaSubmit">Skicka tips</button>
@@ -572,48 +584,161 @@ document.getElementById('tipsaCancel').addEventListener('click', () => {
 document.getElementById('tipsaModal').addEventListener('click', e => {
   if (e.target === e.currentTarget) e.currentTarget.classList.remove('open');
 });
-document.getElementById('tipsaSubmit').addEventListener('click', () => {
-  const name = document.getElementById('tipName').value.trim();
-  const date = document.getElementById('tipDate').value;
-  if (!name || !date) { alert('Fyll i namn och datum.'); return; }
+// Formspree form IDs (slava.druk@gmail.com account)
+const FORMSPREE_TIPSA_ID = 'xbdzoavq';
+const FORMSPREE_FAVORITES_ID = 'mnjgdbkw';
 
-  // Build tip data (for now we store locally and show success)
+function clearTipsaErrors() {
+  document.querySelectorAll('#tipsaModal .modal-error').forEach(el => el.classList.remove('show'));
+  document.querySelectorAll('#tipsaModal .field-error').forEach(el => el.classList.remove('field-error'));
+}
+
+function validateTipsaForm() {
+  clearTipsaErrors();
+  let valid = true;
+  const name = document.getElementById('tipName');
+  const date = document.getElementById('tipDate');
+  const dateEnd = document.getElementById('tipDateEnd');
+  const location = document.getElementById('tipLocation');
+  const link = document.getElementById('tipLink');
+  const email = document.getElementById('tipEmail');
+  const today = new Date().toISOString().split('T')[0];
+
+  if (!name.value.trim()) {
+    document.getElementById('errName').classList.add('show');
+    name.classList.add('field-error');
+    valid = false;
+  }
+  if (!date.value || date.value < today) {
+    document.getElementById('errDate').classList.add('show');
+    date.classList.add('field-error');
+    valid = false;
+  }
+  if (dateEnd.value && date.value && dateEnd.value < date.value) {
+    document.getElementById('errDateEnd').classList.add('show');
+    dateEnd.classList.add('field-error');
+    valid = false;
+  }
+  if (!location.value.trim()) {
+    document.getElementById('errLocation').classList.add('show');
+    location.classList.add('field-error');
+    valid = false;
+  }
+  if (link.value && !link.value.match(/^https?:\/\/.+\..+/)) {
+    document.getElementById('errLink').classList.add('show');
+    link.classList.add('field-error');
+    valid = false;
+  }
+  if (email.value && !email.value.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+    document.getElementById('errEmail').classList.add('show');
+    email.classList.add('field-error');
+    valid = false;
+  }
+  return valid;
+}
+
+document.getElementById('tipsaSubmit').addEventListener('click', async () => {
+  if (!validateTipsaForm()) return;
+
+  const btn = document.getElementById('tipsaSubmit');
+  btn.disabled = true;
+  btn.textContent = 'Skickar...';
+
   const tip = {
-    name, date,
-    dateEnd: document.getElementById('tipDateEnd').value || date,
-    location: document.getElementById('tipLocation').value || 'Se lank',
-    type: document.getElementById('tipType').value,
-    organizer: document.getElementById('tipOrganizer').value || '',
-    link: document.getElementById('tipLink').value || '',
-    description: document.getElementById('tipDesc').value || name,
-    email: document.getElementById('tipEmail').value || ''
+    Evenemang: document.getElementById('tipName').value.trim(),
+    Startdatum: document.getElementById('tipDate').value,
+    Slutdatum: document.getElementById('tipDateEnd').value || document.getElementById('tipDate').value,
+    Plats: document.getElementById('tipLocation').value.trim(),
+    Typ: document.getElementById('tipType').value,
+    Arrangor: document.getElementById('tipOrganizer').value.trim() || '(ej angivet)',
+    Lank: document.getElementById('tipLink').value.trim() || '(ingen lank)',
+    Beskrivning: document.getElementById('tipDesc').value.trim() || '(ingen beskrivning)',
+    _replyto: document.getElementById('tipEmail').value.trim() || '',
+    _subject: 'MC Kalendern: Nytt evenemangstips - ' + document.getElementById('tipName').value.trim()
   };
 
-  // Store tips locally
-  let tips = JSON.parse(localStorage.getItem('mc_tips')) || [];
-  tips.push(tip);
-  localStorage.setItem('mc_tips', JSON.stringify(tips));
+  try {
+    const res = await fetch('https://formspree.io/f/' + FORMSPREE_TIPSA_ID, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(tip)
+    });
+    if (!res.ok) throw new Error('Server error');
 
-  document.getElementById('tipsaModal').classList.remove('open');
-  // Reset form
-  document.querySelectorAll('#tipsaModal input, #tipsaModal textarea').forEach(el => el.value = '');
+    document.getElementById('tipsaModal').classList.remove('open');
+    document.querySelectorAll('#tipsaModal input, #tipsaModal textarea').forEach(el => el.value = '');
+    clearTipsaErrors();
 
-  // Show success
-  const msg = document.getElementById('successMsg');
-  msg.classList.add('show');
-  setTimeout(() => msg.classList.remove('show'), 3000);
+    const msg = document.getElementById('successMsg');
+    msg.textContent = 'Tack for ditt tips! Vi granskar det snart.';
+    msg.classList.add('show');
+    setTimeout(() => { msg.classList.remove('show'); msg.textContent = 'Tack for ditt tips!'; }, 4000);
+  } catch (err) {
+    alert('Kunde inte skicka tipset. Forsok igen senare eller mejla direkt till slava.druk@gmail.com');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Skicka tips';
+  }
 });
 
-// Reminder email
-document.getElementById('reminderBtn').addEventListener('click', () => {
+// Send favorites via email
+document.getElementById('reminderBtn').addEventListener('click', async () => {
   const email = document.getElementById('reminderEmail').value.trim();
-  if (!email || !email.includes('@')) { alert('Skriv en giltig e-postadress.'); return; }
-  localStorage.setItem('mc_reminder_email', email);
-  document.getElementById('reminderEmail').value = '';
-  const msg = document.getElementById('successMsg');
-  msg.textContent = 'E-post sparad! Vi paminner dig.';
-  msg.classList.add('show');
-  setTimeout(() => { msg.classList.remove('show'); msg.textContent = 'Tack for ditt tips!'; }, 3000);
+  const errEl = document.getElementById('drawerError');
+  errEl.classList.remove('show');
+
+  if (!email || !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+    errEl.textContent = 'Ange en giltig e-postadress';
+    errEl.classList.add('show');
+    return;
+  }
+  if (favorites.length === 0) {
+    errEl.textContent = 'Du har inga sparade evenemang att skicka';
+    errEl.classList.add('show');
+    return;
+  }
+
+  const btn = document.getElementById('reminderBtn');
+  btn.disabled = true;
+  btn.textContent = 'Skickar...';
+
+  // Build a readable event list
+  const favEvents = EVENTS_DATA.events.filter(e => favorites.includes(e.id));
+  const eventList = favEvents.map(e => {
+    const d = new Date(e.date);
+    const dateStr = d.getDate() + ' ' + MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
+    return e.name + ' - ' + dateStr + ' - ' + (e.location || 'Se lank');
+  }).join('\n');
+
+  const payload = {
+    _replyto: email,
+    _subject: 'Dina sparade MC-evenemang fran MC Kalendern',
+    email: email,
+    message: 'Har ar dina sparade evenemang:\n\n' + eventList + '\n\nBesok druk.se for mer info!',
+    antal_evenemang: favEvents.length,
+    evenemang_ids: favorites.join(', ')
+  };
+
+  try {
+    const res = await fetch('https://formspree.io/f/' + FORMSPREE_FAVORITES_ID, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (!res.ok) throw new Error('Server error');
+
+    localStorage.setItem('mc_reminder_email', email);
+    const msg = document.getElementById('successMsg');
+    msg.textContent = 'Evenemangslistan skickad till ' + email + '!';
+    msg.classList.add('show');
+    setTimeout(() => { msg.classList.remove('show'); msg.textContent = 'Tack for ditt tips!'; }, 4000);
+  } catch (err) {
+    errEl.textContent = 'Kunde inte skicka. Forsok igen senare.';
+    errEl.classList.add('show');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Skicka';
+  }
 });
 // Load saved email
 const savedEmail = localStorage.getItem('mc_reminder_email');
