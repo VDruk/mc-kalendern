@@ -1078,8 +1078,18 @@ def load_existing_events(filename=OUTPUT_FILE):
         return []
 
 
+TYPE_NORMALIZE = {
+    "Traff": "Träff", "traff": "Träff",
+    "Korning": "Körning", "korning": "Körning",
+    "Massa": "Mässa", "massa": "Mässa",
+    "Tur": "Tur", "Racing": "Racing", "Show": "Show",
+    "Fest": "Fest", "Trackday": "Trackday",
+}
+
 def write_events_js(events, filename=OUTPUT_FILE):
     """Write merged events to events.js"""
+    for e in events:
+        e["type"] = TYPE_NORMALIZE.get(e.get("type", ""), e.get("type", "Träff"))
     now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     data = {"lastUpdated": now, "events": events}
     js = "const EVENTS_DATA = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"

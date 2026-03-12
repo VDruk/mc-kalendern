@@ -98,9 +98,12 @@
   /* Controls */
   .controls {
     max-width: 1000px; margin: 0 auto; padding: 14px 20px 0;
-    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px;
   }
-  .filters { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-rows {
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
   .filter-btn {
     padding: 5px 14px; border: 1px solid #e0e0e0; border-radius: 20px;
     background: #fff; font-size: 12px; color: #666; cursor: pointer;
@@ -108,6 +111,17 @@
   }
   .filter-btn:hover { border-color: #999; color: #333; }
   .filter-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+
+  .club-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .club-row-label { font-size: 11px; color: #999; font-family: inherit; }
+  .club-btn {
+    width: 36px; height: 36px; padding: 3px; border: 2px solid transparent;
+    border-radius: 50%; background: #fff; cursor: pointer;
+    transition: all 0.15s; display: flex; align-items: center; justify-content: center;
+  }
+  .club-btn:hover { border-color: #ccc; }
+  .club-btn.active { border-color: #1a1a1a; }
+  .club-btn img { width: 28px; height: 28px; object-fit: contain; }
 
   .time-toggle { display: flex; gap: 4px; }
   .time-btn {
@@ -332,14 +346,24 @@
 </div>
 
 <div class="controls">
-  <div class="filters" id="filters">
-    <button class="filter-btn active" data-filter="all">Alla</button>
-    <button class="filter-btn" data-filter="Mässa">Mässa</button>
-    <button class="filter-btn" data-filter="Träff">Träff</button>
-    <button class="filter-btn" data-filter="Show">Show</button>
-    <button class="filter-btn" data-filter="Körning">Körning</button>
-    <button class="filter-btn" data-filter="Tur">Tur</button>
-    <button class="filter-btn" data-filter="Racing">Racing</button>
+  <div class="filter-rows">
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">Alla</button>
+      <button class="filter-btn" data-filter="Mässa">Mässa</button>
+      <button class="filter-btn" data-filter="Träff">Träff</button>
+      <button class="filter-btn" data-filter="Show">Show</button>
+      <button class="filter-btn" data-filter="Körning">Körning</button>
+      <button class="filter-btn" data-filter="Tur">Tur</button>
+      <button class="filter-btn" data-filter="Racing">Racing</button>
+    </div>
+    <div class="club-row" id="clubFilters">
+      <span class="club-row-label">Klubbar:</span>
+      <button class="club-btn" data-club="BMW MC-klubben" title="BMW MC-klubben"><img src="clubs/bmw.png" alt="BMW MC-klubben"></button>
+      <button class="club-btn" data-club="GWCS" title="GWCS"><img src="clubs/gwcs.png" alt="GWCS"></button>
+      <button class="club-btn" data-club="H-DCS" title="H-DCS"><img src="clubs/hdcs.png" alt="H-DCS"></button>
+      <button class="club-btn" data-club="ÖAMCK" title="ÖAMCK"><img src="clubs/oamck.png" alt="ÖAMCK"></button>
+      <button class="club-btn" data-club="SMC" title="SMC"><img src="clubs/smc.png" alt="SMC"></button>
+    </div>
   </div>
   <div class="time-toggle" id="timeToggle">
     <button class="time-btn active" data-time="upcoming">Kommande</button>
@@ -437,7 +461,16 @@ const MONTHS_SV = ['Januari','Februari','Mars','April','Maj','Juni','Juli','Augu
 const MONTHS_SHORT = ['Jan','Feb','Mar','Apr','Maj','Jun','Jul','Aug','Sep','Okt','Nov','Dec'];
 
 let currentFilter = 'all';
+let currentClub = 'all';
 let showPast = false;
+
+const CLUB_MATCHERS = {
+  'BMW MC-klubben': org => org === 'BMW MC-klubben',
+  'GWCS': org => org.includes('GWCS') || org.includes('GoldWing Club Sweden'),
+  'H-DCS': org => org === 'H-DCS' || org === 'Harley-Davidson Club Sweden',
+  'ÖAMCK': org => org === 'ÖAMCK',
+  'SMC': org => org.includes('SMC')
+};
 let favorites = JSON.parse(localStorage.getItem('mc_favorites')) || [];
 
 function getTypeClass(type) {
@@ -496,6 +529,7 @@ function render() {
   let events = EVENTS_DATA.events.sort((a, b) => new Date(a.date) - new Date(b.date));
 
   if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
+  if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
   if (!showPast) events = events.filter(e => e.dateEnd ? e.dateEnd >= today : e.date >= today);
 
   let currentMonth = '';
@@ -542,12 +576,23 @@ function render() {
   updateFavUI();
 }
 
-// Filter buttons
+// Filter buttons (type row)
 document.getElementById('filters').addEventListener('click', e => {
   if (!e.target.classList.contains('filter-btn')) return;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  e.target.classList.add('active');
-  currentFilter = e.target.dataset.filter;
+  const filter = e.target.dataset.filter;
+  if (filter === 'all') {
+    // Alla resets both type and club
+    currentFilter = 'all';
+    currentClub = 'all';
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+  } else {
+    // Type filter selected
+    currentFilter = filter;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+  }
   render();
 });
 
@@ -557,6 +602,30 @@ document.getElementById('timeToggle').addEventListener('click', e => {
   document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('active'));
   e.target.classList.add('active');
   showPast = e.target.dataset.time === 'all';
+  render();
+});
+
+// Club filter buttons
+document.getElementById('clubFilters').addEventListener('click', e => {
+  const btn = e.target.closest('.club-btn');
+  if (!btn) return;
+  const club = btn.dataset.club;
+  // Toggle: click same club again to deselect
+  if (btn.classList.contains('active')) {
+    btn.classList.remove('active');
+    currentClub = 'all';
+  } else {
+    document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentClub = club;
+  }
+  // Update Alla button state
+  const allaBtn = document.querySelector('.filter-btn[data-filter="all"]');
+  if (currentFilter === 'all' && currentClub === 'all') {
+    allaBtn.classList.add('active');
+  } else {
+    allaBtn.classList.remove('active');
+  }
   render();
 });
 
