@@ -1086,10 +1086,15 @@ TYPE_NORMALIZE = {
     "Fest": "Fest", "Trackday": "Trackday",
 }
 
+ORG_NORMALIZE = {
+    "Harley-Davidson Club Sweden": "H-DCS",
+}
+
 def write_events_js(events, filename=OUTPUT_FILE):
     """Write merged events to events.js"""
     for e in events:
         e["type"] = TYPE_NORMALIZE.get(e.get("type", ""), e.get("type", "Träff"))
+        e["organizer"] = ORG_NORMALIZE.get(e.get("organizer", ""), e.get("organizer", ""))
     now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     data = {"lastUpdated": now, "events": events}
     js = "const EVENTS_DATA = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"
