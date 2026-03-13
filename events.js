@@ -6075,6 +6075,19 @@ const EVENTS_DATA = {
       "source": "oamck.se"
     },
     {
+      "id": "bsa-summer-camp-oland-2026",
+      "name": "BSA Summer Camp Öland",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-15",
+      "location": "Haga Park Camping, Mörbylånga, Öland",
+      "type": "Träff",
+      "organizer": "Svenska BSA Klubben",
+      "description": "Internationell BSA-träff på Öland. En vecka med utflykter, line-up, Lucas Night Run och BBQ. Registrering senast 15 april.",
+      "link": "https://www.bsaoc.org/swe/SummerCamp26/",
+      "region": "Kalmar",
+      "source": "bsaoc.org"
+    },
+    {
       "id": "viking-tour-2026",
       "name": "Viking Tour 2026",
       "date": "2026-08-09",
