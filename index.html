@@ -593,6 +593,26 @@ const AD_PLACEMENTS = [
     alt: 'GWCS 41st International Treffen - 6-9 August 2026, Orsa Grönklitt',
     types: ['Träff'],
     clubs: ['GWCS']
+  },
+  {
+    id: 'bsa-sulas-2026-04',
+    image: 'ads/bsa-sulas-2026-04-18.jpg',
+    bgColor: '#90856b',
+    link: 'https://sulas.se/vara-fordon/motorcyklar/bsa-motorcycles/#/',
+    afterDate: '2026-04-17',
+    alt: 'BSA Motorcycles - Nu hos Sulas MC, Uppsala',
+    types: ['Mässa', 'Show'],
+    clubs: []
+  },
+  {
+    id: 'bsa-scrambler-2026-08',
+    image: 'ads/bsa-scrambler-2026-08-06.jpg',
+    bgColor: '#0f0f0f',
+    link: 'https://sulas.se/vara-fordon/motorcyklar/bsa-motorcycles/#/',
+    afterDate: '2026-08-07',
+    alt: 'BSA Scrambler 650 - Se hela sortimentet hos Sulas MC',
+    types: ['Träff', 'Show'],
+    clubs: []
   }
 ];
 
@@ -611,7 +631,7 @@ function render() {
   const adsByDate = {};
   AD_PLACEMENTS.forEach(ad => {
     const matchesType = currentFilter === 'all' || (ad.types && ad.types.includes(currentFilter));
-    const matchesClub = currentClub === 'all' || (ad.clubs && ad.clubs.includes(currentClub));
+    const matchesClub = currentClub === 'all' || !ad.clubs || ad.clubs.length === 0 || ad.clubs.includes(currentClub);
     if (matchesType && matchesClub) {
       if (!adsByDate[ad.afterDate]) adsByDate[ad.afterDate] = [];
       adsByDate[ad.afterDate].push(ad);
