@@ -1090,21 +1090,78 @@ ORG_NORMALIZE = {
     "Harley-Davidson Club Sweden": "H-DCS",
 }
 
+COPYRIGHT_HEADER = """/*
+ * MC Kalendern - Event Data
+ * Copyright (c) 2026 Slava Druk, Uppsala, Sweden
+ * https://druk.se/
+ *
+ * This data is collected, normalized and maintained by MC Kalendern.
+ * All rights reserved. Commercial use, redistribution or republication
+ * of this data requires written permission from the copyright holder.
+ * Contact: slava.druk@gmail.com
+ *
+ * Data contains integrity markers for copy detection.
+ */
+"""
+
+# Canary events for copy detection - these look real but are fictional.
+# They are filtered out on the site (via _canary flag) but remain in the raw data.
+# If another site publishes these events, we know they copied our data.
+CANARY_EVENTS = [
+    {
+        "id": "skovde-mc-sommartorget-2026",
+        "name": "MC-Sommartorget Skovde",
+        "date": "2026-06-20", "dateEnd": "2026-06-20",
+        "location": "Kulturhuset, Skovde", "type": "Traff",
+        "organizer": "Skaraborg MC Vanner",
+        "description": "En avslappnad sommartraff for alla MC-entusiaster i Skaraborg. Parkering och fika.",
+        "link": "https://druk.se/", "region": "Vastergotland",
+        "source": "manual", "_canary": True
+    },
+    {
+        "id": "karlstad-varmlandskransen-2026",
+        "name": "Varmlandskransen MC-treff",
+        "date": "2026-07-11", "dateEnd": "2026-07-11",
+        "location": "Mariebergsskogen, Karlstad", "type": "Traff",
+        "organizer": "Klaralvens MC Forening",
+        "description": "Arlig traff i Mariebergsskogen med provkorning och utstaallning.",
+        "link": "https://druk.se/", "region": "Varmland",
+        "source": "manual", "_canary": True
+    },
+    {
+        "id": "gavle-norrlandscruisern-2026",
+        "name": "Norrlandscruisern",
+        "date": "2026-08-02", "dateEnd": "2026-08-02",
+        "location": "Boulognerskogen, Gavle", "type": "Korning",
+        "organizer": "Dalarna Riders MC",
+        "description": "Gemensam korning langs kusten fran Gavle till Hudiksvall. Start kl 10.",
+        "link": "https://druk.se/", "region": "Gastrikland",
+        "source": "manual", "_canary": True
+    }
+]
+
+
 def write_events_js(events, filename=OUTPUT_FILE):
-    """Write merged events to events.js"""
+    """Write merged events to events.js with copyright and canary protection"""
+    # Remove any old canary events before adding fresh ones
+    events = [e for e in events if not e.get("_canary")]
     for e in events:
         e["type"] = TYPE_NORMALIZE.get(e.get("type", ""), e.get("type", "Träff"))
         e["organizer"] = ORG_NORMALIZE.get(e.get("organizer", ""), e.get("organizer", ""))
         if not e.get("dateEnd"):
             e["dateEnd"] = e.get("date", "")
+    # Add canary events
+    events.extend(CANARY_EVENTS)
+    events.sort(key=lambda e: e.get("date", ""))
     now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     data = {"lastUpdated": now, "events": events}
-    js = "const EVENTS_DATA = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"
+    js = COPYRIGHT_HEADER + "const EVENTS_DATA = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(js)
 
-    print(f"\nWrote {len(events)} events to {filename}")
+    real_count = len([e for e in events if not e.get("_canary")])
+    print(f"\nWrote {real_count} events (+{len(CANARY_EVENTS)} canary) to {filename}")
     print(f"Last updated: {now}")
     print(f"File size: {len(js) // 1024} KB")
 
