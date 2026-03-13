@@ -163,6 +163,17 @@
   .card:hover { border-color: #ccc; box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
   .card.past { opacity: 0.45; }
   .card.favorited { border-color: #e85d04; border-width: 2px; }
+  .card.ad-card {
+    padding: 0; overflow: hidden;
+    cursor: pointer; border: none;
+    position: relative; min-height: 0;
+  }
+  .card.ad-card img {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%; max-width: 100%;
+    object-fit: contain;
+  }
 
   .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
   .card-dates { display: flex; align-items: center; gap: 4px; }
@@ -553,6 +564,18 @@ function updateFavUI() {
   }).join('');
 }
 
+// Ad placements: image-only cards inserted between events by date
+const AD_PLACEMENTS = [
+  {
+    id: 'hd-nights-2026-03',
+    image: 'ads/hd-nights-2026-03-20.jpg',
+    bgColor: '#0a0a0a',
+    link: 'https://www.harley-davidson.com/',
+    afterDate: '2026-03-19',
+    alt: 'Harley-Davidson Nights - 20th March 2026'
+  }
+];
+
 function render() {
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
@@ -564,7 +587,15 @@ function render() {
   if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
   if (!showPast) events = events.filter(e => e.dateEnd ? e.dateEnd >= today : e.date >= today);
 
+  // Build a map of ads to insert after specific dates
+  const adsByDate = {};
+  AD_PLACEMENTS.forEach(ad => {
+    if (!adsByDate[ad.afterDate]) adsByDate[ad.afterDate] = [];
+    adsByDate[ad.afterDate].push(ad);
+  });
+
   let currentMonth = '';
+  let lastEventDate = '';
 
   events.forEach(event => {
     const d = new Date(event.date + 'T00:00:00');
@@ -611,6 +642,24 @@ function render() {
         <a class="card-link" href="${event.link}" target="_blank" rel="noopener">Mer info &rarr;</a>
       </div>
     `;
+
+    // Check if any ads should appear before this event
+    if (event.date !== lastEventDate && lastEventDate) {
+      Object.keys(adsByDate).forEach(adDate => {
+        if (adDate >= lastEventDate && adDate < event.date) {
+          adsByDate[adDate].forEach(ad => {
+            const adCard = document.createElement('div');
+            adCard.className = 'card ad-card';
+            adCard.style.backgroundColor = ad.bgColor;
+            adCard.style.cursor = 'pointer';
+            adCard.onclick = () => window.open(ad.link, '_blank');
+            adCard.innerHTML = `<img src="${ad.image}" alt="${ad.alt}" loading="lazy">`;
+            grid.appendChild(adCard);
+          });
+        }
+      });
+    }
+    lastEventDate = event.date;
 
     grid.appendChild(card);
   });

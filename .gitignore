@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+research/
+design/
+MC-picture/
+Reklam/
+*.docx
+*.rtf
+FB groups and events/
+START HERE.md
+*.bak-*
