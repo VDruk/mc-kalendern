@@ -572,7 +572,9 @@ const AD_PLACEMENTS = [
     bgColor: '#0a0a0a',
     link: 'https://www.harley-davidson.com/',
     afterDate: '2026-03-19',
-    alt: 'Harley-Davidson Nights - 20th March 2026'
+    alt: 'Harley-Davidson Nights - 20th March 2026',
+    types: ['Träff', 'Show'],
+    clubs: ['H-DCS']
   },
   {
     id: 'claessons-mcfest-2026-03',
@@ -580,7 +582,9 @@ const AD_PLACEMENTS = [
     bgColor: '#413e42',
     link: 'https://claessonsmotor.se/',
     afterDate: '2026-03-27',
-    alt: 'Claessons MC-Fest 50 år - 28-29 Mars 2026, Bromölla'
+    alt: 'Claessons MC-Fest 50 år - 28-29 Mars 2026, Bromölla',
+    types: ['Mässa', 'Träff'],
+    clubs: ['BMW MC-klubben']
   }
 ];
 
@@ -595,11 +599,15 @@ function render() {
   if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
   if (!showPast) events = events.filter(e => e.dateEnd ? e.dateEnd >= today : e.date >= today);
 
-  // Build a map of ads to insert after specific dates
+  // Build a map of ads to insert after specific dates, filtered by current view
   const adsByDate = {};
   AD_PLACEMENTS.forEach(ad => {
-    if (!adsByDate[ad.afterDate]) adsByDate[ad.afterDate] = [];
-    adsByDate[ad.afterDate].push(ad);
+    const matchesType = currentFilter === 'all' || (ad.types && ad.types.includes(currentFilter));
+    const matchesClub = currentClub === 'all' || (ad.clubs && ad.clubs.includes(currentClub));
+    if (matchesType && matchesClub) {
+      if (!adsByDate[ad.afterDate]) adsByDate[ad.afterDate] = [];
+      adsByDate[ad.afterDate].push(ad);
+    }
   });
 
   let currentMonth = '';
