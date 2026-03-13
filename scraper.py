@@ -1147,7 +1147,295 @@ def load_manual_events():
             "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
             "region": "Sverige", "source": "svemo.se"
         },
+        # SMC Boken events 2026 (from smcboken.svmc.se)
+        {
+            "id": "smc-kvallstraff-borlange-2026", "name": "Kvällsträff med begagnatförsäljning",
+            "date": "2026-05-07", "dateEnd": "2026-05-07",
+            "location": "MCK Tourings klubbstuga, Islingby, Borlänge", "type": "Träff",
+            "organizer": "SMC Dalarna",
+            "description": "Kvällsträff med SMC Dalarna. Tipspromenad, hamburgare och begagnad MC-utrustning till försäljning.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Dalarna", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "smc-grillkvall-aboda-klint-2026", "name": "Grillkväll på Aboda Klint",
+            "date": "2026-05-13", "dateEnd": "2026-05-13",
+            "location": "Aboda Klint", "type": "Träff",
+            "organizer": "SMC Kalmar",
+            "description": "Grillkväll med tipspromenad vid Aboda Klint.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Kalmar", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "hoktraffenmed-rally-ronneby-2026", "name": "Hoktraffenmed Rally",
+            "date": "2026-05-16", "dateEnd": "2026-05-17",
+            "location": "Hokarnas klubbstuga, Ronneby", "type": "Träff",
+            "organizer": "Hokarna RMCK",
+            "description": "MC-träff med rally på lordagen. Fredagskväll med barhäng.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Blekinge", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "grillkvall-longsjon-ankarsrum-2026", "name": "Grillkväll Långsjön",
+            "date": "2026-05-20", "dateEnd": "2026-05-20",
+            "location": "Rastplats väg 40, Långsjön, Ankarsrum", "type": "Träff",
+            "organizer": "Törnros MC",
+            "description": "Grillkväll vid Långsjön. Hamburgare och dricka.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Kalmar", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "sidvagnsstraff-med-arsmoete-2026", "name": "Sidvagnsträff med årsmöte",
+            "date": "2026-05-29", "dateEnd": "2026-05-31",
+            "location": "Loiterer MC klubbstuga, Falkenberg", "type": "Träff",
+            "organizer": "Svenska Sidvagnsklubben SVEA",
+            "description": "Sidvagnsträff med årsmöte i Svenska Sidvagnsklubben. Helgträff med aktiviteter.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Halland", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "hermans-sjosalg-2026", "name": "Hermans Sjöslag 2026",
+            "date": "2026-05-29", "dateEnd": "2026-05-31",
+            "location": "Sundet vid Sjön Vidöstern", "type": "Träff",
+            "organizer": "SMC",
+            "description": "Hermans Sjöslag, en klassisk MC-träff vid sjön Vidöstern.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Småland", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "siljansstraffene-mora-2026", "name": "Siljansträffen",
+            "date": "2026-06-05", "dateEnd": "2026-06-07",
+            "location": "Red Wings Mora MC klubbstuga, Lomsmyren, Mora", "type": "Träff",
+            "organizer": "Red Wings Mora MC",
+            "description": "Klassisk MC-träff i gammal stil. Litet och gemytligt, lättillgängligt vid sjön Siljan.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Dalarna", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "mustaschkortegen-broby-2026", "name": "Mustaschkortegen",
+            "date": "2026-06-06", "dateEnd": "2026-06-06",
+            "location": "Thygesson Bussar, Broby", "type": "Träff",
+            "organizer": "Lille Mats MCK",
+            "description": "MC-kortege till förmån för prostacancerföreningen. Pris 150 kr per hjälm. Alla medel går till Pro Vitae.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Skåne", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "htc-och-smc-kvallsstraff-nassjo-2026", "name": "HTC och SMC kvällsträff Nässjö",
+            "date": "2026-06-10", "dateEnd": "2026-06-10",
+            "location": "Gisshults badplats, Nässjö", "type": "Träff",
+            "organizer": "Höglandets Touring Club",
+            "description": "Kvällsträff med HTC och SMC Jönköpings län vid Gisshults badplats.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Jönköping", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "sagverksfesten-xii-tavelssjo-2026", "name": "Sågverksfesten XII",
+            "date": "2026-06-12", "dateEnd": "2026-06-14",
+            "location": "Tavelsjö", "type": "Träff",
+            "organizer": "SMC",
+            "description": "Sågverksfesten, den 12:e upplagan. Träff i Tavelsjö.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Västerbotten", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "midnattssolsstraffenen-2026", "name": "Midnattssolsträffen",
+            "date": "2026-06-25", "dateEnd": "2026-06-28",
+            "location": "MMCK klubbområde", "type": "Träff",
+            "organizer": "MMCK Malmfältens MCK",
+            "description": "50:e Midnattssolsträffen med extra program. En av Sveriges nordligaste MC-träffar.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Norrbotten", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "kvallsstraff-smtt-steno-2026", "name": "Kvällsträff SMTT Stenö",
+            "date": "2026-07-01", "dateEnd": "2026-07-01",
+            "location": "Larsbo, Stenö, Sandarne", "type": "Träff",
+            "organizer": "SMTT Söderhamns MC Touring Team",
+            "description": "Kvällsträff med SMTT vid Stenö.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Gävleborg", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "45an-hoting-2026", "name": "45:an",
+            "date": "2026-07-03", "dateEnd": "2026-07-05",
+            "location": "Bredviksnäset, Höting", "type": "Träff",
+            "organizer": "DMCK Fridas",
+            "description": "45:an, en träff med underbara människor och otrolig atmosfär. Levande musik, matservering.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Jämtland", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "mini-jumbo-i-klippan-2026", "name": "Mini Jumbo i Klippan",
+            "date": "2026-07-04", "dateEnd": "2026-07-04",
+            "location": "Sågen Möjligheternas hus, Klippan", "type": "Träff",
+            "organizer": "Svenska Sidvagnsklubben SVEA",
+            "description": "Miniträff där funktionsnedsatta personer får åka i sidvagnar. Tält och husbilsparkering.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Skåne", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "gotlands-mc-klubbs-campingtraff-2026", "name": "Gotlands MC klubbs campingträff",
+            "date": "2026-07-17", "dateEnd": "2026-07-19",
+            "location": "GMCK Klubbstuga, Västerhejde, Gotland", "type": "Träff",
+            "organizer": "Gotlands MC klubb",
+            "description": "Campingträff vid GMCK klubbstuga, 8 km söder om Visby.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Gotland", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "knallletraffenen-boras-2026", "name": "Knalleträffen",
+            "date": "2026-07-24", "dateEnd": "2026-07-26",
+            "location": "Eagle Riders MC, Borås", "type": "Träff",
+            "organizer": "Eagle Riders MC Borås",
+            "description": "50:e Knalleträffen med bra mat, musik och gemytlig stämning.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Västra Götaland", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "torsstraffenen-karlstad-2026", "name": "Torsträffen",
+            "date": "2026-08-14", "dateEnd": "2026-08-16",
+            "location": "Dye gård, Karlstad", "type": "Träff",
+            "organizer": "Tors MC",
+            "description": "Livemusik fredag och lördag kväll. Generösa campingplatser vid klubbstugan.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Värmland", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "grillkvall-longsjon-augusti-2026", "name": "Grillkväll Långsjön augusti",
+            "date": "2026-08-19", "dateEnd": "2026-08-19",
+            "location": "Rastplats väg 40, Långsjön, Ankarsrum", "type": "Träff",
+            "organizer": "Törnros MC",
+            "description": "Andra grillkvällen vid Långsjön denna säsong.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Kalmar", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "hosttraffenen-kristinehamn-2026", "name": "Höstträffen Kristinehamn",
+            "date": "2026-09-18", "dateEnd": "2026-09-20",
+            "location": "Gustavsvik, Kristinehamn", "type": "Träff",
+            "organizer": "Christinehamns MC klubb",
+            "description": "Höstträff med Christinehamns MC klubb vid Gustavsvik.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Värmland", "source": "smcboken.svmc.se"
+        },
+        {
+            "id": "pannkaksfsesten-boras-2026", "name": "Pannkaksfesten",
+            "date": "2026-10-31", "dateEnd": "2026-11-01",
+            "location": "Eagle Riders MC, Borås", "type": "Träff",
+            "organizer": "Eagle Riders MC Borås",
+            "description": "Pannkaksfesten hos Eagle Riders MC Borås.",
+            "link": "https://smcboken.svmc.se/traffar/mctraffar",
+            "region": "Västra Götaland", "source": "smcboken.svmc.se"
+        },
     ]
+
+
+def scrape_smcboken():
+    """
+    Scrape SMC Boken (smcboken.svmc.se) - calendar of SMC club meetups.
+    Fetches the page and parses div.entry elements containing event details.
+    Each entry has h4 (name) and table rows with keys: När/Var/Vad/Vem/Hemsida.
+    """
+    print("Scraping SMC Boken (smcboken.svmc.se)...")
+    url = "https://smcboken.svmc.se/traffar/mctraffar"
+    r = safe_get(url)
+    if not r:
+        return []
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    events = []
+
+    # Find all event entry divs
+    for entry in soup.find_all("div", class_="entry"):
+        # Get event name from h4
+        title_elem = entry.find("h4")
+        if not title_elem:
+            continue
+        title = clean_html(title_elem.get_text())
+        if not title:
+            continue
+
+        # Parse table rows for event details
+        date_str = ""
+        date_end_str = ""
+        location = ""
+        organizer = ""
+        description = ""
+        link = ""
+
+        # Look for table in entry
+        table = entry.find("table")
+        if table:
+            rows = table.find_all("tr")
+            for row in rows:
+                cells = row.find_all("td")
+                if len(cells) >= 2:
+                    key = clean_html(cells[0].get_text()).lower().strip(":")
+                    value = clean_html(cells[1].get_text())
+
+                    if key == "när" or key == "när":
+                        # Parse date format: "2026-05-07 17:30" or "2026-05-07 17:30 -> 2026-05-07 19:00"
+                        # or "2026-05-14 12:00 -> 2026-05-17 12:00"
+                        if "->" in value or "⇾" in value or ">" in value:
+                            # Range format
+                            parts = re.split(r'(\s*-+>?|\s*⇾\s*)', value)
+                            if len(parts) >= 2:
+                                start_part = parts[0].strip()
+                                end_part = parts[-1].strip()
+                                date_str = start_part[:10] if start_part else ""
+                                date_end_str = end_part[:10] if end_part else date_str
+                        else:
+                            # Single date
+                            date_str = value[:10] if len(value) >= 10 else ""
+                            date_end_str = date_str
+                    elif key == "var":
+                        location = value
+                    elif key == "vad":
+                        description = value
+                    elif key == "vem":
+                        organizer = value
+                    elif key == "hemsida" or key == "länk":
+                        link = value.strip()
+
+        # Skip if no date
+        if not date_str or not re.match(r'\d{4}-\d{2}-\d{2}', date_str):
+            continue
+
+        # Default dates if missing
+        if not date_end_str or not re.match(r'\d{4}-\d{2}-\d{2}', date_end_str):
+            date_end_str = date_str
+
+        # Default link if not found
+        if not link:
+            link = url
+
+        # Guess region from location
+        region = guess_region(location)
+
+        # Create event ID
+        event_id = make_id(title, date_str, "smc")
+
+        events.append({
+            "id": event_id,
+            "name": title,
+            "date": date_str,
+            "dateEnd": date_end_str,
+            "location": location or "Se länk",
+            "type": "Träff",
+            "organizer": organizer or "SMC",
+            "description": description[:250] if description else title,
+            "link": link,
+            "region": region,
+            "source": "smcboken.svmc.se"
+        })
+
+    if events:
+        print(f"  Found {len(events)} events from SMC Boken")
+    else:
+        print("  No events found from SMC Boken")
+
+    return events
 
 
 # ---- Deduplication ----
@@ -1173,7 +1461,7 @@ def deduplicate(all_events):
         "vics.se": 1, "gwcs.se": 1, "gwef.eu": 1, "oamck.se": 1,
         "mchk.org": 1,
         # Federation sites
-        "svmc.se": 2, "sulas.se": 2, "alltommc.se": 2,
+        "svmc.se": 2, "sulas.se": 2, "alltommc.se": 2, "smcboken.svmc.se": 2,
         # Aggregators (lowest priority)
         "mcparken.se": 3, "bike.se": 3,
     }
@@ -1355,16 +1643,22 @@ def main():
     except Exception as e:
         print(f"  ERROR scraping MCHK: {e}")
 
-    # 9. Deduplicate and sort
+    # 9. Scrape SMC Boken
+    try:
+        all_events.extend(scrape_smcboken())
+    except Exception as e:
+        print(f"  ERROR scraping SMC Boken: {e}")
+
+    # 10. Deduplicate and sort
     unique_events = deduplicate(all_events)
 
-    # 10. Enrich locations (fix "Se länk" using name/district patterns)
+    # 11. Enrich locations (fix "Se länk" using name/district patterns)
     unique_events = enrich_all_locations(unique_events)
 
-    # 11. Write output
+    # 12. Write output
     write_events_js(unique_events)
 
-    # 12. Stats
+    # 13. Stats
     sources = {}
     types = {}
     regions = {}
