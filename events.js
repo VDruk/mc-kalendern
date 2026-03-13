@@ -417,6 +417,19 @@ const EVENTS_DATA = {
       "source": "hdcs.se"
     },
     {
+      "id": "smc-stockholm-arsmote-2026",
+      "name": "SMC Stockholms Årsmöte 2026",
+      "date": "2026-03-21",
+      "dateEnd": "2026-03-21",
+      "location": "Stockholm",
+      "type": "Träff",
+      "organizer": "SMC Stockholm",
+      "description": "Årsmöte för SMC Stockholm.",
+      "link": "https://www.svmc.se/stockholm/nyheter/aarsmoete-2026/",
+      "region": "Stockholm",
+      "source": "svmc.se"
+    },
+    {
       "id": "doa-tisdagslunch-2026",
       "name": "DOA - Tisdagslunch",
       "date": "2026-03-24",
@@ -2839,13 +2852,13 @@ const EVENTS_DATA = {
       "name": "Öppet Hus Rapido MCK och SMC Stockholm",
       "date": "2026-05-23",
       "dateEnd": "2026-05-23",
-      "location": "Stockholm",
+      "location": "Skansbacken 4, Gullmarsplan, Stockholm",
       "type": "Träff",
       "organizer": "Rapido MCK / SMC Stockholm",
-      "description": "Hälsa på Stans mesta hojklubb, träffa likasinnade, titta på hojar och provkörning.",
-      "link": "https://mcparken.se/calendar/168",
+      "description": "Lör 11-15. Provkör nya hojar, köp och sälj MC-prylar, mat på plats. SMC Stockholm svarar på frågor om medlemskap.",
+      "link": "https://www.svmc.se/stockholm",
       "region": "Stockholm",
-      "source": "mcparken.se"
+      "source": "svmc.se"
     },
     {
       "id": "strangnas-bikeshow-2026",
