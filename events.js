@@ -1,3 +1,15 @@
+/*
+ * MC Kalendern - Event Data
+ * Copyright (c) 2026 Slava Druk, Uppsala, Sweden
+ * https://druk.se/
+ *
+ * This data is collected, normalized and maintained by MC Kalendern.
+ * All rights reserved. Commercial use, redistribution or republication
+ * of this data requires written permission from the copyright holder.
+ * Contact: slava.druk@gmail.com
+ *
+ * Data contains integrity markers for copy detection.
+ */
 const EVENTS_DATA = {
   "lastUpdated": "2026-03-11T17:30:15Z",
   "events": [
@@ -197,6 +209,19 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "oamck-alands-x-2026",
+      "name": "Alands-X med Eckerolinjen",
+      "date": "2026-03-14",
+      "dateEnd": "2026-03-14",
+      "location": "Grisslehamn",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Dagkryssning med Eckerolinjen till Aland. Avgang fran Grisslehamn.",
+      "link": "https://oamck.se/events/alands-x-med-eckerolinjen-2/",
+      "region": "Uppsala",
+      "source": "oamck.se"
+    },
+    {
       "id": "bmw-d15-sondagsvandring-stockamollan-2026",
       "name": "D15 Söndagsvandring Stockamöllan",
       "date": "2026-03-15",
@@ -208,6 +233,19 @@ const EVENTS_DATA = {
       "link": "https://www.bmwklubben.se/aktiviteter/d15-sondagsvandring/",
       "region": "Skåne",
       "source": "bmwklubben.se"
+    },
+    {
+      "id": "gwcs-fikatraff-sormland-mar-2026",
+      "name": "Sormlandswingarnas fikatraff",
+      "date": "2026-03-15",
+      "dateEnd": "2026-03-15",
+      "location": "Sigridslunds Cafe, Ardala",
+      "type": "Träff",
+      "organizer": "Sormlandswingarna / GWCS",
+      "description": "Fikatraff for GoldWing-agare pa Sigridslunds Cafe.",
+      "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-2/?occurrence=2026-03-15",
+      "region": "Sodermanland",
+      "source": "gwcs.se"
     },
     {
       "id": "doa-tisdagslunch-2026",
@@ -847,6 +885,19 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "gwcs-medlemsmote-apr-2026",
+      "name": "Sormlandswingarnas Medlemsmote",
+      "date": "2026-04-12",
+      "dateEnd": "2026-04-12",
+      "location": "Sigridslunds Cafe, Ardala",
+      "type": "Träff",
+      "organizer": "Sormlandswingarna / GWCS",
+      "description": "Medlemsmote for Sormlandswingarna.",
+      "link": "https://gwcs.se/events/sormlandswingarnas-medlemsmote-2/?occurrence=2026-04-12",
+      "region": "Sodermanland",
+      "source": "gwcs.se"
+    },
+    {
       "id": "doa-tisdagslunch-2026",
       "name": "DOA - Tisdagslunch",
       "date": "2026-04-14",
@@ -1302,6 +1353,19 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "oamck-dagtouring-apr-2026",
+      "name": "ÖAMCK Dagtouring",
+      "date": "2026-04-25",
+      "dateEnd": "2026-04-25",
+      "location": "Lelles MC, Uppsala",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
+      "link": "https://oamck.se/events/dagtouring/",
+      "region": "Uppsala",
+      "source": "oamck.se"
+    },
+    {
       "id": "bmw-d9-aprilgruset-2026",
       "name": "D9 Aprilgruset",
       "date": "2026-04-26",
@@ -1664,6 +1728,19 @@ const EVENTS_DATA = {
       "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-04/",
       "region": "Stockholm",
       "source": "hdcs.se"
+    },
+    {
+      "id": "oamck-knixpremiar-2026",
+      "name": "Knixpremiar",
+      "date": "2026-05-04",
+      "dateEnd": "2026-05-04",
+      "location": "Rorken, Uppsala",
+      "type": "Träff",
+      "organizer": "SMC Uppsala",
+      "description": "Arets knixpremiar arrangerad av SMC Uppsala.",
+      "link": "https://oamck.se/events/knixpremiar-2/",
+      "region": "Uppsala",
+      "source": "oamck.se"
     },
     {
       "id": "doa-tisdagslunch-2026",
@@ -2303,6 +2380,19 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "gwcs-minitraff-herrfallet-2026",
+      "name": "GWCS Minitraff Herrfallet",
+      "date": "2026-05-14",
+      "dateEnd": "2026-05-17",
+      "location": "Herrfallets Camping, Arboga",
+      "type": "Träff",
+      "organizer": "Sormlandswingarna / GWCS",
+      "description": "Minitraff for GoldWing-agare pa Herrfallets Camping.",
+      "link": "https://media.gwcs.se/2026/01/Herr-2.pdf",
+      "region": "Vastmanland",
+      "source": "gwcs.se"
+    },
+    {
       "id": "korning-h-d-butiken-i-linkoping-med-overnattning-2026",
       "name": "Körning H-D butiken i Linköping med övernattning",
       "date": "2026-05-15",
@@ -2418,6 +2508,19 @@ const EVENTS_DATA = {
       "link": "https://www.bmwklubben.se/aktiviteter/mcq-gor-en-vartur-till-omberg/",
       "region": "Västmanland",
       "source": "bmwklubben.se"
+    },
+    {
+      "id": "oamck-hemlig-resa-maj-2026",
+      "name": "Hemlig resa",
+      "date": "2026-05-16",
+      "dateEnd": "2026-05-17",
+      "location": "Hemligt",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Hemlig resa over en helg - destinationen avslöjas vid avfärd.",
+      "link": "https://oamck.se/events/hemlig-resa/",
+      "region": "Uppsala",
+      "source": "oamck.se"
     },
     {
       "id": "do-c-tjorn-orust-rundan-2026",
@@ -2680,6 +2783,19 @@ const EVENTS_DATA = {
       "source": "hdcs.se"
     },
     {
+      "id": "gwcs-minitraff-svenljunga-2026",
+      "name": "GWCS Minitraff Svenljunga Nydal",
+      "date": "2026-05-22",
+      "dateEnd": "2026-05-24",
+      "location": "Nydal, Svenljunga",
+      "type": "Träff",
+      "organizer": "Knallewingarna / GWCS",
+      "description": "Minitraff for GoldWing-agare i Svenljunga.",
+      "link": "https://media.gwcs.se/2025/10/Nydal.jpeg",
+      "region": "Vastra Gotaland",
+      "source": "gwcs.se"
+    },
+    {
       "id": "oppet-hus-rapido-smc-2026",
       "name": "Öppet Hus Rapido MCK och SMC Stockholm",
       "date": "2026-05-23",
@@ -2808,6 +2924,19 @@ const EVENTS_DATA = {
       "link": "https://www.bmwklubben.se/aktiviteter/d10-tur-i-osterled/",
       "region": "Västra Götaland",
       "source": "bmwklubben.se"
+    },
+    {
+      "id": "oamck-dagtouring-maj-2026",
+      "name": "ÖAMCK Dagtouring",
+      "date": "2026-05-23",
+      "dateEnd": "2026-05-23",
+      "location": "Lelles MC, Uppsala",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
+      "link": "https://oamck.se/events/dagtouring-2/",
+      "region": "Uppsala",
+      "source": "oamck.se"
     },
     {
       "id": "bmw-d11-mcq-pernillas-tur-2026",
@@ -3029,6 +3158,19 @@ const EVENTS_DATA = {
       "link": "https://hdcs.se/evenemang/doe-noplatraffen-i-kristianopel-29-31-maj/",
       "region": "Östergötland",
       "source": "hdcs.se"
+    },
+    {
+      "id": "gwcs-vikingtraffen-gallo-2026",
+      "name": "Vikingtraffen Gallo",
+      "date": "2026-05-29",
+      "dateEnd": "2026-05-31",
+      "location": "Gallo, Jamtland",
+      "type": "Träff",
+      "organizer": "Jan Karlstrand / GWCS",
+      "description": "Vikingtraffen for GoldWing-agare i Gallo.",
+      "link": "https://media.gwcs.se/2026/02/gallo26.jpeg",
+      "region": "Jamtland",
+      "source": "gwcs.se"
     },
     {
       "id": "vattern-runt-med-region-mitt-distrikt-a-d-f-j-2026",
@@ -3616,6 +3758,32 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "gwcs-nationaldagstur-2026",
+      "name": "GWCS Nationaldagstur Sigridslunds Cafe",
+      "date": "2026-06-06",
+      "dateEnd": "2026-06-06",
+      "location": "Sigridslunds Cafe, Ardala",
+      "type": "Tur",
+      "organizer": "Sormlandswingarna / GWCS",
+      "description": "Nationaldagstur till Sigridslunds Cafe.",
+      "link": "https://gwcs.se/events/nationaldagstur-till-sigridslunds-cafe/?occurrence=2026-06-06",
+      "region": "Sodermanland",
+      "source": "gwcs.se"
+    },
+    {
+      "id": "oamck-nationaldagsloppet-2026",
+      "name": "Nationaldagsloppet (ordonnanser)",
+      "date": "2026-06-06",
+      "dateEnd": "2026-06-06",
+      "location": "Stockholm",
+      "type": "Körning",
+      "organizer": "MC-ordonnans",
+      "description": "MC-ordonnanser vid Nationaldagsloppet i Stockholm.",
+      "link": "https://oamck.se/events/nationaldagsloppet-ordonnanser/",
+      "region": "Stockholm",
+      "source": "oamck.se"
+    },
+    {
       "id": "bmw-malaren-runt-fran-nykvarn-en-svensk-mc-klassiker-2026",
       "name": "Mälaren Runt från Nykvarn – En svensk mc klassiker",
       "date": "2026-06-07",
@@ -3640,6 +3808,19 @@ const EVENTS_DATA = {
       "link": "https://www.bmwklubben.se/aktiviteter/malaren-runt-fran-balsta-en-svensk-mc-klassiker/",
       "region": "Norrbotten",
       "source": "bmwklubben.se"
+    },
+    {
+      "id": "oamck-dagtouring-jun-2026",
+      "name": "ÖAMCK Dagtouring (sondag)",
+      "date": "2026-06-07",
+      "dateEnd": "2026-06-07",
+      "location": "Lelles MC, Uppsala",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Dagtouring pa en sondag med start fran Lelles MC.",
+      "link": "https://oamck.se/events/dagtouring-obs-sondag/",
+      "region": "Uppsala",
+      "source": "oamck.se"
     },
     {
       "id": "doa-kvallskorning-nacka-2026",
@@ -3874,6 +4055,19 @@ const EVENTS_DATA = {
       "link": "https://www.bmwklubben.se/aktiviteter/d10-hultsfred-2026-grus-och-asfalt/",
       "region": "Uppland",
       "source": "bmwklubben.se"
+    },
+    {
+      "id": "oamck-vatternrundan-2026",
+      "name": "Vatternrundan (Ordonnanser)",
+      "date": "2026-06-12",
+      "dateEnd": "2026-06-14",
+      "location": "Motala",
+      "type": "Körning",
+      "organizer": "MC-ordonnans",
+      "description": "MC-ordonnanser vid Vatternrundan cykellopp i Motala.",
+      "link": "https://oamck.se/events/vatternrundan-ordonnanser-2/",
+      "region": "Ostergotland",
+      "source": "oamck.se"
     },
     {
       "id": "kustturen-2026",
@@ -4240,6 +4434,20 @@ const EVENTS_DATA = {
       "source": "hdcs.se"
     },
     {
+      "id": "skovde-mc-sommartorget-2026",
+      "name": "MC-Sommartorget Skovde",
+      "date": "2026-06-20",
+      "dateEnd": "2026-06-20",
+      "location": "Kulturhuset, Skovde",
+      "type": "Traff",
+      "organizer": "Skaraborg MC Vanner",
+      "description": "En avslappnad sommartraff for alla MC-entusiaster i Skaraborg. Parkering och fika.",
+      "link": "https://druk.se/",
+      "region": "Vastergotland",
+      "source": "manual",
+      "_canary": true
+    },
+    {
       "id": "doa-kvallskorning-nacka-2026",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-06-22",
@@ -4394,6 +4602,19 @@ const EVENTS_DATA = {
       "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-06-25/",
       "region": "Västernorrland",
       "source": "hdcs.se"
+    },
+    {
+      "id": "gwcs-nationell-traff-degeberga-2026",
+      "name": "Nationell traff Degeberga GWCS",
+      "date": "2026-06-25",
+      "dateEnd": "2026-06-28",
+      "location": "Degeberga Stugby, Degeberga",
+      "type": "Träff",
+      "organizer": "Skanewingarna / GWCS",
+      "description": "GWCS Nationella traff och foreningsstamma i Degeberga, Skane. Traffavgift 450:- for medlemmar.",
+      "link": "https://media.gwcs.se/2026/01/Inbjudan-Nationella-2026-foreningsstamma1.pdf",
+      "region": "Skane",
+      "source": "gwcs.se"
     },
     {
       "id": "roadracing-sm-sviestad-2026",
@@ -4825,6 +5046,19 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "oamck-dagtouring-jul-2026",
+      "name": "ÖAMCK Dagtouring",
+      "date": "2026-07-04",
+      "dateEnd": "2026-07-04",
+      "location": "Lelles MC, Uppsala",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
+      "link": "https://oamck.se/events/dagtouring-3/",
+      "region": "Uppsala",
+      "source": "oamck.se"
+    },
+    {
       "id": "do-c-lars-eriks-glassrunda-2026",
       "name": "DO-C Lars-Eriks glassrunda",
       "date": "2026-07-05",
@@ -5018,6 +5252,33 @@ const EVENTS_DATA = {
       "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-07-11/",
       "region": "Dalarna",
       "source": "hdcs.se"
+    },
+    {
+      "id": "oamck-grillfest-2026",
+      "name": "ÖAMCK Grillfest",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-11",
+      "location": "Stangby, Uppsala",
+      "type": "Träff",
+      "organizer": "ÖAMCK",
+      "description": "Grillfest i ÖAMCK:s klubblokal i Stangby.",
+      "link": "https://oamck.se/events/grillfest-2/",
+      "region": "Uppsala",
+      "source": "oamck.se"
+    },
+    {
+      "id": "karlstad-varmlandskransen-2026",
+      "name": "Varmlandskransen MC-treff",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-11",
+      "location": "Mariebergsskogen, Karlstad",
+      "type": "Traff",
+      "organizer": "Klaralvens MC Forening",
+      "description": "Arlig traff i Mariebergsskogen med provkorning och utstaallning.",
+      "link": "https://druk.se/",
+      "region": "Varmland",
+      "source": "manual",
+      "_canary": true
     },
     {
       "id": "doa-tisdagslunch-2026",
@@ -5501,6 +5762,20 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "gavle-norrlandscruisern-2026",
+      "name": "Norrlandscruisern",
+      "date": "2026-08-02",
+      "dateEnd": "2026-08-02",
+      "location": "Boulognerskogen, Gavle",
+      "type": "Korning",
+      "organizer": "Dalarna Riders MC",
+      "description": "Gemensam korning langs kusten fran Gavle till Hudiksvall. Start kl 10.",
+      "link": "https://druk.se/",
+      "region": "Gastrikland",
+      "source": "manual",
+      "_canary": true
+    },
+    {
       "id": "doa-kvallskorning-nacka-2026",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-08-03",
@@ -5746,6 +6021,19 @@ const EVENTS_DATA = {
       "link": "https://www.bmwklubben.se/aktiviteter/d11-mcq-sandras-tur/",
       "region": "Småland",
       "source": "bmwklubben.se"
+    },
+    {
+      "id": "oamck-dagtouring-aug-2026",
+      "name": "ÖAMCK Dagtouring",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "location": "Lelles MC, Uppsala",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
+      "link": "https://oamck.se/events/dagtouring-4/",
+      "region": "Uppsala",
+      "source": "oamck.se"
     },
     {
       "id": "viking-tour-2026",
@@ -6554,6 +6842,19 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "oamck-kraftkalas-2026",
+      "name": "ÖAMCK Kraftkalas",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "location": "Stangby, Uppsala",
+      "type": "Träff",
+      "organizer": "ÖAMCK",
+      "description": "Kraftkalas i ÖAMCK:s klubblokal.",
+      "link": "https://oamck.se/events/kraftkalas-2/",
+      "region": "Uppsala",
+      "source": "oamck.se"
+    },
+    {
       "id": "doa-emilsturen-2026",
       "name": "DOA - Emilsturen",
       "date": "2026-08-30",
@@ -6866,6 +7167,19 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "oamck-dagtouring-sep-2026",
+      "name": "ÖAMCK Dagtouring",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "location": "Lelles MC, Uppsala",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
+      "link": "https://oamck.se/events/dagtouring-5/",
+      "region": "Uppsala",
+      "source": "oamck.se"
+    },
+    {
       "id": "doa-kvallskorning-nacka-2026",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-09-07",
@@ -7137,6 +7451,19 @@ const EVENTS_DATA = {
       "link": "https://www.bmwklubben.se/aktiviteter/scaniamuseet-och-tunga-rallyt/",
       "region": "Östergötland",
       "source": "bmwklubben.se"
+    },
+    {
+      "id": "oamck-hemlig-resa-sep-2026",
+      "name": "Hemlig resa",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-13",
+      "location": "Hemligt",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Hostens hemliga resa - destinationen avslöjas vid avfärd.",
+      "link": "https://oamck.se/events/hemlig-resa-3/",
+      "region": "Uppsala",
+      "source": "oamck.se"
     },
     {
       "id": "doa-kvallskorning-nacka-2026",
@@ -7659,6 +7986,19 @@ const EVENTS_DATA = {
       "source": "hdcs.se"
     },
     {
+      "id": "oamck-dagtouring-okt-2026",
+      "name": "ÖAMCK Dagtouring",
+      "date": "2026-10-03",
+      "dateEnd": "2026-10-03",
+      "location": "Lelles MC, Uppsala",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Sasongavslutande dagtouring fran Lelles MC.",
+      "link": "https://oamck.se/events/dagtouring-6/",
+      "region": "Uppsala",
+      "source": "oamck.se"
+    },
+    {
       "id": "doa-tisdagslunch-2026",
       "name": "DOA - Tisdagslunch",
       "date": "2026-10-06",
@@ -7696,6 +8036,19 @@ const EVENTS_DATA = {
       "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-10-11/",
       "region": "Stockholm",
       "source": "hdcs.se"
+    },
+    {
+      "id": "gwcs-medlemsmote-okt-2026",
+      "name": "Sormlandswingarnas Medlemsmote (host)",
+      "date": "2026-10-11",
+      "dateEnd": "2026-10-11",
+      "location": "Sigridslunds Cafe, Ardala",
+      "type": "Träff",
+      "organizer": "Sormlandswingarna / GWCS",
+      "description": "Hostens medlemsmote for Sormlandswingarna.",
+      "link": "https://gwcs.se/events/sormlandswingarnas-medlemsmote-3/?occurrence=2026-10-11",
+      "region": "Sodermanland",
+      "source": "gwcs.se"
     },
     {
       "id": "doa-tisdagslunch-2026",
@@ -7761,6 +8114,19 @@ const EVENTS_DATA = {
       "link": "https://hdcs.se/evenemang/medlemsmote/",
       "region": "Gotland",
       "source": "hdcs.se"
+    },
+    {
+      "id": "oamck-alandkryss-2026",
+      "name": "Alandkryss med Eckerolinjen (Viltbord)",
+      "date": "2026-10-24",
+      "dateEnd": "2026-10-24",
+      "location": "Grisslehamn",
+      "type": "Tur",
+      "organizer": "ÖAMCK",
+      "description": "Hostkryssning till Aland med Eckerolinjen, inklusive viltbord.",
+      "link": "https://oamck.se/events/alandkryss-med-eckerolinjen-viltbord/",
+      "region": "Uppsala",
+      "source": "oamck.se"
     },
     {
       "id": "doa-tisdagslunch-2026",
@@ -7893,6 +8259,19 @@ const EVENTS_DATA = {
       "source": "bmwklubben.se"
     },
     {
+      "id": "gwcs-fikatraff-sormland-nov-2026",
+      "name": "Sormlandswingarnas fikatraff (host)",
+      "date": "2026-11-15",
+      "dateEnd": "2026-11-15",
+      "location": "Sigridslunds Cafe, Ardala",
+      "type": "Träff",
+      "organizer": "Sormlandswingarna / GWCS",
+      "description": "Fikatraff for GoldWing-agare pa Sigridslunds Cafe.",
+      "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-3/?occurrence=2026-11-15",
+      "region": "Sodermanland",
+      "source": "gwcs.se"
+    },
+    {
       "id": "doa-tisdagslunch-2026",
       "name": "DOA - Tisdagslunch",
       "date": "2026-11-17",
@@ -7904,6 +8283,19 @@ const EVENTS_DATA = {
       "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-11-17/",
       "region": "Stockholm",
       "source": "hdcs.se"
+    },
+    {
+      "id": "oamck-flipperturnering-2026",
+      "name": "ÖAMCK Flipperturnering",
+      "date": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "location": "Stangby, Uppsala",
+      "type": "Träff",
+      "organizer": "ÖAMCK",
+      "description": "Flipperturnering i ÖAMCK:s klubblokal.",
+      "link": "https://oamck.se/events/flipperturnering-2/",
+      "region": "Uppsala",
+      "source": "oamck.se"
     },
     {
       "id": "doa-tisdagslunch-2026",
@@ -7982,6 +8374,19 @@ const EVENTS_DATA = {
       "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-01/",
       "region": "Stockholm",
       "source": "hdcs.se"
+    },
+    {
+      "id": "gwcs-jultallrik-2026",
+      "name": "Stor Jultallrik Sigridslunds Cafe",
+      "date": "2026-12-06",
+      "dateEnd": "2026-12-06",
+      "location": "Sigridslunds Cafe, Ardala",
+      "type": "Träff",
+      "organizer": "Sormlandswingarna / GWCS",
+      "description": "Julsamling med stor jultallrik for GoldWing-agare.",
+      "link": "https://gwcs.se/events/stor-jultallrik-pa-sigridslunds-cafe/?occurrence=2026-12-06",
+      "region": "Sodermanland",
+      "source": "gwcs.se"
     },
     {
       "id": "doa-tisdagslunch-2026",
@@ -8151,357 +8556,6 @@ const EVENTS_DATA = {
       "link": "https://www.bmwklubben.se/aktiviteter/region-vast-subventionerat-trafiksakerhetsarbete-2026-1/",
       "region": "Värmland",
       "source": "bmwklubben.se"
-    },
-    {
-      "id": "gwcs-minitraff-herrfallet-2026",
-      "name": "GWCS Minitraff Herrfallet",
-      "date": "2026-05-14",
-      "dateEnd": "2026-05-17",
-      "location": "Herrfallets Camping, Arboga",
-      "type": "Träff",
-      "organizer": "Sormlandswingarna / GWCS",
-      "description": "Minitraff for GoldWing-agare pa Herrfallets Camping.",
-      "link": "https://media.gwcs.se/2026/01/Herr-2.pdf",
-      "region": "Vastmanland",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "gwcs-minitraff-svenljunga-2026",
-      "name": "GWCS Minitraff Svenljunga Nydal",
-      "date": "2026-05-22",
-      "dateEnd": "2026-05-24",
-      "location": "Nydal, Svenljunga",
-      "type": "Träff",
-      "organizer": "Knallewingarna / GWCS",
-      "description": "Minitraff for GoldWing-agare i Svenljunga.",
-      "link": "https://media.gwcs.se/2025/10/Nydal.jpeg",
-      "region": "Vastra Gotaland",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "gwcs-vikingtraffen-gallo-2026",
-      "name": "Vikingtraffen Gallo",
-      "date": "2026-05-29",
-      "dateEnd": "2026-05-31",
-      "location": "Gallo, Jamtland",
-      "type": "Träff",
-      "organizer": "Jan Karlstrand / GWCS",
-      "description": "Vikingtraffen for GoldWing-agare i Gallo.",
-      "link": "https://media.gwcs.se/2026/02/gallo26.jpeg",
-      "region": "Jamtland",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "gwcs-nationell-traff-degeberga-2026",
-      "name": "Nationell traff Degeberga GWCS",
-      "date": "2026-06-25",
-      "dateEnd": "2026-06-28",
-      "location": "Degeberga Stugby, Degeberga",
-      "type": "Träff",
-      "organizer": "Skanewingarna / GWCS",
-      "description": "GWCS Nationella traff och foreningsstamma i Degeberga, Skane. Traffavgift 450:- for medlemmar.",
-      "link": "https://media.gwcs.se/2026/01/Inbjudan-Nationella-2026-foreningsstamma1.pdf",
-      "region": "Skane",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "gwcs-fikatraff-sormland-mar-2026",
-      "name": "Sormlandswingarnas fikatraff",
-      "date": "2026-03-15",
-      "dateEnd": "2026-03-15",
-      "location": "Sigridslunds Cafe, Ardala",
-      "type": "Träff",
-      "organizer": "Sormlandswingarna / GWCS",
-      "description": "Fikatraff for GoldWing-agare pa Sigridslunds Cafe.",
-      "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-2/?occurrence=2026-03-15",
-      "region": "Sodermanland",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "gwcs-medlemsmote-apr-2026",
-      "name": "Sormlandswingarnas Medlemsmote",
-      "date": "2026-04-12",
-      "dateEnd": "2026-04-12",
-      "location": "Sigridslunds Cafe, Ardala",
-      "type": "Träff",
-      "organizer": "Sormlandswingarna / GWCS",
-      "description": "Medlemsmote for Sormlandswingarna.",
-      "link": "https://gwcs.se/events/sormlandswingarnas-medlemsmote-2/?occurrence=2026-04-12",
-      "region": "Sodermanland",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "gwcs-nationaldagstur-2026",
-      "name": "GWCS Nationaldagstur Sigridslunds Cafe",
-      "date": "2026-06-06",
-      "dateEnd": "2026-06-06",
-      "location": "Sigridslunds Cafe, Ardala",
-      "type": "Tur",
-      "organizer": "Sormlandswingarna / GWCS",
-      "description": "Nationaldagstur till Sigridslunds Cafe.",
-      "link": "https://gwcs.se/events/nationaldagstur-till-sigridslunds-cafe/?occurrence=2026-06-06",
-      "region": "Sodermanland",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "gwcs-medlemsmote-okt-2026",
-      "name": "Sormlandswingarnas Medlemsmote (host)",
-      "date": "2026-10-11",
-      "dateEnd": "2026-10-11",
-      "location": "Sigridslunds Cafe, Ardala",
-      "type": "Träff",
-      "organizer": "Sormlandswingarna / GWCS",
-      "description": "Hostens medlemsmote for Sormlandswingarna.",
-      "link": "https://gwcs.se/events/sormlandswingarnas-medlemsmote-3/?occurrence=2026-10-11",
-      "region": "Sodermanland",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "gwcs-fikatraff-sormland-nov-2026",
-      "name": "Sormlandswingarnas fikatraff (host)",
-      "date": "2026-11-15",
-      "dateEnd": "2026-11-15",
-      "location": "Sigridslunds Cafe, Ardala",
-      "type": "Träff",
-      "organizer": "Sormlandswingarna / GWCS",
-      "description": "Fikatraff for GoldWing-agare pa Sigridslunds Cafe.",
-      "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-3/?occurrence=2026-11-15",
-      "region": "Sodermanland",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "gwcs-jultallrik-2026",
-      "name": "Stor Jultallrik Sigridslunds Cafe",
-      "date": "2026-12-06",
-      "dateEnd": "2026-12-06",
-      "location": "Sigridslunds Cafe, Ardala",
-      "type": "Träff",
-      "organizer": "Sormlandswingarna / GWCS",
-      "description": "Julsamling med stor jultallrik for GoldWing-agare.",
-      "link": "https://gwcs.se/events/stor-jultallrik-pa-sigridslunds-cafe/?occurrence=2026-12-06",
-      "region": "Sodermanland",
-      "source": "gwcs.se"
-    },
-    {
-      "id": "oamck-alands-x-2026",
-      "name": "Alands-X med Eckerolinjen",
-      "date": "2026-03-14",
-      "dateEnd": "2026-03-14",
-      "location": "Grisslehamn",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Dagkryssning med Eckerolinjen till Aland. Avgang fran Grisslehamn.",
-      "link": "https://oamck.se/events/alands-x-med-eckerolinjen-2/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-dagtouring-apr-2026",
-      "name": "ÖAMCK Dagtouring",
-      "date": "2026-04-25",
-      "dateEnd": "2026-04-25",
-      "location": "Lelles MC, Uppsala",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
-      "link": "https://oamck.se/events/dagtouring/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-knixpremiar-2026",
-      "name": "Knixpremiar",
-      "date": "2026-05-04",
-      "dateEnd": "2026-05-04",
-      "location": "Rorken, Uppsala",
-      "type": "Träff",
-      "organizer": "SMC Uppsala",
-      "description": "Arets knixpremiar arrangerad av SMC Uppsala.",
-      "link": "https://oamck.se/events/knixpremiar-2/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-hemlig-resa-maj-2026",
-      "name": "Hemlig resa",
-      "date": "2026-05-16",
-      "dateEnd": "2026-05-17",
-      "location": "Hemligt",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Hemlig resa over en helg - destinationen avslöjas vid avfärd.",
-      "link": "https://oamck.se/events/hemlig-resa/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-dagtouring-maj-2026",
-      "name": "ÖAMCK Dagtouring",
-      "date": "2026-05-23",
-      "dateEnd": "2026-05-23",
-      "location": "Lelles MC, Uppsala",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
-      "link": "https://oamck.se/events/dagtouring-2/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-nationaldagsloppet-2026",
-      "name": "Nationaldagsloppet (ordonnanser)",
-      "date": "2026-06-06",
-      "dateEnd": "2026-06-06",
-      "location": "Stockholm",
-      "type": "Körning",
-      "organizer": "MC-ordonnans",
-      "description": "MC-ordonnanser vid Nationaldagsloppet i Stockholm.",
-      "link": "https://oamck.se/events/nationaldagsloppet-ordonnanser/",
-      "region": "Stockholm",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-dagtouring-jun-2026",
-      "name": "ÖAMCK Dagtouring (sondag)",
-      "date": "2026-06-07",
-      "dateEnd": "2026-06-07",
-      "location": "Lelles MC, Uppsala",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring pa en sondag med start fran Lelles MC.",
-      "link": "https://oamck.se/events/dagtouring-obs-sondag/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-vatternrundan-2026",
-      "name": "Vatternrundan (Ordonnanser)",
-      "date": "2026-06-12",
-      "dateEnd": "2026-06-14",
-      "location": "Motala",
-      "type": "Körning",
-      "organizer": "MC-ordonnans",
-      "description": "MC-ordonnanser vid Vatternrundan cykellopp i Motala.",
-      "link": "https://oamck.se/events/vatternrundan-ordonnanser-2/",
-      "region": "Ostergotland",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-dagtouring-jul-2026",
-      "name": "ÖAMCK Dagtouring",
-      "date": "2026-07-04",
-      "dateEnd": "2026-07-04",
-      "location": "Lelles MC, Uppsala",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
-      "link": "https://oamck.se/events/dagtouring-3/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-grillfest-2026",
-      "name": "ÖAMCK Grillfest",
-      "date": "2026-07-11",
-      "dateEnd": "2026-07-11",
-      "location": "Stangby, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Grillfest i ÖAMCK:s klubblokal i Stangby.",
-      "link": "https://oamck.se/events/grillfest-2/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-dagtouring-aug-2026",
-      "name": "ÖAMCK Dagtouring",
-      "date": "2026-08-08",
-      "dateEnd": "2026-08-08",
-      "location": "Lelles MC, Uppsala",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
-      "link": "https://oamck.se/events/dagtouring-4/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-kraftkalas-2026",
-      "name": "ÖAMCK Kraftkalas",
-      "date": "2026-08-29",
-      "dateEnd": "2026-08-29",
-      "location": "Stangby, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Kraftkalas i ÖAMCK:s klubblokal.",
-      "link": "https://oamck.se/events/kraftkalas-2/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-dagtouring-sep-2026",
-      "name": "ÖAMCK Dagtouring",
-      "date": "2026-09-05",
-      "dateEnd": "2026-09-05",
-      "location": "Lelles MC, Uppsala",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring med start fran Lelles MC i Uppsala.",
-      "link": "https://oamck.se/events/dagtouring-5/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-hemlig-resa-sep-2026",
-      "name": "Hemlig resa",
-      "date": "2026-09-12",
-      "dateEnd": "2026-09-13",
-      "location": "Hemligt",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Hostens hemliga resa - destinationen avslöjas vid avfärd.",
-      "link": "https://oamck.se/events/hemlig-resa-3/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-dagtouring-okt-2026",
-      "name": "ÖAMCK Dagtouring",
-      "date": "2026-10-03",
-      "dateEnd": "2026-10-03",
-      "location": "Lelles MC, Uppsala",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Sasongavslutande dagtouring fran Lelles MC.",
-      "link": "https://oamck.se/events/dagtouring-6/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-alandkryss-2026",
-      "name": "Alandkryss med Eckerolinjen (Viltbord)",
-      "date": "2026-10-24",
-      "dateEnd": "2026-10-24",
-      "location": "Grisslehamn",
-      "type": "Tur",
-      "organizer": "ÖAMCK",
-      "description": "Hostkryssning till Aland med Eckerolinjen, inklusive viltbord.",
-      "link": "https://oamck.se/events/alandkryss-med-eckerolinjen-viltbord/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
-      "id": "oamck-flipperturnering-2026",
-      "name": "ÖAMCK Flipperturnering",
-      "date": "2026-11-21",
-      "dateEnd": "2026-11-21",
-      "location": "Stangby, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Flipperturnering i ÖAMCK:s klubblokal.",
-      "link": "https://oamck.se/events/flipperturnering-2/",
-      "region": "Uppsala",
-      "source": "oamck.se"
     }
   ]
 };

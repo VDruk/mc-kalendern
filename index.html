@@ -483,7 +483,8 @@
 
 <footer class="footer">
   MC Kalendern - Svenska MC-evenemang samlat pa ett stalle. Evenemang fran GWCS, H-DCS, BMW MC-klubben, SMC och fler.<br>
-  Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt: slava.druk@gmail.com</a>
+  Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt: slava.druk@gmail.com</a><br>
+  &copy; 2026 Slava Druk, Uppsala. All eventdata tillhor MC Kalendern. Kommersiell anvandning kraver tillstand.
 </footer>
 
 <script src="events.js"></script>
@@ -557,7 +558,7 @@ function render() {
   grid.innerHTML = '';
 
   const today = new Date().toISOString().split('T')[0];
-  let events = EVENTS_DATA.events.sort((a, b) => new Date(a.date) - new Date(b.date));
+  let events = EVENTS_DATA.events.filter(e => !e._canary).sort((a, b) => new Date(a.date) - new Date(b.date));
 
   if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
   if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
