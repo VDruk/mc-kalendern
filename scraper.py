@@ -1047,6 +1047,15 @@ def load_manual_events():
             "link": "https://www.bsaoc.org/swe/SummerCamp26/",
             "region": "Kalmar", "source": "bsaoc.org"
         },
+        {
+            "id": "smc-stockholm-arsmote-2026", "name": "SMC Stockholms Årsmöte 2026",
+            "date": "2026-03-21", "dateEnd": "2026-03-21",
+            "location": "Stockholm", "type": "Träff",
+            "organizer": "SMC Stockholm",
+            "description": "Årsmöte för SMC Stockholm.",
+            "link": "https://www.svmc.se/stockholm/nyheter/aarsmoete-2026/",
+            "region": "Stockholm", "source": "svmc.se"
+        },
     ]
 
 
