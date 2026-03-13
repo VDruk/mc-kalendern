@@ -166,13 +166,11 @@
   .card.ad-card {
     padding: 0; overflow: hidden;
     cursor: pointer; border: none;
-    position: relative; min-height: 0;
   }
   .card.ad-card img {
-    position: absolute; top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    max-height: 100%; max-width: 100%;
-    object-fit: contain;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
