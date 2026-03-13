@@ -1167,7 +1167,7 @@ def load_manual_events():
             "region": "Kalmar", "source": "smcboken.svmc.se"
         },
         {
-            "id": "hoktraffenmed-rally-ronneby-2026", "name": "Hoktraffenmed Rally",
+            "id": "hoktraffen-med-rally-ronneby-2026", "name": "Hökträffen med Rally",
             "date": "2026-05-16", "dateEnd": "2026-05-17",
             "location": "Hokarnas klubbstuga, Ronneby", "type": "Träff",
             "organizer": "Hokarna RMCK",
@@ -1396,7 +1396,12 @@ def scrape_smcboken():
                     elif key == "vem":
                         organizer = value
                     elif key == "hemsida" or key == "länk":
-                        link = value.strip()
+                        # Get the actual href from the anchor tag, not the text
+                        a_tag = cells[1].find("a")
+                        if a_tag and a_tag.get("href"):
+                            link = a_tag["href"].strip()
+                        elif value.startswith("http"):
+                            link = value.strip()
 
         # Skip if no date
         if not date_str or not re.match(r'\d{4}-\d{2}-\d{2}', date_str):
