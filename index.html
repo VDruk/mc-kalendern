@@ -165,12 +165,14 @@
   .card.favorited { border-color: #e85d04; border-width: 2px; }
 
   .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+  .card-dates { display: flex; align-items: center; gap: 4px; }
   .card-date {
     background: #f7f7f7; border-radius: 8px; padding: 8px 12px;
     text-align: center; min-width: 56px;
   }
   .card-date .day { font-size: 22px; font-weight: 700; line-height: 1.1; }
   .card-date .month { font-size: 11px; color: #666; text-transform: uppercase; }
+  .date-sep { color: #bbb; font-size: 14px; font-weight: 300; }
 
   .card-top-right { display: flex; align-items: flex-start; gap: 8px; }
   .card-type {
@@ -566,8 +568,9 @@ function render() {
   events.forEach(event => {
     const d = new Date(event.date + 'T00:00:00');
     const monthKey = d.getFullYear() + '-' + d.getMonth();
-    const isPast = event.date < today;
+    const isPast = event.dateEnd ? event.dateEnd < today : event.date < today;
     const isFav = isFavorited(event.id);
+    const isMultiDay = event.dateEnd && event.dateEnd !== event.date;
 
     if (monthKey !== currentMonth) {
       currentMonth = monthKey;
@@ -577,14 +580,23 @@ function render() {
       grid.appendChild(divider);
     }
 
+    let dateHTML;
+    if (isMultiDay) {
+      const d2 = new Date(event.dateEnd + 'T00:00:00');
+      dateHTML = `<div class="card-dates">
+        <div class="card-date"><div class="day">${d.getDate()}</div><div class="month">${MONTHS_SHORT[d.getMonth()]}</div></div>
+        <span class="date-sep">&ndash;</span>
+        <div class="card-date"><div class="day">${d2.getDate()}</div><div class="month">${MONTHS_SHORT[d2.getMonth()]}</div></div>
+      </div>`;
+    } else {
+      dateHTML = `<div class="card-date"><div class="day">${d.getDate()}</div><div class="month">${MONTHS_SHORT[d.getMonth()]}</div></div>`;
+    }
+
     const card = document.createElement('div');
     card.className = 'card' + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
     card.innerHTML = `
       <div class="card-top">
-        <div class="card-date">
-          <div class="day">${d.getDate()}</div>
-          <div class="month">${MONTHS_SHORT[d.getMonth()]}</div>
-        </div>
+        ${dateHTML}
         <div class="card-top-right">
           <span class="card-type ${getTypeClass(event.type)}">${event.type}</span>
           <button class="fav-btn ${isFav ? 'active' : ''}" onclick="toggleFavorite('${event.id}')" title="Spara som favorit">&#9733;</button>
