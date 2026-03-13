@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MC Kalendern - Alla MC-evenemang i Sverige 2026</title>
-<meta name="description" content="Sveriges mest kompletta kalender for MC-evenemang. 600+ evenemang: traffar, massor, korningar, racing, trackdays och fester. Fran H-DCS, BMW MC-klubben, SMC och fler.">
+<meta name="description" content="Sveriges mest kompletta kalender for MC-evenemang. 600+ evenemang: traffar, massor, korningar, racing, trackdays och fester. Fran H-DCS, BMW MC-klubben, SMC, SVEMO och fler.">
 <meta name="keywords" content="MC evenemang, motorcykel Sverige, MC-traff, MC-massa, roadracing, trackday, Harley-Davidson, BMW MC, MC kalender 2026">
 <meta name="author" content="MC Kalendern">
 <meta name="robots" content="index, follow">
@@ -390,6 +390,7 @@
       <button class="club-btn" data-club="H-DCS" title="H-DCS"><img src="clubs/hdcs.png" alt="H-DCS"></button>
       <button class="club-btn" data-club="ÖAMCK" title="ÖAMCK"><img src="clubs/oamck.png" alt="ÖAMCK"></button>
       <button class="club-btn" data-club="SMC" title="SMC"><img src="clubs/smc.png" alt="SMC"></button>
+      <button class="club-btn" data-club="SVEMO" title="SVEMO"><img src="clubs/svemo.png" alt="SVEMO"></button>
     </div>
   </div>
   <div class="right-controls">
@@ -416,7 +417,7 @@
 <!-- SEO content (visible to Google, hidden after JS loads) -->
 <div class="seo-content" id="seoContent">
   <h2>Sveriges mest kompletta MC-kalender</h2>
-  <p>MC Kalendern samlar alla MC-evenemang i Sverige pa ett stalle. Har hittar du traffar, massor, racing, trackdays, korningar och fester fran alla stora arrangorer: H-DCS (Harley-Davidson Club Scandinavia), BMW MC-klubben, Sveriges MotorCyklister (SMC), och manga fler.</p>
+  <p>MC Kalendern samlar alla MC-evenemang i Sverige pa ett stalle. Har hittar du traffar, massor, racing, trackdays, korningar och fester fran alla stora arrangorer: H-DCS (Harley-Davidson Club Scandinavia), BMW MC-klubben, Sveriges MotorCyklister (SMC), SVEMO (Svenska Motorsportforbundet), och manga fler.</p>
   <h3>Populara MC-evenemang 2026</h3>
   <p>Bland arets hojdpunkter finns MC-Massan pa Elmia i Jonkoping, HojRock pa Tanga Hed i Vargarda, Custom Bike Show i Norrtalje, Malaren Runt (Sveriges storsta gemensamma MC-korning), Gotland Ring Bike Week, Vasteras Summer Meet, och hundratals lokala traffar och korningar over hela landet.</p>
   <h3>Om MC Kalendern</h3>
@@ -491,7 +492,7 @@
 <button class="scroll-top" id="scrollTop" title="Till toppen">&#8593;</button>
 
 <footer class="footer">
-  MC Kalendern - Svenska MC-evenemang samlat pa ett stalle. Evenemang fran GWCS, H-DCS, BMW MC-klubben, SMC och fler.<br>
+  MC Kalendern - Svenska MC-evenemang samlat pa ett stalle. Evenemang fran GWCS, H-DCS, BMW MC-klubben, SMC, SVEMO och fler.<br>
   Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt: slava.druk@gmail.com</a><br>
   &copy; 2026 Slava Druk, Uppsala. All eventdata tillhor MC Kalendern. Kommersiell anvandning kraver tillstand.
 </footer>
@@ -510,7 +511,8 @@ const CLUB_MATCHERS = {
   'GWCS': org => org.includes('GWCS') || org.includes('GoldWing Club Sweden'),
   'H-DCS': org => org === 'H-DCS' || org === 'Harley-Davidson Club Sweden',
   'ÖAMCK': org => org === 'ÖAMCK',
-  'SMC': org => org.includes('SMC')
+  'SMC': org => org.includes('SMC'),
+  'SVEMO': org => org.includes('SVEMO') || org.includes('Svemo') || org.includes('MXSM') || org.includes('JSM') || org.includes('USM')
 };
 let favorites = JSON.parse(localStorage.getItem('mc_favorites')) || [];
 
