@@ -1011,6 +1011,33 @@ def load_manual_events():
             "link": "https://vics.se/kalender/",
             "region": "Sverige", "source": "vics.se"
         },
+        {
+            "id": "sulas-mc-kladesrea-2026", "name": "Sulas MC Klädesrea",
+            "date": "2026-03-27", "dateEnd": "2026-03-28",
+            "location": "Sulas MC, Säva 17, Uppsala", "type": "Mässa",
+            "organizer": "Sulas MC",
+            "description": "Stor klädesrea hos Sulas MC. 15-50% rabatt på all personlig utrustning. Fre 9-18, Lör 10-14.",
+            "link": "https://sulas.se/",
+            "region": "Uppland", "source": "sulas.se"
+        },
+        {
+            "id": "sulas-mc-invigning-2026", "name": "Sulas MC Stor Invigning",
+            "date": "2026-04-18", "dateEnd": "2026-04-18",
+            "location": "Sulas MC, Säva 17, Uppsala", "type": "Mässa",
+            "organizer": "Sulas MC",
+            "description": "Stor invigning av Sulas MC:s nya butik och showroom. Visning av nya modeller från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-16.",
+            "link": "https://sulas.se/",
+            "region": "Uppland", "source": "sulas.se"
+        },
+        {
+            "id": "sulas-mc-provkorning-2026", "name": "Sulas MC Provkörningshelg",
+            "date": "2026-05-02", "dateEnd": "2026-05-03",
+            "location": "Sulas MC, Säva 17, Uppsala", "type": "Mässa",
+            "organizer": "Sulas MC",
+            "description": "Provkör demohojar från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-14, Sön 11-15.",
+            "link": "https://sulas.se/provkorning/",
+            "region": "Uppland", "source": "sulas.se"
+        },
     ]
 
 
