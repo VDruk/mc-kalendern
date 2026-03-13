@@ -599,7 +599,7 @@ const AD_PLACEMENTS = [
     image: 'ads/bsa-sulas-2026-04-18.jpg',
     bgColor: '#bab7aa',
     link: 'https://sulas.se/vara-fordon/motorcyklar/bsa-motorcycles/#/',
-    afterDate: '2026-04-17',
+    beforeEvent: 'sulas-mc-invigning-2026',
     alt: 'BSA Motorcycles - Nu hos Sulas MC, Uppsala',
     types: ['Mässa', 'Show'],
     clubs: []
@@ -609,7 +609,7 @@ const AD_PLACEMENTS = [
     image: 'ads/bsa-scrambler-2026-08-06.jpg',
     bgColor: '#66655c',
     link: 'https://www.bsaoc.org/swe/',
-    afterDate: '2026-08-07',
+    beforeEvent: 'bsa-summer-camp-oland-2026',
     alt: 'BSA Scrambler 650 - Svenska BSA Klubben',
     types: ['Träff', 'Show'],
     clubs: []
@@ -627,14 +627,20 @@ function render() {
   if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
   if (!showPast) events = events.filter(e => e.dateEnd ? e.dateEnd >= today : e.date >= today);
 
-  // Build a map of ads to insert after specific dates, filtered by current view
+  // Build maps of ads: by date (date gap placement) and by event ID (exact placement)
   const adsByDate = {};
+  const adsByEvent = {};
   AD_PLACEMENTS.forEach(ad => {
     const matchesType = currentFilter === 'all' || (ad.types && ad.types.includes(currentFilter));
     const matchesClub = currentClub === 'all' || !ad.clubs || ad.clubs.length === 0 || ad.clubs.includes(currentClub);
     if (matchesType && matchesClub) {
-      if (!adsByDate[ad.afterDate]) adsByDate[ad.afterDate] = [];
-      adsByDate[ad.afterDate].push(ad);
+      if (ad.beforeEvent) {
+        if (!adsByEvent[ad.beforeEvent]) adsByEvent[ad.beforeEvent] = [];
+        adsByEvent[ad.beforeEvent].push(ad);
+      } else if (ad.afterDate) {
+        if (!adsByDate[ad.afterDate]) adsByDate[ad.afterDate] = [];
+        adsByDate[ad.afterDate].push(ad);
+      }
     }
   });
 
@@ -687,7 +693,7 @@ function render() {
       </div>
     `;
 
-    // Check if any ads should appear before this event
+    // Check if any ads should appear before this event (date gap placement)
     if (event.date !== lastEventDate && lastEventDate) {
       Object.keys(adsByDate).forEach(adDate => {
         if (adDate >= lastEventDate && adDate < event.date) {
@@ -704,6 +710,19 @@ function render() {
       });
     }
     lastEventDate = event.date;
+
+    // Check if any ads should appear right before this specific event
+    if (adsByEvent[event.id]) {
+      adsByEvent[event.id].forEach(ad => {
+        const adCard = document.createElement('div');
+        adCard.className = 'card ad-card';
+        adCard.style.backgroundColor = ad.bgColor;
+        adCard.style.cursor = 'pointer';
+        adCard.onclick = () => window.open(ad.link, '_blank');
+        adCard.innerHTML = `<img src="${ad.image}" alt="${ad.alt}" loading="lazy">`;
+        grid.appendChild(adCard);
+      });
+    }
 
     grid.appendChild(card);
   });
