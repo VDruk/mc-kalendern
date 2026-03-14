@@ -979,14 +979,24 @@ const AD_PLACEMENTS = [
 function cardExpand(id) {
   const card = document.getElementById(id);
   if (!card) return;
-  card.style.height = card.offsetHeight + 'px';
+  const h = card.offsetHeight;
+  card.style.height = h + 'px';
   card.classList.add('expanded');
+  const header = card.querySelector('.back-header');
+  const footer = card.querySelector('.back-footer');
+  const scrollWrap = card.querySelector('.back-scroll-wrap');
+  if (scrollWrap && header && footer) {
+    const available = h - 40 - header.offsetHeight - footer.offsetHeight - 20;
+    scrollWrap.style.height = Math.max(available, 100) + 'px';
+  }
 }
 function cardCollapse(id) {
   const card = document.getElementById(id);
   if (!card) return;
   card.classList.remove('expanded');
   card.style.height = '';
+  const sw = card.querySelector('.back-scroll-wrap');
+  if (sw) sw.style.height = '';
 }
 function checkScrollEnd(el) {
   const wrap = el.parentElement;
