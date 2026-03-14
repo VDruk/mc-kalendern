@@ -2146,6 +2146,19 @@ const EVENTS_DATA = {
     "source": "bmwklubben.se"
   },
   {
+    "id": "smc-nationellt-arsmote-2026",
+    "name": "SMC Nationellt Årsmöte 2026",
+    "date": "2026-05-09",
+    "dateEnd": "2026-05-09",
+    "location": "Sundsvall",
+    "type": "Träff",
+    "organizer": "SMC",
+    "description": "Sveriges MotorCyklisters nationella årsmöte. Lördagen den 9 maj kl 13.00 i Sundsvall. Exakt lokal meddelas i MC-Folket Nr 2, på hemsidan och sociala medier.",
+    "link": "https://www.svmc.se",
+    "region": "Västernorrland",
+    "source": "MC-Folket Nr 1 2026"
+  },
+  {
     "id": "doa-emilsturen-2026",
     "name": "DOA - Emilsturen",
     "date": "2026-05-10",
