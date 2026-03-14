@@ -452,14 +452,11 @@
   .card-front { display: flex; flex-direction: column; flex: 1; }
   .card .card-back-slide { display: none; }
   .card.expanded .card-front { display: none; }
-  .card.expanded .card-back-slide {
-    display: flex; flex-direction: column; flex: 1;
-  }
-  .card.expanded { overflow: hidden; }
+  .card.expanded .card-back-slide { display: block; }
 
   .back-header {
     display: flex; justify-content: space-between; align-items: center;
-    margin-bottom: 10px; flex-shrink: 0;
+    margin-bottom: 10px;
   }
   .back-title { font-size: 15px; font-weight: 600; color: var(--text-primary); }
   .back-close {
@@ -469,11 +466,9 @@
   }
   .back-close:hover { color: var(--text-primary); background: var(--bg-primary); }
 
-  .back-scroll-wrap {
-    position: relative; flex: 1; overflow: hidden;
-  }
+  .back-scroll-wrap { position: relative; }
   .back-scroll-area {
-    height: 100%; overflow-y: auto; padding-right: 4px;
+    max-height: 260px; overflow-y: auto; padding-right: 4px;
   }
   .back-scroll-area::-webkit-scrollbar { width: 4px; }
   .back-scroll-area::-webkit-scrollbar-track { background: transparent; }
@@ -979,24 +974,12 @@ const AD_PLACEMENTS = [
 function cardExpand(id) {
   const card = document.getElementById(id);
   if (!card) return;
-  const h = card.offsetHeight;
-  card.style.height = h + 'px';
   card.classList.add('expanded');
-  const header = card.querySelector('.back-header');
-  const footer = card.querySelector('.back-footer');
-  const scrollWrap = card.querySelector('.back-scroll-wrap');
-  if (scrollWrap && header && footer) {
-    const available = h - 40 - header.offsetHeight - footer.offsetHeight - 20;
-    scrollWrap.style.height = Math.max(available, 100) + 'px';
-  }
 }
 function cardCollapse(id) {
   const card = document.getElementById(id);
   if (!card) return;
   card.classList.remove('expanded');
-  card.style.height = '';
-  const sw = card.querySelector('.back-scroll-wrap');
-  if (sw) sw.style.height = '';
 }
 function checkScrollEnd(el) {
   const wrap = el.parentElement;
