@@ -2472,14 +2472,14 @@ const EVENTS_DATA = {
   },
   {
     "id": "mctouring-oppet-hus-gagnef-2026",
-    "name": "Öppet Hus på Tallbacken",
+    "name": "Rönnegård Bädd & Frukost",
     "date": "2026-05-16",
     "dateEnd": "2026-05-17",
-    "location": "Tallbacken, Gagnef",
+    "location": "Gagnef",
     "type": "Träff",
     "organizer": "mctouring.se",
     "description": "Snacka MC-touring över kaffe, kolla touringboden och leverantörer. Grillkväll 175 kr med resebilder, i år med fokus på Japan. Övernattning möjlig.",
-    "link": "https://mctouring.se",
+    "link": "http://www.ronnegard.se/mc",
     "region": "Dalarna",
     "source": "FB"
   },
@@ -2881,7 +2881,7 @@ const EVENTS_DATA = {
     "location": "Ukrainska ambassaden, Lidingö",
     "type": "Körning",
     "organizer": "Templar Knights MC",
-    "description": "Välgörenhetskörning till stöd för Ukraina via UNHCR. Samling 09:30, start 10:00. Swisha valfri summa, allt går oavkortat till UNHCR.",
+    "description": "Välgörenhetskörning till stöd för Ukraina via UNHCR. Samling 09:30, start 10:00. Från Lidingö till Sollentuna. Swisha valfri summa, allt går oavkortat till UNHCR.",
     "link": "https://min.sverigeforunhcr.se/fundraisers/ride-for-ukraine2",
     "region": "Stockholm",
     "source": "MC-Folket / FB"
