@@ -6731,6 +6731,19 @@ const EVENTS_DATA = {
     "source": "hdcs.se"
   },
   {
+    "id": "rockets-choppers-ride-in-chopper-show-2026",
+    "name": "Rockets & Choppers - 2nd Annual Ride In Chopper Show 2026",
+    "date": "2026-08-22",
+    "dateEnd": "2026-08-22",
+    "location": "Badhusparken, Kungsbacka",
+    "type": "Show",
+    "organizer": "Rockets & Choppers",
+    "description": "Andra upplagan av Ride In Chopper Show i Kungsbacka. Choppers, custom builds och hojar i Badhusparken. Start kl 13:00. Alla med hoj och hojintresse välkomna!",
+    "link": "https://visitkungsbacka.se/evenemang",
+    "region": "Halland",
+    "source": "MC-Folket Nr 1 2026"
+  },
+  {
     "id": "doa-kvallskorning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-08-24",
