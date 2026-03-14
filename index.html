@@ -455,12 +455,11 @@
   .card.expanded .card-back-slide {
     display: flex; flex-direction: column; flex: 1;
   }
-  .card.expanded { max-height: 420px; overflow: hidden; }
-  .card.expanded .card-back-slide { max-height: 420px; overflow: hidden; }
+  .card.expanded { overflow: hidden; }
 
   .back-header {
     display: flex; justify-content: space-between; align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 10px; flex-shrink: 0;
   }
   .back-title { font-size: 15px; font-weight: 600; color: var(--text-primary); }
   .back-close {
@@ -470,13 +469,24 @@
   }
   .back-close:hover { color: var(--text-primary); background: var(--bg-primary); }
 
+  .back-scroll-wrap {
+    position: relative; flex: 1; overflow: hidden;
+  }
   .back-scroll-area {
-    max-height: 280px; overflow-y: auto; padding-right: 4px; flex: 1;
+    height: 100%; overflow-y: auto; padding-right: 4px;
   }
   .back-scroll-area::-webkit-scrollbar { width: 4px; }
   .back-scroll-area::-webkit-scrollbar-track { background: transparent; }
   .back-scroll-area::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 2px; }
   .back-scroll-area::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+  /* Fade indicator at bottom for scrollable content */
+  .back-scroll-wrap::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+    height: 24px; pointer-events: none;
+    background: linear-gradient(transparent, var(--bg-card));
+    transition: opacity 0.2s;
+  }
+  .back-scroll-wrap.scrolled-end::after { opacity: 0; }
 
   .back-desc { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
   .back-desc p { margin-bottom: 8px; }
@@ -966,6 +976,26 @@ const AD_PLACEMENTS = [
 ];
 
 // ========== HELPERS ==========
+function cardExpand(id) {
+  const card = document.getElementById(id);
+  if (!card) return;
+  card.style.height = card.offsetHeight + 'px';
+  card.classList.add('expanded');
+}
+function cardCollapse(id) {
+  const card = document.getElementById(id);
+  if (!card) return;
+  card.classList.remove('expanded');
+  card.style.height = '';
+}
+function checkScrollEnd(el) {
+  const wrap = el.parentElement;
+  if (el.scrollHeight - el.scrollTop - el.clientHeight < 10) {
+    wrap.classList.add('scrolled-end');
+  } else {
+    wrap.classList.remove('scrolled-end');
+  }
+}
 function isFavorited(id) { return favorites.includes(id); }
 function toggleFavorite(id) {
   const idx = favorites.indexOf(id);
@@ -1164,7 +1194,7 @@ function render() {
     if (hasBack) {
       footerHTML = `<div class="card-footer">
         <span class="card-organizer">${event.organizer || ''}</span>
-        <button class="card-link-btn" onclick="event.stopPropagation();document.getElementById('${cardId}').classList.add('expanded')">Mer info &rarr;</button>
+        <button class="card-link-btn" onclick="event.stopPropagation();cardExpand('${cardId}')">Mer info &rarr;</button>
       </div>`;
     } else {
       footerHTML = `<div class="card-footer">
@@ -1192,16 +1222,18 @@ function render() {
       <div class="card-back-slide">
         <div class="back-header">
           <span class="back-title">${displayName}</span>
-          <button class="back-close" onclick="event.stopPropagation();document.getElementById('${cardId}').classList.remove('expanded')">&times;</button>
+          <button class="back-close" onclick="event.stopPropagation();cardCollapse('${cardId}')">&times;</button>
         </div>
-        <div class="back-scroll-area">
-          <div class="back-desc">${fullDesc}</div>
-          ${backImg}
-          ${linksHTML}
+        <div class="back-scroll-wrap">
+          <div class="back-scroll-area" onscroll="checkScrollEnd(this)">
+            <div class="back-desc">${fullDesc}</div>
+            ${backImg}
+            ${linksHTML}
+          </div>
         </div>
         <div class="back-footer">
           <span class="card-organizer">${event.organizer || ''}</span>
-          <button class="back-btn" onclick="event.stopPropagation();document.getElementById('${cardId}').classList.remove('expanded')">&larr; Tillbaka</button>
+          <button class="back-btn" onclick="event.stopPropagation();cardCollapse('${cardId}')">&larr; Tillbaka</button>
         </div>
       </div>`;
     }
