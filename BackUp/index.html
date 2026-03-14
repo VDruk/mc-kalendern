@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MC Kalendern - Alla MC-evenemang i Sverige 2026</title>
+<meta name="description" content="Sveriges mest kompletta kalender for MC-evenemang. 600+ evenemang: traffar, massor, korningar, racing, trackdays och fester. Fran H-DCS, BMW MC-klubben, SMC, SVEMO och fler.">
+<meta name="keywords" content="MC evenemang, motorcykel Sverige, MC-traff, MC-massa, roadracing, trackday, Harley-Davidson, BMW MC, MC kalender 2026">
+<meta name="author" content="MC Kalendern">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://druk.se/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="MC Kalendern - Alla MC-evenemang i Sverige 2026">
+<meta property="og:description" content="Sveriges mest kompletta MC-kalender med over 600 evenemang. Hitta traffar, massor, racing, korningar och fester fran alla stora MC-klubbar i Sverige.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://druk.se/">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:site_name" content="MC Kalendern">
+<meta property="og:image" content="https://druk.se/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MC Kalendern - Alla MC-evenemang i Sverige 2026">
+<meta name="twitter:description" content="Sveriges mest kompletta MC-kalender med over 600 evenemang. Hitta traffar, massor, racing, korningar och fester fran alla stora MC-klubbar i Sverige.">
+<meta name="twitter:image" content="https://druk.se/og-image.jpg">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HVJ6PFNE2W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HVJ6PFNE2W');
+</script>
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MC Kalendern",
+  "url": "https://druk.se/",
+  "description": "Sveriges mest kompletta kalender for MC-evenemang",
+  "inLanguage": "sv"
+}
+</script>
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f8f8f8; color: #1a1a1a; line-height: 1.5;
+  }
+
+  /* Header */
+  .header {
+    position: sticky; top: 0; background: #fff;
+    border-bottom: 1px solid #e8e8e8; z-index: 100; padding: 16px 0;
+  }
+  .header-inner {
+    max-width: 1000px; margin: 0 auto; padding: 0 20px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .logo { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+  .logo span { color: #999; font-weight: 400; font-size: 16px; }
+
+  .header-actions { display: flex; gap: 10px; align-items: center; }
+  .btn-tipsa {
+    background: #1a1a1a; color: #fff; border: none; padding: 7px 14px;
+    border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer;
+    font-family: inherit; display: flex; align-items: center; gap: 5px;
+    transition: background 0.15s;
+  }
+  .btn-tipsa:hover { background: #333; }
+  .btn-favorites {
+    background: #fff; color: #1a1a1a; border: 1.5px solid #e0e0e0;
+    padding: 7px 14px; border-radius: 6px; font-size: 13px; font-weight: 600;
+    cursor: pointer; font-family: inherit; display: flex; align-items: center; gap: 5px;
+    transition: all 0.15s; position: relative;
+  }
+  .btn-favorites:hover { border-color: #1a1a1a; }
+  .fav-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    background: #e85d04; color: #fff; width: 20px; height: 20px;
+    border-radius: 50%; font-size: 11px; font-weight: 700;
+    opacity: 0; transform: scale(0); transition: all 0.2s;
+  }
+  .fav-badge.active { opacity: 1; transform: scale(1); }
+
+  /* Hero image */
+  .hero {
+    max-width: 1000px; margin: 20px auto 0; padding: 0 20px;
+  }
+  .hero img {
+    width: 100%; border-radius: 14px; display: block;
+    object-fit: cover; max-height: 200px;
+  }
+
+  /* Controls */
+  .controls {
+    max-width: 1000px; margin: 0 auto; padding: 14px 20px 0;
+    display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px;
+  }
+  .filter-rows {
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .filter-btn {
+    padding: 5px 14px; border: 1px solid #e0e0e0; border-radius: 20px;
+    background: #fff; font-size: 12px; color: #666; cursor: pointer;
+    transition: all 0.15s; font-family: inherit;
+  }
+  .filter-btn:hover { border-color: #999; color: #333; }
+  .filter-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+
+  .club-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .club-row-label { font-size: 11px; color: #999; font-family: inherit; }
+  .club-btn {
+    width: 36px; height: 36px; padding: 3px; border: 2px solid transparent;
+    border-radius: 50%; background: #fff; cursor: pointer;
+    transition: all 0.15s; display: flex; align-items: center; justify-content: center;
+  }
+  .club-btn:hover { border-color: #ccc; }
+  .club-btn.active { border-color: #1a1a1a; }
+  .club-btn img { width: 28px; height: 28px; object-fit: contain; }
+
+  .right-controls {
+    display: flex; flex-direction: column; align-items: flex-end; gap: 10px;
+  }
+  .time-toggle { display: flex; gap: 4px; }
+  .time-btn {
+    padding: 5px 12px; border: 1px solid #e0e0e0; background: #fff;
+    font-size: 12px; color: #666; cursor: pointer; font-family: inherit;
+  }
+  .time-btn:first-child { border-radius: 6px 0 0 6px; }
+  .time-btn:last-child { border-radius: 0 6px 6px 0; }
+  .time-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+  .share-buttons { display: flex; justify-content: space-between; width: 100%; }
+  .share-btn {
+    width: 36px; height: 36px; padding: 0; border: 2px solid transparent;
+    border-radius: 50%; background: #fff; cursor: pointer;
+    transition: all 0.15s; display: flex; align-items: center; justify-content: center;
+  }
+  .share-btn:hover { border-color: #ccc; }
+  .share-btn svg { width: 20px; height: 20px; }
+  #shareFb svg { width: 22px; height: 22px; }
+
+  /* Card grid */
+  .grid {
+    max-width: 1000px; margin: 20px auto 0; padding: 0 20px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: #fff; border: 1px solid #eee; border-radius: 12px;
+    padding: 20px; transition: all 0.2s;
+    display: flex; flex-direction: column; position: relative;
+  }
+  .card:hover { border-color: #ccc; box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
+  .card.past { opacity: 0.45; }
+  .card.favorited { border-color: #e85d04; border-width: 2px; }
+  .card.ad-card {
+    padding: 0; overflow: hidden;
+    cursor: pointer; border: none;
+  }
+  .card.ad-card img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+  .card-dates { display: flex; align-items: center; gap: 4px; }
+  .card-date {
+    background: #f7f7f7; border-radius: 8px; padding: 8px 12px;
+    text-align: center; min-width: 56px;
+  }
+  .card-date .day { font-size: 22px; font-weight: 700; line-height: 1.1; }
+  .card-date .month { font-size: 11px; color: #666; text-transform: uppercase; }
+  .date-sep { color: #bbb; font-size: 14px; font-weight: 300; }
+
+  .card-top-right { display: flex; align-items: flex-start; gap: 8px; }
+  .card-type {
+    display: inline-block; padding: 3px 10px; border-radius: 10px;
+    font-size: 11px; font-weight: 600;
+  }
+  .type-massa { background: #e8f4fd; color: #1a7ab8; }
+  .type-traff { background: #e8fde8; color: #2a8a2a; }
+  .type-show { background: #fde8f4; color: #b81a7a; }
+  .type-korning { background: #fdf4e8; color: #b87a1a; }
+  .type-tur { background: #f0e8fd; color: #6a1ab8; }
+  .type-racing { background: #fde8e8; color: #b81a1a; }
+  .type-fest { background: #fff3e8; color: #c45200; }
+
+  .fav-btn {
+    background: none; border: none; cursor: pointer; font-size: 18px;
+    padding: 2px 4px; color: #ccc; transition: color 0.2s; line-height: 1;
+  }
+  .fav-btn:hover { color: #f0c000; }
+  .fav-btn.active { color: #f0c000; }
+
+  .card-name { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+  .card-location { font-size: 13px; color: #777; margin-bottom: 8px; }
+  .card-location::before { content: '\1F4CD '; }
+  .card-desc { font-size: 13px; color: #666; flex: 1; }
+  .card-footer { margin-top: 12px; padding-top: 10px; border-top: 1px solid #f0f0f0; }
+  .card-organizer { font-size: 12px; color: #999; }
+  .card-link {
+    font-size: 13px; color: #0066cc; text-decoration: none;
+    font-weight: 500; float: right;
+  }
+  .card-link:hover { text-decoration: underline; }
+
+  .month-divider {
+    grid-column: 1 / -1; font-size: 18px; font-weight: 700;
+    padding: 20px 0 4px; border-bottom: 2px solid #1a1a1a;
+  }
+
+  /* Favorites drawer */
+  .drawer-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.3); z-index: 200;
+  }
+  .drawer-overlay.open { display: block; }
+  .drawer {
+    position: fixed; top: 0; right: -400px; width: 380px; max-width: 90vw;
+    height: 100%; background: #fff; z-index: 201; transition: right 0.25s;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.1); display: flex; flex-direction: column;
+  }
+  .drawer.open { right: 0; }
+  .drawer-header {
+    padding: 20px; border-bottom: 1px solid #eee;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .drawer-header h3 { font-size: 18px; }
+  .drawer-close {
+    background: none; border: none; font-size: 22px; cursor: pointer;
+    color: #999; padding: 4px 8px;
+  }
+  .drawer-close:hover { color: #333; }
+  .drawer-body { flex: 1; overflow-y: auto; padding: 16px 20px; }
+  .drawer-empty { text-align: center; color: #999; padding: 40px 0; font-size: 14px; }
+  .drawer-item {
+    padding: 12px 0; border-bottom: 1px solid #f0f0f0;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .drawer-item-info { flex: 1; }
+  .drawer-item-name { font-size: 14px; font-weight: 600; }
+  .drawer-item-date { font-size: 12px; color: #777; }
+  .drawer-item-remove {
+    background: none; border: none; color: #ccc; cursor: pointer;
+    font-size: 18px; padding: 4px 8px;
+  }
+  .drawer-item-remove:hover { color: #e85d04; }
+  .drawer-footer {
+    padding: 16px 20px; border-top: 1px solid #eee; background: #fafafa;
+  }
+  .drawer-footer p { font-size: 13px; color: #666; margin-bottom: 8px; }
+  .drawer-email-row { display: flex; gap: 8px; }
+  .drawer-email-row input {
+    flex: 1; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px;
+    font-size: 13px; font-family: inherit;
+  }
+  .drawer-email-row button {
+    padding: 8px 14px; background: #1a1a1a; color: #fff; border: none;
+    border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer;
+    font-family: inherit; white-space: nowrap;
+  }
+  .drawer-email-row button:hover { background: #333; }
+  .drawer-email-row button:disabled { background: #999; cursor: not-allowed; }
+
+  /* Tipsa modal */
+  .modal-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.4); z-index: 300; align-items: center; justify-content: center;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: #fff; border-radius: 12px; padding: 28px; width: 420px;
+    max-width: 90vw; max-height: 90vh; overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+  }
+  .modal h3 { font-size: 18px; margin-bottom: 16px; }
+  .modal label { display: block; font-size: 13px; font-weight: 600; color: #555; margin-bottom: 4px; margin-top: 12px; }
+  .modal input, .modal select, .modal textarea {
+    width: 100%; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px;
+    font-size: 14px; font-family: inherit;
+  }
+  .modal textarea { height: 60px; resize: vertical; }
+  .modal-buttons { margin-top: 20px; display: flex; gap: 10px; justify-content: flex-end; }
+  .modal-cancel {
+    padding: 8px 16px; border: 1px solid #ddd; background: #fff;
+    border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 13px;
+  }
+  .modal-submit {
+    padding: 8px 16px; border: none; background: #1a1a1a; color: #fff;
+    border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 13px; font-weight: 600;
+  }
+  .modal-submit:hover { background: #333; }
+  .modal-submit:disabled { background: #999; cursor: not-allowed; }
+  .modal-error { color: #c00; font-size: 12px; margin-top: 2px; display: none; }
+  .modal-error.show { display: block; }
+  .field-error { border-color: #c00 !important; }
+
+  /* Success message */
+  .success-msg {
+    position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+    background: #2a8a2a; color: #fff; padding: 12px 24px; border-radius: 8px;
+    font-size: 14px; font-weight: 600; z-index: 400; display: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  .success-msg.show { display: block; }
+
+  /* SEO section (hidden by JS after load) */
+  .seo-content {
+    max-width: 1000px; margin: 40px auto; padding: 0 20px;
+    font-size: 14px; color: #666; line-height: 1.7;
+  }
+  .seo-content h2 { font-size: 20px; color: #1a1a1a; margin-bottom: 12px; }
+  .seo-content h3 { font-size: 16px; color: #1a1a1a; margin: 16px 0 8px; }
+  .seo-content p { margin-bottom: 10px; }
+
+  /* Footer */
+  .footer {
+    text-align: center; padding: 40px 20px; color: #ccc;
+    font-size: 12px; border-top: 1px solid #e8e8e8; margin-top: 40px;
+    background: #fff;
+  }
+  .footer a { color: #999; text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+
+  /* Scroll to top button */
+  .scroll-top {
+    position: fixed; bottom: 24px; right: 24px; width: 44px; height: 44px;
+    background: #1a1a1a; color: #fff; border: none; border-radius: 50%;
+    font-size: 20px; cursor: pointer; z-index: 50;
+    opacity: 0; transform: scale(0); transition: all 0.2s;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .scroll-top.visible { opacity: 1; transform: scale(1); }
+  .scroll-top:hover { background: #333; }
+
+  @media (max-width: 480px) {
+    .grid { grid-template-columns: 1fr; }
+    .header-inner { flex-direction: column; gap: 10px; }
+    .header-actions { width: 100%; justify-content: center; }
+    .hero img { max-height: 140px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">MC Kalendern <span>/ Sverige</span></div>
+    <div class="header-actions">
+      <button class="btn-tipsa" id="tipsaBtn">+ Tipsa om evenemang</button>
+      <button class="btn-favorites" id="favBtn">
+        <span style="color:#f0c000">&#9733;</span> Mina evenemang
+        <span class="fav-badge" id="favBadge">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <img src="hero.jpg" alt="Motorcyklister pa svensk landsväg" loading="lazy">
+</div>
+
+<div class="controls">
+  <div class="filter-rows">
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">Alla</button>
+      <button class="filter-btn" data-filter="Mässa">Mässa</button>
+      <button class="filter-btn" data-filter="Träff">Träff</button>
+      <button class="filter-btn" data-filter="Show">Show</button>
+      <button class="filter-btn" data-filter="Körning">Körning</button>
+      <button class="filter-btn" data-filter="Tur">Tur</button>
+      <button class="filter-btn" data-filter="Racing">Racing</button>
+    </div>
+    <div class="club-row" id="clubFilters">
+      <span class="club-row-label">Klubbar:</span>
+      <button class="club-btn" data-club="BMW MC-klubben" title="BMW MC-klubben"><img src="clubs/bmw.png" alt="BMW MC-klubben"></button>
+      <button class="club-btn" data-club="GWCS" title="GWCS"><img src="clubs/gwcs.png" alt="GWCS"></button>
+      <button class="club-btn" data-club="H-DCS" title="H-DCS"><img src="clubs/hdcs.png" alt="H-DCS"></button>
+      <button class="club-btn" data-club="ÖAMCK" title="ÖAMCK"><img src="clubs/oamck.png" alt="ÖAMCK"></button>
+      <button class="club-btn" data-club="SMC" title="SMC"><img src="clubs/smc.png" alt="SMC"></button>
+      <button class="club-btn" data-club="SVEMO" title="SVEMO"><img src="clubs/svemo.png" alt="SVEMO"></button>
+    </div>
+  </div>
+  <div class="right-controls">
+    <div class="time-toggle" id="timeToggle">
+      <button class="time-btn active" data-time="upcoming">Kommande</button>
+      <button class="time-btn" data-time="all">Alla</button>
+    </div>
+    <div class="share-buttons">
+      <button class="share-btn" id="shareFb" title="Dela på Facebook">
+        <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </button>
+      <button class="share-btn" id="shareWa" title="Dela på WhatsApp">
+        <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      </button>
+      <button class="share-btn" id="shareX" title="Dela på X">
+        <svg viewBox="0 0 24 24" fill="#000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<!-- SEO content (visible to Google, hidden after JS loads) -->
+<div class="seo-content" id="seoContent">
+  <h2>Sveriges mest kompletta MC-kalender</h2>
+  <p>MC Kalendern samlar alla MC-evenemang i Sverige pa ett stalle. Har hittar du traffar, massor, racing, trackdays, korningar och fester fran alla stora arrangorer: H-DCS (Harley-Davidson Club Scandinavia), BMW MC-klubben, Sveriges MotorCyklister (SMC), SVEMO (Svenska Motorsportforbundet), och manga fler.</p>
+  <h3>Populara MC-evenemang 2026</h3>
+  <p>Bland arets hojdpunkter finns MC-Massan pa Elmia i Jonkoping, HojRock pa Tanga Hed i Vargarda, Custom Bike Show i Norrtalje, Malaren Runt (Sveriges storsta gemensamma MC-korning), Gotland Ring Bike Week, Vasteras Summer Meet, och hundratals lokala traffar och korningar over hela landet.</p>
+  <h3>Om MC Kalendern</h3>
+  <p>MC Kalendern ar ett ideellt projekt som samlar MC-evenemang fran over 50 kallor runt om i Sverige. Vi uppdateras automatiskt varje vecka med nya evenemang. Tipsa oss garna om evenemang vi missat!</p>
+</div>
+
+<!-- Favorites drawer -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="drawer" id="drawer">
+  <div class="drawer-header">
+    <h3>Mina evenemang</h3>
+    <button class="drawer-close" id="drawerClose">&times;</button>
+  </div>
+  <div class="drawer-body" id="drawerBody">
+    <div class="drawer-empty">Tryck pa stjarnan pa ett evenemang for att spara det har.</div>
+  </div>
+  <div class="drawer-footer">
+    <p>Skicka listan till din e-post:</p>
+    <div class="drawer-email-row">
+      <input type="email" id="reminderEmail" placeholder="din@epost.se">
+      <button id="reminderBtn">Skicka</button>
+    </div>
+    <div class="modal-error" id="drawerError"></div>
+  </div>
+</div>
+
+<!-- Tipsa modal -->
+<div class="modal-overlay" id="tipsaModal">
+  <div class="modal">
+    <h3>Tipsa om evenemang</h3>
+    <label>Namn pa evenemanget *</label>
+    <input type="text" id="tipName" required maxlength="150">
+    <div class="modal-error" id="errName">Ange ett namn for evenemanget</div>
+    <label>Startdatum *</label>
+    <input type="date" id="tipDate" required>
+    <div class="modal-error" id="errDate">Ange ett giltigt datum (inte i det forflutna)</div>
+    <label>Slutdatum</label>
+    <input type="date" id="tipDateEnd">
+    <div class="modal-error" id="errDateEnd">Slutdatum kan inte vara fore startdatum</div>
+    <label>Plats *</label>
+    <input type="text" id="tipLocation" placeholder="Stad eller plats" required maxlength="100">
+    <div class="modal-error" id="errLocation">Ange en plats</div>
+    <label>Typ</label>
+    <select id="tipType">
+      <option value="Träff">Träff</option>
+      <option value="Mässa">Mässa</option>
+      <option value="Show">Show</option>
+      <option value="Körning">Körning</option>
+      <option value="Tur">Tur</option>
+      <option value="Racing">Racing</option>
+      <option value="Fest">Fest</option>
+    </select>
+    <label>Arrangor</label>
+    <input type="text" id="tipOrganizer" placeholder="Klubb eller foretag" maxlength="100">
+    <label>Lank</label>
+    <input type="url" id="tipLink" placeholder="https://...">
+    <div class="modal-error" id="errLink">Ange en giltig URL (borja med https://)</div>
+    <label>Beskrivning</label>
+    <textarea id="tipDesc" placeholder="Kort beskrivning av evenemanget" maxlength="300"></textarea>
+    <label>Din e-post (valfritt)</label>
+    <input type="email" id="tipEmail" placeholder="for uppfoljning">
+    <div class="modal-error" id="errEmail">Ange en giltig e-postadress</div>
+    <div class="modal-buttons">
+      <button class="modal-cancel" id="tipsaCancel">Avbryt</button>
+      <button class="modal-submit" id="tipsaSubmit">Skicka tips</button>
+    </div>
+  </div>
+</div>
+
+<div class="success-msg" id="successMsg">Tack for ditt tips!</div>
+
+<button class="scroll-top" id="scrollTop" title="Till toppen">&#8593;</button>
+
+<footer class="footer">
+  MC Kalendern - Svenska MC-evenemang samlat pa ett stalle. Evenemang fran GWCS, H-DCS, BMW MC-klubben, SMC, SVEMO och fler.<br>
+  Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt: slava.druk@gmail.com</a><br>
+  &copy; 2026 Slava Druk, Uppsala. All eventdata tillhor MC Kalendern. Kommersiell anvandning kraver tillstand.
+</footer>
+
+<script src="events.js"></script>
+<script>
+const MONTHS_SV = ['Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'];
+const MONTHS_SHORT = ['Jan','Feb','Mar','Apr','Maj','Jun','Jul','Aug','Sep','Okt','Nov','Dec'];
+
+let currentFilter = 'all';
+let currentClub = 'all';
+let showPast = false;
+
+const CLUB_MATCHERS = {
+  'BMW MC-klubben': org => org === 'BMW MC-klubben',
+  'GWCS': org => org.includes('GWCS') || org.includes('GoldWing Club Sweden'),
+  'H-DCS': org => org === 'H-DCS' || org === 'Harley-Davidson Club Sweden',
+  'ÖAMCK': org => org === 'ÖAMCK',
+  'SMC': org => org.includes('SMC'),
+  'SVEMO': org => org.includes('SVEMO') || org.includes('Svemo') || org.includes('MXSM') || org.includes('JSM') || org.includes('USM')
+};
+let favorites = JSON.parse(localStorage.getItem('mc_favorites')) || [];
+
+function getTypeClass(type) {
+  const map = { 'Mässa':'massa', 'Träff':'traff', 'Show':'show', 'Körning':'korning', 'Tur':'tur', 'Racing':'racing', 'Fest':'fest' };
+  return 'type-' + (map[type] || 'traff');
+}
+
+function isFavorited(id) {
+  return favorites.includes(id);
+}
+
+function toggleFavorite(id) {
+  if (favorites.includes(id)) {
+    favorites = favorites.filter(f => f !== id);
+  } else {
+    favorites.push(id);
+  }
+  localStorage.setItem('mc_favorites', JSON.stringify(favorites));
+  updateFavUI();
+  render();
+}
+
+function updateFavUI() {
+  const badge = document.getElementById('favBadge');
+  badge.textContent = favorites.length;
+  badge.classList.toggle('active', favorites.length > 0);
+
+  // Update drawer
+  const body = document.getElementById('drawerBody');
+  if (favorites.length === 0) {
+    body.innerHTML = '<div class="drawer-empty">Tryck pa stjarnan pa ett evenemang for att spara det har.</div>';
+    return;
+  }
+
+  const allEvents = EVENTS_DATA.events;
+  const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  body.innerHTML = favEvents.map(e => {
+    const d = new Date(e.date + 'T00:00:00');
+    return `<div class="drawer-item">
+      <div class="drawer-item-info">
+        <div class="drawer-item-name">${e.name}</div>
+        <div class="drawer-item-date">${d.getDate()} ${MONTHS_SV[d.getMonth()]} ${d.getFullYear()} - ${e.location}</div>
+      </div>
+      <button class="drawer-item-remove" onclick="toggleFavorite('${e.id}')">&times;</button>
+    </div>`;
+  }).join('');
+}
+
+// Ad placements: image-only cards inserted between events by date
+const AD_PLACEMENTS = [
+  {
+    id: 'hd-nights-2026-03',
+    image: 'ads/hd-nights-2026-03-20.jpg',
+    bgColor: '#0a0a0a',
+    link: 'https://www.harley-davidson.com/',
+    afterDate: '2026-03-19',
+    alt: 'Harley-Davidson Nights - 20th March 2026',
+    types: ['Träff', 'Show'],
+    clubs: ['H-DCS']
+  },
+  {
+    id: 'claessons-mcfest-2026-03',
+    image: 'ads/claessons-mcfest-2026-03-28.jpg',
+    bgColor: '#413e42',
+    link: 'https://claessonsmotor.se/',
+    afterDate: '2026-03-27',
+    alt: 'Claessons MC-Fest 50 år - 28-29 Mars 2026, Bromölla',
+    types: ['Mässa', 'Träff'],
+    clubs: ['BMW MC-klubben']
+  },
+  {
+    id: 'gwcs-treffen-2026-08',
+    image: 'ads/gwcs-treffen-2026-08-06.jpg',
+    bgColor: '#000000',
+    link: 'https://gwcs.se/',
+    afterDate: '2026-08-05',
+    alt: 'GWCS 41st International Treffen - 6-9 August 2026, Orsa Grönklitt',
+    types: ['Träff'],
+    clubs: ['GWCS']
+  },
+  {
+    id: 'hd-2026-utbudet-04',
+    image: 'ads/hd-2026-utbudet-2026-04.jpg',
+    bgColor: '#1e1316',
+    link: 'https://www.harley-davidson.com/',
+    afterDate: '2026-04-22',
+    alt: 'Harley-Davidson - Möt det nya 2026-utbudet',
+    types: ['Träff', 'Show', 'Mässa'],
+    clubs: ['H-DCS']
+  },
+  {
+    id: 'bsa-sulas-2026-04',
+    image: 'ads/bsa-sulas-2026-04-18.jpg',
+    bgColor: '#bab7aa',
+    link: 'https://sulas.se/vara-fordon/motorcyklar/bsa-motorcycles/#/',
+    beforeEvent: 'sulas-mc-invigning-2026',
+    alt: 'BSA Motorcycles - Nu hos Sulas MC, Uppsala',
+    types: ['Mässa', 'Show'],
+    clubs: []
+  },
+  {
+    id: 'bsa-scrambler-2026-08',
+    image: 'ads/bsa-scrambler-2026-08-06.jpg',
+    bgColor: '#66655c',
+    link: 'https://www.bsaoc.org/swe/',
+    beforeEvent: 'bsa-summer-camp-oland-2026',
+    alt: 'BSA Scrambler 650 - Svenska BSA Klubben',
+    types: ['Träff', 'Show'],
+    clubs: []
+  },
+  {
+    id: 'dwr-uppsala-2026',
+    image: 'ads/dwr-uppsala-2026.jpg',
+    bgColor: '#060606',
+    link: 'https://www.facebook.com/dwruppsala?locale=sv_SE',
+    afterDate: '2026-05-06',
+    alt: 'DWR V-Twin Motorcycle Workshop Uppsala',
+    types: ['Träff', 'Show', 'Mässa'],
+    clubs: ['H-DCS']
+  },
+  {
+    id: 'indian-motorcycle-2026',
+    image: 'ads/indian-motorcycle-2026.jpg',
+    bgColor: '#9c8f84',
+    link: 'https://www.indianmotorcycle.com/sv-se/',
+    beforeEvent: 'american-days-2026',
+    alt: 'Indian Motorcycle - American Soul Since 1901',
+    types: ['Träff', 'Show', 'Mässa'],
+    clubs: []
+  },
+  {
+    id: 'gwcs-svenljunga-nydal-2026',
+    image: 'ads/gwcs-svenljunga-nydal-2026-05-22.jpg',
+    bgColor: '#040709',
+    link: 'https://gwcs.se/',
+    beforeEvent: 'gwcs-minitraff-svenljunga-2026',
+    alt: 'GWCS Svenljunga Träffen - 22-24 Maj 2026, Nydal',
+    types: ['Träff'],
+    clubs: ['GWCS']
+  },
+  {
+    id: 'gwcs-vikingtraffen-gallo-2026-ad',
+    image: 'ads/gwcs-vikingtraffen-gallo-2026-05-29.jpg',
+    bgColor: '#c59b52',
+    link: 'https://gwcs.se/',
+    beforeEvent: 'gwcs-vikingtraffen-gallo-2026',
+    alt: 'Vikingträffen - 29-31 Maj 2026, Gällö, Jämtland',
+    types: ['Träff'],
+    clubs: ['GWCS']
+  }
+];
+
+function render() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+
+  const today = new Date().toISOString().split('T')[0];
+  let events = EVENTS_DATA.events.filter(e => !e._canary).sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
+  if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
+  if (!showPast) events = events.filter(e => e.dateEnd ? e.dateEnd >= today : e.date >= today);
+
+  // Build maps of ads: by date (date gap placement) and by event ID (exact placement)
+  const adsByDate = {};
+  const adsByEvent = {};
+  AD_PLACEMENTS.forEach(ad => {
+    const matchesType = currentFilter === 'all' || (ad.types && ad.types.includes(currentFilter));
+    const matchesClub = currentClub === 'all' || !ad.clubs || ad.clubs.length === 0 || ad.clubs.includes(currentClub);
+    if (matchesType && matchesClub) {
+      if (ad.beforeEvent) {
+        if (!adsByEvent[ad.beforeEvent]) adsByEvent[ad.beforeEvent] = [];
+        adsByEvent[ad.beforeEvent].push(ad);
+      } else if (ad.afterDate) {
+        if (!adsByDate[ad.afterDate]) adsByDate[ad.afterDate] = [];
+        adsByDate[ad.afterDate].push(ad);
+      }
+    }
+  });
+
+  let currentMonth = '';
+  let lastEventDate = '';
+
+  events.forEach(event => {
+    const d = new Date(event.date + 'T00:00:00');
+    const monthKey = d.getFullYear() + '-' + d.getMonth();
+    const isPast = event.dateEnd ? event.dateEnd < today : event.date < today;
+    const isFav = isFavorited(event.id);
+    const isMultiDay = event.dateEnd && event.dateEnd !== event.date;
+
+    if (monthKey !== currentMonth) {
+      currentMonth = monthKey;
+      const divider = document.createElement('div');
+      divider.className = 'month-divider';
+      divider.textContent = MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
+      grid.appendChild(divider);
+    }
+
+    let dateHTML;
+    if (isMultiDay) {
+      const d2 = new Date(event.dateEnd + 'T00:00:00');
+      dateHTML = `<div class="card-dates">
+        <div class="card-date"><div class="day">${d.getDate()}</div><div class="month">${MONTHS_SHORT[d.getMonth()]}</div></div>
+        <span class="date-sep">&ndash;</span>
+        <div class="card-date"><div class="day">${d2.getDate()}</div><div class="month">${MONTHS_SHORT[d2.getMonth()]}</div></div>
+      </div>`;
+    } else {
+      dateHTML = `<div class="card-date"><div class="day">${d.getDate()}</div><div class="month">${MONTHS_SHORT[d.getMonth()]}</div></div>`;
+    }
+
+    const card = document.createElement('div');
+    card.className = 'card' + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
+    card.innerHTML = `
+      <div class="card-top">
+        ${dateHTML}
+        <div class="card-top-right">
+          <span class="card-type ${getTypeClass(event.type)}">${event.type}</span>
+          <button class="fav-btn ${isFav ? 'active' : ''}" onclick="toggleFavorite('${event.id}')" title="Spara som favorit">&#9733;</button>
+        </div>
+      </div>
+      <div class="card-name">${event.name}</div>
+      <div class="card-location">${event.location}</div>
+      <div class="card-desc">${event.description || ''}</div>
+      <div class="card-footer">
+        <span class="card-organizer">${event.organizer}</span>
+        <a class="card-link" href="${event.link}" target="_blank" rel="noopener">Mer info &rarr;</a>
+      </div>
+    `;
+
+    // Check if any ads should appear before this event (date gap placement)
+    if (event.date !== lastEventDate && lastEventDate) {
+      Object.keys(adsByDate).forEach(adDate => {
+        if (adDate >= lastEventDate && adDate < event.date) {
+          adsByDate[adDate].forEach(ad => {
+            const adCard = document.createElement('div');
+            adCard.className = 'card ad-card';
+            adCard.style.backgroundColor = ad.bgColor;
+            adCard.style.cursor = 'pointer';
+            adCard.onclick = () => window.open(ad.link, '_blank');
+            adCard.innerHTML = `<img src="${ad.image}" alt="${ad.alt}" loading="lazy">`;
+            grid.appendChild(adCard);
+          });
+        }
+      });
+    }
+    lastEventDate = event.date;
+
+    // Check if any ads should appear right before this specific event
+    if (adsByEvent[event.id]) {
+      adsByEvent[event.id].forEach(ad => {
+        const adCard = document.createElement('div');
+        adCard.className = 'card ad-card';
+        adCard.style.backgroundColor = ad.bgColor;
+        adCard.style.cursor = 'pointer';
+        adCard.onclick = () => window.open(ad.link, '_blank');
+        adCard.innerHTML = `<img src="${ad.image}" alt="${ad.alt}" loading="lazy">`;
+        grid.appendChild(adCard);
+      });
+    }
+
+    grid.appendChild(card);
+  });
+
+  updateFavUI();
+}
+
+// Filter buttons (type row)
+document.getElementById('filters').addEventListener('click', e => {
+  if (!e.target.classList.contains('filter-btn')) return;
+  const filter = e.target.dataset.filter;
+  if (filter === 'all') {
+    // Alla resets both type and club
+    currentFilter = 'all';
+    currentClub = 'all';
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+  } else {
+    // Type filter selected
+    currentFilter = filter;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+  }
+  render();
+});
+
+// Time toggle
+document.getElementById('timeToggle').addEventListener('click', e => {
+  if (!e.target.classList.contains('time-btn')) return;
+  document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('active'));
+  e.target.classList.add('active');
+  showPast = e.target.dataset.time === 'all';
+  render();
+});
+
+// Share buttons
+const shareUrl = encodeURIComponent('https://druk.se/');
+const shareText = encodeURIComponent('MC Kalendern - Alla MC-evenemang i Sverige 2026');
+document.getElementById('shareFb').addEventListener('click', () => {
+  window.open('https://www.facebook.com/sharer/sharer.php?u=' + shareUrl, '_blank', 'width=600,height=400');
+});
+document.getElementById('shareWa').addEventListener('click', () => {
+  window.open('https://wa.me/?text=' + shareText + '%20' + shareUrl, '_blank', 'width=600,height=400');
+});
+document.getElementById('shareX').addEventListener('click', () => {
+  window.open('https://twitter.com/intent/tweet?url=' + shareUrl + '&text=' + shareText, '_blank', 'width=600,height=400');
+});
+
+// Club filter buttons
+document.getElementById('clubFilters').addEventListener('click', e => {
+  const btn = e.target.closest('.club-btn');
+  if (!btn) return;
+  const club = btn.dataset.club;
+  // Toggle: click same club again to deselect
+  if (btn.classList.contains('active')) {
+    btn.classList.remove('active');
+    currentClub = 'all';
+  } else {
+    document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentClub = club;
+  }
+  // Update Alla button state
+  const allaBtn = document.querySelector('.filter-btn[data-filter="all"]');
+  if (currentFilter === 'all' && currentClub === 'all') {
+    allaBtn.classList.add('active');
+  } else {
+    allaBtn.classList.remove('active');
+  }
+  render();
+});
+
+// Favorites drawer
+document.getElementById('favBtn').addEventListener('click', () => {
+  document.getElementById('drawerOverlay').classList.add('open');
+  document.getElementById('drawer').classList.add('open');
+});
+document.getElementById('drawerOverlay').addEventListener('click', () => {
+  document.getElementById('drawerOverlay').classList.remove('open');
+  document.getElementById('drawer').classList.remove('open');
+});
+document.getElementById('drawerClose').addEventListener('click', () => {
+  document.getElementById('drawerOverlay').classList.remove('open');
+  document.getElementById('drawer').classList.remove('open');
+});
+
+// Tipsa modal
+document.getElementById('tipsaBtn').addEventListener('click', () => {
+  document.getElementById('tipsaModal').classList.add('open');
+});
+document.getElementById('tipsaCancel').addEventListener('click', () => {
+  document.getElementById('tipsaModal').classList.remove('open');
+});
+document.getElementById('tipsaModal').addEventListener('click', e => {
+  if (e.target === e.currentTarget) e.currentTarget.classList.remove('open');
+});
+// Formspree form IDs (slava.druk@gmail.com account)
+const FORMSPREE_TIPSA_ID = 'xbdzoavq';
+const FORMSPREE_FAVORITES_ID = 'mnjgdbkw';
+const TEST_MODE = false;
+
+function clearTipsaErrors() {
+  document.querySelectorAll('#tipsaModal .modal-error').forEach(el => el.classList.remove('show'));
+  document.querySelectorAll('#tipsaModal .field-error').forEach(el => el.classList.remove('field-error'));
+}
+
+function validateTipsaForm() {
+  clearTipsaErrors();
+  let valid = true;
+  const name = document.getElementById('tipName');
+  const date = document.getElementById('tipDate');
+  const dateEnd = document.getElementById('tipDateEnd');
+  const location = document.getElementById('tipLocation');
+  const link = document.getElementById('tipLink');
+  const email = document.getElementById('tipEmail');
+  const today = new Date().toISOString().split('T')[0];
+
+  if (!name.value.trim()) {
+    document.getElementById('errName').classList.add('show');
+    name.classList.add('field-error');
+    valid = false;
+  }
+  if (!date.value || date.value < today) {
+    document.getElementById('errDate').classList.add('show');
+    date.classList.add('field-error');
+    valid = false;
+  }
+  if (dateEnd.value && date.value && dateEnd.value < date.value) {
+    document.getElementById('errDateEnd').classList.add('show');
+    dateEnd.classList.add('field-error');
+    valid = false;
+  }
+  if (!location.value.trim()) {
+    document.getElementById('errLocation').classList.add('show');
+    location.classList.add('field-error');
+    valid = false;
+  }
+  if (link.value && !link.value.match(/^https?:\/\/.+\..+/)) {
+    document.getElementById('errLink').classList.add('show');
+    link.classList.add('field-error');
+    valid = false;
+  }
+  if (email.value && !email.value.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+    document.getElementById('errEmail').classList.add('show');
+    email.classList.add('field-error');
+    valid = false;
+  }
+  return valid;
+}
+
+document.getElementById('tipsaSubmit').addEventListener('click', async () => {
+  if (!validateTipsaForm()) return;
+
+  const btn = document.getElementById('tipsaSubmit');
+  btn.disabled = true;
+  btn.textContent = 'Skickar...';
+
+  const tip = {
+    Evenemang: document.getElementById('tipName').value.trim(),
+    Startdatum: document.getElementById('tipDate').value,
+    Slutdatum: document.getElementById('tipDateEnd').value || document.getElementById('tipDate').value,
+    Plats: document.getElementById('tipLocation').value.trim(),
+    Typ: document.getElementById('tipType').value,
+    Arrangor: document.getElementById('tipOrganizer').value.trim() || '(ej angivet)',
+    Lank: document.getElementById('tipLink').value.trim() || '(ingen lank)',
+    Beskrivning: document.getElementById('tipDesc').value.trim() || '(ingen beskrivning)',
+    _replyto: document.getElementById('tipEmail').value.trim() || '',
+    _subject: 'MC Kalendern: Nytt evenemangstips - ' + document.getElementById('tipName').value.trim()
+  };
+
+  try {
+    if (TEST_MODE) {
+      console.log('[TEST] Tipsa submission:', tip);
+      await new Promise(r => setTimeout(r, 500)); // simulate delay
+    } else {
+      const res = await fetch('https://formspree.io/f/' + FORMSPREE_TIPSA_ID, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(tip)
+      });
+      if (!res.ok) throw new Error('Server error');
+    }
+
+    document.getElementById('tipsaModal').classList.remove('open');
+    document.querySelectorAll('#tipsaModal input, #tipsaModal textarea').forEach(el => el.value = '');
+    clearTipsaErrors();
+
+    const msg = document.getElementById('successMsg');
+    msg.textContent = 'Tack for ditt tips! Vi granskar det snart.';
+    msg.classList.add('show');
+    setTimeout(() => { msg.classList.remove('show'); msg.textContent = 'Tack for ditt tips!'; }, 4000);
+  } catch (err) {
+    alert('Kunde inte skicka tipset. Forsok igen senare eller mejla direkt till slava.druk@gmail.com');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Skicka tips';
+  }
+});
+
+// Send favorites via email
+document.getElementById('reminderBtn').addEventListener('click', async () => {
+  const email = document.getElementById('reminderEmail').value.trim();
+  const errEl = document.getElementById('drawerError');
+  errEl.classList.remove('show');
+
+  if (!email || !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+    errEl.textContent = 'Ange en giltig e-postadress';
+    errEl.classList.add('show');
+    return;
+  }
+  if (favorites.length === 0) {
+    errEl.textContent = 'Du har inga sparade evenemang att skicka';
+    errEl.classList.add('show');
+    return;
+  }
+
+  const btn = document.getElementById('reminderBtn');
+  btn.disabled = true;
+  btn.textContent = 'Skickar...';
+
+  // Build a readable event list
+  const favEvents = EVENTS_DATA.events.filter(e => favorites.includes(e.id));
+  const eventList = favEvents.map(e => {
+    const d = new Date(e.date);
+    const dateStr = d.getDate() + ' ' + MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
+    return e.name + ' - ' + dateStr + ' - ' + (e.location || 'Se lank');
+  }).join('\n');
+
+  const payload = {
+    _replyto: email,
+    _subject: 'Dina sparade MC-evenemang fran MC Kalendern',
+    email: email,
+    message: 'Har ar dina sparade evenemang:\n\n' + eventList + '\n\nBesok druk.se for mer info!',
+    antal_evenemang: favEvents.length,
+    evenemang_ids: favorites.join(', ')
+  };
+
+  try {
+    if (TEST_MODE) {
+      console.log('[TEST] Favorites submission:', payload);
+      await new Promise(r => setTimeout(r, 500));
+    } else {
+      const res = await fetch('https://formspree.io/f/' + FORMSPREE_FAVORITES_ID, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (!res.ok) throw new Error('Server error');
+    }
+
+    localStorage.setItem('mc_reminder_email', email);
+    const msg = document.getElementById('successMsg');
+    msg.textContent = 'Evenemangslistan skickad till ' + email + '!';
+    msg.classList.add('show');
+    setTimeout(() => { msg.classList.remove('show'); msg.textContent = 'Tack for ditt tips!'; }, 4000);
+  } catch (err) {
+    errEl.textContent = 'Kunde inte skicka. Forsok igen senare.';
+    errEl.classList.add('show');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Skicka';
+  }
+});
+// Load saved email
+const savedEmail = localStorage.getItem('mc_reminder_email');
+if (savedEmail) document.getElementById('reminderEmail').value = savedEmail;
+
+// Schema.org events
+function generateEventSchema() {
+  const today = new Date().toISOString().split('T')[0];
+  const upcoming = EVENTS_DATA.events
+    .filter(e => e.date >= today)
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
+    .slice(0, 20);
+
+  if (upcoming.length === 0) return;
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "MC-evenemang i Sverige 2026",
+    "numberOfItems": upcoming.length,
+    "itemListElement": upcoming.map((e, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "item": {
+        "@type": "Event",
+        "name": e.name,
+        "startDate": e.date,
+        "endDate": e.dateEnd || e.date,
+        "location": { "@type": "Place", "name": e.location || "Sverige" },
+        "organizer": { "@type": "Organization", "name": e.organizer || "Se lank" },
+        "url": e.link || "https://druk.se/"
+      }
+    }))
+  };
+
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify(schema);
+  document.head.appendChild(script);
+}
+
+// Scroll to top button
+const scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', () => {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
+});
+scrollBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// Init
+render();
+generateEventSchema();
+
+// Hide SEO content after JS has rendered events
+const seoEl = document.getElementById('seoContent');
+if (seoEl) seoEl.style.display = 'none';
+</script>
+</body>
+</html>

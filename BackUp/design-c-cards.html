@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MC Kalendern - Design C: Kortvy</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f8f8f8; color: #1a1a1a; line-height: 1.5;
+  }
+
+  .header {
+    position: sticky; top: 0; background: #fff;
+    border-bottom: 1px solid #e8e8e8; z-index: 100; padding: 16px 0;
+  }
+  .header-inner {
+    max-width: 1000px; margin: 0 auto; padding: 0 20px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .logo { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+  .logo span { color: #999; font-weight: 400; font-size: 16px; }
+
+  .controls {
+    max-width: 1000px; margin: 0 auto; padding: 14px 20px 0;
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+  }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn {
+    padding: 5px 14px; border: 1px solid #e0e0e0; border-radius: 20px;
+    background: #fff; font-size: 12px; color: #666; cursor: pointer;
+    transition: all 0.15s; font-family: inherit;
+  }
+  .filter-btn:hover { border-color: #999; color: #333; }
+  .filter-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+
+  .time-toggle { display: flex; gap: 4px; }
+  .time-btn {
+    padding: 5px 12px; border: 1px solid #e0e0e0; background: #fff;
+    font-size: 12px; color: #666; cursor: pointer; font-family: inherit;
+  }
+  .time-btn:first-child { border-radius: 6px 0 0 6px; }
+  .time-btn:last-child { border-radius: 0 6px 6px 0; }
+  .time-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+
+  .upcoming-banner {
+    max-width: 1000px; margin: 20px auto 0; padding: 0 20px;
+  }
+  .banner-card {
+    background: #1a1a1a; color: #fff; border-radius: 14px;
+    padding: 24px 28px; display: flex; justify-content: space-between;
+    align-items: center; flex-wrap: wrap; gap: 16px;
+  }
+  .banner-label { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+  .banner-name { font-size: 22px; font-weight: 700; margin-top: 4px; }
+  .banner-details { font-size: 14px; color: #aaa; margin-top: 4px; }
+  .banner-countdown {
+    text-align: right;
+  }
+  .banner-days { font-size: 36px; font-weight: 700; }
+  .banner-days-label { font-size: 12px; color: #888; }
+
+  .grid {
+    max-width: 1000px; margin: 20px auto 0; padding: 0 20px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: #fff; border: 1px solid #eee; border-radius: 12px;
+    padding: 20px; transition: all 0.2s; cursor: pointer;
+    display: flex; flex-direction: column;
+  }
+  .card:hover { border-color: #ccc; box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
+  .card.past { opacity: 0.45; }
+
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+  .card-date {
+    background: #f7f7f7; border-radius: 8px; padding: 8px 12px;
+    text-align: center; min-width: 56px;
+  }
+  .card-date .day { font-size: 22px; font-weight: 700; line-height: 1.1; }
+  .card-date .month { font-size: 11px; color: #666; text-transform: uppercase; }
+  .card-type {
+    display: inline-block; padding: 3px 10px; border-radius: 10px;
+    font-size: 11px; font-weight: 600;
+  }
+  .type-massa { background: #e8f4fd; color: #1a7ab8; }
+  .type-traff { background: #e8fde8; color: #2a8a2a; }
+  .type-show { background: #fde8f4; color: #b81a7a; }
+  .type-korning { background: #fdf4e8; color: #b87a1a; }
+  .type-tur { background: #f0e8fd; color: #6a1ab8; }
+  .type-racing { background: #fde8e8; color: #b81a1a; }
+
+  .card-name { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+  .card-location { font-size: 13px; color: #777; margin-bottom: 8px; }
+  .card-location::before { content: '📍 '; }
+  .card-desc { font-size: 13px; color: #666; flex: 1; }
+  .card-footer { margin-top: 12px; padding-top: 10px; border-top: 1px solid #f0f0f0; }
+  .card-organizer { font-size: 12px; color: #999; }
+  .card-link {
+    font-size: 13px; color: #0066cc; text-decoration: none;
+    font-weight: 500; float: right;
+  }
+  .card-link:hover { text-decoration: underline; }
+
+  .month-divider {
+    grid-column: 1 / -1; font-size: 18px; font-weight: 700;
+    padding: 20px 0 4px; border-bottom: 2px solid #1a1a1a;
+  }
+
+  .footer {
+    text-align: center; padding: 40px 20px; color: #ccc;
+    font-size: 12px; border-top: 1px solid #e8e8e8; margin-top: 40px;
+    background: #fff;
+  }
+
+  @media (max-width: 480px) {
+    .grid { grid-template-columns: 1fr; }
+    .banner-card { flex-direction: column; text-align: center; }
+    .banner-countdown { text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">MC Kalendern <span>/ Sverige</span></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-filter="all">Alla</button>
+    <button class="filter-btn" data-filter="Mässa">Mässa</button>
+    <button class="filter-btn" data-filter="Träff">Träff</button>
+    <button class="filter-btn" data-filter="Show">Show</button>
+    <button class="filter-btn" data-filter="Körning">Körning</button>
+    <button class="filter-btn" data-filter="Tur">Tur</button>
+    <button class="filter-btn" data-filter="Racing">Racing</button>
+  </div>
+  <div class="time-toggle" id="timeToggle">
+    <button class="time-btn active" data-time="upcoming">Kommande</button>
+    <button class="time-btn" data-time="all">Alla</button>
+  </div>
+</div>
+
+<div class="upcoming-banner" id="bannerArea"></div>
+
+<div class="grid" id="grid"></div>
+
+<footer class="footer">
+  MC Kalendern - Svenska MC-evenemang samlat på ett ställe
+</footer>
+
+<script src="events.js"></script>
+<script>
+const MONTHS_SV = ['Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'];
+const MONTHS_SHORT = ['Jan','Feb','Mar','Apr','Maj','Jun','Jul','Aug','Sep','Okt','Nov','Dec'];
+
+let currentFilter = 'all';
+let showPast = false;
+
+function getTypeClass(type) {
+  const map = { 'Mässa':'massa', 'Träff':'traff', 'Show':'show', 'Körning':'korning', 'Tur':'tur', 'Racing':'racing' };
+  return 'type-' + (map[type] || 'traff');
+}
+
+function daysUntil(dateStr) {
+  const now = new Date(); now.setHours(0,0,0,0);
+  const then = new Date(dateStr + 'T00:00:00');
+  return Math.ceil((then - now) / (1000 * 60 * 60 * 24));
+}
+
+function renderBanner(events) {
+  const area = document.getElementById('bannerArea');
+  const today = new Date().toISOString().split('T')[0];
+  const next = events.find(e => e.date >= today);
+
+  if (!next) { area.innerHTML = ''; return; }
+
+  const days = daysUntil(next.date);
+  const d = new Date(next.date + 'T00:00:00');
+
+  area.innerHTML = `
+    <div class="banner-card">
+      <div>
+        <div class="banner-label">Nasta evenemang</div>
+        <div class="banner-name">${next.name}</div>
+        <div class="banner-details">${d.getDate()} ${MONTHS_SV[d.getMonth()]} - ${next.location}</div>
+      </div>
+      <div class="banner-countdown">
+        <div class="banner-days">${days}</div>
+        <div class="banner-days-label">dagar kvar</div>
+      </div>
+    </div>
+  `;
+}
+
+function render() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+
+  const today = new Date().toISOString().split('T')[0];
+  let events = EVENTS_DATA.events.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
+  if (!showPast) events = events.filter(e => e.dateEnd ? e.dateEnd >= today : e.date >= today);
+
+  renderBanner(EVENTS_DATA.events.sort((a, b) => new Date(a.date) - new Date(b.date)));
+
+  let currentMonth = '';
+
+  events.forEach(event => {
+    const d = new Date(event.date + 'T00:00:00');
+    const monthKey = d.getFullYear() + '-' + d.getMonth();
+    const isPast = event.date < today;
+
+    if (monthKey !== currentMonth) {
+      currentMonth = monthKey;
+      const divider = document.createElement('div');
+      divider.className = 'month-divider';
+      divider.textContent = MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
+      grid.appendChild(divider);
+    }
+
+    const card = document.createElement('div');
+    card.className = 'card' + (isPast ? ' past' : '');
+    card.innerHTML = `
+      <div class="card-top">
+        <div class="card-date">
+          <div class="day">${d.getDate()}</div>
+          <div class="month">${MONTHS_SHORT[d.getMonth()]}</div>
+        </div>
+        <span class="card-type ${getTypeClass(event.type)}">${event.type}</span>
+      </div>
+      <div class="card-name">${event.name}</div>
+      <div class="card-location">${event.location}</div>
+      <div class="card-desc">${event.description}</div>
+      <div class="card-footer">
+        <span class="card-organizer">${event.organizer}</span>
+        <a class="card-link" href="${event.link}" target="_blank" rel="noopener">Mer info &rarr;</a>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById('filters').addEventListener('click', e => {
+  if (!e.target.classList.contains('filter-btn')) return;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  e.target.classList.add('active');
+  currentFilter = e.target.dataset.filter;
+  render();
+});
+
+document.getElementById('timeToggle').addEventListener('click', e => {
+  if (!e.target.classList.contains('time-btn')) return;
+  document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('active'));
+  e.target.classList.add('active');
+  showPast = e.target.dataset.time === 'all';
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
