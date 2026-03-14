@@ -2472,13 +2472,13 @@ const EVENTS_DATA = {
   },
   {
     "id": "mctouring-oppet-hus-gagnef-2026",
-    "name": "MCtouring.se Öppet Hus på Tallbacken",
+    "name": "Öppet Hus på Tallbacken",
     "date": "2026-05-16",
     "dateEnd": "2026-05-17",
     "location": "Tallbacken, Gagnef",
     "type": "Träff",
     "organizer": "mctouring.se",
-    "description": "Öppet hus hos mctouring.se i Gagnef. Snacka MC-touring över kaffe, kolla MC-touringboden och leverantörer på plats. Grillkväll på kvällen (175 kr) med resebilder och film, i år med fokus på Japan. Övernattning möjlig. Bokning: hans@mctouring.se",
+    "description": "Snacka MC-touring över kaffe, kolla touringboden och leverantörer. Grillkväll 175 kr med resebilder, i år med fokus på Japan. Övernattning möjlig.",
     "link": "https://mctouring.se",
     "region": "Dalarna",
     "source": "FB"
@@ -2878,10 +2878,10 @@ const EVENTS_DATA = {
     "name": "Ride for Ukraine 2026",
     "date": "2026-05-23",
     "dateEnd": "2026-05-23",
-    "location": "Ukrainska ambassaden, Lidingö till Överby, Sollentuna",
+    "location": "Ukrainska ambassaden, Lidingö",
     "type": "Körning",
     "organizer": "Templar Knights MC",
-    "description": "Välgörenhetskörning till stöd för UNHCR och Ukraina. Fjärde året i rad. Samling 09:30, start 10:00 vid Ukrainska ambassaden på Lidingö. Mål: Överby, Sollentuna. Swisha valfri summa, allt går oavkortat till UNHCR.",
+    "description": "Välgörenhetskörning till stöd för Ukraina via UNHCR. Samling 09:30, start 10:00. Swisha valfri summa, allt går oavkortat till UNHCR.",
     "link": "https://min.sverigeforunhcr.se/fundraisers/ride-for-ukraine2",
     "region": "Stockholm",
     "source": "MC-Folket / FB"
