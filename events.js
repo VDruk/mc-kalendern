@@ -3557,9 +3557,9 @@ const EVENTS_DATA = {
     "location": "Öland",
     "type": "Träff",
     "organizer": "H-DCS",
-    "description": "Arrangemang med H-DCS från Öland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
+    "description": "American Days på Öland. Harley-Davidson Club Sweden samlar medlemmar för en träff under American Days-helgen 4-7 juni. Se hdcs.se för samlingspunkt och tider.",
     "link": "https://hdcs.se/evenemang/american-days-oland/",
-    "region": "Skåne",
+    "region": "Kalmar",
     "source": "hdcs.se"
   },
   {
