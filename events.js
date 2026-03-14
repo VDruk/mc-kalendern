@@ -2471,6 +2471,19 @@ const EVENTS_DATA = {
     "source": "hdcs.se"
   },
   {
+    "id": "mctouring-oppet-hus-gagnef-2026",
+    "name": "MCtouring.se Öppet Hus på Tallbacken",
+    "date": "2026-05-16",
+    "dateEnd": "2026-05-17",
+    "location": "Tallbacken, Gagnef",
+    "type": "Träff",
+    "organizer": "mctouring.se",
+    "description": "Öppet hus hos mctouring.se i Gagnef. Snacka MC-touring över kaffe, kolla MC-touringboden och leverantörer på plats. Grillkväll på kvällen (175 kr) med resebilder och film, i år med fokus på Japan. Övernattning möjlig. Bokning: hans@mctouring.se",
+    "link": "https://mctouring.se",
+    "region": "Dalarna",
+    "source": "FB"
+  },
+  {
     "id": "dob-aviatorernas-flygarrally-2026",
     "name": "DOB- Aviatörernas Flygarrally",
     "date": "2026-05-16",
