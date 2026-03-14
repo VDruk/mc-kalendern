@@ -2861,6 +2861,19 @@ const EVENTS_DATA = {
     "source": "gwcs.se"
   },
   {
+    "id": "ride-for-ukraine-2026",
+    "name": "Ride for Ukraine 2026",
+    "date": "2026-05-23",
+    "dateEnd": "2026-05-23",
+    "location": "Ukrainska ambassaden, Lidingö till Överby, Sollentuna",
+    "type": "Körning",
+    "organizer": "Templar Knights MC",
+    "description": "Välgörenhetskörning till stöd för UNHCR och Ukraina. Fjärde året i rad. Samling 09:30, start 10:00 vid Ukrainska ambassaden på Lidingö. Mål: Överby, Sollentuna. Swisha valfri summa, allt går oavkortat till UNHCR.",
+    "link": "https://min.sverigeforunhcr.se/fundraisers/ride-for-ukraine2",
+    "region": "Stockholm",
+    "source": "MC-Folket / FB"
+  },
+  {
     "id": "oppet-hus-rapido-smc-2026",
     "name": "Öppet Hus Rapido MCK och SMC Stockholm",
     "date": "2026-05-23",
