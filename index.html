@@ -4,428 +4,770 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MC Kalendern - Alla MC-evenemang i Sverige 2026</title>
-<meta name="description" content="Sveriges mest kompletta kalender for MC-evenemang. 600+ evenemang: traffar, massor, korningar, racing, trackdays och fester. Fran H-DCS, BMW MC-klubben, SMC, SVEMO och fler.">
-<meta name="keywords" content="MC evenemang, motorcykel Sverige, MC-traff, MC-massa, roadracing, trackday, Harley-Davidson, BMW MC, MC kalender 2026">
-<meta name="author" content="MC Kalendern">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://druk.se/">
-
-<!-- Open Graph -->
-<meta property="og:title" content="MC Kalendern - Alla MC-evenemang i Sverige 2026">
-<meta property="og:description" content="Sveriges mest kompletta MC-kalender med over 600 evenemang. Hitta traffar, massor, racing, korningar och fester fran alla stora MC-klubbar i Sverige.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://druk.se/">
-<meta property="og:locale" content="sv_SE">
-<meta property="og:site_name" content="MC Kalendern">
-<meta property="og:image" content="https://druk.se/og-image.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:type" content="image/jpeg">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="MC Kalendern - Alla MC-evenemang i Sverige 2026">
-<meta name="twitter:description" content="Sveriges mest kompletta MC-kalender med over 600 evenemang. Hitta traffar, massor, racing, korningar och fester fran alla stora MC-klubbar i Sverige.">
-<meta name="twitter:image" content="https://druk.se/og-image.jpg">
-
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HVJ6PFNE2W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-HVJ6PFNE2W');
-</script>
-
-<!-- Schema.org -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "MC Kalendern",
-  "url": "https://druk.se/",
-  "description": "Sveriges mest kompletta kalender for MC-evenemang",
-  "inLanguage": "sv"
-}
-</script>
-
+<meta name="description" content="Sveriges mest kompletta kalender for MC-evenemang. 700+ evenemang: traffar, massor, korningar, racing, trackdays och fester.">
+<script src="events.js"></script>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  /* ========== RESET & BASE ========== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg-primary: #f4f5f7;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f9fafb;
+    --bg-filter: #ffffff;
+    --text-primary: #1a1d23;
+    --text-secondary: #4b5563;
+    --text-muted: #7c8390;
+    --accent: #d97706;
+    --accent-hover: #b45309;
+    --accent-glow: rgba(217, 119, 6, 0.12);
+    --border: #e2e5ea;
+    --border-light: #d1d5db;
+    --type-traff: #16a34a;
+    --type-massa: #2563eb;
+    --type-racing: #dc2626;
+    --type-tur: #7c3aed;
+    --type-show: #db2777;
+    --type-korning: #ea580c;
+    --type-fest: #e11d48;
+    --type-trackday: #0891b2;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --shadow: 0 2px 12px rgba(0,0,0,0.06);
+    --transition: 0.2s ease;
+  }
+
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #f8f8f8; color: #1a1a1a; line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
   }
 
-  /* Header */
-  .header {
-    position: sticky; top: 0; background: #fff;
-    border-bottom: 1px solid #e8e8e8; z-index: 100; padding: 16px 0;
-  }
-  .header-inner {
-    max-width: 1000px; margin: 0 auto; padding: 0 20px;
-    display: flex; align-items: center; justify-content: space-between;
-  }
-  .logo { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
-  .logo span { color: #999; font-weight: 400; font-size: 16px; }
-
-  .header-actions { display: flex; gap: 10px; align-items: center; }
-  .btn-tipsa {
-    background: #1a1a1a; color: #fff; border: none; padding: 7px 14px;
-    border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer;
-    font-family: inherit; display: flex; align-items: center; gap: 5px;
-    transition: background 0.15s;
-  }
-  .btn-tipsa:hover { background: #333; }
-  .btn-favorites {
-    background: #fff; color: #1a1a1a; border: 1.5px solid #e0e0e0;
-    padding: 7px 14px; border-radius: 6px; font-size: 13px; font-weight: 600;
-    cursor: pointer; font-family: inherit; display: flex; align-items: center; gap: 5px;
-    transition: all 0.15s; position: relative;
-  }
-  .btn-favorites:hover { border-color: #1a1a1a; }
-  .fav-badge {
-    display: inline-flex; align-items: center; justify-content: center;
-    background: #e85d04; color: #fff; width: 20px; height: 20px;
-    border-radius: 50%; font-size: 11px; font-weight: 700;
-    opacity: 0; transform: scale(0); transition: all 0.2s;
-  }
-  .fav-badge.active { opacity: 1; transform: scale(1); }
-
-  /* Hero image */
+  /* ========== HERO ========== */
   .hero {
-    max-width: 1000px; margin: 20px auto 0; padding: 0 20px;
+    position: relative;
+    height: 340px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .hero img {
-    width: 100%; border-radius: 14px; display: block;
-    object-fit: cover; max-height: 200px;
+  .hero-bg {
+    position: absolute; inset: 0;
+    background: url('hero.jpg') center/cover no-repeat;
+    filter: brightness(0.4);
+  }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to bottom, rgba(10,10,10,0.2) 0%, rgba(10,10,10,0.85) 100%);
+  }
+  .hero-content {
+    position: relative; z-index: 2;
+    text-align: center; padding: 20px;
+  }
+  .hero-logo {
+    font-size: 42px; font-weight: 800;
+    letter-spacing: -1px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  .hero-logo span { color: var(--accent); }
+  .hero-sub {
+    font-size: 16px; color: rgba(255,255,255,0.75);
+    margin-bottom: 24px;
+  }
+  .hero-stats {
+    display: flex; gap: 32px; justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero-stat {
+    text-align: center;
+  }
+  .hero-stat-num {
+    font-size: 28px; font-weight: 700; color: var(--accent);
+    line-height: 1.2;
+  }
+  .hero-stat-label {
+    font-size: 12px; color: rgba(255,255,255,0.55);
+    text-transform: uppercase; letter-spacing: 1px;
   }
 
-  /* Controls */
-  .controls {
-    max-width: 1000px; margin: 0 auto; padding: 14px 20px 0;
-    display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px;
+  /* ========== SEARCH BAR ========== */
+  .search-section {
+    max-width: 800px; margin: -28px auto 16px; padding: 0 16px;
+    position: relative; z-index: 10;
   }
-  .filter-rows {
-    display: flex; flex-direction: column; gap: 10px;
+  .search-bar {
+    display: flex; align-items: center;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    padding: 4px 6px 4px 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: border-color var(--transition);
   }
-  .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-  .filter-btn {
-    padding: 5px 14px; border: 1px solid #e0e0e0; border-radius: 20px;
-    background: #fff; font-size: 12px; color: #666; cursor: pointer;
-    transition: all 0.15s; font-family: inherit;
+  .search-bar:focus-within { border-color: var(--accent); }
+  .search-icon {
+    width: 20px; height: 20px; flex-shrink: 0;
+    color: var(--text-muted);
   }
-  .filter-btn:hover { border-color: #999; color: #333; }
-  .filter-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+  .search-input {
+    flex: 1; border: none; background: transparent;
+    color: var(--text-primary); font-size: 15px;
+    padding: 12px 12px;
+    outline: none;
+  }
+  .search-input::placeholder { color: var(--text-muted); }
+  .search-clear {
+    background: none; border: none; cursor: pointer;
+    color: var(--text-muted); font-size: 18px;
+    padding: 8px; display: none;
+  }
+  .search-clear.visible { display: block; }
+  .search-count {
+    font-size: 13px; color: var(--text-muted);
+    padding: 8px 16px; white-space: nowrap;
+    border-left: 1px solid var(--border);
+    margin-left: 4px;
+  }
 
-  .club-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-  .club-row-label { font-size: 11px; color: #999; font-family: inherit; }
+  /* ========== STICKY FILTERS ========== */
+  .filters-wrapper {
+    position: sticky; top: 0; z-index: 50;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    transition: box-shadow var(--transition);
+  }
+  .filters-wrapper.scrolled {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  }
+  .filters-inner {
+    max-width: 1100px; margin: 0 auto;
+    padding: 12px 16px;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .filter-row {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    align-items: center; width: 100%;
+  }
+  .filter-group {
+    display: flex; gap: 4px; flex-wrap: wrap;
+    align-items: center;
+  }
+  .filter-label {
+    font-size: 11px; text-transform: uppercase;
+    letter-spacing: 1px; color: var(--text-muted);
+    margin-right: 4px; font-weight: 600;
+  }
+
+  /* Type filter pills */
+  .type-btn {
+    border: 1px solid var(--border); background: transparent;
+    color: var(--text-secondary); cursor: pointer;
+    padding: 6px 14px; border-radius: 20px;
+    font-size: 13px; font-weight: 500;
+    transition: all var(--transition);
+    white-space: nowrap;
+  }
+  .type-btn:hover { border-color: var(--text-muted); color: var(--text-primary); }
+  .type-btn.active {
+    background: var(--accent); color: #fff;
+    border-color: var(--accent); font-weight: 600;
+  }
+
+  /* Club filter buttons */
   .club-btn {
-    width: 36px; height: 36px; padding: 3px; border: 2px solid transparent;
-    border-radius: 50%; background: #fff; cursor: pointer;
-    transition: all 0.15s; display: flex; align-items: center; justify-content: center;
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 2px solid var(--border); background: var(--bg-secondary);
+    cursor: pointer; padding: 3px; overflow: hidden;
+    transition: all var(--transition);
+    display: flex; align-items: center; justify-content: center;
   }
-  .club-btn:hover { border-color: #ccc; }
-  .club-btn.active { border-color: #1a1a1a; }
-  .club-btn img { width: 28px; height: 28px; object-fit: contain; }
+  .club-btn:hover { border-color: var(--text-muted); transform: scale(1.08); }
+  .club-btn.active { border-color: var(--accent); box-shadow: 0 0 12px var(--accent-glow); }
+  .club-btn img { width: 100%; height: 100%; object-fit: contain; border-radius: 50%; }
 
-  .right-controls {
-    display: flex; flex-direction: column; align-items: flex-end; gap: 10px;
+  /* Region & time selects */
+  .filter-select {
+    background: var(--bg-secondary); color: var(--text-secondary);
+    border: 1px solid var(--border); border-radius: 20px;
+    padding: 6px 28px 6px 14px; font-size: 13px;
+    cursor: pointer; outline: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%234b5563' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    transition: all var(--transition);
   }
-  .time-toggle { display: flex; gap: 4px; }
-  .time-btn {
-    padding: 5px 12px; border: 1px solid #e0e0e0; background: #fff;
-    font-size: 12px; color: #666; cursor: pointer; font-family: inherit;
+  .filter-select:hover { border-color: var(--text-muted); }
+  .filter-select:focus { border-color: var(--accent); }
+
+  /* Filter spacer to push right-side items */
+  .filter-spacer { flex: 1; }
+
+  /* Toggle switch for past events */
+  .toggle-wrap {
+    display: flex; align-items: center; gap: 8px;
   }
-  .time-btn:first-child { border-radius: 6px 0 0 6px; }
-  .time-btn:last-child { border-radius: 0 6px 6px 0; }
-  .time-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
-  .share-buttons { display: flex; justify-content: space-between; width: 100%; }
+  .toggle-label { font-size: 13px; color: var(--text-secondary); }
+  .toggle {
+    width: 40px; height: 22px; background: var(--border);
+    border-radius: 11px; cursor: pointer; position: relative;
+    border: none; transition: background var(--transition);
+  }
+  .toggle::after {
+    content: ''; position: absolute; top: 3px; left: 3px;
+    width: 16px; height: 16px; background: #fff;
+    border-radius: 50%; transition: all var(--transition);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  }
+  .toggle.active { background: var(--accent); }
+  .toggle.active::after { left: 21px; background: #fff; }
+
+  /* Share buttons */
+  .share-btns {
+    display: flex; gap: 6px; align-items: center;
+  }
   .share-btn {
-    width: 36px; height: 36px; padding: 0; border: 2px solid transparent;
-    border-radius: 50%; background: #fff; cursor: pointer;
-    transition: all 0.15s; display: flex; align-items: center; justify-content: center;
+    width: 32px; height: 32px; border-radius: 50%;
+    border: 1px solid var(--border); background: transparent;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: all var(--transition);
   }
-  .share-btn:hover { border-color: #ccc; }
-  .share-btn svg { width: 20px; height: 20px; }
-  #shareFb svg { width: 22px; height: 22px; }
+  .share-btn:hover { border-color: var(--text-muted); }
+  .share-btn svg { width: 16px; height: 16px; }
+  #shareFb svg { width: 18px; height: 18px; }
 
-  /* Card grid */
+  /* ========== MAIN GRID ========== */
+  .main-content {
+    max-width: 1100px; margin: 0 auto;
+    padding: 24px 16px 60px;
+  }
+
   .grid {
-    max-width: 1000px; margin: 20px auto 0; padding: 0 20px;
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     gap: 16px;
   }
 
-  .card {
-    background: #fff; border: 1px solid #eee; border-radius: 12px;
-    padding: 20px; transition: all 0.2s;
-    display: flex; flex-direction: column; position: relative;
-  }
-  .card:hover { border-color: #ccc; box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
-  .card.past { opacity: 0.45; }
-  .card.favorited { border-color: #e85d04; border-width: 2px; }
-  .card.ad-card {
-    padding: 0; overflow: hidden;
-    cursor: pointer; border: none;
-  }
-  .card.ad-card img {
-    width: 100%; height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
-  .card-dates { display: flex; align-items: center; gap: 4px; }
-  .card-date {
-    background: #f7f7f7; border-radius: 8px; padding: 8px 12px;
-    text-align: center; min-width: 56px;
-  }
-  .card-date .day { font-size: 22px; font-weight: 700; line-height: 1.1; }
-  .card-date .month { font-size: 11px; color: #666; text-transform: uppercase; }
-  .date-sep { color: #bbb; font-size: 14px; font-weight: 300; }
-
-  .card-top-right { display: flex; align-items: flex-start; gap: 8px; }
-  .card-type {
-    display: inline-block; padding: 3px 10px; border-radius: 10px;
-    font-size: 11px; font-weight: 600;
-  }
-  .type-massa { background: #e8f4fd; color: #1a7ab8; }
-  .type-traff { background: #e8fde8; color: #2a8a2a; }
-  .type-show { background: #fde8f4; color: #b81a7a; }
-  .type-korning { background: #fdf4e8; color: #b87a1a; }
-  .type-tur { background: #f0e8fd; color: #6a1ab8; }
-  .type-racing { background: #fde8e8; color: #b81a1a; }
-  .type-fest { background: #fff3e8; color: #c45200; }
-
-  .fav-btn {
-    background: none; border: none; cursor: pointer; font-size: 18px;
-    padding: 2px 4px; color: #ccc; transition: color 0.2s; line-height: 1;
-  }
-  .fav-btn:hover { color: #f0c000; }
-  .fav-btn.active { color: #f0c000; }
-
-  .card-name { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
-  .card-location { font-size: 13px; color: #777; margin-bottom: 8px; }
-  .card-location::before { content: '\1F4CD '; }
-  .card-desc { font-size: 13px; color: #666; flex: 1; }
-  .card-footer { margin-top: 12px; padding-top: 10px; border-top: 1px solid #f0f0f0; }
-  .card-organizer { font-size: 12px; color: #999; }
-  .card-link {
-    font-size: 13px; color: #0066cc; text-decoration: none;
-    font-weight: 500; float: right;
-  }
-  .card-link:hover { text-decoration: underline; }
-
+  /* Month dividers */
   .month-divider {
-    grid-column: 1 / -1; font-size: 18px; font-weight: 700;
-    padding: 20px 0 4px; border-bottom: 2px solid #1a1a1a;
+    grid-column: 1 / -1;
+    display: flex; align-items: center; gap: 16px;
+    padding: 24px 0 8px;
+    font-size: 15px; font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .month-divider::after {
+    content: ''; flex: 1; height: 1px;
+    background: linear-gradient(to right, var(--border), transparent);
   }
 
-  /* Favorites drawer */
-  .drawer-overlay {
-    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.3); z-index: 200;
+  /* ========== EVENT CARDS ========== */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: all var(--transition);
+    display: flex; flex-direction: column;
+    padding: 20px;
   }
-  .drawer-overlay.open { display: block; }
+  .card:hover {
+    border-color: var(--border-light);
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+  }
+  .card.past { opacity: 0.5; filter: saturate(0.3); }
+  .card.past:hover { opacity: 0.75; filter: saturate(0.5); }
+  .card.past .card-date-block .date-unit {
+    border-color: var(--text-muted);
+  }
+  .card.past .card-date-block .date-day { color: var(--text-muted); }
+  .card.past .card-date-block .date-month { color: var(--text-muted); }
+
+  .card-top {
+    display: flex; justify-content: space-between;
+    align-items: flex-start; margin-bottom: 10px;
+    min-height: 52px; /* consistent top row height */
+  }
+  .card-top-right {
+    display: flex; align-items: flex-start; gap: 8px;
+  }
+
+  /* Date block */
+  .card-date-block {
+    display: flex; align-items: center; gap: 4px;
+    flex-shrink: 0;
+  }
+  .date-unit {
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 6px 10px;
+    text-align: center;
+    min-width: 48px;
+  }
+  .date-day {
+    font-size: 22px; font-weight: 700; line-height: 1.1;
+    color: var(--text-primary);
+  }
+  .date-month {
+    font-size: 10px; text-transform: uppercase;
+    letter-spacing: 1px; color: var(--accent);
+    font-weight: 600;
+  }
+  .date-sep {
+    color: var(--text-muted); font-size: 14px;
+  }
+
+  .card-notice {
+    color: #dc2626; font-weight: 700;
+    font-size: 13px; text-transform: uppercase;
+    letter-spacing: 1px;
+    flex: 1; text-align: center;
+    align-self: center;
+  }
+  .card-name {
+    font-size: 16px; font-weight: 600;
+    line-height: 1.3; margin-bottom: 6px;
+    color: var(--text-primary);
+    min-height: 42px; /* reserved 2 lines: 16px * 1.3 * 2 = 41.6 */
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+
+  /* Type badge */
+  .type-badge {
+    font-size: 10px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 3px 8px; border-radius: 4px;
+    white-space: nowrap;
+  }
+  .type-traff { background: rgba(22,163,74,0.1); color: var(--type-traff); }
+  .type-massa { background: rgba(37,99,235,0.1); color: var(--type-massa); }
+  .type-racing { background: rgba(220,38,38,0.1); color: var(--type-racing); }
+  .type-tur { background: rgba(124,58,237,0.1); color: var(--type-tur); }
+  .type-show { background: rgba(219,39,119,0.1); color: var(--type-show); }
+  .type-korning { background: rgba(234,88,12,0.1); color: var(--type-korning); }
+  .type-fest { background: rgba(225,29,72,0.1); color: var(--type-fest); }
+  .type-trackday { background: rgba(8,145,178,0.1); color: var(--type-trackday); }
+
+  /* Favorite star */
+  .fav-btn {
+    background: none; border: none; cursor: pointer;
+    font-size: 18px; color: var(--border-light);
+    transition: all var(--transition);
+    padding: 2px;
+    line-height: 1;
+  }
+  .fav-btn:hover { color: var(--accent); transform: scale(1.2); }
+  .fav-btn.active { color: var(--accent); }
+
+  /* Card body */
+  .card-body {
+    flex: 1;
+  }
+  .card-location-wrap {
+    display: flex; align-items: flex-start; gap: 4px;
+    min-height: 40px; /* reserved 2 lines */
+    margin-bottom: 8px;
+  }
+  .card-location-icon {
+    width: 14px; height: 14px; flex-shrink: 0;
+    margin-top: 2px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23ef4444' stroke-width='2'%3E%3Cpath d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E") no-repeat center;
+  }
+  .card-location {
+    font-size: 13px; color: var(--text-secondary);
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+    line-height: 1.5;
+  }
+  .card-desc {
+    font-size: 13px; color: var(--text-muted);
+    line-height: 1.55;
+    min-height: 101px; /* reserved 5 lines (4 text + 1 separator): 13px * 1.55 * 5 = 100.75 */
+    display: -webkit-box; -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+
+  /* Card footer */
+  .card-footer {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    margin-top: 12px;
+  }
+  .card-organizer {
+    font-size: 12px; color: var(--text-muted);
+    font-weight: 500;
+    max-width: 60%; overflow: hidden;
+    text-overflow: ellipsis; white-space: nowrap;
+  }
+  .card-link {
+    font-size: 12px; color: var(--accent);
+    text-decoration: none; font-weight: 600;
+    transition: color var(--transition);
+    white-space: nowrap;
+  }
+  .card-link:hover { color: var(--accent-hover); }
+
+  /* ========== AD CARDS ========== */
+  .ad-card {
+    border: none;
+    padding: 0 !important;
+    cursor: pointer;
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .ad-card:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.12); }
+  .ad-card img {
+    width: 100%; height: 100%;
+    object-fit: contain; display: block;
+    border-radius: var(--radius);
+  }
+
+  /* ========== FAVORITES BUTTON ========== */
+  .fab-favorites {
+    position: fixed; bottom: 24px; right: 24px;
+    width: 56px; height: 56px;
+    background: var(--accent); color: #fff;
+    border: none; border-radius: 50%;
+    cursor: pointer; font-size: 24px;
+    box-shadow: 0 4px 16px rgba(217,119,6,0.3);
+    display: flex; align-items: center; justify-content: center;
+    transition: all var(--transition);
+    z-index: 100;
+  }
+  .fab-favorites:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 24px rgba(217,119,6,0.4);
+  }
+  .fab-badge {
+    position: absolute; top: -4px; right: -4px;
+    background: var(--type-racing); color: #fff;
+    font-size: 11px; font-weight: 700;
+    min-width: 20px; height: 20px;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 5px;
+  }
+
+  /* ========== FAVORITES DRAWER ========== */
+  .drawer-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(4px);
+    z-index: 200; opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  .drawer-overlay.open { opacity: 1; pointer-events: auto; }
   .drawer {
-    position: fixed; top: 0; right: -400px; width: 380px; max-width: 90vw;
-    height: 100%; background: #fff; z-index: 201; transition: right 0.25s;
-    box-shadow: -4px 0 20px rgba(0,0,0,0.1); display: flex; flex-direction: column;
+    position: fixed; top: 0; right: -420px;
+    width: 400px; max-width: 90vw; height: 100vh;
+    background: var(--bg-secondary);
+    border-left: 1px solid var(--border);
+    z-index: 201;
+    display: flex; flex-direction: column;
+    transition: right 0.3s ease;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.08);
   }
   .drawer.open { right: 0; }
   .drawer-header {
-    padding: 20px; border-bottom: 1px solid #eee;
-    display: flex; justify-content: space-between; align-items: center;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px; border-bottom: 1px solid var(--border);
   }
-  .drawer-header h3 { font-size: 18px; }
+  .drawer-header h3 {
+    font-size: 18px; font-weight: 700;
+  }
   .drawer-close {
-    background: none; border: none; font-size: 22px; cursor: pointer;
-    color: #999; padding: 4px 8px;
+    background: none; border: none; color: var(--text-muted);
+    font-size: 24px; cursor: pointer; padding: 4px;
   }
-  .drawer-close:hover { color: #333; }
-  .drawer-body { flex: 1; overflow-y: auto; padding: 16px 20px; }
-  .drawer-empty { text-align: center; color: #999; padding: 40px 0; font-size: 14px; }
+  .drawer-body { flex: 1; overflow-y: auto; padding: 16px; }
+  .drawer-empty { color: var(--text-muted); font-size: 14px; text-align: center; padding: 40px 20px; }
   .drawer-item {
-    padding: 12px 0; border-bottom: 1px solid #f0f0f0;
-    display: flex; justify-content: space-between; align-items: center;
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px; background: var(--bg-primary);
+    border-radius: var(--radius-sm);
+    margin-bottom: 8px;
   }
-  .drawer-item-info { flex: 1; }
   .drawer-item-name { font-size: 14px; font-weight: 600; }
-  .drawer-item-date { font-size: 12px; color: #777; }
+  .drawer-item-date { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
   .drawer-item-remove {
-    background: none; border: none; color: #ccc; cursor: pointer;
-    font-size: 18px; padding: 4px 8px;
+    background: none; border: none; color: var(--text-muted);
+    font-size: 18px; cursor: pointer; margin-left: auto; flex-shrink: 0;
   }
-  .drawer-item-remove:hover { color: #e85d04; }
   .drawer-footer {
-    padding: 16px 20px; border-top: 1px solid #eee; background: #fafafa;
+    padding: 16px 20px; border-top: 1px solid var(--border);
   }
-  .drawer-footer p { font-size: 13px; color: #666; margin-bottom: 8px; }
+  .drawer-footer p { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; }
   .drawer-email-row { display: flex; gap: 8px; }
   .drawer-email-row input {
-    flex: 1; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px;
-    font-size: 13px; font-family: inherit;
+    flex: 1; background: var(--bg-primary); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); color: var(--text-primary);
+    padding: 8px 12px; font-size: 13px; outline: none;
   }
+  .drawer-email-row input:focus { border-color: var(--accent); }
   .drawer-email-row button {
-    padding: 8px 14px; background: #1a1a1a; color: #fff; border: none;
-    border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer;
-    font-family: inherit; white-space: nowrap;
+    background: var(--accent); color: #fff; border: none;
+    border-radius: var(--radius-sm); padding: 8px 16px;
+    font-size: 13px; font-weight: 600; cursor: pointer;
   }
-  .drawer-email-row button:hover { background: #333; }
-  .drawer-email-row button:disabled { background: #999; cursor: not-allowed; }
+  .modal-error { color: var(--type-racing); font-size: 12px; margin-top: 6px; }
 
-  /* Tipsa modal */
+  /* ========== SCROLL TO TOP ========== */
+  .scroll-top {
+    position: fixed; bottom: 90px; right: 30px;
+    width: 44px; height: 44px;
+    background: var(--bg-secondary); border: 1px solid var(--border);
+    border-radius: 50%; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; pointer-events: none;
+    transition: all var(--transition); z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .scroll-top.visible { opacity: 1; pointer-events: auto; }
+  .scroll-top:hover { border-color: var(--accent); background: var(--bg-card-hover); }
+  .scroll-top svg { width: 20px; height: 20px; color: var(--text-primary); }
+
+  /* ========== TIPSA MODAL ========== */
+  .tipsa-btn-wrapper {
+    text-align: center; margin: 32px 0;
+  }
+  .tipsa-btn {
+    background: transparent; border: 1px solid var(--accent);
+    color: var(--accent); padding: 10px 28px;
+    border-radius: 50px; font-size: 14px; font-weight: 600;
+    cursor: pointer; transition: all var(--transition);
+  }
+  .tipsa-btn:hover { background: var(--accent); color: #fff; }
+
   .modal-overlay {
-    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.4); z-index: 300; align-items: center; justify-content: center;
+    position: fixed; inset: 0; background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(4px);
+    z-index: 300; display: none;
+    align-items: center; justify-content: center;
   }
   .modal-overlay.open { display: flex; }
   .modal {
-    background: #fff; border-radius: 12px; padding: 28px; width: 420px;
-    max-width: 90vw; max-height: 90vh; overflow-y: auto;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    background: var(--bg-secondary); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px;
+    width: 440px; max-width: 92vw;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
   }
-  .modal h3 { font-size: 18px; margin-bottom: 16px; }
-  .modal label { display: block; font-size: 13px; font-weight: 600; color: #555; margin-bottom: 4px; margin-top: 12px; }
-  .modal input, .modal select, .modal textarea {
-    width: 100%; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px;
-    font-size: 14px; font-family: inherit;
+  .modal h3 { font-size: 20px; margin-bottom: 16px; }
+  .modal label { display: block; font-size: 13px; color: var(--text-secondary); margin-bottom: 4px; margin-top: 12px; }
+  .modal input, .modal textarea, .modal select {
+    width: 100%; background: var(--bg-primary); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); color: var(--text-primary);
+    padding: 10px 12px; font-size: 14px; outline: none;
+    font-family: inherit;
   }
-  .modal textarea { height: 60px; resize: vertical; }
-  .modal-buttons { margin-top: 20px; display: flex; gap: 10px; justify-content: flex-end; }
-  .modal-cancel {
-    padding: 8px 16px; border: 1px solid #ddd; background: #fff;
-    border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 13px;
+  .modal input:focus, .modal textarea:focus, .modal select:focus { border-color: var(--accent); }
+  .modal textarea { min-height: 80px; resize: vertical; }
+  .modal-btns { display: flex; gap: 10px; margin-top: 20px; justify-content: flex-end; }
+  .modal-btns button {
+    padding: 10px 20px; border-radius: var(--radius-sm);
+    font-size: 14px; font-weight: 600; cursor: pointer; border: none;
   }
-  .modal-submit {
-    padding: 8px 16px; border: none; background: #1a1a1a; color: #fff;
-    border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 13px; font-weight: 600;
-  }
-  .modal-submit:hover { background: #333; }
-  .modal-submit:disabled { background: #999; cursor: not-allowed; }
-  .modal-error { color: #c00; font-size: 12px; margin-top: 2px; display: none; }
-  .modal-error.show { display: block; }
-  .field-error { border-color: #c00 !important; }
+  .modal-cancel { background: var(--bg-primary); color: var(--text-secondary); }
+  .modal-submit { background: var(--accent); color: #fff; }
 
-  /* Success message */
-  .success-msg {
-    position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
-    background: #2a8a2a; color: #fff; padding: 12px 24px; border-radius: 8px;
-    font-size: 14px; font-weight: 600; z-index: 400; display: none;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  }
-  .success-msg.show { display: block; }
-
-  /* SEO section (hidden by JS after load) */
-  .seo-content {
-    max-width: 1000px; margin: 40px auto; padding: 0 20px;
-    font-size: 14px; color: #666; line-height: 1.7;
-  }
-  .seo-content h2 { font-size: 20px; color: #1a1a1a; margin-bottom: 12px; }
-  .seo-content h3 { font-size: 16px; color: #1a1a1a; margin: 16px 0 8px; }
-  .seo-content p { margin-bottom: 10px; }
-
-  /* Footer */
+  /* ========== FOOTER ========== */
   .footer {
-    text-align: center; padding: 40px 20px; color: #ccc;
-    font-size: 12px; border-top: 1px solid #e8e8e8; margin-top: 40px;
-    background: #fff;
+    text-align: center; padding: 40px 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted); font-size: 13px;
+    max-width: 1100px; margin: 0 auto;
   }
-  .footer a { color: #999; text-decoration: none; }
-  .footer a:hover { text-decoration: underline; }
+  .footer a { color: var(--text-secondary); text-decoration: none; }
+  .footer a:hover { color: var(--accent); }
+  .seo-block {
+    margin: 0 0 32px;
+    text-align: left;
+  }
+  .seo-block h2 {
+    font-size: 18px; font-weight: 700;
+    color: var(--text-secondary); margin-bottom: 12px;
+  }
+  .seo-block p {
+    font-size: 14px; color: var(--text-muted);
+    line-height: 1.7; margin-bottom: 10px;
+    text-align: justify;
+  }
+  .footer-bottom {
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+  }
 
-  /* Scroll to top button */
-  .scroll-top {
-    position: fixed; bottom: 24px; right: 24px; width: 44px; height: 44px;
-    background: #1a1a1a; color: #fff; border: none; border-radius: 50%;
-    font-size: 20px; cursor: pointer; z-index: 50;
-    opacity: 0; transform: scale(0); transition: all 0.2s;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    display: flex; align-items: center; justify-content: center;
+  /* ========== NO RESULTS ========== */
+  .no-results {
+    grid-column: 1 / -1;
+    text-align: center; padding: 60px 20px;
+    color: var(--text-muted);
   }
-  .scroll-top.visible { opacity: 1; transform: scale(1); }
-  .scroll-top:hover { background: #333; }
+  .no-results-icon { font-size: 48px; margin-bottom: 12px; opacity: 0.4; }
+  .no-results-text { font-size: 16px; }
+
+  /* ========== RESPONSIVE ========== */
+  @media (max-width: 768px) {
+    .hero { height: 280px; }
+    .hero-logo { font-size: 32px; }
+    .hero-stats { gap: 20px; }
+    .hero-stat-num { font-size: 22px; }
+
+    .filters-inner { padding: 10px 12px; gap: 6px; }
+    .filter-row { gap: 6px; }
+    .filter-label { display: none; }
+    .filter-spacer { display: none; }
+    .type-btn { padding: 5px 10px; font-size: 12px; }
+    .club-btn { width: 32px; height: 32px; }
+
+    .grid { grid-template-columns: 1fr; gap: 12px; }
+    .main-content { padding: 16px 12px 60px; }
+
+    .search-count { display: none; }
+
+    .toggle-label { display: none; }
+    .share-btns { gap: 4px; }
+
+    .drawer { width: 100vw; max-width: 100vw; }
+  }
 
   @media (max-width: 480px) {
-    .grid { grid-template-columns: 1fr; }
-    .header-inner { flex-direction: column; gap: 10px; }
-    .header-actions { width: 100%; justify-content: center; }
-    .hero img { max-height: 140px; }
+    .hero { height: 240px; }
+    .hero-logo { font-size: 26px; }
+    .hero-sub { font-size: 14px; }
   }
+
+  /* ========== ANIMATIONS ========== */
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .card { animation: fadeInUp 0.3s ease both; }
+  .grid .card:nth-child(3n+1) { animation-delay: 0s; }
+  .grid .card:nth-child(3n+2) { animation-delay: 0.05s; }
+  .grid .card:nth-child(3n) { animation-delay: 0.1s; }
 </style>
 </head>
 <body>
 
-<header class="header">
-  <div class="header-inner">
-    <div class="logo">MC Kalendern <span>/ Sverige</span></div>
-    <div class="header-actions">
-      <button class="btn-tipsa" id="tipsaBtn">+ Tipsa om evenemang</button>
-      <button class="btn-favorites" id="favBtn">
-        <span style="color:#f0c000">&#9733;</span> Mina evenemang
-        <span class="fav-badge" id="favBadge">0</span>
-      </button>
+<!-- ========== HERO ========== -->
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-logo">MC <span>Kalendern</span></div>
+    <div class="hero-sub">Svenska MC-evenemang samlat på ett ställe</div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num" id="statEvents">0</div>
+        <div class="hero-stat-label">Evenemang</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num" id="statUpcoming">0</div>
+        <div class="hero-stat-label">Kommande</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num" id="statClubs">8</div>
+        <div class="hero-stat-label">Klubbar</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num" id="statRegions">20</div>
+        <div class="hero-stat-label">Regioner</div>
+      </div>
     </div>
   </div>
 </header>
 
-<div class="hero">
-  <img src="hero.jpg" alt="Motorcyklister pa svensk landsväg" loading="lazy">
-</div>
-
-<div class="controls">
-  <div class="filter-rows">
-    <div class="filters" id="filters">
-      <button class="filter-btn active" data-filter="all">Alla</button>
-      <button class="filter-btn" data-filter="Mässa">Mässa</button>
-      <button class="filter-btn" data-filter="Träff">Träff</button>
-      <button class="filter-btn" data-filter="Show">Show</button>
-      <button class="filter-btn" data-filter="Körning">Körning</button>
-      <button class="filter-btn" data-filter="Tur">Tur</button>
-      <button class="filter-btn" data-filter="Racing">Racing</button>
-    </div>
-    <div class="club-row" id="clubFilters">
-      <span class="club-row-label">Klubbar:</span>
-      <button class="club-btn" data-club="BMW MC-klubben" title="BMW MC-klubben"><img src="clubs/bmw.png" alt="BMW MC-klubben"></button>
-      <button class="club-btn" data-club="GWCS" title="GWCS"><img src="clubs/gwcs.png" alt="GWCS"></button>
-      <button class="club-btn" data-club="H-DCS" title="H-DCS"><img src="clubs/hdcs.png" alt="H-DCS"></button>
-      <button class="club-btn" data-club="ÖAMCK" title="ÖAMCK"><img src="clubs/oamck.png" alt="ÖAMCK"></button>
-      <button class="club-btn" data-club="SMC" title="SMC"><img src="clubs/smc.png" alt="SMC"></button>
-      <button class="club-btn" data-club="SVEMO" title="SVEMO"><img src="clubs/svemo.png" alt="SVEMO"></button>
-    </div>
-  </div>
-  <div class="right-controls">
-    <div class="time-toggle" id="timeToggle">
-      <button class="time-btn active" data-time="upcoming">Kommande</button>
-      <button class="time-btn" data-time="all">Alla</button>
-    </div>
-    <div class="share-buttons">
-      <button class="share-btn" id="shareFb" title="Dela på Facebook">
-        <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-      </button>
-      <button class="share-btn" id="shareWa" title="Dela på WhatsApp">
-        <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-      </button>
-      <button class="share-btn" id="shareX" title="Dela på X">
-        <svg viewBox="0 0 24 24" fill="#000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-      </button>
-    </div>
+<!-- ========== SEARCH ========== -->
+<div class="search-section">
+  <div class="search-bar">
+    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input class="search-input" id="searchInput" type="text" placeholder="Sok evenemang, klubb, stad...">
+    <button class="search-clear" id="searchClear">&times;</button>
+    <div class="search-count" id="searchCount">0 evenemang</div>
   </div>
 </div>
 
-<div class="grid" id="grid"></div>
-
-<!-- SEO content (visible to Google, hidden after JS loads) -->
-<div class="seo-content" id="seoContent">
-  <h2>Sveriges mest kompletta MC-kalender</h2>
-  <p>MC Kalendern samlar alla MC-evenemang i Sverige pa ett stalle. Har hittar du traffar, massor, racing, trackdays, korningar och fester fran alla stora arrangorer: H-DCS (Harley-Davidson Club Scandinavia), BMW MC-klubben, Sveriges MotorCyklister (SMC), SVEMO (Svenska Motorsportforbundet), och manga fler.</p>
-  <h3>Populara MC-evenemang 2026</h3>
-  <p>Bland arets hojdpunkter finns MC-Massan pa Elmia i Jonkoping, HojRock pa Tanga Hed i Vargarda, Custom Bike Show i Norrtalje, Malaren Runt (Sveriges storsta gemensamma MC-korning), Gotland Ring Bike Week, Vasteras Summer Meet, och hundratals lokala traffar och korningar over hela landet.</p>
-  <h3>Om MC Kalendern</h3>
-  <p>MC Kalendern ar ett ideellt projekt som samlar MC-evenemang fran over 50 kallor runt om i Sverige. Vi uppdateras automatiskt varje vecka med nya evenemang. Tipsa oss garna om evenemang vi missat!</p>
+<!-- ========== FILTERS ========== -->
+<div class="filters-wrapper" id="filtersWrapper">
+  <div class="filters-inner">
+    <div class="filter-row">
+      <div class="filter-group">
+        <button class="type-btn active" data-type="all">Alla</button>
+        <button class="type-btn" data-type="Mässa">Mässa</button>
+        <button class="type-btn" data-type="Träff">Träff</button>
+        <button class="type-btn" data-type="Show">Show</button>
+        <button class="type-btn" data-type="Körning">Körning</button>
+        <button class="type-btn" data-type="Tur">Tur</button>
+        <button class="type-btn" data-type="Racing">Racing</button>
+      </div>
+      <select class="filter-select" id="regionFilter">
+        <option value="all">Alla regioner</option>
+      </select>
+      <div class="filter-spacer"></div>
+      <div class="toggle-wrap">
+        <span class="toggle-label">Visa passerade</span>
+        <button class="toggle" id="pastToggle"></button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">Klubbar:</span>
+      <div class="filter-group">
+        <button class="club-btn" data-club="BMW MC-klubben" title="BMW MC-klubben"><img src="clubs/bmw.png" alt="BMW"></button>
+        <button class="club-btn" data-club="GWCS" title="GWCS"><img src="clubs/gwcs.png" alt="GWCS"></button>
+        <button class="club-btn" data-club="H-DCS" title="H-DCS"><img src="clubs/hdcs.png" alt="H-DCS"></button>
+        <button class="club-btn" data-club="ÖAMCK" title="ÖAMCK"><img src="clubs/oamck.png" alt="ÖAMCK"></button>
+        <button class="club-btn" data-club="SMC" title="SMC"><img src="clubs/smc.png" alt="SMC"></button>
+        <button class="club-btn" data-club="SVEMO" title="SVEMO"><img src="clubs/svemo.png" alt="SVEMO"></button>
+      </div>
+      <div class="filter-spacer"></div>
+      <div class="share-btns">
+        <button class="share-btn" id="shareFb" title="Dela på Facebook">
+          <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </button>
+        <button class="share-btn" id="shareWa" title="Dela på WhatsApp">
+          <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </button>
+        <button class="share-btn" id="shareX" title="Dela på X">
+          <svg viewBox="0 0 24 24" fill="#1a1d23"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 
-<!-- Favorites drawer -->
+<!-- ========== GRID ========== -->
+<main class="main-content">
+  <div class="grid" id="grid"></div>
+  <div class="tipsa-btn-wrapper">
+    <button class="tipsa-btn" id="tipsaBtn">Tipsa om ett evenemang</button>
+  </div>
+</main>
+
+<!-- ========== FAB (favorites) ========== -->
+<button class="fab-favorites" id="fabFavorites" title="Mina sparade evenemang">
+  &#9733;
+  <span class="fab-badge" id="fabBadge" style="display:none">0</span>
+</button>
+
+<!-- ========== SCROLL TO TOP ========== -->
+<button class="scroll-top" id="scrollTop">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<!-- ========== FAVORITES DRAWER ========== -->
 <div class="drawer-overlay" id="drawerOverlay"></div>
 <div class="drawer" id="drawer">
   <div class="drawer-header">
@@ -445,230 +787,153 @@
   </div>
 </div>
 
-<!-- Tipsa modal -->
+<!-- ========== TIPSA MODAL ========== -->
 <div class="modal-overlay" id="tipsaModal">
   <div class="modal">
-    <h3>Tipsa om evenemang</h3>
+    <h3>Tipsa om ett evenemang</h3>
     <label>Namn pa evenemanget *</label>
-    <input type="text" id="tipName" required maxlength="150">
-    <div class="modal-error" id="errName">Ange ett namn for evenemanget</div>
-    <label>Startdatum *</label>
-    <input type="date" id="tipDate" required>
-    <div class="modal-error" id="errDate">Ange ett giltigt datum (inte i det forflutna)</div>
-    <label>Slutdatum</label>
-    <input type="date" id="tipDateEnd">
-    <div class="modal-error" id="errDateEnd">Slutdatum kan inte vara fore startdatum</div>
-    <label>Plats *</label>
-    <input type="text" id="tipLocation" placeholder="Stad eller plats" required maxlength="100">
-    <div class="modal-error" id="errLocation">Ange en plats</div>
-    <label>Typ</label>
-    <select id="tipType">
-      <option value="Träff">Träff</option>
-      <option value="Mässa">Mässa</option>
-      <option value="Show">Show</option>
-      <option value="Körning">Körning</option>
-      <option value="Tur">Tur</option>
-      <option value="Racing">Racing</option>
-      <option value="Fest">Fest</option>
-    </select>
-    <label>Arrangor</label>
-    <input type="text" id="tipOrganizer" placeholder="Klubb eller foretag" maxlength="100">
-    <label>Lank</label>
+    <input type="text" id="tipName">
+    <label>Datum *</label>
+    <input type="date" id="tipDate">
+    <label>Plats</label>
+    <input type="text" id="tipLocation" placeholder="Stad eller plats">
+    <label>Lank till mer info</label>
     <input type="url" id="tipLink" placeholder="https://...">
-    <div class="modal-error" id="errLink">Ange en giltig URL (borja med https://)</div>
+    <label>Din e-post</label>
+    <input type="email" id="tipEmail" placeholder="din@epost.se">
     <label>Beskrivning</label>
-    <textarea id="tipDesc" placeholder="Kort beskrivning av evenemanget" maxlength="300"></textarea>
-    <label>Din e-post (valfritt)</label>
-    <input type="email" id="tipEmail" placeholder="for uppfoljning">
-    <div class="modal-error" id="errEmail">Ange en giltig e-postadress</div>
-    <div class="modal-buttons">
-      <button class="modal-cancel" id="tipsaCancel">Avbryt</button>
-      <button class="modal-submit" id="tipsaSubmit">Skicka tips</button>
+    <textarea id="tipDesc" placeholder="Beskriv evenemanget kort..."></textarea>
+    <div class="modal-error" id="tipError"></div>
+    <div class="modal-btns">
+      <button class="modal-cancel" id="tipCancel">Avbryt</button>
+      <button class="modal-submit" id="tipSubmit">Skicka tips</button>
     </div>
   </div>
 </div>
 
-<div class="success-msg" id="successMsg">Tack for ditt tips!</div>
-
-<button class="scroll-top" id="scrollTop" title="Till toppen">&#8593;</button>
-
+<!-- ========== FOOTER ========== -->
 <footer class="footer">
-  MC Kalendern - Svenska MC-evenemang samlat pa ett stalle. Evenemang fran GWCS, H-DCS, BMW MC-klubben, SMC, SVEMO och fler.<br>
-  Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt: slava.druk@gmail.com</a><br>
-  &copy; 2026 Slava Druk, Uppsala. All eventdata tillhor MC Kalendern. Kommersiell anvandning kraver tillstand.
+  <div class="seo-block">
+    <h2>Om MC Kalendern</h2>
+    <p>MC Kalendern är Sveriges samlingsplats för alla hojåkare och motorcykelentusiaster som vill ha koll på vad som händer i MC-världen. Oavsett om du letar efter en lokal MC-träff, en stor MC-mässa, en spännande körning eller ett trackday på banan hittar du det här. Vi samlar MC-träffar, mässor, motorshowar, körningar, turer, racing, trackdays och fester från hela landet på ett och samma ställe, så att du kan planera din MC-säsong utan att missa något.</p>
+    <p>Vi bevakar över 700 evenemang från många av Sveriges största MC-klubbar och organisationer: BMW MC-klubben, Gold Wing Club Sweden (GWCS), Harley-Davidson Club Sweden (H-DCS), Östra Aros MC-Klubb (ÖAMCK), Sveriges MotorCyklister (SMC), Svenska Motorcykel- och Snöskoterförbundet (SVEMO) och många fler. Från MC-Mässan i Jönköping och Mälaren Runt till lokala kvällsträffar, gruskurser och avrostningskörningar. Oavsett om du kör sportcykel, cruiser, adventure, touring, enduro eller veteranmaskin finns det något för just dig och din hoj.</p>
+    <p>MC-säsongen i Sverige är kort men intensiv. MC Kalendern hjälper dig att filtrera över 700 evenemang efter typ, klubb och region, från Skåne i söder till Norrbotten i norr, med 21 regioner däremellan. Spara dina favoritevenemang, dela med dina hojkompisar och håll dig uppdaterad. Vi bevakar evenemang från fler än 470 klubbar och uppdaterar kalendern regelbundet med nya MC-träffar, körningar och mässor så att du alltid har den senaste informationen.</p>
+  </div>
+  <div class="footer-bottom">
+    <p>MC Kalendern - MC-träffar, mässor, körningar, racing och trackdays från hela Sverige. Evenemang från BMW MC-klubben, GWCS, H-DCS, ÖAMCK, SMC, SVEMO och fler.</p>
+    <p style="margin-top: 6px;">Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt</a></p>
+    <p style="margin-top: 6px;">&copy; 2026 Slava Druk, Uppsala. All eventdata tillhör MC Kalendern. Kommersiell användning kräver tillstånd.</p>
+  </div>
 </footer>
 
-<script src="events.js"></script>
 <script>
+// ========== CONFIG ==========
 const MONTHS_SV = ['Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'];
-const MONTHS_SHORT = ['Jan','Feb','Mar','Apr','Maj','Jun','Jul','Aug','Sep','Okt','Nov','Dec'];
-
-let currentFilter = 'all';
-let currentClub = 'all';
-let showPast = false;
+const MONTHS_SHORT = ['JAN','FEB','MAR','APR','MAJ','JUN','JUL','AUG','SEP','OKT','NOV','DEC'];
 
 const CLUB_MATCHERS = {
   'BMW MC-klubben': org => org === 'BMW MC-klubben',
   'GWCS': org => org.includes('GWCS') || org.includes('GoldWing Club Sweden'),
   'H-DCS': org => org === 'H-DCS' || org === 'Harley-Davidson Club Sweden',
-  'ÖAMCK': org => org === 'ÖAMCK',
+  'ÖAMCK': org => org === 'ÖAMCK' || org === 'OAMCK',
   'SMC': org => org.includes('SMC'),
   'SVEMO': org => org.includes('SVEMO') || org.includes('Svemo') || org.includes('MXSM') || org.includes('JSM') || org.includes('USM')
 };
-let favorites = JSON.parse(localStorage.getItem('mc_favorites')) || [];
 
-function getTypeClass(type) {
-  const map = { 'Mässa':'massa', 'Träff':'traff', 'Show':'show', 'Körning':'korning', 'Tur':'tur', 'Racing':'racing', 'Fest':'fest' };
-  return 'type-' + (map[type] || 'traff');
-}
+const TYPE_CLASSES = {
+  'Träff': 'type-traff', 'Mässa': 'type-massa', 'Racing': 'type-racing',
+  'Tur': 'type-tur', 'Show': 'type-show', 'Körning': 'type-korning',
+  'Fest': 'type-fest', 'Trackday': 'type-trackday'
+};
 
-function isFavorited(id) {
-  return favorites.includes(id);
-}
+// ========== STATE ==========
+let currentFilter = 'all';
+let currentClub = 'all';
+let currentRegion = 'all';
+let showPast = false;
+let searchQuery = '';
+let favorites = JSON.parse(localStorage.getItem('mcFavorites') || '[]');
 
-function toggleFavorite(id) {
-  if (favorites.includes(id)) {
-    favorites = favorites.filter(f => f !== id);
-  } else {
-    favorites.push(id);
-  }
-  localStorage.setItem('mc_favorites', JSON.stringify(favorites));
-  updateFavUI();
-  render();
-}
-
-function updateFavUI() {
-  const badge = document.getElementById('favBadge');
-  badge.textContent = favorites.length;
-  badge.classList.toggle('active', favorites.length > 0);
-
-  // Update drawer
-  const body = document.getElementById('drawerBody');
-  if (favorites.length === 0) {
-    body.innerHTML = '<div class="drawer-empty">Tryck pa stjarnan pa ett evenemang for att spara det har.</div>';
-    return;
-  }
-
-  const allEvents = EVENTS_DATA.events;
-  const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
-    .sort((a, b) => new Date(a.date) - new Date(b.date));
-
-  body.innerHTML = favEvents.map(e => {
-    const d = new Date(e.date + 'T00:00:00');
-    return `<div class="drawer-item">
-      <div class="drawer-item-info">
-        <div class="drawer-item-name">${e.name}</div>
-        <div class="drawer-item-date">${d.getDate()} ${MONTHS_SV[d.getMonth()]} ${d.getFullYear()} - ${e.location}</div>
-      </div>
-      <button class="drawer-item-remove" onclick="toggleFavorite('${e.id}')">&times;</button>
-    </div>`;
-  }).join('');
-}
-
-// Ad placements: image-only cards inserted between events by date
+// ========== AD PLACEMENTS ==========
 const AD_PLACEMENTS = [
-  {
-    id: 'hd-nights-2026-03',
-    image: 'ads/hd-nights-2026-03-20.jpg',
-    bgColor: '#0a0a0a',
-    link: 'https://www.harley-davidson.com/',
-    afterDate: '2026-03-19',
-    alt: 'Harley-Davidson Nights - 20th March 2026',
-    types: ['Träff', 'Show'],
-    clubs: ['H-DCS']
-  },
-  {
-    id: 'claessons-mcfest-2026-03',
-    image: 'ads/claessons-mcfest-2026-03-28.jpg',
-    bgColor: '#413e42',
-    link: 'https://claessonsmotor.se/',
-    afterDate: '2026-03-27',
-    alt: 'Claessons MC-Fest 50 år - 28-29 Mars 2026, Bromölla',
-    types: ['Mässa', 'Träff'],
-    clubs: ['BMW MC-klubben']
-  },
-  {
-    id: 'gwcs-treffen-2026-08',
-    image: 'ads/gwcs-treffen-2026-08-06.jpg',
-    bgColor: '#000000',
-    link: 'https://gwcs.se/',
-    afterDate: '2026-08-05',
-    alt: 'GWCS 41st International Treffen - 6-9 August 2026, Orsa Grönklitt',
-    types: ['Träff'],
-    clubs: ['GWCS']
-  },
-  {
-    id: 'hd-2026-utbudet-04',
-    image: 'ads/hd-2026-utbudet-2026-04.jpg',
-    bgColor: '#1e1316',
-    link: 'https://www.harley-davidson.com/',
-    afterDate: '2026-04-22',
-    alt: 'Harley-Davidson - Möt det nya 2026-utbudet',
-    types: ['Träff', 'Show', 'Mässa'],
-    clubs: ['H-DCS']
-  },
-  {
-    id: 'bsa-sulas-2026-04',
-    image: 'ads/bsa-sulas-2026-04-18.jpg',
-    bgColor: '#bab7aa',
-    link: 'https://sulas.se/vara-fordon/motorcyklar/bsa-motorcycles/#/',
-    beforeEvent: 'sulas-mc-invigning-2026',
-    alt: 'BSA Motorcycles - Nu hos Sulas MC, Uppsala',
-    types: ['Mässa', 'Show'],
-    clubs: []
-  },
-  {
-    id: 'bsa-scrambler-2026-08',
-    image: 'ads/bsa-scrambler-2026-08-06.jpg',
-    bgColor: '#66655c',
-    link: 'https://www.bsaoc.org/swe/',
-    beforeEvent: 'bsa-summer-camp-oland-2026',
-    alt: 'BSA Scrambler 650 - Svenska BSA Klubben',
-    types: ['Träff', 'Show'],
-    clubs: []
-  },
-  {
-    id: 'dwr-uppsala-2026',
-    image: 'ads/dwr-uppsala-2026.jpg',
-    bgColor: '#060606',
-    link: 'https://www.facebook.com/dwruppsala?locale=sv_SE',
-    afterDate: '2026-05-06',
-    alt: 'DWR V-Twin Motorcycle Workshop Uppsala',
-    types: ['Träff', 'Show', 'Mässa'],
-    clubs: ['H-DCS']
-  },
-  {
-    id: 'indian-motorcycle-2026',
-    image: 'ads/indian-motorcycle-2026.jpg',
-    bgColor: '#9c8f84',
-    link: 'https://www.indianmotorcycle.com/sv-se/',
-    beforeEvent: 'american-days-2026',
-    alt: 'Indian Motorcycle - American Soul Since 1901',
-    types: ['Träff', 'Show', 'Mässa'],
-    clubs: []
-  },
-  {
-    id: 'gwcs-svenljunga-nydal-2026',
-    image: 'ads/gwcs-svenljunga-nydal-2026-05-22.jpg',
-    bgColor: '#040709',
-    link: 'https://gwcs.se/',
-    beforeEvent: 'gwcs-minitraff-svenljunga-2026',
-    alt: 'GWCS Svenljunga Träffen - 22-24 Maj 2026, Nydal',
-    types: ['Träff'],
-    clubs: ['GWCS']
-  },
-  {
-    id: 'gwcs-vikingtraffen-gallo-2026-ad',
-    image: 'ads/gwcs-vikingtraffen-gallo-2026-05-29.jpg',
-    bgColor: '#c59b52',
-    link: 'https://gwcs.se/',
-    beforeEvent: 'gwcs-vikingtraffen-gallo-2026',
-    alt: 'Vikingträffen - 29-31 Maj 2026, Gällö, Jämtland',
-    types: ['Träff'],
-    clubs: ['GWCS']
-  }
+  { id: 'hd-nights-2026-03', image: 'ads/hd-nights-2026-03-20.jpg', bgColor: '#0a0a0a', link: 'https://www.harley-davidson.com/', afterDate: '2026-03-19', alt: 'Harley-Davidson Nights', types: ['Träff', 'Show'], clubs: ['H-DCS'] },
+  { id: 'claessons-mcfest-2026-03', image: 'ads/claessons-mcfest-2026-03-28.jpg', bgColor: '#413e42', link: 'https://claessonsmotor.se/', afterDate: '2026-03-27', alt: 'Claessons MC-Fest', types: ['Mässa', 'Träff'], clubs: ['BMW MC-klubben'] },
+  { id: 'gwcs-treffen-2026-08', image: 'ads/gwcs-treffen-2026-08-06.jpg', bgColor: '#000000', link: 'https://gwcs.se/', afterDate: '2026-08-05', alt: 'GWCS 41st International Treffen', types: ['Träff'], clubs: ['GWCS'] },
+  { id: 'hd-2026-utbudet-04', image: 'ads/hd-2026-utbudet-2026-04.jpg', bgColor: '#1e1316', link: 'https://www.harley-davidson.com/', afterDate: '2026-04-22', alt: 'Harley-Davidson 2026', types: ['Träff', 'Show', 'Mässa'], clubs: ['H-DCS'] },
+  { id: 'bsa-sulas-2026-04', image: 'ads/bsa-sulas-2026-04-18.jpg', bgColor: '#bab7aa', link: 'https://sulas.se/', beforeEvent: 'sulas-mc-invigning-2026', alt: 'BSA at Sulas MC', types: ['Mässa', 'Show'], clubs: [] },
+  { id: 'bsa-scrambler-2026-08', image: 'ads/bsa-scrambler-2026-08-06.jpg', bgColor: '#66655c', link: 'https://www.bsaoc.org/swe/', beforeEvent: 'bsa-summer-camp-oland-2026', alt: 'BSA Scrambler 650', types: ['Träff', 'Show'], clubs: [] },
+  { id: 'dwr-uppsala-2026', image: 'ads/dwr-uppsala-2026.jpg', bgColor: '#060606', link: 'https://www.facebook.com/dwruppsala', afterDate: '2026-05-06', alt: 'DWR Uppsala', types: ['Träff', 'Show', 'Mässa'], clubs: ['H-DCS'] },
+  { id: 'indian-motorcycle-2026', image: 'ads/indian-motorcycle-2026.jpg', bgColor: '#9c8f84', link: 'https://www.indianmotorcycle.com/sv-se/', beforeEvent: 'american-days-2026', alt: 'Indian Motorcycle', types: ['Träff', 'Show', 'Mässa'], clubs: [] },
+  { id: 'gwcs-svenljunga-nydal-2026', image: 'ads/gwcs-svenljunga-nydal-2026-05-22.jpg', bgColor: '#040709', link: 'https://gwcs.se/', beforeEvent: 'gwcs-minitraff-svenljunga-2026', alt: 'GWCS Svenljunga', types: ['Träff'], clubs: ['GWCS'] },
+  { id: 'gwcs-vikingtraffen-gallo-2026-ad', image: 'ads/gwcs-vikingtraffen-gallo-2026-05-29.jpg', bgColor: '#c59b52', link: 'https://gwcs.se/', beforeEvent: 'gwcs-vikingtraffen-gallo-2026', alt: 'Vikingtraffen Gallo', types: ['Träff'], clubs: ['GWCS'] }
 ];
 
+// ========== HELPERS ==========
+function isFavorited(id) { return favorites.includes(id); }
+function toggleFavorite(id) {
+  const idx = favorites.indexOf(id);
+  if (idx >= 0) favorites.splice(idx, 1);
+  else favorites.push(id);
+  localStorage.setItem('mcFavorites', JSON.stringify(favorites));
+  render();
+  updateFab();
+  updateDrawer();
+}
+function updateFab() {
+  const badge = document.getElementById('fabBadge');
+  if (favorites.length > 0) {
+    badge.style.display = 'flex';
+    badge.textContent = favorites.length;
+  } else {
+    badge.style.display = 'none';
+  }
+}
+
+// ========== REGION FILTER ==========
+const COUNTRIES = ['Danmark', 'Finland', 'Norge', 'Sverige'];
+function buildRegionFilter() {
+  const regionSet = new Set();
+  const countrySet = new Set();
+  EVENTS_DATA.events.forEach(e => {
+    if (!e.region) return;
+    const regions = Array.isArray(e.region) ? e.region : [e.region];
+    regions.forEach(r => {
+      if (COUNTRIES.includes(r)) countrySet.add(r);
+      else regionSet.add(r);
+    });
+  });
+  const regions = [...regionSet].sort((a, b) => a.localeCompare(b, 'sv'));
+  const countries = [...countrySet].sort((a, b) => a.localeCompare(b, 'sv'));
+  const sel = document.getElementById('regionFilter');
+  regions.forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = r; opt.textContent = r;
+    sel.appendChild(opt);
+  });
+  if (countries.length > 0) {
+    const sep = document.createElement('option');
+    sep.disabled = true; sep.textContent = '────────────';
+    sel.appendChild(sep);
+    countries.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c; opt.textContent = c;
+      sel.appendChild(opt);
+    });
+  }
+  // Update hero stat with actual region count
+  document.getElementById('statRegions').textContent = regions.length;
+}
+
+// ========== STATS ==========
+function updateStats() {
+  const today = new Date().toISOString().split('T')[0];
+  const all = EVENTS_DATA.events.filter(e => !e._canary);
+  const upcoming = all.filter(e => (e.dateEnd || e.date) >= today);
+  document.getElementById('statEvents').textContent = all.length;
+  document.getElementById('statUpcoming').textContent = upcoming.length;
+}
+
+// ========== RENDER ==========
 function render() {
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
@@ -676,11 +941,28 @@ function render() {
   const today = new Date().toISOString().split('T')[0];
   let events = EVENTS_DATA.events.filter(e => !e._canary).sort((a, b) => new Date(a.date) - new Date(b.date));
 
+  // Filters
   if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
   if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
-  if (!showPast) events = events.filter(e => e.dateEnd ? e.dateEnd >= today : e.date >= today);
+  if (currentRegion !== 'all') events = events.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
+  if (!showPast) events = events.filter(e => (e.dateEnd || e.date) >= today);
 
-  // Build maps of ads: by date (date gap placement) and by event ID (exact placement)
+  // Search
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    events = events.filter(e =>
+      (e.name || '').toLowerCase().includes(q) ||
+      (e.organizer || '').toLowerCase().includes(q) ||
+      (e.location || '').toLowerCase().includes(q) ||
+      (e.description || '').toLowerCase().includes(q) ||
+      (Array.isArray(e.region) ? e.region.join(' ') : (e.region || '')).toLowerCase().includes(q)
+    );
+  }
+
+  // Update count
+  document.getElementById('searchCount').textContent = events.length + ' evenemang';
+
+  // Build ad maps
   const adsByDate = {};
   const adsByEvent = {};
   AD_PLACEMENTS.forEach(ad => {
@@ -697,16 +979,22 @@ function render() {
     }
   });
 
+  if (events.length === 0) {
+    grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x1F3CD;</div><div class="no-results-text">Inga evenemang hittades. Prova andra filter eller sok igen.</div></div>';
+    return;
+  }
+
   let currentMonth = '';
   let lastEventDate = '';
 
   events.forEach(event => {
     const d = new Date(event.date + 'T00:00:00');
     const monthKey = d.getFullYear() + '-' + d.getMonth();
-    const isPast = event.dateEnd ? event.dateEnd < today : event.date < today;
+    const isPast = (event.dateEnd || event.date) < today;
     const isFav = isFavorited(event.id);
     const isMultiDay = event.dateEnd && event.dateEnd !== event.date;
 
+    // Month divider
     if (monthKey !== currentMonth) {
       currentMonth = monthKey;
       const divider = document.createElement('div');
@@ -715,38 +1003,7 @@ function render() {
       grid.appendChild(divider);
     }
 
-    let dateHTML;
-    if (isMultiDay) {
-      const d2 = new Date(event.dateEnd + 'T00:00:00');
-      dateHTML = `<div class="card-dates">
-        <div class="card-date"><div class="day">${d.getDate()}</div><div class="month">${MONTHS_SHORT[d.getMonth()]}</div></div>
-        <span class="date-sep">&ndash;</span>
-        <div class="card-date"><div class="day">${d2.getDate()}</div><div class="month">${MONTHS_SHORT[d2.getMonth()]}</div></div>
-      </div>`;
-    } else {
-      dateHTML = `<div class="card-date"><div class="day">${d.getDate()}</div><div class="month">${MONTHS_SHORT[d.getMonth()]}</div></div>`;
-    }
-
-    const card = document.createElement('div');
-    card.className = 'card' + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
-    card.innerHTML = `
-      <div class="card-top">
-        ${dateHTML}
-        <div class="card-top-right">
-          <span class="card-type ${getTypeClass(event.type)}">${event.type}</span>
-          <button class="fav-btn ${isFav ? 'active' : ''}" onclick="toggleFavorite('${event.id}')" title="Spara som favorit">&#9733;</button>
-        </div>
-      </div>
-      <div class="card-name">${event.name}</div>
-      <div class="card-location">${event.location}</div>
-      <div class="card-desc">${event.description || ''}</div>
-      <div class="card-footer">
-        <span class="card-organizer">${event.organizer}</span>
-        <a class="card-link" href="${event.link}" target="_blank" rel="noopener">Mer info &rarr;</a>
-      </div>
-    `;
-
-    // Check if any ads should appear before this event (date gap placement)
+    // Date gap ads
     if (event.date !== lastEventDate && lastEventDate) {
       Object.keys(adsByDate).forEach(adDate => {
         if (adDate >= lastEventDate && adDate < event.date) {
@@ -764,7 +1021,7 @@ function render() {
     }
     lastEventDate = event.date;
 
-    // Check if any ads should appear right before this specific event
+    // Before-event ads
     if (adsByEvent[event.id]) {
       adsByEvent[event.id].forEach(ad => {
         const adCard = document.createElement('div');
@@ -777,325 +1034,246 @@ function render() {
       });
     }
 
+    // Date HTML
+    let dateHTML;
+    if (isMultiDay) {
+      const d2 = new Date(event.dateEnd + 'T00:00:00');
+      dateHTML = `<div class="card-date-block">
+        <div class="date-unit"><div class="date-day">${d.getDate()}</div><div class="date-month">${MONTHS_SHORT[d.getMonth()]}</div></div>
+        <span class="date-sep">-</span>
+        <div class="date-unit"><div class="date-day">${d2.getDate()}</div><div class="date-month">${MONTHS_SHORT[d2.getMonth()]}</div></div>
+      </div>`;
+    } else {
+      dateHTML = `<div class="card-date-block">
+        <div class="date-unit"><div class="date-day">${d.getDate()}</div><div class="date-month">${MONTHS_SHORT[d.getMonth()]}</div></div>
+      </div>`;
+    }
+
+    // INSTÄLLT detection
+    const isInstallt = event.name.includes('INSTÄLLT') || event.name.includes('INSTALLT');
+    const displayName = isInstallt
+      ? event.name.replace(/\s*INSTÄLLT\s*/gi, '').replace(/\s*INSTALLT\s*/gi, '').trim()
+      : event.name;
+    const installtHTML = isInstallt ? '<div class="card-notice">INSTÄLLT</div>' : '';
+
+    // Build card
+    const card = document.createElement('div');
+    card.className = 'card' + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
+    card.innerHTML = `
+      <div class="card-top">
+        ${dateHTML}
+        ${installtHTML}
+        <div class="card-top-right">
+          <span class="type-badge ${TYPE_CLASSES[event.type] || ''}">${event.type}</span>
+          <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation();toggleFavorite('${event.id}')" title="Spara">&#9733;</button>
+        </div>
+      </div>
+      <div class="card-name">${displayName}</div>
+      <div class="card-body">
+        <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
+        <div class="card-desc">${event.description || ''}</div>
+      </div>
+      <div class="card-footer">
+        <span class="card-organizer">${event.organizer || ''}</span>
+        <a class="card-link" href="${event.link}" target="_blank" rel="noopener">Mer info &rarr;</a>
+      </div>
+    `;
     grid.appendChild(card);
   });
-
-  updateFavUI();
 }
 
-// Filter buttons (type row)
-document.getElementById('filters').addEventListener('click', e => {
-  if (!e.target.classList.contains('filter-btn')) return;
-  const filter = e.target.dataset.filter;
-  if (filter === 'all') {
-    // Alla resets both type and club
-    currentFilter = 'all';
-    currentClub = 'all';
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
-    e.target.classList.add('active');
-  } else {
-    // Type filter selected
-    currentFilter = filter;
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    e.target.classList.add('active');
-  }
+// ========== EVENT LISTENERS ==========
+document.addEventListener('DOMContentLoaded', () => {
+  buildRegionFilter();
+  updateStats();
   render();
-});
+  updateFab();
 
-// Time toggle
-document.getElementById('timeToggle').addEventListener('click', e => {
-  if (!e.target.classList.contains('time-btn')) return;
-  document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('active'));
-  e.target.classList.add('active');
-  showPast = e.target.dataset.time === 'all';
-  render();
-});
-
-// Share buttons
-const shareUrl = encodeURIComponent('https://druk.se/');
-const shareText = encodeURIComponent('MC Kalendern - Alla MC-evenemang i Sverige 2026');
-document.getElementById('shareFb').addEventListener('click', () => {
-  window.open('https://www.facebook.com/sharer/sharer.php?u=' + shareUrl, '_blank', 'width=600,height=400');
-});
-document.getElementById('shareWa').addEventListener('click', () => {
-  window.open('https://wa.me/?text=' + shareText + '%20' + shareUrl, '_blank', 'width=600,height=400');
-});
-document.getElementById('shareX').addEventListener('click', () => {
-  window.open('https://twitter.com/intent/tweet?url=' + shareUrl + '&text=' + shareText, '_blank', 'width=600,height=400');
-});
-
-// Club filter buttons
-document.getElementById('clubFilters').addEventListener('click', e => {
-  const btn = e.target.closest('.club-btn');
-  if (!btn) return;
-  const club = btn.dataset.club;
-  // Toggle: click same club again to deselect
-  if (btn.classList.contains('active')) {
-    btn.classList.remove('active');
-    currentClub = 'all';
-  } else {
-    document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentClub = club;
-  }
-  // Update Alla button state
-  const allaBtn = document.querySelector('.filter-btn[data-filter="all"]');
-  if (currentFilter === 'all' && currentClub === 'all') {
-    allaBtn.classList.add('active');
-  } else {
-    allaBtn.classList.remove('active');
-  }
-  render();
-});
-
-// Favorites drawer
-document.getElementById('favBtn').addEventListener('click', () => {
-  document.getElementById('drawerOverlay').classList.add('open');
-  document.getElementById('drawer').classList.add('open');
-});
-document.getElementById('drawerOverlay').addEventListener('click', () => {
-  document.getElementById('drawerOverlay').classList.remove('open');
-  document.getElementById('drawer').classList.remove('open');
-});
-document.getElementById('drawerClose').addEventListener('click', () => {
-  document.getElementById('drawerOverlay').classList.remove('open');
-  document.getElementById('drawer').classList.remove('open');
-});
-
-// Tipsa modal
-document.getElementById('tipsaBtn').addEventListener('click', () => {
-  document.getElementById('tipsaModal').classList.add('open');
-});
-document.getElementById('tipsaCancel').addEventListener('click', () => {
-  document.getElementById('tipsaModal').classList.remove('open');
-});
-document.getElementById('tipsaModal').addEventListener('click', e => {
-  if (e.target === e.currentTarget) e.currentTarget.classList.remove('open');
-});
-// Formspree form IDs (slava.druk@gmail.com account)
-const FORMSPREE_TIPSA_ID = 'xbdzoavq';
-const FORMSPREE_FAVORITES_ID = 'mnjgdbkw';
-const TEST_MODE = false;
-
-function clearTipsaErrors() {
-  document.querySelectorAll('#tipsaModal .modal-error').forEach(el => el.classList.remove('show'));
-  document.querySelectorAll('#tipsaModal .field-error').forEach(el => el.classList.remove('field-error'));
-}
-
-function validateTipsaForm() {
-  clearTipsaErrors();
-  let valid = true;
-  const name = document.getElementById('tipName');
-  const date = document.getElementById('tipDate');
-  const dateEnd = document.getElementById('tipDateEnd');
-  const location = document.getElementById('tipLocation');
-  const link = document.getElementById('tipLink');
-  const email = document.getElementById('tipEmail');
-  const today = new Date().toISOString().split('T')[0];
-
-  if (!name.value.trim()) {
-    document.getElementById('errName').classList.add('show');
-    name.classList.add('field-error');
-    valid = false;
-  }
-  if (!date.value || date.value < today) {
-    document.getElementById('errDate').classList.add('show');
-    date.classList.add('field-error');
-    valid = false;
-  }
-  if (dateEnd.value && date.value && dateEnd.value < date.value) {
-    document.getElementById('errDateEnd').classList.add('show');
-    dateEnd.classList.add('field-error');
-    valid = false;
-  }
-  if (!location.value.trim()) {
-    document.getElementById('errLocation').classList.add('show');
-    location.classList.add('field-error');
-    valid = false;
-  }
-  if (link.value && !link.value.match(/^https?:\/\/.+\..+/)) {
-    document.getElementById('errLink').classList.add('show');
-    link.classList.add('field-error');
-    valid = false;
-  }
-  if (email.value && !email.value.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-    document.getElementById('errEmail').classList.add('show');
-    email.classList.add('field-error');
-    valid = false;
-  }
-  return valid;
-}
-
-document.getElementById('tipsaSubmit').addEventListener('click', async () => {
-  if (!validateTipsaForm()) return;
-
-  const btn = document.getElementById('tipsaSubmit');
-  btn.disabled = true;
-  btn.textContent = 'Skickar...';
-
-  const tip = {
-    Evenemang: document.getElementById('tipName').value.trim(),
-    Startdatum: document.getElementById('tipDate').value,
-    Slutdatum: document.getElementById('tipDateEnd').value || document.getElementById('tipDate').value,
-    Plats: document.getElementById('tipLocation').value.trim(),
-    Typ: document.getElementById('tipType').value,
-    Arrangor: document.getElementById('tipOrganizer').value.trim() || '(ej angivet)',
-    Lank: document.getElementById('tipLink').value.trim() || '(ingen lank)',
-    Beskrivning: document.getElementById('tipDesc').value.trim() || '(ingen beskrivning)',
-    _replyto: document.getElementById('tipEmail').value.trim() || '',
-    _subject: 'MC Kalendern: Nytt evenemangstips - ' + document.getElementById('tipName').value.trim()
-  };
-
-  try {
-    if (TEST_MODE) {
-      console.log('[TEST] Tipsa submission:', tip);
-      await new Promise(r => setTimeout(r, 500)); // simulate delay
-    } else {
-      const res = await fetch('https://formspree.io/f/' + FORMSPREE_TIPSA_ID, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify(tip)
-      });
-      if (!res.ok) throw new Error('Server error');
-    }
-
-    document.getElementById('tipsaModal').classList.remove('open');
-    document.querySelectorAll('#tipsaModal input, #tipsaModal textarea').forEach(el => el.value = '');
-    clearTipsaErrors();
-
-    const msg = document.getElementById('successMsg');
-    msg.textContent = 'Tack for ditt tips! Vi granskar det snart.';
-    msg.classList.add('show');
-    setTimeout(() => { msg.classList.remove('show'); msg.textContent = 'Tack for ditt tips!'; }, 4000);
-  } catch (err) {
-    alert('Kunde inte skicka tipset. Forsok igen senare eller mejla direkt till slava.druk@gmail.com');
-  } finally {
-    btn.disabled = false;
-    btn.textContent = 'Skicka tips';
-  }
-});
-
-// Send favorites via email
-document.getElementById('reminderBtn').addEventListener('click', async () => {
-  const email = document.getElementById('reminderEmail').value.trim();
-  const errEl = document.getElementById('drawerError');
-  errEl.classList.remove('show');
-
-  if (!email || !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-    errEl.textContent = 'Ange en giltig e-postadress';
-    errEl.classList.add('show');
-    return;
-  }
-  if (favorites.length === 0) {
-    errEl.textContent = 'Du har inga sparade evenemang att skicka';
-    errEl.classList.add('show');
-    return;
-  }
-
-  const btn = document.getElementById('reminderBtn');
-  btn.disabled = true;
-  btn.textContent = 'Skickar...';
-
-  // Build a readable event list
-  const favEvents = EVENTS_DATA.events.filter(e => favorites.includes(e.id));
-  const eventList = favEvents.map(e => {
-    const d = new Date(e.date);
-    const dateStr = d.getDate() + ' ' + MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
-    return e.name + ' - ' + dateStr + ' - ' + (e.location || 'Se lank');
-  }).join('\n');
-
-  const payload = {
-    _replyto: email,
-    _subject: 'Dina sparade MC-evenemang fran MC Kalendern',
-    email: email,
-    message: 'Har ar dina sparade evenemang:\n\n' + eventList + '\n\nBesok druk.se for mer info!',
-    antal_evenemang: favEvents.length,
-    evenemang_ids: favorites.join(', ')
-  };
-
-  try {
-    if (TEST_MODE) {
-      console.log('[TEST] Favorites submission:', payload);
-      await new Promise(r => setTimeout(r, 500));
-    } else {
-      const res = await fetch('https://formspree.io/f/' + FORMSPREE_FAVORITES_ID, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      if (!res.ok) throw new Error('Server error');
-    }
-
-    localStorage.setItem('mc_reminder_email', email);
-    const msg = document.getElementById('successMsg');
-    msg.textContent = 'Evenemangslistan skickad till ' + email + '!';
-    msg.classList.add('show');
-    setTimeout(() => { msg.classList.remove('show'); msg.textContent = 'Tack for ditt tips!'; }, 4000);
-  } catch (err) {
-    errEl.textContent = 'Kunde inte skicka. Forsok igen senare.';
-    errEl.classList.add('show');
-  } finally {
-    btn.disabled = false;
-    btn.textContent = 'Skicka';
-  }
-});
-// Load saved email
-const savedEmail = localStorage.getItem('mc_reminder_email');
-if (savedEmail) document.getElementById('reminderEmail').value = savedEmail;
-
-// Schema.org events
-function generateEventSchema() {
-  const today = new Date().toISOString().split('T')[0];
-  const upcoming = EVENTS_DATA.events
-    .filter(e => e.date >= today)
-    .sort((a, b) => new Date(a.date) - new Date(b.date))
-    .slice(0, 20);
-
-  if (upcoming.length === 0) return;
-
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "MC-evenemang i Sverige 2026",
-    "numberOfItems": upcoming.length,
-    "itemListElement": upcoming.map((e, i) => ({
-      "@type": "ListItem",
-      "position": i + 1,
-      "item": {
-        "@type": "Event",
-        "name": e.name,
-        "startDate": e.date,
-        "endDate": e.dateEnd || e.date,
-        "location": { "@type": "Place", "name": e.location || "Sverige" },
-        "organizer": { "@type": "Organization", "name": e.organizer || "Se lank" },
-        "url": e.link || "https://druk.se/"
+  // Type filter buttons
+  document.querySelectorAll('.type-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const type = btn.dataset.type;
+      if (type === 'all') {
+        // Alla resets both type AND club
+        currentFilter = 'all';
+        currentClub = 'all';
+        document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      } else {
+        currentFilter = type;
+        document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
       }
-    }))
-  };
+      render();
+    });
+  });
 
-  const script = document.createElement('script');
-  script.type = 'application/ld+json';
-  script.textContent = JSON.stringify(schema);
-  document.head.appendChild(script);
+  // Club filter buttons
+  document.querySelectorAll('.club-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const club = btn.dataset.club;
+      if (currentClub === club) {
+        currentClub = 'all';
+        btn.classList.remove('active');
+      } else {
+        document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentClub = club;
+      }
+      // Update Alla button state
+      const allaBtn = document.querySelector('.type-btn[data-type="all"]');
+      if (currentFilter === 'all' && currentClub === 'all') {
+        allaBtn.classList.add('active');
+      } else {
+        allaBtn.classList.remove('active');
+      }
+      render();
+    });
+  });
+
+  // Region filter
+  document.getElementById('regionFilter').addEventListener('change', e => {
+    currentRegion = e.target.value;
+    render();
+  });
+
+  // Past toggle
+  document.getElementById('pastToggle').addEventListener('click', function() {
+    showPast = !showPast;
+    this.classList.toggle('active');
+    render();
+  });
+
+  // Search
+  const searchInput = document.getElementById('searchInput');
+  const searchClear = document.getElementById('searchClear');
+  let searchTimeout;
+  searchInput.addEventListener('input', () => {
+    clearTimeout(searchTimeout);
+    searchClear.classList.toggle('visible', searchInput.value.length > 0);
+    searchTimeout = setTimeout(() => {
+      searchQuery = searchInput.value.trim();
+      render();
+    }, 200);
+  });
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    searchQuery = '';
+    searchClear.classList.remove('visible');
+    render();
+  });
+
+  // Sticky filter shadow
+  const filtersWrapper = document.getElementById('filtersWrapper');
+  const observer = new IntersectionObserver(
+    ([entry]) => filtersWrapper.classList.toggle('scrolled', !entry.isIntersecting),
+    { threshold: 0, rootMargin: '-1px 0px 0px 0px' }
+  );
+  observer.observe(document.querySelector('.search-section'));
+
+  // Scroll to top
+  const scrollTopBtn = document.getElementById('scrollTop');
+  window.addEventListener('scroll', () => {
+    scrollTopBtn.classList.toggle('visible', window.scrollY > 600);
+  });
+  scrollTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Favorites drawer
+  document.getElementById('fabFavorites').addEventListener('click', () => {
+    document.getElementById('drawer').classList.add('open');
+    document.getElementById('drawerOverlay').classList.add('open');
+    updateDrawer();
+  });
+  document.getElementById('drawerClose').addEventListener('click', closeDrawer);
+  document.getElementById('drawerOverlay').addEventListener('click', closeDrawer);
+
+  function closeDrawer() {
+    document.getElementById('drawer').classList.remove('open');
+    document.getElementById('drawerOverlay').classList.remove('open');
+  }
+
+  // Tipsa modal
+  document.getElementById('tipsaBtn').addEventListener('click', () => {
+    document.getElementById('tipsaModal').classList.add('open');
+  });
+  document.getElementById('tipCancel').addEventListener('click', () => {
+    document.getElementById('tipsaModal').classList.remove('open');
+  });
+  document.getElementById('tipSubmit').addEventListener('click', async () => {
+    const name = document.getElementById('tipName').value.trim();
+    const date = document.getElementById('tipDate').value;
+    if (!name || !date) {
+      document.getElementById('tipError').textContent = 'Namn och datum kravs.';
+      return;
+    }
+    try {
+      await fetch('https://formspree.io/f/xbdzoavq', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name, date,
+          location: document.getElementById('tipLocation').value,
+          link: document.getElementById('tipLink').value,
+          email: document.getElementById('tipEmail').value,
+          description: document.getElementById('tipDesc').value
+        })
+      });
+      document.getElementById('tipsaModal').classList.remove('open');
+      alert('Tack for ditt tips!');
+    } catch (err) {
+      document.getElementById('tipError').textContent = 'Kunde inte skicka. Forsok igen.';
+    }
+  });
+
+  // Reminder email
+  document.getElementById('reminderBtn').addEventListener('click', async () => {
+    const email = document.getElementById('reminderEmail').value.trim();
+    if (!email) { document.getElementById('drawerError').textContent = 'Ange din e-post.'; return; }
+    const allEvents = EVENTS_DATA.events;
+    const favList = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
+      .map(e => `${e.date}: ${e.name} - ${e.location}`).join('\n');
+    try {
+      await fetch('https://formspree.io/f/mnjgdbkw', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, favorites: favList })
+      });
+      document.getElementById('drawerError').textContent = '';
+      alert('Skickat! Kolla din inkorg.');
+    } catch (err) {
+      document.getElementById('drawerError').textContent = 'Kunde inte skicka.';
+    }
+  });
+
+  // Share buttons
+  const url = encodeURIComponent('https://druk.se');
+  const text = encodeURIComponent('MC Kalendern - Alla MC-evenemang i Sverige');
+  document.getElementById('shareFb').addEventListener('click', () => window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400'));
+  document.getElementById('shareWa').addEventListener('click', () => window.open(`https://wa.me/?text=${text}%20${url}`, '_blank'));
+  document.getElementById('shareX').addEventListener('click', () => window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank', 'width=600,height=400'));
+});
+
+function updateDrawer() {
+  const body = document.getElementById('drawerBody');
+  if (favorites.length === 0) {
+    body.innerHTML = '<div class="drawer-empty">Tryck pa stjarnan pa ett evenemang for att spara det har.</div>';
+    return;
+  }
+  const allEvents = EVENTS_DATA.events;
+  const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+  body.innerHTML = favEvents.map(e => {
+    const d = new Date(e.date + 'T00:00:00');
+    return `<div class="drawer-item">
+      <div><div class="drawer-item-name">${e.name}</div>
+      <div class="drawer-item-date">${d.getDate()} ${MONTHS_SV[d.getMonth()]} - ${e.location}</div></div>
+      <button class="drawer-item-remove" onclick="toggleFavorite('${e.id}')">&times;</button>
+    </div>`;
+  }).join('');
 }
-
-// Scroll to top button
-const scrollBtn = document.getElementById('scrollTop');
-window.addEventListener('scroll', () => {
-  scrollBtn.classList.toggle('visible', window.scrollY > 400);
-});
-scrollBtn.addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-
-// Init
-render();
-generateEventSchema();
-
-// Hide SEO content after JS has rendered events
-const seoEl = document.getElementById('seoContent');
-if (seoEl) seoEl.style.display = 'none';
 </script>
 </body>
 </html>
