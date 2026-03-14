@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Flip Test v2 - MC Kalendern</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg-primary: #f4f5f7;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f9fafb;
+    --text-primary: #1a1d23;
+    --text-secondary: #4b5563;
+    --text-muted: #7c8390;
+    --accent: #d97706;
+    --accent-hover: #b45309;
+    --border: #e2e5ea;
+    --border-light: #d1d5db;
+    --type-traff: #16a34a;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --transition: 0.2s ease;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.5;
+    padding: 40px 20px;
+  }
+
+  h1 { text-align: center; margin-bottom: 10px; font-size: 24px; }
+  h2 { margin: 40px 0 16px; font-size: 18px; color: var(--text-secondary); }
+  .subtitle { text-align: center; color: var(--text-muted); font-size: 14px; margin-bottom: 40px; }
+  .option-note { font-size: 13px; color: var(--text-muted); margin-bottom: 16px; line-height: 1.5; }
+
+  .test-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* ========== CARD BASE (same as live site) ========== */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: all var(--transition);
+    display: flex; flex-direction: column;
+    padding: 20px;
+  }
+  .card:hover {
+    border-color: var(--border-light);
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+  }
+
+  .card-top {
+    display: flex; justify-content: space-between;
+    align-items: flex-start; margin-bottom: 10px;
+    min-height: 52px;
+  }
+  .card-top-right { display: flex; align-items: flex-start; gap: 8px; }
+  .card-date-block { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
+  .date-unit {
+    background: var(--bg-primary); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); padding: 6px 10px;
+    text-align: center; min-width: 48px;
+  }
+  .date-day { font-size: 22px; font-weight: 700; line-height: 1.1; color: var(--text-primary); }
+  .date-month { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); font-weight: 600; }
+  .date-sep { color: var(--text-muted); font-size: 14px; }
+
+  .type-badge {
+    font-size: 10px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.5px; padding: 3px 8px; border-radius: 4px; white-space: nowrap;
+  }
+  .type-traff { background: rgba(22,163,74,0.1); color: var(--type-traff); }
+
+  .fav-btn {
+    background: none; border: none; cursor: pointer;
+    font-size: 18px; color: var(--border-light);
+    transition: all var(--transition); padding: 2px; line-height: 1;
+  }
+  .fav-btn:hover { color: var(--accent); transform: scale(1.2); }
+
+  .card-name {
+    font-size: 16px; font-weight: 600; line-height: 1.3; margin-bottom: 6px;
+    color: var(--text-primary); min-height: 42px;
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .card-body { flex: 1; }
+
+  .card-location-wrap {
+    display: flex; align-items: flex-start; gap: 4px;
+    min-height: 40px; margin-bottom: 8px;
+  }
+  .card-location-icon {
+    width: 14px; height: 14px; flex-shrink: 0; margin-top: 2px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23ef4444' stroke-width='2'%3E%3Cpath d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E") no-repeat center;
+  }
+  .card-location {
+    font-size: 13px; color: var(--text-secondary);
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden; line-height: 1.5;
+  }
+  .card-desc {
+    font-size: 13px; color: var(--text-muted); line-height: 1.55;
+    min-height: 101px;
+    display: -webkit-box; -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+
+  .card-footer {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-top: 12px; border-top: 1px solid var(--border); margin-top: 12px;
+  }
+  .card-organizer {
+    font-size: 12px; color: var(--text-muted); font-weight: 500;
+    max-width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .card-link {
+    font-size: 12px; color: var(--accent); text-decoration: none; font-weight: 600;
+    transition: color var(--transition); white-space: nowrap; cursor: pointer;
+    background: none; border: none;
+  }
+  .card-link:hover { color: var(--accent-hover); }
+
+  /* ========== EXPANDABLE CARD ========== */
+  .card-expandable .card-front { transition: opacity 0.2s ease; }
+  .card-expandable .card-back-slide { display: none; }
+  .card-expandable.expanded .card-front { display: none; }
+  .card-expandable.expanded .card-back-slide { display: flex; flex-direction: column; flex: 1; }
+
+  /* Back side header */
+  .back-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 10px;
+  }
+  .back-title { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+  .back-close {
+    background: none; border: none; cursor: pointer;
+    font-size: 20px; color: var(--text-muted); padding: 0 4px;
+    border-radius: 4px; transition: all var(--transition); line-height: 1;
+  }
+  .back-close:hover { color: var(--text-primary); background: var(--bg-primary); }
+
+  /* Back side description */
+  .back-desc {
+    font-size: 13px; color: var(--text-muted); line-height: 1.6;
+    flex: 1;
+  }
+  .back-desc p { margin-bottom: 8px; }
+  .back-desc p:last-child { margin-bottom: 0; }
+
+  /* Back side links */
+  .back-links {
+    padding-top: 12px; border-top: 1px solid var(--border); margin-top: 12px;
+  }
+  .back-links-label {
+    font-size: 10px; text-transform: uppercase; letter-spacing: 1px;
+    color: var(--text-muted); font-weight: 600; margin-bottom: 6px;
+  }
+  .back-link-list { display: flex; flex-direction: column; gap: 4px; }
+  .back-link-item {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 12px; text-decoration: none; color: var(--accent);
+    font-weight: 500; transition: color var(--transition);
+  }
+  .back-link-item:hover { color: var(--accent-hover); }
+  .back-link-item svg { width: 12px; height: 12px; flex-shrink: 0; }
+  .back-link-tag {
+    font-size: 10px; color: var(--text-muted); font-weight: 400;
+    margin-left: 2px;
+  }
+
+  /* Back side footer */
+  .back-footer {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-top: 10px; border-top: 1px solid var(--border); margin-top: 12px;
+  }
+  .back-btn {
+    font-size: 12px; color: var(--accent); font-weight: 600;
+    background: none; border: none; cursor: pointer;
+    transition: color var(--transition);
+  }
+  .back-btn:hover { color: var(--accent-hover); }
+
+  /* ========== SCROLLABLE BACK SIDE ========== */
+  .card-expandable.expanded {
+    max-height: 380px; /* same height as a typical front side card */
+    overflow: hidden;
+  }
+  .card-expandable.expanded .card-back-slide {
+    max-height: 380px;
+    overflow: hidden;
+  }
+  .card-expandable.expanded .back-scroll-area {
+    max-height: 260px;
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+  /* Thin scrollbar */
+  .back-scroll-area::-webkit-scrollbar { width: 4px; }
+  .back-scroll-area::-webkit-scrollbar-track { background: transparent; }
+  .back-scroll-area::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 2px; }
+  .back-scroll-area::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<h1>MC Kalendern - Card v2 Test</h1>
+<p class="subtitle">Option C utvecklad: "Mer info" expanderar kortet, baksidan visar full beskrivning + flera externa lankar</p>
+
+<!-- ========== CURRENT (reference) ========== -->
+<h2>Nuvarande kort (referens)</h2>
+<div class="test-grid">
+  <div class="card">
+    <div class="card-top">
+      <div class="card-date-block">
+        <div class="date-unit"><div class="date-day">16</div><div class="date-month">MAJ</div></div>
+        <span class="date-sep">-</span>
+        <div class="date-unit"><div class="date-day">17</div><div class="date-month">MAJ</div></div>
+      </div>
+      <div class="card-top-right">
+        <span class="type-badge type-traff">TR&Auml;FF</span>
+        <button class="fav-btn">&#9734;</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-name">R&ouml;nneg&aring;rd B&auml;dd &amp; Frukost</div>
+      <div class="card-location-wrap">
+        <div class="card-location-icon"></div>
+        <div class="card-location">Gagnef</div>
+      </div>
+      <div class="card-desc">Snacka MC-touring &ouml;ver kaffe, kolla touringboden och leverant&ouml;rer. Grillkv&auml;ll 175 kr med resebilder, i &aring;r med fokus p&aring; Japan. &Ouml;vernattning m&ouml;jlig.</div>
+    </div>
+    <div class="card-footer">
+      <span class="card-organizer">mctouring.se</span>
+      <a class="card-link" href="http://www.ronnegard.se/mc" target="_blank">Mer info &rarr;</a>
+    </div>
+  </div>
+</div>
+
+<!-- ========== OPTION C1: "Mer info" expands, links at bottom of back ========== -->
+<h2>C1: "Mer info" expanderar, lankar i botten</h2>
+<p class="option-note">"Mer info &rarr;" flippar kortet. Baksidan visar full beskrivning + en lista med externa lankar (organisat&ouml;r, plats, etc). Knapp "&larr; Tillbaka" f&ouml;r att g&aring; tillbaka.</p>
+<div class="test-grid">
+  <div class="card card-expandable" id="cardC1">
+    <!-- FRONT -->
+    <div class="card-front">
+      <div class="card-top">
+        <div class="card-date-block">
+          <div class="date-unit"><div class="date-day">16</div><div class="date-month">MAJ</div></div>
+          <span class="date-sep">-</span>
+          <div class="date-unit"><div class="date-day">17</div><div class="date-month">MAJ</div></div>
+        </div>
+        <div class="card-top-right">
+          <span class="type-badge type-traff">TR&Auml;FF</span>
+          <button class="fav-btn">&#9734;</button>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">R&ouml;nneg&aring;rd B&auml;dd &amp; Frukost</div>
+        <div class="card-location-wrap">
+          <div class="card-location-icon"></div>
+          <div class="card-location">Gagnef</div>
+        </div>
+        <div class="card-desc">Snacka MC-touring &ouml;ver kaffe, kolla touringboden och leverant&ouml;rer. Grillkv&auml;ll 175 kr med resebilder, i &aring;r med fokus p&aring; Japan. &Ouml;vernattning m&ouml;jlig.</div>
+      </div>
+      <div class="card-footer">
+        <span class="card-organizer">mctouring.se</span>
+        <button class="card-link" onclick="document.getElementById('cardC1').classList.add('expanded')">Mer info &rarr;</button>
+      </div>
+    </div>
+    <!-- BACK -->
+    <div class="card-back-slide">
+      <div class="back-header">
+        <span class="back-title">R&ouml;nneg&aring;rd B&auml;dd &amp; Frukost</span>
+        <button class="back-close" onclick="document.getElementById('cardC1').classList.remove('expanded')">&times;</button>
+      </div>
+      <div class="back-desc">
+        <p>L&ouml;rdagen den 16 maj h&aring;ller mctouring.se &Ouml;ppet hus p&aring; Tallbacken i Gagnef. Kom f&ouml;rbi och snacka MC-touring &ouml;ver en kopp kaffe med tilltugg.</p>
+        <p>MC-touringboden &ouml;ppnar med b&aring;de gammalt och nytt! Leverant&ouml;rer p&aring; plats med produkter f&ouml;r MC-touring p&aring; b&aring;de asfalt och grus.</p>
+        <p>P&aring; kv&auml;llen k&ouml;r vi en grillkv&auml;ll (175 kr/person) med bilder och film fr&aring;n olika resor, i &aring;r med fokus p&aring; Japan.</p>
+        <p>&Ouml;vernattning i delad fyrb&auml;ddsstuga 375 kr/person. Eget t&auml;lt med servicehus och frukost 225 kr/person. Bokning: hans@mctouring.se</p>
+      </div>
+      <div class="back-links">
+        <div class="back-links-label">L&auml;nkar</div>
+        <div class="back-link-list">
+          <a class="back-link-item" href="https://mctouring.se" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            mctouring.se <span class="back-link-tag">- arrang&ouml;r</span>
+          </a>
+          <a class="back-link-item" href="http://www.ronnegard.se/mc" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            r&ouml;nneg&aring;rd.se <span class="back-link-tag">- boende</span>
+          </a>
+        </div>
+      </div>
+      <div class="back-footer">
+        <span class="card-organizer">mctouring.se</span>
+        <button class="back-btn" onclick="document.getElementById('cardC1').classList.remove('expanded')">&larr; Tillbaka</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== OPTION C2: Same but with more compact link style ========== -->
+<h2>C2: Samma men med kompakta lank-pills</h2>
+<p class="option-note">Samma ide men lankarna visas som sm&aring; pills/taggar ist&auml;llet f&ouml;r en lista. Mer kompakt, passar b&auml;ttre om det finns m&aring;nga lankar.</p>
+
+<style>
+  .back-link-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .back-link-pill {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 11px; text-decoration: none;
+    color: var(--accent); font-weight: 500;
+    padding: 4px 10px; border-radius: 14px;
+    border: 1px solid var(--border);
+    background: var(--bg-primary);
+    transition: all var(--transition);
+  }
+  .back-link-pill:hover {
+    border-color: var(--accent); background: rgba(217,119,6,0.05);
+  }
+  .back-link-pill svg { width: 10px; height: 10px; }
+</style>
+
+<div class="test-grid">
+  <div class="card card-expandable" id="cardC2">
+    <!-- FRONT -->
+    <div class="card-front">
+      <div class="card-top">
+        <div class="card-date-block">
+          <div class="date-unit"><div class="date-day">16</div><div class="date-month">MAJ</div></div>
+          <span class="date-sep">-</span>
+          <div class="date-unit"><div class="date-day">17</div><div class="date-month">MAJ</div></div>
+        </div>
+        <div class="card-top-right">
+          <span class="type-badge type-traff">TR&Auml;FF</span>
+          <button class="fav-btn">&#9734;</button>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">R&ouml;nneg&aring;rd B&auml;dd &amp; Frukost</div>
+        <div class="card-location-wrap">
+          <div class="card-location-icon"></div>
+          <div class="card-location">Gagnef</div>
+        </div>
+        <div class="card-desc">Snacka MC-touring &ouml;ver kaffe, kolla touringboden och leverant&ouml;rer. Grillkv&auml;ll 175 kr med resebilder, i &aring;r med fokus p&aring; Japan. &Ouml;vernattning m&ouml;jlig.</div>
+      </div>
+      <div class="card-footer">
+        <span class="card-organizer">mctouring.se</span>
+        <button class="card-link" onclick="document.getElementById('cardC2').classList.add('expanded')">Mer info &rarr;</button>
+      </div>
+    </div>
+    <!-- BACK -->
+    <div class="card-back-slide">
+      <div class="back-header">
+        <span class="back-title">R&ouml;nneg&aring;rd B&auml;dd &amp; Frukost</span>
+        <button class="back-close" onclick="document.getElementById('cardC2').classList.remove('expanded')">&times;</button>
+      </div>
+      <div class="back-desc">
+        <p>L&ouml;rdagen den 16 maj h&aring;ller mctouring.se &Ouml;ppet hus p&aring; Tallbacken i Gagnef. Kom f&ouml;rbi och snacka MC-touring &ouml;ver en kopp kaffe med tilltugg.</p>
+        <p>MC-touringboden &ouml;ppnar med b&aring;de gammalt och nytt! Leverant&ouml;rer p&aring; plats med produkter f&ouml;r MC-touring p&aring; b&aring;de asfalt och grus.</p>
+        <p>P&aring; kv&auml;llen k&ouml;r vi en grillkv&auml;ll (175 kr/person) med bilder och film fr&aring;n olika resor, i &aring;r med fokus p&aring; Japan.</p>
+        <p>&Ouml;vernattning i delad fyrb&auml;ddsstuga 375 kr/person. Eget t&auml;lt med servicehus och frukost 225 kr/person. Bokning: hans@mctouring.se</p>
+      </div>
+      <div class="back-links">
+        <div class="back-link-pills">
+          <a class="back-link-pill" href="https://mctouring.se" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            mctouring.se
+          </a>
+          <a class="back-link-pill" href="http://www.ronnegard.se/mc" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            r&ouml;nneg&aring;rd.se
+          </a>
+        </div>
+      </div>
+      <div class="back-footer">
+        <span class="card-organizer">mctouring.se</span>
+        <button class="back-btn" onclick="document.getElementById('cardC2').classList.remove('expanded')">&larr; Tillbaka</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== OPTION C3: Same idea but event with 3 links ========== -->
+<h2>C3: Samma med 3 lankar (Ride for Ukraine)</h2>
+<p class="option-note">Visar hur det ser ut med fler lankar. Ride for Ukraine har organisat&ouml;r, insamlingssida, och plats.</p>
+
+<style>
+  .type-korning { background: rgba(234,88,12,0.1); color: #ea580c; }
+</style>
+
+<div class="test-grid">
+  <div class="card card-expandable" id="cardC3">
+    <!-- FRONT -->
+    <div class="card-front">
+      <div class="card-top">
+        <div class="card-date-block">
+          <div class="date-unit"><div class="date-day">23</div><div class="date-month">MAJ</div></div>
+        </div>
+        <div class="card-top-right">
+          <span class="type-badge type-korning">K&Ouml;RNING</span>
+          <button class="fav-btn">&#9734;</button>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Ride for Ukraine 2026</div>
+        <div class="card-location-wrap">
+          <div class="card-location-icon"></div>
+          <div class="card-location">Ukrainska ambassaden, Liding&ouml;</div>
+        </div>
+        <div class="card-desc">V&auml;lg&ouml;renhetsk&ouml;rning till st&ouml;d f&ouml;r Ukraina via UNHCR. Samling 09:30, start 10:00. Fr&aring;n Liding&ouml; till Sollentuna. Swisha valfri summa, allt g&aring;r oavkortat till UNHCR.</div>
+      </div>
+      <div class="card-footer">
+        <span class="card-organizer">Templar Knights MC</span>
+        <button class="card-link" onclick="document.getElementById('cardC3').classList.add('expanded')">Mer info &rarr;</button>
+      </div>
+    </div>
+    <!-- BACK -->
+    <div class="card-back-slide">
+      <div class="back-header">
+        <span class="back-title">Ride for Ukraine 2026</span>
+        <button class="back-close" onclick="document.getElementById('cardC3').classList.remove('expanded')">&times;</button>
+      </div>
+      <div class="back-desc">
+        <p>V&auml;lg&ouml;renhetsk&ouml;rning till st&ouml;d f&ouml;r UNHCR och Ukraina. Fj&auml;rde &aring;ret i rad. Samling kl 09:30 vid Ukrainska ambassaden p&aring; Liding&ouml;, start kl 10:00.</p>
+        <p>Rutt: Fr&aring;n Ukrainska ambassaden, Herserudsc, 181 50 Liding&ouml; till &Ouml;verby, Ladug&aring;rden 5, 192 77 Sollentuna.</p>
+        <p>Swisha valfri summa till 070 717 28 00 (G&ouml;ran Andersson). Hela insamlingen g&aring;r oavkortat till UNHCR.</p>
+        <p>Alla med hoj &auml;r v&auml;lkomna. Visa ditt st&ouml;d f&ouml;r Ukraina p&aring; tv&aring; hjul!</p>
+      </div>
+      <div class="back-links">
+        <div class="back-link-pills">
+          <a class="back-link-pill" href="https://min.sverigeforunhcr.se/fundraisers/ride-for-ukraine2" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            UNHCR Insamling
+          </a>
+          <a class="back-link-pill" href="https://templarknightsmc.se/stockholm/" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Templar Knights MC
+          </a>
+          <a class="back-link-pill" href="https://www.google.com/maps?q=Ukrainska+ambassaden+Liding%C3%B6" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Karta
+          </a>
+        </div>
+      </div>
+      <div class="back-footer">
+        <span class="card-organizer">Templar Knights MC</span>
+        <button class="back-btn" onclick="document.getElementById('cardC3').classList.remove('expanded')">&larr; Tillbaka</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== OPTION C4: Scrollable long text ========== -->
+<h2>C4: L&aring;ng text med scroll</h2>
+<p class="option-note">Kortet h&aring;ller samma h&ouml;jd som framsidan. N&auml;r texten &auml;r l&aring;ng scrollar man inuti kortet. Tunn scrollbar. L&auml;nkarna och "Tillbaka" sitter fast i botten.</p>
+
+<div class="test-grid">
+  <div class="card card-expandable" id="cardC4">
+    <!-- FRONT -->
+    <div class="card-front">
+      <div class="card-top">
+        <div class="card-date-block">
+          <div class="date-unit"><div class="date-day">16</div><div class="date-month">MAJ</div></div>
+          <span class="date-sep">-</span>
+          <div class="date-unit"><div class="date-day">17</div><div class="date-month">MAJ</div></div>
+        </div>
+        <div class="card-top-right">
+          <span class="type-badge type-traff">TR&Auml;FF</span>
+          <button class="fav-btn">&#9734;</button>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">R&ouml;nneg&aring;rd B&auml;dd &amp; Frukost</div>
+        <div class="card-location-wrap">
+          <div class="card-location-icon"></div>
+          <div class="card-location">Gagnef</div>
+        </div>
+        <div class="card-desc">Snacka MC-touring &ouml;ver kaffe, kolla touringboden och leverant&ouml;rer. Grillkv&auml;ll 175 kr med resebilder, i &aring;r med fokus p&aring; Japan. &Ouml;vernattning m&ouml;jlig.</div>
+      </div>
+      <div class="card-footer">
+        <span class="card-organizer">mctouring.se</span>
+        <button class="card-link" onclick="document.getElementById('cardC4').classList.add('expanded')">Mer info &rarr;</button>
+      </div>
+    </div>
+    <!-- BACK -->
+    <div class="card-back-slide">
+      <div class="back-header">
+        <span class="back-title">R&ouml;nneg&aring;rd B&auml;dd &amp; Frukost</span>
+        <button class="back-close" onclick="document.getElementById('cardC4').classList.remove('expanded')">&times;</button>
+      </div>
+      <div class="back-scroll-area">
+        <div class="back-desc">
+          <p>V&Auml;LKOMMEN! L&ouml;rdagen den 16 maj 2026 h&aring;ller mctouring.se &Ouml;ppet hus p&aring; Tallbacken i Gagnef. Det finns m&ouml;jlighet att komma f&ouml;rbi och snacka MC-touring &ouml;ver en kopp kaffe med tilltugg.</p>
+          <p>Vi h&aring;ller &auml;ven MC-touringboden &ouml;ppen med b&aring;de gammalt och nytt! Det kommer ocks&aring; att finnas leverant&ouml;rer p&aring; plats med produkter som hj&auml;lper oss att njuta av MC-touring p&aring; b&aring;de asfalt och grus.</p>
+          <p>P&aring; kv&auml;llen k&ouml;r vi en grillkv&auml;ll (175 kronor/person) d&aring; det &auml;ven presenteras lite bilder och film fr&aring;n olika resor, och i &aring;r med lite fokus p&aring; Japan.</p>
+          <p>Det finns &auml;ven m&ouml;jlighet att bo &ouml;ver mellan den 16 till den 17 med frukost p&aring; s&ouml;ndag morgon. Perfekt f&ouml;r en h&auml;rlig v&aring;rtur till Dalarna!</p>
+          <p>B&auml;dd &amp; Frukost per person i delad fyrb&auml;ddsstuga 375 kronor. Det g&aring;r ocks&aring; bra att komma redan p&aring; fredag kv&auml;ll och ha ytterligare en natt med B&auml;dd &amp; Frukost till samma pris.</p>
+          <p>Finns &auml;ven m&ouml;jlighet till eget t&auml;lt med tillg&aring;ng till servicehus och frukost f&ouml;r 225 kronor/person.</p>
+          <p>L&ouml;rdag 10.00 - 23.00 | S&ouml;ndag 08.00 - 10.00</p>
+          <p>Boende bokas via e-post: hans@mctouring.se</p>
+          <p>V&auml;lkommen till en h&auml;rlig dag/helg tillsammans med likasinnade och med stort fokus p&aring; MC-touring!</p>
+          <p>H&auml;lsningar era v&auml;rdar // Gun och Hans R&ouml;nneg&aring;rd</p>
+        </div>
+        <div class="back-links">
+          <div class="back-link-pills">
+            <a class="back-link-pill" href="https://mctouring.se" target="_blank">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              mctouring.se
+            </a>
+            <a class="back-link-pill" href="http://www.ronnegard.se/mc" target="_blank">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              r&ouml;nneg&aring;rd.se
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="back-footer">
+        <span class="card-organizer">mctouring.se</span>
+        <button class="back-btn" onclick="document.getElementById('cardC4').classList.remove('expanded')">&larr; Tillbaka</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="height: 80px;"></div>
+
+</body>
+</html>

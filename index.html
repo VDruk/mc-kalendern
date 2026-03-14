@@ -439,6 +439,79 @@
     white-space: nowrap;
   }
   .card-link:hover { color: var(--accent-hover); }
+  .card-link-btn {
+    font-size: 12px; color: var(--accent);
+    text-decoration: none; font-weight: 600;
+    transition: color var(--transition);
+    white-space: nowrap; cursor: pointer;
+    background: none; border: none;
+  }
+  .card-link-btn:hover { color: var(--accent-hover); }
+
+  /* ========== EXPANDABLE CARD BACK ========== */
+  .card-front { display: flex; flex-direction: column; flex: 1; }
+  .card .card-back-slide { display: none; }
+  .card.expanded .card-front { display: none; }
+  .card.expanded .card-back-slide {
+    display: flex; flex-direction: column; flex: 1;
+  }
+  .card.expanded { max-height: 420px; overflow: hidden; }
+  .card.expanded .card-back-slide { max-height: 420px; overflow: hidden; }
+
+  .back-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 10px;
+  }
+  .back-title { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+  .back-close {
+    background: none; border: none; cursor: pointer;
+    font-size: 20px; color: var(--text-muted); padding: 0 4px;
+    border-radius: 4px; transition: all var(--transition); line-height: 1;
+  }
+  .back-close:hover { color: var(--text-primary); background: var(--bg-primary); }
+
+  .back-scroll-area {
+    max-height: 280px; overflow-y: auto; padding-right: 4px; flex: 1;
+  }
+  .back-scroll-area::-webkit-scrollbar { width: 4px; }
+  .back-scroll-area::-webkit-scrollbar-track { background: transparent; }
+  .back-scroll-area::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 2px; }
+  .back-scroll-area::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+  .back-desc { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+  .back-desc p { margin-bottom: 8px; }
+  .back-desc p:last-child { margin-bottom: 0; }
+
+  .back-img {
+    width: 100%; border-radius: var(--radius-sm);
+    margin-top: 10px; object-fit: cover;
+  }
+
+  .back-links {
+    padding-top: 10px; margin-top: 10px;
+  }
+  .back-link-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .back-link-pill {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 11px; text-decoration: none;
+    color: var(--accent); font-weight: 500;
+    padding: 4px 10px; border-radius: 14px;
+    border: 1px solid var(--border); background: var(--bg-primary);
+    transition: all var(--transition);
+  }
+  .back-link-pill:hover { border-color: var(--accent); background: rgba(217,119,6,0.05); }
+  .back-link-pill svg { width: 10px; height: 10px; }
+
+  .back-footer {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-top: 10px; border-top: 1px solid var(--border); margin-top: 10px;
+  }
+  .back-btn {
+    font-size: 12px; color: var(--accent); font-weight: 600;
+    background: none; border: none; cursor: pointer;
+    transition: color var(--transition);
+  }
+  .back-btn:hover { color: var(--accent-hover); }
 
   /* ========== AD CARDS ========== */
   .ad-card {
@@ -1081,26 +1154,77 @@ function render() {
     const installtHTML = isInstallt ? '<div class="card-notice">INSTÄLLT</div>' : '';
 
     // Build card
+    const hasBack = event.descriptionFull || event.links;
     const card = document.createElement('div');
     card.className = 'card' + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
-    card.innerHTML = `
-      <div class="card-top">
-        ${dateHTML}
-        ${installtHTML}
-        <div class="card-top-right">
-          <span class="type-badge ${TYPE_CLASSES[event.type] || ''}">${event.type}</span>
-          <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation();toggleFavorite('${event.id}')" title="Spara">&#9733;</button>
-        </div>
-      </div>
-      <div class="card-name">${displayName}</div>
-      <div class="card-body">
-        <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
-        <div class="card-desc">${event.description || ''}</div>
-      </div>
-      <div class="card-footer">
+    const cardId = 'c-' + event.id;
+
+    // Footer: "Mer info" either expands card or goes external
+    let footerHTML;
+    if (hasBack) {
+      footerHTML = `<div class="card-footer">
+        <span class="card-organizer">${event.organizer || ''}</span>
+        <button class="card-link-btn" onclick="event.stopPropagation();document.getElementById('${cardId}').classList.add('expanded')">Mer info &rarr;</button>
+      </div>`;
+    } else {
+      footerHTML = `<div class="card-footer">
         <span class="card-organizer">${event.organizer || ''}</span>
         <a class="card-link" href="${event.link}" target="_blank" rel="noopener">Mer info &rarr;</a>
+      </div>`;
+    }
+
+    // Back side HTML
+    let backHTML = '';
+    if (hasBack) {
+      const fullDesc = (event.descriptionFull || event.description || '').split('\n').map(p => `<p>${p}</p>`).join('');
+      const backImg = event.backImage ? `<img class="back-img" src="${event.backImage}" alt="${displayName}">` : '';
+      let linksHTML = '';
+      if (event.links && event.links.length > 0) {
+        const extIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
+        const mapIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
+        const pills = event.links.map(l => {
+          const icon = l.type === 'map' ? mapIcon : extIcon;
+          return `<a class="back-link-pill" href="${l.url}" target="_blank" rel="noopener">${icon} ${l.label}</a>`;
+        }).join('');
+        linksHTML = `<div class="back-links"><div class="back-link-pills">${pills}</div></div>`;
+      }
+      backHTML = `
+      <div class="card-back-slide">
+        <div class="back-header">
+          <span class="back-title">${displayName}</span>
+          <button class="back-close" onclick="event.stopPropagation();document.getElementById('${cardId}').classList.remove('expanded')">&times;</button>
+        </div>
+        <div class="back-scroll-area">
+          <div class="back-desc">${fullDesc}</div>
+          ${backImg}
+          ${linksHTML}
+        </div>
+        <div class="back-footer">
+          <span class="card-organizer">${event.organizer || ''}</span>
+          <button class="back-btn" onclick="event.stopPropagation();document.getElementById('${cardId}').classList.remove('expanded')">&larr; Tillbaka</button>
+        </div>
+      </div>`;
+    }
+
+    card.id = cardId;
+    card.innerHTML = `
+      <div class="card-front">
+        <div class="card-top">
+          ${dateHTML}
+          ${installtHTML}
+          <div class="card-top-right">
+            <span class="type-badge ${TYPE_CLASSES[event.type] || ''}">${event.type}</span>
+            <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation();toggleFavorite('${event.id}')" title="Spara">&#9733;</button>
+          </div>
+        </div>
+        <div class="card-name">${displayName}</div>
+        <div class="card-body">
+          <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
+          <div class="card-desc">${event.description || ''}</div>
+        </div>
+        ${footerHTML}
       </div>
+      ${backHTML}
     `;
     grid.appendChild(card);
   });

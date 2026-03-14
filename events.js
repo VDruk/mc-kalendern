@@ -2479,6 +2479,12 @@ const EVENTS_DATA = {
     "type": "Träff",
     "organizer": "mctouring.se",
     "description": "Snacka MC-touring över kaffe, kolla touringboden och leverantörer. Grillkväll 175 kr med resebilder, i år med fokus på Japan. Övernattning möjlig.",
+    "descriptionFull": "Lördagen den 16 maj håller mctouring.se Öppet hus på Tallbacken i Gagnef. Kom förbi och snacka MC-touring över en kopp kaffe med tilltugg.\nVi håller även MC-touringboden öppen med både gammalt och nytt! Leverantörer på plats med produkter för MC-touring på både asfalt och grus.\nPå kvällen kör vi en grillkväll (175 kr/person) med bilder och film från olika resor, i år med fokus på Japan.\nÖvernattning i delad fyrbäddsstuga 375 kr/person. Eget tält med servicehus och frukost 225 kr/person.\nLördag 10.00 - 23.00 | Söndag 08.00 - 10.00\nBoende bokas via e-post: hans@mctouring.se\nVälkommen till en härlig dag/helg med stort fokus på MC-touring!\nHälsningar era värdar // Gun och Hans Rönnegård",
+    "backImage": "ads/mctouring-oppet-hus-2026.jpg",
+    "links": [
+      { "label": "mctouring.se", "url": "https://mctouring.se" },
+      { "label": "rönnegård.se", "url": "http://www.ronnegard.se/mc" }
+    ],
     "link": "http://www.ronnegard.se/mc",
     "region": "Dalarna",
     "source": "FB"
