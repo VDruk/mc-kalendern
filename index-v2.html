@@ -645,19 +645,20 @@
     .hero-stat-num { font-size: 22px; }
 
     .filters-inner { padding: 10px 12px; gap: 6px; }
-    .filter-row { gap: 6px; }
+    .filter-row { gap: 6px; flex-wrap: nowrap; overflow-x: auto; }
     .filter-label { display: none; }
     .filter-spacer { display: none; }
+    .filter-row .filter-group { flex-shrink: 0; }
+    .filter-select { flex-shrink: 0; }
+    .toggle-wrap { display: none; }
     .type-btn { padding: 5px 10px; font-size: 12px; }
     .club-btn { width: 32px; height: 32px; }
+    .share-btns { gap: 4px; margin-left: 12px; }
 
     .grid { grid-template-columns: 1fr; gap: 12px; }
     .main-content { padding: 16px 12px 60px; }
 
     .search-count { display: none; }
-
-    .toggle-label { display: none; }
-    .share-btns { gap: 4px; }
 
     .drawer { width: 100vw; max-width: 100vw; }
   }
@@ -1271,7 +1272,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // Share buttons
   const url = encodeURIComponent('https://druk.se');
   const text = encodeURIComponent('MC Kalendern - Alla MC-evenemang i Sverige');
-  document.getElementById('shareFb').addEventListener('click', () => window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400'));
+  document.getElementById('shareFb').addEventListener('click', () => {
+    if (navigator.share && /Mobi|Android/i.test(navigator.userAgent)) {
+      navigator.share({ title: 'MC Kalendern', text: decodeURIComponent(text), url: decodeURIComponent(url) }).catch(() => {});
+    } else {
+      window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400');
+    }
+  });
   document.getElementById('shareWa').addEventListener('click', () => window.open(`https://wa.me/?text=${text}%20${url}`, '_blank'));
   document.getElementById('shareX').addEventListener('click', () => window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank', 'width=600,height=400'));
 });
