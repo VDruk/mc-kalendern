@@ -6598,6 +6598,25 @@ const EVENTS_DATA = {
     "source": "bmwklubben.se"
   },
   {
+    "id": "804-racing-lunda-2026",
+    "name": "804 Ultimate Grand Finale",
+    "date": "2026-08-16",
+    "dateEnd": "2026-08-16",
+    "location": "Lunda Flygfält, Alunda",
+    "type": "Racing",
+    "organizer": "804",
+    "description": "Sveriges och Nordens snabbaste gatbilar och motorcyklar gör upp på 804 meter. Halfmile racing på Lunda Flygfält med BBQ, fika och passageraråkning. Publik 300 kr.",
+    "descriptionFull": "Lunda Airfield - #NordicHalfmileRacing\n\nSveriges och Nordens absolut snabbaste gatbilar och motorcyklar gör upp på 804 meter. Här gäller det att få så hög sluthastighet som möjligt.\n\nEtt härligt familjenöje där det ges möjlighet att få åka med som passagerare med din favoritbil eller förare, om du törs?\n\nResultat och sluthastighet kan du följa live på stora skärmar på plats eller via 804meter.com under \"Official Ranking\".\n\nBiljetter:\nFörare: Förboka senast 14 augusti: 1 500 kr (exkl. försäkring) på 804meter.com.\n14-16 augusti: 2 500 kr.\nGoodiebag till 20 första förare som förbokar!\n\nPublik: 300 kr vid entré (barn under 14 år gratis med vuxen).\nPassageraråkband: +250 kr.\n\nBBQ och Fika: Grillade rätter och klassisk svensk fika serveras av Lunda Alliansen.\n\nSchema:\n09:00-18:00: Mingel, Race & Kul!\nIncheckning: 09:00-10:00\nFörarmöte: 10:00-10:30\nRacing: 10:30-18:00\n\nRacebanan: 2000x25 meter med separat returbana. 100% action!\n\nFörsäkring: 250 kr/dag (obligatoriskt). Hjälm och heltäckande kläder krävs. Lånehjälmar finns. Ambulans och crew på plats.",
+    "backImage": "ads/804-racing-back-2026-08-16.jpg",
+    "links": [
+      { "label": "804meter.com", "url": "https://www.804meter.com" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Lunda+Flygfält+Alunda", "type": "map" }
+    ],
+    "link": "https://www.804meter.com",
+    "region": "Uppsala",
+    "source": "FB"
+  },
+  {
     "id": "doa-kvallskorning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-08-17",
