@@ -514,6 +514,25 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
+    "id": "smc-grundkurs-underhall-eskilstuna-2026",
+    "name": "Grundkurs i MC Underhåll",
+    "date": "2026-03-25",
+    "dateEnd": "2026-03-25",
+    "location": "Drottninggatan 15B, Eskilstuna",
+    "type": "Träff",
+    "organizer": "SMC Södermanland",
+    "description": "Lär dig kontrollera din MC inför säsongen, besiktning eller resa. Motorcyklar på plats att inspektera tillsammans. SMC-medlem 100 kr, ej medlem 150 kr. Kl 18-20.",
+    "descriptionFull": "Varm välkommen på Grundkurs i MC Underhåll.\n\nDenna kurs riktar sig till dig som vill lära dig mer om underhåll av din motorcykel, oavsett om du övningskör och vill förbereda dig inför kommande körprov, haft körkort eller precis tagit körkort!\n\nUnder kursen går vi igenom viktig information om hur du gör en bra kontroll av din MC innan du tar ut den för säsongen, åker till besiktningen eller om du ska ut och resa.\n\nDet kommer att finnas några motorcyklar på plats som vi inspekterar tillsammans.\n\nPlats: Isaks Trafikskola, Drottninggatan 15B, Eskilstuna.\n\nInskrivning 17:50\nKursstart 18:00\nKursavslut ca 20:00\n\nAnmälningsavgift:\nSMC-medlem: 100 kr (skriv medlemsnr i meddelande vid bokningen)\nEj medlem: 150 kr\n\nSwish: 0736-34 25 60 (Maria N)\nMeddelande: 25 mars kurs (ev medl nr)\n\nOBS! Begränsat antal platser!",
+    "backImage": "ads/smc-grundkurs-underhall-back-2026-03-25.jpg",
+    "links": [
+      { "label": "FB Event", "url": "https://www.facebook.com/events/1189508803258568" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Drottninggatan+15B+Eskilstuna", "type": "map" }
+    ],
+    "link": "https://www.facebook.com/events/1189508803258568",
+    "region": "Södermanland",
+    "source": "FB"
+  },
+  {
     "id": "bmw-d10-teater-goteborgskravallerna-2026",
     "name": "D10 Teater - Göteborgskravallerna",
     "date": "2026-03-26",
@@ -639,16 +658,23 @@ const EVENTS_DATA = {
   },
   {
     "id": "bmw-d15-mc-fest-hos-claesson-i-bromolla-2026",
-    "name": "D15 MC-fest hos Claesson i Bromölla",
+    "name": "MC-Fest i Bromölla 2026",
     "date": "2026-03-28",
     "dateEnd": "2026-03-29",
     "location": "Industrigatan 11, Bromölla",
-    "type": "Träff",
-    "organizer": "BMW MC-klubben",
-    "description": "Arrangemang med BMW MC-klubben D15 från Industrigatan 11, 295 39 Bromölla, Sverige. Mer info på bmwklubben.se.",
-    "link": "https://www.bmwklubben.se/aktiviteter/d15-mc-fest-hos-claesson-i-bromolla/",
+    "type": "Mässa",
+    "organizer": "Claessons Motor Bromölla",
+    "description": "Claessons Motor firar 50 år med storslaget MC-fest! Generalagenter och leverantörer på plats. Unika erbjudanden, tävlingar och massor av utställare. 28-29 mars.",
+    "descriptionFull": "Helgen den 28-29 mars är det äntligen dags för årets MC-Fest hos Claessons Motor i Bromölla!\n\n2026 firar vi dessutom 50 år vilket betyder att årets upplaga blir en fest med guldkant!\n\nDet blir ett storslaget firande och vi kommer att ha våra generalagenter, leverantörer och samarbetspartners på plats hos oss.\n\nDu kommer att kunna ta del av unika erbjudanden och kampanjer samt delta i tävlingar som endast gäller under dessa dagar.\n\nDet kommer även att finnas extra många utställare med allt som hör hojlivet till.\n\nDet här vill du inte missa! Boka in en tur till Bromölla helgen den 28-29 mars!",
+    "backImage": "ads/claessons-mc-fest-back-2026-03-28.jpg",
+    "links": [
+      { "label": "FB Event", "url": "https://www.facebook.com/events/1077891221149564" },
+      { "label": "bmwklubben.se", "url": "https://www.bmwklubben.se/aktiviteter/d15-mc-fest-hos-claesson-i-bromolla/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Industrigatan+11+Bromölla", "type": "map" }
+    ],
+    "link": "https://www.facebook.com/events/1077891221149564",
     "region": "Skåne",
-    "source": "bmwklubben.se"
+    "source": "FB"
   },
   {
     "id": "ttc-arsmote-smc-dalarna-2026",
@@ -789,6 +815,25 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-04-04/",
     "region": "Dalarna",
     "source": "hdcs.se"
+  },
+  {
+    "id": "kastberga-paskarallyt-2026",
+    "name": "Påskarallyt",
+    "date": "2026-04-04",
+    "dateEnd": "2026-04-04",
+    "location": "Kastberga 209, Eslöv",
+    "type": "Tur",
+    "organizer": "Kastberga MC",
+    "description": "Påskrally till förmån för Min Stora Dag. Härlig tur längs Skånes vårvägar med sillamacka efteråt. Startavgift minst 100 kr per hjälm, allt går till välgörenhet.",
+    "descriptionFull": "Kastberga MC arrangerar tillsammans med MC FÖR ALLA - SKÅNE Påskarallyt till förmån för Min Stora Dag.\n\nHäng med på en härlig tur längs Skånes vårvägar innan ni firar påskafton med släkt och vänner!\n\nVi bjuder på trevligt sällskap, lite roliga överraskningar och en go' sillamacka när vi samlas efter turen.\n\nStartavgiften är minst 100 kr per hjälm, och hela beloppet går oavkortat till Min Stora Dag.\n\nEn perfekt chans att göra något gott samtidigt som vi kickar igång MC-säsongen tillsammans.\n\nTävling: Vinnaren får en kostnadsfri årlig bas-service hos Kastberga MC. Tävlingen är helt frivillig att delta i.\n\nKl 11:00-14:00",
+    "backImage": "ads/kastberga-paskarallyt-back-2026-04-04.jpg",
+    "links": [
+      { "label": "FB Event", "url": "https://www.facebook.com/events/872482305175445" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Kastberga+209+Eslöv", "type": "map" }
+    ],
+    "link": "https://www.facebook.com/events/872482305175445",
+    "region": "Skåne",
+    "source": "FB"
   },
   {
     "id": "pask-rundan-med-hakan-warnemyr-5-4-2026",
