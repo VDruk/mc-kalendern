@@ -1290,47 +1290,34 @@ function injectEventSchema() {
     .filter(e => !e._canary && (e.dateEnd || e.date) >= today)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
-  const eventItems = futureEvents.map((e, i) => ({
-    "@type": "ListItem",
-    "position": i + 1,
-    "item": {
-      "@type": "Event",
-      "name": e.name,
-      "startDate": e.date,
-      ...(e.dateEnd && e.dateEnd !== e.date ? { "endDate": e.dateEnd } : {}),
-      "location": {
-        "@type": "Place",
-        "name": e.location || "Se evenemang",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": e.location || "",
-          "addressCountry": "SE"
-        }
-      },
-      "description": e.descriptionFull ? e.descriptionFull.replace(/\n/g, ' ').substring(0, 500) : (e.description || ''),
-      "organizer": {
-        "@type": "Organization",
-        "name": e.organizer || ""
-      },
-      "url": "https://druk.se/#" + e.id,
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
-    }
-  }));
-
-  const schema = {
+  const events = futureEvents.map(e => ({
     "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "MC Kalendern - Alla MC-evenemang i Sverige 2026",
-    "description": "Sveriges mest kompletta kalender for MC-evenemang. 700+ evenemang: traffar, massor, korningar, racing, trackdays och fester.",
-    "url": "https://druk.se/",
-    "numberOfItems": eventItems.length,
-    "itemListElement": eventItems
-  };
+    "@type": "Event",
+    "name": e.name,
+    "startDate": e.date,
+    ...(e.dateEnd && e.dateEnd !== e.date ? { "endDate": e.dateEnd } : {}),
+    "location": {
+      "@type": "Place",
+      "name": e.location || "Se evenemang",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": e.location || "",
+        "addressCountry": "SE"
+      }
+    },
+    "description": e.descriptionFull ? e.descriptionFull.replace(/\n/g, ' ').substring(0, 500) : (e.description || ''),
+    "organizer": {
+      "@type": "Organization",
+      "name": e.organizer || ""
+    },
+    "url": e.link || "https://druk.se/",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+  }));
 
   const script = document.createElement('script');
   script.type = 'application/ld+json';
-  script.textContent = JSON.stringify(schema);
+  script.textContent = JSON.stringify(events);
   document.head.appendChild(script);
 }
 
