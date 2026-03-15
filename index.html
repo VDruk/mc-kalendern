@@ -795,6 +795,10 @@
         <div class="hero-stat-label">Kommande</div>
       </div>
       <div class="hero-stat">
+        <div class="hero-stat-num" id="statDays">0</div>
+        <div class="hero-stat-label">Dagar</div>
+      </div>
+      <div class="hero-stat">
         <div class="hero-stat-num" id="statClubs">77</div>
         <div class="hero-stat-label">Arrangörer</div>
       </div>
@@ -1101,12 +1105,24 @@ function countOrganizers(events) {
   });
   return orgs.size;
 }
+function countEventDays(events) {
+  const days = new Set();
+  events.forEach(e => {
+    const start = new Date(e.date + 'T00:00:00');
+    const end = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : start;
+    for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+      days.add(d.toISOString().split('T')[0]);
+    }
+  });
+  return days.size;
+}
 function updateStats() {
   const today = new Date().toISOString().split('T')[0];
   const all = EVENTS_DATA.events.filter(e => !e._canary);
   const upcoming = all.filter(e => (e.dateEnd || e.date) >= today);
   document.getElementById('statEvents').textContent = all.length;
   document.getElementById('statUpcoming').textContent = upcoming.length;
+  document.getElementById('statDays').textContent = countEventDays(all);
   document.getElementById('statClubs').textContent = countOrganizers(all);
 }
 
