@@ -2600,25 +2600,6 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
-    "id": "balders-hage-bil-mc-cafe-2026",
-    "name": "Bil & MC Cafe - Sasongstart",
-    "date": "2026-04-24",
-    "dateEnd": "2026-09-04",
-    "location": "Balders Hage Noje, Haradsback",
-    "type": "Traff",
-    "organizer": "Balders Hage Noje",
-    "description": "Populart bil- och MC-cafe varannan torsdag fran april till september. Gemytlig stamning, mat och fordon av alla slag. Sasongstart 24 april kl 16.",
-    "descriptionFull": "Bil & MC Cafe pa Balders Hage i Haradsback arrangeras av Balders Hage Noje.\n\nBalders Hages torsdagskvallat med Bil- och Motorcykelcafe har blivit otroligt populart sedan starten for ca 5 ar sedan! Med gemytlig stamning samlas manniskor varannan torsdag fran april till september for att ata, prata, umgas och titta pa fordon av olika slag.\n\nSasongen 2026 oppnar den 24 april kl 16:00.\n\nDatum: 24/4, 8/5, 22/5, 26/6, 10/7, 24/7, 7/8, 21/8, 4/9.\nTid: 16:00 - 21:00 (eller nar sista bilen lamnar).\n\nPlats: Balders Hage Noje, Linvagen 3, 343 92 Haradsback.",
-    "backImage": "ads/balders-hage-bil-mc-cafe-back-2026-04-24.jpg",
-    "links": [
-      { "label": "baldershagenoje.se", "url": "https://baldershagenoje.se/biltraff/" },
-      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Balders+Hage+N%C3%B6je+H%C3%A4radsb%C3%A4ck", "type": "map" }
-    ],
-    "link": "https://baldershagenoje.se/biltraff/",
-    "region": "Kronoberg",
-    "source": "FB"
-  },
-  {
     "id": "mc-collection-sasongsoppning-2026",
     "name": "MC Collection Säsongsöppning",
     "date": "2026-04-25",
@@ -3242,6 +3223,33 @@ const EVENTS_DATA = {
         "type": "map"
       }
     ]
+  },
+  {
+    "id": "balders-hage-bil-mc-cafe-2026",
+    "name": "Bil & MC Cafe - Sasongspremiar",
+    "date": "2026-04-30",
+    "dateEnd": "2026-04-30",
+    "location": "Balders Hage Noje, Haradsback",
+    "type": "Traff",
+    "organizer": "Balders Hage Noje",
+    "description": "Populart bil- och MC-cafe pa Valborgsmassooafton! Buffe fran 17:00. Sedan varannan vecka hela sommaren.",
+    "descriptionFull": "Bil & MC Cafe pa Balders Hage i Haradsback arrangeras av Balders Hage Noje.\n\nBalders Hages kvallat med Bil- och Motorcykelcafe har blivit otroligt populart sedan starten for ca 5 ar sedan! Med gemytlig stamning samlas manniskor varannan vecka fran april till september for att ata, prata, umgas och titta pa fordon av olika slag.\n\nSasongspremiar Valborgsmassooafton 30 april kl 17:00.\n\nBuffe fran 17:00:\n- Timjan & vitloksmarinerad flaskkarree, potatisgratang, Bearnaise, sallad, kaffe/te - 135 kr (barn under 12 ar - 65 kr)\n- Tva stekta, mos, lingon, sallad - 95 kr\n- Tre pannkakor gradde & sylt - 65 kr\n- Ostkaka, gradde & sylt - 65 kr\n\nOvriga datum 2026: 14/5, 28/5, 4/6, 25/6, 9/7, 23/7, 6/8, 20/8, 3/9, 17/9.\n\nPlats: Balders Hage Noje, Linvagen 3, 343 92 Haradsback.",
+    "backImage": "ads/balders-hage-bil-mc-cafe-back-2026-04-30.jpg",
+    "links": [
+      {
+        "label": "baldershagenoje.se",
+        "url": "https://baldershagenoje.se/biltraff/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Balders+Hage+N%C3%B6je+H%C3%A4radsb%C3%A4ck",
+        "type": "map"
+      }
+    ],
+    "link": "https://baldershagenoje.se/biltraff/",
+    "region": "Kronoberg",
+    "source": "FB",
+    "frontImage": "ads/balders-hage-bil-mc-cafe-front-2026-04-30.jpg"
   },
   {
     "id": "dkb-mt-rally-mot-prostatacancer-2026",
@@ -4405,8 +4413,15 @@ const EVENTS_DATA = {
     "descriptionFull": "MajSvängen 2026 arrangeras av Falkenbergs MC.\n\nVarmt välkomna att köra en fin runda på hoj tillsammans med Falkenbergs MC sällskap. Vi samlas vid Abilds Bygdegård kl 12:00 där börjar vi med en fika tillsammans och vi kommer att avsluta på samma plats.\n\nKostnad 100 kr/hjälm, lr högre belopp om man vill. Kontant lr swish. 70% av intäkten har vi valt att donera till Fontänhusen i Falkenberg och Varberg. Fontänhuset är en mötesplats för människor som lider utav psykisk ohälsa. För oss är detta en lokal och mkt viktig verksamhet som verkligen gör skillnad.\n\nDet blir ett stopp längs vägen där vi äter korv med bröd/dryck till valfritt pris.\n\nPå kvällen kl 20:00 öppnar våra vänner Anyway Riders upp portarna nere hos sig på Kilavägen 40. Då blir det Spring Party med 3 liveband, detta vill man inte missa. Kommer man långväga så finns campingmöjligheter, vill man veta mer kring det så släng iväg ett meddelande.\n\nOBS! Skulle vädret vara emot oss med mkt regn så kör vi inte utan flyttar då fram körningen till annat datum. Festen kvarstår dock hos Anyway Riders på kvällen.\n\nPlats: Abilds Bygdegård, Abild.",
     "backImage": "ads/falkenbergs-majsvangen-back-2026-05-09.jpg",
     "links": [
-      { "label": "FB Event", "url": "https://www.facebook.com/events/2394980357594451" },
-      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Abilds+Bygdeg%C3%A5rd+Abild", "type": "map" }
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/2394980357594451"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Abilds+Bygdeg%C3%A5rd+Abild",
+        "type": "map"
+      }
     ],
     "link": "",
     "region": "Halland",

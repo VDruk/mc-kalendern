@@ -538,6 +538,15 @@
     border-radius: var(--radius);
   }
 
+  /* ========== POSTER / FRONT-IMAGE CARDS ========== */
+  .card.poster-card { border: none; overflow: hidden; }
+  .card.poster-card:not(.expanded) { padding: 0; }
+  .card.poster-card .card-front { padding: 0; cursor: pointer; }
+  .card.poster-card .card-front .poster-front-img {
+    width: 100%; display: block;
+    border-radius: var(--radius);
+  }
+
   /* ========== FAVORITES BUTTON ========== */
   .fab-favorites {
     position: fixed; bottom: 24px; right: 24px;
@@ -1312,25 +1321,37 @@ function render() {
     }
 
     card.id = cardId;
-    card.innerHTML = `
-      <div class="card-front">
-        <div class="card-top">
-          ${dateHTML}
-          ${installtHTML}
-          <div class="card-top-right">
-            <span class="type-badge ${TYPE_CLASSES[event.type] || ''}">${event.type}</span>
-            <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation();toggleFavorite('${event.id}')" title="Spara">&#9733;</button>
+
+    // Poster/AD-card front (frontImage) vs normal text front
+    if (event.frontImage) {
+      card.classList.add('poster-card');
+      card.innerHTML = `
+        <div class="card-front" onclick="cardExpand('${cardId}')">
+          <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy">
+        </div>
+        ${backHTML}
+      `;
+    } else {
+      card.innerHTML = `
+        <div class="card-front">
+          <div class="card-top">
+            ${dateHTML}
+            ${installtHTML}
+            <div class="card-top-right">
+              <span class="type-badge ${TYPE_CLASSES[event.type] || ''}">${event.type}</span>
+              <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation();toggleFavorite('${event.id}')" title="Spara">&#9733;</button>
+            </div>
           </div>
+          <div class="card-name">${displayName}</div>
+          <div class="card-body">
+            <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
+            <div class="card-desc">${event.description || ''}</div>
+          </div>
+          ${footerHTML}
         </div>
-        <div class="card-name">${displayName}</div>
-        <div class="card-body">
-          <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
-          <div class="card-desc">${event.description || ''}</div>
-        </div>
-        ${footerHTML}
-      </div>
-      ${backHTML}
-    `;
+        ${backHTML}
+      `;
+    }
     grid.appendChild(card);
   });
 }
