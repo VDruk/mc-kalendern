@@ -991,6 +991,8 @@ function cardExpand(id) {
   const card = document.getElementById(id);
   if (!card) return;
   card.classList.add('expanded');
+  const scrollArea = card.querySelector('.back-scroll-area');
+  if (scrollArea) setTimeout(() => checkScrollEnd(scrollArea), 50);
 }
 function cardCollapse(id) {
   const card = document.getElementById(id);
@@ -999,7 +1001,7 @@ function cardCollapse(id) {
 }
 function checkScrollEnd(el) {
   const wrap = el.parentElement;
-  if (el.scrollHeight - el.scrollTop - el.clientHeight < 10) {
+  if (el.scrollHeight <= el.clientHeight || el.scrollHeight - el.scrollTop - el.clientHeight < 10) {
     wrap.classList.add('scrolled-end');
   } else {
     wrap.classList.remove('scrolled-end');
