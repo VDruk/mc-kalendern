@@ -2521,8 +2521,9 @@ const EVENTS_DATA = {
     "descriptionFull": "Jämtland-Härjedalen Gravel Adventure, 14-17 maj.\n\nFyra dagar för alla som älskar att köra MC på grus och som vill bo bra och äta gott. Utvecklande och anpassade utmaningar för alla nivåer, från nybörjare till erfarna förare.\n\nAlla typer av MC-modeller är välkomna, grövre däck rekommenderas.\n\nExtra dag: Chans att starta redan torsdag kl 09:00 och köra vid slalombacken med två instruktörer från CountryTrax Offroad Academy. Möjlighet att boka extra natt onsdag.\n\nEventavgift: 3 900 kr inkl mat (3 middagar, 3 lunchpaket, 3 frukostar). Varav 1 000 kr i anmälningsavgift.\n\nLogi tillkommer:\nDubbelrum/stuga, torsdag-söndag (3 nätter): 1 950 kr\nEnkelrum: 2 900 kr\n\nPlats: Wikners i Persåsen, Persåsen 336, Oviken.",
     "backImage": "ads/mc-ontours-gravel-back-2026-05-14.jpg",
     "links": [
+      { "label": "MC Ontours (FB)", "url": "https://www.facebook.com/mcontours.se" },
       { "label": "FB Event", "url": "https://www.facebook.com/events/775427375162661" },
-      { "label": "Karta", "url": "https://www.google.com/maps/place/W876%2BV8+Svedje", "type": "map" }
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Persåsen+skid-+och+kälkklubb", "type": "map" }
     ],
     "link": "https://www.facebook.com/events/775427375162661",
     "region": "Jämtland",
