@@ -4981,6 +4981,24 @@ const EVENTS_DATA = {
     "source": "hdcs.se"
   },
   {
+    "id": "smt-gotland-2026",
+    "name": "Gotland MC-tur",
+    "date": "2026-06-30",
+    "dateEnd": "2026-07-03",
+    "location": "Nynäshamn",
+    "type": "Tur",
+    "organizer": "Swedish MC Touring",
+    "description": "Guidad 4-dagarstur till Gotland via Nynäshamn. Fina MC-vägar, kultur, raukar och sevärdheter. Hotell, middag och färja ingår. 9 850 kr.",
+    "descriptionFull": "Den här 4-dagarsturen ger dig 4 härliga dagar på Gotland. Sveriges största ö bjuder på fina MC-vägar och massor av kultur.\n\nHär får vi njuta av härliga vägar, vackra vyer och intressanta sevärdheter. Självklart bor vi bra och äter gott.\n\nDagsetapperna ligger på 7-25 mil. Du får bland annat uppleva: Gotlands regemente, ett försvarsmuseum, unika kyrkor, raukar från Hoburgen till Fårö, ett båtmotormuseum och den speciella naturen på Gotland.\n\nStartar: Tisdag 30 juni, kl 9.00 vid norra infarten till Nynäshamn, längs väg 73.\nSlutar: Fredag 3 juli, ca kl 20.30 vid färjeterminalen i Nynäshamn.\n\nI priset ingår: Hotell 3 nätter (dubbelrum), halvpension med två-rättersmiddag och frukost, färja Nynäshamn-Visby ToR, inträden och guidning.\n\nResans pris: 9 850 SEK (passagerare 9 350 SEK). Enkelrumstillägg 1 600 SEK.",
+    "links": [
+      { "label": "swedishmctouring.se", "url": "https://www.swedishmctouring.se/gotland-2026/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Nynäshamn+station", "type": "map" }
+    ],
+    "link": "https://www.swedishmctouring.se/gotland-2026/",
+    "region": "Gotland",
+    "source": "swedishmctouring.se"
+  },
+  {
     "id": "doa-sommarkvallstur-nacka-2026",
     "name": "DOA - Sommarkvällstur Nacka",
     "date": "2026-07-01",
@@ -5909,6 +5927,24 @@ const EVENTS_DATA = {
     "source": "hdcs.se"
   },
   {
+    "id": "smt-vanern-runt-2026",
+    "name": "Vänern runt MC-tur",
+    "date": "2026-08-03",
+    "dateEnd": "2026-08-08",
+    "location": "Linköping",
+    "type": "Tur",
+    "organizer": "Swedish MC Touring",
+    "description": "Guidad 6-dagarstur runt Vänern via Halland, Dalsland och Värmland. Fina MC-vägar, dagsetapper 21-30 mil. Hotell och middag ingår. 11 400 kr.",
+    "descriptionFull": "En 6-dagars guidad MC-tur runt Vänern med start i Linköping.\n\nTuren går genom Halland, Dalsland och Värmland på utvalda MC-vägar. Dagsetapperna är mellan 21 och 30 mil.\n\nI priset 11 400 kr ingår 5 nätter på hotell, 5 middagar och en erfaren guide som leder gruppen.\n\nSamling i Linköping kl 12.15. Turen avslutas i Järna, sydost om Stockholm vid E4.\n\nMax 8 deltagare per grupp för bästa upplevelse.",
+    "links": [
+      { "label": "swedishmctouring.se", "url": "https://www.swedishmctouring.se/vanern-runt-2026/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Linköping", "type": "map" }
+    ],
+    "link": "https://www.swedishmctouring.se/vanern-runt-2026/",
+    "region": "Östergötland",
+    "source": "swedishmctouring.se"
+  },
+  {
     "id": "doa-tisdagslunch-2026",
     "name": "DOA - Tisdagslunch",
     "date": "2026-08-04",
@@ -6807,6 +6843,24 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-24/",
     "region": "Stockholm",
     "source": "hdcs.se"
+  },
+  {
+    "id": "smt-varmland-2026",
+    "name": "Värmland MC-tur",
+    "date": "2026-08-24",
+    "dateEnd": "2026-08-28",
+    "location": "Scandic Örebro Väst, Örebro",
+    "type": "Tur",
+    "organizer": "Swedish MC Touring",
+    "description": "Guidad 5-dagarstur genom Värmland, Dalsland och Norge. Fina MC-vägar, dagsetapper 20-26 mil. Hotell och middag ingår. 9 400 kr.",
+    "descriptionFull": "En 5-dagars guidad MC-tur genom Värmland med start i Örebro.\n\nTuren går genom Värmland, Dalsland och över till Norge på utvalda MC-vägar. Dagsetapperna är mellan 20 och 26 mil.\n\nI priset 9 400 kr ingår 4 nätter på hotell, 4 middagar och en erfaren guide som leder gruppen.\n\nSamling vid Scandic Örebro Väst, Västhagsgatan 1, Örebro kl 12.15. Turen avslutas vid Trafikplats Biskopskvarn, E20 utanför Strängnäs.\n\nMax 8 deltagare per grupp för bästa upplevelse.",
+    "links": [
+      { "label": "swedishmctouring.se", "url": "https://www.swedishmctouring.se/varmland-2026/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Scandic+Örebro+Väst+Västhagsgatan+1+Örebro", "type": "map" }
+    ],
+    "link": "https://www.swedishmctouring.se/varmland-2026/",
+    "region": "Örebro",
+    "source": "swedishmctouring.se"
   },
   {
     "id": "doa-tisdagslunch-2026",
