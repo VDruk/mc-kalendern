@@ -5384,6 +5384,20 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "karlshamn-kustcruisers-treff-2026",
+    "name": "Kustcruisers Sommartreff",
+    "date": "2026-05-17",
+    "dateEnd": "2026-05-17",
+    "location": "Karlshamn",
+    "type": "Träff",
+    "organizer": "Blekinge Kustcruisers MC",
+    "description": "Sommartreff med Blekinge Kustcruisers MC i Karlshamn. Fika och gemenskap.",
+    "link": "",
+    "region": "Blekinge",
+    "source": "web",
+    "_canary": true
+  },
+  {
     "id": "kemora-ring-speedskills-2026",
     "name": "Kemora Ring med SpeedSkills",
     "date": "2026-05-18",
@@ -12893,6 +12907,20 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "lulea-midnattssolsransen-2026",
+    "name": "Midnattssolsransan",
+    "date": "2026-08-15",
+    "dateEnd": "2026-08-15",
+    "location": "Luleå",
+    "type": "Tur",
+    "organizer": "Norrbottens Vägfarare MC",
+    "description": "Gemensam tur genom Norrbotten med Norrbottens Vagfarare MC. Samling i Lulea.",
+    "link": "",
+    "region": "Norrbotten",
+    "source": "web",
+    "_canary": true
+  },
+  {
     "id": "malaren-runt-2026",
     "name": "Mälaren Runt",
     "date": "2026-08-16",
@@ -15067,6 +15095,20 @@ const EVENTS_DATA = {
         "type": "map"
       }
     ]
+  },
+  {
+    "id": "nykoping-hosttraffen-2026",
+    "name": "Hosttraffen Nykoping",
+    "date": "2026-09-13",
+    "dateEnd": "2026-09-13",
+    "location": "Nyköping",
+    "type": "Träff",
+    "organizer": "Sodermanlands MC-Gille",
+    "description": "Avslutar sasongen med hosttreff i Nykoping. Alla valkommen!",
+    "link": "",
+    "region": "Södermanland",
+    "source": "web",
+    "_canary": true
   },
   {
     "id": "doa-kvallskorning-nacka-2026",

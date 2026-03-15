@@ -540,6 +540,7 @@
 
   /* ========== POSTER / FRONT-IMAGE CARDS ========== */
   .card.poster-card { border: none; overflow: hidden; }
+  .card.poster-card { transition: border-color 0.2s, background 0.2s, transform 0.2s, box-shadow 0.2s; }
   .card.poster-card:not(.expanded) { padding: 0; }
   .card.poster-card .card-front { padding: 0; cursor: pointer; }
   .card.poster-card .card-front .poster-front-img {
@@ -1409,19 +1410,24 @@ document.addEventListener('DOMContentLoaded', () => {
     allaBtn.classList.toggle('active', !anyActive);
   }
 
-  // Helper: reset all filters
+  // Helper: reset all filters (including search)
   function resetAllFilters() {
     currentFilter = 'all';
     currentClub = 'all';
     currentRegion = 'all';
     currentMonth = 'all';
     showPast = false;
+    searchQuery = '';
     document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
     document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
     document.querySelector('.type-btn[data-type="all"]').classList.add('active');
     document.getElementById('regionFilter').value = 'all';
     document.getElementById('monthFilter').value = 'all';
     document.getElementById('pastToggle').classList.remove('active');
+    const si = document.getElementById('searchInput');
+    const sc = document.getElementById('searchClear');
+    if (si) { si.value = ''; }
+    if (sc) { sc.classList.remove('visible'); }
   }
 
   // Type filter buttons
