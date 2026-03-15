@@ -996,7 +996,18 @@ function toggleFavorite(id) {
   if (idx >= 0) favorites.splice(idx, 1);
   else favorites.push(id);
   localStorage.setItem('mcFavorites', JSON.stringify(favorites));
-  render();
+  // Update only the affected card instead of re-rendering everything
+  const card = document.querySelector(`.card[data-id="${id}"]`);
+  if (card) {
+    const btn = card.querySelector('.fav-btn');
+    if (idx >= 0) {
+      card.classList.remove('favorited');
+      if (btn) btn.classList.remove('active');
+    } else {
+      card.classList.add('favorited');
+      if (btn) btn.classList.add('active');
+    }
+  }
   updateFab();
   updateDrawer();
 }
@@ -1181,6 +1192,7 @@ function render() {
     const hasBack = event.descriptionFull || event.links;
     const card = document.createElement('div');
     card.className = 'card' + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
+    card.dataset.id = event.id;
     const cardId = 'c-' + event.id;
 
     // Footer: "Mer info" either expands card or goes external
