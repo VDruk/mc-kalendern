@@ -832,6 +832,9 @@
       <select class="filter-select" id="regionFilter">
         <option value="all">Alla regioner</option>
       </select>
+      <select class="filter-select" id="monthFilter">
+        <option value="all">Alla månader</option>
+      </select>
       <div class="filter-spacer"></div>
       <div class="toggle-wrap">
         <span class="toggle-label">Visa passerade</span>
@@ -966,6 +969,7 @@ const TYPE_CLASSES = {
 let currentFilter = 'all';
 let currentClub = 'all';
 let currentRegion = 'all';
+let currentMonth = 'all';
 let showPast = false;
 let searchQuery = '';
 let favorites = JSON.parse(localStorage.getItem('mcFavorites') || '[]');
@@ -1071,6 +1075,21 @@ function buildRegionFilter() {
   }
   // Update hero stat with actual region count
   document.getElementById('statRegions').textContent = regions.length;
+
+  // Populate month filter
+  const MONTH_NAMES = ['','Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'];
+  const monthCounts = {};
+  EVENTS_DATA.events.filter(e => !e._canary).forEach(e => {
+    const m = parseInt(e.date.split('-')[1], 10);
+    monthCounts[m] = (monthCounts[m] || 0) + 1;
+  });
+  const monthSel = document.getElementById('monthFilter');
+  Object.keys(monthCounts).sort((a, b) => a - b).forEach(m => {
+    const opt = document.createElement('option');
+    opt.value = m;
+    opt.textContent = MONTH_NAMES[m] + ' (' + monthCounts[m] + ')';
+    monthSel.appendChild(opt);
+  });
 }
 
 // ========== STATS ==========
@@ -1103,6 +1122,7 @@ function render() {
   if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
   if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
   if (currentRegion !== 'all') events = events.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
+  if (currentMonth !== 'all') events = events.filter(e => parseInt(e.date.split('-')[1], 10) === parseInt(currentMonth, 10));
   if (!showPast) events = events.filter(e => (e.dateEnd || e.date) >= today);
 
   // Search
@@ -1142,7 +1162,7 @@ function render() {
     return;
   }
 
-  let currentMonth = '';
+  let renderMonth = '';
   let lastEventDate = '';
 
   events.forEach(event => {
@@ -1153,8 +1173,8 @@ function render() {
     const isMultiDay = event.dateEnd && event.dateEnd !== event.date;
 
     // Month divider
-    if (monthKey !== currentMonth) {
-      currentMonth = monthKey;
+    if (monthKey !== renderMonth) {
+      renderMonth = monthKey;
       const divider = document.createElement('div');
       divider.className = 'month-divider';
       divider.textContent = MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
@@ -1340,22 +1360,40 @@ document.addEventListener('DOMContentLoaded', () => {
   updateFab();
   injectEventSchema();
 
+  // Helper: check if any filter is active and update Alla button
+  function updateAllaBtn() {
+    const allaBtn = document.querySelector('.type-btn[data-type="all"]');
+    const anyActive = currentFilter !== 'all' || currentClub !== 'all' || currentRegion !== 'all' || currentMonth !== 'all';
+    allaBtn.classList.toggle('active', !anyActive);
+  }
+
+  // Helper: reset all filters
+  function resetAllFilters() {
+    currentFilter = 'all';
+    currentClub = 'all';
+    currentRegion = 'all';
+    currentMonth = 'all';
+    showPast = false;
+    document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.type-btn[data-type="all"]').classList.add('active');
+    document.getElementById('regionFilter').value = 'all';
+    document.getElementById('monthFilter').value = 'all';
+    document.getElementById('pastToggle').classList.remove('active');
+  }
+
   // Type filter buttons
   document.querySelectorAll('.type-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const type = btn.dataset.type;
       if (type === 'all') {
-        // Alla resets both type AND club
-        currentFilter = 'all';
-        currentClub = 'all';
-        document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
-        document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
+        resetAllFilters();
       } else {
         currentFilter = type;
         document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
       }
+      updateAllaBtn();
       render();
     });
   });
@@ -1372,13 +1410,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.classList.add('active');
         currentClub = club;
       }
-      // Update Alla button state
-      const allaBtn = document.querySelector('.type-btn[data-type="all"]');
-      if (currentFilter === 'all' && currentClub === 'all') {
-        allaBtn.classList.add('active');
-      } else {
-        allaBtn.classList.remove('active');
-      }
+      updateAllaBtn();
       render();
     });
   });
@@ -1386,6 +1418,23 @@ document.addEventListener('DOMContentLoaded', () => {
   // Region filter
   document.getElementById('regionFilter').addEventListener('change', e => {
     currentRegion = e.target.value;
+    updateAllaBtn();
+    render();
+  });
+
+  // Month filter
+  document.getElementById('monthFilter').addEventListener('change', e => {
+    currentMonth = e.target.value;
+    if (currentMonth !== 'all') {
+      const now = new Date();
+      const selectedMonth = parseInt(currentMonth, 10);
+      const currentM = now.getMonth() + 1;
+      if (selectedMonth < currentM) {
+        showPast = true;
+        document.getElementById('pastToggle').classList.add('active');
+      }
+    }
+    updateAllaBtn();
     render();
   });
 
