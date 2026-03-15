@@ -495,6 +495,25 @@ const EVENTS_DATA = {
     "source": "bmwklubben.se"
   },
   {
+    "id": "ttc-oppet-hus-posa-falun-2026",
+    "name": "Öppet hus hos TTC - med Posa!",
+    "date": "2026-03-25",
+    "dateEnd": "2026-03-25",
+    "location": "Ingarvsvägen 8 B, Falun",
+    "type": "Träff",
+    "organizer": "The Twin Club Falun",
+    "description": "Öppet hus i klubbstugan med gäst Per-Olof \"Posa\" Serenius, en av världens bästa isracingförare. Spännande berättelser om MC-äventyr. Gratis entré, fika ingår.",
+    "descriptionFull": "Vi håller öppet hus i klubbstugan!\n\nGäst denna kväll är en riktig legend, Per-Olof \"Posa\" Serenius. Posa, en av världens genom tiderna bästa isracingförare, kommer och berättar om sina äventyr på motorcykel, både på landsväg och inom isracing.\n\nVi kan garantera att han har mycket intressant att berätta! Posa har lovat att underhålla länge denna kväll, så var beredd på flera timmars spännande berättelser!\n\nEvenemanget är gratis och klubben bjuder på fika.\n\nVälkomna!\n\n18:00-21:00",
+    "backImage": "ads/ttc-oppet-hus-back-2026-03-25.jpg",
+    "links": [
+      { "label": "thetwinclub.se", "url": "https://www.thetwinclub.se/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsvägen+8B+Falun", "type": "map" }
+    ],
+    "link": "https://www.thetwinclub.se/",
+    "region": "Dalarna",
+    "source": "FB"
+  },
+  {
     "id": "bmw-d10-teater-goteborgskravallerna-2026",
     "name": "D10 Teater - Göteborgskravallerna",
     "date": "2026-03-26",
