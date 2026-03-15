@@ -4375,6 +4375,25 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "falkenbergs-majsvangen-2026",
+    "name": "MajSvängen 2026",
+    "date": "2026-05-09",
+    "dateEnd": "2026-05-09",
+    "location": "Abilds Bygdegård, Abild",
+    "type": "Tur",
+    "organizer": "Falkenbergs MC",
+    "description": "Välgörenhetsrunda med Falkenbergs MC. Samling kl 12:00, fika och körning. 70% av intäkterna går till Fontänhusen i Falkenberg och Varberg.",
+    "descriptionFull": "MajSvängen 2026 arrangeras av Falkenbergs MC.\n\nVarmt välkomna att köra en fin runda på hoj tillsammans med Falkenbergs MC sällskap. Vi samlas vid Abilds Bygdegård kl 12:00 där börjar vi med en fika tillsammans och vi kommer att avsluta på samma plats.\n\nKostnad 100 kr/hjälm, lr högre belopp om man vill. Kontant lr swish. 70% av intäkten har vi valt att donera till Fontänhusen i Falkenberg och Varberg. Fontänhuset är en mötesplats för människor som lider utav psykisk ohälsa. För oss är detta en lokal och mkt viktig verksamhet som verkligen gör skillnad.\n\nDet blir ett stopp längs vägen där vi äter korv med bröd/dryck till valfritt pris.\n\nPå kvällen kl 20:00 öppnar våra vänner Anyway Riders upp portarna nere hos sig på Kilavägen 40. Då blir det Spring Party med 3 liveband, detta vill man inte missa. Kommer man långväga så finns campingmöjligheter, vill man veta mer kring det så släng iväg ett meddelande.\n\nOBS! Skulle vädret vara emot oss med mkt regn så kör vi inte utan flyttar då fram körningen till annat datum. Festen kvarstår dock hos Anyway Riders på kvällen.\n\nPlats: Abilds Bygdegård, Abild.",
+    "backImage": "ads/falkenbergs-majsvangen-back-2026-05-09.jpg",
+    "links": [
+      { "label": "FB Event", "url": "https://www.facebook.com/events/2394980357594451" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Abilds+Bygdeg%C3%A5rd+Abild", "type": "map" }
+    ],
+    "link": "",
+    "region": "Halland",
+    "source": "FB"
+  },
+  {
     "id": "doa-emilsturen-2026",
     "name": "DOA - Emilsturen",
     "date": "2026-05-10",
