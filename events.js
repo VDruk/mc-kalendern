@@ -2802,6 +2802,25 @@ const EVENTS_DATA = {
     "source": "oamck.se"
   },
   {
+    "id": "mc-kortegen-kristianstad-2026",
+    "name": "MC Kortegen Kristianstad - Åhusparken",
+    "date": "2026-05-16",
+    "dateEnd": "2026-05-16",
+    "location": "Ishallen, Kristianstad",
+    "type": "Tur",
+    "organizer": "Kristianstad MC-grupp",
+    "description": "Öppen kortege för insamling till Barn- och ungdomssjukhuset i Lund. Samling kl 11, avfärd kl 13. Deltagaravgift 100 kr/hjälm. Utlottning och mat i Åhusparken.",
+    "descriptionFull": "MC Kortegen Kristianstad - Åhusparken är tillbaka!\n\nÖppen kortege för insamling till Barn- och ungdomssjukhuset i Lund och Barnkliniken CSK.\n\nSamling 11:00-12:45 vid Kristianstad Ishallen med avfärd kl 13:00.\n\nDeltagaravgift 100 kr/hjälm som går till BUS (Barn- och ungdomssjukhuset) i Lund. Betalas vid ankomsten med kontanter eller Swish.\n\nKiK kommer hålla sitt cafe öppet för fika. Toalett tillgänglig.\n\nAlla deltagare är med i en utlottning med fina priser. Extra lotter går att köpa för 50 kr styck.\n\nI Åhusparken finns mat till bra priser.\n\nI samarbete med föreningen Nya Åhusparken.\n\nVälkomna! Tillsammans gör vi skillnad.",
+    "backImage": "ads/mc-kortegen-kristianstad-back-2026-05-16.jpg",
+    "links": [
+      { "label": "FB Event", "url": "https://www.facebook.com/events/1401669478335139" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Ishallen+Kristianstad", "type": "map" }
+    ],
+    "link": "https://www.facebook.com/events/1401669478335139",
+    "region": "Skåne",
+    "source": "FB"
+  },
+  {
     "id": "do-c-tjorn-orust-rundan-2026",
     "name": "DO-C Tjörn/Orust rundan",
     "date": "2026-05-17",
