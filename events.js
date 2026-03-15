@@ -651,6 +651,24 @@ const EVENTS_DATA = {
     "source": "bmwklubben.se"
   },
   {
+    "id": "ttc-arsmote-smc-dalarna-2026",
+    "name": "Årsmöte SMC Dalarna",
+    "date": "2026-03-29",
+    "dateEnd": "2026-03-29",
+    "location": "Leksands gymnasium, Rättviksvägen 29, Leksand",
+    "type": "Träff",
+    "organizer": "SMC Dalarna",
+    "description": "SMC Dalarna håller årsmöte i Leksand. Internt möte för medlemmar med genomgång av verksamhetsåret och planering inför säsongen. Kl 15:00-17:00.",
+    "descriptionFull": "SMC Dalarna håller årsmöte i Leksand, 29 mars kl 15:00.\n\nPlats: Leksands gymnasium, Rättviksvägen 29.\n\nInternt möte för SMC Dalarnas medlemmar med genomgång av verksamhetsåret, ekonomi och val av styrelse.\n\n15:00-17:00",
+    "links": [
+      { "label": "thetwinclub.se", "url": "https://www.thetwinclub.se/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Rättviksvägen+29+Leksand", "type": "map" }
+    ],
+    "link": "https://www.thetwinclub.se/",
+    "region": "Dalarna",
+    "source": "thetwinclub.se"
+  },
+  {
     "id": "sulas-mc-kladesrea-2026",
     "name": "Sulas MC Klädesrea",
     "date": "2026-03-27",
@@ -688,6 +706,24 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lod-onsdagsfika-soldathemmet-skovde-2/2026-04-01/",
     "region": "Västra Götaland",
     "source": "hdcs.se"
+  },
+  {
+    "id": "ttc-manadsmotet-april-2026",
+    "name": "Månadsmöte april - The Twin Club",
+    "date": "2026-04-01",
+    "dateEnd": "2026-04-01",
+    "location": "Klubbstugan, Ingarvsvägen 8 B, Falun",
+    "type": "Träff",
+    "organizer": "The Twin Club Falun",
+    "description": "Månadsmöte för nya, kommande och redan invalda medlemmar samt andra intresserade. Klubben bjuder på fika. Protokoll publiceras på medlemssidorna.",
+    "descriptionFull": "Månadsmöte i klubbstugan.\n\nFör nya, kommande och redan invalda medlemmar samt andra intresserade. Vi avslutar mötet med fika som klubben bjuder på.\n\nVarmt välkommen!\n\nProtokollet från mötet publiceras på medlemssidorna.\n\n19:00-20:30",
+    "links": [
+      { "label": "thetwinclub.se", "url": "https://www.thetwinclub.se/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsvägen+8B+Falun", "type": "map" }
+    ],
+    "link": "https://www.thetwinclub.se/",
+    "region": "Dalarna",
+    "source": "thetwinclub.se"
   },
   {
     "id": "doh-fika-lycksele-2026",
@@ -1825,6 +1861,24 @@ const EVENTS_DATA = {
     "link": "https://sulas.se/provkorning/",
     "region": "Uppsala",
     "source": "sulas.se"
+  },
+  {
+    "id": "ttc-avrostning-dala-jarna-2026",
+    "name": "Avrostning Dala-Järna",
+    "date": "2026-05-03",
+    "dateEnd": "2026-05-03",
+    "location": "Dala-Järna Flygplats, Flygfältsvägen 22, Dala-Järna",
+    "type": "Träff",
+    "organizer": "Västerdala MCK",
+    "description": "Gratis avrostning på flygfältet i Dala-Järna. Alla välkomna oavsett kön eller MC-typ, även övningskörare. Samarbete med SMC Dalarna. Start kl 13:00.",
+    "descriptionFull": "Den 3:e maj kl. 13:00 bjuder Västerdala MC-klubb in till avrostning på flygfältet i Dala-Järna.\n\nKursen är kostnadsfri. Medtag glatt humör.\n\nAvrostning vid Dala-Järna Flygraka för VMCK. Alla är välkomna på avrostning oavsett man/kvinna eller vad du kör för MC. Även om du övningskör är du välkommen, perfekt träning.\n\nAvrostningen börjar kl. 13:00.\n\nI samarbete med SMC Dalarna.",
+    "links": [
+      { "label": "thetwinclub.se", "url": "https://www.thetwinclub.se/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Flygfältsvägen+22+Dala-Järna", "type": "map" }
+    ],
+    "link": "https://www.thetwinclub.se/",
+    "region": "Dalarna",
+    "source": "thetwinclub.se"
   },
   {
     "id": "doa-kvallskorning-nacka-2026",
@@ -8955,8 +9009,15 @@ const EVENTS_DATA = {
     "location": "MCK Tourings klubbstuga, Islingby, Borlänge",
     "type": "Träff",
     "organizer": "SMC Dalarna",
-    "description": "Kvällsträff med SMC Dalarna. Tipspromenad, hamburgare och begagnad MC-utrustning till försäljning.",
-    "link": "https://www.svmc.se/dalarna",
+    "description": "Kvällsträff med SMC Dalarna i MCK Tourings klubbstuga. Tipspromenad, hamburgare och korv. Köp och sälj begagnad MC-utrustning. Grillen varm från 18:00.",
+    "descriptionFull": "Välkommen på en kvällsträff med SMC Dalarna i MCK Tourings klubbstuga.\n\nVi träffas, umgås, går en tipspromenad med priser, hamburgare och korv finns till försäljning. Samtidigt finns möjligheten att sälja och köpa begagnad MC-utrustning.\n\nVi startar 17:30 och grillen är varm från 18:00.\n\nSMC Dalarna kommer att berätta vad som är på gång under säsongen.",
+    "backImage": "ads/kvallstraff-mck-touring-back-2026-05-07.jpg",
+    "links": [
+      { "label": "thetwinclub.se", "url": "https://www.thetwinclub.se/event/kvallstraff-med-begagnat-forsaljning-hos-mck-touring/" },
+      { "label": "svmc.se/dalarna", "url": "https://www.svmc.se/dalarna/aktiviteter/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=MCK+Tourings+klubbstuga+Islingby+Borlänge", "type": "map" }
+    ],
+    "link": "https://www.thetwinclub.se/event/kvallstraff-med-begagnat-forsaljning-hos-mck-touring/",
     "region": "Dalarna",
     "source": "smcboken.svmc.se"
   },
