@@ -2141,6 +2141,24 @@ const EVENTS_DATA = {
     "source": "hdcs.se"
   },
   {
+    "id": "smc-mc-kortege-hedemora-2026",
+    "name": "MC kortege Hedemora marknad",
+    "date": "2026-05-09",
+    "dateEnd": "2026-05-09",
+    "location": "Lernia (fd AMU center), Hedemora",
+    "type": "Tur",
+    "organizer": "SMC Dalarna",
+    "description": "MC-kortege genom Hedemora under marknaden. Samling kl 09:30 vid Lernia, först en runda runt TT-banan, sedan genom stadens gator. Parkering vid Vasahallen.",
+    "descriptionFull": "MC kortege genom Hedemora under Hedemora marknad.\n\nSamling kl 09:30 vid Lernia (fd AMU center), Hedemora.\n\nFörst kör vi en runda runt TT-banan. Sedan kl 11:00 från Lappens Grill kör vi kortege genom Hedemoras gator.\n\nParkering vid Vasahallen i minst en timme så folk kan titta på hojarna.\n\nArrangör: SMC Dalarna",
+    "links": [
+      { "label": "svmc.se/dalarna", "url": "https://www.svmc.se/dalarna/aktiviteter/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Lernia+Hedemora", "type": "map" }
+    ],
+    "link": "https://www.svmc.se/dalarna/aktiviteter/",
+    "region": "Dalarna",
+    "source": "svmc.se"
+  },
+  {
     "id": "lo-i-lordagskorningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-05-09",
@@ -3015,6 +3033,24 @@ const EVENTS_DATA = {
     "description": "Lör 11-15. Provkör nya hojar, köp och sälj MC-prylar, mat på plats. SMC Stockholm svarar på frågor om medlemskap.",
     "link": "https://www.svmc.se/stockholm",
     "region": "Stockholm",
+    "source": "svmc.se"
+  },
+  {
+    "id": "smc-motorbiten-falun-2026",
+    "name": "Motorbiten i Falun",
+    "date": "2026-05-23",
+    "dateEnd": "2026-05-23",
+    "location": "Motorbiten i Falun",
+    "type": "Träff",
+    "organizer": "SMC Dalarna",
+    "description": "Provkör nya modeller, kolla utrustning och fynda MC-prylar. Gratis kaffe, grillad korv och dryck. Förra året kom över 1000 besökare. Burgarbussen på plats.",
+    "descriptionFull": "Motorbiten i Falun, lördagen den 23 maj kl 11:00-15:00 (kan bli till 16:00).\n\nProvkör nya modeller, kolla utrustning och fynda MC-prylar hos Motorbiten.\n\nGratis kaffe, grillad korv och dryck på plats. Förra året kom över 1000 besökare.\n\nBurgarbussen kommer också och serverar hamburgare.\n\nVälkommen!",
+    "links": [
+      { "label": "svmc.se/dalarna", "url": "https://www.svmc.se/dalarna/aktiviteter/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Motorbiten+Falun", "type": "map" }
+    ],
+    "link": "https://www.svmc.se/dalarna/aktiviteter/",
+    "region": "Dalarna",
     "source": "svmc.se"
   },
   {
@@ -6243,6 +6279,24 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-08-08/",
     "region": "Dalarna",
     "source": "hdcs.se"
+  },
+  {
+    "id": "smc-rebusrundan-borlange-2026",
+    "name": "Rebusrundan",
+    "date": "2026-08-08",
+    "dateEnd": "2026-08-08",
+    "location": "MCK Tourings klubbstuga, Borlänge",
+    "type": "Tur",
+    "organizer": "SMC Dalarna",
+    "description": "Rebusorientering på MC genom Dalarna. Cirka 15 mil på fina vägar med 10 kontroller. Lös gåtan för att hitta nästa. Start 10-11, 100 kr inkl hamburgare och kaffe.",
+    "descriptionFull": "Rebusrundan genom Dalarna!\n\nStart och mål vid MCK Tourings klubbstuga i Borlänge.\n\nCirka 15 mil på fina MC-vägar genom Dalarna med 10 kontroller längs vägen. Vid varje kontroll löser du en gåta som leder dig till nästa.\n\nStart mellan kl 10:00 och 11:00.\n\nDeltagaravgift 100 kr per MC. I priset ingår hamburgare, läsk och kaffe vid målgång.\n\nPrislottning bland alla som genomfört rundan.\n\nArrangör: SMC Dalarna",
+    "links": [
+      { "label": "svmc.se/dalarna", "url": "https://www.svmc.se/dalarna/aktiviteter/" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=MCK+Tourings+klubbstuga+Borlänge", "type": "map" }
+    ],
+    "link": "https://www.svmc.se/dalarna/aktiviteter/",
+    "region": "Dalarna",
+    "source": "svmc.se"
   },
   {
     "id": "bmw-d8-glasstur-2026",
