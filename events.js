@@ -599,6 +599,26 @@ const EVENTS_DATA = {
     "source": "bmwklubben.se"
   },
   {
+    "id": "ava-mc-dagen-gustavsberg-2026",
+    "name": "AVA MC Dagen",
+    "date": "2026-03-28",
+    "dateEnd": "2026-03-28",
+    "location": "Mörtnäs Hagväg 13, Gustavsberg",
+    "type": "Träff",
+    "organizer": "AVA MC",
+    "description": "Provkör nya modeller, träffa Voge Sverige, fynda tillbehör och kläder till kampanjpriser. IMRG grillar korv. Finansiering och servicebokning på plats.",
+    "descriptionFull": "Lördagen den 28 mars slår AVA MC upp portarna för årets stora öppet hus!\n\nIMRG är på plats och sköter korvgrillning till svältpriser. Vi har kaffe och kakor samt visar nyheter av respektive märke.\n\nBeroende på väder bokar vi kommande provkörningar på märke och modell som du är intresserad av att testa. Voge Sverige på plats för att svara på frågor och kanske en provkörning?\n\nFinansieringserbjudanden utlovas samt kvarvarande nya motorcyklar till kampanjpriser.\n\nTillbehörsbutiken är full av rabatterbjudanden gällande kläder och tillbehör. Vår serviceavdelning är självklart på plats för bokning av service eller reparation, bara du som saknas!\n\nVi syns lördagen den 28e mars från klockan 10 till 14, möjligen längre om ni håller ut!",
+    "backImage": "ads/ava-mc-dagen-back-2026-03-28.jpg",
+    "bgColor": "#9F9B90",
+    "links": [
+      { "label": "avamc.se", "url": "https://avamc.se" },
+      { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Mörtnäs+Hagväg+13+Gustavsberg", "type": "map" }
+    ],
+    "link": "https://avamc.se",
+    "region": "Stockholm",
+    "source": "FB"
+  },
+  {
     "id": "bmw-d15-mc-fest-hos-claesson-i-bromolla-2026",
     "name": "D15 MC-fest hos Claesson i Bromölla",
     "date": "2026-03-28",
