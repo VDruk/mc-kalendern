@@ -1151,7 +1151,7 @@ function render() {
   let events = EVENTS_DATA.events.filter(e => !e._canary).sort((a, b) => new Date(a.date) - new Date(b.date));
 
   // Filters
-  if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
+  if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter || e._ad);
   if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
   if (currentRegion !== 'all') events = events.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
   if (currentMonth !== 'all') events = events.filter(e => parseInt(e.date.split('-')[1], 10) === parseInt(currentMonth, 10));

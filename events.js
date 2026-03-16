@@ -1375,6 +1375,29 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "svedea-mc-forsakring-ad-2026",
+    "name": "Svedea MC-forsakring",
+    "date": "2026-04-01",
+    "dateEnd": "2026-09-30",
+    "location": "svedea.se/mc-forsakring",
+    "type": "AD",
+    "organizer": "Svedea",
+    "description": "Sveriges mest salda mc-forsakring. Over 130 000 nojda hojagare. Marknadens langsta maskinforsakring och 10% SMC-rabatt.",
+    "descriptionFull": "Svedea ar Sveriges storsta mc-forsakring. Idag valjer 40% av landets motorcykelagare att forsakra sin hoj hos Svedea.\n\nOver 130 000 nojda kunder och betyg 4.9 av 5 baserat pa 1 782 omdomen.\n\nMarknadens langsta maskinforsakring: skador pa motor och kraftoverforing i hela 12 ar eller 8 000 mil.\n\n10% rabatt for dig som ar medlem i SMC (Sveriges Motorcyklister).\n\n30% rabatt pa Detecht Premium: krachdetektering, rullgrusvarningar och SOS-funktion direkt i mobilen.\n\nSe ditt pris pa svedea.se/mc-forsakring",
+    "backImage": "ads/svedea-mc-forsakring-back-2026.jpg",
+    "frontImage": "ads/svedea-mc-forsakring-front-2026.jpg",
+    "links": [
+      {
+        "label": "svedea.se",
+        "url": "https://www.svedea.se/mc-forsakring"
+      }
+    ],
+    "link": "https://www.svedea.se/mc-forsakring",
+    "region": ["Blekinge", "Dalarna", "Gävleborg", "Gotland", "Halland", "Jämtland", "Jönköping", "Kalmar", "Kronoberg", "Norrbotten", "Skåne", "Stockholm", "Södermanland", "Uppsala", "Värmland", "Västerbotten", "Västernorrland", "Västmanland", "Västra Götaland", "Örebro", "Östergötland", "Danmark", "Finland", "Norge", "Sverige", "Tjeckien"],
+    "source": "AD",
+    "_ad": true
+  },
+  {
     "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
     "name": "LoD Onsdagsfika Soldathemmet Skövde",
     "date": "2026-04-01",
