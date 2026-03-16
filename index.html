@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MC Kalendern - Alla MC-evenemang i Sverige 2026</title>
-<meta name="description" content="Sveriges mest kompletta kalender för MC-evenemang. 700+ evenemang: träffar, mässor, körningar, racing, trackdays och fester.">
+<title>MC Kalendern - MC-träffar i Sverige 2026 | MC-evenemang, körningar & mässor</title>
+<meta name="description" content="Hitta MC-träffar i Sverige 2026. Över 700 MC-evenemang: träffar, mässor, körningar, racing, fester och trackdays. Komplett MC-kalender med alla MC-träffar idag och kommande.">
 <meta name="author" content="Slava Druk">
 <link rel="canonical" href="https://druk.se/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -16,8 +16,8 @@
 <meta property="fb:app_id" content="966242223397117">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://druk.se/">
-<meta property="og:title" content="MC Kalendern - Alla MC-evenemang i Sverige 2026">
-<meta property="og:description" content="Sveriges mest kompletta kalender för MC-evenemang. 700+ evenemang: träffar, mässor, körningar, racing, trackdays och fester.">
+<meta property="og:title" content="MC Kalendern - MC-träffar i Sverige 2026">
+<meta property="og:description" content="Hitta MC-träffar i Sverige 2026. Över 700 MC-evenemang: träffar, mässor, körningar, racing, fester och trackdays. Komplett MC-kalender.">
 <meta property="og:image" content="https://druk.se/og-image.jpg?v=2">
 <meta property="og:image:alt" content="MC Kalendern - Motorcyklister på väg genom svenskt landskap">
 <meta property="og:image:width" content="1200">
@@ -27,8 +27,8 @@
 
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="MC Kalendern - Alla MC-evenemang i Sverige 2026">
-<meta name="twitter:description" content="Sveriges mest kompletta kalender för MC-evenemang. 700+ evenemang: träffar, mässor, körningar, racing, trackdays och fester.">
+<meta name="twitter:title" content="MC Kalendern - MC-träffar i Sverige 2026">
+<meta name="twitter:description" content="Hitta MC-träffar i Sverige 2026. Över 700 MC-evenemang: träffar, mässor, körningar, racing, fester och trackdays. Komplett MC-kalender.">
 <meta name="twitter:image" content="https://druk.se/og-image.jpg?v=2">
 
 <script src="events.js"></script>
@@ -98,7 +98,7 @@
     font-size: 42px; font-weight: 800;
     letter-spacing: -1px;
     color: #fff;
-    margin-bottom: 8px;
+    margin: 0 0 8px 0;
   }
   .hero-logo span { color: var(--accent); }
   .hero-sub {
@@ -789,7 +789,7 @@
   "@type": "WebSite",
   "name": "MC Kalendern",
   "url": "https://druk.se/",
-  "description": "Sveriges mest kompletta kalender för MC-evenemang. 700+ evenemang: träffar, mässor, körningar, racing, trackdays och fester.",
+  "description": "Hitta MC-träffar i Sverige 2026. Över 700 MC-evenemang: träffar, mässor, körningar, racing, fester och trackdays. Komplett MC-kalender med alla MC-träffar idag och kommande.",
   "inLanguage": "sv",
   "publisher": {
     "@type": "Organization",
@@ -806,8 +806,8 @@
   <div class="hero-bg"></div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <div class="hero-logo">MC <span>Kalendern</span></div>
-    <div class="hero-sub">Svenska MC-evenemang samlat på ett ställe</div>
+    <h1 class="hero-logo">MC <span>Kalendern</span></h1>
+    <div class="hero-sub">MC-träffar och MC-evenemang i Sverige 2026</div>
     <div class="hero-stats">
       <div class="hero-stat">
         <div class="hero-stat-num" id="statEvents">0</div>
@@ -837,8 +837,8 @@
 <div class="search-section">
   <div class="search-bar">
     <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    <input class="search-input" id="searchInput" type="text" placeholder="Sok evenemang, klubb, stad...">
-    <button class="search-clear" id="searchClear">&times;</button>
+    <input class="search-input" id="searchInput" type="text" placeholder="Sök evenemang, klubb, stad..." aria-label="Sök MC-evenemang">
+    <button class="search-clear" id="searchClear" aria-label="Rensa sökning">&times;</button>
     <div class="search-count" id="searchCount">0 evenemang</div>
   </div>
 </div>
@@ -855,16 +855,16 @@
         <button class="type-btn" data-type="Fest">Fest</button>
         <button class="type-btn" data-type="Show">Show</button>
       </div>
-      <select class="filter-select" id="regionFilter">
+      <select class="filter-select" id="regionFilter" aria-label="Filtrera efter region">
         <option value="all">Alla regioner</option>
       </select>
-      <select class="filter-select" id="monthFilter">
+      <select class="filter-select" id="monthFilter" aria-label="Filtrera efter månad">
         <option value="all">Alla månader</option>
       </select>
       <div class="filter-spacer"></div>
       <div class="toggle-wrap">
         <span class="toggle-label">Visa passerade</span>
-        <button class="toggle" id="pastToggle"></button>
+        <button class="toggle" id="pastToggle" aria-label="Visa passerade evenemang"></button>
       </div>
     </div>
     <div class="filter-row">
@@ -908,7 +908,7 @@
 </button>
 
 <!-- ========== SCROLL TO TOP ========== -->
-<button class="scroll-top" id="scrollTop">
+<button class="scroll-top" id="scrollTop" aria-label="Scrolla till toppen">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
 </button>
 
@@ -917,10 +917,10 @@
 <div class="drawer" id="drawer">
   <div class="drawer-header">
     <h3>Mina evenemang</h3>
-    <button class="drawer-close" id="drawerClose">&times;</button>
+    <button class="drawer-close" id="drawerClose" aria-label="Stäng">&times;</button>
   </div>
   <div class="drawer-body" id="drawerBody">
-    <div class="drawer-empty">Tryck pa stjarnan pa ett evenemang for att spara det har.</div>
+    <div class="drawer-empty">Tryck på stjärnan på ett evenemang för att spara det här.</div>
   </div>
   <div class="drawer-footer">
     <p>Skicka listan till din e-post:</p>
@@ -936,13 +936,13 @@
 <div class="modal-overlay" id="tipsaModal">
   <div class="modal">
     <h3>Tipsa om ett evenemang</h3>
-    <label>Namn pa evenemanget *</label>
+    <label>Namn på evenemanget *</label>
     <input type="text" id="tipName">
     <label>Datum *</label>
     <input type="date" id="tipDate">
     <label>Plats</label>
     <input type="text" id="tipLocation" placeholder="Stad eller plats">
-    <label>Lank till mer info</label>
+    <label>Länk till mer info</label>
     <input type="url" id="tipLink" placeholder="https://...">
     <label>Din e-post</label>
     <input type="email" id="tipEmail" placeholder="din@epost.se">
@@ -959,13 +959,13 @@
 <!-- ========== FOOTER ========== -->
 <footer class="footer">
   <div class="seo-block">
-    <h2>Om MC Kalendern</h2>
-    <p>MC Kalendern är Sveriges samlingsplats för alla hojåkare och motorcykelentusiaster som vill ha koll på vad som händer i MC-världen. Oavsett om du letar efter en lokal MC-träff, en stor MC-mässa, en spännande körning eller ett trackday på banan hittar du det här. Vi samlar MC-träffar, mässor, motorshowar, körningar, turer, racing, trackdays och fester från hela landet på ett och samma ställe, så att du kan planera din MC-säsong utan att missa något.</p>
-    <p>Vi bevakar över 700 evenemang från många av Sveriges största MC-klubbar och organisationer: BMW MC-klubben, Gold Wing Club Sweden (GWCS), Harley-Davidson Club Sweden (H-DCS), Östra Aros MC-Klubb (ÖAMCK), Sveriges MotorCyklister (SMC), Svenska Motorcykel- och Snöskoterförbundet (SVEMO) och många fler. Från MC-Mässan i Jönköping och Mälaren Runt till lokala kvällsträffar, gruskurser och avrostningskörningar. Oavsett om du kör sportcykel, cruiser, adventure, touring, enduro eller veteranmaskin finns det något för just dig och din hoj.</p>
-    <p>MC-säsongen i Sverige är kort men intensiv. MC Kalendern hjälper dig att filtrera över 700 evenemang efter typ, klubb och region, från Skåne i söder till Norrbotten i norr, med 21 regioner däremellan. Spara dina favoritevenemang, dela med dina hojkompisar och håll dig uppdaterad. Vi bevakar evenemang från fler än 470 klubbar och uppdaterar kalendern regelbundet med nya MC-träffar, körningar och mässor så att du alltid har den senaste informationen.</p>
+    <h2>MC-träffar i Sverige 2026</h2>
+    <p>MC Kalendern är Sveriges mest kompletta kalender för MC-träffar och MC-evenemang 2026. Letar du efter en MC-träff idag, en MC-mässa i helgen eller nästa körning i din region? Här hittar du allt samlat. Vi listar MC-träffar, mässor, motorshowar, körningar, racing, trackdays och fester från hela Sverige, så att du kan planera din MC-säsong utan att missa något.</p>
+    <p>Vi bevakar över 700 MC-evenemang från många av Sveriges största MC-klubbar och organisationer: BMW MC-klubben, Gold Wing Club Sweden (GWCS), Harley-Davidson Club Sweden (H-DCS), Östra Aros MC-Klubb (ÖAMCK), Sveriges MotorCyklister (SMC), Svenska Motorcykel- och Snöskoterförbundet (SVEMO) och många fler. Från MC-Mässan i Jönköping och Mälaren Runt till lokala kvällsträffar, gruskurser och avrostningskörningar. Oavsett om du kör sportcykel, cruiser, adventure, touring, enduro eller veteranmaskin finns det något för just dig och din hoj.</p>
+    <p>MC-säsongen i Sverige är kort men intensiv. Filtrera bland MC-träffar 2026 efter typ, klubb och region, från Skåne i söder till Norrbotten i norr. Spara dina favoritevenemang, dela med dina hojkompisar och håll dig uppdaterad. Vi bevakar MC-evenemang från fler än 470 klubbar och uppdaterar MC-kalendern regelbundet med nya träffar, körningar och mässor. Hojåkare i Stockholm, Göteborg, Malmö, Uppsala och resten av landet hittar alltid kommande MC-händelser här.</p>
   </div>
   <div class="footer-bottom">
-    <p>MC Kalendern - MC-träffar, mässor, körningar, racing och trackdays från hela Sverige. Evenemang från BMW MC-klubben, GWCS, H-DCS, ÖAMCK, SMC, SVEMO och fler.</p>
+    <p>MC Kalendern - MC-träffar Sverige 2026. Körningar, mässor, racing och trackdays. Evenemang från BMW MC-klubben, GWCS, H-DCS, ÖAMCK, SMC, SVEMO och fler. Hitta MC-träff idag.</p>
     <p style="margin-top: 6px;">Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt</a></p>
     <p style="margin-top: 6px;">&copy; 2026 Slava Druk, Uppsala. All eventdata tillhör MC Kalendern. Kommersiell användning kräver tillstånd.</p>
   </div>
@@ -1630,7 +1630,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
       });
       document.getElementById('tipsaModal').classList.remove('open');
-      alert('Tack for ditt tips!');
+      alert('Tack för ditt tips!');
     } catch (err) {
       document.getElementById('tipError').textContent = 'Kunde inte skicka. Forsok igen.';
     }
@@ -1673,7 +1673,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function updateDrawer() {
   const body = document.getElementById('drawerBody');
   if (favorites.length === 0) {
-    body.innerHTML = '<div class="drawer-empty">Tryck pa stjarnan pa ett evenemang for att spara det har.</div>';
+    body.innerHTML = '<div class="drawer-empty">Tryck på stjärnan på ett evenemang för att spara det här.</div>';
     return;
   }
   const allEvents = EVENTS_DATA.events;
