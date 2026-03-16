@@ -1398,6 +1398,29 @@ const EVENTS_DATA = {
     "_ad": true
   },
   {
+    "id": "if-mc-forsakring-ad-2026",
+    "name": "If MC-forsakring",
+    "date": "2026-01-01",
+    "dateEnd": "2026-12-31",
+    "location": "if.se/mc-forsakring",
+    "type": "AD",
+    "organizer": "If Skadeforsakring",
+    "description": "Mc-forsakring fran If med fria mil, vagassistans dygnet runt och 10% SMC-rabatt. Manadsbetalning som hjalper mycket.",
+    "descriptionFull": "If ar ett av Nordens storsta forsakringsbolag och erbjuder mc-forsakring i tre nivaer: Trafik, Halv och Hel.\n\nFria mil: kor sa mycket du vill utan att priset paverkas.\n\nVagassistans dygnet runt: om nagot akut hander kan du ringa If, aven mitt i natten.\n\nLagre sjalvrisk med sparsandare: upp till 6 000 kr lagre sjalvrisk med godkand sparsandare.\n\nIngen garagkrav: hojen behover inte sta inlast i garage for att du ska fa ersattning vid stold.\n\n10% rabatt for SMC-medlemmar.\n\nManadsbetalning tillganglig sa du slipper betala allt pa en gang.\n\nBerakna ditt pris pa if.se/mc-forsakring",
+    "backImage": "ads/if-mc-forsakring-back-2026.jpg",
+    "frontImage": "ads/if-mc-forsakring-front-2026.jpg",
+    "links": [
+      {
+        "label": "if.se",
+        "url": "https://www.if.se/privat/forsakringar/fordonsforsakringar/mc-forsakring"
+      }
+    ],
+    "link": "https://www.if.se/privat/forsakringar/fordonsforsakringar/mc-forsakring",
+    "region": "Sverige",
+    "source": "AD",
+    "_ad": true
+  },
+  {
     "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
     "name": "LoD Onsdagsfika Soldathemmet Skövde",
     "date": "2026-04-01",
