@@ -10455,6 +10455,32 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "stiligaste-hojen-akers-styckebruk-2026",
+    "name": "Stiligaste Hojen",
+    "date": "2026-07-08",
+    "dateEnd": "2026-07-08",
+    "location": "Solbergavagen 28, Akers Styckebruk",
+    "type": "Träff",
+    "organizer": "Persakers Speed Shop AB",
+    "description": "Kvallens tema ar Stiligaste Hojen! Motorcykel med valfritt antal hjul tavlar om kvallens pris. Frana Fiket serverar korv och fika.",
+    "descriptionFull": "Persakers Speed Shop arrangerar Stiligaste Hojen den 8 juli.\n\nKvallens tema ar Stiligaste Hojen. Motorcykel med valfritt antal hjul tavlar om kvallens pris!\n\nFrana Fiket serverar korv och fika och ar oppet som vanligt 16:00-19:00. Prisutdelning ca 18:15.\n\nTid: 16:00-19:00\nLangd: ca 3 timmar\n\nValkommen!\n\nPlats: Solbergavagen 28, 64752 Akers Styckebruk.",
+    "backImage": "ads/stiligaste-hojen-back-2026-07-08.jpg",
+    "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/3895905843875566/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Solbergav%C3%A4gen+28%2C+64752+%C3%85kers+Styckebruk",
+        "type": "map"
+      }
+    ],
+    "link": "",
+    "region": "Södermanland",
+    "source": "FB"
+  },
+  {
     "id": "do-c-gemensam-korning-till-bornholm-2026",
     "name": "DO-C Gemensam körning till Bornholm",
     "date": "2026-07-09",
