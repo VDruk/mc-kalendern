@@ -10745,25 +10745,30 @@ const EVENTS_DATA = {
   },
   {
     "id": "bornholms-traffen-2026",
-    "name": "Bornholms träffen",
+    "name": "Bornholmertræffet 2026",
     "date": "2026-07-10",
     "dateEnd": "2026-07-12",
-    "location": "Bornholm",
+    "location": "Skrædderbakkevejen 2, Rønne, Bornholm",
     "type": "Träff",
-    "organizer": "H-DCS",
-    "description": "Arrangemang med H-DCS från Bornholm. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
+    "organizer": "H-D Club Denmark Distrikt 6",
+    "description": "Harley-träff på Bornholm! Camping från fredag, livemusik, aftensmad, morgenmad och rökt sild vid fällessturen.",
     "link": "https://hdcs.se/evenemang/bornholms-traffen/",
-    "region": "Skåne",
-    "source": "hdcs.se",
-    "descriptionFull": "Bornholms träffen arrangeras av H-DCS.\n\nArrangemang med H-DCS från Bornholm. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Bornholm.",
+    "region": "Danmark",
+    "source": "FB",
+    "descriptionFull": "Harley-Davidson Club of Denmark Distrikt 6, Bornholm bjuder in till Bornholmertræffet 2026!\n\n10-12 juli, Rønne, Bornholm, Danmark.\n\nHusk medlemskort! Icke-medlemmar betalar entré.\n\nI entréen ingår:\n- Aftensmad fredag och lördag\n- Morgenmad lördag och söndag\n- Camping från fredag\n- Livemusik\n- Öl/vand och rökt sild vid fällessturen\n- Gode toilet och badeforhold\n\nDer er live musik i det store telt fra torsdag.\n\nPlats: Skrædderbakkevejen 2, 3700 Rønne, Danmark.",
+    "backImage": "ads/bornholmertraeffet-back-2026-07-10.jpg",
     "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/895791316440713/"
+      },
       {
         "label": "hdcs.se",
         "url": "https://hdcs.se/evenemang/bornholms-traffen/"
       },
       {
         "label": "Karta",
-        "url": "https://www.google.com/maps/search/?api=1&query=Bornholm",
+        "url": "https://www.google.com/maps/search/?api=1&query=Skr%C3%A6dderbakkevejen+2+R%C3%B8nne+Bornholm",
         "type": "map"
       }
     ]
