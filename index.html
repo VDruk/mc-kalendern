@@ -303,7 +303,15 @@
     transition: all var(--transition);
     display: flex; flex-direction: column;
     padding: 20px;
+    perspective: 1000px;
+    border-top: 3px solid transparent;
   }
+  /* Type color bars */
+  .card.tb-traff { border-top-color: var(--type-traff); }
+  .card.tb-korning { border-top-color: var(--type-korning); }
+  .card.tb-fest { border-top-color: var(--type-fest); }
+  .card.tb-show { border-top-color: var(--type-show); }
+  .card.tb-racing { border-top-color: var(--type-racing); }
   .card:hover {
     border-color: var(--border-light);
     background: var(--bg-card-hover);
@@ -453,15 +461,30 @@
   }
   .card-link-btn:hover { color: var(--accent-hover); }
 
-  /* ========== EXPANDABLE CARD BACK ========== */
-  .card-front { display: flex; flex-direction: column; flex: 1; }
-  .card .card-back-slide { display: none; }
-  .card.expanded .card-front { display: none; }
-  .card.expanded .card-back-slide { display: block; }
+  /* ========== 3D FLIP CARD SYSTEM ========== */
+  .card-flipper {
+    position: relative; width: 100%; flex: 1;
+    display: flex; flex-direction: column;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+  }
+  .card.flipped .card-flipper { transform: rotateY(180deg); }
+  .card-flipper .card-front {
+    display: flex; flex-direction: column; flex: 1;
+    backface-visibility: hidden; -webkit-backface-visibility: hidden;
+  }
+  .card-flipper .card-back-flip {
+    backface-visibility: hidden; -webkit-backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  .card:not(.flipped) .card-back-flip { pointer-events: none; }
+  .card.flipped .card-front { pointer-events: none; }
 
   .back-header {
     display: flex; justify-content: space-between; align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 10px; flex-shrink: 0;
   }
   .back-title { font-size: 15px; font-weight: 600; color: var(--text-primary); }
   .back-close {
@@ -471,9 +494,12 @@
   }
   .back-close:hover { color: var(--text-primary); background: var(--bg-primary); }
 
-  .back-scroll-wrap { position: relative; }
+  .back-scroll-wrap {
+    position: relative; flex: 1; min-height: 0;
+    display: flex; flex-direction: column;
+  }
   .back-scroll-area {
-    max-height: 260px; overflow-y: auto; padding-right: 4px;
+    flex: 1; overflow-y: auto; padding-right: 4px;
   }
   .back-scroll-area::-webkit-scrollbar { width: 4px; }
   .back-scroll-area::-webkit-scrollbar-track { background: transparent; }
@@ -515,6 +541,7 @@
   .back-footer {
     display: flex; align-items: center; justify-content: space-between;
     padding-top: 10px; border-top: 1px solid var(--border); margin-top: 10px;
+    flex-shrink: 0;
   }
   .back-btn {
     font-size: 12px; color: var(--accent); font-weight: 600;
@@ -547,14 +574,15 @@
   }
 
   /* ========== POSTER / FRONT-IMAGE CARDS ========== */
-  .card.poster-card { border: none; overflow: hidden; }
+  .card.poster-card { border: none; overflow: hidden; border-top-color: transparent; }
   .card.poster-card { transition: border-color 0.2s, background 0.2s, transform 0.2s, box-shadow 0.2s; }
-  .card.poster-card:not(.expanded) { padding: 0; }
+  .card.poster-card { padding: 0; } /* Always 0 padding, back side has its own */
   .card.poster-card .card-front { padding: 0; cursor: pointer; }
   .card.poster-card .card-front .poster-front-img {
     width: 100%; display: block;
     border-radius: var(--radius);
   }
+  .card.poster-card .card-back-flip { padding: 20px; } /* Back side gets its own padding */
 
   /* ========== FAVORITES BUTTON ========== */
   .fab-favorites {
@@ -1007,14 +1035,15 @@ const AD_PLACEMENTS = [];
 function cardExpand(id) {
   const card = document.getElementById(id);
   if (!card) return;
-  card.classList.add('expanded');
+  card.classList.add('flipped');
+  // Check scroll after flip animation completes
   const scrollArea = card.querySelector('.back-scroll-area');
-  if (scrollArea) setTimeout(() => checkScrollEnd(scrollArea), 50);
+  if (scrollArea) setTimeout(() => checkScrollEnd(scrollArea), 550);
 }
 function cardCollapse(id) {
   const card = document.getElementById(id);
   if (!card) return;
-  card.classList.remove('expanded');
+  card.classList.remove('flipped');
 }
 function checkScrollEnd(el) {
   const wrap = el.parentElement;
@@ -1316,7 +1345,9 @@ function render() {
     // Build card
     const hasBack = event.descriptionFull || event.links;
     const card = document.createElement('div');
-    card.className = 'card' + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
+    const typeBarMap = {'Träff':'tb-traff','Körning':'tb-korning','Fest':'tb-fest','Show':'tb-show','Racing':'tb-racing'};
+    const typeBarClass = typeBarMap[event.type] || '';
+    card.className = 'card' + (typeBarClass ? ' ' + typeBarClass : '') + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
     card.dataset.id = event.id;
     const cardId = 'c-' + event.id;
 
@@ -1350,7 +1381,7 @@ function render() {
         linksHTML = `<div class="back-links"><div class="back-link-pills">${pills}</div></div>`;
       }
       backHTML = `
-      <div class="card-back-slide">
+      <div class="card-back-flip">
         <div class="back-header">
           <span class="back-title">${displayName}</span>
           <button class="back-close" onclick="event.stopPropagation();cardCollapse('${cardId}')">&times;</button>
@@ -1375,30 +1406,34 @@ function render() {
     if (event.frontImage) {
       card.classList.add('poster-card');
       card.innerHTML = `
-        <div class="card-front" onclick="cardExpand('${cardId}')">
-          <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy">
+        <div class="card-flipper">
+          <div class="card-front" onclick="cardExpand('${cardId}')">
+            <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy">
+          </div>
+          ${backHTML}
         </div>
-        ${backHTML}
       `;
     } else {
       card.innerHTML = `
-        <div class="card-front">
-          <div class="card-top">
-            ${dateHTML}
-            ${installtHTML}
-            <div class="card-top-right">
-              <span class="type-badge ${TYPE_CLASSES[event.type] || ''}">${event.type}</span>
-              <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation();toggleFavorite('${event.id}')" title="Spara">&#9733;</button>
+        <div class="card-flipper">
+          <div class="card-front">
+            <div class="card-top">
+              ${dateHTML}
+              ${installtHTML}
+              <div class="card-top-right">
+                <span class="type-badge ${TYPE_CLASSES[event.type] || ''}">${event.type}</span>
+                <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation();toggleFavorite('${event.id}')" title="Spara">&#9733;</button>
+              </div>
             </div>
+            <div class="card-name">${displayName}</div>
+            <div class="card-body">
+              <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
+              <div class="card-desc">${event.description || ''}</div>
+            </div>
+            ${footerHTML}
           </div>
-          <div class="card-name">${displayName}</div>
-          <div class="card-body">
-            <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
-            <div class="card-desc">${event.description || ''}</div>
-          </div>
-          ${footerHTML}
+          ${backHTML}
         </div>
-        ${backHTML}
       `;
     }
     grid.appendChild(card);
