@@ -8948,6 +8948,37 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "indian-riders-fest-2026",
+    "name": "Indian Riders Fest 2026",
+    "date": "2026-06-18",
+    "dateEnd": "2026-06-21",
+    "location": "Lipno nad Vltavou, Tjeckien",
+    "type": "Traff",
+    "organizer": "Indian Riders Fest",
+    "description": "Europas storsta Indian Motorcycle-festival firar markts 125-arsjubileum. Fyra dagar med custom show, demo rides och live musik vid Lipnosjon.",
+    "descriptionFull": "18-21 juni 2026, Lipno nad Vltavou, Tjeckien\n\nEn speciell utgava som firar Indian Motorcycles 125-arsjubileum. Eventet ager rum vid den vackra Lipnosjon i Tjeckien.\n\nFestivalen samlar tusentals MC-entusiaster fran hela varlden. 2025 lockade eventet nastan 4 000 besokare fran 44 lander.\n\nHojdpunkter:\n- Budweis Indian Motorcycle Custom Show (BCS), 5:e upplagan\n- Demo rides pa Indian Motorcycles\n- Live konserter och underhallning\n- Wall of Death\n- Utstallare och tillbehor\n- Parade Ride med Ladies First-prioritet\n\nIRF26 Riders Pack (125 EUR) inkluderar limited edition t-shirt, patch, parkering och tillgang till demo rides. Bara 1 250 pack finns tillgangliga.\n\nPlats: Lipno nad Vltavou, Tjeckien.",
+    "backImage": "ads/indian-riders-fest-back-2026-06-18.jpg",
+    "frontImage": "ads/indian-riders-fest-front-2026-06-18.jpg",
+    "links": [
+      {
+        "label": "indianridersfest.eu",
+        "url": "https://www.indianridersfest.eu/"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/IndianRidersFestCZ/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lipno+nad+Vltavou%2C+Czech+Republic",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.indianridersfest.eu/",
+    "region": "Tjeckien",
+    "source": "FB"
+  },
+  {
     "id": "hdcs-midsommartraff-2026",
     "name": "H-DCS Midsommarträff",
     "date": "2026-06-19",
