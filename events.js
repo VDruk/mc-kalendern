@@ -17600,25 +17600,30 @@ const EVENTS_DATA = {
   },
   {
     "id": "hoktraffen-med-rally-ronneby-2026",
-    "name": "Hökträffen med Rally",
+    "name": "Hökträffen med rally 2026",
     "date": "2026-05-16",
     "dateEnd": "2026-05-17",
-    "location": "Hokarnas klubbstuga, Ronneby",
+    "location": "Hökarna MC, Ronneby",
     "type": "Träff",
-    "organizer": "Hokarna RMCK",
-    "description": "Träffpunkt i Hokarnas klubbstuga, Ronneby. Gemensam fika och MC-umgänge. Alla välkomna!",
+    "organizer": "Hökarna MC",
+    "description": "Hökarna MC firar 55-årsjubileum! Fredagsbarhäng, lördagsrally med start kl 11, live med Take Two och sängplatser inomhus.",
     "link": "https://hokarna.se/",
     "region": "Blekinge",
-    "source": "smcboken.svmc.se",
-    "descriptionFull": "Hökträffen med Rally arrangeras av Hokarna RMCK.\n\nTräffpunkt i Hokarnas klubbstuga, Ronneby. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Hokarnas klubbstuga, Ronneby.",
+    "source": "FB",
+    "descriptionFull": "Hökarna MC firar 55 års jubileum med Hökträffen 2026!\n\nNi är givetvis välkomna tidigare. På fredagen är det barhäng med begränsad service.\n\nLördag kör vi rally med start mellan kl 11.00-13.00. Väl i mål finns det mat och dryck till bra priser. Johan Stenström underhåller i väntan på prisutdelning.\n\nPå kvällen blir det fest i ladan med Take Two på scenen.\n\nDet finns sängplatser inomhus. Först till kvarn gäller.\n\nKontakt: www.hokarna.se\nDennis: 0708-924575\n\nPlats: Gråsparvsvägen 15, 372 38 Ronneby.",
+    "backImage": "ads/hoktraffen-med-rally-back-2026-05-16.jpg",
     "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/1177061637902975/"
+      },
       {
         "label": "hokarna.se",
         "url": "https://hokarna.se/"
       },
       {
         "label": "Karta",
-        "url": "https://www.google.com/maps/search/?api=1&query=Hokarnas+klubbstuga%2C+Ronneby",
+        "url": "https://www.google.com/maps/search/?api=1&query=H%C3%B6karna+MC+Ronneby",
         "type": "map"
       }
     ]
