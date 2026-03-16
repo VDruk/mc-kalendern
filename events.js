@@ -1480,22 +1480,24 @@ const EVENTS_DATA = {
     "_ad": true
   },
   {
-    "id": "sponsor-bsa-sverige-ad-2026",
-    "name": "BSA Sverige",
-    "date": "2026-01-01",
-    "dateEnd": "2026-12-31",
-    "location": "bsasverige.se",
-    "type": "AD",
+    "id": "bsa-sverige-sulas-2026",
+    "name": "BSA hos Sulas MC",
+    "date": "2026-04-19",
+    "dateEnd": "2026-04-19",
+    "location": "Sulas MC, Säva 17, Uppsala",
+    "type": "Mässa",
     "organizer": "BSA Sverige AB",
-    "description": "BSA Sverige - officiell BSA i Sverige. Hitta din narmaste aterforsaljare och provkor nya BSA Gold Star 650, Scrambler 650 eller Bantam 350.",
-    "descriptionFull": "BSA Sverige AB\n\nBSA grundades 1861 i Birmingham och var ett av varldens storsta motorcykelmarken. Produktionen upphorde 1973 men 2021 gjorde BSA en efterlangtad comeback.\n\nNya BSA-modeller finns nu hos svenska aterforsaljare, bland annat Sulas MC i Uppsala. Besok bsasverige.se for att hitta din narmaste handlare.\n\nModeller 2026: Gold Star 650, Scrambler 650, Bantam 350.",
+    "description": "BSA finns nu hos Sulas MC i Uppsala. Provkor Gold Star 650, Scrambler 650 och nya Bantam 350 pa plats.",
+    "descriptionFull": "BSA grundades 1861 i Birmingham och var ett av varldens storsta motorcykelmarken. Produktionen upphorde 1973 men 2021 gjorde BSA en efterlangtad comeback.\n\nNya BSA-modeller finns nu hos Sulas MC i Uppsala:\n\nGold Star 650 - 652cc, 45 hk. Klassisk stil.\nScrambler 650 - Aventyrlig, finns i gult, gratt och svart.\nBantam 350 - Helt ny! 344cc, 29 hk. Latt stadshoj.\n\nBesok bsasverige.se eller Sulas MC for provkorning.",
     "frontImage": "ads/bsa-sulas-2026-04-18.jpg",
     "backImage": "ads/bsa-sulas-2026-04-18.jpg",
-    "links": [{ "label": "bsasverige.se", "url": "https://bsasverige.se/" }],
+    "links": [
+      { "label": "bsasverige.se", "url": "https://bsasverige.se/" },
+      { "label": "sulas.se", "url": "https://sulas.se/vara-fordon/motorcyklar/bsa-motorcycles/" }
+    ],
     "link": "https://bsasverige.se/",
-    "region": "Sverige",
-    "source": "AD",
-    "_ad": true
+    "region": "Uppsala",
+    "source": "bsasverige.se"
   },
   {
     "id": "sponsor-indian-motorcycle-ad-2026",
