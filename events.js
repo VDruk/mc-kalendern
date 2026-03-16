@@ -673,7 +673,6 @@ const EVENTS_DATA = {
     "organizer": "Bikeman Helsingborg",
     "description": "Bikeman Helsingborg välkomnar våren med Harley-Davidson Night! Livemusik, burgare, barberare och tatuering av Tattoo Royal.",
     "descriptionFull": "Bikeman Helsingborg bjuder in till en kväll fylld av härlig stämning, gemenskap och äkta Harley-känsla. Damma av skinnjackan, samla vännerna och kom och kickstarta säsongen!\n\nAnmälan sker via Harley-Davidsons hemsida.\n\nUnder kvällen bjuds det på livemusik och burgare. Barberare på plats. Dessutom får ni besök av Andreas från Tattoo Royal för er som är sugna på en ny tatuering eller vill snacka motiv.\n\nTid: 16:00-20:00\nLängd: ca 4 timmar\n\nPlats: Kroppavägen 40, 253 55 Mörarp.",
-    "frontImage": "ads/hd-nights-2026-03-20.jpg",
     "backImage": "ads/harley-davidson-night-bikeman-back-2026-03-20.jpg",
     "links": [
       {
@@ -689,6 +688,28 @@ const EVENTS_DATA = {
     "link": "",
     "region": "Skåne",
     "source": "FB"
+  },
+  {
+    "id": "hd-nights-2026-03-20",
+    "name": "Harley-Davidson Nights 20 Mars",
+    "date": "2026-03-20",
+    "dateEnd": "2026-03-20",
+    "location": "Malmö, Stockholm, Borås, Helsingborg",
+    "type": "Träff",
+    "organizer": "H-DCS",
+    "description": "Harley-Davidson Nights den 20 mars pa flera platser i Sverige. Probike, H-DCS och Bikeman arrangerar kvallsevent for alla Harley-entusiaster.",
+    "descriptionFull": "Harley-Davidson Nights den 20 mars 2026. H-DCS distrikt over hela Sverige arrangerar kvallsevent for alla MC-entusiaster.\n\nPlatser:\n- DOB Harley Night pa Babel, Malmö (Probike Malmö)\n- DOA Harley Night pa Pub Anchor, Stockholm (ProBike)\n- DO-C Pubkvall pa Bowlers, Borås\n- Harley-Davidson Night hos Bikeman, Mörarp/Helsingborg\n\nAlla ar valkomna oavsett vilken hoj du kor. One Night Only. One Hell of a Party.",
+    "frontImage": "ads/hd-nights-2026-03-20.jpg",
+    "backImage": "ads/hd-nights-2026-03-20.jpg",
+    "links": [
+      {
+        "label": "hdcs.se",
+        "url": "https://hdcs.se/"
+      }
+    ],
+    "link": "https://hdcs.se/",
+    "region": "Sverige",
+    "source": "hdcs.se"
   },
   {
     "id": "after-st-patrick-day-sundsvall-2026",
@@ -1441,19 +1462,19 @@ const EVENTS_DATA = {
     "_ad": true
   },
   {
-    "id": "sponsor-bsa-scrambler-ad-2026",
-    "name": "BSA Scrambler 650",
+    "id": "sponsor-bsa-motorcycles-ad-2026",
+    "name": "BSA Motorcycles 2026",
     "date": "2026-01-01",
     "dateEnd": "2026-12-31",
-    "location": "bsaoc.org",
+    "location": "bsacompany.co.uk",
     "type": "AD",
     "organizer": "BSA Motorcycles",
-    "description": "BSA Scrambler 650. Klassisk brittisk motorcykel i modern tappning. Upptack mer pa bsaoc.org.",
-    "descriptionFull": "BSA Scrambler 650. En klassisk brittisk motorcykel i modern tappning. Perfekt for bade vag och aventyr. Upptack mer pa bsaoc.org.",
+    "description": "BSA ar tillbaka i Sverige med tre modeller 2026: Gold Star 650, Scrambler 650 och nya Bantam 350. Klassiskt brittiskt arv i modern form.",
+    "descriptionFull": "BSA Motorcycles 2026 - tre modeller i Sverige:\n\nGold Star 650 - 652cc DOHC-motor, 45 hk. Klassisk stil med modern teknik. Fem vaxlar, over 70 mpg.\n\nScrambler 650 - Samma kraftfulla 652cc-motor i en aventyrlig forpackning. Finns i gult, gratt och svart.\n\nBantam 350 - Helt ny! Vatskekyld 344cc encylindrig motor, 29 hk. Latt och smidig for stadskoring. Tre farger: Black UJ, Grey & White, Red & Grey.\n\nBSA grundades 1861 i Birmingham och ar ett av motorcykelhistoriens mest ikoniska marken. Nu tillbaka med modernt utbud for europeiska forare.",
     "frontImage": "ads/bsa-scrambler-2026-08-06.jpg",
-    "backImage": "ads/bsa-scrambler-2026-08-06.jpg",
-    "links": [{ "label": "bsaoc.org", "url": "https://www.bsaoc.org/swe/" }],
-    "link": "https://www.bsaoc.org/swe/",
+    "backImage": "ads/bsa-sulas-2026-04-18.jpg",
+    "links": [{ "label": "bsacompany.co.uk", "url": "https://www.bsacompany.co.uk/" }],
+    "link": "https://www.bsacompany.co.uk/",
     "region": "Sverige",
     "source": "AD",
     "_ad": true
@@ -2383,7 +2404,6 @@ const EVENTS_DATA = {
     "region": "Uppsala",
     "source": "sulas.se",
     "descriptionFull": "Sulas MC Stor Invigning arrangeras av Sulas MC.\n\nStor invigning av Sulas MC:s nya butik och showroom. Visning av nya modeller från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-16.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
-    "frontImage": "ads/bsa-sulas-2026-04-18.jpg",
     "backImage": "ads/sulas-mc-invigning-back-2026-04-18.jpg",
     "links": [
       {
