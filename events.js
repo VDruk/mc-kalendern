@@ -25,7 +25,7 @@ const EVENTS_DATA = {
     "link": "https://www.elmia.se/mcmassan/",
     "region": "Jönköping",
     "source": "elmia.se",
-    "descriptionFull": "MC-Mässan Jönköping (Elmia) arrangeras av MC-Mässan / Elmia.\n\nSveriges största MC-mässa flyttar till Elmia. Nyheter, provkörningar, tillbehör och Customhoj Bike Show.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Elmiamässan, Jönköping.",
+    "descriptionFull": "MC-Mässan Jönköping (Elmia) arrangeras av MC-Mässan / Elmia.\n\nSveriges största MC-mässa flyttar till Elmia. Nyheter, provkörningar, tillbehör och Customhoj Bike Show.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Elmiamässan, Jönköping.",
     "links": [
       {
         "label": "elmia.se",
@@ -50,7 +50,7 @@ const EVENTS_DATA = {
     "link": "https://www.bvnevent.se/",
     "region": "Halland",
     "source": "bvnevent.se",
-    "descriptionFull": "MC-Mässan Halmstad arrangeras av BVN Event / MC-Veteranerna.\n\nMC-arrangemang i Halmstad Arena, Halmstad. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Halmstad Arena, Halmstad.",
+    "descriptionFull": "MC-Mässan Halmstad arrangeras av BVN Event / MC-Veteranerna.\n\nMC-arrangemang i Halmstad Arena, Halmstad. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Halmstad Arena, Halmstad.",
     "links": [
       {
         "label": "bvnevent.se",
@@ -75,7 +75,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lod-onsdagsfika-soldathemmet-skovde-2/2026-03-11/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Soldathemmet Skövde, Skövde.",
+    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Soldathemmet Skövde, Skövde.",
     "links": [
       {
         "label": "hdcs.se",
@@ -100,7 +100,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-roliga-timmen-med-ronnie/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Roliga timmen med Ronnie arrangeras av H-DCS.\n\n12 Mars 18.15 i garaget Vi pratar och delar tankar om däck till Harley, max 5 personer. Biljett, ett paket bryggkaffe eller 100kr swish!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Ronnies garage, Skärholmen.",
+    "descriptionFull": "DOA - Roliga timmen med Ronnie arrangeras av H-DCS.\n\n12 Mars 18.15 i garaget Vi pratar och delar tankar om däck till Harley, max 5 personer. Biljett, ett paket bryggkaffe eller 100kr swish!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Ronnies garage, Skärholmen.",
     "links": [
       {
         "label": "hdcs.se",
@@ -125,7 +125,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/vill-du-bli-turledare-i-d11-introduktion/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "Vill du bli turledare i D11? Introduktion arrangeras av BMW MC-klubben.\n\nKörning med D11 från Online / Digitalt. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Online / Digitalt.",
+    "descriptionFull": "Vill du bli turledare i D11? Introduktion arrangeras av BMW MC-klubben.\n\nKörning med D11 från Online / Digitalt. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Online / Digitalt.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -150,7 +150,7 @@ const EVENTS_DATA = {
     "link": "https://www.bvnevent.se/Uppsala",
     "region": "Uppsala",
     "source": "bvnevent.se",
-    "descriptionFull": "Uppsala MC-Mässa & Motorshow arrangeras av BVN Event.\n\nMässan fylls med motorcyklar, byggare, handlare, klubbar och mc-entusiaster. Stuntshow med Sveriges bästa stuntförare.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Fyrishov, Uppsala.",
+    "descriptionFull": "Uppsala MC-Mässa & Motorshow arrangeras av BVN Event.\n\nMässan fylls med motorcyklar, byggare, handlare, klubbar och mc-entusiaster. Stuntshow med Sveriges bästa stuntförare.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Fyrishov, Uppsala.",
     "links": [
       {
         "label": "bvnevent.se",
@@ -175,7 +175,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-pubkvall-varberg-3/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C pubkväll varberg arrangeras av H-DCS.\n\nNu är det klart med Pubkväll i Varberg.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Varbergs ölhall, Varberg.",
+    "descriptionFull": "DO-C pubkväll varberg arrangeras av H-DCS.\n\nNu är det klart med Pubkväll i Varberg.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Varbergs ölhall, Varberg.",
     "links": [
       {
         "label": "hdcs.se",
@@ -200,7 +200,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-03-14/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Biltema, Haninge.",
+    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
     "links": [
       {
         "label": "hdcs.se",
@@ -225,7 +225,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikafraff-i-falun-2/2026-03-14/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG - Fikafräff i Hedemora arrangeras av H-DCS.\n\nFikafräff på Wahlmans cafe i Hedemora Lördag 10 januari kl. 12.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Wahlmans Cafe, Hedemora.",
+    "descriptionFull": "DOG - Fikafräff i Hedemora arrangeras av H-DCS.\n\nFikafräff på Wahlmans cafe i Hedemora Lördag 10 januari kl. 12.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Wahlmans Cafe, Hedemora.",
     "links": [
       {
         "label": "hdcs.se",
@@ -239,7 +239,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-arsmote-2026",
+    "id": "doa-årsmöte-2026",
     "name": "DOA - Årsmöte",
     "date": "2026-03-14",
     "dateEnd": "2026-03-14",
@@ -247,14 +247,14 @@ const EVENTS_DATA = {
     "type": "Träff",
     "organizer": "H-DCS",
     "description": "Alla får gärna ta med förslag på utflyktsmål till sommarens turer. Antingen till kvällsturer, dagsturer eller helgturer.",
-    "link": "https://hdcs.se/evenemang/doa-arsmote/",
+    "link": "https://hdcs.se/evenemang/doa-årsmöte/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Årsmöte arrangeras av H-DCS.\n\nAlla får gärna ta med förslag på utflyktsmål till sommarens turer. Antingen till kvällsturer, dagsturer eller helgturer.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Pub Anchor, Stockholm.",
+    "descriptionFull": "DOA - Årsmöte arrangeras av H-DCS.\n\nAlla får gärna ta med förslag på utflyktsmål till sommarens turer. Antingen till kvällsturer, dagsturer eller helgturer.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Pub Anchor, Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-arsmote/"
+        "url": "https://hdcs.se/evenemang/doa-årsmöte/"
       },
       {
         "label": "Karta",
@@ -275,7 +275,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-pubkvall-stockholm/2026-03-14/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Pubkväll Stockholm arrangeras av H-DCS.\n\nPubkväll med H-DCS DOA i Pub Anchor, Stockholm. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Pub Anchor, Stockholm.",
+    "descriptionFull": "DOA - Pubkväll Stockholm arrangeras av H-DCS.\n\nPubkväll med H-DCS DOA i Pub Anchor, Stockholm. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Pub Anchor, Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -300,7 +300,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lob-pubkvall-i-kristianstad/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "LOB- Pubkväll i Kristianstad INSTÄLLT arrangeras av H-DCS.\n\nVi ställer in detta evenemang endast 3 som anmält sig Pubkväll i Kristianstad den 14 mars. Vi träffas på O´Learys kl. 17.00.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Kristianstad.",
+    "descriptionFull": "LOB- Pubkväll i Kristianstad INSTÄLLT arrangeras av H-DCS.\n\nVi ställer in detta evenemang endast 3 som anmält sig Pubkväll i Kristianstad den 14 mars. Vi träffas på O´Learys kl. 17.00.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kristianstad.",
     "links": [
       {
         "label": "hdcs.se",
@@ -325,7 +325,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/bagskytte/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "Bågskytte arrangeras av H-DCS.\n\nBågskytte, plats oklart än, mer info kommer. Efter går dom som vill och tar något att äta och kanske en öl.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stockholm.",
+    "descriptionFull": "Bågskytte arrangeras av H-DCS.\n\nBågskytte, plats oklart än, mer info kommer. Efter går dom som vill och tar något att äta och kanske en öl.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -350,7 +350,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d7-gps-och-navigationsdag/",
     "region": "Västmanland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D7 GPS- och Navigationsdag arrangeras av BMW MC-klubben.\n\nGPS- och navigationskurs med D7. Lär dig navigera mellan waypoints. Anmälan på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Landsvägen 49.",
+    "descriptionFull": "D7 GPS- och Navigationsdag arrangeras av BMW MC-klubben.\n\nGPS- och navigationskurs med D7. Lär dig navigera mellan waypoints. Anmälan på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Landsvägen 49.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -375,7 +375,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/gps-och-navigationsdag-stegra-passet-over-teams/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "GPS- och Navigationsdag - Stegra-passet över Teams arrangeras av BMW MC-klubben.\n\nVi öppnar upp ett av passen under GPS- och Navigationsdagen för alla klubbmedlemmar - oavsett var i landet du befinner dig!\n\nGemensam korning pa utvalda vagar. Kontrollera evenemangssidan for detaljer.\n\nPlats: Online / Digitalt.",
+    "descriptionFull": "GPS- och Navigationsdag - Stegra-passet över Teams arrangeras av BMW MC-klubben.\n\nVi öppnar upp ett av passen under GPS- och Navigationsdagen för alla klubbmedlemmar - oavsett var i landet du befinner dig!\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Online / Digitalt.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -400,7 +400,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/alands-x-med-eckerolinjen-2/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "Alands-X med Eckerolinjen arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Grisslehamn. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Grisslehamn.",
+    "descriptionFull": "Alands-X med Eckerolinjen arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Grisslehamn. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Grisslehamn.",
     "links": [
       {
         "label": "oamck.se",
@@ -425,7 +425,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-sondagsvandring/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Söndagsvandring Stockamöllan arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Stenbocksliden 2, 241 96 Stockamöllan, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stenbocksliden 2, Stockamöllan.",
+    "descriptionFull": "D15 Söndagsvandring Stockamöllan arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Stenbocksliden 2, 241 96 Stockamöllan, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stenbocksliden 2, Stockamöllan.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -450,7 +450,7 @@ const EVENTS_DATA = {
     "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-2/?occurrence=2026-03-15",
     "region": "Södermanland",
     "source": "gwcs.se",
-    "descriptionFull": "Sormlandswingarnas fikatraff arrangeras av Sormlandswingarna / GWCS.\n\nTräffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sigridslunds Cafe, Ardala.",
+    "descriptionFull": "Sormlandswingarnas fikatraff arrangeras av Sormlandswingarna / GWCS.\n\nTräffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
     "links": [
       {
         "label": "gwcs.se",
@@ -475,7 +475,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-03-17/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -500,7 +500,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lod-onsdagsfika-soldathemmet-skovde-2/2026-03-18/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Soldathemmet Skövde, Skövde.",
+    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Soldathemmet Skövde, Skövde.",
     "links": [
       {
         "label": "hdcs.se",
@@ -525,7 +525,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d7-aw-med-filmvisning/",
     "region": "Stockholm",
     "source": "bmwklubben.se",
-    "descriptionFull": "D7 AW med filmvisning arrangeras av BMW MC-klubben.\n\nEn kväll för dig som älskar friheten på två hjul och berättelser som doftar både bensin och guldrusch.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Landsvägen 49.",
+    "descriptionFull": "D7 AW med filmvisning arrangeras av BMW MC-klubben.\n\nEn kväll för dig som älskar friheten på två hjul och berättelser som doftar både bensin och guldrusch.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Landsvägen 49.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -550,7 +550,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-03-19/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -575,7 +575,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d7-sasongsuppstart-motorrad-center-upplands-vasby/",
     "region": "Stockholm",
     "source": "bmwklubben.se",
-    "descriptionFull": "D7 Säsongsuppstart, Motorrad Center Upplands Väsby arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D7 från Slånbärsvägen 6, 194 65 Upplands Väsby, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Slånbärsvägen 6, Upplands Väsby.",
+    "descriptionFull": "D7 Säsongsuppstart, Motorrad Center Upplands Väsby arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D7 från Slånbärsvägen 6, 194 65 Upplands Väsby, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Slånbärsvägen 6, Upplands Väsby.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -600,7 +600,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-harley-night-probike/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "Harley-Davidson Night på ikoniska Babel arrangeras av H-DCS.\n\nEvenemang av Probike Malmö Babel Malmö Längd: 3 h Offentlig · Alla på och utanför Facebook One Night Only. One Hell of a Party. Everyone’s Welcome.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Babel, Malmö.",
+    "descriptionFull": "Harley-Davidson Night på ikoniska Babel arrangeras av H-DCS.\n\nEvenemang av Probike Malmö Babel Malmö Längd: 3 h Offentlig · Alla på och utanför Facebook One Night Only. One Hell of a Party. Everyone’s Welcome.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Babel, Malmö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -625,7 +625,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-harley-night-med-probike-pa-anchor/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Harley Night med ProBike på Anchor arrangeras av H-DCS.\n\nProBike bjuder in till Harley-Night på Pub Anchor 20 mars kl.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Pub Anchor, Stockholm.",
+    "descriptionFull": "DOA - Harley Night med ProBike på Anchor arrangeras av H-DCS.\n\nProBike bjuder in till Harley-Night på Pub Anchor 20 mars kl.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Pub Anchor, Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -650,7 +650,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-pubkvall-boras-9/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C pubkväll borås arrangeras av H-DCS.\n\nVälkomna alla Boråsare med omnejd! Till pubkväll på Bowlers i Borås för att umgås en stund med gött snack, & !\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Bowlers i Borås, Borås.",
+    "descriptionFull": "DO-C pubkväll borås arrangeras av H-DCS.\n\nVälkomna alla Boråsare med omnejd! Till pubkväll på Bowlers i Borås för att umgås en stund med gött snack, & !\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Bowlers i Borås, Borås.",
     "links": [
       {
         "label": "hdcs.se",
@@ -697,8 +697,8 @@ const EVENTS_DATA = {
     "location": "Malmö, Stockholm, Borås, Helsingborg",
     "type": "Träff",
     "organizer": "H-DCS",
-    "description": "Harley-Davidson Nights den 20 mars pa flera platser i Sverige. Probike, H-DCS och Bikeman arrangerar kvallsevent for alla Harley-entusiaster.",
-    "descriptionFull": "Harley-Davidson Nights den 20 mars 2026. H-DCS distrikt over hela Sverige arrangerar kvallsevent for alla MC-entusiaster.\n\nPlatser:\n- DOB Harley Night pa Babel, Malmö (Probike Malmö)\n- DOA Harley Night pa Pub Anchor, Stockholm (ProBike)\n- DO-C Pubkvall pa Bowlers, Borås\n- Harley-Davidson Night hos Bikeman, Mörarp/Helsingborg\n\nAlla ar valkomna oavsett vilken hoj du kor. One Night Only. One Hell of a Party.",
+    "description": "Harley-Davidson Nights den 20 mars på flera platser i Sverige. Probike, H-DCS och Bikeman arrangerar kvällsevent för alla Harley-entusiaster.",
+    "descriptionFull": "Harley-Davidson Nights den 20 mars 2026. H-DCS distrikt över hela Sverige arrangerar kvällsevent för alla MC-entusiaster.\n\nPlatser:\n- DOB Harley Night på Babel, Malmö (Probike Malmö)\n- DOA Harley Night på Pub Anchor, Stockholm (ProBike)\n- DO-C Pubkväll på Bowlers, Borås\n- Harley-Davidson Night hos Bikeman, Mörarp/Helsingborg\n\nAlla är välkomna oavsett vilken hoj du kör. One Night Only. One Hell of a Party.",
     "frontImage": "ads/hd-nights-2026-03-20.jpg",
     "backImage": "ads/hd-nights-2026-03-20.jpg",
     "links": [
@@ -719,8 +719,8 @@ const EVENTS_DATA = {
     "location": "Adas MC Sundsvall, Regementsvägen 12, Sundsvall",
     "type": "Fest",
     "organizer": "Adas MC Sundsvall",
-    "description": "Kom och umgas pa en AW med St Patrick's-tema hos Adas MC Sundsvall. Irlandska gosaker och kaffe serveras. Kl 17-24.",
-    "descriptionFull": "Adas MC Sundsvall bjuder in till After St.Patrick Day den 20 mars 2026.\n\nKom och umgas pa en AW med tema St Patrick's. Det serveras massa irlandska gosaker av olika slag, och det kommer aven finnas vanligt kaffe.\n\nKl 17:00 - 23:59.\n\nPlats: Regementsvägen 12, SE-852 38 Sundsvall.",
+    "description": "Kom och umgas på en AW med St Patrick's-tema hos Adas MC Sundsvall. Irlandska gosaker och kaffe serveras. Kl 17-24.",
+    "descriptionFull": "Adas MC Sundsvall bjuder in till After St.Patrick Day den 20 mars 2026.\n\nKom och umgas på en AW med tema St Patrick's. Det serveras massa irlandska gosaker av olika slag, och det kommer även finnas vanligt kaffe.\n\nKl 17:00 - 23:59.\n\nPlats: Regementsvägen 12, SE-852 38 Sundsvall.",
     "backImage": "ads/after-st-patrick-day-back-2026-03-20.jpg",
     "links": [
       {
@@ -749,7 +749,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-03-21/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Biltema, Haninge.",
+    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
     "links": [
       {
         "label": "hdcs.se",
@@ -774,7 +774,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-03-21/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -799,7 +799,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-i-grillning-solleftea/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "DO I Grillning Sollefteå arrangeras av H-DCS.\n\nSom vanligt så inleds våren med grillning i Granvågsniporna. Kom med glatt humör och kläder efter väder.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Granvågsniporna, Sollefteå.",
+    "descriptionFull": "DO I Grillning Sollefteå arrangeras av H-DCS.\n\nSom vanligt så inleds våren med grillning i Granvågsniporna. Kom med glatt humör och kläder efter väder.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Granvågsniporna, Sollefteå.",
     "links": [
       {
         "label": "hdcs.se",
@@ -824,7 +824,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/pubkvall-pa-hamlet-i-linkoping-4/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "Pubkväll på Hamlet i Linköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Hamlet, Storgatan 37, Linköping.",
+    "descriptionFull": "Pubkväll på Hamlet i Linköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hamlet, Storgatan 37, Linköping.",
     "links": [
       {
         "label": "hdcs.se",
@@ -849,7 +849,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lob-pubkvall-malmo/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "LOB- Pubkväll Malmö arrangeras av H-DCS.\n\nPubkväll med H-DCS Distrikt B Välkommen till pubkväll med Harley-Davidson Club Sweden - Distrikt B tillsammans med vårt lokala ombud i Malmö.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Babel, Malmö.",
+    "descriptionFull": "LOB- Pubkväll Malmö arrangeras av H-DCS.\n\nPubkväll med H-DCS Distrikt B Välkommen till pubkväll med Harley-Davidson Club Sweden - Distrikt B tillsammans med vårt lokala ombud i Malmö.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Babel, Malmö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -863,7 +863,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-stockholm-arsmote-2026",
+    "id": "smc-stockholm-årsmöte-2026",
     "name": "SMC Stockholms Årsmöte 2026",
     "date": "2026-03-21",
     "dateEnd": "2026-03-21",
@@ -874,7 +874,7 @@ const EVENTS_DATA = {
     "link": "https://www.svmc.se/stockholm/nyheter/aarsmoete-2026/",
     "region": "Stockholm",
     "source": "svmc.se",
-    "descriptionFull": "SMC Stockholms Årsmöte 2026 arrangeras av SMC Stockholm.\n\nÅrsmöte för SMC i Stockholm. Viktigt möte om kommande säsong. Alla medlemmar uppmanas att närvara!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stockholm.",
+    "descriptionFull": "SMC Stockholms Årsmöte 2026 arrangeras av SMC Stockholm.\n\nÅrsmöte för SMC i Stockholm. Viktigt möte om kommande säsong. Alla medlemmar uppmanas att närvara!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "svmc.se",
@@ -899,7 +899,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-03-24/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -924,7 +924,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/uppdatering-for-turledare-i-d11/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "Uppdatering för turledare i D11 arrangeras av BMW MC-klubben.\n\nKörning med D11 från Online / Digitalt. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Online / Digitalt.",
+    "descriptionFull": "Uppdatering för turledare i D11 arrangeras av BMW MC-klubben.\n\nKörning med D11 från Online / Digitalt. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Online / Digitalt.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -949,7 +949,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-medlems-kvall-probike-malmo/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Medlems kväll Probike Malmö arrangeras av H-DCS.\n\nDOB- Medlemskväll Probike Malmö Endast för H-DCS medlemmar har ni respektive som inte är medlem så är de välkomna. Tisdagen den 25 mars kl.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Probike, Malmö.",
+    "descriptionFull": "DOB- Medlems kväll Probike Malmö arrangeras av H-DCS.\n\nDOB- Medlemskväll Probike Malmö Endast för H-DCS medlemmar har ni respektive som inte är medlem så är de välkomna. Tisdagen den 25 mars kl.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Probike, Malmö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -974,7 +974,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lod-onsdagsfika-soldathemmet-skovde-2/2026-03-25/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Soldathemmet Skövde, Skövde.",
+    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Soldathemmet Skövde, Skövde.",
     "links": [
       {
         "label": "hdcs.se",
@@ -999,7 +999,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d12-planeringsmote-2026/",
     "region": "Gotland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D12 Planeringsmöte 2026 arrangeras av BMW MC-klubben.\n\nMöte för D12. Planering av säsongens turer och klubbaktiviteter. Viktigt att närvara för medlemmar.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sjudarevägen 42b, Visby.",
+    "descriptionFull": "D12 Planeringsmöte 2026 arrangeras av BMW MC-klubben.\n\nMöte för D12. Planering av säsongens turer och klubbaktiviteter. Viktigt att närvara för medlemmar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sjudarevägen 42b, Visby.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -1076,7 +1076,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d10-teater-goteborgskravallerna/",
     "region": "Västra Götaland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D10 Teater - Göteborgskravallerna arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Götaplatsen, 412 56 Göteborg, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Götaplatsen, Göteborg.",
+    "descriptionFull": "D10 Teater - Göteborgskravallerna arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Götaplatsen, 412 56 Göteborg, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Götaplatsen, Göteborg.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -1101,7 +1101,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/av-pa-murphys-i-jonkoping/",
     "region": "Jönköping",
     "source": "hdcs.se",
-    "descriptionFull": "PUB-KVÄLL på Murphys i Jönköping arrangeras av H-DCS.\n\nPUB KVÄLL på Murphys fredag 27 mars , Lundströms plats 2 i Jönköping som ligger alldeles vid Resecenrum.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Murphys Jönköping, Jönköping.",
+    "descriptionFull": "PUB-KVÄLL på Murphys i Jönköping arrangeras av H-DCS.\n\nPUB KVÄLL på Murphys fredag 27 mars , Lundströms plats 2 i Jönköping som ligger alldeles vid Resecenrum.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Murphys Jönköping, Jönköping.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1126,7 +1126,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-pubkvall-i-halmstad-5/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C pubkväll i halmstad arrangeras av H-DCS.\n\nPubkväll med H-DCS i Cyrano halmstad, Halmstad. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Cyrano, Halmstad.",
+    "descriptionFull": "DO-C pubkväll i halmstad arrangeras av H-DCS.\n\nPubkväll med H-DCS i Cyrano halmstad, Halmstad. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Cyrano, Halmstad.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1151,7 +1151,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/pubkvall-pa-cromwell-house-i-norrkoping-3/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "Pubkväll på Cromwell House i Norrköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Cromwell House, Kungsgatan 36, Norrköping.",
+    "descriptionFull": "Pubkväll på Cromwell House i Norrköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Cromwell House, Kungsgatan 36, Norrköping.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1176,7 +1176,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-03-28/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Biltema, Haninge.",
+    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1201,7 +1201,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lob-ulf-pub-kvall-med-tura/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "PUB kväll med tura arrangeras av H-DCS.\n\nLOB- Ulf PUB kväll med tura Den 28/3 är det dags för en PUB tura Helsingborg/Helsingör. Vi träffas vid terminalen och åker med färjan Aurora kl 17:00.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skåne.",
+    "descriptionFull": "PUB kväll med tura arrangeras av H-DCS.\n\nLOB- Ulf PUB kväll med tura Den 28/3 är det dags för en PUB tura Helsingborg/Helsingör. Vi träffas vid terminalen och åker med färjan Aurora kl 17:00.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1226,7 +1226,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/pub-kvall-ludvika/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "Pub-kväll Ludvika arrangeras av H-DCS.\n\nPubkväll med H-DCS i china town Ludvika, Ludvika. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: China Town i Ludvika.",
+    "descriptionFull": "Pub-kväll Ludvika arrangeras av H-DCS.\n\nPubkväll med H-DCS i china town Ludvika, Ludvika. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: China Town i Ludvika.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1251,7 +1251,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d10-hojslappet-2026/",
     "region": "Västra Götaland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D10 Hojsläppet 2026 arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Borås, Västra Götalands län, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: R40, Dalsjöfors Pendelparkering, Borås.",
+    "descriptionFull": "D10 Hojsläppet 2026 arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Borås, Västra Götalands län, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: R40, Dalsjöfors Pendelparkering, Borås.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -1323,7 +1323,7 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
-    "id": "ttc-arsmote-smc-dalarna-2026",
+    "id": "ttc-årsmöte-smc-dalarna-2026",
     "name": "Årsmöte SMC Dalarna",
     "date": "2026-03-29",
     "dateEnd": "2026-03-29",
@@ -1359,7 +1359,7 @@ const EVENTS_DATA = {
     "link": "https://sulas.se/",
     "region": "Uppsala",
     "source": "sulas.se",
-    "descriptionFull": "Sulas MC Klädesrea arrangeras av Sulas MC.\n\nStor klädesrea hos Sulas MC. 15-50% rabatt på all personlig utrustning. Fre 9-18, Lör 10-14.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
+    "descriptionFull": "Sulas MC Klädesrea arrangeras av Sulas MC.\n\nStor klädesrea hos Sulas MC. 15-50% rabatt på all personlig utrustning. Fre 9-18, Lör 10-14.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
     "links": [
       {
         "label": "sulas.se",
@@ -1384,7 +1384,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-03-31/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1399,14 +1399,14 @@ const EVENTS_DATA = {
   },
   {
     "id": "svedea-mc-forsakring-ad-2026",
-    "name": "Svedea MC-forsakring",
+    "name": "Svedea MC-försäkring",
     "date": "2026-01-01",
     "dateEnd": "2026-12-31",
     "location": "svedea.se/mc-forsakring",
     "type": "AD",
     "organizer": "Svedea",
-    "description": "Sveriges mest salda mc-forsakring. Over 130 000 nojda hojagare. Marknadens langsta maskinforsakring och 10% SMC-rabatt.",
-    "descriptionFull": "Svedea ar Sveriges storsta mc-forsakring. Idag valjer 40% av landets motorcykelagare att forsakra sin hoj hos Svedea.\n\nOver 130 000 nojda kunder och betyg 4.9 av 5 baserat pa 1 782 omdomen.\n\nMarknadens langsta maskinforsakring: skador pa motor och kraftoverforing i hela 12 ar eller 8 000 mil.\n\n10% rabatt for dig som ar medlem i SMC (Sveriges Motorcyklister).\n\n30% rabatt pa Detecht Premium: krachdetektering, rullgrusvarningar och SOS-funktion direkt i mobilen.\n\nSe ditt pris pa svedea.se/mc-forsakring",
+    "description": "Sveriges mest sålda mc-försäkring. Över 130 000 nöjda hojägare. Marknadens längsta maskinförsäkring och 10% SMC-rabatt.",
+    "descriptionFull": "Svedea är Sveriges största mc-försäkring. Idag väljer 40% av landets motorcykelägare att försäkra sin hoj hos Svedea.\n\nÖver 130 000 nöjda kunder och betyg 4.9 av 5 baserat på 1 782 omdömen.\n\nMarknadens längsta maskinförsäkring: skador på motor och kraftöverföring i hela 12 år eller 8 000 mil.\n\n10% rabatt för dig som är medlem i SMC (Sveriges Motorcyklister).\n\n30% rabatt på Detecht Premium: krachdetektering, rullgrusvarningar och SOS-funktion direkt i mobilen.\n\nSe ditt pris på svedea.se/mc-försäkring",
     "backImage": "ads/svedea-mc-forsakring-back-2026.jpg",
     "frontImage": "ads/svedea-mc-forsakring-front-2026.jpg",
     "links": [
@@ -1422,14 +1422,14 @@ const EVENTS_DATA = {
   },
   {
     "id": "if-mc-forsakring-ad-2026",
-    "name": "If MC-forsakring",
+    "name": "If MC-försäkring",
     "date": "2026-01-01",
     "dateEnd": "2026-12-31",
     "location": "if.se/mc-forsakring",
     "type": "AD",
-    "organizer": "If Skadeforsakring",
-    "description": "Mc-forsakring fran If med fria mil, vagassistans dygnet runt och 10% SMC-rabatt. Manadsbetalning som hjalper mycket.",
-    "descriptionFull": "If ar ett av Nordens storsta forsakringsbolag och erbjuder mc-forsakring i tre nivaer: Trafik, Halv och Hel.\n\nFria mil: kor sa mycket du vill utan att priset paverkas.\n\nVagassistans dygnet runt: om nagot akut hander kan du ringa If, aven mitt i natten.\n\nLagre sjalvrisk med sparsandare: upp till 6 000 kr lagre sjalvrisk med godkand sparsandare.\n\nIngen garagkrav: hojen behover inte sta inlast i garage for att du ska fa ersattning vid stold.\n\n10% rabatt for SMC-medlemmar.\n\nManadsbetalning tillganglig sa du slipper betala allt pa en gang.\n\nBerakna ditt pris pa if.se/mc-forsakring",
+    "organizer": "If Skadeförsäkring",
+    "description": "MC-försäkring från If med fria mil, vägassistans dygnet runt och 10% SMC-rabatt. Månadsbetalning som hjälper mycket.",
+    "descriptionFull": "If är ett av Nordens största försäkringsbolag och erbjuder mc-försäkring i tre nivåer: Trafik, Halv och Hel.\n\nFria mil: kör så mycket du vill utan att priset påverkas.\n\nVägassistans dygnet runt: om något akut händer kan du ringa If, även mitt i natten.\n\nLägre självrisk med spårsändare: upp till 6 000 kr lägre självrisk med godkänd spårsändare.\n\nIngen garagkrav: hojen behöver inte stå inlåst i garage för att du ska få ersättning vid stöld.\n\n10% rabatt för SMC-medlemmar.\n\nMånadsbetalning tillgänglig så du slipper betala allt på en gång.\n\nBeräkna ditt pris på if.se/mc-försäkring",
     "backImage": "ads/if-mc-forsakring-back-2026.jpg",
     "frontImage": "ads/if-mc-forsakring-front-2026.jpg",
     "links": [
@@ -1451,8 +1451,8 @@ const EVENTS_DATA = {
     "location": "harley-davidson.com",
     "type": "AD",
     "organizer": "Harley-Davidson",
-    "description": "Upptack Harley-Davidson 2026 ars utbud. Nya modeller och klassiska favoriter. Besok harley-davidson.com for mer info.",
-    "descriptionFull": "Harley-Davidson 2026 ars modeller. Upptack hela utbudet av nya motorcyklar, fran klassiska cruisers till moderna touring-hojar. Besok din lokala aterforsaljare eller harley-davidson.com.",
+    "description": "Upptäck Harley-Davidson 2026 års utbud. Nya modeller och klassiska favoriter. Besök harley-davidson.com för mer info.",
+    "descriptionFull": "Harley-Davidson 2026 års modeller. Upptäck hela utbudet av nya motorcyklar, från klassiska cruisers till moderna touring-hojar. Besök din lokala återförsäljare eller harley-davidson.com.",
     "frontImage": "ads/hd-2026-utbudet-2026-04.jpg",
     "backImage": "ads/hd-2026-utbudet-2026-04.jpg",
     "links": [{ "label": "harley-davidson.com", "url": "https://www.harley-davidson.com/" }],
@@ -1469,8 +1469,8 @@ const EVENTS_DATA = {
     "location": "bsacompany.co.uk",
     "type": "AD",
     "organizer": "BSA Motorcycles",
-    "description": "BSA ar tillbaka i Sverige med tre modeller 2026: Gold Star 650, Scrambler 650 och nya Bantam 350. Klassiskt brittiskt arv i modern form.",
-    "descriptionFull": "BSA Motorcycles 2026 - tre modeller i Sverige:\n\nGold Star 650 - 652cc DOHC-motor, 45 hk. Klassisk stil med modern teknik. Fem vaxlar, over 70 mpg.\n\nScrambler 650 - Samma kraftfulla 652cc-motor i en aventyrlig forpackning. Finns i gult, gratt och svart.\n\nBantam 350 - Helt ny! Vatskekyld 344cc encylindrig motor, 29 hk. Latt och smidig for stadskoring. Tre farger: Black UJ, Grey & White, Red & Grey.\n\nBSA grundades 1861 i Birmingham och ar ett av motorcykelhistoriens mest ikoniska marken. Nu tillbaka med modernt utbud for europeiska forare.",
+    "description": "BSA är tillbaka i Sverige med tre modeller 2026: Gold Star 650, Scrambler 650 och nya Bantam 350. Klassiskt brittiskt arv i modern form.",
+    "descriptionFull": "BSA Motorcycles 2026 - tre modeller i Sverige:\n\nGold Star 650 - 652cc DOHC-motor, 45 hk. Klassisk stil med modern teknik. Fem växlar, över 70 mpg.\n\nScrambler 650 - Samma kraftfulla 652cc-motor i en äventyrlig förpackning. Finns i gult, grått och svart.\n\nBantam 350 - Helt ny! Vätskekyld 344cc encylindrig motor, 29 hk. Lätt och smidig för stadskörning. Tre färger: Black UJ, Grey & White, Red & Grey.\n\nBSA grundades 1861 i Birmingham och är ett av motorcykelhistoriens mest ikoniska märken. Nu tillbaka med modernt utbud för europeiska förare.",
     "frontImage": "ads/bsa-scrambler-2026-08-06.jpg",
     "backImage": "ads/bsa-scrambler-2026-08-06.jpg",
     "links": [{ "label": "bsacompany.co.uk", "url": "https://www.bsacompany.co.uk/" }],
@@ -1487,8 +1487,8 @@ const EVENTS_DATA = {
     "location": "Sulas MC, Säva 17, Uppsala",
     "type": "Fest",
     "organizer": "BSA Sverige AB",
-    "description": "BSA finns nu hos Sulas MC i Uppsala. Provkor Gold Star 650, Scrambler 650 och nya Bantam 350 pa plats.",
-    "descriptionFull": "BSA grundades 1861 i Birmingham och var ett av varldens storsta motorcykelmarken. Produktionen upphorde 1973 men 2021 gjorde BSA en efterlangtad comeback.\n\nNya BSA-modeller finns nu hos Sulas MC i Uppsala:\n\nGold Star 650 - 652cc, 45 hk. Klassisk stil.\nScrambler 650 - Aventyrlig, finns i gult, gratt och svart.\nBantam 350 - Helt ny! 344cc, 29 hk. Latt stadshoj.\n\nBesok bsasverige.se eller Sulas MC for provkorning.",
+    "description": "BSA finns nu hos Sulas MC i Uppsala. Provkör Gold Star 650, Scrambler 650 och nya Bantam 350 på plats.",
+    "descriptionFull": "BSA grundades 1861 i Birmingham och var ett av världens största motorcykelmärken. Produktionen upphörde 1973 men 2021 gjorde BSA en efterlängtad comeback.\n\nNya BSA-modeller finns nu hos Sulas MC i Uppsala:\n\nGold Star 650 - 652cc, 45 hk. Klassisk stil.\nScrambler 650 - Äventyrlig, finns i gult, grått och svart.\nBantam 350 - Helt ny! 344cc, 29 hk. Lätt stadshoj.\n\nBesök bsasverige.se eller Sulas MC för provkörning.",
     "frontImage": "ads/bsa-sulas-2026-04-18.jpg",
     "backImage": "ads/bsa-sulas-2026-04-18.jpg",
     "links": [
@@ -1507,8 +1507,8 @@ const EVENTS_DATA = {
     "location": "indianmotorcycle.com",
     "type": "AD",
     "organizer": "Indian Motorcycle",
-    "description": "Indian Motorcycle. Amerikanskt arv, modern prestanda. Upptack hela sortimentet pa indianmotorcycle.com.",
-    "descriptionFull": "Indian Motorcycle. Amerikanskt arv sedan 1901, modern prestanda och tidlos design. Upptack hela sortimentet av cruisers, baggers och touring-hojar pa indianmotorcycle.com.",
+    "description": "Indian Motorcycle. Amerikanskt arv, modern prestanda. Upptäck hela sortimentet på indianmotorcycle.com.",
+    "descriptionFull": "Indian Motorcycle. Amerikanskt arv sedan 1901, modern prestanda och tidlös design. Upptäck hela sortimentet av cruisers, baggers och touring-hojar på indianmotorcycle.com.",
     "frontImage": "ads/indian-motorcycle-2026.jpg",
     "backImage": "ads/indian-motorcycle-2026.jpg",
     "links": [{ "label": "indianmotorcycle.com", "url": "https://www.indianmotorcycle.com/sv-se/" }],
@@ -1526,7 +1526,7 @@ const EVENTS_DATA = {
     "type": "AD",
     "organizer": "DWR Uppsala",
     "description": "DWR V-Twin Motorcycle Workshop i Uppsala. Service, reparation och customizing av V-Twin motorcyklar.",
-    "descriptionFull": "DWR V-Twin Motorcycle Workshop i Uppsala. Specialiserade pa service, reparation och customizing av V-Twin motorcyklar. Kontakta oss for mer info.",
+    "descriptionFull": "DWR V-Twin Motorcycle Workshop i Uppsala. Specialiserade på service, reparation och customizing av V-Twin motorcyklar. Kontakta oss för mer info.",
     "frontImage": "ads/dwr-uppsala-2026.jpg",
     "backImage": "ads/dwr-uppsala-2026.jpg",
     "links": [{ "label": "Facebook", "url": "https://www.facebook.com/dwruppsala" }],
@@ -1547,7 +1547,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lod-onsdagsfika-soldathemmet-skovde-2/2026-04-01/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Soldathemmet Skövde, Skövde.",
+    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Soldathemmet Skövde, Skövde.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1597,7 +1597,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-04-02/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1622,7 +1622,7 @@ const EVENTS_DATA = {
     "link": "https://www.elmia.se/",
     "region": "Jönköping",
     "source": "elmia.se",
-    "descriptionFull": "Custom Motor Show arrangeras av Elmia.\n\nCustom Motor Show med fokus på specialbyggda bilar och motorcyklar. Utställare, tävlingar och livemusik.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Elmia, Jönköping.",
+    "descriptionFull": "Custom Motor Show arrangeras av Elmia.\n\nCustom Motor Show med fokus på specialbyggda bilar och motorcyklar. Utställare, tävlingar och livemusik.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Elmia, Jönköping.",
     "links": [
       {
         "label": "elmia.se",
@@ -1647,7 +1647,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-pubkvall-goteborg/2026-04-03/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Pubkväll, Göteborg arrangeras av H-DCS.\n\nPubkväll med H-DCS i The Golden Days, Södra Hamngatan 31, 411 14 Göteborg, Sverige. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: The Golden Days, Södra Hamngatan 31, Göteborg.",
+    "descriptionFull": "DO-C Pubkväll, Göteborg arrangeras av H-DCS.\n\nPubkväll med H-DCS i The Golden Days, Södra Hamngatan 31, 411 14 Göteborg, Sverige. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: The Golden Days, Södra Hamngatan 31, Göteborg.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1672,7 +1672,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-04/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Biltema, Haninge.",
+    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1697,7 +1697,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-04-04/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1748,7 +1748,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/hakan-w-pask-rundan/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "Påsk rundan med Håkan Warnemyr 5/4 arrangeras av H-DCS.\n\nPåsk rundan 5/4 Även i år tar Håkan Warnemyr ut oss på en härlig runda.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Staffanstorp.",
+    "descriptionFull": "Påsk rundan med Håkan Warnemyr 5/4 arrangeras av H-DCS.\n\nPåsk rundan 5/4 Även i år tar Håkan Warnemyr ut oss på en härlig runda.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Staffanstorp.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1773,7 +1773,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/annandagsturen/",
     "region": "Västra Götaland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Annandagsturen arrangeras av BMW MC-klubben.\n\nGemensam körning från Småland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Småland.",
+    "descriptionFull": "Annandagsturen arrangeras av BMW MC-klubben.\n\nGemensam körning från Småland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Småland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -1798,7 +1798,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-04-07/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1812,7 +1812,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-04-07",
     "dateEnd": "2026-04-07",
@@ -1820,14 +1820,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-04-07/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-04-07/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-04-07/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-04-07/"
       },
       {
         "label": "Karta",
@@ -1848,7 +1848,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lod-onsdagsfika-soldathemmet-skovde-2/2026-04-08/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Soldathemmet Skövde, Skövde.",
+    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Soldathemmet Skövde, Skövde.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1873,7 +1873,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/klubbafton-hos-handelsboden/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Klubbafton hos Handelsboden arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Vigfastgatan 6, 582 78 Linköping, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Vigfastgatan 6, Linköping.",
+    "descriptionFull": "Klubbafton hos Handelsboden arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Vigfastgatan 6, 582 78 Linköping, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Vigfastgatan 6, Linköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -1898,7 +1898,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-mcq-bodoils-tur-med-drejning-och-spa/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 MCQ Bodils tur med drejning och spa arrangeras av BMW MC-klubben.\n\nKörning med D15 från Vemmentorp 520, 286 92 Örkelljunga, Sweden. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vemmentorp 520, Örkelljunga, Sweden.",
+    "descriptionFull": "D15 MCQ Bodils tur med drejning och spa arrangeras av BMW MC-klubben.\n\nKörning med D15 från Vemmentorp 520, 286 92 Örkelljunga, Sweden. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vemmentorp 520, Örkelljunga, Sweden.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -1923,7 +1923,7 @@ const EVENTS_DATA = {
     "link": "https://www.svmc.se/",
     "region": "Stockholm",
     "source": "svmc.se",
-    "descriptionFull": "Säsongsöppning SMC Stockholm arrangeras av SMC Stockholm.\n\nVälkommen på säsongsöppning! Gemensam utfärd och fika för att fira att mc-säsongen är igång.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stockholm.",
+    "descriptionFull": "Säsongsöppning SMC Stockholm arrangeras av SMC Stockholm.\n\nVälkommen på säsongsöppning! Gemensam utfärd och fika för att fira att mc-säsongen är igång.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "svmc.se",
@@ -1948,7 +1948,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-i-falun-3/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG - Fikaträff i Falun arrangeras av H-DCS.\n\nTräffpunkt för DOG i Falun. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Focus, Falun.",
+    "descriptionFull": "DOG - Fikaträff i Falun arrangeras av H-DCS.\n\nTräffpunkt för DOG i Falun. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Focus, Falun.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1973,7 +1973,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-11/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Biltema, Haninge.",
+    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
     "links": [
       {
         "label": "hdcs.se",
@@ -1998,7 +1998,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-pubkvall-ekero-4/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Pubkväll Ekerö arrangeras av H-DCS.\n\nPubkväll på Lilla Venedig, Mälarö torg, Ekerö C För er som inte bor på någon av öarna tar ni er hit med SL-kort via.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Lilla Venedig, Mälarö torg 9, Ekerö.",
+    "descriptionFull": "DOA - Pubkväll Ekerö arrangeras av H-DCS.\n\nPubkväll på Lilla Venedig, Mälarö torg, Ekerö C För er som inte bor på någon av öarna tar ni er hit med SL-kort via.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Lilla Venedig, Mälarö torg 9, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2023,7 +2023,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-hojslapp-2026/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Hojsläpp 2026 arrangeras av BMW MC-klubben.\n\nDå var det äntligen dags att starta upp årets mc säsong med årets Hojsläpp i D11. Välkommen!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Korrö, Linneryd.",
+    "descriptionFull": "D11 Hojsläpp 2026 arrangeras av BMW MC-klubben.\n\nDå var det äntligen dags att starta upp årets mc säsong med årets Hojsläpp i D11. Välkommen!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Korrö, Linneryd.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -2048,7 +2048,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d10-grusslappet-2026/",
     "region": "Västra Götaland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D10 Grussläppet 2026 arrangeras av BMW MC-klubben.\n\nGrustour med D10. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: R40 Dalsjöfors Pendelparkering, Borås.",
+    "descriptionFull": "D10 Grussläppet 2026 arrangeras av BMW MC-klubben.\n\nGrustour med D10. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: R40 Dalsjöfors Pendelparkering, Borås.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -2073,7 +2073,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-mcq-bubbel-babbel-2026/",
     "region": "Blekinge",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 mcQ Brudar, Bågar, Bubbel & Babbel 2026 arrangeras av BMW MC-klubben.\n\nEfter hojsläpp kör mcQ gemensamt mot Karlskrona/Lyckeby att att fortsätta dagen med champagneprovning.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Gamla Slottsvägen 1b, Lyckeby.",
+    "descriptionFull": "D11 mcQ Brudar, Bågar, Bubbel & Babbel 2026 arrangeras av BMW MC-klubben.\n\nEfter hojsläpp kör mcQ gemensamt mot Karlskrona/Lyckeby att att fortsätta dagen med champagneprovning.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gamla Slottsvägen 1b, Lyckeby.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -2098,7 +2098,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-sondagsvandring-3/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Söndagsvandring Gyllebosjön Runt arrangeras av BMW MC-klubben.\n\nSöndagsvandring runt Gyllebosjön, Österlens största sjö. Vandring genom vitsippor och ramslök med grillning efteråt.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Gyllebosjöns Badplats, Simrishamn.",
+    "descriptionFull": "D15 Söndagsvandring Gyllebosjön Runt arrangeras av BMW MC-klubben.\n\nSöndagsvandring runt Gyllebosjön, Österlens största sjö. Vandring genom vitsippor och ramslök med grillning efteråt.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gyllebosjöns Badplats, Simrishamn.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -2123,7 +2123,7 @@ const EVENTS_DATA = {
     "link": "https://gwcs.se/events/sormlandswingarnas-medlemsmote-2/?occurrence=2026-04-12",
     "region": "Södermanland",
     "source": "gwcs.se",
-    "descriptionFull": "Sormlandswingarnas Medlemsmote arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sigridslunds Cafe, Ardala.",
+    "descriptionFull": "Sormlandswingarnas Medlemsmote arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
     "links": [
       {
         "label": "gwcs.se",
@@ -2148,7 +2148,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-04-14/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2162,7 +2162,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-04-14",
     "dateEnd": "2026-04-14",
@@ -2170,14 +2170,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-04-14/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-04-14/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-04-14/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-04-14/"
       },
       {
         "label": "Karta",
@@ -2198,7 +2198,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lod-onsdagsfika-soldathemmet-skovde-2/2026-04-15/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Soldathemmet Skövde, Skövde.",
+    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Soldathemmet Skövde, Skövde.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2223,7 +2223,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-onsdagstur-med-blandat-underlag/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Onsdagstur med blandat underlag arrangeras av BMW MC-klubben.\n\nOnsdagstur med D15 på blandade vägar. Samling enligt schema. Se bmwklubben.se för tider och plats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ringsjövägen 40, Hörby.",
+    "descriptionFull": "D15 Onsdagstur med blandat underlag arrangeras av BMW MC-klubben.\n\nOnsdagstur med D15 på blandade vägar. Samling enligt schema. Se bmwklubben.se för tider och plats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ringsjövägen 40, Hörby.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -2248,7 +2248,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-04-16/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2273,7 +2273,7 @@ const EVENTS_DATA = {
     "link": "https://www.backroads.eu/adv-motorcycle-expo/",
     "region": "Stockholm",
     "source": "advmotorcycleexpo.com",
-    "descriptionFull": "ADV Motorcycle Expo 2026 arrangeras av Backroads AB / ADV Expo.\n\nNordens största mässa för äventyrsmotorcyklister. Utställare, föreläsningar och provkörningar.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Upplands Väsby.",
+    "descriptionFull": "ADV Motorcycle Expo 2026 arrangeras av Backroads AB / ADV Expo.\n\nNordens största mässa för äventyrsmotorcyklister. Utställare, föreläsningar och provkörningar.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Upplands Väsby.",
     "links": [
       {
         "label": "backroads.eu",
@@ -2298,7 +2298,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-avrostning/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Avrostning arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Avrostning arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2323,7 +2323,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-18/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Biltema, Haninge.",
+    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2348,7 +2348,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-04-18/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2373,7 +2373,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/medlemsmote-i-distrikt-f-med-quiz-och-bowling/",
     "region": "Gotland",
     "source": "hdcs.se",
-    "descriptionFull": "Medlemsmöte i distrikt F med Quiz och Bowling arrangeras av H-DCS.\n\nEfter några ändringar av dag så är det bestämt att NU KÖR VI!Närmare bestämt lördag 18/4 på Main Event i Lindesberg.Vi samlas ca 16.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Main Event Lindesberg, Lindesberg.",
+    "descriptionFull": "Medlemsmöte i distrikt F med Quiz och Bowling arrangeras av H-DCS.\n\nEfter några ändringar av dag så är det bestämt att NU KÖR VI!Närmare bestämt lördag 18/4 på Main Event i Lindesberg.Vi samlas ca 16.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Main Event Lindesberg, Lindesberg.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2398,7 +2398,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/pubkvall-pa-hamlet-i-linkoping-5/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "Pubkväll på Hamlet i Linköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Hamlet, Storgatan 37, Linköping.",
+    "descriptionFull": "Pubkväll på Hamlet i Linköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hamlet, Storgatan 37, Linköping.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2423,7 +2423,7 @@ const EVENTS_DATA = {
     "link": "https://sulas.se/",
     "region": "Uppsala",
     "source": "sulas.se",
-    "descriptionFull": "Sulas MC Stor Invigning arrangeras av Sulas MC.\n\nStor invigning av Sulas MC:s nya butik och showroom. Visning av nya modeller från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-16.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
+    "descriptionFull": "Sulas MC Stor Invigning arrangeras av Sulas MC.\n\nStor invigning av Sulas MC:s nya butik och showroom. Visning av nya modeller från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-16.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
     "backImage": "ads/sulas-mc-invigning-back-2026-04-18.jpg",
     "links": [
       {
@@ -2449,7 +2449,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-avrostning/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Kul på Hjul 2026 - Avrostning arrangeras av BMW MC-klubben.\n\nAvrostningstur med D15. Säsongen drar igång med gemensam körning. Samling enligt schema på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nötesjövägen 293-12, Svedala.",
+    "descriptionFull": "D15 Kul på Hjul 2026 - Avrostning arrangeras av BMW MC-klubben.\n\nAvrostningstur med D15. Säsongen drar igång med gemensam körning. Samling enligt schema på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nötesjövägen 293-12, Svedala.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -2474,7 +2474,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d10-tur-till-ostersjon/",
     "region": "Västra Götaland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D10 Tur till Östersjön arrangeras av BMW MC-klubben.\n\nKörning med D10 från Lilla Kongahällavägen, 442 90 Kungälv, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Lilla Kongahällavägen, Kungälv.",
+    "descriptionFull": "D10 Tur till Östersjön arrangeras av BMW MC-klubben.\n\nKörning med D10 från Lilla Kongahällavägen, 442 90 Kungälv, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lilla Kongahällavägen, Kungälv.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -2488,7 +2488,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-04-20",
     "dateEnd": "2026-04-20",
@@ -2496,14 +2496,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-04-20/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-04-20/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-04-20/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-04-20/"
       },
       {
         "label": "Karta",
@@ -2524,7 +2524,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-04-21/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2538,7 +2538,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-04-21",
     "dateEnd": "2026-04-21",
@@ -2546,14 +2546,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-04-21/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-04-21/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-04-21/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-04-21/"
       },
       {
         "label": "Karta",
@@ -2563,7 +2563,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-04-21",
     "dateEnd": "2026-04-21",
@@ -2571,14 +2571,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-04-21/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-04-21/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-04-21/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-04-21/"
       },
       {
         "label": "Karta",
@@ -2588,7 +2588,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-04-22",
     "dateEnd": "2026-04-22",
@@ -2596,14 +2596,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-04-22/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-04-22/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-04-22/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-04-22/"
       },
       {
         "label": "Karta",
@@ -2613,7 +2613,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-osmo-udda-veckor-2026",
+    "id": "doa-kvallskörning-osmo-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ösmo, udda veckor",
     "date": "2026-04-22",
     "dateEnd": "2026-04-22",
@@ -2621,14 +2621,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-04-22/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-04-22/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
+    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-04-22/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-04-22/"
       },
       {
         "label": "Karta",
@@ -2649,7 +2649,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lod-onsdagsfika-soldathemmet-skovde-2/2026-04-22/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Soldathemmet Skövde, Skövde.",
+    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Soldathemmet Skövde, Skövde.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2663,7 +2663,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-04-22",
     "dateEnd": "2026-04-22",
@@ -2671,14 +2671,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-04-22/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-04-22/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-04-22/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-04-22/"
       },
       {
         "label": "Karta",
@@ -2699,7 +2699,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-04-23/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2713,7 +2713,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-04-23",
     "dateEnd": "2026-04-23",
@@ -2721,14 +2721,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-04-23/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-04-23/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-04-23/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-04-23/"
       },
       {
         "label": "Karta",
@@ -2738,7 +2738,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-04-23",
     "dateEnd": "2026-04-23",
@@ -2746,14 +2746,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-04-23/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-04-23/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-04-23/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-04-23/"
       },
       {
         "label": "Karta",
@@ -2774,7 +2774,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/pubkvall-pa-cromwell-house-i-norrkoping-4/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "Pubkväll på Cromwell House i Norrköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Cromwell House, Kungsgatan 36, Norrköping.",
+    "descriptionFull": "Pubkväll på Cromwell House i Norrköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Cromwell House, Kungsgatan 36, Norrköping.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2825,7 +2825,7 @@ const EVENTS_DATA = {
     "link": "https://mc-collection.com/kalender/",
     "region": "Västmanland",
     "source": "mc-collection.com",
-    "descriptionFull": "MC Collection Säsongsöppning arrangeras av MC Collection.\n\nSäsongsöppning av MC Collection museum vid Tidö Slott. Över 100 motorcyklar, utställningar och kafé.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Tidö Slott, Västerås.",
+    "descriptionFull": "MC Collection Säsongsöppning arrangeras av MC Collection.\n\nSäsongsöppning av MC Collection museum vid Tidö Slott. Över 100 motorcyklar, utställningar och kafé.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Tidö Slott, Västerås.",
     "links": [
       {
         "label": "mc-collection.com",
@@ -2850,7 +2850,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-25/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Biltema, Haninge.",
+    "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2875,7 +2875,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/tranrikerundan/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Tranrikerundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Småland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "Tranrikerundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Småland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2900,7 +2900,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-medlemsmote-25-26-april/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Medlemsmöte 25-26 april arrangeras av H-DCS.\n\nMedlemsmöte på Asa vandrarhem 25 - 26 april 2026 Välkomna till vårens medlemsmöte på Asa Vandrarhem som ligger ca 15 km öster om Lammhult.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "DOE Medlemsmöte 25-26 april arrangeras av H-DCS.\n\nMedlemsmöte på Asa vandrarhem 25 - 26 april 2026 Välkomna till vårens medlemsmöte på Asa Vandrarhem som ligger ca 15 km öster om Lammhult.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2925,7 +2925,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-pubkvall-stockholm/2026-04-25/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Pubkväll Stockholm arrangeras av H-DCS.\n\nPubkväll med H-DCS DOA i Pub Anchor, Stockholm. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Pub Anchor, Stockholm.",
+    "descriptionFull": "DOA - Pubkväll Stockholm arrangeras av H-DCS.\n\nPubkväll med H-DCS DOA i Pub Anchor, Stockholm. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Pub Anchor, Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2950,7 +2950,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/sportbaren-awee-adelsgatan/",
     "region": "Gotland",
     "source": "hdcs.se",
-    "descriptionFull": "Sportbaren Awee adelsgatan arrangeras av H-DCS.\n\nSportbararen Awee Adelsgatan, ej klart vad det blir, men någon aktivitet med efterföljande mat eller nåt.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Adelsgatan 18, Visby.",
+    "descriptionFull": "Sportbaren Awee adelsgatan arrangeras av H-DCS.\n\nSportbararen Awee Adelsgatan, ej klart vad det blir, men någon aktivitet med efterföljande mat eller nåt.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Adelsgatan 18, Visby.",
     "links": [
       {
         "label": "hdcs.se",
@@ -2975,7 +2975,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lob-morten-kofod-pub-kvall-i-markaryd/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "LOB- Morten Kofod PUB kväll i Markaryd arrangeras av H-DCS.\n\nDå har vi tänkt lägga en PUB kväll för er medlemmar i Markaryd området. Givetvis är alla välkomna. Det är vårt LO Morten som ordnar denna.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Markaryd.",
+    "descriptionFull": "LOB- Morten Kofod PUB kväll i Markaryd arrangeras av H-DCS.\n\nDå har vi tänkt lägga en PUB kväll för er medlemmar i Markaryd området. Givetvis är alla välkomna. Det är vårt LO Morten som ordnar denna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Markaryd.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3000,7 +3000,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/classic-veteranmarknad/",
     "region": "Uppsala",
     "source": "bmwklubben.se",
-    "descriptionFull": "Classic Veteranmarknad arrangeras av BMW MC-klubben.\n\nGemensam körning från Sparrsätra Lådö 16, 745 95 Enköping, Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Sparrsätra Lådö 16, Enköping.",
+    "descriptionFull": "Classic Veteranmarknad arrangeras av BMW MC-klubben.\n\nGemensam körning från Sparrsätra Lådö 16, 745 95 Enköping, Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Sparrsätra Lådö 16, Enköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3025,7 +3025,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d7-klubbknix-pa-gtr-motorpark/",
     "region": "Västmanland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D7 KlubbKnix på GTR Motorpark arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D7 från Tommy Janssons väg 17, 635 11 Eskilstuna, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Tommy Janssons väg 17, Eskilstuna.",
+    "descriptionFull": "D7 KlubbKnix på GTR Motorpark arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D7 från Tommy Janssons väg 17, 635 11 Eskilstuna, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Tommy Janssons väg 17, Eskilstuna.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3050,7 +3050,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-kul-pa-hjul/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Kul På Hjul 2026 - Avrostning med SMC arrangeras av BMW MC-klubben.\n\nAvrostningstur med D11. Säsongen drar igång med gemensam körning. Samling enligt schema på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "D11 Kul På Hjul 2026 - Avrostning med SMC arrangeras av BMW MC-klubben.\n\nAvrostningstur med D11. Säsongen drar igång med gemensam körning. Samling enligt schema på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3075,7 +3075,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/dagtouring/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -3100,7 +3100,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d9-aprilgruset/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D9 Aprilgruset arrangeras av BMW MC-klubben.\n\nVälkommen till den femte upplagan av april-/majgruset, en heldag på grus söderut från Linköping.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Låskolvsgatan 1, Linköping.",
+    "descriptionFull": "D9 Aprilgruset arrangeras av BMW MC-klubben.\n\nVälkommen till den femte upplagan av april-/majgruset, en heldag på grus söderut från Linköping.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Låskolvsgatan 1, Linköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3125,7 +3125,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d9-valkomst-tur-nya-medlemmar/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D9 Välkomst-tur nya medlemmar arrangeras av BMW MC-klubben.\n\nDen här aktiviteten riktar sig främst till dig som är ny medlem eller aldrig varit med på en aktivitet.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Låskolvsgatan 1, Linköping.",
+    "descriptionFull": "D9 Välkomst-tur nya medlemmar arrangeras av BMW MC-klubben.\n\nDen här aktiviteten riktar sig främst till dig som är ny medlem eller aldrig varit med på en aktivitet.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Låskolvsgatan 1, Linköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3139,7 +3139,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-04-27",
     "dateEnd": "2026-04-27",
@@ -3147,14 +3147,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-04-27/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-04-27/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-04-27/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-04-27/"
       },
       {
         "label": "Karta",
@@ -3175,7 +3175,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-04-28/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3189,7 +3189,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-04-28",
     "dateEnd": "2026-04-28",
@@ -3197,14 +3197,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-04-28/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-04-28/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-04-28/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-04-28/"
       },
       {
         "label": "Karta",
@@ -3214,7 +3214,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, jämna veckor",
     "date": "2026-04-28",
     "dateEnd": "2026-04-28",
@@ -3222,14 +3222,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-04-28/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-04-28/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-04-28/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-04-28/"
       },
       {
         "label": "Karta",
@@ -3239,7 +3239,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-04-29",
     "dateEnd": "2026-04-29",
@@ -3247,14 +3247,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-04-29/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-04-29/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-04-29/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-04-29/"
       },
       {
         "label": "Karta",
@@ -3275,7 +3275,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lod-onsdagsfika-soldathemmet-skovde-2/2026-04-29/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Soldathemmet Skövde, Skövde.",
+    "descriptionFull": "LoD Onsdagsfika Soldathemmet Skövde arrangeras av H-DCS.\n\nTräffpunkt för LoD i Soldathemmet Skövde, Skövde. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Soldathemmet Skövde, Skövde.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3289,7 +3289,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-04-29",
     "dateEnd": "2026-04-29",
@@ -3297,14 +3297,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-04-29/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-04-29/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-04-29/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-04-29/"
       },
       {
         "label": "Karta",
@@ -3325,7 +3325,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-04-30/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3339,7 +3339,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-04-30",
     "dateEnd": "2026-04-30",
@@ -3347,14 +3347,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-04-30/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-04-30/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-04-30/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-04-30/"
       },
       {
         "label": "Karta",
@@ -3364,7 +3364,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-04-30",
     "dateEnd": "2026-04-30",
@@ -3372,14 +3372,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-04-30/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-04-30/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-04-30/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-04-30/"
       },
       {
         "label": "Karta",
@@ -3400,7 +3400,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-04-30/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3425,7 +3425,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-majbrasa/2026-04-30/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Majbrasa arrangeras av H-DCS.\n\nVi firar Valborgsmässoafton med en en stor brasa på sågen i Tavelsjö. Om allt går enligt planerna tuttar vi på majbrasan klockan 19.00.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sawmill MC Tavelsjö, Tavelsjö.",
+    "descriptionFull": "DOH-Majbrasa arrangeras av H-DCS.\n\nVi firar Valborgsmässoafton med en en stor brasa på sågen i Tavelsjö. Om allt går enligt planerna tuttar vi på majbrasan klockan 19.00.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sawmill MC Tavelsjö, Tavelsjö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3440,14 +3440,14 @@ const EVENTS_DATA = {
   },
   {
     "id": "balders-hage-bil-mc-cafe-2026",
-    "name": "Bil & MC Cafe - Sasongspremiar",
+    "name": "Bil & MC Café - Säsongspremiär",
     "date": "2026-04-30",
     "dateEnd": "2026-04-30",
     "location": "Balders Hage Noje, Haradsback",
     "type": "Träff",
     "organizer": "Balders Hage Noje",
-    "description": "Populart bil- och MC-cafe pa Valborgsmassooafton! Buffe fran 17:00. Sedan varannan vecka hela sommaren.",
-    "descriptionFull": "Bil & MC Cafe pa Balders Hage i Haradsback arrangeras av Balders Hage Noje.\n\nBalders Hages kvallat med Bil- och Motorcykelcafe har blivit otroligt populart sedan starten for ca 5 ar sedan! Med gemytlig stamning samlas manniskor varannan vecka fran april till september for att ata, prata, umgas och titta pa fordon av olika slag.\n\nSasongspremiar Valborgsmassooafton 30 april kl 17:00.\n\nBuffe fran 17:00:\n- Timjan & vitloksmarinerad flaskkarree, potatisgratang, Bearnaise, sallad, kaffe/te - 135 kr (barn under 12 ar - 65 kr)\n- Tva stekta, mos, lingon, sallad - 95 kr\n- Tre pannkakor gradde & sylt - 65 kr\n- Ostkaka, gradde & sylt - 65 kr\n\nOvriga datum 2026: 14/5, 28/5, 4/6, 25/6, 9/7, 23/7, 6/8, 20/8, 3/9, 17/9.\n\nPlats: Balders Hage Noje, Linvagen 3, 343 92 Haradsback.",
+    "description": "Populart bil- och MC-cafe på Valborgsmassooafton! Buffe från 17:00. Sedan varannan vecka hela sommaren.",
+    "descriptionFull": "Bil & MC Café på Balders Hage i Häradsbäck arrangeras av Balders Hage Nöje.\n\nBalders Hages kvällar med Bil- och Motorcykelcafé har blivit otroligt populärt sedan starten för ca 5 år sedan! Med gemytlig stämning samlas människor varannan vecka från april till september för att äta, prata, umgås och titta på fordon av olika slag.\n\nSäsongspremiär Valborgsmässoafton 30 april kl 17:00.\n\nBuffé från 17:00:\n- Timjan & vitlöksmarinerad fläskkarré, potatisgratäng, Béarnaise, sallad, kaffe/te - 135 kr (barn under 12 år - 65 kr)\n- Två stekta, mos, lingon, sallad - 95 kr\n- Tre pannkakor grädde & sylt - 65 kr\n- Ostkaka, grädde & sylt - 65 kr\n\nÖvriga datum 2026: 14/5, 28/5, 4/6, 25/6, 9/7, 23/7, 6/8, 20/8, 3/9, 17/9.\n\nPlats: Balders Hage Nöje, Linvägen 3, 343 92 Häradsbäck.",
     "backImage": "ads/balders-hage-bil-mc-cafe-back-2026-04-30.jpg",
     "links": [
       {
@@ -3477,7 +3477,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dkb-mt-rally-mot-prostatacancer/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DKB- MT-Rally mot Prostatacancer arrangeras av H-DCS.\n\nArrangemang med H-DCS DKB från Blekinge. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Blekinge.",
+    "descriptionFull": "DKB- MT-Rally mot Prostatacancer arrangeras av H-DCS.\n\nArrangemang med H-DCS DKB från Blekinge. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Blekinge.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3491,7 +3491,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "do-c-forsta-maj-korning-2026",
+    "id": "do-c-forsta-maj-körning-2026",
     "name": "DO-C Första maj körning",
     "date": "2026-05-01",
     "dateEnd": "2026-05-01",
@@ -3499,14 +3499,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Körtur med H-DCS från Halland/VGötaland. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.",
-    "link": "https://hdcs.se/evenemang/do-c-forsta-maj-korning/",
+    "link": "https://hdcs.se/evenemang/do-c-forsta-maj-körning/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Första maj körning arrangeras av H-DCS.\n\nKörtur med H-DCS från Halland/VGötaland. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Halland/VGötaland.",
+    "descriptionFull": "DO-C Första maj körning arrangeras av H-DCS.\n\nKörtur med H-DCS från Halland/VGötaland. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Halland/VGötaland.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/do-c-forsta-maj-korning/"
+        "url": "https://hdcs.se/evenemang/do-c-forsta-maj-körning/"
       },
       {
         "label": "Karta",
@@ -3523,11 +3523,11 @@ const EVENTS_DATA = {
     "location": "Hamar, Innlandet, Norge",
     "type": "Träff",
     "organizer": "BMW MC-klubben",
-    "description": "Bli med og kjøre rundt Norges største innsjø. 1. mai 2026 vil den tradisjonelle Mjøsrunden gå for 54 gang.",
+    "description": "Bli med og kjøre rundt Norges største innsjø. 1. mai 2026 vil den tradisjonelle Mjøsrunden gå för 54 gang.",
     "link": "https://www.bmwklubben.se/aktiviteter/mjosa-rundt-1-mai/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "Mjøsa Rundt - 1. Mai arrangeras av BMW MC-klubben.\n\nBli med og kjøre rundt Norges største innsjø. 1. mai 2026 vil den tradisjonelle Mjøsrunden gå for 54 gang.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Hamar, Innlandet, Norge.",
+    "descriptionFull": "Mjøsa Rundt - 1. Mai arrangeras av BMW MC-klubben.\n\nBli med og kjøre rundt Norges største innsjø. 1. mai 2026 vil den tradisjonelle Mjøsrunden gå för 54 gang.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hamar, Innlandet, Norge.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3541,7 +3541,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "bmw-inkorningen-en-tur-for-nya-och-nyfikna-2026",
+    "id": "bmw-inkörningen-en-tur-for-nya-och-nyfikna-2026",
     "name": "Inkörningen - en tur för nya och nyfikna",
     "date": "2026-05-01",
     "dateEnd": "2026-05-01",
@@ -3552,7 +3552,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/tur-for-nya/",
     "region": "Halland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Inkörningen - en tur för nya och nyfikna arrangeras av BMW MC-klubben.\n\nNy i klubben eller nyfiken på körning i grupp? Då är detta turen där vi rullar igång tillsammans, i lugnt tempo och med fokus på trygg körning.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Norra Annebergsvägen, Kungsbacka.",
+    "descriptionFull": "Inkörningen - en tur för nya och nyfikna arrangeras av BMW MC-klubben.\n\nNy i klubben eller nyfiken på körning i grupp? Då är detta turen där vi rullar igång tillsammans, i lugnt tempo och med fokus på trygg körning.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Norra Annebergsvägen, Kungsbacka.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3577,7 +3577,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/oppet-hus-mc-massa-i-samarbete-med-omcc/",
     "region": "Västernorrland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Öppet hus/MC mässa i samarbete med ÖMCC arrangeras av BMW MC-klubben.\n\nGemensam körning från Viktoriaesplanaden 3e, 891 39 Örnsköldsvik, Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Viktoriaesplanaden 3e, Örnsköldsvik.",
+    "descriptionFull": "Öppet hus/MC mässa i samarbete med ÖMCC arrangeras av BMW MC-klubben.\n\nGemensam körning från Viktoriaesplanaden 3e, 891 39 Örnsköldsvik, Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Viktoriaesplanaden 3e, Örnsköldsvik.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3591,7 +3591,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-05-02",
     "dateEnd": "2026-05-02",
@@ -3599,14 +3599,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-02/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-02/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-02/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-02/"
       },
       {
         "label": "Karta",
@@ -3616,7 +3616,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-05-02",
     "dateEnd": "2026-05-02",
@@ -3624,14 +3624,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-02/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-02/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-02/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-02/"
       },
       {
         "label": "Karta",
@@ -3652,7 +3652,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-05-02/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3677,7 +3677,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-oskarshamnsgrus-norr/",
     "region": "Kalmar",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Oskarshamnsgrus Norr arrangeras av BMW MC-klubben.\n\nGrustour med D11. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Oskarshamn.",
+    "descriptionFull": "D11 Oskarshamnsgrus Norr arrangeras av BMW MC-klubben.\n\nGrustour med D11. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Oskarshamn.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3702,7 +3702,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d9-sormlandstur/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D9 Sörmlandstur arrangeras av BMW MC-klubben.\n\nKörning med D9 från Stavsjö Trafikplats 5, 618 95 Stavsjö, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stavsjö Trafikplats 5, Stavsjö.",
+    "descriptionFull": "D9 Sörmlandstur arrangeras av BMW MC-klubben.\n\nKörning med D9 från Stavsjö Trafikplats 5, 618 95 Stavsjö, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stavsjö Trafikplats 5, Stavsjö.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3727,7 +3727,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/varmonstring/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Vårmönstring arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "Vårmönstring arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3752,7 +3752,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-omberg-runt-2026/",
     "region": "Jönköping",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Omberg Runt 2026 arrangeras av BMW MC-klubben.\n\nVälkommen till Omberg Runt. Längs slingriga fina asfaltsvägar tar vi oss upp till Omberg.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Biltema, Nässjö.",
+    "descriptionFull": "D11 Omberg Runt 2026 arrangeras av BMW MC-klubben.\n\nVälkommen till Omberg Runt. Längs slingriga fina asfaltsvägar tar vi oss upp till Omberg.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Nässjö.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3777,7 +3777,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d14-test/",
     "region": "Gotland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D14-tur arrangeras av BMW MC-klubben.\n\nKörning med D14 från Björkallén 32, 313 33 Oskarström, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Björkallén 32, Oskarström.",
+    "descriptionFull": "D14-tur arrangeras av BMW MC-klubben.\n\nKörning med D14 från Björkallén 32, 313 33 Oskarström, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Björkallén 32, Oskarström.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -3791,7 +3791,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "sulas-mc-provkorning-2026",
+    "id": "sulas-mc-provkörning-2026",
     "name": "Sulas MC Provkörningshelg",
     "date": "2026-05-02",
     "dateEnd": "2026-05-03",
@@ -3799,14 +3799,14 @@ const EVENTS_DATA = {
     "type": "Fest",
     "organizer": "Sulas MC",
     "description": "Provkör demohojar från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-14, Sön 11-15.",
-    "link": "https://sulas.se/provkorning/",
+    "link": "https://sulas.se/provkörning/",
     "region": "Uppsala",
     "source": "sulas.se",
-    "descriptionFull": "Sulas MC Provkörningshelg arrangeras av Sulas MC.\n\nProvkör demohojar från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-14, Sön 11-15.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
+    "descriptionFull": "Sulas MC Provkörningshelg arrangeras av Sulas MC.\n\nProvkör demohojar från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-14, Sön 11-15.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
     "links": [
       {
         "label": "sulas.se",
-        "url": "https://sulas.se/provkorning/"
+        "url": "https://sulas.se/provkörning/"
       },
       {
         "label": "Karta",
@@ -3824,7 +3824,7 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "Hermans Hedningar LMCK",
     "description": "MC-rally med praktiska och teoretiska prov för både förare och passagerare. Start kl 10-12, mål vid MCK Röde Orms klubbstuga.",
-    "descriptionFull": "Hermans Hedningar LMCK och MCK Röde Orm arrangerar Gökrallyt 2026.\n\nStart från HermansHedningar Lmck, Vislandavägen, Ljungby. Starten är öppen lördag mellan kl 10.00-12.00. Möjlighet att köpa fika finns i starten.\n\nMC-rally med praktiska och teoretiska prov för både förare och passagerare. Fina priser!\n\nMål vid MCK Röde Orms klubbstuga där aktiviteterna fortsätter med prisutdelning. Försäljning av mat och dryck.\n\nStartavgift: 100 kr. Startavgiften skänkes till välgörande ändamål som är Våra barn.\n\nKontakt:\nJohanna: 0761887226\nJan: 0703561060\n\nPlats: Vislandavägen, Ljungby.",
+    "descriptionFull": "Hermans Hedningar LMCK och MCK Röde Orm arrangerar Gökrallyt 2026.\n\nStart från HermansHedningar Lmck, Vislandavägen, Ljungby. Starten är öppen lördag mellan kl 10.00-12.00. Möjlighet att köpå fika finns i starten.\n\nMC-rally med praktiska och teoretiska prov för både förare och passagerare. Fina priser!\n\nMål vid MCK Röde Orms klubbstuga där aktiviteterna fortsätter med prisutdelning. Försäljning av mat och dryck.\n\nStartavgift: 100 kr. Startavgiften skänkes till välgörande ändamål som är Våra barn.\n\nKontakt:\nJohanna: 0761887226\nJan: 0703561060\n\nPlats: Vislandavägen, Ljungby.",
     "backImage": "ads/gokrallyt-back-2026-05-02.jpg",
     "links": [
       {
@@ -3871,7 +3871,7 @@ const EVENTS_DATA = {
     "source": "thetwinclub.se"
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-05-04",
     "dateEnd": "2026-05-04",
@@ -3879,14 +3879,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-04/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-05-04/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-04/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-05-04/"
       },
       {
         "label": "Karta",
@@ -3907,7 +3907,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/knixpremiar-2/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "Knixpremiar arrangeras av SMC Uppsala.\n\nArrangemang med SMC i Rorken, Uppsala. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rorken, Uppsala.",
+    "descriptionFull": "Knixpremiar arrangeras av SMC Uppsala.\n\nArrangemang med SMC i Rorken, Uppsala. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rorken, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -3932,7 +3932,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-05-05/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -3946,7 +3946,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-05-05",
     "dateEnd": "2026-05-05",
@@ -3954,14 +3954,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-05-05/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-05-05/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-05-05/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-05-05/"
       },
       {
         "label": "Karta",
@@ -3971,7 +3971,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-05-05",
     "dateEnd": "2026-05-05",
@@ -3979,14 +3979,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-05-05/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-05-05/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-05-05/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-05-05/"
       },
       {
         "label": "Karta",
@@ -3996,7 +3996,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-05-06",
     "dateEnd": "2026-05-06",
@@ -4004,14 +4004,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-06/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-05-06/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-06/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-05-06/"
       },
       {
         "label": "Karta",
@@ -4021,7 +4021,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-osmo-udda-veckor-2026",
+    "id": "doa-kvallskörning-osmo-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ösmo, udda veckor",
     "date": "2026-05-06",
     "dateEnd": "2026-05-06",
@@ -4029,14 +4029,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-05-06/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-05-06/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
+    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-05-06/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-05-06/"
       },
       {
         "label": "Karta",
@@ -4046,7 +4046,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-05-06",
     "dateEnd": "2026-05-06",
@@ -4054,14 +4054,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-06/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-05-06/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-06/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-05-06/"
       },
       {
         "label": "Karta",
@@ -4082,7 +4082,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-onsdagstur-med-blandat-underlag-2/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Onsdagstur med blandat underlag arrangeras av BMW MC-klubben.\n\nOnsdagstur med D15 på blandade vägar. Samling enligt schema. Se bmwklubben.se för tider och plats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ringsjövägen 40, Hörby.",
+    "descriptionFull": "D15 Onsdagstur med blandat underlag arrangeras av BMW MC-klubben.\n\nOnsdagstur med D15 på blandade vägar. Samling enligt schema. Se bmwklubben.se för tider och plats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ringsjövägen 40, Hörby.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4107,7 +4107,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-07/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -4121,7 +4121,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-05-07",
     "dateEnd": "2026-05-07",
@@ -4129,14 +4129,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-07/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-05-07/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-07/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-05-07/"
       },
       {
         "label": "Karta",
@@ -4146,7 +4146,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-05-07",
     "dateEnd": "2026-05-07",
@@ -4154,14 +4154,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-07/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-05-07/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-07/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-05-07/"
       },
       {
         "label": "Karta",
@@ -4171,7 +4171,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-05-07",
     "dateEnd": "2026-05-07",
@@ -4179,14 +4179,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-05-07/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-05-07/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-05-07/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-05-07/"
       },
       {
         "label": "Karta",
@@ -4207,7 +4207,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/classic-traff-for-alla/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Classic-träff vid Flygvapenmuseet. arrangeras av BMW MC-klubben.\n\nTräffpunkt i Carl Cederströms gata 2, 586 63 Linköping, Sverige. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Carl Cederströms gata 2, Linköping.",
+    "descriptionFull": "Classic-träff vid Flygvapenmuseet. arrangeras av BMW MC-klubben.\n\nTräffpunkt i Carl Cederströms gata 2, 586 63 Linköping, Sverige. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Carl Cederströms gata 2, Linköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4232,7 +4232,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/179",
     "region": "Halland",
     "source": "mcparken.se",
-    "descriptionFull": "Roadracing SM - Falkenberg arrangeras av MotoSE / Svemo.\n\nSvensk roadracing SM. MotoSE blir navet för svensk roadracing med ny struktur och ambition.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Falkenberg.",
+    "descriptionFull": "Roadracing SM - Falkenberg arrangeras av MotoSE / Svemo.\n\nSvensk roadracing SM. MotoSE blir navet för svensk roadracing med ny struktur och ambition.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Falkenberg.",
     "links": [
       {
         "label": "mcparken.se",
@@ -4257,7 +4257,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-goes-to-spangens-gastgiveri/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Goes to Spångens Gästgiveri 2026 arrangeras av BMW MC-klubben.\n\nVälkommen på en helgtur till Spångens Gästgiveri (Skåne) - FULLBOKAD!D11 arrangerar en trevlig touringtur till klassiska Spångens Gästgiveri i Skåne. Missa inte detta! :-).\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Spångengatan 344, Ljungbyhed.",
+    "descriptionFull": "D11 Goes to Spångens Gästgiveri 2026 arrangeras av BMW MC-klubben.\n\nVälkommen på en helgtur till Spångens Gästgiveri (Skåne) - FULLBOKAD!D11 arrangerar en trevlig touringtur till klassiska Spångens Gästgiveri i Skåne. Missa inte detta! :-).\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Spångengatan 344, Ljungbyhed.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4282,7 +4282,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d10-tiveden-spring-tour-2026/",
     "region": "Örebro",
     "source": "bmwklubben.se",
-    "descriptionFull": "D10 Tiveden Spring Tour 2026 arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Askersund, Örebro län, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Askersund.",
+    "descriptionFull": "D10 Tiveden Spring Tour 2026 arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Askersund, Örebro län, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Askersund.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4307,7 +4307,7 @@ const EVENTS_DATA = {
     "link": "https://mc-collection.com/kalender/",
     "region": "Västmanland",
     "source": "mc-collection.com",
-    "descriptionFull": "MC Collection - Boklansering Ralf Arvidsson arrangeras av MC Collection.\n\nInvigning av MOTOCROSS & RACING-utställning. Ralf Arvidsson presenterar sin nya bok Svenska Fyrtakts-Motorcyklar.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Tidö Slott, Västerås.",
+    "descriptionFull": "MC Collection - Boklansering Ralf Arvidsson arrangeras av MC Collection.\n\nInvigning av MOTOCROSS & RACING-utställning. Ralf Arvidsson presenterar sin nya bok Svenska Fyrtakts-Motorcyklar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Tidö Slott, Västerås.",
     "links": [
       {
         "label": "mc-collection.com",
@@ -4332,7 +4332,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-poker-run/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Poker Run arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Stockholm. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Poker Run arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Stockholm. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -4357,7 +4357,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-gokart-hovmantorp-9-maj/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Gokart Hovmantorp 9 maj 2026 arrangeras av H-DCS.\n\nDOE Gokart 9 maj Hovmantorp 2026 Var: Växjö Hyrkart -Hagaslätt Adreass: Hagaslättsvägen 360 51 Hovmantorp https://maps.app.goo.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Hovmantorp.",
+    "descriptionFull": "DOE Gokart Hovmantorp 9 maj 2026 arrangeras av H-DCS.\n\nDOE Gokart 9 maj Hovmantorp 2026 Var: Växjö Hyrkart -Hagaslätt Adreass: Hagaslättsvägen 360 51 Hovmantorp https://maps.app.goo.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hovmantorp.",
     "links": [
       {
         "label": "hdcs.se",
@@ -4396,7 +4396,7 @@ const EVENTS_DATA = {
     "source": "svmc.se"
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-05-09",
     "dateEnd": "2026-05-09",
@@ -4404,14 +4404,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-09/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-09/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-09/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-09/"
       },
       {
         "label": "Karta",
@@ -4421,7 +4421,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-05-09",
     "dateEnd": "2026-05-09",
@@ -4429,14 +4429,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-09/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-09/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-09/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-09/"
       },
       {
         "label": "Karta",
@@ -4457,7 +4457,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/ride-out-medlemsmote/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "Ride-Out + Medlemsmöte arrangeras av H-DCS.\n\nRide-Out + Medlemsmöte 9 maj på Orsa Camping kl 13,00 Samlingsplats MC Dolnad Mora kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Mora.",
+    "descriptionFull": "Ride-Out + Medlemsmöte arrangeras av H-DCS.\n\nRide-Out + Medlemsmöte 9 maj på Orsa Camping kl 13,00 Samlingsplats MC Dolnad Mora kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Mora.",
     "links": [
       {
         "label": "hdcs.se",
@@ -4471,7 +4471,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "bmw-d14-forst-korningen-2026",
+    "id": "bmw-d14-forst-körningen-2026",
     "name": "D14-Först körningen",
     "date": "2026-05-09",
     "dateEnd": "2026-05-09",
@@ -4479,14 +4479,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "BMW MC-klubben",
     "description": "BMW D14 bjuder in till årets premiärtur. En lugn och trevlig start på säsongen med café och social samvaro.",
-    "link": "https://www.bmwklubben.se/aktiviteter/d14-forst-korningen/",
+    "link": "https://www.bmwklubben.se/aktiviteter/d14-forst-körningen/",
     "region": "Halland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D14-Först körningen arrangeras av BMW MC-klubben.\n\nBMW D14 bjuder in till årets premiärtur. En lugn och trevlig start på säsongen med café och social samvaro.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Halmstad.",
+    "descriptionFull": "D14-Först körningen arrangeras av BMW MC-klubben.\n\nBMW D14 bjuder in till årets premiärtur. En lugn och trevlig start på säsongen med café och social samvaro.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Halmstad.",
     "links": [
       {
         "label": "bmwklubben.se",
-        "url": "https://www.bmwklubben.se/aktiviteter/d14-forst-korningen/"
+        "url": "https://www.bmwklubben.se/aktiviteter/d14-forst-körningen/"
       },
       {
         "label": "Karta",
@@ -4507,7 +4507,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d7-gfa-grus-for-alla/",
     "region": "Stockholm",
     "source": "bmwklubben.se",
-    "descriptionFull": "D7 GFA - Grus för Alla arrangeras av BMW MC-klubben.\n\nGrustour med D7. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stockholm.",
+    "descriptionFull": "D7 GFA - Grus för Alla arrangeras av BMW MC-klubben.\n\nGrustour med D7. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4532,7 +4532,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/hjalmaren-runt-fran-orebro-en-svensk-mc-klassiker/",
     "region": "Örebro",
     "source": "bmwklubben.se",
-    "descriptionFull": "Hjälmaren Runt från Örebro - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nEn del av En svensk mc klassiker. Idag runt Sveriges fjärde största sjö med start i örebro.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Örebro.",
+    "descriptionFull": "Hjälmaren Runt från Örebro - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nEn del av En svensk mc klassiker. Idag runt Sveriges fjärde största sjö med start i örebro.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Örebro.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4557,7 +4557,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/hjalmaren-runt-fran-eskilstuna-en-svensk-mc-klassiker/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "Hjälmaren Runt från Eskilstuna - En svensk MC klassiker arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Eskilstuna. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Eskilstuna.",
+    "descriptionFull": "Hjälmaren Runt från Eskilstuna - En svensk MC klassiker arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Eskilstuna. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Eskilstuna.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4582,7 +4582,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-grustur/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Grustur arrangeras av BMW MC-klubben.\n\nGrustour med D15. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Oderljungavägen, Klippan.",
+    "descriptionFull": "D15 Grustur arrangeras av BMW MC-klubben.\n\nGrustour med D15. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Oderljungavägen, Klippan.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4607,7 +4607,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-mcq-evas-tur/",
     "region": "Kalmar",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 mcQ - Med Eva till sagolika Vimmerby arrangeras av BMW MC-klubben.\n\nEva tar med oss på en tur i trakterna av Astrid Lindgrens Vimmerby. Slingriga vägar genom vackra små byar utlovas liksom en guidad stadsvandring till fots på Vimmerbys.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Oskarshamn.",
+    "descriptionFull": "D11 mcQ - Med Eva till sagolika Vimmerby arrangeras av BMW MC-klubben.\n\nEva tar med oss på en tur i trakterna av Astrid Lindgrens Vimmerby. Slingriga vägar genom vackra små byar utlovas liksom en guidad stadsvandring till fots på Vimmerbys.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Oskarshamn.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4621,7 +4621,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-nationellt-arsmote-2026",
+    "id": "smc-nationellt-årsmöte-2026",
     "name": "SMC Nationellt Årsmöte 2026",
     "date": "2026-05-09",
     "dateEnd": "2026-05-09",
@@ -4632,7 +4632,7 @@ const EVENTS_DATA = {
     "link": "https://www.svmc.se",
     "region": "Västernorrland",
     "source": "MC-Folket Nr 1 2026",
-    "descriptionFull": "SMC Nationellt Årsmöte 2026 arrangeras av SMC.\n\nSveriges MotorCyklisters nationella årsmöte. Lördagen den 9 maj kl 13.00 i Sundsvall. Exakt lokal meddelas i MC-Folket Nr 2, på hemsidan och sociala medier.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sundsvall.",
+    "descriptionFull": "SMC Nationellt Årsmöte 2026 arrangeras av SMC.\n\nSveriges MotorCyklisters nationella årsmöte. Lördagen den 9 maj kl 13.00 i Sundsvall. Exakt lokal meddelas i MC-Folket Nr 2, på hemsidan och sociala medier.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sundsvall.",
     "links": [
       {
         "label": "svmc.se",
@@ -4709,7 +4709,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-05-10/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -4734,7 +4734,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-fdos-runda-till-danmark/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- FDO:s runda till Danmark arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Danmark. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Danmark.",
+    "descriptionFull": "DOB- FDO:s runda till Danmark arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Danmark. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Danmark.",
     "links": [
       {
         "label": "hdcs.se",
@@ -4759,7 +4759,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/fikatraff-surahammar/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "Fikaträff Surahammar arrangeras av H-DCS.\n\nFikaträff Surahammar Vi träffas vid MC-museet Gyllene Hjulet i Surahammar söndag 10 maj kl.10.00 Museets adress är Kontorsvägen 2 73531 Surahammar.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Surahammar.",
+    "descriptionFull": "Fikaträff Surahammar arrangeras av H-DCS.\n\nFikaträff Surahammar Vi träffas vid MC-museet Gyllene Hjulet i Surahammar söndag 10 maj kl.10.00 Museets adress är Kontorsvägen 2 73531 Surahammar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Surahammar.",
     "links": [
       {
         "label": "hdcs.se",
@@ -4784,7 +4784,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-roadracing-falkenberg/",
     "region": "Halland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Roadracing Falkenberg arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Falkenberg. Gemensam körning på vägar. Mer info på bmwklubben.se.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Falkenberg.",
+    "descriptionFull": "D8 Roadracing Falkenberg arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Falkenberg. Gemensam körning på vägar. Mer info på bmwklubben.se.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Falkenberg.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4809,7 +4809,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d7-avrostning-kul-pa-hjul-gillingebanan/",
     "region": "Stockholm",
     "source": "bmwklubben.se",
-    "descriptionFull": "D7 Avrostning/Kul på Hjul, Gillingebanan arrangeras av BMW MC-klubben.\n\nEn dag fylld av gas, broms, balans, glädje och lite grus på/intill Gillingebanan!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Gillingebanan, Vallentuna.",
+    "descriptionFull": "D7 Avrostning/Kul på Hjul, Gillingebanan arrangeras av BMW MC-klubben.\n\nEn dag fylld av gas, broms, balans, glädje och lite grus på/intill Gillingebanan!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gillingebanan, Vallentuna.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4834,7 +4834,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-nissans-broar/",
     "region": "Värmland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Nossans broar arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Nossebro. Vandringsrund och motorcykelkörning. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nossebro.",
+    "descriptionFull": "D8 Nossans broar arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Nossebro. Vandringsrund och motorcykelkörning. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nossebro.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -4848,7 +4848,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-05-11",
     "dateEnd": "2026-05-11",
@@ -4856,14 +4856,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-11/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-05-11/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-11/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-05-11/"
       },
       {
         "label": "Karta",
@@ -4884,7 +4884,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-05-12/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -4898,7 +4898,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-05-12",
     "dateEnd": "2026-05-12",
@@ -4906,14 +4906,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-05-12/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-05-12/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-05-12/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-05-12/"
       },
       {
         "label": "Karta",
@@ -4923,7 +4923,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, jämna veckor",
     "date": "2026-05-12",
     "dateEnd": "2026-05-12",
@@ -4931,14 +4931,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-05-12/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-05-12/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-05-12/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-05-12/"
       },
       {
         "label": "Karta",
@@ -4948,7 +4948,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-05-13",
     "dateEnd": "2026-05-13",
@@ -4956,14 +4956,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-13/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-05-13/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-13/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-05-13/"
       },
       {
         "label": "Karta",
@@ -4973,7 +4973,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-05-13",
     "dateEnd": "2026-05-13",
@@ -4981,14 +4981,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-13/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-05-13/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-13/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-05-13/"
       },
       {
         "label": "Karta",
@@ -5009,7 +5009,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-torgnys-vardagstur/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Torgnys Vardagstur arrangeras av BMW MC-klubben.\n\nKörning med D11 från Småland. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Småland.",
+    "descriptionFull": "D11 Torgnys Vardagstur arrangeras av BMW MC-klubben.\n\nKörning med D11 från Småland. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Småland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -5034,7 +5034,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/172",
     "region": "Örebro",
     "source": "mcparken.se",
-    "descriptionFull": "KCS Track Days Gelleråsen 2026 arrangeras av KCS.\n\nBandagar på Gelleråsen. Pris 2000kr för KTM, Husqvarna och GasGas. Övriga märken välkomna.\n\nBankdag for motorcyklister. Kontrollera arrangoren for anmalan och regler.\n\nPlats: Gelleråsen, Karlskoga.",
+    "descriptionFull": "KCS Track Days Gelleråsen 2026 arrangeras av KCS.\n\nBandagar på Gelleråsen. Pris 2000kr för KTM, Husqvarna och GasGas. Övriga märken välkomna.\n\nBankdag för motorcyklister. Kontrollera arrangören för anmälan och regler.\n\nPlats: Gelleråsen, Karlskoga.",
     "links": [
       {
         "label": "mcparken.se",
@@ -5059,7 +5059,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-14/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5084,7 +5084,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/coast-to-coast/",
     "region": "Gotland",
     "source": "hdcs.se",
-    "descriptionFull": "Coast to Coast arrangeras av H-DCS.\n\nCoast to Coast, start vis Kallis i Visby hamn, vi kör en sväng och stannar och fikar på egen bekostnad.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Kallis Visby, Visby.",
+    "descriptionFull": "Coast to Coast arrangeras av H-DCS.\n\nCoast to Coast, start vis Kallis i Visby hamn, vi kör en sväng och stannar och fikar på egen bekostnad.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kallis Visby, Visby.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5109,7 +5109,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-blomman-lybergs-runda-med-pub-grillkvall-i-eringsboda-14-15-maj/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Blommans & Lybergs Saloon Runda i Eringsboda 14 - 15 maj 2026 arrangeras av H-DCS.\n\nDOE Blommans & Lybergs Saloon Runda i Eringsboda 14 - 15 maj 2026 Det här får du inte missa!! Vi samlas torsdag den 14 maj kl 11.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Eringsboda.",
+    "descriptionFull": "DOE Blommans & Lybergs Saloon Runda i Eringsboda 14 - 15 maj 2026 arrangeras av H-DCS.\n\nDOE Blommans & Lybergs Saloon Runda i Eringsboda 14 - 15 maj 2026 Det här får du inte missa!! Vi samlas torsdag den 14 maj kl 11.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Eringsboda.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5153,7 +5153,7 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-05-14",
     "dateEnd": "2026-05-14",
@@ -5161,14 +5161,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-14/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-05-14/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-14/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-05-14/"
       },
       {
         "label": "Karta",
@@ -5178,7 +5178,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-05-14",
     "dateEnd": "2026-05-14",
@@ -5186,14 +5186,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-14/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-05-14/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-14/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-05-14/"
       },
       {
         "label": "Karta",
@@ -5214,7 +5214,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-05-14/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5228,7 +5228,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-05-14",
     "dateEnd": "2026-05-14",
@@ -5236,14 +5236,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-05-14/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-05-14/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-05-14/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-05-14/"
       },
       {
         "label": "Karta",
@@ -5264,7 +5264,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/regiontraff/",
     "region": "Värmland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Regionträff Väst 2026 arrangeras av BMW MC-klubben.\n\nTräffpunkt i Lindängsvägen 11, 794 92 Orsa, Sverige. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Lindängsvägen 11, Orsa.",
+    "descriptionFull": "Regionträff Väst 2026 arrangeras av BMW MC-klubben.\n\nTräffpunkt i Lindängsvägen 11, 794 92 Orsa, Sverige. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Lindängsvägen 11, Orsa.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -5289,7 +5289,7 @@ const EVENTS_DATA = {
     "link": "https://media.gwcs.se/2026/01/Herr-2.pdf",
     "region": "Västmanland",
     "source": "gwcs.se",
-    "descriptionFull": "GWCS Minitraff Herrfallet arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Herrfallets Camping, Arboga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Herrfallets Camping, Arboga.",
+    "descriptionFull": "GWCS Minitraff Herrfallet arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Herrfallets Camping, Arboga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Herrfallets Camping, Arboga.",
     "links": [
       {
         "label": "media.gwcs.se",
@@ -5303,7 +5303,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "korning-h-d-butiken-i-linkoping-med-overnattning-2026",
+    "id": "körning-h-d-butiken-i-linkoping-med-overnattning-2026",
     "name": "Körning H-D butiken i Linköping med övernattning",
     "date": "2026-05-15",
     "dateEnd": "2026-05-16",
@@ -5311,14 +5311,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Körtur med H-DCS från Linköping. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.",
-    "link": "https://hdcs.se/evenemang/korning-h-d-butiken-i-linkoping-med-overnattning/",
+    "link": "https://hdcs.se/evenemang/körning-h-d-butiken-i-linkoping-med-overnattning/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "Körning H-D butiken i Linköping med övernattning arrangeras av H-DCS.\n\nKörtur med H-DCS från Linköping. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Linköping.",
+    "descriptionFull": "Körning H-D butiken i Linköping med övernattning arrangeras av H-DCS.\n\nKörtur med H-DCS från Linköping. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Linköping.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/korning-h-d-butiken-i-linkoping-med-overnattning/"
+        "url": "https://hdcs.se/evenemang/körning-h-d-butiken-i-linkoping-med-overnattning/"
       },
       {
         "label": "Karta",
@@ -5364,7 +5364,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-aviatorernas-flygarrally/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Aviatörernas Flygarrally arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "DOB- Aviatörernas Flygarrally arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5389,7 +5389,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-poker-run-vaxjo-16-maj/",
     "region": "Kronoberg",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Poker Run Lördag 16 maj 2026 på Flying Eagle´s Stora Vårfest i Växjö arrangeras av H-DCS.\n\nPoker Run Lördag 16 maj 2026 på Flying Eagle´s Stora Vårfest i Växjö Samla ihop era MC-vänner och kom hit!\n\nFest och social sammankomst for MC-folket. Se arrangoren for detaljer.\n\nPlats: Växjö.",
+    "descriptionFull": "DOE Poker Run Lördag 16 maj 2026 på Flying Eagle´s Stora Vårfest i Växjö arrangeras av H-DCS.\n\nPoker Run Lördag 16 maj 2026 på Flying Eagle´s Stora Vårfest i Växjö Samla ihop era MC-vänner och kom hit!\n\nFest och social sammankomst för MC-folket. Se arrangören för detaljer.\n\nPlats: Växjö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5414,7 +5414,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-rundtur-runt-enkoping/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Rundtur runt Enköping arrangeras av H-DCS.\n\nMika kommer att ta oss med på en rundtur på fina MC vägar runt Enköping inkl. några fina stopp, en tur på ca.20 mil.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Mels garage, Enköping.",
+    "descriptionFull": "DOA - Rundtur runt Enköping arrangeras av H-DCS.\n\nMika kommer att ta oss med på en rundtur på fina MC vägar runt Enköping inkl. några fina stopp, en tur på ca.20 mil.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Mels garage, Enköping.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5428,7 +5428,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-05-16",
     "dateEnd": "2026-05-16",
@@ -5436,14 +5436,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-16/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-16/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-16/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-16/"
       },
       {
         "label": "Karta",
@@ -5453,7 +5453,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-05-16",
     "dateEnd": "2026-05-16",
@@ -5461,14 +5461,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-16/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-16/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-16/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-16/"
       },
       {
         "label": "Karta",
@@ -5489,7 +5489,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-05-16/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5514,7 +5514,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-asnenturen/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Åsnenturen arrangeras av BMW MC-klubben.\n\nKörning med D15 från Skåne. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skåne.",
+    "descriptionFull": "D15 Åsnenturen arrangeras av BMW MC-klubben.\n\nKörning med D15 från Skåne. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -5539,7 +5539,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/mcq-gor-en-vartur-till-omberg/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "mcQ gör en vårtur till Omberg arrangeras av BMW MC-klubben.\n\nGemensam körning från Ryds allé, 584 33 Linköping, Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ryds allé Linköping.",
+    "descriptionFull": "mcQ gör en vårtur till Omberg arrangeras av BMW MC-klubben.\n\nGemensam körning från Ryds allé, 584 33 Linköping, Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ryds allé Linköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -5564,7 +5564,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/hemlig-resa/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "Hemlig resa arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Hemligt. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Hemligt.",
+    "descriptionFull": "Hemlig resa arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Hemligt. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Hemligt.",
     "links": [
       {
         "label": "oamck.se",
@@ -5641,7 +5641,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-tjorn-orust-rundan/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Tjörn/Orust rundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Vikingagrillen, Lilla Kongahällavägen 11, 442 90 Kungälv, Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Vikingagrillen, Lilla Kongahällavägen 11, Kungälv.",
+    "descriptionFull": "DO-C Tjörn/Orust rundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Vikingagrillen, Lilla Kongahällavägen 11, 442 90 Kungälv, Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Vikingagrillen, Lilla Kongahällavägen 11, Kungälv.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5666,7 +5666,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-mixtur-med-sandra-och-mikael/",
     "region": "Kalmar",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Mixtur med Sandra och Mikael arrangeras av BMW MC-klubben.\n\nVälkommen att följa med på en mixad asfalts- och grustur genom mellersta Kalmar län.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Alsteråvägen 1, Ålem.",
+    "descriptionFull": "D11 Mixtur med Sandra och Mikael arrangeras av BMW MC-klubben.\n\nVälkommen att följa med på en mixad asfalts- och grustur genom mellersta Kalmar län.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Alsteråvägen 1, Ålem.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -5705,7 +5705,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/173",
     "region": "Finland",
     "source": "mcparken.se",
-    "descriptionFull": "Kemora Ring med SpeedSkills arrangeras av SpeedSkills.\n\nKemora vecka 21 - en tradition i över 30 år. Bankörning och speedträning i Finland.\n\nBankdag for motorcyklister. Kontrollera arrangoren for anmalan och regler.\n\nPlats: Kemora Ring, Finland.",
+    "descriptionFull": "Kemora Ring med SpeedSkills arrangeras av SpeedSkills.\n\nKemora vecka 21 - en tradition i över 30 år. Bankörning och speedträning i Finland.\n\nBankdag för motorcyklister. Kontrollera arrangören för anmälan och regler.\n\nPlats: Kemora Ring, Finland.",
     "links": [
       {
         "label": "mcparken.se",
@@ -5719,7 +5719,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-05-18",
     "dateEnd": "2026-05-18",
@@ -5727,14 +5727,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-18/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-05-18/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-18/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-05-18/"
       },
       {
         "label": "Karta",
@@ -5755,7 +5755,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-05-19/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5769,7 +5769,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-05-19",
     "dateEnd": "2026-05-19",
@@ -5777,14 +5777,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-05-19/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-05-19/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-05-19/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-05-19/"
       },
       {
         "label": "Karta",
@@ -5794,7 +5794,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-05-19",
     "dateEnd": "2026-05-19",
@@ -5802,14 +5802,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-05-19/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-05-19/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-05-19/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-05-19/"
       },
       {
         "label": "Karta",
@@ -5830,7 +5830,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/fikatraff-pa-jagmastargarden-med-classic-ganget/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Fikaträff på Jägmästargården med Classic-gänget arrangeras av BMW MC-klubben.\n\nKom och njut av gammelbumsar och en riktig go’fika på klassiska Jägmästargården!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Lunds Västergård 1, Söderköping.",
+    "descriptionFull": "Fikaträff på Jägmästargården med Classic-gänget arrangeras av BMW MC-klubben.\n\nKom och njut av gammelbumsar och en riktig go’fika på klassiska Jägmästargården!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Lunds Västergård 1, Söderköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -5855,7 +5855,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/super-rally-2026/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Super Rally 2026 arrangeras av H-DCS.\n\nHarley Davidson Club of Denmark Truelstrupvejen 4 4130 Viby Sjælland Denmark info@hdc.dk +45 2560 7606 www.hdc.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Fredericia, Danmark.",
+    "descriptionFull": "Super Rally 2026 arrangeras av H-DCS.\n\nHarley Davidson Club of Denmark Truelstrupvejen 4 4130 Viby Sjælland Denmark info@hdc.dk +45 2560 7606 www.hdc.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Fredericia, Danmark.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5880,7 +5880,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/super-rally-fredericia-danmark/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "Super Rally 2026 Fredericia Danmark arrangeras av H-DCS.\n\nArrangemang med H-DCS från Danmark. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Danmark.",
+    "descriptionFull": "Super Rally 2026 Fredericia Danmark arrangeras av H-DCS.\n\nArrangemang med H-DCS från Danmark. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Danmark.",
     "links": [
       {
         "label": "hdcs.se",
@@ -5894,7 +5894,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-05-20",
     "dateEnd": "2026-05-20",
@@ -5902,14 +5902,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-20/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-05-20/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-20/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-05-20/"
       },
       {
         "label": "Karta",
@@ -5919,7 +5919,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-osmo-udda-veckor-2026",
+    "id": "doa-kvallskörning-osmo-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ösmo, udda veckor",
     "date": "2026-05-20",
     "dateEnd": "2026-05-20",
@@ -5927,14 +5927,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-05-20/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-05-20/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
+    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-05-20/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-05-20/"
       },
       {
         "label": "Karta",
@@ -5944,7 +5944,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-05-20",
     "dateEnd": "2026-05-20",
@@ -5952,14 +5952,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-20/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-05-20/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-20/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-05-20/"
       },
       {
         "label": "Karta",
@@ -5980,7 +5980,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/181",
     "region": "Västra Götaland",
     "source": "mcparken.se",
-    "descriptionFull": "Tjejdag Kinnekulle Trackdays arrangeras av Kinnekulle Trackdays.\n\nBankörning enbart för tjejer på Kinnekulle Ring. Upplev fartens tjusning i trygg miljö.\n\nBankdag for motorcyklister. Kontrollera arrangoren for anmalan och regler.\n\nPlats: Kinnekulle Ring, Götene.",
+    "descriptionFull": "Tjejdag Kinnekulle Trackdays arrangeras av Kinnekulle Trackdays.\n\nBankörning enbart för tjejer på Kinnekulle Ring. Upplev fartens tjusning i trygg miljö.\n\nBankdag för motorcyklister. Kontrollera arrangören för anmälan och regler.\n\nPlats: Kinnekulle Ring, Götene.",
     "links": [
       {
         "label": "mcparken.se",
@@ -6005,7 +6005,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-21/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6019,7 +6019,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-05-21",
     "dateEnd": "2026-05-21",
@@ -6027,14 +6027,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-21/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-05-21/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-21/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-05-21/"
       },
       {
         "label": "Karta",
@@ -6044,7 +6044,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-05-21",
     "dateEnd": "2026-05-21",
@@ -6052,14 +6052,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-21/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-05-21/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-21/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-05-21/"
       },
       {
         "label": "Karta",
@@ -6069,7 +6069,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-05-21",
     "dateEnd": "2026-05-21",
@@ -6077,14 +6077,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-05-21/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-05-21/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-05-21/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-05-21/"
       },
       {
         "label": "Karta",
@@ -6105,7 +6105,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-finlandstur-22-24-maj/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Finlandstur 22-24 maj arrangeras av H-DCS.\n\nVi, de som vill är inbjudna till Finland, samma helg som Super Rallyt men för de som vill ha en kortare resa. Boka själv med Viking line.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vikingterminalen, Stadsgårdskajen, Stockholm.",
+    "descriptionFull": "DOA - Finlandstur 22-24 maj arrangeras av H-DCS.\n\nVi, de som vill är inbjudna till Finland, samma helg som Super Rallyt men för de som vill ha en kortare resa. Boka själv med Viking line.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vikingterminalen, Stadsgårdskajen, Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6130,7 +6130,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/ride-to-eat-hojresa-till-finland/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "Ride to eat - Hojresa till Finland arrangeras av H-DCS.\n\nArrangemang med H-DCS från Finland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Finland.",
+    "descriptionFull": "Ride to eat - Hojresa till Finland arrangeras av H-DCS.\n\nArrangemang med H-DCS från Finland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Finland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6156,7 +6156,7 @@ const EVENTS_DATA = {
     "region": "Västra Götaland",
     "source": "gwcs.se",
     "frontImage": "ads/gwcs-svenljunga-nydal-2026-05-22.jpg",
-    "descriptionFull": "GWCS Minitraff Svenljunga Nydal arrangeras av Knallewingarna / GWCS.\n\nMC-arrangemang i Nydal, Svenljunga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nydal, Svenljunga.",
+    "descriptionFull": "GWCS Minitraff Svenljunga Nydal arrangeras av Knallewingarna / GWCS.\n\nMC-arrangemang i Nydal, Svenljunga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nydal, Svenljunga.",
     "links": [
       {
         "label": "media.gwcs.se",
@@ -6182,7 +6182,7 @@ const EVENTS_DATA = {
     "region": "Stockholm",
     "source": "MC-Folket / FB",
     "frontImage": "ads/ride-for-ukraine-2026-05-23.jpg",
-    "descriptionFull": "Ride for Ukraine 2026 arrangeras av Templar Knights MC.\n\nVälgörenhetskörning till stöd för Ukraina via UNHCR. Samling 09:30, start 10:00. Från Lidingö till Sollentuna. Swisha valfri summa, allt går oavkortat till UNHCR.\n\nGemensam korning pa utvalda vagar. Kontrollera evenemangssidan for detaljer.\n\nPlats: Ukrainska ambassaden, Lidingö.",
+    "descriptionFull": "Ride for Ukraine 2026 arrangeras av Templar Knights MC.\n\nVälgörenhetskörning till stöd för Ukraina via UNHCR. Samling 09:30, start 10:00. Från Lidingö till Sollentuna. Swisha valfri summa, allt går oavkortat till UNHCR.\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Ukrainska ambassaden, Lidingö.",
     "links": [
       {
         "label": "min.sverigeforunhcr.se",
@@ -6207,7 +6207,7 @@ const EVENTS_DATA = {
     "link": "https://www.svmc.se/stockholm",
     "region": "Stockholm",
     "source": "svmc.se",
-    "descriptionFull": "Öppet Hus Rapido MCK och SMC Stockholm arrangeras av Rapido MCK / SMC Stockholm.\n\nLör 11-15. Provkör nya hojar, köp och sälj MC-prylar, mat på plats. SMC Stockholm svarar på frågor om medlemskap.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skansbacken 4, Gullmarsplan, Stockholm.",
+    "descriptionFull": "Öppet Hus Rapido MCK och SMC Stockholm arrangeras av Rapido MCK / SMC Stockholm.\n\nLör 11-15. Provkör nya hojar, köp och sälj MC-prylar, mat på plats. SMC Stockholm svarar på frågor om medlemskap.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skansbacken 4, Gullmarsplan, Stockholm.",
     "links": [
       {
         "label": "svmc.se",
@@ -6257,7 +6257,7 @@ const EVENTS_DATA = {
     "link": "https://www.alltommc.se/kategori/evenemang/strangnas-bike-show/",
     "region": "Södermanland",
     "source": "alltommc.se",
-    "descriptionFull": "Strängnäs Bike Show arrangeras av Blotsvens MC.\n\nPopulär bike show sedan 90-talet. MC-förare från hela Mälardalen samlas för en dag av gemenskap.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangoren for tider.\n\nPlats: Strängnäs.",
+    "descriptionFull": "Strängnäs Bike Show arrangeras av Blotsvens MC.\n\nPopulär bike show sedan 90-talet. MC-förare från hela Mälardalen samlas för en dag av gemenskap.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangören för tider.\n\nPlats: Strängnäs.",
     "links": [
       {
         "label": "alltommc.se",
@@ -6282,7 +6282,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "H-DCS Noplå Meeting arrangeras av H-DCS.\n\nH-DCS klassiska Noplå Meeting. En av klubbens största årliga träffar för Harley-ägare.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Noplå.",
+    "descriptionFull": "H-DCS Noplå Meeting arrangeras av H-DCS.\n\nH-DCS klassiska Noplå Meeting. En av klubbens största årliga träffar för Harley-ägare.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Noplå.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6296,7 +6296,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-05-23",
     "dateEnd": "2026-05-23",
@@ -6304,14 +6304,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-23/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-23/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-23/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-23/"
       },
       {
         "label": "Karta",
@@ -6321,7 +6321,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-05-23",
     "dateEnd": "2026-05-23",
@@ -6329,14 +6329,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-23/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-23/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-23/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-23/"
       },
       {
         "label": "Karta",
@@ -6357,7 +6357,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/tur-till-frosakers-brygga/",
     "region": "Gotland",
     "source": "hdcs.se",
-    "descriptionFull": "Tur till Frösåkers brygga. arrangeras av H-DCS.\n\nEn tur till Frösåkers brygga med start vid Färjkajen Västerås. Det går att förbeställa mackor för den som vill. 070 573 43 43.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Frösåkers Brygga.",
+    "descriptionFull": "Tur till Frösåkers brygga. arrangeras av H-DCS.\n\nEn tur till Frösåkers brygga med start vid Färjkajen Västerås. Det går att förbeställa mackor för den som vill. 070 573 43 43.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Frösåkers Brygga.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6382,7 +6382,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-tiveden-grus/",
     "region": "Örebro",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Tiveden grus arrangeras av BMW MC-klubben.\n\nGrustour med D8. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Tiveden.",
+    "descriptionFull": "D8 Tiveden grus arrangeras av BMW MC-klubben.\n\nGrustour med D8. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Tiveden.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -6407,7 +6407,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/malsjo-classic-cars-art-gallery/",
     "region": "Värmland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Malsjö Classic Cars & Art Gallery arrangeras av BMW MC-klubben.\n\nVi kjører en runde i grensetraktene mellom Värmland og Nordvästra Götaland. Vi besøker Malsjö Classic utenfor Grums og titter på de mellom 50 og 100 eksotiske bilene i den.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Östra Åsenvägen, Åmål.",
+    "descriptionFull": "Malsjö Classic Cars & Art Gallery arrangeras av BMW MC-klubben.\n\nVi kjører en runde i grensetraktene mellom Värmland og Nordvästra Götaland. Vi besøker Malsjö Classic utenfor Grums og titter på de mellom 50 og 100 eksotiske bilene i den.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Östra Åsenvägen, Åmål.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -6432,7 +6432,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d7-miniature-kingdom-kungsor/",
     "region": "Västmanland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D7 Miniature Kingdom, Kungsör arrangeras av BMW MC-klubben.\n\nKörning med D7 från Gamla Strängnäsvägen 509, 155 91 Nykvarn, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Gamla Strängnäsvägen 509, Nykvarn.",
+    "descriptionFull": "D7 Miniature Kingdom, Kungsör arrangeras av BMW MC-klubben.\n\nKörning med D7 från Gamla Strängnäsvägen 509, 155 91 Nykvarn, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Gamla Strängnäsvägen 509, Nykvarn.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -6457,7 +6457,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d10-tur-i-osterled/",
     "region": "Västra Götaland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D10 Tur i Österled arrangeras av BMW MC-klubben.\n\nKörning med D10 från Borås, Västra Götalands län, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Borås.",
+    "descriptionFull": "D10 Tur i Österled arrangeras av BMW MC-klubben.\n\nKörning med D10 från Borås, Västra Götalands län, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Borås.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -6482,7 +6482,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/dagtouring-2/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -6507,7 +6507,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-mcq-pernillas-tur/",
     "region": "Kalmar",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 mcQ Pernillas tur arrangeras av BMW MC-klubben.\n\nKörning med D11 från Öland. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Öland.",
+    "descriptionFull": "D11 mcQ Pernillas tur arrangeras av BMW MC-klubben.\n\nKörning med D11 från Öland. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Öland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -6532,7 +6532,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-morgon-i-kopenhamn/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Morgon i Köpenhamn arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Utsiktsvägen 10, 216 30 Limhamn, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Utsiktsvägen 10, Limhamn.",
+    "descriptionFull": "D15 Morgon i Köpenhamn arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Utsiktsvägen 10, 216 30 Limhamn, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Utsiktsvägen 10, Limhamn.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -6546,7 +6546,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-05-25",
     "dateEnd": "2026-05-25",
@@ -6554,14 +6554,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-25/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-05-25/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-25/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-05-25/"
       },
       {
         "label": "Karta",
@@ -6582,7 +6582,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-05-26/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6596,7 +6596,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-05-26",
     "dateEnd": "2026-05-26",
@@ -6604,14 +6604,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-05-26/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-05-26/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-05-26/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-05-26/"
       },
       {
         "label": "Karta",
@@ -6621,7 +6621,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, jämna veckor",
     "date": "2026-05-26",
     "dateEnd": "2026-05-26",
@@ -6629,14 +6629,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-05-26/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-05-26/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-05-26/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-05-26/"
       },
       {
         "label": "Karta",
@@ -6646,7 +6646,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-05-27",
     "dateEnd": "2026-05-27",
@@ -6654,14 +6654,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-27/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-05-27/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-27/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-05-27/"
       },
       {
         "label": "Karta",
@@ -6671,7 +6671,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-05-27",
     "dateEnd": "2026-05-27",
@@ -6679,14 +6679,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-27/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-05-27/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-27/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-05-27/"
       },
       {
         "label": "Karta",
@@ -6707,7 +6707,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d7-tur-for-nya-medlemmar/",
     "region": "Stockholm",
     "source": "bmwklubben.se",
-    "descriptionFull": "D7 Tur för nya medlemmar arrangeras av BMW MC-klubben.\n\nKörning med D7 från Stockholm. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "D7 Tur för nya medlemmar arrangeras av BMW MC-klubben.\n\nKörning med D7 från Stockholm. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -6732,7 +6732,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-28/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6746,7 +6746,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-05-28",
     "dateEnd": "2026-05-28",
@@ -6754,14 +6754,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-28/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-05-28/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-28/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-05-28/"
       },
       {
         "label": "Karta",
@@ -6771,7 +6771,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-05-28",
     "dateEnd": "2026-05-28",
@@ -6779,14 +6779,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-28/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-05-28/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-28/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-05-28/"
       },
       {
         "label": "Karta",
@@ -6807,7 +6807,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-05-28/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6821,7 +6821,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-05-28",
     "dateEnd": "2026-05-28",
@@ -6829,14 +6829,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-05-28/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-05-28/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-05-28/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-05-28/"
       },
       {
         "label": "Karta",
@@ -6857,7 +6857,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/175",
     "region": "Skåne",
     "source": "mcparken.se",
-    "descriptionFull": "Roadracing SM - Ring Knutstorp arrangeras av MotoSE / Svemo.\n\nMC-arrangemang i Ring Knutstorp, Kågeröd, Skåne län. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Ring Knutstorp, Kågeröd.",
+    "descriptionFull": "Roadracing SM - Ring Knutstorp arrangeras av MotoSE / Svemo.\n\nMC-arrangemang i Ring Knutstorp, Kågeröd, Skåne län. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Ring Knutstorp, Kågeröd.",
     "links": [
       {
         "label": "mcparken.se",
@@ -6882,7 +6882,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-vatternrundan/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Vätternrundan arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Vättern. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Vättern.",
+    "descriptionFull": "DOA - Vätternrundan arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Vättern. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Vättern.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6907,7 +6907,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-noplatraffen-i-kristianopel-29-31-maj/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Noplaträffen i Kristianopel 29-31 maj arrangeras av H-DCS.\n\nVälkomna till årets första träff på Kristianopel Camping/Resort. Campingen erbjuder följande rätter om vi förbokar senast 22 maj.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Kristianopel.",
+    "descriptionFull": "DOE Noplaträffen i Kristianopel 29-31 maj arrangeras av H-DCS.\n\nVälkomna till årets första träff på Kristianopel Camping/Resort. Campingen erbjuder följande rätter om vi förbokar senast 22 maj.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kristianopel.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6933,7 +6933,7 @@ const EVENTS_DATA = {
     "region": "Jämtland",
     "source": "gwcs.se",
     "frontImage": "ads/gwcs-vikingtraffen-gallo-2026-05-29.jpg",
-    "descriptionFull": "Vikingtraffen Gallo arrangeras av Jan Karlstrand / GWCS.\n\nMC-arrangemang i Gallo, Jamtland. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Gallo, Jamtland.",
+    "descriptionFull": "Vikingtraffen Gallo arrangeras av Jan Karlstrand / GWCS.\n\nMC-arrangemang i Gallo, Jamtland. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gallo, Jamtland.",
     "links": [
       {
         "label": "media.gwcs.se",
@@ -6958,7 +6958,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/vattern-runt-med-region-mitt-distrikt-a-d-f-j/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Vättern runt med region mitt distrikt A , D , F , J arrangeras av H-DCS.\n\nVättern runt med region mitt distrikt A , D , F.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Vättern.",
+    "descriptionFull": "Vättern runt med region mitt distrikt A , D , F , J arrangeras av H-DCS.\n\nVättern runt med region mitt distrikt A , D , F.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Vättern.",
     "links": [
       {
         "label": "hdcs.se",
@@ -6983,7 +6983,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-kickoff-medlems-butiken-ljungby/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Tur till medlemsbutiken i Ljungby arrangeras av H-DCS.\n\nKörtur med H-DCS DOB från Ljungby. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ljungby.",
+    "descriptionFull": "DOB- Tur till medlemsbutiken i Ljungby arrangeras av H-DCS.\n\nKörtur med H-DCS DOB från Ljungby. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ljungby.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7005,14 +7005,14 @@ const EVENTS_DATA = {
     "type": "Träff",
     "organizer": "H-DCS",
     "description": "Arrangemang med H-DCS från Medlemsbutiken, Ljungby. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
-    "link": "https://hdcs.se/evenemang/do-c-korning-till-medlems-butiken-ljungby/",
+    "link": "https://hdcs.se/evenemang/do-c-körning-till-medlems-butiken-ljungby/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Kickoff Medlems butiken Ljungby arrangeras av H-DCS.\n\nArrangemang med H-DCS från Medlemsbutiken, Ljungby. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Medlemsbutiken, Ljungby.",
+    "descriptionFull": "DO-C Kickoff Medlems butiken Ljungby arrangeras av H-DCS.\n\nArrangemang med H-DCS från Medlemsbutiken, Ljungby. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Medlemsbutiken, Ljungby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/do-c-korning-till-medlems-butiken-ljungby/"
+        "url": "https://hdcs.se/evenemang/do-c-körning-till-medlems-butiken-ljungby/"
       },
       {
         "label": "Karta",
@@ -7033,7 +7033,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/korvrundan/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "Körvrundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "Körvrundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7047,7 +7047,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-05-30",
     "dateEnd": "2026-05-30",
@@ -7055,14 +7055,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-30/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-30/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-05-30/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-05-30/"
       },
       {
         "label": "Karta",
@@ -7072,7 +7072,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-05-30",
     "dateEnd": "2026-05-30",
@@ -7080,14 +7080,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-30/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-30/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-05-30/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-05-30/"
       },
       {
         "label": "Karta",
@@ -7108,7 +7108,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/ds-i-orange-day-sundsvall/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "DS-I Orange Day Sundsvall arrangeras av H-DCS.\n\nVi kör en tur för Orange-Day , med insamling för att motverka våld mot kvinnor och barn. Start 12:00 från Shell Bydalen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Shell Punkten Bosvedjan, Sundsvall.",
+    "descriptionFull": "DS-I Orange Day Sundsvall arrangeras av H-DCS.\n\nVi kör en tur för Orange-Day , med insamling för att motverka våld mot kvinnor och barn. Start 12:00 från Shell Bydalen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Shell Punkten Bosvedjan, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7133,7 +7133,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-05-30/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7158,7 +7158,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lerduveskytte/",
     "region": "Gotland",
     "source": "hdcs.se",
-    "descriptionFull": "Lerduveskytte arrangeras av H-DCS.\n\nArrangemang med H-DCS från Hejdeby norrbys 131, Visby. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Hejdeby norrbys 131, Visby.",
+    "descriptionFull": "Lerduveskytte arrangeras av H-DCS.\n\nArrangemang med H-DCS från Hejdeby norrbys 131, Visby. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hejdeby norrbys 131, Visby.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7183,7 +7183,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-mcq-morsdagsrunda-2026/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 mcQ Morsdagsrunda 2026 arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D11 från Småland. Gemensam körning för mödrar. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "D11 mcQ Morsdagsrunda 2026 arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D11 från Småland. Gemensam körning för mödrar. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -7208,7 +7208,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-asarna/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Åsarna arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Rusthållsgatan, 253 61 Helsingborg, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rusthållsgatan, Helsingborg.",
+    "descriptionFull": "D15 Åsarna arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Rusthållsgatan, 253 61 Helsingborg, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rusthållsgatan, Helsingborg.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -7233,7 +7233,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/180",
     "region": "Östergötland",
     "source": "mcparken.se",
-    "descriptionFull": "Filip Backlund Trackdays Mantorp Park arrangeras av Filip Backlund Trackdays.\n\nTrackdays 2.0 - eventet för dig som vill lyfta din körupplevelse till nya höjder.\n\nBankdag for motorcyklister. Kontrollera arrangoren for anmalan och regler.\n\nPlats: Mantorp, Park.",
+    "descriptionFull": "Filip Backlund Trackdays Mantorp Park arrangeras av Filip Backlund Trackdays.\n\nTrackdays 2.0 - eventet för dig som vill lyfta din körupplevelse till nya höjder.\n\nBankdag för motorcyklister. Kontrollera arrangören för anmälan och regler.\n\nPlats: Mantorp, Park.",
     "links": [
       {
         "label": "mcparken.se",
@@ -7258,7 +7258,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-mats-och-bodils-tur/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Mats och Bodils tur arrangeras av BMW MC-klubben.\n\nKörning med D15 från Skåne. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skåne.",
+    "descriptionFull": "D15 Mats och Bodils tur arrangeras av BMW MC-klubben.\n\nKörning med D15 från Skåne. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -7283,7 +7283,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/soder8an/",
     "region": "Västra Götaland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Söder8:an arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Fjärås Industriväg 2, 439 74 Fjärås, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Fjärås Industriväg 2, Fjärås.",
+    "descriptionFull": "Söder8:an arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Fjärås Industriväg 2, 439 74 Fjärås, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Fjärås Industriväg 2, Fjärås.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -7297,7 +7297,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-06-01",
     "dateEnd": "2026-06-01",
@@ -7305,14 +7305,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-01/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-01/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-01/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-01/"
       },
       {
         "label": "Karta",
@@ -7333,7 +7333,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-02/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7347,7 +7347,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-06-02",
     "dateEnd": "2026-06-02",
@@ -7355,14 +7355,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-02/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-02/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-02/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-02/"
       },
       {
         "label": "Karta",
@@ -7372,7 +7372,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-06-02",
     "dateEnd": "2026-06-02",
@@ -7380,14 +7380,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-06-02/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-06-02/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-06-02/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-06-02/"
       },
       {
         "label": "Karta",
@@ -7408,7 +7408,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-dagsledigtur-med-rune/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Dagsledigtur med Rune arrangeras av BMW MC-klubben.\n\nKörning med D11 från Tingsryd, 362 32 Tingsryd, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Tingsryd, Tingsryd.",
+    "descriptionFull": "D11 Dagsledigtur med Rune arrangeras av BMW MC-klubben.\n\nKörning med D11 från Tingsryd, 362 32 Tingsryd, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Tingsryd, Tingsryd.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -7422,7 +7422,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-06-03",
     "dateEnd": "2026-06-03",
@@ -7430,14 +7430,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-03/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-06-03/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-03/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-06-03/"
       },
       {
         "label": "Karta",
@@ -7447,7 +7447,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-osmo-udda-veckor-2026",
+    "id": "doa-kvallskörning-osmo-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ösmo, udda veckor",
     "date": "2026-06-03",
     "dateEnd": "2026-06-03",
@@ -7455,14 +7455,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-06-03/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-06-03/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
+    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-06-03/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-06-03/"
       },
       {
         "label": "Karta",
@@ -7472,7 +7472,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-06-03",
     "dateEnd": "2026-06-03",
@@ -7480,14 +7480,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-03/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-06-03/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-03/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-06-03/"
       },
       {
         "label": "Karta",
@@ -7508,7 +7508,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-onsdagstur-med-blandat-underlag-3/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Onsdagstur med blandat underlag arrangeras av BMW MC-klubben.\n\nOnsdagstur med D15 på blandade vägar. Samling enligt schema. Se bmwklubben.se för tider och plats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ringsjövägen 40, Hörby.",
+    "descriptionFull": "D15 Onsdagstur med blandat underlag arrangeras av BMW MC-klubben.\n\nOnsdagstur med D15 på blandade vägar. Samling enligt schema. Se bmwklubben.se för tider och plats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ringsjövägen 40, Hörby.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -7533,7 +7533,7 @@ const EVENTS_DATA = {
     "link": "https://www.americandays.se/",
     "region": "Kalmar",
     "source": "vics.se",
-    "descriptionFull": "American Days arrangeras av VICS.\n\nSkandinaviens största motor-, musik- och matfestival för amerikanska mc-märken. Victory, Indian, Harley-Davidson och fler. 4-7 juni 2026 på Lundegård Camping, Öland.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Lundegård Camping, Öland.",
+    "descriptionFull": "American Days arrangeras av VICS.\n\nSkandinaviens största motor-, musik- och matfestival för amerikanska mc-märken. Victory, Indian, Harley-Davidson och fler. 4-7 juni 2026 på Lundegård Camping, Öland.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Lundegård Camping, Öland.",
     "links": [
       {
         "label": "americandays.se",
@@ -7558,7 +7558,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/american-days-oland/",
     "region": "Kalmar",
     "source": "hdcs.se",
-    "descriptionFull": "American Days Öland arrangeras av H-DCS.\n\nH-DCS egen träff under American Days-helgen på Lundegård Camping, Öland. Mötesplats för Harley-klubbens medlemmar. 4-7 juni. Se hdcs.se för samlingspunkt och tider.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Lundegård Camping, Öland.",
+    "descriptionFull": "American Days Öland arrangeras av H-DCS.\n\nH-DCS egen träff under American Days-helgen på Lundegård Camping, Öland. Mötesplats för Harley-klubbens medlemmar. 4-7 juni. Se hdcs.se för samlingspunkt och tider.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Lundegård Camping, Öland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7572,7 +7572,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "do-c-gemensam-korning-till-american-days-2026",
+    "id": "do-c-gemensam-körning-till-american-days-2026",
     "name": "DO-C Gemensam körning till American days",
     "date": "2026-06-04",
     "dateEnd": "2026-06-04",
@@ -7580,14 +7580,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Körtur med H-DCS från Halland/VGötaland. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.",
-    "link": "https://hdcs.se/evenemang/do-c-gemensam-korning-till-american-days/",
+    "link": "https://hdcs.se/evenemang/do-c-gemensam-körning-till-american-days/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Gemensam körning till American days arrangeras av H-DCS.\n\nKörtur med H-DCS från Halland/VGötaland. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Halland/VGötaland.",
+    "descriptionFull": "DO-C Gemensam körning till American days arrangeras av H-DCS.\n\nKörtur med H-DCS från Halland/VGötaland. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Halland/VGötaland.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/do-c-gemensam-korning-till-american-days/"
+        "url": "https://hdcs.se/evenemang/do-c-gemensam-körning-till-american-days/"
       },
       {
         "label": "Karta",
@@ -7608,7 +7608,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-04/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7622,7 +7622,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-06-04",
     "dateEnd": "2026-06-04",
@@ -7630,14 +7630,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-04/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-06-04/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-04/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-06-04/"
       },
       {
         "label": "Karta",
@@ -7647,7 +7647,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-06-04",
     "dateEnd": "2026-06-04",
@@ -7655,14 +7655,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-04/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-06-04/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-04/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-06-04/"
       },
       {
         "label": "Karta",
@@ -7672,7 +7672,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-06-04",
     "dateEnd": "2026-06-04",
@@ -7680,14 +7680,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-06-04/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-06-04/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-06-04/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-06-04/"
       },
       {
         "label": "Karta",
@@ -7708,7 +7708,7 @@ const EVENTS_DATA = {
     "link": "https://www.svmc.se/",
     "region": "Västra Götaland",
     "source": "svmc.se",
-    "descriptionFull": "Trollhätteträffen arrangeras av SMC Västra Götaland.\n\nStor MC-träff på nationaldagshelgen. Camping, livemusik och gemensamma utfärder.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Ursands Camping, Trollhättan.",
+    "descriptionFull": "Trollhätteträffen arrangeras av SMC Västra Götaland.\n\nStor MC-träff på nationaldagshelgen. Camping, livemusik och gemensamma utfärder.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Ursands Camping, Trollhättan.",
     "links": [
       {
         "label": "svmc.se",
@@ -7733,7 +7733,7 @@ const EVENTS_DATA = {
     "link": "https://www.custombikeshow.se/",
     "region": "Uppsala",
     "source": "custombikeshow.se",
-    "descriptionFull": "Custom Bike Show Norrtälje arrangeras av Custom Bike Show.\n\nEuropas äldsta custom bike show. Choppers, bobbers, café racers och konstverk på två hjul.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangoren for tider.\n\nPlats: Norrtälje.",
+    "descriptionFull": "Custom Bike Show Norrtälje arrangeras av Custom Bike Show.\n\nEuropas äldsta custom bike show. Choppers, bobbers, café racers och konstverk på två hjul.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangören för tider.\n\nPlats: Norrtälje.",
     "links": [
       {
         "label": "custombikeshow.se",
@@ -7758,7 +7758,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/nationaldagstur/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Nationaldagstur arrangeras av H-DCS.\n\nKörtur med H-DCS från Sverige. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Sverige.",
+    "descriptionFull": "Nationaldagstur arrangeras av H-DCS.\n\nKörtur med H-DCS från Sverige. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7783,7 +7783,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-nationaldagstur/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Nationaldagstur arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Nationaldagstur arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7808,7 +7808,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-custom-bike-show-norrtalje-2/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Custom Bike Show, Norrtälje arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Norrtälje. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangoren for tider.\n\nPlats: Norrtälje.",
+    "descriptionFull": "DOA - Custom Bike Show, Norrtälje arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Norrtälje. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangören för tider.\n\nPlats: Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7822,7 +7822,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "do-c-gemensam-korning-till-baprun-2026",
+    "id": "do-c-gemensam-körning-till-baprun-2026",
     "name": "DO-C Gemensam körning till Baprun",
     "date": "2026-06-06",
     "dateEnd": "2026-06-06",
@@ -7830,14 +7830,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Körtur med H-DCS från Halland/VGötaland. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.",
-    "link": "https://hdcs.se/evenemang/do-c-gemensam-korning-till-baprun/",
+    "link": "https://hdcs.se/evenemang/do-c-gemensam-körning-till-baprun/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Gemensam körning till Baprun arrangeras av H-DCS.\n\nKörtur med H-DCS från Halland/VGötaland. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Halland/VGötaland.",
+    "descriptionFull": "DO-C Gemensam körning till Baprun arrangeras av H-DCS.\n\nKörtur med H-DCS från Halland/VGötaland. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Halland/VGötaland.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/do-c-gemensam-korning-till-baprun/"
+        "url": "https://hdcs.se/evenemang/do-c-gemensam-körning-till-baprun/"
       },
       {
         "label": "Karta",
@@ -7858,7 +7858,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/tur-till-torsangs-motormuseum/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "Tur till Torsångs Motormuseum arrangeras av H-DCS.\n\nStart från Färjkajen i Västerås kl. 10 Vi kör över Norberg, Avesta, Hedemora.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Torsångs Motormuseum, Borlänge.",
+    "descriptionFull": "Tur till Torsångs Motormuseum arrangeras av H-DCS.\n\nStart från Färjkajen i Västerås kl. 10 Vi kör över Norberg, Avesta, Hedemora.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Torsångs Motormuseum, Borlänge.",
     "links": [
       {
         "label": "hdcs.se",
@@ -7872,7 +7872,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-06-06",
     "dateEnd": "2026-06-06",
@@ -7880,14 +7880,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-06-06/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-06-06/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-06-06/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-06-06/"
       },
       {
         "label": "Karta",
@@ -7897,7 +7897,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-06-06",
     "dateEnd": "2026-06-06",
@@ -7905,14 +7905,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-06-06/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-06-06/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-06-06/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-06-06/"
       },
       {
         "label": "Karta",
@@ -7933,7 +7933,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-aventyrshelg-grus/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Åventyrshelg Grus arrangeras av BMW MC-klubben.\n\nGrustour med D15. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "D15 Åventyrshelg Grus arrangeras av BMW MC-klubben.\n\nGrustour med D15. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -7958,7 +7958,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d9-nationaldagstur/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D9 Nationaldagstur arrangeras av BMW MC-klubben.\n\nKörning med D9 från Östergötland. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Östergötland.",
+    "descriptionFull": "D9 Nationaldagstur arrangeras av BMW MC-klubben.\n\nKörning med D9 från Östergötland. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Östergötland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -7983,7 +7983,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d10-nationaldagsgruset/",
     "region": "Västra Götaland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D10 Nationaldagsgruset arrangeras av BMW MC-klubben.\n\nGrustour med D10. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Västra, Götaland.",
+    "descriptionFull": "D10 Nationaldagsgruset arrangeras av BMW MC-klubben.\n\nGrustour med D10. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Västra, Götaland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8008,7 +8008,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-bengts-grustur/",
     "region": "Värmland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Bengts grustur arrangeras av BMW MC-klubben.\n\nGrustour med D8. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Västra, Götaland.",
+    "descriptionFull": "D8 Bengts grustur arrangeras av BMW MC-klubben.\n\nGrustour med D8. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Västra, Götaland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8033,7 +8033,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-historisk-heldagstur-oland-2026/",
     "region": "Kalmar",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Historisk heldagstur Öland 2026 arrangeras av BMW MC-klubben.\n\nKörning med D11 från Öland. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Öland.",
+    "descriptionFull": "D11 Historisk heldagstur Öland 2026 arrangeras av BMW MC-klubben.\n\nKörning med D11 från Öland. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Öland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8058,7 +8058,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d14-nationaldagsturen/",
     "region": "Halland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D14-Nationaldagsturen arrangeras av BMW MC-klubben.\n\nKörning med D14 från Växjövägen 15, 302 44 Halmstad, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Växjövägen 15, Halmstad.",
+    "descriptionFull": "D14-Nationaldagsturen arrangeras av BMW MC-klubben.\n\nKörning med D14 från Växjövägen 15, 302 44 Halmstad, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Växjövägen 15, Halmstad.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8083,7 +8083,7 @@ const EVENTS_DATA = {
     "link": "https://gwcs.se/events/nationaldagstur-till-sigridslunds-cafe/?occurrence=2026-06-06",
     "region": "Södermanland",
     "source": "gwcs.se",
-    "descriptionFull": "GWCS Nationaldagstur Sigridslunds Cafe arrangeras av Sormlandswingarna / GWCS.\n\nGemensam körning från Sigridslunds Cafe, Ardala. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Sigridslunds Cafe, Ardala.",
+    "descriptionFull": "GWCS Nationaldagstur Sigridslunds Cafe arrangeras av Sormlandswingarna / GWCS.\n\nGemensam körning från Sigridslunds Cafe, Ardala. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Sigridslunds Cafe, Ardala.",
     "links": [
       {
         "label": "gwcs.se",
@@ -8108,7 +8108,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/nationaldagsloppet-ordonnanser/",
     "region": "Stockholm",
     "source": "oamck.se",
-    "descriptionFull": "Nationaldagsloppet (ordonnanser) arrangeras av MC-ordonnans.\n\nGemensam körning från Stockholm. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam korning pa utvalda vagar. Kontrollera evenemangssidan for detaljer.\n\nPlats: Stockholm.",
+    "descriptionFull": "Nationaldagsloppet (ordonnanser) arrangeras av MC-ordonnans.\n\nGemensam körning från Stockholm. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "oamck.se",
@@ -8133,7 +8133,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/malaren-runt-fran-nykvarn-en-svensk-mc-klassiker/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "Mälaren Runt från Nykvarn - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nEn del av En svensk mc klassiker. Idag runt Sveriges tredje största sjö med start från Nykvarn.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Kraftleden 2, Bålsta.",
+    "descriptionFull": "Mälaren Runt från Nykvarn - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nEn del av En svensk mc klassiker. Idag runt Sveriges tredje största sjö med start från Nykvarn.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kraftleden 2, Bålsta.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8158,7 +8158,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/malaren-runt-fran-balsta-en-svensk-mc-klassiker/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "Mälaren Runt från Bålsta - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nEn del av En svensk mc klassiker. Idag runt Sveriges tredje största sjö med start från Bålsta.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Kraftleden 2, Bålsta.",
+    "descriptionFull": "Mälaren Runt från Bålsta - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nEn del av En svensk mc klassiker. Idag runt Sveriges tredje största sjö med start från Bålsta.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kraftleden 2, Bålsta.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8183,7 +8183,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/dagtouring-obs-sondag/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Dagtouring (sondag) arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+    "descriptionFull": "ÖAMCK Dagtouring (sondag) arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -8197,7 +8197,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-06-08",
     "dateEnd": "2026-06-08",
@@ -8205,14 +8205,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-08/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-08/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-08/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-08/"
       },
       {
         "label": "Karta",
@@ -8233,7 +8233,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-goes-to-pite-havsbad-arstraff-2026/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Goes to Pite Havsbad (Årsträff 2026) arrangeras av BMW MC-klubben.\n\nTräffpunkt med D11 i Hotellvägen 50, 941 43 Piteå, Sverige. Gemensam fika och MC-prat. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Hotellvägen 50, Piteå.",
+    "descriptionFull": "D11 Goes to Pite Havsbad (Årsträff 2026) arrangeras av BMW MC-klubben.\n\nTräffpunkt med D11 i Hotellvägen 50, 941 43 Piteå, Sverige. Gemensam fika och MC-prat. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hotellvägen 50, Piteå.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8258,7 +8258,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-09/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8272,7 +8272,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-06-09",
     "dateEnd": "2026-06-09",
@@ -8280,14 +8280,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-09/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-09/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-09/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-09/"
       },
       {
         "label": "Karta",
@@ -8297,7 +8297,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, jämna veckor",
     "date": "2026-06-09",
     "dateEnd": "2026-06-09",
@@ -8305,14 +8305,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-06-09/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-06-09/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-06-09/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-06-09/"
       },
       {
         "label": "Karta",
@@ -8322,7 +8322,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-06-10",
     "dateEnd": "2026-06-10",
@@ -8330,14 +8330,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-10/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-06-10/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-10/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-06-10/"
       },
       {
         "label": "Karta",
@@ -8347,7 +8347,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-06-10",
     "dateEnd": "2026-06-10",
@@ -8355,14 +8355,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-10/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-06-10/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-10/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-06-10/"
       },
       {
         "label": "Karta",
@@ -8383,7 +8383,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/166",
     "region": "Gävleborg",
     "source": "mcparken.se",
-    "descriptionFull": "76 mil grus arrangeras av Privat arrangör.\n\nGemensam körning från Ockelbo, Gävleborg. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ockelbo, Gävleborg.",
+    "descriptionFull": "76 mil grus arrangeras av Privat arrangör.\n\nGemensam körning från Ockelbo, Gävleborg. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ockelbo, Gävleborg.",
     "links": [
       {
         "label": "mcparken.se",
@@ -8408,7 +8408,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-11/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8422,7 +8422,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-06-11",
     "dateEnd": "2026-06-11",
@@ -8430,14 +8430,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-11/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-06-11/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-11/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-06-11/"
       },
       {
         "label": "Karta",
@@ -8447,7 +8447,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-06-11",
     "dateEnd": "2026-06-11",
@@ -8455,14 +8455,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-11/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-06-11/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-11/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-06-11/"
       },
       {
         "label": "Karta",
@@ -8483,7 +8483,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-06-11/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8497,7 +8497,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-06-11",
     "dateEnd": "2026-06-11",
@@ -8505,14 +8505,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-06-11/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-06-11/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-06-11/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-06-11/"
       },
       {
         "label": "Karta",
@@ -8533,7 +8533,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/arstraff-2026-pitea/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "Årsträff 2026 Piteå arrangeras av BMW MC-klubben.\n\nTorsdag 11 juni t.o.m. söndag 14 juni går årsträffen 2026 av stapeln på Pite Havsbad. Varmt välkommen! ...\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Havsbadsvägen, Piteå.",
+    "descriptionFull": "Årsträff 2026 Piteå arrangeras av BMW MC-klubben.\n\nTorsdag 11 juni t.o.m. söndag 14 juni går årsträffen 2026 av stapeln på Pite Havsbad. Varmt välkommen! ...\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Havsbadsvägen, Piteå.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8558,7 +8558,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-sagverksfesten-xii/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Sågverksfesten XII arrangeras av H-DCS.\n\nTräffen blir i år som vanligt helgen före midsommar. Detta blir den tolfte Sågverksfesten.\n\nFest och social sammankomst for MC-folket. Se arrangoren for detaljer.\n\nPlats: Sawmill MC Tavelsjö, Tavelsjö.",
+    "descriptionFull": "DOH-Sågverksfesten XII arrangeras av H-DCS.\n\nTräffen blir i år som vanligt helgen före midsommar. Detta blir den tolfte Sågverksfesten.\n\nFest och social sammankomst för MC-folket. Se arrangören för detaljer.\n\nPlats: Sawmill MC Tavelsjö, Tavelsjö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8583,7 +8583,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-traff-wiggersvik-camping/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Träff Wiggersvik camping arrangeras av H-DCS.\n\nArrangemang med H-DCS från Wiggersvik camping. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Wiggersvik camping.",
+    "descriptionFull": "DO-C Träff Wiggersvik camping arrangeras av H-DCS.\n\nArrangemang med H-DCS från Wiggersvik camping. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Wiggersvik camping.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8608,7 +8608,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-grangetraffen/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG Grängeträffen arrangeras av H-DCS.\n\nGrängeträffen i Grangärde 12-14 juni Mer info .Annemona Andersson 070 - 282 27 12 Christer Andersson 070.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Grängesberg.",
+    "descriptionFull": "DOG Grängeträffen arrangeras av H-DCS.\n\nGrängeträffen i Grangärde 12-14 juni Mer info .Annemona Andersson 070 - 282 27 12 Christer Andersson 070.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Grängesberg.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8633,7 +8633,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d10-hultsfred-2026-grus-och-asfalt/",
     "region": "Kalmar",
     "source": "bmwklubben.se",
-    "descriptionFull": "D10 Hultsfred 2026, Grus OCH asfalt arrangeras av BMW MC-klubben.\n\nVälkomna att boka din plats till Hultsfred 2025. Det finns 34 platser och en oändlig reservlista.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Folkparksvägen 10, Hultsfred.",
+    "descriptionFull": "D10 Hultsfred 2026, Grus OCH asfalt arrangeras av BMW MC-klubben.\n\nVälkomna att boka din plats till Hultsfred 2025. Det finns 34 platser och en oändlig reservlista.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Folkparksvägen 10, Hultsfred.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8658,7 +8658,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/vatternrundan-ordonnanser-2/",
     "region": "Östergötland",
     "source": "oamck.se",
-    "descriptionFull": "Vatternrundan (Ordonnanser) arrangeras av MC-ordonnans.\n\nGemensam körning från Motala. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam korning pa utvalda vagar. Kontrollera evenemangssidan for detaljer.\n\nPlats: Motala.",
+    "descriptionFull": "Vatternrundan (Ordonnanser) arrangeras av MC-ordonnans.\n\nGemensam körning från Motala. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Motala.",
     "links": [
       {
         "label": "oamck.se",
@@ -8683,7 +8683,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/kustturen/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Kustturen arrangeras av H-DCS.\n\nKörtur med H-DCS från Västkusten. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Västkusten.",
+    "descriptionFull": "Kustturen arrangeras av H-DCS.\n\nKörtur med H-DCS från Västkusten. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Västkusten.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8708,7 +8708,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-girl-fun-run/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Girl Fun Run arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Stockholm. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Girl Fun Run arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Stockholm. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8733,7 +8733,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-staffanstorp-motordag/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Staffanstorp motordag arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Staffanstorp. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Staffanstorp.",
+    "descriptionFull": "DOB- Staffanstorp motordag arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Staffanstorp. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Staffanstorp.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8758,7 +8758,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/charity-run-distrikt-k/",
     "region": "Blekinge",
     "source": "hdcs.se",
-    "descriptionFull": "Charity Run - Distrikt K arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "Charity Run - Distrikt K arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8772,7 +8772,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-06-13",
     "dateEnd": "2026-06-13",
@@ -8780,14 +8780,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-06-13/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-06-13/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-06-13/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-06-13/"
       },
       {
         "label": "Karta",
@@ -8797,7 +8797,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-06-13",
     "dateEnd": "2026-06-13",
@@ -8805,14 +8805,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-06-13/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-06-13/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-06-13/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-06-13/"
       },
       {
         "label": "Karta",
@@ -8833,7 +8833,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-06-13/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8858,7 +8858,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-skane-runt-med-spettan/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Skåne runt med Spättan arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Kronetorpsvägen 8, 232 37 Arlöv, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Kronetorpsvägen 8, Arlöv.",
+    "descriptionFull": "D15 Skåne runt med Spättan arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Kronetorpsvägen 8, 232 37 Arlöv, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kronetorpsvägen 8, Arlöv.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8883,7 +8883,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/bmwklubben-norge-d8-telemarken-runt/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "BMWKLUBBEN Norge/D8 Telemarken runt arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Telemarken, Norge. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Telemarken, Norge.",
+    "descriptionFull": "BMWKLUBBEN Norge/D8 Telemarken runt arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Telemarken, Norge. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Telemarken, Norge.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8908,7 +8908,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/nashultarundan/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Näshultarundan arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D11 från Norremarksvägen, 352 45 Växjö, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Norremarksvägen, Växjö.",
+    "descriptionFull": "D11 Näshultarundan arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D11 från Norremarksvägen, 352 45 Växjö, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Norremarksvägen, Växjö.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -8933,7 +8933,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/hakan-pslottsrundan/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "Håkan P Slottsrundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "Håkan P Slottsrundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8958,7 +8958,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-06-14/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -8972,7 +8972,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-06-15",
     "dateEnd": "2026-06-15",
@@ -8980,14 +8980,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-15/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-15/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-15/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-15/"
       },
       {
         "label": "Karta",
@@ -9008,7 +9008,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-16/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9022,7 +9022,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-06-16",
     "dateEnd": "2026-06-16",
@@ -9030,14 +9030,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-16/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-16/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-16/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-16/"
       },
       {
         "label": "Karta",
@@ -9047,7 +9047,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-06-16",
     "dateEnd": "2026-06-16",
@@ -9055,14 +9055,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-06-16/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-06-16/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-06-16/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-06-16/"
       },
       {
         "label": "Karta",
@@ -9072,7 +9072,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-06-17",
     "dateEnd": "2026-06-17",
@@ -9080,14 +9080,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-17/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-06-17/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-17/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-06-17/"
       },
       {
         "label": "Karta",
@@ -9097,7 +9097,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-osmo-udda-veckor-2026",
+    "id": "doa-kvallskörning-osmo-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ösmo, udda veckor",
     "date": "2026-06-17",
     "dateEnd": "2026-06-17",
@@ -9105,14 +9105,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-06-17/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-06-17/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
+    "descriptionFull": "DOA - Kvällskörning Ösmo, udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-06-17/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor/2026-06-17/"
       },
       {
         "label": "Karta",
@@ -9122,7 +9122,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-06-17",
     "dateEnd": "2026-06-17",
@@ -9130,14 +9130,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-17/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-06-17/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-17/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-06-17/"
       },
       {
         "label": "Karta",
@@ -9158,7 +9158,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-18/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9172,7 +9172,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-06-18",
     "dateEnd": "2026-06-18",
@@ -9180,14 +9180,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-18/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-06-18/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-18/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-06-18/"
       },
       {
         "label": "Karta",
@@ -9197,7 +9197,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-06-18",
     "dateEnd": "2026-06-18",
@@ -9205,14 +9205,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-18/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-06-18/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-18/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-06-18/"
       },
       {
         "label": "Karta",
@@ -9222,7 +9222,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-06-18",
     "dateEnd": "2026-06-18",
@@ -9230,14 +9230,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-06-18/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-06-18/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-06-18/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-06-18/"
       },
       {
         "label": "Karta",
@@ -9254,8 +9254,8 @@ const EVENTS_DATA = {
     "location": "Lipno nad Vltavou, Tjeckien",
     "type": "Fest",
     "organizer": "Indian Riders Fest",
-    "description": "Europas storsta Indian Motorcycle-festival firar markts 125-arsjubileum. Fyra dagar med custom show, demo rides och live musik vid Lipnosjon.",
-    "descriptionFull": "18-21 juni 2026, Lipno nad Vltavou, Tjeckien\n\nEn speciell utgava som firar Indian Motorcycles 125-arsjubileum. Eventet ager rum vid den vackra Lipnosjon i Tjeckien.\n\nFestivalen samlar tusentals MC-entusiaster fran hela varlden. 2025 lockade eventet nastan 4 000 besokare fran 44 lander.\n\nHojdpunkter:\n- Budweis Indian Motorcycle Custom Show (BCS), 5:e upplagan\n- Demo rides pa Indian Motorcycles\n- Live konserter och underhallning\n- Wall of Death\n- Utstallare och tillbehor\n- Parade Ride med Ladies First-prioritet\n\nIRF26 Riders Pack (125 EUR) inkluderar limited edition t-shirt, patch, parkering och tillgang till demo rides. Bara 1 250 pack finns tillgangliga.\n\nPlats: Lipno nad Vltavou, Tjeckien.",
+    "description": "Europas största Indian Motorcycle-festival firar markts 125-årsjubileum. Fyra dagar med custom show, demo rides och live musik vid Lipnosjon.",
+    "descriptionFull": "18-21 juni 2026, Lipno nad Vltavou, Tjeckien\n\nEn speciell utgåva som firar Indian Motorcycles 125-årsjubileum. Eventet äger rum vid den vackra Lipnosjon i Tjeckien.\n\nFestivalen samlar tusentals MC-entusiaster från hela världen. 2025 lockade eventet nästan 4 000 besökare från 44 länder.\n\nHöjdpunkter:\n- Budweis Indian Motorcycle Custom Show (BCS), 5:e upplagan\n- Demo rides på Indian Motorcycles\n- Live konserter och underhållning\n- Wall of Death\n- Utstallare och tillbehör\n- Parade Ride med Ladies First-prioritet\n\nIRF26 Riders Pack (125 EUR) inkluderar limited edition t-shirt, patch, parkering och tillgång till demo rides. Bara 1 250 pack finns tillgångliga.\n\nPlats: Lipno nad Vltavou, Tjeckien.",
     "backImage": "ads/indian-riders-fest-back-2026-06-18.jpg",
     "frontImage": "ads/indian-riders-fest-front-2026-06-18.jpg",
     "links": [
@@ -9289,7 +9289,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/",
     "region": "Sverige",
     "source": "hdcs.se",
-    "descriptionFull": "H-DCS Midsommarträff arrangeras av H-DCS.\n\nH-DCS midsommarträff. Fira midsommar tillsammans med Harley-vänner från hela landet.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "H-DCS Midsommarträff arrangeras av H-DCS.\n\nH-DCS midsommarträff. Fira midsommar tillsammans med Harley-vänner från hela landet.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9314,7 +9314,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/h-dcdk-sjalland-midsommar-traff-2/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "H-DCDK Själland Midsommar träff arrangeras av H-DCS.\n\nArrangemang med H-DCS från Själland, Danmark. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Själland, Danmark.",
+    "descriptionFull": "H-DCDK Själland Midsommar träff arrangeras av H-DCS.\n\nArrangemang med H-DCS från Själland, Danmark. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Själland, Danmark.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9339,7 +9339,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-midsommartraff-pa-hasselbacken-i-alstermo-19-21-juni/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Midsommarträff på Hasselbacken i Alstermo 19-21 juni arrangeras av H-DCS.\n\nMidsommarträff 19 - 21 juni på Hasselbacken i Alstermo. Välkommen att fira midsommar med oss i HDCS-E på den fantastiskt fina festplatsen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Alstermo.",
+    "descriptionFull": "DOE Midsommarträff på Hasselbacken i Alstermo 19-21 juni arrangeras av H-DCS.\n\nMidsommarträff 19 - 21 juni på Hasselbacken i Alstermo. Välkommen att fira midsommar med oss i HDCS-E på den fantastiskt fina festplatsen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Alstermo.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9353,7 +9353,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-06-20",
     "dateEnd": "2026-06-20",
@@ -9361,14 +9361,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-06-20/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-06-20/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-06-20/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-06-20/"
       },
       {
         "label": "Karta",
@@ -9378,7 +9378,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-06-20",
     "dateEnd": "2026-06-20",
@@ -9386,14 +9386,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-06-20/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-06-20/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-06-20/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-06-20/"
       },
       {
         "label": "Karta",
@@ -9404,18 +9404,18 @@ const EVENTS_DATA = {
   },
   {
     "id": "skovde-mc-sommartorget-2026",
-    "name": "MC-Sommartorget Skovde",
+    "name": "MC-Sommartorget Skövde",
     "date": "2026-06-20",
     "dateEnd": "2026-06-20",
-    "location": "Kulturhuset, Skovde",
+    "location": "Kulturhuset, Skövde",
     "type": "Träff",
     "organizer": "Skaraborg MC Vanner",
-    "description": "En avslappnad sommartraff for alla MC-entusiaster i Skaraborg. Parkering och fika.",
+    "description": "En avslappnad sommartraff för alla MC-entusiaster i Skaraborg. Parkering och fika.",
     "link": "https://druk.se/",
     "region": "Västra Götaland",
     "source": "manual",
     "_canary": true,
-    "descriptionFull": "MC-Sommartorget Skovde arrangeras av Skaraborg MC Vanner.\n\nEn avslappnad sommartraff for alla MC-entusiaster i Skaraborg. Parkering och fika.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Kulturhuset, Skovde.",
+    "descriptionFull": "MC-Sommartorget Skövde arrangeras av Skaraborg MC Vanner.\n\nEn avslappnad sommartraff för alla MC-entusiaster i Skaraborg. Parkering och fika.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kulturhuset, Skövde.",
     "links": [
       {
         "label": "druk.se",
@@ -9429,7 +9429,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-06-22",
     "dateEnd": "2026-06-22",
@@ -9437,14 +9437,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-22/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-22/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-22/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-22/"
       },
       {
         "label": "Karta",
@@ -9465,7 +9465,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-23/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9479,7 +9479,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-06-23",
     "dateEnd": "2026-06-23",
@@ -9487,14 +9487,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-23/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-23/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-23/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-23/"
       },
       {
         "label": "Karta",
@@ -9504,7 +9504,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, jämna veckor",
     "date": "2026-06-23",
     "dateEnd": "2026-06-23",
@@ -9512,14 +9512,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-06-23/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-06-23/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-06-23/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor/2026-06-23/"
       },
       {
         "label": "Karta",
@@ -9529,7 +9529,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-06-24",
     "dateEnd": "2026-06-24",
@@ -9537,14 +9537,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-24/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-06-24/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-24/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby/2026-06-24/"
       },
       {
         "label": "Karta",
@@ -9565,7 +9565,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lo-i-hoj-cafe-sidensjo/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Hoj-Cafe Sidensjö arrangeras av H-DCS.\n\nÄnnu en gång är vi välkomna till Bygdegården i Sidensjö.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sidensjö Bygdegård, Sidensjö.",
+    "descriptionFull": "LO-I Hoj-Cafe Sidensjö arrangeras av H-DCS.\n\nÄnnu en gång är vi välkomna till Bygdegården i Sidensjö.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sidensjö Bygdegård, Sidensjö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9579,7 +9579,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-06-24",
     "dateEnd": "2026-06-24",
@@ -9587,14 +9587,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-24/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning/2026-06-24/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-24/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning/2026-06-24/"
       },
       {
         "label": "Karta",
@@ -9615,7 +9615,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-25/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9629,7 +9629,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-06-25",
     "dateEnd": "2026-06-25",
@@ -9637,14 +9637,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-25/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-06-25/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-25/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-3/2026-06-25/"
       },
       {
         "label": "Karta",
@@ -9654,7 +9654,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-skogskyrkogarden-2026",
+    "id": "doa-kvallskörning-skogskyrkogarden-2026",
     "name": "DOA - Kvällskörning Skogskyrkogården",
     "date": "2026-06-25",
     "dateEnd": "2026-06-25",
@@ -9662,14 +9662,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-25/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-06-25/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällskörning Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-25/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-skogskyrkogarden-3/2026-06-25/"
       },
       {
         "label": "Karta",
@@ -9690,7 +9690,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-06-25/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9704,7 +9704,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-06-25",
     "dateEnd": "2026-06-25",
@@ -9712,14 +9712,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-06-25/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-06-25/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-06-25/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-06-25/"
       },
       {
         "label": "Karta",
@@ -9736,11 +9736,11 @@ const EVENTS_DATA = {
     "location": "Degeberga Stugby, Degeberga",
     "type": "Träff",
     "organizer": "Skanewingarna / GWCS",
-    "description": "GWCS Nationella traff och foreningsstamma i Degeberga, Skane. Traffavgift 450:- for medlemmar.",
+    "description": "GWCS Nationella traff och foreningsstamma i Degeberga, Skane. Traffavgift 450:- för medlemmar.",
     "link": "https://media.gwcs.se/2026/01/Inbjudan-Nationella-2026-foreningsstamma1.pdf",
     "region": "Skåne",
     "source": "gwcs.se",
-    "descriptionFull": "Nationell traff Degeberga GWCS arrangeras av Skanewingarna / GWCS.\n\nGWCS Nationella traff och foreningsstamma i Degeberga, Skane. Traffavgift 450:- for medlemmar.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Degeberga Stugby, Degeberga.",
+    "descriptionFull": "Nationell traff Degeberga GWCS arrangeras av Skanewingarna / GWCS.\n\nGWCS Nationella traff och foreningsstamma i Degeberga, Skane. Traffavgift 450:- för medlemmar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Degeberga Stugby, Degeberga.",
     "links": [
       {
         "label": "media.gwcs.se",
@@ -9765,7 +9765,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/178",
     "region": "Östergötland",
     "source": "mcparken.se",
-    "descriptionFull": "Roadracing SM - Sviestad arrangeras av MotoSE / Svemo.\n\nMC-arrangemang i Sviestad, Linköping. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Sviestad, Linköping.",
+    "descriptionFull": "Roadracing SM - Sviestad arrangeras av MotoSE / Svemo.\n\nMC-arrangemang i Sviestad, Linköping. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Sviestad, Linköping.",
     "links": [
       {
         "label": "mcparken.se",
@@ -9790,7 +9790,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/mcq-lager-hos-marre-i-mahult/",
     "region": "Gotland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D14. McQ-läger hos Marre i Mahult arrangeras av BMW MC-klubben.\n\nFör fjärde året bjuds det in till lägerhelg utanför Halmstad. Helgen 26-28 juni ses vi i metropolen Mahult i Simlångsdalen för att köra på fina halländska och småländska vägar!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Ryabergsvägen 6, Simlångsdalen.",
+    "descriptionFull": "D14. McQ-läger hos Marre i Mahult arrangeras av BMW MC-klubben.\n\nFör fjärde året bjuds det in till lägerhelg utanför Halmstad. Helgen 26-28 juni ses vi i metropolen Mahult i Simlångsdalen för att köra på fina halländska och småländska vägar!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Ryabergsvägen 6, Simlångsdalen.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -9815,7 +9815,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/charity-run/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Charity Run arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "Charity Run arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9840,7 +9840,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-adelso-runt/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Adelsö Runt arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Adelsö. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Adelsö.",
+    "descriptionFull": "DOA - Adelsö Runt arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Adelsö. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Adelsö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9865,7 +9865,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-charity-run/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Charity Run arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "DOB- Charity Run arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9890,7 +9890,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-h-d-golfen/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C H-D Golfen arrangeras av H-DCS.\n\nArrangemang med H-DCS från Halland/VGötaland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Halland/VGötaland.",
+    "descriptionFull": "DO-C H-D Golfen arrangeras av H-DCS.\n\nArrangemang med H-DCS från Halland/VGötaland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Halland/VGötaland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9915,7 +9915,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-charity-run/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Charity Run arrangeras av H-DCS.\n\nArrangemang med H-DCS från Halland/VGötaland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Halland/VGötaland.",
+    "descriptionFull": "DO-C Charity Run arrangeras av H-DCS.\n\nArrangemang med H-DCS från Halland/VGötaland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Halland/VGötaland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9940,7 +9940,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-charity-run-27-juni/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Charity run 27 juni arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "DOE Charity run 27 juni arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9965,7 +9965,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-charity-run-2026/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Charity Run 2026 arrangeras av H-DCS.\n\nI år prövar vi samma plats som ligger i Norsjövallen för vår gemensamma samlingspunkt i länet.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Monikas Café, Norsjö.",
+    "descriptionFull": "DOH-Charity Run 2026 arrangeras av H-DCS.\n\nI år prövar vi samma plats som ligger i Norsjövallen för vår gemensamma samlingspunkt i länet.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Monikas Café, Norsjö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -9979,7 +9979,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-06-27",
     "dateEnd": "2026-06-27",
@@ -9987,14 +9987,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-06-27/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-06-27/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-06-27/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-06-27/"
       },
       {
         "label": "Karta",
@@ -10004,7 +10004,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-06-27",
     "dateEnd": "2026-06-27",
@@ -10012,14 +10012,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-06-27/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-06-27/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-06-27/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-06-27/"
       },
       {
         "label": "Karta",
@@ -10040,7 +10040,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-i-charity-run-2/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-I Charity Run arrangeras av H-DCS.\n\nÅrets körning körs till gemensamt mål och startar på 6 olika platser. -Sundsvall. Avfärd 11:30 från Shell Bydalen.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Västernorrland.",
+    "descriptionFull": "DO-I Charity Run arrangeras av H-DCS.\n\nÅrets körning körs till gemensamt mål och startar på 6 olika platser. -Sundsvall. Avfärd 11:30 från Shell Bydalen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västernorrland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10065,7 +10065,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-06-27/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10090,7 +10090,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-tur-fran-bromolla-2/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Tur från Bromölla arrangeras av BMW MC-klubben.\n\nKörning med D15 från Bromölla. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Bromölla.",
+    "descriptionFull": "D15 Tur från Bromölla arrangeras av BMW MC-klubben.\n\nKörning med D15 från Bromölla. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Bromölla.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -10115,7 +10115,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-b2b-back-to-basic/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 B2b (back to basic) arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Frostavallsvägen 2, 243 32 Höör, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Frostavallsvägen 2, Höör.",
+    "descriptionFull": "D15 B2b (back to basic) arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Frostavallsvägen 2, 243 32 Höör, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Frostavallsvägen 2, Höör.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -10129,7 +10129,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-06-29",
     "dateEnd": "2026-06-29",
@@ -10137,14 +10137,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-29/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-29/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nOBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-29/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-3/2026-06-29/"
       },
       {
         "label": "Karta",
@@ -10165,7 +10165,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-30/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10179,7 +10179,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-c-boras-tisdags-korningar-2026",
+    "id": "lo-c-boras-tisdags-körningar-2026",
     "name": "LO-C Borås tisdags körningar.",
     "date": "2026-06-30",
     "dateEnd": "2026-06-30",
@@ -10187,14 +10187,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.",
-    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-30/",
+    "link": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-30/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Borås tisdags körningar. arrangeras av H-DCS.\n\nVälkomna på tisdags körning LO Paula guidar oss på en tur. Samling kl. 17:20 Avfärd kl. 17.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-korningar/2026-06-30/"
+        "url": "https://hdcs.se/evenemang/lo-c-boras-tisdags-körningar/2026-06-30/"
       },
       {
         "label": "Karta",
@@ -10204,7 +10204,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-06-30",
     "dateEnd": "2026-06-30",
@@ -10212,14 +10212,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-06-30/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-06-30/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-06-30/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor/2026-06-30/"
       },
       {
         "label": "Karta",
@@ -10265,7 +10265,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-sommarkvallstur-nacka/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Sommarkvällstur Nacka arrangeras av H-DCS.\n\nLO Göran tar oss med på en sommarkvällstur Samling kl. 17:30, Samlingsplats, bortre parkeringen på McDonalds Nacka Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Sommarkvällstur Nacka arrangeras av H-DCS.\n\nLO Göran tar oss med på en sommarkvällstur Samling kl. 17:30, Samlingsplats, bortre parkeringen på McDonalds Nacka Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10290,7 +10290,7 @@ const EVENTS_DATA = {
     "link": "https://vasterassummermeet.se/",
     "region": "Västmanland",
     "source": "vasterassummermeet.se",
-    "descriptionFull": "Västerås Summer Meet arrangeras av Västerås Summer Meet.\n\nStort bil- och mc-evenemang mitt i sommaren. Cruising, utställningar och livemusik.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangoren for tider.\n\nPlats: Västerås.",
+    "descriptionFull": "Västerås Summer Meet arrangeras av Västerås Summer Meet.\n\nStort bil- och mc-evenemang mitt i sommaren. Cruising, utställningar och livemusik.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangören för tider.\n\nPlats: Västerås.",
     "links": [
       {
         "label": "vasterassummermeet.se",
@@ -10315,7 +10315,7 @@ const EVENTS_DATA = {
     "link": "https://www.svmc.se/",
     "region": "Finland",
     "source": "svmc.se",
-    "descriptionFull": "Ålandsträffen arrangeras av SMC.\n\nArrangemang med SMC i Gröna Uddens Camping, Åland. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Gröna Uddens Camping, Åland.",
+    "descriptionFull": "Ålandsträffen arrangeras av SMC.\n\nArrangemang med SMC i Gröna Uddens Camping, Åland. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gröna Uddens Camping, Åland.",
     "links": [
       {
         "label": "svmc.se",
@@ -10329,7 +10329,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-07-02",
     "dateEnd": "2026-07-02",
@@ -10337,14 +10337,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-02/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-02/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-02/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-02/"
       },
       {
         "label": "Karta",
@@ -10365,7 +10365,7 @@ const EVENTS_DATA = {
     "link": "https://www.alltommc.se/gotland-ring-bike-week-2026-early-bird-erbjudande/",
     "region": "Gotland",
     "source": "alltommc.se",
-    "descriptionFull": "Gotland Ring Bike Week arrangeras av Gotland Ring.\n\nTre dagar på Gotlands racingbana. Bankörning, provkörningar och mc-festival på ön.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Gotland Ring, Gotland.",
+    "descriptionFull": "Gotland Ring Bike Week arrangeras av Gotland Ring.\n\nTre dagar på Gotlands racingbana. Bankörning, provkörningar och mc-festival på ön.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Gotland Ring, Gotland.",
     "links": [
       {
         "label": "alltommc.se",
@@ -10390,7 +10390,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-enuddetraffen-oland-3-5-juli/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Enuddeträffen Öland 3-5 juli arrangeras av H-DCS.\n\nEnuddenträffen Öland Kalmar Harley Club 3-5 juli 2026 Från kl 12.00 fredag till söndag kl 12.00 Träffavgift: 350 kr inkl frukost.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Öland.",
+    "descriptionFull": "DOE Enuddeträffen Öland 3-5 juli arrangeras av H-DCS.\n\nEnuddenträffen Öland Kalmar Harley Club 3-5 juli 2026 Från kl 12.00 fredag till söndag kl 12.00 Träffavgift: 350 kr inkl frukost.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Öland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10445,7 +10445,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/vanern-runt/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Vänern runt arrangeras av H-DCS.\n\nArrangemang med H-DCS från Vänern. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Vänern.",
+    "descriptionFull": "Vänern runt arrangeras av H-DCS.\n\nArrangemang med H-DCS från Vänern. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Vänern.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10470,7 +10470,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-charity-run-2/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Charity Run arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Stockholm. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Charity Run arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Stockholm. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10495,7 +10495,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-cherity-run/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  Cherity Run arrangeras av H-DCS.\n\nVästerdalarna: Stefan kör från Frendo i Malng Micke kör från MC Dolnad Mora Hudiksvall Lasse och Anders Sandviken.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Mora.",
+    "descriptionFull": "DOG  Cherity Run arrangeras av H-DCS.\n\nVästerdalarna: Stefan kör från Frendo i Malng Micke kör från MC Dolnad Mora Hudiksvall Lasse och Anders Sandviken.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Mora.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10509,7 +10509,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-07-04",
     "dateEnd": "2026-07-04",
@@ -10517,14 +10517,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-07-04/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-07-04/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-07-04/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-07-04/"
       },
       {
         "label": "Karta",
@@ -10534,7 +10534,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-07-04",
     "dateEnd": "2026-07-04",
@@ -10542,14 +10542,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-07-04/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-07-04/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-07-04/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-07-04/"
       },
       {
         "label": "Karta",
@@ -10570,7 +10570,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/vattern-runt-fran-askersund-en-svensk-mc-klassiker/",
     "region": "Örebro",
     "source": "bmwklubben.se",
-    "descriptionFull": "Vättern Runt från Askersund - En svensk mc-klassiker arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Klockaregatan, 696 32 Askersund, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Klockaregatan, Askersund.",
+    "descriptionFull": "Vättern Runt från Askersund - En svensk mc-klassiker arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Klockaregatan, 696 32 Askersund, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Klockaregatan, Askersund.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -10595,7 +10595,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/vattern-runt-fran-jonkoping-en-svensk-mc-klassiker/",
     "region": "Jönköping",
     "source": "bmwklubben.se",
-    "descriptionFull": "Vättern Runt från Jönköping - En svensk mc-klassiker arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Birkagatan 8, 554 65 Jönköping, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Birkagatan 8, Jönköping.",
+    "descriptionFull": "Vättern Runt från Jönköping - En svensk mc-klassiker arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Birkagatan 8, 554 65 Jönköping, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Birkagatan 8, Jönköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -10620,7 +10620,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-udda-matplatser/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Udda platser i Skåne: Smakrunda på Österlen arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Sellerigatan 7, 224 78 Lund, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sellerigatan 7, Lund.",
+    "descriptionFull": "D15 Udda platser i Skåne: Smakrunda på Österlen arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Sellerigatan 7, 224 78 Lund, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sellerigatan 7, Lund.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -10645,7 +10645,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/dagtouring-3/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -10670,7 +10670,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-lars-eriks-glassrunda/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Lars-Eriks glassrunda arrangeras av H-DCS.\n\nArrangemang med H-DCS från Halland/VGötaland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Halland/VGötaland.",
+    "descriptionFull": "DO-C Lars-Eriks glassrunda arrangeras av H-DCS.\n\nArrangemang med H-DCS från Halland/VGötaland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Halland/VGötaland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10695,7 +10695,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-nordic-run/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Nordic Run arrangeras av H-DCS.\n\nNordic Run 2026 2026-07-07 Samling och start vid Mc Donald Lockarp. Ligger c:a 8 km efter betalstationen avfart Lockarp. Starten går kl.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "DOB- Nordic Run arrangeras av H-DCS.\n\nNordic Run 2026 2026-07-07 Samling och start vid Mc Donald Lockarp. Ligger c:a 8 km efter betalstationen avfart Lockarp. Starten går kl.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10720,7 +10720,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-nordic-run-genom-distrikt-e-7-8-juli/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Nordic run genom Distrikt-E 7-8 juli arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "DOE Nordic run genom Distrikt-E 7-8 juli arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10745,7 +10745,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-07-07/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10770,7 +10770,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-sommarkvallstur-taby/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Sommarkvällstur Täby arrangeras av H-DCS.\n\nLO Martin tar oss med på en sommarkvällstur Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Sommarkvällstur Täby arrangeras av H-DCS.\n\nLO Martin tar oss med på en sommarkvällstur Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10791,8 +10791,8 @@ const EVENTS_DATA = {
     "location": "Solbergavagen 28, Akers Styckebruk",
     "type": "Träff",
     "organizer": "Persakers Speed Shop AB",
-    "description": "Kvallens tema ar Stiligaste Hojen! Motorcykel med valfritt antal hjul tavlar om kvallens pris. Frana Fiket serverar korv och fika.",
-    "descriptionFull": "Persakers Speed Shop arrangerar Stiligaste Hojen den 8 juli.\n\nKvallens tema ar Stiligaste Hojen. Motorcykel med valfritt antal hjul tavlar om kvallens pris!\n\nFrana Fiket serverar korv och fika och ar oppet som vanligt 16:00-19:00. Prisutdelning ca 18:15.\n\nTid: 16:00-19:00\nLangd: ca 3 timmar\n\nValkommen!\n\nPlats: Solbergavagen 28, 64752 Akers Styckebruk.",
+    "description": "Kvällens tema är Stiligaste Hojen! Motorcykel med valfritt antal hjul tävlar om kvällens pris. Fräna Fiket serverar korv och fika.",
+    "descriptionFull": "Persåkers Speed Shop arrangerar Stiligaste Hojen den 8 juli.\n\nKvällens tema är Stiligaste Hojen. Motorcykel med valfritt antal hjul tävlar om kvällens pris!\n\nFräna Fiket serverar korv och fika och är öppet som vanligt 16:00-19:00. Prisutdelning ca 18:15.\n\nTid: 16:00-19:00\nLängd: ca 3 timmar\n\nVälkommen!\n\nPlats: Solbergavägen 28, 64752 Åkers Styckebruk.",
     "backImage": "ads/stiligaste-hojen-back-2026-07-08.jpg",
     "links": [
       {
@@ -10810,7 +10810,7 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
-    "id": "do-c-gemensam-korning-till-bornholm-2026",
+    "id": "do-c-gemensam-körning-till-bornholm-2026",
     "name": "DO-C Gemensam körning till Bornholm",
     "date": "2026-07-09",
     "dateEnd": "2026-07-09",
@@ -10818,14 +10818,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Körtur med H-DCS från Bornholm. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.",
-    "link": "https://hdcs.se/evenemang/do-c-gemensam-korning-till-bornholm/",
+    "link": "https://hdcs.se/evenemang/do-c-gemensam-körning-till-bornholm/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Gemensam körning till Bornholm arrangeras av H-DCS.\n\nKörtur med H-DCS från Bornholm. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Bornholm.",
+    "descriptionFull": "DO-C Gemensam körning till Bornholm arrangeras av H-DCS.\n\nKörtur med H-DCS från Bornholm. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Bornholm.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/do-c-gemensam-korning-till-bornholm/"
+        "url": "https://hdcs.se/evenemang/do-c-gemensam-körning-till-bornholm/"
       },
       {
         "label": "Karta",
@@ -10846,7 +10846,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-07-09/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10860,7 +10860,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-07-09",
     "dateEnd": "2026-07-09",
@@ -10868,14 +10868,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-09/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-09/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-09/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-09/"
       },
       {
         "label": "Karta",
@@ -10896,7 +10896,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-smalandshelg-med-grand-prix-speedway-i-malilla/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Smålandshelg med Grand prix speedway i Målilla arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Frostavallsvägen 2, 243 32 Höör, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Frostavallsvägen 2, Höör.",
+    "descriptionFull": "D15 Smålandshelg med Grand prix speedway i Målilla arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Frostavallsvägen 2, 243 32 Höör, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Frostavallsvägen 2, Höör.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -10921,7 +10921,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-smygeturen/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Smygeturen arrangeras av BMW MC-klubben.\n\nKvällstur till Sveriges sydligaste plats. Samling vid Bökeberg Södra parkering, väg 108 mellan Klågerup och Svedala.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Bökeberg, Svedala.",
+    "descriptionFull": "D15 Smygeturen arrangeras av BMW MC-klubben.\n\nKvällstur till Sveriges sydligaste plats. Samling vid Bökeberg Södra parkering, väg 108 mellan Klågerup och Svedala.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Bökeberg, Svedala.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -10976,7 +10976,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-fredagstur-med-nordic-run/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Fredagstur med Nordic Run arrangeras av H-DCS.\n\nVi kommer ledsaga Nordic run genom distrikt A via; Enköping - Sala silvergruva - Vikingabyn Storholmen - Restaurang Havspiren.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Mels garage, Enköping.",
+    "descriptionFull": "DOA - Fredagstur med Nordic Run arrangeras av H-DCS.\n\nVi kommer ledsaga Nordic run genom distrikt A via; Enköping - Sala silvergruva - Vikingabyn Storholmen - Restaurang Havspiren.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Mels garage, Enköping.",
     "links": [
       {
         "label": "hdcs.se",
@@ -10990,7 +10990,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-07-11",
     "dateEnd": "2026-07-11",
@@ -10998,14 +10998,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-07-11/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-07-11/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-07-11/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-07-11/"
       },
       {
         "label": "Karta",
@@ -11015,7 +11015,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-07-11",
     "dateEnd": "2026-07-11",
@@ -11023,14 +11023,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-07-11/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-07-11/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-07-11/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-07-11/"
       },
       {
         "label": "Karta",
@@ -11051,7 +11051,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-07-11/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11076,7 +11076,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/grillfest-2/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Grillfest arrangeras av ÖAMCK.\n\nArrangemang med ÖAMCK i Stangby, Uppsala. Gemensamt event för MC-entusiaster. Mer info på oamck.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stangby, Uppsala.",
+    "descriptionFull": "ÖAMCK Grillfest arrangeras av ÖAMCK.\n\nArrangemang med ÖAMCK i Stangby, Uppsala. Gemensamt event för MC-entusiaster. Mer info på oamck.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stangby, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -11102,7 +11102,7 @@ const EVENTS_DATA = {
     "region": "Värmland",
     "source": "manual",
     "_canary": true,
-    "descriptionFull": "Varmlandskransen MC-treff arrangeras av Klaralvens MC Forening.\n\nMC-arrangemang i Mariebergsskogen, Karlstad. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Mariebergsskogen, Karlstad.",
+    "descriptionFull": "Varmlandskransen MC-treff arrangeras av Klaralvens MC Forening.\n\nMC-arrangemang i Mariebergsskogen, Karlstad. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Mariebergsskogen, Karlstad.",
     "links": [
       {
         "label": "druk.se",
@@ -11127,7 +11127,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-07-14/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11152,7 +11152,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-sommarkvallstur-ekero/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Sommarkvällstur Ekerö arrangeras av H-DCS.\n\nDO/LO Lennart tar oss med på en sommarkvällstur Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Sommarkvällstur Ekerö arrangeras av H-DCS.\n\nDO/LO Lennart tar oss med på en sommarkvällstur Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11166,7 +11166,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-07-16",
     "dateEnd": "2026-07-16",
@@ -11174,14 +11174,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-16/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-16/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-16/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-16/"
       },
       {
         "label": "Karta",
@@ -11202,7 +11202,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/",
     "region": "Sverige",
     "source": "hdcs.se",
-    "descriptionFull": "H-DCS Rally arrangeras av H-DCS.\n\nH-DCS årliga rally. Harley-ägare från hela Sverige samlas för sommarens stora händelse.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "H-DCS Rally arrangeras av H-DCS.\n\nH-DCS årliga rally. Harley-ägare från hela Sverige samlas för sommarens stora händelse.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11227,7 +11227,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/hemlig-tur/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Hemlig tur...? arrangeras av H-DCS.\n\nKörtur med H-DCS från Hemligt. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Hemligt.",
+    "descriptionFull": "Hemlig tur...? arrangeras av H-DCS.\n\nKörtur med H-DCS från Hemligt. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Hemligt.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11252,7 +11252,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-hoglandsturen-med-jonas-lager-17-juli/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Höglandsturen med Jonas Lager 17 juli arrangeras av H-DCS.\n\nKörtur med H-DCS DOE från Småland. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Småland.",
+    "descriptionFull": "DOE Höglandsturen med Jonas Lager 17 juli arrangeras av H-DCS.\n\nKörtur med H-DCS DOE från Småland. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Småland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11277,7 +11277,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-bergsjotraffen/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG Bergsjöträffen arrangeras av H-DCS.\n\nTräffpunkt för DOG i Bergsjö. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Bergsjö.",
+    "descriptionFull": "DOG Bergsjöträffen arrangeras av H-DCS.\n\nTräffpunkt för DOG i Bergsjö. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Bergsjö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11298,8 +11298,8 @@ const EVENTS_DATA = {
     "location": "Falkenbergs motorbana, Falkenberg",
     "type": "Fest",
     "organizer": "Wheels & Wings",
-    "description": "En av Sveriges storsta bil- och mctraffar med utstallning, swapmeet och flyguppvisning pa Falkenbergs motorbana. Tva dagar fulla av motor och gemenskap.",
-    "descriptionFull": "Wheels & Wings ar en av Sveriges storsta bil- och mctraffar och arrangeras pa Falkenbergs motorbana i Halland.\n\nEventet pagar i tva dagar med utstallning, swapmeet och flyguppvisning. Har samlas entusiaster fran hela landet for att visa upp sina fordon och njuta av gemenskapen.\n\nFredag 17 juli: kl 8-17\nLordag 18 juli: kl 8-18\n\nEntre: 200 kr/dag/person.\n\nAll information finns pa wheelsandwings.se.\n\nPlats: Falkenbergs Motorbana, Hallarp, SE-311 95 Falkenberg.",
+    "description": "En av Sveriges största bil- och mcträffar med utställning, swapmeet och flyguppvisning på Falkenbergs motorbana. Tva dagar fulla av motor och gemenskap.",
+    "descriptionFull": "Wheels & Wings är en av Sveriges största bil- och mcträffar och arrangeras på Falkenbergs motorbana i Halland.\n\nEventet pågår i två dagar med utställning, swapmeet och flyguppvisning. Här samlas entusiaster från hela landet för att visa upp sina fordon och njuta av gemenskapen.\n\nFredag 17 juli: kl 8-17\nLördag 18 juli: kl 8-18\n\nEntré: 200 kr/dag/person.\n\nAll information finns på wheelsandwings.se.\n\nPlats: Falkenbergs Motorbana, Hallarp, SE-311 95 Falkenberg.",
     "backImage": "ads/wheelswings-back-2026-07-17.jpg",
     "links": [
       {
@@ -11321,7 +11321,7 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-07-18",
     "dateEnd": "2026-07-18",
@@ -11329,14 +11329,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-07-18/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-07-18/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-07-18/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-07-18/"
       },
       {
         "label": "Karta",
@@ -11346,7 +11346,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-07-18",
     "dateEnd": "2026-07-18",
@@ -11354,14 +11354,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-07-18/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-07-18/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-07-18/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-07-18/"
       },
       {
         "label": "Karta",
@@ -11382,7 +11382,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d14-tandsticksfabriken/",
     "region": "Jönköping",
     "source": "bmwklubben.se",
-    "descriptionFull": "D14-Tändstick & Motormuseum arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D14 från Jönköping. Besök samt MC-körning. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Jönköping.",
+    "descriptionFull": "D14-Tändstick & Motormuseum arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D14 från Jönköping. Besök samt MC-körning. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Jönköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -11407,7 +11407,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-07-19/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11432,7 +11432,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-07-21/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11457,7 +11457,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/fikatur-med-classic-till-nykvarns-slusscafe-alla-ar-valkomna/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Fikaträff med Classic på Nykvarns Slusscafé (alla är välkomna) arrangeras av BMW MC-klubben.\n\nFikaträff vid Nykvarns Slusscafé i Linköping. Kolla in fina BMW-hojar, ta en fika och umgås med klubbkompisar.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nykvarns Slusscafé, Linköping.",
+    "descriptionFull": "Fikaträff med Classic på Nykvarns Slusscafé (alla är välkomna) arrangeras av BMW MC-klubben.\n\nFikaträff vid Nykvarns Slusscafé i Linköping. Kolla in fina BMW-hojar, ta en fika och umgås med klubbkompisar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nykvarns Slusscafé, Linköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -11482,7 +11482,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/57263/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Sommarkvällstur Skogskyrkogården arrangeras av H-DCS.\n\nLO Petra tar oss med på en sommarkvällstur Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Sommarkvällstur Skogskyrkogården arrangeras av H-DCS.\n\nLO Petra tar oss med på en sommarkvällstur Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11507,7 +11507,7 @@ const EVENTS_DATA = {
     "link": "https://www.hojrock.se/",
     "region": "Västra Götaland",
     "source": "hojrock.se",
-    "descriptionFull": "HojRock arrangeras av HojRock.\n\nEn av Nordens största MC-träffar. Livemusik, camping och mc-gemenskap på Tånga Hed.\n\nFest och social sammankomst for MC-folket. Se arrangoren for detaljer.\n\nPlats: Tånga Hed, Vårgårda.",
+    "descriptionFull": "HojRock arrangeras av HojRock.\n\nEn av Nordens största MC-träffar. Livemusik, camping och mc-gemenskap på Tånga Hed.\n\nFest och social sammankomst för MC-folket. Se arrangören för detaljer.\n\nPlats: Tånga Hed, Vårgårda.",
     "links": [
       {
         "label": "hojrock.se",
@@ -11532,7 +11532,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-07-23/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11546,7 +11546,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-07-23",
     "dateEnd": "2026-07-23",
@@ -11554,14 +11554,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-23/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-23/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-23/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-23/"
       },
       {
         "label": "Karta",
@@ -11582,7 +11582,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/176",
     "region": "Örebro",
     "source": "mcparken.se",
-    "descriptionFull": "Roadracing SM - Gelleråsen arrangeras av MotoSE / Svemo.\n\nMC-arrangemang i Gelleråsen, Karlskoga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Gelleråsen, Karlskoga.",
+    "descriptionFull": "Roadracing SM - Gelleråsen arrangeras av MotoSE / Svemo.\n\nMC-arrangemang i Gelleråsen, Karlskoga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Gelleråsen, Karlskoga.",
     "links": [
       {
         "label": "mcparken.se",
@@ -11607,7 +11607,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-skanetraffen-2-0-2/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Skåneträffen 2.0 arrangeras av H-DCS.\n\nTräffpunkt för DOB i Skåne. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "DOB- Skåneträffen 2.0 arrangeras av H-DCS.\n\nTräffpunkt för DOB i Skåne. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11632,7 +11632,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/norge-tur-fran-trollhattan/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Norge-tur från Trollhättan arrangeras av H-DCS.\n\nKörtur med H-DCS från Trollhättan. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Trollhättan.",
+    "descriptionFull": "Norge-tur från Trollhättan arrangeras av H-DCS.\n\nKörtur med H-DCS från Trollhättan. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Trollhättan.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11657,7 +11657,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dagstur-med-distrikt-i/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "Dagstur med distrikt I arrangeras av H-DCS.\n\nDagstur till Trollhagens fiskerestaurang med distrikt I 25 juli Tider och samlingsplatser kommer senare Mer info: Annemona Andersson 070.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Västernorrland.",
+    "descriptionFull": "Dagstur med distrikt I arrangeras av H-DCS.\n\nDagstur till Trollhagens fiskerestaurang med distrikt I 25 juli Tider och samlingsplatser kommer senare Mer info: Annemona Andersson 070.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Västernorrland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11671,7 +11671,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-07-25",
     "dateEnd": "2026-07-25",
@@ -11679,14 +11679,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-07-25/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-07-25/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-07-25/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-07-25/"
       },
       {
         "label": "Karta",
@@ -11696,7 +11696,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-07-25",
     "dateEnd": "2026-07-25",
@@ -11704,14 +11704,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-07-25/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-07-25/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-07-25/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-07-25/"
       },
       {
         "label": "Karta",
@@ -11732,7 +11732,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-07-25/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11757,7 +11757,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d14-bynanders/",
     "region": "Halland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D14-Bynanders arrangeras av BMW MC-klubben.\n\nTur på slingriga vägar från Falkenberg till Bynanders Motormuseum i Svenljunga. Lunch efter museibesöket.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Preem, Falkenberg.",
+    "descriptionFull": "D14-Bynanders arrangeras av BMW MC-klubben.\n\nTur på slingriga vägar från Falkenberg till Bynanders Motormuseum i Svenljunga. Lunch efter museibesöket.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Preem, Falkenberg.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -11782,7 +11782,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-07-28/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11807,7 +11807,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-sommarkvallstur-nockeby/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Sommarkvällstur Nockeby arrangeras av H-DCS.\n\nLO Michael tar oss med på en sommarkvällstur Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Sommarkvällstur Nockeby arrangeras av H-DCS.\n\nLO Michael tar oss med på en sommarkvällstur Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11832,7 +11832,7 @@ const EVENTS_DATA = {
     "link": "https://gwef.eu/index.php/2026",
     "region": "Norge",
     "source": "gwef.eu",
-    "descriptionFull": "Treffen Norway (GWEF) arrangeras av Gold Wing Club Norway / GWEF.\n\nMC-arrangemang i Namsos, Norge. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Namsos, Norge.",
+    "descriptionFull": "Treffen Norway (GWEF) arrangeras av Gold Wing Club Norway / GWEF.\n\nMC-arrangemang i Namsos, Norge. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Namsos, Norge.",
     "links": [
       {
         "label": "gwef.eu",
@@ -11846,7 +11846,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-07-30",
     "dateEnd": "2026-07-30",
@@ -11854,14 +11854,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-30/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-30/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-07-30/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-07-30/"
       },
       {
         "label": "Karta",
@@ -11882,7 +11882,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tur-till-bisonturen/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tur till Bisonturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Tur till Bisonturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11907,7 +11907,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/seskaro/",
     "region": "Blekinge",
     "source": "hdcs.se",
-    "descriptionFull": "Seskarö arrangeras av H-DCS.\n\nArrangemang med H-DCS från seskarö camping, Seskarö. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Seskarö Camping, Seskarö.",
+    "descriptionFull": "Seskarö arrangeras av H-DCS.\n\nArrangemang med H-DCS från seskarö camping, Seskarö. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Seskarö Camping, Seskarö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11932,7 +11932,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/bisonturen/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Bisonturen arrangeras av H-DCS.\n\nKörtur med H-DCS från Heby. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Heby.",
+    "descriptionFull": "Bisonturen arrangeras av H-DCS.\n\nKörtur med H-DCS från Heby. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Heby.",
     "links": [
       {
         "label": "hdcs.se",
@@ -11946,7 +11946,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-08-01",
     "dateEnd": "2026-08-01",
@@ -11954,14 +11954,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-01/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-01/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-01/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-01/"
       },
       {
         "label": "Karta",
@@ -11971,7 +11971,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-08-01",
     "dateEnd": "2026-08-01",
@@ -11979,14 +11979,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-01/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-01/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-01/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-01/"
       },
       {
         "label": "Karta",
@@ -12007,7 +12007,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d14-skaneturen/",
     "region": "Halland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D14-Skåneturen arrangeras av BMW MC-klubben.\n\nKörning med D14 från 312 34, Laholm, Hallands län, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Laholm.",
+    "descriptionFull": "D14-Skåneturen arrangeras av BMW MC-klubben.\n\nKörning med D14 från 312 34, Laholm, Hallands län, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Laholm.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -12061,7 +12061,7 @@ const EVENTS_DATA = {
       "Sverige"
     ],
     "source": "gwef.eu",
-    "descriptionFull": "Nordic Wilderness Tour 2026 arrangeras av GWEF Nordic.\n\nGemensam körning från Norge - Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Norge - Sverige.",
+    "descriptionFull": "Nordic Wilderness Tour 2026 arrangeras av GWEF Nordic.\n\nGemensam körning från Norge - Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Norge - Sverige.",
     "links": [
       {
         "label": "gwef.eu",
@@ -12086,7 +12086,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/vilken-jakla-tur/",
     "region": "Västra Götaland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Vilken jäkla tur! arrangeras av BMW MC-klubben.\n\nGemensam körning från Hällingsjövägen 2, 438 96 Hällingsjö, Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Hällingsjövägen 2, Hällingsjö.",
+    "descriptionFull": "Vilken jäkla tur! arrangeras av BMW MC-klubben.\n\nGemensam körning från Hällingsjövägen 2, 438 96 Hällingsjö, Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Hällingsjövägen 2, Hällingsjö.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -12104,15 +12104,15 @@ const EVENTS_DATA = {
     "name": "Norrlandscruisern",
     "date": "2026-08-02",
     "dateEnd": "2026-08-02",
-    "location": "Boulognerskogen, Gavle",
+    "location": "Boulognerskogen, Gävle",
     "type": "Körning",
     "organizer": "Dalarna Riders MC",
-    "description": "MC-arrangemang i Boulognerskogen, Gavle. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
+    "description": "MC-arrangemang i Boulognerskogen, Gävle. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
     "link": "https://druk.se/",
     "region": "Gävleborg",
     "source": "manual",
     "_canary": true,
-    "descriptionFull": "Norrlandscruisern arrangeras av Dalarna Riders MC.\n\nMC-arrangemang i Boulognerskogen, Gavle. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nGemensam korning pa utvalda vagar. Kontrollera evenemangssidan for detaljer.\n\nPlats: Boulognerskogen, Gavle.",
+    "descriptionFull": "Norrlandscruisern arrangeras av Dalarna Riders MC.\n\nMC-arrangemang i Boulognerskogen, Gävle. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Boulognerskogen, Gävle.",
     "links": [
       {
         "label": "druk.se",
@@ -12120,13 +12120,13 @@ const EVENTS_DATA = {
       },
       {
         "label": "Karta",
-        "url": "https://www.google.com/maps/search/?api=1&query=Boulognerskogen%2C+Gavle",
+        "url": "https://www.google.com/maps/search/?api=1&query=Boulognerskogen%2C+Gävle",
         "type": "map"
       }
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-08-03",
     "dateEnd": "2026-08-03",
@@ -12134,14 +12134,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-03/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-03/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-03/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-03/"
       },
       {
         "label": "Karta",
@@ -12187,7 +12187,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-04/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -12201,7 +12201,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
     "date": "2026-08-04",
     "dateEnd": "2026-08-04",
@@ -12209,14 +12209,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-08-04/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-08-04/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-08-04/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-08-04/"
       },
       {
         "label": "Karta",
@@ -12226,7 +12226,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-08-05",
     "dateEnd": "2026-08-05",
@@ -12234,14 +12234,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-05/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-08-05/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-05/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-08-05/"
       },
       {
         "label": "Karta",
@@ -12251,7 +12251,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-08-05",
     "dateEnd": "2026-08-05",
@@ -12259,14 +12259,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-05/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-08-05/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-05/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-08-05/"
       },
       {
         "label": "Karta",
@@ -12288,7 +12288,7 @@ const EVENTS_DATA = {
     "region": "Dalarna",
     "source": "gwef.eu",
     "frontImage": "ads/gwcs-treffen-2026-08-06.jpg",
-    "descriptionFull": "Treffen Sweden (GWEF) arrangeras av GoldWing Club Sweden / GWEF.\n\n41st International Treffen. Orsa Gronklitt 6-9 augusti 2026. Traffavgift GWEF-medlem SEK700, ej medlem SEK850.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Orsa Gronklitt, Dalarna.",
+    "descriptionFull": "Treffen Sweden (GWEF) arrangeras av GoldWing Club Sweden / GWEF.\n\n41st International Treffen. Orsa Gronklitt 6-9 augusti 2026. Traffavgift GWEF-medlem SEK700, ej medlem SEK850.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Orsa Gronklitt, Dalarna.",
     "links": [
       {
         "label": "media.gwcs.se",
@@ -12313,7 +12313,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/h-dcs-internationella-traffen-ostersund/",
     "region": "Jämtland",
     "source": "hdcs.se",
-    "descriptionFull": "H-DCS Internationella Träffen Östersund arrangeras av H-DCS.\n\nArrangemang med H-DCS från Östersund. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Östersund.",
+    "descriptionFull": "H-DCS Internationella Träffen Östersund arrangeras av H-DCS.\n\nArrangemang med H-DCS från Östersund. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Östersund.",
     "links": [
       {
         "label": "hdcs.se",
@@ -12338,7 +12338,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-06/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -12363,7 +12363,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/h-dcs-internationella-traff/",
     "region": "Jämtland",
     "source": "hdcs.se",
-    "descriptionFull": "H-DCS internationella träff arrangeras av H-DCS.\n\nArrangemang med H-DCS från Östersund. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Östersund.",
+    "descriptionFull": "H-DCS internationella träff arrangeras av H-DCS.\n\nArrangemang med H-DCS från Östersund. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Östersund.",
     "links": [
       {
         "label": "hdcs.se",
@@ -12377,7 +12377,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-08-06",
     "dateEnd": "2026-08-06",
@@ -12385,14 +12385,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-06/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-06/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-06/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-06/"
       },
       {
         "label": "Karta",
@@ -12413,7 +12413,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-06/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
@@ -12438,7 +12438,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-08-06/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -12452,7 +12452,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-08-06",
     "dateEnd": "2026-08-06",
@@ -12460,14 +12460,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-08-06/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-08-06/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-08-06/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-08-06/"
       },
       {
         "label": "Karta",
@@ -12488,7 +12488,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-kvallstur-fran-bromolla/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Kvällstur från Bromölla arrangeras av BMW MC-klubben.\n\nKörning med D15 från Bromölla. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Bromölla.",
+    "descriptionFull": "D15 Kvällstur från Bromölla arrangeras av BMW MC-klubben.\n\nKörning med D15 från Bromölla. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Bromölla.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -12502,7 +12502,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-08-08",
     "dateEnd": "2026-08-08",
@@ -12510,14 +12510,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-08/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-08/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-08/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-08/"
       },
       {
         "label": "Karta",
@@ -12527,7 +12527,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-08-08",
     "dateEnd": "2026-08-08",
@@ -12535,14 +12535,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-08/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-08/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-08/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-08/"
       },
       {
         "label": "Karta",
@@ -12563,7 +12563,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-08-08/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -12613,7 +12613,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-glasstur/",
     "region": "Värmland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Glasstur arrangeras av BMW MC-klubben.\n\nGlasstur med BMW MC-klubben D8 i Västra Götaland. Samling och avfärd enligt plan. Kolla bmwklubben.se för detaljer.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Västra, Götaland.",
+    "descriptionFull": "D8 Glasstur arrangeras av BMW MC-klubben.\n\nGlasstur med BMW MC-klubben D8 i Västra Götaland. Samling och avfärd enligt plan. Kolla bmwklubben.se för detaljer.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Västra, Götaland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -12638,7 +12638,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-mcq-sandras-tur/",
     "region": "Kalmar",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 mcQ Sandras asfaltstur arrangeras av BMW MC-klubben.\n\nKörning med D11 från Älgerumsvägen 35, 383 32 Mönsterås, Sweden. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Älgerumsvägen 35, Mönsterås, Sweden.",
+    "descriptionFull": "D11 mcQ Sandras asfaltstur arrangeras av BMW MC-klubben.\n\nKörning med D11 från Älgerumsvägen 35, 383 32 Mönsterås, Sweden. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Älgerumsvägen 35, Mönsterås, Sweden.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -12663,7 +12663,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/dagtouring-4/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -12688,7 +12688,7 @@ const EVENTS_DATA = {
     "link": "https://www.bsaoc.org/swe/SummerCamp26/",
     "region": "Kalmar",
     "source": "bsaoc.org",
-    "descriptionFull": "BSA Summer Camp Öland arrangeras av Svenska BSA Klubben.\n\nInternationell BSA-träff på Öland. En vecka med utflykter, line-up, Lucas Night Run och BBQ. Registrering senast 15 april.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Haga Park Camping, Mörbylånga, Öland.",
+    "descriptionFull": "BSA Summer Camp Öland arrangeras av Svenska BSA Klubben.\n\nInternationell BSA-träff på Öland. En vecka med utflykter, line-up, Lucas Night Run och BBQ. Registrering senast 15 april.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Haga Park Camping, Mörbylånga, Öland.",
     "links": [
       {
         "label": "bsaoc.org",
@@ -12716,7 +12716,7 @@ const EVENTS_DATA = {
       "Sverige"
     ],
     "source": "gwef.eu",
-    "descriptionFull": "Viking Tour 2026 arrangeras av GWEF Nordic.\n\nGemensam körning från Sverige - Danmark. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Sverige - Danmark.",
+    "descriptionFull": "Viking Tour 2026 arrangeras av GWEF Nordic.\n\nGemensam körning från Sverige - Danmark. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Sverige - Danmark.",
     "links": [
       {
         "label": "gwef.eu",
@@ -12741,7 +12741,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-jans-runda/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Jans Runda arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Skåne. Klassisk körtur i Skåne-regionen. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "D15 Jans Runda arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Skåne. Klassisk körtur i Skåne-regionen. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -12766,7 +12766,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d14-glassturen/",
     "region": "Jönköping",
     "source": "bmwklubben.se",
-    "descriptionFull": "D14-Glassturen arrangeras av BMW MC-klubben.\n\nGlasstur med BMW MC-klubben D14 i Västernorrland. Samling och avfärd enligt plan. Kolla bmwklubben.se för detaljer.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Jönköping.",
+    "descriptionFull": "D14-Glassturen arrangeras av BMW MC-klubben.\n\nGlasstur med BMW MC-klubben D14 i Västernorrland. Samling och avfärd enligt plan. Kolla bmwklubben.se för detaljer.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Jönköping.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -12791,7 +12791,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-norra-smaland-runt/",
     "region": "Jönköping",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Norra Småland Runt arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D11 från Östra vägen 3, 571 38 Nässjö, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Östra vägen 3, Nässjö.",
+    "descriptionFull": "D11 Norra Småland Runt arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D11 från Östra vägen 3, 571 38 Nässjö, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Östra vägen 3, Nässjö.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -12805,7 +12805,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-08-10",
     "dateEnd": "2026-08-10",
@@ -12813,14 +12813,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-10/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-10/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-10/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-10/"
       },
       {
         "label": "Karta",
@@ -12841,7 +12841,7 @@ const EVENTS_DATA = {
     "link": "https://gwef.eu/index.php/2026",
     "region": "Finland",
     "source": "gwef.eu",
-    "descriptionFull": "Mototour of Nations 2026 (FIM) arrangeras av FIM / GWEF.\n\nGemensam körning från Imatra, Finland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Imatra, Finland.",
+    "descriptionFull": "Mototour of Nations 2026 (FIM) arrangeras av FIM / GWEF.\n\nGemensam körning från Imatra, Finland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Imatra, Finland.",
     "links": [
       {
         "label": "gwef.eu",
@@ -12866,7 +12866,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-11/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -12880,7 +12880,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-08-11",
     "dateEnd": "2026-08-11",
@@ -12888,14 +12888,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-08-11/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor-2/2026-08-11/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-08-11/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor-2/2026-08-11/"
       },
       {
         "label": "Karta",
@@ -12905,7 +12905,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-08-12",
     "dateEnd": "2026-08-12",
@@ -12913,14 +12913,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-12/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-08-12/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-12/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-08-12/"
       },
       {
         "label": "Karta",
@@ -12930,7 +12930,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-osmo-udda-veckor-2026",
+    "id": "doa-kvallskörning-osmo-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ösmo udda veckor",
     "date": "2026-08-12",
     "dateEnd": "2026-08-12",
@@ -12938,14 +12938,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-08-12/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor-2/2026-08-12/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ösmo udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
+    "descriptionFull": "DOA - Kvällskörning Ösmo udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-08-12/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor-2/2026-08-12/"
       },
       {
         "label": "Karta",
@@ -12955,7 +12955,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-08-12",
     "dateEnd": "2026-08-12",
@@ -12963,14 +12963,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-12/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-08-12/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-12/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-08-12/"
       },
       {
         "label": "Karta",
@@ -12991,7 +12991,7 @@ const EVENTS_DATA = {
     "link": "https://gwef.eu/index.php/2026",
     "region": "Danmark",
     "source": "gwef.eu",
-    "descriptionFull": "Treffen Denmark (GWEF) arrangeras av Gold Wing Club Denmark / GWEF.\n\nMC-arrangemang i Lille Skensved, Danmark. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Lille Skensved, Danmark.",
+    "descriptionFull": "Treffen Denmark (GWEF) arrangeras av Gold Wing Club Denmark / GWEF.\n\nMC-arrangemang i Lille Skensved, Danmark. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Lille Skensved, Danmark.",
     "links": [
       {
         "label": "gwef.eu",
@@ -13016,7 +13016,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/aminnetraffen/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "Åminneträffen arrangeras av H-DCS.\n\nVåran årliga träff i Åminne vid campingen, det bjuds på körningar, musik mm. Träffen startar på torsdagen klockan 12 och slutar söndagen klockan 12.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Åminne Fritid, Slite.",
+    "descriptionFull": "Åminneträffen arrangeras av H-DCS.\n\nVåran årliga träff i Åminne vid campingen, det bjuds på körningar, musik mm. Träffen startar på torsdagen klockan 12 och slutar söndagen klockan 12.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Åminne Fritid, Slite.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13041,7 +13041,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-13/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13055,7 +13055,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-08-13",
     "dateEnd": "2026-08-13",
@@ -13063,14 +13063,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-13/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-13/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-13/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-13/"
       },
       {
         "label": "Karta",
@@ -13091,7 +13091,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-13/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13105,7 +13105,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-08-13",
     "dateEnd": "2026-08-13",
@@ -13113,14 +13113,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-08-13/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-08-13/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-08-13/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-08-13/"
       },
       {
         "label": "Karta",
@@ -13141,7 +13141,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/sikhallsturen-med-overnattning/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Sikhallsturen med övernattning arrangeras av H-DCS.\n\nKörtur med H-DCS från Sikhall. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Sikhall.",
+    "descriptionFull": "Sikhallsturen med övernattning arrangeras av H-DCS.\n\nKörtur med H-DCS från Sikhall. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Sikhall.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13166,7 +13166,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-tjorn-och-orust/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Tjörn och Orust arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Tjörn. Körning genom västra götaland. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Tjörn.",
+    "descriptionFull": "D8 Tjörn och Orust arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Tjörn. Körning genom västra götaland. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Tjörn.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -13191,7 +13191,7 @@ const EVENTS_DATA = {
     "link": "https://mc-collection.com/kalender/",
     "region": "Västmanland",
     "source": "mc-collection.com",
-    "descriptionFull": "MC Collection Mälaren Runt-dag arrangeras av MC Collection.\n\nMälaren Runt-dag på MC Collection. Besök museet i samband med Sveriges största MC-körning.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Tidö Slott, Västerås.",
+    "descriptionFull": "MC Collection Mälaren Runt-dag arrangeras av MC Collection.\n\nMälaren Runt-dag på MC Collection. Besök museet i samband med Sveriges största MC-körning.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Tidö Slott, Västerås.",
     "links": [
       {
         "label": "mc-collection.com",
@@ -13205,7 +13205,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-08-15",
     "dateEnd": "2026-08-15",
@@ -13213,14 +13213,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-15/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-15/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-15/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-15/"
       },
       {
         "label": "Karta",
@@ -13230,7 +13230,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-08-15",
     "dateEnd": "2026-08-15",
@@ -13238,14 +13238,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-15/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-15/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-15/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-15/"
       },
       {
         "label": "Karta",
@@ -13266,7 +13266,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-blekingerundan-2026/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Blekingerundan 2026 arrangeras av BMW MC-klubben.\n\nFölj med kors och tvärs på fina vägar såväl asfalt som grus genom Östra Blekinges.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "D11 Blekingerundan 2026 arrangeras av BMW MC-klubben.\n\nFölj med kors och tvärs på fina vägar såväl asfalt som grus genom Östra Blekinges.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -13291,7 +13291,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/vanern-runt-fran-kristinehamn-en-svensk-mc-klassiker/",
     "region": "Värmland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Vänern Runt från Kristinehamn - En svensk mc-klassiker arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Västerlånggatan 4, 681 30 Kristinehamn, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Västerlånggatan 4, Kristinehamn.",
+    "descriptionFull": "Vänern Runt från Kristinehamn - En svensk mc-klassiker arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Västerlånggatan 4, 681 30 Kristinehamn, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västerlånggatan 4, Kristinehamn.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -13316,7 +13316,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-vanern-runt-soder/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Vänern runt från Vänersborg arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Vänersborg. Körning runt Vänern i västra Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Vänersborg.",
+    "descriptionFull": "D8 Vänern runt från Vänersborg arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Vänersborg. Körning runt Vänern i västra Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Vänersborg.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -13341,7 +13341,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/mcqhelg-i-goinge/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "McQ på grönbete i Göinge arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Sellerigatan 7, 224 78 Lund, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sellerigatan 7, Lund.",
+    "descriptionFull": "McQ på grönbete i Göinge arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Sellerigatan 7, 224 78 Lund, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sellerigatan 7, Lund.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -13362,7 +13362,7 @@ const EVENTS_DATA = {
     "location": "Luleå",
     "type": "Körning",
     "organizer": "Norrbottens Vägfarare MC",
-    "description": "Gemensam tur genom Norrbotten med Norrbottens Vagfarare MC. Samling i Lulea.",
+    "description": "Gemensam tur genom Norrbotten med Norrbottens Vagfarare MC. Samling i Luleå.",
     "link": "",
     "region": "Norrbotten",
     "source": "web",
@@ -13380,7 +13380,7 @@ const EVENTS_DATA = {
     "link": "https://www.svmc.se/club/maelaren-runt/",
     "region": "Stockholm",
     "source": "svmc.se",
-    "descriptionFull": "Mälaren Runt arrangeras av SMC / Mälaren Runt.\n\nArrangemang med SMC i Mälardalen. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nGemensam korning pa utvalda vagar. Kontrollera evenemangssidan for detaljer.\n\nPlats: Mälardalen.",
+    "descriptionFull": "Mälaren Runt arrangeras av SMC / Mälaren Runt.\n\nArrangemang med SMC i Mälardalen. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Mälardalen.",
     "links": [
       {
         "label": "svmc.se",
@@ -13405,7 +13405,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-pelles-runda/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Pelles runda arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "DOB- Pelles runda arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13430,7 +13430,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-dalsland/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Dalsland arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Dalsland. Körning genom dalslands vackra vägar. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Dalsland.",
+    "descriptionFull": "D8 Dalsland arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Dalsland. Körning genom dalslands vackra vägar. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Dalsland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -13455,7 +13455,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/stafsater-glass-gardsbutik/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Stafsäter Glass & Gårdsbutik arrangeras av BMW MC-klubben.\n\nBesök Stafsäter Glass & Gårdsbutik utanför Sturefors. Samåkning från Östenssons Livs i Ullstämma.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stafsäter, Sturefors.",
+    "descriptionFull": "Stafsäter Glass & Gårdsbutik arrangeras av BMW MC-klubben.\n\nBesök Stafsäter Glass & Gårdsbutik utanför Sturefors. Samåkning från Östenssons Livs i Ullstämma.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stafsäter, Sturefors.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -13495,7 +13495,7 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-08-17",
     "dateEnd": "2026-08-17",
@@ -13503,14 +13503,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-17/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-17/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-17/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-17/"
       },
       {
         "label": "Karta",
@@ -13531,7 +13531,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-18/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13545,7 +13545,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
     "date": "2026-08-18",
     "dateEnd": "2026-08-18",
@@ -13553,14 +13553,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-08-18/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-08-18/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-08-18/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-08-18/"
       },
       {
         "label": "Karta",
@@ -13570,7 +13570,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-08-19",
     "dateEnd": "2026-08-19",
@@ -13578,14 +13578,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-19/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-08-19/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-19/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-08-19/"
       },
       {
         "label": "Karta",
@@ -13595,7 +13595,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-08-19",
     "dateEnd": "2026-08-19",
@@ -13603,14 +13603,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-19/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-08-19/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-19/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-08-19/"
       },
       {
         "label": "Karta",
@@ -13631,7 +13631,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-20/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13645,7 +13645,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-08-20",
     "dateEnd": "2026-08-20",
@@ -13653,14 +13653,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-20/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-20/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-20/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-20/"
       },
       {
         "label": "Karta",
@@ -13681,7 +13681,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-20/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13706,7 +13706,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-08-20/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13720,7 +13720,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-08-20",
     "dateEnd": "2026-08-20",
@@ -13728,14 +13728,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-08-20/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-08-20/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-08-20/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-08-20/"
       },
       {
         "label": "Karta",
@@ -13756,7 +13756,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-pizzakvall-i-vollsjo/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Pizzakväll i Vollsjö arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Vollsjö. Treffpunkt med pizza och trevligt sällskap. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Vollsjö.",
+    "descriptionFull": "D15 Pizzakväll i Vollsjö arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Vollsjö. Treffpunkt med pizza och trevligt sällskap. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Vollsjö.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -13781,7 +13781,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d10-en-god-bit-av-ostfold-26/",
     "region": "Norge",
     "source": "bmwklubben.se",
-    "descriptionFull": "D10 En God Bit Av Östfold -26 arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Halden, Østfold fylke, Norge. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Halden, Østfold fylke, Norge.",
+    "descriptionFull": "D10 En God Bit Av Östfold -26 arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Halden, Østfold fylke, Norge. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Halden, Østfold fylke, Norge.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -13806,7 +13806,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-ekero-runt/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Ekerö Runt arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Ekerö. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Ekerö.",
+    "descriptionFull": "DOA - Ekerö Runt arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Ekerö. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13831,7 +13831,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-hasses-olandsrunda-22-23-augusti/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Hasses Ölandsrunda 22-23 augusti arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Öland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Öland.",
+    "descriptionFull": "DOE Hasses Ölandsrunda 22-23 augusti arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Öland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Öland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13845,7 +13845,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-08-22",
     "dateEnd": "2026-08-22",
@@ -13853,14 +13853,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-22/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-22/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-22/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-22/"
       },
       {
         "label": "Karta",
@@ -13870,7 +13870,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-08-22",
     "dateEnd": "2026-08-22",
@@ -13878,14 +13878,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-22/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-22/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-22/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-22/"
       },
       {
         "label": "Karta",
@@ -13906,7 +13906,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-08-22/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -13928,7 +13928,7 @@ const EVENTS_DATA = {
     "type": "Show",
     "organizer": "Rockets Choppers",
     "description": "Andra upplagan av Ride In Chopper Show i Kungsbacka. Choppers, custom builds och hojar i Badhusparken. Start kl 13:00. Alla valkomna!",
-    "descriptionFull": "22 augusti 2026, Badhusparken, Kungsbacka\n\nAndra upplagan av Ride In Chopper Show arrangerad av Rockets Choppers. Choppers, custom builds och hojar visas upp i Badhusparken.\n\nStart kl 13:00. Alla med hoj och hojintresse ar valkomna!\n\nPlats: Badhusparken, Kungsbacka.",
+    "descriptionFull": "22 augusti 2026, Badhusparken, Kungsbacka\n\nAndra upplagan av Ride In Chopper Show arrangerad av Rockets Choppers. Choppers, custom builds och hojar visas upp i Badhusparken.\n\nStart kl 13:00. Alla med hoj och hojintresse är välkomna!\n\nPlats: Badhusparken, Kungsbacka.",
     "backImage": "ads/rockets-chopper-show-back-2026-08-22.jpg",
     "frontImage": "ads/rockets-chopper-show-front-2026-08-22.jpg",
     "links": [
@@ -13951,7 +13951,7 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-08-24",
     "dateEnd": "2026-08-24",
@@ -13959,14 +13959,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-24/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-24/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-24/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-24/"
       },
       {
         "label": "Karta",
@@ -14012,7 +14012,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-25/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14026,7 +14026,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-08-25",
     "dateEnd": "2026-08-25",
@@ -14034,14 +14034,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-08-25/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor-2/2026-08-25/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-08-25/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor-2/2026-08-25/"
       },
       {
         "label": "Karta",
@@ -14051,7 +14051,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-08-26",
     "dateEnd": "2026-08-26",
@@ -14059,14 +14059,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-26/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-08-26/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-26/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-08-26/"
       },
       {
         "label": "Karta",
@@ -14076,7 +14076,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-osmo-udda-veckor-2026",
+    "id": "doa-kvallskörning-osmo-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ösmo udda veckor",
     "date": "2026-08-26",
     "dateEnd": "2026-08-26",
@@ -14084,14 +14084,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-08-26/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor-2/2026-08-26/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ösmo udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
+    "descriptionFull": "DOA - Kvällskörning Ösmo udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-08-26/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor-2/2026-08-26/"
       },
       {
         "label": "Karta",
@@ -14101,7 +14101,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-08-26",
     "dateEnd": "2026-08-26",
@@ -14109,14 +14109,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-26/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-08-26/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-26/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-08-26/"
       },
       {
         "label": "Karta",
@@ -14137,7 +14137,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-27/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14151,7 +14151,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-08-27",
     "dateEnd": "2026-08-27",
@@ -14159,14 +14159,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-27/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-27/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-27/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-27/"
       },
       {
         "label": "Karta",
@@ -14187,7 +14187,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-27/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14201,7 +14201,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-08-27",
     "dateEnd": "2026-08-27",
@@ -14209,14 +14209,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-08-27/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-08-27/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-08-27/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-08-27/"
       },
       {
         "label": "Karta",
@@ -14237,7 +14237,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dsb-oro-traffen-i-dk/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "Orö träffen i DK arrangeras av H-DCS.\n\nArrangemang med H-DCS från Orö, Danmark. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Orö, Danmark.",
+    "descriptionFull": "Orö träffen i DK arrangeras av H-DCS.\n\nArrangemang med H-DCS från Orö, Danmark. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Orö, Danmark.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14262,7 +14262,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-upplandsturen/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Upplandsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Upplandsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14276,7 +14276,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-08-29",
     "dateEnd": "2026-08-29",
@@ -14284,14 +14284,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-29/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-29/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-08-29/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-08-29/"
       },
       {
         "label": "Karta",
@@ -14301,7 +14301,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-08-29",
     "dateEnd": "2026-08-29",
@@ -14309,14 +14309,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-29/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-29/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-08-29/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-08-29/"
       },
       {
         "label": "Karta",
@@ -14337,7 +14337,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-limfjorden-runt-med-bmwklubben-danmark/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Limfjorden runt med BMWKLUBBEN Danmark arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Limfjorden, Danmark. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Limfjorden, Danmark.",
+    "descriptionFull": "D8 Limfjorden runt med BMWKLUBBEN Danmark arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Limfjorden, Danmark. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Limfjorden, Danmark.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -14362,7 +14362,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/kraftkalas-2/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Kraftkalas arrangeras av ÖAMCK.\n\nArrangemang med ÖAMCK i Stangby, Uppsala. Gemensamt event för MC-entusiaster. Mer info på oamck.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stangby, Uppsala.",
+    "descriptionFull": "ÖAMCK Kraftkalas arrangeras av ÖAMCK.\n\nArrangemang med ÖAMCK i Stangby, Uppsala. Gemensamt event för MC-entusiaster. Mer info på oamck.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stangby, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -14387,7 +14387,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-08-30/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14412,7 +14412,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-grustur-2/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Grustur arrangeras av BMW MC-klubben.\n\nGrustour med D15. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skåne.",
+    "descriptionFull": "D15 Grustur arrangeras av BMW MC-klubben.\n\nGrustour med D15. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -14426,7 +14426,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-08-31",
     "dateEnd": "2026-08-31",
@@ -14434,14 +14434,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-31/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-31/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-31/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-08-31/"
       },
       {
         "label": "Karta",
@@ -14462,7 +14462,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-01/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14476,7 +14476,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
     "date": "2026-09-01",
     "dateEnd": "2026-09-01",
@@ -14484,14 +14484,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-09-01/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-09-01/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-09-01/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-09-01/"
       },
       {
         "label": "Karta",
@@ -14501,7 +14501,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-09-02",
     "dateEnd": "2026-09-02",
@@ -14509,14 +14509,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-02/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-02/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-02/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-02/"
       },
       {
         "label": "Karta",
@@ -14526,7 +14526,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-09-02",
     "dateEnd": "2026-09-02",
@@ -14534,14 +14534,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-02/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-02/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-02/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-02/"
       },
       {
         "label": "Karta",
@@ -14562,7 +14562,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-03/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14576,7 +14576,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-09-03",
     "dateEnd": "2026-09-03",
@@ -14584,14 +14584,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-03/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-03/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-03/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-03/"
       },
       {
         "label": "Karta",
@@ -14612,7 +14612,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-03/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14637,7 +14637,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-09-03/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14651,7 +14651,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-09-03",
     "dateEnd": "2026-09-03",
@@ -14659,14 +14659,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-09-03/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-09-03/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-09-03/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-09-03/"
       },
       {
         "label": "Karta",
@@ -14687,7 +14687,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-unnarydstraffen-2/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Unnarydsträffen arrangeras av H-DCS.\n\nArrangemang med H-DCS från Vallsnäs Camping, Vallsnäs, 314 52 Unnaryd, Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Vallsnäs Camping, Vallsnäs, Unnaryd.",
+    "descriptionFull": "DO-C Unnarydsträffen arrangeras av H-DCS.\n\nArrangemang med H-DCS från Vallsnäs Camping, Vallsnäs, 314 52 Unnaryd, Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Vallsnäs Camping, Vallsnäs, Unnaryd.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14712,7 +14712,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-stenotraffen/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG Stenöträffen arrangeras av H-DCS.\n\nStenöträffen + Medlemsmöte 4-6 September Mer info: Laila 072 - 725 12 72 Olle 072.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stenö.",
+    "descriptionFull": "DOG Stenöträffen arrangeras av H-DCS.\n\nStenöträffen + Medlemsmöte 4-6 September Mer info: Laila 072 - 725 12 72 Olle 072.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stenö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14737,7 +14737,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/mcq-rikstraff-2026/",
     "region": "Norrbotten",
     "source": "bmwklubben.se",
-    "descriptionFull": "mcQ Riksträff 2026 arrangeras av BMW MC-klubben.\n\nTräffpunkt i Sverige. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "mcQ Riksträff 2026 arrangeras av BMW MC-klubben.\n\nTräffpunkt i Sverige. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -14762,7 +14762,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/motorcycel-inferno/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Motorcycel Inferno arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "Motorcycel Inferno arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14787,7 +14787,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-alandsturen/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Ålandsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Ålandsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14801,7 +14801,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-09-05",
     "dateEnd": "2026-09-05",
@@ -14809,14 +14809,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-09-05/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-09-05/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-09-05/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-09-05/"
       },
       {
         "label": "Karta",
@@ -14826,7 +14826,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-09-05",
     "dateEnd": "2026-09-05",
@@ -14834,14 +14834,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-09-05/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-09-05/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-09-05/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-09-05/"
       },
       {
         "label": "Karta",
@@ -14862,7 +14862,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-09-05/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14887,7 +14887,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/gokart/",
     "region": "Gotland",
     "source": "hdcs.se",
-    "descriptionFull": "Gokart arrangeras av H-DCS.\n\nGokartkörning på gokartbanad vid gamla tippen i Visby Broväg 110 Värd Svenne.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Broväg 110, Visby.",
+    "descriptionFull": "Gokart arrangeras av H-DCS.\n\nGokartkörning på gokartbanad vid gamla tippen i Visby Broväg 110 Värd Svenne.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Broväg 110, Visby.",
     "links": [
       {
         "label": "hdcs.se",
@@ -14912,7 +14912,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d8-mats-tur/",
     "region": "Halland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D8 Mats tur arrangeras av BMW MC-klubben.\n\nKörning med D8 från Karl Gustav, Hallands län, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Karl, Gustav.",
+    "descriptionFull": "D8 Mats tur arrangeras av BMW MC-klubben.\n\nKörning med D8 från Karl Gustav, Hallands län, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Karl, Gustav.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -14937,7 +14937,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-tur-fran-bromolla/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Tur från Bromölla arrangeras av BMW MC-klubben.\n\nKörning med D15 från Bromölla. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Bromölla.",
+    "descriptionFull": "D15 Tur från Bromölla arrangeras av BMW MC-klubben.\n\nKörning med D15 från Bromölla. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Bromölla.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -14962,7 +14962,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-morka-smaland/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 - Mörka Småland arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D11 från Norremarksvägen, 352 45 Växjö, Sverige. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Norremarksvägen, Växjö.",
+    "descriptionFull": "D11 - Mörka Småland arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D11 från Norremarksvägen, 352 45 Växjö, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Norremarksvägen, Växjö.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -14987,7 +14987,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/dagtouring-5/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -15001,7 +15001,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-09-07",
     "dateEnd": "2026-09-07",
@@ -15009,14 +15009,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-07/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-09-07/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-07/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-09-07/"
       },
       {
         "label": "Karta",
@@ -15037,7 +15037,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/faaker-see-2026-osterrike/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "Faaker See 2026 Österrike arrangeras av H-DCS.\n\nArrangemang med H-DCS från Österrike. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Österrike.",
+    "descriptionFull": "Faaker See 2026 Österrike arrangeras av H-DCS.\n\nArrangemang med H-DCS från Österrike. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Österrike.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15062,7 +15062,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-08/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15076,7 +15076,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-09-08",
     "dateEnd": "2026-09-08",
@@ -15084,14 +15084,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-09-08/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor-2/2026-09-08/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-09-08/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor-2/2026-09-08/"
       },
       {
         "label": "Karta",
@@ -15101,7 +15101,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-09-09",
     "dateEnd": "2026-09-09",
@@ -15109,14 +15109,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-09/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-09/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-09/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-09/"
       },
       {
         "label": "Karta",
@@ -15126,7 +15126,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-osmo-udda-veckor-2026",
+    "id": "doa-kvallskörning-osmo-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ösmo udda veckor",
     "date": "2026-09-09",
     "dateEnd": "2026-09-09",
@@ -15134,14 +15134,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-09-09/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor-2/2026-09-09/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ösmo udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
+    "descriptionFull": "DOA - Kvällskörning Ösmo udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-09-09/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor-2/2026-09-09/"
       },
       {
         "label": "Karta",
@@ -15151,7 +15151,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-09-09",
     "dateEnd": "2026-09-09",
@@ -15159,14 +15159,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-09/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-09/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-09/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-09/"
       },
       {
         "label": "Karta",
@@ -15187,7 +15187,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-10/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15201,7 +15201,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-09-10",
     "dateEnd": "2026-09-10",
@@ -15209,14 +15209,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-10/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-10/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-10/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-10/"
       },
       {
         "label": "Karta",
@@ -15237,7 +15237,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-10/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15251,7 +15251,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-09-10",
     "dateEnd": "2026-09-10",
@@ -15259,14 +15259,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-09-10/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-09-10/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-09-10/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-09-10/"
       },
       {
         "label": "Karta",
@@ -15287,7 +15287,7 @@ const EVENTS_DATA = {
     "link": "https://mcparken.se/calendar/177",
     "region": "Jönköping",
     "source": "mcparken.se",
-    "descriptionFull": "Roadracing SM - Anderstorp arrangeras av MotoSE / Svemo.\n\nMC-arrangemang i Anderstorp, Jönköpings län. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Anderstorp.",
+    "descriptionFull": "Roadracing SM - Anderstorp arrangeras av MotoSE / Svemo.\n\nMC-arrangemang i Anderstorp, Jönköpings län. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Anderstorp.",
     "links": [
       {
         "label": "mcparken.se",
@@ -15312,7 +15312,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/tandstickstraffen-i-bankeryd/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Tändsticksträffen i Bankeryd arrangeras av H-DCS.\n\nArrangemang med H-DCS från Bankeryd. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Bankeryd.",
+    "descriptionFull": "Tändsticksträffen i Bankeryd arrangeras av H-DCS.\n\nArrangemang med H-DCS från Bankeryd. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Bankeryd.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15337,7 +15337,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-sormlandsturen/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Sörmlandsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Sörmlandsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15362,7 +15362,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/do-c-route-154-2/",
     "region": "Halland",
     "source": "hdcs.se",
-    "descriptionFull": "DO-C Route 154 arrangeras av H-DCS.\n\nArrangemang med H-DCS från Halland/VGötaland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Halland/VGötaland.",
+    "descriptionFull": "DO-C Route 154 arrangeras av H-DCS.\n\nArrangemang med H-DCS från Halland/VGötaland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Halland/VGötaland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15387,7 +15387,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-tjejtraff-moheda-12-september/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Tjejträff Moheda 12 september arrangeras av H-DCS.\n\nTräffpunkt för DOE i Moheda. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Moheda.",
+    "descriptionFull": "DOE Tjejträff Moheda 12 september arrangeras av H-DCS.\n\nTräffpunkt för DOE i Moheda. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Moheda.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15401,7 +15401,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-09-12",
     "dateEnd": "2026-09-12",
@@ -15409,14 +15409,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-09-12/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-09-12/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-09-12/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-09-12/"
       },
       {
         "label": "Karta",
@@ -15426,7 +15426,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-09-12",
     "dateEnd": "2026-09-12",
@@ -15434,14 +15434,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-09-12/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-09-12/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-09-12/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-09-12/"
       },
       {
         "label": "Karta",
@@ -15462,7 +15462,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d14-bolmenturen/",
     "region": "Gotland",
     "source": "bmwklubben.se",
-    "descriptionFull": "D14-Bolmenturen arrangeras av BMW MC-klubben.\n\nKörning med D14 från Bolmen/Ljungby. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Bolmen/Ljungby.",
+    "descriptionFull": "D14-Bolmenturen arrangeras av BMW MC-klubben.\n\nKörning med D14 från Bolmen/Ljungby. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Bolmen/Ljungby.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -15487,7 +15487,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-oland-experience/",
     "region": "Kalmar",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Öland Experience 2026 arrangeras av BMW MC-klubben.\n\nVälkommen till Öland Experience med D11!Välkommen att göra en resa till ett höstfagert Öland, där vi upprepar fjolårets tur, givetvis med lite andra vägval.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Öland.",
+    "descriptionFull": "D11 Öland Experience 2026 arrangeras av BMW MC-klubben.\n\nVälkommen till Öland Experience med D11!Välkommen att göra en resa till ett höstfagert Öland, där vi upprepar fjolårets tur, givetvis med lite andra vägval.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Öland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -15512,7 +15512,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/scaniamuseet-och-tunga-rallyt/",
     "region": "Östergötland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Scaniamuséet och ”Tunga Rallyt” arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Krokek Buthagen, 618 92 Kolmården, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Krokek Buthagen, Kolmården.",
+    "descriptionFull": "Scaniamuséet och ”Tunga Rallyt” arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Krokek Buthagen, 618 92 Kolmården, Sverige. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Krokek Buthagen, Kolmården.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -15537,7 +15537,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/hemlig-resa-3/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "Hemlig resa arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Hemligt. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Hemligt.",
+    "descriptionFull": "Hemlig resa arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Hemligt. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Hemligt.",
     "links": [
       {
         "label": "oamck.se",
@@ -15551,15 +15551,15 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "con-dios-mc-20-arsjubileum-2026",
-    "name": "Con Dios MC 20-arsjubileum",
+    "id": "con-dios-mc-20-årsjubileum-2026",
+    "name": "Con Dios MC 20-årsjubileum",
     "date": "2026-09-12",
     "dateEnd": "2026-09-12",
     "location": "Meddelas senare",
     "type": "Träff",
     "organizer": "Con Dios MC",
     "description": "Con Dios MC firar 20 ar! Boka 12 september redan nu. Mer information kommer nar det narmar sig. Alla valkomna!",
-    "descriptionFull": "Con Dios MC firar sitt 20-arsjubileum den 12 september 2026.\n\nBoka datumet redan nu! Mer information om plats och program fylls pa nar det narmar sig.\n\nCon Dios MC ar en klubb for bikers med en kristen grundsyn. Alla som vill ar valkomna att hanga med.\n\nMer info: condiosmc.com",
+    "descriptionFull": "Con Dios MC firar sitt 20-årsjubileum den 12 september 2026.\n\nBoka datumet redan nu! Mer information om plats och program fylls på när det närmar sig.\n\nCon Dios MC är en klubb för bikers med en kristen grundsyn. Alla som vill är välkomna att hänga med.\n\nMer info: condiosmc.com",
     "backImage": "ads/condiosmc-20ar-back-2026-09-12.jpg",
     "links": [
       {
@@ -15590,7 +15590,7 @@ const EVENTS_DATA = {
     "_canary": true
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-09-14",
     "dateEnd": "2026-09-14",
@@ -15598,14 +15598,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-14/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-09-14/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-14/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-09-14/"
       },
       {
         "label": "Karta",
@@ -15626,7 +15626,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-15/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15640,7 +15640,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
     "date": "2026-09-15",
     "dateEnd": "2026-09-15",
@@ -15648,14 +15648,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-09-15/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-09-15/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-09-15/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-09-15/"
       },
       {
         "label": "Karta",
@@ -15665,7 +15665,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-09-16",
     "dateEnd": "2026-09-16",
@@ -15673,14 +15673,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-16/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-16/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-16/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-16/"
       },
       {
         "label": "Karta",
@@ -15690,7 +15690,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-09-16",
     "dateEnd": "2026-09-16",
@@ -15698,14 +15698,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-16/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-16/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-16/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-16/"
       },
       {
         "label": "Karta",
@@ -15726,7 +15726,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-17/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15740,7 +15740,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-09-17",
     "dateEnd": "2026-09-17",
@@ -15748,14 +15748,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-17/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-17/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-17/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-17/"
       },
       {
         "label": "Karta",
@@ -15776,7 +15776,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-17/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15801,7 +15801,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-09-17/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15815,7 +15815,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-09-17",
     "dateEnd": "2026-09-17",
@@ -15823,14 +15823,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-09-17/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-09-17/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-09-17/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-09-17/"
       },
       {
         "label": "Karta",
@@ -15851,7 +15851,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-fiskelager-i-kulagolen-18-19-september/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Fiskeläger i Kulagölen 18-19 september arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "DOE Fiskeläger i Kulagölen 18-19 september arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15876,7 +15876,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/kinnekulleturen/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Kinnekulleturen arrangeras av H-DCS.\n\nKörtur med H-DCS från Kinnekulle. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Kinnekulle.",
+    "descriptionFull": "Kinnekulleturen arrangeras av H-DCS.\n\nKörtur med H-DCS från Kinnekulle. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Kinnekulle.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15901,7 +15901,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/lo-c-paulas-runda/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-C Paulas runda arrangeras av H-DCS.\n\nLO Paula guidar oss på en heldags tur med lunch stopp. Kom fulltankade och klara.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Kasernvägen 2, Borås.",
+    "descriptionFull": "LO-C Paulas runda arrangeras av H-DCS.\n\nLO Paula guidar oss på en heldags tur med lunch stopp. Kom fulltankade och klara.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kasernvägen 2, Borås.",
     "links": [
       {
         "label": "hdcs.se",
@@ -15915,7 +15915,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-09-19",
     "dateEnd": "2026-09-19",
@@ -15923,14 +15923,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-09-19/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-09-19/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-09-19/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-09-19/"
       },
       {
         "label": "Karta",
@@ -15940,7 +15940,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-09-19",
     "dateEnd": "2026-09-19",
@@ -15948,14 +15948,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-09-19/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-09-19/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-09-19/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-09-19/"
       },
       {
         "label": "Karta",
@@ -15976,7 +15976,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-09-19/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16001,7 +16001,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-09-20/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16015,7 +16015,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-09-21",
     "dateEnd": "2026-09-21",
@@ -16023,14 +16023,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-21/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-09-21/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-21/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-09-21/"
       },
       {
         "label": "Karta",
@@ -16051,7 +16051,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-22/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16065,7 +16065,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-ekero-udda-veckor-2026",
+    "id": "doa-kvallskörning-ekero-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ekerö, udda veckor",
     "date": "2026-09-22",
     "dateEnd": "2026-09-22",
@@ -16073,14 +16073,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-09-22/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor-2/2026-09-22/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Kvällskörning Ekerö, udda veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-09-22/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-ekero-udda-veckor-2/2026-09-22/"
       },
       {
         "label": "Karta",
@@ -16090,7 +16090,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-09-23",
     "dateEnd": "2026-09-23",
@@ -16098,14 +16098,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-23/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-23/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-23/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-23/"
       },
       {
         "label": "Karta",
@@ -16115,7 +16115,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-osmo-udda-veckor-2026",
+    "id": "doa-kvallskörning-osmo-udda-veckor-2026",
     "name": "DOA - Kvällskörning Ösmo udda veckor",
     "date": "2026-09-23",
     "dateEnd": "2026-09-23",
@@ -16123,14 +16123,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-09-23/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor-2/2026-09-23/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Ösmo udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
+    "descriptionFull": "DOA - Kvällskörning Ösmo udda veckor arrangeras av H-DCS.\n\nVälkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Ösmo Plantshop, Växtstigen 1, Ösmo.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-09-23/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-osmo-udda-veckor-2/2026-09-23/"
       },
       {
         "label": "Karta",
@@ -16140,7 +16140,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-09-23",
     "dateEnd": "2026-09-23",
@@ -16148,14 +16148,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-23/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-23/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-23/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-23/"
       },
       {
         "label": "Karta",
@@ -16176,7 +16176,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-24/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+    "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16190,7 +16190,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-uppsala-2026",
+    "id": "doa-kvallskörning-uppsala-2026",
     "name": "DOA - Kvällskörning Uppsala",
     "date": "2026-09-24",
     "dateEnd": "2026-09-24",
@@ -16198,14 +16198,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-24/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-24/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
+    "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-24/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-24/"
       },
       {
         "label": "Karta",
@@ -16226,7 +16226,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-24/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+    "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16240,7 +16240,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-torsdagskorningar-sundsvall-2026",
+    "id": "lo-i-torsdagskörningar-sundsvall-2026",
     "name": "LO-I Torsdagskörningar Sundsvall",
     "date": "2026-09-24",
     "dateEnd": "2026-09-24",
@@ -16248,14 +16248,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.",
-    "link": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-09-24/",
+    "link": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-09-24/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
+    "descriptionFull": "LO-I Torsdagskörningar Sundsvall arrangeras av H-DCS.\n\nVi samlas 17:45 på ny startplats HD-Sundsvall. Turens längd och resmål bestäms på plats eller läggs ut på Facebook samma vecka.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: HD-Sundsvall, Sundsvall.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-torsdagskorningar-sundsvall-2-2/2026-09-24/"
+        "url": "https://hdcs.se/evenemang/lo-i-torsdagskörningar-sundsvall-2-2/2026-09-24/"
       },
       {
         "label": "Karta",
@@ -16265,7 +16265,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-kramfors-2026",
+    "id": "lo-i-lordagskörningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-09-26",
     "dateEnd": "2026-09-26",
@@ -16273,14 +16273,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi kör en tur som bestäms på plats eller publiceras innan via Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-09-26/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-09-26/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
+    "descriptionFull": "LO I Lördagskörningar Kramfors arrangeras av H-DCS.\n\nVi kör en tur som bestäms på plats eller publiceras innan via Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OK Kramfors, Kramfors.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-kramfors/2026-09-26/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-kramfors/2026-09-26/"
       },
       {
         "label": "Karta",
@@ -16290,7 +16290,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "lo-i-lordagskorningar-ornskoldsvik-2026",
+    "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
     "name": "LO I Lördagskörningar Örnsköldsvik",
     "date": "2026-09-26",
     "dateEnd": "2026-09-26",
@@ -16298,14 +16298,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Vi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.",
-    "link": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-09-26/",
+    "link": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-09-26/",
     "region": "Västernorrland",
     "source": "hdcs.se",
-    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
+    "descriptionFull": "LO I Lördagskörningar Örnsköldsvik arrangeras av H-DCS.\n\nVi samlas 10:45 och åker 11:00 från Vägkrogen Örnen.Turens längd och resmål bestäms på plats eller annonseras innan på Facebook.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vägkrogen Örnen, Örnsköldsvik.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/lo-i-lordagskorningar-ornskoldsvik/2026-09-26/"
+        "url": "https://hdcs.se/evenemang/lo-i-lordagskörningar-ornskoldsvik/2026-09-26/"
       },
       {
         "label": "Karta",
@@ -16326,7 +16326,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-sista-rundan/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Sista Rundan arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "DOB- Sista Rundan arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16340,7 +16340,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nacka-2026",
+    "id": "doa-kvallskörning-nacka-2026",
     "name": "DOA - Kvällskörning Nacka",
     "date": "2026-09-28",
     "dateEnd": "2026-09-28",
@@ -16348,14 +16348,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-28/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-09-28/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
+    "descriptionFull": "DOA - Kvällskörning Nacka arrangeras av H-DCS.\n\nVälkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: McDonalds Nacka, Nacka.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-28/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nacka-4/2026-09-28/"
       },
       {
         "label": "Karta",
@@ -16376,7 +16376,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-29/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16390,7 +16390,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
+    "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
     "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
     "date": "2026-09-29",
     "dateEnd": "2026-09-29",
@@ -16398,14 +16398,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-09-29/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-09-29/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Nockeby, Bromma.",
+    "descriptionFull": "DOA - Kvällskörning Nockeby, Jämna veckor arrangeras av H-DCS.\n\nVälkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Nockeby, Bromma.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-09-29/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-nockeby-jamna-veckor-2/2026-09-29/"
       },
       {
         "label": "Karta",
@@ -16415,7 +16415,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-taby-2026",
+    "id": "doa-kvallskörning-taby-2026",
     "name": "DOA - Kvällskörning Täby",
     "date": "2026-09-30",
     "dateEnd": "2026-09-30",
@@ -16423,14 +16423,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-30/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-30/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
+    "descriptionFull": "DOA - Kvällskörning Täby arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Probike Täby Åkerivägen 6, Täby.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-30/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-taby-2/2026-09-30/"
       },
       {
         "label": "Karta",
@@ -16440,7 +16440,7 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "doa-kvallskorning-norrtalje-2026",
+    "id": "doa-kvallskörning-norrtalje-2026",
     "name": "DOA - Kvällskörning Norrtälje",
     "date": "2026-09-30",
     "dateEnd": "2026-09-30",
@@ -16448,14 +16448,14 @@ const EVENTS_DATA = {
     "type": "Körning",
     "organizer": "H-DCS",
     "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.",
-    "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-30/",
+    "link": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-30/",
     "region": "Uppsala",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
+    "descriptionFull": "DOA - Kvällskörning Norrtälje arrangeras av H-DCS.\n\nVälkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Biltema Norrtälje, Norrtälje.",
     "links": [
       {
         "label": "hdcs.se",
-        "url": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-30/"
+        "url": "https://hdcs.se/evenemang/doa-kvallskörning-norrtalje/2026-09-30/"
       },
       {
         "label": "Karta",
@@ -16476,7 +16476,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-10-01/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16501,7 +16501,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-sista-rundan-3-oktober/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Sista rundan 3 oktober arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "DOE Sista rundan 3 oktober arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16526,7 +16526,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-asian-food-varnamo-3-oktober/",
     "region": "Jönköping",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Asian Food Värnamo 3 oktober arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Värnamo. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Värnamo.",
+    "descriptionFull": "DOE Asian Food Värnamo 3 oktober arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Värnamo. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Värnamo.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16551,7 +16551,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-03/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16576,7 +16576,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/medlemsmote-planeringsmote-2027/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Medlemsmöte/Planeringsmöte 2027 arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "Medlemsmöte/Planeringsmöte 2027 arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16601,7 +16601,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/dagtouring-6/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+    "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -16626,7 +16626,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-10-06/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16651,7 +16651,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dob-grill-rovarkulan/",
     "region": "Skåne",
     "source": "hdcs.se",
-    "descriptionFull": "DOB- Grill Rövarkulan arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "DOB- Grill Rövarkulan arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16676,7 +16676,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-10-11/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16701,7 +16701,7 @@ const EVENTS_DATA = {
     "link": "https://gwcs.se/events/sormlandswingarnas-medlemsmote-3/?occurrence=2026-10-11",
     "region": "Södermanland",
     "source": "gwcs.se",
-    "descriptionFull": "Sormlandswingarnas Medlemsmote (host) arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sigridslunds Cafe, Ardala.",
+    "descriptionFull": "Sormlandswingarnas Medlemsmote (host) arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
     "links": [
       {
         "label": "gwcs.se",
@@ -16726,7 +16726,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-10-13/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16751,7 +16751,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-10-15/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16776,7 +16776,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-17/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16801,7 +16801,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-10-20/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16826,7 +16826,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/medlemsmote/",
     "region": "Gotland",
     "source": "hdcs.se",
-    "descriptionFull": "Medlemsmöte arrangeras av H-DCS.\n\nMedlemsmöte med efterföljande bowling och lite mat Väl Mött Styrelsen, Kenneth.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Langs  Väg 2, Visby, Visby.",
+    "descriptionFull": "Medlemsmöte arrangeras av H-DCS.\n\nMedlemsmöte med efterföljande bowling och lite mat Väl Mött Styrelsen, Kenneth.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Langs  Väg 2, Visby, Visby.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16851,7 +16851,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/alandkryss-med-eckerolinjen-viltbord/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "Alandkryss med Eckerolinjen (Viltbord) arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Grisslehamn. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Grisslehamn.",
+    "descriptionFull": "Alandkryss med Eckerolinjen (Viltbord) arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Grisslehamn. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Grisslehamn.",
     "links": [
       {
         "label": "oamck.se",
@@ -16876,7 +16876,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-10-27/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16901,7 +16901,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-10-29/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16926,7 +16926,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-31/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16951,7 +16951,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-11-03/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -16976,7 +16976,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-aktivitet-i-oskarshamn-7-november/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Aktivitet i Oskarshamn 7 november arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Oskarshamn. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Oskarshamn.",
+    "descriptionFull": "DOE Aktivitet i Oskarshamn 7 november arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Oskarshamn. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Oskarshamn.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17001,7 +17001,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-11-10/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17026,7 +17026,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-11-12/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17051,7 +17051,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-11-14/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17076,7 +17076,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/pubkvall/",
     "region": "Sverige",
     "source": "hdcs.se",
-    "descriptionFull": "Pubkväll arrangeras av H-DCS.\n\nPubkväll med H-DCS i Sverige. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "Pubkväll arrangeras av H-DCS.\n\nPubkväll med H-DCS i Sverige. Träffas och umgås med andra Harley-entusiaster. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17101,7 +17101,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d11-planeringstraff-2026/",
     "region": "Kronoberg",
     "source": "bmwklubben.se",
-    "descriptionFull": "D11 Planeringsträff 2026 arrangeras av BMW MC-klubben.\n\nTräffpunkt med D11 i Småland. Gemensam fika och MC-prat. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "D11 Planeringsträff 2026 arrangeras av BMW MC-klubben.\n\nTräffpunkt med D11 i Småland. Gemensam fika och MC-prat. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -17126,7 +17126,7 @@ const EVENTS_DATA = {
     "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-3/?occurrence=2026-11-15",
     "region": "Södermanland",
     "source": "gwcs.se",
-    "descriptionFull": "Sormlandswingarnas fikatraff (host) arrangeras av Sormlandswingarna / GWCS.\n\nTräffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sigridslunds Cafe, Ardala.",
+    "descriptionFull": "Sormlandswingarnas fikatraff (host) arrangeras av Sormlandswingarna / GWCS.\n\nTräffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
     "links": [
       {
         "label": "gwcs.se",
@@ -17151,7 +17151,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-11-17/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17176,7 +17176,7 @@ const EVENTS_DATA = {
     "link": "https://oamck.se/events/flipperturnering-2/",
     "region": "Uppsala",
     "source": "oamck.se",
-    "descriptionFull": "ÖAMCK Flipperturnering arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Stangby, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stangby, Uppsala.",
+    "descriptionFull": "ÖAMCK Flipperturnering arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Stangby, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stangby, Uppsala.",
     "links": [
       {
         "label": "oamck.se",
@@ -17201,7 +17201,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-11-24/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17226,7 +17226,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-11-26/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17251,7 +17251,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-julbordskryssning/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Julbordskryssning arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Stockholm. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Stockholm.",
+    "descriptionFull": "DOA - Julbordskryssning arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Stockholm. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17276,7 +17276,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doe-medlemsmote-julbord-28-29-november/",
     "region": "Östergötland",
     "source": "hdcs.se",
-    "descriptionFull": "DOE Medlemsmöte/Julbord 28-29 november arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Småland.",
+    "descriptionFull": "DOE Medlemsmöte/Julbord 28-29 november arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17301,7 +17301,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-11-28/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17326,7 +17326,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-01/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17351,7 +17351,7 @@ const EVENTS_DATA = {
     "link": "https://gwcs.se/events/stor-jultallrik-pa-sigridslunds-cafe/?occurrence=2026-12-06",
     "region": "Södermanland",
     "source": "gwcs.se",
-    "descriptionFull": "Stor Jultallrik Sigridslunds Cafe arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sigridslunds Cafe, Ardala.",
+    "descriptionFull": "Stor Jultallrik Sigridslunds Cafe arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
     "links": [
       {
         "label": "gwcs.se",
@@ -17376,7 +17376,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-08/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17401,7 +17401,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-12-10/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17426,7 +17426,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/d15-luciamys-i-lundagard/",
     "region": "Skåne",
     "source": "bmwklubben.se",
-    "descriptionFull": "D15 Luciamys i Lundagård arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Lundagård, Lund. Mer info på bmwklubben.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Lundagård, Lund.",
+    "descriptionFull": "D15 Luciamys i Lundagård arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D15 från Lundagård, Lund. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Lundagård, Lund.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -17451,7 +17451,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-12-12/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17476,7 +17476,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/julbord/",
     "region": "Sverige",
     "source": "hdcs.se",
-    "descriptionFull": "Julbord arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sverige.",
+    "descriptionFull": "Julbord arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17501,7 +17501,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-15/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17526,7 +17526,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-22/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17551,7 +17551,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-12-24/",
     "region": "Värmland",
     "source": "hdcs.se",
-    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+    "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17576,7 +17576,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-12-26/",
     "region": "Dalarna",
     "source": "hdcs.se",
-    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rådis, Dalarna.",
+    "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17601,7 +17601,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-29/",
     "region": "Stockholm",
     "source": "hdcs.se",
-    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+    "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17626,7 +17626,7 @@ const EVENTS_DATA = {
     "link": "https://hdcs.se/evenemang/sista-turen-for-aret/",
     "region": "Västra Götaland",
     "source": "hdcs.se",
-    "descriptionFull": "Sista turen för året arrangeras av H-DCS.\n\nKörtur med H-DCS från Sverige. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid for samling. Kontrollera evenemangssidan for exakt avfardstid och rutt.\n\nPlats: Sverige.",
+    "descriptionFull": "Sista turen för året arrangeras av H-DCS.\n\nKörtur med H-DCS från Sverige. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Sverige.",
     "links": [
       {
         "label": "hdcs.se",
@@ -17651,7 +17651,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/region-vast-subventionerat-trafiksakerhetsarbete-2026-2/",
     "region": "Värmland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 2 arrangeras av BMW MC-klubben.\n\nGemensam körning från Västra Götaland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam korning pa utvalda vagar. Kontrollera evenemangssidan for detaljer.\n\nPlats: Västra, Götaland.",
+    "descriptionFull": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 2 arrangeras av BMW MC-klubben.\n\nGemensam körning från Västra Götaland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Västra, Götaland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -17676,7 +17676,7 @@ const EVENTS_DATA = {
     "link": "https://www.bmwklubben.se/aktiviteter/region-vast-subventionerat-trafiksakerhetsarbete-2026-1/",
     "region": "Värmland",
     "source": "bmwklubben.se",
-    "descriptionFull": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 1 arrangeras av BMW MC-klubben.\n\nGemensam körning från Västra Götaland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam korning pa utvalda vagar. Kontrollera evenemangssidan for detaljer.\n\nPlats: Västra, Götaland.",
+    "descriptionFull": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 1 arrangeras av BMW MC-klubben.\n\nGemensam körning från Västra Götaland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Västra, Götaland.",
     "links": [
       {
         "label": "bmwklubben.se",
@@ -17701,7 +17701,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Skåne",
     "source": "svemo.se",
-    "descriptionFull": "MXSM Deltävling 1 - Landskrona arrangeras av SVEMO / Landskrona MX.\n\nSvenska Mästerskapen i Motocross (MX1, MX2, MX-Women, USM 125 U17). Säsongens första MXSM-deltävling.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Landskrona MX, Landskrona.",
+    "descriptionFull": "MXSM Deltävling 1 - Landskrona arrangeras av SVEMO / Landskrona MX.\n\nSvenska Mästerskapen i Motocross (MX1, MX2, MX-Women, USM 125 U17). Säsongens första MXSM-deltävling.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Landskrona MX, Landskrona.",
     "links": [
       {
         "label": "svemo.se",
@@ -17726,7 +17726,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Östergötland",
     "source": "svemo.se",
-    "descriptionFull": "MXSM Deltävling 2 - Linköping arrangeras av SVEMO / Linköpings MS.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Linköpings MS, Linköping.",
+    "descriptionFull": "MXSM Deltävling 2 - Linköping arrangeras av SVEMO / Linköpings MS.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Linköpings MS, Linköping.",
     "links": [
       {
         "label": "svemo.se",
@@ -17751,7 +17751,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Västra Götaland",
     "source": "svemo.se",
-    "descriptionFull": "MXSM Deltävling 3 - Tibro arrangeras av SVEMO / Tibro MK.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Tibro MK, Tibro.",
+    "descriptionFull": "MXSM Deltävling 3 - Tibro arrangeras av SVEMO / Tibro MK.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Tibro MK, Tibro.",
     "links": [
       {
         "label": "svemo.se",
@@ -17776,7 +17776,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Halland",
     "source": "svemo.se",
-    "descriptionFull": "MXSM Deltävling 4 - Varberg arrangeras av SVEMO / Varbergs MK.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Varbergs MK, Varberg.",
+    "descriptionFull": "MXSM Deltävling 4 - Varberg arrangeras av SVEMO / Varbergs MK.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Varbergs MK, Varberg.",
     "links": [
       {
         "label": "svemo.se",
@@ -17801,7 +17801,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Västra Götaland",
     "source": "svemo.se",
-    "descriptionFull": "MXSM Deltävling 5 - Ulricehamn arrangeras av SVEMO / Ulricehamns MK.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Ulricehamns MK, Ulricehamn.",
+    "descriptionFull": "MXSM Deltävling 5 - Ulricehamn arrangeras av SVEMO / Ulricehamns MK.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Ulricehamns MK, Ulricehamn.",
     "links": [
       {
         "label": "svemo.se",
@@ -17826,7 +17826,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Västra Götaland",
     "source": "svemo.se",
-    "descriptionFull": "MXSM Deltävling 6 - Göteborg arrangeras av SVEMO / Göta MS.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Göta MS, Göteborg.",
+    "descriptionFull": "MXSM Deltävling 6 - Göteborg arrangeras av SVEMO / Göta MS.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Göta MS, Göteborg.",
     "links": [
       {
         "label": "svemo.se",
@@ -17851,7 +17851,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Västra Götaland",
     "source": "svemo.se",
-    "descriptionFull": "MXSM Final - Uddevalla arrangeras av SVEMO / BMK Uddevalla.\n\nSvenska Mästerskapen i Motocross, sista deltävlingen (MX1, MX2, MX-Women, USM 125 U17).\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: BMK Uddevalla, Uddevalla.",
+    "descriptionFull": "MXSM Final - Uddevalla arrangeras av SVEMO / BMK Uddevalla.\n\nSvenska Mästerskapen i Motocross, sista deltävlingen (MX1, MX2, MX-Women, USM 125 U17).\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: BMK Uddevalla, Uddevalla.",
     "links": [
       {
         "label": "svemo.se",
@@ -17876,7 +17876,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Jönköping",
     "source": "svemo.se",
-    "descriptionFull": "JSM MX2 J19, USM 85cc & Svemo Cup - Tranås arrangeras av SVEMO / Tranås MS.\n\nJunior-SM MX2 J19, Ungdoms-SM 85cc och Svemo Cup. Säsongens första stora MX-tävling.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Bredtorpsbanan, Tranås.",
+    "descriptionFull": "JSM MX2 J19, USM 85cc & Svemo Cup - Tranås arrangeras av SVEMO / Tranås MS.\n\nJunior-SM MX2 J19, Ungdoms-SM 85cc och Svemo Cup. Säsongens första stora MX-tävling.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Bredtorpsbanan, Tranås.",
     "links": [
       {
         "label": "svemo.se",
@@ -17901,7 +17901,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Skåne",
     "source": "svemo.se",
-    "descriptionFull": "Lag-SM & SM Motocross Sprint - Helsingborg arrangeras av SVEMO / Helsingborgs MCK.\n\nLag-SM i Motocross (4 jul) och SM Motocross Sprint Open & Women (5 jul). MX-Women deltävling ingår.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: Helsingborgs MCK, Helsingborg.",
+    "descriptionFull": "Lag-SM & SM Motocross Sprint - Helsingborg arrangeras av SVEMO / Helsingborgs MCK.\n\nLag-SM i Motocross (4 jul) och SM Motocross Sprint Open & Women (5 jul). MX-Women deltävling ingår.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Helsingborgs MCK, Helsingborg.",
     "links": [
       {
         "label": "svemo.se",
@@ -17926,7 +17926,7 @@ const EVENTS_DATA = {
     "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
     "region": "Västmanland",
     "source": "svemo.se",
-    "descriptionFull": "JSM MX Finalomgång - MK Orion arrangeras av SVEMO / MK Orion.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTavlingsevenemang. Se arrangoren for schema och biljetter.\n\nPlats: MK, Orion.",
+    "descriptionFull": "JSM MX Finalomgång - MK Orion arrangeras av SVEMO / MK Orion.\n\nDeltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: MK, Orion.",
     "links": [
       {
         "label": "svemo.se",
@@ -17981,7 +17981,7 @@ const EVENTS_DATA = {
     "link": "https://smc-kalmar.com/",
     "region": "Kalmar",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Grillkväll på Aboda Klint arrangeras av SMC Kalmar.\n\nArrangemang med SMC i Aboda Klint. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Aboda, Klint.",
+    "descriptionFull": "Grillkväll på Aboda Klint arrangeras av SMC Kalmar.\n\nArrangemang med SMC i Aboda Klint. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Aboda, Klint.",
     "links": [
       {
         "label": "smc-kalmar.com",
@@ -18033,14 +18033,14 @@ const EVENTS_DATA = {
     "type": "Träff",
     "organizer": "Törnros MC",
     "description": "MC-arrangemang i Rastplats väg 40, Långsjön, Ankarsrum. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
-    "link": "https://smcboken.svmc.se/traffar/mctraffar",
+    "link": "https://smcboken.svmc.se/traffar/mcträffar",
     "region": "Kalmar",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Grillkväll Långsjön arrangeras av Törnros MC.\n\nMC-arrangemang i Rastplats väg 40, Långsjön, Ankarsrum. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rastplats väg 40, Långsjön, Ankarsrum.",
+    "descriptionFull": "Grillkväll Långsjön arrangeras av Törnros MC.\n\nMC-arrangemang i Rastplats väg 40, Långsjön, Ankarsrum. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rastplats väg 40, Långsjön, Ankarsrum.",
     "links": [
       {
         "label": "smcboken.svmc.se",
-        "url": "https://smcboken.svmc.se/traffar/mctraffar"
+        "url": "https://smcboken.svmc.se/traffar/mcträffar"
       },
       {
         "label": "Karta",
@@ -18061,7 +18061,7 @@ const EVENTS_DATA = {
     "link": "https://www.sidvagn.se/",
     "region": "Halland",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Sidvagnsträff med årsmöte arrangeras av Svenska Sidvagnsklubben SVEA.\n\nTräffpunkt i Loiterer MC klubbstuga, Falkenberg. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Loiterer MC klubbstuga, Falkenberg.",
+    "descriptionFull": "Sidvagnsträff med årsmöte arrangeras av Svenska Sidvagnsklubben SVEA.\n\nTräffpunkt i Loiterer MC klubbstuga, Falkenberg. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Loiterer MC klubbstuga, Falkenberg.",
     "links": [
       {
         "label": "sidvagn.se",
@@ -18086,7 +18086,7 @@ const EVENTS_DATA = {
     "link": "https://www.hermanshedningar.se/",
     "region": "Jönköping",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Hermans Sjöslag 2026 arrangeras av SMC.\n\nArrangemang med SMC i Sundet vid Sjön Vidöstern. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sundet vid Sjön Vidöstern.",
+    "descriptionFull": "Hermans Sjöslag 2026 arrangeras av SMC.\n\nArrangemang med SMC i Sundet vid Sjön Vidöstern. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sundet vid Sjön Vidöstern.",
     "links": [
       {
         "label": "hermanshedningar.se",
@@ -18111,7 +18111,7 @@ const EVENTS_DATA = {
     "link": "https://www.redwingsmoramc.se/",
     "region": "Dalarna",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Siljansträffen arrangeras av Red Wings Mora MC.\n\nKlassisk MC-träff i gammal stil. Litet och gemytligt, lättillgängligt vid sjön Siljan.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Red Wings Mora MC klubbstuga, Lomsmyren, Mora.",
+    "descriptionFull": "Siljansträffen arrangeras av Red Wings Mora MC.\n\nKlassisk MC-träff i gammal stil. Litet och gemytligt, lättillgängligt vid sjön Siljan.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Red Wings Mora MC klubbstuga, Lomsmyren, Mora.",
     "links": [
       {
         "label": "redwingsmoramc.se",
@@ -18133,14 +18133,14 @@ const EVENTS_DATA = {
     "type": "Träff",
     "organizer": "Lille Mats MCK",
     "description": "MC-kortege till förmån för prostacancerföreningen. Pris 150 kr per hjälm. Alla medel går till Pro Vitae.",
-    "link": "https://smcboken.svmc.se/traffar/mctraffar",
+    "link": "https://smcboken.svmc.se/traffar/mcträffar",
     "region": "Skåne",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Mustaschkortegen arrangeras av Lille Mats MCK.\n\nMC-kortege till förmån för prostacancerföreningen. Pris 150 kr per hjälm. Alla medel går till Pro Vitae.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Thygesson Bussar, Broby.",
+    "descriptionFull": "Mustaschkortegen arrangeras av Lille Mats MCK.\n\nMC-kortege till förmån för prostacancerföreningen. Pris 150 kr per hjälm. Alla medel går till Pro Vitae.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Thygesson Bussar, Broby.",
     "links": [
       {
         "label": "smcboken.svmc.se",
-        "url": "https://smcboken.svmc.se/traffar/mctraffar"
+        "url": "https://smcboken.svmc.se/traffar/mcträffar"
       },
       {
         "label": "Karta",
@@ -18161,7 +18161,7 @@ const EVENTS_DATA = {
     "link": "https://www.htconline.se/",
     "region": "Jönköping",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "HTC och SMC kvällsträff Nässjö arrangeras av Höglandets Touring Club.\n\nTräffpunkt i Gisshults badplats, Nässjö. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Gisshults badplats, Nässjö.",
+    "descriptionFull": "HTC och SMC kvällsträff Nässjö arrangeras av Höglandets Touring Club.\n\nTräffpunkt i Gisshults badplats, Nässjö. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gisshults badplats, Nässjö.",
     "links": [
       {
         "label": "htconline.se",
@@ -18183,14 +18183,14 @@ const EVENTS_DATA = {
     "type": "Träff",
     "organizer": "SMC",
     "description": "Arrangemang med SMC i Tavelsjö. Mötespunkt för MC-klubben. Mer information på smc.nu.",
-    "link": "https://smcboken.svmc.se/traffar/mctraffar",
+    "link": "https://smcboken.svmc.se/traffar/mcträffar",
     "region": "Västerbotten",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Sågverksfesten XII arrangeras av SMC.\n\nArrangemang med SMC i Tavelsjö. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Tavelsjö.",
+    "descriptionFull": "Sågverksfesten XII arrangeras av SMC.\n\nArrangemang med SMC i Tavelsjö. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Tavelsjö.",
     "links": [
       {
         "label": "smcboken.svmc.se",
-        "url": "https://smcboken.svmc.se/traffar/mctraffar"
+        "url": "https://smcboken.svmc.se/traffar/mcträffar"
       },
       {
         "label": "Karta",
@@ -18211,7 +18211,7 @@ const EVENTS_DATA = {
     "link": "http://mmck.se/",
     "region": "Norrbotten",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Midnattssolsträffen arrangeras av MMCK Malmfältens MCK.\n\n50:e Midnattssolsträffen med extra program. En av Sveriges nordligaste MC-träffar.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: MMCK klubbområde.",
+    "descriptionFull": "Midnattssolsträffen arrangeras av MMCK Malmfältens MCK.\n\n50:e Midnattssolsträffen med extra program. En av Sveriges nordligaste MC-träffar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: MMCK klubbområde.",
     "links": [
       {
         "label": "mmck.se",
@@ -18236,7 +18236,7 @@ const EVENTS_DATA = {
     "link": "https://smtt.se/",
     "region": "Gävleborg",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Kvällsträff SMTT Stenö arrangeras av SMTT Söderhamns MC Touring Team.\n\nTräffpunkt i Larsbo, Stenö, Sandarne. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Larsbo, Stenö, Sandarne.",
+    "descriptionFull": "Kvällsträff SMTT Stenö arrangeras av SMTT Söderhamns MC Touring Team.\n\nTräffpunkt i Larsbo, Stenö, Sandarne. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Larsbo, Stenö, Sandarne.",
     "links": [
       {
         "label": "smtt.se",
@@ -18261,7 +18261,7 @@ const EVENTS_DATA = {
     "link": "https://dmck-fridas.se/",
     "region": "Jämtland",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "45:an arrangeras av DMCK Fridas.\n\n45:an, en träff med underbara människor och otrolig atmosfär. Levande musik, matservering.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Bredviksnäset, Höting.",
+    "descriptionFull": "45:an arrangeras av DMCK Fridas.\n\n45:an, en träff med underbara människor och otrolig atmosfär. Levande musik, matservering.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Bredviksnäset, Höting.",
     "links": [
       {
         "label": "dmck-fridas.se",
@@ -18286,7 +18286,7 @@ const EVENTS_DATA = {
     "link": "https://www.sidvagn.se/",
     "region": "Skåne",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Mini Jumbo i Klippan arrangeras av Svenska Sidvagnsklubben SVEA.\n\nMiniträff där funktionsnedsatta personer får åka i sidvagnar. Tält och husbilsparkering.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Sågen Möjligheternas hus, Klippan.",
+    "descriptionFull": "Mini Jumbo i Klippan arrangeras av Svenska Sidvagnsklubben SVEA.\n\nMiniträff där funktionsnedsatta personer får åka i sidvagnar. Tält och husbilsparkering.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sågen Möjligheternas hus, Klippan.",
     "links": [
       {
         "label": "sidvagn.se",
@@ -18311,7 +18311,7 @@ const EVENTS_DATA = {
     "link": "https://www.gmck.se/",
     "region": "Gotland",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Gotlands MC klubbs campingträff arrangeras av Gotlands MC klubb.\n\nTräffpunkt i GMCK Klubbstuga, Västerhejde, Gotland. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: GMCK Klubbstuga, Västerhejde, Gotland.",
+    "descriptionFull": "Gotlands MC klubbs campingträff arrangeras av Gotlands MC klubb.\n\nTräffpunkt i GMCK Klubbstuga, Västerhejde, Gotland. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: GMCK Klubbstuga, Västerhejde, Gotland.",
     "links": [
       {
         "label": "gmck.se",
@@ -18336,7 +18336,7 @@ const EVENTS_DATA = {
     "link": "http://eagleriders.se/",
     "region": "Västra Götaland",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Knalleträffen arrangeras av Eagle Riders MC Borås.\n\nTräffpunkt i Eagle Riders MC, Borås. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Eagle Riders MC, Borås.",
+    "descriptionFull": "Knalleträffen arrangeras av Eagle Riders MC Borås.\n\nTräffpunkt i Eagle Riders MC, Borås. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Eagle Riders MC, Borås.",
     "links": [
       {
         "label": "eagleriders.se",
@@ -18358,14 +18358,14 @@ const EVENTS_DATA = {
     "type": "Träff",
     "organizer": "Tors MC",
     "description": "Träffpunkt i Dye gård, Karlstad. Gemensam fika och MC-umgänge. Återkommande träff alla välkomna!",
-    "link": "https://smcboken.svmc.se/traffar/mctraffar",
+    "link": "https://smcboken.svmc.se/traffar/mcträffar",
     "region": "Värmland",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Torsträffen arrangeras av Tors MC.\n\nTräffpunkt i Dye gård, Karlstad. Gemensam fika och MC-umgänge. Återkommande träff alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Dye gård, Karlstad.",
+    "descriptionFull": "Torsträffen arrangeras av Tors MC.\n\nTräffpunkt i Dye gård, Karlstad. Gemensam fika och MC-umgänge. Återkommande träff alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Dye gård, Karlstad.",
     "links": [
       {
         "label": "smcboken.svmc.se",
-        "url": "https://smcboken.svmc.se/traffar/mctraffar"
+        "url": "https://smcboken.svmc.se/traffar/mcträffar"
       },
       {
         "label": "Karta",
@@ -18383,14 +18383,14 @@ const EVENTS_DATA = {
     "type": "Träff",
     "organizer": "Törnros MC",
     "description": "MC-arrangemang i Rastplats väg 40, Långsjön, Ankarsrum. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
-    "link": "https://smcboken.svmc.se/traffar/mctraffar",
+    "link": "https://smcboken.svmc.se/traffar/mcträffar",
     "region": "Kalmar",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Grillkväll Långsjön augusti arrangeras av Törnros MC.\n\nMC-arrangemang i Rastplats väg 40, Långsjön, Ankarsrum. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Rastplats väg 40, Långsjön, Ankarsrum.",
+    "descriptionFull": "Grillkväll Långsjön augusti arrangeras av Törnros MC.\n\nMC-arrangemang i Rastplats väg 40, Långsjön, Ankarsrum. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rastplats väg 40, Långsjön, Ankarsrum.",
     "links": [
       {
         "label": "smcboken.svmc.se",
-        "url": "https://smcboken.svmc.se/traffar/mctraffar"
+        "url": "https://smcboken.svmc.se/traffar/mcträffar"
       },
       {
         "label": "Karta",
@@ -18411,7 +18411,7 @@ const EVENTS_DATA = {
     "link": "https://cmck.se/",
     "region": "Värmland",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Höstträffen Kristinehamn arrangeras av Christinehamns MC klubb.\n\nTräffpunkt i Gustavsvik, Kristinehamn. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Gustavsvik, Kristinehamn.",
+    "descriptionFull": "Höstträffen Kristinehamn arrangeras av Christinehamns MC klubb.\n\nTräffpunkt i Gustavsvik, Kristinehamn. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gustavsvik, Kristinehamn.",
     "links": [
       {
         "label": "cmck.se",
@@ -18436,7 +18436,7 @@ const EVENTS_DATA = {
     "link": "http://eagleriders.se/",
     "region": "Västra Götaland",
     "source": "smcboken.svmc.se",
-    "descriptionFull": "Pannkaksfesten arrangeras av Eagle Riders MC Borås.\n\nMC-arrangemang i Eagle Riders MC, Borås. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Eagle Riders MC, Borås.",
+    "descriptionFull": "Pannkaksfesten arrangeras av Eagle Riders MC Borås.\n\nMC-arrangemang i Eagle Riders MC, Borås. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Eagle Riders MC, Borås.",
     "links": [
       {
         "label": "eagleriders.se",
@@ -18450,16 +18450,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-norrbotten-arsmote-2026",
+    "id": "smc-norrbotten-årsmöte-2026",
     "name": "SMC Norrbottens Årsmöte 2026",
     "date": "2026-03-07",
     "location": "Biografen Royal, Luleå",
     "region": "Norrbotten",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Norrbottens arsmote med gast Kristina 'Krikko' Lundstrom fran Boden, kand aventyrsmotorcyklist med stor erfarenhet av resor runt om i varlden.",
+    "description": "SMC Norrbottens årsmöte med gast Kristina 'Krikko' Lundstrom från Boden, kand aventyrsmotorcyklist med stor erfarenhet av resor runt om i världen.",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Norrbottens Årsmöte 2026 arrangeras av SMC.\n\nSMC Norrbottens arsmote med gast Kristina 'Krikko' Lundstrom fran Boden, kand aventyrsmotorcyklist med stor erfarenhet av resor runt om i varlden.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Biografen Royal, Luleå.",
+    "descriptionFull": "SMC Norrbottens Årsmöte 2026 arrangeras av SMC.\n\nSMC Norrbottens årsmöte med gast Kristina 'Krikko' Lundstrom från Boden, kand aventyrsmotorcyklist med stor erfarenhet av resor runt om i världen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biografen Royal, Luleå.",
     "links": [
       {
         "label": "svmc.se",
@@ -18473,16 +18473,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-skane-arsmote-2026",
+    "id": "smc-skane-årsmöte-2026",
     "name": "SMC Skånes Årsmöte 2026",
     "date": "2026-03-08",
     "location": "Skåne",
     "region": "Skåne",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Skanes arsmote. Kl 13. Anmalan sker via Mitt Konto (konto.svmc.se). Plats och ytterligare information meddelas via hemsida, SMC Boken och Facebook.",
+    "description": "SMC Skanes årsmöte. Kl 13. Anmalan sker via Mitt Konto (konto.svmc.se). Plats och ytterligare information meddelas via hemsida, SMC Boken och Facebook.",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Skånes Årsmöte 2026 arrangeras av SMC.\n\nSMC Skanes arsmote. Kl 13. Anmalan sker via Mitt Konto (konto.svmc.se). Plats och ytterligare information meddelas via hemsida, SMC Boken och Facebook.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Skåne.",
+    "descriptionFull": "SMC Skånes Årsmöte 2026 arrangeras av SMC.\n\nSMC Skanes årsmöte. Kl 13. Anmalan sker via Mitt Konto (konto.svmc.se). Plats och ytterligare information meddelas via hemsida, SMC Boken och Facebook.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
     "links": [
       {
         "label": "svmc.se",
@@ -18496,16 +18496,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-uppsala-arsmote-2026",
+    "id": "smc-uppsala-årsmöte-2026",
     "name": "SMC Uppsala Årsmöte 2026",
     "date": "2026-03-08",
     "location": "Östra Aros MC klubblokal, Stångby 1, Uppsala",
     "region": "Uppsala",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Uppsala arsmote, preliminart kl 15. Kontakta styrelsen pa info@smcuppsala.se for mer info eller om du vill hjalpa till i verksamheten.",
+    "description": "SMC Uppsala årsmöte, preliminärt kl 15. Kontakta styrelsen på info@smcuppsala.se för mer info eller om du vill hjälpa till i verksamheten.",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Uppsala Årsmöte 2026 arrangeras av SMC.\n\nSMC Uppsala arsmote, preliminart kl 15. Kontakta styrelsen pa info@smcuppsala.se for mer info eller om du vill hjalpa till i verksamheten.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Östra Aros MC klubblokal, Stångby 1, Uppsala.",
+    "descriptionFull": "SMC Uppsala Årsmöte 2026 arrangeras av SMC.\n\nSMC Uppsala årsmöte, preliminärt kl 15. Kontakta styrelsen på info@smcuppsala.se för mer info eller om du vill hjälpa till i verksamheten.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Östra Aros MC klubblokal, Stångby 1, Uppsala.",
     "links": [
       {
         "label": "svmc.se",
@@ -18519,16 +18519,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-orebro-arsmote-2026",
+    "id": "smc-orebro-årsmöte-2026",
     "name": "SMC Örebros Årsmöte 2026",
     "date": "2026-03-10",
     "location": "Idrottens Hus, Karlsgatan 28, Örebro",
     "region": "Örebro",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Orebros arsmote. Tid: 18.30. Plats: Idrottens Hus, Karlsgatan 28 Orebro. Hall da koll pa sociala medier, hemsidan och appen for senaste information.",
+    "description": "SMC Örebros årsmöte. Tid: 18.30. Plats: Idrottens Hus, Karlsgatan 28 Örebro. Hall da koll på sociala medier, hemsidan och appen för senaste information.",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Örebros Årsmöte 2026 arrangeras av SMC.\n\nSMC Orebros arsmote. Tid: 18.30. Plats: Idrottens Hus, Karlsgatan 28 Orebro. Hall da koll pa sociala medier, hemsidan och appen for senaste information.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Idrottens Hus, Karlsgatan 28, Örebro.",
+    "descriptionFull": "SMC Örebros Årsmöte 2026 arrangeras av SMC.\n\nSMC Örebros årsmöte. Tid: 18.30. Plats: Idrottens Hus, Karlsgatan 28 Örebro. Hall da koll på sociala medier, hemsidan och appen för senaste information.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Idrottens Hus, Karlsgatan 28, Örebro.",
     "links": [
       {
         "label": "svmc.se",
@@ -18542,16 +18542,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-kronoberg-arsmote-2026",
+    "id": "smc-kronoberg-årsmöte-2026",
     "name": "SMC Kronobergs Årsmöte 2026",
     "date": "2026-03-15",
     "location": "Hjorts klubbstuga, Kronoberg",
     "region": "Kronoberg",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Kronobergs arsmote kl 15 i Hjorts klubbstuga. Motioner maste vara styrelsen tillhanda senast den 14/2 (info@smckronoberg.se).",
+    "description": "SMC Kronobergs årsmöte kl 15 i Hjorts klubbstuga. Motioner maste vara styrelsen tillhanda senast den 14/2 (info@smckronoberg.se).",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Kronobergs Årsmöte 2026 arrangeras av SMC.\n\nSMC Kronobergs arsmote kl 15 i Hjorts klubbstuga. Motioner maste vara styrelsen tillhanda senast den 14/2 (info@smckronoberg.se).\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Hjorts klubbstuga, Kronoberg.",
+    "descriptionFull": "SMC Kronobergs Årsmöte 2026 arrangeras av SMC.\n\nSMC Kronobergs årsmöte kl 15 i Hjorts klubbstuga. Motioner maste vara styrelsen tillhanda senast den 14/2 (info@smckronoberg.se).\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hjorts klubbstuga, Kronoberg.",
     "links": [
       {
         "label": "svmc.se",
@@ -18565,16 +18565,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-vasternorrland-arsmote-2026",
+    "id": "smc-vasternorrland-årsmöte-2026",
     "name": "SMC Västernorrlands Årsmöte 2026",
     "date": "2026-03-21",
     "location": "Västernorrland",
     "region": "Västernorrland",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Vasternorrlands arsmote med motionsskrivning och planering pa agendan. Tid for inskick av motioner publiceras pa distriktets hemsida och sociala medier.",
+    "description": "SMC Vasternorrlands årsmöte med motionsskrivning och planering på agendan. Tid för inskick av motioner publiceras på distriktets hemsida och sociala medier.",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Västernorrlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Vasternorrlands arsmote med motionsskrivning och planering pa agendan. Tid for inskick av motioner publiceras pa distriktets hemsida och sociala medier.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Västernorrland.",
+    "descriptionFull": "SMC Västernorrlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Vasternorrlands årsmöte med motionsskrivning och planering på agendan. Tid för inskick av motioner publiceras på distriktets hemsida och sociala medier.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västernorrland.",
     "links": [
       {
         "label": "svmc.se",
@@ -18588,16 +18588,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-vastmanland-arsmote-2026",
+    "id": "smc-vastmanland-årsmöte-2026",
     "name": "SMC Västmanlands Årsmöte 2026",
     "date": "2026-03-21",
     "location": "Västerås",
     "region": "Västmanland",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Vastmanlands arsmote kl 16 i Vasteras. Mer info via www.svmc.se/vastmanland och sociala medier.",
+    "description": "SMC Västmanlands årsmöte kl 16 i Västerås. Mer info via www.svmc.se/vastmanland och sociala medier.",
     "link": "https://svmc.se/vastmanland",
-    "descriptionFull": "SMC Västmanlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Vastmanlands arsmote kl 16 i Vasteras. Mer info via www.svmc.se/vastmanland och sociala medier.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Västerås.",
+    "descriptionFull": "SMC Västmanlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Västmanlands årsmöte kl 16 i Västerås. Mer info via www.svmc.se/vastmanland och sociala medier.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västerås.",
     "links": [
       {
         "label": "svmc.se",
@@ -18611,16 +18611,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-vastra-gotaland-arsmote-2026",
+    "id": "smc-vastra-gotaland-årsmöte-2026",
     "name": "SMC Västra Götalands Årsmöte 2026",
     "date": "2026-03-21",
     "location": "Västra Götaland",
     "region": "Västra Götaland",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Vast haller arsmote med sedvanliga arsmotesforhandlingar. Tid och plats pa hemsidan. Motioner senast den 7 februari.",
+    "description": "SMC Vast haller årsmöte med sedvanliga årsmötesforhandlingar. Tid och plats på hemsidan. Motioner senast den 7 februari.",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Västra Götalands Årsmöte 2026 arrangeras av SMC.\n\nSMC Vast haller arsmote med sedvanliga arsmotesforhandlingar. Tid och plats pa hemsidan. Motioner senast den 7 februari.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Västra Götaland.",
+    "descriptionFull": "SMC Västra Götalands Årsmöte 2026 arrangeras av SMC.\n\nSMC Vast haller årsmöte med sedvanliga årsmötesforhandlingar. Tid och plats på hemsidan. Motioner senast den 7 februari.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västra Götaland.",
     "links": [
       {
         "label": "svmc.se",
@@ -18634,16 +18634,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-gotland-arsmote-2026",
+    "id": "smc-gotland-årsmöte-2026",
     "name": "SMC Gotlands Årsmöte 2026",
     "date": "2026-03-22",
     "location": "Uncle Joes, Visby",
     "region": "Gotland",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Gotlands arsmote kl 14 pa Uncle Joes i Visby. Motioner och forslag behover vara styrelsen tillhanda sex veckor fore arsmotet. Efter arsmotet informerar vi om SMCs arbete.",
+    "description": "SMC Gotlands årsmöte kl 14 på Uncle Joes i Visby. Motioner och förslag behöver vara styrelsen tillhanda sex veckor före årsmötet. Efter årsmötet informerar vi om SMCs arbete.",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Gotlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Gotlands arsmote kl 14 pa Uncle Joes i Visby. Motioner och forslag behover vara styrelsen tillhanda sex veckor fore arsmotet. Efter arsmotet informerar vi om SMCs arbete.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Uncle Joes, Visby.",
+    "descriptionFull": "SMC Gotlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Gotlands årsmöte kl 14 på Uncle Joes i Visby. Motioner och förslag behöver vara styrelsen tillhanda sex veckor före årsmötet. Efter årsmötet informerar vi om SMCs arbete.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Uncle Joes, Visby.",
     "links": [
       {
         "label": "svmc.se",
@@ -18657,16 +18657,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-jonkoping-arsmote-2026",
+    "id": "smc-jonkoping-årsmöte-2026",
     "name": "SMC Jönköpings Årsmöte 2026",
     "date": "2026-03-22",
     "location": "Jönköping",
     "region": "Jönköping",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Jonkopings arsmote kl 13. Motet inleds med ett foredrag av Bjorn Gunnarsson. Darefter arsmote! SMC bjuder pa fika. Plats meddelas pa hemsida och Facebook.",
+    "description": "SMC Jonkopings årsmöte kl 13. Motet inleds med ett föredrag av Björn Gunnarsson. Därefter årsmöte! SMC bjuder på fika. Plats meddelas på hemsida och Facebook.",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Jönköpings Årsmöte 2026 arrangeras av SMC.\n\nSMC Jonkopings arsmote kl 13. Motet inleds med ett foredrag av Bjorn Gunnarsson. Darefter arsmote! SMC bjuder pa fika. Plats meddelas pa hemsida och Facebook.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Jönköping.",
+    "descriptionFull": "SMC Jönköpings Årsmöte 2026 arrangeras av SMC.\n\nSMC Jonkopings årsmöte kl 13. Motet inleds med ett föredrag av Björn Gunnarsson. Därefter årsmöte! SMC bjuder på fika. Plats meddelas på hemsida och Facebook.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Jönköping.",
     "links": [
       {
         "label": "svmc.se",
@@ -18680,16 +18680,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-kalmar-arsmote-2026",
+    "id": "smc-kalmar-årsmöte-2026",
     "name": "SMC Kalmars Årsmöte 2026",
     "date": "2026-03-22",
     "location": "Kalmar",
     "region": "Kalmar",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Kalmar Lans arsmote kl 12. Plats meddelas senare. Obligatorisk anmalan till info@smc-kalmar.com senast den 8 mars 2026.",
+    "description": "SMC Kalmar Lans årsmöte kl 12. Plats meddelas senare. Obligatorisk anmalan till info@smc-kalmar.com senast den 8 mars 2026.",
     "link": "https://svmc.se",
-    "descriptionFull": "SMC Kalmars Årsmöte 2026 arrangeras av SMC.\n\nSMC Kalmar Lans arsmote kl 12. Plats meddelas senare. Obligatorisk anmalan till info@smc-kalmar.com senast den 8 mars 2026.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Kalmar.",
+    "descriptionFull": "SMC Kalmars Årsmöte 2026 arrangeras av SMC.\n\nSMC Kalmar Lans årsmöte kl 12. Plats meddelas senare. Obligatorisk anmalan till info@smc-kalmar.com senast den 8 mars 2026.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kalmar.",
     "links": [
       {
         "label": "svmc.se",
@@ -18703,16 +18703,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-varmland-arsmote-2026",
+    "id": "smc-varmland-årsmöte-2026",
     "name": "SMC Värmlands Årsmöte 2026",
     "date": "2026-03-28",
     "location": "Värmlands TrafikCenter, Grums",
     "region": "Värmland",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Varmlands arsmote pa Varmlands TrafikCenter i Grums. SMC bjuder som vanligt pa fika. Motioner skickas till ordforande@svmc.se/varmland.",
+    "description": "SMC Varmlands årsmöte på Varmlands TrafikCenter i Grums. SMC bjuder som vanligt på fika. Motioner skickas till ordforande@svmc.se/varmland.",
     "link": "https://svmc.se/varmland",
-    "descriptionFull": "SMC Värmlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Varmlands arsmote pa Varmlands TrafikCenter i Grums. SMC bjuder som vanligt pa fika. Motioner skickas till ordforande@svmc.se/varmland.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Värmlands TrafikCenter, Grums.",
+    "descriptionFull": "SMC Värmlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Varmlands årsmöte på Varmlands TrafikCenter i Grums. SMC bjuder som vanligt på fika. Motioner skickas till ordforande@svmc.se/varmland.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Värmlands TrafikCenter, Grums.",
     "links": [
       {
         "label": "svmc.se",
@@ -18726,16 +18726,16 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "smc-vasterbotten-arsmote-2026",
+    "id": "smc-vasterbotten-årsmöte-2026",
     "name": "SMC Västerbottens Årsmöte 2026",
     "date": "2026-03-28",
     "location": "Västerbotten",
     "region": "Västerbotten",
     "type": "Träff",
     "organizer": "SMC",
-    "description": "SMC Vasterbottens arsmote. Forerasning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Arsmote kl 14-16. SMC bjuder pa fika. Lunch bestalls pa egen bekostnad. Boka via grundkurser.svmc.se.",
+    "description": "SMC Vasterbottens årsmöte. Forerasning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Arsmote kl 14-16. SMC bjuder på fika. Lunch bestalls på egen bekostnad. Boka via grundkurser.svmc.se.",
     "link": "https://grundkurser.svmc.se",
-    "descriptionFull": "SMC Västerbottens Årsmöte 2026 arrangeras av SMC.\n\nSMC Vasterbottens arsmote. Forerasning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Arsmote kl 14-16. SMC bjuder pa fika. Lunch bestalls pa egen bekostnad. Boka via grundkurser.svmc.se.\n\nEn traffpunkt for MC-entusiaster. Alla ar valkommen oavsett vilken hoj du kor.\n\nPlats: Västerbotten.",
+    "descriptionFull": "SMC Västerbottens Årsmöte 2026 arrangeras av SMC.\n\nSMC Vasterbottens årsmöte. Forerasning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Arsmote kl 14-16. SMC bjuder på fika. Lunch bestalls på egen bekostnad. Boka via grundkurser.svmc.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västerbotten.",
     "links": [
       {
         "label": "grundkurser.svmc.se",
