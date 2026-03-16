@@ -18921,6 +18921,139 @@ const EVENTS_DATA = {
     "link": "https://nmh.se/skellefteasektionen/evenemang-skelleftea/",
     "region": "Västerbotten",
     "source": "nmh.se"
+  },
+  {
+    "id": "mc-dag-besikta-orebro-2026",
+    "name": "MC-dag hos Besikta i Örebro",
+    "date": "2026-04-11",
+    "dateEnd": "2026-04-11",
+    "location": "Skottvägen 5, 703 84 Örebro",
+    "type": "Träff",
+    "organizer": "Besikta Bilprovning",
+    "description": "MC-dag hos Besikta Örebro med besiktning till specialpris. Boka din MC-besiktning med 100 kr rabatt och gör hojen redo för säsongen.",
+    "descriptionFull": "MC-dag hos Besikta i Örebro den 11 april 2026.\n\nNu är det dags att väcka hojen ur vintervilan! Under MC-dagen erbjuder Besikta 100 kr rabatt på besiktning av din motorcykel. Använd kampanjkoden MC2A2026 när du bokar din tid.\n\nÖppet kl 09:00-15:00.\n\nPlats: Besikta Örebro, Skottvägen 5, 703 84 Örebro.",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/events/2706683493034329/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Skottv%C3%A4gen+5+%C3%96rebro",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.facebook.com/events/2706683493034329/",
+    "region": "Örebro",
+    "source": "facebook.com"
+  },
+  {
+    "id": "langkalsongrallyt-garphyttan-2026",
+    "name": "Långkalsongrallyt 2026",
+    "date": "2026-04-25",
+    "dateEnd": "2026-04-25",
+    "location": "Garphyttans Folkets Park, Garphyttan",
+    "type": "Körning",
+    "organizer": "Full Moppers MK",
+    "description": "MC-rally genom vackra landskap runt Garphyttan. Ca 5 mil lång bana. Startavgift 200 kr inklusive mat, fika och lotteri.",
+    "descriptionFull": "Långkalsongrallyt i Garphyttan den 25 april 2026.\n\nÅrligt MC-rally arrangerat av Full Moppers MK. Starten går från Folkets Park i Garphyttan och banan är ca 5 mil lång genom vackra landskap.\n\nSamling kl 10:00, start kl 11:00.\n\nStartavgift: 200 kr (kontant eller Swish). I priset ingår mat, fika och 2 st lotter med fina priser. Vid deltagande stödjer du olika hjälporganisationer.\n\nMer info: www.fullmoppers.se\n\nPlats: Garphyttans Folkets Park, Garphyttan.",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/events/1259563945922244/"
+      },
+      {
+        "label": "fullmoppers.se",
+        "url": "https://www.fullmoppers.se"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Garphyttans+Folkets+Park",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.facebook.com/events/1259563945922244/",
+    "region": "Örebro",
+    "source": "facebook.com"
+  },
+  {
+    "id": "poker-run-orebro-2026",
+    "name": "Poker Run 2026 Örebro",
+    "date": "2026-05-16",
+    "dateEnd": "2026-05-16",
+    "location": "Osmundgatan 3, 703 83 Örebro",
+    "type": "Körning",
+    "organizer": "SMC Örebro",
+    "description": "Poker Run genom Örebro. Start från Garaget/Genuine Bike Parts, målgång vid ATM MC. Arrangeras av SMC Örebro och Network MC.",
+    "descriptionFull": "Poker Run i Örebro den 16 maj 2026.\n\nÅrets Poker Run i Örebro arrangeras av SMC Örebro och Network MC. Starten går från Garaget/Genuine Bike Parts på Osmundgatan 3 kl 09:00-10:00. Målet är hos ATM MC, senast kl 15:00.\n\nStartavgift: 50 kr (betala gärna med Swish).\n\nMedverkande klubbar: MC Karlskoga, Genuine Bike Parts, ATM MC, Network MC, Nerikes Bikers MC, Templars Against, SMC Örebro, Garaget.\n\nPlats: Start Osmundgatan 3, Örebro.",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/events/2095757894602710/"
+      },
+      {
+        "label": "svmc.se/orebro",
+        "url": "https://www.svmc.se/orebro"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Osmundgatan+3+%C3%96rebro",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.facebook.com/events/2095757894602710/",
+    "region": "Örebro",
+    "source": "facebook.com"
+  },
+  {
+    "id": "mhs-varmarknad-nifsta-gard-2026",
+    "name": "MHS Vårmarknad på Nifsta Gård",
+    "date": "2026-05-16",
+    "dateEnd": "2026-05-16",
+    "location": "Nifsta Gård 1, 762 95 Rimbo",
+    "type": "Träff",
+    "organizer": "Nifsta Classic Cars",
+    "description": "Klassisk veteranmarknad på Nifsta Gård i Rimbo. Veteranfordon, reservdelar, nostalgi och fika. Fri entré, MC parkerar gratis.",
+    "descriptionFull": "MHS Vårmarknad på Nifsta Gård den 16 maj 2026.\n\nTraditionell marknad för veteranfordon, renovering och hobbyn. Köp, sälj, snacka och nörda ner dig i allt som rullar. Bilar, motorcyklar, mopeder och tillbehör.\n\nFri entré. Parkering 100 kr/bil. MC, traktor och EPA parkerar gratis.\n\nÖppet kl 08:00-16:00. Mat, dryck och fika finns på plats.\n\n1 600 intresserade på Facebook.\n\nPlats: Nifsta Gård 1, 762 95 Rimbo.",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/events/1776707783025197/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nifsta+G%C3%A5rd+Rimbo",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.facebook.com/events/1776707783025197/",
+    "region": "Stockholm",
+    "source": "facebook.com"
+  },
+  {
+    "id": "start-of-season-holmegaard-2026",
+    "name": "Start of Season 2026 (Danmark)",
+    "date": "2026-04-11",
+    "dateEnd": "2026-04-11",
+    "location": "Kalbyvej 32, 4684 Holmegaard, Danmark",
+    "type": "Träff",
+    "organizer": "Lazy Bones, Awesome Bikers & The Others MC",
+    "description": "Säsongsstart i Danmark. Tre MC-klubbar bjuder in till en heldag med morgonmad, frokost, aftensmad, hygge och körtur. 150 kr.",
+    "descriptionFull": "Start of Season 2026 den 11 april i Holmegaard, Danmark.\n\nFör femte gången arrangerar Lazy Bones, Awesome Bikers och The Others MC sin legendariska säsongsstart. Alla på två hjul är välkomna, oavsett om du kommer med klubb, familj eller ensam.\n\nMorgenmad, frokost och aftensmad ingår. Pris: 150 kr per person. Dessutom en fantastisk körtur.\n\nMax 125 platser, säljer ofta slut snabbt.\n\nPlats: Kalbyvej 32, 4684 Holmegaard, Danmark.",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/events/728281653052000/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kalbyvej+32+4684+Holmegaard+Danmark",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.facebook.com/events/728281653052000/",
+    "region": "Danmark",
+    "source": "facebook.com"
   }
 ]
   }
