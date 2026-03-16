@@ -3628,6 +3628,36 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "gokrallyt-ljungby-2026",
+    "name": "Gökrallyt 2026",
+    "date": "2026-05-02",
+    "dateEnd": "2026-05-02",
+    "location": "Vislandavägen, Ljungby",
+    "type": "Tur",
+    "organizer": "Hermans Hedningar LMCK",
+    "description": "MC-rally med praktiska och teoretiska prov för både förare och passagerare. Start kl 10-12, mål vid MCK Röde Orms klubbstuga.",
+    "descriptionFull": "Hermans Hedningar LMCK och MCK Röde Orm arrangerar Gökrallyt 2026.\n\nStart från HermansHedningar Lmck, Vislandavägen, Ljungby. Starten är öppen lördag mellan kl 10.00-12.00. Möjlighet att köpa fika finns i starten.\n\nMC-rally med praktiska och teoretiska prov för både förare och passagerare. Fina priser!\n\nMål vid MCK Röde Orms klubbstuga där aktiviteterna fortsätter med prisutdelning. Försäljning av mat och dryck.\n\nStartavgift: 100 kr. Startavgiften skänkes till välgörande ändamål som är Våra barn.\n\nKontakt:\nJohanna: 0761887226\nJan: 0703561060\n\nPlats: Vislandavägen, Ljungby.",
+    "backImage": "ads/gokrallyt-back-2026-05-02.jpg",
+    "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/1486198450181505/"
+      },
+      {
+        "label": "hermanshedningar.se",
+        "url": "https://www.hermanshedningar.se/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hermans+Hedningar+LMCK+Ljungby",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.hermanshedningar.se/",
+    "region": "Kronoberg",
+    "source": "FB"
+  },
+  {
     "id": "ttc-avrostning-dala-jarna-2026",
     "name": "Avrostning Dala-Järna",
     "date": "2026-05-03",
