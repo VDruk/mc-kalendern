@@ -664,6 +664,32 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "harley-davidson-night-bikeman-helsingborg-2026",
+    "name": "Harley-Davidson Night",
+    "date": "2026-03-20",
+    "dateEnd": "2026-03-20",
+    "location": "Kroppavägen 40, Mörarp",
+    "type": "Träff",
+    "organizer": "Bikeman Helsingborg",
+    "description": "Bikeman Helsingborg välkomnar våren med Harley-Davidson Night! Livemusik, burgare, barberare och tatuering av Tattoo Royal.",
+    "descriptionFull": "Bikeman Helsingborg bjuder in till en kväll fylld av härlig stämning, gemenskap och äkta Harley-känsla. Damma av skinnjackan, samla vännerna och kom och kickstarta säsongen!\n\nAnmälan sker via Harley-Davidsons hemsida.\n\nUnder kvällen bjuds det på livemusik och burgare. Barberare på plats. Dessutom får ni besök av Andreas från Tattoo Royal för er som är sugna på en ny tatuering eller vill snacka motiv.\n\nTid: 16:00-20:00\nLängd: ca 4 timmar\n\nPlats: Kroppavägen 40, 253 55 Mörarp.",
+    "backImage": "ads/harley-davidson-night-bikeman-back-2026-03-20.jpg",
+    "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/3426762137474597/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bikeman+AB+M%C3%B6rarp",
+        "type": "map"
+      }
+    ],
+    "link": "",
+    "region": "Skåne",
+    "source": "FB"
+  },
+  {
     "id": "doa-lordagsfika-pa-biltema-2026",
     "name": "DOA - Lördagsfika på Biltema",
     "date": "2026-03-21",
