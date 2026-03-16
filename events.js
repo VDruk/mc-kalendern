@@ -11100,6 +11100,36 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "wheelswings-falkenberg-2026",
+    "name": "Wheels & Wings 2026",
+    "date": "2026-07-17",
+    "dateEnd": "2026-07-18",
+    "location": "Falkenbergs motorbana, Falkenberg",
+    "type": "Träff",
+    "organizer": "Wheels & Wings",
+    "description": "En av Sveriges storsta bil- och mctraffar med utstallning, swapmeet och flyguppvisning pa Falkenbergs motorbana. Tva dagar fulla av motor och gemenskap.",
+    "descriptionFull": "Wheels & Wings ar en av Sveriges storsta bil- och mctraffar och arrangeras pa Falkenbergs motorbana i Halland.\n\nEventet pagar i tva dagar med utstallning, swapmeet och flyguppvisning. Har samlas entusiaster fran hela landet for att visa upp sina fordon och njuta av gemenskapen.\n\nFredag 17 juli: kl 8-17\nLordag 18 juli: kl 8-18\n\nEntre: 200 kr/dag/person.\n\nAll information finns pa wheelsandwings.se.\n\nPlats: Falkenbergs Motorbana, Hallarp, SE-311 95 Falkenberg.",
+    "backImage": "ads/wheelswings-back-2026-07-17.jpg",
+    "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/1886493125306984/"
+      },
+      {
+        "label": "wheelsandwings.se",
+        "url": "https://www.wheelsandwings.se"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Falkenbergs+motorbana+Falkenberg",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.wheelsandwings.se",
+    "region": "Halland",
+    "source": "FB"
+  },
+  {
     "id": "lo-i-lordagskorningar-kramfors-2026",
     "name": "LO I Lördagskörningar Kramfors",
     "date": "2026-07-18",
