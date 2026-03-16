@@ -13702,29 +13702,35 @@ const EVENTS_DATA = {
     ]
   },
   {
-    "id": "rockets-choppers-ride-in-chopper-show-2026",
-    "name": "Rockets & Choppers - 2nd Annual Ride In Chopper Show 2026",
+    "id": "rockets-chopper-show-kungsbacka-2026",
+    "name": "Rockets Chopper Show 2026",
     "date": "2026-08-22",
     "dateEnd": "2026-08-22",
     "location": "Badhusparken, Kungsbacka",
     "type": "Show",
-    "organizer": "Rockets & Choppers",
-    "description": "Andra upplagan av Ride In Chopper Show i Kungsbacka. Choppers, custom builds och hojar i Badhusparken. Start kl 13:00. Alla med hoj och hojintresse välkomna!",
-    "link": "https://visitkungsbacka.se/evenemang",
-    "region": "Halland",
-    "source": "MC-Folket Nr 1 2026",
-    "descriptionFull": "Rockets & Choppers - 2nd Annual Ride In Chopper Show 2026 arrangeras av Rockets & Choppers.\n\nAndra upplagan av Ride In Chopper Show i Kungsbacka. Choppers, custom builds och hojar i Badhusparken. Start kl 13:00. Alla med hoj och hojintresse välkomna!\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangoren for tider.\n\nPlats: Badhusparken, Kungsbacka.",
+    "organizer": "Rockets Choppers",
+    "description": "Andra upplagan av Ride In Chopper Show i Kungsbacka. Choppers, custom builds och hojar i Badhusparken. Start kl 13:00. Alla valkomna!",
+    "descriptionFull": "22 augusti 2026, Badhusparken, Kungsbacka\n\nAndra upplagan av Ride In Chopper Show arrangerad av Rockets Choppers. Choppers, custom builds och hojar visas upp i Badhusparken.\n\nStart kl 13:00. Alla med hoj och hojintresse ar valkomna!\n\nPlats: Badhusparken, Kungsbacka.",
+    "backImage": "ads/rockets-chopper-show-back-2026-08-22.jpg",
+    "frontImage": "ads/rockets-chopper-show-front-2026-08-22.jpg",
     "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/716595938205472/"
+      },
       {
         "label": "visitkungsbacka.se",
         "url": "https://visitkungsbacka.se/evenemang"
       },
       {
         "label": "Karta",
-        "url": "https://www.google.com/maps/search/?api=1&query=Badhusparken%2C+Kungsbacka",
+        "url": "https://www.google.com/maps/search/?api=1&query=Badhusparken+Kungsbacka",
         "type": "map"
       }
-    ]
+    ],
+    "link": "https://visitkungsbacka.se/evenemang",
+    "region": "Halland",
+    "source": "FB"
   },
   {
     "id": "doa-kvallskorning-nacka-2026",
