@@ -1235,6 +1235,26 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mtl-royal-enfield-125-monesteras-2026",
+      "name": "Royal Enfield 125 år",
+      "date": "2026-03-21",
+      "dateEnd": "2026-03-21",
+      "location": "MTL Powersport, Mönsterås",
+      "type": "Träff",
+      "organizer": "MTL Powersport",
+      "description": "Royal Enfield fyller 125 år! MTL Powersport firar med extra fokus, nyheter och demohojar att provköra. Servicekampanj med gratis första service vid köp.",
+      "descriptionFull": "Royal Enfield fyller 125 år och MTL Powersport firar!\n\nKom och kolla in nyheter samt provkör demohojar. MTL Powersport har haft Royal Enfield i sitt sortiment i ett år och responsen har varit fantastisk.\n\nServicekampanj: Gratis första service vid köp av en Royal Enfield denna dag!\n\nTid: Lördag 21 mars, kl. 10:00 - 13:00.\n\nPlats: MTL Powersport, Västra Oknebäcksvägen 1, Mönsterås.",
+      "backImage": "ads/royal-enfield-125-back-2026-03-21.jpg",
+      "links": [
+        { "label": "Facebook", "url": "https://www.facebook.com/mtlpowersport" },
+        { "label": "mtlpowersport.se", "url": "https://www.mtlpowersport.se" },
+        { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=MTL+Powersport+V%C3%A4stra+Okneb%C3%A4cksv%C3%A4gen+1+M%C3%B6nster%C3%A5s", "type": "map" }
+      ],
+      "link": "https://www.mtlpowersport.se",
+      "region": "Kalmar",
+      "source": "facebook.com"
+    },
+    {
       "id": "smc-gotland-årsmöte-2026",
       "name": "SMC Gotlands Årsmöte 2026",
       "date": "2026-03-22",
