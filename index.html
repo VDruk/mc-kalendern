@@ -1410,7 +1410,7 @@ function render() {
 function injectEventSchema() {
   const today = new Date().toISOString().split('T')[0];
   const futureEvents = EVENTS_DATA.events
-    .filter(e => !e._canary && (e.dateEnd || e.date) >= today)
+    .filter(e => !e._canary && !e._ad && (e.dateEnd || e.date) >= today)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
   const events = futureEvents.map(e => ({
@@ -1431,7 +1431,18 @@ function injectEventSchema() {
     "description": e.descriptionFull ? e.descriptionFull.replace(/\n/g, ' ').substring(0, 500) : (e.description || ''),
     "organizer": {
       "@type": "Organization",
+      "name": e.organizer || "",
+      "url": e.link || "https://druk.se/"
+    },
+    "performer": {
+      "@type": "Organization",
       "name": e.organizer || ""
+    },
+    "image": e.frontImage ? "https://druk.se/" + e.frontImage : "https://druk.se/og-image.jpg",
+    "offers": {
+      "@type": "Offer",
+      "url": e.link || "https://druk.se/",
+      "availability": "https://schema.org/InStock"
     },
     "url": e.link || "https://druk.se/",
     "eventStatus": "https://schema.org/EventScheduled",
