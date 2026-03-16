@@ -77,15 +77,22 @@ DEFAULT_ADS_DIR = SCRIPT_DIR.parent / "ads"
 # Swedish MC event type mapping
 TYPE_KEYWORDS = {
     "Traff": ["traff", "mote", "moete", "meetup", "meet", "fika", "oppet hus",
-              "manadsmoete", "klubb", "samling"],
+              "manadsmoete", "klubb", "samling", "jubileum", "firar", "arsfest",
+              "medlems"],
     "Korning": ["korning", "tur", "ride", "avrostning", "roadtrip", "mc-tur",
-                "nationaldags", "kvallskorning"],
-    "Show": ["show", "utstaellning", "lansering", "provkorning", "demo",
-             "expo", "messa", "massan", "marknad"],
-    "Fest": ["fest", "party", "bikerfest", "natt", "night", "grillfest"],
+                "nationaldags", "kvallskorning", "poker run", "pokerrun",
+                "rundan", "runt"],
+    "Show": ["show", "utstaellning", "lansering", "provkorning", "provkor",
+             "demo", "expo", "messa", "massan", "marknad", "invigning",
+             "butik", "showroom", "modell", "nyhet"],
+    "Fest": ["fest", "party", "bikerfest", "natt", "night", "grillfest",
+             "konsert", "musik", "band", "scen"],
     "Racing": ["racing", "race", "speedway", "motocross", "enduro",
-               "roadracing", "dragrace", "tjanstekorning"],
+               "roadracing", "dragrace", "tjanstekorning", "traning"],
 }
+
+# Valid event types (with correct Swedish characters)
+VALID_TYPES = {"Träff", "Körning", "Show", "Fest", "Racing"}
 
 # Swedish month names for date parsing
 SV_MONTHS = {
@@ -1024,6 +1031,94 @@ def print_event_card(event_json, duplicates=None):
 
 
 # =============================================================================
+# Validation
+# =============================================================================
+
+def validate_event(event_json):
+    """Validate event data before adding to events.js.
+    Returns (is_valid, warnings, errors).
+    Errors block adding, warnings are shown but don't block.
+    """
+    warnings = []
+    errors = []
+
+    # 1. Type must be valid Swedish
+    etype = event_json.get('type', '')
+    if etype not in VALID_TYPES:
+        # Try to auto-fix common issues
+        type_fixes = {
+            'Traff': 'Träff', 'traff': 'Träff',
+            'Korning': 'Körning', 'korning': 'Körning',
+            'show': 'Show', 'fest': 'Fest', 'racing': 'Racing',
+        }
+        if etype in type_fixes:
+            fixed = type_fixes[etype]
+            event_json['type'] = fixed
+            warnings.append(f"Type auto-fixed: '{etype}' -> '{fixed}'")
+        else:
+            errors.append(f"Invalid type: '{etype}'. Must be one of: {', '.join(sorted(VALID_TYPES))}")
+
+    # 2. Region must be valid
+    region = event_json.get('region', '')
+    if region not in VALID_REGIONS:
+        errors.append(f"Invalid region: '{region}'. Must be one of the 21 SMC regions.")
+
+    # 3. Region should not default to Stockholm without evidence
+    if region == 'Stockholm':
+        location = event_json.get('location', '')
+        loc_norm = normalize_swedish(location.lower())
+        stockholm_cities = [c for c, r in CITY_REGION_MAP.items() if r == 'Stockholm']
+        is_stockholm = any(city in loc_norm for city in stockholm_cities)
+        if not is_stockholm and location:
+            warnings.append(f"Region is 'Stockholm' but location '{location}' doesn't match any Stockholm city. Please verify.")
+
+    # 4. Date must be valid
+    date = event_json.get('date', '')
+    if date == 'MANUAL_ENTRY_NEEDED' or not date:
+        errors.append("Date is missing or could not be parsed.")
+    else:
+        try:
+            datetime.strptime(date, '%Y-%m-%d')
+        except ValueError:
+            errors.append(f"Invalid date format: '{date}'. Expected YYYY-MM-DD.")
+
+    # 5. Name should not be empty
+    if not event_json.get('name', '').strip():
+        errors.append("Event name is empty.")
+
+    # 6. Description should be 80-200 chars
+    desc = event_json.get('description', '')
+    if len(desc) < 30:
+        warnings.append(f"Description is very short ({len(desc)} chars). Consider adding more detail.")
+    elif len(desc) > 200:
+        warnings.append(f"Description is long ({len(desc)} chars). Front card shows max ~4 lines.")
+
+    # 7. Location should not be empty
+    if not event_json.get('location', '').strip():
+        warnings.append("Location is empty. Event will show without address on the card.")
+
+    # 8. backImage should be set for Type 1 cards
+    if not event_json.get('backImage'):
+        warnings.append("No backImage set. Card will not have a flip side image.")
+
+    return len(errors) == 0, warnings, errors
+
+
+def print_validation_result(is_valid, warnings, errors):
+    """Print validation results in a clear format."""
+    if errors:
+        print("\n  VALIDATION ERRORS (must fix before adding):")
+        for e in errors:
+            print(f"    [X] {e}")
+    if warnings:
+        print("\n  WARNINGS (review before confirming):")
+        for w in warnings:
+            print(f"    [!] {w}")
+    if is_valid and not warnings:
+        print("\n  Validation: all checks passed")
+
+
+# =============================================================================
 # Add Event to events.js
 # =============================================================================
 
@@ -1186,24 +1281,29 @@ def cmd_extract(urls, args):
                 if duplicates:
                     print(f"\n  [!] Skipping --add: event has {len(duplicates)} possible duplicate(s)")
                     print(f"      Use --force-add to add anyway (not implemented yet)")
-                elif not event_json.get('date') or event_json['date'] == 'MANUAL_ENTRY_NEEDED':
-                    print(f"\n  [!] Skipping --add: date could not be parsed")
                 else:
-                    # Show what we are about to add and ask for confirmation
-                    print("\n  Ready to add this event to events.js.")
-                    print("  JSON preview:")
-                    preview = json.dumps(event_json, indent=4, ensure_ascii=False)
-                    for line in preview.split('\n'):
-                        print(f"    {line}")
+                    # Validate before adding
+                    is_valid, warnings, errors = validate_event(event_json)
+                    print_validation_result(is_valid, warnings, errors)
 
-                    try:
-                        answer = input("\n  Add this event? [y/N] ").strip().lower()
-                        if answer in ('y', 'yes'):
-                            added = add_event_to_events_js(event_json, args.events_js)
-                        else:
-                            print("  Skipped.")
-                    except (EOFError, KeyboardInterrupt):
-                        print("\n  Skipped.")
+                    if not is_valid:
+                        print("\n  [X] Cannot add: fix the errors above first.")
+                    else:
+                        # Show what we are about to add and ask for confirmation
+                        print("\n  Ready to add this event to events.js.")
+                        print("  JSON preview:")
+                        preview = json.dumps(event_json, indent=4, ensure_ascii=False)
+                        for line in preview.split('\n'):
+                            print(f"    {line}")
+
+                        try:
+                            answer = input("\n  Add this event? [y/N] ").strip().lower()
+                            if answer in ('y', 'yes'):
+                                added = add_event_to_events_js(event_json, args.events_js)
+                            else:
+                                print("  Skipped.")
+                        except (EOFError, KeyboardInterrupt):
+                            print("\n  Skipped.")
 
             results.append({
                 "event": event_json,
