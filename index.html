@@ -818,8 +818,8 @@
         <div class="hero-stat-label">Kommande</div>
       </div>
       <div class="hero-stat">
-        <div class="hero-stat-num" id="statDays">0</div>
-        <div class="hero-stat-label">Dagar</div>
+        <div class="hero-stat-num" id="statThisMonth">0</div>
+        <div class="hero-stat-label">Denna månad</div>
       </div>
       <div class="hero-stat">
         <div class="hero-stat-num" id="statClubs">77</div>
@@ -1133,7 +1133,14 @@ function updateStats() {
   const upcoming = all.filter(e => (e.dateEnd || e.date) >= today);
   document.getElementById('statEvents').textContent = all.length;
   document.getElementById('statUpcoming').textContent = upcoming.length;
-  document.getElementById('statDays').textContent = countEventDays(all);
+  const now = new Date();
+  const thisMonth = all.filter(e => {
+    const d = new Date(e.date + 'T00:00:00');
+    const dEnd = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : d;
+    return (d.getMonth() === now.getMonth() && d.getFullYear() === now.getFullYear()) ||
+           (dEnd.getMonth() === now.getMonth() && dEnd.getFullYear() === now.getFullYear());
+  });
+  document.getElementById('statThisMonth').textContent = thisMonth.length;
   document.getElementById('statClubs').textContent = countOrganizers(all);
 }
 
