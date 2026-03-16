@@ -11830,6 +11830,32 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "blackngrey-summer-party-halmstad-2026",
+    "name": "Black'n Grey Summer Party",
+    "date": "2026-08-01",
+    "dateEnd": "2026-08-01",
+    "location": "Sadelvägen 720, Halmstad",
+    "type": "Fest",
+    "organizer": "Insane MC Halmstad",
+    "description": "Insane MC Halmstad drar igang sin stora sommarfest igen. Fest, gemenskap och hojar i Tronninge utanfor Halmstad.",
+    "descriptionFull": "Insane MC Halmstad bjuder in till Black'n Grey Summer Party den 1 augusti 2026.\n\nDags att dra igang den stora festen igen! Kvallen startar kl 18:00.\n\nPlats: Sadelvägen 720, Tronninge, Halmstad.",
+    "backImage": "ads/blackngrey-summer-party-back-2026-08-01.jpg",
+    "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/2091545891645970/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sadelv%C3%A4gen+720+Halmstad",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.facebook.com/events/2091545891645970/",
+    "region": "Halland",
+    "source": "FB"
+  },
+  {
     "id": "nordic-wilderness-tour-2026",
     "name": "Nordic Wilderness Tour 2026",
     "date": "2026-08-02",
