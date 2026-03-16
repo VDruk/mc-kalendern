@@ -1377,8 +1377,8 @@ const EVENTS_DATA = {
   {
     "id": "svedea-mc-forsakring-ad-2026",
     "name": "Svedea MC-forsakring",
-    "date": "2026-04-01",
-    "dateEnd": "2026-09-30",
+    "date": "2026-01-01",
+    "dateEnd": "2026-12-31",
     "location": "svedea.se/mc-forsakring",
     "type": "AD",
     "organizer": "Svedea",
@@ -1393,7 +1393,7 @@ const EVENTS_DATA = {
       }
     ],
     "link": "https://www.svedea.se/mc-forsakring",
-    "region": ["Blekinge", "Dalarna", "Gävleborg", "Gotland", "Halland", "Jämtland", "Jönköping", "Kalmar", "Kronoberg", "Norrbotten", "Skåne", "Stockholm", "Södermanland", "Uppsala", "Värmland", "Västerbotten", "Västernorrland", "Västmanland", "Västra Götaland", "Örebro", "Östergötland", "Danmark", "Finland", "Norge", "Sverige", "Tjeckien"],
+    "region": "Sverige",
     "source": "AD",
     "_ad": true
   },

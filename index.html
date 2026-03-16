@@ -1148,10 +1148,14 @@ function render() {
   grid.innerHTML = '';
 
   const today = new Date().toISOString().split('T')[0];
-  let events = EVENTS_DATA.events.filter(e => !e._canary).sort((a, b) => new Date(a.date) - new Date(b.date));
+  const allEvents = EVENTS_DATA.events.filter(e => !e._canary).sort((a, b) => new Date(a.date) - new Date(b.date));
 
-  // Filters
-  if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter || e._ad);
+  // Separate AD cards from regular events (ads bypass all filters)
+  const adCards = allEvents.filter(e => e._ad);
+  let events = allEvents.filter(e => !e._ad);
+
+  // Filters (regular events only)
+  if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
   if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
   if (currentRegion !== 'all') events = events.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
   if (currentMonth !== 'all') events = events.filter(e => parseInt(e.date.split('-')[1], 10) === parseInt(currentMonth, 10));
@@ -1169,8 +1173,25 @@ function render() {
     );
   }
 
-  // Update count
-  document.getElementById('searchCount').textContent = events.length + ' evenemang';
+  // AD injection: insert ad cards at regular intervals
+  const AD_INTERVAL = 25;
+  if (adCards.length > 0 && events.length > 0 && !searchQuery) {
+    let adIndex = 0;
+    let insertPos = AD_INTERVAL;
+    while (insertPos < events.length + adCards.length && adIndex < adCards.length) {
+      events.splice(insertPos, 0, adCards[adIndex % adCards.length]);
+      adIndex++;
+      insertPos += AD_INTERVAL + 1;
+    }
+    // If no ad was placed yet (less than 25 events), place first ad at position 5 or end
+    if (adIndex === 0 && events.length >= 3) {
+      events.splice(Math.min(5, events.length), 0, adCards[0]);
+    }
+  }
+
+  // Update count (exclude ads from count)
+  const realCount = events.filter(e => !e._ad).length;
+  document.getElementById('searchCount').textContent = realCount + ' evenemang';
 
   // Build ad maps
   const adsByDate = {};
@@ -1200,12 +1221,12 @@ function render() {
   events.forEach(event => {
     const d = new Date(event.date + 'T00:00:00');
     const monthKey = d.getFullYear() + '-' + d.getMonth();
-    const isPast = (event.dateEnd || event.date) < today;
+    const isPast = event._ad ? false : (event.dateEnd || event.date) < today;
     const isFav = isFavorited(event.id);
     const isMultiDay = event.dateEnd && event.dateEnd !== event.date;
 
-    // Month divider
-    if (monthKey !== renderMonth) {
+    // Month divider (skip for injected ad cards)
+    if (!event._ad && monthKey !== renderMonth) {
       renderMonth = monthKey;
       const divider = document.createElement('div');
       divider.className = 'month-divider';
