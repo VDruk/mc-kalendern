@@ -159,8 +159,8 @@ const EVENTS_DATA = {
       "location": "druk.se",
       "type": "AD",
       "organizer": "MC Kalendern / Slava Druk",
-      "description": "Sveriges mest kompletta MC-kalender. 770+ event, 8 scrapers, en passion. Gratis, utan reklam, byggd av en hojare for alla hojare.",
-      "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event pa ett stalle.\n\nVi har 770+ event fran traeffar och koerningar till shower, racing och fester. All data haemtas automatiskt fran 8 olika kaellor och uppdateras varje dag.\n\nProjektet aer 100% gratis och byggt av ren passion for tvahjuliga aeventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till sa laegger vi till det!\n\nBesok oss pa druk.se och hitta din naesta tur.",
+      "description": "Sveriges mest kompletta MC-kalender. 770+ event, 8 scrapers, en passion. Gratis, utan reklam, byggd av en hojare för alla hojare.",
+      "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event på ett ställe.\n\nVi har 770+ event från träffar och körningar till shower, racing och fester. All data hämtas automatiskt från 8 olika källor och uppdateras varje dag.\n\nProjektet är 100% gratis och byggt av ren passion för tvåhjuliga äventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till så lägger vi till det!\n\nBesök oss på druk.se och hitta din nästa tur.",
       "frontImage": "ads/mc-kalendern-front-2026-09-28.jpg",
       "backImage": "ads/mc-kalendern-back-2026-09-28.jpg",
       "links": [
@@ -19229,7 +19229,7 @@ const EVENTS_DATA = {
       "location": "Triumph Stockholm Norr, Upplands Väsby",
       "type": "Show",
       "organizer": "Triumph Stockholm Norr",
-      "description": "Exklusivt lanseringsevent for nya Triumph Modern Classics. Provkör nya modellerna och träffa andra Triumph-entusiaster.",
+      "description": "Exklusivt lanseringsevent för nya Triumph Modern Classics. Provkör nya modellerna och träffa andra Triumph-entusiaster.",
       "backImage": "ads/bonneville-lansering-back-2026-03-21.jpg",
       "links": [
         {
@@ -19245,7 +19245,7 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/events/1267483558130059/",
       "region": "Stockholm",
       "source": "facebook.com",
-      "descriptionFull": "Triumph Stockholm Norr bjuder in till ett exklusivt lanseringsevent for de nya modellerna inom Triumph Modern Classics.\n\nKom och kolla in nyheterna, provkor och snacka med andra MC-entusiaster. Triumph Stockholm Norr ar din Triumph-handlare i Stockholm.\n\nDatum: Lordag 21 mars\nTid: kl. 11:00\n\nPlats: Karins vag 5, 194 61 Upplands Vasby."
+      "descriptionFull": "Triumph Stockholm Norr bjuder in till ett exklusivt lanseringsevent för de nya modellerna inom Triumph Modern Classics.\n\nKom och kolla in nyheterna, provkör och snacka med andra MC-entusiaster. Triumph Stockholm Norr är din Triumph-handlare i Stockholm.\n\nDatum: Lördag 21 mars\nTid: kl. 11:00\n\nPlats: Karins väg 5, 194 61 Upplands Väsby."
     },
     {
       "id": "mce-manadsmoete-april-jarfalla-2026",
@@ -19281,7 +19281,7 @@ const EVENTS_DATA = {
       "location": "Svensk Trafikutbildning, Vallentuna",
       "type": "Körning",
       "organizer": "Svensk Trafikutbildning",
-      "description": "Avrostning och MC-tur for gamla MC-elever. Körning, häng och hoj-snack. Alla gamla elever välkomna till trafikskolan.",
+      "description": "Avrostning och MC-tur för gamla MC-elever. Körning, häng och hoj-snack. Alla gamla elever välkomna till trafikskolan.",
       "backImage": "ads/avrostning-mc-tur-back-2026-05-01.jpg",
       "links": [
         {
