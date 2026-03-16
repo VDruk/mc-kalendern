@@ -1129,12 +1129,12 @@ function countEventDays(events) {
 }
 function updateStats() {
   const today = new Date().toISOString().split('T')[0];
-  const all = EVENTS_DATA.events.filter(e => !e._canary);
+  const all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
   const upcoming = all.filter(e => (e.dateEnd || e.date) >= today);
   document.getElementById('statEvents').textContent = all.length;
   document.getElementById('statUpcoming').textContent = upcoming.length;
   const now = new Date();
-  const thisMonth = all.filter(e => {
+  const thisMonth = upcoming.filter(e => {
     const d = new Date(e.date + 'T00:00:00');
     const dEnd = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : d;
     return (d.getMonth() === now.getMonth() && d.getFullYear() === now.getFullYear()) ||
