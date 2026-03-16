@@ -152,6 +152,29 @@ const EVENTS_DATA = {
       "_ad": true
     },
     {
+      "id": "mc-kalendern-druk-se-ad-2026",
+      "name": "MC Kalendern",
+      "date": "2026-09-28",
+      "dateEnd": "2026-09-28",
+      "location": "druk.se",
+      "type": "AD",
+      "organizer": "MC Kalendern / Slava Druk",
+      "description": "Sveriges mest kompletta MC-kalender. 770+ event, 8 scrapers, en passion. Gratis, utan reklam, byggd av en hojare for alla hojare.",
+      "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event pa ett stalle.\n\nVi har 770+ event fran traeffar och koerningar till shower, racing och fester. All data haemtas automatiskt fran 8 olika kaellor och uppdateras varje dag.\n\nProjektet aer 100% gratis och byggt av ren passion for tvahjuliga aeventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till sa laegger vi till det!\n\nBesok oss pa druk.se och hitta din naesta tur.",
+      "frontImage": "ads/mc-kalendern-front-2026-09-28.jpg",
+      "backImage": "ads/mc-kalendern-back-2026-09-28.jpg",
+      "links": [
+        {
+          "label": "druk.se",
+          "url": "https://druk.se"
+        }
+      ],
+      "link": "https://druk.se",
+      "region": "Sverige",
+      "source": "AD",
+      "_ad": true
+    },
+    {
       "id": "jonkoping-mcmassan-2026",
       "name": "MC-Mässan Jönköping (Elmia)",
       "date": "2026-01-23",
