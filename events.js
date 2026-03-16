@@ -690,6 +690,32 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
+    "id": "after-st-patrick-day-sundsvall-2026",
+    "name": "After St.Patrick Day",
+    "date": "2026-03-20",
+    "dateEnd": "2026-03-20",
+    "location": "Adas MC Sundsvall, Regementsvägen 12, Sundsvall",
+    "type": "Fest",
+    "organizer": "Adas MC Sundsvall",
+    "description": "Kom och umgas pa en AW med St Patrick's-tema hos Adas MC Sundsvall. Irlandska gosaker och kaffe serveras. Kl 17-24.",
+    "descriptionFull": "Adas MC Sundsvall bjuder in till After St.Patrick Day den 20 mars 2026.\n\nKom och umgas pa en AW med tema St Patrick's. Det serveras massa irlandska gosaker av olika slag, och det kommer aven finnas vanligt kaffe.\n\nKl 17:00 - 23:59.\n\nPlats: Regementsvägen 12, SE-852 38 Sundsvall.",
+    "backImage": "ads/after-st-patrick-day-back-2026-03-20.jpg",
+    "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/1212626780853112/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Adas+MC+Sundsvall",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.facebook.com/events/1212626780853112/",
+    "region": "Västernorrland",
+    "source": "FB"
+  },
+  {
     "id": "doa-lordagsfika-pa-biltema-2026",
     "name": "DOA - Lördagsfika på Biltema",
     "date": "2026-03-21",
