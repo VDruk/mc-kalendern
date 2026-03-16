@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-  "lastUpdated": "2026-03-11T17:30:15Z",
+  "lastUpdated": "2026-03-16T09:47:26Z",
   "events": [
   {
     "id": "jonkoping-mcmassan-2026",
