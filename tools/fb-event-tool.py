@@ -128,7 +128,7 @@ CITY_REGION_MAP = {
     "motala": "Ostergotland",
     "jonkoping": "Jonkoping", "huskvarna": "Jonkoping",
     "vaxjo": "Kronoberg", "ljungby": "Kronoberg",
-    "kalmar": "Kalmar", "oskarshamn": "Kalmar", "monesteras": "Kalmar",
+    "kalmar": "Kalmar", "oskarshamn": "Kalmar", "monsteras": "Kalmar", "monesteras": "Kalmar",
     "karlskrona": "Blekinge", "ronneby": "Blekinge",
     "halmstad": "Halland", "falkenberg": "Halland", "varberg": "Halland",
     "karlstad": "Varmland", "sunne": "Varmland",
@@ -594,7 +594,7 @@ def guess_event_type(name, description=""):
             scores[etype] = score
 
     if not scores:
-        return "Traff"  # Default
+        return "Träff"  # Default
 
     # Map internal names to display names
     type_map = {
@@ -793,6 +793,86 @@ def find_duplicates(new_event, existing_events, threshold=0.5):
 # =============================================================================
 # Image Download
 # =============================================================================
+
+def process_back_image(source_path, event_id, date):
+    """Process a local image file: resize to 800px wide, save to ads/ folder.
+
+    Args:
+        source_path: Path to the source image (can be ugly FB filename)
+        event_id: Event ID for naming
+        date: Event date for naming
+
+    Returns:
+        Relative path like 'ads/event-name-back-2026-05-16.jpg' or None
+    """
+    import subprocess
+    import shutil
+
+    source = Path(source_path)
+
+    # If path is relative, try resolving from project root (parent of tools/)
+    if not source.is_absolute():
+        # Try relative to project root
+        project_root = SCRIPT_DIR.parent
+        source = project_root / source_path
+        if not source.exists():
+            # Try relative to current dir
+            source = Path(source_path)
+
+    if not source.exists():
+        print(f"  [!] Image file not found: {source_path}")
+        return None
+
+    # Target filename
+    target_name = f"{event_id}-back-{date}.jpg"
+    target_path = DEFAULT_ADS_DIR / target_name
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Try to resize with ImageMagick (convert/magick)
+    resized = False
+    for cmd_name in ['magick', 'convert']:
+        try:
+            result = subprocess.run(
+                [cmd_name, str(source), '-resize', '800x', '-quality', '85', str(target_path)],
+                capture_output=True, text=True, timeout=30
+            )
+            if result.returncode == 0:
+                resized = True
+                break
+        except (FileNotFoundError, subprocess.TimeoutExpired):
+            continue
+
+    # Fallback: try PIL/Pillow
+    if not resized:
+        try:
+            from PIL import Image
+            img = Image.open(source)
+            # Resize to 800px wide, keep aspect ratio
+            w, h = img.size
+            new_w = 800
+            new_h = int(h * (new_w / w))
+            img = img.resize((new_w, new_h), Image.LANCZOS)
+            img.save(target_path, 'JPEG', quality=85)
+            resized = True
+        except ImportError:
+            pass
+        except Exception as e:
+            print(f"  [!] PIL resize failed: {e}")
+
+    # Last fallback: just copy the file
+    if not resized:
+        shutil.copy2(source, target_path)
+        print(f"  [i] Could not resize (no ImageMagick or PIL). Copied original.")
+
+    # Show result
+    try:
+        size_kb = target_path.stat().st_size / 1024
+        print(f"  Image: {source.name} -> ads/{target_name} ({size_kb:.0f} KB)")
+    except Exception:
+        print(f"  Image: ads/{target_name}")
+
+    return f"ads/{target_name}"
+
 
 def download_cover_image(url, event_id, date, driver=None):
     """Download the cover image from a Facebook event page."""
@@ -1006,7 +1086,7 @@ def add_event_to_events_js(event_json, events_js_path):
     events.insert(insert_idx, event_json)
 
     # Update lastUpdated
-    data['lastUpdated'] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    data['lastUpdated'] = datetime.now(tz=__import__('datetime').timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     data['events'] = events
 
     # Write back
@@ -1081,7 +1161,18 @@ def cmd_extract(urls, args):
 
             # Add back image if provided via CLI
             if args.back_image:
-                event_json['backImage'] = args.back_image
+                source_path = args.back_image
+                # Check if it looks like it's already in ads/ with correct naming
+                if (source_path.startswith('ads/') and
+                    event_json['id'] in source_path):
+                    # Already processed, just use it
+                    event_json['backImage'] = source_path
+                else:
+                    # Process: resize to 800px, rename, copy to ads/
+                    processed = process_back_image(
+                        source_path, event_json['id'], event_json['date'])
+                    if processed:
+                        event_json['backImage'] = processed
 
             # Check for duplicates
             duplicates = find_duplicates(event_json, existing_events)
@@ -1229,7 +1320,7 @@ def main():
         p.add_argument("--add", action="store_true", default=False,
                        help="Add new events directly to events.js (Type 1 card)")
         p.add_argument("--back-image", default=None,
-                       help="Path to back image file (relative to project root, e.g. ads/my-event-back.jpg)")
+                       help="Path to back image (any FB filename OK - auto resizes to 800px, renames, copies to ads/)")
 
     args = parser.parse_args()
 

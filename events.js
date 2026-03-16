@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-  "lastUpdated": "2026-03-16T22:36:10Z",
+  "lastUpdated": "2026-03-16T22:55:13Z",
   "events": [
     {
       "id": "svedea-mc-forsakring-ad-2026",
@@ -2514,6 +2514,32 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/events/728281653052000/",
       "region": "Danmark",
       "source": "facebook.com"
+    },
+    {
+      "id": "indian-motorcycle-125-ar-vastra-2026",
+      "name": "Indian Motorcycle 125 år",
+      "date": "2026-04-11",
+      "dateEnd": "2026-04-11",
+      "location": "Västra Oknebäcksvägen 1, Mönsterås",
+      "type": "Träff",
+      "organizer": "MTL Powersport",
+      "description": "Vi firar Indian Motorcycle 125 år med en dag med extra fokus på deras motorcyklar! Kom och kolla in hojarna vi har i butiken och passa på att provköra.",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/events/1406154747848748"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4stra+Okneb%C3%A4cksv%C3%A4gen+1%2C+38336+M%C3%B6nster%C3%A5s%2C+Sweden",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1406154747848748",
+      "region": "Kalmar",
+      "source": "facebook.com",
+      "descriptionFull": "Vi firar Indian Motorcycle 125 år med en dag med extra fokus på deras motorcyklar! Kom och kolla in hojarna vi har i butiken och passa på att provköra. Vi kommer även ha erbjudanden på våra Indian kläder vi har i butiken! Välkommen!",
+      "backImage": "ads/indian-motorcycle-125-ar-vastra-2026-back-2026-04-11.jpg"
     },
     {
       "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
