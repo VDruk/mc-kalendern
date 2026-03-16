@@ -18924,13 +18924,14 @@ const EVENTS_DATA = {
   },
   {
     "id": "mc-dag-besikta-orebro-2026",
-    "name": "MC-dag hos Besikta i Örebro",
+    "name": "MC-dag hos Besikta",
     "date": "2026-04-11",
     "dateEnd": "2026-04-11",
     "location": "Skottvägen 5, 703 84 Örebro",
     "type": "Träff",
     "organizer": "Besikta Bilprovning",
-    "description": "MC-dag hos Besikta Örebro med besiktning till specialpris. Boka din MC-besiktning med 100 kr rabatt och gör hojen redo för säsongen.",
+    "description": "MC-dag hos Besikta med besiktning till specialpris. Boka din MC-besiktning med 100 kr rabatt och gör hojen redo för säsongen.",
+    "backImage": "ads/mc-dag-besikta-orebro-back-2026-04-11.jpg",
     "descriptionFull": "MC-dag hos Besikta i Örebro den 11 april 2026.\n\nNu är det dags att väcka hojen ur vintervilan! Under MC-dagen erbjuder Besikta 100 kr rabatt på besiktning av din motorcykel. Använd kampanjkoden MC2A2026 när du bokar din tid.\n\nÖppet kl 09:00-15:00.\n\nPlats: Besikta Örebro, Skottvägen 5, 703 84 Örebro.",
     "links": [
       {
@@ -18972,19 +18973,21 @@ const EVENTS_DATA = {
         "type": "map"
       }
     ],
+    "backImage": "ads/langkalsongrallyt-back-2026-04-25.jpg",
     "link": "https://www.facebook.com/events/1259563945922244/",
     "region": "Örebro",
     "source": "facebook.com"
   },
   {
     "id": "poker-run-orebro-2026",
-    "name": "Poker Run 2026 Örebro",
+    "name": "Poker Run 2026",
     "date": "2026-05-16",
     "dateEnd": "2026-05-16",
     "location": "Osmundgatan 3, 703 83 Örebro",
     "type": "Körning",
     "organizer": "SMC Örebro",
     "description": "Poker Run genom Örebro. Start från Garaget/Genuine Bike Parts, målgång vid ATM MC. Arrangeras av SMC Örebro och Network MC.",
+    "backImage": "ads/poker-run-orebro-back-2026-05-16.jpg",
     "descriptionFull": "Poker Run i Örebro den 16 maj 2026.\n\nÅrets Poker Run i Örebro arrangeras av SMC Örebro och Network MC. Starten går från Garaget/Genuine Bike Parts på Osmundgatan 3 kl 09:00-10:00. Målet är hos ATM MC, senast kl 15:00.\n\nStartavgift: 50 kr (betala gärna med Swish).\n\nMedverkande klubbar: MC Karlskoga, Genuine Bike Parts, ATM MC, Network MC, Nerikes Bikers MC, Templars Against, SMC Örebro, Garaget.\n\nPlats: Start Osmundgatan 3, Örebro.",
     "links": [
       {
@@ -19007,13 +19010,14 @@ const EVENTS_DATA = {
   },
   {
     "id": "mhs-varmarknad-nifsta-gard-2026",
-    "name": "MHS Vårmarknad på Nifsta Gård",
+    "name": "MHS Vårmarknad",
     "date": "2026-05-16",
     "dateEnd": "2026-05-16",
     "location": "Nifsta Gård 1, 762 95 Rimbo",
     "type": "Träff",
     "organizer": "Nifsta Classic Cars",
     "description": "Klassisk veteranmarknad på Nifsta Gård i Rimbo. Veteranfordon, reservdelar, nostalgi och fika. Fri entré, MC parkerar gratis.",
+    "backImage": "ads/mhs-varmarknad-nifsta-back-2026-05-16.jpg",
     "descriptionFull": "MHS Vårmarknad på Nifsta Gård den 16 maj 2026.\n\nTraditionell marknad för veteranfordon, renovering och hobbyn. Köp, sälj, snacka och nörda ner dig i allt som rullar. Bilar, motorcyklar, mopeder och tillbehör.\n\nFri entré. Parkering 100 kr/bil. MC, traktor och EPA parkerar gratis.\n\nÖppet kl 08:00-16:00. Mat, dryck och fika finns på plats.\n\n1 600 intresserade på Facebook.\n\nPlats: Nifsta Gård 1, 762 95 Rimbo.",
     "links": [
       {
@@ -19032,13 +19036,14 @@ const EVENTS_DATA = {
   },
   {
     "id": "start-of-season-holmegaard-2026",
-    "name": "Start of Season 2026 (Danmark)",
+    "name": "Start of Season 2026",
     "date": "2026-04-11",
     "dateEnd": "2026-04-11",
     "location": "Kalbyvej 32, 4684 Holmegaard, Danmark",
     "type": "Träff",
     "organizer": "Lazy Bones, Awesome Bikers & The Others MC",
     "description": "Säsongsstart i Danmark. Tre MC-klubbar bjuder in till en heldag med morgonmad, frokost, aftensmad, hygge och körtur. 150 kr.",
+    "backImage": "ads/start-of-season-holmegaard-back-2026-04-11.jpg",
     "descriptionFull": "Start of Season 2026 den 11 april i Holmegaard, Danmark.\n\nFör femte gången arrangerar Lazy Bones, Awesome Bikers och The Others MC sin legendariska säsongsstart. Alla på två hjul är välkomna, oavsett om du kommer med klubb, familj eller ensam.\n\nMorgenmad, frokost och aftensmad ingår. Pris: 150 kr per person. Dessutom en fantastisk körtur.\n\nMax 125 platser, säljer ofta slut snabbt.\n\nPlats: Kalbyvej 32, 4684 Holmegaard, Danmark.",
     "links": [
       {
