@@ -1173,19 +1173,32 @@ function render() {
     );
   }
 
-  // AD injection: insert ad cards at regular intervals
+  // AD injection: insert ad cards at regular intervals, or if search matches
   const AD_INTERVAL = 25;
-  if (adCards.length > 0 && events.length > 0 && !searchQuery) {
-    let adIndex = 0;
-    let insertPos = AD_INTERVAL;
-    while (insertPos < events.length + adCards.length && adIndex < adCards.length) {
-      events.splice(insertPos, 0, adCards[adIndex % adCards.length]);
-      adIndex++;
-      insertPos += AD_INTERVAL + 1;
-    }
-    // If no ad was placed yet (less than 25 events), place first ad at position 5 or end
-    if (adIndex === 0 && events.length >= 3) {
-      events.splice(Math.min(5, events.length), 0, adCards[0]);
+  if (adCards.length > 0 && events.length > 0) {
+    if (searchQuery) {
+      // During search: only show ads that match the search query
+      const q = searchQuery.toLowerCase();
+      const matchingAds = adCards.filter(e =>
+        (e.name || '').toLowerCase().includes(q) ||
+        (e.organizer || '').toLowerCase().includes(q) ||
+        (e.location || '').toLowerCase().includes(q) ||
+        (e.description || '').toLowerCase().includes(q)
+      );
+      matchingAds.forEach(ad => events.push(ad));
+    } else {
+      // Browse mode: inject at regular intervals
+      let adIndex = 0;
+      let insertPos = AD_INTERVAL;
+      while (insertPos < events.length + adCards.length && adIndex < adCards.length) {
+        events.splice(insertPos, 0, adCards[adIndex % adCards.length]);
+        adIndex++;
+        insertPos += AD_INTERVAL + 1;
+      }
+      // If no ad was placed yet (less than 25 events), place first ad at position 5 or end
+      if (adIndex === 0 && events.length >= 3) {
+        events.splice(Math.min(5, events.length), 0, adCards[0]);
+      }
     }
   }
 
