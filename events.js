@@ -15327,6 +15327,31 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "con-dios-mc-20-arsjubileum-2026",
+    "name": "Con Dios MC 20-arsjubileum",
+    "date": "2026-09-12",
+    "dateEnd": "2026-09-12",
+    "location": "Meddelas senare",
+    "type": "Träff",
+    "organizer": "Con Dios MC",
+    "description": "Con Dios MC firar 20 ar! Boka 12 september redan nu. Mer information kommer nar det narmar sig. Alla valkomna!",
+    "descriptionFull": "Con Dios MC firar sitt 20-arsjubileum den 12 september 2026.\n\nBoka datumet redan nu! Mer information om plats och program fylls pa nar det narmar sig.\n\nCon Dios MC ar en klubb for bikers med en kristen grundsyn. Alla som vill ar valkomna att hanga med.\n\nMer info: condiosmc.com",
+    "backImage": "ads/condiosmc-20ar-back-2026-09-12.jpg",
+    "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/1431320095362234/"
+      },
+      {
+        "label": "condiosmc.com",
+        "url": "http://www.condiosmc.com"
+      }
+    ],
+    "link": "http://www.condiosmc.com",
+    "region": "Kronoberg",
+    "source": "FB"
+  },
+  {
     "id": "nykoping-hosttraffen-2026",
     "name": "Hosttraffen Nykoping",
     "date": "2026-09-13",
