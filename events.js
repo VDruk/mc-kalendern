@@ -17632,7 +17632,7 @@ const EVENTS_DATA = {
     "id": "hoktraffen-med-rally-ronneby-2026",
     "name": "Hökträffen med rally 2026",
     "date": "2026-05-16",
-    "dateEnd": "2026-05-17",
+    "dateEnd": "2026-05-16",
     "location": "Hökarna MC, Ronneby",
     "type": "Träff",
     "organizer": "Hökarna MC",
