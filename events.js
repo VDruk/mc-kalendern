@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-  "lastUpdated": "2026-03-16T17:27:11Z",
+  "lastUpdated": "2026-03-16T22:36:10Z",
   "events": [
     {
       "id": "svedea-mc-forsakring-ad-2026",
@@ -1269,9 +1269,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Royal Enfield fyller 125 år och MTL Powersport firar!\n\nKom och kolla in nyheter samt provkör demohojar. MTL Powersport har haft Royal Enfield i sitt sortiment i ett år och responsen har varit fantastisk.\n\nServicekampanj: Gratis första service vid köp av en Royal Enfield denna dag!\n\nTid: Lördag 21 mars, kl. 10:00 - 13:00.\n\nPlats: MTL Powersport, Västra Oknebäcksvägen 1, Mönsterås.",
       "backImage": "ads/royal-enfield-125-back-2026-03-21.jpg",
       "links": [
-        { "label": "Facebook", "url": "https://www.facebook.com/mtlpowersport" },
-        { "label": "mtlpowersport.se", "url": "https://www.mtlpowersport.se" },
-        { "label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=MTL+Powersport+V%C3%A4stra+Okneb%C3%A4cksv%C3%A4gen+1+M%C3%B6nster%C3%A5s", "type": "map" }
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/mtlpowersport"
+        },
+        {
+          "label": "mtlpowersport.se",
+          "url": "https://www.mtlpowersport.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=MTL+Powersport+V%C3%A4stra+Okneb%C3%A4cksv%C3%A4gen+1+M%C3%B6nster%C3%A5s",
+          "type": "map"
+        }
       ],
       "link": "https://www.mtlpowersport.se",
       "region": "Kalmar",
@@ -6390,6 +6400,32 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/events/1776707783025197/",
       "region": "Stockholm",
       "source": "facebook.com"
+    },
+    {
+      "id": "network-mc-25ar-industrivagen-4-2026",
+      "name": "Network mc 25år",
+      "date": "2026-05-16",
+      "dateEnd": "2026-05-16",
+      "location": "Industrivägen 4, Odensbacken",
+      "type": "Träff",
+      "organizer": "Network MC",
+      "description": "I år firar vi stolta 25år! Varmt välkomna för att dela dagen med oss på klubbkåken i Odensbacken. Det blir kitchens choice och hamburgare på menyn. Go’fika och glass.",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/events/2138455077009828"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Industriv%C3%A4gen+4%2C+Odensbacken",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/2138455077009828",
+      "region": "Orebro",
+      "source": "facebook.com",
+      "descriptionFull": "I år firar vi stolta 25år!\n\nVarmt välkomna för att dela dagen med oss på klubbkåken i Odensbacken.\n\nDet blir kitchens choice och hamburgare på menyn. Go’fika och glass.\n\nAmerican Hymns står på scen.\n\nI år har vi en pokerrun station hos oss precis som förra året.\n\nVarmt välkomna!",
+      "backImage": "ads/network-mc-25ar-back-2026-05-16.jpg"
     },
     {
       "id": "do-c-tjorn-orust-rundan-2026",
