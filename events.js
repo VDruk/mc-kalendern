@@ -4484,6 +4484,32 @@ const EVENTS_DATA = {
     "source": "FB"
   },
   {
+    "id": "anyway-riders-spring-party-2026",
+    "name": "Anyway Riders Spring Party",
+    "date": "2026-05-09",
+    "dateEnd": "2026-05-09",
+    "location": "Kilavägen 40, Falkenberg",
+    "type": "Träff",
+    "organizer": "Anyway Riders",
+    "description": "Anyway Riders bjuder in till Spring Party! Tre liveband: Anna and the Spirits, TAJT och HOODOO SILVER. Inträde 100 kr, gärna cash.",
+    "descriptionFull": "Anyway Riders i Falkenberg öppnar portarna för Spring Party!\n\nAlla är välkomna den 9/5 ca kl 20. På scen: Anna and the Spirits, TAJT och HOODOO SILVER.\n\nInträde 100 kr, gärna cash. Välfylld bar och sköna människor.\n\nKommer man långväga finns campingmöjligheter. Hör av er till Anyway Riders för mer info.\n\nTips: Tidigare på dagen kör Falkenbergs MC sin MajSvängen med samling kl 12:00 vid Abilds Bygdegård. Perfekt kombination!\n\nPlats: Kilavägen 40, 311 94 Falkenberg.",
+    "backImage": "ads/anyway-riders-spring-party-back-2026-05-09.jpg",
+    "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/1643770660297347/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Anyway+Riders+Falkenberg",
+        "type": "map"
+      }
+    ],
+    "link": "",
+    "region": "Halland",
+    "source": "FB"
+  },
+  {
     "id": "doa-emilsturen-2026",
     "name": "DOA - Emilsturen",
     "date": "2026-05-10",
