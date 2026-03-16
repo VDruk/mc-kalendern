@@ -18747,6 +18747,180 @@ const EVENTS_DATA = {
         "type": "map"
       }
     ]
+  },
+  {
+    "id": "motorcykelns-dag-2026",
+    "name": "Motorcykelns dag 2026",
+    "date": "2026-05-02",
+    "dateEnd": "2026-05-02",
+    "location": "Hela Sverige (lokala MC-handlare)",
+    "type": "Show",
+    "organizer": "McBranschen",
+    "description": "Motorcykelns dag hos din lokala MC-handlare. Provkörningar, erbjudanden och aktiviteter på MC-butiker över hela Sverige.",
+    "descriptionFull": "Motorcykelns dag den 2 maj 2026 arrangeras av McBranschen.\n\nÅrlig rikstäckande dag då MC-handlare över hela Sverige öppnar dörrarna för provkörningar, specialerbjudanden och aktiviteter. Besök din lokala MC-butik och starta säsongen!\n\nMotorcykelns dag är Sveriges största gemensamma MC-evenemang med hundratals deltagande butiker från Malmö till Luleå.\n\nPlats: Din lokala MC-handlare. Se mcbranschen.se för deltagande butiker.",
+    "links": [
+      {
+        "label": "mcbranschen.se",
+        "url": "https://mcbranschen.se/motorcykelns-dag/"
+      }
+    ],
+    "link": "https://mcbranschen.se/motorcykelns-dag/",
+    "backImage": "ads/motorcykelns-dag-back-2026-05-02.jpg",
+    "region": "Sverige",
+    "source": "mcbranschen.se"
+  },
+  {
+    "id": "british-motor-meet-hjo-2026",
+    "name": "British Motor Meet Hjo",
+    "date": "2026-08-07",
+    "dateEnd": "2026-08-09",
+    "location": "Hjo Stadspark, Hjo",
+    "type": "Show",
+    "organizer": "British Motor Meet",
+    "description": "Sveriges största träff för klassiska brittiska fordon i Hjo Stadspark. Bilar och motorcyklar, musik, priser och ångbåtsturer på Vättern.",
+    "descriptionFull": "British Motor Meet i Hjo den 7-9 augusti 2026.\n\nÅrlig träff för alla som älskar klassiska brittiska fordon. I Hjo Stadspark samlas bilar och motorcyklar från hela Sverige. Musik, prisutdelning och ångbåtsturer på Vättern.\n\nEventet hålls första helgen i augusti varje år och lockar entusiaster från hela landet.\n\nPlats: Hjo Stadspark, Hjo.",
+    "links": [
+      {
+        "label": "britishmotormeet.se",
+        "url": "https://britishmotormeet.se/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hjo+Stadspark+Hjo",
+        "type": "map"
+      }
+    ],
+    "link": "https://britishmotormeet.se/",
+    "backImage": "ads/british-motor-meet-hjo-back-2026-08-07.jpg",
+    "region": "Västra Götaland",
+    "source": "britishmotormeet.se"
+  },
+  {
+    "id": "bollebygds-veteranmarknad-2026",
+    "name": "Bollebygds Veteranmarknad",
+    "date": "2026-05-30",
+    "dateEnd": "2026-05-30",
+    "location": "Hägnen 8, Bollebygd",
+    "type": "Show",
+    "organizer": "Bollebygds Veteranmarknad",
+    "description": "Veteranmarknad för bilar, motorcyklar, mopeder och nostalgi i Bollebygd. Ny plats på Hägnen 8.",
+    "descriptionFull": "Bollebygds Veteranmarknad den 30 maj 2026.\n\nPopulär veteranmarknad med bilar, motorcyklar, mopeder och nostalgi. Säljare och köpare samlas för att hitta reservdelar, tillbehör och kuriosa.\n\nNy plats: Hägnen 8, Bollebygd.\n\nKontakt: 070-826 54 09 eller 070-657 88 67.\n\nPlats: Hägnen 8, Bollebygd.",
+    "links": [
+      {
+        "label": "bollebygdsveteranmarknad.com",
+        "url": "https://bollebygdsveteranmarknad.com/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=H%C3%A4gnen+8+Bollebygd",
+        "type": "map"
+      }
+    ],
+    "link": "https://bollebygdsveteranmarknad.com/",
+    "backImage": "ads/bollebygds-veteranmarknad-back-2026-05-30.webp",
+    "region": "Västra Götaland",
+    "source": "bollebygdsveteranmarknad.com"
+  },
+  {
+    "id": "smc-kalla-kriget-2026",
+    "name": "SMC Travel: Kalla kriget",
+    "date": "2026-08-03",
+    "dateEnd": "2026-08-07",
+    "location": "Haninge till Norrtälje (ca 100 mil)",
+    "type": "Körning",
+    "organizer": "SMC",
+    "description": "Fem dagars MC-resa genom södra Mellansverige. Utforska Kalla krigets hemligheter via museer och försvarsanläggningar. Start Haninge, mål Norrtälje.",
+    "descriptionFull": "SMC Travel: Kalla kriget den 3-7 augusti 2026.\n\nEn unik fem dagars MC-resa där spännande historia möter vackra vägar. Resan utforskar Kalla krigets hemligheter (ca 1945-1990) genom besök på utvalda museer och försvarsanläggningar.\n\nStart i Haninge, mål i Norrtälje. Totalt ca 100 mil.\n\nArrangeras av SMC Travel.\n\nPlats: Haninge till Norrtälje.",
+    "links": [
+      {
+        "label": "svmc.se",
+        "url": "https://www.svmc.se/resor2026/kalla-kriget-2026/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Haninge",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.svmc.se/resor2026/kalla-kriget-2026/",
+    "backImage": "ads/smc-kalla-kriget-back-2026-08-03.jpg",
+    "region": "Stockholm",
+    "source": "svmc.se"
+  },
+  {
+    "id": "moon-bike-show-avesta-2026",
+    "name": "Moon Bike Show Avesta",
+    "date": "2026-03-07",
+    "dateEnd": "2026-03-07",
+    "location": "Verket, Kanalvägen 1, Avesta",
+    "type": "Show",
+    "organizer": "Mooneyes Sweden",
+    "description": "Choppers, bobbers, caféracers och klassiska motorcyklar i den gamla bruksbyggnaden Verket i Avesta. Nordens mest atmosfäriska MC-show.",
+    "descriptionFull": "Moon Bike Show i Avesta den 7 mars 2026.\n\nÅrlig MC-show med choppers, bobbers, caféracers och klassiska motorcyklar. Visas i den historiska bruksbyggnaden Verket i Avesta, vilket ger en unik atmosfär.\n\nÖppet kl 10:00-18:00. Entré 180 kr, barn under 12 gratis.\n\nArrangeras av Mooneyes Sweden.\n\nPlats: Verket, Kanalvägen 1, Avesta.",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/p/Mooneyes-Sweden-100057805594083/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Verket+Kanalv%C3%A4gen+1+Avesta",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.facebook.com/p/Mooneyes-Sweden-100057805594083/",
+    "region": "Dalarna",
+    "source": "glinder.se"
+  },
+  {
+    "id": "iron-horse-mc-show-nykoping-2026",
+    "name": "Iron Horse MC Show Nyköping",
+    "date": "2026-07-04",
+    "dateEnd": "2026-07-04",
+    "location": "Nyköpings Hamn, Nyköping",
+    "type": "Show",
+    "organizer": "Iron Horse MC Show",
+    "description": "Årlig MC-show i Nyköpings Hamn. Custombyggen, klassiska hojar och gemenskap i sommarens Nyköping.",
+    "descriptionFull": "Iron Horse MC Show i Nyköping den 4 juli 2026.\n\nÅrlig MC-show som hålls lördagen efter midsommar i Nyköpings Hamn. Custombyggen, klassiska motorcyklar och gemenskap.\n\nÖppet från kl 11:00.\n\nPlats: Nyköpings Hamn, Nyköping.",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/ironhorsemcshow/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nyk%C3%B6pings+Hamn",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.facebook.com/ironhorsemcshow/",
+    "region": "Södermanland",
+    "source": "glinder.se"
+  },
+  {
+    "id": "guldrundan-skelleftea-2026",
+    "name": "Guldrundan Skellefteå",
+    "date": "2026-08-15",
+    "dateEnd": "2026-08-15",
+    "location": "Bonnstan, Skellefteå",
+    "type": "Körning",
+    "organizer": "Norrlands Motorhistoriker",
+    "description": "Veteranfordonskörning i Skellefteåtrakten. Start och mål i Bonnstan. Bilar, motorcyklar och mopeder 30 år och äldre.",
+    "descriptionFull": "Guldrundan i Skellefteå den 15 augusti 2026.\n\nTraditionellt veteranfordonsrally arrangerat av Norrlands Motorhistoriker. Fordon ska vara 30 år eller äldre. Bilar, motorcyklar och mopeder välkomnas.\n\nStart och mål i Bonnstan, Skellefteå. Sträckan är 8-10 mil i vacker natur i Skellefteåtrakten. Första start kl 10:00.\n\nStartavgift: 250 kr (bil), 150 kr (MC).\n\nPlats: Bonnstan, Skellefteå.",
+    "links": [
+      {
+        "label": "nmh.se",
+        "url": "https://nmh.se/skellefteasektionen/evenemang-skelleftea/"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=Bonnstan+Skellefte%C3%A5",
+        "type": "map"
+      }
+    ],
+    "link": "https://nmh.se/skellefteasektionen/evenemang-skelleftea/",
+    "region": "Västerbotten",
+    "source": "nmh.se"
   }
 ]
   }
