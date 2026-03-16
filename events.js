@@ -2237,6 +2237,7 @@ const EVENTS_DATA = {
     "region": "Uppsala",
     "source": "sulas.se",
     "descriptionFull": "Sulas MC Stor Invigning arrangeras av Sulas MC.\n\nStor invigning av Sulas MC:s nya butik och showroom. Visning av nya modeller från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-16.\n\nMC-massa med utstallare, provkorningar och tillbehor. Kolla arrangoren for oppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
+    "backImage": "ads/sulas-mc-invigning-back-2026-04-18.jpg",
     "links": [
       {
         "label": "sulas.se",
