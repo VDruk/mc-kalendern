@@ -530,12 +530,22 @@
     cursor: pointer;
     border-radius: var(--radius);
     overflow: hidden;
+    grid-column: 1 / -1;
+    max-width: 400px;
   }
   .ad-card:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.12); }
   .ad-card img {
     width: 100%; height: 100%;
     object-fit: contain; display: block;
     border-radius: var(--radius);
+  }
+  /* Row break: prevents Type 2 poster and Type 3 ad cards from sharing a row */
+  .grid-row-break {
+    grid-column: 1 / -1;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
   }
 
   /* ========== POSTER / FRONT-IMAGE CARDS ========== */
@@ -1230,6 +1240,7 @@ function render() {
 
   let renderMonth = '';
   let lastEventDate = '';
+  let lastCardType = ''; // 'poster' (Type 2 with frontImage, no _ad), 'ad' (_ad with frontImage), 'text', 'banner'
 
   events.forEach(event => {
     const d = new Date(event.date + 'T00:00:00');
@@ -1238,6 +1249,15 @@ function render() {
     const isFav = isFavorited(event.id);
     const isMultiDay = event.dateEnd && event.dateEnd !== event.date;
 
+    // Determine this card's visual type
+    const thisCardType = event._ad && event.frontImage ? 'ad' : event.frontImage ? 'poster' : 'text';
+    // Insert row break if Type 2 poster and Type 3 ad would share a row
+    if ((lastCardType === 'poster' && thisCardType === 'ad') || (lastCardType === 'ad' && thisCardType === 'poster')) {
+      const rowBreak = document.createElement('div');
+      rowBreak.className = 'grid-row-break';
+      grid.appendChild(rowBreak);
+    }
+
     // Month divider (skip for injected ad cards)
     if (!event._ad && monthKey !== renderMonth) {
       renderMonth = monthKey;
@@ -1245,10 +1265,11 @@ function render() {
       divider.className = 'month-divider';
       divider.textContent = MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
       grid.appendChild(divider);
+      lastCardType = ''; // full-width divider resets row
     }
 
-    // Date gap ads
-    if (event.date !== lastEventDate && lastEventDate) {
+    // Date gap ads (skip for injected Type 3 _ad cards - their fake date would re-trigger banners)
+    if (!event._ad && event.date !== lastEventDate && lastEventDate) {
       Object.keys(adsByDate).forEach(adDate => {
         if (adDate >= lastEventDate && adDate < event.date) {
           adsByDate[adDate].forEach(ad => {
@@ -1259,11 +1280,12 @@ function render() {
             adCard.onclick = () => window.open(ad.link, '_blank');
             adCard.innerHTML = `<img src="${ad.image}" alt="${ad.alt}" loading="lazy">`;
             grid.appendChild(adCard);
+            lastCardType = 'banner'; // full-width banner resets row
           });
         }
       });
     }
-    lastEventDate = event.date;
+    if (!event._ad) lastEventDate = event.date;
 
     // Before-event ads
     if (adsByEvent[event.id]) {
@@ -1275,6 +1297,7 @@ function render() {
         adCard.onclick = () => window.open(ad.link, '_blank');
         adCard.innerHTML = `<img src="${ad.image}" alt="${ad.alt}" loading="lazy">`;
         grid.appendChild(adCard);
+        lastCardType = 'banner'; // full-width banner resets row
       });
     }
 
@@ -1389,6 +1412,7 @@ function render() {
       `;
     }
     grid.appendChild(card);
+    lastCardType = thisCardType;
   });
 }
 
