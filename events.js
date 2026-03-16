@@ -10213,6 +10213,36 @@ const EVENTS_DATA = {
     ]
   },
   {
+    "id": "torringelund-bike-meet-2026",
+    "name": "Törringelund Bike Meet 2026",
+    "date": "2026-07-03",
+    "dateEnd": "2026-07-04",
+    "location": "Hyltarpsvägen 771, Svedala",
+    "type": "Träff",
+    "organizer": "Törringelund",
+    "description": "Ny MC-festival i Skåne! Två dagar med MC-utställning, liveband, foodtrucks, marknad, camping och fri entré för barn under 15.",
+    "descriptionFull": "Törringelund bjuder in till en helt ny festival med fullt fokus på motorcyklar, livemusik, camping och bikerkultur.\n\n3-4 juli, Törringelund, Skåne.\n\nTvå dagar fyllda med:\n- MC-utställning\n- Flera liveband och olika musikstilar\n- Foodtrucks och barer\n- Marknad och knallare\n- Camping på området\n\nSommarkvällar, motorljud och gemenskap. Alla är välkomna redan på torsdagen, campingen är öppen och puben är laddad.\n\nBarn upp till 15 år: fri entré.\n\nBiljetter via nortic.se.\n\nKontakt: event@torringelund.se\n\nPlats: Hyltarpsvägen 771, 233 92 Svedala.",
+    "backImage": "ads/torringelund-bike-meet-back-2026-07-03.jpg",
+    "links": [
+      {
+        "label": "FB Event",
+        "url": "https://www.facebook.com/events/1148594720484480/"
+      },
+      {
+        "label": "Biljetter",
+        "url": "https://www.nortic.se/ticket/event/78262"
+      },
+      {
+        "label": "Karta",
+        "url": "https://www.google.com/maps/search/?api=1&query=T%C3%B6rringelund+Svedala",
+        "type": "map"
+      }
+    ],
+    "link": "https://www.nortic.se/ticket/event/78262",
+    "region": "Skåne",
+    "source": "FB"
+  },
+  {
     "id": "vanern-runt-2026",
     "name": "Vänern runt",
     "date": "2026-07-04",
