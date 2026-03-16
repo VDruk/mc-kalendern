@@ -1175,7 +1175,7 @@ function render() {
 
   // AD injection: insert ad cards at regular intervals, or if search matches
   const AD_INTERVAL = 25;
-  if (adCards.length > 0 && events.length > 0) {
+  if (adCards.length > 0) {
     if (searchQuery) {
       // During search: only show ads that match the search query
       const q = searchQuery.toLowerCase();
