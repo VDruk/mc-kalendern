@@ -53,6 +53,7 @@
     --type-traff: #16a34a;
     --type-massa: #2563eb;
     --type-racing: #dc2626;
+    --type-korning: #ea580c;
     --type-tur: #7c3aed;
     --type-show: #db2777;
     --type-fest: #e11d48;
@@ -378,6 +379,7 @@
   .type-traff { background: rgba(22,163,74,0.1); color: var(--type-traff); }
   .type-massa { background: rgba(37,99,235,0.1); color: var(--type-massa); }
   .type-racing { background: rgba(220,38,38,0.1); color: var(--type-racing); }
+  .type-korning { background: rgba(234,88,12,0.1); color: var(--type-korning); }
   .type-tur { background: rgba(124,58,237,0.1); color: var(--type-tur); }
   .type-show { background: rgba(219,39,119,0.1); color: var(--type-show); }
   .type-fest { background: rgba(225,29,72,0.1); color: var(--type-fest); }
@@ -847,7 +849,7 @@
     <div class="filter-row">
       <div class="filter-group">
         <button class="type-btn active" data-type="all">Alla</button>
-        <button class="type-btn" data-type="Tur">Tur</button>
+        <button class="type-btn" data-type="Körning">Körning</button>
         <button class="type-btn" data-type="Träff">Träff</button>
         <button class="type-btn" data-type="Racing">Racing</button>
         <button class="type-btn" data-type="Fest">Fest</button>
@@ -985,7 +987,7 @@ const CLUB_MATCHERS = {
 
 const TYPE_CLASSES = {
   'Träff': 'type-traff', 'Mässa': 'type-massa', 'Racing': 'type-racing',
-  'Tur': 'type-tur', 'Show': 'type-show',
+  'Tur': 'type-tur', 'Show': 'type-show', 'Körning': 'type-korning',
   'Fest': 'type-fest', 'Trackday': 'type-trackday'
 };
 
