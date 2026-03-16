@@ -2669,6 +2669,7 @@ const EVENTS_DATA = {
       "link": "https://www.backroads.eu/adv-motorcycle-expo/",
       "region": "Stockholm",
       "source": "advmotorcycleexpo.com",
+      "backImage": "ads/adv-motorcycle-expo-back-2026-04-18.jpg",
       "descriptionFull": "ADV Motorcycle Expo 2026 arrangeras av Backroads AB / ADV Expo.\n\nNordens största mässa för äventyrsmotorcyklister. Utställare, föreläsningar och provkörningar.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Upplands Väsby.",
       "links": [
         {
@@ -8597,6 +8598,7 @@ const EVENTS_DATA = {
       "link": "https://www.custombikeshow.se/",
       "region": "Uppsala",
       "source": "custombikeshow.se",
+      "backImage": "ads/custom-bike-show-norrtalje-back-2026-06-06.jpg",
       "descriptionFull": "Custom Bike Show Norrtälje arrangeras av Custom Bike Show.\n\nEuropas äldsta custom bike show. Choppers, bobbers, café racers och konstverk på två hjul.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangören för tider.\n\nPlats: Norrtälje.",
       "links": [
         {
@@ -14696,6 +14698,7 @@ const EVENTS_DATA = {
       "link": "https://www.svmc.se/club/maelaren-runt/",
       "region": "Stockholm",
       "source": "svmc.se",
+      "backImage": "ads/malaren-runt-back-2026-08-16.jpg",
       "descriptionFull": "Mälaren Runt arrangeras av SMC / Mälaren Runt.\n\nArrangemang med SMC i Mälardalen. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Mälardalen.",
       "links": [
         {
@@ -19194,6 +19197,136 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "bonneville-lansering-upplands-vasby-2026",
+      "name": "Bonneville lansering!",
+      "date": "2026-03-21",
+      "dateEnd": "2026-03-21",
+      "location": "Triumph Stockholm Norr, Upplands Väsby",
+      "type": "Show",
+      "organizer": "Triumph Stockholm Norr",
+      "description": "Exklusivt lanseringsevent for nya Triumph Modern Classics. Provkör nya modellerna och träffa andra Triumph-entusiaster.",
+      "backImage": "ads/bonneville-lansering-back-2026-03-21.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/events/1267483558130059/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Karins+v%C3%A4g+5+194+61+Upplands+V%C3%A4sby",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1267483558130059/",
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "descriptionFull": "Triumph Stockholm Norr bjuder in till ett exklusivt lanseringsevent for de nya modellerna inom Triumph Modern Classics.\n\nKom och kolla in nyheterna, provkor och snacka med andra MC-entusiaster. Triumph Stockholm Norr ar din Triumph-handlare i Stockholm.\n\nDatum: Lordag 21 mars\nTid: kl. 11:00\n\nPlats: Karins vag 5, 194 61 Upplands Vasby."
+    },
+    {
+      "id": "mce-manadsmoete-april-jarfalla-2026",
+      "name": "MCE Månadsmöte",
+      "date": "2026-04-13",
+      "dateEnd": "2026-04-13",
+      "location": "MCE Klubblokalen, Järfälla",
+      "type": "Träff",
+      "organizer": "MCE - motorcykelentusiasterna",
+      "description": "Månadsmöte hos MCE i Järfälla. Diskussion om verksamheten, nyval av medlemmar. Alla hojintresserade välkomna.",
+      "backImage": "ads/mce-manadsmoete-back-2026-04-13.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/events/1919105001975075/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+177+61+J%C3%A4rf%C3%A4lla",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1919105001975075/",
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "descriptionFull": "MCE - motorcykelentusiasterna bjuder in till månadsmöte i april.\n\nVi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar. Alla medlemmar och klubbnyfikna är välkomna.\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar ingen roll, inte ens krav på att man ska ha en hoj.\n\nTid: Måndag 13 april kl. 18:00 - 21:00\nPlats: Snutenvägen 11, 177 61 Järfälla."
+    },
+    {
+      "id": "avrostning-mc-tur-oppet-hus-vallentuna-2026",
+      "name": "Avrostning / MC-tur & Öppet Hus",
+      "date": "2026-05-01",
+      "dateEnd": "2026-05-01",
+      "location": "Svensk Trafikutbildning, Vallentuna",
+      "type": "Körning",
+      "organizer": "Svensk Trafikutbildning",
+      "description": "Avrostning och MC-tur for gamla MC-elever. Körning, häng och hoj-snack. Alla gamla elever välkomna till trafikskolan.",
+      "backImage": "ads/avrostning-mc-tur-back-2026-05-01.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/events/1530418525067996/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gillinge+55+186+91+Vallentuna",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1530418525067996/",
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "descriptionFull": "Svensk Trafikutbildning bjuder in alla gamla MC-elever till en dag med körning, häng och massa hoj-snack!\n\nDet är äntligen dags för avrostning och öppet hus. Kom och träffa andra MC-entusiaster, kör en tur och njut av stämningen.\n\nSvensk Trafikutbildning är en modern trafikskola som utbildar för MC och tungt släp, samt hyr ut motorcyklar.\n\nTid: Fredag 1 maj kl. 09:00 - 13:00\nPlats: Gillinge 55, 186 91 Vallentuna."
+    },
+    {
+      "id": "provkorning-zontes-cafe-rosenhill-2026",
+      "name": "Provkörning: Zontes",
+      "date": "2026-06-03",
+      "dateEnd": "2026-06-03",
+      "location": "Café Rosenhill, Botkyrka",
+      "type": "Show",
+      "organizer": "Café Rosenhill",
+      "description": "Provkörningskväll med Zontes motorcyklar. Pauls Motor visar upp modeller. Fika och MC-snack på Café Rosenhill.",
+      "backImage": "ads/provkorning-zontes-back-2026-06-03.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/events/839357122492882/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Rosenhill+23+Botkyrka+Gr%C3%B6dinge",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/839357122492882/",
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "descriptionFull": "Café Rosenhill bjuder in till en provkörningskväll!\n\nGrabbarna bakom Pauls Motor kommer och visar upp Zontes motorcyklar. Kom och ta en fika, kika på fina motorcyklar och provkör om du vill.\n\nZontes är ett spännande märke med prisvärda och moderna modeller.\n\nTid: Onsdag 3 juni kl. 16:00 - 19:00\nPlats: Rosenhill 23, Botkyrka (Grödinge)."
+    },
+    {
+      "id": "nationaldagsturen-haninge-2026",
+      "name": "Nationaldagsturen Haninge 2026",
+      "date": "2026-06-06",
+      "dateEnd": "2026-06-06",
+      "location": "GULF Tungelsta, Haninge",
+      "type": "Körning",
+      "organizer": "Kari Lindh",
+      "description": "Nationaldagskörning i Haninge. Alla sorters MC välkomna. Rutten är 55 km lång genom Haninges vackraste vägar.",
+      "backImage": "ads/nationaldagsturen-haninge-back-2026-06-06.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/events/1132728105638779/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=GULF+Tungelsta+S%C3%B6dert%C3%A4ljev%C3%A4gen+19+Tungelsta",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1132728105638779/",
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "descriptionFull": "Välkommen att köra nationaldagsturen Haninge 2026!\n\nAlla sorters MC får vara med. Sträckningen är knappt 5,5 mil lång och går genom större delen av Haninges vackraste vägar.\n\nStart och mål: GULF Tungelsta. Samling för gemensam avfärd.\n\nTid: Lördag 6 juni kl. 14:00\nPlats: GULF Tungelsta, Södertäljevägen 19, 137 56 Tungelsta."
     }
   ]
 };
