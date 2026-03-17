@@ -1042,7 +1042,7 @@ const MONTHS_SV = ['Januari','Februari','Mars','April','Maj','Juni','Juli','Augu
 const MONTHS_SHORT = ['JAN','FEB','MAR','APR','MAJ','JUN','JUL','AUG','SEP','OKT','NOV','DEC'];
 
 const CLUB_MATCHERS = {
-  'BMW MC-klubben': org => org === 'BMW MC-klubben',
+  'BMW MC-klubben': org => org.startsWith('BMW MC-klubben'),
   'GWCS': org => org.includes('GWCS') || org.includes('GoldWing Club Sweden'),
   'H-DCS': org => org === 'H-DCS' || org === 'Harley-Davidson Club Sweden',
   'ÖAMCK': org => org === 'ÖAMCK' || org === 'OAMCK',
