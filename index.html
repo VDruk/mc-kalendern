@@ -461,6 +461,43 @@
   }
   .card-link-btn:hover { color: var(--accent-hover); }
 
+  /* ========== WEATHER STRIP ========== */
+  .weather-strip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    margin: 10px -20px 0 -20px;
+    min-height: 34px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    transition: background 0.3s ease;
+  }
+  .weather-strip.weather-sunny {
+    background: linear-gradient(90deg, rgba(253, 224, 71, 0.15) 0%, rgba(253, 224, 71, 0.05) 100%);
+  }
+  .weather-strip.weather-cloudy {
+    background: linear-gradient(90deg, rgba(156, 163, 175, 0.15) 0%, rgba(156, 163, 175, 0.05) 100%);
+  }
+  .weather-strip.weather-rainy {
+    background: linear-gradient(90deg, rgba(96, 165, 250, 0.15) 0%, rgba(96, 165, 250, 0.05) 100%);
+  }
+  .weather-strip.weather-snowy {
+    background: linear-gradient(90deg, rgba(186, 230, 253, 0.2) 0%, rgba(186, 230, 253, 0.06) 100%);
+  }
+  .weather-strip.weather-thunder {
+    background: linear-gradient(90deg, rgba(167, 139, 250, 0.15) 0%, rgba(167, 139, 250, 0.05) 100%);
+  }
+  .weather-strip.weather-pending {
+    background: linear-gradient(90deg, rgba(229, 231, 235, 0.3) 0%, rgba(229, 231, 235, 0.1) 100%);
+  }
+  .weather-icon { font-size: 16px; line-height: 1; flex-shrink: 0; }
+  .weather-temp { font-weight: 700; font-size: 13px; color: var(--text-primary); flex-shrink: 0; }
+  .weather-detail { font-size: 11px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .weather-label { margin-left: auto; font-size: 10px; color: var(--text-muted); opacity: 0.7; white-space: nowrap; flex-shrink: 0; }
+  .weather-strip.weather-pending .weather-icon { opacity: 0.4; }
+  .weather-pending-text { font-size: 11px; color: var(--text-muted); opacity: 0.6; font-style: italic; }
+
   /* ========== 3D FLIP CARD SYSTEM ========== */
   .card-flipper {
     position: relative; width: 100%; flex: 1;
@@ -1171,6 +1208,264 @@ function updateStats() {
   document.getElementById('statClubs').textContent = countOrganizers(all);
 }
 
+// ========== WEATHER SYSTEM ==========
+const LOCATION_COORDS = {
+  'stockholm': { lat: 59.33, lon: 18.07 }, 'göteborg': { lat: 57.71, lon: 11.97 },
+  'malmö': { lat: 55.60, lon: 13.00 }, 'uppsala': { lat: 59.86, lon: 17.64 },
+  'linköping': { lat: 58.41, lon: 15.63 }, 'norrköping': { lat: 58.59, lon: 16.18 },
+  'örebro': { lat: 59.27, lon: 15.21 }, 'västerås': { lat: 59.61, lon: 16.54 },
+  'helsingborg': { lat: 56.05, lon: 12.69 }, 'jönköping': { lat: 57.78, lon: 14.16 },
+  'luleå': { lat: 65.58, lon: 22.15 }, 'umeå': { lat: 63.83, lon: 20.26 },
+  'gävle': { lat: 60.67, lon: 17.14 }, 'karlstad': { lat: 59.38, lon: 13.50 },
+  'sundsvall': { lat: 62.39, lon: 17.31 }, 'östersund': { lat: 63.18, lon: 14.64 },
+  'växjö': { lat: 56.88, lon: 14.81 }, 'halmstad': { lat: 56.67, lon: 12.86 },
+  'karlskrona': { lat: 56.16, lon: 15.59 }, 'kalmar': { lat: 56.66, lon: 16.36 },
+  'falun': { lat: 60.61, lon: 15.63 }, 'visby': { lat: 57.64, lon: 18.30 },
+  'avesta': { lat: 60.15, lon: 16.17 }, 'trollhättan': { lat: 58.28, lon: 12.29 },
+  'borås': { lat: 57.72, lon: 12.94 }, 'eskilstuna': { lat: 59.37, lon: 16.51 },
+  'solna': { lat: 59.36, lon: 18.00 }, 'lidköping': { lat: 58.51, lon: 13.16 },
+  'skövde': { lat: 58.39, lon: 13.85 }, 'hudiksvall': { lat: 61.73, lon: 17.11 },
+  'mora': { lat: 61.01, lon: 14.54 }, 'filipstad': { lat: 59.71, lon: 14.17 },
+  'kumla': { lat: 59.13, lon: 15.14 }, 'motala': { lat: 58.54, lon: 15.04 },
+  'väring': { lat: 58.63, lon: 13.93 }, 'kiruna': { lat: 67.86, lon: 20.23 },
+  'nyköping': { lat: 58.75, lon: 17.01 }, 'enköping': { lat: 59.64, lon: 17.08 },
+  'norrtälje': { lat: 59.76, lon: 18.70 }, 'katrineholm': { lat: 58.99, lon: 16.21 },
+  'borlänge': { lat: 60.49, lon: 15.44 }, 'ludvika': { lat: 60.15, lon: 15.19 },
+  'landskrona': { lat: 55.87, lon: 12.83 }, 'lund': { lat: 55.70, lon: 13.19 },
+  'kristianstad': { lat: 56.03, lon: 14.15 }, 'varberg': { lat: 57.11, lon: 12.25 },
+  'kungsbacka': { lat: 57.49, lon: 12.08 }, 'alingsås': { lat: 57.93, lon: 12.53 },
+  'mariestad': { lat: 58.71, lon: 13.82 }, 'arvika': { lat: 59.65, lon: 12.59 },
+  'härnösand': { lat: 62.63, lon: 17.94 }, 'piteå': { lat: 65.32, lon: 21.48 },
+  'boden': { lat: 66.00, lon: 21.69 }, 'skellefteå': { lat: 64.75, lon: 20.95 },
+  'nässjö': { lat: 57.65, lon: 14.70 }, 'vetlanda': { lat: 57.43, lon: 15.08 },
+  'huskvarna': { lat: 57.79, lon: 14.27 }, 'mjölby': { lat: 58.33, lon: 15.13 },
+  'tranås': { lat: 58.04, lon: 14.98 }, 'säffle': { lat: 59.13, lon: 12.93 },
+  'torsby': { lat: 60.14, lon: 13.00 }, 'bollnäs': { lat: 61.35, lon: 16.39 },
+  'söderhamn': { lat: 61.30, lon: 17.06 }, 'sandviken': { lat: 60.62, lon: 16.78 },
+  // Smaller towns
+  'ankarsrum': { lat: 57.41, lon: 16.27 }, 'arboga': { lat: 59.37, lon: 15.82 },
+  'arlöv': { lat: 55.34, lon: 13.08 }, 'askersund': { lat: 58.74, lon: 15.38 },
+  'bankeryd': { lat: 57.59, lon: 14.22 }, 'bergsjö': { lat: 61.58, lon: 16.93 },
+  'bollebygd': { lat: 57.88, lon: 13.22 }, 'botkyrka': { lat: 59.20, lon: 17.82 },
+  'bromma': { lat: 59.35, lon: 17.92 }, 'bromölla': { lat: 55.83, lon: 14.50 },
+  'dala-järna': { lat: 61.15, lon: 15.67 }, 'degeberga': { lat: 55.59, lon: 13.68 },
+  'ekerö': { lat: 59.37, lon: 17.63 }, 'eringsboda': { lat: 56.85, lon: 14.28 },
+  'eslöv': { lat: 55.84, lon: 13.30 }, 'falkenberg': { lat: 56.90, lon: 12.48 },
+  'fjärås': { lat: 57.27, lon: 12.38 }, 'gagnef': { lat: 61.00, lon: 15.10 },
+  'garphyttan': { lat: 59.20, lon: 15.25 }, 'grisslehamn': { lat: 60.38, lon: 19.18 },
+  'grums': { lat: 59.65, lon: 13.03 }, 'grängesberg': { lat: 59.89, lon: 14.93 },
+  'gustavsberg': { lat: 59.36, lon: 18.38 }, 'götene': { lat: 58.69, lon: 13.97 },
+  'haninge': { lat: 58.95, lon: 18.13 }, 'heby': { lat: 60.12, lon: 16.39 },
+  'hjo': { lat: 58.78, lon: 13.98 }, 'hovmantorp': { lat: 56.47, lon: 16.33 },
+  'hultsfred': { lat: 57.29, lon: 15.84 }, 'hällingsjö': { lat: 57.62, lon: 12.43 },
+  'hörby': { lat: 55.85, lon: 13.66 }, 'höör': { lat: 55.93, lon: 13.54 },
+  'järfälla': { lat: 59.43, lon: 17.79 }, 'karlskoga': { lat: 59.33, lon: 14.54 },
+  'klippan': { lat: 56.13, lon: 13.13 }, 'kolmården': { lat: 58.67, lon: 16.47 },
+  'kramfors': { lat: 62.94, lon: 16.82 }, 'kristinehamn': { lat: 59.30, lon: 14.18 },
+  'kungälv': { lat: 57.88, lon: 11.82 }, 'kågeröd': { lat: 56.00, lon: 13.09 },
+  'laholm': { lat: 56.51, lon: 13.04 }, 'leksand': { lat: 61.05, lon: 15.03 },
+  'lidingö': { lat: 59.37, lon: 18.43 }, 'limhamn': { lat: 55.58, lon: 13.10 },
+  'lindesberg': { lat: 59.61, lon: 15.20 }, 'ljungby': { lat: 57.18, lon: 14.87 },
+  'lycksele': { lat: 64.60, lon: 18.75 }, 'markaryd': { lat: 57.42, lon: 14.50 },
+  'moheda': { lat: 56.90, lon: 14.82 }, 'mönsterås': { lat: 57.45, lon: 16.07 },
+  'mörarp': { lat: 55.62, lon: 13.39 }, 'mörbylånga': { lat: 56.53, lon: 16.67 },
+  'nacka': { lat: 59.31, lon: 18.34 }, 'norsjö': { lat: 64.87, lon: 20.81 },
+  'nossebro': { lat: 58.25, lon: 13.58 }, 'nynäshamn': { lat: 58.86, lon: 18.95 },
+  'orsa': { lat: 61.42, lon: 14.60 }, 'oskarshamn': { lat: 57.27, lon: 16.46 },
+  'rimbo': { lat: 59.63, lon: 18.75 }, 'ronneby': { lat: 56.19, lon: 15.27 },
+  'simrishamn': { lat: 55.53, lon: 14.36 }, 'skärholmen': { lat: 59.26, lon: 17.89 },
+  'sköndal': { lat: 59.30, lon: 18.04 }, 'sollefteå': { lat: 63.17, lon: 17.27 },
+  'staffanstorp': { lat: 55.70, lon: 13.21 }, 'strängnäs': { lat: 59.33, lon: 16.98 },
+  'surahammar': { lat: 59.58, lon: 15.70 }, 'svedala': { lat: 55.42, lon: 13.51 },
+  'svenljunga': { lat: 57.79, lon: 13.64 }, 'tavelsjö': { lat: 64.58, lon: 20.40 },
+  'tibro': { lat: 58.52, lon: 14.28 }, 'tingsryd': { lat: 56.58, lon: 14.78 },
+  'tjörn': { lat: 58.28, lon: 11.88 }, 'täby': { lat: 59.38, lon: 18.08 },
+  'uddevalla': { lat: 58.35, lon: 11.95 }, 'ulricehamn': { lat: 57.97, lon: 13.80 },
+  'upplands väsby': { lat: 59.54, lon: 17.95 }, 'vallentuna': { lat: 59.50, lon: 18.60 },
+  'vänersborg': { lat: 58.40, lon: 12.30 }, 'värnamo': { lat: 57.70, lon: 14.90 },
+  'vårgårda': { lat: 58.00, lon: 13.60 }, 'åmål': { lat: 59.00, lon: 13.00 },
+  'örkelljunga': { lat: 56.90, lon: 13.50 }, 'örnsköldsvik': { lat: 63.29, lon: 18.71 },
+  'ösmo': { lat: 59.12, lon: 18.87 },
+  // Region fallbacks (central point for each region)
+  'västernorrland': { lat: 62.63, lon: 17.94 }, 'västra götaland': { lat: 57.71, lon: 12.00 },
+  'östergötland': { lat: 58.41, lon: 15.62 }, 'dalarna': { lat: 61.05, lon: 15.02 },
+  'skåne': { lat: 55.65, lon: 13.15 }, 'blekinge': { lat: 56.16, lon: 15.59 },
+  'småland': { lat: 57.50, lon: 15.00 }, 'halland': { lat: 56.90, lon: 12.48 },
+  'västerbotten': { lat: 63.83, lon: 20.26 }, 'västkusten': { lat: 57.71, lon: 12.00 },
+  'öland': { lat: 56.80, lon: 16.80 }, 'sverige': { lat: 59.33, lon: 18.06 },
+  'danmark': { lat: 55.68, lon: 12.57 }, 'norge': { lat: 59.91, lon: 10.75 },
+  'finland': { lat: 60.17, lon: 24.94 }, 'tjeckien': { lat: 49.82, lon: 15.47 },
+};
+
+const WSYMB2 = {
+  1:  { icon: '☀️', label: 'Klart', cat: 'sunny' },
+  2:  { icon: '🌤️', label: 'Nästan klart', cat: 'sunny' },
+  3:  { icon: '⛅', label: 'Halvklart', cat: 'cloudy' },
+  4:  { icon: '☁️', label: 'Molnigt', cat: 'cloudy' },
+  5:  { icon: '☁️', label: 'Mycket moln', cat: 'cloudy' },
+  6:  { icon: '☁️', label: 'Mulet', cat: 'cloudy' },
+  7:  { icon: '🌫️', label: 'Dimma', cat: 'cloudy' },
+  8:  { icon: '🌧️', label: 'Lätt regnskur', cat: 'rainy' },
+  9:  { icon: '🌧️', label: 'Regnskur', cat: 'rainy' },
+  10: { icon: '🌧️', label: 'Kraftig regnskur', cat: 'rainy' },
+  11: { icon: '⛈️', label: 'Åskskur', cat: 'thunder' },
+  12: { icon: '🌨️', label: 'Lätt byar slask', cat: 'snowy' },
+  13: { icon: '🌨️', label: 'Byar slask', cat: 'snowy' },
+  14: { icon: '🌨️', label: 'Kraftig slask', cat: 'snowy' },
+  15: { icon: '🌨️', label: 'Lätt snöbyar', cat: 'snowy' },
+  16: { icon: '🌨️', label: 'Snöbyar', cat: 'snowy' },
+  17: { icon: '🌨️', label: 'Kraftiga snöbyar', cat: 'snowy' },
+  18: { icon: '🌧️', label: 'Lätt regn', cat: 'rainy' },
+  19: { icon: '🌧️', label: 'Regn', cat: 'rainy' },
+  20: { icon: '🌧️', label: 'Kraftigt regn', cat: 'rainy' },
+  21: { icon: '⛈️', label: 'Åska', cat: 'thunder' },
+  22: { icon: '🌨️', label: 'Lätt slask', cat: 'snowy' },
+  23: { icon: '🌨️', label: 'Slask', cat: 'snowy' },
+  24: { icon: '🌨️', label: 'Kraftig slask', cat: 'snowy' },
+  25: { icon: '❄️', label: 'Lätt snöfall', cat: 'snowy' },
+  26: { icon: '❄️', label: 'Snöfall', cat: 'snowy' },
+  27: { icon: '❄️', label: 'Ymnigt snöfall', cat: 'snowy' },
+};
+
+const WEATHER_CACHE_KEY = 'mc_weather_cache_v3';
+const WEATHER_CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
+let weatherData = {};
+let weatherLoaded = false;
+
+function getWeatherCache() {
+  try {
+    const raw = localStorage.getItem(WEATHER_CACHE_KEY);
+    if (!raw) return {};
+    const cache = JSON.parse(raw);
+    if (cache._timestamp && (Date.now() - cache._timestamp > WEATHER_CACHE_TTL)) {
+      localStorage.removeItem(WEATHER_CACHE_KEY);
+      return {};
+    }
+    return cache;
+  } catch { return {}; }
+}
+
+function saveWeatherCache(cache) {
+  cache._timestamp = Date.now();
+  localStorage.setItem(WEATHER_CACHE_KEY, JSON.stringify(cache));
+}
+
+function findCoords(location) {
+  if (!location) return null;
+  const loc = location.toLowerCase();
+  for (const [city, coords] of Object.entries(LOCATION_COORDS)) {
+    if (loc.includes(city)) return coords;
+  }
+  return null;
+}
+
+async function fetchWeatherForDate(lat, lon, targetDate) {
+  const url = `https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/${lon.toFixed(4)}/lat/${lat.toFixed(4)}/data.json`;
+  try {
+    const resp = await fetch(url);
+    if (!resp.ok) return null;
+    const data = await resp.json();
+
+    // Collect ALL readings for the target date to get high/low
+    const dayReadings = [];
+    let noonClosest = null, noonDiff = Infinity;
+    const targetNoon = new Date(targetDate + 'T12:00:00');
+
+    for (const ts of data.timeSeries) {
+      const timeStr = ts.validTime; // e.g. "2026-03-20T12:00:00Z"
+      if (timeStr.startsWith(targetDate)) {
+        const params = {};
+        ts.parameters.forEach(p => { params[p.name] = p.values[0]; });
+        dayReadings.push(params);
+      }
+      // Also find closest to noon for weather symbol and wind
+      const diff = Math.abs(new Date(ts.validTime) - targetNoon);
+      if (diff < noonDiff) { noonDiff = diff; noonClosest = ts; }
+    }
+
+    if (!noonClosest) return null;
+    const noonParams = {};
+    noonClosest.parameters.forEach(p => { noonParams[p.name] = p.values[0]; });
+
+    // Get high/low from all readings of the day, or fallback to noon reading
+    let tempHigh, tempLow;
+    if (dayReadings.length > 0) {
+      const temps = dayReadings.map(r => r.t).filter(t => t !== undefined);
+      tempHigh = Math.round(Math.max(...temps));
+      tempLow = Math.round(Math.min(...temps));
+    } else {
+      tempHigh = Math.round(noonParams.t || 0);
+      tempLow = tempHigh;
+    }
+
+    return {
+      tempHigh: tempHigh,
+      tempLow: tempLow,
+      wind: Math.round(noonParams.ws || 0),
+      wsymb2: noonParams.Wsymb2 || 1,
+    };
+  } catch (e) { console.warn('SMHI fetch failed:', e); return null; }
+}
+
+async function loadAllWeather() {
+  const cache = getWeatherCache();
+  const now = new Date();
+  const todayStr = now.toISOString().split('T')[0]; // "2026-03-17"
+  const maxForecast = new Date(now);
+  maxForecast.setDate(maxForecast.getDate() + 10);
+  const maxStr = maxForecast.toISOString().split('T')[0];
+  const events = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
+  const fetchPromises = [];
+
+  for (const event of events) {
+    if (event.date < todayStr) { weatherData[event.id + '_' + event.date] = 'past'; continue; }
+    if (event.date > maxStr) { weatherData[event.id + '_' + event.date] = 'pending'; continue; }
+    const cacheKey = event.id + '_' + event.date;
+    if (cache[cacheKey]) { weatherData[event.id + '_' + event.date] = cache[cacheKey]; continue; }
+    const coords = findCoords(event.location);
+    if (!coords) { weatherData[event.id + '_' + event.date] = 'no-coords'; continue; }
+    fetchPromises.push(
+      fetchWeatherForDate(coords.lat, coords.lon, event.date).then(result => {
+        if (result) { weatherData[event.id + '_' + event.date] = result; cache[cacheKey] = result; }
+        else { weatherData[event.id + '_' + event.date] = 'error'; }
+      })
+    );
+  }
+  // Fetch in batches of 5
+  for (let i = 0; i < fetchPromises.length; i += 5) {
+    await Promise.all(fetchPromises.slice(i, i + 5));
+    if (i + 5 < fetchPromises.length) await new Promise(r => setTimeout(r, 200));
+  }
+  saveWeatherCache(cache);
+  weatherLoaded = true;
+}
+
+function getWeatherStripHTML(eventId, eventDate) {
+  const data = weatherData[eventId + '_' + eventDate];
+  if (!data || data === 'past' || data === 'no-coords' || data === 'error') {
+    return `<div class="weather-strip weather-pending">
+      <span class="weather-icon">🌡️</span>
+      <span class="weather-pending-text">Väderprognos visas 10 dagar innan eventet</span>
+    </div>`;
+  }
+  if (data === 'pending') {
+    return `<div class="weather-strip weather-pending">
+      <span class="weather-icon">🌡️</span>
+      <span class="weather-pending-text">Väderprognos visas 10 dagar innan eventet</span>
+    </div>`;
+  }
+  const sym = WSYMB2[data.wsymb2] || WSYMB2[1];
+  const tempText = data.tempHigh !== undefined
+    ? (data.tempHigh !== data.tempLow ? `${data.tempLow}° / ${data.tempHigh}°` : `${data.tempHigh}°`)
+    : `${data.temp}°`;
+  return `<div class="weather-strip weather-${sym.cat}">
+    <span class="weather-icon">${sym.icon}</span>
+    <span class="weather-temp">${tempText}</span>
+    <span class="weather-detail">${sym.label} | Vind ${data.wind} m/s</span>
+    <span class="weather-label">SMHI</span>
+  </div>`;
+}
+
 // ========== RENDER ==========
 function render() {
   const grid = document.getElementById('grid');
@@ -1414,6 +1709,7 @@ function render() {
         </div>
       `;
     } else {
+      const weatherHTML = getWeatherStripHTML(event.id, event.date);
       card.innerHTML = `
         <div class="card-flipper">
           <div class="card-front">
@@ -1430,6 +1726,7 @@ function render() {
               <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
               <div class="card-desc">${event.description || ''}</div>
             </div>
+            ${weatherHTML}
             ${footerHTML}
           </div>
           ${backHTML}
@@ -1497,6 +1794,9 @@ document.addEventListener('DOMContentLoaded', () => {
   render();
   updateFab();
   injectEventSchema();
+
+  // Load weather data from SMHI, then re-render cards with weather strips
+  loadAllWeather().then(() => { render(); });
 
   // Helper: check if any filter is active and update Alla button
   function updateAllaBtn() {
