@@ -10,3 +10,6 @@ Reklam/
 FB groups and events/
 START HERE.md
 *.bak-*
+.apify-token
+tools/.apify-token
+tools/discovery-results.json
