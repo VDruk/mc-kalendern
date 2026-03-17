@@ -1351,8 +1351,8 @@ const EVENTS_DATA = {
       "location": "Klostergatan 15, Lidköping",
       "type": "Show",
       "organizer": "Mc-konsult i Lidköping",
-      "description": "Bonneville-dagen hos Mc-konsult i Lidköping 21 mars kl 10-13. Kom och kolla nya Bonneville-serien, Speed Twin, Scrambler och Speedmaster.",
-      "descriptionFull": "Bonneville-dagen hos Mc-konsult i Lidköping, lördag 21 mars 2026.\n\nDags att fylla lokalen med nya Bonneville-serien och mingla! Kolla in Speed Twin, Scrambler och Speedmaster.\n\nTriumphkläder och tillbehör finns på plats.\n\nTid: 10:00-13:00\nPlats: Klostergatan 15, 531 23 Lidköping.\n\nVärdar: Mc-konsult i Lidköping och MC-Jansen.",
+      "description": "Hylla den ikoniska Bonnevillen! Kaffe och tilltugg. 10 000 kr i kläder/tillbehör vid order på T100, T120, Speed Twin, Scrambler eller Speedmaster.",
+      "descriptionFull": "Dags att hylla den ikoniska Bonnevillen! Kom och mingla och berätta just din Bonneville-historia. Vi bjuder på kaffe och något att tugga på.\n\nERBJUDANDE ENDAST LÖRDAG! 10 000:- i Triumphkläder eller tillbehör medföljer alla ordertecknande T100, T120, Speed Twins, Scramblers och Speedmasters!\n\nVarmt välkomna!\n\nTid: 10:00-13:00\nPlats: Klostergatan 15, 531 23 Lidköping.\n\nVärdar: Mc-konsult i Lidköping och MC-Jalle.",
       "backImage": "ads/bonneville-dagen-lidkoping-back-2026-03-21.jpg",
       "links": [
         {
