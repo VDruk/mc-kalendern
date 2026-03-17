@@ -1344,6 +1344,32 @@ const EVENTS_DATA = {
       "descriptionFull": "Triumph Stockholm Norr bjuder in till ett exklusivt lanseringsevent för de nya modellerna inom Triumph Modern Classics.\n\nKom och kolla in nyheterna, provkör och snacka med andra MC-entusiaster. Triumph Stockholm Norr är din Triumph-handlare i Stockholm.\n\nDatum: Lördag 21 mars\nTid: kl. 11:00\n\nPlats: Karins väg 5, 194 61 Upplands Väsby."
     },
     {
+      "id": "bonneville-dagen-lidkoping-2026",
+      "name": "Bonneville-dagen!",
+      "date": "2026-03-21",
+      "dateEnd": "2026-03-21",
+      "location": "Klostergatan 15, Lidköping",
+      "type": "Show",
+      "organizer": "Mc-konsult i Lidköping",
+      "description": "Bonneville-dagen hos Mc-konsult i Lidköping 21 mars kl 10-13. Kom och kolla nya Bonneville-serien, Speed Twin, Scrambler och Speedmaster.",
+      "descriptionFull": "Bonneville-dagen hos Mc-konsult i Lidköping, lördag 21 mars 2026.\n\nDags att fylla lokalen med nya Bonneville-serien och mingla! Kolla in Speed Twin, Scrambler och Speedmaster.\n\nTriumphkläder och tillbehör finns på plats.\n\nTid: 10:00-13:00\nPlats: Klostergatan 15, 531 23 Lidköping.\n\nVärdar: Mc-konsult i Lidköping och MC-Jansen.",
+      "backImage": "ads/bonneville-dagen-lidkoping-back-2026-03-21.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/763861799891442/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Klostergatan+15+Lidköping",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/763861799891442/",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "smc-gotland-årsmöte-2026",
       "name": "SMC Gotlands Årsmöte 2026",
       "date": "2026-03-22",
