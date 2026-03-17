@@ -820,14 +820,14 @@ const EVENTS_DATA = {
       "name": "D7 AW med filmvisning",
       "date": "2026-03-18",
       "dateEnd": "2026-03-18",
-      "location": "Landsvägen 49",
+      "location": "Bishops Arms, Landsvägen 49, Sundbyberg",
       "type": "Träff",
-      "organizer": "BMW MC-klubben",
-      "description": "En kväll för dig som älskar friheten på två hjul och berättelser som doftar både bensin och guldrusch.",
+      "organizer": "BMW MC-klubben D7",
+      "description": "Filmvisning: Till Alaska och Yukon i äventyrarnas spår. Mingel och middag från kl 18:00 med BMW-gänget.",
       "link": "https://www.bmwklubben.se/aktiviteter/d7-aw-med-filmvisning/",
       "region": "Stockholm",
       "source": "bmwklubben.se",
-      "descriptionFull": "D7 AW med filmvisning arrangeras av BMW MC-klubben.\n\nEn kväll för dig som älskar friheten på två hjul och berättelser som doftar både bensin och guldrusch.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Landsvägen 49.",
+      "descriptionFull": "BMW MC-klubben D7 bjuder in till AW med filmvisning.\n\nFilmen \"Till Alaska och Yukon i äventyrarnas spår\" producerades av Mikael Hedlund 2011. Under en timme följer vi tolv hojåkare på en spektakulär resa genom Alaskas och Yukons storslagna landskap med fantastiska vyer, äventyr och historien om den stora guldruschen.\n\nMingel och middag från kl 18:00. Välj maträtt vid anmälan: köttbullar, Bishops Burger, Fish n Chips eller No Beef Burger.\n\nAktivitetsansvarig: Thomas Weglert.\n\nPlats: Bishops Arms, Landsvägen 49, Sundbyberg.",
       "links": [
         {
           "label": "bmwklubben.se",
@@ -835,7 +835,7 @@ const EVENTS_DATA = {
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Landsv%C3%A4gen+49",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bishops+Arms+Landsv%C3%A4gen+49+Sundbyberg",
           "type": "map"
         }
       ]
