@@ -1370,6 +1370,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "bonneville-lansering-lingvalls-gavle-2026",
+      "name": "Bonneville lansering Lingvalls Motor",
+      "date": "2026-03-21",
+      "dateEnd": "2026-03-21",
+      "location": "Kryddstigen 12, Gävle",
+      "type": "Show",
+      "organizer": "Lingvalls Motor",
+      "description": "Lansering av nya Triumph Bonneville 2026 hos Lingvalls Motor i Gävle. Lördag 21/3 kl 10-13. Lanseringsrabatt 10 000 kr!",
+      "descriptionFull": "Välkommen in på lanseringsdag av Nya Triumph Bonneville 2026 hos oss på Lingvalls Motor!\n\nLördag 21/3 kl 10-13.\n\nLanseringsrabatt 10 000:-\n\nPlats: Kryddstigen 12, 802 92 Gävle.",
+      "backImage": "ads/bonneville-lansering-lingvalls-back-2026-03-21.jpg",
+      "links": [
+        {
+          "label": "Lingvalls Motor",
+          "url": "https://www.facebook.com/LingvallsMotor"
+        },
+        {
+          "label": "lingvalls.se",
+          "url": "https://lingvalls.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kryddstigen+12+Gävle",
+          "type": "map"
+        }
+      ],
+      "link": "https://lingvalls.se/",
+      "region": "Gävleborg",
+      "source": "facebook.com"
+    },
+    {
       "id": "smc-gotland-årsmöte-2026",
       "name": "SMC Gotlands Årsmöte 2026",
       "date": "2026-03-22",
