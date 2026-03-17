@@ -3244,6 +3244,7 @@ const EVENTS_DATA = {
       "type": "Träff",
       "organizer": "Probike Malmö",
       "description": "Avrosta din mc-körning på manöverbanan, med din egen hoj eller prova en annan. Träffa återförsäljare och mingla med mc-förare.",
+      "backImage": "ads/mc-avrostning-bulltofta-back-2026-04-19.jpg",
       "descriptionFull": "Probike Malmö på Erikssons Trafikskolas Avrostning!\n\nKom och avrosta din mc-körning på manöverbanan, med din egen hoj eller prova en annan hoj.\n\nTräffa återförsäljare.\nMingla med nya och erfarna mc-förare.\n\nPlats: Rimfrostgatan 5, Malmö. Start kl. 10:00.",
       "links": [
         {
