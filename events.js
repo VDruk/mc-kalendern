@@ -870,14 +870,14 @@ const EVENTS_DATA = {
       "name": "D7 Säsongsuppstart, Motorrad Center Upplands Väsby",
       "date": "2026-03-19",
       "dateEnd": "2026-03-19",
-      "location": "Slånbärsvägen 6, Upplands Väsby",
+      "location": "Motorrad Center, Slånbärsvägen 6, Upplands Väsby",
       "type": "Träff",
-      "organizer": "BMW MC-klubben",
-      "description": "Arrangemang med BMW MC-klubben D7 från Slånbärsvägen 6, 194 65 Upplands Väsby, Sverige. Mer info på bmwklubben.se.",
+      "organizer": "BMW MC-klubben D7",
+      "description": "Säsongsuppstart med D7! Träffa klubbkompisar, se aktivitetskalendern 2026 och BMW-hojar. Motorrad Center bjuder på smörgås och dryck.",
       "link": "https://www.bmwklubben.se/aktiviteter/d7-sasongsuppstart-motorrad-center-upplands-vasby/",
       "region": "Stockholm",
       "source": "bmwklubben.se",
-      "descriptionFull": "D7 Säsongsuppstart, Motorrad Center Upplands Väsby arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D7 från Slånbärsvägen 6, 194 65 Upplands Väsby, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Slånbärsvägen 6, Upplands Väsby.",
+      "descriptionFull": "Välkommen till D7:s säsongsuppstart! Under kvällen träffar du härliga klubbkompisar från Europas största BMW-klubb med över 8 200 medlemmar.\n\nVi berättar om klubben och alla aktiviteter och visar distriktets fullsmockade aktivitetskalender för 2026.\n\nBMW Motorrad Center bjuder på smörgås och dryck/kaffe och ett fantastiskt smörgåsbord med BMW-hojar och personlig utrustning.\n\nParkering finns ca 200m från Motorrad Center (vid Bredden).",
       "links": [
         {
           "label": "bmwklubben.se",
@@ -898,11 +898,11 @@ const EVENTS_DATA = {
       "location": "Babel, Malmö",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Evenemang av Probike Malmö Babel Malmö Längd: 3 h Offentlig · Alla på och utanför Facebook One Night Only. One Hell of a Party. Everyone’s Welcome.",
+      "description": "Harley-Davidson Night på Babel i Malmö! Hojar på plats, bar, grym stämning. Säsongsstart med hela communityt. Fri entré, alla välkomna.",
       "link": "https://hdcs.se/evenemang/dob-harley-night-probike/",
       "region": "Skåne",
       "source": "hdcs.se",
-      "descriptionFull": "Harley-Davidson Night på ikoniska Babel arrangeras av H-DCS.\n\nEvenemang av Probike Malmö Babel Malmö Längd: 3 h Offentlig · Alla på och utanför Facebook One Night Only. One Hell of a Party. Everyone’s Welcome.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Babel, Malmö.",
+      "descriptionFull": "Harley-Davidson Night på ikoniska Babel mitt i Malmö. Probike och Gästgivare Möller skapar en unik kväll där både inbitna förare och nyfikna entusiaster är varmt välkomna.\n\nUnder kvällen: Harley-Davidson motorcyklar på plats, bar med öl och dryck, grym stämning.\n\nSäsongsstart med hela communityt. Oavsett om du redan kör eller bara är nyfiken på livsstilen är detta kvällen för dig.\n\nFri entré. Alla är välkomna!",
       "links": [
         {
           "label": "hdcs.se",
@@ -1227,9 +1227,9 @@ const EVENTS_DATA = {
       "region": "Västernorrland",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Vasternorrlands årsmöte med motionsskrivning och planering på agendan. Tid för inskick av motioner publiceras på distriktets hemsida och sociala medier.",
+      "description": "SMC Västernorrlands årsmöte med motionsskrivning och planering på agendan. Tid för inskick av motioner publiceras på distriktets hemsida och sociala medier.",
       "link": "https://svmc.se",
-      "descriptionFull": "SMC Västernorrlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Vasternorrlands årsmöte med motionsskrivning och planering på agendan. Tid för inskick av motioner publiceras på distriktets hemsida och sociala medier.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västernorrland.",
+      "descriptionFull": "SMC Västernorrlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Västernorrlands årsmöte med motionsskrivning och planering på agendan. Tid för inskick av motioner publiceras på distriktets hemsida och sociala medier.",
       "links": [
         {
           "label": "svmc.se",
@@ -1273,9 +1273,9 @@ const EVENTS_DATA = {
       "region": "Västra Götaland",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Vast haller årsmöte med sedvanliga årsmötesforhandlingar. Tid och plats på hemsidan. Motioner senast den 7 februari.",
+      "description": "SMC Västra Götaland håller årsmöte med sedvanliga årsmötesförhandlingar. Tid och plats på hemsidan. Motioner senast den 7 februari.",
       "link": "https://svmc.se",
-      "descriptionFull": "SMC Västra Götalands Årsmöte 2026 arrangeras av SMC.\n\nSMC Vast haller årsmöte med sedvanliga årsmötesforhandlingar. Tid och plats på hemsidan. Motioner senast den 7 februari.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västra Götaland.",
+      "descriptionFull": "SMC Västra Götalands Årsmöte 2026 arrangeras av SMC.\n\nSMC Västra Götaland håller årsmöte med sedvanliga årsmötesförhandlingar. Tid och plats på hemsidan. Motioner senast den 7 februari.",
       "links": [
         {
           "label": "svmc.se",
@@ -1431,9 +1431,9 @@ const EVENTS_DATA = {
       "region": "Jönköping",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Jonkopings årsmöte kl 13. Motet inleds med ett föredrag av Björn Gunnarsson. Därefter årsmöte! SMC bjuder på fika. Plats meddelas på hemsida och Facebook.",
+      "description": "SMC Jönköpings årsmöte kl 13. Mötet inleds med ett föredrag av Björn Gunnarsson. Därefter årsmöte! SMC bjuder på fika.",
       "link": "https://svmc.se",
-      "descriptionFull": "SMC Jönköpings Årsmöte 2026 arrangeras av SMC.\n\nSMC Jonkopings årsmöte kl 13. Motet inleds med ett föredrag av Björn Gunnarsson. Därefter årsmöte! SMC bjuder på fika. Plats meddelas på hemsida och Facebook.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Jönköping.",
+      "descriptionFull": "SMC Jönköpings Årsmöte 2026 arrangeras av SMC.\n\nSMC Jönköpings årsmöte kl 13. Mötet inleds med ett föredrag av Björn Gunnarsson. Därefter årsmöte! SMC bjuder på fika. Plats meddelas på hemsida och Facebook.",
       "links": [
         {
           "label": "svmc.se",
@@ -1500,13 +1500,13 @@ const EVENTS_DATA = {
       "date": "2026-03-24",
       "dateEnd": "2026-03-24",
       "location": "Online / Digitalt",
-      "type": "Körning",
-      "organizer": "BMW MC-klubben",
-      "description": "Körning med D11 från Online / Digitalt. Samling enligt schema. Följ bmwklubben.se för information.",
+      "type": "Träff",
+      "organizer": "BMW MC-klubben D11",
+      "description": "Digitalt möte via Teams för turledare. Genomgång av nya funktioner på hemsidan som underlättar för turledare.",
       "link": "https://www.bmwklubben.se/aktiviteter/uppdatering-for-turledare-i-d11/",
       "region": "Kronoberg",
       "source": "bmwklubben.se",
-      "descriptionFull": "Uppdatering för turledare i D11 arrangeras av BMW MC-klubben.\n\nKörning med D11 från Online / Digitalt. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Online / Digitalt.",
+      "descriptionFull": "Uppdatering för turledare i D11 arrangeras av BMW MC-klubben.\n\nDigitalt möte via Teams kl 19:00-20:30 för turledare i D11. Vi går bland annat igenom nya funktioner på hemsidan som underlättar för turledare.\n\nMedlemskap krävs för att delta. Anmälan öppen till 24 mars.",
       "links": [
         {
           "label": "bmwklubben.se",
@@ -1577,11 +1577,11 @@ const EVENTS_DATA = {
       "location": "Sjudarevägen 42b, Visby",
       "type": "Träff",
       "organizer": "BMW MC-klubben",
-      "description": "Möte för D12. Planering av säsongens turer och klubbaktiviteter. Viktigt att närvara för medlemmar.",
+      "description": "Planeringsmöte inför säsongen 2026 hemma hos Gudrun i Visby. Ta med turidéer! Mat ingår, anmälan krävs.",
       "link": "https://www.bmwklubben.se/aktiviteter/d12-planeringsmote-2026/",
       "region": "Gotland",
       "source": "bmwklubben.se",
-      "descriptionFull": "D12 Planeringsmöte 2026 arrangeras av BMW MC-klubben.\n\nMöte för D12. Planering av säsongens turer och klubbaktiviteter. Viktigt att närvara för medlemmar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sjudarevägen 42b, Visby.",
+      "descriptionFull": "Välkommen till planeringsmöte inför säsongen 2026!\n\nVi träffas hemma hos Gudrun Wallin på Sjudarevägen 42B i Visby. Har du någon idé på tur eller verksamhet, ta med den. Vill man inte själv leda en tur så hjälps vi åt.\n\nVi kommer att ha lite mat på mötet, så anmälan krävs. Ange eventuella allergier vid anmälan!\n\nKontakt: Gudrun Wallin, 0701-70 03 34, gudrun.wallin@bmwklubben.se",
       "links": [
         {
           "label": "bmwklubben.se",
@@ -1653,12 +1653,12 @@ const EVENTS_DATA = {
       "dateEnd": "2026-03-26",
       "location": "Götaplatsen, Göteborg",
       "type": "Träff",
-      "organizer": "BMW MC-klubben",
-      "description": "Arrangemang med BMW MC-klubben D10 från Götaplatsen, 412 56 Göteborg, Sverige. Mer info på bmwklubben.se.",
+      "organizer": "BMW MC-klubben D10",
+      "description": "Teaterbesök: Göteborgskravallerna på Stadsteatern. 265 kr/person. Anmälan och betalning till lisa.leven@telia.com.",
       "link": "https://www.bmwklubben.se/aktiviteter/d10-teater-goteborgskravallerna/",
       "region": "Västra Götaland",
       "source": "bmwklubben.se",
-      "descriptionFull": "D10 Teater - Göteborgskravallerna arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Götaplatsen, 412 56 Göteborg, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Götaplatsen, Göteborg.",
+      "descriptionFull": "D10 Teater: Göteborgskravallerna på Göteborgs Stadsteater.\n\nPå allmän begäran kommer här en extra föreställning under våren 2026! Det blir genrepet på Göteborgskravallerna, som om en annan värld var möjlig. Timo Räisinen har gjort musiken och medverkar på scen!\n\n265 kr/person. Anmälan och betalning senast 22/2 till lisa.leven@telia.com.",
       "links": [
         {
           "label": "bmwklubben.se",
@@ -1752,13 +1752,13 @@ const EVENTS_DATA = {
       "date": "2026-03-27",
       "dateEnd": "2026-03-28",
       "location": "Sulas MC, Säva 17, Uppsala",
-      "type": "Fest",
+      "type": "Show",
       "organizer": "Sulas MC",
       "description": "Stor klädesrea hos Sulas MC. 15-50% rabatt på all personlig utrustning. Fre 9-18, Lör 10-14.",
       "link": "https://sulas.se/",
       "region": "Uppsala",
       "source": "sulas.se",
-      "descriptionFull": "Sulas MC Klädesrea arrangeras av Sulas MC.\n\nStor klädesrea hos Sulas MC. 15-50% rabatt på all personlig utrustning. Fre 9-18, Lör 10-14.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
+      "descriptionFull": "Sulas MC Klädesrea arrangeras av Sulas MC.\n\nStor klädesrea med 15-50% rabatt på all personlig utrustning. Öppettider: fredag 9-18, lördag 10-14.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
       "links": [
         {
           "label": "sulas.se",
@@ -1801,14 +1801,14 @@ const EVENTS_DATA = {
       "name": "PUB kväll med tura",
       "date": "2026-03-28",
       "dateEnd": "2026-03-28",
-      "location": "Skåne",
-      "type": "Körning",
+      "location": "Helsingborg, färjan Aurora till Helsingör",
+      "type": "Träff",
       "organizer": "H-DCS",
-      "description": "LOB- Ulf PUB kväll med tura Den 28/3 är det dags för en PUB tura Helsingborg/Helsingör. Vi träffas vid terminalen och åker med färjan Aurora kl 17:00.",
+      "description": "Pubkväll med färjetur Helsingborg-Helsingör! Vi träffas vid terminalen och åker med färjan Aurora kl 17:00. Loungen rymmer 30 pers.",
       "link": "https://hdcs.se/evenemang/lob-ulf-pub-kvall-med-tura/",
       "region": "Skåne",
       "source": "hdcs.se",
-      "descriptionFull": "PUB kväll med tura arrangeras av H-DCS.\n\nLOB- Ulf PUB kväll med tura Den 28/3 är det dags för en PUB tura Helsingborg/Helsingör. Vi träffas vid terminalen och åker med färjan Aurora kl 17:00.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skåne.",
+      "descriptionFull": "PUB kväll med tura arrangeras av H-DCS Distrikt B.\n\nVi träffas vid terminalen i Helsingborg och åker med färjan Aurora kl 17:00. Vi håller till i loungen som rymmer 30 personer, först till kvarn!\n\nPaketpris: Räkmacka med dryck 129 kr, eller 3 små smörrebröd med dryck 119 kr. Man kan också äta i restaurangen och sedan komma till loungen.\n\nFöranmälan krävs. Kontakta LO Uffe Olsson, SMS 0705-304458 eller ulf57olsson@outlook.com.",
       "links": [
         {
           "label": "hdcs.se",
@@ -1816,7 +1816,7 @@ const EVENTS_DATA = {
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne",
+          "url": "https://www.google.com/maps/search/?api=1&query=Helsingborg+f%C3%A4rjeterminal",
           "type": "map"
         }
       ]
@@ -1852,13 +1852,13 @@ const EVENTS_DATA = {
       "date": "2026-03-28",
       "dateEnd": "2026-03-28",
       "location": "R40, Dalsjöfors Pendelparkering, Borås",
-      "type": "Träff",
-      "organizer": "BMW MC-klubben",
-      "description": "Arrangemang med BMW MC-klubben D10 från Borås, Västra Götalands län, Sverige. Mer info på bmwklubben.se.",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben D10",
+      "description": "Säsongsstart! MC-tur på slingriga vägar nordöst om Borås, ca 250 km. Samling senast 09:48, avfärd 10:02. Begränsat antal platser.",
       "link": "https://www.bmwklubben.se/aktiviteter/d10-hojslappet-2026/",
       "region": "Västra Götaland",
       "source": "bmwklubben.se",
-      "descriptionFull": "D10 Hojsläppet 2026 arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D10 från Borås, Västra Götalands län, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: R40, Dalsjöfors Pendelparkering, Borås.",
+      "descriptionFull": "D10 Hojsläppet 2026 arrangeras av BMW MC-klubben D10.\n\nÄntligen dags för säsongstart! Vi kör en tur på mindre slingriga vägar nordöst ut från Borås. Turen är ca 250 km lång och vi stannar på ett lunchställe där vi köper Dagens.\n\nTa med kaffe, fikabulle, duk och porslinskopp för fikastoppen.\n\nStartplats: R40 Dalsjöfors Pendelparkering, ca 10 km öster Borås.\nSamling senast 09:48, avfärd 10:02.\nAvslut: Viaredsmotet R40, avfart 83 väster Borås.\n\nBegränsat antal deltagare, boka din plats snabbt!",
       "links": [
         {
           "label": "bmwklubben.se",
@@ -1960,9 +1960,9 @@ const EVENTS_DATA = {
       "region": "Västerbotten",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Vasterbottens årsmöte. Forerasning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Arsmote kl 14-16. SMC bjuder på fika. Lunch bestalls på egen bekostnad. Boka via grundkurser.svmc.se.",
+      "description": "SMC Västerbottens årsmöte. Föreläsning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Årsmöte kl 14-16. SMC bjuder på fika.",
       "link": "https://grundkurser.svmc.se",
-      "descriptionFull": "SMC Västerbottens Årsmöte 2026 arrangeras av SMC.\n\nSMC Vasterbottens årsmöte. Forerasning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Arsmote kl 14-16. SMC bjuder på fika. Lunch bestalls på egen bekostnad. Boka via grundkurser.svmc.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västerbotten.",
+      "descriptionFull": "SMC Västerbottens Årsmöte 2026 arrangeras av SMC.\n\nSMC Västerbottens årsmöte. Föreläsning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Årsmöte kl 14-16. SMC bjuder på fika. Lunch beställs på egen bekostnad. Boka via grundkurser.svmc.se.",
       "links": [
         {
           "label": "grundkurser.svmc.se",
