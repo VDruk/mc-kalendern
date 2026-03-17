@@ -257,6 +257,7 @@ const EVENTS_DATA = {
       "organizer": "Mooneyes Sweden",
       "description": "Choppers, bobbers, caféracers och klassiska motorcyklar i den gamla bruksbyggnaden Verket i Avesta. Nordens mest atmosfäriska MC-show.",
       "descriptionFull": "Moon Bike Show i Avesta den 7 mars 2026.\n\nÅrlig MC-show med choppers, bobbers, caféracers och klassiska motorcyklar. Visas i den historiska bruksbyggnaden Verket i Avesta, vilket ger en unik atmosfär.\n\nÖppet kl 10:00-18:00. Entré 180 kr, barn under 12 gratis.\n\nArrangeras av Mooneyes Sweden.\n\nPlats: Verket, Kanalvägen 1, Avesta.",
+      "backImage": "ads/moon-bike-show-avesta-back-2026-03-07.jpg",
       "links": [
         {
           "label": "Facebook",
