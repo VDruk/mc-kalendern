@@ -47,7 +47,7 @@ const EVENTS_DATA = {
       "description": "MC-försäkring från If med fria mil, vägassistans dygnet runt och 10% SMC-rabatt. Månadsbetalning som hjälper mycket.",
       "descriptionFull": "If är ett av Nordens största försäkringsbolag och erbjuder mc-försäkring i tre nivåer: Trafik, Halv och Hel.\n\nFria mil: kör så mycket du vill utan att priset påverkas.\n\nVägassistans dygnet runt: om något akut händer kan du ringa If, även mitt i natten.\n\nLägre självrisk med spårsändare: upp till 6 000 kr lägre självrisk med godkänd spårsändare.\n\nIngen garagkrav: hojen behöver inte stå inlåst i garage för att du ska få ersättning vid stöld.\n\n10% rabatt för SMC-medlemmar.\n\nMånadsbetalning tillgänglig så du slipper betala allt på en gång.\n\nBeräkna ditt pris på if.se/mc-försäkring",
       "backImage": "ads/if-mc-forsakring-back-2026.jpg",
-      "frontImage": "ads/if-mc-forsakring-front-2026.jpg",
+      "frontImage": "ads/if-mc-forsakring-front-2026b.jpg",
       "links": [
         {
           "label": "if.se",
