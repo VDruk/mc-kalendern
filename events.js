@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-  "lastUpdated": "2026-03-17T10:00:00Z",
+  "lastUpdated": "2026-03-17T13:00:00Z",
   "events": [
     {
       "id": "svedea-mc-forsakring-ad-2026",
@@ -12583,6 +12583,37 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "rock-the-night-festival-norrkoping-2026",
+      "name": "Rock The Night Festival",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-11",
+      "location": "Lejongropen, Norrköping",
+      "type": "Fest",
+      "organizer": "Rock The Night Festival",
+      "description": "Sveriges största tribute-festival! AC/DC, Queen, Iron Maiden, Creedence, Eagles och Bryan Adams-tribute. Biljetter 695 kr.",
+      "descriptionFull": "Rock The Night Festival i Norrköping, lördag 11 juli 2026.\n\nSveriges största tribute-festival inom 70- och 80-tals rock!\n\nTributeband: AC/DC (Angus), Queen (Mighty Queen), Iron Maiden (Made in Iron), Creedence (CCR Tribute), Eagles (Golden Eagles) och Bryan Adams (Wrethov's).\n\nFestivalen öppnar kl 15:00 och stänger kl 00:00. Biljetter 695 kr via Tickster. Kontantfritt festivalområde. Mat och dryck från foodtrucks och barer på plats.\n\nBiljetter och info: www.rockthenightfestival.com\n\nPlats: Lejongropen, Norrköping.",
+      "frontImage": "ads/rock-the-night-festival-front-2026.jpg",
+      "backImage": "ads/rock-the-night-festival-back-2026.jpg",
+      "links": [
+        {
+          "label": "Biljetter",
+          "url": "https://www.rockthenightfestival.com/biljetter"
+        },
+        {
+          "label": "rockthenightfestival.com",
+          "url": "https://www.rockthenightfestival.com"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lejongropen+Norrköping",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.rockthenightfestival.com",
+      "region": "Östergötland",
+      "source": "facebook.com"
+    },
+    {
       "id": "mxsm-varberg-2026",
       "name": "MXSM Deltävling 4 - Varberg",
       "date": "2026-07-12",
@@ -12911,6 +12942,36 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "rock-the-night-festival-malmo-2026",
+      "name": "Rock The Night Festival",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "location": "Mölleplatsen, Malmö",
+      "type": "Fest",
+      "organizer": "Rock The Night Festival",
+      "description": "Sveriges största tribute-festival! AC/DC, Queen, Iron Maiden, Creedence, Eagles och Bryan Adams-tribute. Biljetter 695 kr.",
+      "descriptionFull": "Rock The Night Festival i Malmö, lördag 18 juli 2026.\n\nSveriges största tribute-festival inom 70- och 80-tals rock!\n\nTributeband: AC/DC (Angus), Queen (Mighty Queen), Iron Maiden (Made in Iron), Creedence (CCR Tribute), Eagles (Golden Eagles) och Bryan Adams (Wrethov's).\n\nFestivalen öppnar kl 15:00 och stänger kl 00:00. Biljetter 695 kr via Tickster. Kontantfritt festivalområde. Mat och dryck från foodtrucks och barer på plats.\n\nBiljetter och info: www.rockthenightfestival.com\n\nPlats: Mölleplatsen, Malmö.",
+      "backImage": "ads/rock-the-night-festival-back-2026.jpg",
+      "links": [
+        {
+          "label": "Biljetter",
+          "url": "https://www.rockthenightfestival.com/biljetter"
+        },
+        {
+          "label": "rockthenightfestival.com",
+          "url": "https://www.rockthenightfestival.com"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mölleplatsen+Malmö",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.rockthenightfestival.com",
+      "region": "Skåne",
+      "source": "facebook.com"
     },
     {
       "id": "doa-emilsturen-2026",
@@ -13313,6 +13374,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "rock-the-night-festival-gavle-2026",
+      "name": "Rock The Night Festival",
+      "date": "2026-07-25",
+      "dateEnd": "2026-07-25",
+      "location": "Boulognerskogen, Gävle",
+      "type": "Fest",
+      "organizer": "Rock The Night Festival",
+      "description": "Sveriges största tribute-festival! AC/DC, Queen, Iron Maiden, Creedence, Eagles och Bryan Adams-tribute. Biljetter 695 kr.",
+      "descriptionFull": "Rock The Night Festival i Gävle, lördag 25 juli 2026.\n\nSveriges största tribute-festival inom 70- och 80-tals rock!\n\nTributeband: AC/DC (Angus), Queen (Mighty Queen), Iron Maiden (Made in Iron), Creedence (CCR Tribute), Eagles (Golden Eagles) och Bryan Adams (Wrethov's).\n\nFestivalen öppnar kl 15:00 och stänger kl 00:00. Biljetter 695 kr via Tickster. Kontantfritt festivalområde. Mat och dryck från foodtrucks och barer på plats.\n\nBiljetter och info: www.rockthenightfestival.com\n\nPlats: Boulognerskogen, Gävle.",
+      "backImage": "ads/rock-the-night-festival-back-2026.jpg",
+      "links": [
+        {
+          "label": "Biljetter",
+          "url": "https://www.rockthenightfestival.com/biljetter"
+        },
+        {
+          "label": "rockthenightfestival.com",
+          "url": "https://www.rockthenightfestival.com"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Boulognerskogen+Gävle",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.rockthenightfestival.com",
+      "region": "Gävleborg",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-tisdagslunch-2026",
       "name": "DOA - Tisdagslunch",
       "date": "2026-07-28",
@@ -13587,6 +13678,36 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/events/2091545891645970/",
       "region": "Halland",
       "source": "FB"
+    },
+    {
+      "id": "rock-the-night-festival-umea-2026",
+      "name": "Rock The Night Festival",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "location": "Öbackaparken, Umeå",
+      "type": "Fest",
+      "organizer": "Rock The Night Festival",
+      "description": "Sveriges största tribute-festival! AC/DC, Queen, Iron Maiden, Creedence, Eagles och Bryan Adams-tribute. Biljetter 695 kr.",
+      "descriptionFull": "Rock The Night Festival i Umeå, lördag 1 augusti 2026.\n\nSveriges största tribute-festival inom 70- och 80-tals rock!\n\nTributeband: AC/DC (Angus), Queen (Mighty Queen), Iron Maiden (Made in Iron), Creedence (CCR Tribute), Eagles (Golden Eagles) och Bryan Adams (Wrethov's).\n\nFestivalen öppnar kl 15:00 och stänger kl 00:00. Biljetter 695 kr via Tickster. Kontantfritt festivalområde. Mat och dryck från foodtrucks och barer på plats.\n\nBiljetter och info: www.rockthenightfestival.com\n\nPlats: Öbackaparken, Umeå.",
+      "backImage": "ads/rock-the-night-festival-back-2026.jpg",
+      "links": [
+        {
+          "label": "Biljetter",
+          "url": "https://www.rockthenightfestival.com/biljetter"
+        },
+        {
+          "label": "rockthenightfestival.com",
+          "url": "https://www.rockthenightfestival.com"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Öbackaparken+Umeå",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.rockthenightfestival.com",
+      "region": "Västerbotten",
+      "source": "facebook.com"
     },
     {
       "id": "nordic-wilderness-tour-2026",
@@ -14295,6 +14416,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "rock-the-night-festival-sundsvall-2026",
+      "name": "Rock The Night Festival",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "location": "Ungdomsfältet, Sundsvall",
+      "type": "Fest",
+      "organizer": "Rock The Night Festival",
+      "description": "Sveriges största tribute-festival! AC/DC, Queen, Iron Maiden, Creedence, Eagles och Bryan Adams-tribute. Biljetter 695 kr.",
+      "descriptionFull": "Rock The Night Festival i Sundsvall, lördag 8 augusti 2026.\n\nSveriges största tribute-festival inom 70- och 80-tals rock!\n\nTributeband: AC/DC (Angus), Queen (Mighty Queen), Iron Maiden (Made in Iron), Creedence (CCR Tribute), Eagles (Golden Eagles) och Bryan Adams (Wrethov's).\n\nFestivalen öppnar kl 15:00 och stänger kl 00:00. Biljetter 695 kr via Tickster. Kontantfritt festivalområde. Mat och dryck från foodtrucks och barer på plats.\n\nBiljetter och info: www.rockthenightfestival.com\n\nPlats: Ungdomsfältet, Sundsvall.",
+      "backImage": "ads/rock-the-night-festival-back-2026.jpg",
+      "links": [
+        {
+          "label": "Biljetter",
+          "url": "https://www.rockthenightfestival.com/biljetter"
+        },
+        {
+          "label": "rockthenightfestival.com",
+          "url": "https://www.rockthenightfestival.com"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ungdomsfältet+Sundsvall",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.rockthenightfestival.com",
+      "region": "Västernorrland",
+      "source": "facebook.com"
+    },
+    {
       "id": "viking-tour-2026",
       "name": "Viking Tour 2026",
       "date": "2026-08-09",
@@ -14996,6 +15147,36 @@ const EVENTS_DATA = {
       "link": "https://nmh.se/skellefteasektionen/evenemang-skelleftea/",
       "region": "Västerbotten",
       "source": "nmh.se"
+    },
+    {
+      "id": "rock-the-night-festival-vanersborg-2026",
+      "name": "Rock The Night Festival",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "location": "Sanden, Vänersborg",
+      "type": "Fest",
+      "organizer": "Rock The Night Festival",
+      "description": "Sveriges största tribute-festival! AC/DC, Queen, Iron Maiden, Creedence, Eagles och Bryan Adams-tribute. Biljetter 695 kr.",
+      "descriptionFull": "Rock The Night Festival i Vänersborg, lördag 15 augusti 2026.\n\nSveriges största tribute-festival inom 70- och 80-tals rock!\n\nTributeband: AC/DC (Angus), Queen (Mighty Queen), Iron Maiden (Made in Iron), Creedence (CCR Tribute), Eagles (Golden Eagles) och Bryan Adams (Wrethov's).\n\nFestivalen öppnar kl 15:00 och stänger kl 00:00. Biljetter 695 kr via Tickster. Kontantfritt festivalområde. Mat och dryck från foodtrucks och barer på plats.\n\nBiljetter och info: www.rockthenightfestival.com\n\nPlats: Sanden, Vänersborg.",
+      "backImage": "ads/rock-the-night-festival-back-2026.jpg",
+      "links": [
+        {
+          "label": "Biljetter",
+          "url": "https://www.rockthenightfestival.com/biljetter"
+        },
+        {
+          "label": "rockthenightfestival.com",
+          "url": "https://www.rockthenightfestival.com"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sanden+Vänersborg",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.rockthenightfestival.com",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
     },
     {
       "id": "malaren-runt-2026",
