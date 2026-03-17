@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-  "lastUpdated": "2026-03-17T13:00:00Z",
+  "lastUpdated": "2026-03-17T21:00:00Z",
   "events": [
     {
       "id": "svedea-mc-forsakring-ad-2026",
@@ -1067,6 +1067,32 @@ const EVENTS_DATA = {
       ],
       "link": "https://www.facebook.com/events/1475270160779643/",
       "region": "Östergötland",
+      "source": "facebook.com"
+    },
+    {
+      "id": "hanssons-mc-massa-stromstad-2026",
+      "name": "MC mässa - Hanssons MC",
+      "date": "2026-03-20",
+      "dateEnd": "2026-03-21",
+      "location": "Strömstad Shoppingcenter, Oslovägen 50",
+      "type": "Show",
+      "organizer": "Hanssons MC",
+      "description": "MC-mässa på Strömstad Shoppingcenter. Motorcyklar, leverantörer, erbjudanden och aktiviteter. Fredag 13-17, lördag 10-17.",
+      "descriptionFull": "MC-mässa hos Hanssons MC!\n\nNu är det dags att börja blicka fram mot en ny MC-säsong! Den 20-21 mars arrangerar Hanssons MC en inspirerande MC-mässa hos oss på Strömstad Shoppingcenter.\n\nUnder två dagar fylls plan 2 med motorcyklar, representanter från MC leverantörer, erbjudanden och aktiviteter för alla som är intresserade av MC.\n\nUtställning av motorcyklar. Fredag 20/3 kl. 13.00 öppnar utställningen och den pågår fram till lördag 21/3 kl. 17.00.\n\nPlats: Oslovägen 50, 452 35 Strömstad.",
+      "backImage": "ads/hanssons-mc-massa-back-2026-03-20.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/790277513538577/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Oslovägen+50+Strömstad",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/790277513538577/",
+      "region": "Västra Götaland",
       "source": "facebook.com"
     },
     {
@@ -2679,6 +2705,32 @@ const EVENTS_DATA = {
       "source": "facebook.com",
       "descriptionFull": "Vi firar Indian Motorcycle 125 år med en dag med extra fokus på deras motorcyklar! Kom och kolla in hojarna vi har i butiken och passa på att provköra. Vi kommer även ha erbjudanden på våra Indian kläder vi har i butiken! Välkommen!",
       "backImage": "ads/indian-motorcycle-125-ar-vastra-2026-back-2026-04-11.jpg"
+    },
+    {
+      "id": "mc-avrostning-oxie-2026",
+      "name": "MC-avrostning 2026",
+      "date": "2026-04-11",
+      "dateEnd": "2026-04-11",
+      "location": "Lockarps gokartbana, Oxie",
+      "type": "Körning",
+      "organizer": "Mårtenssons Trafikskola",
+      "description": "Våren är på ingång! Damma av körkunskaperna på Lockarps gokartbana. Prova på MC kostnadsfritt. Alla välkomna, nybörjare och erfarna.",
+      "descriptionFull": "Våren är på ingång och det betyder att det är dags att damma av körkunskaperna. Mårtenssons Trafikskola bjuder in till vår årliga MC-avrostning på Lockarps gokartbana, där du får chansen att prova på MC kostnadsfritt!\n\nTid: Lördag 11 april kl. 09:00 - 11:00\nPlats: Larsbovägen, SE-238 41 Oxie.",
+      "backImage": "ads/mc-avrostning-oxie-back-2026-04-11.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1224652663198413/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lockarps+gokartbana+Oxie",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1224652663198413/",
+      "region": "Skåne",
+      "source": "facebook.com"
     },
     {
       "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
@@ -12181,6 +12233,32 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/ironhorsemcshow/",
       "region": "Södermanland",
       "source": "glinder.se"
+    },
+    {
+      "id": "asecs-mc-traff-jonkoping-2026",
+      "name": "ASECS MC Träff No.1",
+      "date": "2026-07-04",
+      "dateEnd": "2026-07-04",
+      "location": "Jönköping a6",
+      "type": "Träff",
+      "organizer": "Hojjar Swe",
+      "description": "MC-träff i Jönköping. En lugn och ordnad träff för alla MC-intresserade. Datum kan komma att ändras beroende på väder.",
+      "descriptionFull": "ASECS MC TRÄFF NO.1\n\nHur många hade varit intresserade av en lugn ordnad MC-träff? Tror det är en del.\n\nOm vädret inte är med oss så flyttar vi på träffen bara. Håll utkik angående datum då det kan komma att ändras.\n\nPlats: Jönköping a6.",
+      "backImage": "ads/asecs-mc-traff-back-2026-07-04.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1216585190025288/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Jönköping+a6",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1216585190025288/",
+      "region": "Jönköping",
+      "source": "facebook.com"
     },
     {
       "id": "do-c-lars-eriks-glassrunda-2026",
