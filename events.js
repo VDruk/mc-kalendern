@@ -1358,7 +1358,7 @@ const EVENTS_DATA = {
       "type": "Show",
       "organizer": "Triumph Motorcycles",
       "description": "Nya Bonneville 2026! Uppdaterade Scrambler 900, Bobber och Speedmaster med bättre chassi, fjädring och ny design. Besök lanseringen hos 4 handlare runt om i Sverige.",
-      "descriptionFull": "Triumph Bonneville 2026 Unleashed!\n\nTriumph presenterar stora uppdateringar i Bonneville-familjen för 2026. Scrambler 900 får nytt chassi, Showa-fjädring och kurvkänslig ABS. Bobber och Speedmaster får större 14-liters tank och bredare säte.\n\nUppdateringar även för T100, T120, T120 Black och Scrambler 1200 XE.\n\nLanseringsevent lördag 21 mars:\n\n1. Triumph Stockholm Norr, Upplands Väsby\n2. Mc-konsult, Lidköping (kl 10-13)\n3. Lingvalls Motor, Gävle (kl 10-13)\n4. Johans MC, Göteborg (kl 10-14)",
+      "descriptionFull": "Stora uppdateringar i Bonneville-familjen för 2026. Scrambler 900 får nytt chassi, Showa-fjädring och kurvkänslig ABS. Bobber och Speedmaster får större 14-liters tank och bredare säte.\n\nUppdateringar även för T100, T120, T120 Black och Scrambler 1200 XE.\n\nLanseringsevent lördag 21 mars:\n\n1. Triumph Stockholm Norr, Upplands Väsby\n2. Mc-konsult, Lidköping (kl 10-13)\n3. Lingvalls Motor, Gävle (kl 10-13)\n4. Johans MC, Göteborg (kl 10-14)",
       "frontImage": "ads/triumph-bonneville-2026-front.jpg",
       "backImage": "ads/triumph-bonneville-2026-back.jpg",
       "links": [
