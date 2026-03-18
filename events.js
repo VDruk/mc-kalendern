@@ -19155,7 +19155,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "gotland-grand-national-2026",
-      "name": "Gotland Grand National 2026",
+      "name": "GGN - Gotland Grand National 2026",
       "date": "2026-10-23",
       "dateEnd": "2026-10-24",
       "location": "Hejdeby, Gotland",
