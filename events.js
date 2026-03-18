@@ -8804,6 +8804,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "mce-tvadagars-gagnef-grus-2026",
+      "name": "Tvådagars till Gagnef (grus)",
+      "date": "2026-05-30",
+      "dateEnd": "2026-05-31",
+      "location": "MCE, Snutenvägen 11, Järfälla",
+      "type": "Körning",
+      "organizer": "MCE - motorcykelentusiasterna",
+      "description": "Tvådagars gruskörning Stockholm till Gagnef i Dalarna. Ca 50% grus, grusvägar (inte skog/stigar). Övernattning i Gagnef. Alla hojar välkomna.",
+      "descriptionFull": "Tvådagars gruskörning med MCE!\n\n30-31 maj. Avfärd från Stockholm (Järfälla) till Gagnef med övernattning. Heldagstur på lördagen och hem på söndagen.\n\nCa 50% grus. Det blir grusvägar, inte skog eller stigar. Alla hojar välkomna.\n\nMejla intresse till MCE. Ingen bindande anmälan i detta skede.\n\nAvfärd: MCE, Snutenvägen 11, 177 61 Järfälla.",
+      "backImage": "ads/mce-tvadagars-gagnef-back-2026-05-30.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1248254590518182"
+        },
+        {
+          "label": "MCE",
+          "url": "https://www.facebook.com/Motorcykelentusiasterna"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snutenvägen+11+Järfälla",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1248254590518182",
+      "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
       "id": "filip-backlund-trackdays-mantorp-2026",
       "name": "Filip Backlund Trackdays Mantorp Park",
       "date": "2026-05-31",
