@@ -8497,6 +8497,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "baprun-gotland-2026",
+      "name": "BAPRUN 2026",
+      "date": "2026-05-30",
+      "dateEnd": "2026-05-30",
+      "location": "Dizappointed MC, Tingstäde, Gotland",
+      "type": "Körning",
+      "organizer": "Hangaround Chapter BDMC Gotland",
+      "description": "MC-körning på Gotland. Samling kl 12:00, start kl 13:00. Startavgift 100kr. Körtur med fika-stopp, sedan tillbaka till klubben för burgare och fest med livemusik.",
+      "descriptionFull": "Då var det dags för BAPRUN2026!\n\nStarten går kl 13:00. Så var i god tid för betalning kaffe o mingel.\n\n100kr i paketet. Går oavsett till Baprun.se.\n\nVi kör en tur, stannar vid ett bestämt ställe för att ta ett fint kort, sedan en tur tillbaka till klubben där man kan köpa våran fina Torsdagsburgare med dryck (70kr).\n\nVi har även fest på kvällen med Livemusik (Öppnar 19:00).\n\nPlats: Dizappointed MC Myrvälde 624 44 Tingstäde, Tingstäde socken.",
+      "backImage": "ads/baprun-gotland-back-2026-05-30.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1619591172318248/"
+        },
+        {
+          "label": "Baprun.se",
+          "url": "https://baprun.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tingstäde+Gotland",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1619591172318248/",
+      "region": "Gotland",
+      "source": "facebook.com"
+    },
+    {
       "id": "filip-backlund-trackdays-mantorp-2026",
       "name": "Filip Backlund Trackdays Mantorp Park",
       "date": "2026-05-31",
