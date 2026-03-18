@@ -19154,6 +19154,41 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "gotland-grand-national-2026",
+      "name": "Gotland Grand National 2026",
+      "date": "2026-10-23",
+      "dateEnd": "2026-10-24",
+      "location": "Hejdeby, Gotland",
+      "type": "Racing",
+      "organizer": "Nordic Sport & Event",
+      "description": "Världens största endurotävling! Över 3000 förare i klasser som Guldhjälm, Elit, Motion, Veteran, Adventure, Dam och El. Fredag och lördag på Gotland.",
+      "descriptionFull": "Världens största endurotävling samlar över 3000 förare på Gotland!\n\nFredag 23/10: Guldhjälm, Ungdom, Veteran, Motion 50-59, Dam, Militär, Adventure och 60+.\nLördag 24/10: Motion 15-29, 30-39, 40-49, Elit, Elit dam, Bredd, Junior och El.\n\nPriser: Guldhjälm 695 kr, Ungdomar 795 kr, Veteran/El 895 kr, Motion/Bredd/Elit 1995 kr. Efteranmälningsavgift +500 kr från 1 september.\n\nAnmälan via Svemo TA.\n\nPlats: Hejdeby, Gotland.",
+      "frontImage": "ads/ggn-2026-front.jpg",
+      "backImage": "ads/ggn-2026-back.jpg",
+      "links": [
+        {
+          "label": "GGN",
+          "url": "https://gotlandgrandnational.se/"
+        },
+        {
+          "label": "Anmälan",
+          "url": "https://gotlandgrandnational.se/anmal-dig-har/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gotlandgrandnational"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hejdeby+Gotland",
+          "type": "map"
+        }
+      ],
+      "link": "https://gotlandgrandnational.se/",
+      "region": "Gotland",
+      "source": "gotlandgrandnational.se"
+    },
+    {
       "id": "medlemsmote-2026",
       "name": "Medlemsmöte",
       "date": "2026-10-24",
