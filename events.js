@@ -1225,22 +1225,27 @@ const EVENTS_DATA = {
       "name": "SMC Stockholms Årsmöte 2026",
       "date": "2026-03-21",
       "dateEnd": "2026-03-21",
-      "location": "Stockholm",
+      "location": "7A Odenplan, Norrtullsgatan 6, Stockholm",
       "type": "Träff",
       "organizer": "SMC Stockholm",
-      "description": "Årsmöte för SMC i Stockholm. Viktigt möte om kommande säsong. Alla medlemmar uppmanas att närvara!",
+      "description": "Årsmöte lördag 21 mars. Kl 13 kaffe och mingel, kl 14 årsmöte, kl 15 fika och gästföreläsning om MC i Marocko.",
       "link": "https://www.svmc.se/stockholm/nyheter/aarsmoete-2026/",
       "region": "Stockholm",
       "source": "svmc.se",
-      "descriptionFull": "SMC Stockholms Årsmöte 2026 arrangeras av SMC Stockholm.\n\nÅrsmöte för SMC i Stockholm. Viktigt möte om kommande säsong. Alla medlemmar uppmanas att närvara!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stockholm.",
+      "backImage": "ads/smc-stockholm-arsmote-back-2026-03-21.jpg",
+      "descriptionFull": "Dags för årsmöte med SMC Stockholm!\n\nDu som medlem är varmt välkommen att delta som att rösta på årsmötet. Styrelse ska väljas och motioner beslutas.\n\nTurtider:\nKl 13.00 - Kaffe och mingel\nKl 14.00 - Årsmöte med SMC Stockholm. Agenda med bilagor skickas ut 2 veckor innan. Genomgång av kommande aktiviteter, utbildningar, hojturer och klubbkonferenser.\nKl 15.00 - Fika serveras och Jeanette Smårs berättar om MC i Marocko, samt tipsar om att packa smart och filma smart på MC-resan.\nKl 16.00 - Avslutning\n\nAnmälan gör du på ditt SMC-konto på www.svmc.se\n\nPlats: 7A Odenplan, Norrtullsgatan 6, Stockholm\nFör info eller frågor: info@smcstockholm.se",
       "links": [
         {
           "label": "svmc.se",
           "url": "https://www.svmc.se/stockholm/nyheter/aarsmoete-2026/"
         },
         {
+          "label": "Anmälan (SSO)",
+          "url": "https://sso.svmc.se/"
+        },
+        {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Stockholm",
+          "url": "https://www.google.com/maps/search/?api=1&query=7A+Odenplan+Norrtullsgatan+6+Stockholm",
           "type": "map"
         }
       ]
