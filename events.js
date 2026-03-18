@@ -1432,6 +1432,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "johans-mc-bonneville-lansering-2026",
+      "name": "Lanseringsdag Nya Bonneville 2026",
+      "date": "2026-03-21",
+      "dateEnd": "2026-03-21",
+      "location": "Johans MC, Tagenevägen 28, Göteborg",
+      "type": "Show",
+      "organizer": "Johans MC",
+      "description": "Kom och se och provkör de nya modellerna inom Triumph Bonneville. Lördag 21 mars kl 10-14 hos Johans MC i Göteborg.",
+      "descriptionFull": "Välkommen till oss nu på lördag den 21 mars för att se och provköra de nya modellerna inom Bonneville.\n\nVi ser fram emot att träffa er och berätta mer om modellerna.\n\nLördag 21 mars kl. 10-14.\nPlats: Johans MC, Tagenevägen 28, 425 37 Göteborg.",
+      "backImage": "ads/johans-mc-bonneville-back-2026-03-21.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/JohansMc"
+        },
+        {
+          "label": "Johans MC",
+          "url": "https://www.johansmc.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tagenevägen+28+Göteborg",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/JohansMc",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "smc-gotland-årsmöte-2026",
       "name": "SMC Gotlands Årsmöte 2026",
       "date": "2026-03-22",
