@@ -899,11 +899,16 @@ const EVENTS_DATA = {
       "type": "Träff",
       "organizer": "H-DCS",
       "description": "Harley-Davidson Night på Babel i Malmö! Hojar på plats, bar, grym stämning. Säsongsstart med hela communityt. Fri entré, alla välkomna.",
+      "backImage": "ads/hd-night-babel-malmo-back-2026-03-20.jpg",
       "link": "https://hdcs.se/evenemang/dob-harley-night-probike/",
       "region": "Skåne",
       "source": "hdcs.se",
       "descriptionFull": "Harley-Davidson Night på ikoniska Babel mitt i Malmö. Probike och Gästgivare Möller skapar en unik kväll där både inbitna förare och nyfikna entusiaster är varmt välkomna.\n\nUnder kvällen: Harley-Davidson motorcyklar på plats, bar med öl och dryck, grym stämning.\n\nSäsongsstart med hela communityt. Oavsett om du redan kör eller bara är nyfiken på livsstilen är detta kvällen för dig.\n\nFri entré. Alla är välkomna!",
       "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1191410739317008"
+        },
         {
           "label": "hdcs.se",
           "url": "https://hdcs.se/evenemang/dob-harley-night-probike/"
