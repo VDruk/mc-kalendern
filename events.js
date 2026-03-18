@@ -2260,6 +2260,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "hot-rat-pask-party-2026",
+      "name": "Hot Rat Påsk Party 2026",
+      "date": "2026-04-03",
+      "dateEnd": "2026-04-03",
+      "location": "Brogårdsgatan 18, Vetlanda",
+      "type": "Fest",
+      "organizer": "Hot Rat MC Småland",
+      "description": "Årligt påskparty och 30-årsjubileum! Live på scen: Kings of Rock (Danmark) och Yellow Blend. Påsktallrik serveras 18-20. Ring för nattlogi: Centralhotellet 0383-100 07.",
+      "descriptionFull": "Då va dä dax för det årliga påskpartyt där vi samtidigt firar 30 år!\n\nPå scen lirar Kings of Rock samt Yellow Blend. Påsktallrik serveras mellan 18-20.\n\nRing för nattlogi: Centralhotellet Vetlanda 0383-100 07, uppge gäst Hotrat MC.\n\nFör info ring 070-5250461.\n\nVÄLKOMNA!!\n\nPlats: Hot Rat MC, Brogårdsgatan 18, 574 38 Vetlanda.",
+      "backImage": "ads/hot-rat-pask-party-back-2026-04-03.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/896693243342121/"
+        },
+        {
+          "label": "Hot Rat MC",
+          "url": "https://www.facebook.com/Hotratmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Brogårdsgatan+18+Vetlanda",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/896693243342121/",
+      "region": "Jönköping",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-lordagsfika-pa-biltema-2026",
       "name": "DOA - Lördagsfika på Biltema",
       "date": "2026-04-04",
