@@ -2825,6 +2825,32 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "fmct-grusdag-uddevalla-2026",
+      "name": "Grusdag med Färg & MC Center",
+      "date": "2026-04-11",
+      "dateEnd": "2026-04-11",
+      "location": "Färg & MC Center, Uddevalla",
+      "type": "Körning",
+      "organizer": "Färg & MC Center",
+      "description": "Gruskörning med provkörning av Voge, Royal Enfield och Suzuki. 2 fartgrupper, alla nivåer välkomna. Kaffe och mackor ingår. Kostnadsfritt! Start kl 10.",
+      "descriptionFull": "Grusdag med Färg & MC Center!\n\nProvkör hojar från Voge, Royal Enfield och Suzuki. Alla som har en enduro, adventure eller liknande kan åka med.\n\nLördag 11/4, start från Färg & MC Center i Uddevalla kl 10. Kaffe och mackor till deltagarna. 2 olika fartgrupper, erfarenhet spelar ingen roll!\n\nAnmälan via mail till magnus@fmct.se. Kostnadsfritt och alla hojmärken välkomna! Vi kör oavsett väder.",
+      "backImage": "ads/fmct-grusdag-uddevalla-back-2026-04-11.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100046240842567"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Färg+MC+Center+Uddevalla",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/profile.php?id=100046240842567",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
       "name": "D15 Söndagsvandring Gyllebosjön Runt",
       "date": "2026-04-12",
@@ -7505,6 +7531,36 @@ const EVENTS_DATA = {
       ],
       "link": "https://www.facebook.com/events/4308758132742157",
       "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
+      "id": "fmct-bandag-kinnekulle-2026",
+      "name": "Bandag MC - Kinnekulle Ring",
+      "date": "2026-05-22",
+      "dateEnd": "2026-05-22",
+      "location": "Kinnekulle Ring, Götene",
+      "type": "Körning",
+      "organizer": "Färg & MC Center",
+      "description": "Heldag på bana! Trafikövningsdag för alla nivåer med coaching, provkörning av Voge, Suzuki och Royal Enfield, och liten MC-mässa i depån. 4 grupper efter körnivå.",
+      "descriptionFull": "Heldag på bana på Kinnekulle Ring med Färg & MC Center!\n\nTrafikövningsdag där du, oavsett grön eller erfaren motorcyklist, får möjlighet att utvecklas i en trygg miljö i din egen takt.\n\n4 grupper efter körnivå (grupp 1-3 gatmotorcyklar, grupp 4 racegrupp med licens).\n\nPå plats: provkörning av demo-motorcyklar från Voge, Suzuki och Royal Enfield. Leverantörer i depån. Coaching i grupp. Fika och lunch.\n\nSjukvårdare på plats hela dagen.\n\nTid: 09.00-16.30\nBoka plats: www.fargmc.se\nFrågor: 076-466 04 70\n\nOBS! Dagen innan (21 maj) kör vi en heldag bara för MC-tjejer.",
+      "backImage": "ads/fmct-bandag-kinnekulle-back-2026-05-22.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/3498607426955325"
+        },
+        {
+          "label": "Boka plats",
+          "url": "https://www.fargmc.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kinnekulle+Ring+Götene",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/3498607426955325",
+      "region": "Västra Götaland",
       "source": "facebook.com"
     },
     {
