@@ -7428,6 +7428,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "fmct-tjejdag-kinnekulle-2026",
+      "name": "MC-Tjejdag Kinnekulle Ring",
+      "date": "2026-05-21",
+      "dateEnd": "2026-05-21",
+      "location": "Kinnekulle Ring, Götene",
+      "type": "Körning",
+      "organizer": "Färg & MC Center",
+      "description": "Bandag bara för MC-tjejer! Trafikövningsdag med coaching, 4 grupper efter nivå, provkörning av Voge, Suzuki och Royal Enfield. Sjukvårdare på plats. Kl 09-16:30.",
+      "descriptionFull": "Heldag på bana bara för MC-tjejer på Kinnekulle Ring!\n\nMånga kvinnor som kör sin första bandag gör det just på tjejdagar. Trafikövningsdag där du, oavsett grön eller erfaren, får utvecklas i trygg miljö i din egen takt.\n\n4 grupper efter körnivå (grupp 1-3 gatmotorcyklar, grupp 4 racegrupp med licens). Coaching, provkörning av Voge, Suzuki och Royal Enfield. Leverantörer i depån. Fika och lunch.\n\nSjukvårdare på plats hela dagen.\n\nTid: 09.00-16.30\nBoka plats: www.fargmc.se\nFrågor: 076-466 04 70",
+      "backImage": "ads/fmct-tjejdag-kinnekulle-back-2026-05-21.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2212275709509733"
+        },
+        {
+          "label": "Boka plats",
+          "url": "https://www.fargmc.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kinnekulle+Ring+Götene",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/2212275709509733",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-finlandstur-22-24-maj-2026",
       "name": "DOA - Finlandstur 22-24 maj",
       "date": "2026-05-22",
