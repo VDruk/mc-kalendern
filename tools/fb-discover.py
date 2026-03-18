@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MC Kalendern - Facebook Event Discovery Tool
+MC Kalendern - Facebook Event Discovery Tool (v2)
 Uses Apify to search Facebook for MC events in Sweden.
 Deduplicates against existing events.js.
 
@@ -9,11 +9,19 @@ Usage:
   python fb-discover.py --keyword "MC"   # Run single keyword
   python fb-discover.py --dry-run        # Show what would be searched (no API call)
   python fb-discover.py --budget         # Show remaining Apify credits
+  python fb-discover.py --all-results    # Show all results including non-Swedish
 
 Setup:
   1. Create file: tools/.apify-token
   2. Paste your Apify API token in it (one line, no spaces)
   3. Get token from: https://console.apify.com/settings/integrations
+
+v2 changes (2026-03-17):
+  - Removed 5 zero-result keywords, removed "bikerfest" (only non-Swedish results)
+  - Added negative language filter (German, Italian, English patterns)
+  - Added past event detection (skips events before today)
+  - Added cross-result dedup (same event from different FB pages)
+  - Better Swedish detection with location-based checks
 """
 
 import json
@@ -22,6 +30,7 @@ import sys
 import time
 import argparse
 import re
+from datetime import datetime
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
@@ -39,29 +48,171 @@ TOKEN_FILE = SCRIPT_DIR / ".apify-token"
 ACTOR_ID = "iron-crawler~facebook-search-events"
 
 # Search keywords optimized for Swedish MC events
-# Based on analysis of 777 existing events in MC Kalendern
+# Based on analysis of 780 existing events + first run results (2026-03-17)
+# Removed: "MC körning", "MC tur Sverige", "MC racing Sverige", "hoj träff",
+#          "MC-klubb träff" (all returned 0), "bikerfest" (only non-Swedish results)
 SEARCH_KEYWORDS = [
-    # Core MC terms (Swedish)
+    # Core Swedish MC terms (best performers: 9-16 results each)
     "MC träff",
-    "MC körning",
     "MC mässa",
     "motorcykel",
-    "bikerfest",
-    # Seasonal / specific
     "avrostning MC",
     "säsongsstart MC",
-    "MC tur Sverige",
-    # Event types
-    "custom bike show",
-    "MC racing Sverige",
-    "hoj träff",
-    # Club-related (smaller clubs we might miss)
-    "MC-klubb träff",
+    # Targeted Swedish terms
+    "MC evenemang",
+    "motorcykelträff",
+    "MC kväll Sverige",
+    "Harley Night Sverige",
+    # English terms with Sweden filter
+    "custom bike show Sweden",
     "biker meet Sweden",
+    "motorcycle event Sweden",
 ]
 
 # Max pages per keyword (1 page ~ 5-10 results, costs ~$0.02)
 MAX_PAGES_PER_KEYWORD = 2
+
+
+# ============================================================
+# Language detection
+# ============================================================
+
+# Strong Swedish indicators (if any present, likely Swedish)
+SWEDISH_POSITIVE = [
+    "träff", "körning", "tur", "mässa", "fest", "klubb",
+    "hoj", "öppet", "dag", "kväll", "årsmöte", "avrostning",
+    "lördag", "söndag", "fredag", "sverige", "säsong",
+    "stockholm", "göteborg", "malmö", "uppsala", "jönköping",
+    "linköping", "västerås", "örebro", "helsingborg", "norrköping",
+    "umeå", "lund", "sundsvall", "gävle", "borås", "eskilstuna",
+    "halmstad", "karlstad", "växjö", "trollhättan", "norr",
+    "söder", "väster", "öster", "mc-", "moped",
+    "å", "ä", "ö",  # Swedish chars
+]
+
+# Non-Swedish indicators (German, Italian, English-only events)
+NON_SWEDISH_NEGATIVE = [
+    # German
+    "bikerfest mit", "motorradweihe", "zugunsten", "schmetterling",
+    "gemeinsame", "ausfahrt", "beim", "gurken", "spreewald",
+    "leopoldsdorfer", "zu gunsten",
+    # Italian
+    "lignano", "sabbiadoro", "al bikerfest",
+    # English-only (no Swedish connection)
+    "dirty rotten", "block party", "annual",
+    "50cc fever", "area4x4",
+    # Generic non-Swedish location names
+    "york", "texas", "florida", "california",
+]
+
+# Swedish city/region names for location-based detection
+SWEDISH_LOCATIONS = [
+    "stockholm", "göteborg", "malmö", "uppsala", "linköping",
+    "västerås", "örebro", "helsingborg", "norrköping", "jönköping",
+    "umeå", "lund", "sundsvall", "gävle", "borås", "eskilstuna",
+    "halmstad", "karlstad", "växjö", "trollhättan", "luleå",
+    "kalmar", "karlskrona", "falun", "skellefteå", "varberg",
+    "kristianstad", "skövde", "uddevalla", "visby", "östersund",
+    "motala", "nyköping", "strömstad", "svedala", "oxie",
+    "elmia", "sweden", "sverige",
+]
+
+
+def is_likely_swedish(title):
+    """Check if event title looks Swedish/Nordic. Improved v2 with negative filters."""
+    title_lower = title.lower()
+
+    # First check negative patterns (strong signal of non-Swedish)
+    for neg in NON_SWEDISH_NEGATIVE:
+        if neg in title_lower:
+            return False
+
+    # Then check positive patterns
+    for pos in SWEDISH_POSITIVE:
+        if pos in title_lower:
+            return True
+
+    # Check if title contains a known Swedish location
+    for loc in SWEDISH_LOCATIONS:
+        if loc in title_lower:
+            return True
+
+    return False
+
+
+# ============================================================
+# Past event detection
+# ============================================================
+
+# Known past events (event name patterns that are definitely past)
+# Updated each time we identify past events in results
+KNOWN_PAST_PATTERNS = [
+    r"elmia.*januari",
+    r"elmia.*jan\b",
+    r"23.*25.*januari.*2026",  # MC-Mässan på Elmia 23 - 25 januari 2026
+]
+
+
+def is_likely_past_event(title):
+    """Check if event title suggests it already happened."""
+    title_lower = title.lower()
+    for pattern in KNOWN_PAST_PATTERNS:
+        if re.search(pattern, title_lower):
+            return True
+    return False
+
+
+# ============================================================
+# Cross-result deduplication
+# ============================================================
+
+def stem_swedish_mc_word(word):
+    """Simple Swedish stemming for MC event words.
+    Handles: mässan->mässa, träffen->träff, körningen->körning, etc.
+    """
+    stems = {
+        "mässan": "mässa", "mässor": "mässa", "mässorna": "mässa",
+        "träffen": "träff", "träffar": "träff", "träffarna": "träff",
+        "körningen": "körning", "körningar": "körning",
+        "avrostningen": "avrostning",
+        "festen": "fest", "fester": "fest",
+        "showen": "show",
+    }
+    return stems.get(word, word)
+
+
+def normalize_event_name(title):
+    """Normalize event name for cross-result dedup.
+    'MC Mässan Elmia', 'Mc mässan Elmia', 'Mc Mässa Elmia' -> similar tokens.
+    """
+    t = title.lower().strip()
+    # Remove common noise
+    t = re.sub(r'[!?,.\-:;|]', ' ', t)
+    t = re.sub(r'\s+', ' ', t).strip()
+    # Extract meaningful words, apply stemming
+    stop = {"mc", "i", "på", "med", "och", "för", "av", "den", "det",
+            "2026", "2025", "the", "a", "an", "app", "no", "nr"}
+    words = sorted(set(stem_swedish_mc_word(w) for w in t.split() if w not in stop and len(w) > 1))
+    return " ".join(words)
+
+
+def is_cross_duplicate(title, seen_normalized):
+    """Check if this event is a duplicate of another result in the same batch."""
+    norm = normalize_event_name(title)
+
+    # Check word overlap with already-seen events
+    norm_words = set(norm.split())
+    for seen_norm in seen_normalized:
+        seen_words = set(seen_norm.split())
+        if not norm_words or not seen_words:
+            continue
+        overlap = norm_words & seen_words
+        # If 60%+ overlap, it is probably the same event
+        similarity = len(overlap) / min(len(norm_words), len(seen_words))
+        if similarity >= 0.6:
+            return True
+
+    return False
 
 
 # ============================================================
@@ -107,7 +258,7 @@ def api_call(url, token, method="GET", data=None):
 
 
 def load_existing_events():
-    """Load events from events.js and extract Facebook event IDs and URLs."""
+    """Load events from events.js and extract Facebook event IDs and names."""
     if not EVENTS_FILE.exists():
         print(f"WARNING: {EVENTS_FILE} not found")
         return set(), set()
@@ -127,7 +278,6 @@ def load_existing_events():
         for link in event.get("links", []):
             url = link.get("url", "")
             if "facebook.com/events/" in url:
-                # Extract event ID from URL
                 match = re.search(r"facebook\.com/events/(\d+)", url)
                 if match:
                     existing_fb_ids.add(match.group(1))
@@ -167,20 +317,6 @@ def run_search(token, keyword, max_pages=MAX_PAGES_PER_KEYWORD):
     return result
 
 
-def is_likely_swedish(title):
-    """Check if event title looks Swedish/Nordic."""
-    swedish_indicators = [
-        "träff", "körning", "tur", "mässa", "fest", "klubb",
-        "hoj", "öppet", "dag", "kväll", "årsmöte", "avrostning",
-        "lördag", "söndag", "fredag", "sweden", "sverige",
-        "stockholm", "göteborg", "malmö", "uppsala", "norr",
-        "söder", "väster", "öster", "mc-", "moped",
-        "ä", "ö", "å",  # Swedish chars as indicator
-    ]
-    title_lower = title.lower()
-    return any(indicator in title_lower for indicator in swedish_indicators)
-
-
 def name_similarity(name1, name2):
     """Simple word overlap check between two event names."""
     words1 = set(name1.lower().split())
@@ -200,7 +336,7 @@ def name_similarity(name1, name2):
 # ============================================================
 
 def main():
-    parser = argparse.ArgumentParser(description="MC Kalendern - Facebook Event Discovery")
+    parser = argparse.ArgumentParser(description="MC Kalendern - Facebook Event Discovery v2")
     parser.add_argument("--keyword", type=str, help="Run single keyword search")
     parser.add_argument("--keywords", type=str, help="Comma-separated keywords")
     parser.add_argument("--pages", type=int, default=MAX_PAGES_PER_KEYWORD, help="Max pages per keyword")
@@ -234,10 +370,8 @@ def main():
         resp = api_call("https://api.apify.com/v2/users/me", token)
         if resp:
             plan = resp.get("plan", {})
-            usage = resp.get("proxy", {})
             print(f"Account: {resp.get('username', '?')}")
             print(f"Plan: {plan.get('id', '?')}")
-            # Note: exact balance might need different endpoint
             print("Check https://console.apify.com/billing for exact balance")
         return
 
@@ -276,18 +410,20 @@ def main():
     new_events = []
     skipped_existing = 0
     skipped_non_swedish = 0
+    skipped_past = 0
+    skipped_cross_dup = 0
+    seen_normalized = []
 
     for item in all_results:
         eid = item.get("event_id", "")
         title = item.get("title", "").strip()
-        url = item.get("url", "")
 
-        # Skip if we already have this event
+        # Skip if we already have this event (by FB ID)
         if eid in existing_fb_ids:
             skipped_existing += 1
             continue
 
-        # Check fuzzy name match
+        # Check fuzzy name match against events.js
         is_name_match = False
         for existing_name in existing_names:
             if name_similarity(title, existing_name) > 0.6:
@@ -303,12 +439,25 @@ def main():
             skipped_non_swedish += 1
             continue
 
+        # Filter past events
+        if is_likely_past_event(title):
+            skipped_past += 1
+            continue
+
+        # Cross-result dedup (same event from different FB pages)
+        if is_cross_duplicate(title, seen_normalized):
+            skipped_cross_dup += 1
+            continue
+
+        seen_normalized.append(normalize_event_name(title))
         new_events.append(item)
 
     # Report
     print(f"\nResults:")
     print(f"  Skipped (already in events.js): {skipped_existing}")
     print(f"  Skipped (not Swedish): {skipped_non_swedish}")
+    print(f"  Skipped (past events): {skipped_past}")
+    print(f"  Skipped (cross-duplicates): {skipped_cross_dup}")
     print(f"  NEW events to review: {len(new_events)}")
     print()
 
@@ -335,6 +484,8 @@ def main():
         "new_events": len(new_events),
         "skipped_existing": skipped_existing,
         "skipped_non_swedish": skipped_non_swedish,
+        "skipped_past": skipped_past,
+        "skipped_cross_dup": skipped_cross_dup,
         "events": [
             {
                 "event_id": item.get("event_id", ""),
