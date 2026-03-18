@@ -13332,6 +13332,32 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motortraffen-garsnas-musik-2026",
+      "name": "Motorträffen i Gärsnäs - Musikkväll",
+      "date": "2026-07-21",
+      "dateEnd": "2026-07-21",
+      "location": "Stenhedsvägen 3, Gärsnäs",
+      "type": "Träff",
+      "organizer": "Gärsnäs AIS motorträffskommitté",
+      "description": "Motorträff med musikuppträdande av CC and the Young Ones. Bilar, motorcyklar, mopeder, traktorer i härlig miljö. Korv, dricka och kaffe. Kl 18:00.",
+      "descriptionFull": "Motorträffen i Gärsnäs 2026!\n\nBredvid Österlenvulk AB i Gärsnäs samlas vi motorintresserade tillsammans med bilar, motorcyklar, mopeder, traktorer m.m., allt i en härlig och trivsam miljö!\n\nTisdag 21 juli kl 18.00. Denna kväll: musikuppträdande av CC and the Young Ones.\n\nFörsäljning av korv, dricka och kaffe.\n\nTräffarna arrangeras av Gärsnäs AIS motorträffskommitté.\nInfo: Lars-Göran 070-5496999\n\nPlats: Stenhedsvägen 3, 272 61 Gärsnäs.",
+      "backImage": "ads/motortraffen-garsnas-back-2026-07-21.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/111motor"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Stenhedsvägen+3+Gärsnäs",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/111motor",
+      "region": "Skåne",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-sommarkvallstur-skogskyrkogarden-2026",
       "name": "DOA - Sommarkvällstur Skogskyrkogården",
       "date": "2026-07-22",
