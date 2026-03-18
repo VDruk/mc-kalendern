@@ -8970,6 +8970,32 @@ const EVENTS_DATA = {
       "descriptionFull": "Café Rosenhill bjuder in till en provkörningskväll!\n\nGrabbarna bakom Pauls Motor kommer och visar upp Zontes motorcyklar. Kom och ta en fika, kika på fina motorcyklar och provkör om du vill.\n\nZontes är ett spännande märke med prisvärda och moderna modeller.\n\nTid: Onsdag 3 juni kl. 16:00 - 19:00\nPlats: Rosenhill 23, Botkyrka (Grödinge)."
     },
     {
+      "id": "lort-grusbus-halsingland-2026",
+      "name": "L.O.R.T. 2026 - Grusbushelg",
+      "date": "2026-06-04",
+      "dateEnd": "2026-06-07",
+      "location": "Lillbo, Alfta, Hälsingland",
+      "type": "Körning",
+      "organizer": "Långrösten Off-Road Träff",
+      "description": "Gruskörning i Hälsingland! 3 dagars offroad på grusvägar runt Alfta-Bollnäs-Edsbyn-Voxna. 15-25 mil/dag, 90% grus. Max 10 deltagare. Nivå Medel (Blå).",
+      "descriptionFull": "L.O.R.T. (Långrösten Off-Road Träff) 2026, tillfälle 1.\n\nGrusåkning i Hälsingland sommar 2026. Nivå Medel till Halvavancerat (Blå).\n\nVälkommen till lite gruskörning, utgående från byn Lillbo vid Långrösten (1,7 mil norr om Alfta). Rutterna går i närområdet runt Alfta-Bollnäs-Edsbyn-Voxna.\n\nDaglig utgångspunkt från Lillbo. Beräknad körsträcka 15-25 mil per dag, uppskattat mer än 90% på grus.\n\nAlla hojar och förare välkomna, men riktar sig främst till mellantunga hojar och förare som har viss vana av grus. Hojen bör ha grovmönstrade däck.\n\nMax 10 deltagare per tillfälle. Körning i grupp med cornerman-principen.\n\nPlats: Lillbo Alfta, SE-822 99 Alfta.",
+      "backImage": "ads/lort-grusbus-halsingland-back-2026-06-04.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1234424042153185"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lillbo+Alfta+Hälsingland",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1234424042153185",
+      "region": "Gävleborg",
+      "source": "facebook.com"
+    },
+    {
       "id": "american-days-2026",
       "name": "American Days",
       "date": "2026-06-04",
