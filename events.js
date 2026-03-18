@@ -6883,6 +6883,36 @@ const EVENTS_DATA = {
       "backImage": "ads/network-mc-25ar-back-2026-05-16.jpg"
     },
     {
+      "id": "kor-hoj-malin-ahr-kyrkekvarn-2026",
+      "name": "Kör Hoj med Malin Åhr",
+      "date": "2026-05-16",
+      "dateEnd": "2026-05-17",
+      "location": "Kyrkekvarn Naturcamping, Mullsjö",
+      "type": "Körning",
+      "organizer": "Kör Hoj",
+      "description": "Endast för tjejer! 2 dagars MC-helg med körning, coaching, utbildning och lägereld. Gästtalare: Sparks of Joy och Anna 'All about bikes'. Max 30 platser. Tältplats ingår.",
+      "descriptionFull": "Köra hoj med Malin, utbildning, coaching, hänga vid elden och tjejers historier om vägen till där man är idag med sin MC. Frågestunder och berättelser.\n\nArrangör: Malin Åhr & KÖR HOJ\nGästtalare: Verene (Sparks of Joy), Anna (All about bikes), Louise, Marie & Lina.\n\nDatum: 16-17 maj (kan ansluta fredagkväll 15 maj)\nSista anmälningsdag: 10 maj\nAntal platser: 30, endast tjejer.\n\nStartpunkt: Kyrkekvarn Naturcamping.\nBoende: Tältplats ingår. Boka stuga via kyrkekvarn.com.\n\nAlla typer av MC är välkomna, inga däckval behövs.\n\nIngår: berättelser och frågestunder, turledare, planerade rutter, coaching och utbildning, gemensam grillkväll, vedeldad bastu från kl 17:00.",
+      "backImage": "ads/kor-hoj-malin-ahr-back-2026-05-16.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26121180290842559"
+        },
+        {
+          "label": "Kyrkekvarn",
+          "url": "https://kyrkekvarn.com/kontakt/hitta-hit"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kyrkekvarn+Mullsjö",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/26121180290842559",
+      "region": "Jönköping",
+      "source": "facebook.com"
+    },
+    {
       "id": "do-c-tjorn-orust-rundan-2026",
       "name": "DO-C Tjörn/Orust rundan",
       "date": "2026-05-17",
