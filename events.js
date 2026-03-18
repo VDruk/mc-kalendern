@@ -7464,6 +7464,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "ttcs-vartraff-johannesberg-2026",
+      "name": "TTCS Vårträff 2026",
+      "date": "2026-05-22",
+      "dateEnd": "2026-05-24",
+      "location": "Johannesbergs Slott, Gottröra, Rimbo",
+      "type": "Träff",
+      "organizer": "Triumph Tiger Club Scandinavia",
+      "description": "Vårträff på Johannesbergs Slott i Roslagen. Fredag incheckning och middag, lördag gemensam ride-out med fika och middag på slottet. Söndag utcheckning. Boka senast 22/4.",
+      "descriptionFull": "Välkomna till TTCS Tigerträff våren 2026. Vi kommer bo på Johannesbergs slott i Gottröra.\n\nProgram:\nFredag: Incheckning för de flesta. Middag 19-tiden.\nLördag: Frukost. 10.00 gemensam ride-out med stopp för lunch och fika. Gemensam middag på slottet.\nSöndag: Utcheckning.\n\nPriser (logi + frukost + spa):\nDubbelrum: 1210 kr/natt\nEnkelrum: 1105 kr/natt\n\nMiddag (Slottsrestaurang):\n3-rätters (fast meny): 525 kr/pers\n2-rätters: 390 kr/pers\nEndast varmrätt: 295 kr/pers\n\nSlottspaket (logi, frukost, 3-rättersmiddag, mousserande, spa):\nDubbelrum: 2675 kr/natt\nEnkelrum: 2050 kr/natt\n\nBoka via mail: info@johannesbergsslott.se. Skriv \"Tigerträffen-2026\".\nSvara senast 22/4. Inga tältgäster.\n\nVid frågor kontakta Anci eller Kjelle!",
+      "backImage": "ads/ttcs-vartraff-back-2026-05-22.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4308758132742157"
+        },
+        {
+          "label": "Johannesbergs Slott",
+          "url": "https://johannesbergsslott.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Johannesbergs+Slott+Rimbo",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/4308758132742157",
+      "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
       "id": "ride-for-ukraine-2026",
       "name": "Ride for Ukraine 2026",
       "date": "2026-05-23",
