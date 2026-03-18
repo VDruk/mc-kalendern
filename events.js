@@ -5292,25 +5292,34 @@ const EVENTS_DATA = {
     },
     {
       "id": "roadracing-sm-falkenberg-2026",
-      "name": "Roadracing SM - Falkenberg",
+      "name": "SM Roadracing Falkenberg",
       "date": "2026-05-08",
-      "dateEnd": "2026-05-10",
-      "location": "Falkenberg",
+      "dateEnd": "2026-05-08",
+      "location": "Falkenbergs Motorklubb, Vinberg",
       "type": "Racing",
       "organizer": "MotoSE / Svemo",
-      "description": "Svensk roadracing SM. MotoSE blir navet för svensk roadracing med ny struktur och ambition.",
-      "link": "https://mcparken.se/calendar/179",
+      "description": "Premiären av SM i roadracing! Sveriges främsta förare gör upp om SM-poängen. Veteranmotorcyklar, tatuerare, MC-dragracing, hoppborgar och mycket mer.",
+      "backImage": "ads/sm-roadracing-falkenberg-back-2026-05-08.jpg",
+      "link": "https://www.facebook.com/events/1007509538453905",
       "region": "Halland",
-      "source": "mcparken.se",
-      "descriptionFull": "Roadracing SM - Falkenberg arrangeras av MotoSE / Svemo.\n\nSvensk roadracing SM. MotoSE blir navet för svensk roadracing med ny struktur och ambition.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Falkenberg.",
+      "source": "facebook.com",
+      "descriptionFull": "Upplev premiären av SM i roadracing live!\n\nSveriges främsta förare gör upp om de första SM-poängen under en helg fylld av fart, nerv och action.\n\nPå plats väntar mer än bara racing: veteranmotorcyklar, tatuerare, MC-dragracing, hoppborgar och en arena fylld av upplevelser.\n\nDet här är starten på säsongen och en premiär du inte vill missa.\n\nBiljetter via Tickster. Läs mer på www.motose.se.\n\nPlats: Falkenbergs Motorklubb, Vinberg.",
       "links": [
         {
-          "label": "mcparken.se",
-          "url": "https://mcparken.se/calendar/179"
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1007509538453905"
+        },
+        {
+          "label": "MotoSE",
+          "url": "https://www.motose.se"
+        },
+        {
+          "label": "Biljetter",
+          "url": "https://secure.tickster.com/sv/180ya175ppzc2j2/lwl955edzbpffze/selectproductgroup"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Falkenberg",
+          "url": "https://www.google.com/maps/search/?api=1&query=Falkenbergs+Motorklubb+Vinberg",
           "type": "map"
         }
       ]
