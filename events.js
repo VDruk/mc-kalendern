@@ -8532,6 +8532,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "calles-chopperdelar-event-2026",
+      "name": "Calles Chopperdelar - Save the Date",
+      "date": "2026-05-30",
+      "dateEnd": "2026-05-30",
+      "location": "Slätthög, Moheda",
+      "type": "Träff",
+      "organizer": "Calles Chopperdelar Sweden",
+      "description": "Save the date! Chopperträff hos Calles Chopperdelar i Moheda. Detaljer kommer snart. Följ Calles Chopperdelar på Facebook för mer info.",
+      "descriptionFull": "Save the date! 30 maj 2026 hos Calles Chopperdelar i Slätthög, Moheda.\n\nDetaljer kommer snart. Följ Calles Chopperdelar på Facebook för uppdateringar.\n\nPlats: Slätthög, Moheda, 342 63.",
+      "backImage": "ads/calles-chopperdelar-back-2026-05-30.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/calleschopperdelar.ccs"
+        },
+        {
+          "label": "Webb",
+          "url": "https://calleschopperdelar.com"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Slätthög+Moheda",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/calleschopperdelar.ccs",
+      "region": "Kronoberg",
+      "source": "facebook.com"
+    },
+    {
       "id": "filip-backlund-trackdays-mantorp-2026",
       "name": "Filip Backlund Trackdays Mantorp Park",
       "date": "2026-05-31",
