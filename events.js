@@ -9211,31 +9211,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "american-days-oland-2026",
-      "name": "American Days Öland",
-      "date": "2026-06-04",
-      "dateEnd": "2026-06-07",
-      "location": "Lundegård Camping, Öland",
-      "type": "Fest",
-      "organizer": "H-DCS",
-      "description": "H-DCS egen träff under American Days-helgen på Lundegård Camping, Öland. Mötesplats för Harley-klubbens medlemmar. 4-7 juni. Se hdcs.se för samlingspunkt och tider.",
-      "link": "https://hdcs.se/evenemang/american-days-oland/",
-      "region": "Kalmar",
-      "source": "hdcs.se",
-      "descriptionFull": "American Days Öland arrangeras av H-DCS.\n\nH-DCS egen träff under American Days-helgen på Lundegård Camping, Öland. Mötesplats för Harley-klubbens medlemmar. 4-7 juni. Se hdcs.se för samlingspunkt och tider.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Lundegård Camping, Öland.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/american-days-oland/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Lundeg%C3%A5rd+Camping%2C+%C3%96land",
-          "type": "map"
-        }
-      ]
-    },
-    {
       "id": "do-c-gemensam-körning-till-american-days-2026",
       "name": "DO-C Gemensam körning till American days",
       "date": "2026-06-04",
@@ -12606,7 +12581,7 @@ const EVENTS_DATA = {
       "location": "Jönköping a6",
       "type": "Träff",
       "organizer": "Hojjar Swe",
-      "description": "MC-träff i Jönköping. En lugn och ordnad träff för alla MC-intresserade. Datum kan komma att ändras beroende på väder.",
+      "description": "Lugn och ordnad MC-träff vid a6 i Jönköping. Alla välkomna! Datum kan komma att ändras beroende på väder.",
       "descriptionFull": "ASECS MC TRÄFF NO.1\n\nHur många hade varit intresserade av en lugn ordnad MC-träff? Tror det är en del.\n\nOm vädret inte är med oss så flyttar vi på träffen bara. Håll utkik angående datum då det kan komma att ändras.\n\nPlats: Jönköping a6.",
       "backImage": "ads/asecs-mc-traff-back-2026-07-04.jpg",
       "links": [
