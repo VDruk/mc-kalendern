@@ -12583,7 +12583,7 @@ const EVENTS_DATA = {
       "type": "Träff",
       "organizer": "Hojjar Swe",
       "description": "Lugn och ordnad MC-träff vid a6 i Jönköping. Alla välkomna! Datum kan komma att ändras beroende på väder.",
-      "descriptionFull": "ASECS MC TRÄFF NO.1\n\nHur många hade varit intresserade av en lugn ordnad MC-träff? Tror det är en del.\n\nOm vädret inte är med oss så flyttar vi på träffen bara. Håll utkik angående datum då det kan komma att ändras.\n\nPlats: Jönköping a6.",
+      "descriptionFull": "Hur många hade varit intresserade av en lugn ordnad MC-träff? Tror det är en del.\n\nOm vädret inte är med oss så flyttar vi på träffen bara. Håll utkik angående datum då det kan komma att ändras.\n\nPlats: Jönköping a6.",
       "backImage": "ads/asecs-mc-traff-back-2026-07-04.jpg",
       "links": [
         {
