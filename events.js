@@ -3119,7 +3119,7 @@ const EVENTS_DATA = {
       "dateEnd": "2026-04-13",
       "location": "MCE Klubblokalen, Järfälla",
       "type": "Träff",
-      "organizer": "MCE - motorcykelentusiasterna",
+      "organizer": "MCE",
       "description": "Månadsmöte hos MCE i Järfälla. Diskussion om verksamheten, nyval av medlemmar. Alla hojintresserade välkomna.",
       "backImage": "ads/mce-manadsmoete-back-2026-04-13.jpg",
       "links": [
@@ -5202,6 +5202,36 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "mce-manadsmoete-maj-2026",
+      "name": "MCE Månadsmöte maj",
+      "date": "2026-05-04",
+      "dateEnd": "2026-05-04",
+      "location": "MCE, Snutenvägen 11, Järfälla",
+      "type": "Träff",
+      "organizer": "MCE",
+      "description": "Månadsmöte i maj. Vi går igenom vad som hänt och planerar framåt. Nyval av medlemmar. Fika från 18:30, mötet startar 19:00. Alla hojintresserade välkomna.",
+      "descriptionFull": "Vi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar.\n\nAlla medlemmar och klubbnyfikna är välkomna.\n\nFika från kl 18:30, mötet startar kl 19:00.\n\nPlats: Snutenvägen 11, 177 61 Järfälla.",
+      "backImage": "ads/mce-manadsmoete-maj-back-2026-05-04.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1541636100430963/"
+        },
+        {
+          "label": "MCE",
+          "url": "https://www.facebook.com/Motorcykelentusiasterna"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snutenvägen+11+Järfälla",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1541636100430963/",
+      "region": "Stockholm",
+      "source": "facebook.com"
     },
     {
       "id": "doa-tisdagslunch-2026",
