@@ -7806,6 +7806,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "mce-tvadagars-malaren-asfalt-2026",
+      "name": "Tvådagars söder om Mälaren",
+      "date": "2026-05-23",
+      "dateEnd": "2026-05-24",
+      "location": "MCE, Snutenvägen 11, Järfälla",
+      "type": "Körning",
+      "organizer": "MCE - motorcykelentusiasterna",
+      "description": "Tvådagars asfaltstur söder om Mälaren med övernattning. Ca 30 mil/dag. Stockholm-Norrköping-Linköping-Motala-Örebro. Alla hojar välkomna, max 500 kr/person boende.",
+      "descriptionFull": "Tvådagars resa med övernattning, 100% asfalt.\n\nRutten går söder om Mälaren: Stockholm, Norrköping, Linköping, Motala, Askersund, Örebro, Arboga. Ca 30 mil på lördagen och 30 mil på söndagen.\n\nÖvernattning i stugor på camping, max 500 kr/person.\n\nAlla MCEare välkomna. Mejla intresse, ingen bindande anmälan i detta skede.\n\nAvfärd: MCE, Snutenvägen 11, 177 61 Järfälla.",
+      "backImage": "ads/mce-tvadagars-malaren-back-2026-05-23.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1191568283087580/"
+        },
+        {
+          "label": "MCE",
+          "url": "https://www.facebook.com/Motorcykelentusiasterna"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snutenvägen+11+Järfälla",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1191568283087580/",
+      "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
       "id": "ride-for-ukraine-2026",
       "name": "Ride for Ukraine 2026",
       "date": "2026-05-23",
