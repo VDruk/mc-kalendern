@@ -232,7 +232,7 @@ const EVENTS_DATA = {
       "region": "Norrbotten",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Norrbottens årsmöte med gast Kristina 'Krikko' Lundstrom från Boden, kand aventyrsmotorcyklist med stor erfarenhet av resor runt om i världen.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Norrbottens årsmöte med gast Kristina 'Krikko' Lundstrom från Boden, kand aventyrsmotorcyklist med stor erfarenhet av resor runt om i världen.",
       "link": "https://svmc.se",
       "descriptionFull": "SMC Norrbottens Årsmöte 2026 arrangeras av SMC.\n\nSMC Norrbottens årsmöte med gast Kristina 'Krikko' Lundstrom från Boden, kand aventyrsmotorcyklist med stor erfarenhet av resor runt om i världen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biografen Royal, Luleå.",
       "links": [
@@ -281,7 +281,7 @@ const EVENTS_DATA = {
       "region": "Skåne",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Skanes årsmöte. Kl 13. Anmalan sker via Mitt Konto (konto.svmc.se). Plats och ytterligare information meddelas via hemsida, SMC Boken och Facebook.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Skanes årsmöte. Kl 13. Anmalan sker via Mitt Konto (konto.svmc.se). Plats och ytterligare information meddelas via hemsida, SMC Boken och Facebook.",
       "link": "https://svmc.se",
       "descriptionFull": "SMC Skånes Årsmöte 2026 arrangeras av SMC.\n\nSMC Skanes årsmöte. Kl 13. Anmalan sker via Mitt Konto (konto.svmc.se). Plats och ytterligare information meddelas via hemsida, SMC Boken och Facebook.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
       "links": [
@@ -304,7 +304,7 @@ const EVENTS_DATA = {
       "region": "Uppsala",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Uppsala årsmöte, preliminärt kl 15. Kontakta styrelsen på info@smcuppsala.se för mer info eller om du vill hjälpa till i verksamheten.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Uppsala årsmöte, preliminärt kl 15. Kontakta styrelsen på info@smcuppsala.se för mer info eller om du vill hjälpa till i verksamheten.",
       "link": "https://svmc.se",
       "descriptionFull": "SMC Uppsala Årsmöte 2026 arrangeras av SMC.\n\nSMC Uppsala årsmöte, preliminärt kl 15. Kontakta styrelsen på info@smcuppsala.se för mer info eller om du vill hjälpa till i verksamheten.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Östra Aros MC klubblokal, Stångby 1, Uppsala.",
       "links": [
@@ -327,7 +327,7 @@ const EVENTS_DATA = {
       "region": "Örebro",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Örebros årsmöte. Tid: 18.30. Plats: Idrottens Hus, Karlsgatan 28 Örebro. Hall da koll på sociala medier, hemsidan och appen för senaste information.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Örebros årsmöte. Tid: 18.30. Plats: Idrottens Hus, Karlsgatan 28 Örebro. Hall da koll på sociala medier, hemsidan och appen för senaste information.",
       "link": "https://svmc.se",
       "descriptionFull": "SMC Örebros Årsmöte 2026 arrangeras av SMC.\n\nSMC Örebros årsmöte. Tid: 18.30. Plats: Idrottens Hus, Karlsgatan 28 Örebro. Hall da koll på sociala medier, hemsidan och appen för senaste information.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Idrottens Hus, Karlsgatan 28, Örebro.",
       "links": [
@@ -750,7 +750,7 @@ const EVENTS_DATA = {
       "region": "Kronoberg",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Kronobergs årsmöte kl 15 i Hjorts klubbstuga. Motioner maste vara styrelsen tillhanda senast den 14/2 (info@smckronoberg.se).",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Kronobergs årsmöte kl 15 i Hjorts klubbstuga. Motioner maste vara styrelsen tillhanda senast den 14/2 (info@smckronoberg.se).",
       "link": "https://svmc.se",
       "descriptionFull": "SMC Kronobergs Årsmöte 2026 arrangeras av SMC.\n\nSMC Kronobergs årsmöte kl 15 i Hjorts klubbstuga. Motioner maste vara styrelsen tillhanda senast den 14/2 (info@smckronoberg.se).\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hjorts klubbstuga, Kronoberg.",
       "links": [
@@ -1263,7 +1263,7 @@ const EVENTS_DATA = {
       "location": "7A Odenplan, Norrtullsgatan 6, Stockholm",
       "type": "Träff",
       "organizer": "SMC Stockholm",
-      "description": "Årsmöte lördag 21 mars. Kl 13 kaffe och mingel, kl 14 årsmöte, kl 15 fika och gästföreläsning om MC i Marocko.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Årsmöte lördag 21 mars. Kl 13 kaffe och mingel, kl 14 årsmöte, kl 15 fika och gästföreläsning om MC i Marocko.",
       "link": "https://www.svmc.se/stockholm/nyheter/aarsmoete-2026/",
       "region": "Stockholm",
       "source": "svmc.se",
@@ -1293,7 +1293,7 @@ const EVENTS_DATA = {
       "region": "Västernorrland",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Västernorrlands årsmöte med motionsskrivning och planering på agendan. Tid för inskick av motioner publiceras på distriktets hemsida och sociala medier.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Västernorrlands årsmöte med motionsskrivning och planering på agendan. Tid för inskick av motioner publiceras på distriktets hemsida och sociala medier.",
       "link": "https://svmc.se",
       "descriptionFull": "SMC Västernorrlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Västernorrlands årsmöte med motionsskrivning och planering på agendan. Tid för inskick av motioner publiceras på distriktets hemsida och sociala medier.",
       "links": [
@@ -1316,7 +1316,7 @@ const EVENTS_DATA = {
       "region": "Västmanland",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Västmanlands årsmöte kl 16 i Västerås. Mer info via www.svmc.se/vastmanland och sociala medier.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Västmanlands årsmöte kl 16 i Västerås. Mer info via www.svmc.se/vastmanland och sociala medier.",
       "link": "https://svmc.se/vastmanland",
       "descriptionFull": "SMC Västmanlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Västmanlands årsmöte kl 16 i Västerås. Mer info via www.svmc.se/vastmanland och sociala medier.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västerås.",
       "links": [
@@ -1339,7 +1339,7 @@ const EVENTS_DATA = {
       "region": "Västra Götaland",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Västra Götaland håller årsmöte med sedvanliga årsmötesförhandlingar. Tid och plats på hemsidan. Motioner senast den 7 februari.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Västra Götaland håller årsmöte med sedvanliga årsmötesförhandlingar. Tid och plats på hemsidan. Motioner senast den 7 februari.",
       "link": "https://svmc.se",
       "descriptionFull": "SMC Västra Götalands Årsmöte 2026 arrangeras av SMC.\n\nSMC Västra Götaland håller årsmöte med sedvanliga årsmötesförhandlingar. Tid och plats på hemsidan. Motioner senast den 7 februari.",
       "links": [
@@ -1616,7 +1616,7 @@ const EVENTS_DATA = {
       "region": "Gotland",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Gotlands årsmöte kl 14 på Uncle Joes i Visby. Motioner och förslag behöver vara styrelsen tillhanda sex veckor före årsmötet. Efter årsmötet informerar vi om SMCs arbete.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Gotlands årsmöte kl 14 på Uncle Joes i Visby. Motioner och förslag behöver vara styrelsen tillhanda sex veckor före årsmötet. Efter årsmötet informerar vi om SMCs arbete.",
       "link": "https://svmc.se",
       "descriptionFull": "SMC Gotlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Gotlands årsmöte kl 14 på Uncle Joes i Visby. Motioner och förslag behöver vara styrelsen tillhanda sex veckor före årsmötet. Efter årsmötet informerar vi om SMCs arbete.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Uncle Joes, Visby.",
       "links": [
@@ -1640,7 +1640,7 @@ const EVENTS_DATA = {
       "region": "Jönköping",
       "type": "Träff",
       "organizer": "SMC Jönköping",
-      "description": "Gratis föreläsning av Björn 'BG' Gunnarsson om Isle of Man TT! Max 100 platser. Därefter årsmöte kl 15:30. Lokalen öppnar 12:30. Kl 13-17.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Gratis föreläsning av Björn 'BG' Gunnarsson om Isle of Man TT! Max 100 platser. Därefter årsmöte kl 15:30. Lokalen öppnar 12:30. Kl 13-17.",
       "backImage": "ads/smc-jonkoping-arsmote-back-2026-03-22.jpg",
       "link": "https://www.facebook.com/events/2076547806512885",
       "descriptionFull": "SMC Jönköping bjuder in till föreläsning och årsmöte.\n\nBjörn 'BG' Gunnarsson berättar om sina äventyr på Isle of Man TT. Max 100 platser, först till kvarn gäller.\n\nEfter föreläsningen håller vi årsmötet kl 15:30-17:00.\n\nLokalen öppnar 12:30. Gratis för SMC Jönköping medlemmar.\n\nAnmälan obligatorisk via länken.\n\nPlats: Jönköpings Golfklubb, Golfbanevägen 11, 556 27 Jönköping.",
@@ -1672,7 +1672,7 @@ const EVENTS_DATA = {
       "region": "Kalmar",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Kalmar Lans årsmöte kl 12. Plats meddelas senare. Obligatorisk anmalan till info@smc-kalmar.com senast den 8 mars 2026.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Kalmar Lans årsmöte kl 12. Plats meddelas senare. Obligatorisk anmalan till info@smc-kalmar.com senast den 8 mars 2026.",
       "link": "https://svmc.se",
       "descriptionFull": "SMC Kalmars Årsmöte 2026 arrangeras av SMC.\n\nSMC Kalmar Lans årsmöte kl 12. Plats meddelas senare. Obligatorisk anmalan till info@smc-kalmar.com senast den 8 mars 2026.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kalmar.",
       "links": [
@@ -1872,7 +1872,7 @@ const EVENTS_DATA = {
       "location": "Drottninggatan 15B, Eskilstuna",
       "type": "Träff",
       "organizer": "SMC Södermanland",
-      "description": "Lär dig kontrollera din MC inför säsongen, besiktning eller resa. Motorcyklar på plats att inspektera tillsammans. SMC-medlem 100 kr, ej medlem 150 kr. Kl 18-20.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Lär dig kontrollera din MC inför säsongen, besiktning eller resa. Motorcyklar på plats att inspektera tillsammans. SMC-medlem 100 kr, ej medlem 150 kr. Kl 18-20.",
       "descriptionFull": "Varm välkommen på Grundkurs i MC Underhåll.\n\nDenna kurs riktar sig till dig som vill lära dig mer om underhåll av din motorcykel, oavsett om du övningskör och vill förbereda dig inför kommande körprov, haft körkort eller precis tagit körkort!\n\nUnder kursen går vi igenom viktig information om hur du gör en bra kontroll av din MC innan du tar ut den för säsongen, åker till besiktningen eller om du ska ut och resa.\n\nDet kommer att finnas några motorcyklar på plats som vi inspekterar tillsammans.\n\nPlats: Isaks Trafikskola, Drottninggatan 15B, Eskilstuna.\n\nInskrivning 17:50\nKursstart 18:00\nKursavslut ca 20:00\n\nAnmälningsavgift:\nSMC-medlem: 100 kr (skriv medlemsnr i meddelande vid bokningen)\nEj medlem: 150 kr\n\nSwish: 0736-34 25 60 (Maria N)\nMeddelande: 25 mars kurs (ev medl nr)\n\nOBS! Begränsat antal platser!",
       "backImage": "ads/smc-grundkurs-underhall-back-2026-03-25.jpg",
       "links": [
@@ -2181,7 +2181,7 @@ const EVENTS_DATA = {
       "region": "Värmland",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Varmlands årsmöte på Varmlands TrafikCenter i Grums. SMC bjuder som vanligt på fika. Motioner skickas till ordforande@svmc.se/varmland.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Varmlands årsmöte på Varmlands TrafikCenter i Grums. SMC bjuder som vanligt på fika. Motioner skickas till ordforande@svmc.se/varmland.",
       "link": "https://svmc.se/varmland",
       "descriptionFull": "SMC Värmlands Årsmöte 2026 arrangeras av SMC.\n\nSMC Varmlands årsmöte på Varmlands TrafikCenter i Grums. SMC bjuder som vanligt på fika. Motioner skickas till ordforande@svmc.se/varmland.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Värmlands TrafikCenter, Grums.",
       "links": [
@@ -2204,7 +2204,7 @@ const EVENTS_DATA = {
       "region": "Västerbotten",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "SMC Västerbottens årsmöte. Föreläsning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Årsmöte kl 14-16. SMC bjuder på fika.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Västerbottens årsmöte. Föreläsning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Årsmöte kl 14-16. SMC bjuder på fika.",
       "link": "https://grundkurser.svmc.se",
       "descriptionFull": "SMC Västerbottens Årsmöte 2026 arrangeras av SMC.\n\nSMC Västerbottens årsmöte. Föreläsning kl 11-13 om resor med SMC Travel-guide John Paakkonen. Årsmöte kl 14-16. SMC bjuder på fika. Lunch beställs på egen bekostnad. Boka via grundkurser.svmc.se.",
       "links": [
@@ -2279,7 +2279,7 @@ const EVENTS_DATA = {
       "location": "Leksands gymnasium, Rättviksvägen 29, Leksand",
       "type": "Träff",
       "organizer": "SMC Dalarna",
-      "description": "SMC Dalarna håller årsmöte i Leksand. Internt möte för medlemmar med genomgång av verksamhetsåret och planering inför säsongen. Kl 15:00-17:00.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "SMC Dalarna håller årsmöte i Leksand. Internt möte för medlemmar med genomgång av verksamhetsåret och planering inför säsongen. Kl 15:00-17:00.",
       "descriptionFull": "SMC Dalarna håller årsmöte i Leksand, 29 mars kl 15:00.\n\nPlats: Leksands gymnasium, Rättviksvägen 29.\n\nInternt möte för SMC Dalarnas medlemmar med genomgång av verksamhetsåret, ekonomi och val av styrelse.\n\n15:00-17:00",
       "links": [
         {
@@ -2735,7 +2735,7 @@ const EVENTS_DATA = {
       "location": "Stockholm",
       "type": "Träff",
       "organizer": "SMC Stockholm",
-      "description": "Välkommen på säsongsöppning! Gemensam utfärd och fika för att fira att mc-säsongen är igång.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Välkommen på säsongsöppning! Gemensam utfärd och fika för att fira att mc-säsongen är igång.",
       "link": "https://www.svmc.se/",
       "region": "Stockholm",
       "source": "svmc.se",
@@ -5187,7 +5187,7 @@ const EVENTS_DATA = {
       "location": "Rorken, Uppsala",
       "type": "Träff",
       "organizer": "SMC Uppsala",
-      "description": "Arrangemang med SMC i Rorken, Uppsala. Mötespunkt för MC-klubben. Mer information på smc.nu.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Arrangemang med SMC i Rorken, Uppsala. Mötespunkt för MC-klubben. Mer information på smc.nu.",
       "link": "https://oamck.se/events/knixpremiar-2/",
       "region": "Uppsala",
       "source": "oamck.se",
@@ -5543,7 +5543,7 @@ const EVENTS_DATA = {
       "location": "MCK Tourings klubbstuga, Islingby, Borlänge",
       "type": "Träff",
       "organizer": "SMC Dalarna",
-      "description": "Kvällsträff med SMC Dalarna i MCK Tourings klubbstuga. Tipspromenad, hamburgare och korv. Köp och sälj begagnad MC-utrustning. Grillen varm från 18:00.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Kvällsträff med SMC Dalarna i MCK Tourings klubbstuga. Tipspromenad, hamburgare och korv. Köp och sälj begagnad MC-utrustning. Grillen varm från 18:00.",
       "descriptionFull": "Välkommen på en kvällsträff med SMC Dalarna i MCK Tourings klubbstuga.\n\nVi träffas, umgås, går en tipspromenad med priser, hamburgare och korv finns till försäljning. Samtidigt finns möjligheten att sälja och köpa begagnad MC-utrustning.\n\nVi startar 17:30 och grillen är varm från 18:00.\n\nSMC Dalarna kommer att berätta vad som är på gång under säsongen.",
       "backImage": "ads/kvallstraff-mck-touring-back-2026-05-07.jpg",
       "links": [
@@ -5732,7 +5732,7 @@ const EVENTS_DATA = {
       "location": "Lernia (fd AMU center), Hedemora",
       "type": "Körning",
       "organizer": "SMC Dalarna",
-      "description": "MC-kortege genom Hedemora under marknaden. Samling kl 09:30 vid Lernia, först en runda runt TT-banan, sedan genom stadens gator. Parkering vid Vasahallen.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "MC-kortege genom Hedemora under marknaden. Samling kl 09:30 vid Lernia, först en runda runt TT-banan, sedan genom stadens gator. Parkering vid Vasahallen.",
       "descriptionFull": "MC kortege genom Hedemora under Hedemora marknad.\n\nSamling kl 09:30 vid Lernia (fd AMU center), Hedemora.\n\nFörst kör vi en runda runt TT-banan. Sedan kl 11:00 från Lappens Grill kör vi kortege genom Hedemoras gator.\n\nParkering vid Vasahallen i minst en timme så folk kan titta på hojarna.\n\nArrangör: SMC Dalarna",
       "links": [
         {
@@ -5982,7 +5982,7 @@ const EVENTS_DATA = {
       "location": "Sundsvall",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "Sveriges MotorCyklisters nationella årsmöte. Lördagen den 9 maj kl 13.00 i Sundsvall. Exakt lokal meddelas i MC-Folket Nr 2, på hemsidan och sociala medier.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Sveriges MotorCyklisters nationella årsmöte. Lördagen den 9 maj kl 13.00 i Sundsvall. Exakt lokal meddelas i MC-Folket Nr 2, på hemsidan och sociala medier.",
       "link": "https://www.svmc.se",
       "region": "Västernorrland",
       "source": "MC-Folket Nr 1 2026",
@@ -6384,7 +6384,7 @@ const EVENTS_DATA = {
       "location": "Aboda, Klint",
       "type": "Träff",
       "organizer": "SMC Kalmar",
-      "description": "Arrangemang med SMC i Aboda Klint. Mötespunkt för MC-klubben. Mer information på smc.nu.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Arrangemang med SMC i Aboda Klint. Mötespunkt för MC-klubben. Mer information på smc.nu.",
       "link": "https://smc-kalmar.com/",
       "region": "Kalmar",
       "source": "smcboken.svmc.se",
@@ -7092,7 +7092,7 @@ const EVENTS_DATA = {
       "location": "Osmundgatan 3, 703 83 Örebro",
       "type": "Körning",
       "organizer": "SMC Örebro",
-      "description": "Poker Run genom Örebro. Start från Garaget/Genuine Bike Parts, målgång vid ATM MC. Arrangeras av SMC Örebro och Network MC.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Poker Run genom Örebro. Start från Garaget/Genuine Bike Parts, målgång vid ATM MC. Arrangeras av SMC Örebro och Network MC.",
       "backImage": "ads/poker-run-orebro-back-2026-05-16.jpg",
       "descriptionFull": "Poker Run i Örebro den 16 maj 2026.\n\nÅrets Poker Run i Örebro arrangeras av SMC Örebro och Network MC. Starten går från Garaget/Genuine Bike Parts på Osmundgatan 3 kl 09:00-10:00. Målet är hos ATM MC, senast kl 15:00.\n\nStartavgift: 50 kr (betala gärna med Swish).\n\nMedverkande klubbar: MC Karlskoga, Genuine Bike Parts, ATM MC, Network MC, Nerikes Bikers MC, Templars Against, SMC Örebro, Garaget.\n\nPlats: Start Osmundgatan 3, Örebro.",
       "links": [
@@ -7927,7 +7927,7 @@ const EVENTS_DATA = {
       "location": "Motorbiten i Falun",
       "type": "Träff",
       "organizer": "SMC Dalarna",
-      "description": "Provkör nya modeller, kolla utrustning och fynda MC-prylar. Gratis kaffe, grillad korv och dryck. Förra året kom över 1000 besökare. Burgarbussen på plats.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Provkör nya modeller, kolla utrustning och fynda MC-prylar. Gratis kaffe, grillad korv och dryck. Förra året kom över 1000 besökare. Burgarbussen på plats.",
       "descriptionFull": "Motorbiten i Falun, lördagen den 23 maj kl 11:00-15:00 (kan bli till 16:00).\n\nProvkör nya modeller, kolla utrustning och fynda MC-prylar hos Motorbiten.\n\nGratis kaffe, grillad korv och dryck på plats. Förra året kom över 1000 besökare.\n\nBurgarbussen kommer också och serverar hamburgare.\n\nVälkommen!",
       "links": [
         {
@@ -8678,7 +8678,7 @@ const EVENTS_DATA = {
       "location": "Sundet vid Sjön Vidöstern",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "Arrangemang med SMC i Sundet vid Sjön Vidöstern. Mötespunkt för MC-klubben. Mer information på smc.nu.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Arrangemang med SMC i Sundet vid Sjön Vidöstern. Mötespunkt för MC-klubben. Mer information på smc.nu.",
       "link": "https://www.hermanshedningar.se/",
       "region": "Jönköping",
       "source": "smcboken.svmc.se",
@@ -9620,7 +9620,7 @@ const EVENTS_DATA = {
       "location": "Ursands Camping, Trollhättan",
       "type": "Träff",
       "organizer": "SMC Västra Götaland",
-      "description": "Stor MC-träff på nationaldagshelgen. Camping, livemusik och gemensamma utfärder.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Stor MC-träff på nationaldagshelgen. Camping, livemusik och gemensamma utfärder.",
       "link": "https://www.svmc.se/",
       "region": "Västra Götaland",
       "source": "svmc.se",
@@ -10697,7 +10697,7 @@ const EVENTS_DATA = {
       "location": "Tavelsjö",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "Arrangemang med SMC i Tavelsjö. Mötespunkt för MC-klubben. Mer information på smc.nu.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Arrangemang med SMC i Tavelsjö. Mötespunkt för MC-klubben. Mer information på smc.nu.",
       "link": "https://smcboken.svmc.se/traffar/mcträffar",
       "region": "Västerbotten",
       "source": "smcboken.svmc.se",
@@ -12403,7 +12403,7 @@ const EVENTS_DATA = {
       "location": "Gröna Uddens Camping, Åland",
       "type": "Träff",
       "organizer": "SMC",
-      "description": "Arrangemang med SMC i Gröna Uddens Camping, Åland. Mötespunkt för MC-klubben. Mer information på smc.nu.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Arrangemang med SMC i Gröna Uddens Camping, Åland. Mötespunkt för MC-klubben. Mer information på smc.nu.",
       "link": "https://www.svmc.se/",
       "region": "Finland",
       "source": "svmc.se",
@@ -14571,7 +14571,7 @@ const EVENTS_DATA = {
       "location": "Haninge till Norrtälje (ca 100 mil)",
       "type": "Körning",
       "organizer": "SMC",
-      "description": "Fem dagars MC-resa genom södra Mellansverige. Utforska Kalla krigets hemligheter via museer och försvarsanläggningar. Start Haninge, mål Norrtälje.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Fem dagars MC-resa genom södra Mellansverige. Utforska Kalla krigets hemligheter via museer och försvarsanläggningar. Start Haninge, mål Norrtälje.",
       "descriptionFull": "SMC Travel: Kalla kriget den 3-7 augusti 2026.\n\nEn unik fem dagars MC-resa där spännande historia möter vackra vägar. Resan utforskar Kalla krigets hemligheter (ca 1945-1990) genom besök på utvalda museer och försvarsanläggningar.\n\nStart i Haninge, mål i Norrtälje. Totalt ca 100 mil.\n\nArrangeras av SMC Travel.\n\nPlats: Haninge till Norrtälje.",
       "links": [
         {
@@ -15024,7 +15024,7 @@ const EVENTS_DATA = {
       "location": "MCK Tourings klubbstuga, Borlänge",
       "type": "Körning",
       "organizer": "SMC Dalarna",
-      "description": "Rebusorientering på MC genom Dalarna. Cirka 15 mil på fina vägar med 10 kontroller. Lös gåtan för att hitta nästa. Start 10-11, 100 kr inkl hamburgare och kaffe.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Rebusorientering på MC genom Dalarna. Cirka 15 mil på fina vägar med 10 kontroller. Lös gåtan för att hitta nästa. Start 10-11, 100 kr inkl hamburgare och kaffe.",
       "descriptionFull": "Rebusrundan genom Dalarna!\n\nStart och mål vid MCK Tourings klubbstuga i Borlänge.\n\nCirka 15 mil på fina MC-vägar genom Dalarna med 10 kontroller längs vägen. Vid varje kontroll löser du en gåta som leder dig till nästa.\n\nStart mellan kl 10:00 och 11:00.\n\nDeltagaravgift 100 kr per MC. I priset ingår hamburgare, läsk och kaffe vid målgång.\n\nPrislottning bland alla som genomfört rundan.\n\nArrangör: SMC Dalarna",
       "links": [
         {
@@ -15937,7 +15937,7 @@ const EVENTS_DATA = {
       "location": "Mälardalen",
       "type": "Körning",
       "organizer": "SMC / Mälaren Runt",
-      "description": "Arrangemang med SMC i Mälardalen. Mötespunkt för MC-klubben. Mer information på smc.nu.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "Arrangemang med SMC i Mälardalen. Mötespunkt för MC-klubben. Mer information på smc.nu.",
       "link": "https://www.svmc.se/club/maelaren-runt/",
       "region": "Stockholm",
       "source": "svmc.se",
@@ -17378,7 +17378,7 @@ const EVENTS_DATA = {
       "location": "Karlskrona (avfärd med färja)",
       "type": "Körning",
       "organizer": "SMC Travel",
-      "description": "17 dagars MC-resa genom Rumänien! Transfăgărășan, Transalpina och Karpaterna. Historiska Maramures, bergspass och natursköna dalar. Kräver stor körerfarenhet. 21 700 kr.",
+      "organizerIcon": "clubs/normalized/smc.png",      "description": "17 dagars MC-resa genom Rumänien! Transfăgărășan, Transalpina och Karpaterna. Historiska Maramures, bergspass och natursköna dalar. Kräver stor körerfarenhet. 21 700 kr.",
       "descriptionFull": "Rumäniens dolda skatter med SMC Travel!\n\n4-20 september 2026. Rumänien är ett paradis för motorcyklister med spektakulära bergspass. Vi kör Transfăgărășan, Transalpina och andra mindre kända men lika imponerande vägar.\n\nResan följer Karpaterna genom kurviga bergsvägar och natursköna dalar, med stopp i historiska Maramures.\n\nKräver stor körerfarenhet, högt tempo och vana att köra i grupp. Knix-kurs innan avresan är ett måste!\n\nPris: Förare 21 700 kr, passagerare 20 700 kr.\nI priset ingår: guider, färja Karlskrona-Gdynia t/r, motorvägsavgifter, 14 nätter hotell med frukost, tolk.\n\nBokning öppnar 25 mars kl 10:00.\nGuider: Ronny Jansson (070-575 0791) och Ana Jansson (0760-193 302).",
       "backImage": "ads/smc-travel-rumanien-back-2026-09-04.jpg",
       "links": [
