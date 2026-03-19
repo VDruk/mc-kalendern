@@ -1688,6 +1688,32 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "lelledagarna-uppsala-2026",
+      "name": "Lelledagarna i Uppsala",
+      "date": "2026-03-23",
+      "dateEnd": "2026-03-28",
+      "location": "Lelles MC, Uppsala",
+      "type": "Show",
+      "organizer": "Lelles MC",
+      "description": "Hela veckan öppet med erbjudanden! Minst 15% på skyddskläder, upp till 70% på utvalda lagervaror. Perfekt för att komma i stämning inför MC-säsongen.",
+      "descriptionFull": "Lelledagarna i Uppsala 23-28 mars!\n\nButiken har öppet hela veckan med en hel del erbjudanden på utrustning. Minst 15% på flera typer av skyddskläder och upp till 70% på utvalda lagervaror.\n\nEtt bra sätt att komma i rätt stämning inför säsongen.\n\nPlats: Lelles MC, Uppsala.",
+      "backImage": "ads/lelledagarna-uppsala-back-2026-03-23.jpg",
+      "links": [
+        {
+          "label": "Lelles MC",
+          "url": "https://www.facebook.com/lellesmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lelles+MC+Uppsala",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/lellesmc",
+      "region": "Uppsala",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-tisdagslunch-2026",
       "name": "DOA - Tisdagslunch",
       "date": "2026-03-24",
