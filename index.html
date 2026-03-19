@@ -444,6 +444,11 @@
     font-weight: 500;
     max-width: 60%; overflow: hidden;
     text-overflow: ellipsis; white-space: nowrap;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .card-org-icon {
+    width: 20px; height: 20px; border-radius: 50%;
+    object-fit: cover; flex-shrink: 0;
   }
   .card-link {
     font-size: 12px; color: var(--accent);
@@ -1649,14 +1654,15 @@ function render() {
 
     // Footer: "Mer info" either expands card or goes external
     let footerHTML;
+    const orgIconHTML = event.organizerIcon ? `<img class="card-org-icon" src="${event.organizerIcon}" alt="">` : '';
     if (hasBack) {
       footerHTML = `<div class="card-footer">
-        <span class="card-organizer">${event.organizer || ''}</span>
+        <span class="card-organizer">${orgIconHTML}${event.organizer || ''}</span>
         <button class="card-link-btn" onclick="event.stopPropagation();cardExpand('${cardId}')">Mer info &rarr;</button>
       </div>`;
     } else {
       footerHTML = `<div class="card-footer">
-        <span class="card-organizer">${event.organizer || ''}</span>
+        <span class="card-organizer">${orgIconHTML}${event.organizer || ''}</span>
         <a class="card-link" href="${event.link}" target="_blank" rel="noopener">Mer info &rarr;</a>
       </div>`;
     }
