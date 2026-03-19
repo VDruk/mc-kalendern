@@ -3007,6 +3007,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "regression-start-of-season-2026",
+      "name": "Kickstart the Season 2026",
+      "date": "2026-04-11",
+      "dateEnd": "2026-04-11",
+      "location": "Vretstorp",
+      "type": "Träff",
+      "organizer": "Regression Brotherhood MC",
+      "description": "Säsongsstart! Samling på klubben kl 14, gemensam tur på dagen. På kvällen grillat och dryck. Alla på två hjul välkomna.",
+      "descriptionFull": "Nu kickar vi igång 2026!\n\nVi kommer att åka en tur på dagen. Vill du åka med så samlas vi på klubben kl 14:00.\n\nPå kvällen blir det lite grillat och dryck.\n\nPlats: Vretstorp.",
+      "backImage": "ads/regression-start-of-season-back-2026-04-11.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/819566441168837"
+        },
+        {
+          "label": "Regression MC",
+          "url": "https://www.facebook.com/Regressionbrotherhoodmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vretstorp",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/819566441168837",
+      "region": "Örebro",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
       "name": "D15 Söndagsvandring Gyllebosjön Runt",
       "date": "2026-04-12",
