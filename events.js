@@ -1489,6 +1489,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "north-trail-varblot-150-ar-2026",
+      "name": "Vårblot och 150-årsfest!",
+      "date": "2026-03-21",
+      "dateEnd": "2026-03-21",
+      "location": "Landsvägen 12, Jättendal",
+      "type": "Fest",
+      "organizer": "North Trail MC Hälsingland",
+      "description": "Årligt vårblot och 150-årsfest! Tre gentlemän fyller jämnt (50, 40 och 60 år). Live: Peter Wall Band. Bar, tårta, bubbel och dans. Begränsat antal sängplatser.",
+      "descriptionFull": "I samband med det årliga vårblotet så passar vi på att gratulera 3 gentlemän som fyller jämnt: Bålla 50, Carsten 40 och Robban 60!\n\nPå scenen: Peter Wall Band.\n\nTårta, livemusik, bubbel och dans!\n\nBegränsat antal sängplatser. Bokas med Carsten 076-845 13 06.\nFör övriga frågor: Jonas 0701718981.\n\nPlats: Landsvägen 12, 829 96 Jättendal.",
+      "backImage": "ads/north-trail-varblot-back-2026-03-21.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1364830328517889"
+        },
+        {
+          "label": "North Trail MC",
+          "url": "https://www.facebook.com/northtrailmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Landsvägen+12+Jättendal",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1364830328517889",
+      "region": "Gävleborg",
+      "source": "facebook.com"
+    },
+    {
       "id": "smc-gotland-årsmöte-2026",
       "name": "SMC Gotlands Årsmöte 2026",
       "date": "2026-03-22",
