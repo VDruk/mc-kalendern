@@ -17125,6 +17125,31 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "smc-travel-rumanien-2026",
+      "name": "SMC Travel - Rumäniens dolda skatter",
+      "date": "2026-09-04",
+      "dateEnd": "2026-09-20",
+      "location": "Karlskrona (avfärd med färja)",
+      "type": "Körning",
+      "organizer": "SMC Travel",
+      "description": "17 dagars MC-resa genom Rumänien! Transfăgărășan, Transalpina och Karpaterna. Historiska Maramures, bergspass och natursköna dalar. Kräver stor körerfarenhet. 21 700 kr.",
+      "descriptionFull": "Rumäniens dolda skatter med SMC Travel!\n\n4-20 september 2026. Rumänien är ett paradis för motorcyklister med spektakulära bergspass. Vi kör Transfăgărășan, Transalpina och andra mindre kända men lika imponerande vägar.\n\nResan följer Karpaterna genom kurviga bergsvägar och natursköna dalar, med stopp i historiska Maramures.\n\nKräver stor körerfarenhet, högt tempo och vana att köra i grupp. Knix-kurs innan avresan är ett måste!\n\nPris: Förare 21 700 kr, passagerare 20 700 kr.\nI priset ingår: guider, färja Karlskrona-Gdynia t/r, motorvägsavgifter, 14 nätter hotell med frukost, tolk.\n\nBokning öppnar 25 mars kl 10:00.\nGuider: Ronny Jansson (070-575 0791) och Ana Jansson (0760-193 302).",
+      "backImage": "ads/smc-travel-rumanien-back-2026-09-04.jpg",
+      "links": [
+        {
+          "label": "Boka resa",
+          "url": "https://www.svmc.se/resor2026/rumaenien"
+        },
+        {
+          "label": "SMC Travel",
+          "url": "https://www.svmc.se/resor2026"
+        }
+      ],
+      "link": "https://www.svmc.se/resor2026/rumaenien",
+      "region": "Sverige",
+      "source": "svmc.se"
+    },
+    {
       "id": "motorcycel-inferno-2026",
       "name": "Motorcycel Inferno",
       "date": "2026-09-05",
