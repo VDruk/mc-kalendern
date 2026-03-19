@@ -17126,7 +17126,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "smc-travel-rumanien-2026",
-      "name": "SMC Travel - Rumäniens dolda skatter",
+      "name": "Rumäniens dolda skatter",
       "date": "2026-09-04",
       "dateEnd": "2026-09-20",
       "location": "Karlskrona (avfärd med färja)",
