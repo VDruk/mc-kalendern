@@ -1392,8 +1392,8 @@ const EVENTS_DATA = {
       "location": "Hos din Triumph-handlare",
       "type": "Show",
       "organizer": "Triumph Motorcycles",
-      "description": "Nya Bonneville 2026! Uppdaterade Scrambler 900, Bobber och Speedmaster med bättre chassi, fjädring och ny design. Besök lanseringen hos 5 handlare runt om i Sverige.",
-      "descriptionFull": "Stora uppdateringar i Bonneville-familjen för 2026. Scrambler 900 får nytt chassi, Showa-fjädring och kurvkänslig ABS. Bobber och Speedmaster får större 14-liters tank och bredare säte.\n\nUppdateringar även för T100, T120, T120 Black och Scrambler 1200 XE.\n\nLanseringsevent lördag 21 mars:\n\n1. Triumph Stockholm Norr, Upplands Väsby\n2. Mc-konsult, Lidköping (kl 10-13)\n3. Lingvalls Motor, Gävle (kl 10-13)\n4. Johans MC, Göteborg (kl 10-14)\n5. Alternativ 1 Motorcyklar, Kalmar (kl 10-14)",
+      "description": "Nya Bonneville 2026! Uppdaterade Scrambler 900, Bobber och Speedmaster med bättre chassi, fjädring och ny design. Besök lanseringen hos 6 handlare runt om i Sverige.",
+      "descriptionFull": "Stora uppdateringar i Bonneville-familjen för 2026. Scrambler 900 får nytt chassi, Showa-fjädring och kurvkänslig ABS. Bobber och Speedmaster får större 14-liters tank och bredare säte.\n\nUppdateringar även för T100, T120, T120 Black och Scrambler 1200 XE.\n\nLanseringsevent lördag 21 mars:\n\n1. Triumph Stockholm Norr, Upplands Väsby\n2. Mc-konsult, Lidköping (kl 10-13)\n3. Lingvalls Motor, Gävle (kl 10-13)\n4. Johans MC, Göteborg (kl 10-14)\n5. Alternativ 1 Motorcyklar, Kalmar (kl 10-14)\n6. GMC Karlstad (kl 10-13)",
       "frontImage": "ads/triumph-bonneville-2026-front.jpg",
       "backImage": "ads/triumph-bonneville-2026-back.jpg",
       "links": [
@@ -1546,6 +1546,36 @@ const EVENTS_DATA = {
       ],
       "link": "https://www.facebook.com/events/769285075902559",
       "region": "Kalmar",
+      "source": "facebook.com"
+    },
+    {
+      "id": "bonneville-lansering-karlstad-2026",
+      "name": "Triumph Unleashed - Bonneville Event",
+      "date": "2026-03-21",
+      "dateEnd": "2026-03-21",
+      "location": "GMC Karlstad, Gjuterigatan 8",
+      "type": "Show",
+      "organizer": "GMC Karlstad",
+      "description": "Nya Bonneville-modellerna 2026 i butiken! 10 000 kr i kläder/delar/tillbehör vid kontrakt under dagen. Fika och tilltugg. Lördag kl 10-13.",
+      "descriptionFull": "Denna helg kör vi Triumph-tema i butiken och presenterar de nya Bonneville-modellerna för 2026.\n\nErbjudande: Välj kläder, delar och tillbehör till ett värde av 10 000 kr om du skriver kontrakt under dagen. Gäller samtliga Bonneville-modeller.\n\nVi bjuder på fika och tilltugg. Varmt välkommen!\n\nTid: Lördag 21 mars kl 10:00-13:00\nPlats: Gjuterigatan 8, 652 21 Karlstad.",
+      "backImage": "ads/bonneville-lansering-karlstad-back-2026-03-21.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1471187981267986"
+        },
+        {
+          "label": "GMC Karlstad",
+          "url": "https://www.facebook.com/profile.php?id=100028020349323"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gjuterigatan+8+Karlstad",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1471187981267986",
+      "region": "Värmland",
       "source": "facebook.com"
     },
     {
