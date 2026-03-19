@@ -9194,6 +9194,7 @@ const EVENTS_DATA = {
       "type": "Fest",
       "organizer": "VICS",
       "description": "Skandinaviens största motor-, musik- och matfestival för amerikanska mc-märken. Victory, Indian, Harley-Davidson och fler. 4-7 juni 2026 på Lundegård Camping, Öland.",
+      "backImage": "ads/american-days-back-2026-06-04.jpg",
       "link": "https://www.americandays.se/",
       "region": "Kalmar",
       "source": "vics.se",
