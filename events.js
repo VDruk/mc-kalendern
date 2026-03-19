@@ -1635,21 +1635,31 @@ const EVENTS_DATA = {
       "id": "smc-jonkoping-årsmöte-2026",
       "name": "SMC Jönköpings Årsmöte 2026",
       "date": "2026-03-22",
-      "location": "Jönköping",
+      "dateEnd": "2026-03-22",
+      "location": "Jönköpings Golfklubb, Golfbanevägen 11",
       "region": "Jönköping",
       "type": "Träff",
-      "organizer": "SMC",
-      "description": "SMC Jönköpings årsmöte kl 13. Mötet inleds med ett föredrag av Björn Gunnarsson. Därefter årsmöte! SMC bjuder på fika.",
-      "link": "https://svmc.se",
-      "descriptionFull": "SMC Jönköpings Årsmöte 2026 arrangeras av SMC.\n\nSMC Jönköpings årsmöte kl 13. Mötet inleds med ett föredrag av Björn Gunnarsson. Därefter årsmöte! SMC bjuder på fika. Plats meddelas på hemsida och Facebook.",
+      "organizer": "SMC Jönköping",
+      "description": "Gratis föreläsning av Björn 'BG' Gunnarsson om Isle of Man TT! Max 100 platser. Därefter årsmöte kl 15:30. Lokalen öppnar 12:30. Kl 13-17.",
+      "backImage": "ads/smc-jonkoping-arsmote-back-2026-03-22.jpg",
+      "link": "https://www.facebook.com/events/2076547806512885",
+      "descriptionFull": "SMC Jönköping bjuder in till föreläsning och årsmöte.\n\nBjörn 'BG' Gunnarsson berättar om sina äventyr på Isle of Man TT. Max 100 platser, först till kvarn gäller.\n\nEfter föreläsningen håller vi årsmötet kl 15:30-17:00.\n\nLokalen öppnar 12:30. Gratis för SMC Jönköping medlemmar.\n\nAnmälan obligatorisk via länken.\n\nPlats: Jönköpings Golfklubb, Golfbanevägen 11, 556 27 Jönköping.",
       "links": [
         {
-          "label": "svmc.se",
-          "url": "https://svmc.se"
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2076547806512885"
+        },
+        {
+          "label": "Anmälan",
+          "url": "https://forms.office.com/e/S4Mhd12dQb"
+        },
+        {
+          "label": "SMC Jönköping",
+          "url": "https://www.facebook.com/SMCJonkoping"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=J%C3%B6nk%C3%B6ping",
+          "url": "https://www.google.com/maps/search/?api=1&query=Golfbanevägen+11+Jönköping",
           "type": "map"
         }
       ]
