@@ -1101,6 +1101,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "hd-night-quiz-trollhattan-2026",
+      "name": "Harley Night Quiz",
+      "date": "2026-03-20",
+      "dateEnd": "2026-03-20",
+      "location": "BIKE Trollhättan",
+      "type": "Träff",
+      "organizer": "Harley-Davidson Trollhättan",
+      "description": "Harley Nights med quiz kl 19! Tävla om fina priser. Grillad burgare, teknik-tips från Bobby, H.O.G. info. Vassa priser på 2025-modeller. Öppet 18-21.",
+      "descriptionFull": "Välkommen till en exklusiv kväll hos BIKE Trollhättan under Harley Nights tillsammans med Harley-Davidson!\n\nÖppet 18:00-21:00. Vi bjuder på korv och dryck. Grymma erbjudanden på kläder och tillbehör. 2025-modeller på lager med riktigt vassa priser.\n\nKvällens schema:\n18:00-19:00 Vi grillar burgare\n18:30 & 19:30 Teknik-tips från Bobby\n19:00 Quiz med chans att vinna fina priser\n20:00 H.O.G. berättar om sin verksamhet\n\nRegistrera dig via länken på Harley-Davidsons hemsida.",
+      "backImage": "ads/hd-night-quiz-trollhattan-back-2026-03-20.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/908718191889174"
+        },
+        {
+          "label": "H-D Trollhättan",
+          "url": "https://www.facebook.com/hdtrollhattan"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=BIKE+Trollhättan",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/908718191889174",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-lordagsfika-pa-biltema-2026",
       "name": "DOA - Lördagsfika på Biltema",
       "date": "2026-03-21",
