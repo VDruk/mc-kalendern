@@ -2150,6 +2150,32 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "mc-center-oppet-hus-hammaro-2026",
+      "name": "Öppet Hus hos MC Center",
+      "date": "2026-03-28",
+      "dateEnd": "2026-03-28",
+      "location": "MC Center, Bivägen 8, Hammarö",
+      "type": "Show",
+      "organizer": "MC Center Karlstad",
+      "description": "Provkör motorcyklar, fika och snacka hoj! Räntekampanj 3,95% upp till 72 mån vid köp av MC. Lördag kl 10-14. Alla välkomna!",
+      "descriptionFull": "Öppet hus på MC Center!\n\nLördag 28 mars kl. 10:00-14:00.\n\nUnder dagen kan du provköra motorcyklar, njuta av kaffe och fika, snacka hoj och ställa frågor.\n\nExtra erbjudande: Räntekampanj på 3,95% upp till 72 månader vid köp av motorcykel!\n\nTa med en vän, kom förbi och kicka igång säsongen!\n\nPlats: Bivägen 8, 663 41 Hammarö.",
+      "backImage": "ads/mc-center-oppet-hus-back-2026-03-28.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hojgaraget"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bivägen+8+Hammarö",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/hojgaraget",
+      "region": "Värmland",
+      "source": "facebook.com"
+    },
+    {
       "id": "ttc-årsmöte-smc-dalarna-2026",
       "name": "Årsmöte SMC Dalarna",
       "date": "2026-03-29",
