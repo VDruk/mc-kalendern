@@ -8287,6 +8287,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "malardalen-open-25-kjula-2026",
+      "name": "Mälardalen Open #25",
+      "date": "2026-05-23",
+      "dateEnd": "2026-05-24",
+      "location": "Kjula Dragway, Eskilstuna",
+      "type": "Racing",
+      "organizer": "Kjula Dragway",
+      "description": "25:e upplagan av dragracingtävlingen på Kjula Dragway! Anmälan via dragracing.eu. Säkerhetsreglemente på nitroz.se.",
+      "descriptionFull": "Mälardalen Open #25 på Kjula Dragway, 23-24 maj 2026.\n\nMer info kommer som vanligt drygt en månad innan tävling.\n\nAnmälan görs på www.dragracing.eu och den öppnar vanligtvis en månad innan tävlingen.\n\nSäkerhetsreglemente finns på www.nitroz.se.\n\nVid frågor skicka ett mail till info@kjuladragway.com.\n\nPlats: Flygbasvägen, Eskilstuna.",
+      "backImage": "ads/malardalen-open-25-back-2026-05-23.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1409536040632095"
+        },
+        {
+          "label": "dragracing.eu",
+          "url": "https://www.dragracing.eu"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kjula+Dragway+Eskilstuna",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.dragracing.eu",
+      "region": "Södermanland",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d11-mcq-pernillas-tur-2026",
       "name": "D11 mcQ Pernillas tur",
       "date": "2026-05-24",
