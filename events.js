@@ -7289,6 +7289,37 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "zatan-cruisers-sommarfest-laholm-2026",
+      "name": "Sommarfest 2026",
+      "date": "2026-05-16",
+      "dateEnd": "2026-05-16",
+      "location": "Lilla Dömestorp 3, Laholm",
+      "type": "Fest",
+      "organizer": "Zatan Cruisers",
+      "organizerIcon": "clubs/normalized/zatan-cruisers.png",
+      "description": "Fest hos Zatan Cruisers med liveband The Daylight och DJ LINT. Sternhagen Creation smycken, mat och bar. Inträde 100 kr, chauffören gratis. Camping finns.",
+      "descriptionFull": "Den 16 maj slår Zatan Cruisers upp dörrarna för en hejdundrande fest i Laholm!\n\nÖppnar kl. 14.00 med fina knallar och utställare:\n- Sternhagen Creation med smycken för honom och henne\n- Läckra armband, halsband och mycket mer\n- Brodyrmärken av alla olika slag till västen, jackan eller var man nu vill\n- Sköna och fräcka kläder till både fest och vardag\n\nUnder hela dagen/kvällen är kök och bar öppet med pizza och hamburgare.\n\nKvällen öppnar kl. 20.00 med livebandet The Daylight. När dom pausar kör DJ LINT loss med go musik!\n\nInträde: 100 kr (chauffören gratis). Besöker ni på dagen kan ni lösa entré för kvällen för bara 90 spänn.\n\nCampingmöjligheter finns för den som vill stanna.",
+      "backImage": "ads/zatan-cruisers-sommarfest-back-2026-05-16.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/897414892979940"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/zatancruisers"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lilla+Dömestorp+3+Laholm",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/897414892979940",
+      "region": "Halland",
+      "source": "facebook.com"
+    },
+    {
       "id": "do-c-tjorn-orust-rundan-2026",
       "name": "DO-C Tjörn/Orust rundan",
       "date": "2026-05-17",
