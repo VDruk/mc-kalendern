@@ -8928,6 +8928,32 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "himmerlandstraef-2026",
+      "name": "46. Internationale Himmerlandstræf",
+      "date": "2026-05-29",
+      "dateEnd": "2026-05-30",
+      "location": "Markedsvej 12, 9600 Aars, Danmark",
+      "type": "Träff",
+      "organizer": "Aars Touring Club",
+      "description": "Internationell MC-träff nr 46 i Aars, Danmark. Camping, liveband, mat och hygge. Omkring 1 000 gäster från in- och utland varje år.",
+      "descriptionFull": "Himmerlandstræf 2026 är träff nr 46 som Aars Touring Club arrangerar.\n\nTräffen hålls mitt i Aars by på klubbens område och i byparken, som förvandlas till ett campingområde. Omkring 1 000 gäster från Danmark och utlandet samlas varje år.\n\nCampingplatsen öppnar torsdag kl 16:00. Torsdag kväll är det hygge i klubbhuset. Träffen öppnar officiellt fredag kl 12:00.\n\nEntré ger tillgång till camping och träffen. Frukost båda dagarna ingår i entrén. Mat och dryck kan köpas på platsen till rimliga priser.\n\nToalett- och badfaciliteter vid klubbhuset och på campingområdet. Livebands på scenen under träffen.\n\nTräffens placering mitt i Aars betyder att du enkelt kan ta en tur i byn och få lite frisk luft eller en kopp kaffe efter nattens fest.\n\nAdress: Markedsvej 12, 9600 Aars, Danmark.",
+      "backImage": "ads/himmerlandstraef-back-2026-05-29.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1889900591932652/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Markedsvej+12+9600+Aars+Denmark",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1889900591932652/",
+      "region": "Danmark",
+      "source": "facebook.com"
+    },
+    {
       "id": "vattern-runt-med-region-mitt-distrikt-a-d-f-j-2026",
       "name": "Vättern runt med region mitt distrikt A , D , F , J",
       "date": "2026-05-30",
