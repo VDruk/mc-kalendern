@@ -1362,6 +1362,7 @@ const EVENTS_DATA = {
       "location": "MTL Powersport, Mönsterås",
       "type": "Träff",
       "organizer": "MTL Powersport",
+      "organizerIcon": "clubs/normalized/mtl-powersport.png",
       "description": "Royal Enfield fyller 125 år! MTL Powersport firar med extra fokus, nyheter och demohojar att provköra. Servicekampanj med gratis första service vid köp.",
       "descriptionFull": "Royal Enfield fyller 125 år och MTL Powersport firar!\n\nKom och kolla in nyheter samt provkör demohojar. MTL Powersport har haft Royal Enfield i sitt sortiment i ett år och responsen har varit fantastisk.\n\nServicekampanj: Gratis första service vid köp av en Royal Enfield denna dag!\n\nTid: Lördag 21 mars, kl. 10:00 - 13:00.\n\nPlats: MTL Powersport, Västra Oknebäcksvägen 1, Mönsterås.",
       "backImage": "ads/royal-enfield-125-back-2026-03-21.jpg",
@@ -2962,10 +2963,11 @@ const EVENTS_DATA = {
       "location": "Västra Oknebäcksvägen 1, Mönsterås",
       "type": "Träff",
       "organizer": "MTL Powersport",
+      "organizerIcon": "clubs/normalized/mtl-powersport.png",
       "description": "Vi firar Indian Motorcycle 125 år med en dag med extra fokus på deras motorcyklar! Kom och kolla in hojarna vi har i butiken och passa på att provköra.",
       "links": [
         {
-          "label": "Facebook",
+          "label": "FB Event",
           "url": "https://www.facebook.com/events/1406154747848748"
         },
         {
@@ -4257,12 +4259,13 @@ const EVENTS_DATA = {
       "location": "MTL Powersport, Mönsterås",
       "type": "Träff",
       "organizer": "MTL Powersport",
+      "organizerIcon": "clubs/normalized/mtl-powersport.png",
       "description": "MTL Powersport bjuder in till Öppet Hus med erbjudanden, leverantörer på plats och Wincent. Kaffe, korv och fika ingår. Kl 10-14.",
       "descriptionFull": "Den 25 april kommer MTL Powersport hålla sitt populära Öppet Hus!\n\nDet kommer finnas mängder med erbjudanden, flertal leverantörer på plats, Wincent kommer och mycket mer!\n\nKorv och dricka 20 kr. Vi bjuder på kaffe och kaka.\n\nTid: Lördag 25 april, kl 10:00-14:00.\n\nPlats: Västra Oknebäcksvägen 1, 383 36 Mönsterås.",
       "backImage": "ads/mtl-powersport-oppet-hus-back-2026-04-25.jpg",
       "links": [
         {
-          "label": "Facebook",
+          "label": "FB Event",
           "url": "https://www.facebook.com/events/2117254465698506"
         },
         {
