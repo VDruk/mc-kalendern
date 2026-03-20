@@ -2478,6 +2478,33 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "no-name-mc-langfyllefredag-nykoping-2026",
+      "name": "Långfyllefredag",
+      "date": "2026-04-03",
+      "dateEnd": "2026-04-03",
+      "location": "Pilotgången 1, Nyköping",
+      "type": "Fest",
+      "organizer": "No Name Mc Nyköping Sweden",
+      "organizerIcon": "clubs/normalized/no-name-mc-nykoping.png",
+      "description": "No Name Mc Nyköping bjuder in till Långfyllefredag! Vinlotteri med garanterad vinst, ta med egen vinöppnare. Cash is King.",
+      "descriptionFull": "Vi upprepar förra årets Långfyllefredag, i år med:\n\nVinlotteri med garanterad vinst!\nBring your own Wine opener!\nLegendarisk läsk!\n\nCash is King.\n\nTid: Fredag 3 april 2026, kl 14:14.\n\nPlats: Pilotgången 1, Nyköping.",
+      "backImage": "ads/no-name-mc-langfyllefredag-back-2026-04-03.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1442428840595291"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Pilotgången+1+Nyköping",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1442428840595291",
+      "region": "Södermanland",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-lordagsfika-pa-biltema-2026",
       "name": "DOA - Lördagsfika på Biltema",
       "date": "2026-04-04",
