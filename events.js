@@ -12554,7 +12554,8 @@ const EVENTS_DATA = {
       ],
       "link": "https://www.swedishmctouring.se/gotland-2026/",
       "region": "Gotland",
-      "source": "swedishmctouring.se"
+      "source": "swedishmctouring.se",
+      "backImage": "ads/smt-gotland-back-2026-06-30.jpg"
     },
     {
       "id": "doa-sommarkvallstur-nacka-2026",
@@ -14797,7 +14798,8 @@ const EVENTS_DATA = {
       ],
       "link": "https://www.swedishmctouring.se/vanern-runt-2026/",
       "region": "Östergötland",
-      "source": "swedishmctouring.se"
+      "source": "swedishmctouring.se",
+      "backImage": "ads/smt-vanern-runt-back-2026-08-03.jpg"
     },
     {
       "id": "smc-kalla-kriget-2026",
@@ -16829,7 +16831,8 @@ const EVENTS_DATA = {
       ],
       "link": "https://www.swedishmctouring.se/varmland-2026/",
       "region": "Örebro",
-      "source": "swedishmctouring.se"
+      "source": "swedishmctouring.se",
+      "backImage": "ads/smt-varmland-back-2026-08-24.jpg"
     },
     {
       "id": "doa-tisdagslunch-2026",
