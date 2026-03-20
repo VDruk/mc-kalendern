@@ -1757,7 +1757,7 @@ function injectEventSchema() {
     "@type": "Event",
     "name": e.name,
     "startDate": e.date,
-    ...(e.dateEnd && e.dateEnd !== e.date ? { "endDate": e.dateEnd } : {}),
+    "endDate": e.dateEnd || e.date,
     "location": {
       "@type": "Place",
       "name": e.location || "Se evenemang",
@@ -1781,6 +1781,9 @@ function injectEventSchema() {
     "offers": {
       "@type": "Offer",
       "url": e.link || "https://druk.se/",
+      "price": "0",
+      "priceCurrency": "SEK",
+      "validFrom": e.date,
       "availability": "https://schema.org/InStock"
     },
     "url": e.link || "https://druk.se/",
