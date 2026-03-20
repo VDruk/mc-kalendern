@@ -1701,7 +1701,7 @@ const EVENTS_DATA = {
       "backImage": "ads/lelledagarna-uppsala-back-2026-03-23.jpg",
       "links": [
         {
-          "label": "Lelles MC",
+          "label": "Facebook",
           "url": "https://www.facebook.com/lellesmc"
         },
         {
