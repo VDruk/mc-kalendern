@@ -2374,7 +2374,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "mc-dag-besikta-alvesta-2026",
-      "name": "MC-dag hos Besikta Alvesta",
+      "name": "MC-dag hos Besikta",
       "date": "2026-04-01",
       "dateEnd": "2026-04-01",
       "location": "Björnstorpsvägen 1, Alvesta",
