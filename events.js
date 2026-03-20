@@ -8348,6 +8348,33 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "dm-vastra-mx-uddevalla-2026",
+      "name": "DM Västra MX",
+      "date": "2026-05-23",
+      "dateEnd": "2026-05-24",
+      "location": "Glimmingen 420, Uddevalla",
+      "type": "Racing",
+      "organizer": "BMK Uddevalla",
+      "organizerIcon": "clubs/normalized/bmk-uddevalla.png",
+      "description": "Distriktsmästerskap i motocross på Glimmingen i Uddevalla. Klasser från 65cc upp till MX1. Arrangeras av BMK Uddevalla - Motorcykel och Snöskoter.",
+      "descriptionFull": "DM Västra MX 23-24 maj 2026 på Glimmingen, Uddevalla.\n\nBoka in 23-24 maj då BMK Uddevalla kör DM på Glimmingen. Klasserna är 65cc upp till MX1.\n\nArrangör: BMK Uddevalla - Motorcykel och Snöskoter.\n\nPlats: Glimmingen 420, Uddevalla.",
+      "backImage": "ads/dm-vastra-mx-back-2026-05-23.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1408719730696223"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Glimmingen+420+Uddevalla",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1408719730696223",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d11-mcq-pernillas-tur-2026",
       "name": "D11 mcQ Pernillas tur",
       "date": "2026-05-24",
