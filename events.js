@@ -4946,6 +4946,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "apex-mc-gruskurs-filipstad-2026",
+      "name": "APEX MC Gruskurs Fortsättning",
+      "date": "2026-05-01",
+      "dateEnd": "2026-05-03",
+      "location": "Filipstad, Värmland",
+      "type": "Körning",
+      "organizer": "APEX MC",
+      "description": "2 dagars fortsättningskurs på grus och offroad genom Värmland och Dalarna. Coaching och personlig feedback. Boende, frukost och lunch ingår. 5 995 kr.",
+      "descriptionFull": "Gruskurs Fortsättning med APEX MC i Filipstad, Värmland.\n\nTvå dagars grusåkning och offroad i absolut världsklass genom Värmland och Dalarna. Coaching och personlig feedback i sann APEX-anda.\n\nDetta är en fortsättningskurs. Ribban höjs, inte bara på boende och mat utan även på körningen. Ordentliga offroad-däck krävs. Det är inte ett enduroläger utan adventureåkning. Var du bekväm under grundkursen i den främre halvan av gruppen? Då klarar du det. Hojvana och rutin på grus är ett måste.\n\nKurserna körs med egen motorcykel på grus och skogsvägar.\n\nPris: 5 995 kr. Inkl boende 2 nätter, frukost och lunch 2 dagar.\n\nSamling fredag kväll kl 18:00. Avslut söndag. Vi utgår från och kommer tillbaka till Filipstad varje dag.\n\nAnmälan: info@apexmc.se. Ange namn, telefonnummer samt kontaktuppgifter till närmast anhörig.\n\nwww.apexmc.se/gruskurser/",
+      "backImage": "ads/apex-mc-gruskurs-back-2026-05-01.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/reel/1253111180117927"
+        },
+        {
+          "label": "apexmc.se",
+          "url": "https://www.apexmc.se/gruskurser/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Filipstad+Värmland",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.apexmc.se/gruskurser/",
+      "region": "Värmland",
+      "source": "facebook.com"
+    },
+    {
       "id": "lo-i-lordagskörningar-kramfors-2026",
       "name": "LO I Lördagskörningar Kramfors",
       "date": "2026-05-02",
