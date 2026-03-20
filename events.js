@@ -8457,6 +8457,37 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "knockdown-mc-charity-run-2026",
+      "name": "Charity Run MC-kortege",
+      "date": "2026-05-23",
+      "dateEnd": "2026-05-23",
+      "location": "Forskarvägen 15, Gävle",
+      "type": "Körning",
+      "organizer": "Knockdown MC Gefle",
+      "organizerIcon": "clubs/normalized/knockdown-mc-gefle.png",
+      "description": "5-årsjubileum! MC-kortege till förmån för Cancerfonden. Live på scen: Carmilla. Entré 150 kr. Mer info på knockdownmc.se.",
+      "descriptionFull": "Knockdown MC Gefle firar 5-årsjubileum med Charity Run!\n\nDetta år kör vi för Cancerfonden då en broder har drabbats. Tillsammans samlar vi in en rejäl summa pengar och har det trevligt under dagen.\n\nMC-kortege genom Gävle. Live på scen: Carmilla. Entré 150 kr.\n\nMer information på www.knockdownmc.se.\n\nLördag 23 maj kl 16:00.\nPlats: Forskarvägen 15, Gävle.",
+      "backImage": "ads/knockdown-mc-charity-run-back-2026-05-23.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/899422345907891"
+        },
+        {
+          "label": "knockdownmc.se",
+          "url": "https://www.knockdownmc.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Forskarvägen+15+Gävle",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/899422345907891",
+      "region": "Gävleborg",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d11-mcq-pernillas-tur-2026",
       "name": "D11 mcQ Pernillas tur",
       "date": "2026-05-24",
