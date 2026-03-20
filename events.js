@@ -10871,6 +10871,7 @@ const EVENTS_DATA = {
       "region": "Norrbotten",
       "source": "bmwklubben.se",
       "descriptionFull": "Årsträff 2026 Piteå arrangeras av BMW MC-klubben.\n\nTorsdag 11 juni t.o.m. söndag 14 juni går årsträffen 2026 av stapeln på Pite Havsbad. Varmt välkommen! ...\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Havsbadsvägen, Piteå.",
+      "backImage": "ads/bmw-arstraff-pitea-back-2026-06-11.jpg",
       "links": [
         {
           "label": "bmwklubben.se",
