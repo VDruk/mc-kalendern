@@ -13115,6 +13115,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "hmcv-varmland-veteransvangen-2026",
+      "name": "Veteransvängen Rallyhelg",
+      "date": "2026-07-04",
+      "dateEnd": "2026-07-05",
+      "location": "Skoghallsparken & Skutberget, Hammarö",
+      "type": "Körning",
+      "organizer": "HMCV Värmland",
+      "description": "Rallyhelg med två veteranrallyn i Värmland. Lördag: MC och moped min 30 år, ca 6 mil. Söndag: MC min 60 år, ca 12 mil. Startavgift 250 kr.",
+      "descriptionFull": "Välkommen till en rallyhelg i vackra Värmland på fina slingrande vägar på Hammarö och i Fryksdalen!\n\nRallyhelg = 2 rallyn, ett på lördag, ett på söndag.\n\nLördag 4 juli: Hammarösvängen\nStart 09:30 Skoghallsparken. MC- och mopedrally, fordon min 30 år. Banlängd ca 6 mil.\n\nSöndag 5 juli: HMCV Värmland Veteransvängen\nStart 10:00 Skutberget. MC-rally, MC min 60 år. Banlängd ca 12 mil.\n\nMat och kaffe båda dagarna ingår i startavgiften.\n\nNattlogi: Skutbergets Camping & Stugor, boka via 054-535130.\n\nStartavgift t.o.m. 1/7: 250 kr. Kör båda rallyna, betala bara för ett. Anmälan på rallydagen kostar 300 kr.\n\nFöranmälan: pia.sawe@hotmail.com, T. 0767-700869.\nBetalning: Swish 123 587 8350 eller Plusgiro 132 751-9. Märk betalningen *RALLY* + *DITT NAMN*.\n\nMer information: Mats Gustafsson T. 0761-663139.\nhammaromc.se",
+      "backImage": "ads/hmcv-varmland-veteransvangen-back-2026-07-04.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/photo/?fbid=26691354573806038&set=g.738956209589269"
+        },
+        {
+          "label": "hammaromc.se",
+          "url": "https://www.hammaromc.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Skoghallsparken+Hammarö",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.hammaromc.se",
+      "region": "Värmland",
+      "source": "facebook.com"
+    },
+    {
       "id": "do-c-lars-eriks-glassrunda-2026",
       "name": "DO-C Lars-Eriks glassrunda",
       "date": "2026-07-05",
