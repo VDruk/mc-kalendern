@@ -2373,6 +2373,37 @@ const EVENTS_DATA = {
       "source": "thetwinclub.se"
     },
     {
+      "id": "mc-dag-besikta-alvesta-2026",
+      "name": "MC-dag hos Besikta Alvesta",
+      "date": "2026-04-01",
+      "dateEnd": "2026-04-01",
+      "location": "Björnstorpsvägen 1, Alvesta",
+      "type": "Träff",
+      "organizer": "Besikta Bilprovning",
+      "organizerIcon": "clubs/normalized/besikta.png",
+      "description": "Väck hojen ur vintervilan! Besikta Alvesta erbjuder 100 kr rabatt på MC-besiktning. Boka med kod MC2A2026. Kl 08-12.",
+      "descriptionFull": "MC-dag hos Besikta i Alvesta den 1 april 2026.\n\nNu är det dags att väcka hojen ur vintervilan! Under MC-dagen erbjuder Besikta 100 kr rabatt på besiktning av din motorcykel.\n\nAnvänd kampanjkoden MC2A2026 när du bokar din tid.\n\nPassa på att boka i tid och gör din motorcykel redo för en ny säsong på vägarna.\n\nTid: Onsdag 1 april, kl 08:00-12:00.\n\nPlats: Björnstorpsvägen 1, 342 30 Alvesta.",
+      "backImage": "ads/mc-dag-besikta-alvesta-back-2026-04-01.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/758695180445895"
+        },
+        {
+          "label": "besikta.se",
+          "url": "https://besikta.se/mcdagar2026"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Björnstorpsvägen+1+Alvesta",
+          "type": "map"
+        }
+      ],
+      "link": "https://besikta.se/mcdagar2026",
+      "region": "Kronoberg",
+      "source": "facebook.com"
+    },
+    {
       "id": "doh-fika-lycksele-2026",
       "name": "DOH-Fika Lycksele",
       "date": "2026-04-02",
@@ -2938,6 +2969,7 @@ const EVENTS_DATA = {
       "location": "Skottvägen 5, 703 84 Örebro",
       "type": "Träff",
       "organizer": "Besikta Bilprovning",
+      "organizerIcon": "clubs/normalized/besikta.png",
       "description": "MC-dag hos Besikta med besiktning till specialpris. Boka din MC-besiktning med 100 kr rabatt och gör hojen redo för säsongen.",
       "backImage": "ads/mc-dag-besikta-orebro-back-2026-04-11.jpg",
       "descriptionFull": "MC-dag hos Besikta i Örebro den 11 april 2026.\n\nNu är det dags att väcka hojen ur vintervilan! Under MC-dagen erbjuder Besikta 100 kr rabatt på besiktning av din motorcykel. Använd kampanjkoden MC2A2026 när du bokar din tid.\n\nÖppet kl 09:00-15:00.\n\nPlats: Besikta Örebro, Skottvägen 5, 703 84 Örebro.",
