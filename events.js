@@ -7320,6 +7320,32 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "swapmeet-varberg-2026",
+      "name": "Swapmeet",
+      "date": "2026-05-16",
+      "dateEnd": "2026-05-16",
+      "location": "Susvindsvägen 9, Varberg",
+      "type": "Träff",
+      "organizer": "Varbergs Mc Klubb",
+      "description": "Swapmeet hos Varbergs Mc Klubb på Kåken. 100 kr för ett bord. Som säljare får man inträde till vårfesten på kvällen. Sista anmälan 15/5.",
+      "descriptionFull": "Swapmeet 16/5 kl 10-14 på Kåken, Susvindsvägen 9, Varberg.\n\n100 kr för ett bord. Som säljare får man automatiskt inträde till vårfesten på kvällen.\n\nSista anmälan 15/5. Swish till 123 021 88 18, märk med Swap.\n\nArrangör: Varbergs Mc Klubb.",
+      "backImage": "ads/swapmeet-varberg-back-2026-05-16.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/858222117216147"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Susvindsvägen+9+Varberg",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/858222117216147",
+      "region": "Halland",
+      "source": "facebook.com"
+    },
+    {
       "id": "do-c-tjorn-orust-rundan-2026",
       "name": "DO-C Tjörn/Orust rundan",
       "date": "2026-05-17",
