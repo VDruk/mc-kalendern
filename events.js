@@ -4250,6 +4250,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "mtl-powersport-oppet-hus-monsteras-2026",
+      "name": "Öppet Hus - Save the date",
+      "date": "2026-04-25",
+      "dateEnd": "2026-04-25",
+      "location": "MTL Powersport, Mönsterås",
+      "type": "Träff",
+      "organizer": "MTL Powersport",
+      "description": "MTL Powersport bjuder in till Öppet Hus med erbjudanden, leverantörer på plats och Wincent. Kaffe, korv och fika ingår. Kl 10-14.",
+      "descriptionFull": "Den 25 april kommer MTL Powersport hålla sitt populära Öppet Hus!\n\nDet kommer finnas mängder med erbjudanden, flertal leverantörer på plats, Wincent kommer och mycket mer!\n\nKorv och dricka 20 kr. Vi bjuder på kaffe och kaka.\n\nTid: Lördag 25 april, kl 10:00-14:00.\n\nPlats: Västra Oknebäcksvägen 1, 383 36 Mönsterås.",
+      "backImage": "ads/mtl-powersport-oppet-hus-back-2026-04-25.jpg",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/events/2117254465698506"
+        },
+        {
+          "label": "mtlpowersport.se",
+          "url": "https://www.mtlpowersport.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Västra+Oknebäcksvägen+1+Mönsterås",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.mtlpowersport.se",
+      "region": "Kalmar",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d9-aprilgruset-2026",
       "name": "D9 Aprilgruset",
       "date": "2026-04-26",
