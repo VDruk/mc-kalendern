@@ -7396,6 +7396,32 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "northbike-test-driving-day-ornskoldsvik-2026",
+      "name": "Northbike Test Driving Day",
+      "date": "2026-05-17",
+      "dateEnd": "2026-05-17",
+      "location": "Viktoriaesplanaden 1, Örnsköldsvik",
+      "type": "Show",
+      "organizer": "Northbike, H-D Sundsvall & H-D Umeå",
+      "description": "Provkörningsdag med 20-25 demohojar! Snitslade slingor för adventure och street. ÖMCC flippar burgare. Hoppborg och ansiktsmålning för barnen. Kl 10-16.",
+      "descriptionFull": "Northbike och Harley-Davidson butikerna genomför en provkörningsdag i Örnsköldsvik i samverkan med de lokala aktörerna ÖMCC, Ö-viks Marina, Nolaskogstrafikskola och SMC. Även Nordea och Svedea medverkar.\n\nCFMoto har representant på plats och givetvis ett gäng hojar.\n\nVi håller till nere vid Arena parkeringen vid ÖMCCs lokaler.\n\n20-25 demohojar som du som kund har möjlighet att provköra. Provkörningsslingor kommer också vara snitslade, en för adventure hojar och en för street.\n\nÖMCC flippar burgare.\n\nHoppborg och ansiktsmålning för de yngre.\n\nVarmt välkomna! En härlig dag i motorns tecken.",
+      "backImage": "ads/northbike-test-driving-day-back-2026-05-17.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/948747371434418"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+1+Örnsköldsvik",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/948747371434418",
+      "region": "Västernorrland",
+      "source": "facebook.com"
+    },
+    {
       "id": "kemora-ring-speedskills-2026",
       "name": "Kemora Ring med SpeedSkills",
       "date": "2026-05-18",
