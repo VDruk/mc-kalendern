@@ -2484,7 +2484,7 @@ const EVENTS_DATA = {
       "dateEnd": "2026-04-03",
       "location": "Pilotgången 1, Nyköping",
       "type": "Fest",
-      "organizer": "No Name Mc Nyköping Sweden",
+      "organizer": "No Name Mc",
       "organizerIcon": "clubs/normalized/no-name-mc-nykoping.png",
       "description": "No Name Mc Nyköping bjuder in till Långfyllefredag! Vinlotteri med garanterad vinst, ta med egen vinöppnare. Cash is King.",
       "descriptionFull": "Vi upprepar förra årets Långfyllefredag, i år med:\n\nVinlotteri med garanterad vinst!\nBring your own Wine opener!\nLegendarisk läsk!\n\nCash is King.\n\nTid: Fredag 3 april 2026, kl 14:14.\n\nPlats: Pilotgången 1, Nyköping.",
