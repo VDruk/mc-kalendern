@@ -11307,6 +11307,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "stensby-racing-bandagar-mantorp-2026",
+      "name": "Bandagar Stensby Racing",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-18",
+      "location": "Mantorp Park, Mantorp",
+      "type": "Körning",
+      "organizer": "Stensby Racing",
+      "description": "Två heldagar på bana med körning, service och gemenskap! Öppen depå 9-17, fotografer, däckservice och restaurang på plats.",
+      "descriptionFull": "Två heldagar på bana med massor av körning, service och gemenskap!\n\nNytt datum: 17-18 juni 2026, men upplägget är detsamma:\n\nÖppen depå 9-17, kör så mycket du vill!\nFotografer på plats, minnen för livet.\nPrimo Moto / Pirelli däckservice, alltid fräscha däck.\nRestaurang Depå, mat och fika hela dagen.\nAmbulans på plats, säkerheten först.\n\nAdvanced Motobility med komplett sortiment: skinnställ, handskar, stövlar m.m.\nBjörsner MC Teknik med support, reservdelar och bromsbänk bara 5 km från banan. De ställer även ut MC-modeller från Royal Enfield och Suzuki för provkörning!\n\nBoka din plats i tid, förra året fyllde vi snabbt!\n\nPlats: Mantorp Park, Mantorp.",
+      "backImage": "ads/stensby-racing-bandagar-back-2026-06-17.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2014933485948219"
+        },
+        {
+          "label": "stensby-racing.se",
+          "url": "https://stensby-racing.se/bandag-testtune-mantorp-park/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mantorp+Park+Mantorp",
+          "type": "map"
+        }
+      ],
+      "link": "https://stensby-racing.se/bandag-testtune-mantorp-park/",
+      "region": "Östergötland",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-dagstur-ekero-2026",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-06-18",
