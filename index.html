@@ -1145,6 +1145,12 @@ const AD_PLACEMENTS = [];
 function cardExpand(id) {
   const card = document.getElementById(id);
   if (!card) return;
+  // Load deferred back image on first expand
+  const deferredImg = card.querySelector('.back-img[data-src]');
+  if (deferredImg) {
+    deferredImg.src = deferredImg.dataset.src;
+    deferredImg.removeAttribute('data-src');
+  }
   card.classList.add('flipped');
   // Check scroll after flip animation completes
   const scrollArea = card.querySelector('.back-scroll-area');
@@ -1765,7 +1771,7 @@ function render() {
     let backHTML = '';
     if (hasBack) {
       const fullDesc = (event.descriptionFull || event.description || '').split('\n').map(p => `<p>${p}</p>`).join('');
-      const backImg = event.backImage ? `<img class="back-img" src="${event.backImage}" alt="${displayName}" loading="lazy">` : '';
+      const backImg = event.backImage ? `<img class="back-img" data-src="${event.backImage}" alt="${displayName}" loading="lazy">` : '';
       let linksHTML = '';
       if (event.links && event.links.length > 0) {
         const extIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
