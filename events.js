@@ -5033,6 +5033,36 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "jmc-sasongsstart-2026",
+      "name": "JMC Säsongsstart 1 Maj",
+      "date": "2026-05-01",
+      "dateEnd": "2026-05-01",
+      "location": "Asecs, Kompanigatan 36, Jönköping",
+      "type": "Träff",
+      "organizer": "JMC Samåkning Småland",
+      "description": "Säsongspremiär för JMC! Samling vid Asecs parkering kl 13. Oavsett om du kör glidare, sportoj eller äventyrshoj. Gratis medlemskap, alla välkomna!",
+      "link": "https://www.facebook.com/events/1429442905473574/",
+      "region": "Jönköping",
+      "source": "facebook.com",
+      "backImage": "ads/jmc-sasongsstart-back-2026-05-01.jpg",
+      "descriptionFull": "JMC Säsongsstart 1 Maj arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nVintern börjar släppa sitt grepp och asfalten kallar. Vi i JMC är mer än redo att kickstarta motorcykelsäsongen 2026!\n\nOavsett om du kör glidare, sportoj eller äventyrshoj, ser vi fram emot en säsong fylld av JMC gemenskap, kurviga vägar och oförglömliga fikapauser.\n\nTa chansen att hitta din \"side kick\" inför 2026 på Asecs parkeringen 1 Maj!\n\nÄr du inte gratis medlem ännu? Ingen fara! Alla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1429442905473574/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/groups/mcsamakning/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Asecs+Kompanigatan+36+J%C3%B6nk%C3%B6ping",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "apex-mc-gruskurs-filipstad-2026",
       "name": "APEX MC Gruskurs Fortsättning",
       "date": "2026-05-01",
