@@ -123,6 +123,24 @@
     font-size: 12px; color: rgba(255,255,255,0.55);
     text-transform: uppercase; letter-spacing: 1px;
   }
+  .hero-badge {
+    display: none;
+  }
+  @media (min-width: 900px) {
+    .hero-badge {
+      display: block;
+      position: absolute;
+      right: 12%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 3;
+    }
+    .hero-badge img {
+      width: 150px;
+      height: 150px;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
+    }
+  }
 
   /* ========== SEARCH BAR ========== */
   .search-section {
@@ -943,6 +961,7 @@
 <header class="hero">
   <div class="hero-bg"></div>
   <div class="hero-overlay"></div>
+  <div class="hero-badge"><img src="ads/wreath-badge.png" alt="Sveriges Största MC-Kalendern - Utmärkelse 2026"></div>
   <div class="hero-content">
     <h1 class="hero-logo">MC <span>Kalendern</span></h1>
     <div class="hero-sub">MC-träffar och MC-evenemang i Sverige 2026</div>
