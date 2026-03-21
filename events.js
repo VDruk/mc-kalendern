@@ -15280,6 +15280,27 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "wilma-memorial-run-2026",
+                              "name": "Wilma Memorial Run",
+                              "date": "2026-07-18",
+                              "dateEnd": "2026-07-18",
+                              "location": "Kurödsvägen 9, Uddevalla",
+                              "type": "Körning",
+                              "organizer": "Wilma Memorial Run",
+                              "description": "MC Poker Run till minne av Wilma Andersson. Burgare, bilutställning, monstertrucks, provkörning motorcyklar och MC-mässa i Uddevalla.",
+                              "descriptionFull": "Ett MC Poker Run till minne av Wilma Andersson. För att hedra Wilmas minne arrangeras varje år ett MC Poker Run som bidrar till en bättre framtid i Wilmas namn.\n\nProgrammet bjuder på:\n- MC Poker Run\n- Burgare och mat\n- Bilutställning\n- Monstertrucks\n- Provkörning motorcyklar\n- MC-mässa (MM)\n\nArrangörer: Wilma Memorial Run, Two Old Chef's och Audio 55 AB.\n\nPlats: Kurödsvägen 9, 451 55 Uddevalla\nDatum: Lördag 18 juli, start kl 10:00",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1225867636272634"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1225867636272634",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/wilma-memorial-run-back-2026-07-18.jpg"
+                    },
+                    {
                               "id": "doa-emilsturen-2026-07-19",
                               "name": "DOA - Emilsturen",
                               "date": "2026-07-19",
