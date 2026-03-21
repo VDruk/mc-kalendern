@@ -3212,6 +3212,27 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "grus-och-grill-2-2026",
+                              "name": "Grus & Grill 2",
+                              "date": "2026-04-11",
+                              "dateEnd": "2026-04-11",
+                              "location": "Romesjöns Badplats, Kungälv",
+                              "type": "Träff",
+                              "organizer": "ADV riders väst",
+                              "description": "Grus och grill vid Romesjöns badplats. Andra upplagan, bättre organiserat och lika trevligt som förra gången. Arrangerat av ADV riders väst.",
+                              "descriptionFull": "Grus & Grill 2.\n\nBättre organiserat och lika trevligt som förra gången.\n\nKom och häng vid Romesjöns Badplats utanför Kungälv! Gruskörning och grillning med likasinnade adventure-förare.\n\nArrangör: Christian Areschoug och ADV riders väst\nPlats: Romesjöns Badplats, Kungälv\nDatum: Lördag 11 april, start kl 10:00",
+                              "backImage": "ads/grus-och-grill-2-back-2026-04-11.jpg",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1246421477446395"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1246421477446395",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com"
+                    },
+                    {
                               "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
                               "name": "D15 Söndagsvandring Gyllebosjön Runt",
                               "date": "2026-04-12",
@@ -6421,6 +6442,35 @@ const EVENTS_DATA = {
                               "link": "https://www.hdcs.se",
                               "region": "Halland",
                               "source": "FB"
+                    },
+                    {
+                              "id": "adventuredag-crossbana-sturup-2026",
+                              "name": "Adventuredag på crossbana!",
+                              "date": "2026-05-09",
+                              "dateEnd": "2026-05-09",
+                              "location": "Sturupsbanan, Svedala",
+                              "type": "Körning",
+                              "organizer": "Malin Åhr / Vi som gillar att åka grus 2.0",
+                              "description": "Adventuredag på Sturups cross- och endurobana! Lillemans MC stöttar eventet. Svemo prova-på-licens 210 kr + 200 kr träningsavgift till klubben.",
+                              "descriptionFull": "Adventuredag på Sturups cross- och endurobana den 9 maj!\n\nJag har bokat hela anläggningen och Lillemans MC är såklart med och stöttar eventet. En grym chans för dig som vill köra offroad med din adventurehoj!\n\nMer information kommer senare, så håll utkik på min Instagram-sida! (Mitt användarnamn är \"malin.ahr\") Så blockera 9 maj i din kalender redan nu och tipsa dina hojkompisar.\n\nFör att få köra på banan MÅSTE du ha en Svemo-licens. Man kan köpa en prova-på licens som gäller för en dag och den kostar 210 kr.\n\nDu behöver även betala 200 kr i träningsavgift till klubben som underhåller Sturupsbanan.\n\nKom ihåg att körningen görs på egen risk.\n\nPlats: Sturupsbanan, Svedala",
+                              "backImage": "ads/adventuredag-crossbana-back-2026-05-09.jpg",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/2903087543222947"
+                                        },
+                                        {
+                                                  "label": "Svemo licens",
+                                                  "url": "https://svemo.se/nyfiken-pa-motorsport-testa-vara-sporter/"
+                                        },
+                                        {
+                                                  "label": "Sturupsbanan",
+                                                  "url": "https://www.limhamnsmk.se/sida/?ID=182082"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/2903087543222947",
+                              "region": "Skåne",
+                              "source": "facebook.com"
                     },
                     {
                               "id": "doa-emilsturen-2026-05-10",
@@ -12509,6 +12559,32 @@ const EVENTS_DATA = {
                               "region": "Östergötland",
                               "source": "facebook.com",
                               "backImage": "ads/ridersday-back-2026-06-18.jpg"
+                    },
+                    {
+                              "id": "lort-2-grusbus-halsingland-2026",
+                              "name": "L.O.R.T. 2026 nr 2 - Grusbushelg",
+                              "date": "2026-06-18",
+                              "dateEnd": "2026-06-21",
+                              "location": "Lillbo, Alfta, Hälsingland",
+                              "type": "Körning",
+                              "organizer": "Långrösten Off-Road Träff",
+                              "description": "Gruskörning i Hälsingland, tillfälle 2! 3 dagars offroad runt Alfta-Bollnäs-Edsbyn-Voxna. 15-25 mil/dag, 90% grus. Max 10 deltagare. Nivå Medel (Blå).",
+                              "descriptionFull": "L.O.R.T. (Långrösten Off-Road Träff) 2026, tillfälle 2.\n\nGrusåkning i Hälsingland sommar 2026. Nivå Medel till Halvavancerat (Blå).\n\nVälkommen till lite gruskörning, utgående från byn Lillbo vid Långrösten (1,7 mil norr om Alfta). Rutterna går i närområdet runt Alfta-Bollnäs-Edsbyn-Voxna.\n\nDaglig utgångspunkt från Lillbo. Beräknad körsträcka 15-25 mil per dag, uppskattat mer än 90% på grus.\n\nDet mesta är vanliga offentliga grusvägar, mestadels rätt små men större transporter förekommer. En del varierande lättare terrängsträckor kan inplaneras, beroende på deltagarnas förkunskaper och hojar.\n\nAlla hojar och förare välkomna, men riktar sig främst till mellantunga hojar och förare som har viss vana av grus. Hojen bör ha grovmönstrade däck.\n\nMax 10 deltagare per tillfälle. Körning i grupp med cornerman-principen.\n\nArrangör: Michael Östh\nPlats: Lillbo Alfta, SE-822 99 Alfta",
+                              "backImage": "ads/lort-2-grusbus-halsingland-back-2026-06-18.jpg",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/3139160872937160"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Lillbo+Alfta+Hälsingland",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/3139160872937160",
+                              "region": "Gävleborg",
+                              "source": "facebook.com"
                     },
                     {
                               "id": "hdcs-midsommartraff-2026",
