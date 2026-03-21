@@ -10978,6 +10978,15 @@ const EVENTS_DATA = {
                                         {
                                                   "label": "FB Event",
                                                   "url": "https://www.facebook.com/events/1400838854587535/"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=ST1+Asecs+J%C3%B6nk%C3%B6ping",
+                                                  "type": "map"
                                         }
                               ],
                               "link": "https://www.facebook.com/events/1400838854587535/",
@@ -18103,6 +18112,15 @@ const EVENTS_DATA = {
                                         {
                                                   "label": "FB Event",
                                                   "url": "https://www.facebook.com/events/914618091274013/"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=ST1+Asecs+J%C3%B6nk%C3%B6ping",
+                                                  "type": "map"
                                         }
                               ],
                               "link": "https://www.facebook.com/events/914618091274013/",
