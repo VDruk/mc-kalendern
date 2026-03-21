@@ -347,7 +347,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
+                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026-03-11",
                               "name": "LoD Onsdagsfika Soldathemmet Skövde",
                               "date": "2026-03-11",
                               "dateEnd": "2026-03-11",
@@ -472,7 +472,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-lordagsfika-pa-biltema-2026",
+                              "id": "doa-lordagsfika-pa-biltema-2026-03-14",
                               "name": "DOA - Lördagsfika på Biltema",
                               "date": "2026-03-14",
                               "dateEnd": "2026-03-14",
@@ -547,7 +547,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-pubkvall-stockholm-2026",
+                              "id": "doa-pubkvall-stockholm-2026-03-14",
                               "name": "DOA - Pubkväll Stockholm",
                               "date": "2026-03-14",
                               "dateEnd": "2026-03-14",
@@ -771,7 +771,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-03-17",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-03-17",
                               "dateEnd": "2026-03-17",
@@ -796,7 +796,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
+                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026-03-18",
                               "name": "LoD Onsdagsfika Soldathemmet Skövde",
                               "date": "2026-03-18",
                               "dateEnd": "2026-03-18",
@@ -846,7 +846,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-03-19",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-03-19",
                               "dateEnd": "2026-03-19",
@@ -1136,7 +1136,7 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
-                              "id": "doa-lordagsfika-pa-biltema-2026",
+                              "id": "doa-lordagsfika-pa-biltema-2026-03-21",
                               "name": "DOA - Lördagsfika på Biltema",
                               "date": "2026-03-21",
                               "dateEnd": "2026-03-21",
@@ -1161,7 +1161,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-03-21",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-03-21",
                               "dateEnd": "2026-03-21",
@@ -1211,7 +1211,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "pubkvall-pa-hamlet-i-linkoping-2026",
+                              "id": "pubkvall-pa-hamlet-i-linkoping-2026-03-21",
                               "name": "Pubkväll på Hamlet i Linköping",
                               "date": "2026-03-21",
                               "dateEnd": "2026-03-21",
@@ -1727,7 +1727,7 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-03-24",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-03-24",
                               "dateEnd": "2026-03-24",
@@ -1802,7 +1802,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
+                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026-03-25",
                               "name": "LoD Onsdagsfika Soldathemmet Skövde",
                               "date": "2026-03-25",
                               "dateEnd": "2026-03-25",
@@ -1980,7 +1980,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "pubkvall-pa-cromwell-house-i-norrkoping-2026",
+                              "id": "pubkvall-pa-cromwell-house-i-norrkoping-2026-03-27",
                               "name": "Pubkväll på Cromwell House i Norrköping",
                               "date": "2026-03-27",
                               "dateEnd": "2026-03-27",
@@ -2030,7 +2030,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-lordagsfika-pa-biltema-2026",
+                              "id": "doa-lordagsfika-pa-biltema-2026-03-28",
                               "name": "DOA - Lördagsfika på Biltema",
                               "date": "2026-03-28",
                               "dateEnd": "2026-03-28",
@@ -2314,7 +2314,7 @@ const EVENTS_DATA = {
                               "source": "thetwinclub.se"
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-03-31",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-03-31",
                               "dateEnd": "2026-03-31",
@@ -2339,7 +2339,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
+                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-01",
                               "name": "LoD Onsdagsfika Soldathemmet Skövde",
                               "date": "2026-04-01",
                               "dateEnd": "2026-04-01",
@@ -2420,7 +2420,7 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-04-02",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-04-02",
                               "dateEnd": "2026-04-02",
@@ -2552,7 +2552,7 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
-                              "id": "doa-lordagsfika-pa-biltema-2026",
+                              "id": "doa-lordagsfika-pa-biltema-2026-04-04",
                               "name": "DOA - Lördagsfika på Biltema",
                               "date": "2026-04-04",
                               "dateEnd": "2026-04-04",
@@ -2577,7 +2577,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-04-04",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-04-04",
                               "dateEnd": "2026-04-04",
@@ -2678,7 +2678,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-04-07",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-04-07",
                               "dateEnd": "2026-04-07",
@@ -2703,7 +2703,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-04-07",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-04-07",
                               "dateEnd": "2026-04-07",
@@ -2728,7 +2728,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
+                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-08",
                               "name": "LoD Onsdagsfika Soldathemmet Skövde",
                               "date": "2026-04-08",
                               "dateEnd": "2026-04-08",
@@ -2854,7 +2854,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-lordagsfika-pa-biltema-2026",
+                              "id": "doa-lordagsfika-pa-biltema-2026-04-11",
                               "name": "DOA - Lördagsfika på Biltema",
                               "date": "2026-04-11",
                               "dateEnd": "2026-04-11",
@@ -3218,7 +3218,7 @@ const EVENTS_DATA = {
                               "descriptionFull": "MCE - motorcykelentusiasterna bjuder in till månadsmöte i april.\n\nVi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar. Alla medlemmar och klubbnyfikna är välkomna.\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar ingen roll, inte ens krav på att man ska ha en hoj.\n\nTid: Måndag 13 april kl. 18:00 - 21:00\nPlats: Snutenvägen 11, 177 61 Järfälla."
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-04-14",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-04-14",
                               "dateEnd": "2026-04-14",
@@ -3243,7 +3243,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-04-14",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-04-14",
                               "dateEnd": "2026-04-14",
@@ -3268,7 +3268,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
+                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-15",
                               "name": "LoD Onsdagsfika Soldathemmet Skövde",
                               "date": "2026-04-15",
                               "dateEnd": "2026-04-15",
@@ -3293,7 +3293,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026",
+                              "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026-04-15",
                               "name": "D15 Onsdagstur med blandat underlag",
                               "date": "2026-04-15",
                               "dateEnd": "2026-04-15",
@@ -3318,7 +3318,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-04-16",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-04-16",
                               "dateEnd": "2026-04-16",
@@ -3425,7 +3425,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-lordagsfika-pa-biltema-2026",
+                              "id": "doa-lordagsfika-pa-biltema-2026-04-18",
                               "name": "DOA - Lördagsfika på Biltema",
                               "date": "2026-04-18",
                               "dateEnd": "2026-04-18",
@@ -3450,7 +3450,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-04-18",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-04-18",
                               "dateEnd": "2026-04-18",
@@ -3500,7 +3500,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "pubkvall-pa-hamlet-i-linkoping-2026",
+                              "id": "pubkvall-pa-hamlet-i-linkoping-2026-04-18",
                               "name": "Pubkväll på Hamlet i Linköping",
                               "date": "2026-04-18",
                               "dateEnd": "2026-04-18",
@@ -3702,7 +3702,7 @@ const EVENTS_DATA = {
                               "source": "probikebutiken.se"
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-04-20",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-04-20",
                               "dateEnd": "2026-04-20",
@@ -3727,7 +3727,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-04-21",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-04-21",
                               "dateEnd": "2026-04-21",
@@ -3752,7 +3752,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-04-21",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-04-21",
                               "dateEnd": "2026-04-21",
@@ -3777,7 +3777,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-04-21",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-04-21",
                               "dateEnd": "2026-04-21",
@@ -3802,7 +3802,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-04-22",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-04-22",
                               "dateEnd": "2026-04-22",
@@ -3827,7 +3827,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-osmo-udda-veckor-2026",
+                              "id": "doa-kvallskörning-osmo-udda-veckor-2026-04-22",
                               "name": "DOA - Kvällskörning Ösmo, udda veckor",
                               "date": "2026-04-22",
                               "dateEnd": "2026-04-22",
@@ -3852,7 +3852,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
+                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-22",
                               "name": "LoD Onsdagsfika Soldathemmet Skövde",
                               "date": "2026-04-22",
                               "dateEnd": "2026-04-22",
@@ -3877,7 +3877,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-04-22",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-04-22",
                               "dateEnd": "2026-04-22",
@@ -3902,7 +3902,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-04-23",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-04-23",
                               "dateEnd": "2026-04-23",
@@ -3927,7 +3927,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-04-23",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-04-23",
                               "dateEnd": "2026-04-23",
@@ -3952,7 +3952,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-04-23",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-04-23",
                               "dateEnd": "2026-04-23",
@@ -3977,7 +3977,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "pubkvall-pa-cromwell-house-i-norrkoping-2026",
+                              "id": "pubkvall-pa-cromwell-house-i-norrkoping-2026-04-24",
                               "name": "Pubkväll på Cromwell House i Norrköping",
                               "date": "2026-04-24",
                               "dateEnd": "2026-04-24",
@@ -4079,7 +4079,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-lordagsfika-pa-biltema-2026",
+                              "id": "doa-lordagsfika-pa-biltema-2026-04-25",
                               "name": "DOA - Lördagsfika på Biltema",
                               "date": "2026-04-25",
                               "dateEnd": "2026-04-25",
@@ -4154,7 +4154,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-pubkvall-stockholm-2026",
+                              "id": "doa-pubkvall-stockholm-2026-04-25",
                               "name": "DOA - Pubkväll Stockholm",
                               "date": "2026-04-25",
                               "dateEnd": "2026-04-25",
@@ -4466,7 +4466,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-04-27",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-04-27",
                               "dateEnd": "2026-04-27",
@@ -4491,7 +4491,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-04-28",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-04-28",
                               "dateEnd": "2026-04-28",
@@ -4516,7 +4516,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-04-28",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-04-28",
                               "dateEnd": "2026-04-28",
@@ -4541,7 +4541,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-04-28",
                               "name": "DOA - Kvällskörning Nockeby, jämna veckor",
                               "date": "2026-04-28",
                               "dateEnd": "2026-04-28",
@@ -4566,7 +4566,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-04-29",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-04-29",
                               "dateEnd": "2026-04-29",
@@ -4591,7 +4591,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026",
+                              "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-29",
                               "name": "LoD Onsdagsfika Soldathemmet Skövde",
                               "date": "2026-04-29",
                               "dateEnd": "2026-04-29",
@@ -4616,7 +4616,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-04-29",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-04-29",
                               "dateEnd": "2026-04-29",
@@ -4672,7 +4672,7 @@ const EVENTS_DATA = {
                               "organizerIcon": "clubs/normalized/jmc.png"
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-04-30",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-04-30",
                               "dateEnd": "2026-04-30",
@@ -4697,7 +4697,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-04-30",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-04-30",
                               "dateEnd": "2026-04-30",
@@ -4722,7 +4722,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-04-30",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-04-30",
                               "dateEnd": "2026-04-30",
@@ -4747,7 +4747,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-04-30",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-04-30",
                               "dateEnd": "2026-04-30",
@@ -5112,7 +5112,7 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-05-02",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-05-02",
                               "dateEnd": "2026-05-02",
@@ -5137,7 +5137,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-02",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-05-02",
                               "dateEnd": "2026-05-02",
@@ -5162,7 +5162,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-05-02",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-05-02",
                               "dateEnd": "2026-05-02",
@@ -5413,7 +5413,7 @@ const EVENTS_DATA = {
                               "source": "thetwinclub.se"
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-05-04",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-05-04",
                               "dateEnd": "2026-05-04",
@@ -5495,7 +5495,7 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-05-05",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-05-05",
                               "dateEnd": "2026-05-05",
@@ -5520,7 +5520,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-05-05",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-05-05",
                               "dateEnd": "2026-05-05",
@@ -5545,7 +5545,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-05-05",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-05-05",
                               "dateEnd": "2026-05-05",
@@ -5570,7 +5570,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-05-06",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-05-06",
                               "dateEnd": "2026-05-06",
@@ -5595,7 +5595,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-osmo-udda-veckor-2026",
+                              "id": "doa-kvallskörning-osmo-udda-veckor-2026-05-06",
                               "name": "DOA - Kvällskörning Ösmo, udda veckor",
                               "date": "2026-05-06",
                               "dateEnd": "2026-05-06",
@@ -5620,7 +5620,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-05-06",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-05-06",
                               "dateEnd": "2026-05-06",
@@ -5645,7 +5645,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026",
+                              "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026-05-06",
                               "name": "D15 Onsdagstur med blandat underlag",
                               "date": "2026-05-06",
                               "dateEnd": "2026-05-06",
@@ -5701,7 +5701,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-05-07",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-05-07",
                               "dateEnd": "2026-05-07",
@@ -5726,7 +5726,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-05-07",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-05-07",
                               "dateEnd": "2026-05-07",
@@ -5751,7 +5751,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-05-07",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-05-07",
                               "dateEnd": "2026-05-07",
@@ -5776,7 +5776,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-05-07",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-05-07",
                               "dateEnd": "2026-05-07",
@@ -6042,7 +6042,7 @@ const EVENTS_DATA = {
                               "source": "svmc.se"
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-05-09",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-05-09",
                               "dateEnd": "2026-05-09",
@@ -6067,7 +6067,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-09",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-05-09",
                               "dateEnd": "2026-05-09",
@@ -6217,7 +6217,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "bmw-d15-grustur-2026",
+                              "id": "bmw-d15-grustur-2026-05-09",
                               "name": "D15 Grustur",
                               "date": "2026-05-09",
                               "dateEnd": "2026-05-09",
@@ -6345,7 +6345,7 @@ const EVENTS_DATA = {
                               "source": "FB"
                     },
                     {
-                              "id": "doa-emilsturen-2026",
+                              "id": "doa-emilsturen-2026-05-10",
                               "name": "DOA - Emilsturen",
                               "date": "2026-05-10",
                               "dateEnd": "2026-05-10",
@@ -6526,7 +6526,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-05-11",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-05-11",
                               "dateEnd": "2026-05-11",
@@ -6551,7 +6551,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-05-12",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-05-12",
                               "dateEnd": "2026-05-12",
@@ -6576,7 +6576,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-05-12",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-05-12",
                               "dateEnd": "2026-05-12",
@@ -6601,7 +6601,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-05-12",
                               "name": "DOA - Kvällskörning Nockeby, jämna veckor",
                               "date": "2026-05-12",
                               "dateEnd": "2026-05-12",
@@ -6626,7 +6626,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-05-13",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-05-13",
                               "dateEnd": "2026-05-13",
@@ -6651,7 +6651,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-05-13",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-05-13",
                               "dateEnd": "2026-05-13",
@@ -6783,7 +6783,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-05-14",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-05-14",
                               "dateEnd": "2026-05-14",
@@ -6888,7 +6888,7 @@ const EVENTS_DATA = {
                               "source": "FB"
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-05-14",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-05-14",
                               "dateEnd": "2026-05-14",
@@ -6913,7 +6913,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-05-14",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-05-14",
                               "dateEnd": "2026-05-14",
@@ -6938,7 +6938,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-05-14",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-05-14",
                               "dateEnd": "2026-05-14",
@@ -6963,7 +6963,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-05-14",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-05-14",
                               "dateEnd": "2026-05-14",
@@ -7184,7 +7184,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-05-16",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-05-16",
                               "dateEnd": "2026-05-16",
@@ -7209,7 +7209,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-16",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-05-16",
                               "dateEnd": "2026-05-16",
@@ -7234,7 +7234,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-05-16",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-05-16",
                               "dateEnd": "2026-05-16",
@@ -7743,7 +7743,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-05-18",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-05-18",
                               "dateEnd": "2026-05-18",
@@ -7768,7 +7768,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-05-19",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-05-19",
                               "dateEnd": "2026-05-19",
@@ -7793,7 +7793,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-05-19",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-05-19",
                               "dateEnd": "2026-05-19",
@@ -7818,7 +7818,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-05-19",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-05-19",
                               "dateEnd": "2026-05-19",
@@ -7918,7 +7918,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-05-20",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-05-20",
                               "dateEnd": "2026-05-20",
@@ -7943,7 +7943,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-osmo-udda-veckor-2026",
+                              "id": "doa-kvallskörning-osmo-udda-veckor-2026-05-20",
                               "name": "DOA - Kvällskörning Ösmo, udda veckor",
                               "date": "2026-05-20",
                               "dateEnd": "2026-05-20",
@@ -7968,7 +7968,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-05-20",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-05-20",
                               "dateEnd": "2026-05-20",
@@ -8074,7 +8074,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-05-21",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-05-21",
                               "dateEnd": "2026-05-21",
@@ -8099,7 +8099,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-05-21",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-05-21",
                               "dateEnd": "2026-05-21",
@@ -8124,7 +8124,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-05-21",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-05-21",
                               "dateEnd": "2026-05-21",
@@ -8149,7 +8149,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-05-21",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-05-21",
                               "dateEnd": "2026-05-21",
@@ -8498,7 +8498,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-05-23",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-05-23",
                               "dateEnd": "2026-05-23",
@@ -8523,7 +8523,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-23",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-05-23",
                               "dateEnd": "2026-05-23",
@@ -8867,7 +8867,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-05-25",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-05-25",
                               "dateEnd": "2026-05-25",
@@ -8892,7 +8892,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-05-26",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-05-26",
                               "dateEnd": "2026-05-26",
@@ -8917,7 +8917,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-05-26",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-05-26",
                               "dateEnd": "2026-05-26",
@@ -8942,7 +8942,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-05-26",
                               "name": "DOA - Kvällskörning Nockeby, jämna veckor",
                               "date": "2026-05-26",
                               "dateEnd": "2026-05-26",
@@ -8967,7 +8967,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-05-27",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-05-27",
                               "dateEnd": "2026-05-27",
@@ -8992,7 +8992,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-05-27",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-05-27",
                               "dateEnd": "2026-05-27",
@@ -9073,7 +9073,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-05-28",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-05-28",
                               "dateEnd": "2026-05-28",
@@ -9098,7 +9098,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-05-28",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-05-28",
                               "dateEnd": "2026-05-28",
@@ -9123,7 +9123,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-05-28",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-05-28",
                               "dateEnd": "2026-05-28",
@@ -9148,7 +9148,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-05-28",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-05-28",
                               "dateEnd": "2026-05-28",
@@ -9173,7 +9173,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-05-28",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-05-28",
                               "dateEnd": "2026-05-28",
@@ -9476,7 +9476,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-05-30",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-05-30",
                               "dateEnd": "2026-05-30",
@@ -9501,7 +9501,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-30",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-05-30",
                               "dateEnd": "2026-05-30",
@@ -9551,7 +9551,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-05-30",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-05-30",
                               "dateEnd": "2026-05-30",
@@ -9896,7 +9896,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-06-01",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-06-01",
                               "dateEnd": "2026-06-01",
@@ -9921,7 +9921,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-06-02",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-06-02",
                               "dateEnd": "2026-06-02",
@@ -9946,7 +9946,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-06-02",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-06-02",
                               "dateEnd": "2026-06-02",
@@ -9971,7 +9971,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-02",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-06-02",
                               "dateEnd": "2026-06-02",
@@ -10021,7 +10021,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-06-03",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-06-03",
                               "dateEnd": "2026-06-03",
@@ -10046,7 +10046,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-osmo-udda-veckor-2026",
+                              "id": "doa-kvallskörning-osmo-udda-veckor-2026-06-03",
                               "name": "DOA - Kvällskörning Ösmo, udda veckor",
                               "date": "2026-06-03",
                               "dateEnd": "2026-06-03",
@@ -10071,7 +10071,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-06-03",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-06-03",
                               "dateEnd": "2026-06-03",
@@ -10096,7 +10096,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026",
+                              "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026-06-03",
                               "name": "D15 Onsdagstur med blandat underlag",
                               "date": "2026-06-03",
                               "dateEnd": "2026-06-03",
@@ -10255,7 +10255,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-06-04",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-06-04",
                               "dateEnd": "2026-06-04",
@@ -10280,7 +10280,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-06-04",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-06-04",
                               "dateEnd": "2026-06-04",
@@ -10305,7 +10305,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-06-04",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-06-04",
                               "dateEnd": "2026-06-04",
@@ -10330,7 +10330,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-06-04",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-06-04",
                               "dateEnd": "2026-06-04",
@@ -10557,7 +10557,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-06-06",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-06-06",
                               "dateEnd": "2026-06-06",
@@ -10582,7 +10582,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-06-06",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-06-06",
                               "dateEnd": "2026-06-06",
@@ -10995,7 +10995,7 @@ const EVENTS_DATA = {
                               "backImage": "ads/jmc-bonspalls-rundan-back-2026-06-07.jpg"
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-06-08",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-06-08",
                               "dateEnd": "2026-06-08",
@@ -11045,7 +11045,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-06-09",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-06-09",
                               "dateEnd": "2026-06-09",
@@ -11070,7 +11070,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-06-09",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-06-09",
                               "dateEnd": "2026-06-09",
@@ -11095,7 +11095,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-06-09",
                               "name": "DOA - Kvällskörning Nockeby, jämna veckor",
                               "date": "2026-06-09",
                               "dateEnd": "2026-06-09",
@@ -11120,7 +11120,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-06-10",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-06-10",
                               "dateEnd": "2026-06-10",
@@ -11145,7 +11145,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-06-10",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-06-10",
                               "dateEnd": "2026-06-10",
@@ -11251,7 +11251,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-06-11",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-06-11",
                               "dateEnd": "2026-06-11",
@@ -11276,7 +11276,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-06-11",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-06-11",
                               "dateEnd": "2026-06-11",
@@ -11301,7 +11301,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-06-11",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-06-11",
                               "dateEnd": "2026-06-11",
@@ -11326,7 +11326,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-06-11",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-06-11",
                               "dateEnd": "2026-06-11",
@@ -11351,7 +11351,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-06-11",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-06-11",
                               "dateEnd": "2026-06-11",
@@ -11653,7 +11653,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-06-13",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-06-13",
                               "dateEnd": "2026-06-13",
@@ -11678,7 +11678,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-06-13",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-06-13",
                               "dateEnd": "2026-06-13",
@@ -11703,7 +11703,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-06-13",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-06-13",
                               "dateEnd": "2026-06-13",
@@ -11854,7 +11854,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-emilsturen-2026",
+                              "id": "doa-emilsturen-2026-06-14",
                               "name": "DOA - Emilsturen",
                               "date": "2026-06-14",
                               "dateEnd": "2026-06-14",
@@ -11935,7 +11935,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-06-15",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-06-15",
                               "dateEnd": "2026-06-15",
@@ -11960,7 +11960,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-06-16",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-06-16",
                               "dateEnd": "2026-06-16",
@@ -11985,7 +11985,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-06-16",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-06-16",
                               "dateEnd": "2026-06-16",
@@ -12010,7 +12010,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-16",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-06-16",
                               "dateEnd": "2026-06-16",
@@ -12035,7 +12035,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-06-17",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-06-17",
                               "dateEnd": "2026-06-17",
@@ -12060,7 +12060,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-osmo-udda-veckor-2026",
+                              "id": "doa-kvallskörning-osmo-udda-veckor-2026-06-17",
                               "name": "DOA - Kvällskörning Ösmo, udda veckor",
                               "date": "2026-06-17",
                               "dateEnd": "2026-06-17",
@@ -12085,7 +12085,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-06-17",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-06-17",
                               "dateEnd": "2026-06-17",
@@ -12171,7 +12171,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-06-18",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-06-18",
                               "dateEnd": "2026-06-18",
@@ -12196,7 +12196,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-06-18",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-06-18",
                               "dateEnd": "2026-06-18",
@@ -12221,7 +12221,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-06-18",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-06-18",
                               "dateEnd": "2026-06-18",
@@ -12246,7 +12246,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-06-18",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-06-18",
                               "dateEnd": "2026-06-18",
@@ -12377,7 +12377,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-06-20",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-06-20",
                               "dateEnd": "2026-06-20",
@@ -12402,7 +12402,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-06-20",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-06-20",
                               "dateEnd": "2026-06-20",
@@ -12458,7 +12458,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-06-22",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-06-22",
                               "dateEnd": "2026-06-22",
@@ -12483,7 +12483,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-06-23",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-06-23",
                               "dateEnd": "2026-06-23",
@@ -12508,7 +12508,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-06-23",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-06-23",
                               "dateEnd": "2026-06-23",
@@ -12533,7 +12533,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-06-23",
                               "name": "DOA - Kvällskörning Nockeby, jämna veckor",
                               "date": "2026-06-23",
                               "dateEnd": "2026-06-23",
@@ -12558,7 +12558,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-06-24",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-06-24",
                               "dateEnd": "2026-06-24",
@@ -12608,7 +12608,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-06-24",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-06-24",
                               "dateEnd": "2026-06-24",
@@ -12664,7 +12664,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-06-25",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-06-25",
                               "dateEnd": "2026-06-25",
@@ -12689,7 +12689,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-06-25",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-06-25",
                               "dateEnd": "2026-06-25",
@@ -12714,7 +12714,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-skogskyrkogarden-2026",
+                              "id": "doa-kvallskörning-skogskyrkogarden-2026-06-25",
                               "name": "DOA - Kvällskörning Skogskyrkogården",
                               "date": "2026-06-25",
                               "dateEnd": "2026-06-25",
@@ -12739,7 +12739,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-06-25",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-06-25",
                               "dateEnd": "2026-06-25",
@@ -12764,7 +12764,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-06-25",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-06-25",
                               "dateEnd": "2026-06-25",
@@ -13064,7 +13064,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-06-27",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-06-27",
                               "dateEnd": "2026-06-27",
@@ -13089,7 +13089,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-06-27",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-06-27",
                               "dateEnd": "2026-06-27",
@@ -13139,7 +13139,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-06-27",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-06-27",
                               "dateEnd": "2026-06-27",
@@ -13164,7 +13164,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "bmw-d15-tur-fran-bromolla-2026",
+                              "id": "bmw-d15-tur-fran-bromolla-2026-06-27",
                               "name": "D15 Tur från Bromölla",
                               "date": "2026-06-27",
                               "dateEnd": "2026-06-27",
@@ -13245,7 +13245,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-06-29",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-06-29",
                               "dateEnd": "2026-06-29",
@@ -13270,7 +13270,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-06-30",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-06-30",
                               "dateEnd": "2026-06-30",
@@ -13295,7 +13295,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-c-boras-tisdags-körningar-2026",
+                              "id": "lo-c-boras-tisdags-körningar-2026-06-30",
                               "name": "LO-C Borås tisdags körningar.",
                               "date": "2026-06-30",
                               "dateEnd": "2026-06-30",
@@ -13320,7 +13320,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-30",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-06-30",
                               "dateEnd": "2026-06-30",
@@ -13504,7 +13504,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-07-02",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-07-02",
                               "dateEnd": "2026-07-02",
@@ -13709,7 +13709,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-07-04",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-07-04",
                               "dateEnd": "2026-07-04",
@@ -13734,7 +13734,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-07-04",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-07-04",
                               "dateEnd": "2026-07-04",
@@ -14096,7 +14096,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-07-07",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-07-07",
                               "dateEnd": "2026-07-07",
@@ -14228,7 +14228,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-07-09",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-07-09",
                               "dateEnd": "2026-07-09",
@@ -14253,7 +14253,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-07-09",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-07-09",
                               "dateEnd": "2026-07-09",
@@ -14383,7 +14383,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-07-11",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-07-11",
                               "dateEnd": "2026-07-11",
@@ -14408,7 +14408,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-07-11",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-07-11",
                               "dateEnd": "2026-07-11",
@@ -14433,7 +14433,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-07-11",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-07-11",
                               "dateEnd": "2026-07-11",
@@ -14570,7 +14570,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-07-14",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-07-14",
                               "dateEnd": "2026-07-14",
@@ -14651,7 +14651,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-07-16",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-07-16",
                               "dateEnd": "2026-07-16",
@@ -14831,7 +14831,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-07-18",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-07-18",
                               "dateEnd": "2026-07-18",
@@ -14856,7 +14856,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-07-18",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-07-18",
                               "dateEnd": "2026-07-18",
@@ -14936,7 +14936,7 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
-                              "id": "doa-emilsturen-2026",
+                              "id": "doa-emilsturen-2026-07-19",
                               "name": "DOA - Emilsturen",
                               "date": "2026-07-19",
                               "dateEnd": "2026-07-19",
@@ -14992,7 +14992,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-07-21",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-07-21",
                               "dateEnd": "2026-07-21",
@@ -15149,7 +15149,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-07-23",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-07-23",
                               "dateEnd": "2026-07-23",
@@ -15174,7 +15174,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-07-23",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-07-23",
                               "dateEnd": "2026-07-23",
@@ -15324,7 +15324,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-07-25",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-07-25",
                               "dateEnd": "2026-07-25",
@@ -15349,7 +15349,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-07-25",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-07-25",
                               "dateEnd": "2026-07-25",
@@ -15374,7 +15374,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-07-25",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-07-25",
                               "dateEnd": "2026-07-25",
@@ -15485,7 +15485,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-07-28",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-07-28",
                               "dateEnd": "2026-07-28",
@@ -15591,7 +15591,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-07-30",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-07-30",
                               "dateEnd": "2026-07-30",
@@ -15691,7 +15691,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-08-01",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-08-01",
                               "dateEnd": "2026-08-01",
@@ -15716,7 +15716,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-01",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-08-01",
                               "dateEnd": "2026-08-01",
@@ -15906,7 +15906,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-08-03",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-08-03",
                               "dateEnd": "2026-08-03",
@@ -15985,7 +15985,7 @@ const EVENTS_DATA = {
                               "source": "svmc.se"
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-08-04",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-08-04",
                               "dateEnd": "2026-08-04",
@@ -16010,7 +16010,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-08-04",
                               "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
                               "date": "2026-08-04",
                               "dateEnd": "2026-08-04",
@@ -16035,7 +16035,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-08-05",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-08-05",
                               "dateEnd": "2026-08-05",
@@ -16060,7 +16060,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-08-05",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-08-05",
                               "dateEnd": "2026-08-05",
@@ -16167,7 +16167,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-08-06",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-08-06",
                               "dateEnd": "2026-08-06",
@@ -16217,7 +16217,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-08-06",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-08-06",
                               "dateEnd": "2026-08-06",
@@ -16242,7 +16242,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallstur-skogskyrkogarden-2026",
+                              "id": "doa-kvallstur-skogskyrkogarden-2026-08-06",
                               "name": "DOA - Kvällstur Skogskyrkogården",
                               "date": "2026-08-06",
                               "dateEnd": "2026-08-06",
@@ -16267,7 +16267,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-08-06",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-08-06",
                               "dateEnd": "2026-08-06",
@@ -16292,7 +16292,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-08-06",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-08-06",
                               "dateEnd": "2026-08-06",
@@ -16368,7 +16368,7 @@ const EVENTS_DATA = {
                               "source": "britishmotormeet.se"
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-08-08",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-08-08",
                               "dateEnd": "2026-08-08",
@@ -16393,7 +16393,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-08",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-08-08",
                               "dateEnd": "2026-08-08",
@@ -16418,7 +16418,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-08-08",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-08-08",
                               "dateEnd": "2026-08-08",
@@ -16758,7 +16758,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-08-10",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-08-10",
                               "dateEnd": "2026-08-10",
@@ -16808,7 +16808,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-08-11",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-08-11",
                               "dateEnd": "2026-08-11",
@@ -16833,7 +16833,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-08-11",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-08-11",
                               "dateEnd": "2026-08-11",
@@ -16858,7 +16858,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-08-12",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-08-12",
                               "dateEnd": "2026-08-12",
@@ -16883,7 +16883,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-osmo-udda-veckor-2026",
+                              "id": "doa-kvallskörning-osmo-udda-veckor-2026-08-12",
                               "name": "DOA - Kvällskörning Ösmo udda veckor",
                               "date": "2026-08-12",
                               "dateEnd": "2026-08-12",
@@ -16908,7 +16908,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-08-12",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-08-12",
                               "dateEnd": "2026-08-12",
@@ -17014,7 +17014,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-08-13",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-08-13",
                               "dateEnd": "2026-08-13",
@@ -17039,7 +17039,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-08-13",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-08-13",
                               "dateEnd": "2026-08-13",
@@ -17064,7 +17064,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallstur-skogskyrkogarden-2026",
+                              "id": "doa-kvallstur-skogskyrkogarden-2026-08-13",
                               "name": "DOA - Kvällstur Skogskyrkogården",
                               "date": "2026-08-13",
                               "dateEnd": "2026-08-13",
@@ -17089,7 +17089,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-08-13",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-08-13",
                               "dateEnd": "2026-08-13",
@@ -17214,7 +17214,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-08-15",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-08-15",
                               "dateEnd": "2026-08-15",
@@ -17239,7 +17239,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-15",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-08-15",
                               "dateEnd": "2026-08-15",
@@ -17586,7 +17586,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-08-17",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-08-17",
                               "dateEnd": "2026-08-17",
@@ -17611,7 +17611,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-08-18",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-08-18",
                               "dateEnd": "2026-08-18",
@@ -17636,7 +17636,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-08-18",
                               "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
                               "date": "2026-08-18",
                               "dateEnd": "2026-08-18",
@@ -17661,7 +17661,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-08-19",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-08-19",
                               "dateEnd": "2026-08-19",
@@ -17686,7 +17686,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-08-19",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-08-19",
                               "dateEnd": "2026-08-19",
@@ -17767,7 +17767,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-08-20",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-08-20",
                               "dateEnd": "2026-08-20",
@@ -17792,7 +17792,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-08-20",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-08-20",
                               "dateEnd": "2026-08-20",
@@ -17817,7 +17817,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallstur-skogskyrkogarden-2026",
+                              "id": "doa-kvallstur-skogskyrkogarden-2026-08-20",
                               "name": "DOA - Kvällstur Skogskyrkogården",
                               "date": "2026-08-20",
                               "dateEnd": "2026-08-20",
@@ -17842,7 +17842,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-08-20",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-08-20",
                               "dateEnd": "2026-08-20",
@@ -17867,7 +17867,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-08-20",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-08-20",
                               "dateEnd": "2026-08-20",
@@ -17992,7 +17992,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-08-22",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-08-22",
                               "dateEnd": "2026-08-22",
@@ -18017,7 +18017,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-22",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-08-22",
                               "dateEnd": "2026-08-22",
@@ -18042,7 +18042,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-08-22",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-08-22",
                               "dateEnd": "2026-08-22",
@@ -18160,7 +18160,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-08-24",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-08-24",
                               "dateEnd": "2026-08-24",
@@ -18212,7 +18212,7 @@ const EVENTS_DATA = {
                               "organizerIcon": "clubs/normalized/swedish-mc-touring.png"
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-08-25",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-08-25",
                               "dateEnd": "2026-08-25",
@@ -18237,7 +18237,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-08-25",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-08-25",
                               "dateEnd": "2026-08-25",
@@ -18262,7 +18262,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-08-26",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-08-26",
                               "dateEnd": "2026-08-26",
@@ -18287,7 +18287,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-osmo-udda-veckor-2026",
+                              "id": "doa-kvallskörning-osmo-udda-veckor-2026-08-26",
                               "name": "DOA - Kvällskörning Ösmo udda veckor",
                               "date": "2026-08-26",
                               "dateEnd": "2026-08-26",
@@ -18312,7 +18312,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-08-26",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-08-26",
                               "dateEnd": "2026-08-26",
@@ -18368,7 +18368,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-08-27",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-08-27",
                               "dateEnd": "2026-08-27",
@@ -18393,7 +18393,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-08-27",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-08-27",
                               "dateEnd": "2026-08-27",
@@ -18418,7 +18418,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallstur-skogskyrkogarden-2026",
+                              "id": "doa-kvallstur-skogskyrkogarden-2026-08-27",
                               "name": "DOA - Kvällstur Skogskyrkogården",
                               "date": "2026-08-27",
                               "dateEnd": "2026-08-27",
@@ -18443,7 +18443,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-08-27",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-08-27",
                               "dateEnd": "2026-08-27",
@@ -18518,7 +18518,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-08-29",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-08-29",
                               "dateEnd": "2026-08-29",
@@ -18543,7 +18543,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-29",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-08-29",
                               "dateEnd": "2026-08-29",
@@ -18643,7 +18643,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-emilsturen-2026",
+                              "id": "doa-emilsturen-2026-08-30",
                               "name": "DOA - Emilsturen",
                               "date": "2026-08-30",
                               "dateEnd": "2026-08-30",
@@ -18668,7 +18668,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "bmw-d15-grustur-2026",
+                              "id": "bmw-d15-grustur-2026-08-30",
                               "name": "D15 Grustur",
                               "date": "2026-08-30",
                               "dateEnd": "2026-08-30",
@@ -18724,7 +18724,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-08-31",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-08-31",
                               "dateEnd": "2026-08-31",
@@ -18749,7 +18749,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-09-01",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-09-01",
                               "dateEnd": "2026-09-01",
@@ -18774,7 +18774,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-09-01",
                               "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
                               "date": "2026-09-01",
                               "dateEnd": "2026-09-01",
@@ -18799,7 +18799,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-09-02",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-09-02",
                               "dateEnd": "2026-09-02",
@@ -18824,7 +18824,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-09-02",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-09-02",
                               "dateEnd": "2026-09-02",
@@ -18849,7 +18849,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-09-03",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-09-03",
                               "dateEnd": "2026-09-03",
@@ -18874,7 +18874,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-09-03",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-09-03",
                               "dateEnd": "2026-09-03",
@@ -18899,7 +18899,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallstur-skogskyrkogarden-2026",
+                              "id": "doa-kvallstur-skogskyrkogarden-2026-09-03",
                               "name": "DOA - Kvällstur Skogskyrkogården",
                               "date": "2026-09-03",
                               "dateEnd": "2026-09-03",
@@ -18924,7 +18924,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-09-03",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-09-03",
                               "dateEnd": "2026-09-03",
@@ -18949,7 +18949,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-09-03",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-09-03",
                               "dateEnd": "2026-09-03",
@@ -19125,7 +19125,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-09-05",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-09-05",
                               "dateEnd": "2026-09-05",
@@ -19150,7 +19150,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-09-05",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-09-05",
                               "dateEnd": "2026-09-05",
@@ -19175,7 +19175,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-09-05",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-09-05",
                               "dateEnd": "2026-09-05",
@@ -19250,7 +19250,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "bmw-d15-tur-fran-bromolla-2026",
+                              "id": "bmw-d15-tur-fran-bromolla-2026-09-05",
                               "name": "D15 Tur från Bromölla",
                               "date": "2026-09-05",
                               "dateEnd": "2026-09-05",
@@ -19350,7 +19350,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-09-07",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-09-07",
                               "dateEnd": "2026-09-07",
@@ -19400,7 +19400,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-09-08",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-09-08",
                               "dateEnd": "2026-09-08",
@@ -19425,7 +19425,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-09-08",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-09-08",
                               "dateEnd": "2026-09-08",
@@ -19450,7 +19450,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-09-09",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-09-09",
                               "dateEnd": "2026-09-09",
@@ -19475,7 +19475,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-osmo-udda-veckor-2026",
+                              "id": "doa-kvallskörning-osmo-udda-veckor-2026-09-09",
                               "name": "DOA - Kvällskörning Ösmo udda veckor",
                               "date": "2026-09-09",
                               "dateEnd": "2026-09-09",
@@ -19500,7 +19500,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-09-09",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-09-09",
                               "dateEnd": "2026-09-09",
@@ -19525,7 +19525,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-09-10",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-09-10",
                               "dateEnd": "2026-09-10",
@@ -19550,7 +19550,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-09-10",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-09-10",
                               "dateEnd": "2026-09-10",
@@ -19575,7 +19575,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallstur-skogskyrkogarden-2026",
+                              "id": "doa-kvallstur-skogskyrkogarden-2026-09-10",
                               "name": "DOA - Kvällstur Skogskyrkogården",
                               "date": "2026-09-10",
                               "dateEnd": "2026-09-10",
@@ -19600,7 +19600,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-09-10",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-09-10",
                               "dateEnd": "2026-09-10",
@@ -19750,7 +19750,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-09-12",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-09-12",
                               "dateEnd": "2026-09-12",
@@ -19775,7 +19775,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-09-12",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-09-12",
                               "dateEnd": "2026-09-12",
@@ -19925,7 +19925,7 @@ const EVENTS_DATA = {
                               "source": "FB"
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-09-14",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-09-14",
                               "dateEnd": "2026-09-14",
@@ -19950,7 +19950,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-09-15",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-09-15",
                               "dateEnd": "2026-09-15",
@@ -19975,7 +19975,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-09-15",
                               "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
                               "date": "2026-09-15",
                               "dateEnd": "2026-09-15",
@@ -20000,7 +20000,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-09-16",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-09-16",
                               "dateEnd": "2026-09-16",
@@ -20025,7 +20025,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-09-16",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-09-16",
                               "dateEnd": "2026-09-16",
@@ -20050,7 +20050,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-09-17",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-09-17",
                               "dateEnd": "2026-09-17",
@@ -20075,7 +20075,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-09-17",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-09-17",
                               "dateEnd": "2026-09-17",
@@ -20100,7 +20100,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallstur-skogskyrkogarden-2026",
+                              "id": "doa-kvallstur-skogskyrkogarden-2026-09-17",
                               "name": "DOA - Kvällstur Skogskyrkogården",
                               "date": "2026-09-17",
                               "dateEnd": "2026-09-17",
@@ -20125,7 +20125,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-09-17",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-09-17",
                               "dateEnd": "2026-09-17",
@@ -20150,7 +20150,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-09-17",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-09-17",
                               "dateEnd": "2026-09-17",
@@ -20275,7 +20275,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-09-19",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-09-19",
                               "dateEnd": "2026-09-19",
@@ -20300,7 +20300,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-09-19",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-09-19",
                               "dateEnd": "2026-09-19",
@@ -20325,7 +20325,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-09-19",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-09-19",
                               "dateEnd": "2026-09-19",
@@ -20415,7 +20415,7 @@ const EVENTS_DATA = {
                               "source": "probikebutiken.se"
                     },
                     {
-                              "id": "doa-emilsturen-2026",
+                              "id": "doa-emilsturen-2026-09-20",
                               "name": "DOA - Emilsturen",
                               "date": "2026-09-20",
                               "dateEnd": "2026-09-20",
@@ -20440,7 +20440,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-09-21",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-09-21",
                               "dateEnd": "2026-09-21",
@@ -20465,7 +20465,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-09-22",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-09-22",
                               "dateEnd": "2026-09-22",
@@ -20490,7 +20490,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-ekero-udda-veckor-2026",
+                              "id": "doa-kvallskörning-ekero-udda-veckor-2026-09-22",
                               "name": "DOA - Kvällskörning Ekerö, udda veckor",
                               "date": "2026-09-22",
                               "dateEnd": "2026-09-22",
@@ -20515,7 +20515,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-09-23",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-09-23",
                               "dateEnd": "2026-09-23",
@@ -20540,7 +20540,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-osmo-udda-veckor-2026",
+                              "id": "doa-kvallskörning-osmo-udda-veckor-2026-09-23",
                               "name": "DOA - Kvällskörning Ösmo udda veckor",
                               "date": "2026-09-23",
                               "dateEnd": "2026-09-23",
@@ -20565,7 +20565,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-09-23",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-09-23",
                               "dateEnd": "2026-09-23",
@@ -20590,7 +20590,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-dagstur-ekero-2026",
+                              "id": "doa-dagstur-ekero-2026-09-24",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-09-24",
                               "dateEnd": "2026-09-24",
@@ -20615,7 +20615,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-uppsala-2026",
+                              "id": "doa-kvallskörning-uppsala-2026-09-24",
                               "name": "DOA - Kvällskörning Uppsala",
                               "date": "2026-09-24",
                               "dateEnd": "2026-09-24",
@@ -20640,7 +20640,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallstur-skogskyrkogarden-2026",
+                              "id": "doa-kvallstur-skogskyrkogarden-2026-09-24",
                               "name": "DOA - Kvällstur Skogskyrkogården",
                               "date": "2026-09-24",
                               "dateEnd": "2026-09-24",
@@ -20665,7 +20665,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-torsdagskörningar-sundsvall-2026",
+                              "id": "lo-i-torsdagskörningar-sundsvall-2026-09-24",
                               "name": "LO-I Torsdagskörningar Sundsvall",
                               "date": "2026-09-24",
                               "dateEnd": "2026-09-24",
@@ -20690,7 +20690,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-kramfors-2026",
+                              "id": "lo-i-lordagskörningar-kramfors-2026-09-26",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-09-26",
                               "dateEnd": "2026-09-26",
@@ -20715,7 +20715,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026",
+                              "id": "lo-i-lordagskörningar-ornskoldsvik-2026-09-26",
                               "name": "LO I Lördagskörningar Örnsköldsvik",
                               "date": "2026-09-26",
                               "dateEnd": "2026-09-26",
@@ -20765,7 +20765,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nacka-2026",
+                              "id": "doa-kvallskörning-nacka-2026-09-28",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-09-28",
                               "dateEnd": "2026-09-28",
@@ -20790,7 +20790,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-09-29",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-09-29",
                               "dateEnd": "2026-09-29",
@@ -20815,7 +20815,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026",
+                              "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-09-29",
                               "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
                               "date": "2026-09-29",
                               "dateEnd": "2026-09-29",
@@ -20840,7 +20840,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-taby-2026",
+                              "id": "doa-kvallskörning-taby-2026-09-30",
                               "name": "DOA - Kvällskörning Täby",
                               "date": "2026-09-30",
                               "dateEnd": "2026-09-30",
@@ -20865,7 +20865,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-kvallskörning-norrtalje-2026",
+                              "id": "doa-kvallskörning-norrtalje-2026-09-30",
                               "name": "DOA - Kvällskörning Norrtälje",
                               "date": "2026-09-30",
                               "dateEnd": "2026-09-30",
@@ -20890,7 +20890,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-10-01",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-10-01",
                               "dateEnd": "2026-10-01",
@@ -20965,7 +20965,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-10-03",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-10-03",
                               "dateEnd": "2026-10-03",
@@ -21040,7 +21040,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-10-06",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-10-06",
                               "dateEnd": "2026-10-06",
@@ -21090,7 +21090,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-emilsturen-2026",
+                              "id": "doa-emilsturen-2026-10-11",
                               "name": "DOA - Emilsturen",
                               "date": "2026-10-11",
                               "dateEnd": "2026-10-11",
@@ -21140,7 +21140,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-10-13",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-10-13",
                               "dateEnd": "2026-10-13",
@@ -21165,7 +21165,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-10-15",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-10-15",
                               "dateEnd": "2026-10-15",
@@ -21190,7 +21190,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-10-17",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-10-17",
                               "dateEnd": "2026-10-17",
@@ -21215,7 +21215,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-10-20",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-10-20",
                               "dateEnd": "2026-10-20",
@@ -21325,7 +21325,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-10-27",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-10-27",
                               "dateEnd": "2026-10-27",
@@ -21350,7 +21350,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-10-29",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-10-29",
                               "dateEnd": "2026-10-29",
@@ -21375,7 +21375,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-10-31",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-10-31",
                               "dateEnd": "2026-10-31",
@@ -21425,7 +21425,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-11-03",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-11-03",
                               "dateEnd": "2026-11-03",
@@ -21475,7 +21475,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-11-10",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-11-10",
                               "dateEnd": "2026-11-10",
@@ -21500,7 +21500,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-11-12",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-11-12",
                               "dateEnd": "2026-11-12",
@@ -21525,7 +21525,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-11-14",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-11-14",
                               "dateEnd": "2026-11-14",
@@ -21625,7 +21625,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-11-17",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-11-17",
                               "dateEnd": "2026-11-17",
@@ -21675,7 +21675,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-11-24",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-11-24",
                               "dateEnd": "2026-11-24",
@@ -21700,7 +21700,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-11-26",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-11-26",
                               "dateEnd": "2026-11-26",
@@ -21775,7 +21775,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-11-28",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-11-28",
                               "dateEnd": "2026-11-28",
@@ -21800,7 +21800,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-12-01",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-12-01",
                               "dateEnd": "2026-12-01",
@@ -21850,7 +21850,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-12-08",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-12-08",
                               "dateEnd": "2026-12-08",
@@ -21875,7 +21875,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-12-10",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-12-10",
                               "dateEnd": "2026-12-10",
@@ -21925,7 +21925,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-12-12",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-12-12",
                               "dateEnd": "2026-12-12",
@@ -21975,7 +21975,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-12-15",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-12-15",
                               "dateEnd": "2026-12-15",
@@ -22000,7 +22000,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-12-22",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-12-22",
                               "dateEnd": "2026-12-22",
@@ -22025,7 +22025,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doh-fika-lycksele-2026",
+                              "id": "doh-fika-lycksele-2026-12-24",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-12-24",
                               "dateEnd": "2026-12-24",
@@ -22050,7 +22050,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "dog-fikatraff-pa-radis-2026",
+                              "id": "dog-fikatraff-pa-radis-2026-12-26",
                               "name": "DOG  FIKATRÄFF på Rådis",
                               "date": "2026-12-26",
                               "dateEnd": "2026-12-26",
@@ -22075,7 +22075,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "doa-tisdagslunch-2026",
+                              "id": "doa-tisdagslunch-2026-12-29",
                               "name": "DOA - Tisdagslunch",
                               "date": "2026-12-29",
                               "dateEnd": "2026-12-29",
@@ -22125,7 +22125,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-2-2026",
+                              "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-2-2026-12-31",
                               "name": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 2",
                               "date": "2026-12-31",
                               "dateEnd": "2026-12-31",
@@ -22150,7 +22150,7 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-2-2026",
+                              "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-1-2026-12-31",
                               "name": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 1",
                               "date": "2026-12-31",
                               "dateEnd": "2026-12-31",
