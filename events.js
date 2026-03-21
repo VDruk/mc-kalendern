@@ -3980,6 +3980,32 @@ const EVENTS_DATA = {
       "source": "FB"
     },
     {
+      "id": "adas-mc-varparty-2026",
+      "name": "Adas VårParty 2026",
+      "date": "2026-04-24",
+      "dateEnd": "2026-04-26",
+      "location": "Regementsvägen 12, Sundsvall",
+      "type": "Fest",
+      "organizer": "Adas Mc Sundsvall",
+      "description": "VårParty hos Adas MC! Barhäng på fredag, fest på lördag. Vuxendrycker och musik. Vänner och inbjudna.",
+      "descriptionFull": "VårParty 2026 hos Adas Mc Sundsvall!\n\nVänner och inbjudna. Som vanligt blir det baluns i dagarna två.\n\nBarhäng på fredag.\nVuxendrycker och musik.\n\nNu har ni datum... vi pysslar på under tiden.\n\nPlats: Regementsvägen 12, Sundsvall.",
+      "backImage": "ads/adas-mc-varparty-back-2026-04-24.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1862020294519664"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Regementsvägen+12+Sundsvall",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1862020294519664",
+      "region": "Västernorrland",
+      "source": "facebook.com"
+    },
+    {
       "id": "mc-collection-sasongsoppning-2026",
       "name": "MC Collection Säsongsöppning",
       "date": "2026-04-25",
@@ -11283,6 +11309,32 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "sidsjons-sanslosa-50-ar-2026",
+      "name": "Sidsjöns Sanslösa 50 år",
+      "date": "2026-06-13",
+      "dateEnd": "2026-06-13",
+      "location": "Regementsvägen 12, Sundsvall",
+      "type": "Fest",
+      "organizer": "Adas Mc Sundsvall",
+      "description": "50-årsfest! Live music, tattoo, beer och food. Only bikers! Barhäng fredag från kl 18. Festen lördag från kl 12. Endast förköp och kontanter.",
+      "descriptionFull": "Sidsjöns Sanslösa 50 år! Kom och fira med oss!\n\nLive music, tattoo, beer och food. Only bikers!\n\nAdas håller barhäng fredag från kl 18:00. Festen lördag från kl 12:00.\n\nOBS: Endast kontanter i baren.\nOBS: Endast förköp gäller! Se länk till biljettköp och info om boende och parkering i inbjudan.\n\nVarmt välkomna!\n\nPlats: Regementsvägen 12, Sundsvall.",
+      "backImage": "ads/sidsjons-sanslosa-50-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1661459616363762"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Regementsvägen+12+Sundsvall",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1661459616363762",
+      "region": "Västernorrland",
+      "source": "facebook.com"
     },
     {
       "id": "hakan-p-slottsrundan-2026",
