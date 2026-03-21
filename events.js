@@ -9531,7 +9531,7 @@ const EVENTS_DATA = {
                               "id": "himmerlandstraef-2026",
                               "name": "46. Internationale Himmerlandstræf",
                               "date": "2026-05-29",
-                              "dateEnd": "2026-05-30",
+                              "dateEnd": "2026-05-31",
                               "location": "Markedsvej 12, 9600 Aars, Danmark",
                               "type": "Träff",
                               "organizer": "Aars Touring Club",
