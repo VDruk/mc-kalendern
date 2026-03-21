@@ -246,7 +246,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=Biografen+Royal%2C+Lule%C3%A5",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-07",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "moon-bike-show-avesta-2026",
@@ -296,7 +298,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-08",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "smc-uppsala-årsmöte-2026",
@@ -320,7 +324,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=%C3%96stra+Aros+MC+klubblokal%2C+St%C3%A5ngby+1%2C+Uppsala",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-08",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "smc-orebro-årsmöte-2026",
@@ -344,7 +350,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=Idrottens+Hus%2C+Karlsgatan+28%2C+%C3%96rebro",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-10",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "lod-onsdagsfika-soldathemmet-skovde-2026-03-11",
@@ -454,7 +462,7 @@ const EVENTS_DATA = {
                               "location": "Varbergs ölhall, Varberg",
                               "type": "Träff",
                               "organizer": "H-DCS",
-                              "description": "Nu är det klart med Pubkväll i Varberg.",
+                              "description": "Nu är det klart med Pubkväll i Varberg. Häng med DO-C på en avslappnad kväll med MC-snack och god stämning.",
                               "link": "https://hdcs.se/evenemang/do-c-pubkvall-varberg-3/",
                               "region": "Halland",
                               "source": "hdcs.se",
@@ -768,7 +776,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=Hjorts+klubbstuga%2C+Kronoberg",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-15",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "doa-tisdagslunch-2026-03-17",
@@ -988,16 +998,11 @@ const EVENTS_DATA = {
                               "backImage": "ads/harley-davidson-night-bikeman-back-2026-03-20.jpg",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/3426762137474597/"
-                                        },
-                                        {
-                                                  "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Bikeman+AB+M%C3%B6rarp",
-                                                  "type": "map"
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/bikemanhelsingborg/"
                                         }
                               ],
-                              "link": "",
+                              "link": "https://www.facebook.com/bikemanhelsingborg/",
                               "region": "Skåne",
                               "source": "FB"
                     },
@@ -1313,7 +1318,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4sternorrland",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-21",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "smc-vastmanland-årsmöte-2026",
@@ -1337,7 +1344,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4ster%C3%A5s",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-21",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "smc-vastra-gotaland-årsmöte-2026",
@@ -1361,7 +1370,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4stra+G%C3%B6taland",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-21",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "mtl-royal-enfield-125-monesteras-2026",
@@ -1640,7 +1651,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=Uncle+Joes%2C+Visby",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-22",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "smc-jonkoping-årsmöte-2026",
@@ -1674,7 +1687,8 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=Golfbanevägen+11+Jönköping",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "source": "svmc.se"
                     },
                     {
                               "id": "smc-kalmar-årsmöte-2026",
@@ -1698,7 +1712,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=Kalmar",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-22",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "lelledagarna-uppsala-2026",
@@ -2209,7 +2225,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4rmlands+TrafikCenter%2C+Grums",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-28",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "smc-vasterbotten-årsmöte-2026",
@@ -2233,7 +2251,9 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4sterbotten",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "dateEnd": "2026-03-28",
+                              "source": "svmc.se"
                     },
                     {
                               "id": "oppet-hus-nilssons-mc-helsingborg-2026",
@@ -4649,23 +4669,19 @@ const EVENTS_DATA = {
                               "type": "Körning",
                               "organizer": "JMC Samåkning Småland",
                               "description": "MC-samåkning med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Vilken väg? Vilka kommer? Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/902163099303171/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen 2026 arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nAdmin kommer vara med större delen av turerna. Om inte så får någon som känner sig manad att leda turen till något härligt mål.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/902163099303171/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Shell+A6+Sjukhusgatan+6+J%C3%B6nk%C3%B6ping",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=ST1+Asecs+J%C3%B6nk%C3%B6ping",
                                                   "type": "map"
                                         }
                               ],
@@ -5012,13 +5028,13 @@ const EVENTS_DATA = {
                               "backImage": "ads/varmonstringen-orebro-back-2026-05-01.jpg",
                               "links": [
                                         {
-                                                  "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Osmundgatan+Örebro",
-                                                  "type": "map"
+                                                  "label": "hdcs.se",
+                                                  "url": "https://www.hdcs.se"
                                         }
                               ],
                               "region": "Örebro",
-                              "source": "facebook.com"
+                              "source": "facebook.com",
+                              "link": "https://www.hdcs.se"
                     },
                     {
                               "id": "oppet-hus-mc-kompaniet-varing-2026",
@@ -5679,19 +5695,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -6305,16 +6317,11 @@ const EVENTS_DATA = {
                               "backImage": "ads/falkenbergs-majsvangen-back-2026-05-09.jpg",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2394980357594451"
-                                        },
-                                        {
-                                                  "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Abilds+Bygdeg%C3%A5rd+Abild",
-                                                  "type": "map"
+                                                  "label": "hdcs.se",
+                                                  "url": "https://www.hdcs.se"
                                         }
                               ],
-                              "link": "",
+                              "link": "https://www.hdcs.se",
                               "region": "Halland",
                               "source": "FB"
                     },
@@ -6331,16 +6338,11 @@ const EVENTS_DATA = {
                               "backImage": "ads/anyway-riders-spring-party-back-2026-05-09.jpg",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/1643770660297347/"
-                                        },
-                                        {
-                                                  "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Anyway+Riders+Falkenberg",
-                                                  "type": "map"
+                                                  "label": "hdcs.se",
+                                                  "url": "https://www.hdcs.se"
                                         }
                               ],
-                              "link": "",
+                              "link": "https://www.hdcs.se",
                               "region": "Halland",
                               "source": "FB"
                     },
@@ -6504,19 +6506,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -6736,19 +6734,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -7050,13 +7044,13 @@ const EVENTS_DATA = {
                               "backImage": "ads/hemligaturen-back-2026-05-14.jpg",
                               "links": [
                                         {
-                                                  "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Lindvallsgatan+1+Örebro",
-                                                  "type": "map"
+                                                  "label": "hdcs.se",
+                                                  "url": "https://www.hdcs.se"
                                         }
                               ],
                               "region": "Örebro",
-                              "source": "facebook.com"
+                              "source": "facebook.com",
+                              "link": "https://www.hdcs.se"
                     },
                     {
                               "id": "körning-h-d-butiken-i-linkoping-med-overnattning-2026",
@@ -7372,16 +7366,11 @@ const EVENTS_DATA = {
                               "backImage": "ads/dannike-motorstop-back-2026-05-16.jpg",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2077864559663074/"
-                                        },
-                                        {
-                                                  "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Dannike+Hills+Harley+Davidson+DHHD",
-                                                  "type": "map"
+                                                  "label": "hdcs.se",
+                                                  "url": "https://www.hdcs.se"
                                         }
                               ],
-                              "link": "",
+                              "link": "https://www.hdcs.se",
                               "region": "Västra Götaland",
                               "source": "FB"
                     },
@@ -7696,19 +7685,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -8027,19 +8012,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -8845,19 +8826,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -9051,19 +9028,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -9383,7 +9356,7 @@ const EVENTS_DATA = {
                               "location": "Vättern",
                               "type": "Träff",
                               "organizer": "H-DCS",
-                              "description": "Vättern runt med region mitt distrikt A , D , F.",
+                              "description": "Vättern runt med region mitt distrikt A, D, F, J. En klassisk MC-tur runt Sveriges näst största sjö.",
                               "link": "https://hdcs.se/evenemang/vattern-runt-med-region-mitt-distrikt-a-d-f-j/",
                               "region": "Västra Götaland",
                               "source": "hdcs.se",
@@ -9690,13 +9663,13 @@ const EVENTS_DATA = {
                               "backImage": "ads/agder-wings-sommerfest-front-2026-05-30.jpg",
                               "links": [
                                         {
-                                                  "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Nipeveien+237+4957+Risør+Norge",
-                                                  "type": "map"
+                                                  "label": "gwcs.se",
+                                                  "url": "https://www.gwcs.se"
                                         }
                               ],
                               "region": "Norge",
-                              "source": "facebook.com"
+                              "source": "facebook.com",
+                              "link": "https://www.gwcs.se"
                     },
                     {
                               "id": "baprun-gotland-2026",
@@ -9874,19 +9847,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -10156,19 +10125,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -10942,19 +10907,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -11204,19 +11165,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -11913,19 +11870,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -12149,19 +12102,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -12436,19 +12385,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -12642,19 +12587,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -13223,19 +13164,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -13431,19 +13368,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -14024,19 +13957,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -14158,16 +14087,11 @@ const EVENTS_DATA = {
                               "backImage": "ads/stiligaste-hojen-back-2026-07-08.jpg",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/3895905843875566/"
-                                        },
-                                        {
-                                                  "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Solbergav%C3%A4gen+28%2C+64752+%C3%85kers+Styckebruk",
-                                                  "type": "map"
+                                                  "label": "hdcs.se",
+                                                  "url": "https://www.hdcs.se"
                                         }
                               ],
-                              "link": "",
+                              "link": "https://www.hdcs.se",
                               "region": "Södermanland",
                               "source": "FB"
                     },
@@ -14181,19 +14105,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -14548,19 +14468,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -14629,19 +14545,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -14970,19 +14882,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -15102,19 +15010,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -15463,19 +15367,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -15544,19 +15444,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -15831,10 +15727,7 @@ const EVENTS_DATA = {
                               "organizer": "GWEF Nordic",
                               "description": "Gemensam körning från Norge - Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!",
                               "link": "https://gwef.eu/index.php/2026",
-                              "region": [
-                                        "Norge",
-                                        "Sverige"
-                              ],
+                              "region": "Sverige",
                               "source": "gwef.eu",
                               "descriptionFull": "Nordic Wilderness Tour 2026 arrangeras av GWEF Nordic.\n\nGemensam körning från Norge - Sverige. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Norge - Sverige.",
                               "links": [
@@ -15884,19 +15777,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -16094,19 +15983,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -16633,10 +16518,7 @@ const EVENTS_DATA = {
                               "organizer": "GWEF Nordic",
                               "description": "Gemensam körning från Sverige - Danmark. Samling enligt evenemangsinformation. Alla bikerare välkomna!",
                               "link": "https://gwef.eu/index.php/2026",
-                              "region": [
-                                        "Danmark",
-                                        "Sverige"
-                              ],
+                              "region": "Sverige",
                               "source": "gwef.eu",
                               "descriptionFull": "Viking Tour 2026 arrangeras av GWEF Nordic.\n\nGemensam körning från Sverige - Danmark. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Sverige - Danmark.",
                               "links": [
@@ -16736,19 +16618,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -16942,19 +16820,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -17564,19 +17438,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -17745,19 +17615,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -18138,19 +18004,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -18346,19 +18208,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "MC-samåkning varje onsdag med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/902163092636505/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/902163092636505/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
@@ -18702,19 +18560,15 @@ const EVENTS_DATA = {
                               "organizer": "JMC Samåkning Småland",
                               "organizerIcon": "clubs/normalized/jmc.png",
                               "description": "Söndagskörning med JMC! Samling kl 10:00, avfärd 11:00. Härlig runda på fina asfaltsvägar med lunch som mål. Alla välkomna!",
-                              "link": "https://www.facebook.com/events/2521314661597128/",
+                              "link": "https://www.facebook.com/groups/mcsamakning/events",
                               "region": "Jönköping",
                               "source": "facebook.com",
                               "backImage": "ads/jmc-sondagsrundan-back-2026.jpg",
                               "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                               "links": [
                                         {
-                                                  "label": "FB Event",
-                                                  "url": "https://www.facebook.com/events/2521314661597128/"
-                                        },
-                                        {
                                                   "label": "Facebook",
-                                                  "url": "https://www.facebook.com/groups/mcsamakning/"
+                                                  "url": "https://www.facebook.com/groups/mcsamakning/events"
                                         },
                                         {
                                                   "label": "Karta",
