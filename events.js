@@ -3326,6 +3326,37 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "smc-orebro-mekkvall-carlbarks-2026",
+      "name": "Mekkväll hos Carlbarks",
+      "date": "2026-04-16",
+      "dateEnd": "2026-04-16",
+      "location": "Carlbarks, Örebro",
+      "type": "Träff",
+      "organizer": "SMC Örebro",
+      "organizerIcon": "clubs/normalized/smc.png",
+      "description": "Mekkväll för tjejer! 15 platser, kl 17-19. Kom gärna lite tidigare för inskrivning och koll i butiken hos Andreas. Boka via SMC:s hemsida.",
+      "link": "https://grundkurser.svmc.se/boka/4dc9c114-245b-11f1-b13b-020234399001/deltagare",
+      "region": "Örebro",
+      "source": "facebook.com",
+      "backImage": "ads/smc-orebro-mekkvall-carlbarks-back-2026-04-16.jpg",
+      "descriptionFull": "Mekkväll för tjejer hos Carlbarks i Örebro!\n\nTorsdagen den 16 april kl 17-19. Kom gärna lite tidigare för inskrivning och koll i butiken hos Andreas. 15 platser finns.\n\nBoka din plats via SMC:s hemsida.",
+      "links": [
+        {
+          "label": "Boka plats",
+          "url": "https://grundkurser.svmc.se/boka/4dc9c114-245b-11f1-b13b-020234399001/deltagare"
+        },
+        {
+          "label": "SMC kurser",
+          "url": "https://grundkurser.svmc.se/?name=&district=orebro&et%5B%5D=&date_start=&date_end="
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Carlbarks%2C+%C3%96rebro",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "adv-expo-2026",
       "name": "ADV Motorcycle Expo 2026",
       "date": "2026-04-18",
