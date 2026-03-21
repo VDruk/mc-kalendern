@@ -1033,6 +1033,7 @@
         <button class="club-btn" data-club="ÖAMCK" title="ÖAMCK"><img src="clubs/oamck.png" alt="ÖAMCK"></button>
         <button class="club-btn" data-club="SMC" title="SMC"><img src="clubs/smc.png" alt="SMC"></button>
         <button class="club-btn" data-club="SVEMO" title="SVEMO"><img src="clubs/svemo.png" alt="SVEMO"></button>
+        <button class="club-btn" data-club="JMC" title="JMC Samåkning Småland"><img src="clubs/normalized/jmc.png" alt="JMC"></button>
       </div>
       <div class="filter-spacer"></div>
       <div class="share-btns">
@@ -1139,7 +1140,8 @@ const CLUB_MATCHERS = {
   'H-DCS': org => org === 'H-DCS' || org === 'Harley-Davidson Club Sweden',
   'ÖAMCK': org => org === 'ÖAMCK' || org === 'OAMCK',
   'SMC': org => org.includes('SMC'),
-  'SVEMO': org => org.includes('SVEMO') || org.includes('Svemo') || org.includes('MXSM') || org.includes('JSM') || org.includes('USM')
+  'SVEMO': org => org.includes('SVEMO') || org.includes('Svemo') || org.includes('MXSM') || org.includes('JSM') || org.includes('USM'),
+  'JMC': org => org.includes('JMC')
 };
 
 const TYPE_CLASSES = {
