@@ -1489,14 +1489,23 @@ async function loadAllWeather() {
   const fetchPromises = [];
 
   for (const event of events) {
-    if (event.date < todayStr) { weatherData[event.id + '_' + event.date] = 'past'; continue; }
-    if (event.date > maxStr) { weatherData[event.id + '_' + event.date] = 'pending'; continue; }
-    const cacheKey = event.id + '_' + event.date;
+    const endDate = event.dateEnd || event.date;
+    // Determine which date to fetch weather for
+    let weatherDate = event.date;
+    if (event.date < todayStr && endDate >= todayStr) {
+      // Multi-day event still running today: show today's weather
+      weatherDate = todayStr;
+    } else if (event.date < todayStr) {
+      // Fully past event
+      weatherData[event.id + '_' + event.date] = 'past'; continue;
+    }
+    if (weatherDate > maxStr) { weatherData[event.id + '_' + event.date] = 'pending'; continue; }
+    const cacheKey = event.id + '_' + weatherDate;
     if (cache[cacheKey]) { weatherData[event.id + '_' + event.date] = cache[cacheKey]; continue; }
     const coords = findCoords(event.location);
     if (!coords) { weatherData[event.id + '_' + event.date] = 'no-coords'; continue; }
     fetchPromises.push(
-      fetchWeatherForDate(coords.lat, coords.lon, event.date).then(result => {
+      fetchWeatherForDate(coords.lat, coords.lon, weatherDate).then(result => {
         if (result) { weatherData[event.id + '_' + event.date] = result; cache[cacheKey] = result; }
         else { weatherData[event.id + '_' + event.date] = 'error'; }
       })
