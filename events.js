@@ -9989,6 +9989,27 @@ const EVENTS_DATA = {
                               "backImage": "ads/orangeday-charityride-back-2026-05-30.jpg"
                     },
                     {
+                              "id": "nilssons-mc-festival-2026",
+                              "name": "Nilssons MC Festival 2026",
+                              "date": "2026-05-30",
+                              "dateEnd": "2026-05-30",
+                              "location": "Kanongatan 159, Ödåkra, Helsingborg",
+                              "type": "Show",
+                              "organizer": "Nilssons MC",
+                              "description": "Ett av årets mest maxade MC-event! Motorcykelutställning, demohojor för provkörning, racingförare, retro-MC, fyndtorg, outlet och foodtrucks.",
+                              "descriptionFull": "Välkommen till en heldag fylld av motorcyklar, gemenskap och grym stämning. Oavsett om du är inbiten hojfantast eller bara nyfiken på MC-världen så är det här ett event du inte vill missa!\n\nDet här kan du uppleva:\n- Imponerande motorcykelutställning\n- Demomotorcyklar för provkörning\n- Racingförare på plats\n- Retro- och klassiska motorcyklar\n- Utställare från branschen\n- Försäkringsbolag och motorcykelklubbar\n- Stort fyndtorg och outlet\n- Riktigt fina kampanjer i butik\n- Foodtrucks med något för alla smaker\n\nTid: Lördag 30 maj, kl 10:00-16:00\nPlats: Kanongatan 159, 254 67 Ödåkra (Helsingborg)\n\nTa med vännerna, familjen och alla som älskar doften av bensin och frihetskänslan på två hjul!",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/940212435184106"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/940212435184106",
+                              "region": "Skåne",
+                              "source": "facebook.com",
+                              "backImage": "ads/nilssons-mc-festival-back-2026-05-30.jpg"
+                    },
+                    {
                               "id": "filip-backlund-trackdays-mantorp-2026",
                               "name": "Filip Backlund Trackdays Mantorp Park",
                               "date": "2026-05-31",
