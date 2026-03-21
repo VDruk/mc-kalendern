@@ -11,6 +11,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#1a1a2e">
+<link rel="manifest" href="/manifest.json">
 
 <!-- Open Graph / Facebook -->
 <meta property="fb:app_id" content="966242223397117">
@@ -35,6 +37,7 @@
 <style>
   /* ========== RESET & BASE ========== */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
 
   :root {
     --bg-primary: #f4f5f7;
@@ -1762,7 +1765,7 @@ function render() {
     let backHTML = '';
     if (hasBack) {
       const fullDesc = (event.descriptionFull || event.description || '').split('\n').map(p => `<p>${p}</p>`).join('');
-      const backImg = event.backImage ? `<img class="back-img" src="${event.backImage}" alt="${displayName}">` : '';
+      const backImg = event.backImage ? `<img class="back-img" src="${event.backImage}" alt="${displayName}" loading="lazy">` : '';
       let linksHTML = '';
       if (event.links && event.links.length > 0) {
         const extIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;

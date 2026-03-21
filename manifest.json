@@ -1,0 +1,27 @@
+{
+  "name": "MC Kalendern",
+  "short_name": "MC Kalendern",
+  "description": "MC-evenemang i Sverige 2026. Alla MC-tr\u00e4ffar, m\u00e4ssor, k\u00f6rningar och racing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "lang": "sv",
+  "icons": [
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
