@@ -13511,10 +13511,14 @@ const EVENTS_DATA = {
                               "links": [
                                         {
                                                   "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/906795765861730"
+                                        },
+                                        {
+                                                  "label": "FB Event (2)",
                                                   "url": "https://www.facebook.com/events/1424242152656290"
                                         }
                               ],
-                              "link": "https://www.facebook.com/events/1424242152656290",
+                              "link": "https://www.facebook.com/events/906795765861730",
                               "region": "Skåne",
                               "source": "facebook.com",
                               "backImage": "ads/skanerundan-back-2026-06-27.jpg"
