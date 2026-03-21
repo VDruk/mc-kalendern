@@ -1946,6 +1946,31 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
+                              "id": "monteblanco-vip-portimao-2026-03-26",
+                              "name": "Monteblanco VIP-Portimao VIP",
+                              "date": "2026-03-26",
+                              "dateEnd": "2026-04-02",
+                              "location": "Monteblanco & Portimao Circuit, Spanien/Portugal",
+                              "type": "Körning",
+                              "organizer": "One Track Day Events",
+                              "description": "3 dagar på Monteblanco Circuit och 3 dagar på Portimao. VIP-event med max 100 deltagare per bana. Säljer snabbt slut varje år!",
+                              "descriptionFull": "Monteblanco VIP-Portimao VIP arrangeras av One Track Day Events.\n\n3 dagar på Monteblanco Circuit, därefter 3 dagar på Portimao! Båda eventen är VIP-event med endast 100 deltagare per bana.\n\nVi säljer snabbt slut dessa event varje år, så vänta inte med att boka.\n\n8 dagars trackday-upplevelse i södra Europa med Sveriges bästa banförare.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/2381689725622769"
+                                        },
+                                        {
+                                                  "label": "Hemsida",
+                                                  "url": "https://www.onetrackdayevents.se"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/2381689725622769",
+                              "region": "Spanien",
+                              "source": "facebook.com",
+                              "backImage": "ads/monteblanco-vip-portimao-back-2026-03-26.jpg"
+                    },
+                    {
                               "id": "pub-kvall-pa-murphys-i-jonkoping-2026",
                               "name": "PUB-KVÄLL på Murphys i Jönköping",
                               "date": "2026-03-27",
@@ -2570,6 +2595,32 @@ const EVENTS_DATA = {
                               "link": "https://www.facebook.com/events/1442428840595291",
                               "region": "Södermanland",
                               "source": "facebook.com"
+                    },
+                    {
+                              "id": "mc-premiaren-kristinehamn-2026-04-03",
+                              "name": "MC-Premiären",
+                              "date": "2026-04-03",
+                              "dateEnd": "2026-04-03",
+                              "location": "Kungsgatan, Kristinehamn",
+                              "type": "Körning",
+                              "organizer": "SMC Värmland",
+                              "organizerIcon": "clubs/normalized/smc.png",
+                              "description": "Traditionell MC-premiär på långfredagen! Kortege från Kristinehamn via Filipstad till Karlstad. Samling kl 09:00, start 11:00. Avslutas med korvgrillning hos CMCK.",
+                              "descriptionFull": "MC-Premiären arrangeras av CMCK i samarbete med SMC Värmland och Omtänksamma Kristinehamn.\n\nÅrets MC-premiär går som vanligt från Kristinehamn till Filipstad med fikastopp, vidare till Karlstad med stopp på Bike Street. Avslutas hos CMCK:s klubbstuga med grillad korv och mingel.\n\nEn liten skön vårtur på ca 15 mil.\n\nHålltider:\n09:00 Samling och uppställning på Norra Kungsgatan\n11:00 Start från Kristinehamn\n11:45 Ankomst Filipstad\n13:00 Avresa från Filipstad\n14:00 Ankomst Gjuterigatan, Karlstad (MC-butikerna håller öppet)\n15:30 Ankomst CMCK:s klubbstuga\n\n634 intresserade på Facebook!",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1474762490860471"
+                                        },
+                                        {
+                                                  "label": "FB Event (CMCK)",
+                                                  "url": "https://www.facebook.com/events/1431391721859808"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1474762490860471",
+                              "region": "Värmland",
+                              "source": "facebook.com",
+                              "backImage": "ads/mc-premiaren-back-2026-04-03.jpg"
                     },
                     {
                               "id": "doa-lordagsfika-pa-biltema-2026-04-04",
@@ -5333,6 +5384,27 @@ const EVENTS_DATA = {
                               "source": "mcbranschen.se"
                     },
                     {
+                              "id": "poker-run-kak-2026-05-02",
+                              "name": "Poker Run K.A.K 2026",
+                              "date": "2026-05-02",
+                              "dateEnd": "2026-05-02",
+                              "location": "SMK-lokalen, Köpingsvägen 8, Arboga",
+                              "type": "Körning",
+                              "organizer": "Sleepy Town Cruisers",
+                              "description": "Poker Run genom Köping, Arboga och Kungsör. Bil och MC. Startavgift 100 kr, alla pengar går till Operation Smile. Kl 13-18.",
+                              "descriptionFull": "Poker Run K.A.K 2026 arrangeras av Sleepy Town Cruisers Arboga i samarbete med Kungsörs bil- och MC-klubb, Car Club Ranch Köping, Independent Cruisers Hallstahammar och Caliber Haze Cruzerz Köping.\n\nK.A.K står för Köping, Arboga, Kungsör.\n\nAlla får vara med, man behöver inte vara medlem i någon speciell klubb. Det handlar inte om att köra snabbast. Vi följer trafikregler och har en rolig dag tillsammans.\n\nEn pokerhand/startavgift kostar 100 kr. Alla startavgiftspengar går till Operation Smile.\n\nStarten utgår från Arboga SMK-lokalen, Köpingsvägen 8, Arboga.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/907009612195168"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/907009612195168",
+                              "region": "Västmanland",
+                              "source": "facebook.com",
+                              "backImage": "ads/poker-run-kak-back-2026-05-02.jpg"
+                    },
+                    {
                               "id": "varmonstring-2026",
                               "name": "Vårmönstring",
                               "date": "2026-05-03",
@@ -6528,6 +6600,27 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
+                              "id": "motortraff-prastnibble-2026-05-10",
+                              "name": "Motorträff på Prästnibble gård",
+                              "date": "2026-05-10",
+                              "dateEnd": "2026-05-10",
+                              "location": "Prästnibble gård, Svartsjö, Ekerö",
+                              "type": "Träff",
+                              "organizer": "Bilträffar i hela Sverige",
+                              "description": "Återkommande motorträff för alla motorfordon på vackra Prästnibble gård. Grillat och fika att köpa på plats. Kl 10-14.",
+                              "descriptionFull": "Motorträff på Prästnibble gård arrangeras av Yvonne Larsson och Bilträffar i hela Sverige.\n\nÅterkommande motorträff för alla motorfordon! Det finns grillat och fika att köpa på plats.\n\nPlats: Prästnibble gård, Svartsjö, Ekerö\nTid: 10:00-14:00\n\n351 intresserade på Facebook.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1431974101853367"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1431974101853367",
+                              "region": "Stockholm",
+                              "source": "facebook.com",
+                              "backImage": "ads/motortraff-prastnibble-back-2026-05-10.jpg"
+                    },
+                    {
                               "id": "doa-kvallskörning-nacka-2026-05-11",
                               "name": "DOA - Kvällskörning Nacka",
                               "date": "2026-05-11",
@@ -7086,13 +7179,17 @@ const EVENTS_DATA = {
                               "name": "Rönnegård Bädd & Frukost",
                               "date": "2026-05-16",
                               "dateEnd": "2026-05-17",
-                              "location": "Gagnef",
+                              "location": "Tallbacksvägen 19, Gagnef",
                               "type": "Träff",
                               "organizer": "mctouring.se",
-                              "description": "Snacka MC-touring över kaffe, kolla touringboden och leverantörer. Grillkväll 175 kr med resebilder, i år med fokus på Japan. Övernattning möjlig.",
-                              "descriptionFull": "Lördagen den 16 maj håller mctouring.se Öppet hus på Tallbacken i Gagnef. Kom förbi och snacka MC-touring över en kopp kaffe med tilltugg.\nVi håller även MC-touringboden öppen med både gammalt och nytt! Leverantörer på plats med produkter för MC-touring på både asfalt och grus.\nPå kvällen kör vi en grillkväll (175 kr/person) med bilder och film från olika resor, i år med fokus på Japan.\nÖvernattning i delad fyrbäddsstuga 375 kr/person. Eget tält med servicehus och frukost 225 kr/person.\nLördag 10.00 - 23.00 | Söndag 08.00 - 10.00\nBoende bokas via e-post: hans@mctouring.se\nVälkommen till en härlig dag/helg med stort fokus på MC-touring!\nHälsningar era värdar // Gun och Hans Rönnegård",
+                              "description": "Öppet hus hos mctouring.se. Snacka touring över kaffe, kolla touringboden och leverantörer. Grillkväll 175 kr med resebilder (Japan). Går att komma redan fredag kväll!",
+                              "descriptionFull": "Lördagen den 16 maj håller mctouring.se Öppet hus på Tallbacken i Gagnef. Kom förbi och snacka MC-touring över en kopp kaffe med tilltugg.\n\nVi håller även MC-touringboden öppen med både gammalt och nytt! Det kommer också att finnas leverantörer på plats med produkter som hjälper oss att njuta av MC-touring på både asfalt och grus.\n\nPå kvällen kör vi en grillkväll (175 kr/person) med bilder och film från olika resor, i år med lite fokus på Japan.\n\nDet finns även möjlighet att bo över mellan den 16 till den 17 med frukost på söndag morgon. Perfekt för en härlig vårtur till Dalarna.\n\nBädd&Frukost per person i delad fyrbäddsstuga 375 kr. Det går också bra att komma redan på fredag kväll, samma pris. Eget tält med servicehus och frukost 225 kr/person.\n\nLördag 10.00 - 23.00 | Söndag 08.00 - 10.00\nBoende bokas via e-post: hans@mctouring.se\n\nVälkommen till en härlig dag/helg med likasinnade och med stort fokus på MC-touring!\nHälsningar era värdar // Gun och Hans Rönnegård",
                               "backImage": "ads/mctouring-oppet-hus-2026.jpg",
                               "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1256394585831121"
+                                        },
                                         {
                                                   "label": "mctouring.se",
                                                   "url": "https://mctouring.se"
@@ -7102,9 +7199,9 @@ const EVENTS_DATA = {
                                                   "url": "http://www.ronnegard.se/mc"
                                         }
                               ],
-                              "link": "http://www.ronnegard.se/mc",
+                              "link": "https://www.facebook.com/events/1256394585831121",
                               "region": "Dalarna",
-                              "source": "FB"
+                              "source": "facebook.com"
                     },
                     {
                               "id": "dob-aviatorernas-flygarrally-2026",
@@ -7602,6 +7699,27 @@ const EVENTS_DATA = {
                               "link": "https://www.facebook.com/events/858222117216147",
                               "region": "Halland",
                               "source": "facebook.com"
+                    },
+                    {
+                              "id": "varfest-varberg-2026-05-16",
+                              "name": "Vårfest",
+                              "date": "2026-05-16",
+                              "dateEnd": "2026-05-16",
+                              "location": "Susvindsvägen 9, Varberg",
+                              "type": "Fest",
+                              "organizer": "Varbergs MC Klubb",
+                              "description": "Vårfest med liveband Järnet på scen! Förköp 120 kr (Swish senast 10 maj), dörren 150 kr. Kl 18-01.",
+                              "descriptionFull": "Vårfest arrangeras av Varbergs MC Klubb (VMCK).\n\nVårfest med liveband Järnet på scen!\n\nFörköp 120 kr via Swish 123 021 88 18 (senast 10 maj).\nEntré i dörren: 150 kr.\n\nTid: 18:00-01:00\nPlats: Susvindsvägen 9, Varberg.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1634943304615012"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1634943304615012",
+                              "region": "Halland",
+                              "source": "facebook.com",
+                              "backImage": "ads/varfest-may16-back-2026-05-16.jpg"
                     },
                     {
                               "id": "do-c-tjorn-orust-rundan-2026",
@@ -8360,23 +8478,27 @@ const EVENTS_DATA = {
                               "name": "Ride for Ukraine 2026",
                               "date": "2026-05-23",
                               "dateEnd": "2026-05-23",
-                              "location": "Ukrainska ambassaden, Lidingö",
+                              "location": "Herserudsvägen 5B, Lidingö",
                               "type": "Körning",
                               "organizer": "Templar Knights MC",
-                              "description": "Välgörenhetskörning till stöd för Ukraina via UNHCR. Samling 09:30, start 10:00. Från Lidingö till Sollentuna. Swisha valfri summa, allt går oavkortat till UNHCR.",
+                              "description": "Välgörenhetskörning till stöd för Ukraina via UNHCR. Femte året i rad! Samling 09:30, start 10:00. Från Lidingö till Överby Gård, Rotebro. Swisha valfri summa till UNHCR.",
                               "link": "https://min.sverigeforunhcr.se/fundraisers/ride-for-ukraine2",
                               "region": "Stockholm",
                               "source": "MC-Folket / FB",
                               "frontImage": "ads/ride-for-ukraine-2026-05-23.jpg",
-                              "descriptionFull": "Ride for Ukraine 2026 arrangeras av Templar Knights MC.\n\nVälgörenhetskörning till stöd för Ukraina via UNHCR. Samling 09:30, start 10:00. Från Lidingö till Sollentuna. Swisha valfri summa, allt går oavkortat till UNHCR.\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Ukrainska ambassaden, Lidingö.",
+                              "descriptionFull": "Hjälp oss hjälpa det Ukrainska folket via UNHCR.\n\nVi samlas för femte året för att visa vår solidaritet och stöd för Ukrainas folk. Den frivilliga startavgiften går oavkortat till UNHCR och deras verksamhet för att hjälpa den hårt krigsdrabbade allmänheten i Ukraina.\n\nVårt stöd har aldrig varit viktigare än nu.\n\nVi avslutar vårt Run vid Parts Stop vid Överby Gård i Rotebro.\n\nArrangör: Templar Knights Motorcycle Club - Stockholm Lodge\nSamling: 09:30 | Start: 10:00\nPlats: Herserudsvägen 5B, 181 50 Lidingö",
                               "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1257979399616317"
+                                        },
                                         {
                                                   "label": "min.sverigeforunhcr.se",
                                                   "url": "https://min.sverigeforunhcr.se/fundraisers/ride-for-ukraine2"
                                         },
                                         {
                                                   "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Ukrainska+ambassaden%2C+Liding%C3%B6",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Herserudsv%C3%A4gen+5B%2C+Liding%C3%B6",
                                                   "type": "map"
                                         }
                               ]
@@ -8846,6 +8968,31 @@ const EVENTS_DATA = {
                                                   "type": "map"
                                         }
                               ]
+                    },
+                    {
+                              "id": "singeltur-sormland-2026-05-24",
+                              "name": "Singeltur från Sörmland",
+                              "date": "2026-05-24",
+                              "dateEnd": "2026-05-24",
+                              "location": "Kungsgatan 14, Eskilstuna",
+                              "type": "Körning",
+                              "organizer": "AdventureBike",
+                              "description": "MC-tur för singlar 45-60 år från Stockholm, Sörmland, Västmanland och Uppsala. Fina asfaltsvägar med fikapauser. Lunch ingår. Anmälan 300 kr.",
+                              "descriptionFull": "Singeltur från Sörmland arrangeras av AdventureBike.\n\nMC-tur för singlar i åldrarna 45-60 från Stockholm, Sörmland, Västmanland och Uppsala.\n\nVi kör fina asfaltsvägar med regelbundna stopp för att lära känna varandra. Lunch och fika ingår.\n\nAnmälan via adventurebike.se senast 10 maj. Kostnad 300 kr/person.\n\nSamling kl 10:00, Kungsgatan 14, Eskilstuna.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1462802558572059"
+                                        },
+                                        {
+                                                  "label": "Hemsida",
+                                                  "url": "https://www.adventurebike.se"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1462802558572059",
+                              "region": "Södermanland",
+                              "source": "facebook.com",
+                              "backImage": "ads/singeltur-sormland-back-2026-05-24.jpg"
                     },
                     {
                               "id": "doa-kvallskörning-nacka-2026-05-25",
@@ -9765,6 +9912,27 @@ const EVENTS_DATA = {
                               "link": "https://www.facebook.com/events/1248254590518182",
                               "region": "Stockholm",
                               "source": "facebook.com"
+                    },
+                    {
+                              "id": "orangeday-charityride-2026-05-30",
+                              "name": "Orangeday MC Charityride 2026",
+                              "date": "2026-05-30",
+                              "dateEnd": "2026-05-30",
+                              "location": "Vasaparken, Norrköping",
+                              "type": "Körning",
+                              "organizer": "Orange Day MC Charityride Sweden",
+                              "description": "9:e året! Välgörenhetskortege mot våld mot kvinnor och barn. Förare från hela Sverige samlas i Norrköping. Avgift 150 kr via Swish.",
+                              "descriptionFull": "Orangeday MC Charityride 2026 arrangeras av Orange Day MC Charityride Sweden.\n\n9:e året i rad! Välgörenhetskortege som stödjer FN:s principer mot våld mot kvinnor och barn.\n\nFörare från hela Sverige samlas i Norrköping. Avgift 150 kr per person via Swish 900 29 32.\n\nAnkomst 17:00 till Vasaparken. Bar öppnar 18:30, scen 19:00-21:30.\n\nFri entré till Vasaparken för allmänheten.\n\nOfficiella rutter och regionala samlingsplatser meddelas via Facebook.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/845106301845419"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/845106301845419",
+                              "region": "Östergötland",
+                              "source": "facebook.com",
+                              "backImage": "ads/orangeday-charityride-back-2026-05-30.jpg"
                     },
                     {
                               "id": "filip-backlund-trackdays-mantorp-2026",
@@ -10827,6 +10995,27 @@ const EVENTS_DATA = {
                               "descriptionFull": "Välkommen att köra nationaldagsturen Haninge 2026!\n\nAlla sorters MC får vara med. Sträckningen är knappt 5,5 mil lång och går genom större delen av Haninges vackraste vägar.\n\nStart och mål: GULF Tungelsta. Samling för gemensam avfärd.\n\nTid: Lördag 6 juni kl. 14:00\nPlats: GULF Tungelsta, Södertäljevägen 19, 137 56 Tungelsta."
                     },
                     {
+                              "id": "arboga-motordag-2026-06-06",
+                              "name": "Arboga Motordag 2026",
+                              "date": "2026-06-06",
+                              "dateEnd": "2026-06-06",
+                              "location": "Bergmansparken, Arboga",
+                              "type": "Show",
+                              "organizer": "Sleepy Town Cruisers",
+                              "description": "Nationella Motordagen i Bergmansparken! Veteranbilar, mopeder, traktorer, motorcyklar och lastbilar. Vann MHRF:s Kultur på hjul-pris förra året. Fri entré.",
+                              "descriptionFull": "Arboga Motordag 2026 arrangeras av Sleepy Town Cruisers.\n\nFirande av Nationella Motordagen i Bergmansparken, Arboga.\n\nVälkomnar veteranbilar, mopeder, traktorer, motorcyklar och lastbilar. Vann MHRF:s Kultur på hjul-pris förra året.\n\nFri entré. Familjevänligt evenemang.\n\nPlats: Bergmansparken, Arboga\nTid: 10:00",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/2587130814988768"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/2587130814988768",
+                              "region": "Västmanland",
+                              "source": "facebook.com",
+                              "backImage": "ads/arboga-motordag-back-2026-06-06.jpg"
+                    },
+                    {
                               "id": "bmw-malaren-runt-fran-nykvarn-en-svensk-mc-klassiker-2026",
                               "name": "Mälaren Runt från Nykvarn - En svensk mc klassiker",
                               "date": "2026-06-07",
@@ -11790,6 +11979,27 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "cancer-run-2026-06-13",
+                              "name": "Cancer Run 2026",
+                              "date": "2026-06-13",
+                              "dateEnd": "2026-06-13",
+                              "location": "A.R.M. Chapter #40, Gudmundsbyn 111, Sundsvall",
+                              "type": "Körning",
+                              "organizer": "A.R.M. Chapter #40 Sundsvall",
+                              "description": "9:e året! Poker Run för Barncancerfonden. Registrering 100 kr per hjälm. Start kl 10:00. Mål hos Harley-Davidson Sundsvall med burgare och priser.",
+                              "descriptionFull": "Cancer Run 2026 arrangeras av A.R.M. Chapter #40 Sundsvall.\n\n9:e året i rad! Välgörenhets-pokerrun för Barncancerfonden.\n\nRegistrering 100 kr per hjälm (eller valfritt högre belopp).\n\n08:30 Pokerkortförsäljning startar\n09:50 Genomgång\n10:00 Avfärd\n\nMål hos Harley-Davidson Sundsvall med burgare, dryck, priser och Harley-merchandise.\n\nDeltagare får 15% rabatt på H-D tillbehör.\n\nKan du inte delta? Swisha direkt till Barncancerfonden (902 0900).",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1414649743368831"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1414649743368831",
+                              "region": "Västernorrland",
+                              "source": "facebook.com",
+                              "backImage": "ads/cancer-run-back-2026-06-13.jpg"
+                    },
+                    {
                               "id": "hakan-p-slottsrundan-2026",
                               "name": "Håkan P Slottsrundan",
                               "date": "2026-06-14",
@@ -12253,6 +12463,52 @@ const EVENTS_DATA = {
                               "link": "https://www.indianridersfest.eu/",
                               "region": "Tjeckien",
                               "source": "FB"
+                    },
+                    {
+                              "id": "midsommar-tors-mc-2026-06-18",
+                              "name": "Midsommar på Tors MC",
+                              "date": "2026-06-18",
+                              "dateEnd": "2026-06-20",
+                              "location": "Dye 512, Karlstad",
+                              "type": "Fest",
+                              "organizer": "Tors MC Karlstad",
+                              "description": "Midsommarfirande hos Tors MC! Öppnar torsdag 18/6. Midsommarlunch (knytkalas) fredag kl 14. Brännboll på lördag. Fri entré.",
+                              "descriptionFull": "Midsommar på Tors MC arrangeras av Tors MC Karlstad.\n\nMidsommarfirande öppnar torsdag 18 juni.\n\nFredag: Midsommarlunch kl 14:00 (knytkalas, ta med egen mat, Tors bjuder på potatis). Kylskåp finns för matförvaring.\n\nLördag: Traditionell brännboll.\n\nFrukost och annan mat finns att köpa.\n\nFri entré.\n\nPlats: Dye 512, Karlstad.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/895648703242346"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/895648703242346",
+                              "region": "Värmland",
+                              "source": "facebook.com",
+                              "backImage": "ads/midsommar-tors-mc-back-2026-06-18.jpg"
+                    },
+                    {
+                              "id": "ridersday-2026-06-18",
+                              "name": "RidersDay 2026",
+                              "date": "2026-06-18",
+                              "dateEnd": "2026-06-18",
+                              "location": "Mantorp Park, Parisvägen 8, Mantorp",
+                              "type": "Träff",
+                              "organizer": "Riders Day",
+                              "description": "MC-träff för inspiration och nätverkande. Provkörningar, däck- och utrustningssnack, Ariel Atom-upplevelse, kaffe och korv. Kl 11-15.",
+                              "descriptionFull": "RidersDay 2026 arrangeras av Riders Day.\n\nMC-träff på Mantorp Park för inspiration och nätverkande.\n\nAktiviteter: provkörningar, diskussioner om däck, utrustning och körning med experter, Ariel Atom och Agile SCX-upplevelser (begränsat antal), kaffe och varmkorv.\n\nIngen stress, ingen press. Bara motorcyklar och bra människor.\n\nTid: 11:00-15:00\nPlats: Mantorp Park, Parisvägen 8\n\nMer info: www.ridersday.se",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1590160265546758"
+                                        },
+                                        {
+                                                  "label": "Hemsida",
+                                                  "url": "https://www.ridersday.se"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1590160265546758",
+                              "region": "Östergötland",
+                              "source": "facebook.com",
+                              "backImage": "ads/ridersday-back-2026-06-18.jpg"
                     },
                     {
                               "id": "hdcs-midsommartraff-2026",
@@ -13157,6 +13413,69 @@ const EVENTS_DATA = {
                                                   "type": "map"
                                         }
                               ]
+                    },
+                    {
+                              "id": "skanerundan-2026-06-27",
+                              "name": "Skånerundan 2026",
+                              "date": "2026-06-27",
+                              "dateEnd": "2026-06-27",
+                              "location": "Motostar, Såggatan 3, Sjöbo",
+                              "type": "Körning",
+                              "organizer": "MC för alla - Skåne",
+                              "description": "Årets höjdpunkt! Scenisk MC-tur genom Skåne. Samling 10:00, avfärd 10:45. Flera checkpoints. Alla välkomna, gratis, tempo som passar alla.",
+                              "descriptionFull": "Skånerundan 2026 arrangeras av MC för alla - Skåne.\n\nEn av årets höjdpunkter! Scenisk MC-tur genom Skåne.\n\nSamling 10:00, genomgång 10:30, avfärd 10:45. Flera checkpoints, mål ca 17:30.\n\nAlla välkomna, ingen avgift, tempo som passar alla. Mat och dryck finns vid de flesta stoppen.\n\nGrupper organiseras efter plats, ålder och önskemål.\n\nMålet är att slå förra årets rekord på 130+ motorcyklar!\n\n435 intresserade på Facebook.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1424242152656290"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1424242152656290",
+                              "region": "Skåne",
+                              "source": "facebook.com",
+                              "backImage": "ads/skanerundan-back-2026-06-27.jpg"
+                    },
+                    {
+                              "id": "regression-10ars-fest-2026-06-27",
+                              "name": "10-års fest Regression Brotherhood MC",
+                              "date": "2026-06-27",
+                              "dateEnd": "2026-06-29",
+                              "location": "Vretstorp",
+                              "type": "Fest",
+                              "organizer": "Regression Brotherhood MC",
+                              "description": "Regression Brotherhood MC firar 10 år! Öppnar fredag kväll kl 18. Mat, dryck och underhållning med trubadur Kaj Pousar. Stänger söndag.",
+                              "descriptionFull": "10-års fest arrangeras av Regression Brotherhood MC.\n\nRegression Brotherhood MC firar 10 år!\n\nÖppnar fredag kväll kl 18:00, stänger söndag.\n\nMat, dryck och underhållning med trubadur Kaj Pousar.\n\nPlats: Vretstorp.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/906795765861730"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/906795765861730",
+                              "region": "Örebro",
+                              "source": "facebook.com",
+                              "backImage": "ads/regression-10ars-back-2026-06-27.jpg"
+                    },
+                    {
+                              "id": "bil-mc-epa-finspang-2026-06-27",
+                              "name": "Bil, MC & Epa utställning",
+                              "date": "2026-06-27",
+                              "dateEnd": "2026-06-27",
+                              "location": "Bruksparken, Bruksgatan 5, Finspång",
+                              "type": "Show",
+                              "organizer": "Hannu Hietala",
+                              "description": "Utställning för bilar, motorcyklar och mopeder i Bruksparken. Utställare in kl 10:30, avgift 50 kr/fordon (kontant). Priser i flera kategorier.",
+                              "descriptionFull": "Bil, MC & Epa utställning i Bruksparken Finspång.\n\nUtställning för bilar, motorcyklar och mopeder.\n\nUtställare in kl 10:30. Avgift 50 kr per fordon (kontant, även i kiosken).\n\nPriser delas ut i kategorierna: Folkets favorit, Bil, Motorcykel och Moped.\n\nTid: 11:00-16:30\nPlats: Bruksparken, Bruksgatan 5, Finspång.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/26095998856683850"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/26095998856683850",
+                              "region": "Östergötland",
+                              "source": "facebook.com",
+                              "backImage": "ads/bil-mc-epa-finspang-back-2026-06-27.jpg"
                     },
                     {
                               "id": "jmc-sondagsrundan-2026-06-28",
@@ -17295,6 +17614,27 @@ const EVENTS_DATA = {
                               "link": "https://www.rockthenightfestival.com",
                               "region": "Västra Götaland",
                               "source": "facebook.com"
+                    },
+                    {
+                              "id": "oldmopperz-rally-2026-08-15",
+                              "name": "OldMopperz veteran rally 2026",
+                              "date": "2026-08-15",
+                              "dateEnd": "2026-08-15",
+                              "location": "Idrottsgatan 8, Järnforsen",
+                              "type": "Körning",
+                              "organizer": "Old Mopperz Järnforsen",
+                              "description": "Veteranmoped och MC-rally. Entré från kl 10, rally startar kl 11. Avgift 150 kr (Swish) inkl fika och grillkorv. Frågesport med priser.",
+                              "descriptionFull": "OldMopperz veteran rally 2026 arrangeras av Old Mopperz Järnforsen.\n\nVeteranmoped och MC-rally.\n\nEntré från kl 10:00, rally startar kl 11:00.\n\nAvgift 150 kr (helst Swish) inkluderar fika och grillkorv.\n\nFrågesport med priser.\n\nOBS: Rallyt har flyttats 1 vecka tidigare jämfört med tidigare år.\n\nPlats: Idrottsgatan 8, Järnforsen.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1895701054386741"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1895701054386741",
+                              "region": "Kalmar",
+                              "source": "facebook.com",
+                              "backImage": "ads/oldmopperz-rally-back-2026-08-15.jpg"
                     },
                     {
                               "id": "malaren-runt-2026",
