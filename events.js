@@ -4624,6 +4624,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "jmc-onsdagsturen-2026-04-29",
+      "name": "Onsdagsturen",
+      "date": "2026-04-29",
+      "dateEnd": "2026-04-29",
+      "location": "Shell A6, Sjukhusgatan 6, Jönköping",
+      "type": "Körning",
+      "organizer": "JMC Samåkning Småland",
+      "description": "MC-samåkning med fika och glass! Samling kl 16:30 vid ST1 bredvid McDonalds, avfärd senast 17:00. Vilken väg? Vilka kommer? Alla välkomna!",
+      "link": "https://www.facebook.com/events/902163092636505/902163099303171/",
+      "region": "Jönköping",
+      "source": "facebook.com",
+      "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
+      "descriptionFull": "Onsdagsturen 2026 arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nAdmin kommer vara med större delen av turerna. Om inte så får någon som känner sig manad att leda turen till något härligt mål.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/902163092636505/902163099303171/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/groups/mcsamakning/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Shell+A6+Sjukhusgatan+6+J%C3%B6nk%C3%B6ping",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-dagstur-ekero-2026",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-04-30",
