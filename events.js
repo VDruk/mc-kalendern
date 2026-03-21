@@ -731,17 +731,17 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "gwcs-fikatraff-sormland-mar-2026",
-                              "name": "Sormlandswingarnas fikatraff",
+                              "name": "Sörmlandswingarnas fikaträff",
                               "date": "2026-03-15",
                               "dateEnd": "2026-03-15",
                               "location": "Sigridslunds Cafe, Ardala",
                               "type": "Träff",
-                              "organizer": "Sormlandswingarna / GWCS",
+                              "organizer": "Sörmlandswingarna / GWCS",
                               "description": "Träffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!",
                               "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-2/?occurrence=2026-03-15",
                               "region": "Södermanland",
                               "source": "gwcs.se",
-                              "descriptionFull": "Sormlandswingarnas fikatraff arrangeras av Sormlandswingarna / GWCS.\n\nTräffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
+                              "descriptionFull": "Sörmlandswingarnas fikaträff arrangeras av Sörmlandswingarna / GWCS.\n\nTräffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
                               "links": [
                                         {
                                                   "label": "gwcs.se",
@@ -3259,17 +3259,17 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "gwcs-medlemsmote-apr-2026",
-                              "name": "Sormlandswingarnas Medlemsmote",
+                              "name": "Sörmlandswingarnas Medlemsmöte",
                               "date": "2026-04-12",
                               "dateEnd": "2026-04-12",
                               "location": "Sigridslunds Cafe, Ardala",
                               "type": "Träff",
-                              "organizer": "Sormlandswingarna / GWCS",
+                              "organizer": "Sörmlandswingarna / GWCS",
                               "description": "MC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
                               "link": "https://gwcs.se/events/sormlandswingarnas-medlemsmote-2/?occurrence=2026-04-12",
                               "region": "Södermanland",
                               "source": "gwcs.se",
-                              "descriptionFull": "Sormlandswingarnas Medlemsmote arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
+                              "descriptionFull": "Sörmlandswingarnas Medlemsmöte arrangeras av Sörmlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
                               "links": [
                                         {
                                                   "label": "gwcs.se",
@@ -7155,17 +7155,17 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "gwcs-minitraff-herrfallet-2026",
-                              "name": "GWCS Minitraff Herrfallet",
+                              "name": "GWCS Miniträff Herrfallet",
                               "date": "2026-05-14",
                               "dateEnd": "2026-05-17",
                               "location": "Herrfallets Camping, Arboga",
                               "type": "Träff",
-                              "organizer": "Sormlandswingarna / GWCS",
+                              "organizer": "Sörmlandswingarna / GWCS",
                               "description": "MC-arrangemang i Herrfallets Camping, Arboga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
                               "link": "https://media.gwcs.se/2026/01/Herr-2.pdf",
                               "region": "Västmanland",
                               "source": "gwcs.se",
-                              "descriptionFull": "GWCS Minitraff Herrfallet arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Herrfallets Camping, Arboga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Herrfallets Camping, Arboga.",
+                              "descriptionFull": "GWCS Miniträff Herrfallet arrangeras av Sörmlandswingarna / GWCS.\n\nMC-arrangemang i Herrfallets Camping, Arboga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Herrfallets Camping, Arboga.",
                               "links": [
                                         {
                                                   "label": "media.gwcs.se",
@@ -8408,7 +8408,7 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "gwcs-minitraff-svenljunga-2026",
-                              "name": "GWCS Minitraff Svenljunga Nydal",
+                              "name": "GWCS Miniträff Svenljunga Nydal",
                               "date": "2026-05-22",
                               "dateEnd": "2026-05-24",
                               "location": "Nydal, Svenljunga",
@@ -8419,7 +8419,7 @@ const EVENTS_DATA = {
                               "region": "Västra Götaland",
                               "source": "gwcs.se",
                               "frontImage": "ads/gwcs-svenljunga-nydal-2026-05-22.jpg",
-                              "descriptionFull": "GWCS Minitraff Svenljunga Nydal arrangeras av Knallewingarna / GWCS.\n\nMC-arrangemang i Nydal, Svenljunga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nydal, Svenljunga.",
+                              "descriptionFull": "GWCS Miniträff Svenljunga Nydal arrangeras av Knallewingarna / GWCS.\n\nMC-arrangemang i Nydal, Svenljunga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nydal, Svenljunga.",
                               "links": [
                                         {
                                                   "label": "media.gwcs.se",
@@ -9448,26 +9448,30 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "gwcs-vikingtraffen-gallo-2026",
-                              "name": "Vikingtraffen Gallo",
+                              "name": "Vikingträffen Gällö",
                               "date": "2026-05-29",
                               "dateEnd": "2026-05-31",
-                              "location": "Gallo, Jamtland",
+                              "location": "Camp Viking, Gällö, Jämtland",
                               "type": "Träff",
-                              "organizer": "Jan Karlstrand / GWCS",
-                              "description": "MC-arrangemang i Gallo, Jamtland. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
-                              "link": "https://media.gwcs.se/2026/02/gallo26.jpeg",
+                              "organizer": "Jan Hemmingsson / GWCS",
+                              "description": "Norrlands äldsta GW-träff! Välkommen till en superträff i härliga Jämtland. Öppen för alla MC-märken och klubbar. Camp Viking vid Gällö.",
+                              "link": "https://www.facebook.com/events/2093069604879257",
                               "region": "Jämtland",
                               "source": "gwcs.se",
                               "frontImage": "ads/gwcs-vikingtraffen-gallo-2026-05-29.jpg",
-                              "descriptionFull": "Vikingtraffen Gallo arrangeras av Jan Karlstrand / GWCS.\n\nMC-arrangemang i Gallo, Jamtland. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gallo, Jamtland.",
+                              "descriptionFull": "Vikingträffen i härliga Jämtland! \"Norrlands äldsta GW-träff\", öppen för alla MC-märken och klubbar.\n\nEfter förfrågan så kör vi igen! Välkommen till en superträff vid Camp Viking i Gällö.\n\nFakta: Camp Viking är en mycket vackert belägen anläggning vid stranden av Revsundssjön invid E14. Träffen på plats från fredag 29/5, avslut söndag 31/5.\n\nAvstånd: Östersund 50 km, Sundsvall 143 km, Gävle 340 km, Trondheim 310 km.\n\nArrangör: Jan Hemmingsson / GWCS\nPlats: Camp Viking, Gällö, Jämtland",
                               "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/2093069604879257"
+                                        },
                                         {
                                                   "label": "media.gwcs.se",
                                                   "url": "https://media.gwcs.se/2026/02/gallo26.jpeg"
                                         },
                                         {
                                                   "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Gallo%2C+Jamtland",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Camp+Viking+G%C3%A4ll%C3%B6",
                                                   "type": "map"
                                         }
                               ]
@@ -10950,12 +10954,12 @@ const EVENTS_DATA = {
                               "dateEnd": "2026-06-06",
                               "location": "Sigridslunds Cafe, Ardala",
                               "type": "Körning",
-                              "organizer": "Sormlandswingarna / GWCS",
+                              "organizer": "Sörmlandswingarna / GWCS",
                               "description": "Gemensam körning från Sigridslunds Cafe, Ardala. Samling enligt evenemangsinformation. Alla bikerare välkomna!",
                               "link": "https://gwcs.se/events/nationaldagstur-till-sigridslunds-cafe/?occurrence=2026-06-06",
                               "region": "Södermanland",
                               "source": "gwcs.se",
-                              "descriptionFull": "GWCS Nationaldagstur Sigridslunds Cafe arrangeras av Sormlandswingarna / GWCS.\n\nGemensam körning från Sigridslunds Cafe, Ardala. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Sigridslunds Cafe, Ardala.",
+                              "descriptionFull": "GWCS Nationaldagstur Sigridslunds Cafe arrangeras av Sörmlandswingarna / GWCS.\n\nGemensam körning från Sigridslunds Cafe, Ardala. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Sigridslunds Cafe, Ardala.",
                               "links": [
                                         {
                                                   "label": "gwcs.se",
@@ -13067,25 +13071,29 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "gwcs-nationell-traff-degeberga-2026",
-                              "name": "Nationell traff Degeberga GWCS",
+                              "name": "Nationella Träffen Degeberga 2026",
                               "date": "2026-06-25",
                               "dateEnd": "2026-06-28",
-                              "location": "Degeberga Stugby, Degeberga",
+                              "location": "Degeberga Stugby, Trollemölla vägen 52, Degeberga",
                               "type": "Träff",
-                              "organizer": "Skanewingarna / GWCS",
-                              "description": "GWCS Nationella traff och foreningsstamma i Degeberga, Skane. Traffavgift 450:- för medlemmar.",
-                              "link": "https://media.gwcs.se/2026/01/Inbjudan-Nationella-2026-foreningsstamma1.pdf",
+                              "organizer": "Skånewingarna / GWCS",
+                              "description": "GWCS Nationella träff och föreningsstämma i Degeberga, Skåne. Träffavgift 450 kr (medlemmar), 550 kr (icke medlemmar). Helgrillad gris på fredagen!",
+                              "link": "https://www.facebook.com/events/1388440089733288",
                               "region": "Skåne",
                               "source": "gwcs.se",
-                              "descriptionFull": "Nationell traff Degeberga GWCS arrangeras av Skanewingarna / GWCS.\n\nGWCS Nationella traff och foreningsstamma i Degeberga, Skane. Traffavgift 450:- för medlemmar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Degeberga Stugby, Degeberga.",
+                              "descriptionFull": "Välkomna till Nationella Träffen i Degeberga torsdagen den 25-28/6 2026.\n\nTräffen är belägen på Degeberga Stugby, Trollemölla vägen 52, 297 94 Degeberga.\nMaila gärna bokning av stuga o Vandrarhem till info@degebergastugby.se. Uppge Gold Wing eller GW så ni får rätt pris.\n\nInskrivningen öppnar kl 12.00 på torsdagen den 25/6.\n\nPris per natt:\nStuga 1150 kr\nVandrarhem 350 kr\nTräffavgift 450 kr för medlemmar, 550 kr för icke medlemmar.\nI träffavgiften ingår campingavgift för tält, husvagn eller husbil. Ström finns så länge det räcker, ej ingår.\n\nVi kommer inte att ha någon alkoholservering, medtag egen dricka.\n\nGemensam middag på fredagen den 26/6: Helgrillad Gris med alla tillbehör för 150 kr. Måste förbokas senast den 24/5 2026. Till Carita 0730-561899 eller carita.nilsson@seniorshop.se\n\nDär finns kiosk så man kan beställa frukostbullar, Eftermiddagar med Våfflor, Tävlingar, Lotteri, Rundtur!\n\nVarmt Välkomna önskar Skåne Wingarna\n\nArrangör: Carita Nilsson / Skånewingarna / GWCS",
                               "links": [
                                         {
-                                                  "label": "media.gwcs.se",
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1388440089733288"
+                                        },
+                                        {
+                                                  "label": "Inbjudan (PDF)",
                                                   "url": "https://media.gwcs.se/2026/01/Inbjudan-Nationella-2026-foreningsstamma1.pdf"
                                         },
                                         {
                                                   "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Degeberga+Stugby%2C+Degeberga",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Degeberga+Stugby+Trollem%C3%B6lla+v%C3%A4gen+52",
                                                   "type": "map"
                                         }
                               ]
@@ -21390,17 +21398,17 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "gwcs-medlemsmote-okt-2026",
-                              "name": "Sormlandswingarnas Medlemsmote (host)",
+                              "name": "Sörmlandswingarnas Medlemsmöte (host)",
                               "date": "2026-10-11",
                               "dateEnd": "2026-10-11",
                               "location": "Sigridslunds Cafe, Ardala",
                               "type": "Träff",
-                              "organizer": "Sormlandswingarna / GWCS",
+                              "organizer": "Sörmlandswingarna / GWCS",
                               "description": "MC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
                               "link": "https://gwcs.se/events/sormlandswingarnas-medlemsmote-3/?occurrence=2026-10-11",
                               "region": "Södermanland",
                               "source": "gwcs.se",
-                              "descriptionFull": "Sormlandswingarnas Medlemsmote (host) arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
+                              "descriptionFull": "Sörmlandswingarnas Medlemsmöte (host) arrangeras av Sörmlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
                               "links": [
                                         {
                                                   "label": "gwcs.se",
@@ -21875,17 +21883,17 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "gwcs-fikatraff-sormland-nov-2026",
-                              "name": "Sormlandswingarnas fikatraff (host)",
+                              "name": "Sörmlandswingarnas fikaträff (host)",
                               "date": "2026-11-15",
                               "dateEnd": "2026-11-15",
                               "location": "Sigridslunds Cafe, Ardala",
                               "type": "Träff",
-                              "organizer": "Sormlandswingarna / GWCS",
+                              "organizer": "Sörmlandswingarna / GWCS",
                               "description": "Träffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!",
                               "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-3/?occurrence=2026-11-15",
                               "region": "Södermanland",
                               "source": "gwcs.se",
-                              "descriptionFull": "Sormlandswingarnas fikatraff (host) arrangeras av Sormlandswingarna / GWCS.\n\nTräffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
+                              "descriptionFull": "Sörmlandswingarnas fikaträff (host) arrangeras av Sörmlandswingarna / GWCS.\n\nTräffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
                               "links": [
                                         {
                                                   "label": "gwcs.se",
@@ -22105,12 +22113,12 @@ const EVENTS_DATA = {
                               "dateEnd": "2026-12-06",
                               "location": "Sigridslunds Cafe, Ardala",
                               "type": "Träff",
-                              "organizer": "Sormlandswingarna / GWCS",
+                              "organizer": "Sörmlandswingarna / GWCS",
                               "description": "MC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
                               "link": "https://gwcs.se/events/stor-jultallrik-pa-sigridslunds-cafe/?occurrence=2026-12-06",
                               "region": "Södermanland",
                               "source": "gwcs.se",
-                              "descriptionFull": "Stor Jultallrik Sigridslunds Cafe arrangeras av Sormlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
+                              "descriptionFull": "Stor Jultallrik Sigridslunds Cafe arrangeras av Sörmlandswingarna / GWCS.\n\nMC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sigridslunds Cafe, Ardala.",
                               "links": [
                                         {
                                                   "label": "gwcs.se",
