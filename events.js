@@ -5034,7 +5034,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "jmc-sasongsstart-2026",
-      "name": "JMC Säsongsstart 1 Maj",
+      "name": "Säsongsstart",
       "date": "2026-05-01",
       "dateEnd": "2026-05-01",
       "location": "Asecs, Kompanigatan 36, Jönköping",
