@@ -1222,7 +1222,7 @@ function updateFab() {
 }
 
 // ========== REGION FILTER ==========
-const COUNTRIES = ['Danmark', 'Finland', 'Norge', 'Sverige', 'Tjeckien'];
+const COUNTRIES = ['Danmark', 'Finland', 'Norge', 'Spanien', 'Sverige', 'Tjeckien'];
 function buildRegionFilter() {
   const regionSet = new Set();
   const countrySet = new Set();
@@ -1387,6 +1387,7 @@ const LOCATION_COORDS = {
   'vårgårda': { lat: 58.00, lon: 13.60 }, 'åmål': { lat: 59.00, lon: 13.00 },
   'örkelljunga': { lat: 56.90, lon: 13.50 }, 'örnsköldsvik': { lat: 63.29, lon: 18.71 },
   'ösmo': { lat: 59.12, lon: 18.87 },
+  'svartsjö': { lat: 59.36, lon: 17.62 }, 'sjöbo': { lat: 55.63, lon: 13.71 }, 'finspång': { lat: 58.71, lon: 15.77 }, 'järnforsen': { lat: 57.18, lon: 15.60 }, 'gudmundsbyn': { lat: 62.38, lon: 17.16 },
   // Region fallbacks (central point for each region)
   'västernorrland': { lat: 62.63, lon: 17.94 }, 'västra götaland': { lat: 57.71, lon: 12.00 },
   'östergötland': { lat: 58.41, lon: 15.62 }, 'dalarna': { lat: 61.05, lon: 15.02 },
@@ -1396,6 +1397,7 @@ const LOCATION_COORDS = {
   'öland': { lat: 56.80, lon: 16.80 }, 'sverige': { lat: 59.33, lon: 18.06 },
   'danmark': { lat: 55.68, lon: 12.57 }, 'norge': { lat: 59.91, lon: 10.75 },
   'finland': { lat: 60.17, lon: 24.94 }, 'tjeckien': { lat: 49.82, lon: 15.47 },
+  'spanien': { lat: 40.42, lon: -3.70 },
 };
 
 const WSYMB2 = {
