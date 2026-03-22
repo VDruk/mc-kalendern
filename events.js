@@ -1880,6 +1880,10 @@ const EVENTS_DATA = {
                               "backImage": "ads/ttc-oppet-hus-back-2026-03-25.jpg",
                               "links": [
                                         {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/941341835214687"
+                                        },
+                                        {
                                                   "label": "thetwinclub.se",
                                                   "url": "https://www.thetwinclub.se/"
                                         },
@@ -2060,6 +2064,10 @@ const EVENTS_DATA = {
                               "descriptionFull": "Sulas MC Klädesrea arrangeras av Sulas MC.\n\nStor klädesrea med 15-50% rabatt på all personlig utrustning. Öppettider: fredag 9-18, lördag 10-14.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
                               "links": [
                                         {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/900784385779980"
+                                        },
+                                        {
                                                   "label": "sulas.se",
                                                   "url": "https://sulas.se/"
                                         },
@@ -2183,6 +2191,10 @@ const EVENTS_DATA = {
                               "backImage": "ads/ava-mc-dagen-back-2026-03-28.jpg",
                               "bgColor": "#9F9B90",
                               "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/968618805687453"
+                                        },
                                         {
                                                   "label": "avamc.se",
                                                   "url": "https://avamc.se"
@@ -2486,6 +2498,28 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "dartkvall-mce-jarfalla-2026-04-01",
+                              "name": "Dartkväll i kåken (MCE)",
+                              "date": "2026-04-01",
+                              "dateEnd": "2026-04-01",
+                              "location": "Snutenvägen 11, Järfälla",
+                              "type": "Fest",
+                              "organizer": "MCE",
+                              "organizerIcon": "clubs/normalized/mce.png",
+                              "description": "Säsongsavslutning på dartkväll hos MCE! Tävling som avgör allt för säsongen. Kom och tävla eller bara häng. Baren öppen. Kl 18-21.",
+                              "descriptionFull": "Nu är det säsongsavslutning på dartkväll hos MCE i Järfälla.\n\nDet kommer att bli en tävling som avgör allt för denna säsong.\n\nKom hit och tävla, eller bara kom och se hur det går. Baren är öppen under kvällen.\n\nTid: Onsdag 1 april kl 18:00-21:00\nPlats: Snutenvägen 11, 177 61 Järfälla.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1973585416891948"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1973585416891948",
+                              "region": "Stockholm",
+                              "source": "facebook.com",
+                              "backImage": "ads/dartkvall-mce-back-2026-04-01.jpg"
+                    },
+                    {
                               "id": "doh-fika-lycksele-2026-04-02",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-04-02",
@@ -2642,6 +2676,31 @@ const EVENTS_DATA = {
                               "region": "Värmland",
                               "source": "facebook.com",
                               "backImage": "ads/mc-premiaren-back-2026-04-03.jpg"
+                    },
+                    {
+                              "id": "chicken-race-alingsas-2026",
+                              "name": "Chicken Race 2026",
+                              "date": "2026-04-03",
+                              "dateEnd": "2026-04-03",
+                              "location": "Borgens gata 11, Alingsås",
+                              "type": "Körning",
+                              "organizer": "Chicken Race i Alingsås",
+                              "description": "Veteranmopedrally! Fjärde året av Chicken Race i Alingsås. Arrangeras av Lions Club. Läs mer på chickenrace.se. 392 intresserade på FB.",
+                              "descriptionFull": "Chicken Race 2026 arrangeras av Chicken Race i Alingsås (Lions Club).\n\nVeteranmopedrally i Alingsås. Mer info på www.chickenrace.se.\n\nPlats: Borgens gata 11, 441 39 Alingsås.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1092177957301413"
+                                        },
+                                        {
+                                                  "label": "chickenrace.se",
+                                                  "url": "https://www.chickenrace.se"
+                                        }
+                              ],
+                              "link": "https://www.chickenrace.se",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/chicken-race-back-2026-04-03.jpg"
                     },
                     {
                               "id": "doa-lordagsfika-pa-biltema-2026-04-04",
@@ -3296,6 +3355,49 @@ const EVENTS_DATA = {
                               "backImage": "ads/motostar-oppet-hus-back-2026-04-10.jpg"
                     },
                     {
+                              "id": "can-am-on-tour-cec-kallered-2026",
+                              "name": "Can-Am On Tour CEC Motorcycles",
+                              "date": "2026-04-11",
+                              "dateEnd": "2026-04-11",
+                              "location": "CEC Motorcycles, Gamla Riksvägen 20, Kållered",
+                              "type": "Show",
+                              "organizer": "CEC Motorcycles",
+                              "description": "Can-Am On Tour svänger förbi CEC Motorcycles i Kållered! Kolla in senaste ATV- och SSV-modellerna för 2026. Kaffe och snack. Kl 10-14.",
+                              "descriptionFull": "Can-Am On Tour är tillbaka och i år svänger de förbi CEC Motorcycles i Kållered den 11 april för att visa upp sina senaste maskiner för 2026.\n\nKom förbi, ta en kaffe och snacka lite ATV/SSV med Can-Am-teamet.\n\nCEC Motorcycles är din helhetsleverantör av cross/enduro, MC, ATV och vattenskotrar med försäljning, service och delar.\n\nTid: Lördag 11 april kl 10:00-14:00\nPlats: Gamla Riksvägen 20, 428 32 Kållered.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1650937729374321"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1650937729374321",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/can-am-on-tour-cec-back-2026-04-11.jpg"
+                    },
+                    {
+                              "id": "barhang-zatan-cruisers-2026",
+                              "name": "Barhäng på Zatan",
+                              "date": "2026-04-11",
+                              "dateEnd": "2026-04-11",
+                              "location": "Lilla Dömestorp 3, Laholm",
+                              "type": "Fest",
+                              "organizer": "Zatan Cruisers",
+                              "organizerIcon": "clubs/normalized/zatan-cruisers.png",
+                              "description": "Festkväll hos Zatan Cruisers! Hemmalagade raggmunkar på menyn, kall bira och bra stämning. Kl 20:00. 112 intresserade på FB.",
+                              "descriptionFull": "Nu är det dags för en hejdundrandes festkväll på Zatan Cruisers!\n\nVi laddar upp med allt som behövs för att göra denna kväll kanon! På menyn denna kväll står hemmalagade raggmunkar.\n\nKl 20:00.\n\nPlats: Lilla Dömestorp 3, 312 97 Laholm.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1634061237724579"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1634061237724579",
+                              "region": "Halland",
+                              "source": "facebook.com",
+                              "backImage": "ads/barhang-zatan-back-2026-04-11.jpg"
+                    },
+                    {
                               "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
                               "name": "D15 Söndagsvandring Gyllebosjön Runt",
                               "date": "2026-04-12",
@@ -3544,6 +3646,10 @@ const EVENTS_DATA = {
                               "descriptionFull": "ADV Motorcycle Expo 2026 arrangeras av Backroads AB / ADV Expo.\n\nNordens största mässa för äventyrsmotorcyklister. Utställare, föreläsningar och provkörningar.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Upplands Väsby.",
                               "links": [
                                         {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/3863050857333012"
+                                        },
+                                        {
                                                   "label": "backroads.eu",
                                                   "url": "https://www.backroads.eu/adv-motorcycle-expo/"
                                         },
@@ -3695,6 +3801,10 @@ const EVENTS_DATA = {
                               "backImage": "ads/sulas-mc-invigning-back-2026-04-18.jpg",
                               "links": [
                                         {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/781774878169921"
+                                        },
+                                        {
                                                   "label": "sulas.se",
                                                   "url": "https://sulas.se/"
                                         },
@@ -3842,6 +3952,10 @@ const EVENTS_DATA = {
                               "backImage": "ads/mc-avrostning-bulltofta-back-2026-04-19.jpg",
                               "descriptionFull": "Probike Malmö på Erikssons Trafikskolas Avrostning!\n\nKom och avrosta din mc-körning på manöverbanan, med din egen hoj eller prova en annan hoj.\n\nTräffa återförsäljare.\nMingla med nya och erfarna mc-förare.\n\nPlats: Rimfrostgatan 5, Malmö. Start kl. 10:00.",
                               "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/872694945665728"
+                                        },
                                         {
                                                   "label": "Probike",
                                                   "url": "https://www.probikebutiken.se/event/probike-malmo-at-erikssons-trafikskolas-avrostning/"
@@ -4816,6 +4930,10 @@ const EVENTS_DATA = {
                               "links": [
                                         {
                                                   "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/902163099303171"
+                                        },
+                                        {
+                                                  "label": "FB Event",
                                                   "url": "https://www.facebook.com/events/902163092636505/902163099303171/"
                                         },
                                         {
@@ -5410,6 +5528,10 @@ const EVENTS_DATA = {
                               "descriptionFull": "Sulas MC Provkörningshelg arrangeras av Sulas MC.\n\nProvkör demohojar från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-14, Sön 11-15.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
                               "links": [
                                         {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/2306660843165971"
+                                        },
+                                        {
                                                   "label": "sulas.se",
                                                   "url": "https://sulas.se/provkörning/"
                                         },
@@ -5865,6 +5987,10 @@ const EVENTS_DATA = {
                               "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                               "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                               "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/902163102636504"
+                                        },
                                         {
                                                   "label": "Facebook",
                                                   "url": "https://www.facebook.com/groups/mcsamakning/events"
@@ -6481,6 +6607,10 @@ const EVENTS_DATA = {
                               "backImage": "ads/falkenbergs-majsvangen-back-2026-05-09.jpg",
                               "links": [
                                         {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/2394980357594451"
+                                        },
+                                        {
                                                   "label": "hdcs.se",
                                                   "url": "https://www.hdcs.se"
                                         }
@@ -6501,6 +6631,10 @@ const EVENTS_DATA = {
                               "descriptionFull": "Anyway Riders i Falkenberg öppnar portarna för Spring Party!\n\nAlla är välkomna den 9/5 ca kl 20. På scen: Anna and the Spirits, TAJT och HOODOO SILVER.\n\nInträde 100 kr, gärna cash. Välfylld bar och sköna människor.\n\nKommer man långväga finns campingmöjligheter. Hör av er till Anyway Riders för mer info.\n\nTips: Tidigare på dagen kör Falkenbergs MC sin MajSvängen med samling kl 12:00 vid Abilds Bygdegård. Perfekt kombination!\n\nPlats: Kilavägen 40, 311 94 Falkenberg.",
                               "backImage": "ads/anyway-riders-spring-party-back-2026-05-09.jpg",
                               "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1643770660297347"
+                                        },
                                         {
                                                   "label": "hdcs.se",
                                                   "url": "https://www.hdcs.se"
@@ -7584,6 +7718,10 @@ const EVENTS_DATA = {
                               "backImage": "ads/dannike-motorstop-back-2026-05-16.jpg",
                               "links": [
                                         {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/2077864559663074"
+                                        },
+                                        {
                                                   "label": "hdcs.se",
                                                   "url": "https://www.hdcs.se"
                                         }
@@ -7862,6 +8000,27 @@ const EVENTS_DATA = {
                               "region": "Västra Götaland",
                               "source": "facebook.com",
                               "backImage": "ads/larsa-memorial-run-back-2026-05-16.jpg"
+                    },
+                    {
+                              "id": "grangesrallyt-4-2026",
+                              "name": "Grängesrallyt #4",
+                              "date": "2026-05-16",
+                              "dateEnd": "2026-05-16",
+                              "location": "Grängesbergs Folkets Park, Gullregnsvägen 16, Grängesberg",
+                              "type": "Träff",
+                              "organizer": "Grängesmopperz",
+                              "description": "Veteranmopedrally i Grängesberg, fjärde upplagan! Samling vid Folkets Park kl 11:00. Arrangörer: Joakim Söderlund och Grängesmopperz.",
+                              "descriptionFull": "Grängesrallyt #4 arrangeras av Joakim Söderlund och Grängesmopperz.\n\nSjälvklart ska vi åka massa moped 2026! Veteranmopedrally i Grängesbergs Folkets Park.\n\nStart kl 11:00.\n\nPlats: Gullregnsvägen 16, Grängesberg.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/810090084871783"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/810090084871783",
+                              "region": "Dalarna",
+                              "source": "facebook.com",
+                              "backImage": "ads/grangesrallyt-back-2026-05-16.jpg"
                     },
                     {
                               "id": "do-c-tjorn-orust-rundan-2026",
@@ -8659,6 +8818,10 @@ const EVENTS_DATA = {
                               "source": "svmc.se",
                               "descriptionFull": "Öppet Hus Rapido MCK och SMC Stockholm arrangeras av Rapido MCK / SMC Stockholm.\n\nLör 11-15. Provkör nya hojar, köp och sälj MC-prylar, mat på plats. SMC Stockholm svarar på frågor om medlemskap.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skansbacken 4, Gullmarsplan, Stockholm.",
                               "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1851727319038695"
+                                        },
                                         {
                                                   "label": "svmc.se",
                                                   "url": "https://www.svmc.se/stockholm"
@@ -10830,6 +10993,10 @@ const EVENTS_DATA = {
                               "descriptionFull": "DOA - Custom Bike Show, Norrtälje arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Norrtälje. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangören för tider.\n\nPlats: Norrtälje.",
                               "links": [
                                         {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1894125337847323"
+                                        },
+                                        {
                                                   "label": "hdcs.se",
                                                   "url": "https://hdcs.se/evenemang/doa-custom-bike-show-norrtalje-2/"
                                         },
@@ -12195,6 +12362,27 @@ const EVENTS_DATA = {
                               "region": "Västernorrland",
                               "source": "facebook.com",
                               "backImage": "ads/cancer-run-back-2026-06-13.jpg"
+                    },
+                    {
+                              "id": "kuggnas-sommartraff-2026",
+                              "name": "Kuggnäs Sommarträff 2026",
+                              "date": "2026-06-13",
+                              "dateEnd": "2026-06-13",
+                              "location": "Kuggnäs, PL6228, Nyköping",
+                              "type": "Träff",
+                              "organizer": "Kuggnäs",
+                              "description": "Sommarträff på Kuggnäs motorgård i samband med årets Cruising. Träff på dagen, sedan gemensam rul in mot Nyköping. 1 300 intresserade på FB!",
+                              "descriptionFull": "Kuggnäs Sommarträff 2026 i samband med årets Cruising.\n\nPrecis som förra sommarcruisingen anordnas en träff på dagen ute på Kuggnäs innan vi rullar in mot staden.\n\nKuggnäs är Nyköpings enda motorgård.\n\nStart kl 12:00.\n\nPlats: PL6228, 611 92 Nyköping.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1576226969919936"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1576226969919936",
+                              "region": "Södermanland",
+                              "source": "facebook.com",
+                              "backImage": "ads/kuggnas-sommartraff-back-2026-06-13.jpg"
                     },
                     {
                               "id": "hakan-p-slottsrundan-2026",
@@ -14640,6 +14828,10 @@ const EVENTS_DATA = {
                               "descriptionFull": "Persåkers Speed Shop arrangerar Stiligaste Hojen den 8 juli.\n\nKvällens tema är Stiligaste Hojen. Motorcykel med valfritt antal hjul tävlar om kvällens pris!\n\nFräna Fiket serverar korv och fika och är öppet som vanligt 16:00-19:00. Prisutdelning ca 18:15.\n\nTid: 16:00-19:00\nLängd: ca 3 timmar\n\nVälkommen!\n\nPlats: Solbergavägen 28, 64752 Åkers Styckebruk.",
                               "backImage": "ads/stiligaste-hojen-back-2026-07-08.jpg",
                               "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/3895905843875566"
+                                        },
                                         {
                                                   "label": "hdcs.se",
                                                   "url": "https://www.hdcs.se"
