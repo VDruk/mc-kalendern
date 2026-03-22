@@ -5643,6 +5643,32 @@ const EVENTS_DATA = {
                               "backImage": "ads/cec-motorcykelns-dag-back-2026-05-01.jpg"
                     },
                     {
+                              "id": "mittsverige-motorsportdag-2026",
+                              "name": "Mittsverige Motorsportdag 2026",
+                              "date": "2026-05-01",
+                              "dateEnd": "2026-05-01",
+                              "location": "Mittsverigebanan, Tjärnsjö 100, Härnösand",
+                              "type": "Show",
+                              "organizer": "Mittsverigebanan",
+                              "description": "Traditionsenligt den 1:a maj! Alla sportgrenar på Mittsverigebanan visas upp. Norrlands bästa motorpark med 2 km lång racingbana. Kl 9-17.",
+                              "descriptionFull": "Mittsverige Motorsportdag 2026 den 1:a maj.\n\nTraditionsenligt visar vi upp alla de olika sportgrenar och lite till som vi har på Mittsverigebanan.\n\nNorrlands bästa motorpark med en utmanande 2 km lång racingbana.\n\nTid: 1 maj kl 09:00-17:00\nPlats: Mittsverigebanan, Tjärnsjö 100, Härnösand.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/856896333987856"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Mittsverigebanan+Härnösand",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/856896333987856",
+                              "region": "Västernorrland",
+                              "source": "facebook.com",
+                              "backImage": "ads/mittsverige-motorsportdag-back-2026-05-01.jpg"
+                    },
+                    {
                               "id": "lo-i-lordagskörningar-kramfors-2026-05-02",
                               "name": "LO I Lördagskörningar Kramfors",
                               "date": "2026-05-02",
