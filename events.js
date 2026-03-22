@@ -4809,6 +4809,84 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "voge-dagen-mc-center-karlstad-2026-04-25",
+                              "name": "Voge Dagen 2026",
+                              "date": "2026-04-25",
+                              "dateEnd": "2026-04-25",
+                              "location": "MC Center Karlstad, Bivägen 8, Hammarö",
+                              "type": "Show",
+                              "organizer": "MC Center Karlstad",
+                              "description": "En dag helt för Voge Motorcycles hos MC Center. Provkör flera modeller, fika och korv ingår. Kl 10-14.",
+                              "descriptionFull": "Voge Dag hos MC Center Karlstad!\n\nEn dag helt för Voge Motorcycles. Under dagen har du möjlighet att provköra flera olika modeller.\n\nFika och korv ingår.\n\nTid: 25 april kl 10:00-14:00\nPlats: MC Center Karlstad, Bivägen 8, Hammarö.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/854320340973793"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Bivägen+8+Hammarö",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/854320340973793",
+                              "region": "Värmland",
+                              "source": "facebook.com",
+                              "backImage": "ads/voge-dagen-back-2026-04-25.jpg"
+                    },
+                    {
+                              "id": "open-garage-ktm-orebro-2026-04-25",
+                              "name": "Open Garage 2026",
+                              "date": "2026-04-25",
+                              "dateEnd": "2026-04-25",
+                              "location": "Salamandervägen 16, Örebro",
+                              "type": "Show",
+                              "organizer": "KTM Scandinavia & Husqvarna Motorcycles",
+                              "description": "Säsongens första provkörningsevent hos KTM och Husqvarna Scandinavia i Örebro. Öppna portar, provkörning och säsongsstart. Kl 10-15.",
+                              "descriptionFull": "Open Garage hos KTM och Husqvarna Scandinavia i Örebro!\n\nSäsongens första provkörningsevent. Vi öppnar portarna till garaget och bjuder in dig till en riktig säsongsstart.\n\nTid: 25 april kl 10:00-15:00\nPlats: Salamandervägen 16, Örebro.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1820170898642386"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Salamandervägen+16+Örebro",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1820170898642386",
+                              "region": "Örebro",
+                              "source": "facebook.com",
+                              "backImage": "ads/open-garage-ktm-back-2026-04-25.jpg"
+                    },
+                    {
+                              "id": "kor-hoj-offtrack-kinnekulle-2026-04-25",
+                              "name": "Kör Hoj Offtrack Kinnekulle",
+                              "date": "2026-04-25",
+                              "dateEnd": "2026-04-26",
+                              "location": "Kinnekulle Ring, Götene",
+                              "type": "Körning",
+                              "organizer": "Kör Hoj",
+                              "description": "Avrostning och vidareutveckling på Kinnekulle Ring. Olika underlag, teknik och balans med individuell handledning. 2 dagar.",
+                              "descriptionFull": "Kör Hoj Offtrack på Kinnekulle Ring.\n\nAvrostning och vidareutveckling. Du kommer lära dig genom att köra på olika underlag samt öva på teknik och balans med individuell handledning.\n\nStörre kunskap i hantering samt kännedom om din hoj.\n\nTid: 25-26 april\nPlats: Kinnekulle Ring, Götene.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/892372293276641"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Kinnekulle+Ring+Götene",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/892372293276641",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/kor-hoj-offtrack-kinnekulle-back-2026-04-25.jpg"
+                    },
+                    {
                               "id": "bmw-d9-aprilgruset-2026",
                               "name": "D9 Aprilgruset",
                               "date": "2026-04-26",
@@ -5507,6 +5585,62 @@ const EVENTS_DATA = {
                               "link": "https://www.apexmc.se/gruskurser/",
                               "region": "Värmland",
                               "source": "facebook.com"
+                    },
+                    {
+                              "id": "omcc-oppet-hus-1maj-2026",
+                              "name": "Öppet hus 1 Maj",
+                              "date": "2026-05-01",
+                              "dateEnd": "2026-05-01",
+                              "location": "Viktoriaesplanaden, Örnsköldsvik",
+                              "type": "Träff",
+                              "organizer": "ÖMCC Örnsköldsviks Motorcykelclub",
+                              "description": "Öppet hus med ÖMCC och utställare. Snacka hoj, köp en hamburgare eller kaffe. Utställare uppdateras under april. Kl 10-15.",
+                              "descriptionFull": "Öppet hus hos ÖMCC Örnsköldsviks Motorcykelclub den 1 maj.\n\nKom och snacka hoj med oss och alla utställare, köp en hamburgare eller kaffe.\n\nUtställare uppdateras under april.\n\nTid: 1 maj kl 10:00-15:00\nPlats: Viktoriaesplanaden, Örnsköldsvik.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1551135045947015"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+Örnsköldsvik",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1551135045947015",
+                              "region": "Västernorrland",
+                              "source": "facebook.com",
+                              "backImage": "ads/omcc-oppet-hus-1maj-back-2026-05-01.jpg"
+                    },
+                    {
+                              "id": "cec-motorcykelns-dag-kallered-2026-05-01",
+                              "name": "Motorcykelns dag på CEC Motorcycles",
+                              "date": "2026-05-01",
+                              "dateEnd": "2026-05-02",
+                              "location": "CEC Motorcycles, Gamla Riksvägen 20, Kållered",
+                              "type": "Show",
+                              "organizer": "CEC Motorcycles",
+                              "description": "Öppet hus 1-2 maj hos CEC Motorcycles i Kållered. Cross, enduro, MC, ATV och vattenskotrar. Fre och lör 10-16.",
+                              "descriptionFull": "Motorcykelns dag på CEC Motorcycles i Kållered!\n\nÖppet hus 1-2 maj. Din helhetsleverantör av cross/enduro, MC, ATV och vattenskotrar.\n\nFredag 1 maj: 10:00-16:00\nLördag 2 maj: 10:00-16:00\n\nPlats: Gamla Riksvägen 20, Kållered.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/772396395342008"
+                                        },
+                                        {
+                                                  "label": "cec.se",
+                                                  "url": "https://cec.se"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Riksvägen+20+Kållered",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/772396395342008",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/cec-motorcykelns-dag-back-2026-05-01.jpg"
                     },
                     {
                               "id": "lo-i-lordagskörningar-kramfors-2026-05-02",
@@ -6820,6 +6954,32 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "poker-run-bollebygd-2026-05-09",
+                              "name": "Poker Run Bollebygd",
+                              "date": "2026-05-09",
+                              "dateEnd": "2026-05-09",
+                              "location": "Tegelbruksvägen, Bollebygd",
+                              "type": "Körning",
+                              "organizer": "Brickyard MC",
+                              "description": "Poker Run till förmån för Barncancerfonden. Startkort 150 kr. Dra spelkort vid varje stopp, bästa pokerhand vinner. MC eller bil.",
+                              "descriptionFull": "Poker Run med Brickyard MC i Bollebygd.\n\nStartkortet kostar 150 kr och går till Barncancerfonden. Vid starten dras ett spelkort som noteras i startkortet. Ytterligare tre spelkort dras vid olika stopp på åkturen. Det femte och sista dras vid målgång.\n\nDe som har bäst pokerhand vinner fina priser! Åkturen kan göras med MC eller bil.\n\nPlats: Tegelbruksvägen, Bollebygd.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1579241473192972"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Tegelbruksvägen+Bollebygd",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1579241473192972",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/poker-run-bollebygd-back-2026-05-09.jpg"
+                    },
+                    {
                               "id": "doa-emilsturen-2026-05-10",
                               "name": "DOA - Emilsturen",
                               "date": "2026-05-10",
@@ -7016,6 +7176,32 @@ const EVENTS_DATA = {
                               "region": "Stockholm",
                               "source": "facebook.com",
                               "backImage": "ads/motortraff-prastnibble-back-2026-05-10.jpg"
+                    },
+                    {
+                              "id": "ghc-varmonstring-2026-05-10",
+                              "name": "GHC Vårmönstring 2026",
+                              "date": "2026-05-10",
+                              "dateEnd": "2026-05-10",
+                              "location": "Barnsjövägen 65, Lindome",
+                              "type": "Träff",
+                              "organizer": "A Gentleman's Harley Club GHC",
+                              "description": "Årlig vårmönstring med GHC. Samling kl 11, körning kl 12. Mat och dryck finns. Klubben öppen 11-15 för de som vill hänga utan att köra.",
+                              "descriptionFull": "Välkommen till GHC:s årliga vårmönstring.\n\nSamling kl 11:00. Körning kl 12:00. Det kommer att finnas mat och dryck.\n\nFör er som inte vill köra men ändå vill hänga och umgås så är klubben öppen från kl 11:00 till kl 15:00.\n\nFrågor: gentlemansharleyclub@gmail.com\n\nPlats: Barnsjövägen 65, Lindome.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1639623867062021"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Barnsjövägen+65+Lindome",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1639623867062021",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/ghc-varmonstring-back-2026-05-10.jpg"
                     },
                     {
                               "id": "doa-kvallskörning-nacka-2026-05-11",
@@ -8167,6 +8353,36 @@ const EVENTS_DATA = {
                               "region": "Dalarna",
                               "source": "facebook.com",
                               "backImage": "ads/grangesrallyt-back-2026-05-16.jpg"
+                    },
+                    {
+                              "id": "hojtraff-gellerasen-2026-05-16",
+                              "name": "Hojträff på Gelleråsen",
+                              "date": "2026-05-16",
+                              "dateEnd": "2026-05-16",
+                              "location": "Gelleråsen Arena, Karlskoga",
+                              "type": "Körning",
+                              "organizer": "Von Hausswolff On Track",
+                              "description": "Trevlig dag på Gelleråsen med duktiga föråkare, lagom stora grupper och gott om plats på banan. Fika och lunch ingår. Kl 07:30-18.",
+                              "descriptionFull": "Välkommen på Hojträff på Gelleråsen!\n\nVi erbjuder dig en trevlig dag i gott sällskap, med duktiga föråkare, lagom stora grupper och gott om plats på banan.\n\nFika och lunch ingår.\n\nBiljetter: vhontrack.bokamera.se/book\n\nTid: 16 maj kl 07:30-18:00\nPlats: Gelleråsen Arena, Karlskoga.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1116064133938910"
+                                        },
+                                        {
+                                                  "label": "Biljetter",
+                                                  "url": "https://vhontrack.bokamera.se/book"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Gelleråsen+Arena+Karlskoga",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1116064133938910",
+                              "region": "Örebro",
+                              "source": "facebook.com",
+                              "backImage": "ads/hojtraff-gellerasen-back-2026-05-16.jpg"
                     },
                     {
                               "id": "do-c-tjorn-orust-rundan-2026",
@@ -9792,6 +10008,32 @@ const EVENTS_DATA = {
                                                   "type": "map"
                                         }
                               ]
+                    },
+                    {
+                              "id": "backroads-adv-camp-stoten-2026-05-28",
+                              "name": "Backroads ADV Camp Stöten",
+                              "date": "2026-05-28",
+                              "dateEnd": "2026-05-31",
+                              "location": "Mitt i Stöten, Sälen",
+                              "type": "Körning",
+                              "organizer": "Backroads Nordic Events",
+                              "description": "4 dagars äventyr i fjällvärlden. Grusvägar, fjällkänsla och gemenskap. Utgår från Stöten i Sälen. Guidade turer och aktiviteter.",
+                              "descriptionFull": "Backroads Adventure Stöten 28-31 maj 2026!\n\nFjällkänsla, grusvägar och äventyr på riktigt. Samla gänget och följ med på ett oförglömligt äventyr i fjällvärlden!\n\nUnder fyra dagar kör vi grusvägar i fjällen med utgångspunkt från Stöten i Sälen.\n\nArrangeras av Backroads Nordic Events.\n\nPlats: Mitt i Stöten, Sälen.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1940331653564002"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Stöten+Sälen",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1940331653564002",
+                              "region": "Dalarna",
+                              "source": "facebook.com",
+                              "backImage": "ads/backroads-adv-camp-stoten-back-2026-05-28.jpg"
                     },
                     {
                               "id": "roadracing-sm-knutstorp-2026",
@@ -13456,6 +13698,32 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
+                              "id": "lort-nr3-grusbushelg-halsingland-2026",
+                              "name": "L.O.R.T. 2026 nr 3 - Grusbushelg",
+                              "date": "2026-06-24",
+                              "dateEnd": "2026-06-28",
+                              "location": "Lillbo, Alfta",
+                              "type": "Körning",
+                              "organizer": "Michael Östh",
+                              "description": "5 dagars gruskörning i Hälsingland. Nivå Blå (medel). Max 10 deltagare. 15-25 mil/dag på grus. Tältning eller stuga. 500 kr för guidning.",
+                              "descriptionFull": "L.O.R.T. nr 3 2026, 24-28 juni. Nivå Medel (Blå).\n\nL.O.R.T. (Långrösten Off-Road Träff). Gruskörning i Hälsingland utgående från byn Lillbo vid Långrösten, 1,7 mil norr om Alfta.\n\nRutterna går runtom Alfta-Bollnäs-Edsbyn-Voxna. 15-25 mil per dag, uppskattningsvis mer än 90% på grus.\n\nMax 10 deltagare. Körning med cornerman-principen.\n\nBoende i tält eller stuga. Luncher ute, middag fixar vi själva eller äter ute.\n\nPris: 500 kr för fyra dagars guidning (inkl T-shirt och klistermärke). Tältning 300-500 kr, stuga 750 kr.\n\nKontakt: micke_osth@hotmail.com, 073-6470933.\n\nPlats: Lillbo, Alfta.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1810805766230191"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Lillbo+Alfta",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1810805766230191",
+                              "region": "Gävleborg",
+                              "source": "facebook.com",
+                              "backImage": "ads/lort-nr3-grusbushelg-back-2026-06-24.jpg"
+                    },
+                    {
                               "id": "doa-dagstur-ekero-2026-06-25",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-06-25",
@@ -16125,6 +16393,32 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
+                              "id": "knalletraffen-2026",
+                              "name": "Knalleträffen 2026",
+                              "date": "2026-07-24",
+                              "dateEnd": "2026-07-26",
+                              "location": "Eagle Riders MC, Företagsgatan 60, Borås",
+                              "type": "Träff",
+                              "organizer": "Eagle Riders MC Borås",
+                              "description": "50:e Knalleträffen! 3-dagars MC-träff med tältplats, duschar, frukostbuffé. Lunch, grill, tattoo och pris till största klubb.",
+                              "descriptionFull": "Välkomna till den 50:e Knalleträffen!\n\nBra tältmöjligheter, toaletter och duschmöjligheter. Frukostbuffé ingår i inträdet.\n\nLunch, grill, tattoo, pris till största klubb inrikes och utrikes.\n\nArrangeras av Eagle Riders MC Borås.\n\nTid: 24-26 juli\nPlats: Eagle Riders MC, Företagsgatan 60, Borås.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1224034783175988"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Företagsgatan+60+Borås",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1224034783175988",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/knalletraffen-back-2026-07-24.jpg"
+                    },
+                    {
                               "id": "norge-tur-fran-trollhattan-2026",
                               "name": "Norge-tur från Trollhättan",
                               "date": "2026-07-25",
@@ -18749,6 +19043,36 @@ const EVENTS_DATA = {
                                                   "type": "map"
                                         }
                               ]
+                    },
+                    {
+                              "id": "forza-orza-2026",
+                              "name": "Forza Orza 2026",
+                              "date": "2026-08-20",
+                              "dateEnd": "2026-08-22",
+                              "location": "Orsa Grönklitt",
+                              "type": "Racing",
+                              "organizer": "ForzaOrza",
+                              "description": "Norra Europas nya endurofestival. Del av FIM Hard Enduro World Championship. Världselit och öppna klasser för motionärer. 3 dagar.",
+                              "descriptionFull": "Forza Orza 2026 vid Orsa Grönklitt.\n\nNystartat enduroevent med visionen att utveckla norra Europas största endurofestival för motionärer, världselit och fans.\n\nDel av FIM Hard Enduro World Championship. Samlar världseliten i Hard Enduro och passionerade motionärer i öppna klasser.\n\nBiljetter: forzaorza.com\n\nTid: 20-22 augusti\nPlats: Orsa Grönklitt.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1281520693786491"
+                                        },
+                                        {
+                                                  "label": "forzaorza.com",
+                                                  "url": "https://forzaorza.com"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Orsa+Grönklitt",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1281520693786491",
+                              "region": "Dalarna",
+                              "source": "facebook.com",
+                              "backImage": "ads/forza-orza-back-2026-08-20.jpg"
                     },
                     {
                               "id": "bmw-d10-en-god-bit-av-ostfold-26-2026",
