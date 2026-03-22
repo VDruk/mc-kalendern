@@ -2396,6 +2396,36 @@ const EVENTS_DATA = {
                               "backImage": "ads/ntmc-barhang-back-2026-03-28.jpg"
                     },
                     {
+                              "id": "northbike-open-house-party-2026-03-28",
+                              "name": "Northbike Open House Party",
+                              "date": "2026-03-28",
+                              "dateEnd": "2026-03-28",
+                              "location": "Kontorsvägen 8, Sundsvall & Strömvägen 2, Umeå",
+                              "type": "Träff",
+                              "organizer": "Northbike Sweden",
+                              "description": "Öppet hus och avstamp för MC-säsongen hos Northbike i Sundsvall och Umeå. Kolla in säsongens hojar, fina kampanjer på hojar, tillbehör och utrustning.",
+                              "descriptionFull": "Öppet hus och avstamp för MC-säsongen i båda Northbikes anläggningar.\n\nLördagen den 28 mars 11:00-15:00.\n\nKontorsvägen 8, Sundsvall\nStrömvägen 2, Umeå\n\nKom förbi och kolla in säsongens hojar, njut av MC-atmosfären och umgås med likasinnade. Ett bra tillfälle att göra ett klipp!\n\nFina kampanjer på hojar, tillbehör och personlig utrustning.\n\nVarmt välkommen!\nDream it. Live it.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1992350591314930"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/northbikesweden"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Kontorsvägen+8+Sundsvall",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1992350591314930",
+                              "region": "Västernorrland",
+                              "source": "facebook.com",
+                              "backImage": "ads/northbike-open-house-back-2026-03-28.jpg"
+                    },
+                    {
                               "id": "ttc-årsmöte-smc-dalarna-2026",
                               "name": "Årsmöte SMC Dalarna",
                               "date": "2026-03-29",
