@@ -2333,6 +2333,27 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "ntmc-barhang-2026-03-28",
+                              "name": "Barhäng hos No Time MC",
+                              "date": "2026-03-28",
+                              "dateEnd": "2026-03-28",
+                              "location": "Ångpannegatan 24, Göteborg",
+                              "type": "Fest",
+                              "organizer": "No Time MC",
+                              "description": "Barhäng hos No Time MC i Göteborg. Kom förbi klubben, häng i baren och snacka hoj. Kl 18:00. Support: 14:20 MC Göteborg.",
+                              "descriptionFull": "Barhäng lördag 28/3 hos No Time MC. Kom förbi och tjöta lite!\n\nNo Time MC bjuder in till en avslappnad kväll i klubblokalen på Ångpannegatan 24 i Göteborg. Häng i baren, träffa folk och snacka hoj.\n\nStart kl 18:00.\n\nSupport: 14:20 MC Göteborg.",
+                              "links": [
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/notimemc"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/notimemc",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/ntmc-barhang-back-2026-03-28.jpg"
+                    },
+                    {
                               "id": "ttc-årsmöte-smc-dalarna-2026",
                               "name": "Årsmöte SMC Dalarna",
                               "date": "2026-03-29",
