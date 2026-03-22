@@ -159,8 +159,8 @@ const EVENTS_DATA = {
                               "location": "druk.se",
                               "type": "AD",
                               "organizer": "MC Kalendern / Slava Druk",
-                              "description": "Sveriges mest kompletta MC-kalender. 770+ event, 8 scrapers, en passion. Gratis, utan reklam, byggd av en hojare för alla hojare.",
-                              "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event på ett ställe.\n\nVi har 770+ event från träffar och körningar till shower, racing och fester. All data hämtas automatiskt från 8 olika källor och uppdateras varje dag.\n\nProjektet är 100% gratis och byggt av ren passion för tvåhjuliga äventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till så lägger vi till det!\n\nBesök oss på druk.se och hitta din nästa tur.",
+                              "description": "Sveriges mest kompletta MC-kalender med närmare tusen event. Gratis, utan reklam, byggd av en hojare för alla hojare.",
+                              "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event på ett ställe.\n\nNärmare tusen event från träffar och körningar till shower, racing och fester. All data hämtas från ett flertal källor och uppdateras varje dag.\n\nProjektet är 100% gratis och byggt av ren passion för tvåhjuliga äventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till så lägger vi till det!\n\nBesök oss på druk.se och hitta din nästa tur.",
                               "frontImage": "ads/mc-kalendern-front-2026-09-28.jpg",
                               "backImage": "ads/mc-kalendern-back-2026-09-28.jpg",
                               "links": [
