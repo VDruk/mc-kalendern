@@ -2874,6 +2874,27 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
+                              "id": "motostar-oppet-hus-2026",
+                              "name": "Öppet Hus Motostar",
+                              "date": "2026-04-10",
+                              "dateEnd": "2026-04-11",
+                              "location": "Såggatan 3, Sjöbo",
+                              "type": "Show",
+                              "organizer": "Motostar",
+                              "description": "Två dagars öppet hus hos Motostar i Sjöbo. Massor av kampanjer, leverantörer på plats och demohojor redo att provköras. 10-11 april.",
+                              "descriptionFull": "Den 10-11 april är det dags för Motostars Öppet Hus!\n\nMassor av kampanjer utlovas och leverantörer kommer finnas på plats. Demohojarna kommer stå redo att provköras.\n\nMotostar täcker alla dina motorcykelbehov med ett stort lager reservdelar och tillbehör till alla märken, samt allt det senaste inom utrustning.\n\nPlats: Såggatan 3, 275 39 Sjöbo\nTid: Fredag 10 april kl 10:00 till lördag 11 april kl 15:00",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/841955535362899"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/841955535362899",
+                              "region": "Skåne",
+                              "source": "facebook.com",
+                              "backImage": "ads/motostar-oppet-hus-back-2026-04-10.jpg"
+                    },
+                    {
                               "id": "sasongsoppning-smc-sthlm-2026",
                               "name": "Säsongsöppning SMC Stockholm",
                               "date": "2026-04-11",
