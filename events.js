@@ -16456,44 +16456,27 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
-                              "id": "knallletraffenen-boras-2026",
-                              "name": "Knalleträffen",
-                              "date": "2026-07-24",
-                              "dateEnd": "2026-07-26",
-                              "location": "Eagle Riders MC, Borås",
-                              "type": "Träff",
-                              "organizer": "Eagle Riders MC Borås",
-                              "description": "Träffpunkt i Eagle Riders MC, Borås. Gemensam fika och MC-umgänge. Alla välkomna!",
-                              "link": "http://eagleriders.se/",
-                              "region": "Västra Götaland",
-                              "source": "smcboken.svmc.se",
-                              "descriptionFull": "Knalleträffen arrangeras av Eagle Riders MC Borås.\n\nTräffpunkt i Eagle Riders MC, Borås. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Eagle Riders MC, Borås.",
-                              "links": [
-                                        {
-                                                  "label": "eagleriders.se",
-                                                  "url": "http://eagleriders.se/"
-                                        },
-                                        {
-                                                  "label": "Karta",
-                                                  "url": "https://www.google.com/maps/search/?api=1&query=Eagle+Riders+MC%2C+Bor%C3%A5s",
-                                                  "type": "map"
-                                        }
-                              ]
-                    },
-                    {
                               "id": "knalletraffen-2026",
-                              "name": "Knalleträffen 2026",
+                              "name": "Knalleträffen 50 år",
                               "date": "2026-07-24",
                               "dateEnd": "2026-07-26",
                               "location": "Eagle Riders MC, Företagsgatan 60, Borås",
                               "type": "Träff",
                               "organizer": "Eagle Riders MC Borås",
-                              "description": "50:e Knalleträffen! 3-dagars MC-träff med tältplats, duschar, frukostbuffé. Lunch, grill, tattoo och pris till största klubb.",
-                              "descriptionFull": "Välkomna till den 50:e Knalleträffen!\n\nBra tältmöjligheter, toaletter och duschmöjligheter. Frukostbuffé ingår i inträdet.\n\nLunch, grill, tattoo, pris till största klubb inrikes och utrikes.\n\nArrangeras av Eagle Riders MC Borås.\n\nTid: 24-26 juli\nPlats: Eagle Riders MC, Företagsgatan 60, Borås.",
+                              "description": "50-årsjubileum! 3-dagars MC-träff med liveband fredag och lördag, tävlingar, tattoo, frukostbuffé och pannkakor. Från kl 12:00.",
+                              "descriptionFull": "Fira Knalleträffens 50-årsjubileum med Eagle Riders MC Borås!\n\n24-26 juli 2026, från kl 12:00.\n\nLiveband fredag och lördag. Tävlingar. Tattoo. Camping med tältplats, toaletter och duschar.\n\nFrukostbuffé och pannkakor ingår i träffavgiften. Lunch, grill, kaffe.\n\nPris till största klubb inrikes och utrikes.\n\nPlats: Eagle Riders MC, Företagsgatan 60, 504 64 Borås.",
                               "links": [
                                         {
                                                   "label": "FB Event",
                                                   "url": "https://www.facebook.com/events/1224034783175988"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/groups/410100326179394"
+                                        },
+                                        {
+                                                  "label": "eagleriders.se",
+                                                  "url": "http://eagleriders.se/"
                                         },
                                         {
                                                   "label": "Karta",
@@ -16504,7 +16487,7 @@ const EVENTS_DATA = {
                               "link": "https://www.facebook.com/events/1224034783175988",
                               "region": "Västra Götaland",
                               "source": "facebook.com",
-                              "backImage": "ads/knalletraffen-back-2026-07-24.jpg"
+                              "backImage": "ads/knalletraffen-50ar-back-2026-07-24.jpg"
                     },
                     {
                               "id": "norge-tur-fran-trollhattan-2026",
