@@ -3955,6 +3955,32 @@ const EVENTS_DATA = {
                               "source": "probikebutiken.se"
                     },
                     {
+                              "id": "cg-10ars-jubileum-swap-meet-2026",
+                              "name": "C&G 10-årsjubileum / Swap Meet",
+                              "date": "2026-04-18",
+                              "dateEnd": "2026-04-18",
+                              "location": "Silurveien 26A, Kristiansand, Norge",
+                              "type": "Show",
+                              "organizer": "C&G Motorcycles",
+                              "description": "10-årsjubileum hos C&G Motorcycles i Kristiansand. Swap meet, utstilling av choppere och custom MC. Mat och dryck. 10:00-15:00.",
+                              "descriptionFull": "Feiring av 10-årsjubileum hos C&G Motorcycles i Kristiansand!\n\nSwap meet. Utstilling av choppere og custom motorsykler. Mat og drikke.\n\nLördag 18 april, 10:00-15:00.\n\nC&G Motorcycles AS är en livsstilsbutik för motorcykelentusiaster med fokus på kvalitet, stil och särprägel.",
+                              "backImage": "ads/cg-10ars-jubileum-back-2026-04-18.jpg",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/727321336882128"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Silurveien+26A+Kristiansand+Norway",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/727321336882128",
+                              "region": "Norge",
+                              "source": "facebook.com"
+                    },
+                    {
                               "id": "bsa-sverige-sulas-2026",
                               "name": "BSA hos Sulas MC",
                               "date": "2026-04-19",
