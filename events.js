@@ -10043,17 +10043,26 @@ const EVENTS_DATA = {
                               "type": "Körning",
                               "organizer": "Orange Day MC Charityride Sweden",
                               "description": "9:e året! Välgörenhetskortege mot våld mot kvinnor och barn. Förare från hela Sverige samlas i Norrköping. Avgift 150 kr via Swish.",
-                              "descriptionFull": "Orangeday MC Charityride 2026 arrangeras av Orange Day MC Charityride Sweden.\n\n9:e året i rad! Välgörenhetskortege som stödjer FN:s principer mot våld mot kvinnor och barn.\n\nFörare från hela Sverige samlas i Norrköping. Avgift 150 kr per person via Swish 900 29 32.\n\nAnkomst 17:00 till Vasaparken. Bar öppnar 18:30, scen 19:00-21:30.\n\nFri entré till Vasaparken för allmänheten.\n\nOfficiella rutter och regionala samlingsplatser meddelas via Facebook.",
+                              "descriptionFull": "Orangeday MC Charityride 2026 arrangeras av Orange Day MC Charityride Sweden.\n\n9:e året i rad! En manifestation för en värld fri från våld mot kvinnor och barn. Startade 2018 av Maria Andersson och har vuxit till Sveriges största MC-kortege för välgörenhet.\n\nI samarbete med UN Women Sverige och FN:s Trust Fund samlas förare från hela landet för att visa sitt ställningstagande. Var tredje kvinna i världen har utsatts för fysiskt eller sexuellt våld. Den 25:e varje månad är utnämnd till Orange Day av FN:s generalsekreterare för att uppmärksamma detta.\n\nDen första kortegen gick från Helsingborg till Norrköping 25 maj 2018, med ca 1 500 förare. Sedan dess är det ett årligt arrangemang.\n\n2026 års kortege: Lördag 30 maj.\nAvgift: 150 kr per person via Swish 900 29 32.\nAnkomst 17:00 till Vasaparken, Norrköping.\nBar öppnar 18:30, scen 19:00-21:30.\nFri entré till Vasaparken för allmänheten.\n\nOfficiella rutter och regionala samlingsplatser meddelas via Facebook.\n\nwww.orangedaymc.com",
+                              "frontImage": "ads/orangeday-charityride-front-2026-05-30.jpg",
+                              "backImage": "ads/orangeday-charityride-back2-2026-05-30.jpg",
                               "links": [
                                         {
                                                   "label": "FB Event",
                                                   "url": "https://www.facebook.com/events/845106301845419"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/groups/1955799364688045"
+                                        },
+                                        {
+                                                  "label": "orangedaymc.com",
+                                                  "url": "https://orangedaymc.com"
                                         }
                               ],
                               "link": "https://www.facebook.com/events/845106301845419",
                               "region": "Östergötland",
-                              "source": "facebook.com",
-                              "backImage": "ads/orangeday-charityride-back-2026-05-30.jpg"
+                              "source": "facebook.com"
                     },
                     {
                               "id": "nilssons-mc-festival-2026",
