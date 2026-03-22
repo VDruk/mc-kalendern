@@ -2580,6 +2580,36 @@ const EVENTS_DATA = {
                               "backImage": "ads/dartkvall-mce-back-2026-04-01.jpg"
                     },
                     {
+                              "id": "closed-room-tour-f450gs-sundsvall-2026-04-01",
+                              "name": "Closed Room Tour F 450 GS",
+                              "date": "2026-04-01",
+                              "dateEnd": "2026-04-01",
+                              "location": "Kontorsvägen 8, Sundsvall",
+                              "type": "Show",
+                              "organizer": "Northbike Sweden",
+                              "description": "Exklusiv avtäckning och lansering av nya BMW F 450 GS hos Northbike Sundsvall. Pizza, dryck och en gåva till alla som kommer. Kl 18-20.",
+                              "descriptionFull": "Exklusiv avtäckning och lansering av BMW F 450 GS hos Northbike Sundsvall.\n\nEn hoj vi tror kommer ta er kunder med storm!\n\nPizza från Biteline och dryck ingår. Alla som kommer får en gåva.\n\nObligatorisk anmälan till: event.sundsvall@northbike.se\n\nTid: 1 april kl 18:00-20:00\nPlats: Kontorsvägen 8, Sundsvall.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1879276416068794"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/northbikesweden"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Kontorsvägen+8+Sundsvall",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1879276416068794",
+                              "region": "Västernorrland",
+                              "source": "facebook.com",
+                              "backImage": "ads/closed-room-tour-f450gs-back-2026-04-01.jpg"
+                    },
+                    {
                               "id": "doh-fika-lycksele-2026-04-02",
                               "name": "DOH-Fika Lycksele",
                               "date": "2026-04-02",
@@ -4304,6 +4334,36 @@ const EVENTS_DATA = {
                                                   "type": "map"
                                         }
                               ]
+                    },
+                    {
+                              "id": "tjejkvall-bikerbrudar-umea-2026-04-23",
+                              "name": "Tjejkväll för BikerBrudar",
+                              "date": "2026-04-23",
+                              "dateEnd": "2026-04-23",
+                              "location": "Northbike, Strömvägen 2, Umeå",
+                              "type": "Träff",
+                              "organizer": "Northbike Sweden",
+                              "description": "Tjejkväll med workshop av Hanna C. Johansson. Tips om egna MC-äventyr, packning, kläder, utrustning och hur man dokumenterar resor. Bubbel och tilltugg ingår.",
+                              "descriptionFull": "Hanna C. Johansson och Northbike Umeå bjuder in till Tjejkväll med workshop för tjejer som är nyfikna på att ge sig ut på egna äventyr med motorcykel.\n\nUnder kvällen pratar vi om hur man kan planera sina egna turer, med fokus på allt från dagsturer till längre resor. Tips kring packning, kläder för olika väder, utrustning och hur man fotograferar och dokumenterar sitt äventyr.\n\nNorthbike bjuder på goda tilltugg och gott i glasen.\n\nGoodiebags till 20 första som anmäler sig. Tävling under kvällen.\n\nObligatorisk anmälan till event.umea@northbike.se\n\nTid: 23 april kl 18:00-20:30\nPlats: Northbike, Strömvägen 2, Umeå.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1289432436446731"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/northbikesweden"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Strömvägen+2+Umeå",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1289432436446731",
+                              "region": "Västerbotten",
+                              "source": "facebook.com",
+                              "backImage": "ads/tjejkvall-bikerbrudar-umea-back-2026-04-23.jpg"
                     },
                     {
                               "id": "pubkvall-pa-cromwell-house-i-norrkoping-2026-04-24",
@@ -10987,6 +11047,40 @@ const EVENTS_DATA = {
                                                   "type": "map"
                                         }
                               ]
+                    },
+                    {
+                              "id": "mc-adventure-tour-2026",
+                              "name": "MC Adventure Tour 2026",
+                              "date": "2026-06-05",
+                              "dateEnd": "2026-06-07",
+                              "location": "Hallstaberget, Sollefteå",
+                              "type": "Körning",
+                              "organizer": "Northbike Sweden & MC Ontours",
+                              "description": "3-dagars norrländskt MC-äventyr på grusvägar. Utgår från Umeå, Östersund och Sundsvall. SPA, buffé, guidning och föredrag. Boende i enkel- eller dubbelrum.",
+                              "descriptionFull": "Häng med på ett norrländskt MC-äventyr!\n\nVi tar oss fram på skogsbilvägar till vanliga grusvägar och försöker undvika asfalt så långt det går.\n\nVi utgår från Umeå, Östersund och Sundsvall på fredags morgonen den 5/6 med fikapaus och ett lunchstopp på vägen mot Sollefteå och Hallstaberget.\n\nResan arrangeras av Northbike och i samarbete med Camilla och Magnus på MC-Ontours samt andra erfarna mc-åkare.\n\nResan till Sollefteå sker i mindre grupper om 6-8 deltagare. Grupperna delas in i basic och advanced beroende på körvana.\n\nPå fredagen eftermiddag/kväll anländer vi till Hallstaberget i Sollefteå. SPA/Bastu öppet 8-22. Kl 18 middagsbuffé.\n\nPå lördagen: frukostbuffé kl 7:00, hojturer med guider (Höga Kusten eller grusvägar runt Sollefteå). Tjejgrupp finns. Demohojar från Northbike. Föredrag kl 18:00, middag kl 19:30.\n\nÅter i Sundsvall, Östersund och Umeå söndag kväll.\n\nPris: Enkelrum 5.695:-, Dubbelrum 4.995:-\nAnmälan: northbike.se, sök Adventure Tour.\n\nKrav: MC registrerad för körning i trafik, bekväm på olika underlag.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/877012335151054"
+                                        },
+                                        {
+                                                  "label": "mcontours.se",
+                                                  "url": "https://www.mcontours.se/"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/northbikesweden"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Hallstaberget+Sollefteå",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/877012335151054",
+                              "region": "Västernorrland",
+                              "source": "facebook.com",
+                              "backImage": "ads/mc-adventure-tour-back-2026-06-05.jpg"
                     },
                     {
                               "id": "custom-bikeshow-norrtalje-2026",
