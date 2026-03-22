@@ -5614,14 +5614,14 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "cec-motorcykelns-dag-kallered-2026-05-01",
-                              "name": "Motorcykelns dag på CEC Motorcycles",
+                              "name": "CEC Motorcycles Öppet Hus",
                               "date": "2026-05-01",
                               "dateEnd": "2026-05-02",
                               "location": "CEC Motorcycles, Gamla Riksvägen 20, Kållered",
                               "type": "Show",
                               "organizer": "CEC Motorcycles",
-                              "description": "Öppet hus 1-2 maj hos CEC Motorcycles i Kållered. Cross, enduro, MC, ATV och vattenskotrar. Fre och lör 10-16.",
-                              "descriptionFull": "Motorcykelns dag på CEC Motorcycles i Kållered!\n\nÖppet hus 1-2 maj. Din helhetsleverantör av cross/enduro, MC, ATV och vattenskotrar.\n\nFredag 1 maj: 10:00-16:00\nLördag 2 maj: 10:00-16:00\n\nPlats: Gamla Riksvägen 20, Kållered.",
+                              "description": "Öppet hus 1-2 maj hos CEC i Kållered i samband med Motorcykelns dag. Cross, enduro, MC, ATV och vattenskotrar. Fre och lör 10-16.",
+                              "descriptionFull": "Öppet hus hos CEC Motorcycles i Kållered i samband med Motorcykelns dag!\n\nDin helhetsleverantör av cross/enduro, MC, ATV och vattenskotrar.\n\nFredag 1 maj: 10:00-16:00\nLördag 2 maj: 10:00-16:00\n\nPlats: Gamla Riksvägen 20, Kållered.",
                               "links": [
                                         {
                                                   "label": "FB Event",
