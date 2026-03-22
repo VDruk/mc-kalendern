@@ -9293,6 +9293,27 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
+                              "id": "furuboda-korning-2026",
+                              "name": "Furuboda MC-körning",
+                              "date": "2026-05-27",
+                              "dateEnd": "2026-05-27",
+                              "location": "MCVAROR.se, Ripavägen 2, Åhus",
+                              "type": "Körning",
+                              "organizer": "Kristianstad Mc-grupp",
+                              "description": "Välgörenhetstur vid Furuboda. Uppskattade körningar med nya och gamla deltagare. Samling 17:30 hos MCVAROR.se i Åhus.",
+                              "descriptionFull": "Kristianstad Mc-grupps välgörenhetssida arrangerar en MC-körning vid Furuboda. Körningarna är mycket uppskattade bland deltagarna.\n\nVårterminens körning med många nya deltagare som är sugna på att vara med.\n\nSamling kl 17:30 hos MCVAROR.se, Ripavägen 2, Åhus.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/923696083382560"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/923696083382560",
+                              "region": "Skåne",
+                              "source": "facebook.com",
+                              "backImage": "ads/furuboda-korning-back-2026-05-27.jpg"
+                    },
+                    {
                               "id": "doa-dagstur-ekero-2026-05-28",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-05-28",
