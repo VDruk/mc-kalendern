@@ -7839,6 +7839,31 @@ const EVENTS_DATA = {
                               "backImage": "ads/varfest-may16-back-2026-05-16.jpg"
                     },
                     {
+                              "id": "larsa-memorial-run-2026",
+                              "name": "Larsa Memorial Run",
+                              "date": "2026-05-16",
+                              "dateEnd": "2026-05-16",
+                              "location": "Ångpannegatan 24, Göteborg",
+                              "type": "Körning",
+                              "organizer": "No Time MC",
+                              "description": "Memorial run till minne av Larsa. Samling på klubben, avfärd kl 13:00. Klubben öppen hela dagen. På kvällen barhäng med kall bira och livemusik.",
+                              "descriptionFull": "Larsa Memorial Run arrangeras av No Time MC i Göteborg. Forever Ride On, Brother.\n\nSamling på klubben, rutten avgår kl 13:00. Klubben kommer vara öppen hela dagen.\n\nPå kvällen blir det barhäng i riktig Larsa-anda med kall bira och livemusik på scenen.\n\nPlats: Ångpannegatan 24, 417 05 Göteborg.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/2866188243731977"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/notimemc"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/2866188243731977",
+                              "region": "Västra Götaland",
+                              "source": "facebook.com",
+                              "backImage": "ads/larsa-memorial-run-back-2026-05-16.jpg"
+                    },
+                    {
                               "id": "do-c-tjorn-orust-rundan-2026",
                               "name": "DO-C Tjörn/Orust rundan",
                               "date": "2026-05-17",
