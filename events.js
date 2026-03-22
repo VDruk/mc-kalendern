@@ -2079,6 +2079,36 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
+                              "id": "tjejkvall-handelsboden-vasteras-2026-03-27",
+                              "name": "Tjejkväll på Handelsboden",
+                              "date": "2026-03-27",
+                              "dateEnd": "2026-03-27",
+                              "location": "Handelsboden MC-kläder, Kranbyggargatan 1, Västerås",
+                              "type": "Träff",
+                              "organizer": "Bike Babes Västmanland",
+                              "description": "Tjejkväll hos Handelsboden efter stängning. Bubbel, snacks och finfina rabatter. Uppgradera din utrustning inför säsongen! Bara för tjejer.",
+                              "descriptionFull": "Välkommen på tjejkväll på Handelsboden!\n\nEfter stängning (kl. 18.00) är det vår tur att inta butiken och få njuta av förstklassig service, bubbel, snacks och finfina rabatter. Passa på att uppgradera din utrustning inför säsongen!\n\nDe som vill fortsätter efteråt in till city för en bit mat och trevligt umgänge. Vi bokar inget utan bestämmer tillsammans vart vi ska.\n\nTa gärna med en kompis, så länge hon är tjej. För den här kvällen är BARA för oss.\n\nArrangeras av Cecilia von Hausswolff och Bike Babes Västmanland.\n\nPlats: Handelsboden MC-kläder, Kranbyggargatan 1, Västerås.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/945858017974413"
+                                        },
+                                        {
+                                                  "label": "handelsboden.com",
+                                                  "url": "https://www.handelsboden.com/"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Handelsboden+Kranbyggargatan+1+Västerås",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/945858017974413",
+                              "region": "Västmanland",
+                              "source": "facebook.com",
+                              "backImage": "ads/tjejkvall-handelsboden-back-2026-03-27.jpg"
+                    },
+                    {
                               "id": "doa-lordagsfika-pa-biltema-2026-03-28",
                               "name": "DOA - Lördagsfika på Biltema",
                               "date": "2026-03-28",
@@ -5713,6 +5743,32 @@ const EVENTS_DATA = {
                               "link": "https://www.thetwinclub.se/",
                               "region": "Dalarna",
                               "source": "thetwinclub.se"
+                    },
+                    {
+                              "id": "smc-vastmanland-avrostning-2026-05-03",
+                              "name": "Avrostning 3 maj",
+                              "date": "2026-05-03",
+                              "dateEnd": "2026-05-03",
+                              "location": "Hässlö Trafikövningsplats, Västerås",
+                              "type": "Körning",
+                              "organizer": "SMC Västmanland",
+                              "description": "Avrostning med SMC Västmanland. Två kurstillfällen: förmiddag och eftermiddag. Fräscha upp dina MC-kunskaper efter vintern på Hässlö.",
+                              "descriptionFull": "Avrostning 3 maj med SMC Västmanland. Två kurstillfällen under dagen.\n\nFräscha upp dina MC-kunskaper efter vintern på Hässlö Trafikövningsplats i Västerås. Kursen är uppdelad i två pass: förmiddag (08:00-12:00) och eftermiddag (12:30-16:30).\n\nSMC:s avrostning hjälper dig komma igång säkert inför MC-säsongen med praktiska övningar.\n\nPlats: Hässlö Trafikövningsplats, Västerås.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/851094821325570"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Hässlö+Trafikövningsplats+Västerås",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/851094821325570",
+                              "region": "Västmanland",
+                              "source": "facebook.com",
+                              "backImage": "ads/smc-vastmanland-avrostning-back-2026-05-03.jpg"
                     },
                     {
                               "id": "doa-kvallskörning-nacka-2026-05-04",
