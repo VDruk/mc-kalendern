@@ -865,7 +865,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-03-19/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -2619,7 +2619,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-04-02/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -3674,7 +3674,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-04-16/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -4606,7 +4606,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Då har vi tänkt lägga en PUB kväll för er medlemmar i Markaryd området. Givetvis är alla välkomna. Det är vårt LO Morten som ordnar denna.",
                               "link": "https://hdcs.se/evenemang/lob-morten-kofod-pub-kvall-i-markaryd/",
-                              "region": "Skåne",
+                              "region": "Kronoberg",
                               "source": "hdcs.se",
                               "descriptionFull": "LOB- Morten Kofod PUB kväll i Markaryd arrangeras av H-DCS.\n\nDå har vi tänkt lägga en PUB kväll för er medlemmar i Markaryd området. Givetvis är alla välkomna. Det är vårt LO Morten som ordnar denna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Markaryd.",
                               "links": [
@@ -4656,7 +4656,7 @@ const EVENTS_DATA = {
                               "organizer": "BMW MC-klubben",
                               "description": "Arrangemang med BMW MC-klubben D7 från Tommy Janssons väg 17, 635 11 Eskilstuna, Sverige. Mer info på bmwklubben.se.",
                               "link": "https://www.bmwklubben.se/aktiviteter/d7-klubbknix-pa-gtr-motorpark/",
-                              "region": "Västmanland",
+                              "region": "Södermanland",
                               "source": "bmwklubben.se",
                               "descriptionFull": "D7 KlubbKnix på GTR Motorpark arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D7 från Tommy Janssons väg 17, 635 11 Eskilstuna, Sverige. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Tommy Janssons väg 17, Eskilstuna.",
                               "links": [
@@ -5231,7 +5231,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-04-30/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -5954,7 +5954,7 @@ const EVENTS_DATA = {
                               "organizer": "BMW MC-klubben",
                               "description": "Körning med D14 från Björkallén 32, 313 33 Oskarström, Sverige. Samling enligt schema. Följ bmwklubben.se för information.",
                               "link": "https://www.bmwklubben.se/aktiviteter/d14-test/",
-                              "region": "Gotland",
+                              "region": "Halland",
                               "source": "bmwklubben.se",
                               "descriptionFull": "D14-tur arrangeras av BMW MC-klubben.\n\nKörning med D14 från Björkallén 32, 313 33 Oskarström, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Björkallén 32, Oskarström.",
                               "links": [
@@ -7657,7 +7657,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-05-14/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -10005,7 +10005,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-05-28/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -10131,7 +10131,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Välkomna till årets första träff på Kristianopel Camping/Resort. Campingen erbjuder följande rätter om vi förbokar senast 22 maj.",
                               "link": "https://hdcs.se/evenemang/doe-noplatraffen-i-kristianopel-29-31-maj/",
-                              "region": "Östergötland",
+                              "region": "Blekinge",
                               "source": "hdcs.se",
                               "descriptionFull": "DOE Noplaträffen i Kristianopel 29-31 maj arrangeras av H-DCS.\n\nVälkomna till årets första träff på Kristianopel Camping/Resort. Campingen erbjuder följande rätter om vi förbokar senast 22 maj.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kristianopel.",
                               "links": [
@@ -11620,7 +11620,7 @@ const EVENTS_DATA = {
                               "name": "D10 Nationaldagsgruset",
                               "date": "2026-06-06",
                               "dateEnd": "2026-06-06",
-                              "location": "Västra, Götaland",
+                              "location": "Västra Götaland",
                               "type": "Körning",
                               "organizer": "BMW MC-klubben",
                               "description": "Grustour med D10. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.",
@@ -11645,12 +11645,12 @@ const EVENTS_DATA = {
                               "name": "D8 Bengts grustur",
                               "date": "2026-06-06",
                               "dateEnd": "2026-06-06",
-                              "location": "Västra, Götaland",
+                              "location": "Västra Götaland",
                               "type": "Körning",
                               "organizer": "BMW MC-klubben",
                               "description": "Grustour med D8. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.",
                               "link": "https://www.bmwklubben.se/aktiviteter/d8-bengts-grustur/",
-                              "region": "Värmland",
+                              "region": "Västra Götaland",
                               "source": "bmwklubben.se",
                               "descriptionFull": "D8 Bengts grustur arrangeras av BMW MC-klubben.\n\nGrustour med D8. Körning på grusvägar för äventyrslystna. Samling enligt schema på bmwklubben.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Västra, Götaland.",
                               "links": [
@@ -11847,7 +11847,7 @@ const EVENTS_DATA = {
                               "organizer": "BMW MC-klubben",
                               "description": "En del av En svensk mc klassiker. Idag runt Sveriges tredje största sjö med start från Nykvarn.",
                               "link": "https://www.bmwklubben.se/aktiviteter/malaren-runt-fran-nykvarn-en-svensk-mc-klassiker/",
-                              "region": "Norrbotten",
+                              "region": "Uppsala",
                               "source": "bmwklubben.se",
                               "descriptionFull": "Mälaren Runt från Nykvarn - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nEn del av En svensk mc klassiker. Idag runt Sveriges tredje största sjö med start från Nykvarn.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kraftleden 2, Bålsta.",
                               "links": [
@@ -11872,7 +11872,7 @@ const EVENTS_DATA = {
                               "organizer": "BMW MC-klubben",
                               "description": "En del av En svensk mc klassiker. Idag runt Sveriges tredje största sjö med start från Bålsta.",
                               "link": "https://www.bmwklubben.se/aktiviteter/malaren-runt-fran-balsta-en-svensk-mc-klassiker/",
-                              "region": "Norrbotten",
+                              "region": "Uppsala",
                               "source": "bmwklubben.se",
                               "descriptionFull": "Mälaren Runt från Bålsta - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nEn del av En svensk mc klassiker. Idag runt Sveriges tredje största sjö med start från Bålsta.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kraftleden 2, Bålsta.",
                               "links": [
@@ -12307,7 +12307,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-06-11/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -13439,7 +13439,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Midsommarträff 19 - 21 juni på Hasselbacken i Alstermo. Välkommen att fira midsommar med oss i HDCS-E på den fantastiskt fina festplatsen.",
                               "link": "https://hdcs.se/evenemang/doe-midsommartraff-pa-hasselbacken-i-alstermo-19-21-juni/",
-                              "region": "Östergötland",
+                              "region": "Kronoberg",
                               "source": "hdcs.se",
                               "descriptionFull": "DOE Midsommarträff på Hasselbacken i Alstermo 19-21 juni arrangeras av H-DCS.\n\nMidsommarträff 19 - 21 juni på Hasselbacken i Alstermo. Välkommen att fira midsommar med oss i HDCS-E på den fantastiskt fina festplatsen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Alstermo.",
                               "links": [
@@ -13844,7 +13844,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-06-25/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -13973,7 +13973,7 @@ const EVENTS_DATA = {
                               "organizer": "BMW MC-klubben",
                               "description": "För fjärde året bjuds det in till lägerhelg utanför Halmstad. Helgen 26-28 juni ses vi i metropolen Mahult i Simlångsdalen för att köra på fina halländska och småländska vägar!",
                               "link": "https://www.bmwklubben.se/aktiviteter/mcq-lager-hos-marre-i-mahult/",
-                              "region": "Gotland",
+                              "region": "Halland",
                               "source": "bmwklubben.se",
                               "descriptionFull": "D14. McQ-läger hos Marre i Mahult arrangeras av BMW MC-klubben.\n\nFör fjärde året bjuds det in till lägerhelg utanför Halmstad. Helgen 26-28 juni ses vi i metropolen Mahult i Simlångsdalen för att köra på fina halländska och småländska vägar!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Ryabergsvägen 6, Simlångsdalen.",
                               "links": [
@@ -15387,7 +15387,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-07-09/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -16313,7 +16313,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-07-23/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -16823,7 +16823,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Arrangemang med H-DCS från seskarö camping, Seskarö. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
                               "link": "https://hdcs.se/evenemang/seskaro/",
-                              "region": "Blekinge",
+                              "region": "Norrbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "Seskarö arrangeras av H-DCS.\n\nArrangemang med H-DCS från seskarö camping, Seskarö. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Seskarö Camping, Seskarö.",
                               "links": [
@@ -17438,7 +17438,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-08-06/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -17635,12 +17635,12 @@ const EVENTS_DATA = {
                               "name": "D8 Glasstur",
                               "date": "2026-08-08",
                               "dateEnd": "2026-08-08",
-                              "location": "Västra, Götaland",
+                              "location": "Västra Götaland",
                               "type": "Körning",
                               "organizer": "BMW MC-klubben",
                               "description": "Glasstur med BMW MC-klubben D8 i Västra Götaland. Samling och avfärd enligt plan. Kolla bmwklubben.se för detaljer.",
                               "link": "https://www.bmwklubben.se/aktiviteter/d8-glasstur/",
-                              "region": "Värmland",
+                              "region": "Västra Götaland",
                               "source": "bmwklubben.se",
                               "descriptionFull": "D8 Glasstur arrangeras av BMW MC-klubben.\n\nGlasstur med BMW MC-klubben D8 i Västra Götaland. Samling och avfärd enligt plan. Kolla bmwklubben.se för detaljer.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Västra, Götaland.",
                               "links": [
@@ -18149,7 +18149,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Våran årliga träff i Åminne vid campingen, det bjuds på körningar, musik mm. Träffen startar på torsdagen klockan 12 och slutar söndagen klockan 12.",
                               "link": "https://hdcs.se/evenemang/aminnetraffen/",
-                              "region": "Halland",
+                              "region": "Gotland",
                               "source": "hdcs.se",
                               "descriptionFull": "Åminneträffen arrangeras av H-DCS.\n\nVåran årliga träff i Åminne vid campingen, det bjuds på körningar, musik mm. Träffen startar på torsdagen klockan 12 och slutar söndagen klockan 12.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Åminne Fritid, Slite.",
                               "links": [
@@ -18652,7 +18652,7 @@ const EVENTS_DATA = {
                               "organizer": "BMW MC-klubben",
                               "description": "Arrangemang med BMW MC-klubben D8 från Dalsland. Körning genom dalslands vackra vägar. Mer info på bmwklubben.se.",
                               "link": "https://www.bmwklubben.se/aktiviteter/d8-dalsland/",
-                              "region": "Norrbotten",
+                              "region": "Västra Götaland",
                               "source": "bmwklubben.se",
                               "descriptionFull": "D8 Dalsland arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Dalsland. Körning genom dalslands vackra vägar. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Dalsland.",
                               "links": [
@@ -19015,7 +19015,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-08-20/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -20115,7 +20115,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-09-03/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -21316,7 +21316,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-09-17/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -22081,7 +22081,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-10-01/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -22356,7 +22356,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-10-15/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -22541,7 +22541,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-10-29/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -22691,7 +22691,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-11-12/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -22891,7 +22891,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-11-26/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -23066,7 +23066,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-12-10/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -23216,7 +23216,7 @@ const EVENTS_DATA = {
                               "organizer": "H-DCS",
                               "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                               "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-12-24/",
-                              "region": "Värmland",
+                              "region": "Västerbotten",
                               "source": "hdcs.se",
                               "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
                               "links": [
@@ -23311,12 +23311,12 @@ const EVENTS_DATA = {
                               "name": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 2",
                               "date": "2026-12-31",
                               "dateEnd": "2026-12-31",
-                              "location": "Västra, Götaland",
+                              "location": "Västra Götaland",
                               "type": "Körning",
                               "organizer": "BMW MC-klubben",
                               "description": "Gemensam körning från Västra Götaland. Samling enligt evenemangsinformation. Alla bikerare välkomna!",
                               "link": "https://www.bmwklubben.se/aktiviteter/region-vast-subventionerat-trafiksakerhetsarbete-2026-2/",
-                              "region": "Värmland",
+                              "region": "Västra Götaland",
                               "source": "bmwklubben.se",
                               "descriptionFull": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 2 arrangeras av BMW MC-klubben.\n\nGemensam körning från Västra Götaland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Västra, Götaland.",
                               "links": [
@@ -23336,12 +23336,12 @@ const EVENTS_DATA = {
                               "name": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 1",
                               "date": "2026-12-31",
                               "dateEnd": "2026-12-31",
-                              "location": "Västra, Götaland",
+                              "location": "Västra Götaland",
                               "type": "Körning",
                               "organizer": "BMW MC-klubben",
                               "description": "Gemensam körning från Västra Götaland. Samling enligt evenemangsinformation. Alla bikerare välkomna!",
                               "link": "https://www.bmwklubben.se/aktiviteter/region-vast-subventionerat-trafiksakerhetsarbete-2026-1/",
-                              "region": "Värmland",
+                              "region": "Västra Götaland",
                               "source": "bmwklubben.se",
                               "descriptionFull": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 1 arrangeras av BMW MC-klubben.\n\nGemensam körning från Västra Götaland. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Västra, Götaland.",
                               "links": [
