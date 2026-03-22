@@ -4106,6 +4106,10 @@ const EVENTS_DATA = {
                               "backImage": "ads/bikedagarna-back-2026-04-24.jpg",
                               "links": [
                                         {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/3913655802100450"
+                                        },
+                                        {
                                                   "label": "biketrollhattan.se",
                                                   "url": "https://biketrollhattan.se"
                                         },
@@ -4115,7 +4119,7 @@ const EVENTS_DATA = {
                                                   "type": "map"
                                         }
                               ],
-                              "link": "https://biketrollhattan.se",
+                              "link": "https://www.facebook.com/events/3913655802100450",
                               "region": "Västra Götaland",
                               "source": "FB"
                     },
