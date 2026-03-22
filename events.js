@@ -6782,15 +6782,20 @@ const EVENTS_DATA = {
                               "location": "Örebro",
                               "type": "Träff",
                               "organizer": "BMW MC-klubben",
-                              "description": "En del av En svensk mc klassiker. Idag runt Sveriges fjärde största sjö med start i örebro.",
+                              "description": "En del av En svensk mc klassiker. Idag runt Sveriges fjärde största sjö med start i Örebro. Två startgrupper: Örebro och Eskilstuna.",
                               "link": "https://www.bmwklubben.se/aktiviteter/hjalmaren-runt-fran-orebro-en-svensk-mc-klassiker/",
                               "region": "Örebro",
                               "source": "bmwklubben.se",
-                              "descriptionFull": "Hjälmaren Runt från Örebro - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nEn del av En svensk mc klassiker. Idag runt Sveriges fjärde största sjö med start i örebro.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Örebro.",
+                              "backImage": "ads/hjalmaren-runt-back-2026-05-09.jpg",
+                              "descriptionFull": "Hjälmaren Runt - En svensk mc klassiker arrangeras av BMW MC-klubben.\n\nFörsta av fyra sjöar i En Svensk MC Klassiker. Idag runt Sveriges fjärde största sjö, Hjälmaren. Två startgrupper: den ena från Eskilstuna och den andra från Örebro.\n\nAlla är välkomna oavsett vilken hoj du kör.",
                               "links": [
                                         {
                                                   "label": "bmwklubben.se",
                                                   "url": "https://www.bmwklubben.se/aktiviteter/hjalmaren-runt-fran-orebro-en-svensk-mc-klassiker/"
+                                        },
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/753265097849383"
                                         },
                                         {
                                                   "label": "Karta",
@@ -6807,15 +6812,20 @@ const EVENTS_DATA = {
                               "location": "Eskilstuna",
                               "type": "Träff",
                               "organizer": "BMW MC-klubben",
-                              "description": "MC-arrangemang i Eskilstuna. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
+                              "description": "En del av En svensk mc klassiker. Idag runt Sveriges fjärde största sjö med start i Eskilstuna. Två startgrupper: Eskilstuna och Örebro.",
                               "link": "https://www.bmwklubben.se/aktiviteter/hjalmaren-runt-fran-eskilstuna-en-svensk-mc-klassiker/",
-                              "region": "Norrbotten",
+                              "region": "Södermanland",
                               "source": "bmwklubben.se",
-                              "descriptionFull": "Hjälmaren Runt från Eskilstuna - En svensk MC klassiker arrangeras av BMW MC-klubben.\n\nMC-arrangemang i Eskilstuna. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Eskilstuna.",
+                              "backImage": "ads/hjalmaren-runt-back-2026-05-09.jpg",
+                              "descriptionFull": "Hjälmaren Runt - En svensk MC klassiker arrangeras av BMW MC-klubben.\n\nFörsta av fyra sjöar i En Svensk MC Klassiker. Idag runt Sveriges fjärde största sjö, Hjälmaren. Två startgrupper: den ena från Eskilstuna och den andra från Örebro.\n\nAlla är välkomna oavsett vilken hoj du kör.",
                               "links": [
                                         {
                                                   "label": "bmwklubben.se",
                                                   "url": "https://www.bmwklubben.se/aktiviteter/hjalmaren-runt-fran-eskilstuna-en-svensk-mc-klassiker/"
+                                        },
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/753265097849383"
                                         },
                                         {
                                                   "label": "Karta",
