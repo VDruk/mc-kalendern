@@ -4447,6 +4447,32 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "baldernaes-barhang-bollnas-2026",
+                              "name": "Barhäng hos Baldernaes MC",
+                              "date": "2026-04-24",
+                              "dateEnd": "2026-04-25",
+                              "location": "Baldernaes MC, Bollnäs",
+                              "type": "Fest",
+                              "organizer": "Baldernaes MC Bollnäs",
+                              "description": "Två kvällar barhäng i samband med Bollnäs Motormässa. Fredag öppet hus, lördag live med Elise & Jens från 10:00. Cash is king!",
+                              "descriptionFull": "Barhäng hos Baldernaes MC i samband med Bollnäs Motormässa 2026.\n\nFredag 24/4: Barhäng\nLördag 25/4: Barhäng Live med Elise & Jens, från 10:00 till sent.\n\nCash is king!\n\nVälkomna inbjudna vänner och bikers.",
+                              "backImage": "ads/baldernaes-barhang-back-2026-04-24.jpg",
+                              "links": [
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/baldernaesmc.bollnas"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Baldernaes+MC+Bollnäs",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/baldernaesmc.bollnas",
+                              "region": "Gävleborg",
+                              "source": "facebook.com"
+                    },
+                    {
                               "id": "mc-collection-sasongsoppning-2026",
                               "name": "MC Collection Säsongsöppning",
                               "date": "2026-04-25",
