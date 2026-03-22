@@ -3254,6 +3254,27 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "runda-efter-oppet-hus-motostar-2026",
+                              "name": "Runda efter Öppet Hus",
+                              "date": "2026-04-11",
+                              "dateEnd": "2026-04-11",
+                              "location": "Motostar, Såggatan 3, Sjöbo",
+                              "type": "Körning",
+                              "organizer": "MC för alla - Skåne",
+                              "description": "Grupptur i samarbete med Motostar efter deras Öppet Hus. Lugnt tempo, alla välkomna, gratis. Ca 1 timme på asfalt, avslut på Golfklubben i Sjöbo.",
+                              "descriptionFull": "I samarbete med Motostar anordnas en grupptur för alla som vill hänga med, strax efter att Motostar stänger butiken.\n\nRundan går i lugnt tempo så alla kan hänga med och det kostar inget att delta. Endast asfalterade vägar.\n\nKort genomgång 16:20\nAvfärd 16:30\nAvslut Golfklubben Sjöbo ca 17:30\n\nDe som vill kan stanna och ta något att äta tillsammans efteråt.",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/1249840230546924"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/1249840230546924",
+                              "region": "Skåne",
+                              "source": "facebook.com",
+                              "backImage": "ads/motostar-oppet-hus-back-2026-04-10.jpg"
+                    },
+                    {
                               "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
                               "name": "D15 Söndagsvandring Gyllebosjön Runt",
                               "date": "2026-04-12",
