@@ -2502,6 +2502,33 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mce-pubkvall-jarfalla-2026-03-27",
+      "name": "PubKväll hos MCE",
+      "date": "2026-03-27",
+      "dateEnd": "2026-03-27",
+      "location": "MCE Klubblokalen, Järfälla",
+      "type": "Fest",
+      "organizer": "MCE",
+      "organizerIcon": "clubs/normalized/mce.png",
+      "description": "Roger och Micke Z fixar hamburgare, baren fixar dryck. Ta med ditt härliga humör och inviga MC-säsongen 2026 med MCE!",
+      "backImage": "ads/mce-pubkvall-back-2026-03-27.jpg",
+      "link": "https://www.facebook.com/photo?fbid=1424210899717607&set=a.517822163689823",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/photo?fbid=1424210899717607&set=a.517822163689823"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+177+61+J%C3%A4rf%C3%A4lla",
+          "type": "map"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "descriptionFull": "Roger och Micke Z fixar hamburgare med tillbehör, och baren fixar god dryck. Ta med ditt härliga humör och inviga MC-säsongen 2026!\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar ingen roll.\n\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla."
+    },
+    {
       "id": "vulcan-riders-pubkvall-glada-stinsen-2026-03-28",
       "name": "Pubkväll Vulcan Riders Sweden",
       "date": "2026-03-28",
@@ -2685,6 +2712,33 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "mce-mekarkurs-grunder-2026-03-31",
+      "name": "Mekarkurs, grunder",
+      "date": "2026-03-31",
+      "dateEnd": "2026-03-31",
+      "location": "Ågestavägen 54, Huddinge",
+      "type": "Träff",
+      "organizer": "MCE",
+      "organizerIcon": "clubs/normalized/mce.png",
+      "description": "Grundläggande mekarstund hemma hos Matte Sjöberg. Max 8 deltagare! Anmäl via SMS till Roger: 070-270 05 51. Kl 18:30–20:30.",
+      "backImage": "ads/mce-mekar-kurs-back-2026-03-31.jpg",
+      "link": "https://www.facebook.com/events/1424884672652820",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1424884672652820"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85gestav%C3%A4gen+54+Huddinge",
+          "type": "map"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "descriptionFull": "MCE arrangerar en grundläggande mekarstund hemma hos Matte Sjöberg i Huddinge.\n\nIdén kom upp efter samtal i kåken om hur MC:n ska skötas – det visade sig finnas många åsikter. Ingen fast agenda, men gott om utrymme för frågor.\n\nOBS: Max 8 deltagare! Anmäl via SMS till Roger: 070-270 05 51. De 8 som sms:ar först har plats, övriga på reservlistan.\n\nTid: Tisdag 31 mars kl 18:30–20:30\nPlats: Ågestavägen 54, Huddinge."
     },
     {
       "id": "closed-room-tour-f450gs-sundsvall-2026-04-01",
@@ -3801,6 +3855,33 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "descriptionFull": "MCE - motorcykelentusiasterna bjuder in till månadsmöte i april.\n\nVi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar. Alla medlemmar och klubbnyfikna är välkomna.\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar ingen roll, inte ens krav på att man ska ha en hoj.\n\nTid: Måndag 13 april kl. 18:00 - 21:00\nPlats: Snutenvägen 11, 177 61 Järfälla."
+    },
+    {
+      "id": "mce-oppet-hus-jarfalla-2026-04-13",
+      "name": "Öppet hus hos MCE",
+      "date": "2026-04-13",
+      "dateEnd": "2026-04-13",
+      "location": "MCE Klubblokalen, Järfälla",
+      "type": "Träff",
+      "organizer": "MCE",
+      "organizerIcon": "clubs/normalized/mce.png",
+      "description": "Säsongens första öppet hus hos MCE. Kom in på en gofika, enkel matbit och lite MC-snack. Alla välkomna! Kl 18–19.",
+      "backImage": "ads/mce-oppet-hus-back-2026-04-13.jpg",
+      "link": "https://www.facebook.com/events/907889925500339",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/907889925500339"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+177+61+J%C3%A4rf%C3%A4lla",
+          "type": "map"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "descriptionFull": "Säsongens första öppet hus hos MCE i Järfälla!\n\nVåren närmar sig med bestämda steg och vi står inför en ny säsong. Kom in på en gofika, lätt matbit och bara ha kul en stund.\n\nAlla hojintresserade är välkomna – oavsett vilket märke du kör.\n\nTid: Måndag 13 april kl 18:00–19:00\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla."
     },
     {
       "id": "doa-tisdagslunch-2026-04-14",
@@ -7540,6 +7621,33 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mce-kakenfixardag-jarfalla-2026-05-09",
+      "name": "Kåkenfixardag",
+      "date": "2026-05-09",
+      "dateEnd": "2026-05-09",
+      "location": "MCE Klubblokalen, Snutenvägen 11, Järfälla",
+      "type": "Träff",
+      "organizer": "MCE",
+      "organizerIcon": "clubs/normalized/mce.png",
+      "description": "Vårstädning runt MCE:s kåke! Hjälp till att fräscha upp klubblokalen och umgås med andra MCE-are. Kl 09–14.",
+      "backImage": "ads/mce-kakenfixardag-back-2026-05-09.jpg",
+      "link": "https://www.facebook.com/events/2019727055256910",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2019727055256910"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+177+61+J%C3%A4rf%C3%A4lla",
+          "type": "map"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "descriptionFull": "Dags för vårstädning runt MCE:s kåke!\n\nHoppas att många kommer – dels för sällskapets skull, och dels går det fortare när vi är fler. Välkommen att hjälpa till och umgås!\n\nTid: Lördag 9 maj kl 09:00–14:00\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla."
+    },
+    {
       "id": "bmw-d8-nossans-broar-2026",
       "name": "D8 Nossans broar",
       "date": "2026-05-10",
@@ -10313,6 +10421,33 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "mce-offroad-lettland-2026-05-25",
+      "name": "Offroad-tur till Lettland",
+      "date": "2026-05-25",
+      "dateEnd": "2026-05-29",
+      "location": "Nynäshamn / Ventspils, Lettland",
+      "type": "Körning",
+      "organizer": "MCE",
+      "organizerIcon": "clubs/normalized/mce.png",
+      "description": "5-dagarstur till Lettland med MCE, ledd av Olle Ohlsson. Körning Ventspils–Rojas–Saldus. Pris 15 000 kr (egen hoj). Anm: mce@cmail.nu.",
+      "backImage": "ads/mce-offroad-lettland-back-2026-05-25.jpg",
+      "link": "https://www.facebook.com/events/4192041944379860",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4192041944379860"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Nyn%C3%A4shamn",
+          "type": "map"
+        }
+      ],
+      "region": "Sverige",
+      "source": "facebook.com",
+      "descriptionFull": "MCE arrangerar en 5-dagarstur till Lettland, ledd av ökenräven Olle Ohlsson.\n\nAvfärd 25 maj kl 13:00 från Järfälla (samling kl 12:00). Färja från Nynäshamn kl 21:30.\n\nKörning i Lettland: Ventspils–Rojas–Saldus–Ventspils. Återfärd med färja 29 maj.\n\nIngår: färja (2-mannahytt), frukost, 3 måltider/dag, afterbike-öl, hotell dubbelrum, följebil för bagage, bensin.\n\nPris:\n– Eigen hoj: 15 000 kr\n– Hyrd Husqvarna enduro: 20 000 kr\n(Faktura möjligt, moms tillkommer)\n\nAnmälan: mce@cmail.nu eller 070-715 93 93\nTa med: pass, reg.bevis i original, euro kontanter."
     },
     {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-05-26",
