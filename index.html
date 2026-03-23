@@ -1175,6 +1175,7 @@ const TYPE_CLASSES = {
 // ========== STATE ==========
 let currentFilter = 'all';
 let currentClub = 'all'; // now driven by organizer dropdown
+let topOrgEntries = []; // top 20 org entries, set during build, used in filter logic
 let currentRegion = 'all';
 let currentMonth = 'all';
 let showPast = false;
@@ -1322,16 +1323,36 @@ function buildRegionFilter() {
     .sort((a, b) => b[1] - a[1]);
 
   const allOrgEntries = [...groupEntries, ...standaloneEntries];
+  topOrgEntries = allOrgEntries.slice(0, 20);
+
+  // Count events not covered by any top-20 entry (for "Övriga")
+  const ovrigaCount = realEvts.filter(e => {
+    const org = e.organizer || '';
+    return !topOrgEntries.some(([key]) =>
+      CLUB_MATCHERS[key] ? CLUB_MATCHERS[key](org) : org.includes(key)
+    );
+  }).length;
 
   const orgSels = [document.getElementById('organizerFilter'), document.getElementById('organizerFilterMobile')];
   orgSels.forEach(orgSel => {
     if (!orgSel) return;
-    allOrgEntries.forEach(([key, count]) => {
+    topOrgEntries.forEach(([key, count]) => {
       const opt = document.createElement('option');
       opt.value = key;
       opt.textContent = key + ' (' + count + ')';
       orgSel.appendChild(opt);
     });
+    // Separator + Övriga
+    if (ovrigaCount > 0) {
+      const sep = document.createElement('option');
+      sep.disabled = true;
+      sep.textContent = '────────────';
+      orgSel.appendChild(sep);
+      const opt = document.createElement('option');
+      opt.value = '__other__';
+      opt.textContent = 'Övriga (' + ovrigaCount + ')';
+      orgSel.appendChild(opt);
+    }
   });
 
   // Populate mobile region and month filters (clone from desktop)
@@ -1731,7 +1752,15 @@ function render() {
   // Filters (regular events only)
   if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
   if (currentClub !== 'all') {
-    if (CLUB_MATCHERS[currentClub]) {
+    if (currentClub === '__other__') {
+      // Övriga: events not matched by any of the top-20 organizer entries
+      events = events.filter(e => {
+        const org = e.organizer || '';
+        return !topOrgEntries.some(([key]) =>
+          CLUB_MATCHERS[key] ? CLUB_MATCHERS[key](org) : org.includes(key)
+        );
+      });
+    } else if (CLUB_MATCHERS[currentClub]) {
       events = events.filter(e => CLUB_MATCHERS[currentClub](e.organizer || ''));
     } else {
       // Standalone organizer: substring match so variants are included
