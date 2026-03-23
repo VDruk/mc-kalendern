@@ -682,6 +682,21 @@
   .back-link-pill:hover { border-color: var(--accent); background: rgba(217,119,6,0.05); }
   .back-link-pill svg { width: 10px; height: 10px; }
   button.back-link-pill { cursor: pointer; font-family: inherit; }
+  .back-cal-row {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    margin-top: 10px; padding-top: 10px;
+    border-top: 1px solid var(--border);
+  }
+  .back-cal-pill {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 11px; text-decoration: none; font-weight: 500;
+    padding: 4px 10px; border-radius: 14px;
+    border: 1px solid var(--border); background: var(--bg-primary);
+    color: var(--text-secondary);
+    transition: all var(--transition); cursor: pointer; font-family: inherit;
+  }
+  .back-cal-pill:hover { border-color: #4285F4; color: #4285F4; background: rgba(66,133,244,0.05); }
+  .back-cal-pill svg { width: 10px; height: 10px; }
 
   .back-footer {
     display: flex; align-items: center; justify-content: space-between;
@@ -1135,7 +1150,7 @@
   <div class="drawer-footer">
     <button class="drawer-ics-btn" id="downloadIcsBtn">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-      <span id="icsDownloadText">Ladda ner valda evenemang (.ics)</span>
+      <span id="icsDownloadText">Ladda ner evenemang (.ics)</span>
     </button>
     <p class="drawer-ics-hint">För iPhone och dator: ladda ner och öppna filen. För Android: använd kalenderknappen bredvid varje evenemang.</p>
   </div>
@@ -2012,8 +2027,10 @@ function render() {
         + '&dates=' + gcalStart + '/' + gcalEnd
         + '&location=' + encodeURIComponent(event.location || '')
         + '&details=' + encodeURIComponent((event.description || '') + (event.link ? '\n\n' + event.link : ''));
-      const calPills = `<a class="back-link-pill" href="${gcalUrl}" target="_blank" rel="noopener">${calIcon} Google Kalender</a>`
-        + `<button class="back-link-pill" onclick="event.stopPropagation();downloadSingleICS('${event.id}')">${calIcon} Ladda ner .ics</button>`;
+      const calRow = `<div class="back-cal-row">`
+        + `<a class="back-cal-pill" href="${gcalUrl}" target="_blank" rel="noopener">${calIcon} Google Kalender</a>`
+        + `<button class="back-cal-pill" onclick="event.stopPropagation();downloadSingleICS('${event.id}')">${calIcon} Ladda ner .ics</button>`
+        + `</div>`;
 
       let linksHTML = '';
       if (event.links && event.links.length > 0) {
@@ -2023,9 +2040,9 @@ function render() {
           const icon = l.type === 'map' ? mapIcon : extIcon;
           return `<a class="back-link-pill" href="${l.url}" target="_blank" rel="noopener">${icon} ${l.label}</a>`;
         }).join('');
-        linksHTML = `<div class="back-links"><div class="back-link-pills">${pills}${calPills}</div></div>`;
+        linksHTML = `<div class="back-links"><div class="back-link-pills">${pills}</div>${calRow}</div>`;
       } else {
-        linksHTML = `<div class="back-links"><div class="back-link-pills">${calPills}</div></div>`;
+        linksHTML = `<div class="back-links">${calRow}</div>`;
       }
       backHTML = `
       <div class="card-back-flip">
@@ -2140,6 +2157,57 @@ function injectEventSchema() {
   script.type = 'application/ld+json';
   script.textContent = JSON.stringify(events);
   document.head.appendChild(script);
+}
+
+// ========== ICS CALENDAR HELPERS (global scope for onclick access) ==========
+function generateICS(events) {
+  const stamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+  const lines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//MC Kalendern//druk.se//SV',
+    'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH',
+    'X-WR-CALNAME:MC Kalendern - Mina evenemang',
+    'X-WR-TIMEZONE:Europe/Stockholm'
+  ];
+  events.forEach(e => {
+    const start = e.date.replace(/-/g, '');
+    const endDate = new Date(e.dateEnd || e.date);
+    endDate.setDate(endDate.getDate() + 1);
+    const end = endDate.toISOString().slice(0, 10).replace(/-/g, '');
+    const esc = s => (s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
+    const fold = line => {
+      if (line.length <= 75) return line;
+      let out = '';
+      while (line.length > 75) { out += line.slice(0, 75) + '\r\n '; line = line.slice(75); }
+      return out + line;
+    };
+    lines.push('BEGIN:VEVENT');
+    lines.push(fold(`UID:${e.id}@druk.se`));
+    lines.push(`DTSTAMP:${stamp}`);
+    lines.push(`DTSTART;VALUE=DATE:${start}`);
+    lines.push(`DTEND;VALUE=DATE:${end}`);
+    lines.push(fold(`SUMMARY:${esc(e.name)}`));
+    lines.push(fold(`LOCATION:${esc(e.location)}`));
+    if (e.description) lines.push(fold(`DESCRIPTION:${esc(e.description)}`));
+    lines.push(fold(`URL:${e.link || 'https://druk.se'}`));
+    lines.push('END:VEVENT');
+  });
+  lines.push('END:VCALENDAR');
+  return lines.join('\r\n');
+}
+
+function downloadSingleICS(eventId) {
+  const e = EVENTS_DATA.events.find(ev => ev.id === eventId);
+  if (!e) return;
+  const ics = generateICS([e]);
+  const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = e.name.replace(/[^a-z0-9åäö]/gi, '-').toLowerCase() + '.ics';
+  a.click();
+  URL.revokeObjectURL(a.href);
 }
 
 // ========== EVENT LISTENERS ==========
@@ -2397,61 +2465,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // ICS calendar download
-  function generateICS(events) {
-    const stamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
-    const lines = [
-      'BEGIN:VCALENDAR',
-      'VERSION:2.0',
-      'PRODID:-//MC Kalendern//druk.se//SV',
-      'CALSCALE:GREGORIAN',
-      'METHOD:PUBLISH',
-      'X-WR-CALNAME:MC Kalendern - Mina evenemang',
-      'X-WR-TIMEZONE:Europe/Stockholm'
-    ];
-    events.forEach(e => {
-      // DTSTART / DTEND: all-day format YYYYMMDD
-      const start = e.date.replace(/-/g, '');
-      // DTEND in .ics is exclusive (day after last day)
-      const endDate = new Date(e.dateEnd || e.date);
-      endDate.setDate(endDate.getDate() + 1);
-      const end = endDate.toISOString().slice(0, 10).replace(/-/g, '');
-      // Escape commas, semicolons, backslashes, newlines per RFC 5545
-      const esc = s => (s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
-      // Fold long lines at 75 chars per RFC 5545
-      const fold = line => {
-        if (line.length <= 75) return line;
-        let out = '';
-        while (line.length > 75) { out += line.slice(0, 75) + '\r\n '; line = line.slice(75); }
-        return out + line;
-      };
-      lines.push('BEGIN:VEVENT');
-      lines.push(fold(`UID:${e.id}@druk.se`));
-      lines.push(`DTSTAMP:${stamp}`);
-      lines.push(`DTSTART;VALUE=DATE:${start}`);
-      lines.push(`DTEND;VALUE=DATE:${end}`);
-      lines.push(fold(`SUMMARY:${esc(e.name)}`));
-      lines.push(fold(`LOCATION:${esc(e.location)}`));
-      if (e.description) lines.push(fold(`DESCRIPTION:${esc(e.description)}`));
-      lines.push(fold(`URL:${e.link || 'https://druk.se'}`));
-      lines.push('END:VEVENT');
-    });
-    lines.push('END:VCALENDAR');
-    return lines.join('\r\n');
-  }
-
-  function downloadSingleICS(eventId) {
-    const e = EVENTS_DATA.events.find(ev => ev.id === eventId);
-    if (!e) return;
-    const ics = generateICS([e]);
-    const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = e.name.replace(/[^a-z0-9åäö]/gi, '-').toLowerCase() + '.ics';
-    a.click();
-    URL.revokeObjectURL(a.href);
-  }
-
   document.getElementById('downloadIcsBtn').addEventListener('click', () => {
     const allEvents = EVENTS_DATA.events;
     const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean);
@@ -2489,7 +2502,7 @@ function updateDrawer() {
   const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
   const icsText = document.getElementById('icsDownloadText');
-  if (icsText) icsText.textContent = `Ladda ner ${favEvents.length} valda evenemang (.ics)`;
+  if (icsText) icsText.textContent = `Ladda ner ${favEvents.length} evenemang (.ics)`;
   body.innerHTML = favEvents.map(e => {
     const d = new Date(e.date + 'T00:00:00');
     // Build Google Calendar link
