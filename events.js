@@ -2430,6 +2430,35 @@ const EVENTS_DATA = {
                               "backImage": "ads/northbike-open-house-back-2026-03-28.jpg"
                     },
                     {
+                              "id": "vulcan-riders-pubkvall-glada-stinsen-2026-03-28",
+                              "name": "Pubkväll Vulcan Riders Sweden",
+                              "date": "2026-03-28",
+                              "dateEnd": "2026-03-28",
+                              "location": "Glada Stinsen, Hägersten, Stockholm",
+                              "type": "Träff",
+                              "organizer": "Vulcan Riders Sweden",
+                              "description": "Pubkväll för Vulcan Riders och MC-vänner på Glada Stinsen i Hägersten. Samling från kl 16:00. Alla välkomna!",
+                              "descriptionFull": "Pubkväll med Vulcan Riders Sweden på Glada Stinsen i Hägersten.\n\nLördag 28 mars från kl 16:00.\n\nKom och häng med Kawasaki Vulcan-gänget och andra MC-vänner!",
+                              "links": [
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/groups/642063332540047"
+                                        },
+                                        {
+                                                  "label": "gladastinsen.se",
+                                                  "url": "https://www.gladastinsen.se/"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Glada+Stinsen+Hägersten",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/groups/642063332540047",
+                              "region": "Stockholm",
+                              "source": "facebook.com"
+                    },
+                    {
                               "id": "ttc-årsmöte-smc-dalarna-2026",
                               "name": "Årsmöte SMC Dalarna",
                               "date": "2026-03-29",
