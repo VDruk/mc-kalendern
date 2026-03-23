@@ -282,6 +282,12 @@
   .share-btn:hover { opacity: 0.75; }
   .share-btn svg { width: 26px; height: 26px; }
   #shareFb svg { width: 28px; height: 28px; }
+  #shareWa svg { width: 28px; height: 28px; }
+  #shareX, #shareKofi {
+    border-radius: 50%; border: 1px solid var(--border);
+  }
+  #shareX svg { width: 16px; height: 16px; }
+  #shareKofi img { width: 20px; height: 20px; }
   .tipsa-circle-btn {
     width: 32px; height: 32px; border-radius: 50%;
     border: 1px solid var(--accent); background: var(--accent);
@@ -1067,7 +1073,7 @@
           <svg viewBox="0 0 24 24" fill="#1a1d23"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
         </button>
         <a href="https://ko-fi.com/mckalender" target="_blank" rel="noopener" class="share-btn" id="shareKofi" title="Stöd MC Kalendern på Ko-fi">
-          <img src="ads/kofi-logo.webp" alt="Ko-fi" style="width:28px;height:28px;object-fit:contain;border-radius:0;">
+          <img src="ads/kofi-logo.webp" alt="Ko-fi" style="object-fit:contain;border-radius:0;">
         </a>
         <button class="tipsa-circle-btn" id="tipsaCircleBtn" title="Tipsa om ett evenemang">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
