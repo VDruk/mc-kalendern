@@ -915,7 +915,8 @@
     .toggle-wrap { display: none; }
     .type-btn { padding: 5px 10px; font-size: 12px; }
     .filter-row-desktop { display: none; }
-    .filter-row-mobile { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .filter-row-mobile { display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 6px; align-items: center; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+    .filter-row-mobile::-webkit-scrollbar { display: none; }
     .filter-row-bottom .share-btns { gap: 4px; margin-left: auto; }
 
     .grid { grid-template-columns: 1fr; gap: 12px; }
@@ -1276,7 +1277,7 @@ function buildRegionFilter() {
   const activeCountries = COUNTRIES.filter(c => regionCounts[c]);
   if (activeCountries.length > 0) {
     const sep = document.createElement('option');
-    sep.disabled = true; sep.textContent = '────────────';
+    sep.disabled = true; sep.textContent = '──────';
     sel.appendChild(sep);
     activeCountries.forEach(c => {
       const opt = document.createElement('option');
@@ -1346,7 +1347,7 @@ function buildRegionFilter() {
     if (ovrigaCount > 0) {
       const sep = document.createElement('option');
       sep.disabled = true;
-      sep.textContent = '────────────';
+      sep.textContent = '──────';
       orgSel.appendChild(sep);
       const opt = document.createElement('option');
       opt.value = '__other__';
