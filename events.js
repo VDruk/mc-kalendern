@@ -5286,13 +5286,13 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-staddag-kaken-obs-sondag-2026",
-      "name": "Städdag Kåken ( OBS Söndag)",
+      "name": "Städdag Kåken (OBS Söndag)",
       "date": "2026-04-26",
       "dateEnd": "2026-04-26",
       "location": "Stångby",
       "type": "Träff",
       "organizer": "ÖAMCK",
-      "description": "Städdag Kåken ( OBS Söndag)",
+      "description": "Städdag Kåken (OBS Söndag)",
       "link": "https://oamck.se/events/staddag-kaken-obs-sondag/",
       "region": "Sverige",
       "source": "oamck.se"
@@ -9381,16 +9381,17 @@ const EVENTS_DATA = {
     },
     {
       "id": "superrally-fredricia-danmark-2026",
-      "name": "Superrally Fredricia Danmark",
+      "name": "Superrally Fredericia",
       "date": "2026-05-20",
       "dateEnd": "2026-05-24",
-      "location": "Se länk",
+      "location": "Fredericia, Danmark",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Superrally Fredricia Danmark",
+      "description": "Stor europeisk Harley-Davidson rally i Fredericia, Danmark. 5 dagar med musik, shower och körningar.",
       "link": "https://hdcs.se/evenemang/superrally-fredricia-danmark/",
-      "region": "Norrbotten",
-      "source": "hdcs.se"
+      "region": "Danmark",
+      "source": "hdcs.se",
+      "descriptionFull": "Superrally Fredericia är en av de stora europeiska Harley-Davidson rallyna.\n\nFem dagar med shower, musik, utställningar och körningar i och kring Fredericia.\n\nArrangeras av H-DCS. Se länk för detaljer och anmälan.\n\nPlats: Fredericia, Danmark."
     },
     {
       "id": "doa-dagstur-ekero-2026-05-21",
@@ -10162,19 +10163,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "oppet-hus-rapido-mck-och-smc-stockholm-2026-2026",
-      "name": "Öppet Hus Rapido MCK och SMC Stockholm 2026",
-      "date": "2026-05-23",
-      "dateEnd": "2026-05-23",
-      "location": "Stockholm Stockholm",
-      "type": "Träff",
-      "organizer": "Via MCparken",
-      "description": "Öppet Hus Rapido MCK och SMC Stockholm 2026",
-      "link": "https://mcparken.se/calendar/168",
-      "region": "Stockholm",
-      "source": "mcparken.se"
     },
     {
       "id": "bmw-d11-mcq-pernillas-tur-2026",
@@ -19345,7 +19333,7 @@ const EVENTS_DATA = {
       "organizer": "SMC Riks",
       "description": "Mälaren runt",
       "link": "https://oamck.se/events/malaren-runt/",
-      "region": "Stockholm",
+      "region": "Sverige",
       "source": "oamck.se"
     },
     {
