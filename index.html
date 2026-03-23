@@ -130,7 +130,7 @@
     .hero-badge {
       display: block;
       position: absolute;
-      right: calc((100% - 700px) / 4);
+      right: max(10px, calc((100% - 700px) / 2));
       top: 50%;
       transform: translateY(-50%);
       z-index: 3;
@@ -917,6 +917,7 @@
     .filter-row-desktop { display: none; }
     .filter-row-mobile { display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 6px; align-items: center; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
     .filter-row-mobile::-webkit-scrollbar { display: none; }
+    .filter-row-mobile .toggle { flex-shrink: 0; }
     .filter-row-bottom .share-btns { gap: 4px; margin-left: auto; }
 
     .grid { grid-template-columns: 1fr; gap: 12px; }
@@ -1043,6 +1044,7 @@
       <select class="filter-select" id="organizerFilterMobile" aria-label="Filtrera efter arrangör">
         <option value="all">Alla arrangörer</option>
       </select>
+      <button class="toggle flex-shrink-0" id="pastToggleMobile" aria-label="Visa passerade evenemang" title="Visa passerade evenemang"></button>
       <select class="filter-select" id="typeFilterMobile" aria-label="Filtrera efter typ">
         <option value="all">Alla typer</option>
         <option value="Körning">Körning</option>
@@ -2240,17 +2242,28 @@ document.addEventListener('DOMContentLoaded', () => {
       if (selectedMonth < currentM) {
         showPast = true;
         document.getElementById('pastToggle').classList.add('active');
+        const mob = document.getElementById('pastToggleMobile');
+        if (mob) mob.classList.add('active');
       }
     }
     updateAllaBtn();
     render();
   });
 
-  // Past toggle
-  document.getElementById('pastToggle').addEventListener('click', function() {
-    showPast = !showPast;
-    this.classList.toggle('active');
+  // Past toggle (desktop + mobile synced)
+  function togglePast(active) {
+    showPast = active;
+    document.getElementById('pastToggle').classList.toggle('active', active);
+    const mob = document.getElementById('pastToggleMobile');
+    if (mob) mob.classList.toggle('active', active);
     render();
+  }
+  document.getElementById('pastToggle').addEventListener('click', function() {
+    togglePast(!showPast);
+  });
+  const pastToggleMobile = document.getElementById('pastToggleMobile');
+  if (pastToggleMobile) pastToggleMobile.addEventListener('click', function() {
+    togglePast(!showPast);
   });
 
   // Search
