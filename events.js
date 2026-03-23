@@ -7625,6 +7625,36 @@ const EVENTS_DATA = {
       "descriptionFull": "Dags för vårstädning runt MCE:s kåke!\n\nHoppas att många kommer – dels för sällskapets skull, och dels går det fortare när vi är fler. Välkommen att hjälpa till och umgås!\n\nTid: Lördag 9 maj kl 09:00–14:00\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla."
     },
     {
+      "id": "korhoj-varmskog-rakmacketuren-2026-05-09",
+      "name": "Kör Hoj Värmskog – Räkmacketuren",
+      "date": "2026-05-09",
+      "dateEnd": "2026-05-10",
+      "location": "Värmskogs Café, Värmskog",
+      "type": "Körning",
+      "organizer": "Kör Hoj",
+      "description": "Tvådagarstur med tältnatt vid sjö i Värmskog. Asfalt och grus via Håverud. Räkmacka vid ankomst, grillkväll. Max 8 platser. Pris: 695 kr.",
+      "backImage": "ads/korhoj-varmskog-back-2026-05-09.jpg",
+      "link": "https://korhoj.se/event/kor-hoj-varmskog-rakmacketuren/",
+      "links": [
+        {
+          "label": "korhoj.se",
+          "url": "https://korhoj.se/event/kor-hoj-varmskog-rakmacketuren/"
+        },
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2082010552563127"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4rmskogs+Caf%C3%A9+V%C3%A4rmskog",
+          "type": "map"
+        }
+      ],
+      "region": "Värmland",
+      "source": "facebook.com",
+      "descriptionFull": "Kör Hoj arrangerar en tvådagarstur till Värmskog med tältnatt intill en sjö.\n\nVi kör på asfalt och grus, passerar Brudfjällsvägen, akvedukten i Håverud och åker Sveriges kortaste vägfärja. Vid ankomst: räkmacka. Kvällen bjuder på grillning och gemensamt umgänge.\n\nSöndag: packning, frukost, återresa via grusvägar med pauser.\n\nMax 8 platser. Pris: 695 kr.\nAnmälan: korhoj.se/event/kor-hoj-varmskog-rakmacketuren/\n\nStartpunkt: KÖR HOJs lokal i Lidköping (HOJRUM), lördag 9 maj kl 10:00."
+    },
+    {
       "id": "bmw-d8-nossans-broar-2026",
       "name": "D8 Nossans broar",
       "date": "2026-05-10",
@@ -16986,6 +17016,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "korhoj-norge-v30-2026-07-20",
+      "name": "Kör Hoj Norge V:30",
+      "date": "2026-07-20",
+      "dateEnd": "2026-07-26",
+      "location": "Lidköping / Horten, Norge",
+      "type": "Körning",
+      "organizer": "Kör Hoj",
+      "description": "7-dagarstur i Norge, ca 220 mil. Max 8 deltagare. Boende i stugor, turledare och äventyrscoach ingår. Pris: 7 475 kr. Anm: korhoj.se.",
+      "backImage": "ads/korhoj-norge-back-2026-07-20.jpg",
+      "link": "https://korhoj.se/event/norge-20-26-juli/",
+      "links": [
+        {
+          "label": "korhoj.se",
+          "url": "https://korhoj.se/event/norge-20-26-juli/"
+        },
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1103332975303724"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lidköping",
+          "type": "map"
+        }
+      ],
+      "region": "Norge",
+      "source": "facebook.com",
+      "descriptionFull": "KÖR HOJ arrangerar en 7-dagarstur till Norge, ca 220 mil. Max 8 deltagare.\n\nAvfärd 20 juli, transportsträcka till Horten och vidare in i Norge. Boende i stugor/hus.\n\nIngår: turledare & sweeper, boende 6 nätter, en grillkväll inkl mat, t-shirt, enklare mekanisk support, äventyrscoach.\n\nIngår ej: bensin, fika/mat längs rutten, personliga utgifter, färja och vägtullar.\n\nPris: 7 475 kr.\nAnmälan: korhoj.se/event/norge-20-26-juli/"
+    },
+    {
       "id": "doa-tisdagslunch-2026-07-21",
       "name": "DOA - Tisdagslunch",
       "date": "2026-07-21",
@@ -20622,6 +20682,36 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "korhoj-lokken-danmark-2026-08-28",
+      "name": "Kör Hoj Lökken, Danmark",
+      "date": "2026-08-28",
+      "dateEnd": "2026-08-30",
+      "location": "Lökkens sandstrand, Danmark",
+      "type": "Körning",
+      "organizer": "Kör Hoj",
+      "description": "3 dagar på Lökkens sandstrand i Jylland. Ferry Göteborg–Fredrikshamn. Boende i stort hus med bubbelpool. Max 8 platser. Pris: 4 495 kr.",
+      "backImage": "ads/korhoj-lokken-back-2026-08-28.jpg",
+      "link": "https://korhoj.se/event/lokken-danmark-28-30-augusti-2026/",
+      "links": [
+        {
+          "label": "korhoj.se",
+          "url": "https://korhoj.se/event/lokken-danmark-28-30-augusti-2026/"
+        },
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/879160711832859"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=L%C3%B6kken+Danmark",
+          "type": "map"
+        }
+      ],
+      "region": "Danmark",
+      "source": "facebook.com",
+      "descriptionFull": "KÖR HOJ med oss på Lökkens sandstrand i Jylland, Danmark!\n\nFärja: Göteborg 15:30 → Fredrikshamn 18:45 (retur: Fredrikshamn 13:50 → Göteborg 17:20).\n\nBoende: 2 nätter i stort hus med bubbelpool och litet zoo.\n\nIngår: färja Göteborg–Fredrikshamn t/r, boende 2 nätter, turledare & sweeper, sjukvårdsutbildad personal, enklare mekanisk support, äventyrscoach.\n\nMax 8 platser. Sista anmälan: 1 augusti.\nPris: 4 495 kr.\nAnmälan: korhoj.se/event/lokken-danmark-28-30-augusti-2026/"
     },
     {
       "id": "oro-traffen-i-dk-2026",
