@@ -6007,6 +6007,30 @@ const EVENTS_DATA = {
                               "backImage": "ads/poker-run-kak-back-2026-05-02.jpg"
                     },
                     {
+                              "id": "condios-fire-up-2026",
+                              "name": "Fire Up",
+                              "date": "2026-05-02",
+                              "dateEnd": "2026-05-02",
+                              "location": "Kärda, Värnamo",
+                              "type": "Körning",
+                              "organizer": "Con Dios MC",
+                              "description": "Säsongsöppning med Con Dios MC! En gemensam MC-tur för att starta körsäsongen. Alla är välkomna oavsett klubb eller märke.",
+                              "descriptionFull": "Fire Up arrangeras av Con Dios MC.\n\nSäsongsöppning med gemensam MC-tur i Småland. Samling i Kärda utanför Värnamo.\n\nAlla är välkomna oavsett om du är med i en klubb eller kör på egen hand. Con Dios MC är en klubb för bikers med kristen grundsyn, men alla som gillar att köra är välkomna att hänga med.\n\nKolla Con Dios hemsida eller Facebook för aktuella tider och detaljer.",
+                              "links": [
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/condiosmc"
+                                        },
+                                        {
+                                                  "label": "condiosmc.com",
+                                                  "url": "https://www.condiosmc.com/kalender/"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/condiosmc",
+                              "region": "Kronoberg",
+                              "source": "condiosmc.com"
+                    },
+                    {
                               "id": "varmonstring-2026",
                               "name": "Vårmönstring",
                               "date": "2026-05-03",
@@ -7126,6 +7150,30 @@ const EVENTS_DATA = {
                               "region": "Västra Götaland",
                               "source": "facebook.com",
                               "backImage": "ads/poker-run-bollebygd-back-2026-05-09.jpg"
+                    },
+                    {
+                              "id": "condios-poker-run-2026",
+                              "name": "Poker Run Con Dios",
+                              "date": "2026-05-09",
+                              "dateEnd": "2026-05-09",
+                              "location": "Rydaholm, Värnamo",
+                              "type": "Körning",
+                              "organizer": "Con Dios MC",
+                              "description": "Poker Run med Con Dios MC. Kör mellan stationer och samla spelkort. Bästa pokerhanden vinner! Alla välkomna.",
+                              "descriptionFull": "Poker Run arrangeras av Con Dios MC.\n\nKlassisk Poker Run genom Småland. Kör mellan olika stationer och dra ett spelkort vid varje stopp. Den med bästa pokerhanden i mål vinner priser.\n\nAlla är välkomna oavsett klubbtillhörighet. Kolla Con Dios hemsida eller Facebook för startplats, tider och startavgift.",
+                              "links": [
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/condiosmc"
+                                        },
+                                        {
+                                                  "label": "condiosmc.com",
+                                                  "url": "https://www.condiosmc.com/kalender/"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/condiosmc",
+                              "region": "Kronoberg",
+                              "source": "condiosmc.com"
                     },
                     {
                               "id": "doa-emilsturen-2026-05-10",
@@ -13289,6 +13337,30 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
+                              "id": "condios-djurspatraffen-2026",
+                              "name": "Djurspaträffen",
+                              "date": "2026-06-17",
+                              "dateEnd": "2026-06-17",
+                              "location": "Kronoberg",
+                              "type": "Träff",
+                              "organizer": "Con Dios MC",
+                              "description": "Träff med kristna bikers. Gemenskap, mat och MC-prat i avslappnad miljö. Alla välkomna!",
+                              "descriptionFull": "Djurspaträffen arrangeras av Con Dios MC.\n\nEn sommarträff för bikers i Kronoberg. Gemenskap, mat och MC-prat.\n\nAlla är välkomna oavsett klubb eller märke. Kolla Con Dios hemsida eller Facebook för plats och tider.",
+                              "links": [
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/condiosmc"
+                                        },
+                                        {
+                                                  "label": "condiosmc.com",
+                                                  "url": "https://www.condiosmc.com/kalender/"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/condiosmc",
+                              "region": "Kronoberg",
+                              "source": "condiosmc.com"
+                    },
+                    {
                               "id": "doa-dagstur-ekero-2026-06-18",
                               "name": "DOA - Dagstur Ekerö",
                               "date": "2026-06-18",
@@ -17599,6 +17671,34 @@ const EVENTS_DATA = {
                               ]
                     },
                     {
+                              "id": "emc-rally-finland-2026",
+                              "name": "EMC Rally Finland",
+                              "date": "2026-08-06",
+                              "dateEnd": "2026-08-09",
+                              "location": "Finland",
+                              "type": "Träff",
+                              "organizer": "European Motorcyclists for Christ",
+                              "description": "Europeiskt MC-rally för kristna bikers i Finland. EMC samlar bikers från hela Europa till gemenskap, körning och gudstjänst.",
+                              "descriptionFull": "EMC Rally 2026 hålls i Finland.\n\nEMC (European Motorcyclists for Christ) samlar kristna bikers från hela Europa till ett årligt rally som arrangeras i olika länder. 2026 är det Finlands tur.\n\nRallyt pågår 6-9 augusti och innehåller gemensamma MC-turer, gudstjänster, musik och gemenskap.\n\nMer info på emcrally.com och Con Dios MC:s hemsida.",
+                              "links": [
+                                        {
+                                                  "label": "emcrally.com",
+                                                  "url": "http://www.emcrally.com/"
+                                        },
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/condiosmc"
+                                        },
+                                        {
+                                                  "label": "condiosmc.com",
+                                                  "url": "https://www.condiosmc.com/kalender/"
+                                        }
+                              ],
+                              "link": "http://www.emcrally.com/",
+                              "region": "Finland",
+                              "source": "condiosmc.com"
+                    },
+                    {
                               "id": "british-motor-meet-hjo-2026",
                               "name": "British Motor Meet Hjo",
                               "date": "2026-08-07",
@@ -21208,14 +21308,15 @@ const EVENTS_DATA = {
                     },
                     {
                               "id": "con-dios-mc-20-årsjubileum-2026",
-                              "name": "Con Dios MC 20-årsjubileum",
+                              "name": "Con Dios MC 20-årsjubileum & Autumn Run",
                               "date": "2026-09-12",
                               "dateEnd": "2026-09-12",
-                              "location": "Meddelas senare",
+                              "location": "Årpavagen, Rydaholm",
                               "type": "Träff",
                               "organizer": "Con Dios MC",
-                              "description": "Con Dios MC firar 20 ar! Boka 12 september redan nu. Mer information kommer nar det narmar sig. Alla valkomna!",
-                              "descriptionFull": "Con Dios MC firar sitt 20-årsjubileum den 12 september 2026.\n\nBoka datumet redan nu! Mer information om plats och program fylls på när det närmar sig.\n\nCon Dios MC är en klubb för bikers med en kristen grundsyn. Alla som vill är välkomna att hänga med.\n\nMer info: condiosmc.com",
+                              "description": "Con Dios MC firar 20 år! Boka 12 september redan nu. Mer information kommer när det närmar sig. Alla välkomna!",
+                              "descriptionFull": "Con Dios MC firar sitt 20-årsjubileum den 12 september 2026.\n\nBoka datumet redan nu! Mer information om plats och program fylls på när det närmar sig.\n\nCon Dios MC är en klubb för bikers med en kristen grundsyn. Alla som vill är välkomna att hänga med.\n\nAutumn Run ingår i firandet.\n\nMer info: condiosmc.com",
+                              "frontImage": "ads/condiosmc-20ar-front-2026-09-12.jpg",
                               "backImage": "ads/condiosmc-20ar-back-2026-09-12.jpg",
                               "links": [
                                         {
@@ -21229,7 +21330,7 @@ const EVENTS_DATA = {
                               ],
                               "link": "http://www.condiosmc.com",
                               "region": "Kronoberg",
-                              "source": "FB"
+                              "source": "facebook.com"
                     },
                     {
                               "id": "doa-kvallskörning-nacka-2026-09-14",
