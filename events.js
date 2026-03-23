@@ -2343,7 +2343,8 @@ const EVENTS_DATA = {
         {
           "label": "bmwklubben.se",
           "url": "https://www.bmwklubben.se/aktiviteter/d10-hojslappet-2026/"
-        },
+          "backImage": "ads/default-back.jpg"
+    },
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=R40%2C+Dalsj%C3%B6fors+Pendelparkering%2C+Bor%C3%A5s",
@@ -3094,7 +3095,8 @@ const EVENTS_DATA = {
         {
           "label": "hdcs.se",
           "url": "https://hdcs.se/evenemang/hakan-w-pask-rundan/"
-        },
+          "backImage": "ads/default-back.jpg"
+    },
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Staffanstorp",
@@ -3119,7 +3121,8 @@ const EVENTS_DATA = {
         {
           "label": "bmwklubben.se",
           "url": "https://www.bmwklubben.se/aktiviteter/annandagsturen/"
-        },
+          "backImage": "ads/default-back.jpg"
+    },
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%A5land",
@@ -4284,7 +4287,8 @@ const EVENTS_DATA = {
         {
           "label": "bmwklubben.se",
           "url": "https://www.bmwklubben.se/aktiviteter/d10-tur-till-ostersjon/"
-        },
+          "backImage": "ads/default-back.jpg"
+    },
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Lilla+Kongah%C3%A4llav%C3%A4gen%2C+Kung%C3%A4lv",
@@ -5136,7 +5140,8 @@ const EVENTS_DATA = {
         {
           "label": "hdcs.se",
           "url": "https://hdcs.se/evenemang/tranrikerundan/"
-        },
+          "backImage": "ads/default-back.jpg"
+    },
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%A5land",
