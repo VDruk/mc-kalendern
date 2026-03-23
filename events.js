@@ -17821,6 +17821,36 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "fly-n-ride-ljungbyhed-2026",
+                              "name": "Fly 'N Ride 2026",
+                              "date": "2026-08-08",
+                              "dateEnd": "2026-08-08",
+                              "location": "Ljungbyhed Park, Thulinvägen 7, Ljungbyhed",
+                              "type": "Show",
+                              "organizer": "Fly 'N Ride",
+                              "description": "Flyg- och motorshow på gamla F5! JAS 39 Gripen, SK40, flyguppvisningar, motorcyklar, bilar, utställningar, mat och musik. Från kl 10:00.",
+                              "descriptionFull": "Fly 'N Ride 2026 på Ljungbyheds flygplats (gamla F5).\n\nÅrets höjdpunkt för flyg- och motorentusiaster! Missa inte chansen att se flygvapnets stolthet JAS 39 Gripen och deras nyaste tillskott SK40. Uppvisningar med andra flygplan och grupper av flygplan.\n\nFlygshow, bilar, motorcyklar, utställningar, mat och musik.\n\nLördag 8 augusti, från kl 10:00.\n\nMer info: www.flynride.se",
+                              "backImage": "ads/fly-n-ride-back-2026-08-08.jpg",
+                              "links": [
+                                        {
+                                                  "label": "FB Event",
+                                                  "url": "https://www.facebook.com/events/980539651383622"
+                                        },
+                                        {
+                                                  "label": "flynride.se",
+                                                  "url": "https://www.flynride.se"
+                                        },
+                                        {
+                                                  "label": "Karta",
+                                                  "url": "https://www.google.com/maps/search/?api=1&query=Ljungbyhed+Park+Thulinvägen+7",
+                                                  "type": "map"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/events/980539651383622",
+                              "region": "Skåne",
+                              "source": "facebook.com"
+                    },
+                    {
                               "id": "viking-tour-2026",
                               "name": "Viking Tour 2026",
                               "date": "2026-08-09",
