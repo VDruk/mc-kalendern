@@ -798,8 +798,17 @@
   .drawer-item-date { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
   .drawer-item-remove {
     background: none; border: none; color: var(--text-muted);
-    font-size: 18px; cursor: pointer; margin-left: auto; flex-shrink: 0;
+    font-size: 18px; cursor: pointer; flex-shrink: 0;
   }
+  .drawer-item-gcal {
+    display: flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px; border-radius: 50%;
+    background: none; border: 1px solid var(--border);
+    color: var(--text-muted); cursor: pointer; flex-shrink: 0;
+    text-decoration: none; transition: border-color var(--transition), color var(--transition);
+  }
+  .drawer-item-gcal:hover { border-color: #4285F4; color: #4285F4; }
+  .drawer-item-actions { display: flex; align-items: center; gap: 6px; margin-left: auto; }
   .drawer-footer {
     padding: 16px 20px; border-top: 1px solid var(--border);
   }
@@ -1127,7 +1136,7 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
       Ladda ner kalender (.ics)
     </button>
-    <p class="drawer-ics-hint">Öppna filen för att lägga till alla sparade evenemang i din kalender (Apple, Google, Outlook).</p>
+    <p class="drawer-ics-hint">För iPhone och dator: ladda ner och öppna filen. För Android: använd kalenderknappen bredvid varje evenemang.</p>
   </div>
 </div>
 
@@ -2452,10 +2461,27 @@ function updateDrawer() {
     .sort((a, b) => new Date(a.date) - new Date(b.date));
   body.innerHTML = favEvents.map(e => {
     const d = new Date(e.date + 'T00:00:00');
+    // Build Google Calendar link
+    const gcalStart = e.date.replace(/-/g, '');
+    const gcalEndDate = new Date(e.dateEnd || e.date);
+    gcalEndDate.setDate(gcalEndDate.getDate() + 1);
+    const gcalEnd = gcalEndDate.toISOString().slice(0, 10).replace(/-/g, '');
+    const gcalUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+      + '&text=' + encodeURIComponent(e.name)
+      + '&dates=' + gcalStart + '/' + gcalEnd
+      + '&location=' + encodeURIComponent(e.location || '')
+      + '&details=' + encodeURIComponent((e.description || '') + (e.link ? '\n\n' + e.link : ''));
     return `<div class="drawer-item">
-      <div><div class="drawer-item-name">${e.name}</div>
-      <div class="drawer-item-date">${d.getDate()} ${MONTHS_SV[d.getMonth()]} - ${e.location}</div></div>
-      <button class="drawer-item-remove" onclick="toggleFavorite('${e.id}')">&times;</button>
+      <div style="flex:1;min-width:0">
+        <div class="drawer-item-name">${e.name}</div>
+        <div class="drawer-item-date">${d.getDate()} ${MONTHS_SV[d.getMonth()]} &middot; ${e.location}</div>
+      </div>
+      <div class="drawer-item-actions">
+        <a href="${gcalUrl}" target="_blank" rel="noopener" class="drawer-item-gcal" title="Lägg till i Google Kalender">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </a>
+        <button class="drawer-item-remove" onclick="toggleFavorite('${e.id}')" title="Ta bort">&times;</button>
+      </div>
     </div>`;
   }).join('');
 }
