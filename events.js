@@ -142,11 +142,15 @@ const EVENTS_DATA = {
                               "backImage": "ads/dwr-uppsala-2026.jpg",
                               "links": [
                                         {
+                                                  "label": "dwr.se",
+                                                  "url": "https://www.dwr.se/"
+                                        },
+                                        {
                                                   "label": "Facebook",
                                                   "url": "https://www.facebook.com/dwruppsala"
                                         }
                               ],
-                              "link": "https://www.facebook.com/dwruppsala",
+                              "link": "https://www.dwr.se/",
                               "region": "Sverige",
                               "source": "AD",
                               "_ad": true
