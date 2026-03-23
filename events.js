@@ -22169,6 +22169,32 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motorcykler-mod-sclerose-2026-09-12",
+      "name": "Motorcykler mod Sclerose",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-12",
+      "location": "Mosede Fort, Greve, Danmark",
+      "type": "Körning",
+      "organizer": "Tobias Pedersen",
+      "description": "Välgörenhetstur för MS-forskning från Mosede Fort i Greve. Direktören för Scleroseforeningen deltar. Start kl 09:00, avslutning med kaka i Tune.",
+      "backImage": "ads/motorcykler-mod-sclerose-back-2026-09-12.jpg",
+      "link": "https://www.facebook.com/events/809176938316999",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/809176938316999"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mosede+Strandvej+87a+Greve+Danmark",
+          "type": "map"
+        }
+      ],
+      "region": "Danmark",
+      "source": "facebook.com",
+      "descriptionFull": "Motorcykler mod Sclerose 2026 – välgörenhetstur för MS-forskning.\n\nDirectören för Scleroseforeningen deltar hela dagen. Start kl 09:00 vid Mosede Fort i Greve Strand (30 min söder om Malmö via Øresundsbron).\n\nEfter turen: kaka på privat adress i Tune.\n\nMosede Fort ligger vid kusten i Greve, Danmark – enkelt att nå från Sverige."
+    },
+    {
       "id": "nykoping-hosttraffen-2026",
       "name": "Hosttraffen Nykoping",
       "date": "2026-09-13",
