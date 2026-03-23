@@ -4533,6 +4533,32 @@ const EVENTS_DATA = {
                               "source": "facebook.com"
                     },
                     {
+                              "id": "tillsammans-kristna-bikers-varnamo-2026",
+                              "name": "Tillsammans - med kristna bikers",
+                              "date": "2026-04-24",
+                              "dateEnd": "2026-04-26",
+                              "location": "Arken, Värnamo",
+                              "type": "Träff",
+                              "organizer": "Con Dios MC",
+                              "description": "Tre dagars träff för kristna bikers och alla MC-intresserade i Värnamo. Gemenskap, gudstjänst, gemensamma måltider och en fin MC-runda. Övernattning i Arken eller hotell.",
+                              "descriptionFull": "24-26 april är det dags igen för träffen Tillsammans med kristna bikers.\n\nVi hoppas att just DU kommer till Värnamo. Det spelar ingen roll om du är med i en klubb eller är friåkare, grussprättare eller asfaltsåkare, nyfiken på vem Jesus är eller kan Bibeln utantill.\n\nVi träffas och umgås, firar gudstjänst, äter tillsammans och förhoppningsvis åker en fin runda.\n\nSöker du nya vänner så är chansen stor att du lyckas.\n\nDet finns möjlighet att övernatta i Arken eller på hotell i närheten.\n\nAnmäl dig via länken!",
+                              "frontImage": "ads/tillsammans-varnamo-front-2026-04-24.jpg",
+                              "backImage": "ads/tillsammans-varnamo-back-2026-04-24.jpg",
+                              "links": [
+                                        {
+                                                  "label": "Facebook",
+                                                  "url": "https://www.facebook.com/condiosmc/"
+                                        },
+                                        {
+                                                  "label": "condiosmc.com",
+                                                  "url": "http://www.condiosmc.com"
+                                        }
+                              ],
+                              "link": "https://www.facebook.com/condiosmc/",
+                              "region": "Jönköping",
+                              "source": "facebook.com"
+                    },
+                    {
                               "id": "mc-collection-sasongsoppning-2026",
                               "name": "MC Collection Säsongsöppning",
                               "date": "2026-04-25",
