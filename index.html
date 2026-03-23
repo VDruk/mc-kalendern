@@ -44,23 +44,18 @@
     --bg-secondary: #ffffff;
     --bg-card: #ffffff;
     --bg-card-hover: #f9fafb;
-    --bg-filter: #ffffff;
     --text-primary: #1a1d23;
     --text-secondary: #4b5563;
     --text-muted: #7c8390;
     --accent: #d97706;
     --accent-hover: #b45309;
-    --accent-glow: rgba(217, 119, 6, 0.12);
     --border: #e2e5ea;
     --border-light: #d1d5db;
     --type-traff: #16a34a;
-    --type-massa: #2563eb;
     --type-racing: #dc2626;
     --type-korning: #ea580c;
-    --type-tur: #7c3aed;
     --type-show: #db2777;
     --type-fest: #e11d48;
-    --type-trackday: #0891b2;
     --radius: 12px;
     --radius-sm: 8px;
     --shadow: 0 2px 12px rgba(0,0,0,0.06);
@@ -207,16 +202,6 @@
     display: flex; gap: 8px; flex-wrap: wrap;
     align-items: center; width: 100%;
   }
-  .filter-group {
-    display: flex; gap: 4px; flex-wrap: wrap;
-    align-items: center;
-  }
-  .filter-label {
-    font-size: 11px; text-transform: uppercase;
-    letter-spacing: 1px; color: var(--text-muted);
-    margin-right: 4px; font-weight: 600;
-  }
-
   /* Type filter pills */
   .type-btn {
     border: 1px solid var(--border); background: transparent;
@@ -232,10 +217,8 @@
     border-color: var(--accent); font-weight: 600;
   }
 
-  /* Club filter buttons */
   /* Desktop/mobile filter row visibility */
   .filter-row-mobile { display: none; }
-  .filter-row-desktop { display: flex; }
   .filter-row-bottom { display: flex; }
 
   /* Region & time selects */
@@ -487,13 +470,10 @@
     white-space: nowrap;
   }
   .type-traff { background: rgba(22,163,74,0.1); color: var(--type-traff); }
-  .type-massa { background: rgba(37,99,235,0.1); color: var(--type-massa); }
   .type-racing { background: rgba(220,38,38,0.1); color: var(--type-racing); }
   .type-korning { background: rgba(234,88,12,0.1); color: var(--type-korning); }
-  .type-tur { background: rgba(124,58,237,0.1); color: var(--type-tur); }
   .type-show { background: rgba(219,39,119,0.1); color: var(--type-show); }
   .type-fest { background: rgba(225,29,72,0.1); color: var(--type-fest); }
-  .type-trackday { background: rgba(8,145,178,0.1); color: var(--type-trackday); }
 
   /* Favorite star */
   .fav-btn {
@@ -956,9 +936,7 @@
     .filter-right-col .share-btns { gap: 4px; }
     .filter-row-mobile { order: 1; }
     .filter-row { gap: 6px; flex-wrap: wrap; }
-    .filter-label { display: none; }
     .filter-spacer { display: none; }
-    .filter-row .filter-group { flex-shrink: 0; }
     .filter-select { flex-shrink: 0; font-size: 12px; padding: 5px 24px 5px 10px; }
     .toggle-wrap { display: none; }
     .type-btn { padding: 5px 10px; font-size: 12px; }
@@ -1218,9 +1196,9 @@ const CLUB_MATCHERS = {
 };
 
 const TYPE_CLASSES = {
-  'Träff': 'type-traff', 'Mässa': 'type-massa', 'Racing': 'type-racing',
-  'Tur': 'type-tur', 'Show': 'type-show', 'Körning': 'type-korning',
-  'Fest': 'type-fest', 'Trackday': 'type-trackday'
+  'Träff': 'type-traff', 'Racing': 'type-racing',
+  'Show': 'type-show', 'Körning': 'type-korning',
+  'Fest': 'type-fest'
 };
 
 // ========== STATE ==========
@@ -1232,9 +1210,6 @@ let currentMonth = 'all';
 let showPast = false;
 let searchQuery = '';
 let favorites = JSON.parse(localStorage.getItem('mcFavorites') || '[]');
-
-// ========== AD PLACEMENTS (legacy - all converted to Type 2/3 cards in events.js) ==========
-const AD_PLACEMENTS = [];
 
 // ========== HELPERS ==========
 function cardExpand(id) {
@@ -1429,17 +1404,6 @@ function countOrganizers(events) {
     e.organizer.split(' / ').forEach(p => orgs.add(p.trim().toLowerCase()));
   });
   return orgs.size;
-}
-function countEventDays(events) {
-  const days = new Set();
-  events.forEach(e => {
-    const start = new Date(e.date + 'T00:00:00');
-    const end = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : start;
-    for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-      days.add(d.toISOString().split('T')[0]);
-    }
-  });
-  return days.size;
 }
 function updateStats() {
   const today = new Date().toISOString().split('T')[0];
@@ -1867,30 +1831,12 @@ function render() {
   const realCount = events.filter(e => !e._ad).length;
   document.getElementById('searchCount').textContent = realCount + ' evenemang';
 
-  // Build ad maps
-  const adsByDate = {};
-  const adsByEvent = {};
-  AD_PLACEMENTS.forEach(ad => {
-    const matchesType = currentFilter === 'all' || (ad.types && ad.types.includes(currentFilter));
-    const matchesClub = currentClub === 'all' || !ad.clubs || ad.clubs.length === 0 || ad.clubs.includes(currentClub);
-    if (matchesType && matchesClub) {
-      if (ad.beforeEvent) {
-        if (!adsByEvent[ad.beforeEvent]) adsByEvent[ad.beforeEvent] = [];
-        adsByEvent[ad.beforeEvent].push(ad);
-      } else if (ad.afterDate) {
-        if (!adsByDate[ad.afterDate]) adsByDate[ad.afterDate] = [];
-        adsByDate[ad.afterDate].push(ad);
-      }
-    }
-  });
-
   if (events.length === 0) {
     grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x1F3CD;</div><div class="no-results-text">Inga evenemang hittades. Prova andra filter eller sok igen.</div></div>';
     return;
   }
 
   let renderMonth = '';
-  let lastEventDate = '';
   let lastCardType = ''; // 'poster' (Type 2 with frontImage, no _ad), 'ad' (_ad with frontImage), 'text', 'banner'
   let supportInserted = false;
 
@@ -1934,39 +1880,6 @@ function render() {
       divider.textContent = MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
       grid.appendChild(divider);
       lastCardType = ''; // full-width divider resets row
-    }
-
-    // Date gap ads (skip for injected Type 3 _ad cards - their fake date would re-trigger banners)
-    if (!event._ad && event.date !== lastEventDate && lastEventDate) {
-      Object.keys(adsByDate).forEach(adDate => {
-        if (adDate >= lastEventDate && adDate < event.date) {
-          adsByDate[adDate].forEach(ad => {
-            const adCard = document.createElement('div');
-            adCard.className = 'card ad-card';
-            adCard.style.backgroundColor = ad.bgColor;
-            adCard.style.cursor = 'pointer';
-            adCard.onclick = () => window.open(ad.link, '_blank');
-            adCard.innerHTML = `<img src="${ad.image}" alt="${ad.alt}" loading="lazy">`;
-            grid.appendChild(adCard);
-            lastCardType = 'banner'; // full-width banner resets row
-          });
-        }
-      });
-    }
-    if (!event._ad) lastEventDate = event.date;
-
-    // Before-event ads
-    if (adsByEvent[event.id]) {
-      adsByEvent[event.id].forEach(ad => {
-        const adCard = document.createElement('div');
-        adCard.className = 'card ad-card';
-        adCard.style.backgroundColor = ad.bgColor;
-        adCard.style.cursor = 'pointer';
-        adCard.onclick = () => window.open(ad.link, '_blank');
-        adCard.innerHTML = `<img src="${ad.image}" alt="${ad.alt}" loading="lazy">`;
-        grid.appendChild(adCard);
-        lastCardType = 'banner'; // full-width banner resets row
-      });
     }
 
     // Date HTML
