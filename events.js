@@ -1928,19 +1928,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-03-24",
-      "dateEnd": "2026-03-24",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-03-24/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "bmw-uppdatering-for-turledare-i-d11-2026",
       "name": "Uppdatering för turledare i D11",
       "date": "2026-03-24",
@@ -2385,19 +2372,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-lordagsfika-pa-biltema-2026",
-      "name": "DOA – Lördagsfika på Biltema",
-      "date": "2026-03-28",
-      "dateEnd": "2026-03-28",
-      "location": "Biltema",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Varje lördag med H-DCS. Kl.10:30 Fika – Biltema Biltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet. Senast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂 Eller kaffe och 3 kokta korvar 20 k",
-      "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-03-28/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doh-mat-och-bowling-2026",
       "name": "DOH-Mat och Bowling",
       "date": "2026-03-28",
@@ -2705,19 +2679,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-03-31",
-      "dateEnd": "2026-03-31",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-03-31/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "closed-room-tour-f450gs-sundsvall-2026-04-01",
@@ -3061,19 +3022,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-lordagsfika-pa-biltema-2026",
-      "name": "DOA – Lördagsfika på Biltema",
-      "date": "2026-04-04",
-      "dateEnd": "2026-04-04",
-      "location": "Biltema",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Varje lördag med H-DCS. Kl.10:30 Fika – Biltema Biltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet. Senast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂 Eller kaffe och 3 kokta korvar 20 k",
-      "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-04/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "dog-fikatraff-pa-radis-2026-04-04",
       "name": "DOG  FIKATRÄFF på Rådis",
       "date": "2026-04-04",
@@ -3097,19 +3045,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-04-04",
-      "dateEnd": "2026-04-04",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-04-04/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
     },
     {
       "id": "kastberga-paskarallyt-2026",
@@ -3211,19 +3146,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-04-07",
-      "dateEnd": "2026-04-07",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-04-07/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-04-07",
@@ -3513,19 +3435,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-lordagsfika-pa-biltema-2026",
-      "name": "DOA – Lördagsfika på Biltema",
-      "date": "2026-04-11",
-      "dateEnd": "2026-04-11",
-      "location": "Biltema",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Varje lördag med H-DCS. Kl.10:30 Fika – Biltema Biltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet. Senast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂 Eller kaffe och 3 kokta korvar 20 k",
-      "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-11/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "dob-var-kickoff-caps-roskilde-2026",
@@ -3911,19 +3820,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-04-14",
-      "dateEnd": "2026-04-14",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-04-14/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "lo-c-boras-tisdags-körningar-2026-04-14",
       "name": "LO-C Borås tisdags körningar.",
       "date": "2026-04-14",
@@ -4174,19 +4070,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-lordagsfika-pa-biltema-2026",
-      "name": "DOA – Lördagsfika på Biltema",
-      "date": "2026-04-18",
-      "dateEnd": "2026-04-18",
-      "location": "Biltema",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Varje lördag med H-DCS. Kl.10:30 Fika – Biltema Biltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet. Senast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂 Eller kaffe och 3 kokta korvar 20 k",
-      "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-18/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "dog-fikatraff-pa-radis-2026-04-18",
       "name": "DOG  FIKATRÄFF på Rådis",
       "date": "2026-04-18",
@@ -4212,19 +4095,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-04-18",
-      "dateEnd": "2026-04-18",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-04-18/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "probike-harley-day-provkorning-2026",
       "name": "Harley Day / Provkörningsevent",
       "date": "2026-04-18",
@@ -4244,19 +4114,6 @@ const EVENTS_DATA = {
           "url": "https://www.probikebutiken.se/butiker/"
         }
       ],
-      "link": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/",
-      "region": "Sverige",
-      "source": "probikebutiken.se"
-    },
-    {
-      "id": "probike-harley-day-provkorningsevent-2026",
-      "name": "Harley day/provkörningsevent",
-      "date": "2026-04-18",
-      "dateEnd": "2026-04-18",
-      "location": "Probike butiker",
-      "type": "Körning",
-      "organizer": "Probike",
-      "description": "Kom in och provkör mängder av hojar. Eventet gäller alla tre Probikebutikerna",
       "link": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/",
       "region": "Sverige",
       "source": "probikebutiken.se"
@@ -4486,19 +4343,6 @@ const EVENTS_DATA = {
       "source": "probikebutiken.se"
     },
     {
-      "id": "probike-probike-malmo-at-erikssons-trafikskolas-avrostning-2026",
-      "name": "Probike Malmö at Erikssons Trafikskolas Avrostning",
-      "date": "2026-04-19",
-      "dateEnd": "2026-04-19",
-      "location": "Rimfrostgatan 5, SE-212 23 Malmö, Sverige",
-      "type": "Träff",
-      "organizer": "Probike Malmö",
-      "description": "Kom och avrosta din mc-körning på manöverbanan, med din egen hoj eller prova en annan hoj.Träffa återförsäljare.Mingla med nya och erfarna mc-förare.",
-      "link": "https://www.probikebutiken.se/event/probike-malmo-at-erikssons-trafikskolas-avrostning/",
-      "region": "Skåne",
-      "source": "probikebutiken.se"
-    },
-    {
       "id": "doa-kvallskörning-nacka-2026-04-20",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-04-20",
@@ -4522,19 +4366,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-04-20",
-      "dateEnd": "2026-04-20",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-04-20/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doa-kvallskörning-ekero-udda-veckor-2026-04-21",
@@ -4585,32 +4416,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-04-21",
-      "dateEnd": "2026-04-21",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-04-21/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-04-21",
-      "dateEnd": "2026-04-21",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-04-21/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-04-21",
@@ -4711,45 +4516,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-04-22",
-      "dateEnd": "2026-04-22",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-04-22/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-04-22",
-      "dateEnd": "2026-04-22",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-04-22/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-osmo-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ösmo, udda veckor",
-      "date": "2026-04-22",
-      "dateEnd": "2026-04-22",
-      "location": "Ösmo Plantshop, Växtstigen 1, 148 31 Ösmo",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Petra Tunmar 0733-748100",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-04-22/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-22",
@@ -4863,45 +4629,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-04-23",
-      "dateEnd": "2026-04-23",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-04-23/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-04-23",
-      "dateEnd": "2026-04-23",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-04-23/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-04-23",
-      "dateEnd": "2026-04-23",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-04-23/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "mchk-mchk-gotland-filmkvall-2026",
@@ -5204,32 +4931,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-lordagsfika-pa-biltema-2026",
-      "name": "DOA – Lördagsfika på Biltema",
-      "date": "2026-04-25",
-      "dateEnd": "2026-04-25",
-      "location": "Biltema",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Varje lördag med H-DCS. Kl.10:30 Fika – Biltema Biltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet. Senast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂 Eller kaffe och 3 kokta korvar 20 k",
-      "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-25/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-pubkvall-stockholm-2026",
-      "name": "DOA – Pubkväll Stockholm",
-      "date": "2026-04-25",
-      "dateEnd": "2026-04-25",
-      "location": "Pub Anchor, Stockholm",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Pubkväll på Pub Anchor, Sveavägen 90 Välkommen Lennart på 0722-126320",
-      "link": "https://hdcs.se/evenemang/doa-pubkvall-stockholm/2026-04-25/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doe-medlemsmote-25-26-april-2026",
@@ -5648,19 +5349,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-04-27",
-      "dateEnd": "2026-04-27",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-04-27/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-04-28",
       "name": "DOA - Kvällskörning Nockeby, jämna veckor",
       "date": "2026-04-28",
@@ -5709,32 +5397,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, jämna veckor",
-      "date": "2026-04-28",
-      "dateEnd": "2026-04-28",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-04-28/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-04-28",
-      "dateEnd": "2026-04-28",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-04-28/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-04-28",
@@ -5810,32 +5472,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-04-29",
-      "dateEnd": "2026-04-29",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-04-29/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-04-29",
-      "dateEnd": "2026-04-29",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-04-29/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-29",
@@ -5998,45 +5634,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-04-30",
-      "dateEnd": "2026-04-30",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-04-30/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-04-30",
-      "dateEnd": "2026-04-30",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-04-30/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-04-30",
-      "dateEnd": "2026-04-30",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-04-30/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-04-30",
@@ -6573,19 +6170,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-05-02",
-      "dateEnd": "2026-05-02",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-05-02/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "condios-fire-up-2026",
       "name": "Fire Up",
       "date": "2026-05-02",
@@ -6926,19 +6510,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-05-04",
-      "dateEnd": "2026-05-04",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-04/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "oamck-knixpremiar-2026",
       "name": "Knixpremiar",
       "date": "2026-05-04",
@@ -7044,32 +6615,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-05-05",
-      "dateEnd": "2026-05-05",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-05-05/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-05-05",
-      "dateEnd": "2026-05-05",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-05-05/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-05-05",
@@ -7195,45 +6740,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-05-06",
-      "dateEnd": "2026-05-06",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-06/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-05-06",
-      "dateEnd": "2026-05-06",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-06/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-osmo-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ösmo, udda veckor",
-      "date": "2026-05-06",
-      "dateEnd": "2026-05-06",
-      "location": "Ösmo Plantshop, Växtstigen 1, 148 31 Ösmo",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Petra Tunmar 0733-748100",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-05-06/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "jmc-onsdagsturen-2026-05-06",
@@ -7365,45 +6871,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-05-07",
-      "dateEnd": "2026-05-07",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-07/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-05-07",
-      "dateEnd": "2026-05-07",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-07/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-05-07",
-      "dateEnd": "2026-05-07",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-07/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "smc-kvallstraff-borlange-2026",
@@ -8151,19 +7618,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-emilsturen-2026",
-      "name": "DOA – Emilsturen",
-      "date": "2026-05-10",
-      "dateEnd": "2026-05-10",
-      "location": "Stockholm",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Mer information kommer",
-      "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-05-10/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "dob-fdo-s-runda-till-danmark-2026",
       "name": "DOB- FDO:s runda till Danmark",
       "date": "2026-05-10",
@@ -8313,19 +7767,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-05-11",
-      "dateEnd": "2026-05-11",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-11/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-05-12",
       "name": "DOA - Kvällskörning Nockeby, jämna veckor",
       "date": "2026-05-12",
@@ -8374,32 +7815,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, jämna veckor",
-      "date": "2026-05-12",
-      "dateEnd": "2026-05-12",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-05-12/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-05-12",
-      "dateEnd": "2026-05-12",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-05-12/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-05-12",
@@ -8500,32 +7915,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-05-13",
-      "dateEnd": "2026-05-13",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-13/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-05-13",
-      "dateEnd": "2026-05-13",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-13/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "smc-grillkvall-aboda-klint-2026",
@@ -8681,45 +8070,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-05-14",
-      "dateEnd": "2026-05-14",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-14/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-05-14",
-      "dateEnd": "2026-05-14",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-14/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-05-14",
-      "dateEnd": "2026-05-14",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-14/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doe-blommans-amp-lybergs-saloon-runda-i-eringsboda-2026",
       "name": "DOE Blommans & Lybergs Saloon Runda i Eringsboda 14 - 15 maj 2026",
       "date": "2026-05-14",
@@ -8743,19 +8093,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doe-blommans-lybergs-saloon-runda-i-eringsboda-14--2026",
-      "name": "DOE Blommans & Lybergs Saloon Runda i Eringsboda 14 – 15 maj 2026",
-      "date": "2026-05-14",
-      "dateEnd": "2026-05-15",
-      "location": "Eringsboda",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "DOE Blommans & Lybergs Saloon Runda i Eringsboda 14 – 15 maj 2026 Det här får du inte missa!! Vi samlas torsdag den 14 maj kl 11.00 på adress Stengärdesvägen 1 i Eringsboda som ligger mitt emot brandstationen i Eringsboda. Vi kommer starta turen kl 1",
-      "link": "https://hdcs.se/evenemang/doe-blomman-lybergs-runda-med-pub-grillkvall-i-eringsboda-14-15-maj/",
-      "region": "Östergötland",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-05-14",
@@ -9108,19 +8445,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-05-16",
-      "dateEnd": "2026-05-16",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-05-16/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
     },
     {
       "id": "dannike-motorstop-2026",
@@ -9780,19 +9104,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-05-18",
-      "dateEnd": "2026-05-18",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-18/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "kemora-ring-speedskills-2026",
       "name": "Kemora Ring med SpeedSkills",
       "date": "2026-05-18",
@@ -9866,32 +9177,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-05-19",
-      "dateEnd": "2026-05-19",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-05-19/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-05-19",
-      "dateEnd": "2026-05-19",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-05-19/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "bmw-fikatraff-pa-jagmastargarden-med-classic-ganget-2026",
@@ -10017,45 +9302,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-05-20",
-      "dateEnd": "2026-05-20",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-20/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-05-20",
-      "dateEnd": "2026-05-20",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-20/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-osmo-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ösmo, udda veckor",
-      "date": "2026-05-20",
-      "dateEnd": "2026-05-20",
-      "location": "Ösmo Plantshop, Växtstigen 1, 148 31 Ösmo",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Petra Tunmar 0733-748100",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-05-20/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "grillkvall-longsjon-ankarsrum-2026",
@@ -10246,45 +9492,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-05-21",
-      "dateEnd": "2026-05-21",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-21/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-05-21",
-      "dateEnd": "2026-05-21",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-21/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-05-21",
-      "dateEnd": "2026-05-21",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-21/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-i-torsdagskörningar-sundsvall-2026-05-21",
@@ -11136,19 +10343,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-05-25",
-      "dateEnd": "2026-05-25",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-05-25/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-05-26",
       "name": "DOA - Kvällskörning Nockeby, jämna veckor",
       "date": "2026-05-26",
@@ -11197,32 +10391,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, jämna veckor",
-      "date": "2026-05-26",
-      "dateEnd": "2026-05-26",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-05-26/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-05-26",
-      "dateEnd": "2026-05-26",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-05-26/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-05-26",
@@ -11323,32 +10491,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-05-27",
-      "dateEnd": "2026-05-27",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-05-27/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-05-27",
-      "dateEnd": "2026-05-27",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-05-27/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "furuboda-korning-2026",
@@ -11498,45 +10640,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-05-28",
-      "dateEnd": "2026-05-28",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-28/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-05-28",
-      "dateEnd": "2026-05-28",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-05-28/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-05-28",
-      "dateEnd": "2026-05-28",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-05-28/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-05-28",
@@ -11995,19 +11098,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-05-30",
-      "dateEnd": "2026-05-30",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-05-30/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "ds-i-orange-day-sundsvall-2026",
       "name": "DS-I Orange Day Sundsvall",
       "date": "2026-05-30",
@@ -12389,19 +11479,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-06-01",
-      "dateEnd": "2026-06-01",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-01/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "bmw-d11-dagsledigtur-med-rune-2026",
       "name": "D11 Dagsledigtur med Rune",
       "date": "2026-06-02",
@@ -12475,32 +11552,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-06-02",
-      "dateEnd": "2026-06-02",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-06-02/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-06-02",
-      "dateEnd": "2026-06-02",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-02/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-06-02",
@@ -12628,45 +11679,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-03/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-03/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-osmo-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ösmo, udda veckor",
-      "date": "2026-06-03",
-      "dateEnd": "2026-06-03",
-      "location": "Ösmo Plantshop, Växtstigen 1, 148 31 Ösmo",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Petra Tunmar 0733-748100",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-06-03/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "jmc-onsdagsturen-2026-06-03",
       "name": "Onsdagsturen",
       "date": "2026-06-03",
@@ -12744,19 +11756,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "american-days-oland-2026",
-      "name": "American Days Öland",
-      "date": "2026-06-04",
-      "dateEnd": "2026-06-07",
-      "location": "Öland",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "American Days Öland Ses vi där? Thomas DOB",
-      "link": "https://hdcs.se/evenemang/american-days-oland/",
-      "region": "Skåne",
-      "source": "hdcs.se"
     },
     {
       "id": "do-c-gemensam-körning-till-american-days-2026",
@@ -12857,45 +11856,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-06-04",
-      "dateEnd": "2026-06-04",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-04/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-06-04",
-      "dateEnd": "2026-06-04",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-04/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-06-04",
-      "dateEnd": "2026-06-04",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-04/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lort-grusbus-halsingland-2026",
@@ -13079,19 +12039,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "probike-custom-bike-show-norrtalje-2026-2026",
-      "name": "Custom Bike Show Norrtälje 2026",
-      "date": "2026-06-06",
-      "dateEnd": "2026-06-06",
-      "location": "Probike butiker",
-      "type": "Show",
-      "organizer": "Probike",
-      "description": "Årets stora Custom Bike show i Norrtälje 2026.Probike Gänget på plats med hojar och roliga prylar.",
-      "link": "https://www.probikebutiken.se/event/custom-bike-show-norrtalje-2026/",
-      "region": "Stockholm",
-      "source": "probikebutiken.se"
     },
     {
       "id": "bmw-d10-nationaldagsgruset-2026",
@@ -13746,19 +12693,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-06-08",
-      "dateEnd": "2026-06-08",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-08/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-06-09",
       "name": "DOA - Kvällskörning Nockeby, jämna veckor",
       "date": "2026-06-09",
@@ -13807,32 +12741,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, jämna veckor",
-      "date": "2026-06-09",
-      "dateEnd": "2026-06-09",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-06-09/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-06-09",
-      "dateEnd": "2026-06-09",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-09/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-06-09",
@@ -13908,32 +12816,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-06-10",
-      "dateEnd": "2026-06-10",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-10/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-06-10",
-      "dateEnd": "2026-06-10",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-10/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "htc-och-smc-kvallsstraff-nassjo-2026",
@@ -14086,45 +12968,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-06-11",
-      "dateEnd": "2026-06-11",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-11/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-06-11",
-      "dateEnd": "2026-06-11",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-11/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-06-11",
-      "dateEnd": "2026-06-11",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-11/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-06-11",
@@ -14563,19 +13406,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-06-13",
-      "dateEnd": "2026-06-13",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-06-13/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "kuggnas-sommartraff-2026",
       "name": "Kuggnäs Sommarträff 2026",
       "date": "2026-06-13",
@@ -14736,19 +13566,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-emilsturen-2026",
-      "name": "DOA – Emilsturen",
-      "date": "2026-06-14",
-      "dateEnd": "2026-06-14",
-      "location": "Stockholm",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Mer information kommer",
-      "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-06-14/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "hakan-p-slottsrundan-2026",
       "name": "Håkan P Slottsrundan",
       "date": "2026-06-14",
@@ -14851,19 +13668,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-06-15",
-      "dateEnd": "2026-06-15",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-15/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-16",
       "name": "DOA - Kvällskörning Ekerö, udda veckor",
       "date": "2026-06-16",
@@ -14912,32 +13716,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-06-16",
-      "dateEnd": "2026-06-16",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-06-16/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-06-16",
-      "dateEnd": "2026-06-16",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-16/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-06-16",
@@ -15070,45 +13848,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-06-17",
-      "dateEnd": "2026-06-17",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-17/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-06-17",
-      "dateEnd": "2026-06-17",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-17/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-osmo-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ösmo, udda veckor",
-      "date": "2026-06-17",
-      "dateEnd": "2026-06-17",
-      "location": "Ösmo Plantshop, Växtstigen 1, 148 31 Ösmo",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Petra Tunmar 0733-748100",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor/2026-06-17/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "condios-djurspatraffen-2026",
       "name": "Djurspaträffen",
       "date": "2026-06-17",
@@ -15234,45 +13973,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-06-18",
-      "dateEnd": "2026-06-18",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-18/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-06-18",
-      "dateEnd": "2026-06-18",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-18/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-06-18",
-      "dateEnd": "2026-06-18",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-18/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "indian-riders-fest-2026",
@@ -15594,19 +14294,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-06-22",
-      "dateEnd": "2026-06-22",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-22/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-06-23",
       "name": "DOA - Kvällskörning Nockeby, jämna veckor",
       "date": "2026-06-23",
@@ -15655,32 +14342,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, jämna veckor",
-      "date": "2026-06-23",
-      "dateEnd": "2026-06-23",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor/2026-06-23/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-06-23",
-      "dateEnd": "2026-06-23",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-23/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-c-boras-tisdags-körningar-2026-06-23",
@@ -15756,32 +14417,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-06-24",
-      "dateEnd": "2026-06-24",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning/2026-06-24/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-06-24",
-      "dateEnd": "2026-06-24",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby/2026-06-24/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lort-nr3-grusbushelg-halsingland-2026",
@@ -15948,45 +14583,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-06-25",
-      "dateEnd": "2026-06-25",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-25/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-skogskyrkogarden-2026",
-      "name": "DOA – Kvällskörning Skogskyrkogården",
-      "date": "2026-06-25",
-      "dateEnd": "2026-06-25",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-skogskyrkogarden-3/2026-06-25/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-06-25",
-      "dateEnd": "2026-06-25",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-3/2026-06-25/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-06-25",
@@ -16448,19 +15044,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-06-27",
-      "dateEnd": "2026-06-27",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-06-27/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doh-charity-run-2026-2026",
       "name": "DOH-Charity Run 2026",
       "date": "2026-06-27",
@@ -16613,19 +15196,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-06-29",
-      "dateEnd": "2026-06-29",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Välkomna på måndagskörning, OBS ny samlingsplats, bortre parkeringen på McDonalds Nacka Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:0",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-3/2026-06-29/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-30",
       "name": "DOA - Kvällskörning Ekerö, udda veckor",
       "date": "2026-06-30",
@@ -16674,32 +15244,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-06-30",
-      "dateEnd": "2026-06-30",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor/2026-06-30/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-06-30",
-      "dateEnd": "2026-06-30",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-06-30/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "smt-gotland-2026",
@@ -17036,19 +15580,6 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/events/1216585190025288/",
       "region": "Jönköping",
       "source": "facebook.com"
-    },
-    {
-      "id": "charityrun-2026",
-      "name": "Charityrun",
-      "date": "2026-07-04",
-      "dateEnd": "2026-07-04",
-      "location": "Se länk",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Mer information om tider och startplatser kommer",
-      "link": "https://hdcs.se/evenemang/charityrun/",
-      "region": "Norrbotten",
-      "source": "hdcs.se"
     },
     {
       "id": "bmw-d15-udda-platser-i-skane-smakrunda-pa-osterlen-2026",
@@ -17471,19 +16002,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-07-07",
-      "dateEnd": "2026-07-07",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-07-07/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "dob-nordic-run-2026",
       "name": "DOB- Nordic Run",
       "date": "2026-07-07",
@@ -17829,19 +16347,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-07-11",
-      "dateEnd": "2026-07-11",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-07-11/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "lo-i-lordagskörningar-kramfors-2026-07-11",
       "name": "LO I Lördagskörningar Kramfors",
       "date": "2026-07-11",
@@ -18037,19 +16542,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-07-14",
-      "dateEnd": "2026-07-14",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-07-14/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doa-sommarkvallstur-ekero-2026",
@@ -18254,19 +16746,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "hemlig-tur-2026",
-      "name": "Hemlig tur…?",
-      "date": "2026-07-17",
-      "dateEnd": "2026-07-18",
-      "location": "Se länk",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Ev hemlig tur med LOD Patrik Falkmar",
-      "link": "https://hdcs.se/evenemang/hemlig-tur/",
-      "region": "Västra Götaland",
-      "source": "hdcs.se"
-    },
-    {
       "id": "wheelswings-falkenberg-2026",
       "name": "Wheels & Wings 2026",
       "date": "2026-07-17",
@@ -18448,19 +16927,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-emilsturen-2026",
-      "name": "DOA – Emilsturen",
-      "date": "2026-07-19",
-      "dateEnd": "2026-07-19",
-      "location": "Stockholm",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Mer information kommer",
-      "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-07-19/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "jmc-sondagsrundan-2026-07-19",
       "name": "Söndagsrundan",
       "date": "2026-07-19",
@@ -18511,19 +16977,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-07-21",
-      "dateEnd": "2026-07-21",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-07-21/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "bmw-fikatraff-med-classic-pa-nykvarns-slusscaf-alla-ar-2026",
@@ -18729,19 +17182,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "knallletraffenen-boras-2026",
-      "name": "Knalleträffen",
-      "date": "2026-07-24",
-      "dateEnd": "2026-07-26",
-      "location": "Eagle Riders MC, Borås",
-      "type": "Träff",
-      "organizer": "Eagle Riders MC Borås",
-      "description": "50:e Knalleträffen med bra mat, musik och gemytlig stämning.",
-      "link": "https://smcboken.svmc.se/traffar/mctraffar",
-      "region": "Västra Götaland",
-      "source": "smcboken.svmc.se"
-    },
-    {
       "id": "knalletraffen-2026",
       "name": "Knalleträffen 50 år",
       "date": "2026-07-24",
@@ -18862,19 +17302,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-07-25",
-      "dateEnd": "2026-07-25",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-07-25/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
     },
     {
       "id": "dagstur-med-distrikt-i-2026",
@@ -19057,19 +17484,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-07-28",
-      "dateEnd": "2026-07-28",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-07-28/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doa-sommarkvallstur-nockeby-2026",
@@ -19509,19 +17923,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-08-03",
-      "dateEnd": "2026-08-03",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Mahlén Edhen",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-03/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "smc-kalla-kriget-2026",
       "name": "SMC Travel: Kalla kriget",
       "date": "2026-08-03",
@@ -19626,32 +18027,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, Jämna veckor",
-      "date": "2026-08-04",
-      "dateEnd": "2026-08-04",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-08-04/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-08-04",
-      "dateEnd": "2026-08-04",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-04/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-norrtalje-2026-08-05",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-08-05",
@@ -19700,32 +18075,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-08-05",
-      "dateEnd": "2026-08-05",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-05/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-08-05",
-      "dateEnd": "2026-08-05",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-05/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "jmc-onsdagsturen-2026-08-05",
@@ -19853,45 +18202,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-08-06",
-      "dateEnd": "2026-08-06",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-06/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-08-06",
-      "dateEnd": "2026-08-06",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-06/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallstur-skogskyrkogarden-2026",
-      "name": "DOA – Kvällstur Skogskyrkogården",
-      "date": "2026-08-06",
-      "dateEnd": "2026-08-06",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-06/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-08-06",
@@ -20199,19 +18509,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-08-08",
-      "dateEnd": "2026-08-08",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-08-08/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
     },
     {
       "id": "oamck-dagtouring-2026",
@@ -20565,19 +18862,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-08-10",
-      "dateEnd": "2026-08-10",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Mahlén Edhen",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-10/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-ekero-udda-veckor-2026-08-11",
       "name": "DOA - Kvällskörning Ekerö, udda veckor",
       "date": "2026-08-11",
@@ -20626,32 +18910,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-08-11",
-      "dateEnd": "2026-08-11",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-08-11/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-08-11",
-      "dateEnd": "2026-08-11",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-11/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "mototour-of-nations-2026",
@@ -20754,45 +19012,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-08-12",
-      "dateEnd": "2026-08-12",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-12/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-08-12",
-      "dateEnd": "2026-08-12",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-12/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-osmo-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ösmo udda veckor",
-      "date": "2026-08-12",
-      "dateEnd": "2026-08-12",
-      "location": "Ösmo Plantshop, Växtstigen 1, 148 31 Ösmo",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Petra Tunmar 0733-748100",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-08-12/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "jmc-onsdagsturen-2026-08-12",
       "name": "Onsdagsturen",
       "date": "2026-08-12",
@@ -20893,45 +19112,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-08-13",
-      "dateEnd": "2026-08-13",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-13/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-08-13",
-      "dateEnd": "2026-08-13",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-13/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallstur-skogskyrkogarden-2026",
-      "name": "DOA – Kvällstur Skogskyrkogården",
-      "date": "2026-08-13",
-      "dateEnd": "2026-08-13",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-13/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-i-torsdagskörningar-sundsvall-2026-08-13",
@@ -21550,19 +19730,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-08-17",
-      "dateEnd": "2026-08-17",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Mahlén Edhen",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-17/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-08-18",
       "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
       "date": "2026-08-18",
@@ -21613,32 +19780,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, Jämna veckor",
-      "date": "2026-08-18",
-      "dateEnd": "2026-08-18",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-08-18/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-08-18",
-      "dateEnd": "2026-08-18",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-18/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-norrtalje-2026-08-19",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-08-19",
@@ -21687,32 +19828,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-08-19",
-      "dateEnd": "2026-08-19",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-19/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-08-19",
-      "dateEnd": "2026-08-19",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-19/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "grillkvall-longsjon-augusti-2026",
@@ -21865,45 +19980,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-08-20",
-      "dateEnd": "2026-08-20",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-20/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-08-20",
-      "dateEnd": "2026-08-20",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-20/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallstur-skogskyrkogarden-2026",
-      "name": "DOA – Kvällstur Skogskyrkogården",
-      "date": "2026-08-20",
-      "dateEnd": "2026-08-20",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-20/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-08-20",
@@ -22099,19 +20175,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-08-22",
-      "dateEnd": "2026-08-22",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-08-22/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "jmc-till-jas39-2026-08-22",
       "name": "JMC till JAS-39",
       "date": "2026-08-22",
@@ -22276,19 +20339,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-08-24",
-      "dateEnd": "2026-08-24",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Mahlén Edhen",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-24/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "smt-varmland-2026",
       "name": "Värmland MC-tur",
       "date": "2026-08-24",
@@ -22366,32 +20416,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-08-25",
-      "dateEnd": "2026-08-25",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-08-25/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-08-25",
-      "dateEnd": "2026-08-25",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-25/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-norrtalje-2026-08-26",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-08-26",
@@ -22465,45 +20489,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-08-26",
-      "dateEnd": "2026-08-26",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-08-26/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-08-26",
-      "dateEnd": "2026-08-26",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-08-26/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-osmo-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ösmo udda veckor",
-      "date": "2026-08-26",
-      "dateEnd": "2026-08-26",
-      "location": "Ösmo Plantshop, Växtstigen 1, 148 31 Ösmo",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Petra Tunmar 0733-748100",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-08-26/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "jmc-onsdagsturen-2026-08-26",
@@ -22606,45 +20591,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-08-27",
-      "dateEnd": "2026-08-27",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-27/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-08-27",
-      "dateEnd": "2026-08-27",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-08-27/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallstur-skogskyrkogarden-2026",
-      "name": "DOA – Kvällstur Skogskyrkogården",
-      "date": "2026-08-27",
-      "dateEnd": "2026-08-27",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-27/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-i-torsdagskörningar-sundsvall-2026-08-27",
@@ -22897,19 +20843,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-emilsturen-2026",
-      "name": "DOA – Emilsturen",
-      "date": "2026-08-30",
-      "dateEnd": "2026-08-30",
-      "location": "Stockholm",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Mer information kommer",
-      "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-08-30/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "jmc-sondagsrundan-2026-08-30",
       "name": "Söndagsrundan",
       "date": "2026-08-30",
@@ -22962,19 +20895,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-08-31",
-      "dateEnd": "2026-08-31",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Mahlén Edhen",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-08-31/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-09-01",
       "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
       "date": "2026-09-01",
@@ -23025,32 +20945,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, Jämna veckor",
-      "date": "2026-09-01",
-      "dateEnd": "2026-09-01",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-09-01/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-09-01",
-      "dateEnd": "2026-09-01",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-01/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-norrtalje-2026-09-02",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-09-02",
@@ -23099,32 +20993,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-09-02",
-      "dateEnd": "2026-09-02",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-02/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-09-02",
-      "dateEnd": "2026-09-02",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-02/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doa-dagstur-ekero-2026-09-03",
@@ -23200,45 +21068,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-09-03",
-      "dateEnd": "2026-09-03",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-03/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-09-03",
-      "dateEnd": "2026-09-03",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-03/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallstur-skogskyrkogarden-2026",
-      "name": "DOA – Kvällstur Skogskyrkogården",
-      "date": "2026-09-03",
-      "dateEnd": "2026-09-03",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-03/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-09-03",
@@ -23517,19 +21346,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-09-05",
-      "dateEnd": "2026-09-05",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-09-05/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "oamck-dagtouring-2026",
       "name": "Dagtouring",
       "date": "2026-09-05",
@@ -23718,19 +21534,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-09-07",
-      "dateEnd": "2026-09-07",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Mahlén Edhen",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-07/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-ekero-udda-veckor-2026-09-08",
       "name": "DOA - Kvällskörning Ekerö, udda veckor",
       "date": "2026-09-08",
@@ -23779,32 +21582,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-09-08",
-      "dateEnd": "2026-09-08",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-09-08/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-09-08",
-      "dateEnd": "2026-09-08",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-08/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "faaker-see-2026-osterrike-2026",
@@ -23907,45 +21684,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-09-09",
-      "dateEnd": "2026-09-09",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-09/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-09-09",
-      "dateEnd": "2026-09-09",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-09/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-osmo-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ösmo udda veckor",
-      "date": "2026-09-09",
-      "dateEnd": "2026-09-09",
-      "location": "Ösmo Plantshop, Växtstigen 1, 148 31 Ösmo",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Petra Tunmar 0733-748100",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-09-09/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-dagstur-ekero-2026-09-10",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-09-10",
@@ -24019,45 +21757,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-09-10",
-      "dateEnd": "2026-09-10",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-10/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-09-10",
-      "dateEnd": "2026-09-10",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-10/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallstur-skogskyrkogarden-2026",
-      "name": "DOA – Kvällstur Skogskyrkogården",
-      "date": "2026-09-10",
-      "dateEnd": "2026-09-10",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-10/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-i-torsdagskörningar-sundsvall-2026-09-10",
@@ -24426,19 +22125,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-09-14",
-      "dateEnd": "2026-09-14",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Mahlén Edhen",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-14/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-09-15",
       "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
       "date": "2026-09-15",
@@ -24489,32 +22175,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, Jämna veckor",
-      "date": "2026-09-15",
-      "dateEnd": "2026-09-15",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-09-15/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-09-15",
-      "dateEnd": "2026-09-15",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-15/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-norrtalje-2026-09-16",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-09-16",
@@ -24563,32 +22223,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-09-16",
-      "dateEnd": "2026-09-16",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-16/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-09-16",
-      "dateEnd": "2026-09-16",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-16/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doa-dagstur-ekero-2026-09-17",
@@ -24664,45 +22298,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-09-17",
-      "dateEnd": "2026-09-17",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-17/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-09-17",
-      "dateEnd": "2026-09-17",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-17/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallstur-skogskyrkogarden-2026",
-      "name": "DOA – Kvällstur Skogskyrkogården",
-      "date": "2026-09-17",
-      "dateEnd": "2026-09-17",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-17/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-09-17",
@@ -24828,19 +22423,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-09-19",
-      "dateEnd": "2026-09-19",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-09-19/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
     },
     {
       "id": "kinnekulleturen-2026",
@@ -25033,19 +22615,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-emilsturen-2026",
-      "name": "DOA – Emilsturen",
-      "date": "2026-09-20",
-      "dateEnd": "2026-09-20",
-      "location": "Stockholm",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Mer information kommer",
-      "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-09-20/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nacka-2026-09-21",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-09-21",
@@ -25069,19 +22638,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-09-21",
-      "dateEnd": "2026-09-21",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Mahlén Edhen",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-21/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doa-kvallskörning-ekero-udda-veckor-2026-09-22",
@@ -25132,32 +22688,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-ekero-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ekerö, udda veckor",
-      "date": "2026-09-22",
-      "dateEnd": "2026-09-22",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning Varannan vecka guidar DO/LO Lennart oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Lennart Sellin 0722-1",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-ekero-udda-veckor-2/2026-09-22/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-09-22",
-      "dateEnd": "2026-09-22",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-22/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doa-kvallskörning-norrtalje-2026-09-23",
@@ -25235,45 +22765,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-09-23",
-      "dateEnd": "2026-09-23",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-23/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-09-23",
-      "dateEnd": "2026-09-23",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-23/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-osmo-udda-veckor-2026",
-      "name": "DOA – Kvällskörning Ösmo udda veckor",
-      "date": "2026-09-23",
-      "dateEnd": "2026-09-23",
-      "location": "Ösmo Plantshop, Växtstigen 1, 148 31 Ösmo",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning varannan vecka LO Petra guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Petra Tunmar 0733-748100",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-osmo-udda-veckor-2/2026-09-23/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-dagstur-ekero-2026-09-24",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-09-24",
@@ -25347,45 +22838,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-dagstur-ekero-2026",
-      "name": "DOA – Dagstur Ekerö",
-      "date": "2026-09-24",
-      "dateEnd": "2026-09-24",
-      "location": "OKQ8, Åkerstigen 22, 178 34 Ekerö, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl. 10:00 Ojämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15 Jämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelä",
-      "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-24/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-uppsala-2026",
-      "name": "DOA – Kvällskörning Uppsala",
-      "date": "2026-09-24",
-      "dateEnd": "2026-09-24",
-      "location": "Circle K Uppsala Rapsgatan, Rapsgatan 1H, 753 23 Uppsala, Sverige",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl. 17:30 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Joakim Renemar 0731-823605",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-uppsala-4/2026-09-24/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallstur-skogskyrkogarden-2026",
-      "name": "DOA – Kvällstur Skogskyrkogården",
-      "date": "2026-09-24",
-      "dateEnd": "2026-09-24",
-      "location": "Skogskyrkogården, vid Lillys Blommor, Sköndal",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Göran Axblad",
-      "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-24/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "lo-i-torsdagskörningar-sundsvall-2026-09-24",
@@ -25513,19 +22965,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nacka-2026",
-      "name": "DOA – Kvällskörning Nacka",
-      "date": "2026-09-28",
-      "dateEnd": "2026-09-28",
-      "location": "McDonalds Nacka, Nacka",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på måndagskörning Varannan vecka guidar LO Mahlén och LO Göran oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Mahlén Edhen",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nacka-4/2026-09-28/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-09-29",
       "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
       "date": "2026-09-29",
@@ -25576,32 +23015,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-kvallskorning-nockeby-jamna-veckor-2026",
-      "name": "DOA – Kvällskörning Nockeby, Jämna veckor",
-      "date": "2026-09-29",
-      "dateEnd": "2026-09-29",
-      "location": "Nockeby, Bromma",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på tisdagskörning jämna veckor, OBS samlingsplatsen LO Michael guidar oss på en tur. Samling kl. 17:30, korsningen Drottningholmsvägen/Gubbkärrsvägen (närmaste hus Drottningholmsvägen 562) Planerad avfärd kl. 18:00 Kom fulltankade och klara ",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-nockeby-jamna-veckor-2/2026-09-29/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-09-29",
-      "dateEnd": "2026-09-29",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-09-29/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-kvallskörning-norrtalje-2026-09-30",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-09-30",
@@ -25650,32 +23063,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-kvallskorning-norrtalje-2026",
-      "name": "DOA – Kvällskörning Norrtälje",
-      "date": "2026-09-30",
-      "dateEnd": "2026-09-30",
-      "location": "Biltema Norrtälje, Norrtälje",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Tommy guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Tommy Jansson 070- 752 59 92",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-norrtalje/2026-09-30/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
-      "id": "doa-kvallskorning-taby-2026",
-      "name": "DOA – Kvällskörning Täby",
-      "date": "2026-09-30",
-      "dateEnd": "2026-09-30",
-      "location": "Probike Täby Åkerivägen 6, Täby",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på onsdagskörning LO Martin guidar oss på en tur. Samling kl. 17:30 Planerad avfärd kl. 18:00 Kom fulltankade och klara Vid regn eller sjöblöta vägar kan detta ställas in, För mer information kontakta Martin Svensson 076- 820 82 49",
-      "link": "https://hdcs.se/evenemang/doa-kvallskorning-taby-2/2026-09-30/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-10-01",
@@ -25778,19 +23165,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-10-03",
-      "dateEnd": "2026-10-03",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-03/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "oamck-dagtouring-2026",
       "name": "Dagtouring",
       "date": "2026-10-03",
@@ -25879,19 +23253,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-10-06",
-      "dateEnd": "2026-10-06",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-10-06/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-emilsturen-2026-10-11",
       "name": "DOA - Emilsturen",
       "date": "2026-10-11",
@@ -25917,19 +23278,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-emilsturen-2026",
-      "name": "DOA – Emilsturen",
-      "date": "2026-10-11",
-      "dateEnd": "2026-10-11",
-      "location": "Stockholm",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Mer information kommer",
-      "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-10-11/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "dob-grill-rovarkulan-2026",
       "name": "DOB- Grill Rövarkulan",
       "date": "2026-10-11",
@@ -25953,19 +23301,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "gwcs-sormlandswingarnas-medlemsmote-2026",
-      "name": "Sörmlandswingarnas Medlemsmöte",
-      "date": "2026-10-11",
-      "dateEnd": "2026-10-11",
-      "location": "Årdala",
-      "type": "Träff",
-      "organizer": "GoldWing Club Sweden",
-      "description": "Sörmlandswingarnas Medlemsmöte",
-      "link": "https://gwcs.se/events/sormlandswingarnas-medlemsmote-3/?occurrence=2026-10-11",
-      "region": "Sverige",
-      "source": "gwcs.se"
     },
     {
       "id": "gwcs-medlemsmote-okt-2026",
@@ -26018,19 +23353,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-10-13",
-      "dateEnd": "2026-10-13",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-10-13/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doh-fika-lycksele-2026-10-15",
       "name": "DOH-Fika Lycksele",
       "date": "2026-10-15",
@@ -26081,19 +23403,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-10-17",
-      "dateEnd": "2026-10-17",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-17/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-tisdagslunch-2026-10-20",
       "name": "DOA - Tisdagslunch",
       "date": "2026-10-20",
@@ -26117,19 +23426,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-10-20",
-      "dateEnd": "2026-10-20",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-10-20/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "gotland-grand-national-2026",
@@ -26255,19 +23551,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-10-27",
-      "dateEnd": "2026-10-27",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-10-27/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doh-fika-lycksele-2026-10-29",
       "name": "DOH-Fika Lycksele",
       "date": "2026-10-29",
@@ -26316,19 +23599,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-10-31",
-      "dateEnd": "2026-10-31",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-31/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
     },
     {
       "id": "pannkaksfsesten-boras-2026",
@@ -26381,19 +23651,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-11-03",
-      "dateEnd": "2026-11-03",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-11-03/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doe-aktivitet-i-oskarshamn-7-november-2026",
       "name": "DOE Aktivitet i Oskarshamn 7 november",
       "date": "2026-11-07",
@@ -26442,19 +23699,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-11-10",
-      "dateEnd": "2026-11-10",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-11-10/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-11-12",
@@ -26532,19 +23776,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-11-14",
-      "dateEnd": "2026-11-14",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-11-14/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "pubkvall-2026",
       "name": "Pubkväll",
       "date": "2026-11-14",
@@ -26568,19 +23799,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "gwcs-sormlandswingarnas-medlemsmote-2026",
-      "name": "Sörmlandswingarnas Medlemsmöte",
-      "date": "2026-11-15",
-      "dateEnd": "2026-11-15",
-      "location": "Årdala",
-      "type": "Träff",
-      "organizer": "GoldWing Club Sweden",
-      "description": "Sörmlandswingarnas Medlemsmöte",
-      "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-3/?occurrence=2026-11-15",
-      "region": "Sverige",
-      "source": "gwcs.se"
     },
     {
       "id": "gwcs-fikatraff-sormland-nov-2026",
@@ -26631,19 +23849,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-11-17",
-      "dateEnd": "2026-11-17",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-11-17/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "oamck-flipperturnering-2026",
@@ -26707,19 +23912,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-11-24",
-      "dateEnd": "2026-11-24",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-11-24/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-11-26",
@@ -26822,19 +24014,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-11-28",
-      "dateEnd": "2026-11-28",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-11-28/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-tisdagslunch-2026-12-01",
       "name": "DOA - Tisdagslunch",
       "date": "2026-12-01",
@@ -26858,19 +24037,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-12-01",
-      "dateEnd": "2026-12-01",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-01/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "gwcs-jultallrik-2026",
@@ -26934,19 +24100,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-12-08",
-      "dateEnd": "2026-12-08",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-08/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "bmw-d15-luciamys-i-lundagard-2026",
@@ -27024,19 +24177,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-12-12",
-      "dateEnd": "2026-12-12",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-12-12/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "julbord-2026",
       "name": "Julbord",
       "date": "2026-12-12",
@@ -27087,19 +24227,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-12-15",
-      "dateEnd": "2026-12-15",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-15/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-tisdagslunch-2026-12-22",
       "name": "DOA - Tisdagslunch",
       "date": "2026-12-22",
@@ -27123,19 +24250,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-12-22",
-      "dateEnd": "2026-12-22",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-22/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "doh-fika-lycksele-2026-12-24",
@@ -27188,19 +24302,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "dog-fikatraff-pa-radis-2026",
-      "name": "DOG FIKATRÄFF på Rådis",
-      "date": "2026-12-26",
-      "dateEnd": "2026-12-26",
-      "location": "Rådis, Dalarna",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "FIKATRÄFF på Rådis i Söderhamn kl 12.00 , Kyrkogatan 10. VÄLKOMNA //Janne LoG",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-12-26/",
-      "region": "Dalarna",
-      "source": "hdcs.se"
-    },
-    {
       "id": "doa-tisdagslunch-2026-12-29",
       "name": "DOA - Tisdagslunch",
       "date": "2026-12-29",
@@ -27224,19 +24325,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doa-tisdagslunch-2026",
-      "name": "DOA – Tisdagslunch",
-      "date": "2026-12-29",
-      "dateEnd": "2026-12-29",
-      "location": "Väringgården, Träkvista torg, Ekerö",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om. Lennart 0722 126 320",
-      "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-12-29/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
     },
     {
       "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-1-2026-12-31",
