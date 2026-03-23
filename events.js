@@ -3842,8 +3842,12 @@ const EVENTS_DATA = {
       "backImage": "ads/mce-manadsmoete-back-2026-04-13.jpg",
       "links": [
         {
-          "label": "Facebook",
+          "label": "FB Event",
           "url": "https://www.facebook.com/events/1919105001975075/"
+        },
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/907889925500339"
         },
         {
           "label": "Karta",
@@ -3855,33 +3859,6 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "descriptionFull": "MCE - motorcykelentusiasterna bjuder in till månadsmöte i april.\n\nVi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar. Alla medlemmar och klubbnyfikna är välkomna.\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar ingen roll, inte ens krav på att man ska ha en hoj.\n\nTid: Måndag 13 april kl. 18:00 - 21:00\nPlats: Snutenvägen 11, 177 61 Järfälla."
-    },
-    {
-      "id": "mce-oppet-hus-jarfalla-2026-04-13",
-      "name": "Öppet hus hos MCE",
-      "date": "2026-04-13",
-      "dateEnd": "2026-04-13",
-      "location": "MCE Klubblokalen, Järfälla",
-      "type": "Träff",
-      "organizer": "MCE",
-      "organizerIcon": "clubs/normalized/mce.png",
-      "description": "Säsongens första öppet hus hos MCE. Kom in på en gofika, enkel matbit och lite MC-snack. Alla välkomna! Kl 18–19.",
-      "backImage": "ads/mce-oppet-hus-back-2026-04-13.jpg",
-      "link": "https://www.facebook.com/events/907889925500339",
-      "links": [
-        {
-          "label": "FB Event",
-          "url": "https://www.facebook.com/events/907889925500339"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+177+61+J%C3%A4rf%C3%A4lla",
-          "type": "map"
-        }
-      ],
-      "region": "Stockholm",
-      "source": "facebook.com",
-      "descriptionFull": "Säsongens första öppet hus hos MCE i Järfälla!\n\nVåren närmar sig med bestämda steg och vi står inför en ny säsong. Kom in på en gofika, lätt matbit och bara ha kul en stund.\n\nAlla hojintresserade är välkomna – oavsett vilket märke du kör.\n\nTid: Måndag 13 april kl 18:00–19:00\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla."
     },
     {
       "id": "doa-tisdagslunch-2026-04-14",
