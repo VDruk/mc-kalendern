@@ -226,16 +226,10 @@
   }
 
   /* Club filter buttons */
-  .club-btn {
-    width: 36px; height: 36px; border-radius: 50%;
-    border: 2px solid var(--border); background: var(--bg-secondary);
-    cursor: pointer; padding: 3px; overflow: hidden;
-    transition: all var(--transition);
-    display: flex; align-items: center; justify-content: center;
-  }
-  .club-btn:hover { border-color: var(--text-muted); transform: scale(1.08); }
-  .club-btn.active { border-color: var(--accent); box-shadow: 0 0 12px var(--accent-glow); }
-  .club-btn img { width: 100%; height: 100%; object-fit: contain; border-radius: 50%; }
+  /* Desktop/mobile filter row visibility */
+  .filter-row-mobile { display: none; }
+  .filter-row-desktop { display: flex; }
+  .filter-row-bottom { display: flex; }
 
   /* Region & time selects */
   .filter-select {
@@ -276,7 +270,7 @@
 
   /* Share buttons */
   .share-btns {
-    display: flex; gap: 6px; align-items: center;
+    display: flex; gap: 6px; align-items: center; margin-left: auto;
   }
   .share-btn {
     width: 32px; height: 32px; border-radius: 50%;
@@ -904,17 +898,17 @@
     .hero-stat-num { font-size: 20px; }
     .hero-stat-label { font-size: 9px; letter-spacing: 0.5px; }
 
-    .filters-inner { padding: 10px 12px; gap: 10px; }
-    .filter-row { gap: 6px; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-    .filter-row::-webkit-scrollbar { display: none; }
+    .filters-inner { padding: 10px 12px; gap: 8px; }
+    .filter-row { gap: 6px; flex-wrap: wrap; }
     .filter-label { display: none; }
     .filter-spacer { display: none; }
     .filter-row .filter-group { flex-shrink: 0; }
-    .filter-select { flex-shrink: 0; }
+    .filter-select { flex-shrink: 0; font-size: 12px; padding: 5px 24px 5px 10px; }
     .toggle-wrap { display: none; }
     .type-btn { padding: 5px 10px; font-size: 12px; }
-    .club-btn { width: 32px; height: 32px; }
-    .share-btns { gap: 4px; margin-left: auto; }
+    .filter-row-desktop { display: none; }
+    .filter-row-mobile { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .filter-row-bottom .share-btns { gap: 4px; margin-left: auto; }
 
     .grid { grid-template-columns: 1fr; gap: 12px; }
     .main-content { padding: 16px 12px 60px; }
@@ -1004,7 +998,7 @@
 <!-- ========== FILTERS ========== -->
 <div class="filters-wrapper" id="filtersWrapper">
   <div class="filters-inner">
-    <div class="filter-row">
+    <div class="filter-row filter-row-desktop">
       <div class="filter-group">
         <button class="type-btn active" data-type="all">Alla</button>
         <button class="type-btn" data-type="Körning">Körning</button>
@@ -1019,24 +1013,36 @@
       <select class="filter-select" id="monthFilter" aria-label="Filtrera efter månad">
         <option value="all">Alla månader</option>
       </select>
+      <select class="filter-select" id="organizerFilter" aria-label="Filtrera efter arrangör">
+        <option value="all">Alla arrangörer</option>
+      </select>
       <div class="filter-spacer"></div>
       <div class="toggle-wrap">
         <span class="toggle-label">Visa passerade</span>
         <button class="toggle" id="pastToggle" aria-label="Visa passerade evenemang"></button>
       </div>
     </div>
-    <div class="filter-row">
-      <span class="filter-label">Klubbar:</span>
-      <div class="filter-group">
-        <button class="club-btn" data-club="BMW MC-klubben" title="BMW MC-klubben"><img src="clubs/bmw.png" alt="BMW"></button>
-        <button class="club-btn" data-club="GWCS" title="GWCS"><img src="clubs/gwcs.png" alt="GWCS"></button>
-        <button class="club-btn" data-club="H-DCS" title="H-DCS"><img src="clubs/hdcs.png" alt="H-DCS"></button>
-        <button class="club-btn" data-club="ÖAMCK" title="ÖAMCK"><img src="clubs/oamck.png" alt="ÖAMCK"></button>
-        <button class="club-btn" data-club="SMC" title="SMC"><img src="clubs/smc.png" alt="SMC"></button>
-        <button class="club-btn" data-club="SVEMO" title="SVEMO"><img src="clubs/svemo.png" alt="SVEMO"></button>
-        <button class="club-btn" data-club="JMC" title="JMC Samåkning Småland"><img src="clubs/normalized/jmc.png" alt="JMC"></button>
-      </div>
-      <div class="filter-spacer"></div>
+    <div class="filter-row filter-row-mobile">
+      <button class="type-btn active" data-type="all">Alla</button>
+      <select class="filter-select" id="typeFilterMobile" aria-label="Filtrera efter typ">
+        <option value="all">Alla typer</option>
+        <option value="Körning">Körning</option>
+        <option value="Träff">Träff</option>
+        <option value="Racing">Racing</option>
+        <option value="Fest">Fest</option>
+        <option value="Show">Show</option>
+      </select>
+      <select class="filter-select" id="regionFilterMobile" aria-label="Filtrera efter region">
+        <option value="all">Alla regioner</option>
+      </select>
+      <select class="filter-select" id="monthFilterMobile" aria-label="Filtrera efter månad">
+        <option value="all">Alla månader</option>
+      </select>
+      <select class="filter-select" id="organizerFilterMobile" aria-label="Filtrera efter arrangör">
+        <option value="all">Alla arrangörer</option>
+      </select>
+    </div>
+    <div class="filter-row filter-row-bottom">
       <div class="share-btns">
         <button class="share-btn" id="shareFb" title="Dela på Facebook">
           <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
@@ -1153,7 +1159,7 @@ const TYPE_CLASSES = {
 
 // ========== STATE ==========
 let currentFilter = 'all';
-let currentClub = 'all';
+let currentClub = 'all'; // now driven by organizer dropdown
 let currentRegion = 'all';
 let currentMonth = 'all';
 let showPast = false;
@@ -1270,6 +1276,39 @@ function buildRegionFilter() {
     opt.textContent = MONTH_NAMES[m] + ' (' + monthCounts[m] + ')';
     monthSel.appendChild(opt);
   });
+
+  // Populate organizer filter (top organizers by event count)
+  const orgCounts = {};
+  EVENTS_DATA.events.filter(e => !e._canary && !e._ad).forEach(e => {
+    if (e.organizer) orgCounts[e.organizer] = (orgCounts[e.organizer] || 0) + 1;
+  });
+  const topOrgs = Object.entries(orgCounts)
+    .sort((a, b) => b[1] - a[1])
+    .filter(([, count]) => count >= 3);
+  const orgSels = [document.getElementById('organizerFilter'), document.getElementById('organizerFilterMobile')];
+  orgSels.forEach(orgSel => {
+    if (!orgSel) return;
+    topOrgs.forEach(([org, count]) => {
+      const opt = document.createElement('option');
+      opt.value = org;
+      opt.textContent = org + ' (' + count + ')';
+      orgSel.appendChild(opt);
+    });
+  });
+
+  // Populate mobile region and month filters (clone from desktop)
+  const regionMobile = document.getElementById('regionFilterMobile');
+  const monthMobile = document.getElementById('monthFilterMobile');
+  if (regionMobile) {
+    [...sel.options].slice(1).forEach(o => {
+      regionMobile.appendChild(o.cloneNode(true));
+    });
+  }
+  if (monthMobile) {
+    [...monthSel.options].slice(1).forEach(o => {
+      monthMobile.appendChild(o.cloneNode(true));
+    });
+  }
 }
 
 // ========== STATS ==========
@@ -1653,7 +1692,13 @@ function render() {
 
   // Filters (regular events only)
   if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
-  if (currentClub !== 'all') events = events.filter(e => CLUB_MATCHERS[currentClub] ? CLUB_MATCHERS[currentClub](e.organizer || '') : false);
+  if (currentClub !== 'all') {
+    if (CLUB_MATCHERS[currentClub]) {
+      events = events.filter(e => CLUB_MATCHERS[currentClub](e.organizer || ''));
+    } else {
+      events = events.filter(e => e.organizer === currentClub);
+    }
+  }
   if (currentRegion !== 'all') events = events.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
   if (currentMonth !== 'all') events = events.filter(e => parseInt(e.date.split('-')[1], 10) === parseInt(currentMonth, 10));
   if (!showPast) events = events.filter(e => (e.dateEnd || e.date) >= today);
@@ -1994,9 +2039,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Helper: check if any filter is active and update Alla button
   function updateAllaBtn() {
-    const allaBtn = document.querySelector('.type-btn[data-type="all"]');
     const anyActive = currentFilter !== 'all' || currentClub !== 'all' || currentRegion !== 'all' || currentMonth !== 'all';
-    allaBtn.classList.toggle('active', !anyActive);
+    document.querySelectorAll('.type-btn[data-type="all"]').forEach(btn => {
+      btn.classList.toggle('active', !anyActive);
+    });
   }
 
   // Helper: reset all filters (including search)
@@ -2008,10 +2054,18 @@ document.addEventListener('DOMContentLoaded', () => {
     showPast = false;
     searchQuery = '';
     document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
-    document.querySelector('.type-btn[data-type="all"]').classList.add('active');
+    document.querySelectorAll('.type-btn[data-type="all"]').forEach(b => b.classList.add('active'));
     document.getElementById('regionFilter').value = 'all';
     document.getElementById('monthFilter').value = 'all';
+    document.getElementById('organizerFilter').value = 'all';
+    const tfm = document.getElementById('typeFilterMobile');
+    if (tfm) tfm.value = 'all';
+    const rfm = document.getElementById('regionFilterMobile');
+    if (rfm) rfm.value = 'all';
+    const mfm = document.getElementById('monthFilterMobile');
+    if (mfm) mfm.value = 'all';
+    const ofm = document.getElementById('organizerFilterMobile');
+    if (ofm) ofm.value = 'all';
     document.getElementById('pastToggle').classList.remove('active');
     const si = document.getElementById('searchInput');
     const sc = document.getElementById('searchClear');
@@ -2029,39 +2083,83 @@ document.addEventListener('DOMContentLoaded', () => {
         currentFilter = type;
         document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
+        const tfm = document.getElementById('typeFilterMobile');
+        if (tfm) tfm.value = type;
       }
       updateAllaBtn();
       render();
     });
   });
 
-  // Club filter buttons
-  document.querySelectorAll('.club-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const club = btn.dataset.club;
-      if (currentClub === club) {
-        currentClub = 'all';
-        btn.classList.remove('active');
-      } else {
-        document.querySelectorAll('.club-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        currentClub = club;
-      }
-      updateAllaBtn();
-      render();
-    });
-  });
-
-  // Region filter
-  document.getElementById('regionFilter').addEventListener('change', e => {
-    currentRegion = e.target.value;
+  // Organizer filter (desktop)
+  document.getElementById('organizerFilter').addEventListener('change', e => {
+    currentClub = e.target.value;
+    const ofm = document.getElementById('organizerFilterMobile');
+    if (ofm) ofm.value = e.target.value;
     updateAllaBtn();
     render();
   });
 
-  // Month filter
+  // Organizer filter (mobile)
+  const orgMobile = document.getElementById('organizerFilterMobile');
+  if (orgMobile) {
+    orgMobile.addEventListener('change', e => {
+      currentClub = e.target.value;
+      document.getElementById('organizerFilter').value = e.target.value;
+      updateAllaBtn();
+      render();
+    });
+  }
+
+  // Type filter (mobile dropdown)
+  const typeMobile = document.getElementById('typeFilterMobile');
+  if (typeMobile) {
+    typeMobile.addEventListener('change', e => {
+      currentFilter = e.target.value;
+      document.querySelectorAll('.filter-row-desktop .type-btn').forEach(b => b.classList.remove('active'));
+      const matchBtn = document.querySelector('.filter-row-desktop .type-btn[data-type="' + e.target.value + '"]');
+      if (matchBtn) matchBtn.classList.add('active');
+      updateAllaBtn();
+      render();
+    });
+  }
+
+  // Region filter (mobile)
+  const regionMobile = document.getElementById('regionFilterMobile');
+  if (regionMobile) {
+    regionMobile.addEventListener('change', e => {
+      currentRegion = e.target.value;
+      document.getElementById('regionFilter').value = e.target.value;
+      updateAllaBtn();
+      render();
+    });
+  }
+
+  // Month filter (mobile)
+  const monthMobile = document.getElementById('monthFilterMobile');
+  if (monthMobile) {
+    monthMobile.addEventListener('change', e => {
+      currentMonth = e.target.value;
+      document.getElementById('monthFilter').value = e.target.value;
+      updateAllaBtn();
+      render();
+    });
+  }
+
+  // Region filter (desktop)
+  document.getElementById('regionFilter').addEventListener('change', e => {
+    currentRegion = e.target.value;
+    const rfm = document.getElementById('regionFilterMobile');
+    if (rfm) rfm.value = e.target.value;
+    updateAllaBtn();
+    render();
+  });
+
+  // Month filter (desktop)
   document.getElementById('monthFilter').addEventListener('change', e => {
     currentMonth = e.target.value;
+    const mfm = document.getElementById('monthFilterMobile');
+    if (mfm) mfm.value = e.target.value;
     if (currentMonth !== 'all') {
       const now = new Date();
       const selectedMonth = parseInt(currentMonth, 10);
