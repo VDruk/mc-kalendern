@@ -1991,14 +1991,14 @@ const EVENTS_DATA = {
     },
     {
       "id": "smc-grundkurs-underhall-eskilstuna-2026",
-      "name": "Grundkurs i MC Underhåll",
+      "name": "Grundkurs i MC Underhåll INSTÄLLT",
       "date": "2026-03-25",
       "dateEnd": "2026-03-25",
       "location": "Drottninggatan 15B, Eskilstuna",
       "type": "Träff",
       "organizer": "SMC Södermanland",
       "organizerIcon": "clubs/normalized/smc.png",
-      "description": "Lär dig kontrollera din MC inför säsongen, besiktning eller resa. Motorcyklar på plats att inspektera tillsammans. SMC-medlem 100 kr, ej medlem 150 kr. Kl 18-20.",
+      "description": "INSTÄLLT. Kursen den 25 mars är inställd.",
       "descriptionFull": "Varm välkommen på Grundkurs i MC Underhåll.\n\nDenna kurs riktar sig till dig som vill lära dig mer om underhåll av din motorcykel, oavsett om du övningskör och vill förbereda dig inför kommande körprov, haft körkort eller precis tagit körkort!\n\nUnder kursen går vi igenom viktig information om hur du gör en bra kontroll av din MC innan du tar ut den för säsongen, åker till besiktningen eller om du ska ut och resa.\n\nDet kommer att finnas några motorcyklar på plats som vi inspekterar tillsammans.\n\nPlats: Isaks Trafikskola, Drottninggatan 15B, Eskilstuna.\n\nInskrivning 17:50\nKursstart 18:00\nKursavslut ca 20:00\n\nAnmälningsavgift:\nSMC-medlem: 100 kr (skriv medlemsnr i meddelande vid bokningen)\nEj medlem: 150 kr\n\nSwish: 0736-34 25 60 (Maria N)\nMeddelande: 25 mars kurs (ev medl nr)\n\nOBS! Begränsat antal platser!",
       "backImage": "ads/smc-grundkurs-underhall-back-2026-03-25.jpg",
       "links": [
