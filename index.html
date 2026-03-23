@@ -1981,7 +1981,8 @@ function render() {
     let backHTML = '';
     if (hasBack) {
       const fullDesc = (event.descriptionFull || event.description || '').split('\n').map(p => `<p>${p}</p>`).join('');
-      const backImg = event.backImage ? `<img class="back-img" data-src="${event.backImage}" alt="${displayName}" loading="lazy">` : '';
+      const backImgSrc = event.backImage || 'ads/default-back.jpg';
+      const backImg = `<img class="back-img" data-src="${backImgSrc}" alt="${displayName}" loading="lazy">`;
       let linksHTML = '';
       if (event.links && event.links.length > 0) {
         const extIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
