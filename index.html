@@ -681,6 +681,7 @@
   }
   .back-link-pill:hover { border-color: var(--accent); background: rgba(217,119,6,0.05); }
   .back-link-pill svg { width: 10px; height: 10px; }
+  button.back-link-pill { cursor: pointer; font-family: inherit; }
 
   .back-footer {
     display: flex; align-items: center; justify-content: space-between;
@@ -1134,7 +1135,7 @@
   <div class="drawer-footer">
     <button class="drawer-ics-btn" id="downloadIcsBtn">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-      Ladda ner kalender (.ics)
+      <span id="icsDownloadText">Ladda ner valda evenemang (.ics)</span>
     </button>
     <p class="drawer-ics-hint">För iPhone och dator: ladda ner och öppna filen. För Android: använd kalenderknappen bredvid varje evenemang.</p>
   </div>
@@ -2000,6 +2001,20 @@ function render() {
     if (hasBack) {
       const fullDesc = (event.descriptionFull || event.description || '').split('\n').map(p => `<p>${p}</p>`).join('');
       const backImg = event.backImage ? `<img class="back-img" data-src="${event.backImage}" alt="${displayName}" loading="lazy">` : '';
+      // Calendar pills (Google Calendar link + single .ics download)
+      const calIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="10" height="10"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`;
+      const gcalStart = event.date.replace(/-/g, '');
+      const gcalEndDate = new Date((event.dateEnd || event.date) + 'T00:00:00');
+      gcalEndDate.setDate(gcalEndDate.getDate() + 1);
+      const gcalEnd = gcalEndDate.toISOString().slice(0, 10).replace(/-/g, '');
+      const gcalUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+        + '&text=' + encodeURIComponent(event.name)
+        + '&dates=' + gcalStart + '/' + gcalEnd
+        + '&location=' + encodeURIComponent(event.location || '')
+        + '&details=' + encodeURIComponent((event.description || '') + (event.link ? '\n\n' + event.link : ''));
+      const calPills = `<a class="back-link-pill" href="${gcalUrl}" target="_blank" rel="noopener">${calIcon} Google Kalender</a>`
+        + `<button class="back-link-pill" onclick="event.stopPropagation();downloadSingleICS('${event.id}')">${calIcon} Ladda ner .ics</button>`;
+
       let linksHTML = '';
       if (event.links && event.links.length > 0) {
         const extIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
@@ -2008,7 +2023,9 @@ function render() {
           const icon = l.type === 'map' ? mapIcon : extIcon;
           return `<a class="back-link-pill" href="${l.url}" target="_blank" rel="noopener">${icon} ${l.label}</a>`;
         }).join('');
-        linksHTML = `<div class="back-links"><div class="back-link-pills">${pills}</div></div>`;
+        linksHTML = `<div class="back-links"><div class="back-link-pills">${pills}${calPills}</div></div>`;
+      } else {
+        linksHTML = `<div class="back-links"><div class="back-link-pills">${calPills}</div></div>`;
       }
       backHTML = `
       <div class="card-back-flip">
@@ -2423,6 +2440,18 @@ document.addEventListener('DOMContentLoaded', () => {
     return lines.join('\r\n');
   }
 
+  function downloadSingleICS(eventId) {
+    const e = EVENTS_DATA.events.find(ev => ev.id === eventId);
+    if (!e) return;
+    const ics = generateICS([e]);
+    const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = e.name.replace(/[^a-z0-9åäö]/gi, '-').toLowerCase() + '.ics';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
   document.getElementById('downloadIcsBtn').addEventListener('click', () => {
     const allEvents = EVENTS_DATA.events;
     const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean);
@@ -2459,6 +2488,8 @@ function updateDrawer() {
   const allEvents = EVENTS_DATA.events;
   const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
+  const icsText = document.getElementById('icsDownloadText');
+  if (icsText) icsText.textContent = `Ladda ner ${favEvents.length} valda evenemang (.ics)`;
   body.innerHTML = favEvents.map(e => {
     const d = new Date(e.date + 'T00:00:00');
     // Build Google Calendar link
