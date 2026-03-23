@@ -7626,7 +7626,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "korhoj-varmskog-rakmacketuren-2026-05-09",
-      "name": "Kör Hoj Värmskog – Räkmacketuren",
+      "name": "Räkmacketuren",
       "date": "2026-05-09",
       "dateEnd": "2026-05-10",
       "location": "Värmskogs Café, Värmskog",
@@ -17017,7 +17017,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "korhoj-norge-v30-2026-07-20",
-      "name": "Kör Hoj Norge V:30",
+      "name": "Norgeäventyret V:30",
       "date": "2026-07-20",
       "dateEnd": "2026-07-26",
       "location": "Lidköping / Horten, Norge",
@@ -20685,7 +20685,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "korhoj-lokken-danmark-2026-08-28",
-      "name": "Kör Hoj Lökken, Danmark",
+      "name": "Lökkenturen",
       "date": "2026-08-28",
       "dateEnd": "2026-08-30",
       "location": "Lökkens sandstrand, Danmark",
