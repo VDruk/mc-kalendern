@@ -2080,7 +2080,8 @@ const EVENTS_DATA = {
                                                   "url": "https://www.google.com/maps/search/?api=1&query=Sulas+MC%2C+S%C3%A4va+17%2C+Uppsala",
                                                   "type": "map"
                                         }
-                              ]
+                              ],
+                              "backImage": "ads/sulas-mc-kladesrea-back-2026-03-27.jpg"
                     },
                     {
                               "id": "tjejkvall-handelsboden-vasteras-2026-03-27",
@@ -4540,6 +4541,7 @@ const EVENTS_DATA = {
                               "location": "Arken, Värnamo",
                               "type": "Träff",
                               "organizer": "Con Dios MC",
+                              "organizerIcon": "clubs/normalized/con-dios-mc.png",
                               "description": "Tre dagars träff för kristna bikers och alla MC-intresserade i Värnamo. Gemenskap, gudstjänst, gemensamma måltider och en fin MC-runda. Övernattning i Arken eller hotell.",
                               "descriptionFull": "24-26 april är det dags igen för träffen Tillsammans med kristna bikers.\n\nVi hoppas att just DU kommer till Värnamo. Det spelar ingen roll om du är med i en klubb eller är friåkare, grussprättare eller asfaltsåkare, nyfiken på vem Jesus är eller kan Bibeln utantill.\n\nVi träffas och umgås, firar gudstjänst, äter tillsammans och förhoppningsvis åker en fin runda.\n\nSöker du nya vänner så är chansen stor att du lyckas.\n\nDet finns möjlighet att övernatta i Arken eller på hotell i närheten.\n\nAnmäl dig via länken!",
                               "frontImage": "ads/tillsammans-varnamo-front-2026-04-24.jpg",
@@ -6014,6 +6016,7 @@ const EVENTS_DATA = {
                               "location": "Kärda, Värnamo",
                               "type": "Körning",
                               "organizer": "Con Dios MC",
+                              "organizerIcon": "clubs/normalized/con-dios-mc.png",
                               "description": "Säsongsöppning med Con Dios MC! En gemensam MC-tur för att starta körsäsongen. Alla är välkomna oavsett klubb eller märke.",
                               "descriptionFull": "Fire Up arrangeras av Con Dios MC.\n\nSäsongsöppning med gemensam MC-tur i Småland. Samling i Kärda utanför Värnamo.\n\nAlla är välkomna oavsett om du är med i en klubb eller kör på egen hand. Con Dios MC är en klubb för bikers med kristen grundsyn, men alla som gillar att köra är välkomna att hänga med.\n\nKolla Con Dios hemsida eller Facebook för aktuella tider och detaljer.",
                               "links": [
@@ -7159,6 +7162,7 @@ const EVENTS_DATA = {
                               "location": "Rydaholm, Värnamo",
                               "type": "Körning",
                               "organizer": "Con Dios MC",
+                              "organizerIcon": "clubs/normalized/con-dios-mc.png",
                               "description": "Poker Run med Con Dios MC. Kör mellan stationer och samla spelkort. Bästa pokerhanden vinner! Alla välkomna.",
                               "descriptionFull": "Poker Run arrangeras av Con Dios MC.\n\nKlassisk Poker Run genom Småland. Kör mellan olika stationer och dra ett spelkort vid varje stopp. Den med bästa pokerhanden i mål vinner priser.\n\nAlla är välkomna oavsett klubbtillhörighet. Kolla Con Dios hemsida eller Facebook för startplats, tider och startavgift.",
                               "links": [
@@ -13344,6 +13348,7 @@ const EVENTS_DATA = {
                               "location": "Kronoberg",
                               "type": "Träff",
                               "organizer": "Con Dios MC",
+                              "organizerIcon": "clubs/normalized/con-dios-mc.png",
                               "description": "Träff med kristna bikers. Gemenskap, mat och MC-prat i avslappnad miljö. Alla välkomna!",
                               "descriptionFull": "Djurspaträffen arrangeras av Con Dios MC.\n\nEn sommarträff för bikers i Kronoberg. Gemenskap, mat och MC-prat.\n\nAlla är välkomna oavsett klubb eller märke. Kolla Con Dios hemsida eller Facebook för plats och tider.",
                               "links": [
@@ -17677,7 +17682,8 @@ const EVENTS_DATA = {
                               "dateEnd": "2026-08-09",
                               "location": "Finland",
                               "type": "Träff",
-                              "organizer": "European Motorcyclists for Christ",
+                              "organizer": "EMC / Con Dios MC",
+                              "organizerIcon": "clubs/normalized/con-dios-mc.png",
                               "description": "Europeiskt MC-rally för kristna bikers i Finland. EMC samlar bikers från hela Europa till gemenskap, körning och gudstjänst.",
                               "descriptionFull": "EMC Rally 2026 hålls i Finland.\n\nEMC (European Motorcyclists for Christ) samlar kristna bikers från hela Europa till ett årligt rally som arrangeras i olika länder. 2026 är det Finlands tur.\n\nRallyt pågår 6-9 augusti och innehåller gemensamma MC-turer, gudstjänster, musik och gemenskap.\n\nMer info på emcrally.com och Con Dios MC:s hemsida.",
                               "links": [
@@ -21314,6 +21320,7 @@ const EVENTS_DATA = {
                               "location": "Årpavagen, Rydaholm",
                               "type": "Träff",
                               "organizer": "Con Dios MC",
+                              "organizerIcon": "clubs/normalized/con-dios-mc.png",
                               "description": "Con Dios MC firar 20 år! Boka 12 september redan nu. Mer information kommer när det närmar sig. Alla välkomna!",
                               "descriptionFull": "Con Dios MC firar sitt 20-årsjubileum den 12 september 2026.\n\nBoka datumet redan nu! Mer information om plats och program fylls på när det närmar sig.\n\nCon Dios MC är en klubb för bikers med en kristen grundsyn. Alla som vill är välkomna att hänga med.\n\nAutumn Run ingår i firandet.\n\nMer info: condiosmc.com",
                               "frontImage": "ads/condiosmc-20ar-front-2026-09-12.jpg",
