@@ -2456,7 +2456,8 @@ const EVENTS_DATA = {
                               ],
                               "link": "https://www.facebook.com/groups/642063332540047",
                               "region": "Stockholm",
-                              "source": "facebook.com"
+                              "source": "facebook.com",
+                              "backImage": "ads/vulcan-riders-pubkvall-back-2026-03-28.jpg"
                     },
                     {
                               "id": "ttc-årsmöte-smc-dalarna-2026",
