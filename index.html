@@ -2455,6 +2455,8 @@ function updateDrawer() {
   const body = document.getElementById('drawerBody');
   if (favorites.length === 0) {
     body.innerHTML = '<div class="drawer-empty">Tryck på stjärnan på ett evenemang för att spara det här.</div>';
+    const icsTextEmpty = document.getElementById('icsDownloadText');
+    if (icsTextEmpty) icsTextEmpty.textContent = 'Ladda ner evenemang (.ics)';
     return;
   }
   const allEvents = EVENTS_DATA.events;
