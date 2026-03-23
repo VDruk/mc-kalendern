@@ -2257,6 +2257,24 @@ const EVENTS_DATA = {
       "backImage": "ads/tjejkvall-handelsboden-back-2026-03-27.jpg"
     },
     {
+      "id": "haubits-mc-barhang-finspang-2026-03-27",
+      "name": "Barhäng",
+      "date": "2026-03-27",
+      "dateEnd": "2026-03-27",
+      "location": "Finspång",
+      "type": "Fest",
+      "organizer": "Haubits MC",
+      "description": "Välkommen på barhäng för att fira in våren! Kl 19 öppnar dörrarna, stänger kl 02. Endast SBM och inbjudna gäster.",
+      "descriptionFull": "Hallå kamrater! Vi tänkte ha ett litet barhäng på fredag för att fira in våren. Kl 19 öppnar vi dörrarna. Endast SBM och inbjudna gäster – så på med vårjackan och kom och umgås med oss. Ha det gött i solen sålänge och akta rullgruset på vägarna. L&R / Haubits MC",
+      "links": [
+        { "label": "Facebook", "url": "https://www.facebook.com/HaubitsMC" }
+      ],
+      "link": "https://www.facebook.com/HaubitsMC",
+      "region": "Östergötland",
+      "source": "facebook.com",
+      "backImage": "ads/haubits-mc-barhang-back-2026-03-27.jpg"
+    },
+    {
       "id": "ava-mc-dagen-gustavsberg-2026",
       "name": "AVA MC Dagen",
       "date": "2026-03-28",
