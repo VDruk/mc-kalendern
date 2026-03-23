@@ -281,6 +281,14 @@
   .share-btn:hover { border-color: var(--text-muted); }
   .share-btn svg { width: 16px; height: 16px; }
   #shareFb svg { width: 18px; height: 18px; }
+  .tipsa-circle-btn {
+    width: 32px; height: 32px; border-radius: 50%;
+    border: 1px solid var(--accent); background: var(--accent);
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: all var(--transition); color: #fff;
+  }
+  .tipsa-circle-btn:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+  .tipsa-circle-btn svg { width: 18px; height: 18px; }
 
   /* ========== MAIN GRID ========== */
   .main-content {
@@ -999,14 +1007,7 @@
 <div class="filters-wrapper" id="filtersWrapper">
   <div class="filters-inner">
     <div class="filter-row filter-row-desktop">
-      <div class="filter-group">
-        <button class="type-btn active" data-type="all">Alla</button>
-        <button class="type-btn" data-type="Körning">Körning</button>
-        <button class="type-btn" data-type="Träff">Träff</button>
-        <button class="type-btn" data-type="Racing">Racing</button>
-        <button class="type-btn" data-type="Fest">Fest</button>
-        <button class="type-btn" data-type="Show">Show</button>
-      </div>
+      <button class="type-btn active" data-type="all">Alla</button>
       <select class="filter-select" id="regionFilter" aria-label="Filtrera efter region">
         <option value="all">Alla regioner</option>
       </select>
@@ -1016,6 +1017,14 @@
       <select class="filter-select" id="organizerFilter" aria-label="Filtrera efter arrangör">
         <option value="all">Alla arrangörer</option>
       </select>
+      <select class="filter-select" id="typeFilter" aria-label="Filtrera efter typ">
+        <option value="all">Alla typer</option>
+        <option value="Körning">Körning</option>
+        <option value="Träff">Träff</option>
+        <option value="Racing">Racing</option>
+        <option value="Fest">Fest</option>
+        <option value="Show">Show</option>
+      </select>
       <div class="filter-spacer"></div>
       <div class="toggle-wrap">
         <span class="toggle-label">Visa passerade</span>
@@ -1024,14 +1033,6 @@
     </div>
     <div class="filter-row filter-row-mobile">
       <button class="type-btn active" data-type="all">Alla</button>
-      <select class="filter-select" id="typeFilterMobile" aria-label="Filtrera efter typ">
-        <option value="all">Alla typer</option>
-        <option value="Körning">Körning</option>
-        <option value="Träff">Träff</option>
-        <option value="Racing">Racing</option>
-        <option value="Fest">Fest</option>
-        <option value="Show">Show</option>
-      </select>
       <select class="filter-select" id="regionFilterMobile" aria-label="Filtrera efter region">
         <option value="all">Alla regioner</option>
       </select>
@@ -1040,6 +1041,14 @@
       </select>
       <select class="filter-select" id="organizerFilterMobile" aria-label="Filtrera efter arrangör">
         <option value="all">Alla arrangörer</option>
+      </select>
+      <select class="filter-select" id="typeFilterMobile" aria-label="Filtrera efter typ">
+        <option value="all">Alla typer</option>
+        <option value="Körning">Körning</option>
+        <option value="Träff">Träff</option>
+        <option value="Racing">Racing</option>
+        <option value="Fest">Fest</option>
+        <option value="Show">Show</option>
       </select>
     </div>
     <div class="filter-row filter-row-bottom">
@@ -1052,6 +1061,9 @@
         </button>
         <button class="share-btn" id="shareX" title="Dela på X">
           <svg viewBox="0 0 24 24" fill="#1a1d23"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </button>
+        <button class="tipsa-circle-btn" id="tipsaCircleBtn" title="Tipsa om ett evenemang">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
         </button>
       </div>
     </div>
@@ -2058,6 +2070,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('regionFilter').value = 'all';
     document.getElementById('monthFilter').value = 'all';
     document.getElementById('organizerFilter').value = 'all';
+    const tf = document.getElementById('typeFilter');
+    if (tf) tf.value = 'all';
     const tfm = document.getElementById('typeFilterMobile');
     if (tfm) tfm.value = 'all';
     const rfm = document.getElementById('regionFilterMobile');
@@ -2073,23 +2087,26 @@ document.addEventListener('DOMContentLoaded', () => {
     if (sc) { sc.classList.remove('visible'); }
   }
 
-  // Type filter buttons
-  document.querySelectorAll('.type-btn').forEach(btn => {
+  // "Alla" reset button (both desktop and mobile)
+  document.querySelectorAll('.type-btn[data-type="all"]').forEach(btn => {
     btn.addEventListener('click', () => {
-      const type = btn.dataset.type;
-      if (type === 'all') {
-        resetAllFilters();
-      } else {
-        currentFilter = type;
-        document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const tfm = document.getElementById('typeFilterMobile');
-        if (tfm) tfm.value = type;
-      }
+      resetAllFilters();
       updateAllaBtn();
       render();
     });
   });
+
+  // Type filter dropdown (desktop)
+  const typeDesktop = document.getElementById('typeFilter');
+  if (typeDesktop) {
+    typeDesktop.addEventListener('change', e => {
+      currentFilter = e.target.value;
+      const tfm = document.getElementById('typeFilterMobile');
+      if (tfm) tfm.value = e.target.value;
+      updateAllaBtn();
+      render();
+    });
+  }
 
   // Organizer filter (desktop)
   document.getElementById('organizerFilter').addEventListener('change', e => {
@@ -2116,9 +2133,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typeMobile) {
     typeMobile.addEventListener('change', e => {
       currentFilter = e.target.value;
-      document.querySelectorAll('.filter-row-desktop .type-btn').forEach(b => b.classList.remove('active'));
-      const matchBtn = document.querySelector('.filter-row-desktop .type-btn[data-type="' + e.target.value + '"]');
-      if (matchBtn) matchBtn.classList.add('active');
+      const tf = document.getElementById('typeFilter');
+      if (tf) tf.value = e.target.value;
       updateAllaBtn();
       render();
     });
@@ -2232,6 +2248,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Tipsa modal
   document.getElementById('tipsaBtn').addEventListener('click', () => {
+    document.getElementById('tipsaModal').classList.add('open');
+  });
+  document.getElementById('tipsaCircleBtn').addEventListener('click', () => {
     document.getElementById('tipsaModal').classList.add('open');
   });
   document.getElementById('tipCancel').addEventListener('click', () => {
