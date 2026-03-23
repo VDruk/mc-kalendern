@@ -1155,12 +1155,15 @@ const MONTHS_SHORT = ['JAN','FEB','MAR','APR','MAJ','JUN','JUL','AUG','SEP','OKT
 
 const CLUB_MATCHERS = {
   'BMW MC-klubben': org => org.startsWith('BMW MC-klubben'),
-  'GWCS': org => org.includes('GWCS') || org.includes('GoldWing Club Sweden'),
-  'H-DCS': org => org === 'H-DCS' || org === 'Harley-Davidson Club Sweden',
-  'ÖAMCK': org => org === 'ÖAMCK' || org === 'OAMCK',
-  'SMC': org => org.includes('SMC'),
-  'SVEMO': org => org.includes('SVEMO') || org.includes('Svemo') || org.includes('MXSM') || org.includes('JSM') || org.includes('USM'),
-  'JMC': org => org.includes('JMC')
+  'Con Dios MC':    org => org.includes('Con Dios'),
+  'GWCS':           org => org.includes('GWCS') || org.includes('GWCN') || org.includes('GWEF') || org.includes('GWEU') || org.includes('GoldWing') || org.includes('Gold Wing') || org.includes('Wingarna'),
+  'H-DCS':          org => org.includes('H-DCS') || org.includes('Harley') || (org.startsWith('H-D') && org !== 'H-D Store Linköping'),
+  'JMC':            org => org.includes('JMC'),
+  'MCE':            org => org.startsWith('MCE'),
+  'MCHK':           org => org.startsWith('MCHK'),
+  'ÖAMCK':          org => org === 'ÖAMCK' || org === 'OAMCK' || org === 'MC-ordonnans',
+  'SMC':            org => org.includes('SMC') && org !== 'ÖAMCK' && org !== 'OAMCK' && org !== 'MC-ordonnans',
+  'SVEMO':          org => org.includes('SVEMO') || org.includes('Svemo') || org.includes('MXSM') || org.includes('JSM') || org.includes('USM'),
 };
 
 const TYPE_CLASSES = {
@@ -1241,38 +1244,47 @@ function updateFab() {
 }
 
 // ========== REGION FILTER ==========
-const COUNTRIES = ['Danmark', 'Finland', 'Norge', 'Spanien', 'Sverige', 'Tjeckien'];
+// Hard-coded list of valid Swedish districts (with correct Swedish characters).
+// NEVER build this from event data - that would let typos appear in the dropdown.
+const SWEDISH_DISTRICTS = [
+  'Blekinge','Dalarna','Gotland','Gävleborg','Halland','Jämtland',
+  'Jönköping','Kalmar','Kronoberg','Norrbotten','Skåne','Stockholm',
+  'Södermanland','Uppsala','Värmland','Västerbotten','Västernorrland',
+  'Västmanland','Västra Götaland','Örebro','Östergötland'
+];
+const COUNTRIES = ['Danmark','Finland','Norge','Spanien','Sverige','Tjeckien'];
+
 function buildRegionFilter() {
-  const regionSet = new Set();
-  const countrySet = new Set();
-  EVENTS_DATA.events.forEach(e => {
+  // Count events per region to only show districts that have at least one event
+  const regionCounts = {};
+  EVENTS_DATA.events.filter(e => !e._canary && !e._ad).forEach(e => {
     if (!e.region) return;
     const regions = Array.isArray(e.region) ? e.region : [e.region];
-    regions.forEach(r => {
-      if (COUNTRIES.includes(r)) countrySet.add(r);
-      else regionSet.add(r);
-    });
+    regions.forEach(r => { regionCounts[r] = (regionCounts[r] || 0) + 1; });
   });
-  const regions = [...regionSet].sort((a, b) => a.localeCompare(b, 'sv'));
-  const countries = [...countrySet].sort((a, b) => a.localeCompare(b, 'sv'));
+
   const sel = document.getElementById('regionFilter');
-  regions.forEach(r => {
+  // Only show districts that actually have events, in correct Swedish alphabetical order
+  const activeDistricts = SWEDISH_DISTRICTS.filter(r => regionCounts[r]);
+  activeDistricts.forEach(r => {
     const opt = document.createElement('option');
     opt.value = r; opt.textContent = r;
     sel.appendChild(opt);
   });
-  if (countries.length > 0) {
+  // Countries below a separator, only if they have events
+  const activeCountries = COUNTRIES.filter(c => regionCounts[c]);
+  if (activeCountries.length > 0) {
     const sep = document.createElement('option');
     sep.disabled = true; sep.textContent = '────────────';
     sel.appendChild(sep);
-    countries.forEach(c => {
+    activeCountries.forEach(c => {
       const opt = document.createElement('option');
       opt.value = c; opt.textContent = c;
       sel.appendChild(opt);
     });
   }
-  // Update hero stat with actual region count
-  document.getElementById('statRegions').textContent = regions.length;
+  // Update hero stat with number of active Swedish districts
+  document.getElementById('statRegions').textContent = activeDistricts.length;
 
   // Populate month filter
   const MONTH_NAMES = ['','Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'];
@@ -1289,21 +1301,35 @@ function buildRegionFilter() {
     monthSel.appendChild(opt);
   });
 
-  // Populate organizer filter (top organizers by event count)
-  const orgCounts = {};
-  EVENTS_DATA.events.filter(e => !e._canary && !e._ad).forEach(e => {
-    if (e.organizer) orgCounts[e.organizer] = (orgCounts[e.organizer] || 0) + 1;
+  // Populate organizer filter using CLUB_MATCHERS parent groups + standalone orgs
+  const realEvts = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
+
+  // Count events per CLUB_MATCHERS group
+  const groupEntries = Object.entries(CLUB_MATCHERS).map(([key, matcher]) => {
+    const count = realEvts.filter(e => matcher(e.organizer || '')).length;
+    return [key, count];
+  }).filter(([, count]) => count > 0).sort((a, b) => b[1] - a[1]);
+
+  // Also find standalone organizers not covered by any CLUB_MATCHER group, with 3+ events
+  const matchedByAny = org => Object.values(CLUB_MATCHERS).some(m => m(org));
+  const standaloneOrgs = {};
+  realEvts.forEach(e => {
+    const org = e.organizer || '';
+    if (org && !matchedByAny(org)) standaloneOrgs[org] = (standaloneOrgs[org] || 0) + 1;
   });
-  const topOrgs = Object.entries(orgCounts)
-    .sort((a, b) => b[1] - a[1])
-    .filter(([, count]) => count >= 3);
+  const standaloneEntries = Object.entries(standaloneOrgs)
+    .filter(([, count]) => count >= 3)
+    .sort((a, b) => b[1] - a[1]);
+
+  const allOrgEntries = [...groupEntries, ...standaloneEntries];
+
   const orgSels = [document.getElementById('organizerFilter'), document.getElementById('organizerFilterMobile')];
   orgSels.forEach(orgSel => {
     if (!orgSel) return;
-    topOrgs.forEach(([org, count]) => {
+    allOrgEntries.forEach(([key, count]) => {
       const opt = document.createElement('option');
-      opt.value = org;
-      opt.textContent = org + ' (' + count + ')';
+      opt.value = key;
+      opt.textContent = key + ' (' + count + ')';
       orgSel.appendChild(opt);
     });
   });
@@ -1708,7 +1734,8 @@ function render() {
     if (CLUB_MATCHERS[currentClub]) {
       events = events.filter(e => CLUB_MATCHERS[currentClub](e.organizer || ''));
     } else {
-      events = events.filter(e => e.organizer === currentClub);
+      // Standalone organizer: substring match so variants are included
+      events = events.filter(e => (e.organizer || '').includes(currentClub));
     }
   }
   if (currentRegion !== 'all') events = events.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
