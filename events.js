@@ -881,7 +881,7 @@ const EVENTS_DATA = {
       "name": "Sörmlandswingarnas fikaträff",
       "date": "2026-03-15",
       "dateEnd": "2026-03-15",
-      "location": "Sigridslunds Cafe, Ardala",
+      "location": "Sigridslunds Cafe, Årdala",
       "type": "Träff",
       "organizer": "Sörmlandswingarna / GWCS",
       "description": "Träffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!",
@@ -900,19 +900,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "gwcs-mars-2026-2026",
-      "name": "mars 2026",
-      "date": "2026-03-15",
-      "dateEnd": "2026-03-15",
-      "location": "mars 2026",
-      "type": "Träff",
-      "organizer": "GoldWing Club Sweden",
-      "description": "mars 2026",
-      "link": "https://gwcs.se/events/sormlandswingarnas-fikatraff-sigridslunds-cafe-2/?occurrence=2026-03-15",
-      "region": "Sverige",
-      "source": "gwcs.se"
     },
     {
       "id": "doa-tisdagslunch-2026-03-17",
@@ -3747,7 +3734,7 @@ const EVENTS_DATA = {
       "name": "Sörmlandswingarnas Medlemsmöte",
       "date": "2026-04-12",
       "dateEnd": "2026-04-12",
-      "location": "Sigridslunds Cafe, Ardala",
+      "location": "Sigridslunds Cafe, Årdala",
       "type": "Träff",
       "organizer": "Sörmlandswingarna / GWCS",
       "description": "MC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
@@ -4958,19 +4945,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "oamck-dagtouring-2026",
-      "name": "Dagtouring",
-      "date": "2026-04-25",
-      "dateEnd": "2026-04-25",
-      "location": "Lelles MC, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring",
-      "link": "https://oamck.se/events/dagtouring/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
       "id": "kor-hoj-offtrack-kinnekulle-2026-04-25",
       "name": "Kör Hoj Offtrack Kinnekulle",
       "date": "2026-04-25",
@@ -5206,7 +5180,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-dagtouring-apr-2026",
-      "name": "ÖAMCK Dagtouring",
+      "name": "Dagtouring",
       "date": "2026-04-25",
       "dateEnd": "2026-04-25",
       "location": "Lelles MC, Uppsala",
@@ -5216,7 +5190,7 @@ const EVENTS_DATA = {
       "link": "https://oamck.se/events/dagtouring/",
       "region": "Uppsala",
       "source": "oamck.se",
-      "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+      "descriptionFull": "Dagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
       "links": [
         {
           "label": "oamck.se",
@@ -9869,19 +9843,6 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
-      "id": "oamck-dagtouring-2026",
-      "name": "Dagtouring",
-      "date": "2026-05-23",
-      "dateEnd": "2026-05-23",
-      "location": "Lelles MC, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring",
-      "link": "https://oamck.se/events/dagtouring-2/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
       "id": "hdcs-nopla-meeting-2026",
       "name": "H-DCS Noplå Meeting",
       "date": "2026-05-23",
@@ -10150,7 +10111,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-dagtouring-maj-2026",
-      "name": "ÖAMCK Dagtouring",
+      "name": "Dagtouring",
       "date": "2026-05-23",
       "dateEnd": "2026-05-23",
       "location": "Lelles MC, Uppsala",
@@ -10160,7 +10121,7 @@ const EVENTS_DATA = {
       "link": "https://oamck.se/events/dagtouring-2/",
       "region": "Uppsala",
       "source": "oamck.se",
-      "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+      "descriptionFull": "Dagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
       "links": [
         {
           "label": "oamck.se",
@@ -12271,10 +12232,10 @@ const EVENTS_DATA = {
     },
     {
       "id": "gwcs-nationaldagstur-2026",
-      "name": "GWCS Nationaldagstur Sigridslunds Cafe",
+      "name": "Nationaldagstur till Sigridslunds Cafe",
       "date": "2026-06-06",
       "dateEnd": "2026-06-06",
-      "location": "Sigridslunds Cafe, Ardala",
+      "location": "Sigridslunds Cafe, Årdala",
       "type": "Körning",
       "organizer": "Sörmlandswingarna / GWCS",
       "description": "Gemensam körning från Sigridslunds Cafe, Ardala. Samling enligt evenemangsinformation. Alla bikerare välkomna!",
@@ -12459,19 +12420,6 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkommen att köra nationaldagsturen Haninge 2026!\n\nAlla sorters MC får vara med. Sträckningen är knappt 5,5 mil lång och går genom större delen av Haninges vackraste vägar.\n\nStart och mål: GULF Tungelsta. Samling för gemensam avfärd.\n\nTid: Lördag 6 juni kl. 14:00\nPlats: GULF Tungelsta, Södertäljevägen 19, 137 56 Tungelsta."
     },
     {
-      "id": "gwcs-sormlandswingarnas-medlemsmote-2026",
-      "name": "Sörmlandswingarnas Medlemsmöte",
-      "date": "2026-06-06",
-      "dateEnd": "2026-06-06",
-      "location": "Årdala",
-      "type": "Träff",
-      "organizer": "GoldWing Club Sweden",
-      "description": "Sörmlandswingarnas Medlemsmöte",
-      "link": "https://gwcs.se/events/nationaldagstur-till-sigridslunds-cafe/?occurrence=2026-06-06",
-      "region": "Sverige",
-      "source": "gwcs.se"
-    },
-    {
       "id": "tur-till-torsangs-motormuseum-2026",
       "name": "Tur till Torsångs Motormuseum",
       "date": "2026-06-06",
@@ -12526,19 +12474,6 @@ const EVENTS_DATA = {
       "region": "Jönköping",
       "source": "facebook.com",
       "backImage": "ads/jmc-bonspalls-rundan-back-2026-06-07.jpg"
-    },
-    {
-      "id": "oamck-dagtouring-obs-sondag-2026",
-      "name": "Dagtouring OBS Söndag",
-      "date": "2026-06-07",
-      "dateEnd": "2026-06-07",
-      "location": "Lelles MC, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring OBS Söndag",
-      "link": "https://oamck.se/events/dagtouring-obs-sondag/",
-      "region": "Uppsala",
-      "source": "oamck.se"
     },
     {
       "id": "bmw-malaren-runt-fran-balsta-en-svensk-mc-klassiker-2026",
@@ -12619,7 +12554,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-dagtouring-jun-2026",
-      "name": "ÖAMCK Dagtouring (sondag)",
+      "name": "Dagtouring (söndag)",
       "date": "2026-06-07",
       "dateEnd": "2026-06-07",
       "location": "Lelles MC, Uppsala",
@@ -12629,7 +12564,7 @@ const EVENTS_DATA = {
       "link": "https://oamck.se/events/dagtouring-obs-sondag/",
       "region": "Uppsala",
       "source": "oamck.se",
-      "descriptionFull": "ÖAMCK Dagtouring (sondag) arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+      "descriptionFull": "Dagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
       "links": [
         {
           "label": "oamck.se",
@@ -13173,7 +13108,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-vatternrundan-2026",
-      "name": "Vatternrundan (Ordonnanser)",
+      "name": "Vätternrundan (Ordonnanser)",
       "date": "2026-06-12",
       "dateEnd": "2026-06-14",
       "location": "Motala",
@@ -13195,19 +13130,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "oamck-vatternrundan-ordonnanser-2026",
-      "name": "Vätternrundan (Ordonnanser)",
-      "date": "2026-06-12",
-      "dateEnd": "2026-06-14",
-      "location": "Motala",
-      "type": "Träff",
-      "organizer": "MC-ordonnans",
-      "description": "Vätternrundan (Ordonnanser)",
-      "link": "https://oamck.se/events/vatternrundan-ordonnanser-2/",
-      "region": "Östergötland",
-      "source": "oamck.se"
     },
     {
       "id": "bmw-bmwklubben-norge-d8-telemarken-runt-2026",
@@ -15657,19 +15579,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "oamck-dagtouring-2026",
-      "name": "Dagtouring",
-      "date": "2026-07-04",
-      "dateEnd": "2026-07-04",
-      "location": "Lelles MC, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring",
-      "link": "https://oamck.se/events/dagtouring-3/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
       "id": "iron-horse-mc-show-nykoping-2026",
       "name": "Iron Horse MC Show Nyköping",
       "date": "2026-07-04",
@@ -15901,7 +15810,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-dagtouring-jul-2026",
-      "name": "ÖAMCK Dagtouring",
+      "name": "Dagtouring",
       "date": "2026-07-04",
       "dateEnd": "2026-07-04",
       "location": "Lelles MC, Uppsala",
@@ -15911,7 +15820,7 @@ const EVENTS_DATA = {
       "link": "https://oamck.se/events/dagtouring-3/",
       "region": "Uppsala",
       "source": "oamck.se",
-      "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+      "descriptionFull": "Dagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
       "links": [
         {
           "label": "oamck.se",
@@ -16443,7 +16352,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-grillfest-2026",
-      "name": "ÖAMCK Grillfest",
+      "name": "Grillfest",
       "date": "2026-07-11",
       "dateEnd": "2026-07-11",
       "location": "Stangby, Uppsala",
@@ -17613,19 +17522,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "doa-adhd-turen-2026",
-      "name": "DOA – ADHD-turen",
-      "date": "2026-07-31",
-      "dateEnd": "2026-08-02",
-      "location": "Stockholm",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Distrikt A reser till D på vår HD Mer information kommer",
-      "link": "https://hdcs.se/evenemang/doa-tur-till-bisonturen/",
-      "region": "Stockholm",
-      "source": "hdcs.se"
-    },
-    {
       "id": "seskaro-2026",
       "name": "Seskarö",
       "date": "2026-07-31",
@@ -18511,19 +18407,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "oamck-dagtouring-2026",
-      "name": "Dagtouring",
-      "date": "2026-08-08",
-      "dateEnd": "2026-08-08",
-      "location": "Lelles MC, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring",
-      "link": "https://oamck.se/events/dagtouring-4/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
       "id": "fly-n-ride-ljungbyhed-2026",
       "name": "Fly 'N Ride 2026",
       "date": "2026-08-08",
@@ -18686,7 +18569,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-dagtouring-aug-2026",
-      "name": "ÖAMCK Dagtouring",
+      "name": "Dagtouring",
       "date": "2026-08-08",
       "dateEnd": "2026-08-08",
       "location": "Lelles MC, Uppsala",
@@ -18696,7 +18579,7 @@ const EVENTS_DATA = {
       "link": "https://oamck.se/events/dagtouring-4/",
       "region": "Uppsala",
       "source": "oamck.se",
-      "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+      "descriptionFull": "Dagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
       "links": [
         {
           "label": "oamck.se",
@@ -20769,7 +20652,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-kraftkalas-2026",
-      "name": "ÖAMCK Kraftkalas",
+      "name": "Kraftkalas",
       "date": "2026-08-29",
       "dateEnd": "2026-08-29",
       "location": "Stangby, Uppsala",
@@ -21346,19 +21229,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "oamck-dagtouring-2026",
-      "name": "Dagtouring",
-      "date": "2026-09-05",
-      "dateEnd": "2026-09-05",
-      "location": "Lelles MC, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring",
-      "link": "https://oamck.se/events/dagtouring-5/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
       "id": "gokart-2026",
       "name": "Gokart",
       "date": "2026-09-05",
@@ -21485,7 +21355,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-dagtouring-sep-2026",
-      "name": "ÖAMCK Dagtouring",
+      "name": "Dagtouring",
       "date": "2026-09-05",
       "dateEnd": "2026-09-05",
       "location": "Lelles MC, Uppsala",
@@ -21495,7 +21365,7 @@ const EVENTS_DATA = {
       "link": "https://oamck.se/events/dagtouring-5/",
       "region": "Uppsala",
       "source": "oamck.se",
-      "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+      "descriptionFull": "Dagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
       "links": [
         {
           "label": "oamck.se",
@@ -23165,19 +23035,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "oamck-dagtouring-2026",
-      "name": "Dagtouring",
-      "date": "2026-10-03",
-      "dateEnd": "2026-10-03",
-      "location": "Lelles MC, Uppsala",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Dagtouring",
-      "link": "https://oamck.se/events/dagtouring-6/",
-      "region": "Uppsala",
-      "source": "oamck.se"
-    },
-    {
       "id": "medlemsmote-planeringsmote-2027-2026",
       "name": "Medlemsmöte/Planeringsmöte 2027",
       "date": "2026-10-03",
@@ -23204,7 +23061,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-dagtouring-okt-2026",
-      "name": "ÖAMCK Dagtouring",
+      "name": "Dagtouring",
       "date": "2026-10-03",
       "dateEnd": "2026-10-03",
       "location": "Lelles MC, Uppsala",
@@ -23214,7 +23071,7 @@ const EVENTS_DATA = {
       "link": "https://oamck.se/events/dagtouring-6/",
       "region": "Uppsala",
       "source": "oamck.se",
-      "descriptionFull": "ÖAMCK Dagtouring arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
+      "descriptionFull": "Dagstur med ÖAMCK från Lelles MC, Uppsala. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Lelles MC, Uppsala.",
       "links": [
         {
           "label": "oamck.se",
@@ -23307,7 +23164,7 @@ const EVENTS_DATA = {
       "name": "Sörmlandswingarnas Medlemsmöte (host)",
       "date": "2026-10-11",
       "dateEnd": "2026-10-11",
-      "location": "Sigridslunds Cafe, Ardala",
+      "location": "Sigridslunds Cafe, Årdala",
       "type": "Träff",
       "organizer": "Sörmlandswingarna / GWCS",
       "description": "MC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
@@ -23464,7 +23321,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-alandkryss-2026",
-      "name": "Alandkryss med Eckerolinjen (Viltbord)",
+      "name": "Ålandkryss med Eckerölinjen (Viltbord)",
       "date": "2026-10-24",
       "dateEnd": "2026-10-24",
       "location": "Grisslehamn",
@@ -23511,19 +23368,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "oamck-alandkryss-med-eckerolinjen-viltbord-2026",
-      "name": "Ålandkryss med Eckerölinjen ( Viltbord)",
-      "date": "2026-10-24",
-      "dateEnd": "2026-10-24",
-      "location": "Grisslehamn",
-      "type": "Träff",
-      "organizer": "ÖAMCK",
-      "description": "Ålandkryss med Eckerölinjen ( Viltbord)",
-      "link": "https://oamck.se/events/alandkryss-med-eckerolinjen-viltbord/",
-      "region": "Sverige",
-      "source": "oamck.se"
     },
     {
       "id": "doa-tisdagslunch-2026-10-27",
@@ -23805,7 +23649,7 @@ const EVENTS_DATA = {
       "name": "Sörmlandswingarnas fikaträff (host)",
       "date": "2026-11-15",
       "dateEnd": "2026-11-15",
-      "location": "Sigridslunds Cafe, Ardala",
+      "location": "Sigridslunds Cafe, Årdala",
       "type": "Träff",
       "organizer": "Sörmlandswingarna / GWCS",
       "description": "Träffpunkt i Sigridslunds Cafe, Ardala. Gemensam fika och MC-umgänge. Alla välkomna!",
@@ -23852,7 +23696,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "oamck-flipperturnering-2026",
-      "name": "ÖAMCK Flipperturnering",
+      "name": "Flipperturnering",
       "date": "2026-11-21",
       "dateEnd": "2026-11-21",
       "location": "Stangby, Uppsala",
@@ -24043,7 +23887,7 @@ const EVENTS_DATA = {
       "name": "Stor Jultallrik Sigridslunds Cafe",
       "date": "2026-12-06",
       "dateEnd": "2026-12-06",
-      "location": "Sigridslunds Cafe, Ardala",
+      "location": "Sigridslunds Cafe, Årdala",
       "type": "Träff",
       "organizer": "Sörmlandswingarna / GWCS",
       "description": "MC-arrangemang i Sigridslunds Cafe, Ardala. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
@@ -24062,19 +23906,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "gwcs-sormlandswingarnas-medlemsmote-2026",
-      "name": "Sörmlandswingarnas Medlemsmöte",
-      "date": "2026-12-06",
-      "dateEnd": "2026-12-06",
-      "location": "Årdala",
-      "type": "Träff",
-      "organizer": "GoldWing Club Sweden",
-      "description": "Sörmlandswingarnas Medlemsmöte",
-      "link": "https://gwcs.se/events/stor-jultallrik-pa-sigridslunds-cafe/?occurrence=2026-12-06",
-      "region": "Sverige",
-      "source": "gwcs.se"
     },
     {
       "id": "doa-tisdagslunch-2026-12-08",
@@ -24402,4 +24233,4 @@ const EVENTS_DATA = {
       ]
     }
   ]
-};
+}
