@@ -803,18 +803,18 @@
   .drawer-footer {
     padding: 16px 20px; border-top: 1px solid var(--border);
   }
-  .drawer-footer p { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; }
-  .drawer-email-row { display: flex; gap: 8px; }
-  .drawer-email-row input {
-    flex: 1; background: var(--bg-primary); border: 1px solid var(--border);
-    border-radius: var(--radius-sm); color: var(--text-primary);
-    padding: 8px 12px; font-size: 13px; outline: none;
-  }
-  .drawer-email-row input:focus { border-color: var(--accent); }
-  .drawer-email-row button {
-    background: var(--accent); color: #fff; border: none;
-    border-radius: var(--radius-sm); padding: 8px 16px;
+  .drawer-ics-btn {
+    display: flex; align-items: center; gap: 8px;
+    width: 100%; background: var(--accent); color: #fff; border: none;
+    border-radius: var(--radius-sm); padding: 10px 16px;
     font-size: 13px; font-weight: 600; cursor: pointer;
+    transition: background var(--transition);
+  }
+  .drawer-ics-btn:hover { background: var(--accent-hover); }
+  .drawer-ics-btn:disabled { opacity: 0.45; cursor: default; }
+  .drawer-ics-hint {
+    font-size: 11px; color: var(--text-muted);
+    margin-top: 8px; line-height: 1.5;
   }
   .modal-error { color: var(--type-racing); font-size: 12px; margin-top: 6px; }
 
@@ -1123,12 +1123,11 @@
     <div class="drawer-empty">Tryck på stjärnan på ett evenemang för att spara det här.</div>
   </div>
   <div class="drawer-footer">
-    <p>Skicka listan till din e-post:</p>
-    <div class="drawer-email-row">
-      <input type="email" id="reminderEmail" placeholder="din@epost.se">
-      <button id="reminderBtn">Skicka</button>
-    </div>
-    <div class="modal-error" id="drawerError"></div>
+    <button class="drawer-ics-btn" id="downloadIcsBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      Ladda ner kalender (.ics)
+    </button>
+    <p class="drawer-ics-hint">Öppna filen för att lägga till alla sparade evenemang i din kalender (Apple, Google, Outlook).</p>
   </div>
 </div>
 
@@ -2372,24 +2371,60 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Reminder email
-  document.getElementById('reminderBtn').addEventListener('click', async () => {
-    const email = document.getElementById('reminderEmail').value.trim();
-    if (!email) { document.getElementById('drawerError').textContent = 'Ange din e-post.'; return; }
+  // ICS calendar download
+  function generateICS(events) {
+    const stamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+    const lines = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//MC Kalendern//druk.se//SV',
+      'CALSCALE:GREGORIAN',
+      'METHOD:PUBLISH',
+      'X-WR-CALNAME:MC Kalendern - Mina evenemang',
+      'X-WR-TIMEZONE:Europe/Stockholm'
+    ];
+    events.forEach(e => {
+      // DTSTART / DTEND: all-day format YYYYMMDD
+      const start = e.date.replace(/-/g, '');
+      // DTEND in .ics is exclusive (day after last day)
+      const endDate = new Date(e.dateEnd || e.date);
+      endDate.setDate(endDate.getDate() + 1);
+      const end = endDate.toISOString().slice(0, 10).replace(/-/g, '');
+      // Escape commas, semicolons, backslashes, newlines per RFC 5545
+      const esc = s => (s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
+      // Fold long lines at 75 chars per RFC 5545
+      const fold = line => {
+        if (line.length <= 75) return line;
+        let out = '';
+        while (line.length > 75) { out += line.slice(0, 75) + '\r\n '; line = line.slice(75); }
+        return out + line;
+      };
+      lines.push('BEGIN:VEVENT');
+      lines.push(fold(`UID:${e.id}@druk.se`));
+      lines.push(`DTSTAMP:${stamp}`);
+      lines.push(`DTSTART;VALUE=DATE:${start}`);
+      lines.push(`DTEND;VALUE=DATE:${end}`);
+      lines.push(fold(`SUMMARY:${esc(e.name)}`));
+      lines.push(fold(`LOCATION:${esc(e.location)}`));
+      if (e.description) lines.push(fold(`DESCRIPTION:${esc(e.description)}`));
+      lines.push(fold(`URL:${e.link || 'https://druk.se'}`));
+      lines.push('END:VEVENT');
+    });
+    lines.push('END:VCALENDAR');
+    return lines.join('\r\n');
+  }
+
+  document.getElementById('downloadIcsBtn').addEventListener('click', () => {
     const allEvents = EVENTS_DATA.events;
-    const favList = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
-      .map(e => `${e.date}: ${e.name} - ${e.location}`).join('\n');
-    try {
-      await fetch('https://formspree.io/f/mnjgdbkw', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, favorites: favList })
-      });
-      document.getElementById('drawerError').textContent = '';
-      alert('Skickat! Kolla din inkorg.');
-    } catch (err) {
-      document.getElementById('drawerError').textContent = 'Kunde inte skicka.';
-    }
+    const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean);
+    if (!favEvents.length) return;
+    const ics = generateICS(favEvents);
+    const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'mc-evenemang.ics';
+    a.click();
+    URL.revokeObjectURL(a.href);
   });
 
   // Share buttons
