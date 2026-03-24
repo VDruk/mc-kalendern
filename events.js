@@ -8678,7 +8678,7 @@ const EVENTS_DATA = {
                   "organizer": "H-DCS",
                   "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
                   "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-05-16/",
-                  "region": "Stockholm",
+                  "region": "Dalarna",
                   "source": "hdcs.se",
                   "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
                   "links": [
