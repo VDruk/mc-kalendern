@@ -1728,10 +1728,15 @@ function saveWeatherCache(cache) {
 function findCoords(location) {
   if (!location) return null;
   const loc = location.toLowerCase();
+  let best = null;
+  let bestLen = 0;
   for (const [city, coords] of Object.entries(LOCATION_COORDS)) {
-    if (loc.includes(city)) return coords;
+    if (loc.includes(city) && city.length > bestLen) {
+      best = coords;
+      bestLen = city.length;
+    }
   }
-  return null;
+  return best;
 }
 
 async function fetchWeatherForDate(lat, lon, targetDate) {
