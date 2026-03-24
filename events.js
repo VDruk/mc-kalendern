@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-03-23",
+      "lastUpdated": "2026-03-24",
       "events": [
             {
                   "id": "sponsor-bsa-motorcycles-ad-2026",
@@ -678,7 +678,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-03-14/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
+                  "descriptionFull": "Varje lördag med H-DCS.\nKl.10:30 Fika – Biltema\nBiltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet.\nSenast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂\nEller kaffe och 3 kokta korvar 20 kr 🙂\nHoppas vi ses\nHa bäst\nLennart 0722 126 320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -756,7 +756,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/dog-fikafraff-i-falun-2/2026-03-14/",
                   "region": "Dalarna",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOG - Fikafräff i Hedemora arrangeras av H-DCS.\n\nFikafräff på Wahlmans cafe i Hedemora Lördag 10 januari kl. 12.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Wahlmans Cafe, Hedemora.",
+                  "descriptionFull": "Fikafräff på Wahlmans cafe i Hedemora\nLördag 10 januari kl. 12.00\nVälkomna\nBengt Gruvman",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -807,7 +807,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/lob-pubkvall-i-kristianstad/",
                   "region": "Skåne",
                   "source": "hdcs.se",
-                  "descriptionFull": "LOB- Pubkväll i Kristianstad INSTÄLLT arrangeras av H-DCS.\n\nVi ställer in detta evenemang endast 3 som anmält sig Pubkväll i Kristianstad den 14 mars. Vi träffas på O´Learys kl. 17.00.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kristianstad.",
+                  "descriptionFull": "Vi ställer in detta evenemang endast 3 som anmält sig\nPubkväll i Kristianstad den 14 mars. Vi träffas på O´Learys  kl. 17.00. Det är ok att komma tidigare.\nVill ni äta något så löser ni det på plats. O´Learys vill veta hur många vi blir.\nLäser ni detta på webbkalendern så skicka ett SMS till mig på 0705-378815 och skriv hur många ni blir.\nLäser ni det på Facebook så kan ni skriva i kommentars fältet hur många ni blir.\nNi får gärna ta med respektive även om han/hon inte är medlem.\nBehöver inte veta om ni inte kommer 😊\nBesked senast 1/3-26.\nO´Learys ligger vid stora torg, ca 200 m från järnvägsstationen.\nNu hoppas vi på bra uppslutning\nHälsningar\nJan-Inge LOB och Thomas DOB",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -1089,7 +1089,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/do-c-pubkvall-boras-9/",
                   "region": "Västra Götaland",
                   "source": "hdcs.se",
-                  "descriptionFull": "DO-C pubkväll borås arrangeras av H-DCS.\n\nVälkomna alla Boråsare med omnejd! Till pubkväll på Bowlers i Borås för att umgås en stund med gött snack, & !\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Bowlers i Borås, Borås.",
+                  "descriptionFull": "Välkomna alla Boråsare med omnejd!\nTill pubkväll på Bowlers i Borås för att umgås en stund med gött snack, & !\nVäl mött",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -1115,7 +1115,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-harley-night-med-probike-pa-anchor/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Harley Night med ProBike på Anchor arrangeras av H-DCS.\n\nProBike bjuder in till Harley-Night på Pub Anchor 20 mars kl.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Pub Anchor, Stockholm.",
+                  "descriptionFull": "ProBike bjuder in till Harley-Night på Pub Anchor\n20 mars kl. 16:00-20-00\nArtist Janine Nyman",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -1385,7 +1385,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/do-i-grillning-solleftea/",
                   "region": "Västernorrland",
                   "source": "hdcs.se",
-                  "descriptionFull": "DO I Grillning Sollefteå arrangeras av H-DCS.\n\nSom vanligt så inleds våren med grillning i Granvågsniporna. Kom med glatt humör och kläder efter väder.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Granvågsniporna, Sollefteå.",
+                  "descriptionFull": "Som vanligt så inleds våren med grillning i Granvågsniporna. Kom med glatt humör och kläder efter väder. 13-15\nDO I Helen 070-2067637",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -1411,7 +1411,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-03-21/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
+                  "descriptionFull": "Varje lördag med H-DCS.\nKl.10:30 Fika – Biltema\nBiltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet.\nSenast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂\nEller kaffe och 3 kokta korvar 20 kr 🙂\nHoppas vi ses\nHa bäst\nLennart 0722 126 320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -1463,7 +1463,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/lob-pubkvall-malmo/",
                   "region": "Skåne",
                   "source": "hdcs.se",
-                  "descriptionFull": "LOB- Pubkväll Malmö arrangeras av H-DCS.\n\nPubkväll med H-DCS Distrikt B Välkommen till pubkväll med Harley-Davidson Club Sweden - Distrikt B tillsammans med vårt lokala ombud i Malmö.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Babel, Malmö.",
+                  "descriptionFull": "Pubkväll med H-DCS Distrikt B\nVälkommen till pubkväll med Harley-Davidson Club Sweden – Distrikt B tillsammans med vårt lokala ombud i Malmö, Mikael Ågren.\nDatum: Lördag 21 mars\nTid: 18:00\nPlats: Årstiderna i Kockska huset\nAdress: Frans Suellsgatan 3, 211 22 Malmö\n+46 (0)40–230910\ninfo@arstiderna.se\nEndast 3 minuters promenad från Malmö Centralstation.\nFör medlemmar\nAnmälan senast 29 februari\nKvällen är i första hand för våra medlemmar, men i mån av plats är även andra Harley-Davidson-ägare i Malmö med omnejd varmt välkomna.\nFör icke-medlemmar (Harley-Davidson-ägare)\nI mån av plats – anmälan senast 15 mars\nPris: 225:-\nMeny: Wallenbergare\nAllergier eller önskemål om vegetariskt alternativ meddelas senast 15 mars till: info@arstiderna.se\nFör mer information om:\nHarley-Davidson Club Sweden (H-DCS)\nhttps://hdcs.se/om-h-dcs\nH-DCS är en oberoende ideell förening för ägare av Harley-Davidson-motorcyklar i Sverige. Klubben grundades 1970 och är idag världens största Harleyklubb med närmare 8 000 medlemmar, fördelade över 12 distrikt.\nFederation of Harley-Davidson Clubs of Europe (FH-DCE)\nhttps://fhdce.eu\nFH-DCE är den största sammanslutningen av helt oberoende Harley-Davidson-klubbar i världen, med cirka 34 000 medlemmar i omkring 120 klubbar från de flesta europeiska länder.\nVarmt välkomna!\nLO Mikael Ågren +46 (0)705-22 12 06\nDO Thomas Berndtson +46 (0)70-37 88 15",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -1532,7 +1532,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/pubkvall-pa-hamlet-i-linkoping-4/",
                   "region": "Östergötland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Pubkväll på Hamlet i Linköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hamlet, Storgatan 37, Linköping.",
+                  "descriptionFull": "Nu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap.\nHjärtligt välkomna.\nLOJ Peter\nLOJ Staffan",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -1999,7 +1999,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/dob-medlems-kvall-probike-malmo/",
                   "region": "Skåne",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOB- Medlems kväll Probike Malmö arrangeras av H-DCS.\n\nDOB- Medlemskväll Probike Malmö Endast för H-DCS medlemmar har ni respektive som inte är medlem så är de välkomna. Tisdagen den 25 mars kl.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Probike, Malmö.",
+                  "descriptionFull": "DOB- Medlemskväll Probike Malmö\nEndast för H-DCS medlemmar har ni respektive som inte är medlem så är de välkomna.\nOnsdagen den 25 mars kl. 18:00 är det så dags för vår medlems kväll på Probike.\nVi räknar med att hålla på till c:a kl.20:30\nProgram för kvällen:\n\nFrågestund med Dragan\nVår check och vad man behöver tänka på.\nTipspromenad endast för medlemmar\nOch naturligtvis ha en trevlig kväll\n\nFika (bullar, kaffe, läsk) serveras under kvällen.\nFör att fika ska räcka till alla så vill vi veta hur många som kommer. Anmälan enligt nedan. Behöver bara veta antal.\n\nTill mail: hdcs.distriktb@gmail.com\nSMS eller ring till mig 0705378815\nPå FB skriv bara i kommentarsfältet, kommer och antal\n\nUndrar ni något så slå mig gärna en signal 0705–378815\nDO: Thomas Berndtson\nDistriktkassör: Robert Andersson\nDistriktssekreterare: Anders Björk\nLO: Marion Lundblad, Mikael Axelsson, Morton Kofod, Mikael Ågren, Ulf Olsson och Jan-Inge Nilsson",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -2184,7 +2184,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/av-pa-murphys-i-jonkoping/",
                   "region": "Jönköping",
                   "source": "hdcs.se",
-                  "descriptionFull": "PUB-KVÄLL på Murphys i Jönköping arrangeras av H-DCS.\n\nPUB KVÄLL på Murphys fredag 27 mars , Lundströms plats 2 i Jönköping som ligger alldeles vid Resecenrum.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Murphys Jönköping, Jönköping.",
+                  "descriptionFull": "PUB KVÄLL på Murphys fredag 27 mars , Lundströms plats 2 i Jönköping som ligger alldeles vid Resecentrum.\nAW buffé serveras från kl 17, 260kr inkl 1 dryck, 220kr alkoholfritt alternativ.\n\n\n\nAnmälan senast 22 mars till mig 0734-366323 eller LO Peter 0708-451789.\n\n\n\nVill man bara ta något att dricka och tjöta lite är det bara att glida in.\n\n\n\nVäl mött Bjarne & Peter",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -2210,7 +2210,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/pubkvall-pa-cromwell-house-i-norrkoping-3/",
                   "region": "Östergötland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Pubkväll på Cromwell House i Norrköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Cromwell House, Kungsgatan 36, Norrköping.",
+                  "descriptionFull": "Nu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap.\nHjärtligt välkomna.\nLOJ Christer",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -2395,7 +2395,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-03-28/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
+                  "descriptionFull": "Varje lördag med H-DCS.\nKl.10:30 Fika – Biltema\nBiltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet.\nSenast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂\nEller kaffe och 3 kokta korvar 20 kr 🙂\nHoppas vi ses\nHa bäst\nLennart 0722 126 320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -2496,7 +2496,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/lob-ulf-pub-kvall-med-tura/",
                   "region": "Skåne",
                   "source": "hdcs.se",
-                  "descriptionFull": "PUB kväll med tura arrangeras av H-DCS Distrikt B.\n\nVi träffas vid terminalen i Helsingborg och åker med färjan Aurora kl 17:00. Vi håller till i loungen som rymmer 30 personer, först till kvarn!\n\nPaketpris: Räkmacka med dryck 129 kr, eller 3 små smörrebröd med dryck 119 kr. Man kan också äta i restaurangen och sedan komma till loungen.\n\nFöranmälan krävs. Kontakta LO Uffe Olsson, SMS 0705-304458 eller ulf57olsson@outlook.com.",
+                  "descriptionFull": "LOB- Ulf PUB kväll med tura\nDen 28/3 är det dags för en PUB tura Helsingborg/Helsingör.\nVi träffas vid terminalen och åker med färjan Aurora kl 17:00.\nVi ska hålla till i loungen som rymmer 30 pers så först till mölle som danskarna säger.\nPaketpris:\n\nRäkmacka med dryck, öl, vin eller någon alkoholfri dryck. 129 kr\n3 små smörrebröd med dryck, öl, vin eller någon alkoholfri dryck. 119 kr\n\nÄr det inget ovan som faller i smaken kan ni själv boka och äta i restaurangen och sen komma till loungen och fortsätta kvällen.\nVi vill ha föranmälan till denna PUB kväll med önskemål om man vill ha räkmacka eller smörrebrö.\nKontakta LO Uffe (Dino) Olsson på SMS 0705-304458 eller på mail ulf57olsson@outlook.com\nVäl mött\nLO Uffe (Dino) Olsson\nDO Thomas Berndtson",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -3107,7 +3107,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-04/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
+                  "descriptionFull": "Varje lördag med H-DCS.\nKl.10:30 Fika – Biltema\nBiltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet.\nSenast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂\nEller kaffe och 3 kokta korvar 20 kr 🙂\nHoppas vi ses\nHa bäst\nLennart 0722 126 320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -3185,7 +3185,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/hakan-w-pask-rundan/",
                   "region": "Skåne",
                   "source": "hdcs.se",
-                  "descriptionFull": "Påsk rundan med Håkan Warnemyr 5/4 arrangeras av H-DCS.\n\nPåsk rundan 5/4 Även i år tar Håkan Warnemyr ut oss på en härlig runda.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Staffanstorp.",
+                  "descriptionFull": "Påsk rundan 5/4\nÄven i år tar Håkan Warnemyr ut oss på en härlig runda.\nVi samlas vid CirkleK i Staffanstorp, avfärd kl 11, fulltankad och nykissad, så kom i god tid.\nRundan är drygt 15 mil med ett stopp halvvägs nere i Ystad där det finns möjlighet att enkelt sträcka på benen och ta en medhavd fika. Vi kommer att köra på härliga vägar, inte grus, och avslutar rundan i Lund vid Biltema.\nVi hoppas att några av våra nya medlemmar kommer med och då kan det vara bra att ta en titt i hur vi kör kortege, info finns på https://hdcs.se/om-h-dcs/kortegekorning/ om just kortegekörning.\nOm det är lite tuffare väder så kommer rundan att kortas ner till ca hälften men fortfarande med samma start och mål-plats.\nHoppas vi ses\nHåkan och Thomas DOB",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -3505,7 +3505,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-11/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
+                  "descriptionFull": "Varje lördag med H-DCS.\nKl.10:30 Fika – Biltema\nBiltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet.\nSenast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂\nEller kaffe och 3 kokta korvar 20 kr 🙂\nHoppas vi ses\nHa bäst\nLennart 0722 126 320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -3531,7 +3531,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-pubkvall-ekero-4/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Pubkväll Ekerö arrangeras av H-DCS.\n\nPubkväll på Lilla Venedig, Mälarö torg, Ekerö C För er som inte bor på någon av öarna tar ni er hit med SL-kort via.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Lilla Venedig, Mälarö torg 9, Ekerö.",
+                  "descriptionFull": "Pubkväll på Lilla Venedig, Mälarö torg, Ekerö C\nFör er som inte bor på någon av öarna tar ni er hit med SL-kort via:\n\nBuss 177 och 178 från Brommaplan till Ekerö C varje kvart.\nBåt från stadshuset, Klara Mälarstrand, linje 89 går kl.15:50 och är i Tappström kl.16:45, då hinner man se lite av Ekerö C innan pubkvällen.\n\nHem tar man bussen till Brommaplan som går varje kvart.\nAnmälan till Lennart på 0722-126320 så han kan boka bord så alla får plats.",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -4176,7 +4176,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-18/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
+                  "descriptionFull": "Varje lördag med H-DCS.\nKl.10:30 Fika – Biltema\nBiltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet.\nSenast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂\nEller kaffe och 3 kokta korvar 20 kr 🙂\nHoppas vi ses\nHa bäst\nLennart 0722 126 320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -4277,7 +4277,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/medlemsmote-i-distrikt-f-med-quiz-och-bowling/",
                   "region": "Örebro",
                   "source": "hdcs.se",
-                  "descriptionFull": "Medlemsmöte i distrikt F med Quiz och Bowling arrangeras av H-DCS.\n\nEfter några ändringar av dag så är det bestämt att NU KÖR VI!Närmare bestämt lördag 18/4 på Main Event i Lindesberg.Vi samlas ca 16.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Main Event Lindesberg, Lindesberg.",
+                  "descriptionFull": "Efter några ändringar av dag så är det bestämt att NU KÖR VI!Närmare bestämt lördag 18/4 på Main Event i Lindesberg.Vi samlas ca 16.00, och börjar mötet ca 16.30, ca18.00ska jag plåga er med ett av mina ökända quiz, ca 18.30 blir det matoch 19.30 när vi är mätta, belåtna och lagom mjuka i kropparna bowlar vi.www.mainevent.se/lindesbergLämpliga boenden hittar ni på www.trivago.seBl.a. finns Lindesbergs Hotell och Lindesbergs Stadshotell.Missa inte chansen att få ert namn på distrikt F:s vandringspokal\"för exceptionella färdigheter utöver det vanliga\"En kombo av bowling och Quiz utser en vinnare som väljer förstfrån ett dignande prisbord.De tre första som anländer på MC får en fribiljett till American dayswww.americandays.se Kommer det fler samtidigt så lottar vi friplåtarna.",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -4303,7 +4303,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/pubkvall-pa-hamlet-i-linkoping-5/",
                   "region": "Östergötland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Pubkväll på Hamlet i Linköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hamlet, Storgatan 37, Linköping.",
+                  "descriptionFull": "Nu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap.\nHjärtligt välkomna.\nLOJ Peter\nLOJ Staffan",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -4701,7 +4701,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-04-23/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -4904,7 +4904,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/pubkvall-pa-cromwell-house-i-norrkoping-4/",
                   "region": "Östergötland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Pubkväll på Cromwell House i Norrköping arrangeras av H-DCS.\n\nNu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap. Hjärtligt välkomna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Cromwell House, Kungsgatan 36, Norrköping.",
+                  "descriptionFull": "Nu är det åter dags för en trevlig pubkväll med lite mat och dryck samt trevligt sällskap.\nHjärtligt välkomna.\nLOJ Christer",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -5032,7 +5032,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-lordagsfika-pa-biltema/2026-04-25/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Lördagsfika på Biltema arrangeras av H-DCS.\n\nVarje lördag med H-DCS. Kl.10:30 Fika - Biltema Biltema Haninge var mycket populärt förra vintersäsongen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Biltema, Haninge.",
+                  "descriptionFull": "Varje lördag med H-DCS.\nKl.10:30 Fika – Biltema\nBiltema Haninge var mycket populärt förra vintersäsongen, men kan fungera på alla Biltema i distriktet.\nSenast kostade kaffe med bulle, dricka och korv totalt 30 kr 🙂\nEller kaffe och 3 kokta korvar 20 kr 🙂\nHoppas vi ses\nHa bäst\nLennart 0722 126 320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -5084,7 +5084,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doe-medlemsmote-25-26-april/",
                   "region": "Östergötland",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOE Medlemsmöte 25-26 april arrangeras av H-DCS.\n\nMedlemsmöte på Asa vandrarhem 25 - 26 april 2026 Välkomna till vårens medlemsmöte på Asa Vandrarhem som ligger ca 15 km öster om Lammhult.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
+                  "descriptionFull": "Medlemsmöte på Asa vandrarhem 25 – 26 april 2026\nVälkomna till vårens medlemsmöte på Asa Vandrarhem som ligger ca 15 km öster\nom Lammhult. https://asa-vandrarhem.se/\nVi börjar med medlemsmötet och efter det så tar vi lite kaffe och macka för att orka\nmed lekar och annat skoj. På kvällen lagar vi mat tillsammans och festligheterna\nfortsätter för alla som stannar kvar på detta.\nUtlottning av en service på hojen till tjejträffen i Moheda den 12 september, du som ej\nkan vara med på mötet kan mejla till sandra_tess@hotmail.com och anmäla att du\nvill vara med på utlottningen senast 19 april 2026!!\nUtlottning av biljetter till American Days 4 – 7 juli på Öland, du som ej kan vara med\npå mötet kan mejla doe@hdcs.se och anmäla att du vill vara med på utlottningen\nsenast 19 april 2026!!\nVi kommer att ha försäljning av öl/vin/cider till bra priser så långt lagret räcker. Det är\nok att ha med sig egen dricka om man nu vill det.\nÖvernattning i sängar finns för oss som vill sova över till en kostnad av 200 kr/person\ninkl. frukost. Medtag egna sänglinne alternativt hyr du för 125 kr/set SOVSÄCK ÄR EJ TILLÅTET!! \nAnmäl dig senast 15 april med namn via mejl till doe@hdcs.se!\n1. Kommer på mötet\n2. Äter middag på kvällen. (uppge om du är vegetarian eller allergisk mot något)\n3. Sover över.\nLite hålltider.\nKl 12.00 Medlemsmöte (Glöm ej medlemskortet!)\nKl 13,30 Kaffe & macka\nKl 14,30 Lekar och mingel\nKl 17.00 Vi drar ingång med att laga en gemensam middag\nPå kvällen blir det fest med lite musikquiz eller liknande.\nDet går givetvis bra att bara vara med på medlemsmötet och inte på kvällen om så\nönskas.\nVid frågor ring DOE Marcus Danielsson 072-202 27 37 eller mejla på doe@hdcs.se.\nVälkomna!",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -5136,7 +5136,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/lob-morten-kofod-pub-kvall-i-markaryd/",
                   "region": "Kronoberg",
                   "source": "hdcs.se",
-                  "descriptionFull": "LOB- Morten Kofod PUB kväll i Markaryd arrangeras av H-DCS.\n\nDå har vi tänkt lägga en PUB kväll för er medlemmar i Markaryd området. Givetvis är alla välkomna. Det är vårt LO Morten som ordnar denna.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Markaryd.",
+                  "descriptionFull": "Då har vi tänkt lägga en PUB kväll för er medlemmar i Markaryd området. Givetvis är alla välkomna.\nDet är vårt LO Morten som ordnar denna.\nPlats är Källare Puben som ligger under Asian Corner. Datum den 25 april kl 18:00. Finns plats för 50 pers så kom nu.\nDet finns möjlighet att köpa mat från den lokala grillen eller om man vill ha asiatisk mat så finns Asian Corner en trappa upp\nOm någon vill övernatta så finns det ett vandrarhem c:a 50 m från puben telefon 0433-71001 eller stora hotellet som ligger c:a 100 m från puben telefon 0433-10730\nSkriv om ni kommer i evenemanget eller skicka på SMS till 0705-378815\nVarmt välkommen\nLOB- Morten",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -5243,7 +5243,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/sportbaren-awee-adelsgatan/",
                   "region": "Gotland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Sportbaren Awee adelsgatan arrangeras av H-DCS.\n\nSportbararen Awee Adelsgatan, ej klart vad det blir, men någon aktivitet med efterföljande mat eller nåt.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Adelsgatan 18, Visby.",
+                  "descriptionFull": "Pubkväll med lite mat för den som önskar, eller bara komma förbi på en kall dryck, uppdaterad info på Facebook samt supertext\nKvällens värd Camilla 070-4862225",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -5711,7 +5711,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-04-30/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -5815,7 +5815,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doh-majbrasa/2026-04-30/",
                   "region": "Västerbotten",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOH-Majbrasa arrangeras av H-DCS.\n\nVi firar Valborgsmässoafton med en en stor brasa på sågen i Tavelsjö. Om allt går enligt planerna tuttar vi på majbrasan klockan 19.00.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sawmill MC Tavelsjö, Tavelsjö.",
+                  "descriptionFull": "Vi firar Valborgsmässoafton med en en stor brasa på sågen i Tavelsjö.\nOm allt går enligt planerna tuttar vi på majbrasan klockan 19.00.\nKorvförsäljningen gick så dåligt i fjol att vi tar och bjuder på korv i år.",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -6969,7 +6969,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-07/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -7381,7 +7381,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doe-gokart-hovmantorp-9-maj/",
                   "region": "Kronoberg",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOE Gokart Hovmantorp 9 maj 2026 arrangeras av H-DCS.\n\nDOE Gokart 9 maj Hovmantorp 2026 Var: Växjö Hyrkart -Hagaslätt Adreass: Hagaslättsvägen 360 51 Hovmantorp https://maps.app.goo.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hovmantorp.",
+                  "descriptionFull": "DOE Gokart 9 maj Hovmantorp 2026\nVar: Växjö Hyrkart -Hagaslätt\nAdreass: Hagaslättsvägen 360 51 Hovmantorp\nhttps://maps.app.goo.gl/xHAiHhBvs5wM2tPg7\nNär: 9 Maj 2026\nTid: Samling kl. 10.40\nPris: 450 kr/person\nVäxjö Hyrkart sponsrar H-DCS med 50 kr/deltagare\nKörning:\nAlla kör 3 ggr\n8 min uppvärmning\n8 min Tidskörning\nFinaler\nTotal körtid ca 26min\nAnmälan till magnus.eckervad@gmail.com senast den 2 maj.\nDet finns möjlighet att sitta både ute och inne. Ta med fika\nVarmt välkommen.",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -7882,7 +7882,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/fikatraff-surahammar/",
                   "region": "Västmanland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Fikaträff Surahammar arrangeras av H-DCS.\n\nFikaträff Surahammar Vi träffas vid MC-museet Gyllene Hjulet i Surahammar söndag 10 maj kl.10.00 Museets adress är Kontorsvägen 2 73531 Surahammar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Surahammar.",
+                  "descriptionFull": "Fikaträff Surahammar\nVi träffas vid MC-museet Gyllene Hjulet i Surahammar söndag 10 maj kl.10.00\nMuseets adress är Kontorsvägen 2 73531 Surahammar.\nVi fikar och kollar motorcykelmuseet, fika finns att köpa. Därefter åker vi en tur i\nVästmanland där vi också stannar och äter lunch på något bra ställe.\nNi är varmt välkomna!\nInfo: Lo Anders 070-5347870 andersomerja@telia.com",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -8217,7 +8217,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/coast-to-coast/",
                   "region": "Gotland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Coast to Coast arrangeras av H-DCS.\n\nCoast to Coast, start vis Kallis i Visby hamn, vi kör en sväng och stannar och fikar på egen bekostnad.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kallis Visby, Visby.",
+                  "descriptionFull": "Coast to Coast, start vis Kallis i Visby hamn, vi kör en sväng och stannar och fikar på egen bekostnad. Start klockan 11,00 från Kallis\nRoad captain Gusten 070-6907872",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -8243,7 +8243,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-14/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -8321,7 +8321,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doe-blomman-lybergs-runda-med-pub-grillkvall-i-eringsboda-14-15-maj/",
                   "region": "Blekinge",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOE Blommans & Lybergs Saloon Runda i Eringsboda 14 - 15 maj 2026 arrangeras av H-DCS.\n\nDOE Blommans & Lybergs Saloon Runda i Eringsboda 14 - 15 maj 2026 Det här får du inte missa!! Vi samlas torsdag den 14 maj kl 11.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Eringsboda.",
+                  "descriptionFull": "DOE Blommans & Lybergs Saloon Runda i Eringsboda 14 – 15 maj 2026\n \nDet här får du inte missa!!\nVi samlas torsdag den 14 maj kl 11.00 på adress Stengärdesvägen 1 i Eringsboda som ligger mitt emot brandstationen i Eringsboda. Vi kommer starta turen kl 11,30 som är ca 7 mil på fina vägar till Börjes i Tingsryd där vi tar ca 1 timmes rast.\nSe till att tanka upp hojen om du behöver då vi inte kommer stanna för något tankstopp på sista sträckan som är ca 7,5 mil på sköna vägar där vi landar in till träffen hos Lars & Monica på adress Broddamåla 1 i Eringsboda vid ca kl 15,30.\n \nSamåkning från Karlshamn till Eringsboda så samlas vi kl 09,45 på Cirkle-K.\nSamåkning från Kalmar till Eringsboda så samlas vi kl 09,45 på Rasta\n \nHemma hos Lars & Monica kommer vi på kvällen ha fest i Saloonen med roligheter och där vi hoppas att du vill vara med. Vi kommer att grilla och rocka loss med Tord Liljedahl som spelar Country Rock umgås och ha det trevligt. Öl finns att köpa i Saloonen. Frukost på fredag morgon.\nÖvernattning i tält och det finns ett tiotal sängar i huset (först till kvarn gäller 070-633 78 78) vid dåligt väder finns det möjlighet att ligga på logen med luftmadrass och sovsäck.\nAnmälan krävs för dig som vill vara med och äta samt rocka loss på kvällen senast den 9 maj blomman-68@hotmail.com eller info@broddagarden.nu\nTräffavgift på kvällen för musik, grillat och frukost 250 kr/person\nVarmt Välkommen!",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -8602,7 +8602,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-rundtur-runt-enkoping/",
                   "region": "Uppsala",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Rundtur runt Enköping arrangeras av H-DCS.\n\nMika kommer att ta oss med på en rundtur på fina MC vägar runt Enköping inkl. några fina stopp, en tur på ca.20 mil.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Mels garage, Enköping.",
+                  "descriptionFull": "Mika kommer att ta oss med på en rundtur på fina MC vägar runt Enköping inkl. några fina stopp, en tur på ca.20 mil.\nEn dag att se fram emot, tror inte många av oss utforskat det området som denna tur.\nStart Mels garage kl.10:30\n \nMika Paapio 073 8110170",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -9787,7 +9787,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/super-rally-2026/",
                   "region": "Danmark",
                   "source": "hdcs.se",
-                  "descriptionFull": "Super Rally 2026 arrangeras av H-DCS.\n\nHarley Davidson Club of Denmark Truelstrupvejen 4 4130 Viby Sjælland Denmark info@hdc.dk +45 2560 7606 www.hdc.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Fredericia, Danmark.",
+                  "descriptionFull": "Harley Davidson Club of Denmark\n\n\nTruelstrupvejen 4\n4130 Viby Sjælland \nDenmark\n\n\ninfo@hdc.dk\n\n\n+45 2560 7606\n\n\nwww.hdc.dk",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -9854,7 +9854,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-21/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -10056,7 +10056,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-finlandstur-22-24-maj/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Finlandstur 22-24 maj arrangeras av H-DCS.\n\nVi, de som vill är inbjudna till Finland, samma helg som Super Rallyt men för de som vill ha en kortare resa. Boka själv med Viking line.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Vikingterminalen, Stadsgårdskajen, Stockholm.",
+                  "descriptionFull": "Vi, de som vill är inbjudna till Finland, samma helg som Super Rallyt men för de som vill ha en kortare resa.\nBoka själv med Viking line.\nUtresa: 22 maj Stockholm-Åbo kl. 20:00\nHemresa: 23 maj Åbo-Stockholm kl.20:55\nSamling Stadsgården fredag kl.18:30\nMer info under evengemang på facebooksidan, alternativt kontakta Lennart som själv kommer åka med\nDOA Lennart Sellin,\ndoa@hdcs.se , 0722126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -11019,7 +11019,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-05-28/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -11214,7 +11214,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doe-noplatraffen-i-kristianopel-29-31-maj/",
                   "region": "Blekinge",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOE Noplaträffen i Kristianopel 29-31 maj arrangeras av H-DCS.\n\nVälkomna till årets första träff på Kristianopel Camping/Resort. Campingen erbjuder följande rätter om vi förbokar senast 22 maj.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Kristianopel.",
+                  "descriptionFull": "Välkomna till årets första träff på Kristianopel Camping/Resort.\nCampingen erbjuder följande rätter om vi förbokar senast 22 maj.\nRestaurangen på campingen öppnar inte förrän i juni, så därför behöver de lite tid på\nsig att beställa hem mat.\nAlternativ 1: Pannbiffar med gräddsås och potatis 139 kr\nAlternativ 2: Stekt sill och potatismos 139 kr\nAlternativ 3: Fläskfilé med smörslungad potatis och cognacssås 189 kr\nAlternativ 4: Vegetarisk lasagne 129 kr\nVi som har förbeställt mat äter tillsammans på restaurangen på campingen kl 19.00\nbåde fredag och lördag kväll.\nEn trubadur spelar på fredag kväll.\nUnder lördagen blir det tävlingar med fina priser. Även om du bara kommer över\ndagen går det bra att vara med på tävlingarna.\nPriser för boende:\nStor stuga 4 personer: 750 kr/stuga/natt\nLiten stuga 2 personer: 490 kr/stuga/natt\n2-bäddsrum: 490 kr/natt\nCamping el: 285 kr/natt\nCamping utan el: 235 kr/natt\nVid behov: lakan och handduk 50 kr/person\nTräffavgift: 100 kr inklusive frukost, kontant eller swish.\nBokning av boende samt förbokning av mat via mail till info@kristianopelresort.se\n(det går inte att boka på hemsidan). Maten behöver beställas senast 22 maj.\nSkriv H-DCS träff 2026 på ämnesraden. Ange i din bokning ditt namn och\npersonnummer. Skriv vilken mat du vill ha fredag respektive lördag.\nInfo: Cilla Svensson 0733-729918\nVälkomna!",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -11560,7 +11560,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/ds-i-orange-day-sundsvall/",
                   "region": "Västernorrland",
                   "source": "hdcs.se",
-                  "descriptionFull": "DS-I Orange Day Sundsvall arrangeras av H-DCS.\n\nVi kör en tur för Orange-Day , med insamling för att motverka våld mot kvinnor och barn. Start 12:00 från Shell Bydalen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Shell Punkten Bosvedjan, Sundsvall.",
+                  "descriptionFull": "Vi kör en tur för Orange-Day , med insamling för att motverka våld mot kvinnor och barn.\nStart 12:00 från Shell Bydalen. Resmål bestäms på plats då vädret får bestämma turens längd.\nKan du som jag inte delta eller tar en egen tur , kan du hjälpa till ändå genom att swisha till 1239002932\nDS-I Helene 070-3084524",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -12259,7 +12259,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-04/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -13363,7 +13363,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-11/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -13596,7 +13596,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doh-sagverksfesten-xii/",
                   "region": "Västerbotten",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOH-Sågverksfesten XII arrangeras av H-DCS.\n\nTräffen blir i år som vanligt helgen före midsommar. Detta blir den tolfte Sågverksfesten.\n\nFest och social sammankomst för MC-folket. Se arrangören för detaljer.\n\nPlats: Sawmill MC Tavelsjö, Tavelsjö.",
+                  "descriptionFull": "Träffen blir i år som vanligt helgen före midsommar.\nDetta blir den tolfte Sågverksfesten.\nOmrådet som förr inrymde ett sågverk är stort och har tältplatser alldeles vid strandkanten. Det blir \"live music\" båda kvällarna och det kommer att serveras mat fredag och lördag och en stadig frukost lördag och söndag. Vi försöker att hålla Nordiska Mästerskapen i Dragkamp mellan H-DCS, H-DCF, H-DOCN och HOG.. Hoppas att ni alla ställer upp och gör det till en lyckad träff.\nProgrammet är inte spikat ännu men vi uppdaterar detta så fort ny info finns.\nFredag kväll spelar The Crusiers från Västerås.\nLördagen (kl 10-15) har vi inte planerat färdigt än men vi kör våra Hard Wood Games på eftermiddagen. Tidigare års burn-out-tävling kanske återkommer.\nPå kvällen blir det igen Rock'nRoll med The Crusiers\nÄven denna kväll bestämmer siste gästen när det är slut.\nDå detta är en fest för gästernas trevnad kommer 150 kr att räcka som inträde och då ingår frukost lördag och söndag morgon.\nMaten som kommer att vara av typen lättlagad svensk husmanskost kommer att kosta 50 Kr per måltid. Hamburgare 30 Kr.\nToaletter och duschar finns.\nObegränsade ytor för tält och skulle någon ta med sig en husvagn eller husbil finns anvisade uppställningsplatser.\nGör inte misstaget att ta det lugnt på lördag för att ni ska hem tidigt på söndag.\nTa ledigt på måndag så att ni kan slappna av och vara med på lördagskvällen då vi alltid har fullt ös.\nInga barn och djur pga alkohol och hög volym.\nFrågor kan skickas till doh@hdcs.se\neller ring 070-573 90 31 Kent",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -14379,7 +14379,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-18/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -14586,7 +14586,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doe-midsommartraff-pa-hasselbacken-i-alstermo-19-21-juni/",
                   "region": "Kronoberg",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOE Midsommarträff på Hasselbacken i Alstermo 19-21 juni arrangeras av H-DCS.\n\nMidsommarträff 19 - 21 juni på Hasselbacken i Alstermo. Välkommen att fira midsommar med oss i HDCS-E på den fantastiskt fina festplatsen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Alstermo.",
+                  "descriptionFull": "Midsommarträff 19 – 21 juni på Hasselbacken i Alstermo.\nVälkommen att fira midsommar med oss i HDCS-E på den fantastiskt fina festplatsen Hasselbacken i Alstermo.\nInträde 300 kr/person som bekostar hyra av festplatsen, trubadurerna som håller stämningen på topp samt div material för arrangemanget.\nFestligheterna börjar kl 11.00 på midsommaraftonen då vi tänker servera en silltallrik och alternativt skinka med nypotatis och lite grönt samt en öl och jordgubbstårta på eftermiddagen till ett pris av 100 kr/person.\nVi hjälps alla åt att fixa ris och blommor för att gemensamt klä midsommarstången.\nUnder eftermiddagen kommer vi ha tipsrunda och köra en 5-kamp för att hålla oss lite alerta.\nTill kvällen kommer vi ha helgrillad gris med potatissallad till ett pris av 200 kr/person.\nVi kommer att ha försäljning av öl/vin/cider till bra priser så långt lagret räcker.\nVi räknar med att du kan vara behjälplig med lite av varje då det kommer behövas för att alla ska kunna njuta av midsommarfirandet.\nPå platsen finns toaletter, vatten m.m övriga dagar så fixar du själv ditt hushåll med mat och annat. Det finns möjlighet att ställa husvagn eller husbil utanför på parkeringen men ingen el finns att tillgå.\nAdress: Hohult Hasselbacken 394 93 Alstermo det är skyltat från Växjövägen som kommer från norr till Alstermo.\nAnmälan som är bindande senast 2026-06-11 till doe@hdcs.se\n\nInträde för att delta på träffen 300 kr/person\nSilltallrik & jordgubbstårta 100 kr/person\nHelgrillad gris på kvällen 200 kr/person\n\n \nVid eventuella frågor kontakta Marcus Danielsson 072-202 27 37\nSandra Danielsson 073-511 01 27",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -14939,7 +14939,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/lo-i-hoj-cafe-sidensjo/",
                   "region": "Västernorrland",
                   "source": "hdcs.se",
-                  "descriptionFull": "LO-I Hoj-Cafe Sidensjö arrangeras av H-DCS.\n\nÄnnu en gång är vi välkomna till Bygdegården i Sidensjö.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sidensjö Bygdegård, Sidensjö.",
+                  "descriptionFull": "Ännu en gång är vi välkomna till Bygdegården i Sidensjö. Nu öppet 18-20 Välkomna\nLO-I Fredrik 070-6550056",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -15005,7 +15005,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero/2026-06-25/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -15422,7 +15422,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/do-i-charity-run-2/",
                   "region": "Västernorrland",
                   "source": "hdcs.se",
-                  "descriptionFull": "DO-I Charity Run arrangeras av H-DCS.\n\nÅrets körning körs till gemensamt mål och startar på 6 olika platser. -Sundsvall. Avfärd 11:30 från Shell Bydalen.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Västernorrland.",
+                  "descriptionFull": "Årets körning körs till gemensamt mål och startar på 6 olika platser.\n-Sundsvall. Avfärd 11:30 från Shell Bydalen.\nAnsvariga: LO I Anders 070-2721521 LO I Patrik 0705208203\n-Härnösand. Avfärd 11:30 från Gulf. De hämtar upp Kramforsgänget.\nAnsvarig: DO I Helen 070-2067637\n-Kramfors. Samlas vid OKQ8-macken och väntar in Härnösandsgänget. Avfärd ca 12:00.\nAnsvarig: LO I Agne 070-6951781\n-Sollefteå. Circle K-macken. Även de väntar in H-sandsgänget. Avfärd ca 12:45\n-Örnsköldsvik. Avfärd 11:30 från vägkrogen Örnen.\nAnsvariga: LO I Fredrik 070-6550056 LO I Stefan 070-3842850. LO I Tim 070-6031000\n-Östersund. Avfärd 11:30 från kajen.\nAnsvarig: LO I Martin 070-5806383.\nAlla grupper utom Östersund väntar in varandra vid macken i Bispgården/Bispfors för att åka gemensamt mot slutmålet Döda Fallet där vi möter Östersundarna och äter/fikar tillsammans. Man får ta med eget fika om man vill men får då ej sitta i restaurangen. Hoppas på bra väder och stor uppslutning då insamlingen går till välgörande ändamål. Kan man inte delta får man gärna swisha ändå till nummer 1231437599.\nDO-I Helene Wester DS-I Helene",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -15552,7 +15552,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doh-charity-run-2026/",
                   "region": "Västerbotten",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOH-Charity Run 2026 arrangeras av H-DCS.\n\nI år prövar vi samma plats som ligger i Norsjövallen för vår gemensamma samlingspunkt i länet.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Monikas Café, Norsjö.",
+                  "descriptionFull": "I år prövar vi samma plats som ligger i Norsjövallen för vår gemensamma samlingspunkt i länet.\nÅrets run går till ett fantastiskt café i Norsjövallen efter 365:an, nämligen Monikas Café.\nMonika har dessutom lovat att alla som visar upp medlemskortet i H-DCS ska få kaffe och te gratis.\nDetta slutmål blir en bra tur för oss alla i länet och jag hoppas att ni ställer upp och stöttar vårt inland förutom Min Stora Dag till förmån för allvarligt sjuka barn, denna dag.\nSe till att ni får med er så många kompisar som möjlig och alla är välkomna oavsett mc-modell\nVi kommer att köra oavsett väderlek.\nAlla får en pin efter att ha swishat 100 Kr till 123 091 96 21. Ange CR och ni får gärna swisha med en gång eller när som helst och hur stora summor som helst.\nStart Skellefteå 11.00 från ICA Kvantum Kronbodgatan 4, 85 km\nKontaktperson Glenn 070-201 99 63\nStart Umeå 10.00 från Northbike 165 km\nKontaktperson Greger 070-683 97 53\nStart Lycksele 11.00 från Shell, 68 km\nKontaktperson Richard 070-539 97 96\nDet går också bra att åka direkt till Norsjövallen om tider och rutter inte passar.",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -15993,7 +15993,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doe-enuddetraffen-oland-3-5-juli/",
                   "region": "Östergötland",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOE Enuddeträffen Öland 3-5 juli arrangeras av H-DCS.\n\nEnuddenträffen Öland Kalmar Harley Club 3-5 juli 2026 Från kl 12.00 fredag till söndag kl 12.00 Träffavgift: 350 kr inkl frukost.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Öland.",
+                  "descriptionFull": "Enuddenträffen Öland \nKalmar Harley Club\n3-5 juli 2026\nFrån kl 12.00 fredag till söndag kl 12.00 \nTräffavgift: 350 kr inkl frukost. \nBikerpriser i vildmarksbaren.\nFredag finns det spagetti & köttfärssås att köpa för 100 kr/port kl 17 – 20\nLördag finns det hamburgare att köpa för 100 kr/port kl 13 – 15\nLördag och söndag frukost mellan kl 08.00 -10.00.\nMiddag lördag kostar 130kr/pers och serveras mellan kl 19.00 – 20.00.\nMusikunderhållning\nWärkstan Band \nHellans Karoke\nBad, lekar, lotter och tipsrunda ca kl 15.00 lördag.\nPrisutdelning\nHasses fina Ölandsrunda på goa vägar med start kl 11,30 lördag.\nBad i 24 gradigt vatten med solning på flotten så mycket du orkar ingår!\nFantastiska solnedgångar över Kalmar i glada vänners lag ingår!\nVarmt välkomna!\nInfo: Pelle Nilsson 073-314 11 46\nKalmar Harley Club",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -16151,7 +16151,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/dog-cherity-run/",
                   "region": "Dalarna",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOG  Cherity Run arrangeras av H-DCS.\n\nVästerdalarna: Stefan kör från Frendo i Malng Micke kör från MC Dolnad Mora Hudiksvall Lasse och Anders Sandviken.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Mora.",
+                  "descriptionFull": "Västerdalarna: Stefan kör från Frendo i Malng\nMicke kör från MC Dolnad Mora\n \nHudiksvall Lasse och Anders\n \nSandviken Kerstin och Stefan\n \nTider senare",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -16514,7 +16514,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/dob-nordic-run/",
                   "region": "Skåne",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOB- Nordic Run arrangeras av H-DCS.\n\nNordic Run 2026 2026-07-07 Samling och start vid Mc Donald Lockarp. Ligger c:a 8 km efter betalstationen avfart Lockarp. Starten går kl.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
+                  "descriptionFull": "Nordic Run 2026 2026-07-07\n\nSamling och start vid Mc Donald Lockarp. Ligger c:a 8 km efter betalstationen avfart Lockarp.\n\nStarten går kl. 10:00\n\nFörsta sträckan går till Skåneporten vid Örkelljunga. Beräknad tid är c:a 2 timmar, sträckan är c:a 11 mil.\n\nVi äter lunch på Old Mikes Diner.\n\nStartar c:a 13:00 från Örkelljunga och kör mot medlemsbutiken i Ljungby.\n\nBeräknad tid är c:a 1 timmar, sträckan är c:a 8 mil.\n \nThomas DOB",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -16816,7 +16816,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-fredagstur-med-nordic-run/",
                   "region": "Uppsala",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Fredagstur med Nordic Run arrangeras av H-DCS.\n\nVi kommer ledsaga Nordic run genom distrikt A via; Enköping - Sala silvergruva - Vikingabyn Storholmen - Restaurang Havspiren.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Mels garage, Enköping.",
+                  "descriptionFull": "Vi kommer ledsaga Nordic run genom distrikt A via;\nEnköping – Sala silvergruva – Vikingabyn Storholmen – Restaurang Havspiren, Norrtälje – Kapellskär.\nStart vid Mels garage kl.10:30\nVill man så finns möjlighet att övernatta i Brööls lokaler från torsdag, kontakta Lennart om det.\n \nLennart 0722126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -18728,7 +18728,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-06/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -18780,7 +18780,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-06/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+                  "descriptionFull": "Välkomna på torsdagskörning\nVarannan vecka guidar LO Göran och LO Petra oss på en tur.\nSamling kl. 17:30\nPlanerad avfärd kl. 18:00\nKom fulltankade och klara\nVid regn eller sjöblöta vägar kan detta ställas in,\nFör mer information kontakta\nGöran Axblad 0709566151 Udda veckor\nPetra Tunmar 0733748100 Jämna veckor",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -19642,7 +19642,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-13/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -19694,7 +19694,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-13/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+                  "descriptionFull": "Välkomna på torsdagskörning\nVarannan vecka guidar LO Göran och LO Petra oss på en tur.\nSamling kl. 17:30\nPlanerad avfärd kl. 18:00\nKom fulltankade och klara\nVid regn eller sjöblöta vägar kan detta ställas in,\nFör mer information kontakta\nGöran Axblad 0709566151 Udda veckor\nPetra Tunmar 0733748100 Jämna veckor",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -19771,7 +19771,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/aminnetraffen/",
                   "region": "Gotland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Åminneträffen arrangeras av H-DCS.\n\nVåran årliga träff i Åminne vid campingen, det bjuds på körningar, musik mm. Träffen startar på torsdagen klockan 12 och slutar söndagen klockan 12.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Åminne Fritid, Slite.",
+                  "descriptionFull": "Våran årliga träff i Åminne vid campingen, det bjuds på körningar, musik mm. Träffen startar på torsdagen klockan 12 och slutar söndagen klockan 12.\nMer info kommer på sociala medier FB\nStugor finns att boka på info@aminnefritid.se eller ring 0498-340 11 ange kod MCÅminne26\nKarta över stugor finns att hitta på www.aminnefritid.se\n \nVäl mött Styrelsen\nKenneth, Tina, Svenne, Gusten, Sören och Camilla\nMer info, kontakta Kenneth på 0707-320075 eller doo.hdcs@gmail.com",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -20524,7 +20524,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-20/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -20576,7 +20576,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-20/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+                  "descriptionFull": "Välkomna på torsdagskörning\nVarannan vecka guidar LO Göran och LO Petra oss på en tur.\nSamling kl. 17:30\nPlanerad avfärd kl. 18:00\nKom fulltankade och klara\nVid regn eller sjöblöta vägar kan detta ställas in,\nFör mer information kontakta\nGöran Axblad 0709566151 Udda veckor\nPetra Tunmar 0733748100 Jämna veckor",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -21152,7 +21152,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-08-27/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -21204,7 +21204,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-08-27/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+                  "descriptionFull": "Välkomna på torsdagskörning\nVarannan vecka guidar LO Göran och LO Petra oss på en tur.\nSamling kl. 17:30\nPlanerad avfärd kl. 18:00\nKom fulltankade och klara\nVid regn eller sjöblöta vägar kan detta ställas in,\nFör mer information kontakta\nGöran Axblad 0709566151 Udda veckor\nPetra Tunmar 0733748100 Jämna veckor",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -21673,7 +21673,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-03/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -21725,7 +21725,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-03/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+                  "descriptionFull": "Välkomna på torsdagskörning\nVarannan vecka guidar LO Göran och LO Petra oss på en tur.\nSamling kl. 17:30\nPlanerad avfärd kl. 18:00\nKom fulltankade och klara\nVid regn eller sjöblöta vägar kan detta ställas in,\nFör mer information kontakta\nGöran Axblad 0709566151 Udda veckor\nPetra Tunmar 0733748100 Jämna veckor",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -22033,7 +22033,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/gokart/",
                   "region": "Gotland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Gokart arrangeras av H-DCS.\n\nGokartkörning på gokartbanad vid gamla tippen i Visby Broväg 110 Värd Svenne.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Broväg 110, Visby.",
+                  "descriptionFull": "Gokartkörning på gokartbanad vid gamla tippen i Visby Broväg 110\nVärd Svenne 073-0235874",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -22369,7 +22369,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-10/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -22421,7 +22421,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-10/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+                  "descriptionFull": "Välkomna på torsdagskörning\nVarannan vecka guidar LO Göran och LO Petra oss på en tur.\nSamling kl. 17:30\nPlanerad avfärd kl. 18:00\nKom fulltankade och klara\nVid regn eller sjöblöta vägar kan detta ställas in,\nFör mer information kontakta\nGöran Axblad 0709566151 Udda veckor\nPetra Tunmar 0733748100 Jämna veckor",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -22951,7 +22951,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-17/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -23003,7 +23003,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-17/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+                  "descriptionFull": "Välkomna på torsdagskörning\nVarannan vecka guidar LO Göran och LO Petra oss på en tur.\nSamling kl. 17:30\nPlanerad avfärd kl. 18:00\nKom fulltankade och klara\nVid regn eller sjöblöta vägar kan detta ställas in,\nFör mer information kontakta\nGöran Axblad 0709566151 Udda veckor\nPetra Tunmar 0733748100 Jämna veckor",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -23509,7 +23509,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-dagstur-ekero-2/2026-09-24/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Dagstur Ekerö arrangeras av H-DCS.\n\nVälkommen till Lennarts dagstur! Samling kl. 09:45 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: OKQ8, Åkerstigen 22, Ekerö.",
+                  "descriptionFull": "Välkommen till Lennarts dagstur!\nSamling kl. 09:45\nPlanerad avfärd kl. 10:00\nOjämna veckor tar DO Lennart turen över Nockebybron, Samling och avfärd vid Nockebybron 10:15\nJämna veckor tar DO Lennart turen över till Slagsta, Samling och avfärd färjelägret vi Slagsta 10:30\nVi samlas som vanligt fulltankade och klara.\nVid regn eller sjöblöta vägar kan detta ställas in.\nFör mer information kontakta:\nLennart Sellin 0722-126320",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -23561,7 +23561,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/doa-kvallstur-skogskyrkogarden/2026-09-24/",
                   "region": "Stockholm",
                   "source": "hdcs.se",
-                  "descriptionFull": "DOA - Kvällstur Skogskyrkogården arrangeras av H-DCS.\n\nVälkomna på torsdagskörning Varannan vecka guidar LO Göran och LO Petra oss på en tur. Samling kl. 17:30 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Skogskyrkogården, vid Lillys Blommor, Sköndal.",
+                  "descriptionFull": "Välkomna på torsdagskörning\nVarannan vecka guidar LO Göran och LO Petra oss på en tur.\nSamling kl. 17:30\nPlanerad avfärd kl. 18:00\nKom fulltankade och klara\nVid regn eller sjöblöta vägar kan detta ställas in,\nFör mer information kontakta\nGöran Axblad 0709566151 Udda veckor\nPetra Tunmar 0733748100 Jämna veckor",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -24243,7 +24243,7 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/medlemsmote/",
                   "region": "Gotland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Medlemsmöte arrangeras av H-DCS.\n\nMedlemsmöte med efterföljande bowling och lite mat Väl Mött Styrelsen, Kenneth.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Langs  Väg 2, Visby, Visby.",
+                  "descriptionFull": "Medlemsmöte med efterföljande bowling och lite mat\nVäl Mött\nStyrelsen, Kenneth, Tina & Camilla\nKenneth 0707-320075",
                   "links": [
                         {
                               "label": "hdcs.se",
