@@ -4258,6 +4258,10 @@ const EVENTS_DATA = {
                   "backImage": "ads/harley-day-probike-stockholm-back-2026-04-18.jpg",
                   "links": [
                         {
+                              "label": "Probike",
+                              "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"
+                        },
+                        {
                               "label": "Probike Stockholm",
                               "url": "https://www.probikebutiken.se/stockholm/"
                         }
@@ -4279,6 +4283,10 @@ const EVENTS_DATA = {
                   "backImage": "ads/harley-day-probike-goteborg-back-2026-04-18.jpg",
                   "links": [
                         {
+                              "label": "Probike",
+                              "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"
+                        },
+                        {
                               "label": "Probike Göteborg",
                               "url": "https://www.probikebutiken.se/goteborg/"
                         }
@@ -4299,6 +4307,10 @@ const EVENTS_DATA = {
                   "descriptionFull": "Harley Day hos Probike Malmö!\n\nKom in och provkör mängder av hojar hos Probike i Malmö. Perfekt tillfälle att testa nya Harley-Davidson modeller.\n\nAdress: Lundavägen 140, 212 24 Malmö.",
                   "backImage": "ads/harley-day-probike-malmo-back-2026-04-18.jpg",
                   "links": [
+                        {
+                              "label": "Probike",
+                              "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"
+                        },
                         {
                               "label": "Probike Malmö",
                               "url": "https://www.probikebutiken.se/malmo/"
@@ -23343,23 +23355,78 @@ const EVENTS_DATA = {
                   "source": "probikebutiken.se"
             },
             {
-                  "id": "probike-rock-bottom-summer-sale-2026",
-                  "name": "Rock Bottom Summer Sale",
+                  "id": "rock-bottom-probike-stockholm-2026-09-19",
+                  "name": "Rock Bottom Summer Sale Stockholm",
                   "date": "2026-09-19",
                   "dateEnd": "2026-09-19",
-                  "location": "Probike Stockholm, Göteborg & Malmö",
+                  "location": "Åkerivägen 6, Täby",
                   "type": "Träff",
                   "organizer": "Probike",
-                  "description": "Oslagbara erbjudanden hos alla Probike butiker. Kampanj på alla hojar, rabatt på delar och tillbehör.",
-                  "descriptionFull": "Rock Bottom Summer Sale hos Probike!\n\nAlla Probike butiker (Stockholm, Göteborg, Malmö).\n\nOslagbara erbjudanden:\n- Kampanj på alla hojar\n- Reducerat pris på vinterförvaring vid bokning på plats\n- Minst 20% rabatt på alla delar och tillbehör i lager\n\nKl. 11:00.",
+                  "description": "Oslagbara erbjudanden hos Probike Stockholm. Kampanj på alla hojar, rabatt på delar och tillbehör. Kl. 11:00.",
+                  "descriptionFull": "Rock Bottom Summer Sale hos Probike Stockholm!\n\nOslagbara erbjudanden:\n- Kampanj på alla hojar\n- Reducerat pris på vinterförvaring vid bokning på plats\n- Minst 20% rabatt på alla delar och tillbehör i lager\n\nKl. 11:00.\n\nAdress: Åkerivägen 6, 187 75 Täby.",
+                  "backImage": "ads/harley-day-probike-stockholm-back-2026-04-18.jpg",
                   "links": [
                         {
                               "label": "Probike",
                               "url": "https://www.probikebutiken.se/event/rock-bottom-summer-sale/"
+                        },
+                        {
+                              "label": "Probike Stockholm",
+                              "url": "https://www.probikebutiken.se/stockholm/"
                         }
                   ],
                   "link": "https://www.probikebutiken.se/event/rock-bottom-summer-sale/",
-                  "region": "Sverige",
+                  "region": "Stockholm",
+                  "source": "probikebutiken.se"
+            },
+            {
+                  "id": "rock-bottom-probike-goteborg-2026-09-19",
+                  "name": "Rock Bottom Summer Sale Göteborg",
+                  "date": "2026-09-19",
+                  "dateEnd": "2026-09-19",
+                  "location": "Aminogatan 32C, Mölndal",
+                  "type": "Träff",
+                  "organizer": "Probike",
+                  "description": "Oslagbara erbjudanden hos Probike Göteborg. Kampanj på alla hojar, rabatt på delar och tillbehör. Kl. 11:00.",
+                  "descriptionFull": "Rock Bottom Summer Sale hos Probike Göteborg!\n\nOslagbara erbjudanden:\n- Kampanj på alla hojar\n- Reducerat pris på vinterförvaring vid bokning på plats\n- Minst 20% rabatt på alla delar och tillbehör i lager\n\nKl. 11:00.\n\nAdress: Aminogatan 32C, 431 53 Mölndal.",
+                  "backImage": "ads/harley-day-probike-goteborg-back-2026-04-18.jpg",
+                  "links": [
+                        {
+                              "label": "Probike",
+                              "url": "https://www.probikebutiken.se/event/rock-bottom-summer-sale/"
+                        },
+                        {
+                              "label": "Probike Göteborg",
+                              "url": "https://www.probikebutiken.se/goteborg/"
+                        }
+                  ],
+                  "link": "https://www.probikebutiken.se/event/rock-bottom-summer-sale/",
+                  "region": "Västra Götaland",
+                  "source": "probikebutiken.se"
+            },
+            {
+                  "id": "rock-bottom-probike-malmo-2026-09-19",
+                  "name": "Rock Bottom Summer Sale Malmö",
+                  "date": "2026-09-19",
+                  "dateEnd": "2026-09-19",
+                  "location": "Lundavägen 140, Malmö",
+                  "type": "Träff",
+                  "organizer": "Probike",
+                  "description": "Oslagbara erbjudanden hos Probike Malmö. Kampanj på alla hojar, rabatt på delar och tillbehör. Kl. 11:00.",
+                  "descriptionFull": "Rock Bottom Summer Sale hos Probike Malmö!\n\nOslagbara erbjudanden:\n- Kampanj på alla hojar\n- Reducerat pris på vinterförvaring vid bokning på plats\n- Minst 20% rabatt på alla delar och tillbehör i lager\n\nKl. 11:00.\n\nAdress: Lundavägen 140, 212 24 Malmö.",
+                  "backImage": "ads/harley-day-probike-malmo-back-2026-04-18.jpg",
+                  "links": [
+                        {
+                              "label": "Probike",
+                              "url": "https://www.probikebutiken.se/event/rock-bottom-summer-sale/"
+                        },
+                        {
+                              "label": "Probike Malmö",
+                              "url": "https://www.probikebutiken.se/malmo/"
+                        }
+                  ],
+                  "link": "https://www.probikebutiken.se/event/rock-bottom-summer-sale/",
+                  "region": "Skåne",
                   "source": "probikebutiken.se"
             },
             {
