@@ -15758,7 +15758,7 @@ const EVENTS_DATA = {
                   "name": "Gotland MC-tur",
                   "date": "2026-06-30",
                   "dateEnd": "2026-07-03",
-                  "location": "Nynäshamn",
+                  "location": "Visby, Gotland",
                   "type": "Körning",
                   "organizer": "Swedish MC Touring",
                   "description": "Guidad 4-dagarstur till Gotland via Nynäshamn. Fina MC-vägar, kultur, raukar och sevärdheter. Hotell, middag och färja ingår. 9 850 kr.",
@@ -15770,7 +15770,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Nynäshamn+station",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Visby+Gotland",
                               "type": "map"
                         }
                   ],
