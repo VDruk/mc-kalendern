@@ -12569,7 +12569,7 @@ const EVENTS_DATA = {
                   "name": "D14-Nationaldagsturen",
                   "date": "2026-06-06",
                   "dateEnd": "2026-06-06",
-                  "location": "Växjövägen 15, Halmstad",
+                  "location": "Halmstad, Växjövägen 15",
                   "type": "Körning",
                   "organizer": "BMW MC-klubben",
                   "description": "Körning med D14 från Växjövägen 15, 302 44 Halmstad, Sverige. Samling enligt schema. Följ bmwklubben.se för information.",
@@ -16706,22 +16706,22 @@ const EVENTS_DATA = {
                   "name": "DO-C Gemensam körning till Bornholm",
                   "date": "2026-07-09",
                   "dateEnd": "2026-07-09",
-                  "location": "Bornholm",
+                  "location": "Bornholm, Danmark",
                   "type": "Körning",
                   "organizer": "H-DCS",
-                  "description": "Körtur med H-DCS från Bornholm. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.",
-                  "link": "https://hdcs.se/evenemang/do-c-gemensam-körning-till-bornholm/",
-                  "region": "Halland",
+                  "description": "Gemensam körning med H-DCS Distrikt C till Bornholm. Mer info på hdcs.se.",
+                  "link": "https://hdcs.se/evenemang/do-c-gemensam-korning-till-bornholm/",
+                  "region": "Danmark",
                   "source": "hdcs.se",
-                  "descriptionFull": "DO-C Gemensam körning till Bornholm arrangeras av H-DCS.\n\nKörtur med H-DCS från Bornholm. Gemensam MC-körning för alla medlemmar. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Bornholm.",
+                  "descriptionFull": "Gemensam körning med H-DCS Distrikt C till Bornholm. Mer info på hdcs.se.",
                   "links": [
                         {
                               "label": "hdcs.se",
-                              "url": "https://hdcs.se/evenemang/do-c-gemensam-körning-till-bornholm/"
+                              "url": "https://hdcs.se/evenemang/do-c-gemensam-korning-till-bornholm/"
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Bornholm",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Bornholm+Danmark",
                               "type": "map"
                         }
                   ],
