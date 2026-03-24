@@ -5953,7 +5953,7 @@ const EVENTS_DATA = {
                   "organizer": "H-DCS",
                   "description": "Arrangemang med H-DCS DKB från Blekinge. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.",
                   "link": "https://hdcs.se/evenemang/dkb-mt-rally-mot-prostatacancer/",
-                  "region": "Skåne",
+                  "region": "Blekinge",
                   "source": "hdcs.se",
                   "descriptionFull": "DKB- MT-Rally mot Prostatacancer arrangeras av H-DCS.\n\nArrangemang med H-DCS DKB från Blekinge. Gemensamt MC-event för gemenskap och underhållning. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Blekinge.",
                   "links": [
