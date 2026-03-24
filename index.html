@@ -290,7 +290,7 @@
   /* ========== MAIN GRID ========== */
   .main-content {
     max-width: 1100px; margin: 0 auto;
-    padding: 24px 16px 60px;
+    padding: 12px 16px 60px;
   }
 
   .grid {
@@ -968,7 +968,86 @@
   .grid .card:nth-child(3n+1) { animation-delay: 0s; }
   .grid .card:nth-child(3n+2) { animation-delay: 0.05s; }
   .grid .card:nth-child(3n) { animation-delay: 0.1s; }
+  /* ========== EVENT MAP ========== */
+  .event-map-section {
+    max-width: 1100px;
+    margin: 0 auto 6px;
+    padding: 12px 16px 0;
+    position: relative;
+  }
+  .event-map-toggle {
+    position: absolute;
+    top: 22px;
+    right: 26px;
+    z-index: 5;
+    font-size: 12px;
+    color: var(--accent);
+    background: rgba(255,255,255,0.9);
+    border: 1px solid var(--accent);
+    border-radius: 16px;
+    padding: 4px 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .event-map-toggle:hover {
+    background: var(--accent);
+    color: #fff;
+  }
+  #eventMap {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    z-index: 1;
+  }
+  .event-map-stats {
+    text-align: center;
+    font-size: 11px;
+    color: #666;
+    margin-top: 4px;
+  }
+  .event-map-section.collapsed #eventMap,
+  .event-map-section.collapsed .event-map-stats {
+    display: none;
+  }
+  .map-dot-tooltip {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    padding: 3px 8px !important;
+    border-radius: 4px !important;
+  }
+  @media (max-width: 600px) {
+    #eventMap { height: 300px; }
+  }
+
+  /* ========== SHARE BUTTON TOOLTIPS ========== */
+  .share-btn, .tipsa-circle-btn, #shareKofi {
+    position: relative;
+  }
+  .share-tooltip {
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(26,26,46,0.9);
+    color: #fff;
+    font-size: 10px;
+    white-space: nowrap;
+    padding: 3px 8px;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 10;
+  }
+  .share-btn:hover .share-tooltip,
+  .tipsa-circle-btn:hover .share-tooltip,
+  #shareKofi:hover .share-tooltip {
+    opacity: 1;
+  }
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -1062,18 +1141,23 @@
       <div class="share-btns">
         <button class="share-btn" id="shareFb" title="Dela på Facebook">
           <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          <span class="share-tooltip">Dela</span>
         </button>
         <button class="share-btn" id="shareWa" title="Dela på WhatsApp">
           <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span class="share-tooltip">Dela</span>
         </button>
         <button class="share-btn" id="shareX" title="Dela på X">
           <svg viewBox="0 0 24 24" fill="#1a1d23"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          <span class="share-tooltip">Dela</span>
         </button>
         <a href="https://ko-fi.com/mckalender" target="_blank" rel="noopener" class="share-btn" id="shareKofi" title="Stöd MC Kalendern på Ko-fi">
           <img src="ads/kofi-logo.webp" alt="Ko-fi" style="object-fit:contain;border-radius:0;">
+          <span class="share-tooltip">Donera</span>
         </a>
         <button class="tipsa-circle-btn" id="tipsaCircleBtn" title="Tipsa om ett evenemang">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          <span class="share-tooltip">Tipsa</span>
         </button>
       </div>
     </div>
@@ -1099,6 +1183,13 @@
       <button class="toggle flex-shrink-0" id="pastToggleMobile" aria-label="Visa passerade evenemang" title="Visa passerade evenemang"></button>
     </div>
   </div>
+</div>
+
+<!-- ========== EVENT MAP ========== -->
+<div class="event-map-section" id="eventMapSection">
+  <button class="event-map-toggle" id="mapToggleBtn" onclick="toggleEventMap()">Dölj karta</button>
+  <div id="eventMap"></div>
+  <div class="event-map-stats" id="mapStats"></div>
 </div>
 
 <!-- ========== GRID ========== -->
@@ -1210,6 +1301,7 @@ let currentRegion = 'all';
 let currentMonth = 'all';
 let showPast = false;
 let searchQuery = '';
+let mapCityFilter = ''; // set when user clicks a map dot
 let favorites = JSON.parse(localStorage.getItem('mcFavorites') || '[]');
 
 // ========== HELPERS ==========
@@ -1799,6 +1891,14 @@ function render() {
     );
   }
 
+  // Update event map with filtered events (before city filter, so all dots stay visible)
+  updateEventMap(events);
+
+  // Map city filter: applied after map update so dots reflect other filters, but cards narrow to clicked city
+  if (mapCityFilter) {
+    events = events.filter(e => (e.location || '').toLowerCase().includes(mapCityFilter));
+  }
+
   // AD injection: insert ad cards at regular intervals, or if search matches
   const AD_INTERVAL = 25;
   if (adCards.length > 0) {
@@ -2176,9 +2276,145 @@ function downloadSingleICS(eventId) {
 }
 
 // ========== EVENT LISTENERS ==========
+// ========== EVENT MAP ==========
+let eventMap = null;
+let mapMarkers = [];
+let mapVisible = localStorage.getItem('mc_map_visible') !== 'false';
+
+function filterByMapCity(city) {
+  mapCityFilter = city;
+  render();
+  updateMapCityBadge();
+}
+
+function clearMapCityFilter() {
+  mapCityFilter = '';
+  render();
+  updateMapCityBadge();
+}
+
+function updateMapCityBadge() {
+  let badge = document.getElementById('mapCityBadge');
+  if (mapCityFilter) {
+    if (!badge) {
+      badge = document.createElement('div');
+      badge.id = 'mapCityBadge';
+      badge.style.cssText = 'text-align:center;margin:8px auto 4px;max-width:1100px;';
+      const section = document.getElementById('eventMapSection');
+      section.parentNode.insertBefore(badge, section.nextSibling);
+    }
+    const name = mapCityFilter.charAt(0).toUpperCase() + mapCityFilter.slice(1);
+    badge.innerHTML = '<span style="display:inline-flex;align-items:center;gap:6px;background:rgba(217,119,6,0.1);color:#b45309;font-size:13px;font-weight:600;padding:5px 14px;border-radius:20px;">' +
+      name +
+      '<button onclick="clearMapCityFilter()" style="background:none;border:none;cursor:pointer;color:#b45309;font-size:16px;line-height:1;padding:0 0 0 2px;">\u00d7</button>' +
+      '</span>';
+  } else if (badge) {
+    badge.remove();
+  }
+}
+
+function initEventMap() {
+  if (eventMap) return;
+  const container = document.getElementById('eventMap');
+  if (!container) return;
+
+  eventMap = L.map('eventMap', {
+    center: [62.5, 16.0],
+    zoom: 5,
+    zoomControl: true,
+    scrollWheelZoom: true
+  });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    maxZoom: 19,
+    subdomains: 'abcd'
+  }).addTo(eventMap);
+
+  // Apply saved visibility
+  const section = document.getElementById('eventMapSection');
+  const btn = document.getElementById('mapToggleBtn');
+  if (!mapVisible) {
+    section.classList.add('collapsed');
+    btn.textContent = 'Visa karta';
+  }
+}
+
+function toggleEventMap() {
+  const section = document.getElementById('eventMapSection');
+  const btn = document.getElementById('mapToggleBtn');
+  mapVisible = !mapVisible;
+  section.classList.toggle('collapsed', !mapVisible);
+  btn.textContent = mapVisible ? 'Dölj karta' : 'Visa karta';
+  localStorage.setItem('mc_map_visible', mapVisible);
+  if (mapVisible && eventMap) {
+    setTimeout(() => eventMap.invalidateSize(), 100);
+  }
+}
+
+function updateEventMap(filteredEvents) {
+  if (!eventMap) return;
+
+  // Clear old markers
+  mapMarkers.forEach(m => eventMap.removeLayer(m));
+  mapMarkers = [];
+
+  // Group events by location coords
+  const locGroups = {};
+  filteredEvents.forEach(e => {
+    const loc = (e.location || '').toLowerCase();
+    let coordKey = null;
+    for (const [city, coords] of Object.entries(LOCATION_COORDS)) {
+      if (loc.includes(city)) {
+        coordKey = city;
+        if (!locGroups[coordKey]) {
+          locGroups[coordKey] = { lat: coords.lat, lon: coords.lon, count: 0, names: [] };
+        }
+        locGroups[coordKey].count++;
+        if (locGroups[coordKey].names.length < 4) {
+          locGroups[coordKey].names.push(e.name);
+        }
+        break;
+      }
+    }
+  });
+
+  // Add markers
+  Object.entries(locGroups).forEach(([city, info]) => {
+    const r = Math.min(12, Math.max(3, 2 + info.count * 0.35));
+    const opacity = Math.min(0.95, 0.4 + info.count * 0.04);
+
+    const marker = L.circleMarker([info.lat, info.lon], {
+      radius: r,
+      fillColor: '#d97706',
+      color: '#b45309',
+      weight: 1,
+      fillOpacity: opacity
+    }).addTo(eventMap);
+
+    marker.on('click', () => filterByMapCity(city));
+    let tipContent = info.names.join('<br>');
+    if (info.count > 4) tipContent += '<br><span style="color:#999">+' + (info.count - 4) + ' till</span>';
+    marker.bindTooltip(tipContent, {
+      direction: 'top', offset: [0, -r], className: 'map-dot-tooltip'
+    });
+
+    mapMarkers.push(marker);
+  });
+
+  // Update stats
+  const statsEl = document.getElementById('mapStats');
+  if (statsEl) {
+    const cityCount = Object.keys(locGroups).length;
+    const eventCount = filteredEvents.length;
+    statsEl.textContent = cityCount + ' orter \u00b7 ' + eventCount + ' evenemang';
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   buildRegionFilter();
   updateStats();
+  initEventMap();
   render();
   updateFab();
   injectEventSchema();
@@ -2222,6 +2458,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const sc = document.getElementById('searchClear');
     if (si) { si.value = ''; }
     if (sc) { sc.classList.remove('visible'); }
+    mapCityFilter = '';
+    updateMapCityBadge();
   }
 
   // "Alla" reset button (both desktop and mobile)
