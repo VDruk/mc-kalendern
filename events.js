@@ -4226,18 +4226,86 @@ const EVENTS_DATA = {
                   "organizer": "Probike",
                   "description": "Kom in och provkör mängder av hojar. Eventet gäller alla tre Probikebutikerna.",
                   "descriptionFull": "Harley Day hos Probike!\n\nKom in och provkör mängder av hojar hos Probike. Eventet gäller alla tre butikerna i Stockholm, Göteborg och Malmö.\n\nPerfekt tillfälle att testa nya Harley-Davidson modeller.",
+                  "backImage": "ads/harley-day-probike-back-2026-04-18.jpg",
                   "links": [
                         {
-                              "label": "Probike",
-                              "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"
+                              "label": "Probike Stockholm",
+                              "url": "https://www.probikebutiken.se/stockholm/"
                         },
                         {
-                              "label": "Probike butiker",
-                              "url": "https://www.probikebutiken.se/butiker/"
+                              "label": "Probike Göteborg",
+                              "url": "https://www.probikebutiken.se/goteborg/"
+                        },
+                        {
+                              "label": "Probike Malmö",
+                              "url": "https://www.probikebutiken.se/malmo/"
                         }
                   ],
-                  "link": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/",
+                  "link": "https://www.probikebutiken.se/stockholm/",
                   "region": "Sverige",
+                  "source": "probikebutiken.se"
+            },
+            {
+                  "id": "harley-day-probike-stockholm-2026-04-18",
+                  "name": "Harley Day Probike Stockholm",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Åkerivägen 6, Täby",
+                  "type": "Träff",
+                  "organizer": "Probike",
+                  "description": "Harley Day hos Probike Stockholm i Täby. Provkör mängder av hojar och kolla in nya modeller.",
+                  "descriptionFull": "Harley Day hos Probike Stockholm!\n\nKom in och provkör mängder av hojar hos Probike i Täby. Perfekt tillfälle att testa nya Harley-Davidson modeller.\n\nAdress: Åkerivägen 6, 187 75 Täby.",
+                  "backImage": "ads/harley-day-probike-stockholm-back-2026-04-18.jpg",
+                  "links": [
+                        {
+                              "label": "Probike Stockholm",
+                              "url": "https://www.probikebutiken.se/stockholm/"
+                        }
+                  ],
+                  "link": "https://www.probikebutiken.se/stockholm/",
+                  "region": "Stockholm",
+                  "source": "probikebutiken.se"
+            },
+            {
+                  "id": "harley-day-probike-goteborg-2026-04-18",
+                  "name": "Harley Day Probike Göteborg",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Aminogatan 32C, Mölndal",
+                  "type": "Träff",
+                  "organizer": "Probike",
+                  "description": "Harley Day hos Probike Göteborg i Mölndal. Provkör mängder av hojar och kolla in nya modeller.",
+                  "descriptionFull": "Harley Day hos Probike Göteborg!\n\nKom in och provkör mängder av hojar hos Probike i Mölndal. Perfekt tillfälle att testa nya Harley-Davidson modeller.\n\nAdress: Aminogatan 32C, 431 53 Mölndal.",
+                  "backImage": "ads/harley-day-probike-goteborg-back-2026-04-18.jpg",
+                  "links": [
+                        {
+                              "label": "Probike Göteborg",
+                              "url": "https://www.probikebutiken.se/goteborg/"
+                        }
+                  ],
+                  "link": "https://www.probikebutiken.se/goteborg/",
+                  "region": "Västra Götaland",
+                  "source": "probikebutiken.se"
+            },
+            {
+                  "id": "harley-day-probike-malmo-2026-04-18",
+                  "name": "Harley Day Probike Malmö",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Lundavägen 140, Malmö",
+                  "type": "Träff",
+                  "organizer": "Probike",
+                  "description": "Harley Day hos Probike Malmö. Provkör mängder av hojar och kolla in nya modeller.",
+                  "descriptionFull": "Harley Day hos Probike Malmö!\n\nKom in och provkör mängder av hojar hos Probike i Malmö. Perfekt tillfälle att testa nya Harley-Davidson modeller.\n\nAdress: Lundavägen 140, 212 24 Malmö.",
+                  "backImage": "ads/harley-day-probike-malmo-back-2026-04-18.jpg",
+                  "links": [
+                        {
+                              "label": "Probike Malmö",
+                              "url": "https://www.probikebutiken.se/malmo/"
+                        }
+                  ],
+                  "link": "https://www.probikebutiken.se/malmo/",
+                  "region": "Skåne",
                   "source": "probikebutiken.se"
             },
             {
@@ -4686,7 +4754,7 @@ const EVENTS_DATA = {
                   "organizer": "MCHK",
                   "description": "Bussresa till England med besök på Morgan- och Triumph-fabrikerna samt veteranmarknaden i Stafford! Datum: 22/4 – 29/4 2026 Buss Örebro – Helsingborg – Helsingör – Rödby – Puttgarden- Lübeck – Rotterdam – Felixstowe – osv…Vi besöker även Brittiska Mo",
                   "link": "https://mchk.org/evenemang/kalender-34490789",
-                  "region": "Sverige",
+                  "region": "Skåne",
                   "source": "mchk.org"
             },
             {
@@ -5452,7 +5520,7 @@ const EVENTS_DATA = {
                   "organizer": "ÖAMCK",
                   "description": "Städdag Kåken (OBS Söndag)",
                   "link": "https://oamck.se/events/staddag-kaken-obs-sondag/",
-                  "region": "Sverige",
+                  "region": "Skåne",
                   "source": "oamck.se"
             },
             {
@@ -8536,7 +8604,7 @@ const EVENTS_DATA = {
                   "organizer": "GoldWing Club Sweden",
                   "description": "Sörmlandswingarnas Medlemsmöte",
                   "link": "https://gwcs.se/events/sormlandswingarnas-minitraff-2026-pa-herrfallet/?occurrence=2026-05-14",
-                  "region": "Sverige",
+                  "region": "Södermanland",
                   "source": "gwcs.se"
             },
             {
@@ -10137,7 +10205,7 @@ const EVENTS_DATA = {
                   "organizer": "GoldWing Club Sweden",
                   "description": "Sörmlandswingarnas Medlemsmöte",
                   "link": "https://gwcs.se/events/svenljunga-traffen-pa-nydal-22-24-maj-2026/?occurrence=2026-05-22",
-                  "region": "Sverige",
+                  "region": "Södermanland",
                   "source": "gwcs.se"
             },
             {
@@ -10753,7 +10821,7 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ],
-                  "region": "Sverige",
+                  "region": "Stockholm",
                   "source": "facebook.com",
                   "descriptionFull": "MCE arrangerar en 5-dagarstur till Lettland, ledd av ökenräven Olle Ohlsson.\n\nAvfärd 25 maj kl 13:00 från Järfälla (samling kl 12:00). Färja från Nynäshamn kl 21:30.\n\nKörning i Lettland: Ventspils–Rojas–Saldus–Ventspils. Återfärd med färja 29 maj.\n\nIngår: färja (2-mannahytt), frukost, 3 måltider/dag, afterbike-öl, hotell dubbelrum, följebil för bagage, bensin.\n\nPris:\n– Eigen hoj: 15 000 kr\n– Hyrd Husqvarna enduro: 20 000 kr\n(Faktura möjligt, moms tillkommer)\n\nAnmälan: mce@cmail.nu eller 070-715 93 93\nTa med: pass, reg.bevis i original, euro kontanter."
             },
@@ -13975,7 +14043,7 @@ const EVENTS_DATA = {
                   "organizer": "MCHK",
                   "description": "Invitation till Trondhjemsridtet 1919 - 2026-loppet:\"Trondhjemsridtet 1919\" arrangeras i Norge vart 2:a år och är en 4-dagars långfärd på ungefär 1200 km för veteran-motorcyklar tom. 1954.Dagsetapperna är på ungefär 300 km och vinnare är alla som gen",
                   "link": "https://mchk.org/evenemang/kalender-34490789",
-                  "region": "Sverige",
+                  "region": "Norge",
                   "source": "mchk.org"
             },
             {
@@ -14969,7 +15037,7 @@ const EVENTS_DATA = {
                   "organizer": "MC-ordonnans",
                   "description": "Cykel SM",
                   "link": "https://oamck.se/events/cykel-sm/",
-                  "region": "Sverige",
+                  "region": "Uppsala",
                   "source": "oamck.se"
             },
             {
@@ -15166,7 +15234,7 @@ const EVENTS_DATA = {
                   "organizer": "GoldWing Club Sweden",
                   "description": "Sörmlandswingarnas Medlemsmöte",
                   "link": "https://gwcs.se/events/sormlandswingarna-till-nationella-traffen-i-degeberga/?occurrence=2026-06-25",
-                  "region": "Sverige",
+                  "region": "Södermanland",
                   "source": "gwcs.se"
             },
             {
@@ -18930,7 +18998,7 @@ const EVENTS_DATA = {
                   "organizer": "GoldWing Club Sweden",
                   "description": "Sörmlandswingarnas Medlemsmöte",
                   "link": "https://gwcs.se/events/sormlandswingarna-till-internationella-traffen-orsa-gronklitt/?occurrence=2026-08-06",
-                  "region": "Sverige",
+                  "region": "Södermanland",
                   "source": "gwcs.se"
             },
             {
@@ -20041,7 +20109,7 @@ const EVENTS_DATA = {
                   "organizer": "SMC Riks",
                   "description": "Mälaren runt",
                   "link": "https://oamck.se/events/malaren-runt/",
-                  "region": "Sverige",
+                  "region": "Stockholm",
                   "source": "oamck.se"
             },
             {
@@ -21845,7 +21913,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "link": "https://www.svmc.se/resor2026/rumaenien",
-                  "region": "Sverige",
+                  "region": "Blekinge",
                   "source": "svmc.se"
             },
             {
