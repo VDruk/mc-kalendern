@@ -8734,6 +8734,11 @@ const EVENTS_DATA = {
                         {
                               "label": "FB Event",
                               "url": "https://www.facebook.com/events/810090084871783"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Gullregnsv%C3%A4gen+16%2C+Gr%C3%A4ngesberg",
+                              "type": "map"
                         }
                   ],
                   "link": "https://www.facebook.com/events/810090084871783",
