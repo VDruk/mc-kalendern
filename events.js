@@ -17897,9 +17897,9 @@ const EVENTS_DATA = {
                   "organizer": "H-DCS",
                   "description": "Dagstur till Trollhagens fiskerestaurang med distrikt I 25 juli Tider och samlingsplatser kommer senare Mer info: Annemona Andersson 070.",
                   "link": "https://hdcs.se/evenemang/dagstur-med-distrikt-i/",
-                  "region": "Dalarna",
+                  "region": "Västernorrland",
                   "source": "hdcs.se",
-                  "descriptionFull": "Dagstur med distrikt I arrangeras av H-DCS.\n\nDagstur till Trollhagens fiskerestaurang med distrikt I 25 juli Tider och samlingsplatser kommer senare Mer info: Annemona Andersson 070.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Västernorrland.",
+                  "descriptionFull": "Dagstur till Trollhagens fiskerestaurang med distrikt I 25 juli. Tider och samlingsplatser kommer senare. Mer info: Annemona Andersson.",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -21822,12 +21822,12 @@ const EVENTS_DATA = {
                   "name": "DOG Stenöträffen",
                   "date": "2026-09-04",
                   "dateEnd": "2026-09-06",
-                  "location": "Stenö",
+                  "location": "Stenö Havsbad, Söderhamn",
                   "type": "Träff",
                   "organizer": "H-DCS",
                   "description": "Stenöträffen + Medlemsmöte 4-6 September Mer info: Laila 072 - 725 12 72 Olle 072.",
                   "link": "https://hdcs.se/evenemang/dog-stenotraffen/",
-                  "region": "Dalarna",
+                  "region": "Gävleborg",
                   "source": "hdcs.se",
                   "descriptionFull": "DOG Stenöträffen arrangeras av H-DCS.\n\nStenöträffen + Medlemsmöte 4-6 September Mer info: Laila 072 - 725 12 72 Olle 072.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Stenö.",
                   "links": [
