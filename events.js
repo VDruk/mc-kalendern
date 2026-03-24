@@ -12569,7 +12569,7 @@ const EVENTS_DATA = {
                   "name": "D14-Nationaldagsturen",
                   "date": "2026-06-06",
                   "dateEnd": "2026-06-06",
-                  "location": "Halmstad, Växjövägen 15",
+                  "location": "Halmstad",
                   "type": "Körning",
                   "organizer": "BMW MC-klubben",
                   "description": "Körning med D14 från Växjövägen 15, 302 44 Halmstad, Sverige. Samling enligt schema. Följ bmwklubben.se för information.",
