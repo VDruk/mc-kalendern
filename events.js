@@ -7778,7 +7778,7 @@ const EVENTS_DATA = {
                   "organizer": "BMW MC-klubben",
                   "description": "Arrangemang med BMW MC-klubben D8 från Nossebro. Vandringsrund och motorcykelkörning. Mer info på bmwklubben.se.",
                   "link": "https://www.bmwklubben.se/aktiviteter/d8-nissans-broar/",
-                  "region": "Värmland",
+                  "region": "Västra Götaland",
                   "source": "bmwklubben.se",
                   "descriptionFull": "D8 Nossans broar arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Nossebro. Vandringsrund och motorcykelkörning. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nossebro.",
                   "links": [
