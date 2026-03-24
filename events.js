@@ -1244,7 +1244,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "hd-nights-2026-03-20",
-                  "name": "Harley-Davidson Nights 20 Mars",
+                  "name": "Harley-Davidson Nights",
                   "date": "2026-03-20",
                   "dateEnd": "2026-03-20",
                   "location": "Malmö, Stockholm, Borås, Helsingborg, Linköping",
@@ -5074,7 +5074,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-medlemsmote-25-26-april-2026",
-                  "name": "DOE Medlemsmöte 25-26 april",
+                  "name": "DOE Medlemsmöte",
                   "date": "2026-04-25",
                   "dateEnd": "2026-04-26",
                   "location": "Småland",
@@ -7371,7 +7371,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-gokart-hovmantorp-9-maj-2026-2026",
-                  "name": "DOE Gokart Hovmantorp 9 maj 2026",
+                  "name": "DOE Gokart Hovmantorp",
                   "date": "2026-05-09",
                   "dateEnd": "2026-05-09",
                   "location": "Hovmantorp",
@@ -7898,7 +7898,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "ghc-varmonstring-2026-05-10",
-                  "name": "GHC Vårmönstring 2026",
+                  "name": "GHC Vårmönstring",
                   "date": "2026-05-10",
                   "dateEnd": "2026-05-10",
                   "location": "Barnsjövägen 65, Lindome",
@@ -8311,7 +8311,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-blommans-amp-lybergs-saloon-runda-i-eringsboda-2026",
-                  "name": "DOE Blommans & Lybergs Saloon Runda i Eringsboda 14 - 15 maj 2026",
+                  "name": "DOE Blommans & Lybergs Saloon Runda i Eringsboda",
                   "date": "2026-05-14",
                   "dateEnd": "2026-05-15",
                   "location": "Eringsboda",
@@ -8644,7 +8644,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-poker-run-lordag-16-maj-2026-pa-flying-eagle-s-2026",
-                  "name": "DOE Poker Run Lördag 16 maj 2026 på Flying Eagle´s Stora Vårfest i Växjö",
+                  "name": "DOE Poker Run Lördag på Flying Eagle´s Stora Vårfest i Växjö",
                   "date": "2026-05-16",
                   "dateEnd": "2026-05-16",
                   "location": "Växjö",
@@ -8696,7 +8696,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "dannike-motorstop-2026",
-                  "name": "Dannike Motorstopp 2026",
+                  "name": "Dannike Motorstopp",
                   "date": "2026-05-16",
                   "dateEnd": "2026-05-16",
                   "location": "Dannike Hills Harley Davidson, Dannike",
@@ -9777,7 +9777,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "super-rally-2026-2026",
-                  "name": "Super Rally 2026",
+                  "name": "Super Rally",
                   "date": "2026-05-20",
                   "dateEnd": "2026-05-24",
                   "location": "Fredericia, Danmark",
@@ -10046,7 +10046,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doa-finlandstur-22-24-maj-2026",
-                  "name": "DOA - Finlandstur 22-24 maj",
+                  "name": "DOA - Finlandstur",
                   "date": "2026-05-22",
                   "dateEnd": "2026-05-24",
                   "location": "Vikingterminalen, Stadsgårdskajen, Stockholm",
@@ -14576,7 +14576,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-midsommartraff-pa-hasselbacken-i-alstermo-19-2-2026",
-                  "name": "DOE Midsommarträff på Hasselbacken i Alstermo 19-21 juni",
+                  "name": "DOE Midsommarträff på Hasselbacken i Alstermo",
                   "date": "2026-06-19",
                   "dateEnd": "2026-06-21",
                   "location": "Alstermo",
@@ -15490,7 +15490,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-charity-run-27-juni-2026",
-                  "name": "DOE Charity run 27 juni",
+                  "name": "DOE Charity run",
                   "date": "2026-06-27",
                   "dateEnd": "2026-06-27",
                   "location": "Småland",
@@ -15542,7 +15542,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doh-charity-run-2026-2026",
-                  "name": "DOH-Charity Run 2026",
+                  "name": "DOH-Charity Run",
                   "date": "2026-06-27",
                   "dateEnd": "2026-06-27",
                   "location": "Monikas Café, Norsjö",
@@ -15983,7 +15983,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-enuddetraffen-oland-3-5-juli-2026",
-                  "name": "DOE Enuddeträffen Öland 3-5 juli",
+                  "name": "DOE Enuddeträffen Öland",
                   "date": "2026-07-03",
                   "dateEnd": "2026-07-05",
                   "location": "Öland",
@@ -16530,7 +16530,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-nordic-run-genom-distrikt-e-7-8-juli-2026",
-                  "name": "DOE Nordic run genom Distrikt-E 7-8 juli",
+                  "name": "DOE Nordic run genom Distrikt-E",
                   "date": "2026-07-07",
                   "dateEnd": "2026-07-08",
                   "location": "Småland",
@@ -17162,7 +17162,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-hoglandsturen-med-jonas-lager-17-juli-2026",
-                  "name": "DOE Höglandsturen med Jonas Lager 17 juli",
+                  "name": "DOE Höglandsturen med Jonas Lager",
                   "date": "2026-07-17",
                   "dateEnd": "2026-07-17",
                   "location": "Småland",
@@ -20739,7 +20739,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-hasses-olandsrunda-22-23-augusti-2026",
-                  "name": "DOE Hasses Ölandsrunda 22-23 augusti",
+                  "name": "DOE Hasses Ölandsrunda",
                   "date": "2026-08-22",
                   "dateEnd": "2026-08-23",
                   "location": "Öland",
@@ -22617,7 +22617,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-tjejtraff-moheda-12-september-2026",
-                  "name": "DOE Tjejträff Moheda 12 september",
+                  "name": "DOE Tjejträff Moheda",
                   "date": "2026-09-12",
                   "dateEnd": "2026-09-12",
                   "location": "Moheda",
@@ -23071,7 +23071,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-fiskelager-i-kulagolen-18-19-september-2026",
-                  "name": "DOE Fiskeläger i Kulagölen 18-19 september",
+                  "name": "DOE Fiskeläger i Kulagölen",
                   "date": "2026-09-18",
                   "dateEnd": "2026-09-19",
                   "location": "Småland",
@@ -23837,7 +23837,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-asian-food-varnamo-3-oktober-2026",
-                  "name": "DOE Asian Food Värnamo 3 oktober",
+                  "name": "DOE Asian Food Värnamo",
                   "date": "2026-10-03",
                   "dateEnd": "2026-10-03",
                   "location": "Värnamo",
@@ -23863,7 +23863,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-sista-rundan-3-oktober-2026",
-                  "name": "DOE Sista rundan 3 oktober",
+                  "name": "DOE Sista rundan",
                   "date": "2026-10-03",
                   "dateEnd": "2026-10-03",
                   "location": "Småland",
@@ -23915,7 +23915,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "medlemsmote-planeringsmote-2027-2026",
-                  "name": "Medlemsmöte/Planeringsmöte 2027",
+                  "name": "Medlemsmöte/Planeringsmöte",
                   "date": "2026-10-03",
                   "dateEnd": "2026-10-04",
                   "location": "Sverige",
@@ -24388,7 +24388,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-aktivitet-i-oskarshamn-7-november-2026",
-                  "name": "DOE Aktivitet i Oskarshamn 7 november",
+                  "name": "DOE Aktivitet i Oskarshamn",
                   "date": "2026-11-07",
                   "dateEnd": "2026-11-07",
                   "location": "Oskarshamn",
@@ -24710,7 +24710,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-medlemsmote-julbord-28-29-november-2026",
-                  "name": "DOE Medlemsmöte/Julbord 28-29 november",
+                  "name": "DOE Medlemsmöte/Julbord",
                   "date": "2026-11-28",
                   "dateEnd": "2026-11-29",
                   "location": "Småland",
