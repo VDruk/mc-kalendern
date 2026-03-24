@@ -20773,7 +20773,7 @@ const EVENTS_DATA = {
                   "name": "JMC till JAS-39",
                   "date": "2026-08-22",
                   "dateEnd": "2026-08-22",
-                  "location": "St1 A6, Jönköping → Malmen, Linköping",
+                  "location": "St1 A6, Jönköping",
                   "type": "Körning",
                   "organizer": "JMC Samåkning Småland",
                   "organizerIcon": "clubs/normalized/jmc.png",
