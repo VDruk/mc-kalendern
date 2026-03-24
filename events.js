@@ -11204,7 +11204,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "doe-noplatraffen-i-kristianopel-29-31-maj-2026",
-                  "name": "DOE Noplaträffen i Kristianopel 29-31 maj",
+                  "name": "DOE Noplaträffen i Kristianopel",
                   "date": "2026-05-29",
                   "dateEnd": "2026-05-31",
                   "location": "Kristianopel",
