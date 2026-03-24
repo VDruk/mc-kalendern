@@ -10111,7 +10111,7 @@ const EVENTS_DATA = {
                   "organizer": "H-DCS",
                   "description": "Arrangemang med H-DCS från Finland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
                   "link": "https://hdcs.se/evenemang/ride-to-eat-hojresa-till-finland/",
-                  "region": "Stockholm",
+                  "region": "Finland",
                   "source": "hdcs.se",
                   "descriptionFull": "Ride to eat - Hojresa till Finland arrangeras av H-DCS.\n\nArrangemang med H-DCS från Finland. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Finland.",
                   "links": [
