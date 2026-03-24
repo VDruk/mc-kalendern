@@ -11576,17 +11576,17 @@ const EVENTS_DATA = {
             },
             {
                   "id": "korvrundan-2026",
-                  "name": "Körvrundan",
+                  "name": "Dagstur Körvrundan",
                   "date": "2026-05-30",
                   "dateEnd": "2026-05-30",
-                  "location": "Sverige",
+                  "location": "Falun (Distrikt G)",
                   "type": "Körning",
                   "organizer": "H-DCS",
-                  "description": "Arrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
+                  "description": "Dagstur med H-DCS Distrikt G. Mer info kommer på hdcs.se.",
                   "link": "https://hdcs.se/evenemang/korvrundan/",
                   "region": "Dalarna",
                   "source": "hdcs.se",
-                  "descriptionFull": "Körvrundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
+                  "descriptionFull": "Dagstur Körvrundan med H-DCS Distrikt G. Mer info kommer på hdcs.se.",
                   "links": [
                         {
                               "label": "hdcs.se",
