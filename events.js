@@ -9191,6 +9191,58 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "dgr-sundsvall-2026-05-17",
+      "name": "Distinguished Gentleman's Ride",
+      "date": "2026-05-17",
+      "dateEnd": "2026-05-17",
+      "location": "Stora Torget, Sundsvall",
+      "type": "Körning",
+      "organizer": "Northbike Sweden",
+      "description": "Världsomfattande välgörenhetstur för prostatacancer och psykisk ohälsa. Klä dig som en gentleman, kör en klassiker och gör skillnad!",
+      "descriptionFull": "Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa.\n\nI Sundsvall samlas vi på Stora Torget och kör en gemensam tur genom stan som äkta gentlemen. Dresscode: dapper! Tänk tweed, slips och stil.\n\nNorthbike Sweden och Triumph är med som partner. Håll utkik i Northbikes kanaler för mer info om rutt och tider.\n\n15 år av DGR worldwide. Classic motorcycles unite for men's health.\n\nMer info: www.gentlemansride.com",
+      "link": "https://www.gentlemansride.com",
+      "region": "Västernorrland",
+      "source": "facebook.com",
+      "frontImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
+      "backImage": "ads/default-back.jpg",
+      "links": [
+            {
+                  "label": "Facebook",
+                  "url": "https://www.facebook.com/northbikesweden"
+            },
+            {
+                  "label": "DGR",
+                  "url": "https://www.gentlemansride.com"
+            }
+      ]
+},
+    {
+      "id": "dgr-umea-2026-05-17",
+      "name": "Distinguished Gentleman's Ride",
+      "date": "2026-05-17",
+      "dateEnd": "2026-05-17",
+      "location": "Umeå",
+      "type": "Körning",
+      "organizer": "Northbike Sweden",
+      "description": "Världsomfattande välgörenhetstur för prostatacancer och psykisk ohälsa. Klä dig som en gentleman, kör en klassiker och gör skillnad!",
+      "descriptionFull": "Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa.\n\nI Umeå kör vi en gemensam tur som äkta gentlemen. Dresscode: dapper! Tänk tweed, slips och stil.\n\nNorthbike Sweden och Triumph är med som partner. Håll utkik i Northbikes kanaler för mer info om samlingsplats, rutt och tider.\n\n15 år av DGR worldwide. Classic motorcycles unite for men's health.\n\nMer info: www.gentlemansride.com",
+      "link": "https://www.gentlemansride.com",
+      "region": "Västerbotten",
+      "source": "facebook.com",
+      "frontImage": "ads/dgr-umea-front-2026-05-17.jpg",
+      "backImage": "ads/default-back.jpg",
+      "links": [
+            {
+                  "label": "Facebook",
+                  "url": "https://www.facebook.com/northbikesweden"
+            },
+            {
+                  "label": "DGR",
+                  "url": "https://www.gentlemansride.com"
+            }
+      ]
+},
+    {
       "id": "doa-kvallskörning-nacka-2026-05-18",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-05-18",
