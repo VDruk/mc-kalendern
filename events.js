@@ -10304,32 +10304,6 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
-                  "id": "hdcs-nopla-meeting-2026",
-                  "name": "H-DCS Noplå Meeting",
-                  "date": "2026-05-23",
-                  "dateEnd": "2026-05-25",
-                  "location": "Noplå",
-                  "type": "Träff",
-                  "organizer": "H-DCS",
-                  "description": "H-DCS klassiska Noplå Meeting. En av klubbens största årliga träffar för Harley-ägare.",
-                  "link": "https://hdcs.se/evenemang/",
-                  "region": "Jämtland",
-                  "source": "hdcs.se",
-                  "descriptionFull": "H-DCS Noplå Meeting arrangeras av H-DCS.\n\nH-DCS klassiska Noplå Meeting. En av klubbens största årliga träffar för Harley-ägare.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Noplå.",
-                  "links": [
-                        {
-                              "label": "hdcs.se",
-                              "url": "https://hdcs.se/evenemang/"
-                        },
-                        {
-                              "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Nopl%C3%A5",
-                              "type": "map"
-                        }
-                  ],
-                  "organizerIcon": "clubs/normalized/hdcs.png"
-            },
-            {
                   "id": "lo-i-lordagskörningar-kramfors-2026-05-23",
                   "name": "LO I Lördagskörningar Kramfors",
                   "date": "2026-05-23",
