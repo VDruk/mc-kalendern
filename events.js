@@ -14009,14 +14009,14 @@ const EVENTS_DATA = {
                   "name": "Håkan P Slottsrundan",
                   "date": "2026-06-14",
                   "dateEnd": "2026-06-14",
-                  "location": "Sverige",
+                  "location": "Kronovall, Skåne-Tranås",
                   "type": "Körning",
                   "organizer": "H-DCS",
-                  "description": "Arrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
+                  "description": "Körtur med H-DCS Distrikt B. Slottsrundan med Håkan P. Mer info på hdcs.se.",
                   "link": "https://hdcs.se/evenemang/hakan-pslottsrundan/",
                   "region": "Skåne",
                   "source": "hdcs.se",
-                  "descriptionFull": "Håkan P Slottsrundan arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
+                  "descriptionFull": "Håkan P Slottsrundan med H-DCS Distrikt B.\n\nKronovall, Långahuset 101, 273 92 Skåne-Tranås. Mer info på hdcs.se.",
                   "links": [
                         {
                               "label": "hdcs.se",
@@ -14024,7 +14024,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Sverige",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kronovall+L%C3%A5ngahuset+101+Sk%C3%A5ne-Tran%C3%A5s",
                               "type": "map"
                         }
                   ],
