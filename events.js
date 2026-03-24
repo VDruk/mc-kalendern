@@ -13650,7 +13650,7 @@ const EVENTS_DATA = {
                   "organizer": "BMW MC-klubben",
                   "description": "Arrangemang med BMW MC-klubben D8 från Telemarken, Norge. Mer info på bmwklubben.se.",
                   "link": "https://www.bmwklubben.se/aktiviteter/bmwklubben-norge-d8-telemarken-runt/",
-                  "region": "Västra Götaland",
+                  "region": "Norge",
                   "source": "bmwklubben.se",
                   "descriptionFull": "BMWKLUBBEN Norge/D8 Telemarken runt arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Telemarken, Norge. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Telemarken, Norge.",
                   "links": [
@@ -21289,7 +21289,7 @@ const EVENTS_DATA = {
                   "organizer": "BMW MC-klubben",
                   "description": "Arrangemang med BMW MC-klubben D8 från Limfjorden, Danmark. Mer info på bmwklubben.se.",
                   "link": "https://www.bmwklubben.se/aktiviteter/d8-limfjorden-runt-med-bmwklubben-danmark/",
-                  "region": "Västra Götaland",
+                  "region": "Danmark",
                   "source": "bmwklubben.se",
                   "descriptionFull": "D8 Limfjorden runt med BMWKLUBBEN Danmark arrangeras av BMW MC-klubben.\n\nArrangemang med BMW MC-klubben D8 från Limfjorden, Danmark. Mer info på bmwklubben.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Limfjorden, Danmark.",
                   "links": [
