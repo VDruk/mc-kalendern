@@ -6081,9 +6081,9 @@ const EVENTS_DATA = {
                   "organizer": "BMW MC-klubben",
                   "description": "Bli med og kjøre rundt Norges største innsjø. 1. mai 2026 vil den tradisjonelle Mjøsrunden gå för 54 gang.",
                   "link": "https://www.bmwklubben.se/aktiviteter/mjosa-rundt-1-mai/",
-                  "region": "Norrbotten",
+                  "region": "Norge",
                   "source": "bmwklubben.se",
-                  "descriptionFull": "Mjøsa Rundt - 1. Mai arrangeras av BMW MC-klubben.\n\nBli med og kjøre rundt Norges største innsjø. 1. mai 2026 vil den tradisjonelle Mjøsrunden gå för 54 gang.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hamar, Innlandet, Norge.",
+                  "descriptionFull": "Bli med og kjøre rundt Norges største innsjø Mjøsa! 1. mai 2026 vil den tradisjonelle Mjøsrunden gå for 54. gang. Start i Hamar, Innlandet.",
                   "links": [
                         {
                               "label": "bmwklubben.se",
@@ -6091,7 +6091,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Hamar%2C+Innlandet%2C+Norge",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Hamar+Norge",
                               "type": "map"
                         }
                   ]
