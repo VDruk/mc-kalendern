@@ -21853,14 +21853,14 @@ const EVENTS_DATA = {
                   "name": "mcQ Riksträff 2026",
                   "date": "2026-09-04",
                   "dateEnd": "2026-09-06",
-                  "location": "Sverige",
+                  "location": "Söderköpings Brunn, Söderköping",
                   "type": "Träff",
                   "organizer": "BMW MC-klubben",
-                  "description": "Träffpunkt i Sverige. Gemensam fika och MC-umgänge. Alla välkomna!",
+                  "description": "BMW MC-klubbens mcQ Riksträff på Söderköpings Brunn, en anrik kurort i Östergötland. Tre dagar med MC-umgänge och aktiviteter.",
                   "link": "https://www.bmwklubben.se/aktiviteter/mcq-rikstraff-2026/",
-                  "region": "Norrbotten",
+                  "region": "Östergötland",
                   "source": "bmwklubben.se",
-                  "descriptionFull": "mcQ Riksträff 2026 arrangeras av BMW MC-klubben.\n\nTräffpunkt i Sverige. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
+                  "descriptionFull": "BMW MC-klubbens mcQ Riksträff 2026 på Söderköpings Brunn, en anrik kurort i Östergötland.\n\nAdress: Skönbergagatan 35, 614 30 Söderköping.\n\n4-6 september. Tre dagar med MC-umgänge och aktiviteter. Mer info på bmwklubben.se.",
                   "links": [
                         {
                               "label": "bmwklubben.se",
@@ -21868,7 +21868,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Sverige",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%B6nbergagatan+35+S%C3%B6derk%C3%B6ping",
                               "type": "map"
                         }
                   ]
