@@ -17568,7 +17568,7 @@ const EVENTS_DATA = {
                   "name": "Norgeäventyret V:30",
                   "date": "2026-07-20",
                   "dateEnd": "2026-07-26",
-                  "location": "Horten, Norge (samling Lidköping)",
+                  "location": "Horten, Norge",
                   "type": "Körning",
                   "organizer": "Kör Hoj",
                   "description": "7-dagarstur i Norge, ca 220 mil. Max 8 deltagare. Boende i stugor, turledare och äventyrscoach ingår. Pris: 7 475 kr. Anm: korhoj.se.",
