@@ -9242,6 +9242,90 @@ const EVENTS_DATA = {
       ]
 },
     {
+      "id": "dgr-gothenburg-2026-05-17",
+      "name": "The Distinguished Gentleman's Ride",
+      "date": "2026-05-17",
+      "dateEnd": "2026-05-17",
+      "location": "Göteborg",
+      "type": "Körning",
+      "organizer": "DGR Gothenburg",
+      "description": "Världsomfattande välgörenhetstur för prostatacancer och psykisk ohälsa. Klä dig som en gentleman, kör en klassiker och gör skillnad!",
+      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa.\n\nI Göteborg samlas vi och kör en gemensam tur som äkta gentlemen. Dresscode: dapper! Tänk tweed, slips och stil.\n\n15 år av DGR worldwide. Classic motorcycles unite for men's health.\n\nHåll utkik på gentlemansride.com för mer info om samlingsplats och rutt.",
+      "link": "https://www.gentlemansride.com",
+      "region": "Västra Götaland",
+      "source": "gentlemansride.com",
+      "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
+      "links": [
+            {
+                  "label": "DGR",
+                  "url": "https://www.gentlemansride.com"
+            }
+      ]
+},
+    {
+      "id": "dgr-karlstad-2026-05-17",
+      "name": "The Distinguished Gentleman's Ride",
+      "date": "2026-05-17",
+      "dateEnd": "2026-05-17",
+      "location": "Karlstad",
+      "type": "Körning",
+      "organizer": "DGR Karlstad",
+      "description": "Världsomfattande välgörenhetstur för prostatacancer och psykisk ohälsa. Klä dig som en gentleman, kör en klassiker och gör skillnad!",
+      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa.\n\nI Karlstad samlas vi och kör en gemensam tur som äkta gentlemen. Dresscode: dapper! Tänk tweed, slips och stil.\n\n15 år av DGR worldwide. Classic motorcycles unite for men's health.\n\nHåll utkik på gentlemansride.com för mer info om samlingsplats och rutt.",
+      "link": "https://www.gentlemansride.com",
+      "region": "Värmland",
+      "source": "gentlemansride.com",
+      "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
+      "links": [
+            {
+                  "label": "DGR",
+                  "url": "https://www.gentlemansride.com"
+            }
+      ]
+},
+    {
+      "id": "dgr-stockholm-2026-05-17",
+      "name": "The Distinguished Gentleman's Ride",
+      "date": "2026-05-17",
+      "dateEnd": "2026-05-17",
+      "location": "Stockholm",
+      "type": "Körning",
+      "organizer": "DGR Stockholm",
+      "description": "Världsomfattande välgörenhetstur för prostatacancer och psykisk ohälsa. Klä dig som en gentleman, kör en klassiker och gör skillnad! Start kl 9:30.",
+      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa.\n\nI Stockholm samlas vi kl 9:30 och kör en gemensam tur som äkta gentlemen. Dresscode: dapper! Tänk tweed, slips och stil.\n\n15 år av DGR worldwide. Classic motorcycles unite for men's health.\n\nHåll utkik på gentlemansride.com för mer info om samlingsplats och rutt.",
+      "link": "https://www.gentlemansride.com",
+      "region": "Stockholm",
+      "source": "gentlemansride.com",
+      "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
+      "links": [
+            {
+                  "label": "DGR",
+                  "url": "https://www.gentlemansride.com"
+            }
+      ]
+},
+    {
+      "id": "dgr-vastervik-2026-05-17",
+      "name": "The Distinguished Gentleman's Ride",
+      "date": "2026-05-17",
+      "dateEnd": "2026-05-17",
+      "location": "Västervik",
+      "type": "Körning",
+      "organizer": "DGR Västervik",
+      "description": "Världsomfattande välgörenhetstur för prostatacancer och psykisk ohälsa. Klä dig som en gentleman, kör en klassiker och gör skillnad! Start kl 10:00.",
+      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa.\n\nI Västervik samlas vi kl 10:00 och kör en gemensam tur som äkta gentlemen. Dresscode: dapper! Tänk tweed, slips och stil.\n\n15 år av DGR worldwide. Classic motorcycles unite for men's health.\n\nHåll utkik på gentlemansride.com för mer info om samlingsplats och rutt.",
+      "link": "https://www.gentlemansride.com",
+      "region": "Kalmar",
+      "source": "gentlemansride.com",
+      "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
+      "links": [
+            {
+                  "label": "DGR",
+                  "url": "https://www.gentlemansride.com"
+            }
+      ]
+},
+    {
       "id": "doa-kvallskörning-nacka-2026-05-18",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-05-18",
