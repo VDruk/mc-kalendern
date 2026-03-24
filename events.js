@@ -9229,7 +9229,6 @@ const EVENTS_DATA = {
       "link": "https://www.gentlemansride.com",
       "region": "Västerbotten",
       "source": "facebook.com",
-      "frontImage": "ads/dgr-umea-front-2026-05-17.jpg",
       "backImage": "ads/default-back.jpg",
       "links": [
             {
