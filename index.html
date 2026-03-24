@@ -2279,7 +2279,7 @@ function downloadSingleICS(eventId) {
 // ========== EVENT MAP ==========
 let eventMap = null;
 let mapMarkers = [];
-let mapVisible = localStorage.getItem('mc_map_visible') !== 'false';
+let mapVisible = true;
 
 function filterByMapCity(city) {
   mapCityFilter = city;
@@ -2331,7 +2331,13 @@ function initEventMap() {
     subdomains: 'abcd'
   }).addTo(eventMap);
 
-  // Apply saved visibility
+  // Apply saved visibility (only hide on mobile; desktop always starts visible)
+  const isMobile = window.innerWidth < 600;
+  if (isMobile) {
+    mapVisible = localStorage.getItem('mc_map_visible') !== 'true'; // default hidden on mobile
+  } else {
+    mapVisible = true; // always visible on desktop
+  }
   const section = document.getElementById('eventMapSection');
   const btn = document.getElementById('mapToggleBtn');
   if (!mapVisible) {
