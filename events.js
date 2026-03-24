@@ -9191,6 +9191,32 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "dgr-sverige-2026-05-17",
+      "name": "The Distinguished Gentleman's Ride",
+      "date": "2026-05-17",
+      "dateEnd": "2026-05-17",
+      "location": "6 städer i Sverige",
+      "type": "Körning",
+      "organizer": "The Distinguished Gentleman's Ride",
+      "description": "Globalt välgörenhetsevent för prostatacancer och psykisk ohälsa. 17 maj kör gentlemen i Göteborg, Karlstad, Stockholm, Sundsvall, Umeå och Västervik.",
+      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa. 2026 fyller DGR 15 år.\n\nI Sverige körs DGR den 17 maj på sex orter:\n\n- Göteborg\n- Karlstad\n- Stockholm (kl 9:30)\n- Sundsvall (kl 9:00)\n- Umeå (kl 10:00)\n- Västervik (kl 10:00)\n\nDresscode: dapper! Tänk tweed, slips och stil. Kör en klassiker och gör skillnad.\n\nDressing dapper, riding classics, comradery, and raising money for men's health. There is truly nothing like the atmosphere of The Distinguished Gentleman's Ride.\n\nAnmäl dig på gentlemansride.com",
+      "link": "https://www.gentlemansride.com",
+      "region": "Sverige",
+      "source": "gentlemansride.com",
+      "frontImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
+      "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
+      "links": [
+            {
+                  "label": "DGR",
+                  "url": "https://www.gentlemansride.com"
+            },
+            {
+                  "label": "Facebook",
+                  "url": "https://www.facebook.com/northbikesweden"
+            }
+      ]
+},
+    {
       "id": "dgr-sundsvall-2026-05-17",
       "name": "The Distinguished Gentleman's Ride",
       "date": "2026-05-17",
@@ -9203,7 +9229,6 @@ const EVENTS_DATA = {
       "link": "https://www.gentlemansride.com",
       "region": "Västernorrland",
       "source": "facebook.com",
-      "frontImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
       "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
       "links": [
             {
