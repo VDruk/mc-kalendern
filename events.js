@@ -9192,7 +9192,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "dgr-sundsvall-2026-05-17",
-      "name": "Distinguished Gentleman's Ride",
+      "name": "The Distinguished Gentleman's Ride",
       "date": "2026-05-17",
       "dateEnd": "2026-05-17",
       "location": "Stora Torget, Sundsvall",
@@ -9204,7 +9204,7 @@ const EVENTS_DATA = {
       "region": "Västernorrland",
       "source": "facebook.com",
       "frontImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
-      "backImage": "ads/default-back.jpg",
+      "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
       "links": [
             {
                   "label": "Facebook",
@@ -9218,7 +9218,7 @@ const EVENTS_DATA = {
 },
     {
       "id": "dgr-umea-2026-05-17",
-      "name": "Distinguished Gentleman's Ride",
+      "name": "The Distinguished Gentleman's Ride",
       "date": "2026-05-17",
       "dateEnd": "2026-05-17",
       "location": "Umeå",
@@ -9229,7 +9229,7 @@ const EVENTS_DATA = {
       "link": "https://www.gentlemansride.com",
       "region": "Västerbotten",
       "source": "facebook.com",
-      "backImage": "ads/default-back.jpg",
+      "backImage": "ads/dgr-umea-front-2026-05-17.jpg",
       "links": [
             {
                   "label": "Facebook",
