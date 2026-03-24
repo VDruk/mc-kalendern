@@ -16544,6 +16544,31 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "crows-mc-20ar-vingaker-2026-07-10",
+      "name": "Crows MC 20 år",
+      "date": "2026-07-10",
+      "dateEnd": "2026-07-12",
+      "location": "Sörlinsväg 3, Vingåker",
+      "type": "Fest",
+      "organizer": "Crows MC Vingåker",
+      "description": "Crows MC firar 20 år! Tre dagar med liveband (Pådrag, Vaert), tatuerare House of Pain, tältplatser och käk. Endast SBM och inbjudna vänner.",
+      "descriptionFull": "Crows MC Vingåker firar 20-årsjubileum med en tredagarsfest den 10-12 juli 2026.\n\nLiveband fredag: Pådrag\nLiveband lördag: Vaert\nTattoo: House of Pain\n\nTältplatser finns. Käk finns som vanligt.\n\nAdress: Sörlinsväg 3, 64332 Vingåker.\n\nEndast SBM och inbjudna vänner.",
+      "link": "https://www.facebook.com/events/917173907755288",
+      "region": "Södermanland",
+      "source": "facebook.com",
+      "backImage": "ads/crows-mc-20ar-back-2026-07-10.jpg",
+      "links": [
+            {
+                  "label": "FB Event",
+                  "url": "https://www.facebook.com/events/917173907755288"
+            },
+            {
+                  "label": "Facebook",
+                  "url": "https://www.facebook.com/crowsmc"
+            }
+      ]
+},
+    {
       "id": "dog-fikatraff-pa-radis-2026-07-11",
       "name": "DOG  FIKATRÄFF på Rådis",
       "date": "2026-07-11",
