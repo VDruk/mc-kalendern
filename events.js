@@ -20726,7 +20726,7 @@ const EVENTS_DATA = {
                   "organizer": "H-DCS",
                   "description": "Arrangemang med H-DCS DOE från Öland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.",
                   "link": "https://hdcs.se/evenemang/doe-hasses-olandsrunda-22-23-augusti/",
-                  "region": "Östergötland",
+                  "region": "Kalmar",
                   "source": "hdcs.se",
                   "descriptionFull": "DOE Hasses Ölandsrunda 22-23 augusti arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Öland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Öland.",
                   "links": [
