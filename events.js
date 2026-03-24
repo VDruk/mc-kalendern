@@ -4243,7 +4243,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.probikebutiken.se/stockholm/",
                   "region": "Sverige",
-                  "source": "probikebutiken.se"
+                  "source": "probikebutiken.se",
+                  "organizerIcon": "clubs/normalized/probike.png"
             },
             {
                   "id": "harley-day-probike-stockholm-2026-04-18",
@@ -4268,7 +4269,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.probikebutiken.se/stockholm/",
                   "region": "Stockholm",
-                  "source": "probikebutiken.se"
+                  "source": "probikebutiken.se",
+                  "organizerIcon": "clubs/normalized/probike.png"
             },
             {
                   "id": "harley-day-probike-goteborg-2026-04-18",
@@ -4293,7 +4295,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.probikebutiken.se/goteborg/",
                   "region": "Västra Götaland",
-                  "source": "probikebutiken.se"
+                  "source": "probikebutiken.se",
+                  "organizerIcon": "clubs/normalized/probike.png"
             },
             {
                   "id": "harley-day-probike-malmo-2026-04-18",
@@ -4318,7 +4321,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.probikebutiken.se/malmo/",
                   "region": "Skåne",
-                  "source": "probikebutiken.se"
+                  "source": "probikebutiken.se",
+                  "organizerIcon": "clubs/normalized/probike.png"
             },
             {
                   "id": "jsm-mx-tranas-2026",
@@ -23377,7 +23381,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.probikebutiken.se/event/rock-bottom-summer-sale/",
                   "region": "Stockholm",
-                  "source": "probikebutiken.se"
+                  "source": "probikebutiken.se",
+                  "organizerIcon": "clubs/normalized/probike.png"
             },
             {
                   "id": "rock-bottom-probike-goteborg-2026-09-19",
@@ -23402,7 +23407,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.probikebutiken.se/event/rock-bottom-summer-sale/",
                   "region": "Västra Götaland",
-                  "source": "probikebutiken.se"
+                  "source": "probikebutiken.se",
+                  "organizerIcon": "clubs/normalized/probike.png"
             },
             {
                   "id": "rock-bottom-probike-malmo-2026-09-19",
@@ -23427,7 +23433,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.probikebutiken.se/event/rock-bottom-summer-sale/",
                   "region": "Skåne",
-                  "source": "probikebutiken.se"
+                  "source": "probikebutiken.se",
+                  "organizerIcon": "clubs/normalized/probike.png"
             },
             {
                   "id": "doa-emilsturen-2026-09-20",
