@@ -10501,7 +10501,7 @@ const EVENTS_DATA = {
                   "organizer": "H-DCS",
                   "description": "En tur till Frösåkers brygga med start vid Färjkajen Västerås. Det går att förbeställa mackor för den som vill. 070 573 43 43.",
                   "link": "https://hdcs.se/evenemang/tur-till-frosakers-brygga/",
-                  "region": "Stockholm",
+                  "region": "Uppsala",
                   "source": "hdcs.se",
                   "descriptionFull": "Tur till Frösåkers brygga. arrangeras av H-DCS.\n\nEn tur till Frösåkers brygga med start vid Färjkajen Västerås. Det går att förbeställa mackor för den som vill. 070 573 43 43.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Frösåkers Brygga.",
                   "links": [
