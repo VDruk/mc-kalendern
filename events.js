@@ -5297,8 +5297,8 @@ const EVENTS_DATA = {
                   "location": "Salamandervägen 16, Örebro",
                   "type": "Show",
                   "organizer": "KTM Scandinavia & Husqvarna Motorcycles",
-                  "description": "Säsongens första provkörningsevent hos KTM och Husqvarna Scandinavia i Örebro. Öppna portar, provkörning och säsongsstart. Kl 10-15.",
-                  "descriptionFull": "Open Garage hos KTM och Husqvarna Scandinavia i Örebro!\n\nSäsongens första provkörningsevent. Vi öppnar portarna till garaget och bjuder in dig till en riktig säsongsstart.\n\nTid: 25 april kl 10:00-15:00\nPlats: Salamandervägen 16, Örebro.",
+                  "description": "Säsongens första provkörningsevent hos KTM och Husqvarna Scandinavia i Örebro. Provkör demoflottan, se alla modeller, köp tillbehör. Kl 10-15.",
+                  "descriptionFull": "Säsongens första provkörningsevent hos KTM och Husqvarna Scandinavia!\n\nDen 25 april öppnar vi portarna till vårt huvudkontor i Örebro för ett öppet hus med fokus på det bästa vi vet – motorcyklar.\n\nUnder dagen får du möjlighet att provköra samtliga modeller ur demoflottan och uppleva hela street-segmentet på plats. Ett perfekt tillfälle att känna, klämma och hitta rätt hoj inför säsongen.\n\nDet finns också möjlighet att köpa motorcyklar, tillbehör och kläder på plats.\n\nTid: 25 april kl 10:00–15:00\nPlats: Salamandervägen 16, Örebro",
                   "links": [
                         {
                               "label": "FB Event",
@@ -5313,6 +5313,7 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/events/1820170898642386",
                   "region": "Örebro",
                   "source": "facebook.com",
+                  "frontImage": "ads/open-garage-ktm-front-2026-04-25.jpg",
                   "backImage": "ads/open-garage-ktm-back-2026-04-25.jpg"
             },
             {
