@@ -2682,7 +2682,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Kontakt modal email button
   document.getElementById('kontaktEmailBtn').addEventListener('click', () => {
     const parts = ['slava','.','druk','@','gmail','.','com'];
-    window.open('mailto:' + parts.join('') + '?subject=MC+Kalendern', '_blank');
+    window.open('mailto:' + parts.join('') + '?subject=' + encodeURIComponent('MC Kalendern - druk.se'), '_blank');
   });
 
   // Tipsa modal
