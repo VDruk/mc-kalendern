@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-03-24",
+      "lastUpdated": "2026-03-25",
       "events": [
             {
                   "id": "sponsor-bsa-motorcycles-ad-2026",
@@ -2332,6 +2332,33 @@ const EVENTS_DATA = {
                   "backImage": "ads/haubits-mc-barhang-back-2026-03-27.jpg"
             },
             {
+                  "id": "mce-pubkvall-jarfalla-2026-03-27",
+                  "name": "PubKväll hos MCE",
+                  "date": "2026-03-27",
+                  "dateEnd": "2026-03-27",
+                  "location": "MCE Klubblokalen, Järfälla",
+                  "type": "Fest",
+                  "organizer": "MCE",
+                  "organizerIcon": "clubs/normalized/mce.png",
+                  "description": "Roger och Micke Z fixar hamburgare, baren fixar dryck. Ta med ditt härliga humör och inviga MC-säsongen 2026 med MCE!",
+                  "backImage": "ads/mce-pubkvall-back-2026-03-27.jpg",
+                  "link": "https://www.facebook.com/photo?fbid=1424210899717607&set=a.517822163689823",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo?fbid=1424210899717607&set=a.517822163689823"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+177+61+J%C3%A4rf%C3%A4lla",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "descriptionFull": "Roger och Micke Z fixar hamburgare med tillbehör, och baren fixar god dryck. Ta med ditt härliga humör och inviga MC-säsongen 2026!\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar ingen roll.\n\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla."
+            },
+            {
                   "id": "ava-mc-dagen-gustavsberg-2026",
                   "name": "AVA MC Dagen",
                   "date": "2026-03-28",
@@ -2563,33 +2590,6 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
-                  "id": "mce-pubkvall-jarfalla-2026-03-27",
-                  "name": "PubKväll hos MCE",
-                  "date": "2026-03-27",
-                  "dateEnd": "2026-03-27",
-                  "location": "MCE Klubblokalen, Järfälla",
-                  "type": "Fest",
-                  "organizer": "MCE",
-                  "organizerIcon": "clubs/normalized/mce.png",
-                  "description": "Roger och Micke Z fixar hamburgare, baren fixar dryck. Ta med ditt härliga humör och inviga MC-säsongen 2026 med MCE!",
-                  "backImage": "ads/mce-pubkvall-back-2026-03-27.jpg",
-                  "link": "https://www.facebook.com/photo?fbid=1424210899717607&set=a.517822163689823",
-                  "links": [
-                        {
-                              "label": "Facebook",
-                              "url": "https://www.facebook.com/photo?fbid=1424210899717607&set=a.517822163689823"
-                        },
-                        {
-                              "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+177+61+J%C3%A4rf%C3%A4lla",
-                              "type": "map"
-                        }
-                  ],
-                  "region": "Stockholm",
-                  "source": "facebook.com",
-                  "descriptionFull": "Roger och Micke Z fixar hamburgare med tillbehör, och baren fixar god dryck. Ta med ditt härliga humör och inviga MC-säsongen 2026!\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar ingen roll.\n\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla."
-            },
-            {
                   "id": "vulcan-riders-pubkvall-glada-stinsen-2026-03-28",
                   "name": "Pubkväll Vulcan Riders Sweden",
                   "date": "2026-03-28",
@@ -2724,6 +2724,86 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "motorrad-center-utlamning-2026-03-28",
+                  "name": "Extra utlämningsdag vinterförvaring",
+                  "date": "2026-03-28",
+                  "dateEnd": "2026-03-28",
+                  "location": "Orrekulla Industrigata 35, Hisings Kärra",
+                  "type": "Träff",
+                  "organizer": "Motorrad Center Göteborg",
+                  "description": "Hämta ut din vinterförvarade MC hos Motorrad Center! Extra utlämningsdag lördagen den 28/3. Passa på om du inte kan komma under ordinarie tider.",
+                  "descriptionFull": "Har du din mc på vinterförvaring hos oss?\n\nLördag den 28/3 har vi en extra utlämningsdag! Passa på om du inte kan komma under ordinarie mån-fre tider.\n\nPlats: Orrekulla Industrigata 35, 425 36 Hisings Kärra.\n\nVälkomna!",
+                  "backImage": "ads/motorrad-center-utlamning-back-2026-03-28.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/918276394317466"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Orrekulla+Industrigata+35+Hisings+Kärra",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/918276394317466",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com"
+            },
+            {
+                  "id": "gp-museet-arsmote-2026-03-28",
+                  "name": "Årsmöte på GP-museet 2026",
+                  "date": "2026-03-28",
+                  "dateEnd": "2026-03-28",
+                  "location": "Råbelöfs Gods, 291 91 Kristianstad",
+                  "type": "Träff",
+                  "organizer": "Grand Prix Museet, Råbelöv Kristianstad",
+                  "description": "Alla medlemmar i föreningen är välkomna på årsmötet lördagen den 28 mars kl 14.00. Ordförande klubbar som vanligt av alla punkter med Mike Hailwoods tändstiftsnyckel.",
+                  "descriptionFull": "Alla medlemmar i föreningen är välkomna på årsmötet på GP-museet lördagen den 28 mars 14.00.\n\nSom vanligt klubbar ordförande av alla punkter med Mike Hailwoods tändstiftsnyckel.\n\nGillar du motorracing? Vet du att man körde stora tävlingar i Kristianstad på 1950-talet med bilar och mc, varav fyra VM? Vill du veta mer? Besök GP-museet!\n\nPlats: Råbelöfs Gods, 291 91 Kristianstad.",
+                  "backImage": "ads/gp-museet-arsmote-back-2026-03-28.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/929328596265769"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Råbelöfs+Gods+Kristianstad",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/929328596265769",
+                  "region": "Skåne",
+                  "source": "facebook.com"
+            },
+            {
+                  "id": "morocco-adventure-tour-xl-2026",
+                  "name": "Morocco Adventure Tour XL",
+                  "date": "2026-03-28",
+                  "dateEnd": "2026-04-12",
+                  "location": "Marocko",
+                  "type": "Körning",
+                  "organizer": "MC Ontours",
+                  "description": "16 dagars MC-äventyr i Marocko! Transport av MC till Malaga, färja till Tarifa och vidare genom Rifbergen, Chefchaouen, Marrakech och öknen. 15 övernattningar, 12 dagar aktiv körning.",
+                  "descriptionFull": "Följ med på vår resa till Marocko \"XL\" extra lång, det blir ett äventyr vi lovar!\n\n28 mars - 12 april 2026.\n\nVi transporterar din motorcykel till Malaga i södra Spanien och du flyger bekvämt dit.\n\nEventet innehåller 15 övernattningar samt 12 dagar aktiv körning i Marocko inkl färja (tur och retur Malaga - Tarifa). Vi kommer att ha 2 vilodagar inkluderat.\n\nFrån flygplatsen i Malaga ingår det transfer till vårt hotell i Tarifa där du får din motorcykel och utrustning. Vi äter en gemensam middag och sedan tar färjan till Tanger på morgonen, därefter vidare upp i våra favoritstäckor i Rifbergen. Vi besöker även Chefchaouen den \"blå staden\" samt det fantastiska bergmassivet där runt omkring.\n\nPå denna XL tur hinner vi även med ett besök i Marrakech och en tur bland sanddynorna i öknen.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1304692127244701"
+                        },
+                        {
+                              "label": "mcontours.se",
+                              "url": "https://www.mcontours.se/marocko-adventure-tour-xl"
+                        },
+                        {
+                              "label": "MC Ontours (FB)",
+                              "url": "https://www.facebook.com/mcontours.se"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1304692127244701",
+                  "region": "Sverige",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "ttc-årsmöte-smc-dalarna-2026",
                   "name": "Årsmöte SMC Dalarna",
                   "date": "2026-03-29",
@@ -2748,6 +2828,36 @@ const EVENTS_DATA = {
                   "link": "https://www.thetwinclub.se/",
                   "region": "Dalarna",
                   "source": "thetwinclub.se"
+            },
+            {
+                  "id": "bikers-church-marieholm-2026-03-29",
+                  "name": "Bikers Church",
+                  "date": "2026-03-29",
+                  "dateEnd": "2026-03-29",
+                  "location": "Bruksgatan 11, Marieholmsbruk",
+                  "type": "Träff",
+                  "organizer": "Disciples MM South Sweden",
+                  "description": "Vi träffas i Marieholm på söndag! Disciples MM South Sweden bjuder in till Bikers Church. Alla välkomna. Kl 15:00.",
+                  "descriptionFull": "Vi träffas i Marieholm på söndag. Kom du också!\n\nBikers Church med Disciples MM South Sweden.\n\nDisciples MM is a Motorcycle Ministry that serves Jesus with a mission to be!\n\nPlats: Bruksgatan 11, SE-335 94 Marieholmsbruk.\nTid: Söndag 29 mars kl 15:00.",
+                  "backImage": "ads/bikers-church-marieholm-back-2026-03-29.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2822832758055343"
+                        },
+                        {
+                              "label": "disciplesmm.com",
+                              "url": "https://www.disciplesmm.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Bruksgatan+11+Marieholmsbruk",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2822832758055343",
+                  "region": "Jönköping",
+                  "source": "facebook.com"
             },
             {
                   "id": "doa-tisdagslunch-2026-03-31",
@@ -4466,14 +4576,31 @@ const EVENTS_DATA = {
                   "name": "Vår Kickoff Probike Malmö",
                   "date": "2026-04-18",
                   "dateEnd": "2026-04-18",
-                  "location": "Malmö",
+                  "location": "Lundavägen 140, Malmö",
                   "type": "Träff",
                   "organizer": "H-DCS",
                   "description": "Vår Kickoff Probike Malmö Dags för Probikes vår kickoff. H-DCS kommer att vara på plats så kom ner och träffa oss. Nu hoppas på fint väder så det kommer mycket hojar. DO: Thomas Berndtson Distriktskassör: Robert Andersson Distriktssekreterare: Anders",
                   "link": "https://hdcs.se/evenemang/var-kickoff-probike-malmo/",
                   "region": "Skåne",
                   "source": "hdcs.se",
-                  "organizerIcon": "clubs/normalized/hdcs.png"
+                  "organizerIcon": "clubs/normalized/hdcs.png",
+                  "backImage": "ads/probike-malmo-varkickoff-back-2026-04-18.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1036936122833130"
+                        },
+                        {
+                              "label": "hdcs.se",
+                              "url": "https://hdcs.se/evenemang/var-kickoff-probike-malmo/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Lundavägen+140+Malmö",
+                              "type": "map"
+                        }
+                  ],
+                  "descriptionFull": "Dags för Probikes vår kickoff / Harley Season Opener!\n\nLördag 18 april kl 10:00-15:00.\n\nEn dag med fokus på provkörning av vårt breda utbud av hojar. H-DCS kommer att vara på plats.\n\nPlats: Probike Malmö, Lundavägen 140, 212 24 Malmö.\n\n161 personer har visat intresse på Facebook."
             },
             {
                   "id": "bsa-sverige-sulas-2026",
@@ -7802,31 +7929,6 @@ const EVENTS_DATA = {
                   ]
             },
             {
-                  "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
-                  "name": "D7 Avrostning/Kul på Hjul, Gillingebanan",
-                  "date": "2026-05-10",
-                  "dateEnd": "2026-05-10",
-                  "location": "Gillingebanan, Vallentuna",
-                  "type": "Träff",
-                  "organizer": "BMW MC-klubben",
-                  "description": "En dag fylld av gas, broms, balans, glädje och lite grus på/intill Gillingebanan!",
-                  "link": "https://www.bmwklubben.se/aktiviteter/d7-avrostning-kul-pa-hjul-gillingebanan/",
-                  "region": "Stockholm",
-                  "source": "bmwklubben.se",
-                  "descriptionFull": "D7 Avrostning/Kul på Hjul, Gillingebanan arrangeras av BMW MC-klubben.\n\nEn dag fylld av gas, broms, balans, glädje och lite grus på/intill Gillingebanan!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gillingebanan, Vallentuna.",
-                  "links": [
-                        {
-                              "label": "bmwklubben.se",
-                              "url": "https://www.bmwklubben.se/aktiviteter/d7-avrostning-kul-pa-hjul-gillingebanan/"
-                        },
-                        {
-                              "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Gillingebanan%2C+Vallentuna",
-                              "type": "map"
-                        }
-                  ]
-            },
-            {
                   "id": "mce-kakenfixardag-jarfalla-2026-05-09",
                   "name": "Kåkenfixardag",
                   "date": "2026-05-09",
@@ -7882,6 +7984,31 @@ const EVENTS_DATA = {
                   "region": "Värmland",
                   "source": "facebook.com",
                   "descriptionFull": "Kör Hoj arrangerar en tvådagarstur till Värmskog med tältnatt intill en sjö.\n\nVi kör på asfalt och grus, passerar Brudfjällsvägen, akvedukten i Håverud och åker Sveriges kortaste vägfärja. Vid ankomst: räkmacka. Kvällen bjuder på grillning och gemensamt umgänge.\n\nSöndag: packning, frukost, återresa via grusvägar med pauser.\n\nMax 8 platser. Pris: 695 kr.\nAnmälan: korhoj.se/event/kor-hoj-varmskog-rakmacketuren/\n\nStartpunkt: KÖR HOJs lokal i Lidköping (HOJRUM), lördag 9 maj kl 10:00."
+            },
+            {
+                  "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
+                  "name": "D7 Avrostning/Kul på Hjul, Gillingebanan",
+                  "date": "2026-05-10",
+                  "dateEnd": "2026-05-10",
+                  "location": "Gillingebanan, Vallentuna",
+                  "type": "Träff",
+                  "organizer": "BMW MC-klubben",
+                  "description": "En dag fylld av gas, broms, balans, glädje och lite grus på/intill Gillingebanan!",
+                  "link": "https://www.bmwklubben.se/aktiviteter/d7-avrostning-kul-pa-hjul-gillingebanan/",
+                  "region": "Stockholm",
+                  "source": "bmwklubben.se",
+                  "descriptionFull": "D7 Avrostning/Kul på Hjul, Gillingebanan arrangeras av BMW MC-klubben.\n\nEn dag fylld av gas, broms, balans, glädje och lite grus på/intill Gillingebanan!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Gillingebanan, Vallentuna.",
+                  "links": [
+                        {
+                              "label": "bmwklubben.se",
+                              "url": "https://www.bmwklubben.se/aktiviteter/d7-avrostning-kul-pa-hjul-gillingebanan/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Gillingebanan%2C+Vallentuna",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "bmw-d8-nossans-broar-2026",
@@ -9383,20 +9510,6 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
-            },
-            {
-                  "id": "karlshamn-kustcruisers-treff-2026",
-                  "name": "Kustcruisers Sommartreff",
-                  "date": "2026-05-17",
-                  "dateEnd": "2026-05-17",
-                  "location": "Karlshamn",
-                  "type": "Träff",
-                  "organizer": "Blekinge Kustcruisers MC",
-                  "description": "Sommartreff med Blekinge Kustcruisers MC i Karlshamn. Fika och gemenskap.",
-                  "link": "",
-                  "region": "Blekinge",
-                  "source": "web",
-                  "_canary": true
             },
             {
                   "id": "northbike-test-driving-day-ornskoldsvik-2026",
@@ -14799,20 +14912,6 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
-                  "id": "skovde-mc-sommartorget-2026",
-                  "name": "MC-Sommartorget Skovde",
-                  "date": "2026-06-20",
-                  "dateEnd": "2026-06-20",
-                  "location": "Kulturhuset, Skovde",
-                  "type": "Traff",
-                  "organizer": "Skaraborg MC Vanner",
-                  "description": "En avslappnad sommartraff for alla MC-entusiaster i Skaraborg. Parkering och fika.",
-                  "link": "https://druk.se/",
-                  "region": "Västra Götaland",
-                  "source": "manual",
-                  "_canary": true
-            },
-            {
                   "id": "jmc-sondagsrundan-2026-06-21",
                   "name": "Söndagsrundan",
                   "date": "2026-06-21",
@@ -17059,20 +17158,6 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
-                  "id": "karlstad-varmlandskransen-2026",
-                  "name": "Varmlandskransen MC-treff",
-                  "date": "2026-07-11",
-                  "dateEnd": "2026-07-11",
-                  "location": "Mariebergsskogen, Karlstad",
-                  "type": "Traff",
-                  "organizer": "Klaralvens MC Forening",
-                  "description": "Arlig traff i Mariebergsskogen med provkorning och utstaallning.",
-                  "link": "https://druk.se/",
-                  "region": "Värmland",
-                  "source": "manual",
-                  "_canary": true
-            },
-            {
                   "id": "oamck-grillfest-2026",
                   "name": "Grillfest",
                   "date": "2026-07-11",
@@ -18507,20 +18592,6 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
-            },
-            {
-                  "id": "gavle-norrlandscruisern-2026",
-                  "name": "Norrlandscruisern",
-                  "date": "2026-08-02",
-                  "dateEnd": "2026-08-02",
-                  "location": "Boulognerskogen, Gavle",
-                  "type": "Korning",
-                  "organizer": "Dalarna Riders MC",
-                  "description": "Gemensam korning langs kusten fran Gavle till Hudiksvall. Start kl 10.",
-                  "link": "https://druk.se/",
-                  "region": "Gävleborg",
-                  "source": "manual",
-                  "_canary": true
             },
             {
                   "id": "jmc-sondagsrundan-2026-08-02",
@@ -20131,20 +20202,6 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
-            },
-            {
-                  "id": "lulea-midnattssolsransen-2026",
-                  "name": "Midnattssolsransan",
-                  "date": "2026-08-15",
-                  "dateEnd": "2026-08-15",
-                  "location": "Luleå",
-                  "type": "Körning",
-                  "organizer": "Norrbottens Vägfarare MC",
-                  "description": "Gemensam tur genom Norrbotten med Norrbottens Vagfarare MC. Samling i Luleå.",
-                  "link": "",
-                  "region": "Norrbotten",
-                  "source": "web",
-                  "_canary": true
             },
             {
                   "id": "oamck-malaren-runt-2026",
@@ -22890,20 +22947,6 @@ const EVENTS_DATA = {
                   "descriptionFull": "Motorcykler mod Sclerose 2026 – välgörenhetstur för MS-forskning.\n\nDirectören för Scleroseforeningen deltar hela dagen. Start kl 09:00 vid Mosede Fort i Greve Strand (30 min söder om Malmö via Øresundsbron).\n\nEfter turen: kaka på privat adress i Tune.\n\nMosede Fort ligger vid kusten i Greve, Danmark – enkelt att nå från Sverige."
             },
             {
-                  "id": "nykoping-hosttraffen-2026",
-                  "name": "Hosttraffen Nykoping",
-                  "date": "2026-09-13",
-                  "dateEnd": "2026-09-13",
-                  "location": "Nyköping",
-                  "type": "Träff",
-                  "organizer": "Sodermanlands MC-Gille",
-                  "description": "Avslutar sasongen med hosttreff i Nykoping. Alla valkommen!",
-                  "link": "",
-                  "region": "Södermanland",
-                  "source": "web",
-                  "_canary": true
-            },
-            {
                   "id": "doa-kvallskörning-nacka-2026-09-14",
                   "name": "DOA - Kvällskörning Nacka",
                   "date": "2026-09-14",
@@ -25297,6 +25340,90 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "karlshamn-kustcruisers-treff-2026",
+                  "name": "Kustcruisers Sommartreff",
+                  "date": "2026-05-17",
+                  "dateEnd": "2026-05-17",
+                  "location": "Karlshamn",
+                  "type": "Träff",
+                  "organizer": "Blekinge Kustcruisers MC",
+                  "description": "Sommartreff med Blekinge Kustcruisers MC i Karlshamn. Fika och gemenskap.",
+                  "link": "",
+                  "region": "Blekinge",
+                  "source": "web",
+                  "_canary": true
+            },
+            {
+                  "id": "skovde-mc-sommartorget-2026",
+                  "name": "MC-Sommartorget Skovde",
+                  "date": "2026-06-20",
+                  "dateEnd": "2026-06-20",
+                  "location": "Kulturhuset, Skovde",
+                  "type": "Traff",
+                  "organizer": "Skaraborg MC Vanner",
+                  "description": "En avslappnad sommartraff for alla MC-entusiaster i Skaraborg. Parkering och fika.",
+                  "link": "https://druk.se/",
+                  "region": "Västra Götaland",
+                  "source": "manual",
+                  "_canary": true
+            },
+            {
+                  "id": "karlstad-varmlandskransen-2026",
+                  "name": "Varmlandskransen MC-treff",
+                  "date": "2026-07-11",
+                  "dateEnd": "2026-07-11",
+                  "location": "Mariebergsskogen, Karlstad",
+                  "type": "Traff",
+                  "organizer": "Klaralvens MC Forening",
+                  "description": "Arlig traff i Mariebergsskogen med provkorning och utstaallning.",
+                  "link": "https://druk.se/",
+                  "region": "Värmland",
+                  "source": "manual",
+                  "_canary": true
+            },
+            {
+                  "id": "gavle-norrlandscruisern-2026",
+                  "name": "Norrlandscruisern",
+                  "date": "2026-08-02",
+                  "dateEnd": "2026-08-02",
+                  "location": "Boulognerskogen, Gavle",
+                  "type": "Korning",
+                  "organizer": "Dalarna Riders MC",
+                  "description": "Gemensam korning langs kusten fran Gavle till Hudiksvall. Start kl 10.",
+                  "link": "https://druk.se/",
+                  "region": "Gävleborg",
+                  "source": "manual",
+                  "_canary": true
+            },
+            {
+                  "id": "lulea-midnattssolsransen-2026",
+                  "name": "Midnattssolsransan",
+                  "date": "2026-08-15",
+                  "dateEnd": "2026-08-15",
+                  "location": "Luleå",
+                  "type": "Körning",
+                  "organizer": "Norrbottens Vägfarare MC",
+                  "description": "Gemensam tur genom Norrbotten med Norrbottens Vagfarare MC. Samling i Luleå.",
+                  "link": "",
+                  "region": "Norrbotten",
+                  "source": "web",
+                  "_canary": true
+            },
+            {
+                  "id": "nykoping-hosttraffen-2026",
+                  "name": "Hosttraffen Nykoping",
+                  "date": "2026-09-13",
+                  "dateEnd": "2026-09-13",
+                  "location": "Nyköping",
+                  "type": "Träff",
+                  "organizer": "Sodermanlands MC-Gille",
+                  "description": "Avslutar sasongen med hosttreff i Nykoping. Alla valkommen!",
+                  "link": "",
+                  "region": "Södermanland",
+                  "source": "web",
+                  "_canary": true
             }
       ]
 }
