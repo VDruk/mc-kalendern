@@ -3215,7 +3215,7 @@ const EVENTS_DATA = {
                   "organizer": "SMC Värmland",
                   "organizerIcon": "clubs/normalized/smc.png",
                   "description": "Traditionell MC-premiär på långfredagen! Kortege från Kristinehamn via Filipstad till Karlstad. Samling kl 09:00, start 11:00. Avslutas med korvgrillning hos CMCK.",
-                  "descriptionFull": "MC-Premiären arrangeras av CMCK i samarbete med SMC Värmland och Omtänksamma Kristinehamn.\n\nÅrets MC-premiär går som vanligt från Kristinehamn till Filipstad med fikastopp, vidare till Karlstad med stopp på Bike Street. Avslutas hos CMCK:s klubbstuga med grillad korv och mingel.\n\nEn liten skön vårtur på ca 15 mil.\n\nHålltider:\n09:00 Samling och uppställning på Norra Kungsgatan\n11:00 Start från Kristinehamn\n11:45 Ankomst Filipstad\n13:00 Avresa från Filipstad\n14:00 Ankomst Gjuterigatan, Karlstad (MC-butikerna håller öppet)\n15:30 Ankomst CMCK:s klubbstuga\n\n634 intresserade på Facebook!",
+                  "descriptionFull": "MC-Premiären arrangeras av CMCK i samarbete med SMC Värmland och Omtänksamma Kristinehamn.\n\nÅrets MC-premiär går som vanligt från Kristinehamn till Filipstad med fikastopp, vidare till Karlstad med stopp på Bike Street. Avslutas hos CMCK:s klubbstuga med grillad korv och mingel.\n\nEn liten skön vårtur på ca 15 mil.\n\nHålltider:\n09:00 Samling och uppställning på Norra Kungsgatan\n11:00 Start från Kristinehamn\n11:45 Ankomst Filipstad\n13:00 Avresa från Filipstad\n14:00 Ankomst Gjuterigatan, Karlstad (MC-butikerna håller öppet)\n15:30 Ankomst CMCK:s klubbstuga!",
                   "links": [
                         {
                               "label": "FB Event",
@@ -3397,7 +3397,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "Ystad Trafikutbildning",
                   "description": "MC-avrostning på annandag påsk! Banan öppen 10-14 med lättsamma övningar för alla. Gemensam runda kl 12, korv och kaffe till salu.",
-                  "descriptionFull": "MC-avrostning på Ystad Trafikbana, annandag påsk!\n\nHar MC-musklerna stelnat igen över vintern? Passa på och värm upp inför säsongen.\n\nBanan med lättsamma övningar som passar alla är öppen mellan 10-12, därefter gemensam runda på ca en timme på lite roligare vägar.\n\nGrillen är framrullad och kaffekokaren är laddad. Korv och dryck finns att köpa.\n\nTidsschema:\nBanan öppnar 10:00\nAvrostning 10:00-12:00, 13:00-14:00\nGemensam runda 12:00-ca 13:00\nMat och dryck 10:30-14:00\n\n221 intresserade på Facebook.",
+                  "descriptionFull": "MC-avrostning på Ystad Trafikbana, annandag påsk!\n\nHar MC-musklerna stelnat igen över vintern? Passa på och värm upp inför säsongen.\n\nBanan med lättsamma övningar som passar alla är öppen mellan 10-12, därefter gemensam runda på ca en timme på lite roligare vägar.\n\nGrillen är framrullad och kaffekokaren är laddad. Korv och dryck finns att köpa.\n\nTidsschema:\nBanan öppnar 10:00\nAvrostning 10:00-12:00, 13:00-14:00\nGemensam runda 12:00-ca 13:00\nMat och dryck 10:30-14:00",
                   "links": [
                         {
                               "label": "FB Event",
@@ -6839,7 +6839,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "EMCK - Eskilstuna Motorcykelklubb",
                   "description": "Traditionell MC-kortege, alltid första lördagen i maj. Samling kl 11 i Skjulsta, avgång kl 12. 178 intresserade.",
-                  "descriptionFull": "EMCK:s Kortege genomförs alltid första lördagen i maj.\n\nSamling ute i Skjulsta kl 11:00, avgång kl 12:00.\n\n178 intresserade på Facebook.\n\nArrangör: EMCK - Eskilstuna Motorcykelklubb.",
+                  "descriptionFull": "EMCK:s Kortege genomförs alltid första lördagen i maj.\n\nSamling ute i Skjulsta kl 11:00, avgång kl 12:00.\n\nArrangör: EMCK - Eskilstuna Motorcykelklubb.",
                   "links": [
                         {
                               "label": "FB Event",
@@ -6865,7 +6865,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "Svackans MC",
                   "description": "Poker Run med rullande start 10-11. Ca 80-90 km. Startavgift 100 kr, allt till välgörenhet. Förstapris 5 000 kr. Alla MC välkomna!",
-                  "descriptionFull": "Svackans Poker Run 2026!\n\nStartplats: OKQ8 Heby. Rullande start mellan 10:00 och 11:00.\n\nSträcka: ca 80-90 km.\nStartavgift: 100 kr. 100% går oavkortat till Liv till Louice.\nFörstapris: 5 000 kr + fler priser.\n\nMat finns att köpa vid målgång. Cash is king.\n\nAlla MC välkomna oavsett märke och modell.\n\n209 intresserade på Facebook.\n\nSvackans MC bildades 1984, anslutna till SMC.",
+                  "descriptionFull": "Svackans Poker Run 2026!\n\nStartplats: OKQ8 Heby. Rullande start mellan 10:00 och 11:00.\n\nSträcka: ca 80-90 km.\nStartavgift: 100 kr. 100% går oavkortat till Liv till Louice.\nFörstapris: 5 000 kr + fler priser.\n\nMat finns att köpa vid målgång. Cash is king.\n\nAlla MC välkomna oavsett märke och modell.\n\nSvackans MC bildades 1984, anslutna till SMC.",
                   "links": [
                         {
                               "label": "FB Event",
@@ -8304,7 +8304,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "Bilträffar i hela Sverige",
                   "description": "Återkommande motorträff för alla motorfordon på vackra Prästnibble gård. Grillat och fika att köpa på plats. Kl 10-14.",
-                  "descriptionFull": "Motorträff på Prästnibble gård arrangeras av Yvonne Larsson och Bilträffar i hela Sverige.\n\nÅterkommande motorträff för alla motorfordon! Det finns grillat och fika att köpa på plats.\n\nPlats: Prästnibble gård, Svartsjö, Ekerö\nTid: 10:00-14:00\n\n351 intresserade på Facebook.",
+                  "descriptionFull": "Motorträff på Prästnibble gård arrangeras av Yvonne Larsson och Bilträffar i hela Sverige.\n\nÅterkommande motorträff för alla motorfordon! Det finns grillat och fika att köpa på plats.\n\nPlats: Prästnibble gård, Svartsjö, Ekerö\nTid: 10:00-14:00",
                   "links": [
                         {
                               "label": "FB Event",
@@ -9346,7 +9346,7 @@ const EVENTS_DATA = {
                   "organizer": "Nifsta Classic Cars",
                   "description": "Klassisk veteranmarknad på Nifsta Gård i Rimbo. Veteranfordon, reservdelar, nostalgi och fika. Fri entré, MC parkerar gratis.",
                   "backImage": "ads/mhs-varmarknad-nifsta-back-2026-05-16.jpg",
-                  "descriptionFull": "MHS Vårmarknad på Nifsta Gård den 16 maj 2026.\n\nTraditionell marknad för veteranfordon, renovering och hobbyn. Köp, sälj, snacka och nörda ner dig i allt som rullar. Bilar, motorcyklar, mopeder och tillbehör.\n\nFri entré. Parkering 100 kr/bil. MC, traktor och EPA parkerar gratis.\n\nÖppet kl 08:00-16:00. Mat, dryck och fika finns på plats.\n\n1 600 intresserade på Facebook.\n\nPlats: Nifsta Gård 1, 762 95 Rimbo.",
+                  "descriptionFull": "MHS Vårmarknad på Nifsta Gård den 16 maj 2026.\n\nTraditionell marknad för veteranfordon, renovering och hobbyn. Köp, sälj, snacka och nörda ner dig i allt som rullar. Bilar, motorcyklar, mopeder och tillbehör.\n\nFri entré. Parkering 100 kr/bil. MC, traktor och EPA parkerar gratis.\n\nÖppet kl 08:00-16:00. Mat, dryck och fika finns på plats.\n\nPlats: Nifsta Gård 1, 762 95 Rimbo.",
                   "links": [
                         {
                               "label": "Facebook",
@@ -10969,7 +10969,7 @@ const EVENTS_DATA = {
                   "type": "Show",
                   "organizer": "Bike 80's Revival",
                   "description": "Fjärde året! Klassiska, ikoniska och custom-hojar samlas vid Tykarpsgrottan. Hojlördag, cafe racers, choppers och mer. Kl 9-15.",
-                  "descriptionFull": "Bike80sRevival Classic Day vid Tykarpsgrottan!\n\nFjärde året i rad arrangeras Classic Day och Hojlördag. Alla klassiska och ikoniska hojar, cafe racers, choppers och custom-byggen samlas.\n\nTykarpsgrottan är en underjordisk kalkstensgruva med fantastiska pelarsalar och gångar.\n\nKl 9:00-15:00.\n\n744 intresserade på Facebook.\n\nArrangör: Magnus Engman.",
+                  "descriptionFull": "Bike80sRevival Classic Day vid Tykarpsgrottan!\n\nFjärde året i rad arrangeras Classic Day och Hojlördag. Alla klassiska och ikoniska hojar, cafe racers, choppers och custom-byggen samlas.\n\nTykarpsgrottan är en underjordisk kalkstensgruva med fantastiska pelarsalar och gångar.\n\nKl 9:00-15:00.\n\nArrangör: Magnus Engman.",
                   "links": [
                         {
                               "label": "FB Event",
@@ -10985,6 +10985,32 @@ const EVENTS_DATA = {
                   "region": "Skåne",
                   "source": "facebook.com",
                   "backImage": "ads/bike80s-revival-back-2026-05-23.jpg"
+            },
+            {
+                  "id": "tps-swapmeet-oppet-hus-2026-05-23",
+                  "name": "Swapmeet Öppet Hus 2026",
+                  "date": "2026-05-23",
+                  "dateEnd": "2026-05-23",
+                  "location": "Överby ladugården 5, Sollentuna",
+                  "type": "Show",
+                  "organizer": "TPS Workshop",
+                  "description": "Swapmeet hos The Parts Stop Sweden. Kom och sälj överblivna Harley-delar, frigör plats och kapital. Kl 10-14.",
+                  "descriptionFull": "Swapmeet Öppet Hus hos The Parts Stop Sweden!\n\nKom och sälj överblivna delar. Frigör plats och kapital.\n\nKl 10:00-14:00.\n\nThe Parts Stop Sweden: butik och verkstad med stort utbud av reservdelar för Harley-Davidson.\n\nAdress: Överby ladugården 5, Sollentuna.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1250886373210619"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=%C3%96verby+ladug%C3%A5rden+5+Sollentuna",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1250886373210619",
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/tps-swapmeet-back-2026-05-23.jpg"
             },
             {
                   "id": "bmw-d11-mcq-pernillas-tur-2026",
@@ -12180,7 +12206,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "Orange Day MC Stockholm",
                   "description": "Stockholms kortege mot mäns våld mot kvinnor och barn. Start Upplands Väsby kl 9, via Södertälje och Flen till Mantorp/Norrköping. 150 kr/person till UN Women.",
-                  "descriptionFull": "Orangeday MC 2026 Stockholmsavdelningen!\n\nKortege mot mäns våld mot kvinnor och barn.\n\nStart: Däckia, Bergkällavägen 20, Upplands Väsby.\nSamling kl 8:30, avfärd kl 9:00.\n\nStopp:\n1. Scania restaurang, Södertälje (ca 9:45)\n2. Lunch och tankning: Cirkel K, Flen (ca 11:30, avfärd 12:30)\n3. Rast (ca 13:40)\nMål: City Gross, Mantorp (ca 15:15)\n\nDärefter gemensam körning till Norrköping.\n\nKortegeavgift: 150 kr/person via Swish (123 900 29 32). Bidraget går oavkortat till UN Women Sverige.\n\nRoad Queen: Eva Persson.\n\n68 intresserade på Facebook.",
+                  "descriptionFull": "Orangeday MC 2026 Stockholmsavdelningen!\n\nKortege mot mäns våld mot kvinnor och barn.\n\nStart: Däckia, Bergkällavägen 20, Upplands Väsby.\nSamling kl 8:30, avfärd kl 9:00.\n\nStopp:\n1. Scania restaurang, Södertälje (ca 9:45)\n2. Lunch och tankning: Cirkel K, Flen (ca 11:30, avfärd 12:30)\n3. Rast (ca 13:40)\nMål: City Gross, Mantorp (ca 15:15)\n\nDärefter gemensam körning till Norrköping.\n\nKortegeavgift: 150 kr/person via Swish (123 900 29 32). Bidraget går oavkortat till UN Women Sverige.\n\nRoad Queen: Eva Persson.",
                   "links": [
                         {
                               "label": "FB Event",
@@ -16002,7 +16028,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "MC för alla - Skåne",
                   "description": "Årets höjdpunkt! Scenisk MC-tur genom Skåne. Samling 10:00, avfärd 10:45. Flera checkpoints. Alla välkomna, gratis, tempo som passar alla.",
-                  "descriptionFull": "Skånerundan 2026 arrangeras av MC för alla - Skåne.\n\nEn av årets höjdpunkter! Scenisk MC-tur genom Skåne.\n\nSamling 10:00, genomgång 10:30, avfärd 10:45. Flera checkpoints, mål ca 17:30.\n\nAlla välkomna, ingen avgift, tempo som passar alla. Mat och dryck finns vid de flesta stoppen.\n\nGrupper organiseras efter plats, ålder och önskemål.\n\nMålet är att slå förra årets rekord på 130+ motorcyklar!\n\n435 intresserade på Facebook.",
+                  "descriptionFull": "Skånerundan 2026 arrangeras av MC för alla - Skåne.\n\nEn av årets höjdpunkter! Scenisk MC-tur genom Skåne.\n\nSamling 10:00, genomgång 10:30, avfärd 10:45. Flera checkpoints, mål ca 17:30.\n\nAlla välkomna, ingen avgift, tempo som passar alla. Mat och dryck finns vid de flesta stoppen.\n\nGrupper organiseras efter plats, ålder och önskemål.\n\nMålet är att slå förra årets rekord på 130+ motorcyklar!",
                   "links": [
                         {
                               "label": "FB Event",
@@ -20213,7 +20239,7 @@ const EVENTS_DATA = {
                   "type": "Racing",
                   "organizer": "Svenska Apriliaklubben",
                   "description": "Klubben fyller 15 år och firar med dubbeldag! Alla märken välkomna. Fem grupper (lugn till snabb). Frukost, lunch, fika ingår.",
-                  "descriptionFull": "Svenska Apriliaklubben fyller 15 år och firar med efterlängtad dubbeldag på Kinnekulle Ring!\n\nAlla märken och modeller välkomna.\n\nFem grupper: en lugn, två medel, två snabba.\n\nFrukost, lunch och eftermiddagsfika ingår under bandagarna. Fredag kväll bjuder klubben på grillad hamburgare.\n\nMingel på torsdag kväll.\n\nLoppis \"Andra varvet\" med överblivna MC-prylar.\n\nPris:\nEnkeldag 1 750 kr, dubbeldag 2 900 kr.\n\nSvedea täcker lugn och medelgrupp, Bilsport-MC täcker alla grupper utan tidtagning.\n\n134 intresserade på Facebook.",
+                  "descriptionFull": "Svenska Apriliaklubben fyller 15 år och firar med efterlängtad dubbeldag på Kinnekulle Ring!\n\nAlla märken och modeller välkomna.\n\nFem grupper: en lugn, två medel, två snabba.\n\nFrukost, lunch och eftermiddagsfika ingår under bandagarna. Fredag kväll bjuder klubben på grillad hamburgare.\n\nMingel på torsdag kväll.\n\nLoppis \"Andra varvet\" med överblivna MC-prylar.\n\nPris:\nEnkeldag 1 750 kr, dubbeldag 2 900 kr.\n\nSvedea täcker lugn och medelgrupp, Bilsport-MC täcker alla grupper utan tidtagning.",
                   "links": [
                         {
                               "label": "FB Event",
@@ -23757,7 +23783,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "Larssons Runda",
                   "description": "Tjugofemte året! MC-kortege på cirka 9 mil genom kurviga vägar i Skåne, till minne av Janne. Samling kl 10, avfärd 10:45.",
-                  "descriptionFull": "Larrsons Runda 2026 firar 25 år!\n\nEn runda på cirka 9 mil i kortege på lagom kurviga vägar, som en hyllning till Janne.\n\nSamling kl 10:00 på Karlsrobadets parkering i Eslöv. Genomgång 10:30, avfärd 10:45.\n\n123 intresserade på Facebook.\n\nVärd: Mikael Andersson.",
+                  "descriptionFull": "Larrsons Runda 2026 firar 25 år!\n\nEn runda på cirka 9 mil i kortege på lagom kurviga vägar, som en hyllning till Janne.\n\nSamling kl 10:00 på Karlsrobadets parkering i Eslöv. Genomgång 10:30, avfärd 10:45.\n\nVärd: Mikael Andersson.",
                   "links": [
                         {
                               "label": "FB Event",
@@ -24121,7 +24147,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "Nordic Wellness",
                   "description": "MC-kortege till stöd för Rosa Bandet. Samling senast 9:30, avfärd kl 10. 200 kr/person via Swish. 4,5 timmar.",
-                  "descriptionFull": "MC-kortege Rosa Bandet med Nordic Wellness.\n\nSamling senast kl 9:30, avfärd kl 10:00.\n\nAvgift: 200 kr/person via Swish.\n\nTid: ca 4,5 timmar.\n\nMer information om rutt kommer närmare eventet.\n\nStartplats: Nordic Wellness, Landskronavägen 5, Helsingborg.\n\n99 intresserade på Facebook.",
+                  "descriptionFull": "MC-kortege Rosa Bandet med Nordic Wellness.\n\nSamling senast kl 9:30, avfärd kl 10:00.\n\nAvgift: 200 kr/person via Swish.\n\nTid: ca 4,5 timmar.\n\nMer information om rutt kommer närmare eventet.\n\nStartplats: Nordic Wellness, Landskronavägen 5, Helsingborg.",
                   "links": [
                         {
                               "label": "FB Event",
@@ -25640,7 +25666,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "Elliot Gröndahl & Andreas Aldén",
                   "description": "Tomte-ride genom Malmö! Samling kl 10:30 på Jägersro, avfärd 11:00. Julklädsel obligatoriskt. Ca 2 timmar med pauser. Alla hjul välkomna.",
-                  "descriptionFull": "Hjultomtekörning 2026!\n\nSamling kl 10:30 på Jägersro parkering vid travbanan. Avfärd kl 11:00.\n\nTvå motorcyklar leder kortegen genom Malmö, förbi kända platser och torg. Körtid ca 2 timmar med två pauser.\n\nJulklädsel obligatoriskt! Tomteluva på hjälmen är minimikrav. Gärna pyntade hojar.\n\nMopeder, ATV och trikes välkomna. Bilar och EPA undanbedes.\n\nOBS: Parkering med appen Parkster, första tre timmarna gratis.\n\nGruppbild innan avfärd.\n\nVid snö ställs eventet in, nytt datum meddelas i FB-eventet.\n\n69 intresserade på Facebook.",
+                  "descriptionFull": "Hjultomtekörning 2026!\n\nSamling kl 10:30 på Jägersro parkering vid travbanan. Avfärd kl 11:00.\n\nTvå motorcyklar leder kortegen genom Malmö, förbi kända platser och torg. Körtid ca 2 timmar med två pauser.\n\nJulklädsel obligatoriskt! Tomteluva på hjälmen är minimikrav. Gärna pyntade hojar.\n\nMopeder, ATV och trikes välkomna. Bilar och EPA undanbedes.\n\nOBS: Parkering med appen Parkster, första tre timmarna gratis.\n\nGruppbild innan avfärd.\n\nVid snö ställs eventet in, nytt datum meddelas i FB-eventet.",
                   "links": [
                         {
                               "label": "FB Event",
