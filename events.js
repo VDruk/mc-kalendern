@@ -3232,6 +3232,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/mc-premiaren-back-2026-04-03.jpg"
             },
             {
+                  "id": "gmc-karlstad-langfredag-2026-04-03",
+                  "name": "Långfredag på GMC",
+                  "date": "2026-04-03",
+                  "dateEnd": "2026-04-03",
+                  "location": "Gjuterigatan 8, Karlstad",
+                  "type": "Träff",
+                  "organizer": "GMC Karlstad",
+                  "description": "Långfredagsturen startar i Kristinehamn och kör till GMC i Karlstad. Kaffe och våfflor vid ankomst. Husqvarna-invigning med 10% på kläder och tillbehör, plus provkörning av Husqvarna-demos.",
+                  "descriptionFull": "Fredag 3 april kommer långfredagsturen köras med start i Kristinehamn och mål på Gjuterigatan i Karlstad.\n\nVi kommer öppna från kl 8.00 för er som vill komma på en kaffe före avfärd till Kristinehamn, och vid ankomst till butiken efteråt serveras det våfflor och kaffe.\n\nVi kommer under hela V.14 ha invigning av Husqvarna och erbjuda 10% på kläder, tillbehör och merch.\n\nDet kommer också finnas möjlighet att provköra många olika Husqvarna-demos under veckan.\n\nPlats: Gjuterigatan 8, Karlstad.",
+                  "backImage": "ads/gmc-karlstad-langfredag-back-2026-04-03.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/26730206883252800"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Gjuterigatan+8+Karlstad",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/26730206883252800",
+                  "region": "Värmland",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "doa-lordagsfika-pa-biltema-2026-04-04",
                   "name": "DOA - Lördagsfika på Biltema",
                   "date": "2026-04-04",
