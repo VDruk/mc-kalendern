@@ -2147,6 +2147,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/monteblanco-vip-portimao-back-2026-03-26.jpg"
             },
             {
+                  "id": "varma-toasts-network-mc-2026-03-26",
+                  "name": "Varma Toasts",
+                  "date": "2026-03-26",
+                  "dateEnd": "2026-03-26",
+                  "location": "Industrivägen 4, Odensbacken",
+                  "type": "Träff",
+                  "organizer": "Network MC",
+                  "description": "Torsdagskväll med varma toasts hos Network MC i Odensbacken. Alla välkomna till klubbkåken!",
+                  "descriptionFull": "På torsdag blir det varma toasts. Välkomna!\n\nPlats: Industrivägen 4, Odensbacken\nArrangör: Network MC (Kristen MC-klubb)",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1510597130622504"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1510597130622504",
+                  "region": "Örebro",
+                  "source": "facebook.com",
+                  "backImage": "ads/varma-toasts-network-mc-back-2026-03-26.jpg"
+            },
+            {
                   "id": "do-c-pubkvall-i-halmstad-2026",
                   "name": "DO-C pubkväll i halmstad",
                   "date": "2026-03-27",
