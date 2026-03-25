@@ -278,7 +278,7 @@
   }
   #shareX svg { width: 19px; height: 19px; }
   #shareKofi img { width: 22px; height: 22px; }
-  #shareKontakt svg { width: 17px; height: 17px; }
+  #shareKontakt svg { width: 20px; height: 20px; }
   .tipsa-circle-btn {
     width: 32px; height: 32px; border-radius: 50%;
     border: 1px solid var(--accent); background: var(--accent);
@@ -1161,7 +1161,7 @@
           <span class="share-tooltip">Donera</span>
         </a>
         <button class="share-btn" id="shareKontakt" title="Kontakt" onclick="openKontaktModal()">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
           <span class="share-tooltip">Kontakt</span>
         </button>
         <button class="tipsa-circle-btn" id="tipsaCircleBtn" title="Tipsa om ett evenemang">
@@ -2313,6 +2313,13 @@ let eventMap = null;
 let mapMarkers = [];
 let mapVisible = true;
 
+function openKontaktModal() {
+  document.getElementById('kontaktModal').classList.add('open');
+}
+function closeKontaktModal() {
+  document.getElementById('kontaktModal').classList.remove('open');
+}
+
 function filterByMapCity(city) {
   mapCityFilter = city;
   render();
@@ -2675,13 +2682,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('drawerOverlay').classList.remove('open');
   }
 
-  // Kontakt modal
-  function openKontaktModal() {
-    document.getElementById('kontaktModal').classList.add('open');
-  }
-  function closeKontaktModal() {
-    document.getElementById('kontaktModal').classList.remove('open');
-  }
+  // Kontakt modal email button
   document.getElementById('kontaktEmailBtn').addEventListener('click', () => {
     const parts = ['slava','.','druk','@','gmail','.','com'];
     window.open('mailto:' + parts.join('') + '?subject=MC+Kalendern', '_blank');
