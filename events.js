@@ -2913,6 +2913,32 @@ const EVENTS_DATA = {
                   "descriptionFull": "MCE arrangerar en grundläggande mekarstund hemma hos Matte Sjöberg i Huddinge.\n\nIdén kom upp efter samtal i kåken om hur MC:n ska skötas – det visade sig finnas många åsikter. Ingen fast agenda, men gott om utrymme för frågor.\n\nOBS: Max 8 deltagare! Anmäl via SMS till Roger: 070-270 05 51. De 8 som sms:ar först har plats, övriga på reservlistan.\n\nTid: Tisdag 31 mars kl 18:30–20:30\nPlats: Ågestavägen 54, Huddinge."
             },
             {
+                  "id": "kortege-soren-otte-mortensen-2026-03-31",
+                  "name": "Kortegekørsel til MC ven Søren Otte Mortensen",
+                  "date": "2026-03-31",
+                  "dateEnd": "2026-03-31",
+                  "location": "Rousthøje Kirke, Kirkevejen 20, Varde",
+                  "type": "Körning",
+                  "organizer": "MC-TOUR",
+                  "description": "MC-kortege till minne av Søren Otte Mortensen. Samling vid Rousthøje Kirke, kl 11. Kör vidare till Arebjerg Kirke. Lugn och respektfull körning.",
+                  "descriptionFull": "Kortegekørsel til MC ven Søren Otte Mortensen.\n\nEfter bisættelse køres der til Arebjerg Kirke där han blir begravd.\n\nIngen uppgasningar! Kör i god ro och ordning, med respekt till familjen.\n\nTid: kl 11:00-12:30.\nPlats: Rousthøje Kirke, Kirkevejen 20, Varde, Danmark.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1468117128152306"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Rousth%C3%B8je+Kirke+Varde+Denmark",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1468117128152306",
+                  "region": "Danmark",
+                  "source": "facebook.com",
+                  "backImage": "ads/kortege-soren-otte-back-2026-03-31.jpg"
+            },
+            {
                   "id": "closed-room-tour-f450gs-sundsvall-2026-04-01",
                   "name": "Closed Room Tour F 450 GS",
                   "date": "2026-04-01",
