@@ -15498,10 +15498,10 @@ const EVENTS_DATA = {
                   "links": [
                         {
                               "label": "FB Event",
-                              "url": "https://www.facebook.com/events/906795765861730"
+                              "url": "https://www.facebook.com/events/1424242152656290"
                         }
                   ],
-                  "link": "https://www.facebook.com/events/906795765861730",
+                  "link": "https://www.facebook.com/events/1424242152656290",
                   "region": "Örebro",
                   "source": "facebook.com",
                   "backImage": "ads/regression-10ars-back-2026-06-27.jpg"
