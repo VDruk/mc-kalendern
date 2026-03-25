@@ -5296,7 +5296,7 @@ const EVENTS_DATA = {
                   "dateEnd": "2026-04-25",
                   "location": "Salamandervägen 16, Örebro",
                   "type": "Show",
-                  "organizer": "KTM Scandinavia & Husqvarna Motorcycles",
+                  "organizer": "KTM & Husqvarna",
                   "description": "Säsongens första provkörningsevent hos KTM och Husqvarna Scandinavia i Örebro. Provkör demoflottan, se alla modeller, köp tillbehör. Kl 10-15.",
                   "descriptionFull": "Säsongens första provkörningsevent hos KTM och Husqvarna Scandinavia!\n\nDen 25 april öppnar vi portarna till vårt huvudkontor i Örebro för ett öppet hus med fokus på det bästa vi vet – motorcyklar.\n\nUnder dagen får du möjlighet att provköra samtliga modeller ur demoflottan och uppleva hela street-segmentet på plats. Ett perfekt tillfälle att känna, klämma och hitta rätt hoj inför säsongen.\n\nDet finns också möjlighet att köpa motorcyklar, tillbehör och kläder på plats.\n\nTid: 25 april kl 10:00–15:00\nPlats: Salamandervägen 16, Örebro",
                   "links": [
