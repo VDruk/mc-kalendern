@@ -3389,6 +3389,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/default-back.jpg"
             },
             {
+                  "id": "avrostning-ystad-trafikbana-2026-04-06",
+                  "name": "Avrostning 2026",
+                  "date": "2026-04-06",
+                  "dateEnd": "2026-04-06",
+                  "location": "Norra Koboltgatan 9, Ystad",
+                  "type": "Körning",
+                  "organizer": "Ystad Trafikutbildning",
+                  "description": "MC-avrostning på annandag påsk! Banan öppen 10-14 med lättsamma övningar för alla. Gemensam runda kl 12, korv och kaffe till salu.",
+                  "descriptionFull": "MC-avrostning på Ystad Trafikbana, annandag påsk!\n\nHar MC-musklerna stelnat igen över vintern? Passa på och värm upp inför säsongen.\n\nBanan med lättsamma övningar som passar alla är öppen mellan 10-12, därefter gemensam runda på ca en timme på lite roligare vägar.\n\nGrillen är framrullad och kaffekokaren är laddad. Korv och dryck finns att köpa.\n\nTidsschema:\nBanan öppnar 10:00\nAvrostning 10:00-12:00, 13:00-14:00\nGemensam runda 12:00-ca 13:00\nMat och dryck 10:30-14:00\n\n221 intresserade på Facebook.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/885110211070120"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Norra+Koboltgatan+9+Ystad",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/885110211070120",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/avrostning-ystad-back-2026-04-06.jpg"
+            },
+            {
                   "id": "doa-tisdagslunch-2026-04-07",
                   "name": "DOA - Tisdagslunch",
                   "date": "2026-04-07",
@@ -10881,6 +10907,32 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "bike80s-revival-classic-day-2026-05-23",
+                  "name": "Bike80sRevival Classic Day",
+                  "date": "2026-05-23",
+                  "dateEnd": "2026-05-23",
+                  "location": "Tykarpsgrottan, Tykarp 7169, Hässleholm",
+                  "type": "Show",
+                  "organizer": "Bike 80's Revival",
+                  "description": "Fjärde året! Klassiska, ikoniska och custom-hojar samlas vid Tykarpsgrottan. Hojlördag, cafe racers, choppers och mer. Kl 9-15.",
+                  "descriptionFull": "Bike80sRevival Classic Day vid Tykarpsgrottan!\n\nFjärde året i rad arrangeras Classic Day och Hojlördag. Alla klassiska och ikoniska hojar, cafe racers, choppers och custom-byggen samlas.\n\nTykarpsgrottan är en underjordisk kalkstensgruva med fantastiska pelarsalar och gångar.\n\nKl 9:00-15:00.\n\n744 intresserade på Facebook.\n\nArrangör: Magnus Engman.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/869613209268544"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tykarpsgrottan+Tykarp+7169+H%C3%A4ssleholm",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/869613209268544",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/bike80s-revival-back-2026-05-23.jpg"
             },
             {
                   "id": "bmw-d11-mcq-pernillas-tur-2026",
@@ -20075,6 +20127,36 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "aprilia-bandag-kinnekulle-2026-08-14",
+                  "name": "Bandagar med Svenska Apriliaklubben",
+                  "date": "2026-08-14",
+                  "dateEnd": "2026-08-15",
+                  "location": "Kinnekulle Ring, Götene",
+                  "type": "Racing",
+                  "organizer": "Svenska Apriliaklubben",
+                  "description": "Klubben fyller 15 år och firar med dubbeldag! Alla märken välkomna. Fem grupper (lugn till snabb). Frukost, lunch, fika ingår.",
+                  "descriptionFull": "Svenska Apriliaklubben fyller 15 år och firar med efterlängtad dubbeldag på Kinnekulle Ring!\n\nAlla märken och modeller välkomna.\n\nFem grupper: en lugn, två medel, två snabba.\n\nFrukost, lunch och eftermiddagsfika ingår under bandagarna. Fredag kväll bjuder klubben på grillad hamburgare.\n\nMingel på torsdag kväll.\n\nLoppis \"Andra varvet\" med överblivna MC-prylar.\n\nPris:\nEnkeldag 1 750 kr, dubbeldag 2 900 kr.\n\nSvedea täcker lugn och medelgrupp, Bilsport-MC täcker alla grupper utan tidtagning.\n\n134 intresserade på Facebook.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/827080653014036"
+                        },
+                        {
+                              "label": "Boka",
+                              "url": "https://shop.lafamigliaaprilia.se/bandagar"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kinnekulle+Ring+G%C3%B6tene",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/827080653014036",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/aprilia-bandag-kinnekulle-back-2026-08-14.jpg"
+            },
+            {
                   "id": "bmw-d11-blekingerundan-2026-2026",
                   "name": "D11 Blekingerundan 2026",
                   "date": "2026-08-15",
@@ -25440,6 +25522,32 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "hjultomtekorning-2026-12-19",
+                  "name": "Hjultomtekörning 2026",
+                  "date": "2026-12-19",
+                  "dateEnd": "2026-12-19",
+                  "location": "Jägersro Trav, Malmö",
+                  "type": "Körning",
+                  "organizer": "Elliot Gröndahl & Andreas Aldén",
+                  "description": "Tomte-ride genom Malmö! Samling kl 10:30 på Jägersro, avfärd 11:00. Julklädsel obligatoriskt. Ca 2 timmar med pauser. Alla hjul välkomna.",
+                  "descriptionFull": "Hjultomtekörning 2026!\n\nSamling kl 10:30 på Jägersro parkering vid travbanan. Avfärd kl 11:00.\n\nTvå motorcyklar leder kortegen genom Malmö, förbi kända platser och torg. Körtid ca 2 timmar med två pauser.\n\nJulklädsel obligatoriskt! Tomteluva på hjälmen är minimikrav. Gärna pyntade hojar.\n\nMopeder, ATV och trikes välkomna. Bilar och EPA undanbedes.\n\nOBS: Parkering med appen Parkster, första tre timmarna gratis.\n\nGruppbild innan avfärd.\n\nVid snö ställs eventet in, nytt datum meddelas i FB-eventet.\n\n69 intresserade på Facebook.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1193834472894944"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=J%C3%A4gersro+Trav+Malm%C3%B6",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1193834472894944",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/hjultomtekorning-back-2026-12-19.jpg"
             },
             {
                   "id": "karlshamn-kustcruisers-treff-2026",
