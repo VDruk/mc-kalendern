@@ -1439,7 +1439,7 @@ function buildRegionFilter() {
   Object.keys(monthCounts).sort((a, b) => a - b).forEach(m => {
     const opt = document.createElement('option');
     opt.value = m;
-    opt.textContent = MONTH_NAMES[m] + ' (' + monthCounts[m] + ')';
+    opt.textContent = MONTH_NAMES[m];
     monthSel.appendChild(opt);
   });
 
@@ -1480,7 +1480,7 @@ function buildRegionFilter() {
     topOrgEntries.forEach(([key, count]) => {
       const opt = document.createElement('option');
       opt.value = key;
-      opt.textContent = key + ' (' + count + ')';
+      opt.textContent = key;
       orgSel.appendChild(opt);
     });
     // Separator + Övriga
@@ -1491,7 +1491,7 @@ function buildRegionFilter() {
       orgSel.appendChild(sep);
       const opt = document.createElement('option');
       opt.value = '__other__';
-      opt.textContent = 'Övriga (' + ovrigaCount + ')';
+      opt.textContent = 'Övriga';
       orgSel.appendChild(opt);
     }
   });
