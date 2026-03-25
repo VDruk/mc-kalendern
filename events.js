@@ -23559,6 +23559,32 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/probike.png"
             },
             {
+                  "id": "larrsons-runda-2026-09-19",
+                  "name": "Larrsons Runda 2026",
+                  "date": "2026-09-19",
+                  "dateEnd": "2026-09-19",
+                  "location": "Karlsrobadets parkering, Eslöv",
+                  "type": "Körning",
+                  "organizer": "Larssons Runda",
+                  "description": "Tjugofemte året! MC-kortege på cirka 9 mil genom kurviga vägar i Skåne, till minne av Janne. Samling kl 10, avfärd 10:45.",
+                  "descriptionFull": "Larrsons Runda 2026 firar 25 år!\n\nEn runda på cirka 9 mil i kortege på lagom kurviga vägar, som en hyllning till Janne.\n\nSamling kl 10:00 på Karlsrobadets parkering i Eslöv. Genomgång 10:30, avfärd 10:45.\n\n123 intresserade på Facebook.\n\nVärd: Mikael Andersson.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/913856148279730"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Karlsrobadets+parkering+Esl%C3%B6v",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/913856148279730",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/larrsons-runda-back-2026-09-19.jpg"
+            },
+            {
                   "id": "doa-emilsturen-2026-09-20",
                   "name": "DOA - Emilsturen",
                   "date": "2026-09-20",
@@ -23895,6 +23921,32 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "rosa-bandet-mc-kortege-2026-09-26",
+                  "name": "MC-kortege Rosa Bandet",
+                  "date": "2026-09-26",
+                  "dateEnd": "2026-09-26",
+                  "location": "Landskronavägen 5, Helsingborg",
+                  "type": "Körning",
+                  "organizer": "Nordic Wellness",
+                  "description": "MC-kortege till stöd för Rosa Bandet. Samling senast 9:30, avfärd kl 10. 200 kr/person via Swish. 4,5 timmar.",
+                  "descriptionFull": "MC-kortege Rosa Bandet med Nordic Wellness.\n\nSamling senast kl 9:30, avfärd kl 10:00.\n\nAvgift: 200 kr/person via Swish.\n\nTid: ca 4,5 timmar.\n\nMer information om rutt kommer närmare eventet.\n\nStartplats: Nordic Wellness, Landskronavägen 5, Helsingborg.\n\n99 intresserade på Facebook.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2090464985108029"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Landskronav%C3%A4gen+5+Helsingborg",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2090464985108029",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/rosa-bandet-mc-kortege-back-2026-09-26.jpg"
             },
             {
                   "id": "dob-sista-rundan-2026",
