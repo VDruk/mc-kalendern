@@ -6498,6 +6498,32 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "mt-rally-sodra-sandby-2026-05-01",
+                  "name": "MT-Rally",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-01",
+                  "location": "Fogsvansen, Södra Sandby",
+                  "type": "Körning",
+                  "organizer": "Mårtenstorp mot Prostatacancer",
+                  "description": "Välgörenhetsrally till förmån för prostatacancerforskning. Bokstavsrally med start och mål på Mårtenstorp i Södra Sandby. Alla fordon välkomna. Kl 10-16.",
+                  "descriptionFull": "Insamling till prostatacancer förbundet.\n\nVi kör ett bokstavsrally, med start och målgång på Mårtenstorp, Fogsvansen i Södra Sandby.\n\nAlla sorters fordon är välkomna att deltaga.\n\nFredag 1 maj kl 10:00-16:00.\n\nArrangörer: Mårtenstorp mot Prostatacancer och Mårtenstorps Gårdsbutik.",
+                  "backImage": "ads/mt-rally-sodra-sandby-back-2026-05-01.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1602973120884800"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Fogsvansen+Södra+Sandby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1602973120884800",
+                  "region": "Skåne",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "bmw-d11-oskarshamnsgrus-norr-2026",
                   "name": "D11 Oskarshamnsgrus Norr",
                   "date": "2026-05-02",
