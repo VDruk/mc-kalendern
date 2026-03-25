@@ -2359,6 +2359,27 @@ const EVENTS_DATA = {
                   "descriptionFull": "Roger och Micke Z fixar hamburgare med tillbehör, och baren fixar god dryck. Ta med ditt härliga humör och inviga MC-säsongen 2026!\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar ingen roll.\n\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla."
             },
             {
+                  "id": "omcc-after-work-2026-03-27",
+                  "name": "After Work hos ÖMCC",
+                  "date": "2026-03-27",
+                  "dateEnd": "2026-03-27",
+                  "location": "ÖMCC klubblokalen, Örnsköldsvik",
+                  "type": "Fest",
+                  "organizer": "ÖMCC Örnsköldsviks Motorcykelclub",
+                  "description": "Säsongens sista AW! Tacos, öl (Corona extra) och snack. Kl 18:00. Anmäl er i förväg. Medlemmar.",
+                  "descriptionFull": "After Work hos ÖMCC!\n\nSäsongens sista AW. Vi träffas för att äta tacos, prata skit och ta något drickbart.\n\nKvällens öl: Corona extra.\n\nKl 18:00 på ÖMCC klubblokalen i Örnsköldsvik.\n\nIn och anmäl er! Välkomna!",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/groups/823721797670088/"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/groups/823721797670088/",
+                  "region": "Västernorrland",
+                  "source": "facebook.com",
+                  "backImage": "ads/omcc-after-work-back-2026-03-27.jpg"
+            },
+            {
                   "id": "ava-mc-dagen-gustavsberg-2026",
                   "name": "AVA MC Dagen",
                   "date": "2026-03-28",
