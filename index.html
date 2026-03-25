@@ -273,11 +273,12 @@
   .share-btn svg { width: 26px; height: 26px; }
   #shareFb svg { width: 28px; height: 28px; }
   #shareWa svg { width: 28px; height: 28px; }
-  #shareX, #shareKofi {
+  #shareX, #shareKofi, #shareKontakt {
     border-radius: 50%; border: 1px solid var(--border);
   }
   #shareX svg { width: 19px; height: 19px; }
   #shareKofi img { width: 22px; height: 22px; }
+  #shareKontakt svg { width: 17px; height: 17px; }
   .tipsa-circle-btn {
     width: 32px; height: 32px; border-radius: 50%;
     border: 1px solid var(--accent); background: var(--accent);
@@ -1045,7 +1046,8 @@
   }
   .share-btn:hover .share-tooltip,
   .tipsa-circle-btn:hover .share-tooltip,
-  #shareKofi:hover .share-tooltip {
+  #shareKofi:hover .share-tooltip,
+  #shareKontakt:hover .share-tooltip {
     opacity: 1;
   }
 </style>
@@ -1158,6 +1160,10 @@
           <img src="ads/kofi-logo.webp" alt="Ko-fi" style="object-fit:contain;border-radius:0;">
           <span class="share-tooltip">Donera</span>
         </a>
+        <button class="share-btn" id="shareKontakt" title="Kontakt" onclick="openKontaktModal()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span class="share-tooltip">Kontakt</span>
+        </button>
         <button class="tipsa-circle-btn" id="tipsaCircleBtn" title="Tipsa om ett evenemang">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
           <span class="share-tooltip">Tipsa</span>
@@ -1253,6 +1259,19 @@
     <div class="modal-btns">
       <button class="modal-cancel" id="tipCancel">Avbryt</button>
       <button class="modal-submit" id="tipSubmit">Skicka tips</button>
+    </div>
+  </div>
+</div>
+
+<!-- ========== CONTACT MODAL ========== -->
+<div class="modal-overlay" id="kontaktModal" onclick="if(event.target===this)closeKontaktModal()">
+  <div class="modal" style="max-width:360px; text-align:center;">
+    <h3>Kontakt</h3>
+    <p style="color:var(--text-muted); margin:12px 0 20px; font-size:0.9rem; line-height:1.5;">Frågor, förslag eller feedback? Mejla gärna.</p>
+    <button class="modal-submit" id="kontaktEmailBtn" style="width:100%; margin-bottom:16px;">Öppna mejl</button>
+    <p style="color:var(--text-muted); font-size:0.82rem; margin-bottom:20px;">Vill du tipsa om ett event? Använd <strong>+</strong> knappen i menyn.</p>
+    <div class="modal-btns" style="justify-content:center;">
+      <button class="modal-cancel" onclick="closeKontaktModal()">Stäng</button>
     </div>
   </div>
 </div>
@@ -2347,7 +2366,7 @@ function initEventMap() {
   // Apply saved visibility (only hide on mobile; desktop always starts visible)
   const isMobile = window.innerWidth < 600;
   if (isMobile) {
-    mapVisible = localStorage.getItem('mc_map_visible') !== 'true'; // default hidden on mobile
+    mapVisible = localStorage.getItem('mc_map_visible') === 'true'; // default hidden on mobile
   } else {
     mapVisible = true; // always visible on desktop
   }
@@ -2655,6 +2674,18 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('drawer').classList.remove('open');
     document.getElementById('drawerOverlay').classList.remove('open');
   }
+
+  // Kontakt modal
+  function openKontaktModal() {
+    document.getElementById('kontaktModal').classList.add('open');
+  }
+  function closeKontaktModal() {
+    document.getElementById('kontaktModal').classList.remove('open');
+  }
+  document.getElementById('kontaktEmailBtn').addEventListener('click', () => {
+    const parts = ['slava','.','druk','@','gmail','.','com'];
+    window.open('mailto:' + parts.join('') + '?subject=MC+Kalendern', '_blank');
+  });
 
   // Tipsa modal
   document.getElementById('tipsaBtn').addEventListener('click', () => {
