@@ -294,7 +294,7 @@ const EVENTS_DATA = {
                   ]
             },
             {
-                  "id": "mchk-mchk-skaraborg-manadsmote-2026",
+                  "id": "mchk-mchk-skaraborg-manadsmote-2026-03-07",
                   "name": "MCHK Skaraborg: Månadsmöte",
                   "date": "2026-03-07",
                   "dateEnd": "2026-03-07",
@@ -3931,7 +3931,7 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
-                  "id": "mchk-mchk-skaraborg-manadsmote-2026",
+                  "id": "mchk-mchk-skaraborg-manadsmote-2026-04-11",
                   "name": "MCHK Skaraborg: Månadsmöte",
                   "date": "2026-04-11",
                   "dateEnd": "2026-04-11",
@@ -6600,7 +6600,7 @@ const EVENTS_DATA = {
                   ]
             },
             {
-                  "id": "doa-poker-run-2026",
+                  "id": "doa-poker-run-2026-05-02",
                   "name": "DOA – Poker Run",
                   "date": "2026-05-02",
                   "dateEnd": "2026-05-02",
@@ -6747,7 +6747,7 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
-                  "id": "mchk-mchk-skaraborg-manadsmote-2026",
+                  "id": "mchk-mchk-skaraborg-manadsmote-2026-05-02",
                   "name": "MCHK Skaraborg: Månadsmöte",
                   "date": "2026-05-02",
                   "dateEnd": "2026-05-02",
@@ -7465,7 +7465,7 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
-                  "id": "mchk-mchk-gavleborg-klubbkorning-2026",
+                  "id": "mchk-mchk-gavleborg-klubbkorning-2026-05-07",
                   "name": "MCHK Gävleborg: klubbkörning",
                   "date": "2026-05-07",
                   "dateEnd": "2026-05-07",
@@ -7716,7 +7716,7 @@ const EVENTS_DATA = {
                   ]
             },
             {
-                  "id": "doa-poker-run-2026",
+                  "id": "doa-poker-run-2026-05-09",
                   "name": "DOA - Poker Run",
                   "date": "2026-05-09",
                   "dateEnd": "2026-05-09",
@@ -8899,7 +8899,7 @@ const EVENTS_DATA = {
                   ]
             },
             {
-                  "id": "gwcs-sormlandswingarnas-medlemsmote-2026",
+                  "id": "gwcs-sormlandswingarnas-medlemsmote-2026-05-14",
                   "name": "Sörmlandswingarnas Medlemsmöte",
                   "date": "2026-05-14",
                   "dateEnd": "2026-05-14",
@@ -10366,7 +10366,7 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
-                  "id": "mchk-mchk-gavleborg-klubbkorning-2026",
+                  "id": "mchk-mchk-gavleborg-klubbkorning-2026-05-21",
                   "name": "MCHK Gävleborg: klubbkörning",
                   "date": "2026-05-21",
                   "dateEnd": "2026-05-21",
@@ -10512,7 +10512,7 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
-                  "id": "gwcs-sormlandswingarnas-medlemsmote-2026",
+                  "id": "gwcs-sormlandswingarnas-medlemsmote-2026-05-22",
                   "name": "Sörmlandswingarnas Medlemsmöte",
                   "date": "2026-05-22",
                   "dateEnd": "2026-05-22",
@@ -11553,7 +11553,7 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
-                  "id": "mchk-mchk-gavleborg-klubbkorning-2026",
+                  "id": "mchk-mchk-gavleborg-klubbkorning-2026-05-28",
                   "name": "MCHK Gävleborg: Klubbkörning",
                   "date": "2026-05-28",
                   "dateEnd": "2026-05-28",
@@ -14415,7 +14415,7 @@ const EVENTS_DATA = {
                   "links": [
                         {
                               "label": "FB Event",
-                              "url": "https://www.facebook.com/events/1661459616363762"
+                              "url": "https://www.facebook.com/events/1661459168362762"
                         },
                         {
                               "label": "Karta",
@@ -14423,7 +14423,7 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ],
-                  "link": "https://www.facebook.com/events/1661459616363762",
+                  "link": "https://www.facebook.com/events/1661459168362762",
                   "region": "Västernorrland",
                   "source": "facebook.com"
             },
@@ -15605,7 +15605,7 @@ const EVENTS_DATA = {
                   ]
             },
             {
-                  "id": "gwcs-sormlandswingarnas-medlemsmote-2026",
+                  "id": "gwcs-sormlandswingarnas-medlemsmote-2026-06-25",
                   "name": "Sörmlandswingarnas Medlemsmöte",
                   "date": "2026-06-25",
                   "dateEnd": "2026-06-25",
@@ -19337,7 +19337,7 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
-                  "id": "gwcs-sormlandswingarnas-medlemsmote-2026",
+                  "id": "gwcs-sormlandswingarnas-medlemsmote-2026-08-06",
                   "name": "Sörmlandswingarnas Medlemsmöte",
                   "date": "2026-08-06",
                   "dateEnd": "2026-08-06",
@@ -25729,7 +25729,7 @@ const EVENTS_DATA = {
                   "date": "2026-06-20",
                   "dateEnd": "2026-06-20",
                   "location": "Kulturhuset, Skovde",
-                  "type": "Traff",
+                  "type": "Träff",
                   "organizer": "Skaraborg MC Vanner",
                   "description": "En avslappnad sommartraff for alla MC-entusiaster i Skaraborg. Parkering och fika.",
                   "link": "https://druk.se/",
@@ -25743,7 +25743,7 @@ const EVENTS_DATA = {
                   "date": "2026-07-11",
                   "dateEnd": "2026-07-11",
                   "location": "Mariebergsskogen, Karlstad",
-                  "type": "Traff",
+                  "type": "Träff",
                   "organizer": "Klaralvens MC Forening",
                   "description": "Arlig traff i Mariebergsskogen med provkorning och utstaallning.",
                   "link": "https://druk.se/",
@@ -25757,7 +25757,7 @@ const EVENTS_DATA = {
                   "date": "2026-08-02",
                   "dateEnd": "2026-08-02",
                   "location": "Boulognerskogen, Gavle",
-                  "type": "Korning",
+                  "type": "Körning",
                   "organizer": "Dalarna Riders MC",
                   "description": "Gemensam korning langs kusten fran Gavle till Hudiksvall. Start kl 10.",
                   "link": "https://druk.se/",
@@ -25794,4 +25794,4 @@ const EVENTS_DATA = {
                   "_canary": true
             }
       ]
-}
+};
