@@ -2160,6 +2160,11 @@ const EVENTS_DATA = {
                         {
                               "label": "FB Event",
                               "url": "https://www.facebook.com/events/1510597130622504"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Industrivägen+4+Odensbacken",
+                              "type": "map"
                         }
                   ],
                   "link": "https://www.facebook.com/events/1510597130622504",
@@ -4108,19 +4113,23 @@ const EVENTS_DATA = {
                   "name": "ADV Motorcycle Expo 2026",
                   "date": "2026-04-18",
                   "dateEnd": "2026-04-19",
-                  "location": "Upplands Väsby",
+                  "location": "Scandic Infra City, Kanalvägen 10, Upplands Väsby",
                   "type": "Show",
-                  "organizer": "Backroads AB / ADV Expo",
-                  "description": "Nordens största mässa för äventyrsmotorcyklister. Utställare, föreläsningar och provkörningar.",
+                  "organizer": "Backroads Nordic Events",
+                  "description": "Sveriges största MC-mässa för offroad och äventyrare. Känn, testa och upplev. Utställare, provkörningar och föreläsningar. Biljetter online.",
                   "link": "https://www.backroads.eu/adv-motorcycle-expo/",
                   "region": "Stockholm",
-                  "source": "advmotorcycleexpo.com",
+                  "source": "facebook.com",
                   "backImage": "ads/adv-motorcycle-expo-back-2026-04-18.jpg",
-                  "descriptionFull": "ADV Motorcycle Expo 2026 arrangeras av Backroads AB / ADV Expo.\n\nNordens största mässa för äventyrsmotorcyklister. Utställare, föreläsningar och provkörningar.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Upplands Väsby.",
+                  "descriptionFull": "Sveriges största MC-mässa för offroad äventyrare!\n\nPå ADV Motorcycle Expo får du inte bara titta. Du får känna, testa och uppleva. Det här är platsen där du hittar rätt utrustning, rätt hoj och rätt människor.\n\nBiljetter säljs online.\n\nPlats: Scandic Infra City, Kanalvägen 10, Upplands Väsby\nDatum: 18-19 april 2026",
                   "links": [
                         {
                               "label": "FB Event",
                               "url": "https://www.facebook.com/events/3863050857333012"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/backroadsnordicevents"
                         },
                         {
                               "label": "backroads.eu",
@@ -4128,7 +4137,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Upplands+V%C3%A4sby",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Scandic+Infra+City+Kanalv%C3%A4gen+10+Upplands+V%C3%A4sby",
                               "type": "map"
                         }
                   ]
