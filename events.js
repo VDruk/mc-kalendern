@@ -8912,6 +8912,32 @@ const EVENTS_DATA = {
                   "source": "gwcs.se"
             },
             {
+                  "id": "orangeday-halmstad-2026-05-14",
+                  "name": "Orange Day - körning",
+                  "date": "2026-05-14",
+                  "dateEnd": "2026-05-14",
+                  "location": "Sliparegatan 5, Halmstad",
+                  "type": "Körning",
+                  "organizer": "Butterflyz & Silhouette Riders/Cruisers",
+                  "description": "Egen Orange Day-körning på Kristi himmelsfärdsdag. Start kl 13 från klubblokalen. Våfflor och korv efter körningen. MC och bilar välkomna.",
+                  "descriptionFull": "Orange Day-körning på Kristi himmelsfärdsdag!\n\nStart kl 13:00 från klubblokalen på Sliparegatan 5, Halmstad.\n\nEfter körningen finns våfflor och korv till försäljning.\n\nBåde motorcyklar och bilar välkomna.\n\nVar med och stöd Orange Day!\n\nArrangör: Butterflyz & Silhouette Riders/Cruisers.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1370228311534745"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sliparegatan+5+Halmstad",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1370228311534745",
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "backImage": "ads/orangeday-halmstad-back-2026-05-14.jpg"
+            },
+            {
                   "id": "körning-h-d-butiken-i-linkoping-med-overnattning-2026",
                   "name": "Körning H-D butiken i Linköping med övernattning",
                   "date": "2026-05-15",
