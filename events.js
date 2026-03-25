@@ -6831,6 +6831,58 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "emck-kortege-2026-05-02",
+                  "name": "EMCK:s Kortege",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Skjulstagatan 3A, Eskilstuna",
+                  "type": "Körning",
+                  "organizer": "EMCK - Eskilstuna Motorcykelklubb",
+                  "description": "Traditionell MC-kortege, alltid första lördagen i maj. Samling kl 11 i Skjulsta, avgång kl 12. 178 intresserade.",
+                  "descriptionFull": "EMCK:s Kortege genomförs alltid första lördagen i maj.\n\nSamling ute i Skjulsta kl 11:00, avgång kl 12:00.\n\n178 intresserade på Facebook.\n\nArrangör: EMCK - Eskilstuna Motorcykelklubb.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/26527465343543675"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Skjulstagatan+3A+Eskilstuna",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/26527465343543675",
+                  "region": "Södermanland",
+                  "source": "facebook.com",
+                  "backImage": "ads/emck-kortege-back-2026-05-02.jpg"
+            },
+            {
+                  "id": "svackans-poker-run-2026-05-02",
+                  "name": "Svackans Poker Run 2026",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "OKQ8, Verkstadsgatan 1, Heby",
+                  "type": "Körning",
+                  "organizer": "Svackans MC",
+                  "description": "Poker Run med rullande start 10-11. Ca 80-90 km. Startavgift 100 kr, allt till välgörenhet. Förstapris 5 000 kr. Alla MC välkomna!",
+                  "descriptionFull": "Svackans Poker Run 2026!\n\nStartplats: OKQ8 Heby. Rullande start mellan 10:00 och 11:00.\n\nSträcka: ca 80-90 km.\nStartavgift: 100 kr. 100% går oavkortat till Liv till Louice.\nFörstapris: 5 000 kr + fler priser.\n\nMat finns att köpa vid målgång. Cash is king.\n\nAlla MC välkomna oavsett märke och modell.\n\n209 intresserade på Facebook.\n\nSvackans MC bildades 1984, anslutna till SMC.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/967317435648426"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=OKQ8+Verkstadsgatan+1+Heby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/967317435648426",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/svackans-poker-run-back-2026-05-02.jpg"
+            },
+            {
                   "id": "smc-vastmanland-avrostning-2026-05-03",
                   "name": "Avrostning 3 maj",
                   "date": "2026-05-03",
@@ -12118,6 +12170,32 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "orangeday-stockholm-2026-05-30",
+                  "name": "Orangeday MC Stockholm",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Bergkällavägen 20, Upplands Väsby",
+                  "type": "Körning",
+                  "organizer": "Orange Day MC Stockholm",
+                  "description": "Stockholms kortege mot mäns våld mot kvinnor och barn. Start Upplands Väsby kl 9, via Södertälje och Flen till Mantorp/Norrköping. 150 kr/person till UN Women.",
+                  "descriptionFull": "Orangeday MC 2026 Stockholmsavdelningen!\n\nKortege mot mäns våld mot kvinnor och barn.\n\nStart: Däckia, Bergkällavägen 20, Upplands Väsby.\nSamling kl 8:30, avfärd kl 9:00.\n\nStopp:\n1. Scania restaurang, Södertälje (ca 9:45)\n2. Lunch och tankning: Cirkel K, Flen (ca 11:30, avfärd 12:30)\n3. Rast (ca 13:40)\nMål: City Gross, Mantorp (ca 15:15)\n\nDärefter gemensam körning till Norrköping.\n\nKortegeavgift: 150 kr/person via Swish (123 900 29 32). Bidraget går oavkortat till UN Women Sverige.\n\nRoad Queen: Eva Persson.\n\n68 intresserade på Facebook.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/26027470623583729"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Bergk%C3%A4llav%C3%A4gen+20+Upplands+V%C3%A4sby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/26027470623583729",
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/orangeday-stockholm-back-2026-05-30.jpg"
             },
             {
                   "id": "bmw-d15-mats-och-bodils-tur-2026",
@@ -20421,6 +20499,36 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "malaren-runt-40ar-balsta-2026-08-15",
+                  "name": "Mälaren Runt 2026 - 40-årsjubileum",
+                  "date": "2026-08-15",
+                  "dateEnd": "2026-08-15",
+                  "location": "Bålsta Centrum, Centrumstråket 1, Bålsta",
+                  "type": "Körning",
+                  "organizer": "Håbo MC Entusiaster",
+                  "description": "Mälaren Runt firar 40 år! Start från Bålsta Centrum. Tid och detaljer uppdateras inför eventet.",
+                  "descriptionFull": "Mälaren Runt 2026 firar 40-årsjubileum!\n\nStart från Bålsta Centrum.\n\nTid och plats justeras närmare eventet.\n\nMer info: svmc.se/club/maelaren-runt/\n\nArrangör: Håbo MC Entusiaster och Susann Bergström.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1388128559755244"
+                        },
+                        {
+                              "label": "svmc.se",
+                              "url": "https://www.svmc.se/club/maelaren-runt/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=B%C3%A5lsta+Centrum+B%C3%A5lsta",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1388128559755244",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/malaren-runt-40ar-back-2026-08-15.jpg"
             },
             {
                   "id": "804-racing-lunda-2026",
