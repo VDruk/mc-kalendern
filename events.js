@@ -2365,7 +2365,7 @@ const EVENTS_DATA = {
                   "dateEnd": "2026-03-27",
                   "location": "ÖMCC klubblokalen, Örnsköldsvik",
                   "type": "Fest",
-                  "organizer": "ÖMCC Örnsköldsviks Motorcykelclub",
+                  "organizer": "ÖMCC",
                   "description": "Säsongens sista AW! Tacos, öl (Corona extra) och snack. Kl 18:00. Anmäl er i förväg. Medlemmar.",
                   "descriptionFull": "After Work hos ÖMCC!\n\nSäsongens sista AW. Vi träffas för att äta tacos, prata skit och ta något drickbart.\n\nKvällens öl: Corona extra.\n\nKl 18:00 på ÖMCC klubblokalen i Örnsköldsvik.\n\nIn och anmäl er! Välkomna!",
                   "links": [
@@ -6526,9 +6526,9 @@ const EVENTS_DATA = {
                   "dateEnd": "2026-05-01",
                   "location": "Viktoriaesplanaden, Örnsköldsvik",
                   "type": "Träff",
-                  "organizer": "ÖMCC Örnsköldsviks Motorcykelclub",
+                  "organizer": "ÖMCC",
                   "description": "Öppet hus med ÖMCC och utställare. Snacka hoj, köp en hamburgare eller kaffe. Utställare uppdateras under april. Kl 10-15.",
-                  "descriptionFull": "Öppet hus hos ÖMCC Örnsköldsviks Motorcykelclub den 1 maj.\n\nKom och snacka hoj med oss och alla utställare, köp en hamburgare eller kaffe.\n\nUtställare uppdateras under april.\n\nTid: 1 maj kl 10:00-15:00\nPlats: Viktoriaesplanaden, Örnsköldsvik.",
+                  "descriptionFull": "Öppet hus hos ÖMCC den 1 maj.\n\nKom och snacka hoj med oss och alla utställare, köp en hamburgare eller kaffe.\n\nUtställare uppdateras under april.\n\nTid: 1 maj kl 10:00-15:00\nPlats: Viktoriaesplanaden, Örnsköldsvik.",
                   "links": [
                         {
                               "label": "FB Event",
