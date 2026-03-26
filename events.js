@@ -3442,6 +3442,32 @@ const EVENTS_DATA = {
                   "source": "FB"
             },
             {
+                  "id": "sk-motors-egg-run-2026",
+                  "name": "SK Motors Egg Run 2026",
+                  "date": "2026-04-04",
+                  "dateEnd": "2026-04-04",
+                  "location": "Biltema, Halmstad",
+                  "type": "Körning",
+                  "organizer": "SK Motors charity rides",
+                  "description": "Välgörenhetstur till Hallands sjukhus barnavdelning. Pynta hojen med påsktema! Samling kl 10:00 vid Biltema Halmstad, avfärd 10:30.",
+                  "descriptionFull": "SK Motors Egg Run 2026. Välgörenhetstur till barnavdelningen på Hallands sjukhus.\n\nGrönt ljus från Lekterapin på sjukhuset! Pynta din motorcykel med påsktema: påskris, gula band, kycklingar eller öron på hjälmen. Barnen kommer titta ut genom fönstren och flera av dem kommer ut för att hälsa.\n\nHålltider:\nSamling: Kl 10:00 vid Biltema Halmstad.\nAvfärd: Kl 10:30 (gemensam runda genom stan).\nBesöket: Vi kör fram till sjukhuset tillsammans. Vi parkerar på anvisad plats utanför. Barnen får chansen att se de pyntade hojarna och vi lämnar över gåvor.\nAvslutning: Gemensam påskfika.\n\nVi samlar in nya leksaker, presentkort och påskgodis. Ekonomiskt bidrag kan sättas in direkt på sjukhusets konto.\n\nLåt oss göra detta till en oförglömlig dag för barnen! Dela gärna!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1453606743137176"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Biltema+Halmstad",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1453606743137176",
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "backImage": "ads/sk-motors-egg-run-back-2026-04-04.jpg"
+            },
+            {
                   "id": "pask-rundan-med-hakan-warnemyr-5-4-2026",
                   "name": "Påsk rundan med Håkan Warnemyr 5/4",
                   "date": "2026-04-05",
