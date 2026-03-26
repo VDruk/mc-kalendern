@@ -1976,8 +1976,9 @@ function render() {
   let supportInserted = false;
 
   // Progressive rendering: render in batches to avoid mobile Safari crash
-  const BATCH_SIZE = 60;
+  const BATCH_SIZE = 30;
   let renderedCount = 0;
+  let batchPending = false;
   window._pendingEvents = events;
   window._renderState = { renderMonth, lastCardType, supportInserted, today, grid };
 
@@ -2187,14 +2188,19 @@ function render() {
     grid.appendChild(sentinel);
 
     const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting && renderedCount < window._pendingEvents.length) {
+      if (entries[0].isIntersecting && !batchPending && renderedCount < window._pendingEvents.length) {
+        batchPending = true;
         sentinel.remove();
-        renderedCount = renderBatch(renderedCount, BATCH_SIZE);
-        if (renderedCount < window._pendingEvents.length) {
-          grid.appendChild(sentinel);
-        }
+        // Delay between batches so the browser can breathe and paint
+        setTimeout(() => {
+          renderedCount = renderBatch(renderedCount, BATCH_SIZE);
+          batchPending = false;
+          if (renderedCount < window._pendingEvents.length) {
+            grid.appendChild(sentinel);
+          }
+        }, 150);
       }
-    }, { rootMargin: '600px' });
+    }, { rootMargin: '300px' });
     observer.observe(sentinel);
   }
 }
