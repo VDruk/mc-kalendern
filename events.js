@@ -179,6 +179,38 @@ const EVENTS_DATA = {
                   "_ad": true
             },
             {
+                  "_ad": true,
+                  "id": "ad-gwcs-treffen-2026",
+                  "name": "41st International Treffen",
+                  "date": "2026-07-28",
+                  "dateEnd": "2026-07-28",
+                  "location": "Orsa Grönklitt, Dalarna",
+                  "type": "AD",
+                  "organizer": "GoldWing Club Sweden / GWEF",
+                  "description": "Internationella GoldWing-träffen i Orsa Grönklitt, 6-9 aug 2026. Galamiddag, Light Show, Nationsparad och Äventyrsbana. Boka på gwcs.se!",
+                  "descriptionFull": "41st International Treffen i Orsa Grönklitt, 6-9 augusti 2026.\n\nTräffavgift:\nGWEF-medlem: SEK 700 / €70 inkl. galamiddag.\nEj GWEF-medlem: SEK 850 / €85 inkl. galamiddag.\n\nIngår: Träffmärke, Peoples Choice, Light Show, Nationsparad, Bastuflotte och Äventyrsbana, mat och dryck hela helgen.\n\nBokning stuga/vandrarhem: www.orsagronklitt.se, uppge kod \"Goldwing\" för rabatt.\n\nAnmälan: www.gwcs.se\nVälkommen till Orsa Grönklitt!",
+                  "links": [
+                        {
+                              "label": "gwcs.se",
+                              "url": "https://www.gwcs.se"
+                        },
+                        {
+                              "label": "Poster (GWCS)",
+                              "url": "https://media.gwcs.se/2026/01/sv1.jpeg"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Orsa+Gr%C3%B6nklitt+Dalarna",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.gwcs.se",
+                  "region": "Sverige",
+                  "source": "AD",
+                  "frontImage": "ads/gwcs-treffen-2026-ad-front.jpg",
+                  "backImage": "ads/gwcs-treffen-2026-08-06.jpg"
+            },
+            {
                   "id": "jonkoping-mcmassan-2026",
                   "name": "MC-Mässan Jönköping (Elmia)",
                   "date": "2026-01-23",
