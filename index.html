@@ -104,8 +104,8 @@
     margin-bottom: 24px;
   }
   .hero-stats {
-    display: flex; gap: 32px; justify-content: center;
-    flex-wrap: wrap;
+    display: flex; gap: 20px; justify-content: center;
+    flex-wrap: nowrap;
   }
   .hero-stat {
     text-align: center;
@@ -930,7 +930,7 @@
   @media (max-width: 768px) {
     .hero { height: 280px; }
     .hero-logo { font-size: 32px; }
-    .hero-stats { gap: 10px; }
+    .hero-stats { gap: 6px; }
     .hero-stat-num { font-size: 20px; }
     .hero-stat-label { font-size: 9px; letter-spacing: 0.5px; }
 
@@ -1975,7 +1975,25 @@ function render() {
   let lastCardType = ''; // 'poster' (Type 2 with frontImage, no _ad), 'ad' (_ad with frontImage), 'text', 'banner'
   let supportInserted = false;
 
-  events.forEach(event => {
+  // Progressive rendering: render in batches to avoid mobile Safari crash
+  const BATCH_SIZE = 60;
+  let renderedCount = 0;
+  window._pendingEvents = events;
+  window._renderState = { renderMonth, lastCardType, supportInserted, today, grid };
+
+  function renderBatch(startIdx, count) {
+    const evts = window._pendingEvents;
+    const state = window._renderState;
+    const end = Math.min(startIdx + count, evts.length);
+    for (let i = startIdx; i < end; i++) {
+      renderSingleCard(evts[i], state);
+    }
+    return end;
+  }
+
+  function renderSingleCard(event, state) {
+    const grid = state.grid;
+    const today = state.today;
     const d = new Date(event.date + 'T00:00:00');
     const monthKey = d.getFullYear() + '-' + d.getMonth();
     const isPast = event._ad ? false : (event.dateEnd || event.date) < today;
@@ -1985,17 +2003,17 @@ function render() {
     // Determine this card's visual type
     const thisCardType = event._ad && event.frontImage ? 'ad' : event.frontImage ? 'poster' : 'text';
     // Insert row break if Type 2 poster and Type 3 ad would share a row
-    if ((lastCardType === 'poster' && thisCardType === 'ad') || (lastCardType === 'ad' && thisCardType === 'poster')) {
+    if ((state.lastCardType === 'poster' && thisCardType === 'ad') || (state.lastCardType === 'ad' && thisCardType === 'poster')) {
       const rowBreak = document.createElement('div');
       rowBreak.className = 'grid-row-break';
       grid.appendChild(rowBreak);
     }
 
     // Month divider (skip for injected ad cards)
-    if (!event._ad && monthKey !== renderMonth) {
+    if (!event._ad && monthKey !== state.renderMonth) {
       // Insert support section between first and second month (only in 'all' view)
-      if (renderMonth !== '' && !supportInserted && currentMonth === 'all') {
-        supportInserted = true;
+      if (state.renderMonth !== '' && !state.supportInserted && currentMonth === 'all') {
+        state.supportInserted = true;
         const support = document.createElement('div');
         support.className = 'support-section';
         support.innerHTML = `<div class="support-inner">
@@ -2007,14 +2025,14 @@ function render() {
           <a href="https://ko-fi.com/mckalender" target="_blank" rel="noopener" class="support-btn">Stöd projektet</a>
         </div>`;
         grid.appendChild(support);
-        lastCardType = '';
+        state.lastCardType = '';
       }
-      renderMonth = monthKey;
+      state.renderMonth = monthKey;
       const divider = document.createElement('div');
       divider.className = 'month-divider';
       divider.textContent = MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
       grid.appendChild(divider);
-      lastCardType = ''; // full-width divider resets row
+      state.lastCardType = ''; // full-width divider resets row
     }
 
     // Date HTML
@@ -2155,8 +2173,30 @@ function render() {
       `;
     }
     grid.appendChild(card);
-    lastCardType = thisCardType;
-  });
+    state.lastCardType = thisCardType;
+  }
+
+  // Render first batch
+  renderedCount = renderBatch(0, BATCH_SIZE);
+
+  // Sentinel element for infinite scroll
+  if (renderedCount < events.length) {
+    const sentinel = document.createElement('div');
+    sentinel.id = 'render-sentinel';
+    sentinel.style.height = '1px';
+    grid.appendChild(sentinel);
+
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && renderedCount < window._pendingEvents.length) {
+        sentinel.remove();
+        renderedCount = renderBatch(renderedCount, BATCH_SIZE);
+        if (renderedCount < window._pendingEvents.length) {
+          grid.appendChild(sentinel);
+        }
+      }
+    }, { rootMargin: '600px' });
+    observer.observe(sentinel);
+  }
 }
 
 // ========== JSON-LD EVENT SCHEMA ==========
