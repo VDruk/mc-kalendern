@@ -390,6 +390,8 @@
     display: flex; flex-direction: column;
     padding: 20px;
     perspective: 1000px;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 350px;
     border-top: 3px solid transparent;
   }
   /* Type color bars */
@@ -1324,14 +1326,66 @@ let mapCityFilter = ''; // set when user clicks a map dot
 let favorites = JSON.parse(localStorage.getItem('mcFavorites') || '[]');
 
 // ========== HELPERS ==========
+function buildBackHTML(cardId, ev) {
+  const displayName = (ev.name.includes('INSTÄLLT') || ev.name.includes('INSTALLT'))
+    ? ev.name.replace(/\s*INSTÄLLT\s*/gi, '').replace(/\s*INSTALLT\s*/gi, '').trim()
+    : ev.name;
+  const fullDesc = (ev.descriptionFull || ev.description || '').split('\n').map(p => `<p>${p}</p>`).join('');
+  const backImg = ev.backImage ? `<img class="back-img" src="${ev.backImage}" alt="${displayName}" loading="lazy">` : '';
+  const calIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="10" height="10"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`;
+  const gcalStart = ev.date.replace(/-/g, '');
+  const gcalEndDate = new Date((ev.dateEnd || ev.date) + 'T00:00:00');
+  gcalEndDate.setDate(gcalEndDate.getDate() + 1);
+  const gcalEnd = gcalEndDate.toISOString().slice(0, 10).replace(/-/g, '');
+  const gcalUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+    + '&text=' + encodeURIComponent(ev.name)
+    + '&dates=' + gcalStart + '/' + gcalEnd
+    + '&location=' + encodeURIComponent(ev.location || '')
+    + '&details=' + encodeURIComponent((ev.description || '') + (ev.link ? '\n\n' + ev.link : ''));
+  const calRow = `<div class="back-cal-row">`
+    + `<a class="back-cal-pill" href="${gcalUrl}" target="_blank" rel="noopener">${calIcon} Google Kalender</a>`
+    + `<button class="back-cal-pill" onclick="event.stopPropagation();downloadSingleICS('${ev.id}')">${calIcon} Ladda ner .ics</button>`
+    + `</div>`;
+  let linksHTML = '';
+  if (ev.links && ev.links.length > 0) {
+    const extIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
+    const mapIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
+    const pills = ev.links.map(l => {
+      const icon = l.type === 'map' ? mapIcon : extIcon;
+      return `<a class="back-link-pill" href="${l.url}" target="_blank" rel="noopener">${icon} ${l.label}</a>`;
+    }).join('');
+    linksHTML = `<div class="back-links"><div class="back-link-pills">${pills}</div>${calRow}</div>`;
+  } else {
+    linksHTML = `<div class="back-links">${calRow}</div>`;
+  }
+  return `<div class="card-back-flip">
+    <div class="back-header">
+      <span class="back-title">${displayName}</span>
+      <button class="back-close" onclick="event.stopPropagation();cardCollapse('${cardId}')">&times;</button>
+    </div>
+    <div class="back-scroll-wrap">
+      <div class="back-scroll-area" onscroll="checkScrollEnd(this)">
+        <div class="back-desc">${fullDesc}</div>
+        ${backImg}
+        ${linksHTML}
+      </div>
+    </div>
+    <div class="back-footer">
+      <span class="card-organizer">${ev.organizer || ''}</span>
+      <button class="back-btn" onclick="event.stopPropagation();cardCollapse('${cardId}')">&larr; Tillbaka</button>
+    </div>
+  </div>`;
+}
 function cardExpand(id) {
   const card = document.getElementById(id);
   if (!card) return;
-  // Load deferred back image on first expand
-  const deferredImg = card.querySelector('.back-img[data-src]');
-  if (deferredImg) {
-    deferredImg.src = deferredImg.dataset.src;
-    deferredImg.removeAttribute('data-src');
+  // Build back-side HTML on first expand (deferred to save memory)
+  const flipper = card.querySelector('.card-flipper');
+  if (flipper && !flipper.querySelector('.card-back-flip')) {
+    const ev = _eventMap.get(id);
+    if (ev && (ev.descriptionFull || ev.links)) {
+      flipper.insertAdjacentHTML('beforeend', buildBackHTML(id, ev));
+    }
   }
   card.classList.add('flipped');
   // Check scroll after flip animation completes
@@ -1729,6 +1783,7 @@ const WSYMB2 = {
 const WEATHER_CACHE_KEY = 'mc_weather_cache_v3';
 const WEATHER_CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 let weatherData = {};
+const _eventMap = new Map(); // Store event data for deferred back-side rendering
 let weatherLoaded = false;
 
 function getWeatherCache() {
@@ -2067,6 +2122,9 @@ function render() {
     card.dataset.id = event.id;
     const cardId = 'c-' + event.id;
 
+    // Store event data for deferred back-side rendering (built on click, not now)
+    _eventMap.set(cardId, event);
+
     // Footer: "Mer info" either expands card or goes external
     let footerHTML;
     const orgIconHTML = event.organizerIcon ? `<img class="card-org-icon" src="${event.organizerIcon}" alt="">` : '';
@@ -2082,62 +2140,9 @@ function render() {
       </div>`;
     }
 
-    // Back side HTML
-    let backHTML = '';
-    if (hasBack) {
-      const fullDesc = (event.descriptionFull || event.description || '').split('\n').map(p => `<p>${p}</p>`).join('');
-      const backImg = event.backImage ? `<img class="back-img" data-src="${event.backImage}" alt="${displayName}" loading="lazy">` : '';
-      // Calendar pills (Google Calendar link + single .ics download)
-      const calIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="10" height="10"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`;
-      const gcalStart = event.date.replace(/-/g, '');
-      const gcalEndDate = new Date((event.dateEnd || event.date) + 'T00:00:00');
-      gcalEndDate.setDate(gcalEndDate.getDate() + 1);
-      const gcalEnd = gcalEndDate.toISOString().slice(0, 10).replace(/-/g, '');
-      const gcalUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
-        + '&text=' + encodeURIComponent(event.name)
-        + '&dates=' + gcalStart + '/' + gcalEnd
-        + '&location=' + encodeURIComponent(event.location || '')
-        + '&details=' + encodeURIComponent((event.description || '') + (event.link ? '\n\n' + event.link : ''));
-      const calRow = `<div class="back-cal-row">`
-        + `<a class="back-cal-pill" href="${gcalUrl}" target="_blank" rel="noopener">${calIcon} Google Kalender</a>`
-        + `<button class="back-cal-pill" onclick="event.stopPropagation();downloadSingleICS('${event.id}')">${calIcon} Ladda ner .ics</button>`
-        + `</div>`;
-
-      let linksHTML = '';
-      if (event.links && event.links.length > 0) {
-        const extIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
-        const mapIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
-        const pills = event.links.map(l => {
-          const icon = l.type === 'map' ? mapIcon : extIcon;
-          return `<a class="back-link-pill" href="${l.url}" target="_blank" rel="noopener">${icon} ${l.label}</a>`;
-        }).join('');
-        linksHTML = `<div class="back-links"><div class="back-link-pills">${pills}</div>${calRow}</div>`;
-      } else {
-        linksHTML = `<div class="back-links">${calRow}</div>`;
-      }
-      backHTML = `
-      <div class="card-back-flip">
-        <div class="back-header">
-          <span class="back-title">${displayName}</span>
-          <button class="back-close" onclick="event.stopPropagation();cardCollapse('${cardId}')">&times;</button>
-        </div>
-        <div class="back-scroll-wrap">
-          <div class="back-scroll-area" onscroll="checkScrollEnd(this)">
-            <div class="back-desc">${fullDesc}</div>
-            ${backImg}
-            ${linksHTML}
-          </div>
-        </div>
-        <div class="back-footer">
-          <span class="card-organizer">${event.organizer || ''}</span>
-          <button class="back-btn" onclick="event.stopPropagation();cardCollapse('${cardId}')">&larr; Tillbaka</button>
-        </div>
-      </div>`;
-    }
-
     card.id = cardId;
 
-    // Poster/AD-card front (frontImage) vs normal text front
+    // Render ONLY the front side. Back side is built on demand in cardExpand().
     if (event.frontImage) {
       card.classList.add('poster-card');
       card.innerHTML = `
@@ -2145,7 +2150,6 @@ function render() {
           <div class="card-front" onclick="cardExpand('${cardId}')">
             <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy">
           </div>
-          ${backHTML}
         </div>
       `;
     } else {
@@ -2169,7 +2173,6 @@ function render() {
             ${weatherHTML}
             ${footerHTML}
           </div>
-          ${backHTML}
         </div>
       `;
     }
