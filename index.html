@@ -12,7 +12,15 @@
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#1a1a2e">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="manifest" href="/manifest.json">
+
+<!-- Preconnect to external origins for faster loading -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://opendata-download-metfcst.smhi.se" crossorigin>
+<link rel="dns-prefetch" href="https://basemaps.cartocdn.com">
+<link rel="dns-prefetch" href="https://gc.zgo.at">
 
 <!-- Open Graph / Facebook -->
 <meta property="fb:app_id" content="966242223397117">
@@ -46,7 +54,7 @@
     --bg-card-hover: #f9fafb;
     --text-primary: #1a1d23;
     --text-secondary: #4b5563;
-    --text-muted: #7c8390;
+    --text-muted: #636b77;
     --accent: #d97706;
     --accent-hover: #b45309;
     --border: #e2e5ea;
@@ -920,7 +928,7 @@
     color: var(--text-muted); font-size: 13px;
     max-width: 1100px; margin: 0 auto;
   }
-  .footer a { color: var(--text-secondary); text-decoration: none; }
+  .footer a { color: var(--text-secondary); text-decoration: underline; text-underline-offset: 2px; }
   .footer a:hover { color: var(--accent); }
   .seo-block {
     margin: 0 0 32px;
@@ -1074,8 +1082,8 @@
     opacity: 1;
   }
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" media="print" onload="this.media='all'"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -1098,7 +1106,7 @@
 <header class="hero">
   <div class="hero-bg"></div>
   <div class="hero-overlay"></div>
-  <div class="hero-badge"><img src="ads/wreath-badge.png" alt="Sveriges Största MC-Kalendern - Utmärkelse 2026"></div>
+  <div class="hero-badge"><img src="ads/wreath-badge.png" alt="Sveriges Största MC-Kalendern - Utmärkelse 2026" width="150" height="150"></div>
   <div class="hero-content">
     <h1 class="hero-logo">MC <span>Kalendern</span></h1>
     <div class="hero-sub">MC-träffar och MC-evenemang i Sverige 2026</div>
@@ -1180,11 +1188,11 @@
           <span class="share-tooltip">Dela</span>
         </button>
         <a href="https://ko-fi.com/mckalender" target="_blank" rel="noopener" class="share-btn" id="shareKofi" title="Stöd MC Kalendern på Ko-fi">
-          <img src="ads/kofi-logo.webp" alt="Ko-fi" style="object-fit:contain;border-radius:0;">
+          <img src="ads/kofi-logo.webp" alt="Ko-fi" width="24" height="24" style="object-fit:contain;border-radius:0;">
           <span class="share-tooltip">Donera</span>
         </a>
         <button class="share-btn" id="shareKontakt" title="Kontakt" onclick="openKontaktModal()">
-          <img src="email_us.png" alt="Kontakt" style="object-fit:contain;">
+          <img src="email_us.png" alt="Kontakt" width="24" height="24" style="object-fit:contain;">
           <span class="share-tooltip">Kontakt</span>
         </button>
         <button class="tipsa-circle-btn" id="tipsaCircleBtn" title="Tipsa om ett evenemang">
@@ -1247,7 +1255,7 @@
 <div class="drawer-overlay" id="drawerOverlay"></div>
 <div class="drawer" id="drawer">
   <div class="drawer-header">
-    <h3>Mina evenemang</h3>
+    <h2 style="font-size:inherit;font-weight:inherit;margin:inherit;">Mina evenemang</h2>
     <button class="drawer-close" id="drawerClose" aria-label="Stäng">&times;</button>
   </div>
   <div class="drawer-body" id="drawerBody">
@@ -1265,7 +1273,7 @@
 <!-- ========== TIPSA MODAL ========== -->
 <div class="modal-overlay" id="tipsaModal">
   <div class="modal">
-    <h3>Tipsa om ett evenemang</h3>
+    <h2 style="font-size:inherit;font-weight:inherit;margin:inherit;">Tipsa om ett evenemang</h2>
     <label>Namn på evenemanget *</label>
     <input type="text" id="tipName">
     <label>Datum *</label>
@@ -1290,7 +1298,7 @@
 <div class="modal-overlay" id="kontaktModal" onclick="if(event.target===this)closeKontaktModal()">
   <div class="modal" style="max-width:320px; text-align:center; padding:28px 24px 22px; position:relative;">
     <button onclick="closeKontaktModal()" style="position:absolute; top:10px; right:12px; background:none; border:none; color:var(--text-muted); font-size:20px; cursor:pointer; line-height:1; padding:4px;">&times;</button>
-    <h3 style="font-size:17px; margin-bottom:8px;">Skriv till MC&nbsp;Kalendern</h3>
+    <h2 style="font-size:17px; margin-bottom:8px; font-weight:600;">Skriv till MC&nbsp;Kalendern</h2>
     <p style="color:var(--text-muted); margin:0 0 22px; font-size:0.84rem; line-height:1.5;">Vi svarar gärna på frågor, förslag och feedback.</p>
     <button id="kontaktEmailBtn" style="display:inline-block; padding:10px 32px; font-size:14px; font-weight:600; border-radius:24px; border:none; background:var(--accent); color:#fff; cursor:pointer; transition:background 0.15s; letter-spacing:0.3px;" onmouseover="this.style.background='var(--accent-hover)'" onmouseout="this.style.background='var(--accent)'">Öppna mejl</button>
   </div>
@@ -2094,7 +2102,7 @@ function render() {
         const support = document.createElement('div');
         support.className = 'support-section';
         support.innerHTML = `<div class="support-inner">
-          <div class="support-emoji"><img src="ads/kofi-logo.webp" alt="Ko-fi"></div>
+          <div class="support-emoji"><img src="ads/kofi-logo.webp" alt="Ko-fi" width="48" height="48"></div>
           <div class="support-text">
             <div class="support-title">Gillar du MC Kalendern?</div>
             <p>Jag är Slava Druk, Gold Wing-förare och GWCS-medlem från Uppsala. Jag driver den här gratiskalendern helt själv med hundratals events från hela Sverige. Inga skräpannonser, bara relevant MC-innehåll. Om du är en MC-förare som hittar nytta här, eller en arrangör vars event redan finns med, stöd mig med några kronor så att MC Kalendern kan leva vidare. Sajten kostar tid och pengar att driva, och varje bidrag hjälper. Alla transaktioner går säkert via Ko-fi, en etablerad donationsplattform.</p>
@@ -2148,7 +2156,7 @@ function render() {
 
     // Footer: "Mer info" either expands card or goes external
     let footerHTML;
-    const orgIconHTML = event.organizerIcon ? `<img class="card-org-icon" src="${event.organizerIcon}" alt="">` : '';
+    const orgIconHTML = event.organizerIcon ? `<img class="card-org-icon" src="${event.organizerIcon}" alt="" width="20" height="20">` : '';
     if (hasBack) {
       footerHTML = `<div class="card-footer">
         <span class="card-organizer">${orgIconHTML}${event.organizer || ''}</span>
@@ -2169,7 +2177,7 @@ function render() {
       card.innerHTML = `
         <div class="card-flipper">
           <div class="card-front" onclick="cardExpand('${cardId}')">
-            <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy">
+            <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy" width="800" height="600">
           </div>
         </div>
       `;
