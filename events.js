@@ -2173,6 +2173,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/varma-toasts-network-mc-back-2026-03-26.jpg"
             },
             {
+                  "id": "north-trail-torsdagsfika-2026-03-26",
+                  "name": "Torsdagsfika",
+                  "date": "2026-03-26",
+                  "dateEnd": "2026-03-26",
+                  "location": "Jättendal",
+                  "type": "Träff",
+                  "organizer": "North Trail MC Hälsingland",
+                  "description": "Säsongens sista AW hos North Trail MC! Tacos, öl och gott snack i klubblokalen. Kvällens öl: Corona Extra.",
+                  "descriptionFull": "Medlemmar! Säsongens sista AW!\n\nVi träffas för att äta tacos, prata skit och ta något drickbart. In och anmäl er!\n\nKvällens öl: Corona Extra.\n\nTid: kl 18:00\nPlats: Klubblokalen, Jättendal",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/northtrailmc"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/northtrailmc",
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "backImage": "ads/north-trail-torsdagsfika-back-2026-03-26.jpg"
+            },
+            {
                   "id": "do-c-pubkvall-i-halmstad-2026",
                   "name": "DO-C pubkväll i halmstad",
                   "date": "2026-03-27",
