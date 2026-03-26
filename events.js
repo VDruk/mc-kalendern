@@ -11112,6 +11112,36 @@ const EVENTS_DATA = {
                   "backImage": "ads/tps-swapmeet-back-2026-05-23.jpg"
             },
             {
+                  "id": "tumba-twins-grill-barhang-2026-05-23",
+                  "name": "Grill & Barhäng",
+                  "date": "2026-05-23",
+                  "dateEnd": "2026-05-23",
+                  "location": "Finkmossvägen 132, Tumba",
+                  "type": "Fest",
+                  "organizer": "Tumba Twins Motorcycle Club",
+                  "description": "Tumba Twins MC bjuder in till grill och barhäng i sköna maj. SBM och inbjudna vänner välkomna. Från kl 15:00.",
+                  "descriptionFull": "Tumba Twins Mc bjuder in till Bar & Grillhäng i sköna maj.\n\nSBM & inbjudna vänner välkomna.\n\nTid: lördag 23 maj, från kl 15:00\nPlats: Finkmossvägen 132, Tumba",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2900616773461408"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/people/Tumba-Twins-Motorcycle-Club/100072138546799/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Finkmossvägen+132+Tumba",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2900616773461408",
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/tumba-twins-grill-barhang-back-2026-05-23.jpg"
+            },
+            {
                   "id": "bmw-d11-mcq-pernillas-tur-2026",
                   "name": "D11 mcQ Pernillas tur",
                   "date": "2026-05-24",
