@@ -7163,7 +7163,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "motorlordag-tidaholm-2026-05-02",
-                  "name": "Motorlördag 2 Maj",
+                  "name": "Motorlördag",
                   "date": "2026-05-02",
                   "dateEnd": "2026-05-02",
                   "location": "Gamla Torget, Tidaholm",
