@@ -380,6 +380,27 @@
     }
   }
 
+  /* ========== LOAD MORE BUTTON (mobile) ========== */
+  .load-more-btn {
+    grid-column: 1 / -1;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 16px 24px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .load-more-btn:hover, .load-more-btn:active {
+    background: var(--accent-hover);
+  }
+
   /* ========== EVENT CARDS ========== */
   .card {
     background: var(--bg-card);
@@ -2030,10 +2051,10 @@ function render() {
   let lastCardType = ''; // 'poster' (Type 2 with frontImage, no _ad), 'ad' (_ad with frontImage), 'text', 'banner'
   let supportInserted = false;
 
-  // Progressive rendering: render in batches to avoid mobile Safari crash
-  const BATCH_SIZE = 30;
+  // Progressive rendering: mobile gets "Visa fler" button, desktop renders all at once
+  const MOBILE_BATCH = 100;
+  const _isMobileRender = window.innerWidth < 900;
   let renderedCount = 0;
-  let batchPending = false;
   window._pendingEvents = events;
   window._renderState = { renderMonth, lastCardType, supportInserted, today, grid };
 
@@ -2180,31 +2201,30 @@ function render() {
     state.lastCardType = thisCardType;
   }
 
-  // Render first batch
-  renderedCount = renderBatch(0, BATCH_SIZE);
+  if (_isMobileRender) {
+    // Mobile: render first batch + "Visa fler" button
+    renderedCount = renderBatch(0, MOBILE_BATCH);
 
-  // Sentinel element for infinite scroll
-  if (renderedCount < events.length) {
-    const sentinel = document.createElement('div');
-    sentinel.id = 'render-sentinel';
-    sentinel.style.height = '1px';
-    grid.appendChild(sentinel);
-
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting && !batchPending && renderedCount < window._pendingEvents.length) {
-        batchPending = true;
-        sentinel.remove();
-        // Delay between batches so the browser can breathe and paint
-        setTimeout(() => {
-          renderedCount = renderBatch(renderedCount, BATCH_SIZE);
-          batchPending = false;
-          if (renderedCount < window._pendingEvents.length) {
-            grid.appendChild(sentinel);
-          }
-        }, 150);
-      }
-    }, { rootMargin: '300px' });
-    observer.observe(sentinel);
+    if (renderedCount < events.length) {
+      const loadMoreBtn = document.createElement('button');
+      loadMoreBtn.className = 'load-more-btn';
+      const remaining = events.length - renderedCount;
+      loadMoreBtn.textContent = `Visa fler evenemang (${remaining} till)`;
+      loadMoreBtn.onclick = function() {
+        renderedCount = renderBatch(renderedCount, MOBILE_BATCH);
+        const left = events.length - renderedCount;
+        if (left > 0) {
+          loadMoreBtn.textContent = `Visa fler evenemang (${left} till)`;
+          grid.appendChild(loadMoreBtn);
+        } else {
+          loadMoreBtn.remove();
+        }
+      };
+      grid.appendChild(loadMoreBtn);
+    }
+  } else {
+    // Desktop: render everything at once (no memory issues)
+    renderedCount = renderBatch(0, events.length);
   }
 }
 
