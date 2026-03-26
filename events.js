@@ -10793,6 +10793,7 @@ const EVENTS_DATA = {
                   "region": "Västra Götaland",
                   "source": "gwcs.se",
                   "frontImage": "ads/gwcs-svenljunga-nydal-2026-05-22.jpg",
+                  "backImage": "ads/gwcs-svenljunga-nydal-back-2026-05-22.jpg",
                   "descriptionFull": "Svenljunga Träffen på Nydal, 22-24 maj 2026. Arrangeras av Knallewingarna / GWCS.\n\nAvgift: 100 kr/person. El 75 kr/helgen. Tält i första hand. Sängplatser finns för 100 kr/natt. Husbil: hör av er i förväg till Mona för plats.\n\nProgram:\nFredag 22/5: Träffen börjar. Tipspromenad, underhållning i logen på kvällen.\nLördag 23/5: Gemensam tur som avslutas på torget. Svenljunga Super Motor Weekend pågår. Snyggaste GoldWing röstas fram. Tipspromenad, lotterier, quiz. På kvällen musik och dans.\nSöndag 24/5: Hemresa.\n\nGrillarna tänds varje kväll. Även om du har 2 eller 4 hjul, kom och ha kul!\n\nKontakt: Jonny 070 315 05 20, Mona 070 527 67 58\nGoogle Maps: 57.515083, 13.106528",
                   "links": [
                         {
