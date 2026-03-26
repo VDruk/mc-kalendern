@@ -163,8 +163,8 @@ const EVENTS_DATA = {
                   "location": "druk.se",
                   "type": "AD",
                   "organizer": "MC Kalendern / Slava Druk",
-                  "description": "Sveriges mest kompletta MC-kalender med närmare tusen event. Gratis, utan reklam, byggd av en hojare för alla hojare.",
-                  "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event på ett ställe.\n\nNärmare tusen event från träffar och körningar till shower, racing och fester. All data hämtas från ett flertal källor och uppdateras varje dag.\n\nProjektet är 100% gratis och byggt av ren passion för tvåhjuliga äventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till så lägger vi till det!\n\nBesök oss på druk.se och hitta din nästa tur.",
+                  "description": "Sveriges mest kompletta MC-kalender med mer än tusen event. Gratis, utan reklam, byggd av en hojare för alla hojare.",
+                  "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event på ett ställe.\n\nMer än tusen event från träffar och körningar till shower, racing och fester. All data hämtas från ett flertal källor och uppdateras varje dag.\n\nProjektet är 100% gratis och byggt av ren passion för tvåhjuliga äventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till så lägger vi till det!\n\nBesök oss på druk.se och hitta din nästa tur.",
                   "frontImage": "ads/mc-kalendern-front-2026-09-28.jpg",
                   "backImage": "ads/mc-kalendern-back-2026-09-28.jpg",
                   "links": [
@@ -7160,6 +7160,32 @@ const EVENTS_DATA = {
                   "region": "Västmanland",
                   "source": "facebook.com",
                   "backImage": "ads/avrostning-hasslo-back-2026-05-02.jpg"
+            },
+            {
+                  "id": "motorlordag-tidaholm-2026-05-02",
+                  "name": "Motorlördag 2 Maj",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Gamla Torget, Tidaholm",
+                  "type": "Show",
+                  "organizer": "Labbås Cruisers Tidaholm",
+                  "description": "Utställning av hot rods, amerikanska och europeiska bilar, motorcyklar, mopeder och gamla fordon. Musik av Anders Djup, speaker Olle Malmgren. Insläpp 08-10, 100 kr/fordon.",
+                  "descriptionFull": "Äntligen är det dags för motorlördag i Tidaholm den 2 maj. Utställning av hot rods, amerikanska/europeiska bilar, motorcyklar, mopeder och gamla fordon som är tillverkade i Tidaholm.\n\nMusik blir det av Anders Djup från scenen. Speaker under dagen är Olle Malmgren.\n\nInsläpp för utställare är mellan kl 08-10. Kostnad 100 kr/fordon, kontant eller Swish. Utlottning under dagen med fina priser till utställarna. En jury kommer att rösta fram fina fordon som prisas.\n\nVälkomna till Tidaholm 2 maj för en trevlig dag!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/26003016122664798"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Torget+Tidaholm",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/26003016122664798",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/motorlordag-tidaholm-back-2026-05-02.jpg"
             },
             {
                   "id": "smc-vastmanland-avrostning-2026-05-03",
