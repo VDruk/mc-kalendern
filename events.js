@@ -6956,6 +6956,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/svackans-poker-run-back-2026-05-02.jpg"
             },
             {
+                  "id": "avrostning-hasslo-trafikskola-2026-05-02",
+                  "name": "Avrostning & Provkörning",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Hässlögatan 22, Västerås",
+                  "type": "Körning",
+                  "organizer": "Hässlö Trafikskola",
+                  "description": "Avrostning med 4 körgrupper, krypbana och tävling snyggast hoj. Yamaha Center erbjuder provkörning. Mat av MrMango. 200 kr.",
+                  "descriptionFull": "Välkommen till årets Avrostning!\n\nVi fortsätter med vårt lyckade koncept där vi samarbetar med Yamaha Center Västerås som erbjuder provkörning av hojar. Dessutom kommer MrMango i år igen och löser riktigt gott käk.\n\nAvrostning:\n- 4 olika körgrupper\n- Olika övningar för att rosta av dig inför säsongen\n- Knix/krypbana att tillgå under hela evenemanget\n- Tävling snyggast hoj\n- Efter lunch åker vi en gemensam tur mot fikaställe\n\nAnmälan: info@hasslotrafikskola.se (märk mailet med \"Avrostning 2026\")\nKostnad: 200 kr, betalas på plats med Swish.\n\nProvkörning Yamaha Center Västerås: korta provkörningar där du som presumtiv köpare får chansen att provköra och jämföra olika Yamaha-modeller kostnadsfritt. Anmälan sker på plats eller direkt till Yamaha Center Västerås.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/903253755675593"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=H%C3%A4ssl%C3%B6gatan+22+V%C3%A4ster%C3%A5s",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/903253755675593",
+                  "region": "Västmanland",
+                  "source": "facebook.com",
+                  "backImage": "ads/avrostning-hasslo-back-2026-05-02.jpg"
+            },
+            {
                   "id": "smc-vastmanland-avrostning-2026-05-03",
                   "name": "Avrostning 3 maj",
                   "date": "2026-05-03",
@@ -7549,6 +7575,36 @@ const EVENTS_DATA = {
                   "link": "https://mchk.org/evenemang/kalender-34490789",
                   "region": "Södermanland",
                   "source": "mchk.org"
+            },
+            {
+                  "id": "72-mil-grus-2026-05-07",
+                  "name": "72 mil grus",
+                  "date": "2026-05-07",
+                  "dateEnd": "2026-05-10",
+                  "location": "Forsbacka Wärdshus, Forsbacka",
+                  "type": "Körning",
+                  "organizer": "Magnus Andreasson / Hojresor",
+                  "description": "4 dagars grusresa genom Gästrikland och Dalarna. Forsbacka - Borlänge - Mora - Forsbacka. 72 mil på grusvägar, skogsbilvägar och stigar.",
+                  "descriptionFull": "72 mil grus, en resa tidigt på våren.\n\nVi träffas på Forsbacka Wärdshus, äter middag och bekantar oss. Sedan kör vi 72 mil på grusvägar, skogsbilvägar och större stigar genom Gästrikland och Dalarna.\n\nDag 1 (torsdag): Samling och middag på Forsbacka Wärdshus.\nDag 2 (fredag): Forsbacka till Gylle Hotell i Borlänge via grusvägar. Middag på Brödernas restaurang.\nDag 3 (lördag): Borlänge till Målkullorna vandrarhem i Mora. Middag på Restaurang Vasagatan 32.\nDag 4 (söndag): Mora tillbaka till Forsbacka Wärdshus.\n\nAv 57 vägarna har arrangören kört 39 tidigare. 18 vägar är okända, men synliga på Eniros flygbilder och Googles satellitfoton.\n\nAnmälan via formulär på hojresor.se.",
+                  "links": [
+                        {
+                              "label": "hojresor.se",
+                              "url": "https://www.hojresor.se/2026/02/27/inbjudan-till-resan-72-mil-grus-2026/"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/groups/574363770251622/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Forsbacka+W%C3%A4rdshus+Forsbacka",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.hojresor.se/2026/02/27/inbjudan-till-resan-72-mil-grus-2026/",
+                  "region": "Gävleborg",
+                  "source": "hojresor.se",
+                  "backImage": "ads/72-mil-grus-back-2026-05-07.jpg"
             },
             {
                   "id": "bmw-d10-tiveden-spring-tour-2026-2026",
