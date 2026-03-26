@@ -10140,6 +10140,36 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "smc-vastmanland-avrostning-2026-05-17",
+                  "name": "Avrostning 17 maj",
+                  "date": "2026-05-17",
+                  "dateEnd": "2026-05-17",
+                  "location": "Hässlö Trafikövningsplats, Hässlögatan 20, Västerås",
+                  "type": "Körning",
+                  "organizer": "SMC Västmanland",
+                  "description": "Avrostning med SMC Västmanland. Två kurstillfällen under dagen. Öva balans, blick och broms i kontrollerad miljö efter vinterns stillasittande.",
+                  "descriptionFull": "Avrostning 17 maj med SMC Västmanland på Hässlö Trafikövningsplats i Västerås.\n\nEfter vintern är det lätt att känna sig ringrostig och lite osäker. På avrostningen går vi igenom grundläggande trafikmoment som balans, blicken, broms och övar i en kontrollerad miljö. Helt enkelt för att bli trygg och avslappnad på hojen igen.\n\nDenna dag erbjuds två kurstillfällen: förmiddag (08:00-12:00) och eftermiddag (12:30-16:30).\n\nAnmälan via grundkurser.svmc.se.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1283479130358825"
+                        },
+                        {
+                              "label": "Anmälan",
+                              "url": "https://grundkurser.svmc.se/?name=&district=vastmanland&et%5B%5D=Avrostning&date_start=&date_end="
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Hässlö+Trafikövningsplats+Hässlögatan+20+Västerås",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1283479130358825",
+                  "region": "Västmanland",
+                  "source": "facebook.com",
+                  "backImage": "ads/smc-vastmanland-avrostning-back-2026-05-17.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-nacka-2026-05-18",
                   "name": "DOA - Kvällskörning Nacka",
                   "date": "2026-05-18",
