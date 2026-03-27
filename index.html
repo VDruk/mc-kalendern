@@ -875,6 +875,7 @@
     flex-shrink: 0;
   }
   .drawer-cal-wrapper { width: 100%; }
+  .drawer-cal-wrapper.disabled .drawer-cal-trigger { opacity: 0.45; cursor: default; pointer-events: none; }
   .drawer-cal-trigger {
     width: 100%; justify-content: center;
     background: var(--accent); color: #fff;
@@ -2485,7 +2486,9 @@ function downloadAllFavICS() {
   const favEvents = favs.map(id => allEvents.find(e => e.id === id)).filter(Boolean);
   if (!favEvents.length) return;
   const ics = generateICS(favEvents);
-  triggerICSDownload(ics, 'mc-evenemang.ics');
+  const now = new Date();
+  const ts = String(now.getHours()).padStart(2,'0') + String(now.getMinutes()).padStart(2,'0');
+  triggerICSDownload(ics, `mc-evenemang-${favEvents.length}st-${ts}.ics`);
 }
 
 // ========== EVENT LISTENERS ==========
@@ -2930,12 +2933,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function updateDrawer() {
   const body = document.getElementById('drawerBody');
+  const calWrapper = document.querySelector('.drawer-cal-wrapper');
   if (favorites.length === 0) {
     body.innerHTML = '<div class="drawer-empty">Tryck på stjärnan på ett evenemang för att spara det här.</div>';
     const icsTextEmpty = document.getElementById('icsDownloadText');
     if (icsTextEmpty) icsTextEmpty.textContent = 'Lägg till i kalender';
+    if (calWrapper) { calWrapper.classList.add('disabled'); calWrapper.classList.remove('open'); }
     return;
   }
+  if (calWrapper) calWrapper.classList.remove('disabled');
   const allEvents = EVENTS_DATA.events;
   const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
