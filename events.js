@@ -4149,6 +4149,27 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "haskas-mc-barhang-2026-04-11",
+                  "name": "Barhäng hos Haskas MC",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "Klubbkåken, Ljungbyholm",
+                  "type": "Fest",
+                  "organizer": "Haskas MC Eastside",
+                  "description": "Barhäng hos Haskas MC i Ljungbyholm. Alla är välkomna till klubbkåken för en trevlig kväll.",
+                  "descriptionFull": "Haskas MC Eastside bjuder in till barhäng den 11 april.\n\nPlats: Klubbkåken i Ljungbyholm.\n\nAlla är välkomna!\n\nRide Safe!",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/haskasmc"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/haskasmc",
+                  "region": "Kalmar",
+                  "source": "facebook.com",
+                  "backImage": "ads/haskas-mc-barhang-back-2026-04-11.jpg"
+            },
+            {
                   "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
                   "name": "D15 Söndagsvandring Gyllebosjön Runt",
                   "date": "2026-04-12",
