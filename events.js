@@ -2439,6 +2439,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/omcc-after-work-back-2026-03-27.jpg"
             },
             {
+                  "id": "fikakväll-maiden-coast-2026-03-27",
+                  "name": "Fikakväll hos Bastards MC",
+                  "date": "2026-03-27",
+                  "dateEnd": "2026-03-27",
+                  "location": "Armévägen 3, Gnarp",
+                  "type": "Träff",
+                  "organizer": "2 MC Maiden Coast",
+                  "description": "Fikakväll hos Bastards MC Maiden Coast i Gnarp. Från kl 19:00. Vi bjuder på våfflor! Alla MC-vänner välkomna.",
+                  "descriptionFull": "Fikakväll hos Bastards MC Maiden Coast!\n\nFredag 27 mars från kl 19:00.\n\nVi bjuder på våfflor!\n\nPlats: Armévägen 3, 829 60 Gnarp.\n\nAlla MC-vänner välkomna.",
+                  "backImage": "ads/fikakväll-maiden-coast-back-2026-03-27.jpg",
+                  "link": "https://www.facebook.com/profile.php?id=61558419658686",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=61558419658686"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Arm%C3%A9v%C3%A4gen+3+Gnarp",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Gävleborg",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "ava-mc-dagen-gustavsberg-2026",
                   "name": "AVA MC Dagen",
                   "date": "2026-03-28",
@@ -20187,6 +20213,32 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "klubbhus-invigning-maiden-coast-2026-08-08",
+                  "name": "Klubbhus Invigning",
+                  "date": "2026-08-08",
+                  "dateEnd": "2026-08-08",
+                  "location": "Armévägen 3, Gnarp",
+                  "type": "Fest",
+                  "organizer": "2 MC Maiden Coast",
+                  "description": "Bastards MC Maiden Coast inviger sitt klubbhus i Gnarp! Efter lång tid med slit och uppdateringar med värmesystem är det äntligen dags. Markera datumet i kalendern!",
+                  "descriptionFull": "Bastards MC Maiden Coast inviger officiellt sitt klubbhus!\n\nEfter lång tid med slit och uppdateringar med värmesystem är det äntligen dags.\n\nLördag 8 augusti 2026.\n\nPlats: Armévägen 3, 829 60 Gnarp.\n\nKontakt:\nJunior: 076-217 65 49\nChristian: 073-960 15 84\n\nMarkera datumet i kalendern. Nu kör vi!",
+                  "backImage": "ads/klubbhus-invigning-maiden-coast-back-2026-08-08.jpg",
+                  "link": "https://www.facebook.com/photo?fbid=122231340902280655&set=a.122097923012280655",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=61558419658686"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Arm%C3%A9v%C3%A4gen+3+Gnarp",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Gävleborg",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "bmw-d11-norra-smaland-runt-2026",
                   "name": "D11 Norra Småland Runt",
                   "date": "2026-08-09",
@@ -23788,6 +23840,32 @@ const EVENTS_DATA = {
                   "region": "Danmark",
                   "source": "facebook.com",
                   "descriptionFull": "Motorcykler mod Sclerose 2026 – välgörenhetstur för MS-forskning.\n\nDirectören för Scleroseforeningen deltar hela dagen. Start kl 09:00 vid Mosede Fort i Greve Strand (30 min söder om Malmö via Øresundsbron).\n\nEfter turen: kaka på privat adress i Tune.\n\nMosede Fort ligger vid kusten i Greve, Danmark – enkelt att nå från Sverige."
+            },
+            {
+                  "id": "lumberjacks-mc-25ar-2026-09-12",
+                  "name": "Lumberjacks MC 25 år",
+                  "date": "2026-09-12",
+                  "dateEnd": "2026-09-12",
+                  "location": "Kvillsfors fotbollsplan, Kvillsfors",
+                  "type": "Fest",
+                  "organizer": "Lumberjacks MC",
+                  "description": "Lumberjacks MC firar 25 år på Kvillsfors fotbollsplan! Liveband Fem små rätter, roliga lekar, mat och dryck till MC-vänliga priser. Camping med tält/husvagn/husbil.",
+                  "descriptionFull": "Lumberjacks MC firar 25 år!\n\nPlats: Kvillsfors fotbollsplan. Vi är på plats från fredagen!\n\nProgram:\n- Roliga lekar och aktiviteter\n- Mat och dryck till MC-vänliga priser (Cash is king!)\n- Liveband: Fem små rätter\n\nCamping: Platser för tält, husvagn och husbil. Tillägg för husvagn/husbil med el.\n\nKontakt:\nDanne 070-5787270\nRylle 072-3992682",
+                  "backImage": "ads/lumberjacks-mc-25ar-back-2026-09-12.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=27285801527675175&set=gm.26410178338634788",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/groups/667542576658384"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kvillsfors+fotbollsplan+Kvillsfors",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Jönköping",
+                  "source": "facebook.com"
             },
             {
                   "id": "doa-kvallskörning-nacka-2026-09-14",

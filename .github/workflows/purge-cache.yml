@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
+      - name: Wait for GitHub Pages CDN propagation
+        run: echo "Waiting 90s for GitHub Pages CDN to propagate..." && sleep 90
+
       - name: Purge Cloudflare cache
         run: |
           curl -s -X POST \
