@@ -2465,6 +2465,33 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "bara-kora-uppsala-2026-03-28",
+                  "name": "Bara Köra",
+                  "date": "2026-03-28",
+                  "dateEnd": "2026-03-28",
+                  "location": "Ulleråkersvägen 58, Uppsala",
+                  "type": "Körning",
+                  "organizer": "MC Kalendern / Slava",
+                  "description": "Ingen klubb, bara frihet. Två Gold Wing-förare drar ut på en runda genom Uppland. Alla välkomna att hänga med!",
+                  "descriptionFull": "Ingen klubb, bara frihet. Vi är två Gold Wing-förare som drar ut på en dagstur genom Uppland. Alla som vill hänga med är välkomna, oavsett hoj.\n\nRutt (~200 km, ~5 timmar):\n11:00 – Samling vid Ulleråkersvägen 58, Uppsala\n11:30 – Avfärd\nTärnsjö Pizzeria – lunch\nHeby – tankning\nEnköping – fika\nViks slott – stopp\n~16:00 – Tillbaka i Uppsala\n\nKontakt: 076-033 53 68 (Slava, Swenglish speaker)",
+                  "frontImage": "ads/bara-kora-front-2026-03-28.jpg",
+                  "backImage": "ads/bara-kora-back-2026-03-28.jpg",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Ulleråkersvägen+58,+Uppsala",
+                              "type": "map"
+                        },
+                        {
+                              "label": "druk.se",
+                              "url": "https://druk.se"
+                        }
+                  ],
+                  "link": "https://druk.se",
+                  "region": "Uppsala",
+                  "source": "druk.se"
+            },
+            {
                   "id": "ava-mc-dagen-gustavsberg-2026",
                   "name": "AVA MC Dagen",
                   "date": "2026-03-28",
@@ -2934,33 +2961,6 @@ const EVENTS_DATA = {
                   "region": "Stockholm",
                   "source": "facebook.com",
                   "backImage": "ads/norra-sthlm-grus-back-2026-03-28.jpg"
-            },
-            {
-                  "id": "bara-kora-uppsala-2026-03-28",
-                  "name": "Bara Köra",
-                  "date": "2026-03-28",
-                  "dateEnd": "2026-03-28",
-                  "location": "Ulleråkersvägen 58, Uppsala",
-                  "type": "Körning",
-                  "organizer": "MC Kalendern / Slava",
-                  "description": "Ingen klubb, bara frihet. Två Gold Wing-förare drar ut på en runda genom Uppland. Alla välkomna att hänga med!",
-                  "descriptionFull": "Ingen klubb, bara frihet. Vi är två Gold Wing-förare som drar ut på en dagstur genom Uppland. Alla som vill hänga med är välkomna, oavsett hoj.\n\nRutt (~200 km, ~5 timmar):\n11:00 – Samling vid Ulleråkersvägen 58, Uppsala\n11:30 – Avfärd\nTärnsjö Pizzeria – lunch\nHeby – tankning\nEnköping – fika\nViks slott – stopp\n~16:00 – Tillbaka i Uppsala\n\nKontakt: 076-033 53 68 (Slava, Swenglish speaker)",
-                  "frontImage": "ads/bara-kora-front-2026-03-28.jpg",
-                  "backImage": "ads/bara-kora-back-2026-03-28.jpg",
-                  "links": [
-                        {
-                              "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Ulleråkersvägen+58,+Uppsala",
-                              "type": "map"
-                        },
-                        {
-                              "label": "druk.se",
-                              "url": "https://druk.se"
-                        }
-                  ],
-                  "link": "https://druk.se",
-                  "region": "Uppsala",
-                  "source": "druk.se"
             },
             {
                   "id": "ttc-årsmöte-smc-dalarna-2026",
