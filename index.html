@@ -1156,6 +1156,10 @@
       </select>
       <select class="filter-select" id="monthFilter" aria-label="Filtrera efter månad">
         <option value="all">Alla månader</option>
+        <option value="__today__">Idag</option>
+        <option value="__tomorrow__">Imorgon</option>
+        <option value="__weekend__">Helgen</option>
+        <option disabled>──────</option>
       </select>
       <select class="filter-select" id="organizerFilter" aria-label="Filtrera efter arrangör">
         <option value="all">Alla arrangörer</option>
@@ -1996,7 +2000,37 @@ function render() {
     }
   }
   if (currentRegion !== 'all') events = events.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
-  if (currentMonth !== 'all') events = events.filter(e => parseInt(e.date.split('-')[1], 10) === parseInt(currentMonth, 10));
+  if (currentMonth !== 'all') {
+    if (currentMonth === '__today__') {
+      events = events.filter(e => e.date <= today && (e.dateEnd || e.date) >= today);
+    } else if (currentMonth === '__tomorrow__') {
+      const tmrw = new Date(); tmrw.setDate(tmrw.getDate() + 1);
+      const tmrwStr = tmrw.toISOString().slice(0, 10);
+      events = events.filter(e => e.date <= tmrwStr && (e.dateEnd || e.date) >= tmrwStr);
+    } else if (currentMonth === '__weekend__') {
+      const now = new Date();
+      const dow = now.getDay(); // 0=Sun,1=Mon..6=Sat
+      let sat, sun;
+      if (dow === 6) { // Saturday: this Sat + tomorrow Sun
+        sat = new Date(now);
+        sun = new Date(now); sun.setDate(sun.getDate() + 1);
+      } else if (dow === 0) { // Sunday: yesterday Sat + today Sun
+        sun = new Date(now);
+        sat = new Date(now); sat.setDate(sat.getDate() - 1);
+      } else { // Mon-Fri: next Sat + Sun
+        sat = new Date(now); sat.setDate(sat.getDate() + (6 - dow));
+        sun = new Date(sat); sun.setDate(sun.getDate() + 1);
+      }
+      const satStr = sat.toISOString().slice(0, 10);
+      const sunStr = sun.toISOString().slice(0, 10);
+      events = events.filter(e => {
+        const start = e.date; const end = e.dateEnd || e.date;
+        return (start <= sunStr && end >= satStr);
+      });
+    } else {
+      events = events.filter(e => parseInt(e.date.split('-')[1], 10) === parseInt(currentMonth, 10));
+    }
+  }
   if (!showPast) events = events.filter(e => (e.dateEnd || e.date) >= today);
 
   // Search
