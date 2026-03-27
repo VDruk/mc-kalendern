@@ -4153,7 +4153,7 @@ const EVENTS_DATA = {
                   "name": "Barhäng hos Haskas MC",
                   "date": "2026-04-11",
                   "dateEnd": "2026-04-11",
-                  "location": "Klubbkåken, Ljungbyholm",
+                  "location": "Mörevägen, Ljungbyholm",
                   "type": "Fest",
                   "organizer": "Haskas MC Eastside",
                   "description": "Barhäng hos Haskas MC i Ljungbyholm. Alla är välkomna till klubbkåken för en trevlig kväll.",
@@ -4162,6 +4162,11 @@ const EVENTS_DATA = {
                         {
                               "label": "Facebook",
                               "url": "https://www.facebook.com/haskasmc"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Mörevägen+388+92+Ljungbyholm+Haskas+MC+Eastside",
+                              "type": "map"
                         }
                   ],
                   "link": "https://www.facebook.com/haskasmc",
