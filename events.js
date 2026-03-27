@@ -2884,6 +2884,32 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "norra-sthlm-grus-2026-03-28",
+                  "name": "Norra Sthlm",
+                  "date": "2026-03-28",
+                  "dateEnd": "2026-03-28",
+                  "location": "ICA Brottbyhallen, Karby Torg, Brottby",
+                  "type": "Körning",
+                  "organizer": "Vi som gillar att åka grus 2.0",
+                  "description": "Gruskörning norr om Stockholm. Samling kl 09:00 vid ICA Brottbyhallen. Mål ej specificerat, men grus ska det bli!",
+                  "descriptionFull": "Gruskörning med start norr om Stockholm.\n\nSamling: kl 09:00 vid ICA Brottbyhallen, Karby Torg, Brottby.\n\nMål ej specificerat, men nått grus ska vi väl hitta. Kom med förslag!\n\nArrangör: Per Malmberg via gruppen \"Vi som gillar att åka grus 2.0\".",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1446250900302905"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=ICA+Brottbyhallen+Karby+Torg+Brottby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1446250900302905",
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/norra-sthlm-grus-back-2026-03-28.jpg"
+            },
+            {
                   "id": "ttc-årsmöte-smc-dalarna-2026",
                   "name": "Årsmöte SMC Dalarna",
                   "date": "2026-03-29",
