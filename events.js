@@ -2473,7 +2473,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "MC Kalendern / Slava",
                   "description": "Ingen klubb, bara frihet. Två Gold Wing-förare drar ut på en runda genom Uppland. Alla välkomna att hänga med!",
-                  "descriptionFull": "Ingen klubb, bara frihet. Vi är två Gold Wing-förare som drar ut på en dagstur genom Uppland. Alla som vill hänga med är välkomna, oavsett hoj.\n\nRutt (~200 km, ~5 timmar):\n11:00 – Samling vid Ulleråkersvägen 58, Uppsala\n11:30 – Avfärd\nTärnsjö Pizzeria – lunch\nHeby – tankning\nEnköping – fika\nViks slott – stopp\n~16:00 – Tillbaka i Uppsala\n\nKontakt: 076-033 53 68 (Slava, Swenglish speaker)",
+                  "descriptionFull": "Ingen klubb, bara frihet. Vi är två Gold Wing-förare som drar ut på en dagstur genom Uppland. Alla som vill hänga med är välkomna, oavsett hoj.\n\nSamling 11:00 vid Ulleråkersvägen 58, Uppsala. Avfärd 11:30.\n\nRutt: Uppsala - Tärnsjö (lunch) - Heby (tank) - Enköping (fika) - Viks slott - Uppsala. Cirka 200 km, 5 timmar.\n\nKontakt: 076-033 53 68 (Slava, Swenglish speaker)",
                   "frontImage": "ads/bara-kora-front-2026-03-28.jpg",
                   "backImage": "ads/bara-kora-back-2026-03-28.jpg",
                   "links": [
