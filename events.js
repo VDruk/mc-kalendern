@@ -22239,6 +22239,36 @@ const EVENTS_DATA = {
                   "descriptionFull": "KÖR HOJ med oss på Lökkens sandstrand i Jylland, Danmark!\n\nFärja: Göteborg 15:30 → Fredrikshamn 18:45 (retur: Fredrikshamn 13:50 → Göteborg 17:20).\n\nBoende: 2 nätter i stort hus med bubbelpool och litet zoo.\n\nIngår: färja Göteborg–Fredrikshamn t/r, boende 2 nätter, turledare & sweeper, sjukvårdsutbildad personal, enklare mekanisk support, äventyrscoach.\n\nMax 8 platser. Sista anmälan: 1 augusti.\nPris: 4 495 kr.\nAnmälan: korhoj.se/event/lokken-danmark-28-30-augusti-2026/"
             },
             {
+                  "id": "brudfjallstraffen-2026-08-28",
+                  "name": "Brudfjällsträffen 2026",
+                  "date": "2026-08-28",
+                  "dateEnd": "2026-08-30",
+                  "location": "Visiters Stugby, Upperudsvägen 4, Håverud",
+                  "type": "Träff",
+                  "organizer": "Vulcan Riders Sweden",
+                  "description": "Vulcan Riders Swedens årliga sommarträff i Dalsland. Tre dagar med rideout, middag, livemusik och gemenskap. 800 kr/person, sista anmälan 6 juni.",
+                  "descriptionFull": "Välkommen till Brudfjällsträffen 2026 på Visiters Stugby i Håverud!\n\nFredag 28/8: Samling från kl 16:00. Grilla medhavd mat, vi tänder grillarna när ni anländer.\n\nLördag: Frukost kl 8:00, rideout kl 10:00 längs de finaste vägarna. Lunch på rideouten betalas på plats. Middag serveras i Brasseriet/Rökeriet, sedan livemusik i pubben.\n\nSöndag: Frukost kl 8:00, packa och städa, kramkalas och avsked.\n\nTräffavgift: 800 kr/person. Ingår 2 frukostar, middag på lördagskväll och livemusik.\n\nBoende: 14 stugor med plats för 4 personer, 1 100 kr/natt per stuga. Bokas direkt via Visiters Stugby, tel 0530-10310 eller 070-7231269. Uppge Vulcan Rider vid bokning. Sista dag för stugbokning: 18 juni 2026.\n\nSista anmälan: 6 juni 2026. Mejla antal, namn, medlemsnummer och ev matallergi.\n\nVarmt välkomna!\nMicke i Fengan, DA Dalsland",
+                  "backImage": "ads/brudfjallstraffen-back-2026-08-28.jpg",
+                  "link": "https://www.vulcanriders-sweden.org/sv/?view=article&id=1115%3Abrudfjaellstraeffen-2026&catid=333",
+                  "links": [
+                        {
+                              "label": "Vulcan Riders",
+                              "url": "https://www.vulcanriders-sweden.org/sv/?view=article&id=1115%3Abrudfjaellstraeffen-2026&catid=333"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/groups/642063332540047"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Upperudsv%C3%A4gen+4+H%C3%A5verud",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "vulcanriders-sweden.org"
+            },
+            {
                   "id": "oro-traffen-i-dk-2026",
                   "name": "Orö träffen i DK",
                   "date": "2026-08-28",
