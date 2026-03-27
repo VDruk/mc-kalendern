@@ -9986,6 +9986,32 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "roadrun-17-enkoping-2026-05-16",
+                  "name": "Roadrun #17",
+                  "date": "2026-05-16",
+                  "dateEnd": "2026-05-16",
+                  "location": "Enköpings Motorgård, Stockholmsvägen, Enköping",
+                  "type": "Show",
+                  "organizer": "American Car Club Enköping",
+                  "description": "Populärt roadrun för 17:e gången! Öppet för alla entusiastfordon. Enköpings Motorgård, start kl 10:00.",
+                  "descriptionFull": "Nu är det dags för det populära ROADRUN för 17:e gången!\n\nSom vanligt håller vi till på Motorgården i Enköping. Runnet är öppet för alla entusiastfordon.\n\nVi har öppet från 10:00.\n\nArrangör: American Car Club Enköping.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2237510383452116"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Enköpings+Motorgård+Stockholmsvägen+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2237510383452116",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/roadrun-17-enkoping-back-2026-05-16.jpg"
+            },
+            {
                   "id": "bmw-d11-mixtur-med-sandra-och-mikael-2026",
                   "name": "D11 Mixtur med Sandra och Mikael",
                   "date": "2026-05-17",
@@ -11455,6 +11481,32 @@ const EVENTS_DATA = {
                   "region": "Stockholm",
                   "source": "facebook.com",
                   "backImage": "ads/tumba-twins-grill-barhang-back-2026-05-23.jpg"
+            },
+            {
+                  "id": "julita-bike-blessing-2026-05-23",
+                  "name": "Julita Bike Blessing",
+                  "date": "2026-05-23",
+                  "dateEnd": "2026-05-23",
+                  "location": "Österåkersgatan 1, Julita",
+                  "type": "Träff",
+                  "organizer": "Tribe of Judah MM Sweden",
+                  "description": "Bike Blessing i Julita! Hojar, mat från grillen, musik och bra folk. Alla vänner är välkomna. Kl 14:00.",
+                  "descriptionFull": "Tribe of Judah MM Sweden välkomnar er till Julita Bike Blessing 2026!\n\nVi ser fram mot en dag med mycket hojar, gott käk från grillen, sjyst musik och bra folk.\n\nPlats: Folkkyrkan Biker Church Julita, föreningshuset Lidabacke, Österåkersgatan 1, Julita.\n\nTid: lördag 23 maj, kl 14:00.\n\nAlla vänner är välkomna!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/3112520439136891"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Österåkersgatan+1+Julita",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/3112520439136891",
+                  "region": "Södermanland",
+                  "source": "facebook.com",
+                  "backImage": "ads/julita-bike-blessing-back-2026-05-23.jpg"
             },
             {
                   "id": "bmw-d11-mcq-pernillas-tur-2026",
@@ -21741,6 +21793,32 @@ const EVENTS_DATA = {
                   "link": "https://visitkungsbacka.se/evenemang",
                   "region": "Halland",
                   "source": "FB"
+            },
+            {
+                  "id": "scheele-choppers-50ar-2026-08-22",
+                  "name": "Scheele Choppers 50 år",
+                  "date": "2026-08-22",
+                  "dateEnd": "2026-08-23",
+                  "location": "Stall Långmossen, Köping",
+                  "type": "Fest",
+                  "organizer": "Scheele Choppers Köping",
+                  "description": "Scheele Choppers firar 50 år på Långmossen Ranch utanför Köping! Live musik, mat och dryck. Portarna öppnar fredag kl 12, frukost lör och sön ingår.",
+                  "descriptionFull": "Scheele Choppers firar 50 år!\n\nFesten hålls på Långmossen Ranch utanför Köping, lördagen den 22 augusti.\n\nPortarna slås upp kl 12 på fredagen. I inträdet ingår frukost både lördag och söndag.\n\nLive musik, mat och dryck.\n\nKontakt: Bosse Aneheim 070-3448944, Mathias Herrgård 070-5582917.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1643532786658956"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Stall+Långmossen+Köping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1643532786658956",
+                  "region": "Västmanland",
+                  "source": "facebook.com",
+                  "backImage": "ads/scheele-choppers-50ar-back-2026-08-22.jpg"
             },
             {
                   "id": "jmc-sondagsrundan-2026-08-23",
