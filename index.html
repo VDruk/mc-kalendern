@@ -867,34 +867,23 @@
     background: none; border: none; color: var(--text-muted);
     font-size: 18px; cursor: pointer; flex-shrink: 0;
     width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
+    margin-left: auto;
   }
-  .drawer-item-gcal {
-    display: flex; align-items: center; justify-content: center;
-    width: 36px; height: 36px; border-radius: 50%;
-    background: none; border: 1px solid #4285F4;
-    color: #4285F4; cursor: pointer; flex-shrink: 0;
-    text-decoration: none; transition: background var(--transition);
-  }
-  .drawer-item-gcal:hover { background: rgba(66,133,244,0.08); }
-  .drawer-item-actions { display: flex; align-items: center; gap: 14px; margin-left: auto; }
   .drawer-footer {
     padding: 16px 20px; border-top: 1px solid var(--border);
     padding-bottom: max(16px, env(safe-area-inset-bottom));
     flex-shrink: 0;
   }
-  .drawer-ics-btn {
-    display: flex; align-items: center; gap: 8px;
-    width: 100%; background: var(--accent); color: #fff; border: none;
-    border-radius: var(--radius-sm); padding: 10px 16px;
-    font-size: 13px; font-weight: 600; cursor: pointer;
-    transition: background var(--transition);
+  .drawer-cal-wrapper { width: 100%; }
+  .drawer-cal-trigger {
+    width: 100%; justify-content: center;
+    background: var(--accent); color: #fff;
+    border: none; border-radius: var(--radius-sm);
+    padding: 10px 16px; font-size: 13px; font-weight: 600;
   }
-  .drawer-ics-btn:hover { background: var(--accent-hover); }
-  .drawer-ics-btn:disabled { opacity: 0.45; cursor: default; }
-  .drawer-ics-hint {
-    font-size: 11px; color: var(--text-muted);
-    margin-top: 8px; line-height: 1.5;
-  }
+  .drawer-cal-trigger:hover { background: var(--accent-hover); border: none; }
+  .drawer-cal-trigger .cal-arrow { color: rgba(255,255,255,0.7); }
+  .drawer-cal-wrapper .cal-dropdown { min-width: 100%; }
   .modal-error { color: var(--type-racing); font-size: 12px; margin-top: 6px; }
 
   /* ========== SCROLL TO TOP ========== */
@@ -1300,11 +1289,21 @@
     <div class="drawer-empty">Tryck på stjärnan på ett evenemang för att spara det här.</div>
   </div>
   <div class="drawer-footer">
-    <button class="drawer-ics-btn" id="downloadIcsBtn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-      <span id="icsDownloadText">Ladda ner evenemang (.ics)</span>
-    </button>
-    <p class="drawer-ics-hint">iPhone Safari: frågar direkt "Lägg till i Kalender". iPhone Chrome: öppna filen via nedladdningsfältet. Dator: öppna nedladdad fil. Android: kalenderknappen bredvid varje evenemang.</p>
+    <div class="cal-dropdown-wrapper drawer-cal-wrapper">
+      <button class="cal-trigger drawer-cal-trigger" onclick="event.stopPropagation();this.parentElement.classList.toggle('open')">
+        <img src="ads/icon-cal-generic.png" alt="" width="18" height="18">
+        <span id="icsDownloadText">Lägg till i kalender</span>
+        <span class="cal-arrow">▼</span>
+      </button>
+      <div class="cal-dropdown">
+        <a class="cal-option" id="drawerGcalLink" href="#" target="_blank" rel="noopener">
+          <img src="ads/icon-google-cal.png" alt="" width="24" height="24"> Google Kalender</a>
+        <a class="cal-option" id="drawerOutlookLink" href="#" target="_blank" rel="noopener">
+          <img src="ads/icon-outlook-cal.png" alt="" width="24" height="24"> Outlook Kalender</a>
+        <button class="cal-option" id="drawerAppleBtn" onclick="event.stopPropagation();downloadAllFavICS()">
+          <img src="ads/icon-apple-cal.png" alt="" width="24" height="24"> Apple Kalender</button>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -2480,6 +2479,15 @@ function downloadSingleICS(eventId) {
   triggerICSDownload(ics, filename);
 }
 
+function downloadAllFavICS() {
+  const favs = JSON.parse(localStorage.getItem('mcFavorites') || '[]');
+  const allEvents = EVENTS_DATA.events;
+  const favEvents = favs.map(id => allEvents.find(e => e.id === id)).filter(Boolean);
+  if (!favEvents.length) return;
+  const ics = generateICS(favEvents);
+  triggerICSDownload(ics, 'mc-evenemang.ics');
+}
+
 // ========== EVENT LISTENERS ==========
 // ========== EVENT MAP ==========
 let eventMap = null;
@@ -2904,13 +2912,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  document.getElementById('downloadIcsBtn').addEventListener('click', () => {
-    const allEvents = EVENTS_DATA.events;
-    const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean);
-    if (!favEvents.length) return;
-    const ics = generateICS(favEvents);
-    triggerICSDownload(ics, 'mc-evenemang.ics');
-  });
+  // (downloadAllFavICS is defined in global scope below)
 
   // Share buttons
   const url = encodeURIComponent('https://druk.se');
@@ -2931,37 +2933,59 @@ function updateDrawer() {
   if (favorites.length === 0) {
     body.innerHTML = '<div class="drawer-empty">Tryck på stjärnan på ett evenemang för att spara det här.</div>';
     const icsTextEmpty = document.getElementById('icsDownloadText');
-    if (icsTextEmpty) icsTextEmpty.textContent = 'Ladda ner evenemang (.ics)';
+    if (icsTextEmpty) icsTextEmpty.textContent = 'Lägg till i kalender';
     return;
   }
   const allEvents = EVENTS_DATA.events;
   const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
   const icsText = document.getElementById('icsDownloadText');
-  if (icsText) icsText.textContent = `Ladda ner ${favEvents.length} evenemang (.ics)`;
-  body.innerHTML = favEvents.map(e => {
-    const d = new Date(e.date + 'T00:00:00');
-    // Build Google Calendar link
-    const gcalStart = e.date.replace(/-/g, '');
-    const gcalEndDate = new Date(e.dateEnd || e.date);
+  if (icsText) icsText.textContent = `Lägg till ${favEvents.length} evenemang`;
+  // Build bulk Google Calendar URL (first event only, GCal doesn't support bulk)
+  // For multiple events, each needs to be added separately, so link to first event
+  if (favEvents.length > 0) {
+    const firstEv = favEvents[0];
+    const gcalStart = firstEv.date.replace(/-/g, '');
+    const gcalEndDate = new Date((firstEv.dateEnd || firstEv.date) + 'T00:00:00');
     gcalEndDate.setDate(gcalEndDate.getDate() + 1);
     const gcalEnd = gcalEndDate.toISOString().slice(0, 10).replace(/-/g, '');
-    const gcalUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
-      + '&text=' + encodeURIComponent(e.name)
-      + '&dates=' + gcalStart + '/' + gcalEnd
-      + '&location=' + encodeURIComponent(e.location || '')
-      + '&details=' + encodeURIComponent((e.description || '') + (e.link ? '\n\n' + e.link : ''));
+    // For bulk: download ICS for all, but Google/Outlook only supports one at a time
+    // So we'll use ICS download for all three options when multiple events
+    const gcalLink = document.getElementById('drawerGcalLink');
+    const outlookLink = document.getElementById('drawerOutlookLink');
+    if (favEvents.length === 1) {
+      const ev = favEvents[0];
+      const gs = ev.date.replace(/-/g, '');
+      const ged = new Date((ev.dateEnd || ev.date) + 'T00:00:00');
+      ged.setDate(ged.getDate() + 1);
+      const ge = ged.toISOString().slice(0, 10).replace(/-/g, '');
+      const gcalUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+        + '&text=' + encodeURIComponent(ev.name)
+        + '&dates=' + gs + '/' + ge
+        + '&location=' + encodeURIComponent(ev.location || '')
+        + '&details=' + encodeURIComponent((ev.description || '') + (ev.link ? '\n\n' + ev.link : ''));
+      const outlookUrl = 'https://outlook.live.com/calendar/0/action/compose?rru=addevent'
+        + '&subject=' + encodeURIComponent(ev.name)
+        + '&startdt=' + ev.date + 'T00:00:00'
+        + '&enddt=' + (ev.dateEnd || ev.date) + 'T23:59:00'
+        + '&location=' + encodeURIComponent(ev.location || '')
+        + '&body=' + encodeURIComponent((ev.description || '') + (ev.link ? '\n\n' + ev.link : ''));
+      if (gcalLink) { gcalLink.href = gcalUrl; gcalLink.onclick = null; }
+      if (outlookLink) { outlookLink.href = outlookUrl; outlookLink.onclick = null; }
+    } else {
+      // Multiple events: Google/Outlook can't bulk-add, so download ICS for all
+      if (gcalLink) { gcalLink.href = '#'; gcalLink.onclick = function(e){ e.preventDefault(); e.stopPropagation(); downloadAllFavICS(); }; }
+      if (outlookLink) { outlookLink.href = '#'; outlookLink.onclick = function(e){ e.preventDefault(); e.stopPropagation(); downloadAllFavICS(); }; }
+    }
+  }
+  body.innerHTML = favEvents.map(e => {
+    const d = new Date(e.date + 'T00:00:00');
     return `<div class="drawer-item">
       <div style="flex:1;min-width:0">
         <div class="drawer-item-name">${e.name}</div>
         <div class="drawer-item-date">${d.getDate()} ${MONTHS_SV[d.getMonth()]} &middot; ${e.location}</div>
       </div>
-      <div class="drawer-item-actions">
-        <a href="${gcalUrl}" target="_blank" rel="noopener" class="drawer-item-gcal" title="Lägg till i Google Kalender">
-          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-        </a>
-        <button class="drawer-item-remove" onclick="toggleFavorite('${e.id}')" title="Ta bort">&times;</button>
-      </div>
+      <button class="drawer-item-remove" onclick="toggleFavorite('${e.id}')" title="Ta bort">&times;</button>
     </div>`;
   }).join('');
 }
