@@ -3468,6 +3468,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/sk-motors-egg-run-back-2026-04-04.jpg"
             },
             {
+                  "id": "overdooze-mc-barhang-2026-04-04",
+                  "name": "Barhäng hos Overdooze MC",
+                  "date": "2026-04-04",
+                  "dateEnd": "2026-04-04",
+                  "location": "Stockholm",
+                  "type": "Fest",
+                  "organizer": "Overdooze MC Stockholm",
+                  "description": "Barhäng hos Overdooze MC i Stockholm. Lördagen 4 april, kl 18-02. Endast SBM och inbjudna.",
+                  "descriptionFull": "Overdooze MC Stockholm bjuder in till barhäng!\n\nDatum: lördagen 4 april\nTid: kl 18:00 till 02:00\n\nEndast SBM och inbjudna.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/overdooze.mc"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/overdooze.mc",
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/overdooze-mc-barhang-back-2026-04-04.jpg"
+            },
+            {
                   "id": "pask-rundan-med-hakan-warnemyr-5-4-2026",
                   "name": "Påsk rundan med Håkan Warnemyr 5/4",
                   "date": "2026-04-05",
