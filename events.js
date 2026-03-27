@@ -2479,7 +2479,7 @@ const EVENTS_DATA = {
                   "links": [
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Ulleråkersvägen+58,+Uppsala",
+                              "url": "https://www.google.com/maps/dir/Uller%C3%A5kersv%C3%A4gen+58,+756+43+Uppsala,+Sweden/T%C3%A4rnsj%C3%B6,+740+45/Heby/Enk%C3%B6ping/Vik,+755+91/Uller%C3%A5kersv%C3%A4gen+58,+756+43+Uppsala,+Sweden/@59.8783864,17.0112525,10z/data=!4m38!4m37!1m5!1m1!1s0x465fc963ebabfb87:0xbc8effae194ac93f!2m2!1d17.6499995!2d59.8310097!1m5!1m1!1s0x465e1ec9655a4569:0xa00fef5b28cdfd0!2m2!1d16.9308825!2d60.1554628!1m5!1m1!1s0x465e1589c828ef71:0xf97364dc72d29ea!2m2!1d16.8690109!2d59.9356261!1m5!1m1!1s0x465e502cc2e02951:0xbb60cedd91cba552!2m2!1d17.0778227!2d59.6356909!1m5!1m1!1s0x465fb4dd7112048f:0x11f754e0f4f34a2b!2m2!1d17.4615472!2d59.7377529!1m5!1m1!1s0x465fc963ebabfb87:0xbc8effae194ac93f!2m2!1d17.6499995!2d59.8310097!3e0?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D",
                               "type": "map"
                         },
                         {
