@@ -18636,11 +18636,12 @@ const EVENTS_DATA = {
                   "location": "Tånga Hed, Vårgårda",
                   "type": "Fest",
                   "organizer": "HojRock",
-                  "description": "En av Nordens största MC-träffar. Livemusik, camping och mc-gemenskap på Tånga Hed.",
+                  "description": "En av Nordens största MC-träffar. Livemusik, camping och mc-gemenskap på Tånga Hed. Biljetter och boende via hojrock.se.",
                   "link": "https://www.hojrock.se/",
                   "region": "Västra Götaland",
                   "source": "hojrock.se",
-                  "descriptionFull": "HojRock arrangeras av HojRock.\n\nEn av Nordens största MC-träffar. Livemusik, camping och mc-gemenskap på Tånga Hed.\n\nFest och social sammankomst för MC-folket. Se arrangören för detaljer.\n\nPlats: Tånga Hed, Vårgårda.",
+                  "backImage": "ads/hojrock-back-2026-07-23.jpg",
+                  "descriptionFull": "En av Nordens största MC-träffar med livemusik, camping och mc-gemenskap på Tånga Hed i Vårgårda.\n\nBiljetter och information finns på hojrock.se. Där kan man också boka boende och tältcamp för sin klubb, förening eller kompisgäng.\n\nKontakt: info.hojrock@tangahed.se",
                   "links": [
                         {
                               "label": "hojrock.se",
