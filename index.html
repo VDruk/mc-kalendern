@@ -2441,33 +2441,35 @@ function showToast(msg, duration) {
 
 function triggerICSDownload(ics, filename) {
   const ua = navigator.userAgent;
-  const isIOS = /iPad|iPhone|iPod/.test(ua) && !window.MSStream;
+  const isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   const isChromeIOS = isIOS && /CriOS/.test(ua);
-  const blob = new Blob([ics], { type: 'text/calendar' });
-  const url = URL.createObjectURL(blob);
+  const isSafariIOS = isIOS && !isChromeIOS;
 
-  if (isIOS && !isChromeIOS) {
-    // Safari iOS: navigate to blob URL — Safari recognises text/calendar
-    // and shows "Lägg till i Kalender?" prompt directly.
-    window.location.href = url;
-    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  if (isSafariIOS) {
+    // Safari iOS: data URI with text/calendar MIME type.
+    // Safari shows native "Lagg till i Kalender?" prompt directly.
+    const dataUri = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
+    const a = document.createElement('a');
+    a.href = dataUri;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
 
   } else if (isChromeIOS) {
-    // Chrome on iOS can't trigger Calendar via blob navigation.
-    // Download the file, then show instructions.
+    // Chrome on iOS can't trigger Calendar natively.
+    const blob = new Blob([ics], { type: 'text/calendar' });
+    const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    a.click();
+    a.href = url; a.download = filename; a.click();
     URL.revokeObjectURL(url);
-    showToast('Tryck på filen i nedladdningsfältet → Öppna i → Kalender', 6000);
+    showToast('Tryck p\u00e5 filen i nedladdningsf\u00e4ltet \u2192 \u00d6ppna i \u2192 Kalender', 6000);
 
   } else {
     // Desktop / Android
+    const blob = new Blob([ics], { type: 'text/calendar' });
+    const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    a.click();
+    a.href = url; a.download = filename; a.click();
     URL.revokeObjectURL(url);
   }
 }
