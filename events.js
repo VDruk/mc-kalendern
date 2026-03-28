@@ -2465,6 +2465,32 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "karlstroms-motor-varfest-2026-03-27",
+                  "name": "Stor Vårfest!",
+                  "date": "2026-03-27",
+                  "dateEnd": "2026-03-28",
+                  "location": "Freinetgatan 1, Sala",
+                  "type": "Show",
+                  "organizer": "Karlströms Motor AB",
+                  "description": "Två dagars vårfest hos Karlströms Motor i Sala. Provkör demohojarna, stora rabatter på allt i butiken. Fika bjuds!",
+                  "descriptionFull": "Stor Vårfest hos Karlströms Motor i Sala!\n\nFredag 27/3 kl 09:00-18:00\nLördag 28/3 kl 10:00-15:00\n\nDemohojarna finns för provkörning. Stora rabatter på allt i butiken. Vi bjuder på gofika!\n\nVälkommen att besöka oss i Sala. Vi har hojarna och grejorna när du behöver dem.\n\nFrienatgatan 1, 733 38 Sala\ninfo@karlstromsmotor.se\n0224-771 86",
+                  "backImage": "ads/karlstroms-varfest-back-2026-03-28.jpg",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/karlstromsmotor"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Freinetgatan+1+Sala",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/karlstromsmotor",
+                  "region": "Västmanland",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "bara-kora-uppsala-2026-03-28",
                   "name": "Bara Köra",
                   "date": "2026-03-28",
