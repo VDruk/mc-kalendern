@@ -16709,6 +16709,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/skanerundan-back-2026-06-27.jpg"
             },
             {
+                  "id": "big-twins-party-2026-06-27",
+                  "name": "Big Twins Party",
+                  "date": "2026-06-27",
+                  "dateEnd": "2026-06-27",
+                  "location": "Köpsta 591, Odensbacken",
+                  "type": "Fest",
+                  "organizer": "Big Twins MC",
+                  "description": "Big Twins Party hos Big Twins MC i Odensbacken. Ride Hard, Die Free! Klubben firar sedan 1982. Kontakt: Puma 070-864 22 86, Otto 073-691 64 53.",
+                  "descriptionFull": "Big Twins Party den 27 juni 2026.\n\nPlats: Köpsta 591, 715 94 Odensbacken.\n\nBig Twins MC, grundat 1982.\n\nKontakt:\nPuma: 070-864 22 86\nOtto: 073-691 64 53",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/bigtwins.mc"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Köpsta+591+715+94+Odensbacken",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/bigtwins.mc",
+                  "region": "Örebro",
+                  "source": "facebook.com",
+                  "backImage": "ads/big-twins-party-back-2026-06-27.jpg"
+            },
+            {
                   "id": "jmc-sondagsrundan-2026-06-28",
                   "name": "Söndagsrundan",
                   "date": "2026-06-28",
