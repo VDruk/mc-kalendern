@@ -2482,7 +2482,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Freinetgatan+1+Sala",
+                              "url": "https://maps.app.goo.gl/ot1uCw1xqL2nvpLg7",
                               "type": "map"
                         }
                   ],
