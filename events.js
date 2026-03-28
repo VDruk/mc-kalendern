@@ -3476,8 +3476,8 @@ const EVENTS_DATA = {
                   "location": "Tingvej 10, Rødekro, Danmark",
                   "type": "Körning",
                   "organizer": "Hans Henrik Schmidt",
-                  "description": "Morgenmad och fælleskørsel till Tønder från Rødekro. Briefing 09:30, avfärd 09:45. Klubben öppnar igen kl 14 med pølser på grillen.",
-                  "descriptionFull": "Tønder Træf med morgenmad och fælleskørsel.\n\nSamling: Tingvej 10, 6230 Rødekro\nMorgenmad kl 08:30-09:30 (60 DKK, Box 4771GT)\nBriefing kl 09:30\nAfgang kl 09:45\nAnkomst Tønder kl 10:45\n\nKlubben öppnar igen kl 14:00 med pølser på grillen.\n\nArrangörer: Ironheads MC / Coastland MC",
+                  "description": "Fælleskørsel till Tønder från Rødekro. Officiella träffen är inställd men Ironheads/Coastland kör ändå. Morgenmad, briefing 09:30, avfärd 09:45.",
+                  "descriptionFull": "Tønder Træf med morgenmad och fælleskørsel.\n\nOfficiella Tønder Træf är inställd av arrangörerna, men Ironheads MC och Coastland MC kör ändå! Turen är planlagd och klubben håller öppet efter turen.\n\nSamling: Tingvej 10, 6230 Rødekro\nMorgenmad kl 08:30-09:30 (60 DKK, Box 4771GT)\nBriefing kl 09:30\nAfgang kl 09:45\nAnkomst Tønder kl 10:45\n\nKlubben öppnar igen kl 14:00 med pølser på grillen.\n\nOBS: 2025 på affischen är ett tryckfel, eventet är 2026.",
                   "backImage": "ads/tonder-traef-back-2026-04-04.jpg",
                   "links": [
                         {
