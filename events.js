@@ -6217,6 +6217,36 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "gota-ms-crosskola-2026-04-27",
+                  "name": "Crosskolan",
+                  "date": "2026-04-27",
+                  "dateEnd": "2026-04-27",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "description": "Crosskola hos Göta MS i Enköping. Träning för alla nivåer på crossbanan i Tärby. Mästaranda i varje kurva!",
+                  "descriptionFull": "Crosskolan hos Göta MS Enköping den 27 april 2026.\n\nPlats: Tärby 18, 745 95 Enköping.\n\nTräning på crossbanan för alla nivåer.\n\nCrosskolans datum för 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nMer info via Göta MS Facebook.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1581302876304446"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1581302876304446",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026-04-27.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-04-28",
                   "name": "DOA - Kvällskörning Nockeby, jämna veckor",
                   "date": "2026-04-28",
