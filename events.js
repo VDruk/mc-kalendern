@@ -4327,6 +4327,36 @@ const EVENTS_DATA = {
                   "backImage": "ads/haskas-mc-barhang-back-2026-04-11.jpg"
             },
             {
+                  "id": "lito-dagen-2026-04-11",
+                  "name": "LiTo-dagen",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "Tostaredsvägen 7, Fotskäl",
+                  "type": "Show",
+                  "organizer": "LiTo Offroad",
+                  "description": "Öppet hus hos LiTo Offroad i Fotskäl. MC-handlare med försäljning, service och tillbehör. Alla välkomna!",
+                  "descriptionFull": "LiTo Offroad bjuder in till LiTo-dagen den 11 april.\n\nPlats: Tostaredsvägen 7, Fotskäl (519 96).\n\nKom och kolla in senaste modellerna, prata med personalen och häng med andra MC-entusiaster.\n\nAlla välkomna!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/25846999798273419"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/litooffroad"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tostaredsvägen+7+Fotskäl+519+96",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/25846999798273419",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/lito-dagen-back-2026-04-11.jpg"
+            },
+            {
                   "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
                   "name": "D15 Söndagsvandring Gyllebosjön Runt",
                   "date": "2026-04-12",
