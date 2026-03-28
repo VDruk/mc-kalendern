@@ -3469,6 +3469,32 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "tonder-traef-2026-04-04",
+                  "name": "Tønder Træf",
+                  "date": "2026-04-04",
+                  "dateEnd": "2026-04-04",
+                  "location": "Tingvej 10, Rødekro, Danmark",
+                  "type": "Körning",
+                  "organizer": "Hans Henrik Schmidt",
+                  "description": "Morgenmad och fælleskørsel till Tønder från Rødekro. Briefing 09:30, avfärd 09:45. Klubben öppnar igen kl 14 med pølser på grillen.",
+                  "descriptionFull": "Tønder Træf med morgenmad och fælleskørsel.\n\nSamling: Tingvej 10, 6230 Rødekro\nMorgenmad kl 08:30-09:30 (60 DKK, Box 4771GT)\nBriefing kl 09:30\nAfgang kl 09:45\nAnkomst Tønder kl 10:45\n\nKlubben öppnar igen kl 14:00 med pølser på grillen.\n\nArrangörer: Ironheads MC / Coastland MC",
+                  "backImage": "ads/tonder-traef-back-2026-04-04.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/photo/?fbid=10242955974976046&set=gm.927621633189729&idorvanity=339466712005227"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tingvej+10+Rødekro+Danmark",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=10242955974976046&set=gm.927621633189729&idorvanity=339466712005227",
+                  "region": "Danmark",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "doa-lordagsfika-pa-biltema-2026-04-04",
                   "name": "DOA - Lördagsfika på Biltema",
                   "date": "2026-04-04",
