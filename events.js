@@ -11961,6 +11961,36 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "vulcan-riders-pingstkoring-2026-05-24",
+                  "name": "Söndagskörning Pingstdagen",
+                  "date": "2026-05-24",
+                  "dateEnd": "2026-05-24",
+                  "location": "Tanka, Hörby",
+                  "type": "Körning",
+                  "organizer": "Vulcan Riders Sweden",
+                  "description": "Pingstdagskörning med Vulcan Riders. Start vid Tanka i Hörby, via Arkelstorp (fika i Hammarkvists Trädgård) till Hardys i Höör. Ca 16 mil, 3 timmar.",
+                  "descriptionFull": "Söndagskörning Pingstdagen den 24 maj 2026.\n\nVi startar turen på Tanka i Hörby, fyll på tanken innan start.\n\nRutten går norrut till Hammarkvists Trädgård i Arkelstorp. Ta med egen fika! Toalett finns. Se hammarkvist.se för mer info.\n\nVi avslutar turen på Hardys i Höör. De som vill stannar och äter mat eller glass, övriga kör hem.\n\nHela turen: ca 16 mil, 3 timmar i sadeln.\n\nVäl mött!\nDA Bob och stigfinnaren Frances",
+                  "links": [
+                        {
+                              "label": "Vulcan Riders",
+                              "url": "https://www.vulcanriders-sweden.org/phpbb3/viewtopic.php?p=205374#p205374"
+                        },
+                        {
+                              "label": "Hammarkvists Trädgård",
+                              "url": "http://www.hammarkvist.se/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tanka+Hörby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.vulcanriders-sweden.org/phpbb3/viewtopic.php?p=205374#p205374",
+                  "region": "Skåne",
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vulcan-riders-pingstkoring-back-2026-05-24.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-nacka-2026-05-25",
                   "name": "DOA - Kvällskörning Nacka",
                   "date": "2026-05-25",
