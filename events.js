@@ -3284,6 +3284,36 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "peter-linden-falkenberg-2026-04-02",
+                  "name": "Peter Lindén - Från ljudvallen till racingbanan",
+                  "date": "2026-04-02",
+                  "dateEnd": "2026-04-02",
+                  "location": "Falkenbergs Stadsteater, Holgersgatan 9, Falkenberg",
+                  "type": "Show",
+                  "organizer": "BVN Event",
+                  "description": "Stridspilot i JA 37 Viggen och roadracinglegend. Peter Lindén berättar om fart, adrenalin och unika livshistorier. Kl 15:00. Biljetter via Tickster.",
+                  "descriptionFull": "Peter Lindén - Från ljudvallen till racingbanan.\n\nUpplev en kväll med fart, adrenalin och unika livshistorier! Möt Peter Lindén, mannen som har bemästrat extrema hastigheter både i luften och på marken. Som stridspilot i JA 37 Viggen och roadracinglegend.\n\nTid: Torsdag 2 april kl 15:00.\nPlats: Falkenbergs Stadsteater, Holgersgatan 9, Falkenberg.\n\nBiljetter via Tickster.\n\nSe även föreställningen den 2 maj på samma plats.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/910969925261341"
+                        },
+                        {
+                              "label": "Biljetter",
+                              "url": "https://bvnevent.se/Halmstad"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Falkenbergs+Stadsteater+Holgersgatan+9+Falkenberg",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/910969925261341",
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "backImage": "ads/peter-linden-back-2026-04-02.jpg"
+            },
+            {
                   "id": "chicken-race-alingsas-2026",
                   "name": "Chicken Race 2026",
                   "date": "2026-04-03",
@@ -7450,6 +7480,36 @@ const EVENTS_DATA = {
                   "region": "Västra Götaland",
                   "source": "facebook.com",
                   "backImage": "ads/motorlordag-tidaholm-back-2026-05-02.jpg"
+            },
+            {
+                  "id": "peter-linden-falkenberg-2026-05-02",
+                  "name": "Peter Lindén - Från ljudvallen till racingbanan",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Falkenbergs Stadsteater, Holgersgatan 9, Falkenberg",
+                  "type": "Show",
+                  "organizer": "BVN Event",
+                  "description": "Stridspilot i JA 37 Viggen och roadracinglegend. Peter Lindén berättar om fart, adrenalin och unika livshistorier. Kl 15:00. Biljetter via Tickster.",
+                  "descriptionFull": "Peter Lindén - Från ljudvallen till racingbanan.\n\nUpplev en kväll med fart, adrenalin och unika livshistorier! Möt Peter Lindén, mannen som har bemästrat extrema hastigheter både i luften och på marken. Som stridspilot i JA 37 Viggen och roadracinglegend.\n\nTid: Lördag 2 maj kl 15:00.\nPlats: Falkenbergs Stadsteater, Holgersgatan 9, Falkenberg.\n\nBiljetter via Tickster.",
+                  "links": [
+                        {
+                              "label": "Mer info",
+                              "url": "https://falkenbergsstadsteater.se/peter-linden-stridspilot-roadracinglegend/"
+                        },
+                        {
+                              "label": "Biljetter",
+                              "url": "https://bvnevent.se/Halmstad"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Falkenbergs+Stadsteater+Holgersgatan+9+Falkenberg",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://falkenbergsstadsteater.se/peter-linden-stridspilot-roadracinglegend/",
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "backImage": "ads/peter-linden-back-2026-04-02.jpg"
             },
             {
                   "id": "smc-vastmanland-avrostning-2026-05-03",
