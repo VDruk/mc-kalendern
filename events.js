@@ -6873,7 +6873,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Mittsverigebanan+Härnösand",
+                              "url": "https://www.google.com/maps/search/?api=1&query=62.599914,17.816566",
                               "type": "map"
                         }
                   ],
@@ -9587,7 +9587,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Tjärnsjö+100+871+91+Härnösand",
+                              "url": "https://www.google.com/maps/search/?api=1&query=62.599914,17.816566",
                               "type": "map"
                         }
                   ],
