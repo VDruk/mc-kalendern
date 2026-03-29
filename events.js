@@ -3469,6 +3469,32 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "mad-delsbo-langfredag-2026-04-03",
+                  "name": "Långfredag Motorgårn",
+                  "date": "2026-04-03",
+                  "dateEnd": "2026-04-03",
+                  "location": "Fredriksfors 197, Delsbo",
+                  "type": "Fest",
+                  "organizer": "MAD Delsbo",
+                  "description": "Långfredagsfest hos MAD Delsbo i motorgårn. Motor Association Delsbo, grundat 1980. Alla välkomna!",
+                  "descriptionFull": "Långfredag Motorgårn den 3 april 2026.\n\nPlats: Fredriksfors 197, 824 72 Delsbo.\n\nMotor Association Delsbo (MAD), grundat 1980. Klubbhuset kallas för motorgårn och drivs av klubben.\n\nMer info kommer!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/939469192004103"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Fredriksfors+197+824+72+Delsbo",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/939469192004103",
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "backImage": "ads/mad-delsbo-langfredag-back-2026-04-03.jpg"
+            },
+            {
                   "id": "tonder-traef-2026-04-04",
                   "name": "Tønder Træf",
                   "date": "2026-04-04",
@@ -11719,6 +11745,32 @@ const EVENTS_DATA = {
                   "region": "Södermanland",
                   "source": "facebook.com",
                   "backImage": "ads/julita-bike-blessing-back-2026-05-23.jpg"
+            },
+            {
+                  "id": "hamrange-bil-mc-utstallning-2026-05-23",
+                  "name": "Bil- & MC-utställning Hamrånge",
+                  "date": "2026-05-23",
+                  "dateEnd": "2026-05-23",
+                  "location": "Hamrånge Hembygdsgård, Bergby",
+                  "type": "Show",
+                  "organizer": "Hamrånge Motorklubb",
+                  "description": "Bil- och MC-utställning vid Hamrånge Hembygdsgård i Bergby. Kl 10-14. Välkomna med era fordon!",
+                  "descriptionFull": "Bil- & MC-utställning den 23 maj 2026.\n\nPlats: Hamrånge Hembygdsgård, Bergby.\n\nTid: kl 10:00-14:00.\n\nArrangör: Hamrånge Motorklubb.\n\nVälkomna!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2058462654718745"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Hamrånge+Hembygdsgård+Bergby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2058462654718745",
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "backImage": "ads/hamrange-bil-mc-utstallning-back-2026-05-23.jpg"
             },
             {
                   "id": "bmw-d11-mcq-pernillas-tur-2026",
@@ -22694,6 +22746,36 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "nilssons-mc-fest-2026-08-29",
+                  "name": "Nilssons MC Fest 2026",
+                  "date": "2026-08-29",
+                  "dateEnd": "2026-08-29",
+                  "location": "Kanongatan 159, Ödåkra",
+                  "type": "Show",
+                  "organizer": "Nilssons MC",
+                  "description": "MC-fest hos Nilssons MC i Ödåkra/Helsingborg. Honda- och Suzuki-återförsäljare. Kl 10-16. Mer info kommer!",
+                  "descriptionFull": "Nilssons MC Fest 2026 den 29 augusti.\n\nPlats: Kanongatan 159, 254 67 Ödåkra (Helsingborg).\n\nTid: kl 10:00-16:00.\n\nMer info kommer!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1284381863562705"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/NilssonsMC"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kanongatan+159+254+67+Ödåkra",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1284381863562705",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/nilssons-mc-fest-back-2026-08-29.jpg"
             },
             {
                   "id": "bmw-d15-grustur-2026-08-30",
