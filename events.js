@@ -12933,6 +12933,36 @@ const EVENTS_DATA = {
                   "backImage": "ads/orangeday-stockholm-back-2026-05-30.jpg"
             },
             {
+                  "id": "orangeday-norrkoping-2026-05-30",
+                  "name": "Orangeday MC Norrköping",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Nya Rådstugugatan 5, Norrköping",
+                  "type": "Körning",
+                  "organizer": "Orange Day MC Charityride Sweden",
+                  "description": "Norrköpings lokala Orange Day-kortege. Välgörenhetsrunda mot mäns våld mot kvinnor och barn. 150 kr/person till UN Women.",
+                  "descriptionFull": "Orangeday MC Charityride 2026, Norrköpings lokala start.\n\nSamling: Nya Rådstugugatan 5, 602 42 Norrköping.\n\nDatum: Lördag 30 maj 2026.\n\nAvgift: 150 kr/person via Swish (123 900 29 32). Bidraget går oavkortat till UN Women Sverige.\n\n9:e året! En manifestation mot mäns våld mot kvinnor och barn.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1101834358620245"
+                        },
+                        {
+                              "label": "orangedaymc.com",
+                              "url": "https://orangedaymc.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Nya+Rådstugugatan+5+602+42+Norrköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1101834358620245",
+                  "region": "Östergötland",
+                  "source": "facebook.com",
+                  "backImage": "ads/orangeday-norrkoping-back-2026-05-30.jpg"
+            },
+            {
                   "id": "bmw-d15-mats-och-bodils-tur-2026",
                   "name": "D15 Mats och Bodils tur",
                   "date": "2026-05-31",
