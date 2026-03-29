@@ -9571,6 +9571,32 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "ankansracing-trackdays-2026-05-15",
+                  "name": "Ankansracing Trackdays",
+                  "date": "2026-05-15",
+                  "dateEnd": "2026-05-16",
+                  "location": "Mittsverigebanan, Tjärnsjö 100, Härnösand",
+                  "type": "Racing",
+                  "organizer": "Ankans Racing",
+                  "description": "Trackdays på Mittsverigebanan! Fredag kl 09 till lördag kl 17. Norrlands bästa motorpark med 2 km lång racingbana. Alla välkomna, unga som äldre.",
+                  "descriptionFull": "Ankansracing Trackdays den 15-16 maj 2026.\n\nDenna gång kör vi från fredag kl 09:00 till lördag kl 17:00.\n\nAlla är välkomna att köra. Vi tar hand om alla, unga som äldre.\n\nPlats: Mittsverigebanan, Tjärnsjö 100, 871 91 Härnösand.\n\nNorrlands bästa motorpark med en utmanande 2 km lång racingbana.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/828291686970050"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tjärnsjö+100+871+91+Härnösand",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/828291686970050",
+                  "region": "Västernorrland",
+                  "source": "facebook.com",
+                  "backImage": "ads/ankansracing-trackdays-back-2026-05-15.jpg"
+            },
+            {
                   "id": "bmw-d15-asnenturen-2026",
                   "name": "D15 Åsnenturen",
                   "date": "2026-05-16",
