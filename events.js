@@ -10336,6 +10336,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/roadrun-17-enkoping-back-2026-05-16.jpg"
             },
             {
+                  "id": "mosquito-choppers-spring-break-2026-05-16",
+                  "name": "Spring Break 2026",
+                  "date": "2026-05-16",
+                  "dateEnd": "2026-05-16",
+                  "location": "Öjebyn, Piteå",
+                  "type": "Fest",
+                  "organizer": "Mosquito Choppers MC",
+                  "description": "Mosquito Choppers MC bjuder in till Spring Break! Livemusik med Crossroads, vedeldad bastu, Myrrah Tattoo & Art. Endast SBM-medlemmar och inbjudna.",
+                  "descriptionFull": "Mosquito Choppers MC bjuder in till Spring Break 2026!\n\nLördag 16 maj i Öjebyn utanför Piteå.\n\nPå scen: Crossroads\nVedeldad bastu\nMyrrah Tattoo & Art\n\nEndast SBM-medlemmar och inbjudna gäster.\n\nKontakt:\nLuggen: 070-611 52 16\nGurra: 070-377 55 07",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/MosquitoChoppersMC"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Öjebyn+Piteå",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/MosquitoChoppersMC",
+                  "region": "Norrbotten",
+                  "source": "facebook.com",
+                  "backImage": "ads/mosquito-choppers-spring-break-back-2026-05-16.jpg"
+            },
+            {
                   "id": "bmw-d11-mixtur-med-sandra-och-mikael-2026",
                   "name": "D11 Mixtur med Sandra och Mikael",
                   "date": "2026-05-17",
