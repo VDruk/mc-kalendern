@@ -3904,6 +3904,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/motostar-oppet-hus-back-2026-04-10.jpg"
             },
             {
+                  "id": "barhang-holdem-tingstade-2026-04-10",
+                  "name": "Barhäng / Holdem",
+                  "date": "2026-04-10",
+                  "dateEnd": "2026-04-10",
+                  "location": "Dizappointed MC, Myrvälde, Tingstäde",
+                  "type": "Fest",
+                  "organizer": "Hangaround Chapter BDMC Gotland",
+                  "description": "Barhäng och pokerkväll hos Dizappointed MC på Gotland. Öppnar kl 19, pokern startar 20:00. Boka plats vid pokerbordet via sms eller pm.",
+                  "descriptionFull": "Vi kör lite barhäng o holdem.\n\nÖppnar kl 19, pokern startar 20:00.\n\nFör plats vid pokerbordet kontakta Pedda o boka antingen på sms eller pm.\n076241622\n\nPlats: Dizappointed MC, Myrvälde 624 44 Tingstäde, Tingstäde socken.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2557493228004526"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Myrvälde+624+44+Tingstäde",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2557493228004526",
+                  "region": "Gotland",
+                  "source": "facebook.com",
+                  "backImage": "ads/barhang-holdem-tingstade-back-2026-04-10.jpg"
+            },
+            {
                   "id": "barhang-zatan-cruisers-2026",
                   "name": "Barhäng på Zatan",
                   "date": "2026-04-11",
