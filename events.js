@@ -16002,6 +16002,32 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "summer-party-fauske-2026-06-19",
+                  "name": "Summer Party 2026",
+                  "date": "2026-06-19",
+                  "dateEnd": "2026-06-21",
+                  "location": "Klungset Leir, Fauske, Norge",
+                  "type": "Fest",
+                  "organizer": "Sigge Sigurdsen & Joakim Julian Kristiansen",
+                  "description": "MC-treff i Fauske, Norge! Tre dagar med mat och dryck, stor gräsplan för tält, övernattningsmöjligheter inomhus, socialt och riktig treffstämning.",
+                  "descriptionFull": "Sommartreff vid Klungset Leir i Fauske, Norge. 19-21 juni 2026.\n\nVi inviterar til MC-treff! Det blir god stemning og fullt trekk hele helga.\n\nMat og Drikke Servering. Stor gressplan for telt. Overnattingsmuligheter innendørs. Sosialt, musikk og ekte treffstemning.\n\nTa med godt humør, venner og sykkel. Dette vil du ikke gå glipp av!\n\nKontakt: Joakim Julian Kristiansen, 414 63 474",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2827216227641586"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Klungset+Leir+Fauske+Norway",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2827216227641586",
+                  "region": "Norge",
+                  "source": "facebook.com",
+                  "backImage": "ads/summer-party-fauske-back-2026-06-19.jpg"
+            },
+            {
                   "id": "lo-i-lordagskörningar-kramfors-2026-06-20",
                   "name": "LO I Lördagskörningar Kramfors",
                   "date": "2026-06-20",
