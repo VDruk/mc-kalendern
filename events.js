@@ -10362,6 +10362,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/roadrun-17-enkoping-back-2026-05-16.jpg"
             },
             {
+                  "id": "rat-fest-falun-2026-05-16",
+                  "name": "Rat Fest 2026",
+                  "date": "2026-05-16",
+                  "dateEnd": "2026-05-16",
+                  "location": "Timmervägen 666, Falun",
+                  "type": "Fest",
+                  "organizer": "Bockens Twin Club",
+                  "description": "Rättparty i Falun! Bärs och choppers, livemusik med Hellforce, tatuerare, smash burgers och chilidrinkar. Öppet från 12:00. Kontanter only.",
+                  "descriptionFull": "Rat Fest 2026 hos Bockens Twin Club i Falun!\n\nÖppet från 12:00 till sent.\n\nPå scen: Hellforce\nDead Fashion Industries\nTatuerare på plats\nBar, chilidrinkar, smash burgers\n\nKontanter only (papperspengar).\n\nDetta är ett privat event.\n\nPlats: Timmervägen 666, Falun, Dalarna.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=100063679684322"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Timmervägen+666+Falun",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/profile.php?id=100063679684322",
+                  "region": "Dalarna",
+                  "source": "facebook.com",
+                  "backImage": "ads/rat-fest-falun-back-2026-05-16.jpg"
+            },
+            {
                   "id": "mosquito-choppers-spring-break-2026-05-16",
                   "name": "Spring Break 2026",
                   "date": "2026-05-16",
