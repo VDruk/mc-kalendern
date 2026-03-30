@@ -6210,6 +6210,32 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "lagarallyt-knared-2026-04-25",
+                  "name": "Lagarallyt 2026",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "location": "PerTec, Klockarevägen 20, Knäred",
+                  "type": "Körning",
+                  "organizer": "Floalt MC",
+                  "description": "Lagarally på fina MC-vägar runt Knäred! Ca 8 mil lång runda med fem stopp för praktiska prov och frågor. Start 10:00-12:00. Startavgift 150 kr varav 10 kr går till Cancerfonden.",
+                  "descriptionFull": "Floalt MC hälsar dig som kör eller åker hoj välkommen till årets Lagarally!\n\nStart mellan kl 10:00-12:00 vid PerTec, Klockarevägen 2 i Knäred.\n\nStartavgiften är 150 kr/startkort varav 10 kr går till Cancerfonden.\n\nRallyt går på fina MC-vägar som är ca 8 mil lång. Utmed rundan är det fem stopp för praktiska prov och frågor.\n\nKorvförsäljning kommer att finnas på en av kontrollerna.\n\nMålgång i Floalt MC:s klubbstuga senast 16:00. Där bjuds det på fika. Mat finns att köpa.\n\nStort prisbord att välja från. Ingen föranmälan behövs. Dagen avslutas med fest och livebandet Drix.\n\nKontaktperson Malle 070-634 76 77.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1473871704325702"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Klockarevägen+20+Knäred",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1473871704325702",
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "backImage": "ads/lagarallyt-knared-back-2026-04-25.jpg"
+            },
+            {
                   "id": "bmw-d9-aprilgruset-2026",
                   "name": "D9 Aprilgruset",
                   "date": "2026-04-26",
@@ -8819,6 +8845,32 @@ const EVENTS_DATA = {
                   "region": "Värmland",
                   "source": "facebook.com",
                   "descriptionFull": "Kör Hoj arrangerar en tvådagarstur till Värmskog med tältnatt intill en sjö.\n\nVi kör på asfalt och grus, passerar Brudfjällsvägen, akvedukten i Håverud och åker Sveriges kortaste vägfärja. Vid ankomst: räkmacka. Kvällen bjuder på grillning och gemensamt umgänge.\n\nSöndag: packning, frukost, återresa via grusvägar med pauser.\n\nMax 8 platser. Pris: 695 kr.\nAnmälan: korhoj.se/event/kor-hoj-varmskog-rakmacketuren/\n\nStartpunkt: KÖR HOJs lokal i Lidköping (HOJRUM), lördag 9 maj kl 10:00."
+            },
+            {
+                  "id": "20-ars-jubileum-destination-unknown-2026-05-09",
+                  "name": "20 års Jubileum!",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "location": "Åsmestad Gård, Linköping",
+                  "type": "Fest",
+                  "organizer": "Destination Unknown MC",
+                  "description": "Destination Unknown MC fyller 20 år! Bikers day med livemusik, food trucks, tattoo, knallar, grogg och balett. Start kl 16:00 vid Åsmestad Gård, Linköping.",
+                  "descriptionFull": "Snart är det dax!!!\n\nI år blir Bikers day lite annorlunda pga att vi fyller 20 år!\n\nDet blir som vanligt livemusik, food trucks, tattoo, knallar, grogg o balett...\n\nLördag kör vi igång runt 16:00 o kör på tills vi inte orkar längre...\n\nHör av er via messenger ang sovmöjligheter m.m.\nYtterligare info kommer närmare framåt.\n\nPlats: Åsmestad Gård, Linköping.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1434468051753549"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Åsmestad+Gård+Linköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1434468051753549",
+                  "region": "Östergötland",
+                  "source": "facebook.com",
+                  "backImage": "ads/20-ars-jubileum-linkoping-back-2026-05-09.jpg"
             },
             {
                   "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
