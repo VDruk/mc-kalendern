@@ -3314,6 +3314,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/peter-linden-back-2026-04-02.jpg"
             },
             {
+                  "id": "motortraffen-backavallen-2026-04-02",
+                  "name": "Motorträffen Bäckavallen",
+                  "date": "2026-04-02",
+                  "dateEnd": "2026-04-02",
+                  "location": "Bäckavallen, Hans Perssons väg, Spjutstorp",
+                  "type": "Träff",
+                  "organizer": "Spjutstorps IF",
+                  "description": "Motorträff varje torsdag på Bäckavallen i Spjutstorp! Bilar och motorcyklar. Korv, kaffe, kaka och glass. Alla välkomna, kl 17-20. 117 intresserade.",
+                  "descriptionFull": "Välkommen för att titta på snygga bilar och motorcyklar samt för att prata med andra motorintresserade.\n\nMotorträffen på Bäckavallen i Spjutstorp arrangeras varje torsdag från kl 17.\n\nKom gärna hungrig, det finns bl a korv, kaffe, kaka och glass.\n\nVi hälsar alla, unga som äldre, varmt välkomna och ser fram emot att dela kunskaper och erfarenheter med varandra. Vårt stora gemensamma intresse är ju fordon och motorer.\n\nKom och häng med oss för en kväll full av motorprat och gemenskap!\nVälkommen från kl 17:00.\n\nArrangör: Spjutstorps IF.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1747322139566753"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Bäckavallen+Hans+Perssons+väg+Spjutstorp",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1747322139566753",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/motortraffen-backavallen-back-2026-04-02.jpg"
+            },
+            {
                   "id": "chicken-race-alingsas-2026",
                   "name": "Chicken Race 2026",
                   "date": "2026-04-03",
