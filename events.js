@@ -3525,6 +3525,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/mad-delsbo-langfredag-back-2026-04-03.jpg"
             },
             {
+                  "id": "langfredagsfest-sixpack-mc-2026-04-03",
+                  "name": "Långfredagsfest",
+                  "date": "2026-04-03",
+                  "dateEnd": "2026-04-03",
+                  "location": "Sixpack MC, Ölsund, Söderhamn",
+                  "type": "Fest",
+                  "organizer": "Sixpack MC",
+                  "description": "Långfredagsfest hos Sixpack MC i Hälsingland! Livemusik med The Haj Hats. Öppnar kl 19:00. Cash is king!",
+                  "descriptionFull": "Långfredagsfest hos Sixpack MC!\n\nLivemusik: The Haj Hats\n\nFrån kl 19:00. Cash is king!\n\nPlats: Sixpack MC, Ölsund, Söderhamn, Hälsingland.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=100067072917039"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/profile.php?id=100067072917039",
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "backImage": "ads/langfredagsfest-sixpack-mc-back-2026-04-03.jpg"
+            },
+            {
                   "id": "tonder-traef-2026-04-04",
                   "name": "Tønder Træf",
                   "date": "2026-04-04",
@@ -5136,6 +5157,32 @@ const EVENTS_DATA = {
                   "link": "https://www.bmwklubben.se/aktiviteter/intresseforfragan-medlemsmote-i-solleftea/",
                   "region": "Västernorrland",
                   "source": "bmwklubben.se"
+            },
+            {
+                  "id": "adventure-lordag-vasby-2026-04-18",
+                  "name": "Adventure-lördag!",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Karins väg 5, Upplands-Väsby",
+                  "type": "Show",
+                  "organizer": "Triumph Stockholm Norr",
+                  "description": "Adventure-lördag hos Triumph Stockholm Norr! I samband med Adventure Motorcycle Expo i Bredden. Specialerbjudanden, provkör adventure-modeller, snacka hoj. Kl 11-15.",
+                  "descriptionFull": "Är du sugen på äventyr? Då vill du inte missa detta!\n\nAdventure-lördag hos oss 18 april kl 11-15.\n\nI samband med Adventure Motorcycle Expo i Bredden bjuder vi in till Adventure-lördag hos oss!\n\nSpecialerbjudanden på adventure-utrustning. Vi sänker priserna på utvald förarutrustning, perfekt läge att uppgradera inför säsongen!\n\nAdventure-hojar i fokus: kom och provkör våra Adventure-modeller, snacka med oss och få inspiration till din nästa resa!\n\nTa med en kompis, snacka hoj, kläm på grejer och kickstarta grussäsongen med oss!\n\nPlats: Karins väg 5, 194 61 Upplands-Väsby.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/956122030444911"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Karins+väg+5+Upplands-Väsby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/956122030444911",
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/adventure-lordag-vasby-back-2026-04-18.jpg"
             },
             {
                   "id": "bsa-sverige-sulas-2026",
@@ -13646,6 +13693,36 @@ const EVENTS_DATA = {
                   "region": "Stockholm",
                   "source": "facebook.com",
                   "descriptionFull": "Café Rosenhill bjuder in till en provkörningskväll!\n\nGrabbarna bakom Pauls Motor kommer och visar upp Zontes motorcyklar. Kom och ta en fika, kika på fina motorcyklar och provkör om du vill.\n\nZontes är ett spännande märke med prisvärda och moderna modeller.\n\nTid: Onsdag 3 juni kl. 16:00 - 19:00\nPlats: Rosenhill 23, Botkyrka (Grödinge)."
+            },
+            {
+                  "id": "speedevents-internationals-tierp-2026-06-04",
+                  "name": "Speedevents Internationals",
+                  "date": "2026-06-04",
+                  "dateEnd": "2026-06-07",
+                  "location": "Tierp Arena, Arenavägen, Tierp",
+                  "type": "Racing",
+                  "organizer": "Speedevents / Summit Racing EDRS",
+                  "description": "Summit Racing EDRS Series European Drag Racing tillbaka på Tierp Arena! Fyra dagar med högoktan dragracing, foodcourt, Kids Fun Zone och helikopterflygning. 394 intresserade.",
+                  "descriptionFull": "Summit Racing EDRS Series European Drag Racing Series & Speedevents tillbaka på Tierp Arena 2026!\n\nKom och fira nationaldags helgen med gamla och nya bekantskaper!\n\nDetta kan du se framåt:\n\nHögoktan dragracing, action hela helgen\nModern och bekväm anläggning med bra faciliteter\nSpännande tävlingsupplägg och depåområde där man kan se alla teamen\nFoodcourt med något för alla\nKids Fun Zone, racing-simulatorer för de yngre\nHelikopterflygning över arenan\n...och mycket mer!\n\nFrågor om biljetter eller camping? Kontakta info@tierparena.com\nFrågor om evenemanget? Kontakta info@speedevents.se\n\nBiljetter: www.nortic.se/ticket/event/76685",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2795989970778875"
+                        },
+                        {
+                              "label": "Biljetter",
+                              "url": "https://www.nortic.se/ticket/event/76685"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tierp+Arena+Arenavägen+Tierp",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2795989970778875",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/speedevents-tierp-back-2026-06-04.jpg"
             },
             {
                   "id": "american-days-2026",
