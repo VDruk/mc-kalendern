@@ -4512,6 +4512,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/lito-dagen-back-2026-04-11.jpg"
             },
             {
+                  "id": "imrg-big-lake-uppstart-2026-04-11",
+                  "name": "IMRG Big Lake Säsongsuppstart",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Träff",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Uppstart av hojsäsongen 2026 med info om årets program, medlemskap och MC-Konsult samarbete. Försäljning av kläder och tygmärken. Fika ingår.",
+                  "descriptionFull": "IMRG Big Lake håller upptaktsmöte för hojsäsongen 2026.\n\nProgram:\n- Info om IMRG Big Lake och MC-Konsult samarbete\n- Medlemskap\n- Media, hemsida Big Lake (FB, Köp och sälj FB, Instagram)\n- Hojsäsongen 2026 program\n- Försäljning av IMRG Big Lakes klädutbud och tygmärken\n- Vi bjuder på fika\n\nAnmälan krävs via mail: urbanknutsson55@gmail.com\n\nTid: kl 11:00\nPlats: MC-Konsult i Lidköping.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/urban.knutsson"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/urban.knutsson",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/imrg-big-lake-uppstart-back-2026-04-11.jpg"
+            },
+            {
                   "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
                   "name": "D15 Söndagsvandring Gyllebosjön Runt",
                   "date": "2026-04-12",
@@ -5265,6 +5291,32 @@ const EVENTS_DATA = {
                   "region": "Stockholm",
                   "source": "facebook.com",
                   "backImage": "ads/adventure-lordag-vasby-back-2026-04-18.jpg"
+            },
+            {
+                  "id": "imrg-big-lake-varmonstning-2026-04-18",
+                  "name": "Vårmönstring IMRG Big Lake",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Vårmönstring med IMRG Big Lake, om vädret tillåter. Samling vid MC-Konsult i Lidköping kl 11:00. Alla välkomna oavsett vilken hoj du har.",
+                  "descriptionFull": "Vårmönstring med IMRG Big Lake.\n\nOm vädret tillåter samlas vi för en första tur tillsammans efter vintern. Samling vid MC-Konsult i Lidköping kl 11:00.\n\nAlla är välkomna oavsett vilken hoj du har.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/urban.knutsson"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/urban.knutsson",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/imrg-big-lake-varmonstning-back-2026-04-18.jpg"
             },
             {
                   "id": "bsa-sverige-sulas-2026",
