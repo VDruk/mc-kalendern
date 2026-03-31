@@ -5282,6 +5282,10 @@ const EVENTS_DATA = {
                               "url": "https://www.facebook.com/events/956122030444911"
                         },
                         {
+                              "label": "FB Event (2)",
+                              "url": "https://www.facebook.com/events/1266590338896965"
+                        },
+                        {
                               "label": "Karta",
                               "url": "https://www.google.com/maps/search/?api=1&query=Karins+väg+5+Upplands-Väsby",
                               "type": "map"
