@@ -4678,6 +4678,36 @@ const EVENTS_DATA = {
                   "source": "mchk.org"
             },
             {
+                  "id": "can-am-on-tour-cec-tibro-2026-04-15",
+                  "name": "Can-Am On Tour CEC Tibro",
+                  "date": "2026-04-15",
+                  "dateEnd": "2026-04-15",
+                  "location": "CEC Motorcycles, Norra Rydsgatan 7, Tibro",
+                  "type": "Show",
+                  "organizer": "CEC Motorcycles",
+                  "description": "Can-Am On Tour svänger förbi CEC Motorcycles i Tibro! Kolla in senaste ATV- och SSV-modellerna för 2026. Kaffe, fika och snack. Kl 10-17.",
+                  "descriptionFull": "Can-Am On Tour är tillbaka och i år svänger de förbi CEC Motorcycles i Tibro onsdagen den 15 april för att visa upp sina senaste maskiner för 2026.\n\nKom förbi, ta en kaffe, fika och snacka lite ATV/SSV med oss samtidigt som du får en exklusiv första titt på nyheterna. Perfekt tillfälle att klämma och känna på de senaste modellerna och få inspiration inför säsongen.\n\nTid: Onsdag 15 april kl 10:00-17:00\nPlats: CEC Motorcycles, Norra Rydsgatan 7, 543 35 Tibro.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1276406154606123"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/cecmotorcyclessverige"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Norra+Rydsgatan+7+Tibro",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1276406154606123",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/can-am-on-tour-cec-tibro-back-2026-04-15.jpg"
+            },
+            {
                   "id": "doh-fika-lycksele-2026-04-16",
                   "name": "DOH-Fika Lycksele",
                   "date": "2026-04-16",
