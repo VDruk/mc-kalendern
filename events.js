@@ -3340,6 +3340,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/motortraffen-backavallen-back-2026-04-02.jpg"
             },
             {
+                  "id": "rydbergs-mc-paske-2026-04-02",
+                  "name": "Påske åbent hos Rydbergs MC",
+                  "date": "2026-04-02",
+                  "dateEnd": "2026-04-06",
+                  "location": "Overgårdsvej 3, 8881 Thorsø, Danmark",
+                  "type": "Show",
+                  "organizer": "Rydbergs MC",
+                  "description": "Påskeöppet hos Rydbergs MC i Thorsø, Danmark! Ny och begagnad MC, kläder och utrustning. Drop-in däck och oljebyte torsdag-fredag. 30 min från Malmö med färja.",
+                  "descriptionFull": "Vi holder åbent hele påske og står klar til at tage imod dig og hjælpe dig med ny eller brugt MC samt tøj og udstyr.\n\nTorsdag og fredag er det åbent for Drop in dæk og olieskift på Værkstedet.\n\nÖppettider under påsken:\nSkärtorsdag 2/4: 09:00-16:00\nLångfredag 3/4: 09:00-16:00\nLördag 4/4: 09:00-16:00\nPåskdag söndag 5/4: 09:00-16:00\n2:a påskdag 6/4: 09:00-16:00\n\nPlats: Overgårdsvej 3, 8881 Thorsø, Danmark (Favrskov, Århus).",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1259237519121376"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Overgårdsvej+3+8881+Thorsø+Denmark",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1259237519121376",
+                  "region": "Danmark",
+                  "source": "facebook.com",
+                  "backImage": "ads/rydbergs-mc-paske-back-2026-04-02.jpg"
+            },
+            {
                   "id": "chicken-race-alingsas-2026",
                   "name": "Chicken Race 2026",
                   "date": "2026-04-03",
