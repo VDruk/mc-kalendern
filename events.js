@@ -27146,7 +27146,7 @@ const EVENTS_DATA = {
                   "region": "Uppsala",
                   "source": "oamck.se",
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "doa-tisdagslunch-2026-11-24",
