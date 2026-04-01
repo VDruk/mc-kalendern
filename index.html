@@ -2067,7 +2067,13 @@ function render() {
         return (start <= sunStr && end >= satStr);
       });
     } else {
-      events = events.filter(e => parseInt(e.date.split('-')[1], 10) === parseInt(currentMonth, 10));
+      // Include events whose date range overlaps the selected month (e.g. Mar 28 - Apr 2 shows in both March and April)
+      const selM = parseInt(currentMonth, 10);
+      events = events.filter(e => {
+        const startM = parseInt(e.date.split('-')[1], 10);
+        const endM = parseInt((e.dateEnd || e.date).split('-')[1], 10);
+        return startM <= selM && endM >= selM;
+      });
     }
   }
   if (!showPast) events = events.filter(e => (e.dateEnd || e.date) >= today);
@@ -2155,7 +2161,11 @@ function render() {
     const grid = state.grid;
     const today = state.today;
     const d = new Date(event.date + 'T00:00:00');
-    const monthKey = d.getFullYear() + '-' + d.getMonth();
+    // For multi-day events: if start month has passed but event is still ongoing, group under dateEnd month
+    const dEnd = event.dateEnd ? new Date(event.dateEnd + 'T00:00:00') : d;
+    const todayDate = new Date(today + 'T00:00:00');
+    const displayDate = (dEnd > d && d.getMonth() !== dEnd.getMonth() && d < todayDate && dEnd >= todayDate) ? dEnd : d;
+    const monthKey = displayDate.getFullYear() + '-' + displayDate.getMonth();
     const isPast = event._ad ? false : (event.dateEnd || event.date) < today;
     const isFav = isFavorited(event.id);
     const isMultiDay = event.dateEnd && event.dateEnd !== event.date;
@@ -2190,7 +2200,7 @@ function render() {
       state.renderMonth = monthKey;
       const divider = document.createElement('div');
       divider.className = 'month-divider';
-      divider.textContent = MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear();
+      divider.textContent = MONTHS_SV[displayDate.getMonth()] + ' ' + displayDate.getFullYear();
       grid.appendChild(divider);
       state.lastCardType = ''; // full-width divider resets row
     }
