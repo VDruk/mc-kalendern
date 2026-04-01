@@ -21681,8 +21681,8 @@ const EVENTS_DATA = {
                   "location": "Frostavallen, Höör",
                   "type": "Träff",
                   "organizer": "Vulcan Riders Sweden",
-                  "description": "Välkommen till Frostavallen utanför Höör. Bo på vandrarhem, ät gott i restaurangen, grilla, bada i Vaxsjön, kör Ride-Out och ha det trevligt.",
-                  "descriptionFull": "Sydträffen 2026, 14-16 augusti.\n\nVälkommen till Frostavallen utanför Höör där vi har vår träff. Bo på vandrarhem, ät gott i restaurangen, grilla, bada i Vaxsjön, kör Ride-Out och ha det trevligt.\n\nArrangör: Vulcan Riders Sweden.",
+                  "description": "VRS Syd bjuder in till Frostavallen utanför Höör. 2-bäddsrum på vandrarhem, grillning vid Vaxsjön, Rideout med lunch och middag i storstugan. 1 550 kr/person.",
+                  "descriptionFull": "VRS Syd önskar Er välkomna till Sydträffen 2026 på Frostavallen utanför Höör.\n\nVi bor på vandrarhemmet i 2-bäddsrum och umgås, äter och dricker gott, åker motorcykel, badar i Vaxsjön och har en riktigt trevlig helg. Hund är välkommen.\n\nProgram:\nFredag 14/8: Ankomst från kl 12, installation i rum, samkväm och grillning vid Vaxsjön (ta med grillmat).\nLördag 15/8: Frukost, Rideout med lunch (självkostnadspris), middag på kvällen i storstugan.\nSöndag 16/8: Frukost, sedan hemfärd.\n\nKostnad: 1 550 kr/person. Anmälningsavgift 650 kr senast 30/5, resterande 900 kr senast 31/7. Betalning via Swish.\n\nTa med lakan och örngott (går att hyra). Kudde och täcke finns.\n\nBokning: vulcan9685@gmail.com\nKontakt: Rolf Hellfalk.",
                   "links": [
                         {
                               "label": "vulcanriders-sweden.org",
