@@ -9868,6 +9868,53 @@ const EVENTS_DATA = {
                   "backImage": "ads/orangeday-halmstad-back-2026-05-14.jpg"
             },
             {
+                  "id": "ad-open-flat-track-orebro-2026-05-14",
+                  "name": "AD-Open Flat Track",
+                  "date": "2026-05-14",
+                  "dateEnd": "2026-05-14",
+                  "location": "Örebro Motorstadion, Örebro",
+                  "type": "Racing",
+                  "organizer": "Flat Track Sweden",
+                  "description": "Flat track-tävling på Örebro Motorstadion. Klasser: DT MX, Intermediate, Thunderbike, Hooligan, Vintage MC, Vintage RD/TG och Rookie.",
+                  "descriptionFull": "AD-Open Flat Track på Örebro Motorstadion, torsdag 14 maj.\n\nKlasser:\n- DT MX\n- Intermediate\n- Thunderbike\n- Hooligan\n- Vintage MC\n- Vintage RD/TG\n- Rookie\n\nAnmälan: akej13@hotmail.com\n\nArrangör: Flat Track Sweden.",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Örebro+Motorstadion+Örebro",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/groups/173959482708041",
+                  "region": "Örebro",
+                  "source": "facebook.com",
+                  "backImage": "ads/ad-open-flat-track-orebro-back-2026-05-14.jpg"
+            },
+            {
+                  "id": "smc-kansli-tour-2026-05-15",
+                  "name": "SMC Kansli Tour",
+                  "date": "2026-05-15",
+                  "dateEnd": "2026-05-17",
+                  "location": "Sverige",
+                  "type": "Körning",
+                  "organizer": "SMC Travel",
+                  "description": "Tre dagars touring med SMC-kansliet. Fyra stopp, fullt fokus på körning. Dag 1: Vaxholm med glass. Bokning via SMC Travel.",
+                  "descriptionFull": "Touring med SMC-kansliet, tre dagar, noll kompromisser!\n\nSMC Travel öppnar bokningen till vårens mest oväntade tur: SMC Kansli Tour 15-17 maj. Tre dagar, fyra stopp, fullt fokus på körning och allt runt omkring som du inte visste att du behövde.\n\nDag 1: Vaxholm, precision och glass. Samling öster om stan, Jesper leder ut.\n\nBokning via SMC Travel.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo/?fbid=1546231777509230&set=a.500033288795756"
+                        },
+                        {
+                              "label": "SMC Travel",
+                              "url": "https://smctravel.se"
+                        }
+                  ],
+                  "link": "https://smctravel.se",
+                  "region": "Sverige",
+                  "source": "facebook.com",
+                  "backImage": "ads/smc-kansli-tour-back-2026-05-15.jpg"
+            },
+            {
                   "id": "körning-h-d-butiken-i-linkoping-med-overnattning-2026",
                   "name": "Körning H-D butiken i Linköping med övernattning",
                   "date": "2026-05-15",
@@ -12914,6 +12961,32 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/gwcs.png"
+            },
+            {
+                  "id": "out-of-order-mc-30-ar-2026-05-29",
+                  "name": "Out Of Order MC 30 Years Anniversary",
+                  "date": "2026-05-29",
+                  "dateEnd": "2026-05-31",
+                  "location": "Grönäs 516, Hynboholm, Karlstad",
+                  "type": "Fest",
+                  "organizer": "Out Of Order MC Carlstad",
+                  "description": "Out Of Order MC firar 30 år! Tre dagar med liveband (Alabama Lovesnakes, Gorm), trubadur Stefan Porth, trading och bar. Entré 200 kr, hela helgen.",
+                  "descriptionFull": "Out Of Order MC Carlstad firar 30 år!\n\n29/5-31/5 2026 vid Grönäs 516, Hynboholm utanför Karlstad.\n\nLive on stage lördag 30 maj:\n- Alabama Lovesnakes\n- Gorm\n\nTrubadur Stefan Porth fredag och lördag.\n\nTältplats, foodtruck, barkörv och bar.\nTrading (försäljning av kläder, bikergrejor m.m.)\n\nEntré 200 kr, gäller hela helgen.\n\nVälkomna! SBM & Vänner.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1862523164404863"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Grönäs+516+Hynboholm+Karlstad",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1862523164404863",
+                  "region": "Värmland",
+                  "source": "facebook.com",
+                  "backImage": "ads/out-of-order-30-ar-back-2026-05-29.jpg"
             },
             {
                   "id": "baprun-gotland-2026",
@@ -21599,6 +21672,32 @@ const EVENTS_DATA = {
                   "region": "Västra Götaland",
                   "source": "facebook.com",
                   "backImage": "ads/aprilia-bandag-kinnekulle-back-2026-08-14.jpg"
+            },
+            {
+                  "id": "sydtraffen-vulcan-riders-2026-08-14",
+                  "name": "Sydträffen 2026",
+                  "date": "2026-08-14",
+                  "dateEnd": "2026-08-16",
+                  "location": "Frostavallen, Höör",
+                  "type": "Träff",
+                  "organizer": "Vulcan Riders Sweden",
+                  "description": "Välkommen till Frostavallen utanför Höör. Bo på vandrarhem, ät gott i restaurangen, grilla, bada i Vaxsjön, kör Ride-Out och ha det trevligt.",
+                  "descriptionFull": "Sydträffen 2026, 14-16 augusti.\n\nVälkommen till Frostavallen utanför Höör där vi har vår träff. Bo på vandrarhem, ät gott i restaurangen, grilla, bada i Vaxsjön, kör Ride-Out och ha det trevligt.\n\nArrangör: Vulcan Riders Sweden.",
+                  "links": [
+                        {
+                              "label": "vulcanriders-sweden.org",
+                              "url": "https://www.vulcanriders-sweden.org/sv/?view=article&id=1117:sydtraeffen-2026&catid=333"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Frostavallen+Höör",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.vulcanriders-sweden.org/sv/?view=article&id=1117:sydtraeffen-2026&catid=333",
+                  "region": "Skåne",
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/sydtraffen-frostavallen-back-2026-08-14.jpg"
             },
             {
                   "id": "bmw-d11-blekingerundan-2026-2026",
