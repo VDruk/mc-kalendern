@@ -647,7 +647,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "bagskytte-2026",
@@ -5514,7 +5514,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "Säsongens avrostning på Rörken i Uppsala. Anmälan via grundkurser.svmc.se. Kl 10:00-14:00, öppet för alla som vill komma igång efter vintern.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -8034,7 +8034,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "MC-ordonnansernas avrostning på Rörken. Dags att damma av uniformerna och hojen. Kl 09:00, samling på Rörken.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -9739,7 +9739,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "Klubbdag på Rörken för dig som är ledig dagtid. Kl 10:00. Fika, snack och kanske en tur om vädret tillåter.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -10136,7 +10136,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "ÖAMCK",
                   "description": "Dagstur med ÖAMCK på Kristi Himmelsfärdsdag. Samling kl 10:00 vid Lelles MC. Gemensam MC-tur genom fina vägar.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -10437,7 +10437,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "hojtraff-gellerasen-2026-05-16",
@@ -12351,7 +12351,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "oppet-hus-rapido-smc-2026",
@@ -15003,7 +15003,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "nationaldagstur-2026",
@@ -15216,7 +15216,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "oamck-fikakvall-2026-06-07",
@@ -15813,7 +15813,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "bmw-bmwklubben-norge-d8-telemarken-runt-2026",
@@ -17186,7 +17186,7 @@ const EVENTS_DATA = {
                   "region": "Uppsala",
                   "source": "oamck.se",
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "doa-dagstur-ekero-2026-06-25",
@@ -18628,7 +18628,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "do-c-lars-eriks-glassrunda-2026",
@@ -21466,7 +21466,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "klubbhus-invigning-maiden-coast-2026-08-08",
@@ -24535,7 +24535,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "doa-kvallskörning-nacka-2026-09-07",
@@ -25028,7 +25028,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "lo-i-lordagskörningar-kramfors-2026-09-12",
@@ -26450,7 +26450,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "doa-tisdagslunch-2026-10-06",
@@ -26720,7 +26720,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "medlemsmote-2026",
@@ -26912,7 +26912,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "ÖAMCK",
                   "description": "ÖAMCK:s gemensamma MC-resa till Andalusien i Spanien. 10 dagars tur genom södra Spanien. Anmälan via ÖAMCK.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/andalusienresa/",
                   "region": "Spanien",
                   "source": "oamck.se",
