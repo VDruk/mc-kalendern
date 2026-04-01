@@ -3786,7 +3786,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -4626,7 +4626,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "Fikakväll med bildvisning från MC-resa i Thailand. Kom och lyssna på reseberättelser och njut av fika i Klubbkåken.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-5/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -5545,7 +5545,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-2/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -6595,7 +6595,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "Vårstädning av ÖAMCK:s klubblokal Klubbkåken i Stångby. Alla medlemmar välkomna att hjälpa till och fixa klubblokalen inför säsongen.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/staddag-kaken-obs-sondag/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -8061,7 +8061,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "Fikakväll med bildvisning från MC-resor i Vietnam och Japan. Två reseberättelser på samma kväll i Klubbkåken.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-6/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -9478,7 +9478,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-7/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -11267,7 +11267,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-8/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -12657,7 +12657,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-9/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -13982,7 +13982,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-10/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -15227,7 +15227,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-11/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -16266,7 +16266,7 @@ const EVENTS_DATA = {
                   "type": "Träff",
                   "organizer": "ÖAMCK",
                   "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
-                  "backImage": "ads/oamck-klubb-back.jpg",
+                  "backImage": "ads/oamck-klubbkaken-back.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-12/",
                   "region": "Uppsala",
                   "source": "oamck.se",
@@ -19196,7 +19196,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "mxsm-varberg-2026",
@@ -23781,7 +23781,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "nilssons-mc-fest-2026-08-29",
@@ -27131,7 +27131,7 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/oamck.png",
-                  "backImage": "ads/oamck-klubb-back.jpg"
+                  "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
                   "id": "oamck-ordonnansavslutning-2026",
