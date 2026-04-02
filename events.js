@@ -11286,6 +11286,32 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "mopedrally-nasby-2026-05-17",
+                  "name": "Moped & MC Rally i Näsby",
+                  "date": "2026-05-17",
+                  "dateEnd": "2026-05-17",
+                  "location": "Sockenstugan, Näsby, 574 94 Vetlanda",
+                  "type": "Körning",
+                  "organizer": "Näsby hembygdsförening",
+                  "description": "Mopedrally genom vacker natur. Ca 40 km fina vägar. Pop-up-cafe med lunch och hembakt fika. Startavgift 150 kr inkl hamburgare och fika. Start kl 11:00.",
+                  "descriptionFull": "Då var det dags för årets höjdpunkt igen!\n\nBoka in 17 maj 2026 för en trevlig moppefärd, eller kom bara för att uppleva härligt tvåtaktsljud och skön stämning när startskottet går kl 11:00.\n\nSamling på kyrkoparkeringen i Näsby för anmälan, fika och uppladding. Kom gärna i god tid innan start.\n\nÅrets bana är cirka 40 km lång och går på fina vägar genom vacker natur. På plats finns Sandahls POP UP-cafe som serverar lättare lunch och hembakt fika.\n\nStartavgift: 150 kr\nHamburgare och fika ingår i avgiften.\nIngen föranmälan krävs.\n\nVi ser fram emot en härlig dag tillsammans. Hoppas vi ses i Näsby!",
+                  "backImage": "ads/mopedrally-nasby-back-2026-05-17.jpg",
+                  "link": "https://www.facebook.com/events/962693382750726",
+                  "region": "Jönköping",
+                  "source": "facebook.com",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/962693382750726"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sockenstugan+N%C3%A4sby+574+94+Vetlanda",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
                   "id": "doa-kvallskörning-nacka-2026-05-18",
                   "name": "DOA - Kvällskörning Nacka",
                   "date": "2026-05-18",
