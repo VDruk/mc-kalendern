@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-01",
+      "lastUpdated": "2026-04-02",
       "events": [
             {
                   "id": "sponsor-bsa-motorcycles-ad-2026",
