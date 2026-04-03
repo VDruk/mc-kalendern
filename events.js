@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-02",
+      "lastUpdated": "2026-04-03",
       "events": [
             {
                   "id": "sponsor-bsa-motorcycles-ad-2026",
@@ -3399,16 +3399,25 @@ const EVENTS_DATA = {
                   "dateEnd": "2026-04-06",
                   "location": "Elmia, Jönköping",
                   "type": "Show",
-                  "organizer": "Elmia",
-                  "description": "Custom Motor Show med fokus på specialbyggda bilar och motorcyklar. Utställare, tävlingar och livemusik.",
-                  "link": "https://www.elmia.se/",
+                  "organizer": "Custom Motor Show",
+                  "description": "Norra Europas största motormässa, sedan 1971. Hundratals fordon, företag och över 90 000 besökare. Utomhusarenan med shower och drifting varje dag.",
+                  "link": "https://www.custommotorshow.se/",
                   "region": "Jönköping",
-                  "source": "elmia.se",
-                  "descriptionFull": "Custom Motor Show arrangeras av Elmia.\n\nCustom Motor Show med fokus på specialbyggda bilar och motorcyklar. Utställare, tävlingar och livemusik.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Elmia, Jönköping.",
+                  "source": "custommotorshow.se",
+                  "descriptionFull": "Norra Europas största motormässa Custom Motor Show, är motorhobbyns startskott för året! Under påskhelgen samlas hundratals fordon, hundratals företag och över 90 000 besökare bland fordonsbyggen i toppklass! På utomhusarenan flödar adrenalinet med flera shower och drifting varje dag.\n\nÖppettider:\nLångfredagen kl 10-18\nPåskafton kl 10-18\nPåskdagen kl 10-18\nAnnandag kl 10-16\n\nPlats: Elmia, Jönköping.",
+                  "backImage": "ads/custom-motor-show-back-2026-04-03.jpg",
                   "links": [
                         {
-                              "label": "elmia.se",
-                              "url": "https://www.elmia.se/"
+                              "label": "custommotorshow.se",
+                              "url": "https://www.custommotorshow.se/"
+                        },
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1486670769078405"
+                        },
+                        {
+                              "label": "Biljetter",
+                              "url": "https://secure.tickster.com/sv/ac9cg2b3yna62h6/selectproductgroup"
                         },
                         {
                               "label": "Karta",
@@ -6756,6 +6765,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/gota-ms-crosskola-back-2026-04-27.jpg"
             },
             {
+                  "id": "roadracing-licens-falkenberg-2026-04-28",
+                  "name": "Roadracing licens",
+                  "date": "2026-04-28",
+                  "dateEnd": "2026-04-28",
+                  "location": "Falkenbergs Motorbana, Hällarp",
+                  "type": "Racing",
+                  "organizer": "Falkenbergs Motorklubb",
+                  "description": "Förarutbildning i roadracing på Falkenbergs Motorbana. Teori + uppkörning, kl 14-18. Pris 2 000 kr inkl. medlemskap i FMK 2026.",
+                  "descriptionFull": "Vill du börja med roadracing? Falkenbergs MK håller en förarutbildning som krävs för att kunna lösa förarlicens och träna/tävla.\n\nDatum: 28 april kl 14:00-18:00\nPlats: Falkenbergs Motorbana, Hällarp\nPris: 2 000 kr (inkl. uppkörning och medlemskap i FMK 2026)\n\nEfter godkänd teori + uppkörning kan du lösa licens direkt. Med licensen kan du köra onsdagsträningarna på Falkenbergs Motorbana under säsongen.\n\nAnmälan: magnus_moss@hotmail.com\nFull info om vad som krävs innan kursen finns i inbjudan.",
+                  "backImage": "ads/roadracing-licens-falkenberg-back-2026-04-28.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1534057227890109"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Falkenbergs+Motorbana%2C+H%C3%A4llarp",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1534057227890109",
+                  "region": "Halland",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-04-28",
                   "name": "DOA - Kvällskörning Nockeby, jämna veckor",
                   "date": "2026-04-28",
@@ -7577,6 +7612,32 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.facebook.com/events/1169777545235892",
                   "region": "Danmark",
+                  "source": "facebook.com"
+            },
+            {
+                  "id": "ljungbyhed-mc-bandag-2026-05-02",
+                  "name": "Ljungbyhed MC Bandag",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Ljungbyhed Raceway",
+                  "type": "Racing",
+                  "organizer": "David Henningsson",
+                  "description": "Open pit lane fri körning på Ljungbyhed Raceway. Kl 07-16. Även 15 augusti.",
+                  "descriptionFull": "Ljungbyhed 2026 open pit lane fri körning.\n\nDatum: 2 maj och 15 augusti\nTid: 07:00-16:00\nPlats: Ljungbyhed Raceway\n\n9 timmars fri körning på banan.",
+                  "backImage": "ads/ljungbyhed-bandag-back-2026-05-02.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2093939688030816"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Ljungbyhed+Raceway",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2093939688030816",
+                  "region": "Skåne",
                   "source": "facebook.com"
             },
             {
@@ -10406,6 +10467,32 @@ const EVENTS_DATA = {
                   "region": "Västernorrland",
                   "source": "facebook.com",
                   "backImage": "ads/ankansracing-trackdays-back-2026-05-15.jpg"
+            },
+            {
+                  "id": "fmck-gruskurs-rorken-2026-05-16",
+                  "name": "Gruskurs nivå 1 & 2",
+                  "date": "2026-05-16",
+                  "dateEnd": "2026-05-17",
+                  "location": "Rörken Motorstadion, Bälinge",
+                  "type": "Körning",
+                  "organizer": "FMCK Uppsala",
+                  "description": "Gruskurs för adventure och offroad MC. Nivå 1 och 2. Kl 09-16, 950 kr/dag. 10 platser, först till kvarn.",
+                  "descriptionFull": "Årets första Gruskurs nivå 1+2 är äntligen öppen för anmälan!\n\nKursen riktar sig till dig med adventure, offroad eller liknande MC. Du kanske precis börjat köra, eller bara behöver en repetition av grunderna.\n\nDatum: V20, 16-17 maj\nStart: 09:00, slut ca 16:00\nPlats: Rörken Motorstadion\n\nKrav: Laglig trafiksäker MC och utrustning. Körkort för MC, vi kontrollerar detta på plats.\n\nFörtäring: Lättare fika ingår i avgiften. Lunch äts medhavd eller på annan plats.\n\nPris: 950 SEK per dag, betalas i förskott innan kursstart.\n10 platser, först till kvarn gäller.\n\nAnmälan till: gruskurs@fmckuppsala.se",
+                  "backImage": "ads/fmck-gruskurs-back-2026-05-16.jpg",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/FMCKUppsala"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=R%C3%B6rken+Motorstadion+B%C3%A4linge",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/FMCKUppsala",
+                  "region": "Uppsala",
+                  "source": "facebook.com"
             },
             {
                   "id": "bmw-d15-asnenturen-2026",
@@ -22380,6 +22467,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/sydtraffen-frostavallen-back-2026-08-14.jpg"
             },
             {
+                  "id": "ljungbyhed-mc-bandag-2026-08-15",
+                  "name": "Ljungbyhed MC Bandag",
+                  "date": "2026-08-15",
+                  "dateEnd": "2026-08-15",
+                  "location": "Ljungbyhed Raceway",
+                  "type": "Racing",
+                  "organizer": "David Henningsson",
+                  "description": "Open pit lane fri körning på Ljungbyhed Raceway. Kl 07-16. Andra bandagen i säsongen.",
+                  "descriptionFull": "Ljungbyhed 2026 open pit lane fri körning.\n\nDatum: 15 augusti\nTid: 07:00-16:00\nPlats: Ljungbyhed Raceway\n\n9 timmars fri körning på banan. Andra tillfället i säsongen (första var 2 maj).",
+                  "backImage": "ads/ljungbyhed-bandag-back-2026-05-02.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2093939688030816"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Ljungbyhed+Raceway",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2093939688030816",
+                  "region": "Skåne",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "bmw-d11-blekingerundan-2026-2026",
                   "name": "D11 Blekingerundan 2026",
                   "date": "2026-08-15",
@@ -24515,6 +24628,32 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "motorcycle-inferno-munkfors-2026-09-05",
+                  "name": "Motorcycle Inferno #8",
+                  "date": "2026-09-05",
+                  "dateEnd": "2026-09-05",
+                  "location": "Laxholmens Kulturhus, Munkfors",
+                  "type": "Show",
+                  "organizer": "Järngrisen MC / Sundbackens MC",
+                  "description": "Custom bike show med hojbyggare, konstnärer och entusiaster. Alla inkomster går till Lions Cancerforskningsfond. Kl 12-17.",
+                  "descriptionFull": "MOTORCYCLE INFERNO #8 2026\n\nMotorcycle Inferno har blivit en självklar mötesplats för de mest passionerade hojbyggarna, konstnärer och entusiaster. Här möts långa framgafflar och korta, råa byggen. Här samsas smala linjer med feta däck. Här delar unga kreatörer golv med legender och experter.\n\nAlla inkomster går till Lions Cancerforskningsfond.\n\nDatum: 5 september kl 12:00-17:00\nPlats: Laxholmens Kulturhus, Munkfors\n\nKontakt:\nChristofer Blom 070 380 67 37\nUrban Östlund 070 289 20 93\nmotorcycleinferno@hotmail.com",
+                  "backImage": "ads/motorcycle-inferno-back-2026-09-05.jpg",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/MotorcycleInferno"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Laxholmens+Kulturhus%2C+Munkfors",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/MotorcycleInferno",
+                  "region": "Värmland",
+                  "source": "facebook.com"
             },
             {
                   "id": "bmw-d11-morka-smaland-2026",
