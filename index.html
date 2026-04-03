@@ -1856,7 +1856,7 @@ const WSYMB2 = {
   27: { icon: '❄️', label: 'Ymnigt snöfall', cat: 'snowy' },
 };
 
-const WEATHER_CACHE_KEY = 'mc_weather_cache_v3';
+const WEATHER_CACHE_KEY = 'mc_weather_cache_v4';
 const WEATHER_CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 let weatherData = {};
 const _eventMap = new Map(); // Store event data for deferred back-side rendering
@@ -1895,7 +1895,8 @@ function findCoords(location) {
 }
 
 async function fetchWeatherForDate(lat, lon, targetDate) {
-  const url = `https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/${lon.toFixed(4)}/lat/${lat.toFixed(4)}/data.json`;
+  // SNOW API (replaced PMP3G in April 2026)
+  const url = `https://opendata-download-metfcst.smhi.se/api/category/snow1g/version/1/geotype/point/lon/${lon.toFixed(4)}/lat/${lat.toFixed(4)}/data.json`;
   try {
     const resp = await fetch(url);
     if (!resp.ok) return null;
@@ -1907,37 +1908,34 @@ async function fetchWeatherForDate(lat, lon, targetDate) {
     const targetNoon = new Date(targetDate + 'T12:00:00');
 
     for (const ts of data.timeSeries) {
-      const timeStr = ts.validTime; // e.g. "2026-03-20T12:00:00Z"
+      const timeStr = ts.time; // e.g. "2026-04-03T12:00:00Z"
       if (timeStr.startsWith(targetDate)) {
-        const params = {};
-        ts.parameters.forEach(p => { params[p.name] = p.values[0]; });
-        dayReadings.push(params);
+        dayReadings.push(ts.data);
       }
       // Also find closest to noon for weather symbol and wind
-      const diff = Math.abs(new Date(ts.validTime) - targetNoon);
+      const diff = Math.abs(new Date(ts.time) - targetNoon);
       if (diff < noonDiff) { noonDiff = diff; noonClosest = ts; }
     }
 
     if (!noonClosest) return null;
-    const noonParams = {};
-    noonClosest.parameters.forEach(p => { noonParams[p.name] = p.values[0]; });
+    const noonData = noonClosest.data;
 
     // Get high/low from all readings of the day, or fallback to noon reading
     let tempHigh, tempLow;
     if (dayReadings.length > 0) {
-      const temps = dayReadings.map(r => r.t).filter(t => t !== undefined);
+      const temps = dayReadings.map(r => r.air_temperature).filter(t => t !== undefined);
       tempHigh = Math.round(Math.max(...temps));
       tempLow = Math.round(Math.min(...temps));
     } else {
-      tempHigh = Math.round(noonParams.t || 0);
+      tempHigh = Math.round(noonData.air_temperature || 0);
       tempLow = tempHigh;
     }
 
     return {
       tempHigh: tempHigh,
       tempLow: tempLow,
-      wind: Math.round(noonParams.ws || 0),
-      wsymb2: noonParams.Wsymb2 || 1,
+      wind: Math.round(noonData.wind_speed || 0),
+      wsymb2: noonData.symbol_code || 1,
     };
   } catch (e) { console.warn('SMHI fetch failed:', e); return null; }
 }
