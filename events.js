@@ -3600,6 +3600,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/langfredagsfest-sixpack-mc-back-2026-04-03.jpg"
             },
             {
+                  "id": "paskrunda-svedala-bmw-d15-2026-04-03",
+                  "name": "Påskrunda från Svedala",
+                  "date": "2026-04-03",
+                  "dateEnd": "2026-04-03",
+                  "location": "Circle K, Svedala",
+                  "type": "Körning",
+                  "organizer": "BMW MC-klubben D15 Skåne",
+                  "description": "Grusrunda i lugnt tempo, ca 11 mil varav 30% grus. Tidsåtgång ca 2 timmar plus fikapaus vid Häckeberga. Start från Circle K i Svedala.",
+                  "descriptionFull": "Påskrunda med BMW MC-klubben D15 Skåne.\n\nStartar från Circle K i Svedala med tank och fika för en liten runda i lugnt tempo om 11 mil varav ca 30% grus.\n\nTidsåtgång ca 2 timmar plus fikapaus vid Häckeberga.\n\nLångfredagen den 3 april kl 11:00.",
+                  "backImage": "ads/paskrunda-svedala-back-2026-04-03.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/25359825407026620"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Svedala",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/25359825407026620",
+                  "region": "Skåne",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "tonder-traef-2026-04-04",
                   "name": "Tønder Træf",
                   "date": "2026-04-04",
@@ -3749,6 +3775,36 @@ const EVENTS_DATA = {
                   "region": "Stockholm",
                   "source": "facebook.com",
                   "backImage": "ads/overdooze-mc-barhang-back-2026-04-04.jpg"
+            },
+            {
+                  "id": "lingvalls-extraoppet-pask-2026-04-04",
+                  "name": "Extraöppet påsk",
+                  "date": "2026-04-04",
+                  "dateEnd": "2026-04-04",
+                  "location": "Kryddstigen 12, Gävle",
+                  "type": "Show",
+                  "organizer": "Lingvalls Motor",
+                  "description": "Lingvalls Motor har extraöppet på påskafton kl 10-14. Motorcyklar, fyrhjulingar mm. Varmt välkommen att besöka och se allt på lager.",
+                  "descriptionFull": "Extraöppet påsk hos Lingvalls Motor!\n\nVi vill fira påsken med våra fantastiska kunder. Därför har vi extraöppet på lördag (påskafton) kl 10-14.\n\nVarmt välkommen att besöka oss och se allt vi har på lager. Motorcyklar, fyrhjulingar mm.\n\nPlats: Kryddstigen 12, Gävle.",
+                  "backImage": "ads/lingvalls-extraoppet-pask-back-2026-04-04.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/700046696505278"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/LingvallsMotor"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kryddstigen+12+G%C3%A4vle",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/LingvallsMotor",
+                  "region": "Gävleborg",
+                  "source": "facebook.com"
             },
             {
                   "id": "pask-rundan-med-hakan-warnemyr-5-4-2026",
@@ -5377,6 +5433,36 @@ const EVENTS_DATA = {
                   "region": "Västra Götaland",
                   "source": "facebook.com",
                   "backImage": "ads/imrg-big-lake-varmonstning-back-2026-04-18.jpg"
+            },
+            {
+                  "id": "hd-open-house-trollhattan-2026-04-18",
+                  "name": "Harley-Davidson Open House",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Lextorpsvägen 997, Trollhättan",
+                  "type": "Show",
+                  "organizer": "Harley-Davidson Trollhättan",
+                  "description": "Öppet hus hos H-D Trollhättan! Provkör årets nyheter, förmånlig inbyteskampanj, deals på tillbehör och kläder. Korv med bröd. Lördag kl 10-14.",
+                  "descriptionFull": "Harley-Davidson Open House hos H-D Trollhättan!\n\nLördag 18 april kl 10:00-14:00.\n\nProvkör årets nyheter från Harley-Davidson och hitta din favorit!\n\nFörmånlig inbyteskampanj på motorcyklar. Grymma deals på tillbehör, servicedelar och kläder.\n\nVi bjuder på korv med bröd och skön stämning.\n\nPlats: Lextorpsvägen 997, 461 29 Trollhättan.",
+                  "backImage": "ads/hd-open-house-trollhattan-back-2026-04-18.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1487538302769713"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/HDTrollhattan"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Lextorpsv%C3%A4gen+997+Trollh%C3%A4ttan",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/HDTrollhattan",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com"
             },
             {
                   "id": "bsa-sverige-sulas-2026",
@@ -7129,8 +7215,8 @@ const EVENTS_DATA = {
                   "location": "CEC Motorcycles, Gamla Riksvägen 20, Kållered",
                   "type": "Show",
                   "organizer": "CEC Motorcycles",
-                  "description": "Öppet hus 1-2 maj hos CEC i Kållered i samband med Motorcykelns dag. Cross, enduro, MC, ATV och vattenskotrar. Fre och lör 10-16.",
-                  "descriptionFull": "Öppet hus hos CEC Motorcycles i Kållered i samband med Motorcykelns dag!\n\nDin helhetsleverantör av cross/enduro, MC, ATV och vattenskotrar.\n\nFredag 1 maj: 10:00-16:00\nLördag 2 maj: 10:00-16:00\n\nPlats: Gamla Riksvägen 20, Kållered.",
+                  "description": "Fira Motorcykelns dag med CEC i Kållered! Kampanjer, provkörningar och grymma deals. Flera stora märken på plats. Foodtruck och fika. Fre-lör 10-16.",
+                  "descriptionFull": "Fira Motorcykelns dag med CEC Motorcycles i Kållered!\n\nUnder två fullspäckade dagar kör vi öppet hus med allt som hör motorcykellivet till.\n\nFlera starka varumärken på plats: Bihr, Boove, CFMOTO, Ducati, FXR, Parts Europe, PSE Parts, SMC Väst, Stegra.io och Vartex.\n\nProvkörning av flera motorcyklar: Ducati, CFMOTO, KTM, Husqvarna mm.\n\nUnder dagarna hittar du även:\n- Foodtruck på plats\n- Kaffe och fika\n- Tävlingar och aktiviteter\n- Grymma deals på hela sortimentet\n- Specialerbjudanden på fordon\n\nFredag 1 maj: 10:00-16:00\nLördag 2 maj: 10:00-16:00\n\nPlats: Gamla Riksvägen 20, Kållered.",
                   "links": [
                         {
                               "label": "FB Event",
@@ -7461,6 +7547,36 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.facebook.com/events/1602973120884800",
                   "region": "Skåne",
+                  "source": "facebook.com"
+            },
+            {
+                  "id": "elgetraef-2026-05-01",
+                  "name": "Elgetræf 2026 - 50 års jubilæum",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-03",
+                  "location": "Tustrup Møllevej 2, 9520 Skørping, Danmark",
+                  "type": "Fest",
+                  "organizer": "Elgene MC",
+                  "description": "50 års jubileum! Danskt MC-træf i Skørping, Nordjylland. Tre dagar med fest, musik och gott humör. Entré 130 DKK inkl. morgenmad och välkomstdrink.",
+                  "descriptionFull": "Elgetræf 2026 - 50 års jubilæum!\n\n50 år på to hjul og vi er stadig ikke blevet klogere!\n\nFredag 1 maj:\n14:00 Trafikbyen Biler\n18:30 Aftensmad\nDJ Diesel spiller op til fest!\nDJ Bansen fortsettar festen\n\nLördag 2 maj:\n08:00 Morgenmad kl 10:30\n14:00 Pokerspinnens blind\nFest, sæm pølser med Herbo en.\n\nSöndag 3 maj:\n08:00 Morgenmad kl 10:30\nAlt overeer! Fortes på pladsen\n\nEntré: 130 DKK inkl. morgenmad og velkomstdrink. Patronen vinder. Hele tradeer og gode kollegnae. Vi lager kunstnare och MobilePay.\n\n419 intresserade på Facebook.\n\nPlats: Tustrup Møllevej 2, 9520 Skørping, Danmark.",
+                  "backImage": "ads/elgetraef-2026-back.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1169777545235892"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/ElgeneMC"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tustrup+M%C3%B8llevej+2+9520+Sk%C3%B8rping+Danmark",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1169777545235892",
+                  "region": "Danmark",
                   "source": "facebook.com"
             },
             {
@@ -7877,6 +7993,36 @@ const EVENTS_DATA = {
                   "region": "Halland",
                   "source": "facebook.com",
                   "backImage": "ads/peter-linden-back-2026-04-02.jpg"
+            },
+            {
+                  "id": "desmocenter-season-start-2026-05-02",
+                  "name": "Season Start 2026 och Motorcykelns Dag",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Karins väg 5, Upplands Väsby",
+                  "type": "Show",
+                  "organizer": "DesmoCenter",
+                  "description": "Fira Motorcykelns dag hos DesmoCenter i Upplands Väsby! Provkör Ducati-nyheter, rabatter upp till 90% på kläder och tillbehör. Fika bjuds. Kl 10-15.",
+                  "descriptionFull": "Season Start 2026 och Motorcykelns Dag hos DesmoCenter!\n\nDin Ducatibutik i Stockholm firar med en heldag fylld med motorcykelglädje.\n\nProvkör nya hojar! Testa årets hetaste modeller. Observera att svenskt körkort samt godkänd skyddsutrustning gäller.\n\nRabatter i butiken: Passa på att fynda allt från kläder och hjälmar till tillbehör. Rabatterade priser på allt bara denna dag, samt utvalda artiklar med upp till 90% rabatt!\n\nVi bjuder självklart på gofika!\n\nNär: Lördag 2 maj, kl 10-15.\nVar: Karins väg 5, Upplands Väsby.",
+                  "backImage": "ads/desmocenter-season-start-back-2026-05-02.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2147488876035234"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/DesmoCenter"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Karins+v%C3%A4g+5+Upplands+V%C3%A4sby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/DesmoCenter",
+                  "region": "Stockholm",
+                  "source": "facebook.com"
             },
             {
                   "id": "smc-vastmanland-avrostning-2026-05-03",
@@ -13735,7 +13881,7 @@ const EVENTS_DATA = {
                   "description": "9:e året! Välgörenhetskortege mot våld mot kvinnor och barn. Förare från hela Sverige samlas i Norrköping. Avgift 150 kr via Swish.",
                   "descriptionFull": "Orangeday MC Charityride 2026 arrangeras av Orange Day MC Charityride Sweden.\n\n9:e året i rad! En manifestation för en värld fri från våld mot kvinnor och barn. Startade 2018 av Maria Andersson och har vuxit till Sveriges största MC-kortege för välgörenhet.\n\nI samarbete med UN Women Sverige och FN:s Trust Fund samlas förare från hela landet för att visa sitt ställningstagande. Var tredje kvinna i världen har utsatts för fysiskt eller sexuellt våld. Den 25:e varje månad är utnämnd till Orange Day av FN:s generalsekreterare för att uppmärksamma detta.\n\nDen första kortegen gick från Helsingborg till Norrköping 25 maj 2018, med ca 1 500 förare. Sedan dess är det ett årligt arrangemang.\n\n2026 års kortege: Lördag 30 maj.\nAvgift: 150 kr per person via Swish 900 29 32.\nAnkomst 17:00 till Vasaparken, Norrköping.\nBar öppnar 18:30, scen 19:00-21:30.\nFri entré till Vasaparken för allmänheten.\n\nOfficiella rutter och regionala samlingsplatser meddelas via Facebook.\n\nwww.orangedaymc.com",
                   "frontImage": "ads/orangeday-charityride-front-2026-05-30.jpg",
-                  "backImage": "ads/orangeday-charityride-back2-2026-05-30.jpg",
+                  "backImage": "ads/orangeday-rutter-2026-back.jpg",
                   "links": [
                         {
                               "label": "FB Event",
@@ -13820,7 +13966,7 @@ const EVENTS_DATA = {
                   "type": "Körning",
                   "organizer": "Orange Day MC Stockholm",
                   "description": "Stockholms kortege mot mäns våld mot kvinnor och barn. Start Upplands Väsby kl 9, via Södertälje och Flen till Mantorp/Norrköping. 150 kr/person till UN Women.",
-                  "descriptionFull": "Orangeday MC 2026 Stockholmsavdelningen!\n\nKortege mot mäns våld mot kvinnor och barn.\n\nStart: Däckia, Bergkällavägen 20, Upplands Väsby.\nSamling kl 8:30, avfärd kl 9:00.\n\nStopp:\n1. Scania restaurang, Södertälje (ca 9:45)\n2. Lunch och tankning: Cirkel K, Flen (ca 11:30, avfärd 12:30)\n3. Rast (ca 13:40)\nMål: City Gross, Mantorp (ca 15:15)\n\nDärefter gemensam körning till Norrköping.\n\nKortegeavgift: 150 kr/person via Swish (123 900 29 32). Bidraget går oavkortat till UN Women Sverige.\n\nRoad Queen: Eva Persson.",
+                  "descriptionFull": "Orangeday MC 2026 Stockholmsrutten!\n\nKortege mot mäns våld mot kvinnor och barn.\n\nOfficiell rutt:\n1. Däckia, Bergkällavägen 20, Upplands Väsby. Avresa 9:00\n2. Scania Verkstadsvägen 11, Södertälje. Avresa 10:00\n3. Citel K (lunch, tankning), Kungsgatan 10, Flen. Avresa 12:30\n4. Stopp utmed vägen\n5. Mantorp, City Gross parkering. Avresa 16:10\n\nAnländer till Norrköping ca 17:00.\n\nKortegeavgift: 150 kr/person via Swish (900 29 32). Bidraget går oavkortat till UN Women Sverige.",
                   "links": [
                         {
                               "label": "FB Event",
@@ -13836,6 +13982,66 @@ const EVENTS_DATA = {
                   "region": "Stockholm",
                   "source": "facebook.com",
                   "backImage": "ads/orangeday-stockholm-back-2026-05-30.jpg"
+            },
+            {
+                  "id": "orangeday-helsingborg-2026-05-30",
+                  "name": "Orangeday MC Helsingborg",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Väla köpcentrum, Coop parkering, Helsingborg",
+                  "type": "Körning",
+                  "organizer": "Orange Day MC Charityride Sweden",
+                  "description": "Helsingborgs kortege mot mäns våld mot kvinnor och barn. Start kl 9 från Väla köpcentrum via Ljungby och Jönköping till Mantorp/Norrköping. 150 kr/person.",
+                  "descriptionFull": "Orangeday MC 2026 Helsingborgsrutten!\n\nKortege mot mäns våld mot kvinnor och barn.\n\nOfficiell rutt:\n1. Väla köpcentrum (Coop parkering), Helsingborg. Avresa 9:00\n2. Ljungby stop (MC Donalds, möjlighet till mat). Avresa 11:00\n3. Jönköping (A6 mellan Telia och ICON). Avresa 13:30\n4. Mantorp, City Gross parkering. Avresa 16:10\n\nAnländer till Norrköping ca 17:00.\n\nKl 19:00 öppnar vi Vasaparken Norrköping med scenprogram, mat och dryckestålt.\n\nKortegeavgift: 150 kr/person via Swish (900 29 32). Bidraget går oavkortat till UN Women Sverige.",
+                  "backImage": "ads/orangeday-rutter-2026-back.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/845106301845419"
+                        },
+                        {
+                              "label": "orangedaymc.com",
+                              "url": "https://orangedaymc.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4la+k%C3%B6pcentrum+Helsingborg",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://orangedaymc.com",
+                  "region": "Skåne",
+                  "source": "facebook.com"
+            },
+            {
+                  "id": "orangeday-borlange-2026-05-30",
+                  "name": "Orangeday MC Borlänge",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Maxim parkering, Borlänge",
+                  "type": "Körning",
+                  "organizer": "Orange Day MC Charityride Sweden",
+                  "description": "Borlänges kortege mot mäns våld mot kvinnor och barn. Start kl 8:15 via Avesta, Skultuna och Örebro till Mantorp/Norrköping. 150 kr/person.",
+                  "descriptionFull": "Orangeday MC 2026 Borlängerutten!\n\nKortege mot mäns våld mot kvinnor och barn.\n\nOfficiell rutt:\n1. Maxim parkering, Borlänge. Frukost från IKF från 7:00. Avresa 8:15\n2. Avesta Dalahästen Lastbilsparkeringen. Avresa 9:30\n3. Skultuna, fika och toabesök. Avresa 11:30\n4. Örebro Bröderna, möjlighet till lunch. Avresa 13:30\n5. Mantorp, City Gross parkering. Avresa 16:10\n\nAnländer till Norrköping ca 17:00.\n\nKortegeavgift: 150 kr/person via Swish (900 29 32). Bidraget går oavkortat till UN Women Sverige.",
+                  "backImage": "ads/orangeday-rutter-2026-back.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/845106301845419"
+                        },
+                        {
+                              "label": "orangedaymc.com",
+                              "url": "https://orangedaymc.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Maxim+parkering+Borl%C3%A4nge",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://orangedaymc.com",
+                  "region": "Dalarna",
+                  "source": "facebook.com"
             },
             {
                   "id": "orangeday-norrkoping-2026-05-30",
