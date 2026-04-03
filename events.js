@@ -9643,6 +9643,36 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "tvahjulsdagen-vannas-2026-05-10",
+                  "name": "Tvåhjulsdagen",
+                  "date": "2026-05-10",
+                  "dateEnd": "2026-05-10",
+                  "location": "Vännäs Motormuseum, Lägervägen 3, Vännäs",
+                  "type": "Träff",
+                  "organizer": "Vännäs Motormuseum",
+                  "description": "Dags att rulla ut tvåhjulingarna! Ta en sväng till Vännäs Motormuseum, käka en korv och snacka hoj. Alla MC och mopeder oavsett årsmodell välkomna. Kl 11-14.",
+                  "descriptionFull": "Tvåhjulsdagen på Vännäs Motormuseum!\n\nDags att rulla ut tvåhjulingarna, ta en sväng till Vännäs Motormuseum, käka en korv och snacka hoj!\n\nOch du! Alla MC och mopeder oavsett årsmodell är såklart välkomna.\n\nMuseet håller öppet, kaffe och korvförsäljning.\n\nSöndag 10 maj kl 11-14.\n\nVännäs Motormuseum\nLägervägen 3\nTel: 070-660 66 88\nwww.vannasmotormuseum.se",
+                  "backImage": "ads/tvahjulsdagen-vannas-back-2026-05-10.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/749685834764634"
+                        },
+                        {
+                              "label": "vannasmotormuseum.se",
+                              "url": "https://www.vannasmotormuseum.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4nn%C3%A4s+Motormuseum+L%C3%A4gerv%C3%A4gen+3+V%C3%A4nn%C3%A4s",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.vannasmotormuseum.se",
+                  "region": "Västerbotten",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "doa-kvallskörning-nacka-2026-05-11",
                   "name": "DOA - Kvällskörning Nacka",
                   "date": "2026-05-11",
