@@ -28,8 +28,8 @@
 <meta property="og:url" content="https://druk.se/">
 <meta property="og:title" content="MC Kalender 2026 - MC Kalendern | MC-träffar i Sverige">
 <meta property="og:description" content="MC Kalender 2026 med mer än tusen MC-evenemang i Sverige. Träffar, mässor, körningar, racing och fester. Hitta MC-träff idag.">
-<meta property="og:image" content="https://druk.se/og-image.jpg?v=2">
-<meta property="og:image:alt" content="MC Kalendern - Motorcyklister på väg genom svenskt landskap">
+<meta property="og:image" content="https://druk.se/og-image-badge.jpg?v=3">
+<meta property="og:image:alt" content="Sveriges Största MC-Kalender - MC Kalendern 2026">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="sv_SE">
@@ -39,7 +39,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MC Kalender 2026 - MC Kalendern | MC-träffar i Sverige">
 <meta name="twitter:description" content="MC Kalender 2026 med mer än tusen MC-evenemang i Sverige. Träffar, mässor, körningar, racing och fester. Hitta MC-träff idag.">
-<meta name="twitter:image" content="https://druk.se/og-image.jpg?v=2">
+<meta name="twitter:image" content="https://druk.se/og-image-badge.jpg?v=3">
 
 <script src="events.js"></script>
 <style>
@@ -126,21 +126,24 @@
     text-transform: uppercase; letter-spacing: 1px;
   }
   .hero-badge {
-    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+  }
+  .hero-badge img {
+    width: 70px;
+    height: 70px;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
   }
   @media (min-width: 900px) {
     .hero-badge {
-      display: block;
-      position: absolute;
       right: max(10px, calc((100% - 1100px) / 2 - 8px));
-      top: 50%;
-      transform: translateY(-50%);
-      z-index: 3;
     }
     .hero-badge img {
       width: 150px;
       height: 150px;
-      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
     }
   }
 
@@ -1085,12 +1088,21 @@
   "@type": "WebSite",
   "name": "MC Kalendern",
   "url": "https://druk.se/",
-  "description": "Hitta MC-träffar i Sverige 2026. Närmare tusen MC-evenemang: träffar, mässor, körningar, racing, fester och trackdays. Komplett MC-kalender med alla MC-träffar idag och kommande.",
+  "description": "Hitta MC-träffar i Sverige 2026. Mer än tusen MC-evenemang: träffar, mässor, körningar, racing, fester och trackdays. Komplett MC-kalender med alla MC-träffar idag och kommande.",
   "inLanguage": "sv",
+  "image": "https://druk.se/ads/mc-kalender-google-square.jpg",
+  "thumbnailUrl": "https://druk.se/ads/mc-kalender-google-square.jpg",
   "publisher": {
     "@type": "Organization",
     "name": "MC Kalendern",
-    "url": "https://druk.se/"
+    "url": "https://druk.se/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://druk.se/ads/mc-kalender-google-square.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    "image": "https://druk.se/ads/mc-kalender-google-square.jpg"
   }
 }
 </script>
@@ -1101,8 +1113,7 @@
 <header class="hero">
   <div class="hero-bg"></div>
   <div class="hero-overlay"></div>
-  <div class="hero-badge"><img src="ads/wreath-badge.png" alt="Sveriges Största MC-Kalendern - Utmärkelse 2026" width="150" height="150"></div>
-  <img src="ads/mc-kalender-google-square.jpg" alt="MC Kalender 2026 - Sveriges Största MC-Kalender med alla MC-träffar och evenemang" width="800" height="800" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);opacity:0.01;">
+  <div class="hero-badge"><img src="ads/mc-kalender-google-square.jpg" alt="Sveriges Största MC-Kalender 2026 - MC Kalendern logotyp med motorcyklist och svensk flagga" width="150" height="150"></div>
   <div class="hero-content">
     <h1 class="hero-logo">MC <span>Kalendern</span></h1>
     <div class="hero-sub">MC-träffar och MC-evenemang i Sverige 2026</div>
@@ -2330,7 +2341,7 @@ function injectEventSchema() {
       "@type": "Organization",
       "name": e.organizer || ""
     },
-    "image": e.frontImage ? "https://druk.se/" + e.frontImage : "https://druk.se/og-image.jpg",
+    "image": e.frontImage ? "https://druk.se/" + e.frontImage : "https://druk.se/ads/mc-kalender-google-square.jpg",
     "offers": {
       "@type": "Offer",
       "url": e.link || "https://druk.se/",
