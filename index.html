@@ -1244,7 +1244,7 @@
 
 <!-- ========== GRID ========== -->
 <main class="main-content">
-  <div class="grid" id="grid"></div>
+  <div class="grid" id="grid"><div class="no-results"><div class="no-results-icon">&#x23F3;</div><div class="no-results-text">Laddar evenemang...</div></div></div>
   <div class="tipsa-btn-wrapper">
     <button class="tipsa-btn" id="tipsaBtn">Tipsa om ett evenemang</button>
   </div>
@@ -1340,6 +1340,27 @@
 </footer>
 
 <script>
+// ========== SAFETY GUARD ==========
+if (typeof EVENTS_DATA === 'undefined' || !Array.isArray((EVENTS_DATA || {}).events)) {
+  var EVENTS_DATA = { events: [], lastUpdated: '' };
+  document.addEventListener('DOMContentLoaded', () => {
+    const grid = document.getElementById('grid');
+    if (grid) grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x26A0;</div><div class="no-results-text">Kunde inte ladda evenemang. Ladda om sidan.</div></div>';
+  });
+}
+
+// ========== HELPERS: date + storage ==========
+function getTodayStr() {
+  const d = new Date();
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+function safeGetItem(key, fallback) {
+  try { return localStorage.getItem(key); } catch { return null; }
+}
+function safeSetItem(key, value) {
+  try { localStorage.setItem(key, value); } catch { /* storage full or disabled */ }
+}
+
 // ========== CONFIG ==========
 const MONTHS_SV = ['Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'];
 const MONTHS_SHORT = ['JAN','FEB','MAR','APR','MAJ','JUN','JUL','AUG','SEP','OKT','NOV','DEC'];
@@ -1372,7 +1393,9 @@ let currentMonth = 'all';
 let showPast = false;
 let searchQuery = '';
 let mapCityFilter = ''; // set when user clicks a map dot
-let favorites = JSON.parse(localStorage.getItem('mcFavorites') || '[]');
+let favorites;
+try { favorites = JSON.parse(safeGetItem('mcFavorites') || '[]'); } catch { favorites = []; }
+if (!Array.isArray(favorites)) favorites = [];
 
 // ========== HELPERS ==========
 function buildBackHTML(cardId, ev) {
@@ -1473,7 +1496,7 @@ function toggleFavorite(id) {
   const idx = favorites.indexOf(id);
   if (idx >= 0) favorites.splice(idx, 1);
   else favorites.push(id);
-  localStorage.setItem('mcFavorites', JSON.stringify(favorites));
+  safeSetItem('mcFavorites', JSON.stringify(favorites));
   // Update only the affected card instead of re-rendering everything
   const card = document.querySelector(`.card[data-id="${id}"]`);
   if (card) {
@@ -1634,7 +1657,7 @@ function countOrganizers(events) {
   return orgs.size;
 }
 function updateStats() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = getTodayStr();
   const all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
   const upcoming = all.filter(e => (e.dateEnd || e.date) >= today);
   document.getElementById('statEvents').textContent = all.length;
@@ -1853,7 +1876,7 @@ const _eventMap = new Map(); // Store event data for deferred back-side renderin
 
 function getWeatherCache() {
   try {
-    const raw = localStorage.getItem(WEATHER_CACHE_KEY);
+    const raw = safeGetItem(WEATHER_CACHE_KEY);
     if (!raw) return {};
     const cache = JSON.parse(raw);
     if (cache._timestamp && (Date.now() - cache._timestamp > WEATHER_CACHE_TTL)) {
@@ -1866,7 +1889,7 @@ function getWeatherCache() {
 
 function saveWeatherCache(cache) {
   cache._timestamp = Date.now();
-  localStorage.setItem(WEATHER_CACHE_KEY, JSON.stringify(cache));
+  safeSetItem(WEATHER_CACHE_KEY, JSON.stringify(cache));
 }
 
 function findCoords(location) {
@@ -2001,8 +2024,14 @@ function render() {
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
 
-  const today = new Date().toISOString().split('T')[0];
-  const allEvents = EVENTS_DATA.events.filter(e => !e._canary).sort((a, b) => new Date(a.date) - new Date(b.date));
+  const today = getTodayStr();
+  if (!render._sorted) {
+    render._sorted = EVENTS_DATA.events.filter(e => !e._canary).sort((a, b) => a.date.localeCompare(b.date));
+    render._sorted.forEach(e => {
+      e._searchIndex = [e.name, e.organizer, e.location, e.description, Array.isArray(e.region) ? e.region.join(' ') : (e.region || '')].join(' ').toLowerCase();
+    });
+  }
+  const allEvents = render._sorted;
 
   // Separate AD cards from regular events (ads bypass all filters)
   const adCards = allEvents.filter(e => e._ad);
@@ -2066,16 +2095,10 @@ function render() {
   }
   if (!showPast) events = events.filter(e => (e.dateEnd || e.date) >= today);
 
-  // Search
+  // Search (uses pre-computed _searchIndex for performance)
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
-    events = events.filter(e =>
-      (e.name || '').toLowerCase().includes(q) ||
-      (e.organizer || '').toLowerCase().includes(q) ||
-      (e.location || '').toLowerCase().includes(q) ||
-      (e.description || '').toLowerCase().includes(q) ||
-      (Array.isArray(e.region) ? e.region.join(' ') : (e.region || '')).toLowerCase().includes(q)
-    );
+    events = events.filter(e => e._searchIndex && e._searchIndex.includes(q));
   }
 
   // Update event map with filtered events (before city filter, so all dots stay visible)
@@ -2120,7 +2143,7 @@ function render() {
   document.getElementById('searchCount').textContent = realCount + ' evenemang';
 
   if (events.length === 0) {
-    grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x1F3CD;</div><div class="no-results-text">Inga evenemang hittades. Prova andra filter eller sok igen.</div></div>';
+    grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x1F3CD;</div><div class="no-results-text">Inga evenemang hittades. Prova andra filter eller sök igen.</div></div>';
     return;
   }
 
@@ -2311,53 +2334,48 @@ function render() {
 
 // ========== JSON-LD EVENT SCHEMA ==========
 function injectEventSchema() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = getTodayStr();
   const futureEvents = EVENTS_DATA.events
     .filter(e => !e._canary && !e._ad && (e.dateEnd || e.date) >= today)
-    .sort((a, b) => new Date(a.date) - new Date(b.date));
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .slice(0, 150); // Limit to 150 events to stay under Google's 200K char limit
 
-  const events = futureEvents.map(e => ({
+  const schema = {
     "@context": "https://schema.org",
-    "@type": "Event",
-    "name": e.name,
-    "startDate": e.date,
-    "endDate": e.dateEnd || e.date,
-    "location": {
-      "@type": "Place",
-      "name": e.location || "Se evenemang",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": e.location || "",
-        "addressCountry": "SE"
-      }
-    },
-    "description": e.descriptionFull ? e.descriptionFull.replace(/\n/g, ' ').substring(0, 500) : (e.description || ''),
-    "organizer": {
-      "@type": "Organization",
-      "name": e.organizer || "",
-      "url": e.link || "https://druk.se/"
-    },
-    "performer": {
-      "@type": "Organization",
-      "name": e.organizer || ""
-    },
-    "image": e.frontImage ? "https://druk.se/" + e.frontImage : "https://druk.se/ads/mc-kalender-google-square.jpg",
-    "offers": {
-      "@type": "Offer",
-      "url": e.link || "https://druk.se/",
-      "price": "0",
-      "priceCurrency": "SEK",
-      "validFrom": e.date,
-      "availability": "https://schema.org/InStock"
-    },
-    "url": e.link || "https://druk.se/",
-    "eventStatus": "https://schema.org/EventScheduled",
-    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
-  }));
+    "@graph": futureEvents.map(e => {
+      const loc = (e.location || '').split(',').pop().trim() || e.location || '';
+      return {
+        "@type": "Event",
+        "name": e.name,
+        "startDate": e.date + "T10:00:00+02:00",
+        "endDate": (e.dateEnd || e.date) + "T23:59:00+02:00",
+        "location": {
+          "@type": "Place",
+          "name": e.location || e.name,
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": loc,
+            "addressRegion": Array.isArray(e.region) ? e.region[0] : (e.region || ''),
+            "addressCountry": "SE"
+          }
+        },
+        "description": e.descriptionFull ? e.descriptionFull.replace(/\n/g, ' ').substring(0, 500) : (e.description || ''),
+        "organizer": {
+          "@type": "Organization",
+          "name": e.organizer || "",
+          "url": e.link || "https://druk.se/"
+        },
+        "image": e.frontImage ? "https://druk.se/" + e.frontImage : "https://druk.se/ads/mc-kalender-google-square.jpg",
+        "url": e.link || "https://druk.se/",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+      };
+    })
+  };
 
   const script = document.createElement('script');
   script.type = 'application/ld+json';
-  script.textContent = JSON.stringify(events);
+  script.textContent = JSON.stringify(schema);
   document.head.appendChild(script);
 }
 
@@ -2375,9 +2393,9 @@ function generateICS(events) {
   ];
   events.forEach(e => {
     const start = e.date.replace(/-/g, '');
-    const endDate = new Date(e.dateEnd || e.date);
+    const endDate = new Date((e.dateEnd || e.date) + 'T00:00:00');
     endDate.setDate(endDate.getDate() + 1);
-    const end = endDate.toISOString().slice(0, 10).replace(/-/g, '');
+    const end = endDate.getFullYear() + String(endDate.getMonth() + 1).padStart(2, '0') + String(endDate.getDate()).padStart(2, '0');
     const esc = s => (s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
     const fold = line => {
       if (line.length <= 75) return line;
@@ -2462,9 +2480,7 @@ function downloadSingleICS(eventId) {
 }
 
 function downloadAllFavICS() {
-  const favs = JSON.parse(localStorage.getItem('mcFavorites') || '[]');
-  const allEvents = EVENTS_DATA.events;
-  const favEvents = favs.map(id => allEvents.find(e => e.id === id)).filter(Boolean);
+  const favEvents = favorites.map(id => EVENTS_DATA.events.find(e => e.id === id)).filter(Boolean);
   if (!favEvents.length) return;
   const ics = generateICS(favEvents);
   const now = new Date();
@@ -2538,7 +2554,7 @@ function initEventMap() {
   // Apply saved visibility (only hide on mobile; desktop always starts visible)
   const isMobile = window.innerWidth < 600;
   if (isMobile) {
-    mapVisible = localStorage.getItem('mc_map_visible') === 'true'; // default hidden on mobile
+    mapVisible = safeGetItem('mc_map_visible') === 'true'; // default hidden on mobile
   } else {
     mapVisible = true; // always visible on desktop
   }
@@ -2556,14 +2572,14 @@ function toggleEventMap() {
   mapVisible = !mapVisible;
   section.classList.toggle('collapsed', !mapVisible);
   btn.textContent = mapVisible ? 'Dölj karta' : 'Visa karta';
-  localStorage.setItem('mc_map_visible', mapVisible);
+  safeSetItem('mc_map_visible', mapVisible);
   if (mapVisible && eventMap) {
     setTimeout(() => eventMap.invalidateSize(), 100);
   }
 }
 
 function updateEventMap(filteredEvents) {
-  if (!eventMap) return;
+  if (!eventMap || !mapVisible) return;
 
   // Clear old markers
   mapMarkers.forEach(m => eventMap.removeLayer(m));
@@ -2635,10 +2651,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   buildRegionFilter();
   updateStats();
-  initEventMap();
   render();
   updateFab();
-  injectEventSchema();
+  try { initEventMap(); } catch(e) { /* Leaflet not loaded — map disabled */ }
+  requestIdleCallback ? requestIdleCallback(() => injectEventSchema()) : setTimeout(injectEventSchema, 0);
 
   // Load weather data from SMHI, then re-render cards with weather strips
   loadAllWeather().then(() => { render(); });
@@ -2835,7 +2851,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const scrollTopBtn = document.getElementById('scrollTop');
   window.addEventListener('scroll', () => {
     scrollTopBtn.classList.toggle('visible', window.scrollY > 600);
-  });
+  }, { passive: true });
   scrollTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
