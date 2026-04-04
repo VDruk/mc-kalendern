@@ -66,7 +66,6 @@
     --type-fest: #e11d48;
     --radius: 12px;
     --radius-sm: 8px;
-    --shadow: 0 2px 12px rgba(0,0,0,0.06);
     --transition: 0.2s ease;
   }
 
@@ -199,7 +198,6 @@
     padding: 14px 16px;
     display: flex; flex-direction: row; align-items: center;
   }
-  .filter-left-spacer { display: none; }
   .filter-dropdowns { display: flex; gap: 8px; align-items: center; flex: 1; }
   .filter-right-col {
     display: flex; flex-direction: column;
@@ -227,7 +225,6 @@
 
   /* Desktop/mobile filter row visibility */
   .filter-row-mobile { display: none; }
-  .filter-row-bottom { display: flex; }
 
   /* Region & time selects */
   .filter-select {
@@ -749,20 +746,6 @@
   }
   .back-btn:hover { color: var(--accent-hover); }
 
-  /* ========== AD CARDS ========== */
-  .ad-card {
-    border: none;
-    padding: 0 !important;
-    cursor: pointer;
-    border-radius: var(--radius);
-    overflow: hidden;
-  }
-  .ad-card:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.12); }
-  .ad-card img {
-    width: 100%; height: 100%;
-    object-fit: contain; display: block;
-    border-radius: var(--radius);
-  }
   /* Row break: prevents Type 2 poster and Type 3 ad cards from sharing a row */
   .grid-row-break {
     grid-column: 1 / -1;
@@ -979,7 +962,6 @@
     .hero-stat-label { font-size: 9px; letter-spacing: 0.5px; }
 
     .filters-inner { padding: 10px 12px; flex-direction: column; align-items: stretch; gap: 8px; }
-    .filter-left-spacer { display: none; }
     .filter-dropdowns { display: none; }
     .filter-right-col { flex: none; flex-direction: row; justify-content: flex-end; order: 2; }
     .filter-right-col .share-btns { gap: 4px; }
@@ -1162,7 +1144,6 @@
 <!-- ========== FILTERS ========== -->
 <div class="filters-wrapper" id="filtersWrapper">
   <div class="filters-inner">
-    <div class="filter-left-spacer"></div>
     <div class="filter-dropdowns">
       <button class="type-btn active" data-type="all">Alla</button>
       <select class="filter-select" id="regionFilter" aria-label="Filtrera efter region">
@@ -1551,7 +1532,6 @@ function buildRegionFilter() {
   document.getElementById('statRegions').textContent = activeDistricts.length;
 
   // Populate month filter
-  const MONTH_NAMES = ['','Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'];
   const monthCounts = {};
   EVENTS_DATA.events.filter(e => !e._canary).forEach(e => {
     const m = parseInt(e.date.split('-')[1], 10);
@@ -1561,7 +1541,7 @@ function buildRegionFilter() {
   Object.keys(monthCounts).sort((a, b) => a - b).forEach(m => {
     const opt = document.createElement('option');
     opt.value = m;
-    opt.textContent = MONTH_NAMES[m];
+    opt.textContent = MONTHS_SV[m - 1];
     monthSel.appendChild(opt);
   });
 
@@ -1719,7 +1699,7 @@ const LOCATION_COORDS = {
   'laholm': { lat: 56.51, lon: 13.04 }, 'knäred': { lat: 56.55, lon: 13.38 }, 'leksand': { lat: 61.05, lon: 15.03 },
   'lidingö': { lat: 59.37, lon: 18.43 }, 'limhamn': { lat: 55.58, lon: 13.10 },
   'lindesberg': { lat: 59.61, lon: 15.20 }, 'ljungby': { lat: 57.18, lon: 14.87 },
-  'lycksele': { lat: 64.60, lon: 18.75 }, 'vännäs': { lat: 63.91, lon: 19.76 }, 'markaryd': { lat: 57.42, lon: 14.50 },
+  'vännäs': { lat: 63.91, lon: 19.76 },
   'moheda': { lat: 56.90, lon: 14.82 }, 'mullsjö': { lat: 57.92, lon: 13.88 }, 'kyrkekvarn': { lat: 57.92, lon: 13.88 }, 'mönsterås': { lat: 57.45, lon: 16.07 },
   'mörarp': { lat: 55.62, lon: 13.39 }, 'mörbylånga': { lat: 56.53, lon: 16.67 },
   'nacka': { lat: 59.31, lon: 18.34 }, 'norsjö': { lat: 64.87, lon: 20.81 },
@@ -1808,7 +1788,6 @@ const LOCATION_COORDS = {
   'åminne': { lat: 57.63, lon: 18.62 },
   'österrike': { lat: 46.58, lon: 13.90 },
   'stenö': { lat: 61.25, lon: 17.00 },
-  'västra götaland': { lat: 57.71, lon: 12.00 },
   'vidöstern': { lat: 57.07, lon: 13.87 },
   'åland': { lat: 60.10, lon: 19.93 },
   'kristiansand': { lat: 58.15, lon: 8.00 },
@@ -1860,7 +1839,6 @@ const WEATHER_CACHE_KEY = 'mc_weather_cache_v4';
 const WEATHER_CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 let weatherData = {};
 const _eventMap = new Map(); // Store event data for deferred back-side rendering
-let weatherLoaded = false;
 
 function getWeatherCache() {
   try {
@@ -1979,7 +1957,6 @@ async function loadAllWeather() {
     if (i + 5 < fetchPromises.length) await new Promise(r => setTimeout(r, 200));
   }
   saveWeatherCache(cache);
-  weatherLoaded = true;
 }
 
 function getWeatherStripHTML(eventId, eventDate) {
@@ -2137,7 +2114,7 @@ function render() {
   }
 
   let renderMonth = '';
-  let lastCardType = ''; // 'poster' (Type 2 with frontImage, no _ad), 'ad' (_ad with frontImage), 'text', 'banner'
+  let lastCardType = ''; // 'poster' (Type 2 with frontImage, no _ad), 'ad' (_ad with frontImage), 'text'
   let supportInserted = false;
 
   // Progressive rendering: mobile gets "Visa fler" button, desktop renders all at once
