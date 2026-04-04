@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-03",
+      "lastUpdated": "2026-04-04",
       "events": [
             {
                   "id": "sponsor-bsa-motorcycles-ad-2026",
@@ -4617,6 +4617,10 @@ const EVENTS_DATA = {
                   "descriptionFull": "IMRG Big Lake håller upptaktsmöte för hojsäsongen 2026.\n\nProgram:\n- Info om IMRG Big Lake och MC-Konsult samarbete\n- Medlemskap\n- Media, hemsida Big Lake (FB, Köp och sälj FB, Instagram)\n- Hojsäsongen 2026 program\n- Försäljning av IMRG Big Lakes klädutbud och tygmärken\n- Vi bjuder på fika\n\nAnmälan krävs via mail: urbanknutsson55@gmail.com\n\nTid: kl 11:00\nPlats: MC-Konsult i Lidköping.",
                   "links": [
                         {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1736392417718937"
+                        },
+                        {
                               "label": "Facebook",
                               "url": "https://www.facebook.com/urban.knutsson"
                         },
@@ -4626,7 +4630,7 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ],
-                  "link": "https://www.facebook.com/urban.knutsson",
+                  "link": "https://www.facebook.com/events/1736392417718937",
                   "region": "Västra Götaland",
                   "source": "facebook.com",
                   "backImage": "ads/imrg-big-lake-uppstart-back-2026-04-11.jpg"
@@ -5474,6 +5478,32 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "goodguys-mc-avrostning-arjang-2026-04-18",
+                  "name": "Avrostning hos Goodguys MC",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Brännaregatan 6, 672 31 Årjäng",
+                  "type": "Träff",
+                  "organizer": "Goodguys Mc",
+                  "description": "Säsongens avrostning hos Goodguys MC i Årjäng. Undanmanöver, balansträning och inbromsning på 3 banor samt bromssträcka. Ingen prestation krävs. Kaffe och fika säljs.",
+                  "descriptionFull": "Nu drar sesongen igång igen och det är dags för årets avrostning!\n\nVi kommer att köra lite undanmanöver, balansträning och inbromsning. Vi sätter upp 3 olika banor samt en bromssträcka.\n\nKom ihåg att detta inte är någon uppkörning där du måste prestera. Det är enbart för att borsta bort lite rost som har samlat på sig i kroppen under vintern.\n\nOm vädret är bra avslutar vi med en liten tur på lite olika vägar (inte grus).\n\nKlubbhuset kommer att vara öppet för toalettbesök. Vi kommer även ha försäljning av kaffe och fika.\n\nVälkommen!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2425330184545679"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Brännaregatan+6+Årjäng",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/2425330184545679",
+                  "region": "Värmland",
+                  "source": "facebook.com",
+                  "backImage": "ads/goodguys-mc-avrostning-back-2026-04-18.jpg"
+            },
+            {
                   "id": "bsa-sverige-sulas-2026",
                   "name": "BSA hos Sulas MC",
                   "date": "2026-04-19",
@@ -6154,6 +6184,32 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/condiosmc/",
                   "region": "Jönköping",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "bikezone-sasongspremiar-malmo-2026-04-25",
+                  "name": "Säsongsspremiär hos Bike Zone",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "location": "Krusegatan 23, 212 25 Malmö",
+                  "type": "Träff",
+                  "organizer": "Bike Zone Malmö & ClubStyle.Sweden",
+                  "description": "Bike Zone Malmö tillsammans med ClubStyle.Sweden bjuder in till säsongsspremiär. Snygga hojar, härlig stämning och skönt häng med likasinnade. Korv och dricka bjuds. Kl 10-15.",
+                  "descriptionFull": "Bike Zone Malmö tillsammans med ClubStyle.Sweden bjuder in till en grym säsongsspremiär! Alla är välkomna!\n\nDet blir en dag fylld med härlig stämning, snygga hojar och skönt häng med likasinnade.\n\nVi bjuder på korv och dricka till alla som kommer.\n\nTa med dina vänner och visa din hoj!\n\nDatum: Lördag 25 april\nTid: 10:00-15:00\nPlats: Bike Zone Malmö, Krusegatan 23, 212 25 Malmö.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo/?fbid=122178683828622361&set=a.122114305178622361"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Krusegatan+23+Malmö",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=122178683828622361&set=a.122114305178622361",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/bikezone-sasongspremiar-back-2026-04-25.jpg"
             },
             {
                   "id": "bmw-classic-veteranmarknad-2026",
@@ -7870,6 +7926,36 @@ const EVENTS_DATA = {
                   "backImage": "ads/motorcykelns-dag-back-2026-05-02.jpg",
                   "region": "Sverige",
                   "source": "mcbranschen.se"
+            },
+            {
+                  "id": "motorcykelns-dag-alternativ1-kalmar-2026-05-02",
+                  "name": "Motorcykelns Dag hos Alternativ 1",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Södra vägen 66, 392 45 Kalmar",
+                  "type": "Show",
+                  "organizer": "Alternativ 1 Motorcyklar Kalmar",
+                  "description": "Fira Motorcykelns dag hos Alternativ 1 i Kalmar! Provkörningar, tävlingar, erbjudanden och världsberömda kroppkakor från Arontorp. Foodtruck på plats. Kl 10-14.",
+                  "descriptionFull": "Kom och fira Motorcykelns dag hos oss!\n\nProvkörningar, tävlingar, erbjudanden och inte minst världsberömda kroppkakor från Arontorp för dig som blir hungrig! Foodtruck på plats!\n\nTid: Lördag 2 maj, kl 10:00-14:00\nPlats: Södra vägen 66, 392 45 Kalmar.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/929010159750762"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=100063651364928"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Södra+vägen+66+Kalmar",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/929010159750762",
+                  "region": "Kalmar",
+                  "source": "facebook.com",
+                  "backImage": "ads/motorcykelns-dag-kalmar-back-2026-05-02.jpg"
             },
             {
                   "id": "poker-run-kak-2026-05-02",
@@ -18509,6 +18595,31 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "keff-mc-wisby-summer-party-2026-07-03",
+                  "name": "Keff MC Wisby Summer Party",
+                  "date": "2026-07-03",
+                  "dateEnd": "2026-07-04",
+                  "location": "Visby, Gotland",
+                  "type": "Fest",
+                  "organizer": "Keff MC",
+                  "description": "Summer Party med Keff MC på Gotland. Två dagar med fest och musik av Mojo Kings. 100 kr/dag. Kontakt: info@keffmc.se.",
+                  "descriptionFull": "Keff MC Wisby bjuder in till Summer Party!\n\nTvå dagar med fest, musik och sommarstämning på Gotland.\n\nMusik: Mojo Kings\nPris: 100 SEK/dag\n\nDatum: 3-4 juli 2026\nPlats: Visby, Gotland\n\nKontakt: info@keffmc.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo/?fbid=26935437459373762&set=gm.26487438094242145&idorvanity=667542576658384"
+                        },
+                        {
+                              "label": "keffmc.se",
+                              "url": "https://keffmc.se"
+                        }
+                  ],
+                  "link": "https://keffmc.se",
+                  "region": "Gotland",
+                  "source": "facebook.com",
+                  "backImage": "ads/keff-mc-wisby-summer-party-back-2026-07-03.jpg"
             },
             {
                   "id": "45an-hoting-2026",
