@@ -14277,6 +14277,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/orangeday-norrkoping-back-2026-05-30.jpg"
             },
             {
+                  "id": "orangeday-jmc-jonkoping-2026-05-30",
+                  "name": "Orange Day Ride JMC",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Asecs, Jönköping",
+                  "type": "Körning",
+                  "organizer": "JMC Samåkning Småland",
+                  "description": "JMC:s kortege för Orange Day MC. Manifestation mot mäns våld mot kvinnor och barn. Rutter sammanstrålar i Norrköping. 150-250 kr, allt går till UN Women. Alla hojar välkomna.",
+                  "descriptionFull": "Orange Day MC är en årlig motorcykelkortege i Sverige som arrangeras för att ta ställning mot mäns våld mot kvinnor och flickor. Deltagaravgifterna går till UN Women Sverige.\n\nDatum: Lördag 30 maj 2026, kl 13:00\nStart: Asecs, Jönköping\nMål: Norrköping (Vasaparken)\n\nRutter utgår från flera platser i Sverige, som exempelvis Stockholm, Helsingborg och Borlänge, för att sedan sammanstråla i Norrköping.\n\nAvgift: 150-250 kr (går oavkortat till välgörenhet)\nKlädsel: Bär något orange för kampanjen \"Orange the World\"\nHoj: Alla typer av motorcyklar och förare är välkomna, oavsett klubbtillhörighet eller märke.\n\nArrangörer: Martin Lennings och JMC Samåkning Småland.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1293087542917423"
+                        },
+                        {
+                              "label": "orangedaymc.com",
+                              "url": "https://orangedaymc.com"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1293087542917423",
+                  "region": "Jönköping",
+                  "source": "facebook.com",
+                  "backImage": "ads/orangeday-jmc-jonkoping-back-2026-05-30.jpg",
+                  "organizerIcon": "clubs/normalized/jmc.png"
+            },
+            {
                   "id": "bmw-d15-mats-och-bodils-tur-2026",
                   "name": "D15 Mats och Bodils tur",
                   "date": "2026-05-31",
