@@ -128,17 +128,18 @@
   .hero-badge {
     position: absolute;
     right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 8px;
     z-index: 3;
   }
   .hero-badge img {
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
   }
   @media (min-width: 900px) {
     .hero-badge {
+      top: 50%;
+      transform: translateY(-50%);
       right: max(10px, calc((100% - 1100px) / 2 - 8px));
     }
     .hero-badge img {
