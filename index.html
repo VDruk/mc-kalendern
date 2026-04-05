@@ -1140,6 +1140,31 @@
   @media (max-width: 600px) {
     #eventMap { height: 300px; }
   }
+  .map-touch-overlay {
+    display: none;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .map-touch-overlay.visible { opacity: 1; }
+  .map-touch-overlay span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 20px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+  @media (max-width: 768px) {
+    .map-touch-overlay { display: flex; }
+  }
 
   /* ========== ACTION BUTTON TOOLTIPS ========== */
   .share-tooltip {
@@ -1463,7 +1488,10 @@
 <!-- ========== EVENT MAP ========== -->
 <div class="event-map-section" id="eventMapSection" data-nosnippet>
   <button class="event-map-toggle" id="mapToggleBtn" onclick="toggleEventMap()">Dölj karta</button>
-  <div id="eventMap"></div>
+  <div style="position:relative;">
+    <div id="eventMap"></div>
+    <div class="map-touch-overlay" id="mapTouchOverlay"><span>Använd två fingrar för att flytta kartan</span></div>
+  </div>
   <div class="event-map-stats" id="mapStats"></div>
 </div>
 
@@ -2849,9 +2877,29 @@ function initEventMap() {
     subdomains: 'abcd'
   }).addTo(eventMap);
 
-  // Apply saved visibility (only hide on mobile; desktop always starts visible)
-  const isMobile = window.innerWidth < 600;
+  // Mobile: disable one-finger drag so page scrolling works normally
+  const isMobile = window.innerWidth < 769;
   if (isMobile) {
+    eventMap.dragging.disable();
+    const overlay = document.getElementById('mapTouchOverlay');
+    let overlayTimer;
+    container.addEventListener('touchstart', function(e) {
+      if (e.touches.length === 1) {
+        overlay.classList.add('visible');
+        clearTimeout(overlayTimer);
+        overlayTimer = setTimeout(() => overlay.classList.remove('visible'), 1500);
+      }
+    }, { passive: true });
+    container.addEventListener('touchmove', function(e) {
+      if (e.touches.length >= 2) {
+        overlay.classList.remove('visible');
+      }
+    }, { passive: true });
+  }
+
+  // Apply saved visibility (only hide on small mobile; desktop always starts visible)
+  const isMobileSmall = window.innerWidth < 600;
+  if (isMobileSmall) {
     mapVisible = safeGetItem('mc_map_visible') === 'true'; // default hidden on mobile
   } else {
     mapVisible = true; // always visible on desktop
