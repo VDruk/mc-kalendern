@@ -295,7 +295,16 @@
     18% { transform: scale(1); }
     100% { transform: scale(1); }
   }
-  #shareKontakt img { width: 20px; height: 20px; object-fit: contain; }
+  #shareKontakt svg { width: 20px; height: 20px; }
+  @media (min-width: 769px) {
+    #shareKontakt .envelope-flap { animation: envelopeOpen 6s ease-in-out infinite; transform-origin: 12px 7px; }
+  }
+  @keyframes envelopeOpen {
+    0%, 100% { transform: rotateX(0deg); }
+    8% { transform: rotateX(180deg); }
+    20% { transform: rotateX(180deg); }
+    28% { transform: rotateX(0deg); }
+  }
   .tipsa-circle-btn {
     width: 32px; height: 32px; border-radius: 50%;
     border: 1px solid var(--accent); background: var(--accent);
@@ -1348,7 +1357,7 @@
           <span class="share-tooltip">Donera</span>
         </a>
         <button class="share-btn" id="shareKontakt" title="Kontakt" onclick="openKontaktModal()">
-          <img src="email_us.png" alt="Kontakt" width="24" height="24" style="object-fit:contain;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="12" rx="2"/><path class="envelope-flap" d="M3 7l9 7 9-7"/></svg>
           <span class="share-tooltip">Kontakt</span>
         </button>
         <button class="tipsa-circle-btn" id="tipsaCircleBtn" title="Tipsa om ett evenemang" onclick="document.getElementById('tipsaModal').classList.add('open')">
