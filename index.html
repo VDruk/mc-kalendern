@@ -145,7 +145,12 @@
     .hero-badge img {
       width: 150px;
       height: 150px;
+      animation: wreathGlow 4s ease-in-out infinite;
     }
+  }
+  @keyframes wreathGlow {
+    0%, 100% { filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4)); }
+    50% { filter: drop-shadow(0 0 18px rgba(217,167,6,0.7)) drop-shadow(0 0 40px rgba(217,167,6,0.3)); }
   }
 
   /* ========== SEARCH BAR ========== */
