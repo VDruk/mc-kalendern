@@ -14214,7 +14214,7 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/events/26027470623583729",
                   "region": "Stockholm",
                   "source": "facebook.com",
-                  "backImage": "ads/orangeday-stockholm-back-2026-05-30.jpg"
+                  "backImage": "ads/orangeday-rutter-2026-back.jpg"
             },
             {
                   "id": "orangeday-helsingborg-2026-05-30",
