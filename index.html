@@ -145,12 +145,32 @@
     .hero-badge img {
       width: 150px;
       height: 150px;
-      animation: wreathGlow 4s ease-in-out infinite;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-badge::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 150px; height: 150px;
+      z-index: 0;
+      border-radius: 50%;
+      animation: wreathSpin 10s linear infinite;
+      background: conic-gradient(
+        from 0deg,
+        transparent 0deg,
+        transparent 300deg,
+        rgba(217,167,6,0.6) 340deg,
+        rgba(255,215,0,0.9) 355deg,
+        rgba(217,167,6,0.6) 358deg,
+        transparent 360deg
+      );
+      filter: blur(8px);
     }
   }
-  @keyframes wreathGlow {
-    0%, 100% { filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4)); }
-    50% { filter: drop-shadow(0 0 18px rgba(217,167,6,0.7)) drop-shadow(0 0 40px rgba(217,167,6,0.3)); }
+  @keyframes wreathSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
 
   /* ========== SEARCH BAR ========== */
