@@ -339,7 +339,7 @@
     20% { transform: rotateX(180deg); }
     28% { transform: rotateX(0deg); }
   }
-  #shareDelaBtn { position: relative; overflow: hidden; }
+  #shareDelaBtn { position: relative; }
   #shareDelaBtn .icon-layer {
     position: absolute;
     top: 50%; left: 50%;
@@ -347,6 +347,7 @@
     width: 18px; height: 18px;
     display: flex; align-items: center; justify-content: center;
     opacity: 0;
+    pointer-events: none;
   }
   #shareDelaBtn .icon-layer svg { width: 16px; height: 16px; }
   @media (min-width: 769px) {
