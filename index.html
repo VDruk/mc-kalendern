@@ -155,17 +155,18 @@
       width: 158px; height: 158px;
       z-index: 0;
       border-radius: 50%;
-      animation: wreathSpin 10s linear infinite;
+      animation: wreathSpin 5s linear infinite, wreathFade 20s ease-in-out infinite;
       background: conic-gradient(
         from 0deg,
         transparent 0deg,
-        transparent 300deg,
-        rgba(217,167,6,0.6) 340deg,
-        rgba(255,215,0,0.9) 355deg,
-        rgba(217,167,6,0.6) 358deg,
-        transparent 360deg
+        transparent 280deg,
+        rgba(217,167,6,0.15) 310deg,
+        rgba(217,167,6,0.5) 340deg,
+        rgba(255,215,0,0.8) 354deg,
+        rgba(217,167,6,0.5) 358deg,
+        rgba(217,167,6,0.15) 360deg
       );
-      filter: blur(4px);
+      filter: blur(7px);
       -webkit-mask: radial-gradient(circle, transparent 58%, black 72%);
       mask: radial-gradient(circle, transparent 58%, black 72%);
     }
@@ -173,6 +174,12 @@
   @keyframes wreathSpin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+  }
+  @keyframes wreathFade {
+    0%, 45% { opacity: 0; }
+    50% { opacity: 1; }
+    95% { opacity: 1; }
+    100% { opacity: 0; }
   }
 
   /* ========== SEARCH BAR ========== */
