@@ -2,7 +2,7 @@
 <html lang="sv" prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>MC Kalender 2026 - MC Kalendern | MC-träffar, evenemang & körningar i Sverige</title>
 <meta name="description" content="MC Kalender 2026 med mer än tusen MC-evenemang i Sverige. MC Kalendern listar träffar, mässor, körningar, racing och fester. Hitta MC-träff idag eller planera hela MC-säsongen.">
 <meta name="author" content="Slava Druk">
@@ -203,7 +203,7 @@
   }
   .search-input {
     flex: 1; border: none; background: transparent;
-    color: var(--text-primary); font-size: 15px;
+    color: var(--text-primary); font-size: 16px;
     padding: 12px 12px;
     outline: none;
   }
@@ -226,7 +226,9 @@
     position: sticky; top: 0; z-index: 50;
     background: var(--bg-secondary);
     border-bottom: 1px solid var(--border);
-    -webkit-transform: translateZ(0); transform: translateZ(0);
+    -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden; backface-visibility: hidden;
+    will-change: transform;
     transition: box-shadow var(--transition);
   }
   .filters-wrapper.scrolled {
@@ -389,6 +391,8 @@
   .main-content {
     max-width: 1100px; margin: 0 auto;
     padding: 12px 16px 60px;
+    -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden; backface-visibility: hidden;
   }
 
   .grid {
@@ -1064,7 +1068,7 @@
     .filter-row-mobile { order: 1; }
     .filter-row { gap: 6px; flex-wrap: wrap; }
     .filter-spacer { display: none; }
-    .filter-select { flex-shrink: 0; font-size: 12px; padding: 5px 24px 5px 10px; }
+    .filter-select { flex-shrink: 0; font-size: 16px; padding: 5px 24px 5px 10px; }
     .toggle-wrap { display: none; }
     .type-btn { padding: 5px 10px; font-size: 12px; }
     .filter-row-mobile { display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 6px; align-items: center; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
