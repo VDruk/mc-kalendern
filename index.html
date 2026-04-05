@@ -2872,7 +2872,7 @@ function toggleEventMap() {
   btn.textContent = mapVisible ? 'Dölj karta' : 'Visa karta';
   safeSetItem('mc_map_visible', mapVisible);
   if (mapVisible && eventMap) {
-    setTimeout(() => eventMap.invalidateSize(), 100);
+    setTimeout(() => { eventMap.invalidateSize(); render(); }, 100);
   }
 }
 
