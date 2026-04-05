@@ -1030,6 +1030,10 @@
     line-height: 1.7; margin-bottom: 10px;
     text-align: justify;
   }
+  .seo-badge {
+    float: right; margin: 0 0 12px 16px; border-radius: 12px;
+  }
+  .seo-badge-mobile { display: none; }
   .footer-bottom {
     padding-top: 24px;
     border-top: 1px solid var(--border);
@@ -1072,6 +1076,14 @@
     .search-count { display: none; }
 
     .drawer { width: 100vw; max-width: 100vw; }
+
+    .seo-block p { text-align: left; }
+    .seo-badge { display: none; }
+    .seo-badge-mobile {
+      display: block; float: none;
+      margin: 12px auto 16px; width: 180px; height: 180px;
+      border-radius: 12px;
+    }
   }
 
   @media (max-width: 480px) {
@@ -1613,8 +1625,9 @@
 <footer class="footer">
   <div class="seo-block">
     <h2>MC Kalender - MC-träffar i Sverige 2026</h2>
-    <img src="ads/mc-kalender-google-square.jpg" alt="MC Kalender 2026 - Sveriges Största MC-Kalendern med motorcyklist och svensk flagga" width="200" height="200" style="float:right;margin:0 0 12px 16px;border-radius:12px;">
+    <img class="seo-badge" src="ads/mc-kalender-google-square.jpg" alt="MC Kalender 2026 - Sveriges Största MC-Kalendern med motorcyklist och svensk flagga" width="200" height="200">
     <p>MC Kalendern är Sveriges mest kompletta MC-kalender för MC-träffar och MC-evenemang 2026. Letar du efter en MC-träff idag, en MC-mässa i helgen eller nästa körning i din region? Här hittar du allt samlat. Vår MC kalender listar träffar, mässor, motorshowar, körningar, racing, trackdays och fester från hela Sverige, så att du kan planera din MC-säsong utan att missa något.</p>
+    <img class="seo-badge seo-badge-mobile" src="ads/mc-kalender-google-square.jpg" alt="" width="180" height="180">
     <p>Vi bevakar mer än tusen MC-evenemang från många av Sveriges största MC-klubbar och organisationer: BMW MC-klubben, Gold Wing Club Sweden (GWCS), Harley-Davidson Club Sweden (H-DCS), Östra Aros MC-Klubb (ÖAMCK), Sveriges MotorCyklister (SMC), Svenska Motorcykel- och Snöskoterförbundet (SVEMO) och många fler. Från MC-Mässan i Jönköping och Mälaren Runt till lokala kvällsträffar, gruskurser och avrostningskörningar. Oavsett om du kör sportcykel, cruiser, adventure, touring, enduro eller veteranmaskin finns det något för just dig och din hoj.</p>
     <p>MC-säsongen i Sverige är kort men intensiv. Filtrera bland MC-träffar 2026 efter typ, klubb och region, från Skåne i söder till Norrbotten i norr. Spara dina favoritevenemang, dela med dina hojkompisar och håll dig uppdaterad. Vi bevakar MC-evenemang från fler än 470 klubbar och uppdaterar MC-kalendern regelbundet med nya träffar, körningar och mässor. Varje evenemangskort visar en inbyggd väderprognos från SMHI, så du kan planera din tur med koll på vädret. Hojåkare i Stockholm, Göteborg, Malmö, Uppsala och resten av landet hittar alltid kommande MC-händelser här.</p>
   </div>
