@@ -2997,9 +2997,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   buildRegionFilter();
   updateStats();
+  try { initEventMap(); } catch(e) { /* Leaflet not loaded — map disabled */ }
   render();
   updateFab();
-  try { initEventMap(); } catch(e) { /* Leaflet not loaded — map disabled */ }
   requestIdleCallback ? requestIdleCallback(() => injectEventSchema()) : setTimeout(injectEventSchema, 0);
 
   // Load weather data from SMHI, then re-render cards with weather strips
