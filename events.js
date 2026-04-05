@@ -4097,6 +4097,28 @@ const EVENTS_DATA = {
                   "backImage": "ads/barhang-holdem-tingstade-back-2026-04-10.jpg"
             },
             {
+                  "id": "condios-fredagsmys-2026-04-10",
+                  "name": "Fredagsmys hos Con Dios MC",
+                  "date": "2026-04-10",
+                  "dateEnd": "2026-04-10",
+                  "location": "Spånhyltan, Jönköpings län",
+                  "type": "Fest",
+                  "organizer": "Con Dios MC",
+                  "organizerIcon": "clubs/normalized/con-dios-mc.png",
+                  "description": "Avslappnat fredagsmys hos Con Dios MC i Spånhyltan. Grillen tänds och det bjuds på grillad korv. Vi kör igång 18:30.",
+                  "descriptionFull": "På fredag är du välkommen till Spånhyltan och Con Dios MC på ett avslappnat fredagsmys.\n\nVi tänder grillen och fixar lite korv. Vi kör igång 18:30.\n\nPlats: Spånhyltan, Jönköpings län.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo?fbid=1353622336801026&set=a.458642259632376"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo?fbid=1353622336801026&set=a.458642259632376",
+                  "region": "Jönköping",
+                  "source": "facebook.com",
+                  "backImage": "ads/condios-fredagsmys-back-2026-04-10.jpg"
+            },
+            {
                   "id": "barhang-zatan-cruisers-2026",
                   "name": "Barhäng på Zatan",
                   "date": "2026-04-11",
@@ -8869,6 +8891,32 @@ const EVENTS_DATA = {
                   "region": "Gävleborg",
                   "source": "hojresor.se",
                   "backImage": "ads/72-mil-grus-back-2026-05-07.jpg"
+            },
+            {
+                  "id": "bikemeet-lolland-2026-05-07",
+                  "name": "Bikemeet Lollands Åbningsfest",
+                  "date": "2026-05-07",
+                  "dateEnd": "2026-05-07",
+                  "location": "Maribo Torv, Torvet 3, Maribo",
+                  "type": "Fest",
+                  "organizer": "Bikemeet Lolland",
+                  "description": "Säsongens första Bikemeet på Maribo Torv! Livemusik med The Jumping Jacks. Alla MC-entusiaster välkomna. Kl 18:00-22:00.",
+                  "descriptionFull": "Så er igen snart tid til at vi allesammen skal mødes om Torsdagen på Maribo Torv. Og første gang er D. 7 Maj kl. 18:00.\n\nI år vil der være underholdning af The Jumping Jacks band.\n\nBikemeet Lolland er for alla motorcykelentusiaster och alla med intresse för bikermiljön. Alla är välkomna!\n\nPlats: Maribo Torv, Torvet 3, Maribo, Danmark.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1490967879081525"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Torvet+3+Maribo+Denmark",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1490967879081525",
+                  "region": "Danmark",
+                  "source": "facebook.com",
+                  "backImage": "ads/bikemeet-lolland-back-2026-05-07.jpg"
             },
             {
                   "id": "bmw-d10-tiveden-spring-tour-2026-2026",
@@ -21555,69 +21603,39 @@ const EVENTS_DATA = {
                   "source": "condiosmc.com"
             },
             {
-                  "id": "h-dcs-internationella-traffen-ostersund-2026",
-                  "name": "H-DCS Internationella Träffen Östersund",
+                  "id": "hdcs-internationella-traffen-ostersund-2026",
+                  "name": "Distrikt I & Internationella Träffen 2026",
                   "date": "2026-08-06",
                   "dateEnd": "2026-08-09",
-                  "location": "Östersund",
+                  "location": "Östersunds Camping, Krondikesvägen 95C, Östersund",
                   "type": "Träff",
-                  "organizer": "H-DCS",
-                  "description": "Arrangemang med H-DCS från Östersund. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
-                  "link": "https://hdcs.se/evenemang/h-dcs-internationella-traffen-ostersund/",
-                  "region": "Jämtland",
-                  "source": "hdcs.se",
-                  "descriptionFull": "H-DCS Internationella Träffen Östersund arrangeras av H-DCS.\n\nArrangemang med H-DCS från Östersund. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Östersund.",
+                  "organizer": "H-DCS Distrikt I / Harley-Davidson Club Sweden",
+                  "description": "Harley-Davidson Club Sweden firar 50 år av internationella träffen! 4 dagar i Östersund med guidade MC-turer i Jämtlands fjäll, livemusik, mat och MC-gemenskap.",
+                  "descriptionFull": "Äntligen! Den 6-9 augusti 2026 rullar vi in i hjärtat av Jämtland när Harley-Davidson Club Sweden bjuder in till sin årliga internationella träff och denna gång i vackra Östersund.\n\nHela Östersunds Camping är bokad för evenemanget. Para upp med andra harleyägare, lyssna till ljudet av tunga motorer, njut av det kalla och friska luften. Testa lokala delikatesser och få en smak av vild natur.\n\nGuidade MC-turer genom Jämtlands fjällvärld, bland de vackraste vägarna i norra Sverige. Garanterat en upplevelse att minnas!\n\nDet finns alla möjligheter att parkera och ställa upp sin husvagn/husbil. Campingplatser, stugor och rum finns att boka via Östersunds Camping.\n\nFör mer information, se hdcs.se eller Harley Gavilson, Bunk och Indian på Facebook.",
                   "links": [
                         {
                               "label": "hdcs.se",
                               "url": "https://hdcs.se/evenemang/h-dcs-internationella-traffen-ostersund/"
                         },
                         {
-                              "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=%C3%96stersund",
-                              "type": "map"
-                        }
-                  ],
-                  "organizerIcon": "clubs/normalized/hdcs.png"
-            },
-            {
-                  "id": "h-dcs-internationella-traff-2026",
-                  "name": "H-DCS internationella träff",
-                  "date": "2026-08-06",
-                  "dateEnd": "2026-08-09",
-                  "location": "Östersund",
-                  "type": "Träff",
-                  "organizer": "H-DCS",
-                  "description": "Arrangemang med H-DCS från Östersund. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
-                  "link": "https://hdcs.se/evenemang/h-dcs-internationella-traff/",
-                  "region": "Jämtland",
-                  "source": "hdcs.se",
-                  "descriptionFull": "H-DCS internationella träff arrangeras av H-DCS.\n\nArrangemang med H-DCS från Östersund. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Östersund.",
-                  "links": [
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo/?fbid=10163469007429436&set=gm.34697420146571013"
+                        },
                         {
-                              "label": "hdcs.se",
-                              "url": "https://hdcs.se/evenemang/h-dcs-internationella-traff/"
+                              "label": "ostersundscamping.se",
+                              "url": "https://www.ostersundscamping.se/"
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=%C3%96stersund",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Krondikesv%C3%A4gen+95C+%C3%96stersund",
                               "type": "map"
                         }
                   ],
-                  "organizerIcon": "clubs/normalized/hdcs.png"
-            },
-            {
-                  "id": "internationella-traffen-i-ostersund-2026",
-                  "name": "Internationella träffen i Östersund",
-                  "date": "2026-08-06",
-                  "dateEnd": "2026-08-09",
-                  "location": "Östersund",
-                  "type": "Träff",
-                  "organizer": "H-DCS",
-                  "description": "Internationella träffen i Östersund",
-                  "link": "https://hdcs.se/evenemang/internationella-traffen-i-ostersund/",
+                  "link": "https://hdcs.se/evenemang/h-dcs-internationella-traffen-ostersund/",
                   "region": "Jämtland",
                   "source": "hdcs.se",
+                  "frontImage": "ads/hdcs-internationella-traffen-ostersund-front-2026.jpg",
+                  "backImage": "ads/hdcs-internationella-traffen-ostersund-front-2026.jpg",
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
