@@ -284,6 +284,14 @@
     border-radius: 50%; border: 1px solid var(--accent);
   }
   #shareKofi img { width: 22px; height: 22px; }
+  @media (min-width: 769px) {
+    #shareKofi { animation: kofiPulse 12s ease-in-out infinite; }
+  }
+  @keyframes kofiPulse {
+    0%, 6%, 100% { transform: scale(1); }
+    2% { transform: scale(1.18); }
+    4% { transform: scale(1); }
+  }
   #shareKontakt img { width: 20px; height: 20px; object-fit: contain; }
   .tipsa-circle-btn {
     width: 32px; height: 32px; border-radius: 50%;
