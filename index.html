@@ -28,7 +28,7 @@
 <meta property="og:url" content="https://druk.se/">
 <meta property="og:title" content="MC Kalender 2026 - MC Kalendern | MC-träffar i Sverige">
 <meta property="og:description" content="MC Kalender 2026 med mer än tusen MC-evenemang i Sverige. Träffar, mässor, körningar, racing och fester. Hitta MC-träff idag.">
-<meta property="og:image" content="https://druk.se/og-image-badge.jpg?v=3">
+<meta property="og:image" content="https://druk.se/ads/og-image-cover.jpg">
 <meta property="og:image:alt" content="Sveriges Största MC-Kalender - MC Kalendern 2026">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -39,7 +39,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MC Kalender 2026 - MC Kalendern | MC-träffar i Sverige">
 <meta name="twitter:description" content="MC Kalender 2026 med mer än tusen MC-evenemang i Sverige. Träffar, mässor, körningar, racing och fester. Hitta MC-träff idag.">
-<meta name="twitter:image" content="https://druk.se/og-image-badge.jpg?v=3">
+<meta name="twitter:image" content="https://druk.se/ads/og-image-cover.jpg">
 
 <script src="events.js"></script>
 <style>
@@ -132,8 +132,8 @@
     z-index: 3;
   }
   .hero-badge img {
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
   }
   @media (min-width: 900px) {
@@ -1332,7 +1332,7 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
           <span class="share-tooltip">Dela</span>
         </button>
-        <a href="https://ko-fi.com/mckalender" target="_blank" rel="noopener" class="share-btn" id="shareKofi" title="Stöd MC Kalendern på Ko-fi">
+        <a href="https://ko-fi.com/mckalender" target="_blank" rel="noopener noreferrer" class="share-btn" id="shareKofi" title="Stöd MC Kalendern på Ko-fi" onclick="event.preventDefault();window.open('https://ko-fi.com/mckalender','_blank')">
           <img src="ads/kofi-logo.webp" alt="Ko-fi" width="24" height="24" style="object-fit:contain;border-radius:0;">
           <span class="share-tooltip">Donera</span>
         </a>
@@ -1340,7 +1340,7 @@
           <img src="email_us.png" alt="Kontakt" width="24" height="24" style="object-fit:contain;">
           <span class="share-tooltip">Kontakt</span>
         </button>
-        <button class="tipsa-circle-btn" id="tipsaCircleBtn" title="Tipsa om ett evenemang">
+        <button class="tipsa-circle-btn" id="tipsaCircleBtn" title="Tipsa om ett evenemang" onclick="document.getElementById('tipsaModal').classList.add('open')">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
           <span class="share-tooltip">Tipsa</span>
         </button>
@@ -3081,7 +3081,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Kontakt modal email button
   document.getElementById('kontaktEmailBtn').addEventListener('click', () => {
     const parts = ['slava','.','druk','@','gmail','.','com'];
-    window.open('mailto:' + parts.join('') + '?subject=' + encodeURIComponent('MC Kalendern - druk.se'), '_blank');
+    window.location.href = 'mailto:' + parts.join('') + '?subject=' + encodeURIComponent('MC Kalendern - druk.se');
   });
 
   // Tipsa modal
