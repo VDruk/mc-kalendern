@@ -280,12 +280,9 @@
   }
   .share-btn:hover { opacity: 0.75; }
   .share-btn svg { width: 26px; height: 26px; }
-  #shareFb svg { width: 28px; height: 28px; }
-  #shareWa svg { width: 28px; height: 28px; }
-  #shareX, #shareKofi, #shareKontakt {
-    border-radius: 50%; border: 1px solid var(--border);
+  #shareKofi, #shareKontakt {
+    border-radius: 50%; border: 1px solid var(--accent);
   }
-  #shareX svg { width: 19px; height: 19px; }
   #shareKofi img { width: 22px; height: 22px; }
   #shareKontakt img { width: 20px; height: 20px; object-fit: contain; }
   .tipsa-circle-btn {
@@ -1080,6 +1077,151 @@
   #shareKontakt:hover .share-tooltip {
     opacity: 1;
   }
+
+  /* ========== DELA (SHARE) MODAL ========== */
+  .dela-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+  .dela-overlay.open { display: flex; }
+  .dela-modal {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 28px 24px 20px;
+    width: 340px;
+    max-width: 90vw;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    position: relative;
+  }
+  .dela-modal h3 {
+    margin: 0 0 16px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-align: center;
+  }
+  .dela-close {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    line-height: 1;
+    padding: 4px;
+  }
+  .dela-close:hover { color: var(--text-primary); }
+  .dela-link-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+  .dela-link-input {
+    flex: 1;
+    background: var(--bg-body);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 9px 12px;
+    font-size: 13px;
+    color: var(--text-primary);
+    outline: none;
+  }
+  .dela-link-input:focus { border-color: var(--accent); }
+  .dela-copy-btn {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0 16px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+  }
+  .dela-copy-btn:hover { background: var(--accent-hover); }
+  .dela-social-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 6px;
+  }
+  .dela-social-btn {
+    width: auto;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s, opacity 0.15s;
+    background: transparent;
+    padding: 8px 16px;
+  }
+  .dela-social-btn:hover { transform: scale(1.05); opacity: 0.85; }
+  .dela-social-btn svg { width: 36px; height: 36px; }
+  .dela-motivate {
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0 0 18px;
+  }
+  .dela-section-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .dela-link-hint {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 6px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .dela-divider {
+    border-top: 1px solid var(--border);
+    margin: 16px 0;
+  }
+  .dela-social-label {
+    display: block;
+    font-size: 10px;
+    color: var(--text-secondary);
+    margin-top: 4px;
+  }
+  .dela-copied-msg {
+    text-align: center;
+    font-size: 12px;
+    color: var(--accent);
+    height: 18px;
+    margin-top: 4px;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .dela-copied-msg.show { opacity: 1; }
+
+  /* Mobile bottom sheet style */
+  @media (max-width: 600px) {
+    .dela-overlay { align-items: flex-end; }
+    .dela-modal {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 16px 16px 0 0;
+      padding-bottom: calc(20px + env(safe-area-inset-bottom));
+    }
+  }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" media="print" onload="this.media='all'"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
@@ -1186,16 +1328,8 @@
         <button class="toggle" id="pastToggle" aria-label="Visa passerade evenemang"></button>
       </div>
       <div class="share-btns">
-        <button class="share-btn" id="shareFb" title="Dela på Facebook">
-          <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          <span class="share-tooltip">Dela</span>
-        </button>
-        <button class="share-btn" id="shareWa" title="Dela på WhatsApp">
-          <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          <span class="share-tooltip">Dela</span>
-        </button>
-        <button class="share-btn" id="shareX" title="Dela på X">
-          <svg viewBox="0 0 24 24" fill="#1a1d23"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        <button class="tipsa-circle-btn" id="shareDelaBtn" title="Dela" onclick="openDelaModal()" style="background:var(--bg-card);border-color:var(--accent);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
           <span class="share-tooltip">Dela</span>
         </button>
         <a href="https://ko-fi.com/mckalender" target="_blank" rel="noopener" class="share-btn" id="shareKofi" title="Stöd MC Kalendern på Ko-fi">
@@ -1322,6 +1456,38 @@
     <h2 style="font-size:17px; margin-bottom:8px; font-weight:600;">Skriv till MC&nbsp;Kalendern</h2>
     <p style="color:var(--text-muted); margin:0 0 22px; font-size:0.84rem; line-height:1.5;">Vi svarar gärna på frågor, förslag och feedback.</p>
     <button id="kontaktEmailBtn" style="display:inline-block; padding:10px 32px; font-size:14px; font-weight:600; border-radius:24px; border:none; background:var(--accent); color:#fff; cursor:pointer; transition:background 0.15s; letter-spacing:0.3px;" onmouseover="this.style.background='var(--accent-hover)'" onmouseout="this.style.background='var(--accent)'">Öppna mejl</button>
+  </div>
+</div>
+
+<!-- ========== SHARE (DELA) MODAL ========== -->
+<div class="dela-overlay" id="delaOverlay" onclick="if(event.target===this)closeDelaModal()">
+  <div class="dela-modal">
+    <button class="dela-close" onclick="closeDelaModal()">&times;</button>
+    <h3>Dela MC Kalendern</h3>
+    <p class="dela-motivate">Gillar du sajten? Dela den med dina hojkompisar och hjälp oss att nå fler MC-förare!</p>
+    <div class="dela-section-label">Kopiera länken:</div>
+    <div class="dela-link-row">
+      <input type="text" class="dela-link-input" id="delaLinkInput" value="https://druk.se" readonly>
+      <button class="dela-copy-btn" id="delaCopyBtn" onclick="copyDelaLink()">Kopiera</button>
+    </div>
+    <div class="dela-link-hint">Klistra in länken var som helst: i chatt, mejl, forum eller sociala medier.</div>
+    <div class="dela-divider"></div>
+    <div class="dela-section-label">Eller dela direkt:</div>
+    <div class="dela-social-row">
+      <button class="dela-social-btn" title="Facebook" onclick="delaShare('fb')">
+        <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        <span class="dela-social-label">Facebook</span>
+      </button>
+      <button class="dela-social-btn" title="WhatsApp" onclick="delaShare('wa')">
+        <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="dela-social-label">WhatsApp</span>
+      </button>
+      <button class="dela-social-btn" title="X" onclick="delaShare('x')">
+        <svg viewBox="0 0 24 24" fill="var(--text-primary)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        <span class="dela-social-label">X (Twitter)</span>
+      </button>
+    </div>
+    <div class="dela-copied-msg" id="delaCopiedMsg">Kopierad!</div>
   </div>
 </div>
 
@@ -2503,6 +2669,46 @@ function closeKontaktModal() {
   document.getElementById('kontaktModal').classList.remove('open');
 }
 
+/* ========== DELA (SHARE) MODAL ========== */
+function openDelaModal() {
+  // On mobile, try native share first
+  if (navigator.share && /Mobi|Android/i.test(navigator.userAgent)) {
+    navigator.share({
+      title: 'MC Kalendern',
+      text: 'MC Kalendern - Alla MC-evenemang i Sverige',
+      url: 'https://druk.se'
+    }).catch(() => {});
+    return;
+  }
+  document.getElementById('delaOverlay').classList.add('open');
+}
+function closeDelaModal() {
+  document.getElementById('delaOverlay').classList.remove('open');
+  const msg = document.getElementById('delaCopiedMsg');
+  msg.classList.remove('show');
+  document.getElementById('delaCopyBtn').textContent = 'Kopiera';
+}
+function copyDelaLink() {
+  const input = document.getElementById('delaLinkInput');
+  navigator.clipboard.writeText(input.value).then(() => {
+    const btn = document.getElementById('delaCopyBtn');
+    btn.textContent = 'Kopierad!';
+    const msg = document.getElementById('delaCopiedMsg');
+    msg.classList.add('show');
+    setTimeout(() => { msg.classList.remove('show'); btn.textContent = 'Kopiera'; }, 2000);
+  });
+}
+function delaShare(platform) {
+  const url = encodeURIComponent('https://druk.se');
+  const text = encodeURIComponent('MC Kalendern - Alla MC-evenemang i Sverige');
+  let shareUrl = '';
+  if (platform === 'fb') shareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + url;
+  else if (platform === 'wa') shareUrl = 'https://wa.me/?text=' + text + '%20' + url;
+  else if (platform === 'x') shareUrl = 'https://twitter.com/intent/tweet?url=' + url + '&text=' + text;
+  if (shareUrl) window.open(shareUrl, '_blank', 'width=600,height=400');
+  closeDelaModal();
+}
+
 function filterByMapCity(city) {
   mapCityFilter = city;
   render();
@@ -2916,18 +3122,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // (downloadAllFavICS is defined in global scope below)
 
-  // Share buttons
-  const url = encodeURIComponent('https://druk.se');
-  const text = encodeURIComponent('MC Kalendern - Alla MC-evenemang i Sverige');
-  document.getElementById('shareFb').addEventListener('click', () => {
-    if (navigator.share && /Mobi|Android/i.test(navigator.userAgent)) {
-      navigator.share({ title: 'MC Kalendern', text: decodeURIComponent(text), url: decodeURIComponent(url) }).catch(() => {});
-    } else {
-      window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400');
-    }
-  });
-  document.getElementById('shareWa').addEventListener('click', () => window.open(`https://wa.me/?text=${text}%20${url}`, '_blank'));
-  document.getElementById('shareX').addEventListener('click', () => window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank', 'width=600,height=400'));
+  // Share (Dela) button - old individual handlers removed, now uses modal
 });
 
 function updateDrawer() {
