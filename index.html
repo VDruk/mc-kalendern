@@ -339,6 +339,16 @@
     20% { transform: rotateX(180deg); }
     28% { transform: rotateX(0deg); }
   }
+  @media (min-width: 769px) {
+    .dela-dot-1 { animation: delaPing 8s ease-in-out infinite; }
+    .dela-dot-2 { animation: delaPing 8s ease-in-out 0.15s infinite; }
+    .dela-dot-3 { animation: delaPing 8s ease-in-out 0.3s infinite; }
+  }
+  @keyframes delaPing {
+    0%, 100% { fill: transparent; r: 3; }
+    4% { fill: var(--accent); r: 4; }
+    8% { fill: transparent; r: 3; }
+  }
   .tipsa-circle-btn {
     width: 32px; height: 32px; border-radius: 50%;
     border: 1px solid var(--accent); background: var(--accent);
@@ -1383,7 +1393,7 @@
       </div>
       <div class="share-btns">
         <button class="tipsa-circle-btn" id="shareDelaBtn" title="Dela" onclick="openDelaModal()" style="background:var(--bg-card);border-color:var(--accent);">
-          <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;"><circle class="dela-dot dela-dot-1" cx="18" cy="5" r="3"/><circle class="dela-dot dela-dot-2" cx="6" cy="12" r="3"/><circle class="dela-dot dela-dot-3" cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
           <span class="share-tooltip">Dela</span>
         </button>
         <a href="https://ko-fi.com/mckalender" target="_blank" rel="noopener noreferrer" class="share-btn" id="shareKofi" title="Stöd MC Kalendern på Ko-fi" onclick="event.preventDefault();window.open('https://ko-fi.com/mckalender','_blank')">
