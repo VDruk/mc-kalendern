@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-04",
+      "lastUpdated": "2026-04-05",
       "events": [
             {
                   "id": "sponsor-bsa-motorcycles-ad-2026",
@@ -14159,6 +14159,36 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "orangeday-gbg-2026-05-30",
+                  "name": "Orangeday MC Göteborg",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Kallebäcksmotet, Göteborg",
+                  "type": "Körning",
+                  "organizer": "Orange Day MC Charityride Sweden",
+                  "description": "Göteborgs kortege mot mäns våld mot kvinnor och barn. Start kl 9:30 från Kallebäcksmotet via Ulricehamn och Jönköping till Mantorp/Norrköping. 150 kr/person.",
+                  "descriptionFull": "Orangeday MC 2026 Göteborgsrutten!\n\nKortege mot mäns våld mot kvinnor och barn.\n\nOfficiell rutt:\n1. Kallebäcksmotet, Göteborg. Avresa 09:30\n2. Ulricehamn, Ica Maxis parkering. Avresa 11:00\n3. Jönköping A6. Avresa 13:30\n4. Mantorp Citygross. Avresa 16:10\n\nSjälvklart kan man ansluta längs vägen.\n\nKortegeavgift: 150 kr/person via Swish (123 900 29 32). Bidraget går oavkortat till UN Women Sverige.",
+                  "backImage": "ads/orangeday-gbg-back-2026-05-30.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/845106301845419"
+                        },
+                        {
+                              "label": "orangedaymc.com",
+                              "url": "https://orangedaymc.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kalleb%C3%A4cksmotet+G%C3%B6teborg",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/845106301845419",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com"
             },
             {
                   "id": "orangeday-stockholm-2026-05-30",
