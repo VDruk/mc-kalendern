@@ -1626,6 +1626,13 @@
 </footer>
 
 <script>
+// ========== TEMP DEBUG: show JS errors on screen ==========
+window.onerror = function(msg, src, line, col, err) {
+  var d = document.createElement('div');
+  d.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:99999;background:red;color:#fff;padding:12px;font:13px monospace;word-break:break-all;';
+  d.textContent = 'JS ERROR: ' + msg + ' (line ' + line + ')';
+  document.body.appendChild(d);
+};
 // ========== SAFETY GUARD ==========
 if (typeof EVENTS_DATA === 'undefined' || !EVENTS_DATA || !Array.isArray(EVENTS_DATA.events)) {
   window.EVENTS_DATA = { events: [], lastUpdated: '' };
@@ -2989,21 +2996,22 @@ function updateEventMap(filteredEvents) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('[DEBUG] DOMContentLoaded start, innerWidth=' + window.innerWidth);
   // Close calendar dropdown when clicking outside
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.cal-dropdown-wrapper')) {
       document.querySelectorAll('.cal-dropdown-wrapper.open').forEach(el => el.classList.remove('open'));
     }
   });
-  buildRegionFilter();
-  updateStats();
-  try { initEventMap(); } catch(e) { /* Leaflet not loaded — map disabled */ }
-  render();
-  updateFab();
+  try { buildRegionFilter(); console.log('[DEBUG] buildRegionFilter OK'); } catch(e) { console.error('[DEBUG] buildRegionFilter FAIL:', e); }
+  try { updateStats(); console.log('[DEBUG] updateStats OK'); } catch(e) { console.error('[DEBUG] updateStats FAIL:', e); }
+  try { initEventMap(); console.log('[DEBUG] initEventMap OK'); } catch(e) { console.log('[DEBUG] initEventMap skipped:', e.message); }
+  try { render(); console.log('[DEBUG] render OK'); } catch(e) { console.error('[DEBUG] render FAIL:', e); }
+  try { updateFab(); console.log('[DEBUG] updateFab OK'); } catch(e) { console.error('[DEBUG] updateFab FAIL:', e); }
   requestIdleCallback ? requestIdleCallback(() => injectEventSchema()) : setTimeout(injectEventSchema, 0);
 
   // Load weather data from SMHI, then re-render cards with weather strips
-  loadAllWeather().then(() => { render(); });
+  loadAllWeather().then(() => { console.log('[DEBUG] weather loaded'); render(); });
 
   // Helper: check if any filter is active and update Alla button
   function updateAllaBtn() {
@@ -3045,6 +3053,9 @@ document.addEventListener('DOMContentLoaded', () => {
     updateMapCityBadge();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+
+  console.log('[DEBUG] setting up filters...');
+  try { // DEBUG wrapper
 
   // "Alla" reset button (both desktop and mobile)
   document.querySelectorAll('.type-btn[data-type="all"]').forEach(btn => {
@@ -3261,6 +3272,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // (downloadAllFavICS is defined in global scope below)
 
   // Share (Dela) button - old individual handlers removed, now uses modal
+  console.log('[DEBUG] all handlers OK');
+  } catch(debugErr) { console.error('[DEBUG] HANDLER SETUP FAIL:', debugErr); var dd=document.createElement('div'); dd.style.cssText='position:fixed;top:0;left:0;right:0;z-index:99999;background:red;color:#fff;padding:12px;font:13px monospace;word-break:break-all;'; dd.textContent='SETUP ERROR: '+debugErr.message+' at '+debugErr.stack; document.body.appendChild(dd); }
 });
 
 function updateDrawer() {
