@@ -16,6 +16,9 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="manifest" href="/manifest.json">
 
+<!-- Preload LCP hero image (discovered late via CSS background-image otherwise) -->
+<link rel="preload" href="hero.jpg" as="image" fetchpriority="high">
+
 <!-- Preconnect to external origins for faster loading -->
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link rel="preconnect" href="https://opendata-download-metfcst.smhi.se" crossorigin>
@@ -41,7 +44,7 @@
 <meta name="twitter:description" content="MC Kalender 2026 med mer än tusen MC-evenemang i Sverige. Träffar, mässor, körningar, racing och fester. Hitta MC-träff idag.">
 <meta name="twitter:image" content="https://druk.se/ads/og-image-cover.jpg">
 
-<script src="events.js"></script>
+<!-- events.js moved to end of body for non-blocking load -->
 <style>
   /* ========== RESET & BASE ========== */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1540,17 +1543,17 @@
   <div class="drawer-footer">
     <div class="cal-dropdown-wrapper drawer-cal-wrapper">
       <button class="cal-trigger drawer-cal-trigger" onclick="event.stopPropagation();this.parentElement.classList.toggle('open')">
-        <img src="ads/icon-cal-generic.png" alt="" width="18" height="18">
+        <img src="ads/icon-cal-generic.png" alt="" width="18" height="18" loading="lazy">
         <span id="icsDownloadText">Lägg till i kalender</span>
         <span class="cal-arrow">▼</span>
       </button>
       <div class="cal-dropdown">
         <a class="cal-option" id="drawerGcalLink" href="#" target="_blank" rel="noopener">
-          <img src="ads/icon-google-cal.png" alt="" width="24" height="24"> Google Kalender</a>
+          <img src="ads/icon-google-cal.png" alt="" width="24" height="24" loading="lazy"> Google Kalender</a>
         <a class="cal-option" id="drawerOutlookLink" href="#" target="_blank" rel="noopener">
-          <img src="ads/icon-outlook-cal.png" alt="" width="24" height="24"> Outlook Kalender</a>
+          <img src="ads/icon-outlook-cal.png" alt="" width="24" height="24" loading="lazy"> Outlook Kalender</a>
         <button class="cal-option" id="drawerAppleBtn" onclick="event.stopPropagation();downloadAllFavICS()">
-          <img src="ads/icon-apple-cal.png" alt="" width="24" height="24"> Apple Kalender</button>
+          <img src="ads/icon-apple-cal.png" alt="" width="24" height="24" loading="lazy"> Apple Kalender</button>
       </div>
     </div>
   </div>
@@ -1626,9 +1629,9 @@
 <footer class="footer">
   <div class="seo-block">
     <h2>MC Kalender - MC-träffar i Sverige 2026</h2>
-    <img class="seo-badge" src="ads/mc-kalender-google-square.jpg" alt="MC Kalender 2026 - Sveriges Största MC-Kalendern med motorcyklist och svensk flagga" width="200" height="200">
+    <img class="seo-badge" src="ads/mc-kalender-google-square.jpg" alt="MC Kalender 2026 - Sveriges Största MC-Kalendern med motorcyklist och svensk flagga" width="200" height="200" loading="lazy">
     <p>MC Kalendern är Sveriges mest kompletta MC-kalender för MC-träffar och MC-evenemang 2026. Letar du efter en MC-träff idag, en MC-mässa i helgen eller nästa körning i din region? Här hittar du allt samlat. Vår MC kalender listar träffar, mässor, motorshowar, körningar, racing, trackdays och fester från hela Sverige, så att du kan planera din MC-säsong utan att missa något.</p>
-    <img class="seo-badge seo-badge-mobile" src="ads/mc-kalender-google-square.jpg" alt="" width="180" height="180">
+    <img class="seo-badge seo-badge-mobile" src="ads/mc-kalender-google-square.jpg" alt="" width="180" height="180" loading="lazy">
     <p>Vi bevakar mer än tusen MC-evenemang från många av Sveriges största MC-klubbar och organisationer: BMW MC-klubben, Gold Wing Club Sweden (GWCS), Harley-Davidson Club Sweden (H-DCS), Östra Aros MC-Klubb (ÖAMCK), Sveriges MotorCyklister (SMC), Svenska Motorcykel- och Snöskoterförbundet (SVEMO) och många fler. Från MC-Mässan i Jönköping och Mälaren Runt till lokala kvällsträffar, gruskurser och avrostningskörningar. Oavsett om du kör sportcykel, cruiser, adventure, touring, enduro eller veteranmaskin finns det något för just dig och din hoj.</p>
     <p>MC-säsongen i Sverige är kort men intensiv. Filtrera bland MC-träffar 2026 efter typ, klubb och region, från Skåne i söder till Norrbotten i norr. Spara dina favoritevenemang, dela med dina hojkompisar och håll dig uppdaterad. Vi bevakar MC-evenemang från fler än 470 klubbar och uppdaterar MC-kalendern regelbundet med nya träffar, körningar och mässor. Varje evenemangskort visar en inbyggd väderprognos från SMHI, så du kan planera din tur med koll på vädret. Hojåkare i Stockholm, Göteborg, Malmö, Uppsala och resten av landet hittar alltid kommande MC-händelser här.</p>
   </div>
@@ -1639,6 +1642,7 @@
   </div>
 </footer>
 
+<script src="events.js"></script>
 <script>
 // ========== SAFETY GUARD ==========
 if (typeof EVENTS_DATA === 'undefined' || !EVENTS_DATA || !Array.isArray(EVENTS_DATA.events)) {
@@ -1834,23 +1838,43 @@ const SWEDISH_DISTRICTS = [
 const COUNTRIES = ['Danmark','Finland','Norge','Spanien','Sverige','Tjeckien'];
 
 function buildRegionFilter() {
-  // Count events per region to only show districts that have at least one event
+  // Single pass over events to collect regions, months, and organizer stats
   const regionCounts = {};
-  EVENTS_DATA.events.filter(e => !e._canary && !e._ad).forEach(e => {
-    if (!e.region) return;
-    const regions = Array.isArray(e.region) ? e.region : [e.region];
-    regions.forEach(r => { regionCounts[r] = (regionCounts[r] || 0) + 1; });
-  });
+  const monthCounts = {};
+  const groupCounts = {};
+  const standaloneOrgs = {};
+  const matcherEntries = Object.entries(CLUB_MATCHERS);
+  matcherEntries.forEach(([key]) => { groupCounts[key] = 0; });
+
+  for (let i = 0; i < EVENTS_DATA.events.length; i++) {
+    const e = EVENTS_DATA.events[i];
+    if (e._canary) continue;
+    const m = parseInt(e.date.split('-')[1], 10);
+    monthCounts[m] = (monthCounts[m] || 0) + 1;
+    if (e._ad) continue;
+    // Region
+    if (e.region) {
+      const regions = Array.isArray(e.region) ? e.region : [e.region];
+      for (let j = 0; j < regions.length; j++) regionCounts[regions[j]] = (regionCounts[regions[j]] || 0) + 1;
+    }
+    // Organizer
+    const org = e.organizer || '';
+    if (org) {
+      let matched = false;
+      for (let j = 0; j < matcherEntries.length; j++) {
+        if (matcherEntries[j][1](org)) { groupCounts[matcherEntries[j][0]]++; matched = true; break; }
+      }
+      if (!matched) standaloneOrgs[org] = (standaloneOrgs[org] || 0) + 1;
+    }
+  }
 
   const sel = document.getElementById('regionFilter');
-  // Only show districts that actually have events, in correct Swedish alphabetical order
   const activeDistricts = SWEDISH_DISTRICTS.filter(r => regionCounts[r]);
   activeDistricts.forEach(r => {
     const opt = document.createElement('option');
     opt.value = r; opt.textContent = r;
     sel.appendChild(opt);
   });
-  // Countries below a separator, only if they have events
   const activeCountries = COUNTRIES.filter(c => regionCounts[c]);
   if (activeCountries.length > 0) {
     const sep = document.createElement('option');
@@ -1862,15 +1886,8 @@ function buildRegionFilter() {
       sel.appendChild(opt);
     });
   }
-  // Update hero stat with number of active Swedish districts
   document.getElementById('statRegions').textContent = activeDistricts.length;
 
-  // Populate month filter
-  const monthCounts = {};
-  EVENTS_DATA.events.filter(e => !e._canary).forEach(e => {
-    const m = parseInt(e.date.split('-')[1], 10);
-    monthCounts[m] = (monthCounts[m] || 0) + 1;
-  });
   const monthSel = document.getElementById('monthFilter');
   Object.keys(monthCounts).sort((a, b) => a - b).forEach(m => {
     const opt = document.createElement('option');
@@ -1879,22 +1896,8 @@ function buildRegionFilter() {
     monthSel.appendChild(opt);
   });
 
-  // Populate organizer filter using CLUB_MATCHERS parent groups + standalone orgs
-  const realEvts = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
-
-  // Count events per CLUB_MATCHERS group
-  const groupEntries = Object.entries(CLUB_MATCHERS).map(([key, matcher]) => {
-    const count = realEvts.filter(e => matcher(e.organizer || '')).length;
-    return [key, count];
-  }).filter(([, count]) => count > 0).sort((a, b) => b[1] - a[1]);
-
-  // Also find standalone organizers not covered by any CLUB_MATCHER group, with 3+ events
-  const matchedByAny = org => Object.values(CLUB_MATCHERS).some(m => m(org));
-  const standaloneOrgs = {};
-  realEvts.forEach(e => {
-    const org = e.organizer || '';
-    if (org && !matchedByAny(org)) standaloneOrgs[org] = (standaloneOrgs[org] || 0) + 1;
-  });
+  const groupEntries = Object.entries(groupCounts)
+    .filter(([, count]) => count > 0).sort((a, b) => b[1] - a[1]);
   const standaloneEntries = Object.entries(standaloneOrgs)
     .filter(([, count]) => count >= 3)
     .sort((a, b) => b[1] - a[1]);
@@ -1903,12 +1906,15 @@ function buildRegionFilter() {
   topOrgEntries = allOrgEntries.slice(0, 20);
 
   // Count events not covered by any top-20 entry (for "Övriga")
-  const ovrigaCount = realEvts.filter(e => {
+  let ovrigaCount = 0;
+  for (let i = 0; i < EVENTS_DATA.events.length; i++) {
+    const e = EVENTS_DATA.events[i];
+    if (e._canary || e._ad) continue;
     const org = e.organizer || '';
-    return !topOrgEntries.some(([key]) =>
+    if (!topOrgEntries.some(([key]) =>
       CLUB_MATCHERS[key] ? CLUB_MATCHERS[key](org) : org.includes(key)
-    );
-  }).length;
+    )) ovrigaCount++;
+  }
 
   const orgSels = [document.getElementById('organizerFilter'), document.getElementById('organizerFilterMobile')];
   orgSels.forEach(orgSel => {
@@ -2627,8 +2633,17 @@ function render() {
       grid.appendChild(loadMoreBtn);
     }
   } else {
-    // Desktop: render everything at once (no memory issues)
-    renderedCount = renderBatch(0, events.length);
+    // Desktop: render in chunks to avoid long tasks (reduces TBT)
+    const DESKTOP_BATCH = 80;
+    renderedCount = renderBatch(0, DESKTOP_BATCH);
+    if (renderedCount < events.length) {
+      (function renderNextChunk() {
+        setTimeout(() => {
+          renderedCount = renderBatch(renderedCount, DESKTOP_BATCH);
+          if (renderedCount < events.length) renderNextChunk();
+        }, 0);
+      })();
+    }
   }
 }
 
@@ -3023,13 +3038,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   buildRegionFilter();
   updateStats();
-  try { initEventMap(); } catch(e) { /* Leaflet not loaded — map disabled */ }
   render();
   updateFab();
-  typeof requestIdleCallback === 'function' ? requestIdleCallback(() => injectEventSchema()) : setTimeout(injectEventSchema, 0);
 
-  // Load weather data from SMHI, then re-render cards with weather strips
-  loadAllWeather().then(() => { render(); });
+  // Defer non-critical work to after first paint
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      try { initEventMap(); } catch(e) { /* Leaflet not loaded — map disabled */ }
+      typeof requestIdleCallback === 'function' ? requestIdleCallback(() => injectEventSchema()) : setTimeout(injectEventSchema, 0);
+      // Load weather data from SMHI, then re-render cards with weather strips
+      loadAllWeather().then(() => { render(); });
+    }, 0);
+  });
 
   // Helper: check if any filter is active and update Alla button
   function updateAllaBtn() {
