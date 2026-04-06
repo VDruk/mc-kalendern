@@ -2668,7 +2668,19 @@ function injectEventSchema() {
         "image": e.frontImage ? "https://druk.se/" + e.frontImage : "https://druk.se/ads/mc-kalender-google-square.jpg",
         "url": e.link || "https://druk.se/",
         "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "offers": {
+          "@type": "Offer",
+          "url": e.link || "https://druk.se/",
+          "price": "0",
+          "priceCurrency": "SEK",
+          "availability": "https://schema.org/InStock",
+          "validFrom": e.date
+        },
+        "performer": {
+          "@type": "Organization",
+          "name": e.organizer || "MC Kalendern"
+        }
       };
     })
   };
