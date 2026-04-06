@@ -2634,12 +2634,14 @@ function render() {
     }
   } else {
     // Desktop: render in chunks to avoid long tasks (reduces TBT)
-    const DESKTOP_BATCH = 80;
-    renderedCount = renderBatch(0, DESKTOP_BATCH);
+    // First batch small (fills viewport), then larger chunks via setTimeout to yield main thread
+    const FIRST_BATCH = 20;
+    const NEXT_BATCH = 60;
+    renderedCount = renderBatch(0, FIRST_BATCH);
     if (renderedCount < events.length) {
       (function renderNextChunk() {
         setTimeout(() => {
-          renderedCount = renderBatch(renderedCount, DESKTOP_BATCH);
+          renderedCount = renderBatch(renderedCount, NEXT_BATCH);
           if (renderedCount < events.length) renderNextChunk();
         }, 0);
       })();
@@ -3037,12 +3039,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
   buildRegionFilter();
-  updateStats();
   render();
-  updateFab();
 
-  // Defer non-critical work to after first paint
+  // Defer hero stats and fab to after first paint (not visible immediately on scroll)
   requestAnimationFrame(() => {
+    updateStats();
+    updateFab();
     setTimeout(() => {
       try { initEventMap(); } catch(e) { /* Leaflet not loaded — map disabled */ }
       typeof requestIdleCallback === 'function' ? requestIdleCallback(() => injectEventSchema()) : setTimeout(injectEventSchema, 0);
