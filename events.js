@@ -4658,6 +4658,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/imrg-big-lake-uppstart-back-2026-04-11.jpg"
             },
             {
+                  "id": "smk-hofors-kickoff-2026-04-11",
+                  "name": "Kickoff 2026",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "SMK Hofors, Hofors",
+                  "type": "Träff",
+                  "organizer": "SMK Hofors",
+                  "description": "Säsongsstart för SMK Hofors medlemmar. Startup för crossskolan kl 10, lunch 11:30, fri åkning och små hojar från kl 12. Klubben bjuder på burgare och korv.",
+                  "descriptionFull": "Kickoff 2026 för SMK Hofors medlemmar!\n\nProgram:\n- Kl 10:00: Startup för crossskolan\n- Kl 11:30-12:30: Lunch\n- Kl 12:00: Fri åkning\n- Kl 12:00: Små hojar börjar\n\nKlubben bjuder på burgare och korv!",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo/?fbid=10164879265653582&set=gm.26206673512287360"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=10164879265653582&set=gm.26206673512287360",
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "backImage": "ads/smk-hofors-kickoff-back-2026-04-11.jpg"
+            },
+            {
                   "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
                   "name": "D15 Söndagsvandring Gyllebosjön Runt",
                   "date": "2026-04-12",
@@ -4716,12 +4737,12 @@ const EVENTS_DATA = {
                   "location": "Klubbkåken, Stångby 1, Uppsala",
                   "type": "Träff",
                   "organizer": "ÖAMCK",
-                  "description": "Fikakväll med bildvisning från MC-resa i Thailand. Kom och lyssna på reseberättelser och njut av fika i Klubbkåken.",
-                  "backImage": "ads/oamck-klubbkaken-back.jpg",
+                  "description": "Anders F Eriksson visar bilder från sin mc-resa i Thailand med Motoadventours. Fika i Klubbkåken, alla välkomna.",
+                  "backImage": "ads/oamck-fikakvall-thailand-back-2026-04-12.jpg",
                   "link": "https://oamck.se/events/fikakvall-i-klubbkaken-5/",
                   "region": "Uppsala",
                   "source": "oamck.se",
-                  "descriptionFull": "Fikakväll med bildvisning från MC-resa i Thailand. Kom och lyssna på reseberättelser och njut av fika i Klubbkåken.\n\nStart kl 19:00. Alla välkomna!",
+                  "descriptionFull": "Anders F Eriksson visar bilder från sin mc-resa i Thailand med Motoadventours.\n\nKom och lyssna på reseberättelser och njut av fika i Klubbkåken.\n\nStart kl 19:00. Alla välkomna!",
                   "organizerIcon": "clubs/normalized/oamck.png",
                   "links": [
                         {
@@ -9583,6 +9604,33 @@ const EVENTS_DATA = {
                   "backImage": "ads/20-ars-jubileum-linkoping-back-2026-05-09.jpg"
             },
             {
+                  "id": "besikta-vannasby-dropin-2026-05-09",
+                  "name": "Drop-in Besiktning MC",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "location": "Besikta, Företagsvägen 14, Vännäsby",
+                  "type": "Träff",
+                  "organizer": "Besikta",
+                  "description": "Drop-in besiktning av motorcykel kl 11-15. Provkörning av MC, korv med bröd, och T.A.C.A finns på plats. Ta med vännerna och kika förbi!",
+                  "descriptionFull": "Välkommen på en trevlig dag med:\n\n- Drop-in besiktning\n- Besiktning av motorcykel\n- Provkörning av motorcykel\n- Korv med bröd\n- T.A.C.A finns på plats!\n\nTid: 9 maj kl 11-15\nPlats: Besikta, Företagsvägen 14, Vännäsby\n\nTa med vännerna och kika förbi, alla är välkomna!",
+                  "organizerIcon": "clubs/normalized/besikta.png",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo/?fbid=1539140591544467&set=a.533667315425138"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=F%C3%B6retagsv%C3%A4gen+14+V%C3%A4nn%C3%A4sby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=1539140591544467&set=a.533667315425138",
+                  "region": "Västerbotten",
+                  "source": "facebook.com",
+                  "backImage": "ads/besikta-vannasby-back-2026-05-09.jpg"
+            },
+            {
                   "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
                   "name": "D7 Avrostning/Kul på Hjul, Gillingebanan",
                   "date": "2026-05-10",
@@ -11360,6 +11408,32 @@ const EVENTS_DATA = {
                   "region": "Norrbotten",
                   "source": "facebook.com",
                   "backImage": "ads/mosquito-choppers-spring-break-back-2026-05-16.jpg"
+            },
+            {
+                  "id": "lappens-memorial-run-2026-05-16",
+                  "name": "Lappens Memorial Run 2026",
+                  "date": "2026-05-16",
+                  "dateEnd": "2026-05-16",
+                  "location": "Miner's MC, Lövparksvägen 8, Fagersta",
+                  "type": "Fest",
+                  "organizer": "Miner's MC",
+                  "description": "Minnesrun för Peter \"Lappen\" Nilsson (1962-2016). Liveband Dödens Gudbarn +2 support. Till förmån för Hjärt-Lungfonden. Endast inbjudna.",
+                  "descriptionFull": "Lappens Memorial Run 2026 till minne av Peter \"Lappen\" Nilsson (1962-2016).\n\nDatum: 16 maj kl 13:00\nPlats: Miner's MC, Lövparksvägen 8, 737 30 Fagersta\n\nPå scen: Dödens Gudbarn +2 support\n18+\n\nTill förmån för Hjärt-Lungfonden.\n\nKaffe, fika, korv och dryck finns.\n\nEndast inbjudna och vänner.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo/?fbid=10163786112309807&set=gm.3981199008678583"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=L%C3%B6vparksv%C3%A4gen+8+Fagersta",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=10163786112309807&set=gm.3981199008678583",
+                  "region": "Västmanland",
+                  "source": "facebook.com",
+                  "backImage": "ads/lappens-memorial-run-back-2026-05-16.jpg"
             },
             {
                   "id": "bmw-d11-mixtur-med-sandra-och-mikael-2026",
