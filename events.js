@@ -13860,6 +13860,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/out-of-order-30-ar-back-2026-05-29.jpg"
             },
             {
+                  "id": "vra-holland-nationale-treffen-2026-05-29",
+                  "name": "22ste Nationale Treffen VRA Holland",
+                  "date": "2026-05-29",
+                  "dateEnd": "2026-05-31",
+                  "location": "Motorschuur, Luidijkje 30, Gasselternijveenschemond",
+                  "type": "Träff",
+                  "organizer": "Vulcan Riders Association Holland",
+                  "description": "VRA Hollands 22:a nationella träff i Nederländerna 29-31 maj. Tre dagar med camping, rideout och gemenskap. Cash only.",
+                  "descriptionFull": "Vulcan Riders Association Holland bjuder in till sin 22:a nationella träff på Motorschuur i Gasselternijveenschemond, Nederländerna.\n\nDatum: 29-31 maj 2026.\n\nProgram:\nFredag: ankomst från kl 14:00.\nLördag: rideout kl 11:00.\nSöndag: camping bryts upp och farväl.\n\nKostnad (med tält):\n- Hela helgen från fredag: 47:50 €/medlem, 52:50 €/icke-medlem.\n- Från lördag: 32:50 €/medlem, 37:50 €/icke-medlem.\n- Dagsbesök: 7 €/medlem, 9 €/icke-medlem.\n- Måltid söndag: 5 €.\n\nObs: Inga campers eller husvagnar. Endast kontant betalning, inga kort.\n\nAnmälan: vraweekend@vra.nl före 1 maj.",
+                  "links": [
+                        {
+                              "label": "vra.nl",
+                              "url": "https://www.vra.nl"
+                        }
+                  ],
+                  "link": "https://www.vra.nl",
+                  "region": "Nederländerna",
+                  "source": "vra.nl",
+                  "backImage": "ads/vra-holland-nationale-treffen-back-2026-05-29.jpg"
+            },
+            {
                   "id": "baprun-gotland-2026",
                   "name": "BAPRUN 2026",
                   "date": "2026-05-30",
