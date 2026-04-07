@@ -5101,6 +5101,25 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "philip-mcerne-als-roskilde-2026-04-18",
+                  "name": "Philip & MC'erne samler ind til ALS forskning",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Darupvej 19, 4000 Roskilde, Danmark",
+                  "type": "Körning",
+                  "organizer": "Philip Caludann Larsen",
+                  "description": "Välgörenhetskörning för ALS-forskning. Philip drabbades av ALS för 8 år sedan och samlar nu in pengar tillsammans med MC-vänner.",
+                  "descriptionFull": "Välgörenhetskörning till förmån för ALS-forskning. Philip Caludann Larsen, som drabbades av ALS för 8 år sedan, arrangerar tillsammans med MC-vänner en insamling för att stödja andra med denna sjukdom. Samling kl 9:00 vid Darupvej 19 i Roskilde. Över 240 personer har anmält intresse på Facebook.",
+                  "link": "https://www.facebook.com/events/1877214683182774",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1877214683182774"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Darupvej+19+4000+Roskilde+Danmark", "type": "map"}
+                  ],
+                  "region": "Danmark",
+                  "source": "facebook.com",
+                  "backImage": "ads/philip-mcerne-als-back-2026-04-18.jpg"
+            },
+            {
                   "id": "hd-umea-open-house-2026-04-18",
                   "name": "Harley-Davidson Open House",
                   "date": "2026-04-18",
