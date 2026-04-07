@@ -1771,7 +1771,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.facebook.com/events/1471187981267986",
                   "region": "Värmland",
-                  "source": "facebook.com"
+                  "source": "facebook.com",
+                  "organizerIcon": "clubs/normalized/gmc-karlstad.png"
             },
             {
                   "id": "bonneville-weekend-kalmar-2026",
@@ -3559,7 +3560,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.facebook.com/events/26730206883252800",
                   "region": "Värmland",
-                  "source": "facebook.com"
+                  "source": "facebook.com",
+                  "organizerIcon": "clubs/normalized/gmc-karlstad.png"
             },
             {
                   "id": "mad-delsbo-langfredag-2026-04-03",
@@ -4117,6 +4119,33 @@ const EVENTS_DATA = {
                   "region": "Jönköping",
                   "source": "facebook.com",
                   "backImage": "ads/condios-fredagsmys-back-2026-04-10.jpg"
+            },
+            {
+                  "id": "gmc-karlstad-ktm-enduro-provkorning-2026-04-11",
+                  "name": "Provkörning KTM Enduro 2026",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "KMX Hynboholm, Karlstad",
+                  "type": "Träff",
+                  "organizer": "GMC Karlstad",
+                  "description": "Provkör 2026 års Enduro från KTM hos KMX i Karlstad. Modeller på plats: 250 EXC-F, 350 EXC-F, 450 EXC-F och 300 EXC. Lördag kl 10-14.",
+                  "link": "https://www.facebook.com/events/1471159264504865",
+                  "region": "Värmland",
+                  "source": "facebook.com",
+                  "backImage": "ads/gmc-karlstad-ktm-enduro-back-2026-04-11.jpg",
+                  "descriptionFull": "Lördag 11 april kl 10:00-14:00 finns möjlighet att provköra 2026 års Enduro från KTM vid KMX i Karlstad.\n\nDessa modeller finns på plats:\n- 250 EXC-F\n- 350 EXC-F\n- 450 EXC-F\n- 300 EXC\n\nVarmt välkommen att provköra!\n\nPlats: KMX Hynboholm, Karlstad.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1471159264504865"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=KMX+Hynboholm+Karlstad",
+                              "type": "map"
+                        }
+                  ],
+                  "organizerIcon": "clubs/normalized/gmc-karlstad.png"
             },
             {
                   "id": "psycho-squad-insane-janne-10ar-2026-04-11",
