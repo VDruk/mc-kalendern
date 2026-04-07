@@ -4579,8 +4579,8 @@ const EVENTS_DATA = {
                   "location": "Mörevägen, Ljungbyholm",
                   "type": "Fest",
                   "organizer": "Haskas MC Eastside",
-                  "description": "Barhäng hos Haskas MC i Ljungbyholm. Alla är välkomna till klubbkåken för en trevlig kväll.",
-                  "descriptionFull": "Haskas MC Eastside bjuder in till barhäng den 11 april.\n\nPlats: Klubbkåken i Ljungbyholm.\n\nAlla är välkomna!\n\nRide Safe!",
+                  "description": "Barhäng hos Haskas MC Eastside i Ljungbyholm. Lördag 11 april från kl 18:00. Alla välkomna!",
+                  "descriptionFull": "Haskas MC Eastside bjuder in till barhäng på klubben.\n\nTid: Lördagen den 11 april från kl 18:00.\nPlats: Klubbkåken, Ljungbyholm.\n\nAlla är välkomna!\n\nRide Safe!",
                   "links": [
                         {
                               "label": "Facebook",
@@ -7714,6 +7714,36 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "peking-mc-1-maj-60arsfest-2026-05-01",
+                  "name": "1 maj-tåg och 60-årsfest hos Peking MC",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-01",
+                  "location": "Karstorp 2, 605 95 Norrköping",
+                  "type": "Fest",
+                  "organizer": "Peking MC",
+                  "description": "Peking MC bjuder in till första maj-tåg följt av födelsedagsfest för tre 60-åringar i klubben. Varmt välkomna!",
+                  "descriptionFull": "Nu är påskstöket över och Peking MC ser fram emot första maj-tåget med efterföljande födelsedagsfest för tre (!) 60-åringar i klubben.\n\nVarmt välkomna till klubben i Karstorp utanför Norrköping!\n\nPlats: Karstorp 2, 605 95 Norrköping.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/pekingmc"
+                        },
+                        {
+                              "label": "pekingmc.se",
+                              "url": "https://pekingmc.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Karstorp+2+605+95+Norrk%C3%B6ping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/pekingmc",
+                  "region": "Östergötland",
+                  "source": "facebook.com",
+                  "backImage": "ads/peking-mc-1-maj-back-2026-05-01.jpg"
+            },
+            {
                   "id": "ljungbyhed-mc-bandag-2026-05-02",
                   "name": "Ljungbyhed MC Bandag",
                   "date": "2026-05-02",
@@ -10572,6 +10602,27 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "tangens-mc-memorial-run-2026-05-14",
+                  "name": "Tångens MC Memorial Run 2026",
+                  "date": "2026-05-14",
+                  "dateEnd": "2026-05-14",
+                  "location": "Tångens MC, Forshaga",
+                  "type": "Körning",
+                  "organizer": "Tångens MC",
+                  "description": "Memorial Run med Tångens MC i Forshaga, Värmland. Torsdag 14 maj. Alla MC-vänner välkomna att hedra minnet.",
+                  "descriptionFull": "Tångens MC bjuder in till Memorial Run 2026, torsdagen den 14 maj.\n\nEn körning till minne av vänner som inte längre är med oss.\n\nPlats: Tångens MC, Forshaga (Värmland).\n\nAlla MC-vänner är välkomna att delta.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/tangensmc"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/tangensmc",
+                  "region": "Värmland",
+                  "source": "facebook.com",
+                  "backImage": "ads/tangens-mc-memorial-run-back-2026-05-14.jpg"
             },
             {
                   "id": "smc-kansli-tour-2026-05-15",
@@ -19893,6 +19944,36 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "sub5-gellerasen-trackday-2026-07-13",
+                  "name": "Sporthoj of Sweden Trackday Gelleråsen",
+                  "date": "2026-07-13",
+                  "dateEnd": "2026-07-14",
+                  "location": "Gelleråsens motorbana, Karlskoga",
+                  "type": "Racing",
+                  "organizer": "SUB5 Racing & Event",
+                  "description": "Två dagars trackday på Gelleråsen med SUB5 Racing och Sporthoj of Sweden. Körning 09-17, max 20/grupp, 20 min pass. Få platser kvar!",
+                  "descriptionFull": "Sporthoj of Sweden Trackday på Gelleråsen 13-14 juli 2026.\n\nKörning 09:00-17:00. Max 20 deltagare per grupp, 20 minuters pass. 95 dB-krav. Banan är 2350 m lång.\n\nErfarna instruktörer och funktionärer på plats. Ambulans finns under hela eventet. El ingår vid bokning av depåbox. Lunch ingår ej.\n\nAnpassad för både nybörjare och banrävar.\n\nTillträde till Gelleråsen är tidigast kl 18:00 söndag den 12 juli.\n\nPris från 250 kr (åskådare) till 1 895 kr (förare). Bokning via sub5.se.",
+                  "links": [
+                        {
+                              "label": "sub5.se",
+                              "url": "https://www.sub5.se/evenemang/gellerasen-13-14-juli-2026/"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/groups/520709478068490/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Geller%C3%A5sens+motorbana+Karlskoga",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.sub5.se/evenemang/gellerasen-13-14-juli-2026/",
+                  "region": "Örebro",
+                  "source": "sub5.se",
+                  "backImage": "ads/sub5-gellerasen-back-2026-07-13.jpg"
             },
             {
                   "id": "doa-tisdagslunch-2026-07-14",
