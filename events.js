@@ -5522,7 +5522,7 @@ const EVENTS_DATA = {
                   "date": "2026-04-18",
                   "dateEnd": "2026-04-18",
                   "location": "Lextorpsvägen 997, Trollhättan",
-                  "type": "Show",
+                  "type": "Träff",
                   "organizer": "Harley-Davidson Trollhättan",
                   "description": "Öppet hus hos H-D Trollhättan! Provkör årets nyheter, förmånlig inbyteskampanj, deals på tillbehör och kläder. Korv med bröd. Lördag kl 10-14.",
                   "descriptionFull": "Harley-Davidson Open House hos H-D Trollhättan!\n\nLördag 18 april kl 10:00-14:00.\n\nProvkör årets nyheter från Harley-Davidson och hitta din favorit!\n\nFörmånlig inbyteskampanj på motorcyklar. Grymma deals på tillbehör, servicedelar och kläder.\n\nVi bjuder på korv med bröd och skön stämning.\n\nPlats: Lextorpsvägen 997, 461 29 Trollhättan.",
