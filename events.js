@@ -19478,6 +19478,36 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "speedskills-gellerasen-trackday-2026-07-08",
+                  "name": "Trackday Gelleråsen med SpeedSkills",
+                  "date": "2026-07-08",
+                  "dateEnd": "2026-07-10",
+                  "location": "Gelleråsen Motorstadion, Karlskoga",
+                  "type": "Racing",
+                  "organizer": "SpeedSkills",
+                  "description": "Tre dagars trackday på Gelleråsen med SpeedSkills 8-10 juli. För både nybörjare och erfarna förare. Instruktörer på plats.",
+                  "descriptionFull": "SpeedSkills bjuder in till tre trackdays på Gelleråsen Motorstadion 8-10 juli 2026.\n\nSpeedSkills står för Speed, Skills och Community oavsett om du är ny på banan eller racear på elitnivå. Teamet består av handplockade instruktörer och funktionärer med solid bakgrund inom motorcykelsporten.\n\nPlats: Gelleråsen Motorstadion, Karlskoga.\n\nBokning och info: speedskills.se eller info@speedskills.se.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/894216926732357"
+                        },
+                        {
+                              "label": "speedskills.se",
+                              "url": "https://www.speedskills.se/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Geller%C3%A5sen+Motorstadion+Karlskoga",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/894216926732357",
+                  "region": "Örebro",
+                  "source": "facebook.com",
+                  "backImage": "ads/speedskills-gellerasen-back-2026-07-08.jpg"
+            },
+            {
                   "id": "doa-sommarkvallstur-taby-2026",
                   "name": "DOA - Sommarkvällstur Täby",
                   "date": "2026-07-08",
