@@ -19419,6 +19419,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
+                  "id": "psycho-squad-pig-party-2026-07-04",
+                  "name": "Psycho Squad 10 Year's Pig Party",
+                  "date": "2026-07-04",
+                  "dateEnd": "2026-07-04",
+                  "location": "Insane MC Halmstad, Sadelvägen 720, Halmstad",
+                  "type": "Fest",
+                  "organizer": "Psycho Squad",
+                  "description": "Psycho Squad firar 10 år! Helgrillad gris serveras och gott umgänge är garanterat. Alla är välkomna att fira med oss.",
+                  "link": "https://www.facebook.com/events/2029650604266233",
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "descriptionFull": "10-årsjubileum för Psycho Squad, supportergrupp till Insane MC Halmstad. Vad passar bättre än en riktig grisig fest! Helgrillad gris kommer att serveras och gott umgänge är självklart en garanti. Alla är välkomna att fira detta med oss. Mer info kommer.\n\nPlats: Insane MC Halmstad, Sadelvägen 720, Halmstad.\n\nStart kl 16:00.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2029650604266233"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sadelvägen+720+Halmstad",
+                              "type": "map"
+                        }
+                  ],
+                  "backImage": "ads/psycho-squad-pig-party-back-2026-07-04.jpg"
+            },
+            {
                   "id": "do-c-lars-eriks-glassrunda-2026",
                   "name": "DO-C Lars-Eriks glassrunda",
                   "date": "2026-07-05",
