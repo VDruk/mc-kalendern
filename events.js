@@ -3976,6 +3976,25 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "omcc-medlemsmote-2026-04-08",
+                  "name": "Medlemsmöte",
+                  "date": "2026-04-08",
+                  "dateEnd": "2026-04-08",
+                  "location": "Viktoriaesplanaden 3, Örnsköldsvik",
+                  "type": "Träff",
+                  "organizer": "ÖMCC",
+                  "description": "Dags för medlemsmöte i klubblokalen. Välkomna alla medlemmar till en kväll med klubbsnack och kaffe.",
+                  "descriptionFull": "Dags för medlemsmöte, välkomna! Kvällen startar kl 18:00 i ÖMCC:s klubblokal på Viktoriaesplanaden 3 i Örnsköldsvik.",
+                  "link": "https://www.facebook.com/events/924140323923932",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/924140323923932"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+3+Örnsköldsvik", "type": "map"}
+                  ],
+                  "region": "Västernorrland",
+                  "source": "facebook.com",
+                  "backImage": "ads/omcc-medlemsmote-back-2026-04-08.jpg"
+            },
+            {
                   "id": "bmw-klubbafton-hos-handelsboden-2026",
                   "name": "Klubbafton hos Handelsboden",
                   "date": "2026-04-08",
