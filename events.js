@@ -4121,6 +4121,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/condios-fredagsmys-back-2026-04-10.jpg"
             },
             {
+                  "id": "skaraborg-gravel-vargrillen-2026-04-11",
+                  "name": "Vårgrillen",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "Skövde",
+                  "type": "Körning",
+                  "organizer": "Skaraborg Gravel Tours",
+                  "description": "Årets upplaga av Vårgrillen med Skaraborg Gravel Tours. Adventure-tur på grus och fält. Kräver minst 80/20 däck för vana förare, helst 70/30. Samling kl 10.",
+                  "link": "https://www.youtube.com/watch?v=6ifCvKj8-CI",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/skaraborg-gravel-vargrillen-back-2026-04-11.jpg",
+                  "descriptionFull": "På lördag 11 april kl 10:00 kör Skaraborg Gravel Tours årets upplaga av Vårgrillen i Skövde-trakten.\n\nNågra platser kvar för den som är sugen. Kräver minst 80/20 däck om man är van förare, helst 70/30. Inget stubbarace i år.\n\nSkriv under inlägget eller pma för mer info.\n\nEn liten film från förra årets tur finns på Skaraborg Gravel Tours YouTube-kanal.",
+                  "links": [
+                        {
+                              "label": "Förra årets film",
+                              "url": "https://www.youtube.com/watch?v=6ifCvKj8-CI"
+                        }
+                  ]
+            },
+            {
                   "id": "gmc-karlstad-ktm-enduro-provkorning-2026-04-11",
                   "name": "Provkörning KTM Enduro 2026",
                   "date": "2026-04-11",
