@@ -24,7 +24,7 @@ const EVENTS_DATA = {
                   "description": "BSA är tillbaka i Sverige med tre modeller 2026: Gold Star 650, Scrambler 650 och nya Bantam 350. Klassiskt brittiskt arv i modern form.",
                   "descriptionFull": "BSA Motorcycles 2026 - tre modeller i Sverige:\n\nGold Star 650 - 652cc DOHC-motor, 45 hk. Klassisk stil med modern teknik. Fem växlar, över 70 mpg.\n\nScrambler 650 - Samma kraftfulla 652cc-motor i en äventyrlig förpackning. Finns i gult, grått och svart.\n\nBantam 350 - Helt ny! Vätskekyld 344cc encylindrig motor, 29 hk. Lätt och smidig för stadskörning. Tre färger: Black UJ, Grey & White, Red & Grey.\n\nBSA grundades 1861 i Birmingham och är ett av motorcykelhistoriens mest ikoniska märken. Nu tillbaka med modernt utbud för europeiska förare.",
                   "frontImage": "ads/bsa-scrambler-2026-08-06.jpg",
-                  "backImage": "ads/bsa-scrambler-2026-08-06.jpg",
+                  "backImage": "ads/bsa-motorcycles-back.jpg",
                   "links": [
                         {
                               "label": "bsacompany.co.uk",
@@ -4119,6 +4119,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/condios-fredagsmys-back-2026-04-10.jpg"
             },
             {
+                  "id": "psycho-squad-insane-janne-10ar-2026-04-11",
+                  "name": "Insane Janne 10 år i klubben",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "Halmstad",
+                  "type": "Fest",
+                  "organizer": "Psycho Squad MC",
+                  "description": "Psycho Squad firar att Insane Janne har 10 år i klubben. Välkomna till klubbhuset på lördagen.",
+                  "descriptionFull": "Psycho Squad MC firar att Janne har varit 10 år i klubben. Festen hålls på lördagen efter den vanliga onsdagsträffen kl 18.30. Välkomna att hälsa på och fira med oss.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo/?fbid=994385469590495"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=994385469590495",
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "backImage": "ads/psycho-squad-insane-janne-back-2026-04-11.jpg"
+            },
+            {
                   "id": "barhang-zatan-cruisers-2026",
                   "name": "Barhäng på Zatan",
                   "date": "2026-04-11",
@@ -5583,7 +5604,7 @@ const EVENTS_DATA = {
                   "description": "BSA finns nu hos Sulas MC i Uppsala. Provkör Gold Star 650, Scrambler 650 och nya Bantam 350 på plats.",
                   "descriptionFull": "BSA grundades 1861 i Birmingham och var ett av världens största motorcykelmärken. Produktionen upphörde 1973 men 2021 gjorde BSA en efterlängtad comeback.\n\nNya BSA-modeller finns nu hos Sulas MC i Uppsala:\n\nGold Star 650 - 652cc, 45 hk. Klassisk stil.\nScrambler 650 - Äventyrlig, finns i gult, grått och svart.\nBantam 350 - Helt ny! 344cc, 29 hk. Lätt stadshoj.\n\nBesök bsasverige.se eller Sulas MC för provkörning.",
                   "frontImage": "ads/bsa-sulas-2026-04-18.jpg",
-                  "backImage": "ads/bsa-sulas-2026-04-18.jpg",
+                  "backImage": "ads/bsa-motorcycles-back.jpg",
                   "links": [
                         {
                               "label": "bsasverige.se",
@@ -18879,6 +18900,31 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "stangebroslaget-2026",
+                  "name": "Stångebroslaget",
+                  "date": "2026-07-03",
+                  "dateEnd": "2026-07-05",
+                  "location": "Prästtomta, Linköping",
+                  "type": "Racing",
+                  "organizer": "Linköpings MS",
+                  "description": "Stångebroslaget 33:e året. Första storloppet i Svensk Enduroklassiker. Tekniskt krävande bana, drar omkring 2700 anmälda förare.",
+                  "descriptionFull": "Stångebroslaget arrangeras 3-5 juli 2026 vid Prästtomta utanför Linköping. Det är 33:e året och första loppet i Svensk Enduroklassiker (tillsammans med Ränneslättsloppet och Gotland Grand National). En tekniskt krävande bana som testar både styrka och koncentration. Drar omkring 2700 anmälda förare och är sommarens stora höjdpunkt för enduroentusiaster.",
+                  "links": [
+                        {
+                              "label": "stangebroslaget.se",
+                              "url": "https://stangebroslaget.se/"
+                        },
+                        {
+                              "label": "Svensk Enduroklassiker",
+                              "url": "https://svenskenduroklassiker.se/"
+                        }
+                  ],
+                  "link": "https://stangebroslaget.se/",
+                  "region": "Östergötland",
+                  "source": "stangebroslaget.se",
+                  "backImage": "ads/stangebroslaget-back-2026-07-03.jpg"
+            },
+            {
                   "id": "keff-mc-wisby-summer-party-2026-07-03",
                   "name": "Keff MC Wisby Summer Party",
                   "date": "2026-07-03",
@@ -24948,6 +24994,31 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "ranneslattsloppet-2026",
+                  "name": "Ränneslättsloppet",
+                  "date": "2026-09-04",
+                  "dateEnd": "2026-09-06",
+                  "location": "Ränneslätt, Eksjö",
+                  "type": "Racing",
+                  "organizer": "FMCK Eksjö / SMK Eksjö",
+                  "description": "Ränneslättsloppet 40 år. Andra loppet i Svensk Enduroklassiker. En av Sveriges största enduro-tävlingar på Eksjö garnisons övningsfält.",
+                  "descriptionFull": "Ränneslättsloppet arrangeras 4-6 september 2026 och firar 40 år. Tävlingen körs på Eksjö garnisons övningsfält Ränneslätt. Det är en av Sveriges största enduro-tävlingar och den andra av tre i Svensk Enduroklassiker (tillsammans med Stångebroslaget och Gotland Grand National). Arrangeras av FMCK Eksjö och SMK Eksjö.",
+                  "links": [
+                        {
+                              "label": "ranneslattsloppet.nu",
+                              "url": "https://ranneslattsloppet.nu/"
+                        },
+                        {
+                              "label": "Svensk Enduroklassiker",
+                              "url": "https://svenskenduroklassiker.se/"
+                        }
+                  ],
+                  "link": "https://ranneslattsloppet.nu/",
+                  "region": "Jönköping",
+                  "source": "ranneslattsloppet.nu",
+                  "backImage": "ads/ranneslattsloppet-back-2026-09-04.jpg"
             },
             {
                   "id": "do-c-unnarydstraffen-2026",
