@@ -21938,7 +21938,6 @@ const EVENTS_DATA = {
                   "link": "https://hdcs.se/evenemang/h-dcs-internationella-traffen-ostersund/",
                   "region": "Jämtland",
                   "source": "hdcs.se",
-                  "frontImage": "ads/hdcs-internationella-traffen-ostersund-front-2026.jpg",
                   "backImage": "ads/hdcs-internationella-traffen-ostersund-front-2026.jpg",
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
