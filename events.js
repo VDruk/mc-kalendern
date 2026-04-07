@@ -20468,6 +20468,32 @@ const EVENTS_DATA = {
                   "source": "FB"
             },
             {
+                  "id": "finnskogsrundan-ostmark-2026-07-18",
+                  "name": "Finnskogsrundan Moped- och MC-runda",
+                  "date": "2026-07-18",
+                  "dateEnd": "2026-07-18",
+                  "location": "Östmarksparken, Röjdåforsvägen 25, Östmark",
+                  "type": "Körning",
+                  "organizer": "Östmarks Motor och Fritidsförening",
+                  "description": "Årets Finnskogsrunda, en pilad tur på cirka 5 mil med start och mål vid Östmarks Motorbana. Samling kl 10, start ca kl 11. Startavgift 150 kr.",
+                  "link": "https://www.facebook.com/events/860780619754598",
+                  "region": "Värmland",
+                  "source": "facebook.com",
+                  "backImage": "ads/finnskogsrundan-back-2026-07-18.jpg",
+                  "descriptionFull": "Nu är det dags igen! Lördagen den 18 juli går Finnskogsrundan av stapeln.\n\nDet blir en pilad tur på ca 5 mil med start och mål vid Östmarksparken / Östmarks Motorbana, som vanligt. Samling kl 10:00, start cirka kl 11:00.\n\nStartavgiften är 150 kr och då ingår kaffestopp vid Hembygdsgården på mitten av rundan samt en hamburgare vid Motorbanan i samband med målgång.\n\nVi har beställt 25 grader varmt och solsken den dagen. Hjärtligt välkomna!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/860780619754598"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Röjdåforsvägen+25+Östmark",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
                   "id": "bmw-d14-tandstick-motormuseum-2026",
                   "name": "D14-Tändstick & Motormuseum",
                   "date": "2026-07-18",
