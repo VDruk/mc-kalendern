@@ -5056,7 +5056,7 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ],
-                  "organizerIcon": "clubs/normalized/hdcs.png"
+                  "organizerIcon": "clubs/normalized/hd-umea.png"
             },
             {
                   "id": "hd-sundsvall-open-house-2026-04-18",
@@ -5083,7 +5083,7 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ],
-                  "organizerIcon": "clubs/normalized/hdcs.png"
+                  "organizerIcon": "clubs/normalized/hd-sundsvall.png"
             },
             {
                   "id": "adv-expo-2026",
@@ -5594,7 +5594,7 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/HDTrollhattan",
                   "region": "Västra Götaland",
                   "source": "facebook.com",
-                  "organizerIcon": "clubs/normalized/hdcs.png"
+                  "organizerIcon": "clubs/normalized/hd-trollhattan.png"
             },
             {
                   "id": "goodguys-mc-avrostning-arjang-2026-04-18",
