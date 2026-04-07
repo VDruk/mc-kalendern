@@ -5011,6 +5011,32 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "hd-umea-open-house-2026-04-18",
+                  "name": "Harley-Davidson Open House",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Strömvägen 2, 901 32 Umeå",
+                  "type": "Träff",
+                  "organizer": "Harley-Davidson Umeå",
+                  "description": "Öppet hus hos Harley-Davidson Umeå 11-15. Flippade burgare, demos redo att testas. Känn MC-säsongen i kroppen och umgås med likasinnade.",
+                  "link": "https://www.facebook.com/events/1430895088249315",
+                  "region": "Västerbotten",
+                  "source": "facebook.com",
+                  "backImage": "ads/hd-umea-open-house-back-2026-04-18.jpg",
+                  "descriptionFull": "Välkommen till oss under Harley-Davidson Open House.\n\nVi har portarna öppna 11:00 - 15:00.\n\nDet kommer flippade burgare. Våra demos är redo att testas.\n\nVälkommen in och känn MC-säsongen i kroppen. Umgås med likasinnade.\n\nLet the season begin!\n\nVälkommen!\n/Harley-Davidson Crew",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1430895088249315"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Str%C3%B6mv%C3%A4gen+2%2C+901+32+Ume%C3%A5",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
                   "id": "adv-expo-2026",
                   "name": "ADV Motorcycle Expo 2026",
                   "date": "2026-04-18",
