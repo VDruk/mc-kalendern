@@ -6541,6 +6541,7 @@ const EVENTS_DATA = {
                   "location": "Kinnekulle Ring, Götene",
                   "type": "Körning",
                   "organizer": "Kör Hoj",
+                  "organizerIcon": "clubs/normalized/kor-hoj.png",
                   "description": "Avrostning och vidareutveckling på Kinnekulle Ring. Olika underlag, teknik och balans med individuell handledning. 2 dagar.",
                   "descriptionFull": "Kör Hoj Offtrack på Kinnekulle Ring.\n\nAvrostning och vidareutveckling. Du kommer lära dig genom att köra på olika underlag samt öva på teknik och balans med individuell handledning.\n\nStörre kunskap i hantering samt kännedom om din hoj.\n\nTid: 25-26 april\nPlats: Kinnekulle Ring, Götene.",
                   "links": [
@@ -9711,6 +9712,7 @@ const EVENTS_DATA = {
                   "location": "Värmskogs Café, Värmskog",
                   "type": "Körning",
                   "organizer": "Kör Hoj",
+                  "organizerIcon": "clubs/normalized/kor-hoj.png",
                   "description": "Tvådagarstur med tältnatt vid sjö i Värmskog. Asfalt och grus via Håverud. Räkmacka vid ankomst, grillkväll. Max 8 platser. Pris: 695 kr.",
                   "backImage": "ads/korhoj-varmskog-back-2026-05-09.jpg",
                   "link": "https://korhoj.se/event/kor-hoj-varmskog-rakmacketuren/",
@@ -9721,7 +9723,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "FB Event",
-                              "url": "https://www.facebook.com/events/2082010552563127"
+                              "url": "https://www.facebook.com/events/1265615648995216"
                         },
                         {
                               "label": "Karta",
@@ -11129,6 +11131,7 @@ const EVENTS_DATA = {
                   "location": "Kyrkekvarn Naturcamping, Mullsjö",
                   "type": "Körning",
                   "organizer": "Kör Hoj",
+                  "organizerIcon": "clubs/normalized/kor-hoj.png",
                   "description": "Endast för tjejer! 2 dagars MC-helg med körning, coaching, utbildning och lägereld. Gästtalare: Sparks of Joy och Anna 'All about bikes'. Max 30 platser. Tältplats ingår.",
                   "descriptionFull": "Köra hoj med Malin, utbildning, coaching, hänga vid elden och tjejers historier om vägen till där man är idag med sin MC. Frågestunder och berättelser.\n\nArrangör: Malin Åhr & KÖR HOJ\nGästtalare: Verene (Sparks of Joy), Anna (All about bikes), Louise, Marie & Lina.\n\nDatum: 16-17 maj (kan ansluta fredagkväll 15 maj)\nSista anmälningsdag: 10 maj\nAntal platser: 30, endast tjejer.\n\nStartpunkt: Kyrkekvarn Naturcamping.\nBoende: Tältplats ingår. Boka stuga via kyrkekvarn.com.\n\nAlla typer av MC är välkomna, inga däckval behövs.\n\nIngår: berättelser och frågestunder, turledare, planerade rutter, coaching och utbildning, gemensam grillkväll, vedeldad bastu från kl 17:00.",
                   "backImage": "ads/kor-hoj-malin-ahr-back-2026-05-16.jpg",
@@ -20682,6 +20685,7 @@ const EVENTS_DATA = {
                   "location": "Horten, Norge",
                   "type": "Körning",
                   "organizer": "Kör Hoj",
+                  "organizerIcon": "clubs/normalized/kor-hoj.png",
                   "description": "7-dagarstur i Norge, ca 220 mil. Max 8 deltagare. Boende i stugor, turledare och äventyrscoach ingår. Pris: 7 475 kr. Anm: korhoj.se.",
                   "backImage": "ads/korhoj-norge-back-2026-07-20.jpg",
                   "link": "https://korhoj.se/event/norge-20-26-juli/",
@@ -24524,6 +24528,7 @@ const EVENTS_DATA = {
                   "location": "Lökkens sandstrand, Danmark",
                   "type": "Körning",
                   "organizer": "Kör Hoj",
+                  "organizerIcon": "clubs/normalized/kor-hoj.png",
                   "description": "3 dagar på Lökkens sandstrand i Jylland. Ferry Göteborg–Fredrikshamn. Boende i stort hus med bubbelpool. Max 8 platser. Pris: 4 495 kr.",
                   "backImage": "ads/korhoj-lokken-back-2026-08-28.jpg",
                   "link": "https://korhoj.se/event/lokken-danmark-28-30-augusti-2026/",
