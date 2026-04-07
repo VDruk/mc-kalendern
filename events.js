@@ -5055,7 +5055,35 @@ const EVENTS_DATA = {
                               "url": "https://www.google.com/maps/search/?api=1&query=Str%C3%B6mv%C3%A4gen+2%2C+901+32+Ume%C3%A5",
                               "type": "map"
                         }
-                  ]
+                  ],
+                  "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "hd-sundsvall-open-house-2026-04-18",
+                  "name": "Harley-Davidson Open House",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Kontorsvägen 8, 854 60 Sundsvall",
+                  "type": "Träff",
+                  "organizer": "Harley-Davidson Sundsvall",
+                  "description": "Öppet hus hos Harley-Davidson Sundsvall 11-15. HOG flippar burgare, demos redo att testas. Känn MC-säsongen i kroppen och umgås med likasinnade.",
+                  "link": "https://www.facebook.com/events/2141520596612324",
+                  "region": "Västernorrland",
+                  "source": "facebook.com",
+                  "backImage": "ads/hd-sundsvall-open-house-back-2026-04-18.jpg",
+                  "descriptionFull": "Välkommen till oss under Harley-Davidson Open House.\n\nVi har portarna öppna 11:00 - 15:00.\n\nHOG flippar burgare. Våra demos är redo att testas.\n\nVälkommen in och känn MC-säsongen i kroppen. Umgås med likasinnade.\n\nLet the season begin!\n\nVälkommen!\n/Harley-Davidson Crew",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2141520596612324"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kontorsv%C3%A4gen+8+854+60+Sundsvall",
+                              "type": "map"
+                        }
+                  ],
+                  "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
                   "id": "adv-expo-2026",
@@ -5565,7 +5593,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.facebook.com/HDTrollhattan",
                   "region": "Västra Götaland",
-                  "source": "facebook.com"
+                  "source": "facebook.com",
+                  "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
                   "id": "goodguys-mc-avrostning-arjang-2026-04-18",
