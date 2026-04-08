@@ -2341,6 +2341,9 @@ function getWeatherStripHTML(eventId, eventDate) {
 function render() {
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
+  // Generation token: invalidates any pending chunk timeouts from previous render() call
+  render._gen = (render._gen || 0) + 1;
+  const myGen = render._gen;
 
   const today = getTodayStr();
   if (!render._sorted) {
@@ -2659,6 +2662,7 @@ function render() {
     if (renderedCount < events.length) {
       (function renderNextChunk() {
         setTimeout(() => {
+          if (myGen !== render._gen) return; // superseded by a newer render() call
           renderedCount = renderBatch(renderedCount, NEXT_BATCH);
           if (renderedCount < events.length) renderNextChunk();
         }, 0);
