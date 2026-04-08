@@ -21423,6 +21423,25 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "mc-campen-skogsrojet-2026-07-30",
+                  "name": "MC-Campen Skogsröjet",
+                  "date": "2026-07-30",
+                  "dateEnd": "2026-08-02",
+                  "location": "Glasbruksvägen 18, Rejmyre",
+                  "type": "Fest",
+                  "organizer": "MC-Campen",
+                  "description": "Privatdriven MC-camping i samband med Skogsröjet-festivalen. Familjär stämning, gångavstånd till sjön Hunn, plats nära skogen. 500 kr.",
+                  "descriptionFull": "MC-Campen är en privatdriven camping under Skogsröjet-festivalen i Rejmyre, öppen från kl 12:00 den 30 juli till kl 12:00 den 2 augusti.\n\nArrangören öppnar upp sitt hem och sin trädgård tillsammans med närmaste vänner och återkommande gäster. Campingen drivs helt fristående från själva festivalen och har en familjär stämning där man tar hand om varandra. Området gränsar till skogen och ligger på gångavstånd till sjön Hunn.\n\nPris: 500 kr för hela perioden. Anmälan via Billetto.",
+                  "link": "https://evently.se/en/events/EFgAWosh/mccampen-skogsrojet",
+                  "links": [
+                        {"label": "Evently", "url": "https://evently.se/en/events/EFgAWosh/mccampen-skogsrojet"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Glasbruksvägen+18+Rejmyre", "type": "map"}
+                  ],
+                  "region": "Östergötland",
+                  "source": "evently.se",
+                  "backImage": "ads/mc-campen-skogsrojet-back-2026-07-30.jpg"
+            },
+            {
                   "id": "lo-i-torsdagskörningar-sundsvall-2026-07-30",
                   "name": "LO-I Torsdagskörningar Sundsvall",
                   "date": "2026-07-30",
