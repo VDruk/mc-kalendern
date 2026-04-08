@@ -4159,26 +4159,6 @@ const EVENTS_DATA = {
                   "backImage": "ads/condios-fredagsmys-back-2026-04-10.jpg"
             },
             {
-                  "id": "imrg-big-lake-upptaktsmote-2026-04-11",
-                  "name": "IMRG Big Lake Upptaktsmöte",
-                  "date": "2026-04-11",
-                  "dateEnd": "2026-04-11",
-                  "location": "Kinnegatan 15, Lidköping",
-                  "type": "Träff",
-                  "organizer": "IMRG Big Lake",
-                  "description": "Upptaktsmöte inför säsongen 2026 och invigning av den nya Indian-avdelningen hos Mc-Konsult. Info om klubben, kläder med 15% rabatt, fika och gåva.",
-                  "descriptionFull": "Indian Motorcycle Riders Group Big Lake håller upptaktsmöte inför hojsäsongen 2026 hos Mc-Konsult i Lidköping. Samtidigt inviger Mc-Konsult sin nya Indian-avdelning.\n\nProgram: info om IMRG Big Lake och samarbetet med Mc-Konsult, medlemskap och förmåner, media och sociala kanaler, hojsäsongen 2026 och försäljning av Big Lakes kläder och tygmärken. Medlemmar får 15% rabatt. Vi bjuder på fika och en gåva.\n\nAnmälan krävs via mail: urbanknutsson55@gmail.com. Start kl 11.",
-                  "link": "https://www.facebook.com/photo?fbid=26841879862070337",
-                  "links": [
-                        {"label": "Facebook", "url": "https://www.facebook.com/photo?fbid=26841879862070337"},
-                        {"label": "Hemsida", "url": "https://mckonsult.se"},
-                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidköping", "type": "map"}
-                  ],
-                  "region": "Västra Götaland",
-                  "source": "facebook.com",
-                  "backImage": "ads/imrg-big-lake-upptakt-back-2026-04-11.jpg"
-            },
-            {
                   "id": "skaraborg-gravel-vargrillen-2026-04-11",
                   "name": "Vårgrillen",
                   "date": "2026-04-11",
@@ -4764,8 +4744,8 @@ const EVENTS_DATA = {
                   "location": "MC-Konsult, Kinnegatan 15, Lidköping",
                   "type": "Träff",
                   "organizer": "IMRG Big Lake",
-                  "description": "Uppstart av hojsäsongen 2026 med info om årets program, medlemskap och MC-Konsult samarbete. Försäljning av kläder och tygmärken. Fika ingår.",
-                  "descriptionFull": "IMRG Big Lake håller upptaktsmöte för hojsäsongen 2026.\n\nProgram:\n- Info om IMRG Big Lake och MC-Konsult samarbete\n- Medlemskap\n- Media, hemsida Big Lake (FB, Köp och sälj FB, Instagram)\n- Hojsäsongen 2026 program\n- Försäljning av IMRG Big Lakes klädutbud och tygmärken\n- Vi bjuder på fika\n\nAnmälan krävs via mail: urbanknutsson55@gmail.com\n\nTid: kl 11:00\nPlats: MC-Konsult i Lidköping.",
+                  "description": "Uppstart av hojsäsongen 2026 och invigning av nya Indian-avdelningen hos MC-Konsult. Kläder med 15% rabatt för medlemmar, fika och gåva ingår.",
+                  "descriptionFull": "IMRG Big Lake håller upptaktsmöte för hojsäsongen 2026 hos MC-Konsult i Lidköping. Samtidigt inviger MC-Konsult sin nya Indian-avdelning.\n\nProgram:\n- Info om IMRG Big Lake och MC-Konsult samarbete\n- Medlemskap och förmåner\n- Media, hemsida Big Lake (FB, Köp och sälj FB, Instagram)\n- Hojsäsongen 2026 program\n- Försäljning av IMRG Big Lakes kläder och tygmärken, medlemmar får 15% rabatt\n- Vi bjuder på fika och en gåva\n\nAnmälan krävs via mail: urbanknutsson55@gmail.com\n\nTid: kl 11:00\nPlats: MC-Konsult i Lidköping.",
                   "links": [
                         {
                               "label": "FB Event",
