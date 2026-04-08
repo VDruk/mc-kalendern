@@ -7985,26 +7985,6 @@ const EVENTS_DATA = {
                   "backImage": "ads/peking-mc-1-maj-back-2026-05-01.jpg"
             },
             {
-                  "id": "peter-linden-falkenberg-2026-05-02",
-                  "name": "Peter Lindén - Stridspilot & Roadracing-legend",
-                  "date": "2026-05-02",
-                  "dateEnd": "2026-05-02",
-                  "location": "Falkenbergs Stadsteater, Holgersgatan 9, Falkenberg",
-                  "type": "Show",
-                  "organizer": "BVN Event AB",
-                  "description": "Föreläsning med Peter Lindén, Sveriges meste stridspilot och roadracing-legend. Världsmästare i Endurance, Europamästare 500cc och Moto GP-förare.",
-                  "descriptionFull": "Årets häftigaste föreläsning med Peter Lindén. Kapten och Sveriges meste stridspilot på både Viggen och JAS. Världsmästare i Endurance, Europamästare 500cc och kört Moto GP.\n\nEn teatersalong fylld av glädje, inspiration och överraskningar. Start kl 15:00 på Falkenbergs Stadsteater, Holgersgatan 9.\n\nBiljetter via Tickster.",
-                  "link": "https://www.facebook.com/events/1443940903690757",
-                  "links": [
-                        {"label": "FB Event", "url": "https://www.facebook.com/events/1443940903690757"},
-                        {"label": "Biljetter", "url": "https://secure.tickster.com/sv/zxr8x1rwdn8xgfe/seating"},
-                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Falkenbergs+Stadsteater+Holgersgatan+9", "type": "map"}
-                  ],
-                  "region": "Halland",
-                  "source": "facebook.com",
-                  "backImage": "ads/peter-linden-falkenberg-back-2026-05-02.jpg"
-            },
-            {
                   "id": "motorrad-center-season-start-2026-05-02",
                   "name": "Season Start & Motorcykelns Dag",
                   "date": "2026-05-02",
@@ -8476,6 +8456,10 @@ const EVENTS_DATA = {
                   "description": "Stridspilot i JA 37 Viggen och roadracinglegend. Peter Lindén berättar om fart, adrenalin och unika livshistorier. Kl 15:00. Biljetter via Tickster.",
                   "descriptionFull": "Peter Lindén - Från ljudvallen till racingbanan.\n\nUpplev en kväll med fart, adrenalin och unika livshistorier! Möt Peter Lindén, mannen som har bemästrat extrema hastigheter både i luften och på marken. Som stridspilot i JA 37 Viggen och roadracinglegend.\n\nTid: Lördag 2 maj kl 15:00.\nPlats: Falkenbergs Stadsteater, Holgersgatan 9, Falkenberg.\n\nBiljetter via Tickster.",
                   "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1443940903690757"
+                        },
                         {
                               "label": "Mer info",
                               "url": "https://falkenbergsstadsteater.se/peter-linden-stridspilot-roadracinglegend/"
@@ -21099,7 +21083,7 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ],
-                  "backImage": "ads/mcv-osterlen-back.jpg",
+                  "backImage": "ads/mcv-sommarfest-everod-back-2026-07-22.jpg",
                   "organizerIcon": "clubs/normalized/mcv-osterlen.png"
             },
             {
