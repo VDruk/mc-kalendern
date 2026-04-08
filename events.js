@@ -7437,6 +7437,24 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "wings-of-rogaland-25ar-2026-05-01",
+                  "name": "Wings of Rogaland 25 år",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-02",
+                  "location": "Klubbhuset, Klepp, Rogaland",
+                  "type": "Fest",
+                  "organizer": "Wings of Rogaland",
+                  "description": "Jubileumshelg med frukost, fest och gemensam tur Jæren runt. Wings of Rogaland firar 25 år som GoldWing-klubb i Norge.",
+                  "descriptionFull": "Invitasjon til 25-årsmarkering. Kjære medlemmer og Wing-venner, styret ønsker velkommen till jubileumsfeiring.\n\n1. mai kl 11:00 - Frukost i klubbhuset, 150 kr per person.\n\n1. mai kl 18:00 - Fest på klubbhuset med jubileumsmåltid, underhållning och hornmusik. Anmälan till Ove Rasmussen, tel 830 04 746.\n\n2. mai - Fellestur Jæren runt. Start från klubbhuset, vidare via Stavanger och Sandnes. Ta med fulltank och gott humør.",
+                  "link": "https://www.facebook.com/photo/?fbid=1602080031517296",
+                  "links": [
+                        {"label": "Facebook", "url": "https://www.facebook.com/photo/?fbid=1602080031517296"}
+                  ],
+                  "region": "Norge",
+                  "source": "facebook.com",
+                  "backImage": "ads/wings-rogaland-25ar-back-2026-05-01.jpg"
+            },
+            {
                   "id": "1-majkortege-norrkoping-2026",
                   "name": "1 Majkortege Norrköping",
                   "date": "2026-05-01",
