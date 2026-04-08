@@ -5637,6 +5637,26 @@ const EVENTS_DATA = {
                   "source": "bmwklubben.se"
             },
             {
+                  "id": "motorrad-center-adventure-lordag-2026-04-18",
+                  "name": "Adventure-lördag",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Slånbärsvägen 6, Upplands Väsby",
+                  "type": "Show",
+                  "organizer": "Motorrad Center Stockholm",
+                  "description": "Adventure-lördag hos BMW Motorrad Center i samband med Adventure Motorcycle Expo i Bredden. Provkör adventure-modeller, specialerbjudanden. Kl 11-15.",
+                  "descriptionFull": "Är du sugen på äventyr? Då vill du inte missa detta.\n\nAdventure-lördag hos oss 18 april kl 11-15. I samband med Adventure Motorcycle Expo i Bredden bjuder vi in till Adventure-lördag.\n\nSpecialerbjudanden på adventure-utrustning, perfekt läge att uppgradera inför säsongen. Kom och provkör våra Adventure-modeller, snacka med oss och få inspiration till din nästa resa.\n\nTa med en kompis, snacka hoj, kläm på grejer och kickstarta grussäsongen med oss.",
+                  "link": "https://www.facebook.com/MotorradCenterStockholm",
+                  "links": [
+                        {"label": "Facebook", "url": "https://www.facebook.com/MotorradCenterStockholm"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Sl%C3%A5nb%C3%A4rsv%C3%A4gen+6+Upplands+V%C3%A4sby", "type": "map"}
+                  ],
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/motorrad-center-adventure-lordag-back-2026-04-18.jpg",
+                  "organizerIcon": "clubs/normalized/motorrad-center-stockholm.png"
+            },
+            {
                   "id": "adventure-lordag-vasby-2026-04-18",
                   "name": "Adventure-lördag!",
                   "date": "2026-04-18",
