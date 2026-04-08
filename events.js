@@ -7476,6 +7476,25 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "umcc-varrally-2026-05-01",
+                  "name": "UMCC Vårrally",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-01",
+                  "location": "Västra Strandgatan 1B, Umeå",
+                  "type": "Träff",
+                  "organizer": "Umeå Motorcycle Club",
+                  "description": "Säsongsstart med UMCC. Gemenskap, vackra vägar och en hel dag på två hjul. Förra årets vårrally blev en succé och nu kör vi igen.",
+                  "descriptionFull": "Inbjudan till UMCC:s Vårrally 1 maj. Förra året blev en riktig dundersuccé och nu kör vi igen. Är du redo att kickstarta MC-säsongen med en dag fylld av gemenskap, vackra vägar och nya bekantskaper? Samling vid Västra Strandgatan i Umeå kl 12:00.",
+                  "link": "https://www.facebook.com/events/2159306674815572",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/2159306674815572"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Västra+Strandgatan+1B+Umeå", "type": "map"}
+                  ],
+                  "region": "Västerbotten",
+                  "source": "facebook.com",
+                  "backImage": "ads/umcc-varrally-back-2026-05-01.jpg"
+            },
+            {
                   "id": "wings-of-rogaland-25ar-2026-05-01",
                   "name": "Wings of Rogaland 25 år",
                   "date": "2026-05-01",
@@ -7964,6 +7983,26 @@ const EVENTS_DATA = {
                   "region": "Östergötland",
                   "source": "facebook.com",
                   "backImage": "ads/peking-mc-1-maj-back-2026-05-01.jpg"
+            },
+            {
+                  "id": "peter-linden-falkenberg-2026-05-02",
+                  "name": "Peter Lindén - Stridspilot & Roadracing-legend",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Falkenbergs Stadsteater, Holgersgatan 9, Falkenberg",
+                  "type": "Show",
+                  "organizer": "BVN Event AB",
+                  "description": "Föreläsning med Peter Lindén, Sveriges meste stridspilot och roadracing-legend. Världsmästare i Endurance, Europamästare 500cc och Moto GP-förare.",
+                  "descriptionFull": "Årets häftigaste föreläsning med Peter Lindén. Kapten och Sveriges meste stridspilot på både Viggen och JAS. Världsmästare i Endurance, Europamästare 500cc och kört Moto GP.\n\nEn teatersalong fylld av glädje, inspiration och överraskningar. Start kl 15:00 på Falkenbergs Stadsteater, Holgersgatan 9.\n\nBiljetter via Tickster.",
+                  "link": "https://www.facebook.com/events/1443940903690757",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1443940903690757"},
+                        {"label": "Biljetter", "url": "https://secure.tickster.com/sv/zxr8x1rwdn8xgfe/seating"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Falkenbergs+Stadsteater+Holgersgatan+9", "type": "map"}
+                  ],
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "backImage": "ads/peter-linden-falkenberg-back-2026-05-02.jpg"
             },
             {
                   "id": "motorrad-center-season-start-2026-05-02",
@@ -10291,6 +10330,33 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "mcv-osterlen-grillkvall-fyledalen-2026-05-13",
+                  "name": "Grillkväll vid gamla tegelbruket",
+                  "date": "2026-05-13",
+                  "dateEnd": "2026-05-13",
+                  "location": "Fyledalen, Sövestad",
+                  "type": "Träff",
+                  "organizer": "MCV Österlen",
+                  "description": "MCV Österlen samlas för grillkväll vid gamla tegelbruket i Fyledalen. Samling Svampa kl 17.45.",
+                  "link": "https://www.facebook.com/McvOsterlen",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "descriptionFull": "Säsongens första träff för MCV Österlen, lokalavdelning av Club MC-Veteranerna Sverige.\n\nGrillkväll vid gamla tegelbruket i Fyledalen. Samling Svampa kl 17.45. Start kl 18.00.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/McvOsterlen"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Fyledalen",
+                              "type": "map"
+                        }
+                  ],
+                  "backImage": "ads/mcv-osterlen-back.jpg",
+                  "organizerIcon": "clubs/normalized/mcv-osterlen.png"
             },
             {
                   "id": "bmw-d11-torgnys-vardagstur-2026",
@@ -13599,6 +13665,33 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "mcv-osterlen-fritidsbaren-ystad-2026-05-27",
+                  "name": "Fritidsbaren Ystad",
+                  "date": "2026-05-27",
+                  "dateEnd": "2026-05-27",
+                  "location": "Röda caféet, Strandpromenaden, Ystad",
+                  "type": "Träff",
+                  "organizer": "MCV Österlen",
+                  "description": "MCV Österlen träffas vid Fritidsbaren, det röda caféet vid strandpromenaden i Ystad.",
+                  "link": "https://www.facebook.com/McvOsterlen",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "descriptionFull": "Träff för MCV Österlen vid Fritidsbaren i Ystad, det röda caféet vid strandpromenaden. Start kl 18.00.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/McvOsterlen"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Strandpromenaden+Ystad",
+                              "type": "map"
+                        }
+                  ],
+                  "backImage": "ads/mcv-osterlen-back.jpg",
+                  "organizerIcon": "clubs/normalized/mcv-osterlen.png"
+            },
+            {
                   "id": "bmw-d7-tur-for-nya-medlemmar-2026",
                   "name": "D7 Tur för nya medlemmar",
                   "date": "2026-05-27",
@@ -15516,6 +15609,33 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "mcv-osterlen-motorhistoriska-dagen-2026-06-06",
+                  "name": "Motorhistoriska Dagen",
+                  "date": "2026-06-06",
+                  "dateEnd": "2026-06-06",
+                  "location": "Löderup",
+                  "type": "Show",
+                  "organizer": "MCV Österlen",
+                  "description": "Motorhistoriska Dagen i Löderup. MCV Österlen är på plats. Start kl 10.00.",
+                  "link": "https://www.facebook.com/McvOsterlen",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "descriptionFull": "Motorhistoriska Dagen i Löderup. Veteranfordon, MC och bilar samlas. MCV Österlen är på plats. Start kl 10.00.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/McvOsterlen"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=L%C3%B6derup",
+                              "type": "map"
+                        }
+                  ],
+                  "backImage": "ads/mcv-osterlen-back.jpg",
+                  "organizerIcon": "clubs/normalized/mcv-osterlen.png"
             },
             {
                   "id": "arboga-motordag-2026-06-06",
@@ -18360,6 +18480,33 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "mcv-osterlen-artillerimuseet-2026-06-27",
+                  "name": "Artillerimuseet med guidad visning",
+                  "date": "2026-06-27",
+                  "dateEnd": "2026-06-27",
+                  "location": "Artillerimuseet, Kristianstad",
+                  "type": "Körning",
+                  "organizer": "MCV Österlen",
+                  "description": "Tur till Artillerimuseet i Kristianstad med guidad visning. Stopp vid Mjelarasten i Degeberga på vägen.",
+                  "link": "https://www.facebook.com/McvOsterlen",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "descriptionFull": "MCV Österlen kör till Artillerimuseet i Kristianstad med guidad visning. På vägen dit stannar vi vid Mjelarasten i Degeberga. Samling Svampa kl 10.00.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/McvOsterlen"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Artillerimuseet+Kristianstad",
+                              "type": "map"
+                        }
+                  ],
+                  "backImage": "ads/mcv-osterlen-back.jpg",
+                  "organizerIcon": "clubs/normalized/mcv-osterlen.png"
+            },
+            {
                   "id": "regression-10ars-fest-2026-06-27",
                   "name": "10-års fest Regression Brotherhood MC",
                   "date": "2026-06-27",
@@ -19774,6 +19921,33 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "mcv-osterlen-veterantraff-gyllebo-2026-07-08",
+                  "name": "Veteranträff i Dungen",
+                  "date": "2026-07-08",
+                  "dateEnd": "2026-07-08",
+                  "location": "Dungen, Gyllebo",
+                  "type": "Träff",
+                  "organizer": "MCV Österlen",
+                  "description": "Veteranträff i Dungen, Gyllebo. MCV Österlen samlas för en sommarkväll. Start kl 17.00.",
+                  "link": "https://www.facebook.com/McvOsterlen",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "descriptionFull": "Veteranträff i Dungen, Gyllebo. MCV Österlen samlas för en sommarkväll. Start kl 17.00.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/McvOsterlen"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Gyllebo",
+                              "type": "map"
+                        }
+                  ],
+                  "backImage": "ads/mcv-osterlen-back.jpg",
+                  "organizerIcon": "clubs/normalized/mcv-osterlen.png"
+            },
+            {
                   "id": "speedskills-gellerasen-trackday-2026-07-08",
                   "name": "Trackday Gelleråsen med SpeedSkills",
                   "date": "2026-07-08",
@@ -20900,6 +21074,33 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/111motor",
                   "region": "Skåne",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "mcv-osterlen-sommarfest-everod-2026-07-22",
+                  "name": "Sommarfest hos Kristine och Östen",
+                  "date": "2026-07-22",
+                  "dateEnd": "2026-07-22",
+                  "location": "Everöd",
+                  "type": "Fest",
+                  "organizer": "MCV Österlen",
+                  "description": "Sommarfest för MCV Österlens medlemmar. Helgrillad gris, 100 kr, max 60 deltagare. Anmälan senast 14/7.",
+                  "link": "https://www.facebook.com/McvOsterlen",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "descriptionFull": "Sommarfest för MCV Österlens medlemmar hos Kristine och Östen i Everöd. Helgrillad gris. Pris 100 kr, max 60 deltagare. Start kl 18.00.\n\nAnmälan via Swish 1236606107 eller BG 797-9362 senast 14/7.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/McvOsterlen"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Ever%C3%B6d",
+                              "type": "map"
+                        }
+                  ],
+                  "backImage": "ads/mcv-osterlen-back.jpg",
+                  "organizerIcon": "clubs/normalized/mcv-osterlen.png"
             },
             {
                   "id": "doa-sommarkvallstur-skogskyrkogarden-2026",
@@ -22263,6 +22464,33 @@ const EVENTS_DATA = {
                   "backImage": "ads/british-motor-meet-hjo-back-2026-08-07.jpg",
                   "region": "Västra Götaland",
                   "source": "britishmotormeet.se"
+            },
+            {
+                  "id": "mcv-osterlen-osterlen-kicken-2026-08-08",
+                  "name": "Österlen-kicken veteranrally",
+                  "date": "2026-08-08",
+                  "dateEnd": "2026-08-08",
+                  "location": "Industrigatan 10, Tomelilla",
+                  "type": "Körning",
+                  "organizer": "MCV Österlen",
+                  "description": "Veteranrally för MC och moped. Anmälningsavgift 300 kr (frukost, lunch, kaffe och plakett ingår). Första start 10.00.",
+                  "link": "https://www.facebook.com/McvOsterlen",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "descriptionFull": "Österlen-kicken, veteranrally för MC och moped. Startplats Industrigatan 10, Tomelilla.\n\nAnmälningsavgift 300 kr (frukost, lunch, kaffe och plakett ingår). Frukost 8.00 till 9.30. Första start 10.00. Efteranmälan +50 kr.\n\nAnmälan till Hans Lempinen, tel 070-369 29 80, senast 2/8.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/McvOsterlen"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Industrigatan+10+Tomelilla",
+                              "type": "map"
+                        }
+                  ],
+                  "backImage": "ads/mcv-osterlen-back.jpg",
+                  "organizerIcon": "clubs/normalized/mcv-osterlen.png"
             },
             {
                   "id": "bsa-summer-camp-oland-2026",
@@ -25392,6 +25620,33 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "mcv-osterlen-veterantraff-skane-tranas-2026-09-05",
+                  "name": "Veteranträff Skåne Tranås",
+                  "date": "2026-09-05",
+                  "dateEnd": "2026-09-05",
+                  "location": "Skåne Tranås",
+                  "type": "Träff",
+                  "organizer": "MCV Österlen",
+                  "description": "Säsongens sista veteranträff för MCV Österlen i Skåne Tranås. Start kl 10.00.",
+                  "link": "https://www.facebook.com/McvOsterlen",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "descriptionFull": "Veteranträff i Skåne Tranås. Säsongens sista samling för MCV Österlen. Start kl 10.00.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/McvOsterlen"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne+Tran%C3%A5s",
+                              "type": "map"
+                        }
+                  ],
+                  "backImage": "ads/mcv-osterlen-back.jpg",
+                  "organizerIcon": "clubs/normalized/mcv-osterlen.png"
             },
             {
                   "id": "motorcycle-inferno-munkfors-2026-09-05",
