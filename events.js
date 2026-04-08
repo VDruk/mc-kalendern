@@ -21218,6 +21218,25 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "veteranmarknad-rattvik-2026-07-24",
+                  "name": "Veteranmarknad på Rättviks Travbana",
+                  "date": "2026-07-24",
+                  "dateEnd": "2026-07-25",
+                  "location": "Rättviks Travbana, Rättvik",
+                  "type": "Show",
+                  "organizer": "Classic Car Week",
+                  "description": "Tvådagars veteranmarknad under Classic Car Week. Pris 400 kr för 6x4 m säljplats, eller plats för bil. Start fredag kl 16.",
+                  "descriptionFull": "Tvådagars veteranmarknad arrangerad av Classic Car Week, Sveriges största veteranfordonsvecka.\n\nFredag 24 juli kl 16-21 samt lördag 25 juli. Plats: Rättviks Travbana.\n\nPris: 400 kr för 6x4 m säljplats, eller plats för bil. Alla som tidigare haft plats på Rättviks Arena är välkomna.",
+                  "link": "https://www.facebook.com/events/1636430667640219",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1636430667640219"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A4ttviks+Travbana", "type": "map"}
+                  ],
+                  "region": "Dalarna",
+                  "source": "facebook.com",
+                  "backImage": "ads/veteranmarknad-rattvik-back-2026-07-24.jpg"
+            },
+            {
                   "id": "dob-skanetraffen-2-0-2026",
                   "name": "DOB- Skåneträffen 2.0",
                   "date": "2026-07-24",
