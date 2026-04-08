@@ -15882,22 +15882,23 @@ const EVENTS_DATA = {
                   "location": "Thygesson Bussar, Broby",
                   "type": "Träff",
                   "organizer": "Lille Mats MCK",
-                  "description": "MC-kortege till förmån för prostacancerföreningen. Pris 150 kr per hjälm. Alla medel går till Pro Vitae.",
-                  "link": "https://smcboken.svmc.se/traffar/mcträffar",
+                  "description": "MC-kortege till förmån för prostacancerföreningen. Samling 09:30, avfärd 11:30 mot Hässleholm. 150 kr per hjälm, alla medel går till Pro Vitae.",
+                  "link": "https://www.facebook.com/events/1250398017267511",
                   "region": "Skåne",
-                  "source": "smcboken.svmc.se",
-                  "descriptionFull": "Mustaschkortegen arrangeras av Lille Mats MCK.\n\nMC-kortege till förmån för prostacancerföreningen. Pris 150 kr per hjälm. Alla medel går till Pro Vitae.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Thygesson Bussar, Broby.",
+                  "source": "facebook.com",
+                  "descriptionFull": "MC-kortege till förmån för Prostataföreningen, arrangerad av Lille Mats MCK tillsammans med Destination Hässleholm och Yamaha Custom Club Sweden.\n\nSamling vid Thygessons Bussgarage i Broby från kl 09:30. Avfärd mot Hässleholm kl 11:30 via Emmislöv, Knislinge och Vanneberga.\n\nPris 150 kr per hjälm. Alla medel går till Pro Vitae. Alla är välkomna oavsett vilken hoj du kör.",
                   "links": [
                         {
-                              "label": "smcboken.svmc.se",
-                              "url": "https://smcboken.svmc.se/traffar/mcträffar"
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1250398017267511"
                         },
                         {
                               "label": "Karta",
                               "url": "https://www.google.com/maps/search/?api=1&query=Thygesson+Bussar%2C+Broby",
                               "type": "map"
                         }
-                  ]
+                  ],
+                  "backImage": "ads/mustaschkortegen-broby-back-2026-06-06.jpg"
             },
             {
                   "id": "nationaldagskorning-i-linkoping-2026",
