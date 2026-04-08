@@ -5101,6 +5101,26 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "desmocenter-adventure-lordag-2026-04-18",
+                  "name": "Adventure-lördag hos oss",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Karins väg 5, Upplands Väsby",
+                  "type": "Show",
+                  "organizer": "DesmoCenter",
+                  "description": "Öppet hus hos Ducatibutiken med fokus på adventure-modellerna. Kom förbi mellan 11 och 15 för en pratstund och en titt på hojarna.",
+                  "descriptionFull": "Adventure-lördag hos DesmoCenter i Upplands Väsby. Mellan kl 11 och 15 visar vi adventure-modellerna från Ducati. Kaffe, snack och en titt på nya hojarna. Välkomna till Karins väg 5.",
+                  "link": "https://www.facebook.com/photo/?fbid=1376728314473024",
+                  "links": [
+                        {"label": "Facebook", "url": "https://www.facebook.com/desmocenter"},
+                        {"label": "Hemsida", "url": "https://desmocenter.se"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Karins+väg+5+Upplands+Väsby", "type": "map"}
+                  ],
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/desmocenter-adventure-lordag-back-2026-04-18.jpg"
+            },
+            {
                   "id": "philip-mcerne-als-roskilde-2026-04-18",
                   "name": "Philip & MC'erne samler ind til ALS forskning",
                   "date": "2026-04-18",
