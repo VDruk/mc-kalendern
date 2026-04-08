@@ -3976,6 +3976,25 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "leftovers-mc-fikakvall-2026-04-08",
+                  "name": "Fikakväll hos Leftovers MC",
+                  "date": "2026-04-08",
+                  "dateEnd": "2026-04-08",
+                  "location": "Fröjavägen 15, Frösön",
+                  "type": "Träff",
+                  "organizer": "Leftovers MC Jemtland",
+                  "description": "Onsdagsfika i klubbhuset. Plåtis bjuder på kaffe och tilltugg, alla är välkomna förbi från kl 17:30.",
+                  "descriptionFull": "Fikakväll hos Leftovers MC Jemtland på Frösön. Plåtis bjuder på fika i kväll från kl 17:30. Öppet klubbhus, kom förbi och prata hoj.",
+                  "link": "https://www.facebook.com/photo/?fbid=1467583225161467",
+                  "links": [
+                        {"label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100057294106386"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Fröjavägen+15+Frösön", "type": "map"}
+                  ],
+                  "region": "Jämtland",
+                  "source": "facebook.com",
+                  "backImage": "ads/leftovers-mc-fikakvall-back-2026-04-08.jpg"
+            },
+            {
                   "id": "omcc-medlemsmote-2026-04-08",
                   "name": "Medlemsmöte",
                   "date": "2026-04-08",
@@ -4138,6 +4157,26 @@ const EVENTS_DATA = {
                   "region": "Jönköping",
                   "source": "facebook.com",
                   "backImage": "ads/condios-fredagsmys-back-2026-04-10.jpg"
+            },
+            {
+                  "id": "imrg-big-lake-upptaktsmote-2026-04-11",
+                  "name": "IMRG Big Lake Upptaktsmöte",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "Kinnegatan 15, Lidköping",
+                  "type": "Träff",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Upptaktsmöte inför säsongen 2026 och invigning av den nya Indian-avdelningen hos Mc-Konsult. Info om klubben, kläder med 15% rabatt, fika och gåva.",
+                  "descriptionFull": "Indian Motorcycle Riders Group Big Lake håller upptaktsmöte inför hojsäsongen 2026 hos Mc-Konsult i Lidköping. Samtidigt inviger Mc-Konsult sin nya Indian-avdelning.\n\nProgram: info om IMRG Big Lake och samarbetet med Mc-Konsult, medlemskap och förmåner, media och sociala kanaler, hojsäsongen 2026 och försäljning av Big Lakes kläder och tygmärken. Medlemmar får 15% rabatt. Vi bjuder på fika och en gåva.\n\nAnmälan krävs via mail: urbanknutsson55@gmail.com. Start kl 11.",
+                  "link": "https://www.facebook.com/photo?fbid=26841879862070337",
+                  "links": [
+                        {"label": "Facebook", "url": "https://www.facebook.com/photo?fbid=26841879862070337"},
+                        {"label": "Hemsida", "url": "https://mckonsult.se"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidköping", "type": "map"}
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/imrg-big-lake-upptakt-back-2026-04-11.jpg"
             },
             {
                   "id": "skaraborg-gravel-vargrillen-2026-04-11",
@@ -7945,6 +7984,26 @@ const EVENTS_DATA = {
                   "region": "Östergötland",
                   "source": "facebook.com",
                   "backImage": "ads/peking-mc-1-maj-back-2026-05-01.jpg"
+            },
+            {
+                  "id": "motorrad-center-season-start-2026-05-02",
+                  "name": "Season Start & Motorcykelns Dag",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Slånbärsvägen 6, Upplands Väsby",
+                  "type": "Show",
+                  "organizer": "Motorrad Center Stockholm",
+                  "description": "Heldag som kickar igång MC-säsongen på BMW Motorrad-butiken. Nya modeller, utställare, mat och prat med andra förare.",
+                  "descriptionFull": "Lördagen den 2 maj är det Motorcykelns Dag och Motorrad Center Stockholm firar med sitt årliga Season Start-event. Heldag med nya BMW Motorrad-modeller, utställare, kaffe och mat. Perfekt start på säsongen. Öppet från kl 10.",
+                  "link": "https://www.facebook.com/events/1794365041949802",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1794365041949802"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Slånbärsvägen+6+Upplands+Väsby", "type": "map"}
+                  ],
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/motorrad-center-season-start-back-2026-05-02.jpg",
+                  "organizerIcon": "clubs/normalized/motorrad-center-stockholm.png"
             },
             {
                   "id": "ljungbyhed-mc-bandag-2026-05-02",
