@@ -7444,7 +7444,7 @@ const EVENTS_DATA = {
                   "location": "Klubbhuset, Klepp, Rogaland",
                   "type": "Fest",
                   "organizer": "Wings of Rogaland",
-                  "description": "Jubileumshelg med frukost, fest och gemensam tur Jæren runt. Wings of Rogaland firar 25 år som GoldWing-klubb i Norge.",
+                  "description": "Jubileumshelg med frukost, fest och gemensam tur Jæren runt. Wings of Rogaland firar 25 år som Gold Wing-klubb i Norge.",
                   "descriptionFull": "Invitasjon til 25-årsmarkering. Kjære medlemmer og Wing-venner, styret ønsker velkommen till jubileumsfeiring.\n\n1. mai kl 11:00 - Frukost i klubbhuset, 150 kr per person.\n\n1. mai kl 18:00 - Fest på klubbhuset med jubileumsmåltid, underhållning och hornmusik. Anmälan till Ove Rasmussen, tel 830 04 746.\n\n2. mai - Fellestur Jæren runt. Start från klubbhuset, vidare via Stavanger och Sandnes. Ta med fulltank och gott humør.",
                   "link": "https://www.facebook.com/photo/?fbid=1602080031517296",
                   "links": [
