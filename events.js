@@ -6534,6 +6534,32 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "mc-ns-dag-eagle-riders-boras-2026-04-25",
+                  "name": "MC:ns dag",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "location": "Eagle Riders MC, Företagsgatan 60, Borås",
+                  "type": "Körning",
+                  "organizer": "Eagle Riders MC Borås",
+                  "description": "Samling kl 10 för avfärd kl 11 ner till Borås centrum. Visa att vi är igång i trafiken igen! Startavgift minst 50 kr, går till Kvinnojouren Borås. Frukost och fika.",
+                  "descriptionFull": "Som vanligt är ni välkomna till MC:ns dag!\n\nSamling vid kåken kl 10:00 för avfärd i sedvanlig oordning kl 11:00 ner till Borås för att visa att nu är vi igång i trafiken igen.\n\nVi samlar in pengar till behjärtansvärda ändamål. Startavgift minst 50 kr/person, går oavkortat till Kvinnojouren Borås.\n\nFrukostmacka finns att tillgå samt kaffe/te och kaka. OBS: Cash is King!\n\nNi är även välkomna från kl 18 för lite gott häng i kåken.\n\nPlats: Eagle Riders MC, Företagsgatan 60, Borås",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1311164870907449"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Företagsgatan+60+Borås",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1311164870907449",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/mc-ns-dag-boras-back-2026-04-25.jpg"
+            },
+            {
                   "id": "gandalf-mc-motor-swap-bjurakers-2026-04-25",
                   "name": "MOTOR-SWAP",
                   "date": "2026-04-25",
@@ -8112,6 +8138,32 @@ const EVENTS_DATA = {
                   "region": "Östergötland",
                   "source": "facebook.com",
                   "backImage": "ads/peking-mc-1-maj-back-2026-05-01.jpg"
+            },
+            {
+                  "id": "primo-maggio-ducati-vasteras-2026-05-01",
+                  "name": "Primo Maggio 2026",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-01",
+                  "location": "Circle K Hammarbyrampen, Hammarbyrampen 1, Västerås",
+                  "type": "Körning",
+                  "organizer": "Svenska Ducatiklubben Region Mälardalen",
+                  "description": "1:a maj-tur med Ducatiklubben Mälardalen. Start 10:30 vid Circle K Hammarbyrampen. Stopp i Köping, kaffe i Kungsör, räkmacka vid Sundbyholms Gästhamn.",
+                  "descriptionFull": "Buona sera Ducatisti! Dags att boka upp 1:a maj för en trevlig runda.\n\nStart kl 10:30 vid Circle K Hammarbyrampen i Västerås. Ca 11:15 stopp i Köping vid Zigenerbacken. Sedan vidare mot Kungsör för kaffe och bensträckare. Sista etappen till Sundbyholms Gästhamn för en möjlig räkmacka.\n\nHemfärd körs enligt egen preferens.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1290962199662666"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hammarbyrampen+Västerås",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1290962199662666",
+                  "region": "Västmanland",
+                  "source": "facebook.com",
+                  "backImage": "ads/primo-maggio-vasteras-back-2026-05-01.jpg"
             },
             {
                   "id": "smk-solleftea-uppstart-2026-05-01",
@@ -14486,6 +14538,37 @@ const EVENTS_DATA = {
                   "region": "Nederländerna",
                   "source": "vra.nl",
                   "backImage": "ads/vra-holland-nationale-treffen-back-2026-05-29.jpg"
+            },
+            {
+                  "id": "smc-vastmanland-knix-pepparrotsbanan-2026-05-30",
+                  "name": "Knixkurs Nya Pepparrotsbanan",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Nya Pepparrotsbanan, Fagerskogen, Enköping",
+                  "type": "Körning",
+                  "organizer": "SMC Västmanland",
+                  "organizerIcon": "clubs/normalized/smc.png",
+                  "description": "Knixkurs på Nya Pepparrotsbanan i Enköping. Öva kurvtagning, bli tryggare på hojen. För- eller eftermiddagspass, eller båda. Fika bjuds. Kl 9-17.",
+                  "descriptionFull": "Passa på och boka knixkurs på Nya Pepparrotsbanan i Enköping!\n\nVälj för- eller eftermiddagspass, eller varför inte båda. Öva kurvtagning, fika, ha en kul dag, bli tryggare med din hoj i trafiken.\n\nEn kurs för alla: custom, adventure, sport eller grushojar, alla är välkomna. Har du aldrig gått en knixkurs, unna dig det. Vi bjuder på fika.\n\nAnmälan obligatorisk via SMC:s hemsida.\n\nTid: Lördag 30 maj, kl 09:00-17:00\nPlats: Nya Pepparrotsbanan (Göta MS), Fagerskogen, Enköping",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/923672187315324"
+                        },
+                        {
+                              "label": "Anmälan",
+                              "url": "https://grundkurser.svmc.se/?name=&district=vastmanland&et%5B%5D=Knix&date_start=2026-05-30&date_end=2026-05-30"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Nya+Pepparrotsbanan+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/923672187315324",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/knix-pepparrotsbanan-back-2026-05-30.jpg"
             },
             {
                   "id": "baprun-gotland-2026",
