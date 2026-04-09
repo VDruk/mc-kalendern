@@ -850,15 +850,20 @@
   .back-btn:hover { color: var(--accent-hover); }
 
   /* ========== POSTER / FRONT-IMAGE CARDS ========== */
-  .card.poster-card { border: none; overflow: hidden; border-top-color: transparent; }
-  .card.poster-card { transition: border-color 0.2s, background 0.2s, transform 0.2s, box-shadow 0.2s; }
-  .card.poster-card { padding: 0; } /* Always 0 padding, back side has its own */
+  .card.poster-card {
+    border: none; overflow: hidden; border-top: none;
+    padding: 0; background: transparent;
+    align-self: start; /* Don't stretch to row height */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .card.poster-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.25); }
   .card.poster-card .card-front { padding: 0; cursor: pointer; }
   .card.poster-card .card-front .poster-front-img {
     width: 100%; display: block;
     border-radius: var(--radius);
   }
-  .card.poster-card .card-back-flip { padding: 20px; } /* Back side gets its own padding */
+  .card.poster-card .card-back-flip { padding: 20px; background: var(--bg-card); } /* Back side gets its own padding + bg */
 
   /* ========== FAVORITES BUTTON ========== */
   .fab-favorites {
@@ -2955,6 +2960,7 @@ function initEventMap() {
   eventMap = L.map('eventMap', {
     center: [62.5, 16.0],
     zoom: 5,
+    minZoom: 4,
     zoomControl: true,
     scrollWheelZoom: true
   });
