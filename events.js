@@ -2936,7 +2936,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.facebook.com/events/1304692127244701",
                   "region": "Sverige",
-                  "source": "facebook.com"
+                  "source": "facebook.com",
+                  "backImage": "ads/morocco-adventure-tour-xl-back-2026.jpg"
             },
             {
                   "id": "norra-sthlm-grus-2026-03-28",
@@ -8144,7 +8145,7 @@ const EVENTS_DATA = {
                   "name": "Primo Maggio 2026",
                   "date": "2026-05-01",
                   "dateEnd": "2026-05-01",
-                  "location": "Circle K Hammarbyrampen, Hammarbyrampen 1, Västerås",
+                  "location": "Circle K, Hammarbyrampen 1, Västerås",
                   "type": "Körning",
                   "organizer": "Svenska Ducatiklubben Region Mälardalen",
                   "description": "1:a maj-tur med Ducatiklubben Mälardalen. Start 10:30 vid Circle K Hammarbyrampen. Stopp i Köping, kaffe i Kungsör, räkmacka vid Sundbyholms Gästhamn.",
@@ -15326,7 +15327,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "smc-vastmanland-avrostning-2026-05-31",
-                  "name": "Avrostning 31 maj",
+                  "name": "Avrostning",
                   "date": "2026-05-31",
                   "dateEnd": "2026-05-31",
                   "location": "Hässlö Trafikövningsplats, Hässlögatan 20, Västerås",
