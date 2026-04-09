@@ -2417,8 +2417,8 @@ function render() {
     events = events.filter(e => e._searchIndex && e._searchIndex.includes(q));
   }
 
-  // Update event map with filtered events (before city filter, so all dots stay visible)
-  updateEventMap(events);
+  // Update event map with filtered events + AD cards (before city filter, so all dots stay visible)
+  updateEventMap(events.concat(adCards));
 
   // Map city filter: applied after map update so dots reflect other filters, but cards narrow to clicked city
   if (mapCityFilter) {

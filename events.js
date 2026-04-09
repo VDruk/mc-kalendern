@@ -224,7 +224,7 @@ const EVENTS_DATA = {
                   "links": [
                         {
                               "label": "Facebook",
-                              "url": "https://www.facebook.com/profile.php?id=61570126362660"
+                              "url": "https://www.facebook.com/profile.php?id=61581825973860"
                         },
                         {
                               "label": "Karta",
@@ -232,7 +232,7 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ],
-                  "link": "https://www.facebook.com/profile.php?id=61570126362660",
+                  "link": "https://www.facebook.com/profile.php?id=61581825973860",
                   "region": "Stockholm",
                   "source": "AD",
                   "frontImage": "ads/enhorna-cafe-front.jpg",
@@ -6518,6 +6518,7 @@ const EVENTS_DATA = {
                   "location": "Lextorpsvägen 997, Trollhättan",
                   "type": "Fest",
                   "organizer": "Bike Trollhättan",
+                  "organizerIcon": "clubs/normalized/bike-trollhattan.png",
                   "description": "Två dagar med stuntshow, provkörningar och bra deals på MC-kläder, hjälmar och tillbehör. Honda är tillbaka med nya modeller. Gratis entré, mat och fika på plats.",
                   "descriptionFull": "24-25 april är det dags för Bikedagarna!\n\nTvå dagar fyllda av stuntshow, provkörningar och riktigt bra deals. Oavsett om du redan kör, planerar att ta kort eller bara älskar känslan runt hojar och gemenskap, så är det här helgen du inte vill missa.\n\nUnder två fullmatade dagar bjuder vi på riktigt starka erbjudanden på MC-kläder, hjälmar och tillbehör. Det blir även förmånliga kampanjer på motorcyklar och möjlighet att provköra många av årets hetaste nyheter.\n\nExtra roligt i år är att Honda äntligen är tillbaka hos oss, vilket innebär ännu fler spännande modeller att uppleva.\n\nDet händer mer än bara affärer. Under helgen blir det stuntshow, god mat och aktiviteter för barnen, vilket gör detta till en perfekt utflykt för både hojåkare och hela familjen.\n\nEvenemanget äger rum hos oss på Lextorpsvägen 997 i Trollhättan.\n\nDet är gratis att besöka oss på Bikedagarna!\n\nVi ses på Bikedagarna!",
                   "backImage": "ads/bikedagarna-back-2026-04-24.jpg",
