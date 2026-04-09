@@ -853,7 +853,7 @@
   .card.poster-card {
     border: none; overflow: hidden; border-top: none;
     padding: 0; background: transparent;
-    align-self: start; /* Don't stretch to row height */
+    align-self: center; /* Center vertically in row, don't stretch */
     box-shadow: 0 2px 8px rgba(0,0,0,0.18);
     transition: transform 0.2s, box-shadow 0.2s;
   }
@@ -3142,6 +3142,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (sc) { sc.classList.remove('visible'); }
     mapCityFilter = '';
     updateMapCityBadge();
+    if (eventMap) eventMap.setView([62.5, 16.0], 4);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
