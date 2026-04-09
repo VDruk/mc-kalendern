@@ -67,6 +67,8 @@
     --type-korning: #ea580c;
     --type-show: #db2777;
     --type-fest: #e11d48;
+    --type-plats: #0891b2;
+    --type-anons: #7c3aed;
     --radius: 12px;
     --radius-sm: 8px;
     --transition: 0.2s ease;
@@ -521,6 +523,8 @@
   .card.tb-fest { border-top-color: var(--type-fest); }
   .card.tb-show { border-top-color: var(--type-show); }
   .card.tb-racing { border-top-color: var(--type-racing); }
+  .card.tb-plats { border-top-color: var(--type-plats); }
+  .card.tb-anons { border-top-color: var(--type-anons); }
   .card:hover {
     border-color: var(--border-light);
     background: var(--bg-card-hover);
@@ -600,6 +604,8 @@
   .type-korning { background: rgba(234,88,12,0.1); color: var(--type-korning); }
   .type-show { background: rgba(219,39,119,0.1); color: var(--type-show); }
   .type-fest { background: rgba(225,29,72,0.1); color: var(--type-fest); }
+  .type-plats { background: rgba(8,145,178,0.1); color: var(--type-plats); }
+  .type-anons { background: rgba(124,58,237,0.1); color: var(--type-anons); }
 
   /* Favorite star */
   .fav-btn {
@@ -1441,6 +1447,8 @@
         <option value="Racing">Racing</option>
         <option value="Fest">Fest</option>
         <option value="Show">Show</option>
+        <option value="Plats">Plats</option>
+        <option value="Anons">Anons</option>
       </select>
     </div>
     <div class="filter-right-col">
@@ -1488,6 +1496,8 @@
         <option value="Racing">Racing</option>
         <option value="Fest">Fest</option>
         <option value="Show">Show</option>
+        <option value="Plats">Plats</option>
+        <option value="Anons">Anons</option>
       </select>
       <button class="toggle flex-shrink-0" id="pastToggleMobile" aria-label="Visa passerade evenemang" title="Visa passerade evenemang"></button>
     </div>
@@ -1679,7 +1689,7 @@ const CLUB_MATCHERS = {
 const TYPE_CLASSES = {
   'Träff': 'type-traff', 'Racing': 'type-racing',
   'Show': 'type-show', 'Körning': 'type-korning',
-  'Fest': 'type-fest'
+  'Fest': 'type-fest', 'Plats': 'type-plats', 'Anons': 'type-anons'
 };
 
 // ========== STATE ==========
@@ -1980,7 +1990,7 @@ function updateStats() {
 // ========== WEATHER SYSTEM ==========
 const LOCATION_COORDS = {
   'stockholm': { lat: 59.33, lon: 18.07 }, 'göteborg': { lat: 57.71, lon: 11.97 },
-  'malmö': { lat: 55.60, lon: 13.00 }, 'uppsala': { lat: 59.86, lon: 17.64 }, 'upplands-väsby': { lat: 59.52, lon: 17.91 }, 'tierp': { lat: 60.34, lon: 17.51 },
+  'malmö': { lat: 55.60, lon: 13.00 }, 'uppsala': { lat: 59.86, lon: 17.64 }, 'hyttögatan': { lat: 59.88, lon: 17.59 }, 'upplands-väsby': { lat: 59.52, lon: 17.91 }, 'tierp': { lat: 60.34, lon: 17.51 },
   'linköping': { lat: 58.41, lon: 15.63 }, 'norrköping': { lat: 58.59, lon: 16.18 },
   'örebro': { lat: 59.27, lon: 15.21 }, 'västerås': { lat: 59.61, lon: 16.54 },
   'helsingborg': { lat: 56.05, lon: 12.69 }, 'jönköping': { lat: 57.78, lon: 14.16 }, 'spånhyltan': { lat: 56.96, lon: 14.36 }, 'östersunds camping': { lat: 63.16, lon: 14.67 },
@@ -2349,15 +2359,22 @@ function render() {
   }
   const allEvents = render._sorted;
 
-  // Separate AD cards from regular events (ads bypass all filters)
-  const adCards = allEvents.filter(e => e._ad);
+  // Separate AD cards (Plats + Anons) from regular events
+  const allAdCards = allEvents.filter(e => e._ad);
+  const platsCards = allAdCards.filter(e => e._place);
+  const anonsCards = allAdCards.filter(e => !e._place);
   let events = allEvents.filter(e => !e._ad);
 
   // Filters (regular events only)
-  if (currentFilter !== 'all') events = events.filter(e => e.type === currentFilter);
+  if (currentFilter !== 'all' && currentFilter !== 'Plats' && currentFilter !== 'Anons') {
+    events = events.filter(e => e.type === currentFilter);
+  }
+  // If user selected Plats or Anons type filter, hide all regular events (only show those AD cards)
+  if (currentFilter === 'Plats' || currentFilter === 'Anons') {
+    events = [];
+  }
   if (currentClub !== 'all') {
     if (currentClub === '__other__') {
-      // Övriga: events not matched by any of the top-20 organizer entries
       events = events.filter(e => {
         const org = e.organizer || '';
         return !topOrgEntries.some(([key]) =>
@@ -2367,7 +2384,6 @@ function render() {
     } else if (CLUB_MATCHERS[currentClub]) {
       events = events.filter(e => CLUB_MATCHERS[currentClub](e.organizer || ''));
     } else {
-      // Standalone organizer: substring match so variants are included
       events = events.filter(e => (e.organizer || '').includes(currentClub));
     }
   }
@@ -2381,18 +2397,11 @@ function render() {
       events = events.filter(e => e.date <= tmrwStr && (e.dateEnd || e.date) >= tmrwStr);
     } else if (currentMonth === '__weekend__') {
       const now = new Date();
-      const dow = now.getDay(); // 0=Sun,1=Mon..6=Sat
+      const dow = now.getDay();
       let sat, sun;
-      if (dow === 6) { // Saturday: this Sat + tomorrow Sun
-        sat = new Date(now);
-        sun = new Date(now); sun.setDate(sun.getDate() + 1);
-      } else if (dow === 0) { // Sunday: yesterday Sat + today Sun
-        sun = new Date(now);
-        sat = new Date(now); sat.setDate(sat.getDate() - 1);
-      } else { // Mon-Fri: next Sat + Sun
-        sat = new Date(now); sat.setDate(sat.getDate() + (6 - dow));
-        sun = new Date(sat); sun.setDate(sun.getDate() + 1);
-      }
+      if (dow === 6) { sat = new Date(now); sun = new Date(now); sun.setDate(sun.getDate() + 1); }
+      else if (dow === 0) { sun = new Date(now); sat = new Date(now); sat.setDate(sat.getDate() - 1); }
+      else { sat = new Date(now); sat.setDate(sat.getDate() + (6 - dow)); sun = new Date(sat); sun.setDate(sun.getDate() + 1); }
       const satStr = sat.toISOString().slice(0, 10);
       const sunStr = sun.toISOString().slice(0, 10);
       events = events.filter(e => {
@@ -2400,7 +2409,6 @@ function render() {
         return (start <= sunStr && end >= satStr);
       });
     } else {
-      // Include events whose date range overlaps the selected month (e.g. Mar 28 - Apr 2 shows in both March and April)
       const selM = parseInt(currentMonth, 10);
       events = events.filter(e => {
         const startM = parseInt(e.date.split('-')[1], 10);
@@ -2417,40 +2425,71 @@ function render() {
     events = events.filter(e => e._searchIndex && e._searchIndex.includes(q));
   }
 
-  // Update event map with filtered events + place-ADs (before city filter, so all dots stay visible)
-  const placeAds = adCards.filter(e => e._place);
-  updateEventMap(events.concat(placeAds));
+  // --- Determine which AD cards to show based on filter state ---
+  const currentM = parseInt(today.split('-')[1], 10);
+  let visibleAds = [];
 
-  // Map city filter: applied after map update so dots reflect other filters, but cards narrow to clicked city
+  if (searchQuery) {
+    // Search mode: show ads that match the search query
+    const q = searchQuery.toLowerCase();
+    visibleAds = allAdCards.filter(e =>
+      (e.name || '').toLowerCase().includes(q) ||
+      (e.organizer || '').toLowerCase().includes(q) ||
+      (e.location || '').toLowerCase().includes(q) ||
+      (e.description || '').toLowerCase().includes(q)
+    );
+  } else if (currentFilter === 'Plats') {
+    // Type filter = Plats: show all Plats cards
+    visibleAds = platsCards.slice();
+  } else if (currentFilter === 'Anons') {
+    // Type filter = Anons: show all Anons cards
+    visibleAds = anonsCards.slice();
+  } else {
+    // Normal browse mode: determine Plats and Anons visibility separately
+    // Plats: show only in current month (no month filter or current month selected) + matching region
+    const showPlats = (currentFilter === 'all') && (currentClub === 'all');
+    if (showPlats) {
+      platsCards.forEach(ad => {
+        const monthOk = (currentMonth === 'all') ||
+          (currentMonth === '__today__') || (currentMonth === '__tomorrow__') || (currentMonth === '__weekend__') ||
+          (parseInt(currentMonth, 10) === currentM);
+        const regionOk = (currentRegion === 'all') ||
+          (ad.region === currentRegion) || (ad.region === 'Sverige');
+        if (monthOk && regionOk) visibleAds.push(ad);
+      });
+    }
+    // Anons: show when no type or organizer filter is active
+    const showAnons = (currentFilter === 'all') && (currentClub === 'all');
+    if (showAnons) {
+      anonsCards.forEach(ad => visibleAds.push(ad));
+    }
+  }
+
+  // Update event map with filtered events + place-ADs (before city filter)
+  updateEventMap(events.concat(platsCards));
+
+  // Map city filter
   if (mapCityFilter) {
     events = events.filter(e => (e.location || '').toLowerCase().includes(mapCityFilter));
   }
 
-  // AD injection: insert ad cards at regular intervals, or if search matches
+  // AD injection: insert visible ad cards at regular intervals, or append in filter mode
   const AD_INTERVAL = 25;
-  if (adCards.length > 0) {
-    if (searchQuery) {
-      // During search: only show ads that match the search query
-      const q = searchQuery.toLowerCase();
-      const matchingAds = adCards.filter(e =>
-        (e.name || '').toLowerCase().includes(q) ||
-        (e.organizer || '').toLowerCase().includes(q) ||
-        (e.location || '').toLowerCase().includes(q) ||
-        (e.description || '').toLowerCase().includes(q)
-      );
-      matchingAds.forEach(ad => events.push(ad));
+  if (visibleAds.length > 0) {
+    if (searchQuery || currentFilter === 'Plats' || currentFilter === 'Anons') {
+      // In search or AD type filter mode: just append all matching ads
+      visibleAds.forEach(ad => events.push(ad));
     } else {
       // Browse mode: inject at regular intervals
       let adIndex = 0;
       let insertPos = AD_INTERVAL;
-      while (insertPos < events.length + adCards.length && adIndex < adCards.length) {
-        events.splice(insertPos, 0, adCards[adIndex % adCards.length]);
+      while (insertPos < events.length + visibleAds.length && adIndex < visibleAds.length) {
+        events.splice(insertPos, 0, visibleAds[adIndex]);
         adIndex++;
         insertPos += AD_INTERVAL + 1;
       }
-      // If no ad was placed yet (less than 25 events), place first ad at position 5 or end
       if (adIndex === 0 && events.length >= 3) {
-        events.splice(Math.min(5, events.length), 0, adCards[0]);
+        events.splice(Math.min(5, events.length), 0, visibleAds[0]);
       }
     }
   }
@@ -2553,7 +2592,7 @@ function render() {
     // Build card
     const hasBack = event.descriptionFull || event.links;
     const card = document.createElement('div');
-    const typeBarMap = {'Träff':'tb-traff','Körning':'tb-korning','Fest':'tb-fest','Show':'tb-show','Racing':'tb-racing'};
+    const typeBarMap = {'Träff':'tb-traff','Körning':'tb-korning','Fest':'tb-fest','Show':'tb-show','Racing':'tb-racing','Plats':'tb-plats','Anons':'tb-anons'};
     const typeBarClass = typeBarMap[event.type] || '';
     card.className = 'card' + (typeBarClass ? ' ' + typeBarClass : '') + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
     card.dataset.id = event.id;
