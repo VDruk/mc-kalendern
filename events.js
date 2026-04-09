@@ -18834,6 +18834,32 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "daca-run-against-child-abuse-2026-06-27",
+                  "name": "D.A.C.A. Run Against Child Abuse",
+                  "date": "2026-06-27",
+                  "dateEnd": "2026-06-27",
+                  "location": "Rosenhill, Grödinge",
+                  "type": "Körning",
+                  "organizer": "DACA",
+                  "description": "Välgörenhetsrun till förmån för barn som behöver hjälp. Start i Grödinge, bensträckare i Flen, slutdestination Vingåker (Barnensdagen). Startavgift 100 kr via Swish.",
+                  "descriptionFull": "DACA kör sitt årliga Run till förmån för våra skyddslingar och barn som behöver hjälp.\n\nStartavgift: 100 kr (betalas via Swish QR-kod vid start). Alla intäkter går oavkortat till DACA:s arbete för barn och unga i Sverige.\n\nStart & Rutt:\n- Rosenhill, Grödinge (starttid kommer inom kort)\n- Bensträckare/Uppsamling: Flen\n- Slutdestination: Vingåker (Barnensdagen, sluttid kommer inom kort)\n\nMat & dryck finns att köpa på plats.\n\nAlla barn är såklart hjärtligt välkomna att åka med på resan!\n\n\"Tillsammans gör vi skillnad för barnen!\"",
+                  "links": [
+                        {
+                              "label": "daca.nu",
+                              "url": "https://www.daca.nu"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Rosenhill+Grödinge",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.daca.nu",
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/daca-run-against-child-abuse-back-2026-06-27.jpg"
+            },
+            {
                   "id": "mcv-osterlen-artillerimuseet-2026-06-27",
                   "name": "Artillerimuseet med guidad visning",
                   "date": "2026-06-27",
