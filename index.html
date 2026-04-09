@@ -2474,8 +2474,8 @@ function render() {
   }
 
   // Update event map with filtered events + place-ADs (before city filter)
-  // Don't show place dots when Anons filter is active
-  const mapPlats = (currentFilter === 'Anons') ? [] : platsCards;
+  // Don't show place dots when Anons filter is active or during search
+  const mapPlats = (currentFilter === 'Anons' || searchQuery) ? [] : platsCards;
   updateEventMap(events.concat(mapPlats));
 
   // Map city filter
