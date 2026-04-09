@@ -8088,6 +8088,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/peking-mc-1-maj-back-2026-05-01.jpg"
             },
             {
+                  "id": "smk-solleftea-uppstart-2026-05-01",
+                  "name": "Säsongsuppstart",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-01",
+                  "location": "Sollefteå Motorklubb, Sollefteå",
+                  "type": "Träff",
+                  "organizer": "Sollefteå Motorklubb",
+                  "description": "Sollefteå Motorklubb öppnar säsongen! Kom och kolla banan, träffa gänget och se vad som planeras för sommaren.",
+                  "descriptionFull": "Säsongsuppstart hos Sollefteå Motorklubb!\n\nFörsta maj öppnar vi säsongen. Kom och kolla banan, träffa gänget och se vad som är planerat för 2026.\n\nDatum: Torsdag 1 maj\nPlats: Sollefteå Motorklubb, Sollefteå",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=100063500979498"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sollefteå+Motorklubb",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/profile.php?id=100063500979498",
+                  "region": "Västernorrland",
+                  "source": "facebook.com",
+                  "backImage": "ads/solleftea-motorklubb-back-2026.jpg"
+            },
+            {
                   "id": "motorrad-center-season-start-2026-05-02",
                   "name": "Season Start & Motorcykelns Dag",
                   "date": "2026-05-02",
@@ -9420,6 +9446,32 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "norberg-racing-academy-solleftea-2026-05-09",
+                  "name": "Norberg Racing Academy läger",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-10",
+                  "location": "Sollefteå Motorklubb, Sollefteå",
+                  "type": "Körning",
+                  "organizer": "Sollefteå Motorklubb",
+                  "description": "Tvådagars MX-läger med Norberg Racing Academy. Träning och coaching för unga motocross-förare. Lördag-söndag.",
+                  "descriptionFull": "Norberg Racing Academy läger hos Sollefteå Motorklubb.\n\nTvådagars intensivt MX-läger med professionell coaching. Perfekt tillfälle att utvecklas som förare.\n\nDatum: Lördag 9 - söndag 10 maj\nPlats: Sollefteå Motorklubb, Sollefteå",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=100063500979498"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sollefteå+Motorklubb",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/profile.php?id=100063500979498",
+                  "region": "Västernorrland",
+                  "source": "facebook.com",
+                  "backImage": "ads/solleftea-motorklubb-back-2026.jpg"
             },
             {
                   "id": "adventuredag-crossbana-sturup-2026",
@@ -11096,6 +11148,32 @@ const EVENTS_DATA = {
                   "region": "Västernorrland",
                   "source": "facebook.com",
                   "backImage": "ads/ankansracing-trackdays-back-2026-05-15.jpg"
+            },
+            {
+                  "id": "mitt-sverige-cupen-del-1-solleftea-2026-05-16",
+                  "name": "Mitt Sverige Cupen deltävling 1",
+                  "date": "2026-05-16",
+                  "dateEnd": "2026-05-17",
+                  "location": "Sollefteå Motorklubb, Sollefteå",
+                  "type": "Racing",
+                  "organizer": "Sollefteå Motorklubb",
+                  "description": "Första deltävlingen i Mitt Sverige Cupen. Motocross-tävling i Sollefteå med klasser för alla åldrar. Lördag-söndag.",
+                  "descriptionFull": "Mitt Sverige Cupen deltävling 1 arrangerad av Sollefteå Motorklubb.\n\nMotocross-tävling med klasser för alla åldrar. Två dagar med racing.\n\nDatum: Lördag 16 - söndag 17 maj\nPlats: Sollefteå Motorklubb, Sollefteå",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=100063500979498"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sollefteå+Motorklubb",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/profile.php?id=100063500979498",
+                  "region": "Västernorrland",
+                  "source": "facebook.com",
+                  "backImage": "ads/solleftea-motorklubb-back-2026.jpg"
             },
             {
                   "id": "fmck-gruskurs-rorken-2026-05-16",
