@@ -14,29 +14,6 @@ const EVENTS_DATA = {
       "lastUpdated": "2026-04-09",
       "events": [
             {
-                  "id": "sponsor-bsa-motorcycles-ad-2026",
-                  "name": "BSA Motorcycles 2026",
-                  "date": "2026-01-01",
-                  "dateEnd": "2026-12-31",
-                  "location": "bsacompany.co.uk",
-                  "type": "Anons",
-                  "organizer": "BSA Motorcycles",
-                  "description": "BSA är tillbaka i Sverige med tre modeller 2026: Gold Star 650, Scrambler 650 och nya Bantam 350. Klassiskt brittiskt arv i modern form.",
-                  "descriptionFull": "BSA Motorcycles 2026 - tre modeller i Sverige:\n\nGold Star 650 - 652cc DOHC-motor, 45 hk. Klassisk stil med modern teknik. Fem växlar, över 70 mpg.\n\nScrambler 650 - Samma kraftfulla 652cc-motor i en äventyrlig förpackning. Finns i gult, grått och svart.\n\nBantam 350 - Helt ny! Vätskekyld 344cc encylindrig motor, 29 hk. Lätt och smidig för stadskörning. Tre färger: Black UJ, Grey & White, Red & Grey.\n\nBSA grundades 1861 i Birmingham och är ett av motorcykelhistoriens mest ikoniska märken. Nu tillbaka med modernt utbud för europeiska förare.",
-                  "frontImage": "ads/bsa-scrambler-2026-08-06.jpg",
-                  "backImage": "ads/bsa-motorcycles-back.jpg",
-                  "links": [
-                        {
-                              "label": "bsacompany.co.uk",
-                              "url": "https://www.bsacompany.co.uk/"
-                        }
-                  ],
-                  "link": "https://www.bsacompany.co.uk/",
-                  "region": "Sverige",
-                  "source": "AD",
-                  "_ad": true
-            },
-            {
                   "_place": true,
                   "id": "sponsor-dwr-uppsala-ad-2026",
                   "name": "DWR V-Twin Motorcycle Workshop",
@@ -5926,8 +5903,8 @@ const EVENTS_DATA = {
                   "location": "Sulas MC, Säva 17, Uppsala",
                   "type": "Fest",
                   "organizer": "BSA Sverige AB",
-                  "description": "BSA finns nu hos Sulas MC i Uppsala. Provkör Gold Star 650, Scrambler 650 och nya Bantam 350 på plats.",
-                  "descriptionFull": "BSA grundades 1861 i Birmingham och var ett av världens största motorcykelmärken. Produktionen upphörde 1973 men 2021 gjorde BSA en efterlängtad comeback.\n\nNya BSA-modeller finns nu hos Sulas MC i Uppsala:\n\nGold Star 650 - 652cc, 45 hk. Klassisk stil.\nScrambler 650 - Äventyrlig, finns i gult, grått och svart.\nBantam 350 - Helt ny! 344cc, 29 hk. Lätt stadshoj.\n\nBesök bsasverige.se eller Sulas MC för provkörning.",
+                  "description": "BSA är tillbaka i Sverige! Provkör Gold Star 650, Scrambler 650 och nya Bantam 350 hos Sulas MC i Uppsala.",
+                  "descriptionFull": "BSA grundades 1861 i Birmingham och var ett av världens största motorcykelmärken. Produktionen upphörde 1973 men 2021 gjorde BSA en efterlängtad comeback. Nu finns tre modeller i Sverige:\n\nGold Star 650 - 652cc DOHC-motor, 45 hk. Klassisk stil med modern teknik.\nScrambler 650 - Samma 652cc-motor i äventyrlig förpackning. Finns i gult, grått och svart.\nBantam 350 - Helt ny! 344cc, 29 hk. Lätt och smidig stadshoj.\n\nAlla tre finns hos Sulas MC i Uppsala for provkörning.",
                   "frontImage": "ads/bsa-sulas-2026-04-18.jpg",
                   "backImage": "ads/bsa-motorcycles-back.jpg",
                   "links": [
