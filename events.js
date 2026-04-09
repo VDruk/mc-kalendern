@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-05",
+      "lastUpdated": "2026-04-09",
       "events": [
             {
                   "id": "sponsor-bsa-motorcycles-ad-2026",
@@ -209,6 +209,34 @@ const EVENTS_DATA = {
                   "source": "AD",
                   "frontImage": "ads/gwcs-treffen-2026-ad-front.jpg",
                   "backImage": "ads/gwcs-treffen-2026-08-06.jpg"
+            },
+            {
+                  "_ad": true,
+                  "id": "ad-enhorna-cafe",
+                  "name": "Enhörna Cafe",
+                  "date": "2026-01-01",
+                  "dateEnd": "2026-12-31",
+                  "location": "Lillängsvägen 1, 151 50 Enhörna",
+                  "type": "AD",
+                  "organizer": "Enhörna Cafe",
+                  "description": "Rullar du på Enhörnaleden? Enhörna Café har starkt kaffe, rejäla mackor och uteservering. Perfekt stopp för hela MC-gänget!",
+                  "descriptionFull": "Till alla hojåkare!\n\nRullar du på Enhörnaleden? Då vet du! En bra tur behöver ett riktigt bra stopp.\n\nEnhörna Café är platsen.\n\nLillängsvägen 1, 151 50 Enhörna\n\nStäll hojen, ta av hjälmen och ladda om med:\n\nStartkt, gott kaffe\nRejäla mackor, inga smågrejer här\nUteservering när vädret levererar\nGott om plats för hela MC-gänget\n\nSnabbt stopp, schyssta mackor och rätt känsla.\n\nPrecis längs vägen, bara att svänga in.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=61570126362660"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Enhörna+Cafe+Lillängsvägen+1+Enhörna",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/profile.php?id=61570126362660",
+                  "region": "Stockholm",
+                  "source": "AD",
+                  "frontImage": "ads/enhorna-cafe-front.jpg",
+                  "backImage": "ads/enhorna-cafe-back.jpg"
             },
             {
                   "id": "jonkoping-mcmassan-2026",
@@ -4871,6 +4899,37 @@ const EVENTS_DATA = {
                   "backImage": "ads/smk-hofors-kickoff-back-2026-04-11.jpg"
             },
             {
+                  "id": "sasongsstart-ducati-trollhattan-2026-04-11",
+                  "name": "Säsongsstart Ducati",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "Lextorpsvägen 997, Trollhättan",
+                  "type": "Show",
+                  "organizer": "Bike Trollhättan",
+                  "organizerIcon": "clubs/normalized/bike-trollhattan.png",
+                  "description": "Ducatis demohojor står redo! Provkör nya modeller och kolla in erbjudanden på tillbehör och kläder. Fika och öppet hus kl 10-14.",
+                  "descriptionFull": "Våra demomotorcyklar från Ducati står redo för dig! Den 11 april är det säsongsstart och vi bjuder in dig att besöka oss, provköra det senaste från Ducati och utforska nya tillbehör och kläder som nu finns i butik.\n\nAktuella kampanjer:\n\nPanigale V2 / Streetfighter V2: Värdecheck 10 000 kr på tillbehör eller avgassystem.\n\nHypermotard 698 Mono / RVE: Värdecheck 15 000 kr för originaltillbehör och kläder.\n\nMultistrada V4 / V4S / Rally / Pikes Peak: Värdecheck 20 000 kr för originaltillbehör och kläder.\n\nPanigale V4 / V4S / Corse: Värdecheck 20 000 kr för tillbehör, kolfiberdetaljer eller Akrapovič.\n\nDiavel V4 / XDiavel V4: Värdecheck 20 000 kr för tillbehör och kläder.\n\nTid: Lördag 11 april, kl 10:00-14:00\nPlats: Lextorpsvägen 997, 461 65 Trollhättan\n\nVälkommen!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/964663296534989"
+                        },
+                        {
+                              "label": "biketrollhattan.se",
+                              "url": "https://biketrollhattan.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Lextorpsvägen+997+Trollhättan",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/964663296534989",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/sasongsstart-ducati-trollhattan-back-2026-04-11.jpg"
+            },
+            {
                   "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
                   "name": "D15 Söndagsvandring Gyllebosjön Runt",
                   "date": "2026-04-12",
@@ -7201,6 +7260,7 @@ const EVENTS_DATA = {
                   "location": "Tärby 18, Enköping",
                   "type": "Körning",
                   "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
                   "description": "Crosskola hos Göta MS i Enköping. Träning för alla nivåer på crossbanan i Tärby. Mästaranda i varje kurva!",
                   "descriptionFull": "Crosskolan hos Göta MS Enköping den 27 april 2026.\n\nPlats: Tärby 18, 745 95 Enköping.\n\nTräning på crossbanan för alla nivåer.\n\nCrosskolans datum för 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nMer info via Göta MS Facebook.",
                   "links": [
@@ -7221,7 +7281,7 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/events/1581302876304446",
                   "region": "Uppsala",
                   "source": "facebook.com",
-                  "backImage": "ads/gota-ms-crosskola-back-2026-04-27.jpg"
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
             },
             {
                   "id": "roadracing-licens-falkenberg-2026-04-28",
@@ -9028,6 +9088,37 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "gota-ms-crosskola-2026-05-04",
+                  "name": "Crosskolan",
+                  "date": "2026-05-04",
+                  "dateEnd": "2026-05-04",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-ekero-udda-veckor-2026-05-05",
                   "name": "DOA - Kvällskörning Ekerö, udda veckor",
                   "date": "2026-05-05",
@@ -10551,6 +10642,37 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "gota-ms-crosskola-2026-05-11",
+                  "name": "Crosskolan",
+                  "date": "2026-05-11",
+                  "dateEnd": "2026-05-11",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-05-12",
                   "name": "DOA - Kvällskörning Nockeby, jämna veckor",
                   "date": "2026-05-12",
@@ -11229,6 +11351,33 @@ const EVENTS_DATA = {
                   "region": "Värmland",
                   "source": "facebook.com",
                   "backImage": "ads/tangens-mc-memorial-run-back-2026-05-14.jpg"
+            },
+            {
+                  "id": "krangelrallyt-hjorts-mck-2026-05-14",
+                  "name": "Krångelrallyt vol. 31",
+                  "date": "2026-05-14",
+                  "dateEnd": "2026-05-14",
+                  "location": "Hjorts MCK Klubbstuga, Sjöatorp",
+                  "type": "Körning",
+                  "organizer": "Hjorts MCK",
+                  "organizerIcon": "clubs/normalized/astro-sweden.png",
+                  "description": "Tipsrunda med kluriga frågor och praktiska MC-övningar på krokiga småvägar. Ca 10 mil runt Sjöatorp. Prisutdelning och förtäring efteråt.",
+                  "descriptionFull": "Äntligen så är det dags för vårt kära krångelrally!\n\nPå Kristi Himmelsfärd den 14 maj planerar vi att köra vårt sedvanliga \"rally\".\n\nKrångelrallyt är en tipsrunda med kluriga frågor samt en del praktiska stationer med omöjliga övningar. Rundan är ca 10 mil på så krokiga vägar som möjligt.\n\nStart vid klubbstugan 10:30-12:00.\n\nPrisutdelning när förhoppningsvis alla kommit i mål och i avvaktan på prisutdelning finns möjlighet till förtäring.\n\nHoppas vi ses torsdag 14/5 (Kristi Himmelsfärd) för att köra MC!\n\nVi har beställt fint väder!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/813328524656905"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=56.9170833,14.4198333",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/813328524656905",
+                  "region": "Kronoberg",
+                  "source": "facebook.com",
+                  "backImage": "ads/oppet-hus-astro-sweden-back-2026-04-10.jpg"
             },
             {
                   "id": "smc-kansli-tour-2026-05-15",
@@ -12516,6 +12665,37 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "gota-ms-crosskola-2026-05-18",
+                  "name": "Crosskolan",
+                  "date": "2026-05-18",
+                  "dateEnd": "2026-05-18",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
             },
             {
                   "id": "doa-kvallskörning-ekero-udda-veckor-2026-05-19",
@@ -13908,6 +14088,37 @@ const EVENTS_DATA = {
                   "region": "Stockholm",
                   "source": "facebook.com",
                   "descriptionFull": "MCE arrangerar en 5-dagarstur till Lettland, ledd av ökenräven Olle Ohlsson.\n\nAvfärd 25 maj kl 13:00 från Järfälla (samling kl 12:00). Färja från Nynäshamn kl 21:30.\n\nKörning i Lettland: Ventspils–Rojas–Saldus–Ventspils. Återfärd med färja 29 maj.\n\nIngår: färja (2-mannahytt), frukost, 3 måltider/dag, afterbike-öl, hotell dubbelrum, följebil för bagage, bensin.\n\nPris:\n– Eigen hoj: 15 000 kr\n– Hyrd Husqvarna enduro: 20 000 kr\n(Faktura möjligt, moms tillkommer)\n\nAnmälan: mce@cmail.nu eller 070-715 93 93\nTa med: pass, reg.bevis i original, euro kontanter."
+            },
+            {
+                  "id": "gota-ms-crosskola-2026-05-25",
+                  "name": "Crosskolan",
+                  "date": "2026-05-25",
+                  "dateEnd": "2026-05-25",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
             },
             {
                   "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-05-26",
@@ -15409,6 +15620,37 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "gota-ms-crosskola-2026-06-01",
+                  "name": "Crosskolan",
+                  "date": "2026-06-01",
+                  "dateEnd": "2026-06-01",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+            },
+            {
                   "id": "bmw-d11-dagsledigtur-med-rune-2026",
                   "name": "D11 Dagsledigtur med Rune",
                   "date": "2026-06-02",
@@ -16705,6 +16947,37 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "gota-ms-crosskola-2026-06-08",
+                  "name": "Crosskolan",
+                  "date": "2026-06-08",
+                  "dateEnd": "2026-06-08",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
             },
             {
                   "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-06-09",
@@ -18373,6 +18646,37 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "gota-ms-crosskola-2026-06-22",
+                  "name": "Crosskolan",
+                  "date": "2026-06-22",
+                  "dateEnd": "2026-06-22",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
             },
             {
                   "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-06-23",
@@ -23362,6 +23666,37 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "gota-ms-crosskola-2026-08-10",
+                  "name": "Crosskolan",
+                  "date": "2026-08-10",
+                  "dateEnd": "2026-08-10",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-ekero-udda-veckor-2026-08-11",
                   "name": "DOA - Kvällskörning Ekerö, udda veckor",
                   "date": "2026-08-11",
@@ -24344,6 +24679,37 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "gota-ms-crosskola-2026-08-17",
+                  "name": "Crosskolan",
+                  "date": "2026-08-17",
+                  "dateEnd": "2026-08-17",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-08-18",
                   "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
                   "date": "2026-08-18",
@@ -25022,6 +25388,37 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/swedish-mc-touring.png"
             },
             {
+                  "id": "gota-ms-crosskola-2026-08-24",
+                  "name": "Crosskolan",
+                  "date": "2026-08-24",
+                  "dateEnd": "2026-08-24",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-ekero-udda-veckor-2026-08-25",
                   "name": "DOA - Kvällskörning Ekerö, udda veckor",
                   "date": "2026-08-25",
@@ -25657,6 +26054,37 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "gota-ms-crosskola-2026-08-31",
+                  "name": "Crosskolan",
+                  "date": "2026-08-31",
+                  "dateEnd": "2026-08-31",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
             },
             {
                   "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-09-01",
@@ -26383,6 +26811,37 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "gota-ms-crosskola-2026-09-07",
+                  "name": "Crosskolan",
+                  "date": "2026-09-07",
+                  "dateEnd": "2026-09-07",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-ekero-udda-veckor-2026-09-08",
                   "name": "DOA - Kvällskörning Ekerö, udda veckor",
                   "date": "2026-09-08",
@@ -27031,6 +27490,37 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "gota-ms-crosskola-2026-09-14",
+                  "name": "Crosskolan",
+                  "date": "2026-09-14",
+                  "dateEnd": "2026-09-14",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-09-15",
                   "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
                   "date": "2026-09-15",
@@ -27645,6 +28135,37 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "gota-ms-crosskola-2026-09-21",
+                  "name": "Crosskolan",
+                  "date": "2026-09-21",
+                  "dateEnd": "2026-09-21",
+                  "location": "Tärby 18, Enköping",
+                  "type": "Körning",
+                  "organizer": "Göta MS Enköping",
+                  "organizerIcon": "clubs/normalized/gota-ms.png",
+                  "description": "Crosskola för unga nybörjare som vill börja köra cross. Träning på crossbanan i Tärby, Enköping. Alla aktivitetsdatum listas på kortet.",
+                  "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/gotams"
+                        },
+                        {
+                              "label": "gotams.se",
+                              "url": "https://www.gotams.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Tärby+18+745+95+Enköping",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/gotams",
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
             },
             {
                   "id": "doa-kvallskörning-ekero-udda-veckor-2026-09-22",
