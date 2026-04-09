@@ -212,6 +212,7 @@ const EVENTS_DATA = {
             },
             {
                   "_ad": true,
+                  "_place": true,
                   "id": "ad-enhorna-cafe",
                   "name": "Enhörna Cafe",
                   "date": "2026-01-01",
