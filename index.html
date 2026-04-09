@@ -843,15 +843,6 @@
   }
   .back-btn:hover { color: var(--accent-hover); }
 
-  /* Row break: prevents Type 2 poster and Type 3 ad cards from sharing a row */
-  .grid-row-break {
-    grid-column: 1 / -1;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
-
   /* ========== POSTER / FRONT-IMAGE CARDS ========== */
   .card.poster-card { border: none; overflow: hidden; border-top-color: transparent; }
   .card.poster-card { transition: border-color 0.2s, background 0.2s, transform 0.2s, box-shadow 0.2s; }
@@ -2473,7 +2464,6 @@ function render() {
   }
 
   let renderMonth = '';
-  let lastCardType = ''; // 'poster' (Type 2 with frontImage, no _ad), 'ad' (_ad with frontImage), 'text'
   let supportInserted = false;
 
   // Progressive rendering: mobile gets "Visa fler" button, desktop renders all at once
@@ -2481,7 +2471,7 @@ function render() {
   const _isMobileRender = window.innerWidth < 900;
   let renderedCount = 0;
   window._pendingEvents = events;
-  window._renderState = { renderMonth, lastCardType, supportInserted, today, grid };
+  window._renderState = { renderMonth, supportInserted, today, grid };
 
   function renderBatch(startIdx, count) {
     const evts = window._pendingEvents;
@@ -2507,14 +2497,6 @@ function render() {
     const isMultiDay = event.dateEnd && event.dateEnd !== event.date;
 
     // Determine this card's visual type
-    const thisCardType = event._ad && event.frontImage ? 'ad' : event.frontImage ? 'poster' : 'text';
-    // Insert row break if Type 2 poster and Type 3 ad would share a row
-    if ((state.lastCardType === 'poster' && thisCardType === 'ad') || (state.lastCardType === 'ad' && thisCardType === 'poster')) {
-      const rowBreak = document.createElement('div');
-      rowBreak.className = 'grid-row-break';
-      grid.appendChild(rowBreak);
-    }
-
     // Month divider (skip for injected ad cards)
     if (!event._ad && monthKey !== state.renderMonth) {
       // Insert support section between first and second month (only in 'all' view)
@@ -2531,14 +2513,12 @@ function render() {
           <a href="https://ko-fi.com/mckalender" target="_blank" rel="noopener" class="support-btn">Stöd projektet</a>
         </div>`;
         grid.appendChild(support);
-        state.lastCardType = '';
       }
       state.renderMonth = monthKey;
       const divider = document.createElement('div');
       divider.className = 'month-divider';
       divider.textContent = MONTHS_SV[displayDate.getMonth()] + ' ' + displayDate.getFullYear();
       grid.appendChild(divider);
-      state.lastCardType = ''; // full-width divider resets row
     }
 
     // Date HTML
@@ -2633,7 +2613,6 @@ function render() {
       `;
     }
     grid.appendChild(card);
-    state.lastCardType = thisCardType;
   }
 
   if (_isMobileRender) {
