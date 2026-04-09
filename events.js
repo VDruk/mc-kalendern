@@ -4038,6 +4038,32 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "north-trail-torsdagsfika-2026-04-09",
+                  "name": "Torsdagsfika",
+                  "date": "2026-04-09",
+                  "dateEnd": "2026-04-09",
+                  "location": "Landsvägen 12, Jättendal",
+                  "type": "Träff",
+                  "organizer": "North Trail MC Hälsingland",
+                  "description": "Håkan har bakat och kaffet är nykokt 18:00. Kom och häng med gänget på klubblokalen, prata hoj och njut av en lugn kväll.",
+                  "descriptionFull": "Torsdagsfika hos North Trail MC Hälsingland!\n\nHåkan har bakat och kaffet är nykokt 18:00. Välkommen in för en kopp, en bulle och trevligt snack.\n\nTid: Torsdag 9 april, kl 18:00\nPlats: Landsvägen 12, 829 96 Jättendal",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/northtrailmc"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Landsvägen+12+Jättendal",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/northtrailmc",
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "backImage": "ads/north-trail-torsdagsfika-back-2026-04-09.jpg"
+            },
+            {
                   "id": "bmw-d15-mcq-bodils-tur-med-drejning-och-spa-2026",
                   "name": "D15 MCQ Bodils tur med drejning och spa",
                   "date": "2026-04-10",
@@ -4130,6 +4156,36 @@ const EVENTS_DATA = {
                   "region": "Jönköping",
                   "source": "facebook.com",
                   "backImage": "ads/condios-fredagsmys-back-2026-04-10.jpg"
+            },
+            {
+                  "id": "lundgrens-motor-season-start-avesta-2026-04-11",
+                  "name": "Season Start",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "Myntgatan 8, Avesta",
+                  "type": "Träff",
+                  "organizer": "Lundgrens Motor AB",
+                  "description": "Säsongsstart hos BMW-återförsäljaren Lundgrens Motor. Kolla in 2026 års BMW-modeller, prata med personalen och träffa andra MC-förare. Kl 10-15.",
+                  "descriptionFull": "Välkommen till Season Start hos Lundgrens Motor AB i Avesta! Vi öppnar säsongen och visar upp 2026 års BMW Motorrad-modeller.\n\nKom och prata hoj med personalen, träffa andra förare och njut av en skön dag.\n\nTid: Lördag 11 april, kl 10:00-15:00\nPlats: Myntgatan 8, Avesta",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/909720675019987"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/lundgrensmotor"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Myntgatan+8+Avesta",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/909720675019987",
+                  "region": "Dalarna",
+                  "source": "facebook.com",
+                  "backImage": "ads/lundgrens-season-start-back-2026-04-11.jpg"
             },
             {
                   "id": "bara-kora-uppsala-2026-04-11",
@@ -6450,6 +6506,33 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/condiosmc/",
                   "region": "Jönköping",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "gandalf-mc-motor-swap-bjurakers-2026-04-25",
+                  "name": "MOTOR-SWAP",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "location": "Hemvärnsgården, Svågavägen 10, Bjuråker",
+                  "type": "Show",
+                  "organizer": "Gandalf MC Delsbo",
+                  "description": "Köp och sälj MC-prylar, reservdelar och tillbehör. Kaffe och tilltugg finns. Alla välkomna, både säljare och besökare.",
+                  "descriptionFull": "Gandalf MC Delsbo bjuder in till MOTOR-SWAP! Köp och sälj MC-prylar, reservdelar, tillbehör och annat smått och gott.\n\nKaffe och tilltugg finns på plats. Alla är välkomna, både säljare och besökare.\n\nTid: Lördag 25 april\nPlats: Hemvärnsgården, Svågavägen 10, Bjuråker",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/4271916349688131"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Svågavägen+10+Bjuråker",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/4271916349688131",
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "backImage": "ads/motor-swap-bjurakler-back-2026-04-25.jpg",
+                  "organizerIcon": "clubs/normalized/gandalf-mc-delsbo.png"
             },
             {
                   "id": "bikezone-sasongspremiar-malmo-2026-04-25",
