@@ -4158,6 +4158,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/condios-fredagsmys-back-2026-04-10.jpg"
             },
             {
+                  "id": "je68-wide-open-house-2026-04-11",
+                  "name": "WIDE OPEN HOUSE på JE68",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-12",
+                  "location": "Teknikvägen 6, Löddeköpinge",
+                  "type": "Show",
+                  "organizer": "JE68 Motorcycles",
+                  "description": "Stort öppet hus hos JE68 med BMW, KTM och Kawasaki. Demohojar, Closed Room Viewing av BMW F 450 GS, kampanjpriser, gratis hamburgare och korv. Lör-sön 10-15.",
+                  "descriptionFull": "WIDE OPEN HOUSE på JE68!\n\nLördag 11 april 10:00-15:00\nSöndag 12 april 10:00-15:00\n\nVi laddar upp med BMW, KTM och Kawasaki. Alla demohojar är redo, kom och testa!\n\nCLOSED ROOM VIEWING av BMW F 450 GS 2026. Årets stora nyhet, se den först hos JE68.\n\nWIDE OPEN DEALS (endast 11-12 april):\n- Fri 100-milsservice på alla MC som köps under helgen\n- Kampanjränta 4.95%\n- Värdecheck 3000 kr vid köp\n- KTM EXC/EXC-F 2026: 15 000 kr i värdecheck\n\nGratis säkerhetskontroll 11-14, 10% rabatt på servicebokningar.\n\nGratis hamburgare och korv under hela helgen!\n\nPlats: Teknikvägen 6, 246 34 Löddeköpinge",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1446123916451817"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Teknikvägen+6+Löddeköpinge",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1446123916451817",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/je68-wide-open-house-back-2026-04-11.jpg"
+            },
+            {
                   "id": "lundgrens-motor-season-start-avesta-2026-04-11",
                   "name": "Season Start",
                   "date": "2026-04-11",
@@ -8114,6 +8140,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/solleftea-motorklubb-back-2026.jpg"
             },
             {
+                  "id": "tjejdagen-falkenberg-2026-05-02",
+                  "name": "Tjejdagen 2026",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Falkenbergs Motorbana, Hällarp",
+                  "type": "Körning",
+                  "organizer": "Falkenbergs Motorklubb & SMC",
+                  "description": "Bankörning enbart för tjejer på Falkenbergs Motorbana. Instruktörer från SMC Väst. 15 min körtid per timme, lunch ingår. Kl 09-16. Pris 1750 kr.",
+                  "descriptionFull": "Hej Tjej! Välkommen att provköra med instruktörer från SMC Väst på Falkenbergs Motorbana.\n\nDu ingår i en grupp med ca 20 andra tjejer. 15 minuter effektiv körtid på banan varje timme tillsammans med instruktör.\n\nLunch, måltidsdryck och kaffe ingår (kycklingfilé med rostad potatis, gluten- och laktosfritt). Cafeterian har korv, fralla och dricka.\n\nKrav: Körkort med rätt behörighet, godkända MC-kläder, besiktigad MC. Max 95 dB.\n\nEntrégrind öppen 07:30-08:10. Välkomstmöte 08:20.\nBiljett via Billetto, 1750 kr (rabatt för FMK-medlemmar).",
+                  "links": [
+                        {
+                              "label": "falkenbergsmk.se",
+                              "url": "https://falkenbergsmk.se/tavlingar/tjejdagen-2026/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Falkenbergs+Motorbana+Hällarp",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://falkenbergsmk.se/tavlingar/tjejdagen-2026/",
+                  "region": "Halland",
+                  "source": "falkenbergsmk.se",
+                  "backImage": "ads/tjejdagen-falkenberg-back-2026.jpg"
+            },
+            {
                   "id": "motorrad-center-season-start-2026-05-02",
                   "name": "Season Start & Motorcykelns Dag",
                   "date": "2026-05-02",
@@ -9446,6 +9498,33 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "independent-mc-oppet-hus-2026-05-09",
+                  "name": "Öppet Hus 2026",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "location": "Värmdövägen 703, Saltsjö-Boo",
+                  "type": "Träff",
+                  "organizer": "Independent MC",
+                  "description": "Öppet hus hos Independent MC i Saltsjö-Boo. Bygga hojar, dricka kaffe, fika, korv, swap och hojar. Kl 11-15. Alla välkomna!",
+                  "descriptionFull": "Dags att rulla ut i vårsolen! Välkomna till Öppet Hus hos Independent MC 9 maj.\n\nFika, korv, swap, hojar mm.\n\nTid: Lördag 9 maj kl 11:00-15:00\nPlats: Värmdövägen 703, 132 35 Saltsjö-Boo",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/986864560687490"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Värmdövägen+703+Saltsjö-Boo",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/986864560687490",
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/independent-mc-oppet-hus-back-2026-05-09.jpg",
+                  "organizerIcon": "clubs/normalized/independent-mc.png"
             },
             {
                   "id": "norberg-racing-academy-solleftea-2026-05-09",
