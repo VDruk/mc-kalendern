@@ -9829,6 +9829,10 @@ const EVENTS_DATA = {
                   "descriptionFull": "MC kortege genom Hedemora under Hedemora marknad.\n\nSamling kl 09:30 vid Lernia (fd AMU center), Hedemora.\n\nFörst kör vi en runda runt TT-banan. Sedan kl 11:00 från Lappens Grill kör vi kortege genom Hedemoras gator.\n\nParkering vid Vasahallen i minst en timme så folk kan titta på hojarna.\n\nArrangör: SMC Dalarna",
                   "links": [
                         {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/hedemoratouringteam"
+                        },
+                        {
                               "label": "svmc.se/dalarna",
                               "url": "https://www.svmc.se/dalarna/aktiviteter/"
                         },
@@ -9841,6 +9845,32 @@ const EVENTS_DATA = {
                   "link": "https://www.svmc.se/dalarna/aktiviteter/",
                   "region": "Dalarna",
                   "source": "svmc.se"
+            },
+            {
+                  "id": "hedemora-touring-kortege-2026-05-09",
+                  "name": "MC Kortege Hedemora Marknad",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "location": "Nygammalt, Kraftgatan 12, Hedemora",
+                  "type": "Körning",
+                  "organizer": "Hedemora Touring Team",
+                  "description": "MC-kortege genom Hedemora under marknaden. Samling kl 09:30 vid Nygammalt, Kraftgatan 12. Tur runt TT-banan, sedan kortege genom staden. Fika efteråt.",
+                  "descriptionFull": "Hedemora Marknad blir i år den 9 maj och Hedemora Touring Team kör som vanligt sin MC Kortege.\n\nSamling från kl 09:30 vid Nygammalt, Kraftgatan 12.\nCa 10:40 blir det en tur runt TT-Banan.\nKl 11:00 startar vi vid Lappens grill och parkerar vid Vasahallen, där vi står ca 1 timme.\nKl 13:00 åker vi en tur och fikar någonstans.\n\nSamling vid TT-Källarn, Callerholmsg. 3.\n\nVälkomna både att köra och som publik!",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/hedemoratouringteam"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kraftgatan+12+Hedemora",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/hedemoratouringteam",
+                  "region": "Dalarna",
+                  "source": "facebook.com",
+                  "backImage": "ads/hedemora-touring-kortege-back-2026-05-09.jpg"
             },
             {
                   "id": "falkenbergs-majsvangen-2026",
