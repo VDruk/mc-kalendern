@@ -7677,6 +7677,25 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "valborglager-supermoto-flattrack-2026-05-01",
+                  "name": "Valborgläger Supermoto & Flattrack TT",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-03",
+                  "location": "Enköpings MK, Enköping",
+                  "type": "Körning",
+                  "organizer": "Andreas Jankowiak / Enköpings MK",
+                  "description": "Supermoto på gokartbanan och Flattrack TT på folkracebanan (nytt i år!). 300 kr/dag. Camping, bubbelpool och valborgsmässoeld.",
+                  "descriptionFull": "Valborgläger med Supermoto och Flattrack TT hos Enköpings MK, 1-3 maj.\n\nSupermoto körs på gokartbanan och Flattrack TT på folkracebanan (nytt i år!).\n\nPris: 300 kr/dag.\nCamping ingår. Bubbelpool och valborgsmässoeld på plats.\n\nPrövapålicens via SVEMO finns att köpa på plats.\n\nKontakt: Andreas Jankowiak, 0723-044845.",
+                  "link": "https://www.facebook.com/events/778232991546129",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/778232991546129"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Enköpings+MK+Enköping", "type": "map"}
+                  ],
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/valborglager-supermoto-back-2026-05-01.jpg"
+            },
+            {
                   "id": "umcc-varrally-2026-05-01",
                   "name": "UMCC Vårrally",
                   "date": "2026-05-01",
