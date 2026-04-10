@@ -2436,6 +2436,13 @@ function render() {
   // --- Determine which AD cards to show based on filter state ---
   const currentM = parseInt(today.split('-')[1], 10);
   let visibleAds = [];
+  const noTypeFilter = (currentFilter === 'all');
+  const noClubFilter = (currentClub === 'all');
+  const noMonthFilter = (currentMonth === 'all');
+  const noMapCity = !mapCityFilter;
+  const noRegionFilter = (currentRegion === 'all');
+  // "onlyRegionFilter" = no filter active except possibly region
+  const onlyRegionFilter = noTypeFilter && noClubFilter && noMonthFilter && noMapCity;
 
   if (searchQuery) {
     // Search mode: show ads that match the search query
@@ -2454,28 +2461,23 @@ function render() {
     visibleAds = anonsCards.slice();
   } else {
     // Normal browse mode: determine Plats and Anons visibility separately
-    // Plats: show only in current month (no month filter or current month selected) + matching region
-    const showPlats = (currentFilter === 'all') && (currentClub === 'all');
-    if (showPlats) {
+    // Plats: show ONLY when no filters active at all, OR only region filter is active (matching region)
+    if (onlyRegionFilter) {
       platsCards.forEach(ad => {
-        const monthOk = (currentMonth === 'all') ||
-          (currentMonth === '__today__') || (currentMonth === '__tomorrow__') || (currentMonth === '__weekend__') ||
-          (parseInt(currentMonth, 10) === currentM);
-        const regionOk = (currentRegion === 'all') ||
-          (ad.region === currentRegion) || (ad.region === 'Sverige');
-        if (monthOk && regionOk) visibleAds.push(ad);
+        const regionOk = noRegionFilter || (ad.region === currentRegion);
+        if (regionOk) visibleAds.push(ad);
       });
     }
-    // Anons: show when no type or organizer filter is active
-    const showAnons = (currentFilter === 'all') && (currentClub === 'all');
-    if (showAnons) {
+    // Anons: show only when NO filters active at all
+    if (noTypeFilter && noClubFilter && noMonthFilter && noRegionFilter && noMapCity) {
       anonsCards.forEach(ad => visibleAds.push(ad));
     }
   }
 
   // Update event map with filtered events + place-ADs (before city filter)
-  // Don't show place dots when Anons filter is active or during search
-  const mapPlats = (currentFilter === 'Anons' || searchQuery) ? [] : platsCards;
+  // Plats dots: only when no filters or only region filter (same rule as Plats cards)
+  const mapPlatsOk = !searchQuery && onlyRegionFilter;
+  const mapPlats = mapPlatsOk ? platsCards.filter(ad => (currentRegion === 'all') || ad.region === currentRegion) : [];
   updateEventMap(events.concat(mapPlats));
 
   // Map city filter
