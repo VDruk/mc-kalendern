@@ -4809,8 +4809,8 @@ const EVENTS_DATA = {
                   "location": "Tostaredsvägen 7, Fotskäl",
                   "type": "Show",
                   "organizer": "LiTo Offroad",
-                  "description": "Öppet hus hos LiTo Offroad i Fotskäl. MC-handlare med försäljning, service och tillbehör. Alla välkomna!",
-                  "descriptionFull": "LiTo Offroad bjuder in till LiTo-dagen den 11 april.\n\nPlats: Tostaredsvägen 7, Fotskäl (519 96).\n\nKom och kolla in senaste modellerna, prata med personalen och häng med andra MC-entusiaster.\n\nAlla välkomna!",
+                  "description": "Provkör CFMOTO MC och ATV hos LiTo Offroad. Fina erbjudanden i butiken hela dagen. Fika och korv i bröd bjuds! Kl 10-17.",
+                  "descriptionFull": "LiTo Offroad bjuder in till LiTo-dagen den 11 april, kl 10-17.\n\nKom och provkör CFMOTO MC och ATV. Fina erbjudanden i butiken hela dagen.\n\nVi bjuder på fika och korv i bröd.\n\nPlats: Tostaredsvägen 7, Fotskäl (519 96). Alla välkomna!",
                   "links": [
                         {
                               "label": "FB Event",
