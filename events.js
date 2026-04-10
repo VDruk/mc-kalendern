@@ -5535,10 +5535,10 @@ const EVENTS_DATA = {
                   "date": "2026-04-18",
                   "dateEnd": "2026-04-18",
                   "location": "Åkerivägen 6, Täby",
-                  "type": "Träff",
+                  "type": "Show",
                   "organizer": "Probike",
-                  "description": "Harley Day hos Probike Stockholm i Täby. Provkör mängder av hojar och kolla in nya modeller.",
-                  "descriptionFull": "Harley Day hos Probike Stockholm!\n\nKom in och provkör mängder av hojar hos Probike i Täby. Perfekt tillfälle att testa nya Harley-Davidson modeller.\n\nAdress: Åkerivägen 6, 187 75 Täby.",
+                  "description": "H-D Open House kl 10-15. Provkör demohojar, erbjudanden på hojar och kläder. Välkommen!",
+                  "descriptionFull": "H-D Open House hos Probike Stockholm den 18 april kl 10-15.\n\nProvkör demohojar och kolla in nya modeller. Erbjudanden på hojar och kläder.\n\nVälkommen!\n\nAdress: Åkerivägen 6, 187 75 Täby.",
                   "backImage": "ads/harley-day-probike-stockholm-back-2026-04-18.jpg",
                   "links": [
                         {
@@ -5548,6 +5548,11 @@ const EVENTS_DATA = {
                         {
                               "label": "Probike Stockholm",
                               "url": "https://www.probikebutiken.se/stockholm/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Åkerivägen+6+Täby",
+                              "type": "map"
                         }
                   ],
                   "link": "https://www.probikebutiken.se/stockholm/",
@@ -5556,29 +5561,53 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/probike.png"
             },
             {
+                  "id": "hog-stockholm-probike-2026-04-18",
+                  "name": "Meet the H.O.G.'s",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Probike Stockholm, Åkerivägen 6, Täby",
+                  "type": "Träff",
+                  "organizer": "H.O.G. Stockholm Chapter",
+                  "description": "H.O.G. Stockholm Chapter gästar Probike Stockholm. Kom förbi, snacka hoj och träffa gänget. Korv för en liten slant. Gemenskap och körglädje!",
+                  "descriptionFull": "H.O.G. Stockholm Chapter gästar Probike Stockholm lördagen den 18 april.\n\nMeet the H.O.G.'s är för dig som är nyfiken på vad H.O.G. (Harley Owners Group) står för. För oss handlar det om gemenskap, Harley-Davidson och väldigt mycket körglädje.\n\nKom förbi, snacka hoj och träffa gänget! Det finns korv för en liten slant och många från H.O.G. är på plats för att prata med dig.\n\nVeckan efter kör vi öppen lördagskörning för dig som vill uppleva H.O.G. på riktigt.",
+                  "link": "https://www.facebook.com/groups/hogstockholm",
+                  "links": [
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Åkerivägen+6+Täby", "type": "map"}
+                  ],
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/harley-day-probike-stockholm-back-2026-04-18.jpg",
+                  "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
                   "id": "harley-day-probike-goteborg-2026-04-18",
                   "name": "Harley Day Probike Göteborg",
                   "date": "2026-04-18",
                   "dateEnd": "2026-04-18",
                   "location": "Aminogatan 32C, Mölndal",
-                  "type": "Träff",
+                  "type": "Show",
                   "organizer": "Probike",
-                  "description": "Harley Day hos Probike Göteborg i Mölndal. Provkör mängder av hojar och kolla in nya modeller.",
-                  "descriptionFull": "Harley Day hos Probike Göteborg!\n\nKom in och provkör mängder av hojar hos Probike i Mölndal. Perfekt tillfälle att testa nya Harley-Davidson modeller.\n\nAdress: Aminogatan 32C, 431 53 Mölndal.",
-                  "backImage": "ads/harley-day-probike-goteborg-back-2026-04-18.jpg",
+                  "description": "H-D Open House kl 10-15. Erbjudanden på hojar och kläder, demohojar för provkörning och GRATIS konditionstest av din hoj.",
+                  "descriptionFull": "H-D Open House hos Probike Göteborg den 18 april kl 10-15.\n\nErbjudanden på hojar och kläder. Demohojar står redo för provkörning.\n\nVi erbjuder GRATIS konditionstest av din hoj.\n\nVälkommen!\n\nAdress: Aminogatan 32C, 431 53 Mölndal.",
+                  "backImage": "ads/harley-day-probike-goteborg-back-2026-04-18-v2.jpg",
                   "links": [
                         {
-                              "label": "Probike",
-                              "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo?fbid=1479984690585990&set=a.559226439328491"
                         },
                         {
                               "label": "Probike Göteborg",
                               "url": "https://www.probikebutiken.se/goteborg/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Aminogatan+32C+Mölndal",
+                              "type": "map"
                         }
                   ],
                   "link": "https://www.probikebutiken.se/goteborg/",
                   "region": "Västra Götaland",
-                  "source": "probikebutiken.se",
+                  "source": "facebook.com",
                   "organizerIcon": "clubs/normalized/probike.png"
             },
             {
