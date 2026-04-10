@@ -5576,7 +5576,7 @@ const EVENTS_DATA = {
                   ],
                   "region": "Stockholm",
                   "source": "facebook.com",
-                  "backImage": "ads/harley-day-probike-stockholm-back-2026-04-18.jpg",
+                  "backImage": "ads/hog-stockholm-back-2026-04-18.jpg",
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
