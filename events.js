@@ -5250,6 +5250,25 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "open-house-jarvso-motor-2026-04-18",
+                  "name": "Open House Järvsö Motor",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Industrivägen 22, Järvsö",
+                  "type": "Show",
+                  "organizer": "Järvsö Motor",
+                  "description": "Kickstarta våren hos Järvsö Motor! Provkör demohojar från Harley-Davidson, KTM och CFMOTO. Kampanjer i butik och hamburgare på plats. Kl 10-15.",
+                  "descriptionFull": "Välkommen till Open House hos Järvsö Motor den 18 april kl 10:00-15:00!\n\nHela demoprogrammet rullas ut för provkörning.\n\nDemohojar:\nHarley-Davidson: Street Glide Limited, Road Glide, Pan America Special & ST, Nightster, Sportster S, Street Bob, Low Rider ST, Breakout, Trike Road Glide 3.\nCFMOTO: 450MT, 800MT-X, 800MT Explore, 675NK, 450SR, 675SR-S, 450CL-C.\nKTM: 390 Adventure R & X, 790 Adventure, 1390 Super Adventure R & S EVO, 990 Duke R.\n\nKampanjer på utvalda produkter och fordon i butik.\nHamburgare finns att köpa på plats.",
+                  "link": "https://www.facebook.com/events/1817726249183942/",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1817726249183942/"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Industrivägen+22+Järvsö", "type": "map"}
+                  ],
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "backImage": "ads/open-house-jarvso-motor-back-2026-04-18.jpg"
+            },
+            {
                   "id": "desmocenter-adventure-lordag-2026-04-18",
                   "name": "Adventure-lördag hos oss",
                   "date": "2026-04-18",
@@ -8810,6 +8829,26 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/DesmoCenter",
                   "region": "Stockholm",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "peter-linden-halmstad-2026-05-03",
+                  "name": "Peter Lindén - Stridspilot & roadracinglegend",
+                  "date": "2026-05-03",
+                  "dateEnd": "2026-05-03",
+                  "location": "ProfilHotels Halmstad Plaza, Anna Lindhs Plats 1, Halmstad",
+                  "type": "Show",
+                  "organizer": "BVN Event AB",
+                  "description": "Sveriges meste stridspilot med Viggen och JAS, världsmästare i Endurance, europamästare 500cc och kört Moto GP. Kl 15:00. Biljetter via Tickster.",
+                  "descriptionFull": "Årets häftigaste föreläsning med Peter Lindén!\n\nKapten och Sveriges meste stridspilot med både Viggen och JAS. Världsmästare i Endurance. Europamästare 500cc och kört Moto GP.\n\nTid: Söndag 3 maj kl 15:00.\nPlats: ProfilHotels Halmstad Plaza, Anna Lindhs Plats 1, Halmstad.\n\nBiljetter via Tickster.\nArrangör: BVN Event AB.",
+                  "link": "https://www.facebook.com/events/960995876439759",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/960995876439759"},
+                        {"label": "Biljetter", "url": "https://secure.tickster.com/sv/pnpu6pv94tfzy5t"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=ProfilHotels+Halmstad+Plaza+Halmstad", "type": "map"}
+                  ],
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "backImage": "ads/peter-linden-halmstad-back-2026-05-03.jpg"
             },
             {
                   "id": "smc-vastmanland-avrostning-2026-05-03",
