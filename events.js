@@ -4644,13 +4644,17 @@ const EVENTS_DATA = {
                   "location": "Lockarps gokartbana, Oxie",
                   "type": "Körning",
                   "organizer": "Mårtenssons Trafikskola",
-                  "description": "Våren är på ingång! Damma av körkunskaperna på Lockarps gokartbana. Prova på MC kostnadsfritt. Alla välkomna, nybörjare och erfarna.",
-                  "descriptionFull": "Våren är på ingång och det betyder att det är dags att damma av körkunskaperna. Mårtenssons Trafikskola bjuder in till vår årliga MC-avrostning på Lockarps gokartbana, där du får chansen att prova på MC kostnadsfritt!\n\nTid: Lördag 11 april kl. 09:00 - 11:00\nPlats: Larsbovägen, SE-238 41 Oxie.",
-                  "backImage": "ads/mc-avrostning-oxie-back-2026-04-11.jpg",
+                  "description": "Dags att väcka hojarna! Avrostning på Lockarps gokartbana med hojsnack, MC-nyheter, fika och fri körning på banan med egen hoj.",
+                  "descriptionFull": "Nu är det dags att väcka hojarna till liv! MC-avrostning på Lockarps gokartbana den 11 april kl 09:00.\n\nUplägget är enkelt: lite hojsnack, lite MC-nyheter, fika och avrostning, samt möjlighet att köra kostnadsfritt på banan med egen hoj.\n\nIngen prestige, inget krångel. Bara hojar, folk och en bra start på MC-säsongen.\n\nTa med hojen, ta med en kompis, eller kom bara förbi och snacka en stund.\n\nPlats: Larsbovägen, SE-238 41 Oxie.",
+                  "backImage": "ads/mc-avrostning-oxie-back-2026-04-11-v2.jpg",
                   "links": [
                         {
                               "label": "FB Event",
                               "url": "https://www.facebook.com/events/1224652663198413/"
+                        },
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/photo/?fbid=10174001134740182&set=a.10150155778670182"
                         },
                         {
                               "label": "Karta",
@@ -10333,6 +10337,25 @@ const EVENTS_DATA = {
                   "region": "Västerbotten",
                   "source": "facebook.com",
                   "backImage": "ads/besikta-vannasby-back-2026-05-09.jpg"
+            },
+            {
+                  "id": "lurblasarsvanget-high-riders-ystad-2026-05-09",
+                  "name": "Lurblåsarsvängen",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "location": "Östra Sallerups Kulturhus, Höör",
+                  "type": "Körning",
+                  "organizer": "High Riders Ystad",
+                  "description": "MC-sväng genom Skåne! Start vid Östra Sallerups Kulturhus kl 10-11, mål vid High Riders klubbstuga i Ystads Sandskog senast 14:30. 100 kr/pers.",
+                  "descriptionFull": "Lurblåsarsvängen med High Riders Ystad, lördagen den 9 maj 2026.\n\nStart: Östra Sallerups Kulturhus (vid Kyrkan) kl 10:00-11:00.\nVi tar Swish och kontanter. 100 kr/pers.\nKulturhusets cafe är öppet under starten.\n\nMål: High Riders klubbstuga, Ystads Sandskog senast kl 14:30.\nPrisutdelning kl 15:00.",
+                  "link": "https://www.facebook.com/motorcyklarystad/",
+                  "links": [
+                        {"label": "Facebook", "url": "https://www.facebook.com/motorcyklarystad/"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Östra+Sallerups+Kulturhus+Höör", "type": "map"}
+                  ],
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/lurblasarsvanget-high-riders-back-2026-05-09.jpg"
             },
             {
                   "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
