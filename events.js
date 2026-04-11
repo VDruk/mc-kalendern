@@ -249,7 +249,7 @@ const EVENTS_DATA = {
                   "region": "Uppsala",
                   "source": "AD",
                   "frontImage": "ads/tarnsjo-pizzeria-front.jpg",
-                  "backImage": "ads/tarnsjo-pizzeria-back.jpg"
+                  "backImage": "ads/tarnsjo-pizzeria-front.jpg"
             },
             {
                   "id": "jonkoping-mcmassan-2026",
