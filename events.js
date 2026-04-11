@@ -22658,14 +22658,15 @@ const EVENTS_DATA = {
                   "descriptionFull": "Välkomna till den 55:e Hälsingeträffen!\n\n31 juli till 2 augusti 2026 vid BMCK Klubbstugan i Eriknasbö.\n\nProgram:\n- Live musik fredag\n- Tipspromenad & musikquiz hela helgen\n- Pokerbridge fredag till söndag\n- Middagar fredag och lördag\n- Kolbullar och kylda drycker\n\nSkyltat från riksväg 50/301.\n\nArr: Bollnäs MC-Klubb (BMCK)\nFacebook: facebook.com/bollnasmck\nKontakt: info@bmck.se",
                   "frontImage": "ads/halsingetraffen-55-front-2026.jpg",
                   "backImage": "ads/halsingetraffen-55-back-2026.jpg",
-                  "link": "https://www.facebook.com/bollnasmck/",
+                  "link": "https://www.facebook.com/events/936777972057566",
                   "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/936777972057566"},
                         {"label": "Facebook", "url": "https://www.facebook.com/bollnasmck/"},
-                        {"label": "Hemsida", "url": "https://bmck.se"},
                         {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Eriknasbö+Bollnäs", "type": "map"}
                   ],
                   "region": "Gävleborg",
-                  "source": "facebook.com"
+                  "source": "facebook.com",
+                  "organizerIcon": "clubs/normalized/bmck-bollnas.png"
             },
             {
                   "id": "bisonturen-2026",
