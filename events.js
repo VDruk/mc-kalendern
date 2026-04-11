@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-04-11",
       "events": [
             {
                   "_place": true,
@@ -221,6 +221,35 @@ const EVENTS_DATA = {
                   "source": "AD",
                   "frontImage": "ads/enhorna-cafe-front.jpg",
                   "backImage": "ads/enhorna-cafe-back.jpg"
+            },
+            {
+                  "_ad": true,
+                  "_place": true,
+                  "id": "ad-tarnsjo-pizzeria",
+                  "name": "Tärnsjö Pizzeria",
+                  "date": "2026-01-01",
+                  "dateEnd": "2026-12-31",
+                  "location": "Norra Storgatan 31, Tärnsjö",
+                  "type": "Plats",
+                  "organizer": "Tärnsjö Restaurang & Bar",
+                  "description": "Pit stop för MC-förare! Pizzeria med uteservering längs väg 56. Pizza, kebab, grill och starkt kaffe. Gott om plats för hojar.",
+                  "descriptionFull": "Pit stop för MC-förare!\n\nTärnsjö Pizzeria ligger längs väg 56, mitt emellan Uppsala och Gävle. Perfekt stopp när du rullar genom Uppland.\n\nPizza, kebab, grill, sallad och rejäla mackor. Uteservering när solen skiner och gott om plats att ställa hojen.\n\nAdress: Norra Storgatan 31, 740 45 Tärnsjö\nTelefon: 0292-504 09\n\nÖppet: mån-lör, kolla Facebook för aktuella tider.\n\nSväng in, ät gott, kör vidare.",
+                  "links": [
+                        {
+                              "label": "Facebook",
+                              "url": "https://www.facebook.com/profile.php?id=100083061736120"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Norra+Storgatan+31+Tärnsjö",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/profile.php?id=100083061736120",
+                  "region": "Uppsala",
+                  "source": "AD",
+                  "frontImage": "ads/tarnsjo-pizzeria-front.jpg",
+                  "backImage": "ads/tarnsjo-pizzeria-back.jpg"
             },
             {
                   "id": "jonkoping-mcmassan-2026",
