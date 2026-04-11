@@ -7248,6 +7248,26 @@ const EVENTS_DATA = {
                   "backImage": "ads/lagarallyt-knared-back-2026-04-25.jpg"
             },
             {
+                  "id": "lansering-f450gs-motorrad-gbg-2026-04-25",
+                  "name": "Premiär nya BMW F 450 GS",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "location": "Orrekulla Industrigata 35, Hisings Kärra",
+                  "type": "Show",
+                  "organizer": "Motorrad Center Göteborg",
+                  "description": "Lansering av nya BMW F 450 GS hos Motorrad Center Göteborg. Provkörning av den helt nya modellen. Kl 10-14.",
+                  "descriptionFull": "Premiär för nya BMW F 450 GS hos Motorrad Center Göteborg!\n\nLördag 25 april kl 10-14.\n\nVälkommen för provkörning av den helt nya modellen i GS-familjen.\n\nPlats: Orrekulla Industrigata 35, 425 36 Hisings Kärra.",
+                  "frontImage": "ads/lansering-f450gs-front-2026-04-25.jpg",
+                  "backImage": "ads/lansering-f450gs-back-2026-04-25.jpg",
+                  "link": "https://www.facebook.com/events/3267209816913830",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/3267209816913830"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Orrekulla+Industrigata+35+Hisings+Kärra", "type": "map"}
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "bmw-d9-aprilgruset-2026",
                   "name": "D9 Aprilgruset",
                   "date": "2026-04-26",
