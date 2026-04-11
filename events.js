@@ -17358,6 +17358,27 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "kor-hoj-gotland-2026-06-10",
+                  "name": "KÖR HOJ Gotland",
+                  "date": "2026-06-10",
+                  "dateEnd": "2026-06-14",
+                  "location": "Gotland, Visby",
+                  "type": "Körning",
+                  "organizer": "Kör Hoj",
+                  "description": "5 dagars MC-äventyr till Gotland med Kör Hoj. Mestadels asfalt med inslag av grus. Färja Oskarshamn till Visby. Max 8 deltagare. 5 900 kr.",
+                  "descriptionFull": "KÖR HOJ Gotland - upplev äventyret!\n\nFölj med Kör Hoj till Gotland 10-14 juni. Mestadels asfalt men som vanligt kan äventyret innehålla spår av grus.\n\nStart från Hojrum, Kör Hojs lokal i Lidköping kl 15:30. Vidare via Oskarshamn till Visby med färja.\n\nMöjlighet att köra på Gotland Ring-banan (tillägg ca 400-500 kr för 2-3 varv).\n\nPris: 5 900 kr per person\nAntal platser: 8 deltagare\nSista anmälningsdag: 12 maj\n\nIngår: turledare & sweeper, planerad rutt, reseledare & äventyrscoach.\n\nKör Hoj har resegaranti via Kammarkollegiet.",
+                  "link": "https://www.facebook.com/events/714344195100478",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/714344195100478"},
+                        {"label": "Boka", "url": "https://korhoj.se/event/gotland-10-14-juni/"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Visby+Gotland", "type": "map"}
+                  ],
+                  "region": "Gotland",
+                  "source": "facebook.com",
+                  "backImage": "ads/kor-hoj-gotland-back-2026-06-10.jpg",
+                  "organizerIcon": "clubs/normalized/kor-hoj.png"
+            },
+            {
                   "id": "76-mil-grus-2026",
                   "name": "76 mil grus",
                   "date": "2026-06-11",
