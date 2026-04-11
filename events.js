@@ -11862,19 +11862,23 @@ const EVENTS_DATA = {
             },
             {
                   "id": "dannike-motorstop-2026",
-                  "name": "Dannike Motorstopp",
+                  "name": "Dannike Motorstop 2026",
                   "date": "2026-05-16",
                   "dateEnd": "2026-05-16",
                   "location": "Dannike Hills Harley Davidson, Dannike",
-                  "type": "Fest",
+                  "type": "Show",
                   "organizer": "Dannike Hills Harley Davidson",
-                  "description": "Starta motorsäsongen i Dannike! MC- och bilutställning, pris till finaste MC och bil, tombola, livemusik, hamburgare och fika.",
-                  "descriptionFull": "Dannike Hills Harley Davidson bjuder in till Dannike Motorstopp 2026!\n\nStarta motorsäsongen tillsammans med oss i Dannike. En dag fylld med motorer, musik, god mat och härlig stämning. Ta med hojen, bilen, kompisarna eller bara kom för att njuta av en riktigt skön motordag.\n\nLördag 16 maj, 10:00-16:00.\n\nUnder dagen:\n- MC- och bilutställning\n- Pris till finaste MC och finaste bil\n- Tombola och stort lotteri (dragning kl 14:00)\n- Chokladhjul\n- Grillade hamburgare, kaffe och fika\n- Live musik\n- Utställare\n\nPå kvällen fortsätter festen i klubblokalen med liveband!\n\nFri entré, alla är välkomna, med eller utan fordon!\n\nPlats: Dannike Hills Harley Davidson, Länghemsvägen, Dannike.",
-                  "backImage": "ads/dannike-motorstop-back-2026-05-16.jpg",
+                  "description": "Motorcyklar och entusiastfordon i Dannike! Utställning, pris till finaste MC och bil, lotteri, livemusik med Rockabilly Relics och nygrillat hela dagen.",
+                  "descriptionFull": "Motorcyklar & entusiastfordon i Dannike!\n\nStarta motorsäsongen tillsammans med oss. En dag fylld med motorer, musik, god mat och härlig stämning. Ta med hojen, bilen, kompisarna eller bara kom för att njuta av en riktigt skön motordag.\n\nLördag 16 maj, 10:00-16:00.\n\nUnder dagen:\n- MC- och bilutställning\n- Pris till finaste MC och finaste bil\n- Lotteri med oslagbart prisbord\n- Chokladhjul och leksakshjul\n- Nygrillat hela dagen\n- Livemusik: Rockabilly Relics\n\nPå kvällen fortsätter festen i klubblokalen med liveband!\n\nFri entré, alla är välkomna, med eller utan fordon!\n\nPlats: Dannike Hills Harley Davidson, Länghemsvägen, Dannike.",
+                  "frontImage": "ads/dannike-motorstop-front-2026-05-16.jpg",
                   "links": [
                         {
                               "label": "FB Event",
                               "url": "https://www.facebook.com/events/2077864559663074"
+                        },
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1639590067635970&set=a.619933582934962"
                         },
                         {
                               "label": "hdcs.se",
@@ -11883,7 +11887,7 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.hdcs.se",
                   "region": "Västra Götaland",
-                  "source": "FB",
+                  "source": "facebook.com",
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
