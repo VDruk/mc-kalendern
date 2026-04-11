@@ -4918,6 +4918,45 @@ const EVENTS_DATA = {
                   "backImage": "ads/sasongsstart-ducati-trollhattan-back-2026-04-11.jpg"
             },
             {
+                  "id": "ducati-provkorningsdag-claessons-2026-04-11",
+                  "name": "Ducati Provkörningsdag",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "Industrigatan 11, Bromölla",
+                  "type": "Show",
+                  "organizer": "Claessons Motor Bromölla",
+                  "description": "Provkör Ducatis demohojar hos Claessons Motor som firar 50 år! Över 10 modeller att testa. Kampanjer med värdecheckar upp till 20 000 kr. Kl 10-14.",
+                  "descriptionFull": "Provkör din italienska drömmaskin vid Ducatis säsongsstart hos Claessons Motor i Bromölla!\n\nLördag 11 april kl 10-14.\n\nDucati demohojar på plats:\nMultistrada V4S, Multistrada V2S, Streetfighter V4S, Streetfighter V2S, Monster V2, Diavel V4, XDiavel V4, Hypermotard 698, Hypermotard 950 RVE, Scrambler 800.\n\nAktuella kampanjer (gäller till 30 juni):\n- Diavel V4 / XDiavel V4: 20 000 kr\n- Hypermotard 698: 15 000 kr\n- Streetfighter V2: 10 000 kr\n- Streetfighter V4 (standard/S/Corsa): 20 000 kr\n- Multistrada V4 (standard/S/Rally/PikesPeak): 20 000 kr\n- Panigale V2 (standard/S): 10 000 kr\n- Panigale V4 (alla varianter): 20 000 kr\n- Scrambler (Icon/Dark/FullThrottle/NightShift): 10 000 kr\n\nClaessons Motor firar 50 år (1976-2026)!",
+                  "link": "https://www.facebook.com/photo/?fbid=1995121568027087",
+                  "links": [
+                        {"label": "Facebook", "url": "https://www.facebook.com/photo/?fbid=1995121568027087"},
+                        {"label": "Claessons Motor", "url": "https://www.claessonsmotor.se"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Industrigatan+11+Bromölla", "type": "map"}
+                  ],
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/ducati-provkorningsdag-claessons-back-2026-04-11.jpg"
+            },
+            {
+                  "id": "ducati-sasongsstart-beviks-2026-04-11",
+                  "name": "Ducati Säsongsstart",
+                  "date": "2026-04-11",
+                  "dateEnd": "2026-04-11",
+                  "location": "Låskolvsgatan 1, Linköping",
+                  "type": "Show",
+                  "organizer": "Beviks",
+                  "description": "Ducati säsongsstart hos Beviks i Linköping. Provkör Streetfighter V2S, Panigale V2S, Multistrada V2S och Monster. Kl 10-13.",
+                  "descriptionFull": "Ducati 2026 Säsongsstart hos Beviks i Linköping!\n\nLördag 11 april kl 10-13.\n\nKom och provkör årets Ducati-nyheter:\n- Streetfighter V2S\n- Panigale V2S\n- Multistrada V2S\n- Monster\n\nPlats: Låskolvsgatan 1, Linköping.",
+                  "link": "https://www.facebook.com/photo/?fbid=1506306404838733",
+                  "links": [
+                        {"label": "Facebook", "url": "https://www.facebook.com/photo/?fbid=1506306404838733"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Låskolvsgatan+1+Linköping", "type": "map"}
+                  ],
+                  "region": "Östergötland",
+                  "source": "facebook.com",
+                  "backImage": "ads/ducati-sasongsstart-beviks-back-2026-04-11.jpg"
+            },
+            {
                   "id": "bmw-d15-sondagsvandring-gyllebosjon-runt-2026",
                   "name": "D15 Söndagsvandring Gyllebosjön Runt",
                   "date": "2026-04-12",
@@ -5248,6 +5287,28 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ]
+            },
+            {
+                  "id": "hd-open-house-sverige-2026-04-18",
+                  "name": "Harley-Davidson Open House",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "7 butiker runt om i Sverige",
+                  "type": "Show",
+                  "organizer": "Harley-Davidson",
+                  "description": "H-D Open House den 18 april hos sju handlare i Sverige. Provkör demohojar, kampanjer på hojar och kläder. Let the season begin!",
+                  "descriptionFull": "Harley-Davidson Open House den 18 april!\n\nSju H-D-handlare slår upp portarna samtidigt. Provkör demohojar, kolla in erbjudanden och känn MC-säsongen i kroppen.\n\nDeltagande butiker:\n\n• Probike Stockholm\nÅkerivägen 6, Täby\n\n• Probike Göteborg\nAminogatan 32C, Mölndal\n\n• Probike Malmö\nLundavägen 140, Malmö\n\n• Järvsö Motor\nIndustrivägen 22, Järvsö\n\n• Harley-Davidson Umeå\nStrömvägen 2, Umeå\n\n• Harley-Davidson Sundsvall\nKontorsvägen 8, Sundsvall\n\n• Harley-Davidson Trollhättan\nLextorpsvägen 997, Trollhättan",
+                  "frontImage": "ads/hd-open-house-apr18-front-2026.jpg",
+                  "backImage": "ads/harley-day-probike-back-2026-04-18.jpg",
+                  "link": "https://www.harley-davidson.com",
+                  "links": [
+                        {"label": "Probike", "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"},
+                        {"label": "H-D Umeå", "url": "https://www.facebook.com/events/1430895088249315"},
+                        {"label": "H-D Sundsvall", "url": "https://www.facebook.com/events/2141520596612324"},
+                        {"label": "H-D Trollhättan", "url": "https://www.facebook.com/events/1487538302769713"}
+                  ],
+                  "region": "Sverige",
+                  "source": "facebook.com"
             },
             {
                   "id": "open-house-jarvso-motor-2026-04-18",
@@ -8858,6 +8919,25 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/DesmoCenter",
                   "region": "Stockholm",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "eager-mc-varfest-2026-05-02",
+                  "name": "Vårfest Eager MC Stockholm",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Hammardalsslingan 2, Huddinge",
+                  "type": "Fest",
+                  "organizer": "Eager MC Stockholm",
+                  "description": "Vårfest hos Eager MC Stockholm i Stuvsta. Fri entré. Kl 18:00. Endast SBM-medlemmar och inbjudna gäster.",
+                  "descriptionFull": "Vårfest hos Eager MC Stockholm!\n\nLördag 2 maj kl 18:00. Fri entré.\n\nEndast SBM-medlemmar och inbjudna gäster.\n\nPlats: Hammardalsslingan 2, Huddinge (Stuvsta).",
+                  "link": "https://www.facebook.com/events/1678920303473222",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1678920303473222"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Hammardalsslingan+2+Huddinge", "type": "map"}
+                  ],
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/eager-mc-varfest-back-2026-05-02.jpg"
             },
             {
                   "id": "peter-linden-halmstad-2026-05-03",
@@ -13091,6 +13171,27 @@ const EVENTS_DATA = {
                   "source": "hdcs.se",
                   "descriptionFull": "Superrally Fredericia är en av de stora europeiska Harley-Davidson rallyna.\n\nFem dagar med shower, musik, utställningar och körningar i och kring Fredericia.\n\nArrangeras av H-DCS. Se länk för detaljer och anmälan.\n\nPlats: Fredericia, Danmark.",
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "kurs-pa-vag-smc-ostergotland-2026-05-20",
+                  "name": "Kurs På Väg",
+                  "date": "2026-05-20",
+                  "dateEnd": "2026-05-20",
+                  "location": "Bråvalla, Norrköping",
+                  "type": "Körning",
+                  "organizer": "SMC Östergötland",
+                  "description": "Säkerhetskurs på MC-vägar i Bråvallaområdet. Kör i grupp med instruktör, fikapaus, kl 17-20. Boka via grundkurser.svmc.se.",
+                  "descriptionFull": "Kurs På Väg med SMC Östergötland.\n\nOnsdag 20 maj kl 17:00-20:00 i Bråvallaområdet nära Norrköping.\n\nUnder kursen kör du på MC-vägar i grupp med en instruktör. Ni stannar och pratar om hur det gick, lär av varandra, och kör igen. En fikapaus ingår.\n\nSäkerhetskontroll av din MC ingår innan start.\n\nBokning: grundkurser.svmc.se",
+                  "link": "https://www.facebook.com/events/3028884427322681/",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/3028884427322681/"},
+                        {"label": "Boka", "url": "https://grundkurser.svmc.se"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Bråvalla+Norrköping", "type": "map"}
+                  ],
+                  "region": "Östergötland",
+                  "source": "facebook.com",
+                  "backImage": "ads/kurs-pa-vag-back-2026-05-20.jpg",
+                  "organizerIcon": "clubs/normalized/smc.png"
             },
             {
                   "id": "doa-dagstur-ekero-2026-05-21",
@@ -22025,11 +22126,12 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/events/1636430667640219",
                   "links": [
                         {"label": "FB Event", "url": "https://www.facebook.com/events/1636430667640219"},
+                        {"label": "FB Event (2)", "url": "https://www.facebook.com/events/1165467155604025"},
                         {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A4ttviks+Travbana", "type": "map"}
                   ],
                   "region": "Dalarna",
                   "source": "facebook.com",
-                  "backImage": "ads/veteranmarknad-rattvik-back-2026-07-24.jpg"
+                  "backImage": "ads/veteranmarknad-rattvik-back-2026-07-24-v2.jpg"
             },
             {
                   "id": "dob-skanetraffen-2-0-2026",
