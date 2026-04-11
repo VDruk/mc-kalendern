@@ -22595,6 +22595,27 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/gwcs.png"
             },
             {
+                  "id": "dacketraffen-2026",
+                  "name": "Dacketräffen 2026",
+                  "date": "2026-07-30",
+                  "dateEnd": "2026-08-02",
+                  "location": "Virserum MC Club, Virserum",
+                  "type": "Fest",
+                  "organizer": "Virserum MC Club",
+                  "description": "Fyra dagars MC-fest i Virserum. Orkester på fredag, party hela helgen med god mat, dryck och frukostbuffé. Camping på plats.",
+                  "descriptionFull": "Välkommen till Dacketräffen 2026!\n\n30 juli till 2 augusti vid Virserum MC Club.\n\nOrkester på fredag och party hela helgen med massor av god mat, dryck, frukostbuffé hela helgen och trevlig stämning.\n\nMer info kommer inom kort.",
+                  "frontImage": "ads/dacketraffen-2026-front.jpg",
+                  "backImage": "ads/dacketraffen-2026-back.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=1833464291402721",
+                  "links": [
+                        {"label": "Facebook", "url": "https://www.facebook.com/photo/?fbid=1833464291402721"},
+                        {"label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100042175033153"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Virserum+MC+Club+Virserum", "type": "map"}
+                  ],
+                  "region": "Kalmar",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "doa-tur-till-bisonturen-2026",
                   "name": "DOA - Tur till Bisonturen",
                   "date": "2026-07-31",
@@ -22665,8 +22686,7 @@ const EVENTS_DATA = {
                         {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Eriknasbö+Bollnäs", "type": "map"}
                   ],
                   "region": "Gävleborg",
-                  "source": "facebook.com",
-                  "organizerIcon": "clubs/normalized/bmck-bollnas.png"
+                  "source": "facebook.com"
             },
             {
                   "id": "bisonturen-2026",
