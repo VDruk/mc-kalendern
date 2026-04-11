@@ -22599,7 +22599,7 @@ const EVENTS_DATA = {
                   "name": "Dacketräffen 2026",
                   "date": "2026-07-30",
                   "dateEnd": "2026-08-02",
-                  "location": "Virserum MC Club, Virserum",
+                  "location": "Södra Järnvägsgatan 35, Virserum",
                   "type": "Fest",
                   "organizer": "Virserum MC Club",
                   "description": "Fyra dagars MC-fest i Virserum. Orkester på fredag, party hela helgen med god mat, dryck och frukostbuffé. Camping på plats.",
@@ -22610,7 +22610,7 @@ const EVENTS_DATA = {
                   "links": [
                         {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1833464291402721"},
                         {"label": "FB Sida", "url": "https://www.facebook.com/profile.php?id=100042175033153"},
-                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Virserum+MC+Club+Virserum", "type": "map"}
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Södra+Järnvägsgatan+35+Virserum", "type": "map"}
                   ],
                   "region": "Kalmar",
                   "source": "facebook.com"
