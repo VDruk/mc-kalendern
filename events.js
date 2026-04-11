@@ -5299,7 +5299,7 @@ const EVENTS_DATA = {
                   "description": "H-D Open House den 18 april hos sju handlare i Sverige. Provkör demohojar, kampanjer på hojar och kläder. Let the season begin!",
                   "descriptionFull": "Harley-Davidson Open House den 18 april!\n\nSju H-D-handlare slår upp portarna samtidigt. Provkör demohojar, kolla in erbjudanden och känn MC-säsongen i kroppen.\n\nDeltagande butiker:\n\n• Probike Stockholm\nÅkerivägen 6, Täby\n\n• Probike Göteborg\nAminogatan 32C, Mölndal\n\n• Probike Malmö\nLundavägen 140, Malmö\n\n• Järvsö Motor\nIndustrivägen 22, Järvsö\n\n• Harley-Davidson Umeå\nStrömvägen 2, Umeå\n\n• Harley-Davidson Sundsvall\nKontorsvägen 8, Sundsvall\n\n• Harley-Davidson Trollhättan\nLextorpsvägen 997, Trollhättan",
                   "frontImage": "ads/hd-open-house-apr18-front-2026.jpg",
-                  "backImage": "ads/harley-day-probike-back-2026-04-18.jpg",
+                  "backImage": "ads/hd-open-house-apr18-back-2026.jpg",
                   "link": "https://www.harley-davidson.com",
                   "links": [
                         {"label": "Probike", "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"},
