@@ -15384,7 +15384,7 @@ const EVENTS_DATA = {
                               "url": "https://www.facebook.com/events/845106301845419"
                         },
                         {
-                              "label": "Facebook",
+                              "label": "FB Sida",
                               "url": "https://www.facebook.com/groups/1955799364688045"
                         },
                         {
@@ -22608,8 +22608,8 @@ const EVENTS_DATA = {
                   "backImage": "ads/dacketraffen-2026-back.jpg",
                   "link": "https://www.facebook.com/photo/?fbid=1833464291402721",
                   "links": [
-                        {"label": "Facebook", "url": "https://www.facebook.com/photo/?fbid=1833464291402721"},
-                        {"label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100042175033153"},
+                        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1833464291402721"},
+                        {"label": "FB Sida", "url": "https://www.facebook.com/profile.php?id=100042175033153"},
                         {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Virserum+MC+Club+Virserum", "type": "map"}
                   ],
                   "region": "Kalmar",
@@ -22682,7 +22682,7 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/events/936777972057566",
                   "links": [
                         {"label": "FB Event", "url": "https://www.facebook.com/events/936777972057566"},
-                        {"label": "Facebook", "url": "https://www.facebook.com/bollnasmck/"},
+                        {"label": "FB Sida", "url": "https://www.facebook.com/bollnasmck/"},
                         {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Eriknasbö+Bollnäs", "type": "map"}
                   ],
                   "region": "Gävleborg",
