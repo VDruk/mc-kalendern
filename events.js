@@ -5321,16 +5321,17 @@ const EVENTS_DATA = {
                   "name": "Harley-Davidson Open House",
                   "date": "2026-04-18",
                   "dateEnd": "2026-04-18",
-                  "location": "7 butiker runt om i Sverige",
+                  "location": "8 butiker runt om i Sverige",
                   "type": "Show",
                   "organizer": "Harley-Davidson",
-                  "description": "H-D Open House den 18 april hos sju handlare i Sverige. Provkör demohojar, kampanjer på hojar och kläder. Let the season begin!",
-                  "descriptionFull": "Harley-Davidson Open House den 18 april!\n\nSju H-D-handlare slår upp portarna samtidigt. Provkör demohojar, kolla in erbjudanden och känn MC-säsongen i kroppen.\n\nDeltagande butiker:\n\n• Probike Stockholm\nÅkerivägen 6, Täby\n\n• Probike Göteborg\nAminogatan 32C, Mölndal\n\n• Probike Malmö\nLundavägen 140, Malmö\n\n• Järvsö Motor\nIndustrivägen 22, Järvsö\n\n• Harley-Davidson Umeå\nStrömvägen 2, Umeå\n\n• Harley-Davidson Sundsvall\nKontorsvägen 8, Sundsvall\n\n• Harley-Davidson Trollhättan\nLextorpsvägen 997, Trollhättan",
+                  "description": "H-D Open House den 18 april hos åtta handlare i Sverige. Provkör demohojar, kampanjer på hojar och kläder. Let the season begin!",
+                  "descriptionFull": "Harley-Davidson Open House den 18 april!\n\nÅtta H-D-handlare slår upp portarna samtidigt. Provkör demohojar, kolla in erbjudanden och känn MC-säsongen i kroppen.\n\nDeltagande butiker:\n\n• Probike Stockholm\nÅkerivägen 6, Täby\n\n• Probike Göteborg\nAminogatan 32C, Mölndal\n\n• Probike Malmö\nLundavägen 140, Malmö\n\n• Bikeman Helsingborg\nKroppavägen 40, Mörarp\n\n• Järvsö Motor\nIndustrivägen 22, Järvsö\n\n• Harley-Davidson Umeå\nStrömvägen 2, Umeå\n\n• Harley-Davidson Sundsvall\nKontorsvägen 8, Sundsvall\n\n• Harley-Davidson Trollhättan\nLextorpsvägen 997, Trollhättan",
                   "frontImage": "ads/hd-open-house-apr18-front-2026.jpg",
                   "backImage": "ads/hd-open-house-apr18-back-2026.jpg",
                   "link": "https://www.harley-davidson.com",
                   "links": [
                         {"label": "Probike", "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"},
+                        {"label": "Bikeman", "url": "https://www.facebook.com/events/935407415775482"},
                         {"label": "H-D Umeå", "url": "https://www.facebook.com/events/1430895088249315"},
                         {"label": "H-D Sundsvall", "url": "https://www.facebook.com/events/2141520596612324"},
                         {"label": "H-D Trollhättan", "url": "https://www.facebook.com/events/1487538302769713"}
@@ -6009,6 +6010,37 @@ const EVENTS_DATA = {
                   "region": "Västra Götaland",
                   "source": "facebook.com",
                   "organizerIcon": "clubs/normalized/hd-trollhattan.png"
+            },
+            {
+                  "id": "hd-open-house-bikeman-helsingborg-2026-04-18",
+                  "name": "Öppet Hus hos Bikeman",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Kroppavägen 40, Mörarp",
+                  "type": "Show",
+                  "organizer": "Bikeman Helsingborg",
+                  "description": "Öppet hus hos Bikeman! Stuntshow med Elliot Gröndahl (Guinness World Records), hamburgare från H.O.G Helsingborg, kampanjer och erbjudanden.",
+                  "descriptionFull": "Kickstarta säsongen hos Bikeman Helsingborg!\n\nStuntshow med Elliot Gröndahl, som har flera Guinness World Records i bagaget. Elliot kör inte bara en, utan TVÅ spektakulära stuntshower under dagen.\n\nH.O.G Helsingborg står vid grillen och bjuder alla besökare på hamburgare.\n\nMassor av kampanjer och erbjudanden i butiken.\n\nAlla är välkomna. Ta med vännerna, familjen och ditt motorintresse!\n\nPlats: Kroppavägen 40, 253 55 Mörarp.",
+                  "backImage": "ads/hd-open-house-bikeman-back-2026-04-18.jpg",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/935407415775482"
+                        },
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/HarleyDavidsonHelsingborgBikeman"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kroppavägen+40+Mörarp",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/HarleyDavidsonHelsingborgBikeman",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "organizerIcon": "clubs/normalized/hd-bikeman-helsingborg.png"
             },
             {
                   "id": "goodguys-mc-avrostning-arjang-2026-04-18",
