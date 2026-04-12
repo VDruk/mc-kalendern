@@ -16827,7 +16827,7 @@ const EVENTS_DATA = {
                   "dateEnd": "2026-06-06",
                   "location": "Stortorget, Östersund",
                   "type": "Körning",
-                  "organizer": "Templar Knights MC Jämtland",
+                  "organizer": "Templar Knights MC",
                   "organizerIcon": "clubs/normalized/templar-knights-mc.png",
                   "description": "Flaggkörning på nationaldagen 6 juni. Traditionsenligt delar Templar Knights ut svenska flaggor runt Storsjöbygden i samarbete med Länsstyrelsen och SMC.",
                   "descriptionFull": "Jamtland Lodge kör på Svenska flaggans dag 6 juni, traditionsenligt ut svenska flaggor till Jämtlands innevånare i samarbete med Länsstyrelsen Jämtland-Härjedalen samt Sveriges MotorCyklister (SMC).\n\nVälkommen att åka med oss på somriga vägar runt Storsjöbygden!\n\nSamling: Stortorget, Östersund, kl 10:00.",
