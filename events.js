@@ -17326,6 +17326,7 @@ const EVENTS_DATA = {
                   "location": "Nya Pepparrotsbanan, Fagerskogen, Enköping",
                   "type": "Körning",
                   "organizer": "SMC Västmanland",
+                  "organizerIcon": "clubs/normalized/smc.png",
                   "description": "Knixkurs på Nya Pepparrotsbanan i Enköping. Öva kurvtagning, bli tryggare på hojen. För- eller eftermiddagspass, eller båda. Fika bjuds. Kl 9-17.",
                   "descriptionFull": "Passa på och boka knixkurs på Nya Pepparrotsbanan i Enköping. Välj för- eller eftermiddagspass eller varför inte båda!\n\nÖva kurvtagning, fika, ha en kul dag, bli tryggare med din hoj i trafiken. En kurs för alla, custom, adventure, sport eller grushojar spelar ingen roll, alla är välkomna. Har du aldrig gått en knixkurs så unna dig det.\n\nVi bjuder på fika.\n\nAnmäl dig via SMC:s hemsida.\nObs, anmälan är obligatorisk.\nSå länge det är bokningsbart finns det plats kvar.\n\nhttps://grundkurser.svmc.se",
                   "backImage": "ads/knixkurs-pepparrotsbanan-back-2026-06-07.jpg",
