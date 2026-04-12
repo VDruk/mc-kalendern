@@ -9058,6 +9058,26 @@ const EVENTS_DATA = {
                   "backImage": "ads/eager-mc-varfest-back-2026-05-02.jpg"
             },
             {
+                  "id": "varmonstringen-mothers-2026-05-02",
+                  "name": "Vårmönstringen 2026",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Norra Ågatan 28, Mölndal",
+                  "type": "Körning",
+                  "organizer": "Mothers Shop",
+                  "organizerIcon": "clubs/normalized/mothers-shop.png",
+                  "description": "Samling kl 10 hos Mothers Freak, kaffe och en runda med hojarna. Avslutas hos Mothers och Wingens med käk.",
+                  "descriptionFull": "Nu har vi satt datum för årets upplaga av Vårmönstring\n\n2 maj är det datum som gäller\n\nSamling som vanligt uppe hos Mothers Freak vid 10 tiden där finns det kaffe med mera. Sedan en liten runda med hojarna som avslutas hos oss på Mothers och Wingens och vi serverar lite gött käk.",
+                  "link": "https://www.facebook.com/events/759509079879465",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/759509079879465"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Norra+Ågatan+28+Mölndal", "type": "map"}
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/varmonstringen-mothers-back-2026-05-02.jpg"
+            },
+            {
                   "id": "peter-linden-halmstad-2026-05-03",
                   "name": "Peter Lindén - Stridspilot & roadracinglegend",
                   "date": "2026-05-03",
