@@ -17319,6 +17319,36 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "smc-vastmanland-knix-pepparrotsbanan-2026-06-07",
+                  "name": "Knixkurs Nya Pepparrotsbanan",
+                  "date": "2026-06-07",
+                  "dateEnd": "2026-06-07",
+                  "location": "Nya Pepparrotsbanan, Fagerskogen, Enköping",
+                  "type": "Körning",
+                  "organizer": "SMC Västmanland",
+                  "description": "Knixkurs på Nya Pepparrotsbanan i Enköping. Öva kurvtagning, bli tryggare på hojen. För- eller eftermiddagspass, eller båda. Fika bjuds. Kl 9-17.",
+                  "descriptionFull": "Passa på och boka knixkurs på Nya Pepparrotsbanan i Enköping. Välj för- eller eftermiddagspass eller varför inte båda!\n\nÖva kurvtagning, fika, ha en kul dag, bli tryggare med din hoj i trafiken. En kurs för alla, custom, adventure, sport eller grushojar spelar ingen roll, alla är välkomna. Har du aldrig gått en knixkurs så unna dig det.\n\nVi bjuder på fika.\n\nAnmäl dig via SMC:s hemsida.\nObs, anmälan är obligatorisk.\nSå länge det är bokningsbart finns det plats kvar.\n\nhttps://grundkurser.svmc.se",
+                  "backImage": "ads/knixkurs-pepparrotsbanan-back-2026-06-07.jpg",
+                  "link": "https://www.facebook.com/events/1446789063519176",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1446789063519176"
+                        },
+                        {
+                              "label": "Anmälan (SMC)",
+                              "url": "https://grundkurser.svmc.se/?name=&district=vastmanland&et%5B%5D=Knix&date_start=2026-06-07&date_end=2026-06-07"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Nya+Pepparrotsbanan+Enk%C3%B6ping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Uppsala",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "bmw-d11-goes-to-pite-havsbad-arstraff-2026-2026",
                   "name": "D11 Goes to Pite Havsbad (Årsträff 2026)",
                   "date": "2026-06-08",
