@@ -13451,6 +13451,36 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "torsdagsfika-caltexmacken-2026-05-21",
+                  "name": "Torsdagsfika Caltexmacken",
+                  "date": "2026-05-21",
+                  "dateEnd": "2026-05-21",
+                  "location": "Stumsnäs Byväg 136, Vikarbyn",
+                  "type": "Träff",
+                  "organizer": "Caltexmacken I Stumsnäs",
+                  "description": "Torsdagsfika med veteranfordon och loppis vid klassiska Caltexmacken i Stumsnäs. 50- och 60-talsstämning, fika och gott sällskap. Alla fordon välkomna!",
+                  "descriptionFull": "Torsdagsfika vid den klassiska Caltexmacken i Stumsnäs, Vikarbyn.\n\nVälkommen till en nostalgisk kväll med veteranfordon, loppis och fika i 50- och 60-talsstämning. Alla typer av fordon är välkomna.\n\nTid: 17:00-20:00\n\nAdress: Stumsnäs Byväg 136, 795 95 Vikarbyn\n\nMer info: caltexmacken.com",
+                  "backImage": "ads/torsdagsfika-caltexmacken-back-2026-05-21.jpg",
+                  "link": "https://www.facebook.com/events/748108538269884",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/748108538269884"
+                        },
+                        {
+                              "label": "Hemsida",
+                              "url": "https://caltexmacken.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Stumsn%C3%A4s+Byv%C3%A4g+136%2C+Vikarbyn",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Dalarna",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "fmct-bandag-kinnekulle-2026",
                   "name": "Bandag MC - Kinnekulle Ring",
                   "date": "2026-05-22",
