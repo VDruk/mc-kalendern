@@ -11684,24 +11684,34 @@ const EVENTS_DATA = {
             },
             {
                   "id": "tangens-mc-memorial-run-2026-05-14",
-                  "name": "Tångens MC Memorial Run 2026",
+                  "name": "Memorial Run 2026",
                   "date": "2026-05-14",
                   "dateEnd": "2026-05-14",
-                  "location": "Tångens MC, Forshaga",
+                  "location": "Södra tången, Forshaga",
                   "type": "Körning",
                   "organizer": "Tångens MC",
-                  "description": "Memorial Run med Tångens MC i Forshaga, Värmland. Torsdag 14 maj. Alla MC-vänner välkomna att hedra minnet.",
-                  "descriptionFull": "Tångens MC bjuder in till Memorial Run 2026, torsdagen den 14 maj.\n\nEn körning till minne av vänner som inte längre är med oss.\n\nPlats: Tångens MC, Forshaga (Värmland).\n\nAlla MC-vänner är välkomna att delta.",
+                  "organizerIcon": "clubs/normalized/tangens-mc.png",
+                  "description": "Memorial Run till minne av vänner som inte längre är med oss. Start kl 11:00. 150 kr, hamburgare och dricka ingår. Allt går till Cancerfonden.",
+                  "descriptionFull": "Memorial Run 2026 14 Maj\n\nStart 11:00 från Tångens.\n150 kr startavgift. Hamburgare och dricka ingår!\n\nAllt går till Cancerfonden.\n\nTångens MC, Södra tången, 667 91 Forshaga.",
                   "links": [
                         {
-                              "label": "Facebook",
+                              "label": "FB Sida",
                               "url": "https://www.facebook.com/tangensmc"
+                        },
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo?fbid=1544089477371674&set=a.579187183861913"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=T%C3%A5ngens+MC+Forshaga",
+                              "type": "map"
                         }
                   ],
                   "link": "https://www.facebook.com/tangensmc",
                   "region": "Värmland",
                   "source": "facebook.com",
-                  "backImage": "ads/tangens-mc-memorial-run-back-2026-05-14.jpg"
+                  "backImage": "ads/tangens-mc-back-2026.jpg"
             },
             {
                   "id": "krangelrallyt-hjorts-mck-2026-05-14",
@@ -11806,6 +11816,37 @@ const EVENTS_DATA = {
                   "region": "Västernorrland",
                   "source": "facebook.com",
                   "backImage": "ads/ankansracing-trackdays-back-2026-05-15.jpg"
+            },
+            {
+                  "id": "tangens-mc-barhang-2026-05-16",
+                  "name": "Barhäng hos Tångens MC",
+                  "date": "2026-05-16",
+                  "dateEnd": "2026-05-16",
+                  "location": "Södra tången, Forshaga",
+                  "type": "Fest",
+                  "organizer": "Tångens MC",
+                  "organizerIcon": "clubs/normalized/tangens-mc.png",
+                  "description": "Barhäng med livemusik (Punch på scen). Gott häng, entré 100 kr kontant. Endast inbjudna vänner.",
+                  "descriptionFull": "Som en bomb som slagit ner! Så bjuder vi in till barhäng!\n\nVälkomna!\n\nPå scen: Punch\nEntré: 100 kr (Cash is King)\nEndast inbjudna vänner.\n\nTångens MC, Södra tången, 667 91 Forshaga.",
+                  "link": "https://www.facebook.com/tangensmc",
+                  "links": [
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/tangensmc"
+                        },
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1549957130118242&set=a.579187183861913"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=T%C3%A5ngens+MC+Forshaga",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Värmland",
+                  "source": "facebook.com",
+                  "backImage": "ads/tangens-mc-back-2026.jpg"
             },
             {
                   "id": "mitt-sverige-cupen-del-1-solleftea-2026-05-16",
