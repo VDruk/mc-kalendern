@@ -16620,6 +16620,26 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "smc-stockholm-nationaldagstur-2026-06-06",
+                  "name": "Nationaldagsturen",
+                  "date": "2026-06-06",
+                  "dateEnd": "2026-06-06",
+                  "location": "Stockholm",
+                  "type": "Körning",
+                  "organizer": "SMC Stockholm",
+                  "organizerIcon": "clubs/normalized/smc.png",
+                  "description": "Save the date! SMC Stockholms nationaldagstur på lördag 6 juni. Mer info kommer.",
+                  "descriptionFull": "Save the date!\n\nLördag 6 Juni går nationaldagsturen av stapeln. Info kommer.\n\n#nationaldag #Motorcykel #vikörtillsammans",
+                  "link": "https://www.facebook.com/smcstockholm",
+                  "links": [
+                        {"label": "FB Sida", "url": "https://www.facebook.com/smcstockholm"},
+                        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1352920270202807&set=a.456107109884132"}
+                  ],
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/smc-stockholm-nationaldagstur-back-2026-06-06.jpg"
+            },
+            {
                   "id": "mcv-osterlen-motorhistoriska-dagen-2026-06-06",
                   "name": "Motorhistoriska Dagen",
                   "date": "2026-06-06",
