@@ -15814,6 +15814,31 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/jmc.png"
             },
             {
+                  "id": "orangeday-orsa-2026-05-30",
+                  "name": "Orange Day samåkning från Orsa",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Orsa",
+                  "type": "Körning",
+                  "organizer": "Orange Day MC",
+                  "organizerIcon": "clubs/normalized/orangeday-mc.png",
+                  "description": "Samåkning från Orsa ner till Borlänge för att ansluta till Orangeday MC-kortegen mot Norrköping. Samlar upp folk i Orsa och Mora längs vägen.",
+                  "descriptionFull": "Orange Day samåkning från Orsa!\n\nVi samåker ner till Borlänge och slår oss samman med Orange Day-gänget som kör vidare ner till Norrköping.\n\nVi stannar till och samlar upp folk i Orsa och Mora längs vägen.\n\nArrangörer: Linda Linny Nyström och Marc Ersson.\n\nKortegeavgift: 150 kr/person via Swish (900 29 32). Bidraget går oavkortat till UN Women Sverige.\n\nMer info: orangedaymc.com",
+                  "link": "https://www.facebook.com/events/1252749333591140",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1252749333591140"
+                        },
+                        {
+                              "label": "orangedaymc.com",
+                              "url": "https://orangedaymc.com"
+                        }
+                  ],
+                  "region": "Dalarna",
+                  "source": "facebook.com"
+            },
+            {
                   "id": "bmw-d15-mats-och-bodils-tur-2026",
                   "name": "D15 Mats och Bodils tur",
                   "date": "2026-05-31",
