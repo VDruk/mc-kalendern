@@ -5330,8 +5330,9 @@ const EVENTS_DATA = {
                   "backImage": "ads/hd-open-house-apr18-back-2026.jpg",
                   "link": "https://www.harley-davidson.com",
                   "links": [
-                        {"label": "Probike", "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"},
-                        {"label": "Bikeman", "url": "https://www.facebook.com/events/935407415775482"},
+                        {"label": "Probike (3 butiker)", "url": "https://www.probikebutiken.se/event/harley-day-provkorningsevent/"},
+                        {"label": "Bikeman Helsingborg", "url": "https://www.facebook.com/events/935407415775482"},
+                        {"label": "Järvsö Motor", "url": "https://www.facebook.com/events/1817726249183942"},
                         {"label": "H-D Umeå", "url": "https://www.facebook.com/events/1430895088249315"},
                         {"label": "H-D Sundsvall", "url": "https://www.facebook.com/events/2141520596612324"},
                         {"label": "H-D Trollhättan", "url": "https://www.facebook.com/events/1487538302769713"}
