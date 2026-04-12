@@ -20158,6 +20158,37 @@ const EVENTS_DATA = {
                   "backImage": "ads/big-twins-party-back-2026-06-27.jpg"
             },
             {
+                  "id": "smc-vastmanland-knix-pepparrotsbanan-2026-06-28",
+                  "name": "Knixkurs Nya Pepparrotsbanan",
+                  "date": "2026-06-28",
+                  "dateEnd": "2026-06-28",
+                  "location": "Nya Pepparrotsbanan, Fagerskogen, Enköping",
+                  "type": "Körning",
+                  "organizer": "SMC Västmanland",
+                  "organizerIcon": "clubs/normalized/smc.png",
+                  "description": "Knixkurs på Nya Pepparrotsbanan i Enköping. Öva kurvtagning, bli tryggare på hojen. För- eller eftermiddagspass, eller båda. Fika bjuds. Kl 9-17.",
+                  "descriptionFull": "Passa på och boka knixkurs på Nya pepparrotsbanan i Enköping. Välj för eller eftermiddagspass eller varför inte båda!\n\nÖva kurvtagning, fika, ha en kul dag, bli tryggare med din hoj i trafiken. En kurs för alla, custom, adventure, sport eller grushojar spelar ingen roll, alla är välkomna. Har du aldrig gått en knixkurs så unna dig det.\n\nVi bjuder på fika.\n\nAnmäl dig via SMC:s hemsida.\nObs, anmälan är obligatorisk.\nSå länge det är bokningsbart finns det plats kvar.\n\nhttps://grundkurser.svmc.se",
+                  "link": "https://www.facebook.com/events/1254037643608066",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1254037643608066"
+                        },
+                        {
+                              "label": "Anmälan (SMC)",
+                              "url": "https://grundkurser.svmc.se/?name=&district=vastmanland&et%5B%5D=Knix&date_start=2026-06-28&date_end=2026-06-28"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Nya+Pepparrotsbanan+Enk%C3%B6ping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/knix-pepparrotsbanan-back-2026-06-28.jpg"
+            },
+            {
                   "id": "jmc-sondagsrundan-2026-06-28",
                   "name": "Söndagsrundan",
                   "date": "2026-06-28",
