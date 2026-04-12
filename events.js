@@ -16821,6 +16821,37 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "templar-knights-flaggkorning-2026-06-06",
+                  "name": "Flaggkörning på nationaldagen",
+                  "date": "2026-06-06",
+                  "dateEnd": "2026-06-06",
+                  "location": "Stortorget, Östersund",
+                  "type": "Körning",
+                  "organizer": "Templar Knights MC Jämtland",
+                  "organizerIcon": "clubs/normalized/templar-knights-mc.png",
+                  "description": "Flaggkörning på nationaldagen 6 juni. Traditionsenligt delar Templar Knights ut svenska flaggor runt Storsjöbygden i samarbete med Länsstyrelsen och SMC.",
+                  "descriptionFull": "Jamtland Lodge kör på Svenska flaggans dag 6 juni, traditionsenligt ut svenska flaggor till Jämtlands innevånare i samarbete med Länsstyrelsen Jämtland-Härjedalen samt Sveriges MotorCyklister (SMC).\n\nVälkommen att åka med oss på somriga vägar runt Storsjöbygden!\n\nSamling: Stortorget, Östersund, kl 10:00.",
+                  "link": "https://www.facebook.com/events/987550757292865",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/987550757292865"
+                        },
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/TemplarKnightsMotorcycleClubJamtlandLodge"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Stortorget+%C3%96stersund",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Jämtland",
+                  "source": "facebook.com",
+                  "backImage": "ads/templar-knights-flaggkorning-back-2026-06-06.jpg"
+            },
+            {
                   "id": "bmw-d11-historisk-heldagstur-oland-2026-2026",
                   "name": "D11 Historisk heldagstur Öland 2026",
                   "date": "2026-06-06",
