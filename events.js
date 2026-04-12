@@ -11711,7 +11711,7 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/tangensmc",
                   "region": "Värmland",
                   "source": "facebook.com",
-                  "backImage": "ads/tangens-mc-back-2026.jpg"
+                  "backImage": "ads/tangens-mc-memorial-run-back-2026-05-14.jpg"
             },
             {
                   "id": "krangelrallyt-hjorts-mck-2026-05-14",
