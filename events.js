@@ -6779,6 +6779,26 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "jmc-bike-dagarna-trollhattan-2026-04-24",
+                  "name": "Samåkning till Bike dagarna Trollhättan",
+                  "date": "2026-04-24",
+                  "dateEnd": "2026-04-24",
+                  "location": "St1 A6, Sjukhusgatan 6, Jönköping",
+                  "type": "Körning",
+                  "organizer": "JMC Samåkning Småland",
+                  "organizerIcon": "clubs/normalized/jmc.png",
+                  "description": "Samåkning till Bike dagarna i Trollhättan. Samling 09:30 vid St1 Asecs, avfärd 10:00.",
+                  "descriptionFull": "Hej samåkning till Bike dagarna i Trollhättan.\n\nSamling 09:30 ST1 asecs avfärd 10:00",
+                  "link": "https://www.facebook.com/events/789225327315285",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/789225327315285"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=St1+Sjukhusgatan+6+Jönköping", "type": "map"}
+                  ],
+                  "region": "Jönköping",
+                  "source": "facebook.com",
+                  "backImage": "ads/jmc-bike-dagarna-trollhattan-back-2026-04-24.jpg"
+            },
+            {
                   "id": "mc-ns-dag-eagle-riders-boras-2026-04-25",
                   "name": "MC:ns dag",
                   "date": "2026-04-25",
