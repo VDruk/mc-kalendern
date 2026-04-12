@@ -7923,6 +7923,26 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "omcc-brasrunda-2026-04-30",
+                  "name": "Brasrunda",
+                  "date": "2026-04-30",
+                  "dateEnd": "2026-04-30",
+                  "location": "Viktoriaesplanaden, Örnsköldsvik",
+                  "type": "Körning",
+                  "organizer": "ÖMCC",
+                  "description": "Traditionell Brasrunda! Gulashsoppa på ÖMCC kl 18, sen sväng till Domsjö IP och Bonäset. Anmälan på omcc.se.",
+                  "descriptionFull": "Som traditionen bjuder så kör vi även i år en Brasrunda\n\nStart 18.00 från ÖMCC med att vi äter varm Gulashsoppa innan avfärd\n\nSen blir det en sväng till Domsjö IP och Bonäset för att värma oss.\n\nHäng på de brukar va trevligt, ifjol va vi 14 hojar\n\nAnmälan görs på hemsidan www.omcc.se pga inhandling av mat\n\n/Staffan",
+                  "link": "https://www.facebook.com/events/1199408022096983/",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1199408022096983/"},
+                        {"label": "Hemsida", "url": "https://www.omcc.se"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+Örnsköldsvik", "type": "map"}
+                  ],
+                  "region": "Västernorrland",
+                  "source": "facebook.com",
+                  "backImage": "ads/brasrunda-back-2026-04-30.jpg"
+            },
+            {
                   "id": "valborglager-supermoto-flattrack-2026-05-01",
                   "name": "Valborgläger Supermoto & Flattrack TT",
                   "date": "2026-05-01",
