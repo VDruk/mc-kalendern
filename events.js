@@ -15818,12 +15818,12 @@ const EVENTS_DATA = {
                   "name": "Orange Day samåkning från Orsa",
                   "date": "2026-05-30",
                   "dateEnd": "2026-05-30",
-                  "location": "Orsa",
+                  "location": "JK Hunting, Lissvägen 1, Orsa",
                   "type": "Körning",
                   "organizer": "Orange Day MC",
                   "organizerIcon": "clubs/normalized/orangeday-mc.png",
-                  "description": "Samåkning från Orsa ner till Borlänge för att ansluta till Orangeday MC-kortegen mot Norrköping. Samlar upp folk i Orsa och Mora längs vägen.",
-                  "descriptionFull": "Orange Day samåkning från Orsa!\n\nVi samåker ner till Borlänge och slår oss samman med Orange Day-gänget som kör vidare ner till Norrköping.\n\nVi stannar till och samlar upp folk i Orsa och Mora längs vägen.\n\nArrangörer: Linda Linny Nyström och Marc Ersson.\n\nKortegeavgift: 150 kr/person via Swish (900 29 32). Bidraget går oavkortat till UN Women Sverige.\n\nMer info: orangedaymc.com",
+                  "description": "Samåkning från Orsa ner till Borlänge för att ansluta till Orange Day-kortegen mot Norrköping. Uppsamling i Orsa, Mora, Rättvik och Leksand. Avgång 05:40.",
+                  "descriptionFull": "Vi kommer samåka ner till Borlänge och när vi är där slå oss samman med Orange Day-gänget som ska vidare ner till Norrköping.\n\nVi stannar till och samlar upp folk i Orsa, Mora, Rättvik och Leksand.\n\nSamlingsplats Orsa: JK Hunting\nAvgång 05:40\n\nSamlingsplats Mora: Willysparkeringen\nAvgång 06:00\n\nSamlingsplats Rättvik: Sibylla\nAvgång 06:40\n\nSamlingsplats Leksand: Sibylla/Cirkel K\nAvgång 07:05\n\nAnländer till Borlänge 07:45\n\nArrangörer: Linda Linny Nyström och Marc Ersson.",
                   "link": "https://www.facebook.com/events/1252749333591140",
                   "links": [
                         {
@@ -15833,6 +15833,11 @@ const EVENTS_DATA = {
                         {
                               "label": "orangedaymc.com",
                               "url": "https://orangedaymc.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Lissv%C3%A4gen+1%2C+Orsa",
+                              "type": "map"
                         }
                   ],
                   "region": "Dalarna",
