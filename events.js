@@ -6097,6 +6097,26 @@ const EVENTS_DATA = {
                   "backImage": "ads/goodguys-mc-avrostning-back-2026-04-18.jpg"
             },
             {
+                  "id": "johans-mc-oppet-hus-2026-04-18",
+                  "name": "Öppet hus hos Johans MC",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Tagenevägen 28, Hisings Kärra",
+                  "type": "Show",
+                  "organizer": "Johans MC",
+                  "description": "Kickstarta MC-säsongen! Provkör årets nyheter från Kawasaki, Triumph, Suzuki, Aprilia och Bimota. Erbjudanden i butiken. Gatukök på plats. Kl 10-15.",
+                  "descriptionFull": "18 april kl. 10-15\n\nVälkommen in och kickstarta MC-säsongen med oss!\n\nUpptäck och provkör årets motorcykelnyheter, spana in säsongens MC-kläder och inspireras inför nya äventyr på vägarna.\n\nOves Gatukök finns på plats hela dagen\n\nErbjudanden i butiken:\n• MUC-OFF 20% rabatt\n• Kriega 15% rabatt\n• Lindstrands / Halvarssons 20% rabatt\n• 15% rabatt vid köp av hjälm & intercom (gäller även beställningsvaror)\n\nTa med vännerna och häng med oss – vi ses den 18 april!",
+                  "link": "https://www.facebook.com/events/1533293228314821",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1533293228314821"},
+                        {"label": "Johans MC", "url": "https://www.johansmc.se/"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Tagenevägen+28+Hisings+Kärra", "type": "map"}
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/johans-mc-oppet-hus-back-2026-04-18.jpg"
+            },
+            {
                   "id": "bsa-sverige-sulas-2026",
                   "name": "BSA hos Sulas MC",
                   "date": "2026-04-19",
