@@ -8666,6 +8666,32 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/motorrad-center-stockholm.png"
             },
             {
+                  "id": "triumph-stockholm-norr-season-start-2026-05-02",
+                  "name": "Season Start 2026",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Karins väg 5, Upplands-Väsby",
+                  "type": "Show",
+                  "organizer": "Triumph Stockholm Norr",
+                  "description": "Triumphs årliga säsongsstart i Upplands-Väsby. Provkör nya modeller, rabatter i butiken, fika. Kl 10-15. På Motorcykelns Dag 2 maj.",
+                  "descriptionFull": "Lördagen den 2 maj är det Motorcykelns Dag och i samband med det är det återigen dags att kicka igång mc-säsongen med vårt årliga event Season Start 2026, en heldag fylld med motorcykelglädje, provkörningar och fina erbjudanden i butiken!\n\nVar: Karins väg 5, Upplands Väsby\nNär: Lördag 2 maj, kl 10-15\n\n*Provkör nya hojar. Testa årets hetaste modeller! Observera att svenskt körkort samt godkänd skyddsutrustning gäller.\n\n*Rabatter i butiken. Passa på att fynda allt från kläder och hjälmar till tillbehör, rabatterade priser på allt endast denna dag, samt utvalda artiklar på rea med upp till 70% rabatt!\n\nSå ta med familjen eller vännerna och kom förbi oss på Motorcykelns Dag. Oavsett om du är en erfaren hojåkare eller bara är nyfiken på livet på två hjul, det här är dagen du inte vill missa! Vi bjuder självklart på gofika!\n\nVarmt välkomna!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1443622134446491"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Karins+väg+5+Upplands-Väsby",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1443622134446491",
+                  "region": "Stockholm",
+                  "source": "facebook.com",
+                  "backImage": "ads/season-start-triumph-back-2026-05-02.jpg"
+            },
+            {
                   "id": "ljungbyhed-mc-bandag-2026-05-02",
                   "name": "Ljungbyhed MC Bandag",
                   "date": "2026-05-02",
