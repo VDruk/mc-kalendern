@@ -9161,6 +9161,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/varmonstringen-mothers-back-2026-05-02.jpg"
             },
             {
+                  "id": "mtl-motorcykelns-dag-2026-05-02",
+                  "name": "Motorcykelns dag hos MTL Powersport",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "location": "Västra Oknebäcksvägen 1, Mönsterås",
+                  "type": "Show",
+                  "organizer": "MTL Powersport",
+                  "organizerIcon": "clubs/normalized/mtl-powersport.png",
+                  "description": "Fira Motorcykelns dag! Provkör Indian Motorcycle och Royal Enfield. Rabatter på tillbehör, kläder och service. Fika i baren. Kl 10-13.",
+                  "descriptionFull": "Den 2 maj firar vi Motorcykelns dag! Kom och ta en fika i baren och ta del av våra erbjudanden den dagen!\n\nTräffa andra MC-intresserade och kolla in vårt sortiment.\n\nERBJUDANDE - Gäller endast köp i butiken\n-10% På alla MC-Tillbehör i butiken\n-15% På servicedelar till MC\n-10% På Indian Motorcycle kläder\n-10% På vår Merch-kläder\n\nFörmånliga försäkringar och smarta finanslösningar.\n\nPROVKÖRNING\nHojar från Indian Motorcycle och Royal Enfield står framkörda redo för provkörning.\n\nAlla är välkomna! Oavsett om du är en rutinerad hojåkare, offroad-entusiast, medlem i en MC-klubb eller nyfiken nybörjare, är detta dagen för dig. Passa på att träffa andra hoj-intresserade. Kom och testa, jämför och hitta din nästa hoj – och kanske göra en riktigt bra affär på köpet!\n\nhttps://mcbranschen.se/mc-handlare/mtl-powersport/",
+                  "link": "https://www.facebook.com/events/1314134870613154",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1314134870613154"},
+                        {"label": "mcbranschen.se", "url": "https://mcbranschen.se/mc-handlare/mtl-powersport/"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Västra+Oknebäcksvägen+1+Mönsterås", "type": "map"}
+                  ],
+                  "region": "Kalmar",
+                  "source": "facebook.com",
+                  "backImage": "ads/mtl-motorcykelns-dag-back-2026-05-02.jpg"
+            },
+            {
                   "id": "peter-linden-halmstad-2026-05-03",
                   "name": "Peter Lindén - Stridspilot & roadracinglegend",
                   "date": "2026-05-03",
