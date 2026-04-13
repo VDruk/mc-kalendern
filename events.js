@@ -5085,11 +5085,11 @@ const EVENTS_DATA = {
                   "name": "MCE Månadsmöte",
                   "date": "2026-04-13",
                   "dateEnd": "2026-04-13",
-                  "location": "MCE Klubblokalen, Järfälla",
+                  "location": "Snutenvägen 11, Järfälla",
                   "type": "Träff",
                   "organizer": "MCE",
                   "organizerIcon": "clubs/normalized/mce.png",
-                  "description": "Månadsmöte hos MCE i Järfälla. Diskussion om verksamheten, nyval av medlemmar. Alla hojintresserade välkomna.",
+                  "description": "Månadsmöte med gästföreläsare Lotta Kronåker-Boström (SMC-instruktör, SVEMO). Fika 18:30, mötet 19:00. Alla hojintresserade välkomna.",
                   "backImage": "ads/mce-manadsmoete-back-2026-04-13.jpg",
                   "links": [
                         {
@@ -5109,7 +5109,7 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/events/1919105001975075/",
                   "region": "Stockholm",
                   "source": "facebook.com",
-                  "descriptionFull": "MCE - motorcykelentusiasterna bjuder in till månadsmöte i april.\n\nVi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar. Alla medlemmar och klubbnyfikna är välkomna.\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar ingen roll, inte ens krav på att man ska ha en hoj.\n\nTid: Måndag 13 april kl. 18:00 - 21:00\nPlats: Snutenvägen 11, 177 61 Järfälla."
+                  "descriptionFull": "Vi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar.\n\nAlla våra medlemmar, och \"klubbnyfikna kanske medlemmar\" är välkomna.\n\nVi får möjligheten att ta del av Lotta Kronåker-Boströms långa erfarenhet som instruktör och utbildningsledare inom SMC. Lotta har kört motorcykel sedan 20-årsåldern, tävlar på bana och är aktiv inom SVEMO:s styrelse. Hon kommer att dela med sig av sin kunskap, erfarenhet och passion för MC-körning!\n\nLotta Kronåker Boström SMC: instruktör/kursledare/tävlingsledare/racetjej/mekaniker/styrelseledamot i Svemo o s v.\n\nVarmt välkomna på månadsmöten som startar kl. 19:00. Från 18:30 bjuds det på fika.\n\nKram / Styrelsen MCE"
             },
             {
                   "id": "doa-tisdagslunch-2026-04-14",
