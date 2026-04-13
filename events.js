@@ -10735,6 +10735,26 @@ const EVENTS_DATA = {
                   "backImage": "ads/lurblasarsvanget-high-riders-back-2026-05-09.jpg"
             },
             {
+                  "id": "biker-market-trono-2026-05-09",
+                  "name": "Biker Market 2026",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "location": "Trönö, Söderhamn",
+                  "type": "Show",
+                  "organizer": "Chosen Few MC",
+                  "description": "Bikermarknad för MC, tillbehör och kringutrustning. Custom, vintage, special. 100 kr/bord. Tattoo på plats. Kl 10-16.",
+                  "descriptionFull": "Custom Vintage Special\n\nAlltid andra helgen i maj!\n\nBikermarknad för MC, tillbehör och kringutrustning.\n100:-/bord. Get a tattoo!\n\nIncheckning från lördag kl 8.00\nMarknadsdag lördag 9 maj kl 10.00 - 16.00\n\nBokning & Info:\nTony: 0706597602\nPer: 0735325329\n\nTrönö, Söderhamn, Sweden, World",
+                  "link": "https://www.facebook.com/photo/?fbid=975180981531162&set=a.170851858630749",
+                  "links": [
+                        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=975180981531162&set=a.170851858630749"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Trönö+Söderhamn", "type": "map"}
+                  ],
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "frontImage": "ads/biker-market-trono-front-2026-05-09.jpg",
+                  "backImage": "ads/biker-market-trono-back-2026-05-09.jpg"
+            },
+            {
                   "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
                   "name": "D7 Avrostning/Kul på Hjul, Gillingebanan",
                   "date": "2026-05-10",
