@@ -14128,15 +14128,15 @@ const EVENTS_DATA = {
                   "name": "Malsjö Classic Cars & Art Gallery",
                   "date": "2026-05-23",
                   "dateEnd": "2026-05-23",
-                  "location": "Östra Åsenvägen, Åmål",
+                  "location": "Åkervägen 1A, Åmål",
                   "type": "Träff",
                   "organizer": "BMW MC-klubben",
                   "organizerIcon": "clubs/BMW_motorrad_v2.png",
-                  "description": "Vi kjører en runde i grensetraktene mellom Värmland og Nordvästra Götaland. Vi besøker Malsjö Classic utenfor Grums og titter på de mellom 50 og 100 eksotiske bilene i den.",
+                  "description": "Vi kjører en runde i grensetraktene mellom Värmland og Nordvästra Götaland. Vi besøker Malsjö Classic og titter på de mellom 50 og 100 eksotiske bilene i den.",
                   "link": "https://www.bmwklubben.se/aktiviteter/malsjo-classic-cars-art-gallery/",
                   "region": "Västra Götaland",
                   "source": "bmwklubben.se",
-                  "descriptionFull": "Malsjö Classic Cars & Art Gallery arrangeras av BMW MC-klubben.\n\nVi kjører en runde i grensetraktene mellom Värmland og Nordvästra Götaland. Vi besøker Malsjö Classic utenfor Grums og titter på de mellom 50 og 100 eksotiske bilene i den.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Östra Åsenvägen, Åmål.",
+                  "descriptionFull": "Malsjö Classic Cars & Art Gallery arrangeras av BMW MC-klubben.\n\nVi kjører en runde i grensetraktene mellom Värmland og Nordvästra Götaland. Vi besøker Malsjö Classic og titter på de mellom 50 og 100 eksotiske bilene i den.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Åkervägen 1A, 662 35 Åmål.",
                   "links": [
                         {
                               "label": "bmwklubben.se",
@@ -14144,7 +14144,7 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=%C3%96stra+%C3%85senv%C3%A4gen%2C+%C3%85m%C3%A5l",
+                              "url": "https://www.google.com/maps/search/?api=1&query=%C3%85kerv%C3%A4gen+1A%2C+662+35+%C3%85m%C3%A5l",
                               "type": "map"
                         }
                   ]
