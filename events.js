@@ -5777,25 +5777,30 @@ const EVENTS_DATA = {
                   "name": "Medlemsmöte i distrikt F med Quiz och Bowling",
                   "date": "2026-04-18",
                   "dateEnd": "2026-04-18",
-                  "location": "Main Event Lindesberg, Lindesberg",
+                  "location": "Nyborgsgatan 1, Lindesberg",
                   "type": "Träff",
                   "organizer": "H-DCS",
-                  "description": "Efter några ändringar av dag så är det bestämt att NU KÖR VI!Närmare bestämt lördag 18/4 på Main Event i Lindesberg.Vi samlas ca 16.",
+                  "description": "Medlemsmöte med bowling och quiz! Samling kl 16, möte 16:30, quiz 18, mat 18:30, bowling 19:30. Första 3 på MC får fribiljett till American Days.",
                   "link": "https://hdcs.se/evenemang/medlemsmote-i-distrikt-f-med-quiz-och-bowling/",
                   "region": "Örebro",
                   "source": "hdcs.se",
-                  "descriptionFull": "Efter några ändringar av dag så är det bestämt att NU KÖR VI!Närmare bestämt lördag 18/4 på Main Event i Lindesberg.Vi samlas ca 16.00, och börjar mötet ca 16.30, ca18.00ska jag plåga er med ett av mina ökända quiz, ca 18.30 blir det matoch 19.30 när vi är mätta, belåtna och lagom mjuka i kropparna bowlar vi.www.mainevent.se/lindesbergLämpliga boenden hittar ni på www.trivago.seBl.a. finns Lindesbergs Hotell och Lindesbergs Stadshotell.Missa inte chansen att få ert namn på distrikt F:s vandringspokal\"för exceptionella färdigheter utöver det vanliga\"En kombo av bowling och Quiz utser en vinnare som väljer förstfrån ett dignande prisbord.De tre första som anländer på MC får en fribiljett till American dayswww.americandays.se Kommer det fler samtidigt så lottar vi friplåtarna.",
+                  "descriptionFull": "Av olika anledningar fick vi byta datum, detta skedde efter att Entusiasten gått i tryck så datumet i tidningen är fel det är 18/4 som gäller.\n\nEfter några ändringar av dag så är det bestämt att NU KÖR VI!\n\nNärmare bestämt lördag 18/4 på Main Event i Lindesberg.\n\nVi samlas ca 16.00, och börjar mötet ca 16.30, ca 18.00 ska jag plåga er med ett av mina ökända quiz, ca 18.30 blir det mat och 19.30 när vi är mätta, belåtna och lagom mjuka i kropparna bowlar vi.\n\nwww.mainevent.se/lindesberg\n\nLämpliga boenden hittar ni på www.trivago.se\nBl.a. finns Lindesbergs Hotell och Lindesbergs Stadshotell.\n\nMissa inte chansen att få ert namn på distrikt F:s vandringspokal \"för exceptionella färdigheter utöver det vanliga\"\n\nEn kombo av bowling och Quiz utser en vinnare som väljer först från ett dignande prisbord.\n\nDe tre första som anländer på MC får en fribiljett till American Days www.americandays.se Kommer det fler samtidigt så lottar vi friplåtarna.",
                   "links": [
                         {
                               "label": "hdcs.se",
                               "url": "https://hdcs.se/evenemang/medlemsmote-i-distrikt-f-med-quiz-och-bowling/"
                         },
                         {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1200716028718493/"
+                        },
+                        {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Main+Event+Lindesberg%2C+Lindesberg",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Nyborgsgatan+1+Lindesberg",
                               "type": "map"
                         }
                   ],
+                  "backImage": "ads/dof-medlemsmote-bowling-back-2026-04-18.jpg",
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
