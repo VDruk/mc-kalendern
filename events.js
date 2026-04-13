@@ -15442,6 +15442,36 @@ const EVENTS_DATA = {
                   "backImage": "ads/knix-pepparrotsbanan-back-2026-05-30.jpg"
             },
             {
+                  "id": "dicerun-talita-2026",
+                  "name": "Dicerun 2026",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Krontorpsvägen 27, Trönninge (Halmstad)",
+                  "type": "Körning",
+                  "organizer": "Tillsammans för Talita",
+                  "description": "Charity ride för Talita. Öppet för alla typer av fordon. Start kl 12-13, 100 kr/person. Alla pengar går oavkortat till Talita. Swish på plats.",
+                  "descriptionFull": "Årets Dicerun för Talita 2026 är den 30 maj. Start 12-13. 100 kr per person.\n\nSom det redan står på flyersen så detta ett event öppet för alla och alla typer av fordon.\n\nAlla pengar går oavkortat till Talita. Kommer finnas swichnr på startplatsen. Kan man inte närvara men vill ändå ge ett bidrag så kan man göra det, då kan man höra av sig här.\n\nMer info om själva Talita hittar ni på talita.se eller deras Instagram talita_sverige.\n\nUndrar man något om själva runet är man välkommen höra av sig här på fb.\n\nVälkomna.\n\nPlats: Krontorpsvägen 27, 302 65 Trönninge (Trönningemacken).",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1633012314630213"
+                        },
+                        {
+                              "label": "Talita.se",
+                              "url": "https://talita.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Krontorpsvägen+27+Trönninge+Halmstad",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1633012314630213",
+                  "region": "Halland",
+                  "source": "facebook.com",
+                  "backImage": "ads/dicerun-talita-back-2026-05-30.jpg"
+            },
+            {
                   "id": "baprun-gotland-2026",
                   "name": "BAPRUN 2026",
                   "date": "2026-05-30",
