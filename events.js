@@ -10760,6 +10760,26 @@ const EVENTS_DATA = {
                   "backImage": "ads/biker-market-trono-back-2026-05-09.jpg"
             },
             {
+                  "id": "motorsykkelens-dag-stavanger-2026-05-09",
+                  "name": "Motorsykkelens Dag Stavanger 2026",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "location": "Hillevågsveien 18, Stavanger",
+                  "type": "Show",
+                  "organizer": "Motorsykkelens Dag",
+                  "description": "MC-utstilling med forhandlere, demo-kjøring, tattoo og kåring i flera klasser. Inngang 50 kr (gratis under 16). Grillmat og drikke.",
+                  "descriptionFull": "Program for dagen:\n\nStands fra både leverandører og forhandlere, der det også blir demo kjøring. Ta med hjelm og utstyr\n\nMulighet for tattoo fra «Black Panther» tattoo studio.\n\nKåring av motorsyklene i de forskjellige klassene: Peoples Choice, Racing, Touring, Adventure, Custom, Veteran, Beste Stand, og Høyest Lydtrykk.\n\nInngang kroner 50,- (Gratis for barn under 16 år)\n\nDet blir mulig å kjøpe grillmat, brus, og diverse under arrangementet.\n\nHillevågsveien 18, Stavanger. Velkommen!\n\nSe også vår FB side: https://www.facebook.com/motorsykkelensdag",
+                  "link": "https://www.facebook.com/events/1471662641330867",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1471662641330867"},
+                        {"label": "FB Sida", "url": "https://www.facebook.com/motorsykkelensdag"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Hillevågsveien+18+Stavanger+Norge", "type": "map"}
+                  ],
+                  "region": "Norge",
+                  "source": "facebook.com",
+                  "backImage": "ads/motorsykkelens-dag-stavanger-back-2026-05-09.jpg"
+            },
+            {
                   "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
                   "name": "D7 Avrostning/Kul på Hjul, Gillingebanan",
                   "date": "2026-05-10",
