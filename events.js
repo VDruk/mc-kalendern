@@ -21737,6 +21737,27 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "baik-bitch-summer-raid-bollnas-2026-07-10",
+                  "name": "Baik & Bitch Summer Raid 2026",
+                  "date": "2026-07-10",
+                  "dateEnd": "2026-07-11",
+                  "location": "Tegelbruksvägen 20, Bollnäs",
+                  "type": "Fest",
+                  "organizer": "Baldernaes MC Bollnäs",
+                  "description": "Sommarfest hos Baldernaes MC! Bad, camping, bastu, mat, dryck och musik. High Rock Music på scen fredag. Gates open 18:00. Cash is king!",
+                  "descriptionFull": "Nu är det snart dax för den årliga sommarfesten hos oss i Baldernaes MC, välkommen!!!\n\nBad · Camping · Bastu · Mat · Dryck · Musik\n\nGates open 18:00\nHigh Rock Music står på scen fredag\n\nCash is king!\n\nVälkomna Bikers & Vänner!\n\n10-11 July\n\nTegelbruksvägen 20, Bollnäs\nPee: 070-376 45 41 · Luva: 073-071 46 70",
+                  "link": "https://www.facebook.com/photo/?fbid=1553227826803071&set=a.460177132774818",
+                  "links": [
+                        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1553227826803071&set=a.460177132774818"},
+                        {"label": "FB Sida", "url": "https://www.facebook.com/baldernaesmc.bollnas"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Tegelbruksvägen+20+Bollnäs", "type": "map"}
+                  ],
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "frontImage": "ads/baik-bitch-summer-raid-front-2026-07-10.jpg",
+                  "backImage": "ads/baik-bitch-summer-raid-back-2026-07-10.jpg"
+            },
+            {
                   "id": "dog-fikatraff-pa-radis-2026-07-11",
                   "name": "DOG  FIKATRÄFF på Rådis",
                   "date": "2026-07-11",
