@@ -14477,6 +14477,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/hamrange-bil-mc-utstallning-back-2026-05-23.jpg"
             },
             {
+                  "id": "nora-grus-ladies-only-2026-05-23",
+                  "name": "Nora grus - ladies only!",
+                  "date": "2026-05-23",
+                  "dateEnd": "2026-05-24",
+                  "location": "Nyhyttans kurort, Nyhyttan 325, Nora",
+                  "type": "Körning",
+                  "organizer": "All about Bikes",
+                  "description": "Gruskörning för tjejer i Bergslagen. 2 dagar med coaching, körning och gemenskap. Boende på Nyhyttans Kurort. Från 1050 kr.",
+                  "descriptionFull": "Nora grus ladies only!\n\nÄntligen är det dags! Häng med på ett grusäventyr i Bergslagen.\n\nVi är tillbaka på Nyhyttans Kurort med ett helt nytt upplägg. Anna Haglund från \"All about Bikes\" bjuder på coaching och gemenskap när vi kör grus i Bergslagen.\n\nVi erbjuder dubbelrum lördag-söndag för 1050:-. Enkelrum 1350:- och vill du checka in redan på fredagen kostar det 2075:- för dubbelrum och 2700:- för enkelrum.\n\nPris inkluderar boende, frukost och gemensam middag på lördagskvällen.\n\nFör anmälan kontakta Anna Haglund: Swish 070-9695749 eller anna@allaboutbikes.se\n\nSamarbete med 99% Grus.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/938711869050478"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Nyhyttans+kurort+Nyhyttan+325+Nora",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/938711869050478",
+                  "region": "Örebro",
+                  "source": "facebook.com",
+                  "backImage": "ads/nora-grus-ladies-back-2026-05-23.jpg"
+            },
+            {
                   "id": "bmw-d11-mcq-pernillas-tur-2026",
                   "name": "D11 mcQ Pernillas tur",
                   "date": "2026-05-24",
