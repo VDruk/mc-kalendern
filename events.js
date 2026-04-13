@@ -28339,7 +28339,7 @@ const EVENTS_DATA = {
                   "organizer": "H-DCS",
                   "description": "Arrangemang med H-DCS från Bankeryd. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
                   "link": "https://hdcs.se/evenemang/tandstickstraffen-i-bankeryd/",
-                  "region": "Västra Götaland",
+                  "region": "Jönköping",
                   "source": "hdcs.se",
                   "descriptionFull": "Tändsticksträffen i Bankeryd arrangeras av H-DCS.\n\nArrangemang med H-DCS från Bankeryd. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Bankeryd.",
                   "links": [
