@@ -2454,8 +2454,11 @@ function render() {
       (e.description || '').toLowerCase().includes(q)
     );
   } else if (currentFilter === 'Plats') {
-    // Type filter = Plats: show all Plats cards
+    // Type filter = Plats: show all Plats cards, but still respect region filter
     visibleAds = platsCards.slice();
+    if (currentRegion !== 'all') {
+      visibleAds = visibleAds.filter(ad => ad.region === currentRegion);
+    }
   } else if (currentFilter === 'Anons') {
     // Type filter = Anons: show all Anons cards
     visibleAds = anonsCards.slice();
@@ -2506,9 +2509,12 @@ function render() {
     }
   }
 
-  // Update count (exclude ads from count)
+  // Update count (events and platser counted separately)
   const realCount = events.filter(e => !e._ad).length;
-  document.getElementById('searchCount').textContent = realCount + ' evenemang';
+  const platsCountHeader = events.filter(e => e._place).length;
+  let countTxt = realCount + ' evenemang';
+  if (platsCountHeader > 0) countTxt += ' \u00b7 ' + platsCountHeader + (platsCountHeader === 1 ? ' plats' : ' platser');
+  document.getElementById('searchCount').textContent = countTxt;
 
   if (events.length === 0) {
     grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x1F3CD;</div><div class="no-results-text">Inga evenemang hittades. Prova andra filter eller sök igen.</div></div>';
@@ -3080,12 +3086,15 @@ function updateEventMap(filteredEvents) {
     mapMarkers.push(marker);
   });
 
-  // Update stats
+  // Update stats (count events and platser separately to match header count)
   const statsEl = document.getElementById('mapStats');
   if (statsEl) {
     const cityCount = Object.keys(locGroups).length;
-    const eventCount = filteredEvents.length;
-    statsEl.textContent = cityCount + ' orter \u00b7 ' + eventCount + ' evenemang';
+    const eventCount = filteredEvents.filter(e => !e._ad).length;
+    const platsCount = filteredEvents.filter(e => e._place).length;
+    let txt = cityCount + ' orter \u00b7 ' + eventCount + ' evenemang';
+    if (platsCount > 0) txt += ' \u00b7 ' + platsCount + (platsCount === 1 ? ' plats' : ' platser');
+    statsEl.textContent = txt;
   }
 }
 
