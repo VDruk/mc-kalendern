@@ -6280,6 +6280,25 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "hdk1930-foraarslob-2026-04-19",
+                  "name": "Forårsløb med kilometeraflæsning",
+                  "date": "2026-04-19",
+                  "dateEnd": "2026-04-19",
+                  "location": "Lindenborgvej 2, 4000 Roskilde, Danmark",
+                  "type": "Körning",
+                  "organizer": "H-D Klubben af 1930",
+                  "description": "Säsongens första fællestur! Kilometeraflæsning kl 10:30, fællestur kl 11, frokost kl 13. Alla medlemmar och påhæng välkomna.",
+                  "descriptionFull": "Velkommen til årets første fællestur – forårsløb med kilometeraflæsning! LET THE THUNDER RUN\n\nEndelig er det tid! Motorcyklerne skal ud af vinterhi, vejene kalder, og foråret står klar til at blive kørt i møde\n\nHDK1930 inviterer derfor til første fælles forårstur, hvor vi både skyder sæsonen i gang og får styr på kilometerstanden\n\nVi mødes på Lindenborgvej 2, Roskilde\n\nProgram for dagen:\nKl. 10.30 – Kilometeraflæsning\nKl. 11.00 – Fællestur\nKl. 13.00 – Frokost og hyggeligt samvær\nKl. 14.30 – Vi følges ad hjemad (så langt det giver mening)\n\nTuren er for alle medlemmer og påhæng. Det vigtigste er lysten til en hyggelig dag, godt selskab og masser af køreglæde\n\nDer bliver selvfølgelig tid til grin, snak og forårsstemning undervejs\n\nSå puds hjelmen, tank op og kom med, når vi sammen åbner sæsonen på bedste vis!\n\nVi glæder os til at se dig – og din motorcykel",
+                  "link": "https://www.facebook.com/events/907278005292095",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/907278005292095"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Lindenborgvej+2+4000+Roskilde+Danmark", "type": "map"}
+                  ],
+                  "region": "Danmark",
+                  "source": "facebook.com",
+                  "backImage": "ads/hdk1930-foraarslob-back-2026-04-19.jpg"
+            },
+            {
                   "id": "doa-kvallskörning-nacka-2026-04-20",
                   "name": "DOA - Kvällskörning Nacka",
                   "date": "2026-04-20",
@@ -8524,6 +8543,25 @@ const EVENTS_DATA = {
                   "region": "Västernorrland",
                   "source": "facebook.com",
                   "backImage": "ads/solleftea-motorklubb-back-2026.jpg"
+            },
+            {
+                  "id": "mck-freedom-oppet-hus-2026-05-01",
+                  "name": "Öppet Hus hos MCK Freedom",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-01",
+                  "location": "Klintorp, Norsholm",
+                  "type": "Träff",
+                  "organizer": "MCK Freedom",
+                  "description": "Årligt Öppet Hus i klubbkåken 1 maj. Fika, grillning och godis. 14-18. Åker du kortegen i Norrköping? Samåk sedan till stugan!",
+                  "descriptionFull": "Väldigt välkommen till vår klubbkåk 1 Maj på vår årliga Öppet Hus\n\n14:00-18:00 är vi i stugan och umgås\n\nDet finns fika, nått att grilla eller kanske bara godis\n\nKom som du är\n\nHoppas vi ses\n\nOm man åker kortegen i Norrköping så samåker vi efteråt ut till stugan från Himmelstalundshallens parkering",
+                  "link": "https://www.facebook.com/events/1958267205061756",
+                  "links": [
+                        {"label": "FB Event", "url": "https://www.facebook.com/events/1958267205061756"},
+                        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Klintorp+Norsholm", "type": "map"}
+                  ],
+                  "region": "Östergötland",
+                  "source": "facebook.com",
+                  "backImage": "ads/mck-freedom-oppet-hus-back-2026-05-01.jpg"
             },
             {
                   "id": "tjejdagen-falkenberg-2026-05-02",
