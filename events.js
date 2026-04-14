@@ -6175,7 +6175,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "arjangs-mk-hjelms-dagarg-2026-04-18",
-                  "name": "Hjelms Dårgäng 2-dagars",
+                  "name": "Hjelms Dårgäng",
                   "date": "2026-04-18",
                   "dateEnd": "2026-04-19",
                   "location": "Länsmansbråten, Töcksfors",
