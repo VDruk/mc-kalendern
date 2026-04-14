@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-14T20:04:06.586368Z",
+      "lastUpdated": "2026-04-14T20:11:14.188757Z",
       "events": [
             {
                   "_ad": true,
@@ -10185,6 +10185,36 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "motortraffen-garsnas-premiar-2026-05-05",
+                  "name": "Motorträffen - Premiär",
+                  "date": "2026-05-05",
+                  "dateEnd": "2026-05-05",
+                  "type": "Träff",
+                  "region": "Skåne",
+                  "location": "Stenhedsvägen 3, 272 61 Gärsnäs",
+                  "organizer": "Gärsnäs AIS",
+                  "description": "Säsongspremiär för motorträffen i Gärsnäs. Start kl 18. Sparbanken Syd bjuder på popcorn. Tävling om finaste moped, mc, amerikanare, europabil och epa-traktor.",
+                  "descriptionFull": "Säsongspremiär för motorträffen vid grillplatsen bredvid Österlenvulk AB i Gärsnäs. Start kl 18.00.\n\nSparbanken Syd bjuder på popcorn till alla barn. De utser också finaste moped, motorcykel, amerikanare, europabil och epa-traktor.\n\nTräffarna arrangeras av Gärsnäs AIS motorträffskommitté vid grillplatsen bredvid Österlenvulk AB i Gärsnäs. Bilar, motorcyklar, mopeder, traktorer m.m. Försäljning av korv, dricka och kaffe. Kontakt: Lars-Göran 070-5496999.\n\nSäsongens datum 2026:\nTisdag 5 maj kl 18.00 (premiär, Sparbanken Syd bjuder på popcorn, tävling finaste moped, mc, amerikanare, europabil och epa-traktor)\nTisdag 19 maj kl 18.00\nTisdag 2 juni kl 18.00\nLördag 6 juni kl 16.00 (OBS: dag och tid, Sveriges nationaldag)\nTisdag 7 juli kl 18.00\nTisdag 21 juli kl 18.00 (musikuppträde, CC and the young ones)\nTisdag 4 augusti kl 18.00\nTisdag 18 augusti kl 18.00 (musikuppträde, Josefin Nilsson, Veberöd)\nTisdag 1 september kl 18.00\nSöndag 13 september kl 12.00 (avslutning, tipsrunda start mellan 12.30-13.30)",
+                  "source": "facebook.com",
+                  "backImage": "ads/motortraffen-garsnas-back-2026.jpg",
+                  "link": "https://www.facebook.com/photo?fbid=1363844082442411&set=a.466300335530128",
+                  "links": [
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/111motor"
+                        },
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo?fbid=1363844082442411&set=a.466300335530128"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Stenhedsv%C3%A4gen+3+G%C3%A4rsn%C3%A4s",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
                   "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026-05-06",
                   "name": "D15 Onsdagstur med blandat underlag",
                   "date": "2026-05-06",
@@ -18201,6 +18231,36 @@ const EVENTS_DATA = {
                   ],
                   "backImage": "ads/mcv-osterlen-back.jpg",
                   "organizerIcon": "clubs/normalized/mcv-osterlen.png"
+            },
+            {
+                  "id": "motortraffen-garsnas-nationaldag-2026-06-06",
+                  "name": "Motorträffen - Nationaldagen",
+                  "date": "2026-06-06",
+                  "dateEnd": "2026-06-06",
+                  "type": "Träff",
+                  "region": "Skåne",
+                  "location": "Stenhedsvägen 3, 272 61 Gärsnäs",
+                  "organizer": "Gärsnäs AIS",
+                  "description": "Motorträffen firar Sveriges nationaldag. OBS annan dag och tid: lördag kl 16. Bilar, motorcyklar, mopeder, traktorer m.m.",
+                  "descriptionFull": "Motorträffen i Gärsnäs firar Sveriges nationaldag.\n\nOBS: annan dag och tid än vanligt. Lördag 6 juni kl 16.00.\n\nTräffarna arrangeras av Gärsnäs AIS motorträffskommitté vid grillplatsen bredvid Österlenvulk AB i Gärsnäs. Bilar, motorcyklar, mopeder, traktorer m.m. Försäljning av korv, dricka och kaffe. Kontakt: Lars-Göran 070-5496999.\n\nSäsongens datum 2026:\nTisdag 5 maj kl 18.00 (premiär, Sparbanken Syd bjuder på popcorn, tävling finaste moped, mc, amerikanare, europabil och epa-traktor)\nTisdag 19 maj kl 18.00\nTisdag 2 juni kl 18.00\nLördag 6 juni kl 16.00 (OBS: dag och tid, Sveriges nationaldag)\nTisdag 7 juli kl 18.00\nTisdag 21 juli kl 18.00 (musikuppträde, CC and the young ones)\nTisdag 4 augusti kl 18.00\nTisdag 18 augusti kl 18.00 (musikuppträde, Josefin Nilsson, Veberöd)\nTisdag 1 september kl 18.00\nSöndag 13 september kl 12.00 (avslutning, tipsrunda start mellan 12.30-13.30)",
+                  "source": "facebook.com",
+                  "backImage": "ads/motortraffen-garsnas-back-2026.jpg",
+                  "link": "https://www.facebook.com/photo?fbid=1363844082442411&set=a.466300335530128",
+                  "links": [
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/111motor"
+                        },
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo?fbid=1363844082442411&set=a.466300335530128"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Stenhedsv%C3%A4gen+3+G%C3%A4rsn%C3%A4s",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "mustaschkortegen-broby-2026",
@@ -29946,6 +30006,36 @@ const EVENTS_DATA = {
                         {
                               "label": "Karta",
                               "url": "https://www.google.com/maps/search/?api=1&query=Nyv%C3%A5ng+Vollsj%C3%B6",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
+                  "id": "motortraffen-garsnas-avslutning-2026-09-13",
+                  "name": "Motorträffen - Avslutning",
+                  "date": "2026-09-13",
+                  "dateEnd": "2026-09-13",
+                  "type": "Träff",
+                  "region": "Skåne",
+                  "location": "Stenhedsvägen 3, 272 61 Gärsnäs",
+                  "organizer": "Gärsnäs AIS",
+                  "description": "Säsongsavslutning för motorträffen i Gärsnäs. Söndag kl 12, tipsrunda startar mellan 12.30 och 13.30.",
+                  "descriptionFull": "Säsongsavslutning för motorträffen vid grillplatsen bredvid Österlenvulk AB i Gärsnäs. Söndag 13 september kl 12.00.\n\nTipsrundan startar mellan kl 12.30 och 13.30.\n\nTräffarna arrangeras av Gärsnäs AIS motorträffskommitté vid grillplatsen bredvid Österlenvulk AB i Gärsnäs. Bilar, motorcyklar, mopeder, traktorer m.m. Försäljning av korv, dricka och kaffe. Kontakt: Lars-Göran 070-5496999.\n\nSäsongens datum 2026:\nTisdag 5 maj kl 18.00 (premiär, Sparbanken Syd bjuder på popcorn, tävling finaste moped, mc, amerikanare, europabil och epa-traktor)\nTisdag 19 maj kl 18.00\nTisdag 2 juni kl 18.00\nLördag 6 juni kl 16.00 (OBS: dag och tid, Sveriges nationaldag)\nTisdag 7 juli kl 18.00\nTisdag 21 juli kl 18.00 (musikuppträde, CC and the young ones)\nTisdag 4 augusti kl 18.00\nTisdag 18 augusti kl 18.00 (musikuppträde, Josefin Nilsson, Veberöd)\nTisdag 1 september kl 18.00\nSöndag 13 september kl 12.00 (avslutning, tipsrunda start mellan 12.30-13.30)",
+                  "source": "facebook.com",
+                  "backImage": "ads/motortraffen-garsnas-back-2026.jpg",
+                  "link": "https://www.facebook.com/photo?fbid=1363844082442411&set=a.466300335530128",
+                  "links": [
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/111motor"
+                        },
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo?fbid=1363844082442411&set=a.466300335530128"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Stenhedsv%C3%A4gen+3+G%C3%A4rsn%C3%A4s",
                               "type": "map"
                         }
                   ]
