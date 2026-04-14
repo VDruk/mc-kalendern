@@ -5337,6 +5337,32 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "network-mc-matpaj-2026-04-16",
+                  "name": "Matpaj",
+                  "date": "2026-04-16",
+                  "dateEnd": "2026-04-16",
+                  "location": "Industrivägen 4, Odensbacken",
+                  "type": "Träff",
+                  "organizer": "Network MC",
+                  "description": "Torsdagskväll hos Network MC i Odensbacken. På menyn: matpaj. Alla välkomna till klubbkåken!",
+                  "descriptionFull": "På torsdag är det matpaj på menyn, välkomna!!\n\nPlats: Industrivägen 4, Odensbacken\nArrangör: Network MC (Kristen MC-klubb)",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1822704489115507"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Industrivägen+4+Odensbacken",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1822704489115507",
+                  "region": "Örebro",
+                  "source": "facebook.com",
+                  "backImage": "ads/network-mc-matpaj-back-2026-04-16.jpg"
+            },
+            {
                   "id": "hd-open-house-sverige-2026-04-18",
                   "name": "Harley-Davidson Open House",
                   "date": "2026-04-18",
@@ -6353,6 +6379,27 @@ const EVENTS_DATA = {
                   "region": "Danmark",
                   "source": "facebook.com",
                   "backImage": "ads/hdk1930-foraarslob-back-2026-04-19.jpg"
+            },
+            {
+                  "id": "adventurecoach-kalmar-gruskurser-2026-04-19",
+                  "name": "Adventurecoach Infomöte",
+                  "date": "2026-04-19",
+                  "dateEnd": "2026-04-19",
+                  "location": "Online",
+                  "type": "Träff",
+                  "organizer": "Adventurecoach Sweden",
+                  "description": "Online infomöte kl 19-20 om Adventurecoach gruskurser i Sverige/Kalmar, 3+3 weekendresor nov 2026 och asfaltsresor i södra Spanien feb 2027.",
+                  "descriptionFull": "På mötet berättar vi på Adventurecoach om oss, om våra gruskurser i Sverige/Kalmar samt våra resor 3+3 weekendresor i november 2026 och Asfalt i södra Spanien i februari 2027.\n\nDet finns givetvis möjlighet att ställa frågor.\n\nLänk till möte publiceras här inom kort.\n\nMötet pågår mellan 19-20.\n\nVälkommen!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1313742107236423"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1313742107236423",
+                  "region": "Sverige",
+                  "source": "facebook.com",
+                  "backImage": "ads/adventurecoach-kalmar-gruskurser-back-2026-04-19.jpg"
             },
             {
                   "id": "doa-kvallskörning-nacka-2026-04-20",
@@ -7451,6 +7498,40 @@ const EVENTS_DATA = {
                   ],
                   "region": "Västra Götaland",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "ahlqvist-mc-oppet-hus-2026-04-25",
+                  "name": "Öppet hus Ahlqvist MC",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "location": "Hulda Mellgrens g 6, Västra Frölunda",
+                  "type": "Show",
+                  "organizer": "Ahlqvist MC",
+                  "description": "Öppet hus hos Ahlqvist MC / Honda MC Center kl 10-14. Kom och möt årets MC-säsong. Korv, kaffe och snack.",
+                  "descriptionFull": "Öppet hus på Ahlqvist MC den 25/4 klockan 10:00 - 14:00.\n\nVälkommen in och möt årets MC-säsong hos oss 🌭☕️👋",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1714080753266875&set=a.759289362079357"
+                        },
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/hondamccenter"
+                        },
+                        {
+                              "label": "Hemsida",
+                              "url": "https://ahlqvistmc.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Hulda+Mellgrens+gata+6+Västra+Frölunda",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=1714080753266875&set=a.759289362079357",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/ahlqvist-mc-oppet-hus-back-2026-04-25.jpg"
             },
             {
                   "id": "bmw-d9-aprilgruset-2026",
@@ -16179,6 +16260,41 @@ const EVENTS_DATA = {
                         }
                   ],
                   "region": "Dalarna",
+                  "source": "facebook.com"
+            },
+            {
+                  "id": "sala-msk-veterancross-2026-05-30",
+                  "name": "Veterancross träning",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Isätra Motorstadion, Sala",
+                  "type": "Racing",
+                  "organizer": "Sala MSK",
+                  "description": "Veterancross träning på Isätrabanan i Sala kl 09:00. Anmälan till Helene Karlström 070 568 36 60.",
+                  "descriptionFull": "I år blir det veterancross träning på Isätrabanan i Sala Lördagen 30 Maj!\n\nVälkomna till veterancross träning 30 maj kl 09:00.\n\nAnmälan till Helene Karlström 070 568 36 60.\n\nVarmt välkomna!",
+                  "frontImage": "ads/sala-msk-veterancross-front-2026-05-30.jpg",
+                  "backImage": "ads/sala-msk-veterancross-back-2026-05-30.jpg",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1255225693403189&set=gm.2015858529288279&idorvanity=463787917828689"
+                        },
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/salamskofficiell"
+                        },
+                        {
+                              "label": "Hemsida",
+                              "url": "https://salamsk.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Isätra+Motorstadion+Sala",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=1255225693403189&set=gm.2015858529288279&idorvanity=463787917828689",
+                  "region": "Västmanland",
                   "source": "facebook.com"
             },
             {
@@ -26079,6 +26195,36 @@ const EVENTS_DATA = {
                   "region": "Norrbotten",
                   "source": "hdcs.se",
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "carlbarks-aka-hoj-weekend-2026-08-21",
+                  "name": "Åka hoj med Carlbarks Weekend",
+                  "date": "2026-08-21",
+                  "dateEnd": "2026-08-23",
+                  "location": "Norra Mosvägen 1, Kumla",
+                  "type": "Körning",
+                  "organizer": "Carlbarks Motor",
+                  "description": "Lyxig MC-weekend 21-23 aug. Start hos Carlbarks i Kumla 08:00 fre, hem 18:00 sön. Hemlig destination, 3-rätters middag, pool och hotell.",
+                  "descriptionFull": "ÅKA HOJ MED CARLBARKS!\n\n- Vill du uppleva en grym helg med extra allt?\n- Njuta av härliga Mc-vägar?\n- 3-rätters middagar och After ride öl!\n- Härliga människor och många skratt!\n- Tillbringa 2 nätter i hotell med slottskänsla.\n- Glida ner i en 40-gradig pool med havet som utsikt!\n- En \"all-inclusive\" helg på hojen!\n\nDå skall du hänga med på vår Sommarresa!\n\nSom vanligt är resans mål hemligt, men du kan räkna med att vi inte kommer göra er besvikna. Kom på egen hoj, eller hyr en av oss.\n\nStart: 21 aug 2026 kl 08:00\nHem: 23 aug 2026 kl 18:00\nPlats: Kumla, Carlbarks Motor",
+                  "links": [
+                        {
+                              "label": "Biljetter",
+                              "url": "https://event.carlbarks.se/events/aka-hoj-med-carlbarks-i-sverige-21-23-aug"
+                        },
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/carlbarksmotor"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Norra+Mosvägen+1+Kumla",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://event.carlbarks.se/events/aka-hoj-med-carlbarks-i-sverige-21-23-aug",
+                  "region": "Örebro",
+                  "source": "facebook.com",
+                  "backImage": "ads/carlbarks-aka-hoj-weekend-back-2026-08-21.jpg"
             },
             {
                   "id": "doa-ekero-runt-2026",
