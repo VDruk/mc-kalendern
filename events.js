@@ -17691,6 +17691,32 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "vulcan-riders-nationaldagskoring-syd-2026-06-06",
+                  "name": "Nationaldagskörning Syd",
+                  "date": "2026-06-06",
+                  "dateEnd": "2026-06-06",
+                  "location": "ST1 Gårdstånga, Flyinge",
+                  "type": "Körning",
+                  "organizer": "Vulcan Riders Sweden",
+                  "description": "Nationaldagskörning söderut från ST1 Gårdstånga kl 11:00. Mål: Monstrets gavlar + fika. Ca 17 mil och 3 timmar i sadeln. Avslutas med glass i Gårdstånga.",
+                  "descriptionFull": "Vi startar turen 11.00 på ST1 Gårdstånga.\n\nVi kommer att köra söderut och målet är \"Monstrets\" gavlar. Här kommer vi att intaga medhavd fika. På vägen dit kommer vi att ha ett stopp där det finns toalett.\n\nSedan kör vi norrut och avslutar turen med en glass i Gårdstånga.\n\nHela turen är knappt 17 mil och det blir ca 3 timmar i sadeln.\n\nVäl Mött DA Bob och stigfinnaren Frances",
+                  "links": [
+                        {
+                              "label": "vulcanriders-sweden.org",
+                              "url": "https://www.vulcanriders-sweden.org/sv/event/eventlista/nationaldagskoerning/2026-06-06-11-00.html"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Gårdstånga+E+66+Flyinge",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/nationaldagskoerning/2026-06-06-11-00.html",
+                  "region": "Skåne",
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vulcan-riders-nationaldagskoring-syd-back-2026-06-06.jpg"
+            },
+            {
                   "id": "jmc-bonspalls-rundan-2026-06-07",
                   "name": "Bönspalls rundan",
                   "date": "2026-06-07",
