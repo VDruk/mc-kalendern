@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-14T12:50:59.768495Z",
+      "lastUpdated": "2026-04-14T15:18:29.674947Z",
       "events": [
             {
                   "_ad": true,
@@ -8244,6 +8244,31 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "adventurebike-gruskurs-niva1-2026-05-01",
+                  "name": "Gruskurs nivå 1",
+                  "date": "2026-05-01",
+                  "dateEnd": "2026-05-01",
+                  "type": "Körning",
+                  "region": "Södermanland",
+                  "location": "Eskilstuna",
+                  "organizer": "AdventureBike",
+                  "description": "Gruskurs för dig som känner dig osäker, nivå 1. Grunderna i gruskörning i Eskilstuna. Alla MC går bra, inga krav på speciella däck. Max 5 deltagare. 1200 kr för ca 4 timmar. Anmälan via adventurebike.se.",
+                  "descriptionFull": "AdventureBike arrangerar Gruskurs för dig som känner dig osäker, nivå 1 i Eskilstuna.\n\nHär lär vi oss grunderna i gruskörning. Alla motorcyklar går bra att använda och det finns inga krav på speciella däck. Passar dig som vill komma igång och våga köra grus på ett avslappnat sätt.\n\nVad vi går igenom:\n- Körställning\n- Bromsteknik\n- Olika sätt att styra\n- Balans\n\nVi kör i en grupp med max fem deltagare och det finns gott om tid att träna på respektive övning. Om man vill kan man kombinera med nybörjarkursen nivå 2 på eftermiddagen. Egen försäkring gäller.\n\nPris: 1200 kr för cirka 4 timmar. Anmälan sker via adventurebike.se.",
+                  "source": "facebook.com",
+                  "backImage": "ads/adventurebike-gruskurs-niva1-back-2026-05.jpg",
+                  "link": "https://www.facebook.com/events/830558226521485/",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/830558226521485/"
+                        },
+                        {
+                              "label": "adventurebike.se",
+                              "url": "https://www.adventurebike.se"
+                        }
+                  ]
+            },
+            {
                   "id": "apex-mc-gruskurs-filipstad-2026",
                   "name": "APEX MC Gruskurs Fortsättning",
                   "date": "2026-05-01",
@@ -10481,6 +10506,31 @@ const EVENTS_DATA = {
                   "region": "Östergötland",
                   "source": "facebook.com",
                   "backImage": "ads/20-ars-jubileum-linkoping-back-2026-05-09.jpg"
+            },
+            {
+                  "id": "adventurebike-gruskurs-niva1-2026-05-09",
+                  "name": "Gruskurs nivå 1",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "type": "Körning",
+                  "region": "Södermanland",
+                  "location": "Eskilstuna",
+                  "organizer": "AdventureBike",
+                  "description": "Gruskurs för dig som känner dig osäker, nivå 1. Grunderna i gruskörning i Eskilstuna. Alla MC går bra, inga krav på speciella däck. Max 5 deltagare. 1200 kr för ca 4 timmar. Anmälan via adventurebike.se.",
+                  "descriptionFull": "AdventureBike arrangerar Gruskurs för dig som känner dig osäker, nivå 1 i Eskilstuna.\n\nHär lär vi oss grunderna i gruskörning. Alla motorcyklar går bra att använda och det finns inga krav på speciella däck. Passar dig som vill komma igång och våga köra grus på ett avslappnat sätt.\n\nVad vi går igenom:\n- Körställning\n- Bromsteknik\n- Olika sätt att styra\n- Balans\n\nVi kör i en grupp med max fem deltagare och det finns gott om tid att träna på respektive övning. Om man vill kan man kombinera med nybörjarkursen nivå 2 på eftermiddagen. Egen försäkring gäller.\n\nPris: 1200 kr för cirka 4 timmar. Anmälan sker via adventurebike.se.",
+                  "source": "facebook.com",
+                  "backImage": "ads/adventurebike-gruskurs-niva1-back-2026-05.jpg",
+                  "link": "https://www.facebook.com/events/830558229854818/",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/830558229854818/"
+                        },
+                        {
+                              "label": "adventurebike.se",
+                              "url": "https://www.adventurebike.se"
+                        }
+                  ]
             },
             {
                   "id": "adventuredag-crossbana-sturup-2026",
@@ -14993,6 +15043,31 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "adventurebike-gruskurs-niva1-2026-05-24",
+                  "name": "Gruskurs nivå 1",
+                  "date": "2026-05-24",
+                  "dateEnd": "2026-05-24",
+                  "type": "Körning",
+                  "region": "Södermanland",
+                  "location": "Eskilstuna",
+                  "organizer": "AdventureBike",
+                  "description": "Gruskurs för dig som känner dig osäker, nivå 1. Grunderna i gruskörning i Eskilstuna. Alla MC går bra, inga krav på speciella däck. Max 5 deltagare. 1200 kr för ca 4 timmar. Anmälan via adventurebike.se.",
+                  "descriptionFull": "AdventureBike arrangerar Gruskurs för dig som känner dig osäker, nivå 1 i Eskilstuna.\n\nHär lär vi oss grunderna i gruskörning. Alla motorcyklar går bra att använda och det finns inga krav på speciella däck. Passar dig som vill komma igång och våga köra grus på ett avslappnat sätt.\n\nVad vi går igenom:\n- Körställning\n- Bromsteknik\n- Olika sätt att styra\n- Balans\n\nVi kör i en grupp med max fem deltagare och det finns gott om tid att träna på respektive övning. Om man vill kan man kombinera med nybörjarkursen nivå 2 på eftermiddagen. Egen försäkring gäller.\n\nPris: 1200 kr för cirka 4 timmar. Anmälan sker via adventurebike.se.",
+                  "source": "facebook.com",
+                  "backImage": "ads/adventurebike-gruskurs-niva1-back-2026-05.jpg",
+                  "link": "https://www.facebook.com/events/830558233188151/",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/830558233188151/"
+                        },
+                        {
+                              "label": "adventurebike.se",
+                              "url": "https://www.adventurebike.se"
+                        }
+                  ]
+            },
+            {
                   "id": "bmw-d11-mcq-pernillas-tur-2026",
                   "name": "D11 mcQ Pernillas tur",
                   "date": "2026-05-24",
@@ -18117,6 +18192,31 @@ const EVENTS_DATA = {
                   "region": "Västra Götaland",
                   "source": "vulcanriders-sweden.org",
                   "backImage": "ads/vrs-nationaldagstur-goteborg-back-2026-06-06.jpg"
+            },
+            {
+                  "id": "adventurebike-gruskurs-niva1-2026-06-07",
+                  "name": "Gruskurs nivå 1",
+                  "date": "2026-06-07",
+                  "dateEnd": "2026-06-07",
+                  "type": "Körning",
+                  "region": "Södermanland",
+                  "location": "Eskilstuna",
+                  "organizer": "AdventureBike",
+                  "description": "Gruskurs för dig som känner dig osäker, nivå 1. Grunderna i gruskörning i Eskilstuna. Alla MC går bra, inga krav på speciella däck. Max 5 deltagare. 1200 kr för ca 4 timmar. Anmälan via adventurebike.se.",
+                  "descriptionFull": "AdventureBike arrangerar Gruskurs för dig som känner dig osäker, nivå 1 i Eskilstuna.\n\nHär lär vi oss grunderna i gruskörning. Alla motorcyklar går bra att använda och det finns inga krav på speciella däck. Passar dig som vill komma igång och våga köra grus på ett avslappnat sätt.\n\nVad vi går igenom:\n- Körställning\n- Bromsteknik\n- Olika sätt att styra\n- Balans\n\nVi kör i en grupp med max fem deltagare och det finns gott om tid att träna på respektive övning. Om man vill kan man kombinera med nybörjarkursen nivå 2 på eftermiddagen. Egen försäkring gäller.\n\nPris: 1200 kr för cirka 4 timmar. Anmälan sker via adventurebike.se.",
+                  "source": "facebook.com",
+                  "backImage": "ads/adventurebike-gruskurs-niva1-back-2026-05.jpg",
+                  "link": "https://www.facebook.com/events/830558236521484/",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/830558236521484/"
+                        },
+                        {
+                              "label": "adventurebike.se",
+                              "url": "https://www.adventurebike.se"
+                        }
+                  ]
             },
             {
                   "id": "bmw-malaren-runt-fran-balsta-en-svensk-mc-klassiker-2026",
