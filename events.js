@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-14T11:59:48.883084Z",
+      "lastUpdated": "2026-04-14T12:50:59.768495Z",
       "events": [
             {
                   "_ad": true,
@@ -20081,6 +20081,44 @@ const EVENTS_DATA = {
                   "region": "Västra Götaland",
                   "source": "manual",
                   "_canary": true
+            },
+            {
+                  "id": "uppvidinge-mk-midsommarcross-oxberget-2026-06-20",
+                  "name": "Midsommarcross på Oxberget",
+                  "date": "2026-06-20",
+                  "dateEnd": "2026-06-21",
+                  "type": "Racing",
+                  "region": "Kronoberg",
+                  "location": "Oxberget, 364 44 Norrhult",
+                  "organizer": "Uppvidinge MK",
+                  "description": "Uppvidinge MK öppnar för Midsommarcross på Oxberget 20-21 juni 2026. Motocross-tävling under midsommarhelgen. Anmälan via Svemo TA.",
+                  "descriptionFull": "Uppvidinge MK öppnar för Midsommarcross på Oxberget 20-21 juni 2026.\n\nMotocross-tävling under midsommarhelgen på UMK:s klassiska bana Oxberget utanför Norrhult.\n\nAnmälan sker via Svemo TA.\n\nMer information på Uppvidinge MK:s hemsida och Facebookgrupp.",
+                  "source": "facebook.com",
+                  "backImage": "ads/midsommarcross-oxberget-back-2026-06-20.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=10162478352071044&set=gm.25940103179004865&idorvanity=305288269579708",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=10162478352071044&set=gm.25940103179004865&idorvanity=305288269579708"
+                        },
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/groups/305288269579708"
+                        },
+                        {
+                              "label": "uppvidingemk.se",
+                              "url": "https://uppvidingemk.se/kalender"
+                        },
+                        {
+                              "label": "Svemo TA",
+                              "url": "https://ta.svemo.se/public/pages/competition/competitions.aspx?Branch=Motocross"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Oxberget+Norrhult+Uppvidinge+MK",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "jmc-sondagsrundan-2026-06-21",
