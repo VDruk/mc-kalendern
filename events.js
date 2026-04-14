@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-14T19:18:13.183205Z",
+      "lastUpdated": "2026-04-14T19:22:52.026511Z",
       "events": [
             {
                   "_ad": true,
@@ -24713,6 +24713,32 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "mopedrally-bikerally-gunnarskog-2026-08-01",
+                  "name": "Mopedrally - BIK(E)rally",
+                  "date": "2026-08-01",
+                  "dateEnd": "2026-08-01",
+                  "type": "Körning",
+                  "region": "Värmland",
+                  "location": "Kolstavallen, Gunnarskog",
+                  "organizer": "Bortans IK Olympia",
+                  "description": "Veteranmopedrally vid Kolstavallen i Gunnarskog. Start kl 11:00. Två sträckor på vackra vägar intill sjöar. Kaffe och mjuk kaka ingår i startavgiften.",
+                  "descriptionFull": "Välkomna lördagen 1 augusti 2026 på Veteranmopperally ve Kolstavallen i Gunnarskog! Save-the-date!\n\nStart och mål är ve plan.\nStarten går 11.00 och man är välkommen tidigare för att spana in alla fina mopeder eller köpa något i kiosken.\n\nParkering finns på den stora grusplanen, ta hänsyn till varandra. Ni som ska vara kvar hela dagen får gärna ställa er längs kanterna så besökare som ska vara en kortare stund tar sig ut.\n\nVi kommer åka två sträckor på blandade vägar i naturskön miljö intill ett flertal sjöar. Programmet visar de två rutterna, men banan kommer också att pilas upp. Det blir praktiska moment som emellan de två sträckorna.\n\nI startavgiften ingår kaffe och mjuk kaka. Biljetten som ni finner vid programmet löses in i kaffetältet på gräset.\n\nMer info kommer längre fram.",
+                  "source": "facebook.com",
+                  "backImage": "ads/mopedrally-bikerally-gunnarskog-back-2026-08-01.jpg",
+                  "link": "https://www.facebook.com/events/25343686468663708",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/25343686468663708"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kolstavallen+Gunnarskog",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "rock-the-night-festival-umea-2026",
