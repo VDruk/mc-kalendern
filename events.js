@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-14T19:06:54.421304Z",
+      "lastUpdated": "2026-04-14T19:13:32.409681Z",
       "events": [
             {
                   "_ad": true,
@@ -7434,6 +7434,37 @@ const EVENTS_DATA = {
                         {
                               "label": "Karta",
                               "url": "https://www.google.com/maps/search/?api=1&query=Tid%C3%B6+Slott%2C+V%C3%A4ster%C3%A5s",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
+                  "id": "mc-dag-besikta-borlange-2026-04-25",
+                  "name": "MC-dag hos Besikta",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "type": "Träff",
+                  "region": "Dalarna",
+                  "location": "Lustbergsvägen 5, Borlänge",
+                  "organizer": "Besikta Bilprovning",
+                  "organizerIcon": "clubs/normalized/besikta.png",
+                  "description": "Besikta Borlänge erbjuder 100 kr rabatt på MC-besiktning. Boka med kod MC2A2026. Lördagen 25 april kl 09:00-14:00.",
+                  "descriptionFull": "Besikta Borlänge bjuder in till MC-dag – boka din besiktning redan i dag\\!\n\nNu är det dags att väcka hojen ur vintervilan\\! Under vår MC-dag erbjuder vi 100 kr rabatt på besiktning av din motorcykel.\n\nAnvänd kampanjkoden MC2A2026 när du bokar din tid.\n\nVälkommen till oss på Besikta Borlänge.\nLördagen den 25 april kl. 09:00-14:00\nAdressen är Lustbergsvägen 5, 781 71 Borlänge\n\nPassa på att boka i tid och gör din motorcykel redo för en ny säsong på vägarna.\n\nBoka din tid redan nu – vi ser fram emot att träffa dig\\!\n\nVi ses på stationen.",
+                  "source": "facebook.com",
+                  "backImage": "ads/mc-dag-besikta-borlange-back-2026-04-25.jpg",
+                  "link": "https://www.facebook.com/events/1649589379564874",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1649589379564874"
+                        },
+                        {
+                              "label": "besikta.se",
+                              "url": "https://besikta.se/mcdagar2026"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Lustbergsv%C3%A4gen+5+Borl%C3%A4nge",
                               "type": "map"
                         }
                   ]
