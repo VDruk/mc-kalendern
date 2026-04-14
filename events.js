@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-14T19:13:32.409681Z",
+      "lastUpdated": "2026-04-14T19:18:13.183205Z",
       "events": [
             {
                   "_ad": true,
@@ -9954,6 +9954,40 @@ const EVENTS_DATA = {
                   "region": "Uppsala",
                   "source": "facebook.com",
                   "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+            },
+            {
+                  "id": "honda-roadshow-arena-mc-sandnes-2026-05-04",
+                  "name": "Honda Roadshow 2026",
+                  "date": "2026-05-04",
+                  "dateEnd": "2026-05-05",
+                  "type": "Show",
+                  "region": "Norge",
+                  "location": "Somaveien 1, 4313 Sandnes",
+                  "organizer": "Arena-MC",
+                  "description": "Honda Roadshow 2026 hos Arena-MC i Sandnes. 17 modeller att provköra, utrustningserbjudanden och partnerstands. Vårens största motorsykkelturné!",
+                  "descriptionFull": "Vi har lastet en trailer full av 17 rå modeller fra Honda, og er klare for å gi gass mot årets motorsykkelsesong! Opplev Hondas nye toppmodeller, prøvekjør din drømmesykkel, og bli med på en dag fylt med motorsykkel-moro.\n\nAlle som besøker oss under årets Roadshow får oppleve:\n• Prøvekjøring av Hondas toppmodeller for 2026\n• Gode tilbud på utstyr og tidligere Honda-modeller\n• Partnerne våre stiller opp på stand\n• Lære om sikkerhet på vei\n\nOversikt over modeller vi har med finner du her: https://kellox.no/mc/roadshow/",
+                  "source": "facebook.com",
+                  "backImage": "ads/honda-roadshow-arena-mc-sandnes-back-2026-05-04.jpg",
+                  "link": "https://www.facebook.com/events/1693617898723366",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1693617898723366"
+                        },
+                        {
+                              "label": "kellox.no/mc/roadshow",
+                              "url": "https://kellox.no/mc/roadshow/"
+                        },
+                        {
+                              "label": "arenamc.no",
+                              "url": "https://arenamc.no"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Somaveien+1+4313+Sandnes",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "mce-manadsmoete-maj-2026",
