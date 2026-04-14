@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-14T19:22:52.026511Z",
+      "lastUpdated": "2026-04-14T19:52:48.957327Z",
       "events": [
             {
                   "_ad": true,
@@ -7607,6 +7607,32 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "tour-de-egeskov-mc-traef-2026-04-25",
+                  "name": "Tour de Egeskov MC Træf",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "type": "Körning",
+                  "region": "Danmark",
+                  "location": "Ørbækvej 61, 5854 Gislev",
+                  "organizer": "Last Chance MC",
+                  "description": "MC-tur från Gislev till Egeskov Slot och vidare till Tommerup. Frukost kl 08:30 (30 kr), avfärd mot Egeskov kl 09:45. Grillning och fest i Tommerup.",
+                  "descriptionFull": "Vi gør det igen!\n\nVi starter ved LC MC (ørbækvej 61, 5854 Gislev) kl. 08:30 med morgenmad, hvor der vil være rundstykker/kaffe og div. til den nette sum af 30 kr.\n\nTilmeld jer gerne her på siden, så vi har et ca. antal.\nSidste tilmeldingsfrist til morgenmad er onsdag den 22. april.\nMorgenmad betales på dagen – kontant/MobilePay.\n\nSamlet afgang mod Egeskov kl. 09:45.\nAnkomst Egeskov ca. 10:00.\n\nNår vi rammer slottet spreder folk sig som de vil. Vi mødes igen ude ved cyklerne kl. 13:00 og kører endnu en lækker tur samlet til Tommerup (Maevej 41, 5690 Tommerup), hvor der bliver grillet pølser og festet resten af dagen.\n\nTag din makker/makkere under armen og kom med. Det bliver mega fedt som det plejer!",
+                  "source": "facebook.com",
+                  "backImage": "ads/tour-de-egeskov-mc-traef-back-2026-04-25.jpg",
+                  "link": "https://www.facebook.com/events/3195124303986306",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/3195124303986306"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=%C3%98rb%C3%A6kvej+61+5854+Gislev+Denmark",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
                   "id": "tranrikerundan-2026",
                   "name": "Tranrikerundan",
                   "date": "2026-04-25",
@@ -9327,6 +9353,10 @@ const EVENTS_DATA = {
                         {
                               "label": "mcbranschen.se",
                               "url": "https://mcbranschen.se/motorcykelns-dag/"
+                        },
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1003256452027972&set=a.244403794579912"
                         }
                   ],
                   "link": "https://mcbranschen.se/motorcykelns-dag/",
@@ -9706,6 +9736,36 @@ const EVENTS_DATA = {
                         {
                               "label": "Karta",
                               "url": "https://www.google.com/maps/search/?api=1&query=Bj%C3%B6rkall%C3%A9n+32%2C+Oskarstr%C3%B6m",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
+                  "id": "mackatraffen-vollsjo-start-2026-05-03",
+                  "name": "Mackaträffen - Säsongsstart",
+                  "date": "2026-05-03",
+                  "dateEnd": "2026-05-03",
+                  "type": "Körning",
+                  "region": "Skåne",
+                  "location": "Nyvång, Vollsjö",
+                  "organizer": "Mackaträffen Vollsjö",
+                  "description": "Säsongsstart för Mackaträffen på Nyvång i Vollsjö. Mackarallyt kl 11-12. Grillkorv, kaffe och kaka. Överskott till välgörande ändamål.",
+                  "descriptionFull": "Välkommen till Vollsjö på Mackaträffen. Här finns också grillkorv, kaffe och kaka när du blir sugen. Överskottet går till välgörande ändamål.\n\nStart söndag 3 maj rallystart i Mackarallyt kl. 11-12. Med fortsättning varannan måndag från 11 maj fram till måndag 31 aug.\n\nAvslutning söndag 13 sept Mackarallyt kl. 11-12.",
+                  "source": "facebook.com",
+                  "backImage": "ads/mackatraffen-vollsjo-back-2026.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=1363834759110010&set=a.466300335530128",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1363834759110010&set=a.466300335530128"
+                        },
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/MackatraffenIVollsjo"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Nyv%C3%A5ng+Vollsj%C3%B6",
                               "type": "map"
                         }
                   ]
@@ -11270,6 +11330,53 @@ const EVENTS_DATA = {
                   "region": "Norge",
                   "source": "facebook.com",
                   "backImage": "ads/motorsykkelens-dag-stavanger-back-2026-05-09.jpg"
+            },
+            {
+                  "id": "munkedals-rallyt-2026-05-09",
+                  "name": "Munkedals Rallyt",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "type": "Körning",
+                  "region": "Västra Götaland",
+                  "location": "Parkvägen 8, Munkedal",
+                  "organizer": "Monk Valley Blue Smoke",
+                  "description": "Rally runt Munkedal vid sjöar och havet, drygt 9 mil (kortare tur finns). Start kl 09:00 vid Folkets Park. Smörgås före, soppa efter. Startavgift 150 kr.",
+                  "descriptionFull": "Ett litet rally runt om i Munkedal vid sjöar och havet. Rundan blir drygt 9 mil. Finns även en kortare tur. Det blir både asfalt och grusvägar. Det blir ett litet stopp på vägen där det blir kaffe/dricka och kaka.\n\nParkering finns på gamla bandyplan mitt emot parken. Det blir smörgås före rallyt i parken och soppa efter.\n\nStartavgift 150 kr betalas till parken i kafét. Kommer även finnas skamkärra.\n\nVarmt välkomna!",
+                  "source": "facebook.com",
+                  "backImage": "ads/munkedals-rallyt-back-2026-05-09.jpg",
+                  "link": "https://www.facebook.com/events/886453710795041/",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/886453710795041/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Parkv%C3%A4gen+8+Munkedal",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
+                  "id": "nnmc-hedemora-barhang-2026-05-09",
+                  "name": "Barhäng",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-09",
+                  "type": "Fest",
+                  "region": "Dalarna",
+                  "location": "Hedemora",
+                  "organizer": "No Name MC Hedemora",
+                  "description": "Barhäng hos No Name MC Prospect Chapter Hedemora. Endast SBM och vänner. Start kl 20:00.",
+                  "descriptionFull": "No Name MC Prospect Chapter Hedemora bjuder in till barhäng.\n\nEndast SBM och vänner.\n\nStart kl 20:00.",
+                  "source": "facebook.com",
+                  "backImage": "ads/nnmc-hedemora-barhang-back-2026-05-09.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=122108611179256710&set=a.122101273995256710",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=122108611179256710&set=a.122101273995256710"
+                        }
+                  ]
             },
             {
                   "id": "norberg-racing-academy-solleftea-2026-05-09",
@@ -29782,6 +29889,36 @@ const EVENTS_DATA = {
                   "region": "Skåne",
                   "source": "vulcanriders-sweden.org",
                   "backImage": "ads/vrs-full-gas-rally-back-2026-09-12.jpg"
+            },
+            {
+                  "id": "mackatraffen-vollsjo-avslutning-2026-09-13",
+                  "name": "Mackaträffen - Säsongsavslutning",
+                  "date": "2026-09-13",
+                  "dateEnd": "2026-09-13",
+                  "type": "Körning",
+                  "region": "Skåne",
+                  "location": "Nyvång, Vollsjö",
+                  "organizer": "Mackaträffen Vollsjö",
+                  "description": "Säsongsavslutning för Mackaträffen på Nyvång i Vollsjö. Mackarallyt kl 11-12. Grillkorv, kaffe och kaka. Överskott till välgörande ändamål.",
+                  "descriptionFull": "Välkommen till Vollsjö på Mackaträffen. Här finns också grillkorv, kaffe och kaka när du blir sugen. Överskottet går till välgörande ändamål.\n\nAvslutning söndag 13 sept Mackarallyt kl. 11-12.\n\nUnder säsongen har träffar hållits varannan måndag från 11 maj fram till måndag 31 aug.",
+                  "source": "facebook.com",
+                  "backImage": "ads/mackatraffen-vollsjo-back-2026.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=1363834759110010&set=a.466300335530128",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1363834759110010&set=a.466300335530128"
+                        },
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/MackatraffenIVollsjo"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Nyv%C3%A5ng+Vollsj%C3%B6",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "nykoping-hosttraffen-2026",
