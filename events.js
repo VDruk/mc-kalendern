@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-14T19:52:48.957327Z",
+      "lastUpdated": "2026-04-14T20:04:06.586368Z",
       "events": [
             {
                   "_ad": true,
@@ -12191,6 +12191,36 @@ const EVENTS_DATA = {
                   "region": "Örebro",
                   "source": "facebook.com",
                   "backImage": "ads/ad-open-flat-track-orebro-back-2026-05-14.jpg"
+            },
+            {
+                  "id": "ape-vartraff-malmkoping-2026-05-14",
+                  "name": "APE Vårträff",
+                  "date": "2026-05-14",
+                  "dateEnd": "2026-05-17",
+                  "type": "Träff",
+                  "region": "Södermanland",
+                  "location": "Förrådsgatan 15, 642 60 Malmköping",
+                  "organizer": "APE-träffar Sverige",
+                  "description": "Weekend-träff för APE TukTuk och 3-hjuliga veteranmopeder på Malmköpings Bad & Camping. Incheckning 14 maj kl 13, utcheckning 17 maj kl 12. Plats/tält 430 kr/dygn.",
+                  "descriptionFull": "Välkommen till en weekend med umgänge samt härligt APE-häng på Malmköpings Bad & Camping.\n\nFörrådsgatan 15, 642 60 Malmköping.\nKoordinater: 59.13938 16.73219\n\nPris per plats/tält: 430 kr/dygn inklusive el, samt campingens faciliteter såsom dusch, toaletter, kök mm.\nPlatser: I första hand 116-119 men kan utökas.\nIncheckning från 13.00\nUtcheckning fram till 12.00\n\nHyra av stuga:\n2-bädd 7 kvm, TV: 650 kr/dygn\n2-bädd 10 kvm, TV, kyl, kokplatta: 900 kr/dygn\n\nFör att du med säkerhet skall få en plats så skall du boka före 2026-05-01.\nDu bokar själv ditt boende på campingen på telefon 0157-21070 vardagar kl 10.00-14.00 hos Cornelia eller via mail receptionen@malmkopingscamping.se i namnet APE-träff för att få rätt plats. Campingkort gäller men går bra utan. Förskottsbetalning via faktura med förfallodag 2026-05-07.\n\nMat:\nHotell Plevnagården, 400 meter\nMalmköpings Wärdshus, 1 100 meter\nHotell Malmköping, 1 200 meter\nStar Pizzeria, 1 100 meter\nPizzeria Venecia, 1 300 meter\n\nLäs mer om campingen på: www.malmkopingscamping.se\nFrågor via E-post till APE-träffgruppen: apetraffar@gmail.com\nFacebook: Ape-träffar i Sverige och internationellt\nMobiltelefon: +46703095513\n\n\"Tullis\" APE-träff gruppen",
+                  "source": "facebook.com",
+                  "backImage": "ads/ape-vartraff-malmkoping-back-2026-05-14.jpg",
+                  "link": "https://www.facebook.com/events/26368659906105627",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/26368659906105627"
+                        },
+                        {
+                              "label": "malmkopingscamping.se",
+                              "url": "https://www.malmkopingscamping.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=F%C3%B6rr%C3%A5dsgatan+15+Malmk%C3%B6ping",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "bmw-regiontraff-vast-2026-2026",
