@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-14T15:27:08.423848Z",
+      "lastUpdated": "2026-04-14T19:06:54.421304Z",
       "events": [
             {
                   "_ad": true,
@@ -8033,13 +8033,17 @@ const EVENTS_DATA = {
                   "name": "Bil & MC Café - Säsongspremiär",
                   "date": "2026-04-30",
                   "dateEnd": "2026-04-30",
-                  "location": "Balders Hage Noje, Haradsback",
+                  "location": "Linvägen 3, 343 92 Häradsbäck",
                   "type": "Träff",
                   "organizer": "Balders Hage Noje",
                   "description": "Populart bil- och MC-cafe på Valborgsmassooafton! Buffe från 17:00. Sedan varannan vecka hela sommaren.",
-                  "descriptionFull": "Bil & MC Café på Balders Hage i Häradsbäck arrangeras av Balders Hage Nöje.\n\nBalders Hages kvällar med Bil- och Motorcykelcafé har blivit otroligt populärt sedan starten för ca 5 år sedan! Med gemytlig stämning samlas människor varannan vecka från april till september för att äta, prata, umgås och titta på fordon av olika slag.\n\nSäsongspremiär Valborgsmässoafton 30 april kl 17:00.\n\nBuffé från 17:00:\n- Timjan & vitlöksmarinerad fläskkarré, potatisgratäng, Béarnaise, sallad, kaffe/te - 135 kr (barn under 12 år - 65 kr)\n- Två stekta, mos, lingon, sallad - 95 kr\n- Tre pannkakor grädde & sylt - 65 kr\n- Ostkaka, grädde & sylt - 65 kr\n\nÖvriga datum 2026: 14/5, 28/5, 4/6, 25/6, 9/7, 23/7, 6/8, 20/8, 3/9, 17/9.\n\nPlats: Balders Hage Nöje, Linvägen 3, 343 92 Häradsbäck.",
-                  "backImage": "ads/balders-hage-bil-mc-cafe-back-2026-04-30.jpg",
+                  "descriptionFull": "Fira Valborg på Balders Hage\\!\nSäsongspremiär för Bil & MC Café.\nTorsdag 30/4 öppnar vi upp för en ny sommarsäsong på Balders Hage.\n\nNyhet för i år är att vi utökar antalet sittplatser i uteserveringen, samt runt röda kiosken.\n\nÖppettider från kl 17:00 tills sista gästen lämnar.\n\nKvällens-buffé:\nTimjan & vitlöksmarinerad fläskkarré, Bearnaisesås, Potatisgratäng, Sallad, Kaffe/te\nPris 135 kr för vuxen, barn under 12 år 65 kr.\n\nKlassikern:\n2 stekta med mos, Bostongurka, lingon, sallad 95 kr\n\nNyhet för dom mindre besökarna:\n3 pannkakor som serveras med grädde & sylt 65 kr.\n\nKvällens go-fika ostkaka med grädde & sylt 65 kr.\n\nVi serverar givetvis även hamburgare, fika, glass mm.\n\nBengt & Christina hälsar er välkomna och är redo när ni rullar in i hagen med kameran\\!\n\nVälkomna till sommarsäsongen 2026 på Balders Hage\\!\n\nBalders Hage Nöje\nLinvägen 3, 343 92 Häradsbäck\n0708-680 782",
+                  "backImage": "ads/balders-hage-bil-mc-cafe-back2-2026-04-30.jpg",
                   "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2410721142721873/"
+                        },
                         {
                               "label": "baldershagenoje.se",
                               "url": "https://baldershagenoje.se/biltraff/"
@@ -8050,9 +8054,9 @@ const EVENTS_DATA = {
                               "type": "map"
                         }
                   ],
-                  "link": "https://baldershagenoje.se/biltraff/",
+                  "link": "https://www.facebook.com/events/2410721142721873/",
                   "region": "Kronoberg",
-                  "source": "FB",
+                  "source": "facebook.com",
                   "frontImage": "ads/balders-hage-bil-mc-cafe-front-2026-04-30.jpg"
             },
             {
