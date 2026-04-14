@@ -7031,7 +7031,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/bikedagarna-24-25-april.html",
                   "region": "Västra Götaland",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-bikedagarna-back-2026-04-24.jpg"
             },
             {
                   "id": "ahlqvist-mc-oppet-hus-2026-04-25",
@@ -8857,7 +8858,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/mt-martenstorp-s-sandby/2026-05-01-10-00.html",
                   "region": "Skåne",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-mt-martenstorp-back-2026-05-01.jpg"
             },
             {
                   "id": "wings-of-rogaland-25ar-2026-05-01",
@@ -9786,7 +9788,7 @@ const EVENTS_DATA = {
             },
             {
                   "id": "vulcan-riders-sondagstur-3-maj-2026-05-03",
-                  "name": "Söndagstur 3 Maj",
+                  "name": "Söndagstur",
                   "date": "2026-05-03",
                   "dateEnd": "2026-05-03",
                   "location": "Tanka, Sjöbo",
@@ -9808,7 +9810,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/soendagstur-3-maj/2026-05-03-11-00.html",
                   "region": "Skåne",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-sondagstur-back-2026-05-03.jpg"
             },
             {
                   "id": "doa-kvallskörning-nacka-2026-05-04",
@@ -11888,7 +11891,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/onsdagskoerning/2026-05-13-16-45.html",
                   "region": "Gävleborg",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-onsdagskorning-back-2026-05-13.jpg"
             },
             {
                   "id": "ad-open-flat-track-orebro-2026-05-14",
@@ -15893,7 +15897,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/varbergstraeffen-2026.html",
                   "region": "Halland",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-varbergstraffen-back-2026-05-29.jpg"
             },
             {
                   "id": "baprun-gotland-2026",
@@ -18062,7 +18067,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/hemliga-turen/2026-06-06-10-00.html",
                   "region": "Gävleborg",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-hemliga-turen-back-2026-06-06.jpg"
             },
             {
                   "id": "vulcan-riders-nationaldagskoring-syd-2026-06-06",
@@ -18109,7 +18115,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/nationaldagstur/2026-06-06-10-00.html",
                   "region": "Västra Götaland",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-nationaldagstur-goteborg-back-2026-06-06.jpg"
             },
             {
                   "id": "bmw-malaren-runt-fran-balsta-en-svensk-mc-klassiker-2026",
@@ -20600,7 +20607,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/rikstraeff-2026.html",
                   "region": "Västra Götaland",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-rikstraff-back-2026-06-25.jpg"
             },
             {
                   "id": "bmw-d14-mcq-lager-hos-marre-i-mahult-2026",
@@ -22070,7 +22078,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/goestas-raektur/2026-07-04-10-00.html",
                   "region": "Västra Götaland",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-gostas-raektur-back-2026-07-04.jpg"
             },
             {
                   "id": "do-c-lars-eriks-glassrunda-2026",
@@ -23248,7 +23257,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/wilma-memorial-run/2026-07-18-00-00.html",
                   "region": "Västra Götaland",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-wilma-memorial-back-2026-07-18.jpg"
             },
             {
                   "id": "wilma-memorial-run-2026",
@@ -23619,7 +23629,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/hojrock.html",
                   "region": "Västra Götaland",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-hojrock-back-2026-07-23.jpg"
             },
             {
                   "id": "dob-skanetraffen-2-0-2026",
@@ -27244,7 +27255,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/tunnelrundan/2026-08-22-00-00.html",
                   "region": "Västra Götaland",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-tunnelrundan-back-2026-08-22.jpg"
             },
             {
                   "id": "jmc-sondagsrundan-2026-08-23",
@@ -29435,7 +29447,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/full-gas-rally-high-riders/2026-09-12-10-00.html",
                   "region": "Skåne",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-full-gas-rally-back-2026-09-12.jpg"
             },
             {
                   "id": "nykoping-hosttraffen-2026",
@@ -30091,7 +30104,8 @@ const EVENTS_DATA = {
                   ],
                   "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/slumpenturen/2026-09-19-00-00.html",
                   "region": "Västra Götaland",
-                  "source": "vulcanriders-sweden.org"
+                  "source": "vulcanriders-sweden.org",
+                  "backImage": "ads/vrs-slumpenturen-back-2026-09-19.jpg"
             },
             {
                   "id": "doa-emilsturen-2026-09-20",
