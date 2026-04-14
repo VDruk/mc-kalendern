@@ -6174,6 +6174,37 @@ const EVENTS_DATA = {
                   "backImage": "ads/johans-mc-oppet-hus-back-2026-04-18.jpg"
             },
             {
+                  "id": "arjangs-mk-hjelms-dagarg-2026-04-18",
+                  "name": "Hjelms Dårgäng 2-dagars",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-19",
+                  "location": "Länsmansbråten, Töcksfors",
+                  "type": "Racing",
+                  "organizer": "Årjängs Motorklubb ÅMK",
+                  "organizerIcon": "clubs/normalized/arjangs-motorklubb.png",
+                  "description": "Tvådagars motorsporttävling i Töcksfors, kl 09:00 båda dagarna. Inträde 50 kr (15+). Frän körning, spännande kamper. Anmälan på RaceOffice.",
+                  "descriptionFull": "2 dagars tävling i Töcksfors\nFörsta start båda dagarna kl. 9.00\n\nInträde: 50 kr över 15 år\n\nVi kan lova frän körning, fräna bilar, spännande kamper - en kick ass helg\n\nAnmälan sker på RaceOffice:\nhttps://raceoffice.se/Tavlingar/Inbjudan/1951\n\nVälkomna!",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1144622604342561"
+                        },
+                        {
+                              "label": "Anmälan",
+                              "url": "https://raceoffice.se/Tavlingar/Inbjudan/1951"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Länsmansbråten+Töcksfors",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1144622604342561",
+                  "region": "Värmland",
+                  "source": "facebook.com",
+                  "backImage": "ads/arjangs-mk-hjelms-dagarg-back-2026-04-18.jpg"
+            },
+            {
                   "id": "bsa-sverige-sulas-2026",
                   "name": "BSA hos Sulas MC",
                   "date": "2026-04-19",
@@ -20603,6 +20634,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/big-twins-party-back-2026-06-27.jpg"
             },
             {
+                  "id": "kojkland-blue-smoke-summer-meet-2026-06-27",
+                  "name": "Blue Smoke Summer Meet",
+                  "date": "2026-06-27",
+                  "dateEnd": "2026-06-27",
+                  "location": "Kyrkåsvägen 3, Lekvattnet",
+                  "type": "Körning",
+                  "organizer": "Lekvattnets snöskoterklubb",
+                  "description": "Mopedrally i Lekvattnet kl 10:00 vid församlingshemmet. Startavgift 180 kr (hamburgare + dricka ingår). Föranmälan senast 22 juni för unik statyett.",
+                  "descriptionFull": "Välkommen på årets mopedrally i Lekvattnet lördagen den 27 Juni!\n\nSamling kl. 10:00 vid församlingshemmet i Lekvattnet på kyrkplanen, det kommer att finnas skyltar från E16.\n\nStartavgift: 180 kr där en hamburgare och dricka ingår + fika efter vägen.\n\nOm man föranmäler sig så får man en unik statyett (OBS: Föranmälan går ut den 22 Juni!) Det går även bra att anmäla sig på plats men då får man ingen statyett.\n\nAnmälan sker via swish: (123 351 1938) eller BG: (229-4338) till Lekvattnets Snöskoterklubb.\n\nBåde MC och Mopeder är välkomna att delta!\n\nVi kommer även att lotta ut en fin kniv tillverkad av Hassladalens hantverk & smide.\n\nHoppas vi ses!\n\nMvh Skoterklubben",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1598885475304337"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kyrkåsvägen+3+Lekvattnet",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1598885475304337",
+                  "region": "Värmland",
+                  "source": "facebook.com",
+                  "backImage": "ads/kojkland-blue-smoke-summer-meet-back-2026-06-27.jpg"
+            },
+            {
                   "id": "smc-vastmanland-knix-pepparrotsbanan-2026-06-28",
                   "name": "Knixkurs Nya Pepparrotsbanan",
                   "date": "2026-06-28",
@@ -24606,6 +24663,32 @@ const EVENTS_DATA = {
                   ],
                   "region": "Gävleborg",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "trollbikers-mc-pokerrun-2026-08-08",
+                  "name": "Trollbikers MC Pokerrun",
+                  "date": "2026-08-08",
+                  "dateEnd": "2026-08-08",
+                  "location": "Lerum Brunnered 3, Trollhättan",
+                  "type": "Körning",
+                  "organizer": "Trollbikers MC",
+                  "description": "Trollbikers MC:s årliga pokerrun. Start kl 11-12, startavgift 100 kr. Mat, lotterier och prisbord. Bidrar till Duvans Kvinnojour. Gäller SBM-anslutna klubbar.",
+                  "descriptionFull": "Då var det dags att bjuda in till Trollbikers årliga happening nämligen vårt Pokerrun.\n\nSom vanligt kommer vi att fixa så det blir fina vägar att rullar era motorcyklar på. Och vi lovar som alltid att det finns ett gediget prisbord att välja från när turen ler åt ert håll.\n\nÄven detta året har vi otroligt bra sponsorer som hjälper oss så att vi får ihop fina priser till er.\n\nVi är glada att med sponsorer och er hjälp även i år kommer kunna ge ett bidrag av inkomsterna till Duvans kvinnojour (https://www.kvinnojourenduvan.se). Dessa kvinnor gör ett fantastiskt jobb med att hjälpa utsatta kvinnor i vårt land att få känna sig lite tryggare vilket vi är väldigt tacksamma för att kunna bidraga till.\n\nStarten går mellan kl 11-12\nStartavgift 100 kr\n\nMat och lotterier kommer såklart finnas.\n\nEventet är för endast SBM-anslutna klubbar och vänner.\n\nI mån av intresse så håller vi baren öppen på kvällen för de som känner att de vill stanna kvar efter turen alternativt om man vill hem och svira om innan pubkvällen.\n\nHjärtligt välkomna till oss och än en gång gör vi denna dagen till en dag att minnas med fina vägar, trevligt sällskap och gemenskap med likasinnade.",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1044142564811193"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Lerum+Brunnered+3+Trollhättan",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1044142564811193",
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "backImage": "ads/trollbikers-mc-pokerrun-back-2026-08-08.jpg"
             },
             {
                   "id": "bmw-d11-norra-smaland-runt-2026",
