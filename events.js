@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T16:40:19.259151Z",
+      "lastUpdated": "2026-04-15T17:22:21.934058Z",
       "events": [
             {
                   "_ad": true,
@@ -6241,6 +6241,36 @@ const EVENTS_DATA = {
                         {
                               "label": "Karta",
                               "url": "https://www.google.com/maps/search/?api=1&query=Sulas+MC%2C+S%C3%A4va+17%2C+Uppsala",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
+                  "id": "svensk-punk-femman-2026-04-18",
+                  "name": "Svensk punk på FEMMAN!",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "type": "Fest",
+                  "region": "Uppsala",
+                  "location": "Sofielundsgatan 5B, 753 23 Uppsala",
+                  "organizer": "Kulturhuset Femman",
+                  "description": "Punkafton på Kulturhuset Femman i Uppsala från kl 18. VIK HÆDAN, Hesa Fredrik och Jag sörjer mina döda höns. Medlemskap krävs senast 24h innan.",
+                  "descriptionFull": "Välkommen till en punkig afton med energi, allvar och humor där VIK HÆDAN, HESA FREDRIK och JAG SÖRJER MINA DÖDA HÖNS bl.a. kommer blanda poesi och samhällskritik i ett höjt finger eller två mot etablissemanget!\n\nProgram:\nVIK HÆDAN (Uppsala) kl 19:00 - en-manna-band i akustisk tappning, teman kring psykisk ohälsa, rattfylleri, mäns våld mot kvinnor och politik.\n\nHESA FREDRIK (Uppsala) kl 20:00 - trallpunk från Uppsala, med driv och energi som blandar seriösa undertoner med punk.\n\nJAG SÖRJER MINA DÖDA HÖNS (Tärnsjö/Sala) kl 21:00 - udda, punkig kvintett, spretig melodiös \"fågelpunk\".\n\nViktigt: För att kunna komma behöver du vara medlem i Kulturhuset FEMMAN senast 24h innan eventet.\n\nPlats: Kulturhuset Femman, Sofielundsgatan 5B, 753 23 Uppsala",
+                  "source": "facebook.com",
+                  "backImage": "ads/svensk-punk-femman-back-2026-04-18.jpg",
+                  "link": "https://www.facebook.com/events/1400870151792047",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1400870151792047"
+                        },
+                        {
+                              "label": "khusuppsala.org",
+                              "url": "https://khusuppsala.org"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sofielundsgatan+5B+Uppsala",
                               "type": "map"
                         }
                   ]
