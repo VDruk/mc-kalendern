@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T06:58:31.350522Z",
+      "lastUpdated": "2026-04-15T07:01:07.527891Z",
       "events": [
             {
                   "_ad": true,
@@ -16669,7 +16669,7 @@ const EVENTS_DATA = {
                   "dateEnd": "2026-05-30",
                   "location": "Nipeveien 237, 4957 Risør, Norge",
                   "type": "Träff",
-                  "organizer": "Goldwing Club Norge Agder Wings",
+                  "organizer": "Goldwing Club Norge",
                   "description": "MC-Treff og Sommerfest hos Agder Wings i Risør, Norge den 30 mai. Sørlandstur med MC, grilling fra kl 18. Oppmøte kl 14. Camping tilgjengelig.",
                   "descriptionFull": "MC-Treff og Sommerfest arrangeras av Goldwing Club Norge, avdeling Agder Wings.\n\nLørdag 30. mai 2026\nOppmøte kl 14:00\n\nProgram:\n- Sørlandstur med MC\n- Grilling fra kl 18:00\n- Ta med eget mat til grillen og egen drikke\n- Sørlands camping, eget felt oppsatt for overnatting\n\nPlats: Nipeveien 237, 4957 Risør, Norge.\n\nVelkommen!",
                   "frontImage": "ads/agder-wings-sommerfest-front-2026-05-30.jpg",
