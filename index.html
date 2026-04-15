@@ -1684,7 +1684,7 @@ const SE_HOLIDAYS_2026 = new Set(['2026-01-01','2026-01-06','2026-04-03','2026-0
 const CLUB_MATCHERS = {
   'BMW MC-klubben': org => org.startsWith('BMW MC-klubben'),
   'Con Dios MC':    org => org.includes('Con Dios'),
-  'GWCS':           org => org.includes('GWCS') || org.includes('GWCN') || org.includes('GWEF') || org.includes('GWEU') || org.includes('GoldWing') || org.includes('Gold Wing') || org.includes('Wingarna') || org.includes('Wings of Rogaland'),
+  'GWCS':           org => { const o = org.toLowerCase(); return o.includes('gwcs') || o.includes('gwcn') || o.includes('gwef') || o.includes('gweu') || o.includes('goldwing') || o.includes('gold wing') || o.includes('wingarna') || o.includes('wings of rogaland'); },
   'H-DCS':          org => org.includes('H-DCS') || org.includes('Harley') || (org.startsWith('H-D') && org !== 'H-D Store Linköping'),
   'JMC':            org => org.includes('JMC'),
   'MCE':            org => org.startsWith('MCE'),
