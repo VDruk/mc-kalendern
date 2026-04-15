@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T07:01:07.527891Z",
+      "lastUpdated": "2026-04-15T07:13:50.630837Z",
       "events": [
             {
                   "_ad": true,
@@ -7173,6 +7173,32 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "cfmoto-demodag-almhult-2026-04-25",
+                  "name": "CFMOTO Demodag",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "type": "Show",
+                  "region": "Kronoberg",
+                  "location": "Torvströvägen 6, 343 33 Älmhult",
+                  "organizer": "EuropeanSportsCars AB",
+                  "description": "Provkör CFMoto-fordon hos EuropeanSportsCars i Älmhult. Öppet 10-15. Korv, kaffe, fika och godis till barnen. Välkommen!",
+                  "descriptionFull": "Välkomna på provkörning av CFMoto 25 April!\n\nÖppet 10.00-15.00.\n\nVi bjuder på korv, kaffe & fika samt godis till barnen. Kom förbi och provkör våra demofordon från CFMoto.\n\nEuropeanSportsCars AB\nTorvströvägen 6, 343 33 Älmhult",
+                  "source": "facebook.com",
+                  "backImage": "ads/cfmoto-demodag-almhult-back-2026-04-25.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=1546338804168527&set=a.740322628103486",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1546338804168527&set=a.740322628103486"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Torvstr%C3%B6v%C3%A4gen+6+%C3%84lmhult",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
                   "id": "doa-lordagsfika-pa-biltema-2026-04-25",
                   "name": "DOA - Lördagsfika på Biltema",
                   "date": "2026-04-25",
@@ -13303,6 +13329,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/solleftea-motorklubb-back-2026.jpg"
             },
             {
+                  "id": "mopedrally-osterbybruk-2026-05-16",
+                  "name": "Mopedrally och bilträff",
+                  "date": "2026-05-16",
+                  "dateEnd": "2026-05-16",
+                  "type": "Körning",
+                  "region": "Uppsala",
+                  "location": "Dannemoravägen 46, Österbybruk",
+                  "organizer": "Österbybruks Folkets Hus",
+                  "description": "Årligt mopedrally och bilträff i Folkets Park Österbybruk. Parken öppnar kl 11, mopedrally startar kl 13. Startavgift 100 kr.",
+                  "descriptionFull": "Lördag den 16 maj kör vi vårt årliga mopedrally samt bilträff i Folkets Park Österbybruk!\n\nParken öppnar klockan 11 och start för mopedrally är klockan 13.\n\nStartavgift 100 kr.",
+                  "source": "facebook.com",
+                  "backImage": "ads/mopedrally-osterbybruk-back-2026-05-16.jpg",
+                  "link": "https://www.facebook.com/events/1104148556109904",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1104148556109904"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Dannemorav%C3%A4gen+46+%C3%96sterbybruk",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
                   "id": "mosquito-choppers-spring-break-2026-05-16",
                   "name": "Spring Break 2026",
                   "date": "2026-05-16",
@@ -16396,19 +16448,19 @@ const EVENTS_DATA = {
             },
             {
                   "id": "calles-chopperdelar-event-2026",
-                  "name": "Calles Chopperdelar - Save the Date",
+                  "name": "Calles Chopperdelar - Öppet Hus",
                   "date": "2026-05-30",
                   "dateEnd": "2026-05-30",
-                  "location": "Slätthög, Moheda",
+                  "location": "Slätthög 2, 342 63 Moheda",
                   "type": "Träff",
                   "organizer": "Calles Chopperdelar Sweden",
-                  "description": "Save the date! Chopperträff hos Calles Chopperdelar i Moheda. Detaljer kommer snart. Följ Calles Chopperdelar på Facebook för mer info.",
-                  "descriptionFull": "Save the date! 30 maj 2026 hos Calles Chopperdelar i Slätthög, Moheda.\n\nDetaljer kommer snart. Följ Calles Chopperdelar på Facebook för uppdateringar.\n\nPlats: Slätthög, Moheda, 342 63.",
+                  "description": "Öppet hus hos Calles Chopperdelar 30 maj kl 10-15. MTL Custom visar Indian & Royal Enfield. Attåsson visar sin Knucklewood. Pris snyggaste hoj, hamburgare, rabatterade priser, lotteri.",
+                  "descriptionFull": "Varmt välkomna till vårt Öppet hus!\n\nKl. 10.00-15.00 på Slätthög 2, 342 63 Moheda.\n\nMTL Custom kommer och visar upp Indian & Royal Enfield.\nAttåsson visar upp sin Knucklewood.\n\nDessutom:\nPris till snyggaste hojen på parkeringen\nHamburgare för hungriga\nRabatterade priser\nLotteri och mycket mer!\n\nCalles Chopperdelar - din helhetsleverantör av mc- & chopperdelar sedan 1975.",
                   "backImage": "ads/calles-chopperdelar-back-2026-05-30.jpg",
                   "links": [
                         {
-                              "label": "Facebook",
-                              "url": "https://www.facebook.com/calleschopperdelar.ccs"
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/3228363040678656"
                         },
                         {
                               "label": "Webb",
@@ -16416,11 +16468,11 @@ const EVENTS_DATA = {
                         },
                         {
                               "label": "Karta",
-                              "url": "https://www.google.com/maps/search/?api=1&query=Slätthög+Moheda",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Sl%C3%A4tth%C3%B6g+2+Moheda",
                               "type": "map"
                         }
                   ],
-                  "link": "https://www.facebook.com/calleschopperdelar.ccs",
+                  "link": "https://www.facebook.com/events/3228363040678656",
                   "region": "Kronoberg",
                   "source": "facebook.com"
             },
@@ -16714,6 +16766,32 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/events/1248254590518182",
                   "region": "Stockholm",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "mopedens-dag-hasselfors-2026-05-30",
+                  "name": "Mopedens dag",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "type": "Körning",
+                  "region": "Örebro",
+                  "location": "Bruksgatan 4A, 695 60 Hasselfors",
+                  "organizer": "Hasselfors Byalag",
+                  "description": "Mopeddag i Bruksparken Hasselfors. Backluckeloppis kl 10 (fri entré). Mopedrallytt kl 11.30, avgift 120 kr inkl korv. Kanal 3 Nöje underhåller.",
+                  "descriptionFull": "Kl.10.00 Området öppnar\nBakluckeloppis, försäljning av hantverk, lotterier\n(ingen avgift, ingen föranmälan)\nVid frågor ring Caroline 070-5763301\n\nKl.11.30 Mopedrallyt startar\nStartavgift 120 kr (korv m. bröd ingår)\n3 stationer, 6 frågor och en utslagsfråga.\nStort prisbord.\n\n* Kanal 3 Nöje underhåller på området.\n* Servering",
+                  "source": "facebook.com",
+                  "backImage": "ads/mopedens-dag-hasselfors-back-2026-05-30.jpg",
+                  "link": "https://www.facebook.com/events/3405039616322369",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/3405039616322369"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Bruksgatan+4A+Hasselfors",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "nilssons-mc-festival-2026",
@@ -21628,6 +21706,32 @@ const EVENTS_DATA = {
                   ],
                   "backImage": "ads/mcv-osterlen-back.jpg",
                   "organizerIcon": "clubs/normalized/mcv-osterlen.png"
+            },
+            {
+                  "id": "mopedrally-nyhammar-2026-06-27",
+                  "name": "Mopedrally Nyhammar",
+                  "date": "2026-06-27",
+                  "dateEnd": "2026-06-27",
+                  "type": "Körning",
+                  "region": "Dalarna",
+                  "location": "Norrbovägen 54, 770 14 Nyhammar",
+                  "organizer": "Norrbo Folkets Hus",
+                  "description": "Mopedrally från Norrbo Folkets Hus. Start kl 11. Startavgift 150 kr inkl hamburgare och läsk. Kurt Willard säljer moppedelar på plats.",
+                  "descriptionFull": "Start avgift 150 kr, det inkluderar en hamburgare och läsk.\n\nStart från Folkets hus kl. 11.\n\nKurt Willard har försäljning av moppedelar.",
+                  "source": "facebook.com",
+                  "backImage": "ads/mopedrally-nyhammar-back-2026-06-27.jpg",
+                  "link": "https://www.facebook.com/events/831515036644481",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/831515036644481"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Norrbov%C3%A4gen+54+Nyhammar",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "regression-10ars-fest-2026-06-27",
