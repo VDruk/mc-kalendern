@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T17:22:21.934058Z",
+      "lastUpdated": "2026-04-15T20:06:40.195427Z",
       "events": [
             {
                   "_ad": true,
@@ -20743,6 +20743,36 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "ekebacketraffen-2026-06-19",
+                  "name": "Ekebacketräffen - 15-års Jubileum",
+                  "date": "2026-06-19",
+                  "dateEnd": "2026-06-21",
+                  "type": "Träff",
+                  "region": "Västra Götaland",
+                  "location": "Ekebacken, 523 77 Blidsberg",
+                  "organizer": "Ekebacken Gård",
+                  "description": "Ekebacketräffen firar 15-års jubileum över midsommarhelgen 19-21 juni. Skytte, långbord, grillning, musik och tävlingar. Max 60 personer. Föranmälan via mail senast 15/6.",
+                  "descriptionFull": "Ekebacken Gård & MC-camping presents\n\nEkebacketräffen 2026 - 15-års Jubileum\n19-21 juni (Midsommar)\n\nProgrampunkter:\nSkytte\nTrevligt sällskap\nMusik\nLångbord\nGrillning m.m\nTävlingar\n\nMax antal: 60 pers\nFöranmälan via mail senast 15/6: camping@ekebackengard.se\n\nPlats: Ekebacken, 523 77 Blidsberg\nTel: 0722-50 20 10\nWebb: www.ekebackengard.se",
+                  "source": "facebook.com",
+                  "backImage": "ads/ekebacketraffen-back-2026-06-19.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=10233846391361450",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=10233846391361450"
+                        },
+                        {
+                              "label": "ekebackengard.se",
+                              "url": "https://www.ekebackengard.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Ekebacken+G%C3%A5rd+Blidsberg",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "h-dcdk-sjalland-midsommar-traff-2026",
