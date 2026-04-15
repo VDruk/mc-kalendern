@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T12:39:33.119464Z",
+      "lastUpdated": "2026-04-15T16:24:54.720810Z",
       "events": [
             {
                   "_ad": true,
@@ -11450,6 +11450,32 @@ const EVENTS_DATA = {
                   "region": "Stockholm",
                   "source": "facebook.com",
                   "descriptionFull": "Dags för vårstädning runt MCE:s kåke!\n\nHoppas att många kommer – dels för sällskapets skull, och dels går det fortare när vi är fler. Välkommen att hjälpa till och umgås!\n\nTid: Lördag 9 maj kl 09:00–14:00\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla."
+            },
+            {
+                  "id": "mckonsultdagarna-2026-05-09",
+                  "name": "MC-konsultdagarna",
+                  "date": "2026-05-09",
+                  "dateEnd": "2026-05-10",
+                  "type": "Show",
+                  "region": "Västra Götaland",
+                  "location": "Kinnegatan 15, 531 33 Lidköping",
+                  "organizer": "Mc-konsult i Lidköping",
+                  "description": "Årliga MC-konsultdagarna hos Mc-konsult och MC-Jalle. Provkörningar, erbjudanden, Moe Hills Burgers, tatuerare från Art Avenue med drop-in och IMRG Big Lake som berättar om Indian.",
+                  "descriptionFull": "Varmt välkommen till de årliga MC-konsultdagarna!\n\nMassor av provkörningar, erbjudanden och allmänt ståhej.\n\nMoe Hills Burgers på plats och serverar sina goa smashed burgers, tatuerare från Art Avenue med drop-in, våra leverantörer visar sina nyheter och IMRG Big Lake fixar fika och berättar om Indian.\n\nMissa inte att komma förbi oss den här härliga helgen!\n\nTid: 9-10 maj, kl 10.00-15.00\nPlats: Kinnegatan 15, 531 33 Lidköping\nVärdar: Mc-konsult i Lidköping och MC-Jalle",
+                  "source": "facebook.com",
+                  "backImage": "ads/mckonsultdagarna-back-2026-05-09.jpg",
+                  "link": "https://www.facebook.com/events/4235210016741541/",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/4235210016741541/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidk%C3%B6ping",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "motorsykkelens-dag-stavanger-2026-05-09",
