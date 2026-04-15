@@ -2100,8 +2100,8 @@ const LOCATION_COORDS = {
   'småland': { lat: 57.50, lon: 15.00 }, 'halland': { lat: 56.90, lon: 12.48 },
   'västerbotten': { lat: 63.83, lon: 20.26 }, 'västkusten': { lat: 57.71, lon: 12.00 },
   'öland': { lat: 56.80, lon: 16.80 }, 'sverige': { lat: 59.33, lon: 18.06 },
-  'danmark': { lat: 55.68, lon: 12.57 }, 'skørping': { lat: 56.83, lon: 9.85 }, 'varde': { lat: 55.62, lon: 8.48 }, 'thorsø': { lat: 56.25, lon: 9.92 }, 'maribo': { lat: 54.77, lon: 11.50 }, 'gislev': { lat: 55.2269321, lon: 10.626802 }, 'ørbækvej 61, 5854 gislev': { lat: 55.2269321, lon: 10.626802 }, 'norge': { lat: 59.91, lon: 10.75 }, 'sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1, 4313 sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'fauske': { lat: 67.26, lon: 15.39 }, 'trondheim': { lat: 63.43, lon: 10.40 }, 'tumba': { lat: 59.20, lon: 17.83 },
-  'finland': { lat: 60.17, lon: 24.94 }, 'kemora ring': { lat: 63.420208, lon: 23.9800051 }, 'imatra, finland': { lat: 61.1693627, lon: 28.7665858 }, 'tjeckien': { lat: 49.82, lon: 15.47 },
+  'danmark': { lat: 55.68, lon: 12.57 }, 'skørping': { lat: 56.83, lon: 9.85 }, 'varde': { lat: 55.62, lon: 8.48 }, 'thorsø': { lat: 56.25, lon: 9.92 }, 'maribo': { lat: 54.77, lon: 11.50 }, 'gislev': { lat: 55.2269321, lon: 10.626802 }, 'ørbækvej 61, 5854 gislev': { lat: 55.2269321, lon: 10.626802 }, 'nakskov': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2, 4900 nakskov': { lat: 54.83309, lon: 11.09206 }, 'nakskov fjord camping': { lat: 54.83309, lon: 11.09206 }, 'norge': { lat: 59.91, lon: 10.75 }, 'sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1, 4313 sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'fauske': { lat: 67.26, lon: 15.39 }, 'trondheim': { lat: 63.43, lon: 10.40 }, 'tumba': { lat: 59.20, lon: 17.83 },
+  'finland': { lat: 60.17, lon: 24.94 }, 'kemora ring': { lat: 63.420208, lon: 23.9800051 }, 'imatra, finland': { lat: 61.1693627, lon: 28.7665858 }, 'muonio': { lat: 67.9332472, lon: 23.6566667 }, 'harrinivantie 35': { lat: 67.9332472, lon: 23.6566667 }, 'harrinivantie 35, 99300 muonio': { lat: 67.9332472, lon: 23.6566667 }, 'harriniva': { lat: 67.9332472, lon: 23.6566667 }, 'tjeckien': { lat: 49.82, lon: 15.47 },
   'spanien': { lat: 40.42, lon: -3.70 },
   'nederländerna': { lat: 52.37, lon: 4.90 }, 'gasselternijveenschemond': { lat: 52.94, lon: 6.86 },
   // Added 2026-03-22 location audit
@@ -2373,7 +2373,9 @@ function render() {
   if (!render._sorted) {
     render._sorted = EVENTS_DATA.events.filter(e => !e._canary).sort((a, b) => a.date.localeCompare(b.date));
     render._sorted.forEach(e => {
-      e._searchIndex = [e.name, e.organizer, e.location, e.description, Array.isArray(e.region) ? e.region.join(' ') : (e.region || '')].join(' ').toLowerCase();
+      const _base = [e.name, e.organizer, e.location, e.description, Array.isArray(e.region) ? e.region.join(' ') : (e.region || '')].join(' ').toLowerCase();
+      // Search aliases: make "gold wing" and "goldwing" match each other
+      e._searchIndex = _base + ' ' + _base.replace(/gold wing/g, 'goldwing') + ' ' + _base.replace(/goldwing/g, 'gold wing');
     });
   }
   const allEvents = render._sorted;
