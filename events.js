@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T12:23:45.793632Z",
+      "lastUpdated": "2026-04-15T12:39:33.119464Z",
       "events": [
             {
                   "_ad": true,
@@ -5339,6 +5339,36 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "yamaha-mc-days-nassjo-2026-04-17",
+                  "name": "Yamaha MC Days",
+                  "date": "2026-04-17",
+                  "dateEnd": "2026-04-18",
+                  "type": "Show",
+                  "region": "Jönköping",
+                  "location": "Storgatan 48, 571 32 Nässjö",
+                  "organizer": "Mascot Motor Försäljning",
+                  "description": "Starta säsongen hos Mascot Motor i Nässjö. Yamaha MC Days fredag 17 april och lördag 18 april. Yamaha firar 70 år. Välkommen!",
+                  "descriptionFull": "Starta säsongen på bästa sätt hos oss!\n\nVälkommen på Yamaha MC Days Fredag 17/4 och Lördag 18/4.",
+                  "source": "facebook.com",
+                  "backImage": "ads/yamaha-mc-days-nassjo-back-2026-04-17.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=122226715844283130&set=a.122103788870283130",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=122226715844283130&set=a.122103788870283130"
+                        },
+                        {
+                              "label": "Webb",
+                              "url": "https://www.mascotmotor.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Storgatan+48+N%C3%A4ssj%C3%B6",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
                   "id": "adv-expo-2026",
                   "name": "ADV Motorcycle Expo 2026",
                   "date": "2026-04-18",
@@ -9225,6 +9255,36 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "ducati-arboga-demodag-2026-05-02",
+                  "name": "Ducati Arboga Demodag",
+                  "date": "2026-05-02",
+                  "dateEnd": "2026-05-02",
+                  "type": "Show",
+                  "region": "Västmanland",
+                  "location": "Fabriksgatan 5, 732 31 Arboga",
+                  "organizer": "Italia Bike Center",
+                  "description": "Demodag hos Ducati Arboga kl 11-15. Provkör nya Ducati-modeller. Mike's Foodtruck serverar hamburgare. Välkommen in till din personliga Ducati store!",
+                  "descriptionFull": "DUCATI ARBOGA - DEMODAGAR\n\nSAVE THE DATES !!!\n\n2 maj kl. 11-15\n30 maj kl. 11-15\n\nVälkommen in till din personliga Ducati store.\n\nMike's Foodtruck serverar sina härliga hamburgare vid båda tillfällena.\n\nItalia Bike Center, 0589-138 30, info@italiabikecenter.se",
+                  "source": "facebook.com",
+                  "backImage": "ads/ducati-arboga-demodag-back-2026-05-02.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=1555721863179465&set=a.464569285628067",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1555721863179465&set=a.464569285628067"
+                        },
+                        {
+                              "label": "Webb",
+                              "url": "https://www.italiabikecenter.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Fabriksgatan+5+Arboga",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "eager-mc-varfest-2026-05-02",
@@ -16671,6 +16731,36 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "ducati-arboga-demodag-2026-05-30",
+                  "name": "Ducati Arboga Demodag",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "type": "Show",
+                  "region": "Västmanland",
+                  "location": "Fabriksgatan 5, 732 31 Arboga",
+                  "organizer": "Italia Bike Center",
+                  "description": "Demodag hos Ducati Arboga kl 11-15. Provkör nya Ducati-modeller. Mike's Foodtruck serverar hamburgare. Välkommen in till din personliga Ducati store!",
+                  "descriptionFull": "DUCATI ARBOGA - DEMODAGAR\n\nSAVE THE DATES !!!\n\n2 maj kl. 11-15\n30 maj kl. 11-15\n\nVälkommen in till din personliga Ducati store.\n\nMike's Foodtruck serverar sina härliga hamburgare vid båda tillfällena.\n\nItalia Bike Center, 0589-138 30, info@italiabikecenter.se",
+                  "source": "facebook.com",
+                  "backImage": "ads/ducati-arboga-demodag-back-2026-05-30.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=1555721863179465&set=a.464569285628067",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1555721863179465&set=a.464569285628067"
+                        },
+                        {
+                              "label": "Webb",
+                              "url": "https://www.italiabikecenter.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Fabriksgatan+5+Arboga",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
                   "id": "korvrundan-2026",
                   "name": "Dagstur Körvrundan",
                   "date": "2026-05-30",
@@ -19866,6 +19956,36 @@ const EVENTS_DATA = {
                   "link": "https://mchk.org/evenemang/kalender-34490789",
                   "region": "Norge",
                   "source": "mchk.org"
+            },
+            {
+                  "id": "moonshine-big-meet-2026-06-13",
+                  "name": "Moonshine Big Meet",
+                  "date": "2026-06-13",
+                  "dateEnd": "2026-06-13",
+                  "type": "Fest",
+                  "region": "Stockholm",
+                  "location": "Edsvallabacken 5, 123 43 Farsta",
+                  "organizer": "Moonshine Cruisers Sthlm",
+                  "description": "Årets Moonshine Big Meet hos Stockholms äldsta raggarklubb. John Lindberg Trio, Hot Dolls och Erik Meduza and the Barsebäckz på scen. Biljetter via Billetto.",
+                  "descriptionFull": "Dags för årets Moonshine Big Meet !! På våra scener står John Lindberg Trio, Hot Dolls och Erik Meduza and the Barsebäckz !!!\n\nBiljetter hittar ni på Billetto, följ biljettlänken eller klicka här: https://billetto.se/.../jlt-john-linberg-trio-erik-meduza...\n\nVarmt välkomna !!",
+                  "source": "facebook.com",
+                  "backImage": "ads/moonshine-big-meet-back-2026-06-13.jpg",
+                  "link": "https://www.facebook.com/events/908052358685293",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/908052358685293"
+                        },
+                        {
+                              "label": "Biljetter",
+                              "url": "https://billetto.se/e/jlt-john-linberg-trio-erik-meduza-och-hot-dolls-biljetter-1887611"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Edsvallabacken+5+Farsta",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "sidsjons-sanslosa-50-ar-2026",
