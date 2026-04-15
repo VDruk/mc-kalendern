@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T20:06:40.195427Z",
+      "lastUpdated": "2026-04-15T20:15:59.491321Z",
       "events": [
             {
                   "_ad": true,
@@ -6079,6 +6079,32 @@ const EVENTS_DATA = {
                   ],
                   "backImage": "ads/dof-medlemsmote-bowling-back-2026-04-18.jpg",
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "mor-testdag-uringe-2026-04-18",
+                  "name": "Testdag - Get Box & Fyndbord",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "type": "Träff",
+                  "region": "Stockholm",
+                  "location": "Uringe motocrossbana",
+                  "organizer": "MÖR MC",
+                  "description": "Testdag på Uringe kl 10-13. Testa Get Box på din egen hoj, köp Waygom mousse med montering, kedjor, däckverktyg, Fist handskar och fyndbord med siktskivor, TearOff och kylarslangar.",
+                  "descriptionFull": "Uringe 18/4 10.00-13.00 välkomna.\n\nTesta Get Box på er egen hoj. Köp Waygom mousse och få den monterad. Kedjor, däck verktyg. Fist Handskar.\n\nFyndbord med bla;\nUdda siktskivor o TearOff 20kr styck\nDiv blå kylarslangar mm\n\n#mx #enduro #klipp #motocross #readytorace\n@emx_racing @get_byathena @asterisk_usa @fisthandwear @fisthandwear.eu @tsubakimotorider @moracing.se @rabaconda\n\nMX Stockholm - Uringe",
+                  "source": "facebook.com",
+                  "backImage": "ads/mor-testdag-uringe-back-2026-04-18.jpg",
+                  "link": "https://www.facebook.com/photo?fbid=1371439721681668&set=a.458657526293230",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo?fbid=1371439721681668&set=a.458657526293230"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Uringe+motocrossbana",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "motorrad-center-adventure-lordag-2026-04-18",
@@ -23528,6 +23554,32 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "emc-sommerfest-2026-07-11",
+                  "name": "EMC Sommerfest",
+                  "date": "2026-07-11",
+                  "dateEnd": "2026-07-11",
+                  "type": "Fest",
+                  "region": "Danmark",
+                  "location": "Klejsgårdvej 1, 7130 Juelsminde",
+                  "organizer": "Eight Balls MC",
+                  "description": "Sommerfest hos Eight Balls MC i Klejs. Fælles køretur kl 14, grillbuffet kl 18 (100 kr), DJ Gadget kl 19. Telt kan sættes op dagen før.",
+                  "descriptionFull": "Så er det tid til vores sommerfest lørdag d. 11. juli 2026\n\nDer vil være en fælles køretur kl 14.00\nVores kære VP Kok vil kl. 18.00 stå klar med grillbuffet til 100 kr. pr. snude\nKl. 19 vil Dj Gadget spille op\n\nSå kom med til et brag af en fest med os ved Klejsgårdvej 1, 7130 Juelsminde\n\nTelte kan slås op dagen før.\n\nBikervenlige priser.",
+                  "source": "facebook.com",
+                  "backImage": "ads/emc-sommerfest-back-2026-07-11.jpg",
+                  "link": "https://www.facebook.com/events/1658554155136233",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1658554155136233"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Klejsg%C3%A5rdvej+1+7130+Juelsminde",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "karlstad-varmlandskransen-2026",
