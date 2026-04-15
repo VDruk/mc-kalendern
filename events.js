@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T07:13:50.630837Z",
+      "lastUpdated": "2026-04-15T12:17:45.148340Z",
       "events": [
             {
                   "_ad": true,
@@ -6979,6 +6979,40 @@ const EVENTS_DATA = {
                         }
                   ],
                   "organizerIcon": "clubs/normalized/hdcs.png"
+            },
+            {
+                  "id": "svinkallt-mc-oppethus-2026-04-24",
+                  "name": "Öppet Hus",
+                  "date": "2026-04-24",
+                  "dateEnd": "2026-04-24",
+                  "type": "Träff",
+                  "region": "Norrbotten",
+                  "location": "Industrivägen 2, 981 38 Kiruna",
+                  "organizer": "Svinkallt MC",
+                  "description": "Öppet hus på Svinkallt MC klubbhus i Kiruna. Kl 19:00. Träffa medlemmarna, kolla klubbhuset, prata MC och gemenskap. Alla är välkomna!",
+                  "descriptionFull": "24 April kör vi öppet hus. Kika förbi!\n\nDatum: 24 april 2026\nTid: 19:00 - stängning\nPlats: Svinkallt MC Klubbhus, Industrivägen 2, Kiruna\n\nTräffa medlemmarna\nKolla klubbhuset\nPrata MC & gemenskap\nAlla är välkomna!\n\nRespekt · Gemenskap · Frihet\n\nWebb: svinkalltmc.com",
+                  "source": "facebook.com",
+                  "backImage": "ads/svinkallt-mc-oppethus-back-2026-04-24.jpg",
+                  "link": "https://www.facebook.com/photo/?fbid=1990926085074807&set=a.676017283232367",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1990926085074807&set=a.676017283232367"
+                        },
+                        {
+                              "label": "FB Sida",
+                              "url": "https://www.facebook.com/profile.php?id=100024723055154"
+                        },
+                        {
+                              "label": "svinkalltmc.com",
+                              "url": "https://www.svinkalltmc.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Industriv%C3%A4gen+2+Kiruna",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "tillsammans-kristna-bikers-varnamo-2026",
