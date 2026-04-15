@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T16:24:54.720810Z",
+      "lastUpdated": "2026-04-15T16:40:19.259151Z",
       "events": [
             {
                   "_ad": true,
@@ -15028,6 +15028,32 @@ const EVENTS_DATA = {
                         {
                               "label": "Karta",
                               "url": "https://www.google.com/maps/search/?api=1&query=%C3%85kerv%C3%A4gen+1A%2C+662+35+%C3%85m%C3%A5l",
+                              "type": "map"
+                        }
+                  ]
+            },
+            {
+                  "id": "custom-street-tour-motorfestival-2026-05-23",
+                  "name": "Custom Street Tour Motorfestival",
+                  "date": "2026-05-23",
+                  "dateEnd": "2026-05-23",
+                  "type": "Show",
+                  "region": "Skåne",
+                  "location": "Förrådsvägen 10, 291 63 Kristianstad",
+                  "organizer": "Custom Street Tour",
+                  "description": "Motorfestival på Åsum Ring i Kristianstad kl 10-16. Utställningsbilar, MC, lastbilar, foodcourt, livemusik och karting. Elliot Gröndahl bjuder på MC-show. Fri entré.",
+                  "descriptionFull": "Varmt Välkomna till Custom Street Tour Motorfestival 2026!\n\nMissa inte chansen att uppleva fantastiska fordon i kombination med god mat på vår foodcourt, livemusik och möjligheten att sätta snabba varvtider med Kristianstad Karting på banan! Utöver detta bjuder Elliot Gröndahl på MC-show under dagen!\n\nUtställning:\nExtrema utställningsbilar/showbilar\nLastbilar\nMC\nHistoriska fordon\nMotorsport\nKlubbar\nFöretag\n\nFoodcourt:\nMatskeppet (Hamburgare)\nGolondrina (Mexican Street Food)\nDFTB (Korvgrillning)\nSött&Salt&Gott (Churros)\nGlassvagnen Önnestad (Otto-glass)\nPeters Hemkokta Karameller (marknadsgodis)\nEinarssons Catering (Pasta med olika såser)\nLangos\nToastmannen (Grillade baguetter och nachos)\n\nUnderhållning:\nDJ Moonkid\nSouthern Boys Project\n\nUtställare:\nAlla är välkomna att ställa ut sina entusiastfordon. Drop-in tillämpas vid placering på området.\nSom utställare förbinder man sig att vara på plats under öppettiderna 10:00-16:00.\nFöretag och klubbar är välkomna att förboka plats på customstreettour@gmail.com\nInflytt på området sker mellan 07:00-09:15 för alla som ska ställa ut, sen stängs grindarna och vi förbereder området inför öppning.\n\nOrdningsregler:\nIngen alkohol är tillåten på området.\nSläng skräp i utsatta papperskorgar och hjälp oss lämna området rent och snyggt.\n\nHuvudsponsorer: SONAX, LV (lovab.se), Audio55, JR Photography.\n\nVi ser fram emot en fantastiskt trevlig dag!",
+                  "source": "facebook.com",
+                  "backImage": "ads/custom-street-tour-back-2026-05-23.jpg",
+                  "link": "https://www.facebook.com/events/2567199810328738",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/2567199810328738"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=F%C3%B6rr%C3%A5dsv%C3%A4gen+10+Kristianstad",
                               "type": "map"
                         }
                   ]
