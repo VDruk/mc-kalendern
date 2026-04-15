@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-      "lastUpdated": "2026-04-15T12:17:45.148340Z",
+      "lastUpdated": "2026-04-15T12:23:45.793632Z",
       "events": [
             {
                   "_ad": true,
@@ -15168,6 +15168,32 @@ const EVENTS_DATA = {
                   "link": "https://www.facebook.com/events/1191568283087580/",
                   "region": "Stockholm",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "mckonsult-zero-rapido-mc-2026-05-23",
+                  "name": "MC-konsult / Zero hos Rapido MC",
+                  "date": "2026-05-23",
+                  "dateEnd": "2026-05-23",
+                  "type": "Show",
+                  "region": "Stockholm",
+                  "location": "Skansbacken 4, Gullmarsplan, Stockholm",
+                  "organizer": "Mc-konsult i Lidköping",
+                  "description": "Rapido MC bjuder in till sin årliga mc-mässa på Skansbacken i Stockholm. Mc-konsult tar med provkörningshojar från Zero, Indian & Triumph. Varmt välkommen!",
+                  "descriptionFull": "Rapido MC bjuder in till sin årliga mc-mässa på Skansbacken i Stockholm och vi tar med oss provkörningshojar från Zero, Indian & Triumph. Varmt välkommen!",
+                  "source": "facebook.com",
+                  "backImage": "ads/mckonsult-rapido-mc-back-2026-05-23.jpg",
+                  "link": "https://www.facebook.com/events/1712245466411015",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1712245466411015"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Skansbacken+4+Gullmarsplan+Stockholm",
+                              "type": "map"
+                        }
+                  ]
             },
             {
                   "id": "nora-grus-ladies-only-2026-05-23",
