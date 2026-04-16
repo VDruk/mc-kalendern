@@ -6415,6 +6415,36 @@ const EVENTS_DATA = {
                   "backImage": "ads/omcc-staddag-back-2026-04-18.jpg"
             },
             {
+                  "id": "cfmoto-demodag-claessons-2026-04-18",
+                  "name": "CFMOTO Demodag",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Industrigatan 11, Bromölla",
+                  "type": "Träff",
+                  "organizer": "Claessons Motor Bromölla",
+                  "description": "CFMOTO Demodag hos Claessons Motor\\! Provkör 1000 MT-X, 800 MT-X, 800 MT Explorer, 675NK, 450 MT med flera. Lördag 18 april kl 10-14.",
+                  "descriptionFull": "Nu på lördag 18/4 har vi CFMOTO demodag\\!\n\n1000 MT-X finns på plats och står redo för provkörning tillsammans med 800 MT-X, 800 MT Explorer, 675NK, 450 MT med flera.\n\nVarmt välkomna\\!\n\nLördag 18 april kl 10-14\n\nClaessons Motor\nIndustrigatan 11, Bromölla",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=2000156264190284&set=a.648140436058547"
+                        },
+                        {
+                              "label": "Claessons Motor",
+                              "url": "https://www.claessonsmotor.se"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Industrigatan+11+Bromölla",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=2000156264190284&set=a.648140436058547",
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/cfmoto-demodag-claessons-back-2026-04-18.jpg"
+            },
+            {
                   "id": "adventurecoach-kalmar-gruskurser-2026-04-19",
                   "name": "Adventurecoach Infomöte",
                   "date": "2026-04-19",
