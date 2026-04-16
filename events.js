@@ -7328,11 +7328,15 @@ const EVENTS_DATA = {
                   "location": "Torvströvägen 6, 343 33 Älmhult",
                   "organizer": "EuropeanSportsCars AB",
                   "description": "Provkör CFMoto-fordon hos EuropeanSportsCars i Älmhult. Öppet 10-15. Korv, kaffe, fika och godis till barnen. Välkommen!",
-                  "descriptionFull": "Välkomna på provkörning av CFMoto 25 April!\n\nÖppet 10.00-15.00.\n\nVi bjuder på korv, kaffe & fika samt godis till barnen. Kom förbi och provkör våra demofordon från CFMoto.\n\nEuropeanSportsCars AB\nTorvströvägen 6, 343 33 Älmhult",
+                  "descriptionFull": "Välkomna för provkörning av CFMOTO Motorcyklar. Nya MT-X 1000 finns självklart på plats!\n\nVi bjuder på korv, kaffe & fika samt godis till barnen.\n\nKom förbi & provkör våra demofordon från CFMOTO.\n\nVi håller öppet mellan 10:00-15:00.",
                   "source": "facebook.com",
                   "backImage": "ads/cfmoto-demodag-almhult-back-2026-04-25.jpg",
-                  "link": "https://www.facebook.com/photo/?fbid=1546338804168527&set=a.740322628103486",
+                  "link": "https://www.facebook.com/events/1919009588983748/",
                   "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1919009588983748/"
+                        },
                         {
                               "label": "FB Inlägg",
                               "url": "https://www.facebook.com/photo/?fbid=1546338804168527&set=a.740322628103486"
