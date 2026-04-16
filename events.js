@@ -13897,6 +13897,27 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "imrg-big-lake-lordagstur-2026-05-16",
+                  "name": "Lördagstur IMRG Big Lake",
+                  "date": "2026-05-16",
+                  "dateEnd": "2026-05-16",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
+                  "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
+            },
+            {
                   "id": "bmw-d11-mixtur-med-sandra-och-mikael-2026",
                   "name": "D11 Mixtur med Sandra och Mikael",
                   "date": "2026-05-17",
@@ -17459,6 +17480,27 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "imrg-big-lake-lordagstur-2026-05-30",
+                  "name": "Lördagstur IMRG Big Lake",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                  "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
+            },
+            {
                   "id": "bmw-d15-mats-och-bodils-tur-2026",
                   "name": "D15 Mats och Bodils tur",
                   "date": "2026-05-31",
@@ -20199,6 +20241,27 @@ const EVENTS_DATA = {
                   "source": "vulcanriders-sweden.org"
             },
             {
+                  "id": "imrg-big-lake-lordagstur-2026-06-13",
+                  "name": "Lördagstur IMRG Big Lake",
+                  "date": "2026-06-13",
+                  "dateEnd": "2026-06-13",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                  "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
+            },
+            {
                   "id": "doa-emilsturen-2026-06-14",
                   "name": "DOA - Emilsturen",
                   "date": "2026-06-14",
@@ -22150,6 +22213,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/skanerundan-back-2026-06-27.jpg"
             },
             {
+                  "id": "imrg-big-lake-lordagstur-2026-06-27",
+                  "name": "Lördagstur IMRG Big Lake",
+                  "date": "2026-06-27",
+                  "dateEnd": "2026-06-27",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
+                  "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
+            },
+            {
                   "id": "jmc-sondagsrundan-2026-06-28",
                   "name": "Söndagsrundan",
                   "date": "2026-06-28",
@@ -23760,6 +23844,27 @@ const EVENTS_DATA = {
                   "link": "https://www.rockthenightfestival.com",
                   "region": "Östergötland",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "imrg-big-lake-lordagstur-2026-07-11",
+                  "name": "Lördagstur IMRG Big Lake",
+                  "date": "2026-07-11",
+                  "dateEnd": "2026-07-11",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
+                  "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
             },
             {
                   "id": "jmc-sondagsrundan-2026-07-12",
@@ -25509,6 +25614,27 @@ const EVENTS_DATA = {
                   "link": "https://www.rockthenightfestival.com",
                   "region": "Västerbotten",
                   "source": "facebook.com"
+            },
+            {
+                  "id": "imrg-big-lake-lordagstur-2026-08-01",
+                  "name": "Lördagstur IMRG Big Lake",
+                  "date": "2026-08-01",
+                  "dateEnd": "2026-08-01",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                  "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
             },
             {
                   "id": "bmw-vilken-jakla-tur-2026",
@@ -27492,6 +27618,27 @@ const EVENTS_DATA = {
                   "source": "facebook.com"
             },
             {
+                  "id": "imrg-big-lake-lordagstur-2026-08-15",
+                  "name": "Lördagstur IMRG Big Lake",
+                  "date": "2026-08-15",
+                  "dateEnd": "2026-08-15",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                  "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
+            },
+            {
                   "id": "804-racing-lunda-2026",
                   "name": "804 Event No 39 - Half Mile Racing",
                   "date": "2026-08-16",
@@ -29012,6 +29159,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
+                  "id": "imrg-big-lake-lordagstur-2026-08-29",
+                  "name": "Lördagstur IMRG Big Lake",
+                  "date": "2026-08-29",
+                  "dateEnd": "2026-08-29",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                  "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
+            },
+            {
                   "id": "bmw-d15-grustur-2026-08-30",
                   "name": "D15 Grustur",
                   "date": "2026-08-30",
@@ -29850,6 +30018,27 @@ const EVENTS_DATA = {
                   "backImage": "ads/oamck-klubbkaken-back.jpg"
             },
             {
+                  "id": "imrg-big-lake-barncancermilen-2026-09-05",
+                  "name": "Barncancermilen",
+                  "date": "2026-09-05",
+                  "dateEnd": "2026-09-05",
+                  "location": "Lugnets MC-Center, Von Lingens väg 3, Borås",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Barncancermilen med start från Lugnets MC-Center i Borås. IMRG Big Lake samlas vid MC-Konsult i Lidköping kl 10:00 för gemensam körning dit.",
+                  "descriptionFull": "Välgörenhetskörning till förmån för barncancerfonden vid Lugnets MC-Center i Borås.\n\nIMRG Big Lake samlas vid MC-Konsult i Lidköping kl 10:00 för gemensam körning till evenemanget.\n\nAlla är välkomna oavsett hojmärke.\n\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Lugnets+MC-Center+Von+Lingens+väg+3+Borås",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
+            },
+            {
                   "id": "doa-kvallskörning-nacka-2026-09-07",
                   "name": "DOA - Kvällskörning Nacka",
                   "date": "2026-09-07",
@@ -30557,6 +30746,27 @@ const EVENTS_DATA = {
                   "region": "Skåne",
                   "source": "vulcanriders-sweden.org",
                   "backImage": "ads/vrs-full-gas-rally-back-2026-09-12.jpg"
+            },
+            {
+                  "id": "imrg-big-lake-lordagstur-2026-09-12",
+                  "name": "Lördagstur IMRG Big Lake",
+                  "date": "2026-09-12",
+                  "dateEnd": "2026-09-12",
+                  "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                  "type": "Körning",
+                  "organizer": "IMRG Big Lake",
+                  "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
+                  "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                  "links": [
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Västra Götaland",
+                  "source": "facebook.com",
+                  "link": "https://www.facebook.com/urban.knutsson"
             },
             {
                   "id": "mackatraffen-vollsjo-avslutning-2026-09-13",
