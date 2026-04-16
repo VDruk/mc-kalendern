@@ -7779,6 +7779,32 @@ const EVENTS_DATA = {
                   "organizerIcon": "clubs/normalized/hdcs.png"
             },
             {
+                  "id": "suzuki-day-nilssons-mc-2026-04-25",
+                  "name": "Suzuki Day",
+                  "date": "2026-04-25",
+                  "dateEnd": "2026-04-25",
+                  "location": "Kanongatan 159, Ödåkra, Helsingborg",
+                  "type": "Show",
+                  "organizer": "Nilssons MC",
+                  "description": "Suzuki Day hos Nilssons MC från kl 10. Provkör 2026 års modeller, kampanjpriser på 2025 års Suzuki, 20% rabatt på original reservdelar. Grillen är på.",
+                  "descriptionFull": "Fira Suzuki Day hos oss på Nilsson´s MC !\n\n- 2026 års hojar i butik.\n- Provkör Suzuki, vi har de flesta modeller för provkörning.\n- Kampanjpriser på 2025 års Suzuki.\n- 7 Års Garanti.\n- 100 Mils service på köpet vid köp av ny Suzuki denna dag.\n- 20% rabatt på Suzuki original reservdelar och tillbehör.\n- Maxad butik med personlig utrustning och tillbehör.\n- REA på utgående personlig utrustning.\n\nVi sätter igång grillen denna dag.\n\nVälkomna hit och umgås med likasinnade.",
+                  "link": "https://www.facebook.com/events/1468428258295840/",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1468428258295840/"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kanongatan+159+254+67+%C3%96d%C3%A5kra",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/suzuki-day-nilssons-mc-back-2026-04-25.jpg"
+            },
+            {
                   "id": "tour-de-egeskov-mc-traef-2026-04-25",
                   "name": "Tour de Egeskov MC Træf",
                   "date": "2026-04-25",
