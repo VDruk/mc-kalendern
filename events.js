@@ -5369,6 +5369,36 @@ const EVENTS_DATA = {
                   ]
             },
             {
+                  "id": "yamaha-mc-days-umea-2026-04-17",
+                  "name": "Yamaha MC Days Öppet Hus",
+                  "date": "2026-04-17",
+                  "dateEnd": "2026-04-18",
+                  "location": "Yamaha Center, Industrivägen 24, Umeå",
+                  "type": "Träff",
+                  "organizer": "Yamaha Center Umeå",
+                  "description": "Yamaha MC Days och Öppet Hus hos Yamaha Center i Umeå. Provkörning av utvalda modeller, nedsatta priser på MC-hjälmar, varmkorv med bröd. Fre 9-17, Lör 11-14.",
+                  "descriptionFull": "Välkommen till Öppet Hus\\!\n\nYamaha MC Days 17-18 April\n70th Anniversary\n\nTider:\nFredag 17 april 9-17\nLördag 18 april 11-14\n\nProvkörning av utvalda modeller.\n\nNedsatta priser på ett urval av våra mc-hjälmar.\n\nVi bjuder på varmkorv med bröd\n\nSe fler nyheter hos oss\\!\n\nYamaha Center\nIndustrivägen 24, Umeå (Västerslätt)\n090-14 84 00\nwww.yamahacenter.com",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=1403679708227645&set=a.196842302244731"
+                        },
+                        {
+                              "label": "yamahacenter.com",
+                              "url": "https://www.yamahacenter.com"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Yamaha+Center+Industrivägen+24+Umeå",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=1403679708227645&set=a.196842302244731",
+                  "region": "Västerbotten",
+                  "source": "facebook.com",
+                  "backImage": "ads/yamaha-mc-days-umea-back-2026-04-17.jpg"
+            },
+            {
                   "id": "adv-expo-2026",
                   "name": "ADV Motorcycle Expo 2026",
                   "date": "2026-04-18",
