@@ -6359,6 +6359,32 @@ const EVENTS_DATA = {
                   "descriptionFull": "Dags för Probikes vår kickoff / Harley Season Opener!\n\nLördag 18 april kl 10:00-15:00.\n\nEn dag med fokus på provkörning av vårt breda utbud av hojar. H-DCS kommer att vara på plats.\n\nPlats: Probike Malmö, Lundavägen 140, 212 24 Malmö.\n\n161 personer har visat intresse på Facebook."
             },
             {
+                  "id": "omcc-staddag-2026-04-18",
+                  "name": "Städdag på ÖMCC",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "ÖMCC, Viktoriaesplanaden 3, Örnsköldsvik",
+                  "type": "Träff",
+                  "organizer": "ÖMCC",
+                  "description": "Städdag på ÖMCC. Städning av klubblokalen inför säsongens arrangemang. Listor på vad som behöver göras finns på plats. All hjälp behövs\\! Kl 10:00-14:00.",
+                  "descriptionFull": "Städning av klubblokalen behövs inför alla arrangemang.\n\nListor på vad vi vill ha hjälp med kommer finnas på plats. All hjälp behövs\\!\n\nTid: Lördag 18 april kl 10:00-14:00\nPlats: ÖMCC, Viktoriaesplanaden 3, Örnsköldsvik",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1491668319212281"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+3+Örnsköldsvik",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/events/1491668319212281",
+                  "region": "Västernorrland",
+                  "source": "facebook.com",
+                  "backImage": "ads/omcc-staddag-back-2026-04-18.jpg"
+            },
+            {
                   "id": "adventurecoach-kalmar-gruskurser-2026-04-19",
                   "name": "Adventurecoach Infomöte",
                   "date": "2026-04-19",
@@ -17499,6 +17525,32 @@ const EVENTS_DATA = {
                   "region": "Västra Götaland",
                   "source": "facebook.com",
                   "link": "https://www.facebook.com/urban.knutsson"
+            },
+            {
+                  "id": "kungsback-mc-30ar-pokerrun-2026-05-30",
+                  "name": "Kungsbäck MC 30 År och Pokerrun",
+                  "date": "2026-05-30",
+                  "dateEnd": "2026-05-30",
+                  "location": "Kungsängsvägen 75, Gävle",
+                  "type": "Fest",
+                  "organizer": "Kungsbäck MC",
+                  "description": "Kungsbäck MC firar 30 år med Pokerrun\\! Start 11:00-12:30. Mat, dryck, livemusik med Stonefish kl 21:00. Tatuering med Crazy Fresh Tattoo. Stödjer Barncancerfonden.",
+                  "descriptionFull": "Fira 30 år med oss och kör Pokerrun!\n\nLördag 30:e Maj\nStarttid 11:00-12:30\n\nAlla hojåkare och märken är välkomna\n\nMat o dryck finns vid målgång samt på kvällen\n\nLive på scen runt 21:00 - Stonefish\n\nKom och fira med oss\nGästtält finns (boka)\nPlats för husbilar samt egna tält\n\nCrazy Fresh Tattoo finns på plats för tatuering.\ncrazyfreshtattoo@gmail.com\n\nI år stödjer vi Barncancerfonden\n\nFrågor o bokning, ring:\nWigan: 070-626 23 90\nMajkel: 070-581 65 40",
+                  "links": [
+                        {
+                              "label": "FB Inlägg",
+                              "url": "https://www.facebook.com/photo/?fbid=2677175105998134&set=gm.26944873501763890&idorvanity=1120680964609831"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Kungsängsvägen+75+Gävle",
+                              "type": "map"
+                        }
+                  ],
+                  "link": "https://www.facebook.com/photo/?fbid=2677175105998134&set=gm.26944873501763890&idorvanity=1120680964609831",
+                  "region": "Gävleborg",
+                  "source": "facebook.com",
+                  "backImage": "ads/kungsback-mc-30ar-pokerrun-back-2026-05-30.jpg"
             },
             {
                   "id": "bmw-d15-mats-och-bodils-tur-2026",
