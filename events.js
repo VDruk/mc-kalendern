@@ -6420,7 +6420,7 @@ const EVENTS_DATA = {
                   "date": "2026-04-18",
                   "dateEnd": "2026-04-18",
                   "location": "Industrigatan 11, Bromölla",
-                  "type": "Träff",
+                  "type": "Show",
                   "organizer": "Claessons Motor Bromölla",
                   "description": "CFMOTO Demodag hos Claessons Motor\\! Provkör 1000 MT-X, 800 MT-X, 800 MT Explorer, 675NK, 450 MT med flera. Lördag 18 april kl 10-14.",
                   "descriptionFull": "Nu på lördag 18/4 har vi CFMOTO demodag\\!\n\n1000 MT-X finns på plats och står redo för provkörning tillsammans med 800 MT-X, 800 MT Explorer, 675NK, 450 MT med flera.\n\nVarmt välkomna\\!\n\nLördag 18 april kl 10-14\n\nClaessons Motor\nIndustrigatan 11, Bromölla",
