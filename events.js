@@ -5995,6 +5995,32 @@ const EVENTS_DATA = {
                   "backImage": "ads/imrg-big-lake-varmonstning-back-2026-04-18.jpg"
             },
             {
+                  "id": "janssons-bageri-drive-in-2026-04-18",
+                  "name": "Tur till Janssons Bageri",
+                  "date": "2026-04-18",
+                  "dateEnd": "2026-04-18",
+                  "location": "Yamaha Center, Vångavägen 4, Hyllinge",
+                  "type": "Körning",
+                  "organizer": "I Can Ride Adventure",
+                  "description": "Samling kl 10:00 vid Yamaha Center Helsingborg. Avgång ca 10:15 mot Janssons Bageri och Ägg Drive-In för fika. Efter fikat kör vi dit näsan pekar.",
+                  "descriptionFull": "Nu är det dags för nästa tur, och den går av stapeln nu på lördag!\n\nVi samlas klockan 10:00 och rullar iväg cirka 10:15.\n\nDen här gången styr vi mot Janssons Bageri och Ägg Drive-In, ett mysigt café med självbetjäning. Där tar vi en fikapaus och njuter en stund.\n\nEfter fikat tar vi resten av turen lite som den kommer – vi kör dit näsan pekar. Kanske blir det någon spontan avstickare, eller så viker vi ner mot Helsingborg igen. Det får helt enkelt avgöras av vad vi känner för just då.\n\nVägarna kommer variera i storlek och skick.\n\nAnmäl er om ni ska med – all planering sker efter hur många vi blir.\n\nHoppas vi ses!",
+                  "link": "https://www.facebook.com/events/1599297267827529",
+                  "links": [
+                        {
+                              "label": "FB Event",
+                              "url": "https://www.facebook.com/events/1599297267827529"
+                        },
+                        {
+                              "label": "Karta",
+                              "url": "https://www.google.com/maps/search/?api=1&query=Yamaha+Center+V%C3%A5ngav%C3%A4gen+4+Hyllinge",
+                              "type": "map"
+                        }
+                  ],
+                  "region": "Skåne",
+                  "source": "facebook.com",
+                  "backImage": "ads/janssons-bageri-drive-in-back-2026-04-18.jpg"
+            },
+            {
                   "id": "johans-mc-oppet-hus-2026-04-18",
                   "name": "Öppet hus hos Johans MC",
                   "date": "2026-04-18",
