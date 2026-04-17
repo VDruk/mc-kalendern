@@ -19438,6 +19438,34 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com"
                                     },
                                     {
+                                                      "id": "fordonstraff-edsbro-2026-06-07",
+                                                      "name": "Fordonsträff Edsbro",
+                                                      "date": "2026-06-07",
+                                                      "dateEnd": "2026-06-07",
+                                                      "time": "12:00",
+                                                      "endTime": "14:00",
+                                                      "type": "Träff",
+                                                      "region": "Stockholm",
+                                                      "location": "Åsavallsvägen 14, Edsbro",
+                                                      "organizer": "Edsbro Hembygdsförening",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1701574997673141",
+                                                      "description": "Årlig fordonsträff. Ställ ut din gamla bil, motorcykel, traktor eller annat fordon. Servering.",
+                                                      "descriptionFull": "Välkommen på den årliga fordonsträffen\\! Ställ ut din gamla bil, motorcykel, traktor eller vad du än har som är ett fordon\\!\n\nIngen föranmälan krävs i år, det är först till kvarn som gäller.\n\nMer info kommer löpande.\n\nServering.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1701574997673141"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85savallsv%C3%A4gen+14+Edsbro",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/fordonstraff-edsbro-back-2026-06-07.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d11-goes-to-pite-havsbad-arstraff-2026-2026",
                                                       "name": "D11 Goes to Pite Havsbad (Årsträff 2026)",
                                                       "date": "2026-06-08",
@@ -24092,6 +24120,28 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com",
                                                       "link": "https://www.facebook.com/urban.knutsson",
                                                       "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
+                                                      "id": "semesterracet-2026-07-11",
+                                                      "name": "SemesterRacet 2026",
+                                                      "date": "2026-07-11",
+                                                      "dateEnd": "2026-07-11",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Västra Götaland",
+                                                      "location": "Dals-Ed",
+                                                      "organizer": "Peter Ottosson",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3284940835047778",
+                                                      "description": "10-års jubileum\\! Mopedrace i Dals-Ed med fredagskväll-sväng via Bengtsfors. Mer info kommer.",
+                                                      "descriptionFull": "10-års jubileum mer info kommer längre fram.\n\nVi kommer även att köra en sväng på Fredag kväll. Bengtsfors",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3284940835047778"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/semesterracet-back-2026-07-11.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-07-12",
