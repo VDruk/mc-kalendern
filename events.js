@@ -11073,6 +11073,28 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "poker-run-aland-2026-05-08",
+                                                      "name": "Poker Run Åland",
+                                                      "date": "2026-05-08",
+                                                      "dateEnd": "2026-05-10",
+                                                      "time": "07:00",
+                                                      "type": "Körning",
+                                                      "region": "Finland",
+                                                      "location": "Eckerö, Åland",
+                                                      "organizer": "Åk med Sulas",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3023374504539793",
+                                                      "description": "Tredagars MC-resa till Åland. Poker Run med Kobba Hoppers. Hotell, middagar och samkväm. Ca 35 deltagare.",
+                                                      "descriptionFull": "Har några platser kvar. Vi är idag i runda slängar 35 deltagare. För elfte året i rad vi nu åker på dessa omtyckta Ålandsresor\n\nHör av dig PM vid intresse för mer info.\n\nVi kör detta och med Kobba Hoppers på Åland som arrangör och jag har bokat ett 20-tal rum på centrala \"Hotell Esplanad\".\n\nKostnad blir 750:- per skalle i dubbelrum för två nätter MED frukostbuffé\n\nFärjan bokar ni själva. Vi kommer samåka upp fredag från Stockholm till Grisslehamn för de som väljer Eckerölinjen över till öjn.\n\nGivetvis samkväm på kvällarna med bokade middagar, ibland livemusik. Vi har alltid jättetrevligt och härliga minnen väl hemkomna\n\nPS. Jag ser redan fram emot detta i goda vänners lag",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3023374504539793"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/poker-run-aland-back-2026-05-08.jpg"
+                                    },
+                                    {
                                                       "id": "20-ars-jubileum-destination-unknown-2026-05-09",
                                                       "name": "20 års Jubileum!",
                                                       "date": "2026-05-09",
