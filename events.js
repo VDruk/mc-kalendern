@@ -10014,6 +10014,67 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/varmonstringen-mothers-back-2026-05-02.jpg"
                                     },
                                     {
+                                                      "id": "lille-mats-rally-2026-05-02",
+                                                      "name": "Lille Mats Rally 2026",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "time": "11:00",
+                                                      "type": "Körning",
+                                                      "region": "Skåne",
+                                                      "location": "Stattenavägen 53, Hässleholm",
+                                                      "organizer": "Lille Mats MCK",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1524776872405423",
+                                                      "description": "MC-rally med 12,5 mil fina vägar runt Hässleholm. Registrering 11:00-12:30. Pris 150 kr. Korv och dricka ingår.",
+                                                      "descriptionFull": "Välkomna till Lille Mats MCK´s traditionsenliga MC-rally\\!\n\nÅrets rally går av stapeln lördag d. 2 maj, 2026. Registrering mellan kl. 11.00 -12.30.\n\nStart: Besikta Hässleholm.\nPris: 150 kr\nMålgång senast 16:30. Därefter är det prisutdelning.\n\nVill du köra rundan i lugnt och behagligt tempo så börjar du tidigare. Det är gott om utrymme för frågor och pauser.\n\nPassa på att besikta din MC\\!\nBesikta har öppet för besiktning av MC.\nKontakta Besiktiga för ytterligare information.\n\nI startavgiften ingår det en grillad korv och en dricka, som serveras längs rundan. Vid målgången så bjuds det på kaffe och fralla.\n\nRally-rundan är 12,5 mil på fina vägar runt Hässleholm med praktiska övningar och teoretiska frågor längs vägen.\n\nVid starten delas det ut notor som beskriver rutten samt var övningarna är. Som en tipsrunda, fast på hoj\\! Svaren lämnas in vid målgången och sen korar vi några lyckliga vinnare.\n\nBjud in alla din vänner och hojåkare\\!\nSå ses vi vid målgången. Lycka till\\!\\!\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1524776872405423"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Stattenav%C3%A4gen+53+H%C3%A4ssleholm",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/lille-mats-rally-back-2026-05-02.jpg"
+                                    },
+                                    {
+                                                      "id": "biscaya-motorcykelns-dag-2026-05-02",
+                                                      "name": "Motorcykelns Dag",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Träff",
+                                                      "region": "Västra Götaland",
+                                                      "location": "Grönäng 3, Alingsås",
+                                                      "organizer": "Biscaya Motor Racing",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/photo/?fbid=1474411444476107",
+                                                      "description": "Fira motorcykelns dag hos Biscaya Motor Racing\\! Extra öppet med provkörningar och gött häng.",
+                                                      "descriptionFull": "Den 2 maj firar vi motorcykelns dag och har extra öppet med provkörningar och gött häng, välkomna\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1474411444476107&set=a.558266092757318"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/biscayamotor"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://biscayamotor.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%B6n%C3%A4ng+3+Aling%C3%A5s",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/biscaya-motorcykelns-dag-back-2026-05-02.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d10-gruskurs-avancerad-2026-05-03",
                                                       "name": "D10 Gruskurs Avancerad 2-cylindriga",
                                                       "date": "2026-05-03",
