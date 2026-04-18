@@ -12027,20 +12027,24 @@ const EVENTS_DATA = {
                                                       "time": "09:00",
                                                       "type": "Körning",
                                                       "region": "Kalmar",
-                                                      "location": "Mörevägen, Ljungbyholm",
+                                                      "location": "Klubbkåken, Ljungbyholm",
                                                       "organizer": "Haskas MC Eastside",
                                                       "source": "facebook.com",
                                                       "link": "https://www.facebook.com/photo/?fbid=1402789491892325",
                                                       "description": "Samling 09:00, avfärd Nybro kl 10:00. Startavgift 100 kr. Insamling till Power Up Ukraine.",
-                                                      "descriptionFull": "Samling Mörevägen Ljungbyholm kl 09:00\nAvfärd Nybro kl 10:00\nStartavgift 100 kr\n\nPower Up Ukraine",
+                                                      "descriptionFull": "Välkomna till Vårt Spring Run 2026\n\nPlats: Klubbkåken i Ljungbyholm\nTid: 9 Maj kl 09:00\nAvfärd mot Nybro kl 10:00\n\nKaffe och Kaka kommer att finnas att köpa\n\nSTARTAVGIFT: 100 KR\n\nKriget i Ukraina är fortfarande inte över så även i år kommer insamlingen oavkortat gå till Power up Ukraine\n\nPower Up Ukraine är en ideell förening med ursprung från Vasakyrkan i Kalmar. Deras huvuduppdrag är att leverera elgeneratorer och fordon till krigsdrabbade områden i Ukraina. De ser till att människor i nöd får elektricitet till värme, ljus, sjukvård, kort och gott en tryggare vardag i krigets Ukraina.\n\nhttps://www.facebook.com/PowerUpUkraineSE\n\nUKRAINAS SAK ÄR VÅR\\!\\!\nSå skänk en slant du också\nSwisha 0704069936 Märkt: SPRING\n\nHjärtligt Välkomna 9 Maj // Haskas MC Eastside\n\nPs Gäller Alla Hojar Alla Modeller Alla Årtal\nALLA ÄR VÄLKOMNA\nGILLA DELA OCH DYK UPP",
                                                       "links": [
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/search/top?q=haskas%20mc"
+                                                                        },
                                                                         {
                                                                                           "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=1402789491892325"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=M%C3%B6rev%C3%A4gen+Ljungbyholm",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Klubbk%C3%A5ken+Ljungbyholm",
                                                                                           "type": "map"
                                                                         }
                                                       ],
