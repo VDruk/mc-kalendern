@@ -1654,6 +1654,7 @@
 </footer>
 
 <script src="events.js"></script>
+<script src="places.js"></script>
 <script>
 // ========== SAFETY GUARD ==========
 if (typeof EVENTS_DATA === 'undefined' || !EVENTS_DATA || !Array.isArray(EVENTS_DATA.events)) {
@@ -2505,6 +2506,7 @@ function render() {
   const mapPlatsOk = !searchQuery && (onlyRegionFilter || currentFilter === 'Plats');
   const mapPlats = mapPlatsOk ? platsCards.filter(ad => (currentRegion === 'all') || ad.region === currentRegion) : [];
   updateEventMap(events.concat(mapPlats));
+  updatePlaceDots(mapPlatsOk && !searchQuery, currentRegion);
 
   // Map city filter
   if (mapCityFilter) {
@@ -2907,6 +2909,8 @@ function downloadAllFavICS() {
 // ========== EVENT MAP ==========
 let eventMap = null;
 let mapMarkers = [];
+let placeMarkers = [];
+let placesVisible = true;
 let mapVisible = true;
 
 function openKontaktModal() {
@@ -3114,11 +3118,81 @@ function updateEventMap(filteredEvents) {
   if (statsEl) {
     const cityCount = Object.keys(locGroups).length;
     const eventCount = filteredEvents.filter(e => !e._ad).length;
-    const platsCount = filteredEvents.filter(e => e._place).length;
     let txt = cityCount + ' orter \u00b7 ' + eventCount + ' evenemang';
-    if (platsCount > 0) txt += ' \u00b7 ' + platsCount + (platsCount === 1 ? ' plats' : ' platser');
+    // Show count of visible place dots from PLACES_DATA
+    const visiblePlaceCount = placeMarkers.length;
+    if (visiblePlaceCount > 0) txt += ' \u00b7 ' + visiblePlaceCount + (visiblePlaceCount === 1 ? ' plats' : ' platser');
     statsEl.textContent = txt;
   }
+}
+
+// ========== PLACES (teal dots from places.js) ==========
+
+const PLACE_CATEGORY_LABELS = {
+  'mc-handel': 'MC-handlare',
+  'bensin': 'Bensinstation',
+  'mc-klubb': 'MC-klubb',
+  'cafe': 'Café/Restaurang',
+  'camping': 'Camping',
+  'verkstad': 'Verkstad',
+  'motesplats': 'Mötesplats',
+  'arena': 'Arena/Bana'
+};
+
+function createPlacePopup(place) {
+  const catLabel = PLACE_CATEGORY_LABELS[place.category] || place.category;
+  const orgs = place.organizers.length > 0
+    ? '<div style="margin-top:6px;font-size:12px;color:#555">Används av: ' + place.organizers.join(', ') + '</div>'
+    : '';
+  const eventLine = '<div style="font-size:12px;color:#777">' + place.eventCount + ' evenemang här</div>';
+  const mapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(place.address);
+  const mapLink = '<div style="margin-top:4px"><a href="' + mapUrl + '" target="_blank" rel="noopener" style="color:#0891b2;font-size:12px">Karta \u2192</a></div>';
+
+  return '<div style="min-width:160px">'
+    + '<div style="font-size:11px;color:#0891b2;font-weight:600;text-transform:uppercase;letter-spacing:0.5px">' + catLabel + '</div>'
+    + '<div style="font-size:14px;font-weight:700;margin:2px 0">' + place.name + '</div>'
+    + '<div style="font-size:12px;color:#666">' + place.address + '</div>'
+    + orgs
+    + eventLine
+    + mapLink
+    + '</div>';
+}
+
+function updatePlaceDots(showPlaces, activeRegion) {
+  if (!eventMap) return;
+
+  // Clear old place markers
+  placeMarkers.forEach(m => eventMap.removeLayer(m));
+  placeMarkers = [];
+
+  if (!showPlaces || typeof PLACES_DATA === 'undefined' || !PLACES_DATA.places) return;
+
+  PLACES_DATA.places.forEach(place => {
+    // Region filter
+    if (activeRegion && activeRegion !== 'all' && place.region !== activeRegion) return;
+
+    const marker = L.circleMarker([place.lat, place.lon], {
+      radius: 5,
+      fillColor: '#0891b2',
+      color: '#0e7490',
+      weight: 1,
+      fillOpacity: 0.8
+    }).addTo(eventMap);
+
+    const catLabel = PLACE_CATEGORY_LABELS[place.category] || place.category;
+    marker.bindTooltip(place.name + '<br><span style="color:#0891b2;font-size:11px">' + catLabel + '</span>', {
+      direction: 'top',
+      offset: [0, -5],
+      className: 'map-dot-tooltip'
+    });
+
+    marker.bindPopup(createPlacePopup(place), {
+      maxWidth: 250,
+      className: 'place-popup'
+    });
+
+    placeMarkers.push(marker);
+  });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
