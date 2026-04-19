@@ -2506,7 +2506,8 @@ function render() {
   const mapPlatsOk = !searchQuery && (onlyRegionFilter || currentFilter === 'Plats');
   const mapPlats = mapPlatsOk ? platsCards.filter(ad => (currentRegion === 'all') || ad.region === currentRegion) : [];
   updateEventMap(events.concat(mapPlats));
-  updatePlaceDots(mapPlatsOk && !searchQuery, currentRegion);
+  updatePlaceDots(mapPlatsOk, currentRegion);
+  updateMapStats();
 
   // Map city filter
   if (mapCityFilter) {
@@ -3113,17 +3114,21 @@ function updateEventMap(filteredEvents) {
     mapMarkers.push(marker);
   });
 
-  // Update stats (count events and platser separately to match header count)
+  // Stats are updated separately by updateMapStats() after place dots are also rendered
+  lastMapCityCount = Object.keys(locGroups).length;
+  lastMapEventCount = filteredEvents.filter(e => !e._ad).length;
+}
+
+let lastMapCityCount = 0;
+let lastMapEventCount = 0;
+
+function updateMapStats() {
   const statsEl = document.getElementById('mapStats');
-  if (statsEl) {
-    const cityCount = Object.keys(locGroups).length;
-    const eventCount = filteredEvents.filter(e => !e._ad).length;
-    let txt = cityCount + ' orter \u00b7 ' + eventCount + ' evenemang';
-    // Show count of visible place dots from PLACES_DATA
-    const visiblePlaceCount = placeMarkers.length;
-    if (visiblePlaceCount > 0) txt += ' \u00b7 ' + visiblePlaceCount + (visiblePlaceCount === 1 ? ' plats' : ' platser');
-    statsEl.textContent = txt;
-  }
+  if (!statsEl) return;
+  let txt = lastMapCityCount + ' orter \u00b7 ' + lastMapEventCount + ' evenemang';
+  const visiblePlaceCount = placeMarkers.length;
+  if (visiblePlaceCount > 0) txt += ' \u00b7 ' + visiblePlaceCount + (visiblePlaceCount === 1 ? ' plats' : ' platser');
+  statsEl.textContent = txt;
 }
 
 // ========== PLACES (teal dots from places.js) ==========
@@ -3139,14 +3144,33 @@ const PLACE_CATEGORY_LABELS = {
   'arena': 'Arena/Bana'
 };
 
+function scrollToCard(eventId) {
+  const cardEl = document.getElementById('c-' + eventId);
+  if (cardEl) {
+    cardEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    // Brief highlight flash
+    cardEl.style.transition = 'box-shadow 0.3s';
+    cardEl.style.boxShadow = '0 0 0 3px #0891b2';
+    setTimeout(() => { cardEl.style.boxShadow = ''; }, 2000);
+  }
+}
+
 function createPlacePopup(place) {
   const catLabel = PLACE_CATEGORY_LABELS[place.category] || place.category;
   const orgs = place.organizers.length > 0
     ? '<div style="margin-top:6px;font-size:12px;color:#555">Används av: ' + place.organizers.join(', ') + '</div>'
     : '';
-  const eventLine = '<div style="font-size:12px;color:#777">' + place.eventCount + ' evenemang här</div>';
+  const eventLine = place.eventCount > 0
+    ? '<div style="font-size:12px;color:#777">' + place.eventCount + ' evenemang här</div>'
+    : '';
   const mapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(place.address);
   const mapLink = '<div style="margin-top:4px"><a href="' + mapUrl + '" target="_blank" rel="noopener" style="color:#0891b2;font-size:12px">Karta \u2192</a></div>';
+
+  // "Visa kort" link if this place has a matching AD card
+  let cardLink = '';
+  if (place.cardId) {
+    cardLink = '<div><a href="javascript:void(0)" onclick="scrollToCard(\'' + place.cardId + '\')" style="color:#0891b2;font-size:12px">Visa kort \u2192</a></div>';
+  }
 
   return '<div style="min-width:160px">'
     + '<div style="font-size:11px;color:#0891b2;font-weight:600;text-transform:uppercase;letter-spacing:0.5px">' + catLabel + '</div>'
@@ -3155,7 +3179,32 @@ function createPlacePopup(place) {
     + orgs
     + eventLine
     + mapLink
+    + cardLink
     + '</div>';
+}
+
+function addPlaceMarker(place) {
+  const marker = L.circleMarker([place.lat, place.lon], {
+    radius: 5,
+    fillColor: '#0891b2',
+    color: '#0e7490',
+    weight: 1,
+    fillOpacity: 0.8
+  }).addTo(eventMap);
+
+  const catLabel = PLACE_CATEGORY_LABELS[place.category] || place.category;
+  marker.bindTooltip(place.name + '<br><span style="color:#0891b2;font-size:11px">' + catLabel + '</span>', {
+    direction: 'top',
+    offset: [0, -5],
+    className: 'map-dot-tooltip'
+  });
+
+  marker.bindPopup(createPlacePopup(place), {
+    maxWidth: 250,
+    className: 'place-popup'
+  });
+
+  placeMarkers.push(marker);
 }
 
 function updatePlaceDots(showPlaces, activeRegion) {
@@ -3165,34 +3214,55 @@ function updatePlaceDots(showPlaces, activeRegion) {
   placeMarkers.forEach(m => eventMap.removeLayer(m));
   placeMarkers = [];
 
-  if (!showPlaces || typeof PLACES_DATA === 'undefined' || !PLACES_DATA.places) return;
+  if (!showPlaces) return;
 
-  PLACES_DATA.places.forEach(place => {
-    // Region filter
-    if (activeRegion && activeRegion !== 'all' && place.region !== activeRegion) return;
-
-    const marker = L.circleMarker([place.lat, place.lon], {
-      radius: 5,
-      fillColor: '#0891b2',
-      color: '#0e7490',
-      weight: 1,
-      fillOpacity: 0.8
-    }).addTo(eventMap);
-
-    const catLabel = PLACE_CATEGORY_LABELS[place.category] || place.category;
-    marker.bindTooltip(place.name + '<br><span style="color:#0891b2;font-size:11px">' + catLabel + '</span>', {
-      direction: 'top',
-      offset: [0, -5],
-      className: 'map-dot-tooltip'
+  // 1. Add places from PLACES_DATA (data-driven, extracted from events)
+  if (typeof PLACES_DATA !== 'undefined' && PLACES_DATA.places) {
+    PLACES_DATA.places.forEach(place => {
+      if (activeRegion && activeRegion !== 'all' && place.region !== activeRegion) return;
+      addPlaceMarker(place);
     });
+  }
 
-    marker.bindPopup(createPlacePopup(place), {
-      maxWidth: 250,
-      className: 'place-popup'
+  // 2. Add AD Place cards (_place: true) as blue dots too
+  //    These have frontImage/backImage so popup gets a "Visa kort" link
+  if (typeof EVENTS_DATA !== 'undefined') {
+    const adPlaces = EVENTS_DATA.events.filter(e => e._place);
+    adPlaces.forEach(ad => {
+      if (activeRegion && activeRegion !== 'all' && ad.region !== activeRegion) return;
+      // Find coords via longest-match (same as event dots)
+      const loc = (ad.location || '').toLowerCase();
+      let bestKey = null, bestLen = 0, bestCoords = null;
+      for (const [city, coords] of Object.entries(LOCATION_COORDS)) {
+        if (loc.includes(city) && city.length > bestLen) {
+          bestKey = city;
+          bestLen = city.length;
+          bestCoords = coords;
+        }
+      }
+      if (!bestCoords) return;
+
+      // Build a place-like object for the popup
+      const place = {
+        name: ad.name,
+        address: ad.location,
+        category: 'cafe', // default for AD places
+        region: ad.region,
+        lat: bestCoords.lat,
+        lon: bestCoords.lon,
+        organizers: ad.organizer ? [ad.organizer] : [],
+        eventCount: 0,
+        cardId: ad.id
+      };
+      // Try to detect better category
+      if (/pizzeria|café|cafe|restaurang|krog/i.test(ad.name + ' ' + ad.location)) place.category = 'cafe';
+      else if (/verkstad|workshop|service/i.test(ad.name + ' ' + ad.location)) place.category = 'verkstad';
+      else if (/mc-handel|handlare/i.test(ad.name)) place.category = 'mc-handel';
+      else place.category = 'motesplats';
+
+      addPlaceMarker(place);
     });
-
-    placeMarkers.push(marker);
-  });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
