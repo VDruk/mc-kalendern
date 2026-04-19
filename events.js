@@ -8028,6 +8028,33 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/voge-dagen-back-2026-04-25.jpg"
                                     },
                                     {
+                                                      "id": "hog-stockholm-lordagskorning-2026-04-25",
+                                                      "name": "Lördagskörning - Öppet hus-körning!",
+                                                      "date": "2026-04-25",
+                                                      "dateEnd": "2026-04-25",
+                                                      "location": "Probike Stockholm, Åkerivägen 6, Täby",
+                                                      "type": "Körning",
+                                                      "organizer": "H.O.G. Stockholm Chapter",
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "description": "Öppen lördagskörning med H.O.G. Stockholm. Alla hojåkare välkomna, inte bara medlemmar! Samling 10:00, avfärd 10:30. Tillbaka ca 15:00.",
+                                                      "descriptionFull": "Välkommen till ännu en härlig lördagskörning med H.O.G. Stockholm Chapter!\n\nDen här gången gör vi något extra roligt – vi öppnar upp turen för hojåkare som ännu inte är med i H.O.G., men är nyfikna på gemenskapen och våra körningar. Så passa på att bjuda in vänner, bekanta och andra som kör hoj – ju fler desto roligare!\n\nPlats: Probike Stockholm\nDatum: Lördag 25 april\nSamling: 10:00\nAvfärd: 10:30\nDagens mål: TBD\nTillbaka ca: 15:00\n\nKom i tid med full tank och redo för en härlig dag på vägarna.\n\nDagens Road Captain: Micke",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/26098882486461722"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Åkerivägen+6+Täby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/26098882486461722",
+                                                      "region": "Stockholm",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/hog-stockholm-lordagskorning-back-2026-04-25.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d9-aprilgruset-2026",
                                                       "name": "D9 Aprilgruset",
                                                       "date": "2026-04-26",
@@ -10366,6 +10393,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/vrs-sondagstur-back-2026-05-03.jpg"
                                     },
                                     {
+                                                      "id": "mc-for-alla-sasongsstart-2026-05-03",
+                                                      "name": "Säsongspremiär 2026",
+                                                      "date": "2026-05-03",
+                                                      "dateEnd": "2026-05-03",
+                                                      "location": "Motostar, Såggatan 3, Sjöbo",
+                                                      "type": "Körning",
+                                                      "organizer": "MC för alla - Skåne",
+                                                      "description": "Första söndagsturen för säsongen! Samling 10:40, avfärd 11:00. Lugnt tempo på trevliga asfaltsvägar. Avslut på Äventyrskampen Sövde ca 13:00.",
+                                                      "descriptionFull": "Jag vet vi smygstartat lite med både Påskarallyt och Motostars öppet hus, men nu drar vi igång säsongen på riktigt med första söndagsturen!\n\nSamling på Motostar i Sjöbo 10:40\nAvfärd 11:00\nAvslut på Äventyrskampen Sövde ca 13-13:30\n\nHäng med oss på riktigt trevliga asfaltsvägar i lugnt tempo så alla kan hänga med\n\nTipsa era vänner så vi blir så många som möjligt!\n\nVi ses där!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/2354941118361200"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Såggatan+3+Sjöbo",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/2354941118361200",
+                                                      "region": "Skåne",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/mc-for-alla-sasongsstart-back-2026-05-03.jpg"
+                                    },
+                                    {
                                                       "id": "doa-kvallskörning-nacka-2026-05-04",
                                                       "name": "DOA - Kvällskörning Nacka",
                                                       "date": "2026-05-04",
@@ -10800,6 +10853,10 @@ const EVENTS_DATA = {
                                                                         {
                                                                                           "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/1490967879081525"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1617398266145345"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
