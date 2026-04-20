@@ -33374,6 +33374,36 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "rusktraffen-2026",
+                                                      "name": "Ruskträffen 2026",
+                                                      "date": "2026-10-09",
+                                                      "dateEnd": "2026-10-11",
+                                                      "location": "Barva Bygdegård, Eskilstuna",
+                                                      "type": "Träff",
+                                                      "organizer": "Tuna Touring MC",
+                                                      "description": "44:e Ruskträffen! Tre dagar med grillat, föreläsning, buggkurs, svartrundan och musik. Anmälningsavgift 350 kr inkl frukostbuffé, kaffe, macka och klistermärke. Sovsal 150 kr.",
+                                                      "descriptionFull": "RUSKTRÄFFEN 2026\n\nGlöm ej boka in 9 - 11 oktober\nVart: Barva Bygdegård\nDU kommer väl\n\nLäs mer om träffen på vår hemsida\ntunatouringmc.se/rusktraffen/",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1522832736512606&set=a.504087578387132"
+                                                                        },
+                                                                        {
+                                                                                          "label": "tunatouringmc.se",
+                                                                                          "url": "https://tunatouringmc.se/rusktraffen/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Barva+Bygdeg%C3%A5rd+Eskilstuna",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/photo/?fbid=1522832736512606&set=a.504087578387132",
+                                                      "region": "Södermanland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/rusktraffen-back-2026-10-09.jpg"
+                                    },
+                                    {
                                                       "id": "doa-emilsturen-2026-10-11",
                                                       "name": "DOA - Emilsturen",
                                                       "date": "2026-10-11",
