@@ -1741,6 +1741,7 @@ function buildBackHTML(cardId, ev) {
     ? `<div class="back-cal-row"><a class="cal-trigger" href="https://ko-fi.com/mckalender" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="text-decoration:none;display:inline-flex;align-items:center;gap:8px">
         <img src="ads/kofi-logo.webp" alt="" height="20"> Stöd MC Kalendern
       </a></div>`
+    : ev._ad ? ''
     : `<div class="back-cal-row"><div class="cal-dropdown-wrapper">
       <button class="cal-trigger" onclick="event.stopPropagation();this.parentElement.classList.toggle('open')">
         <img src="ads/icon-cal-generic.png" alt="" width="18" height="18"> Lägg till i kalender <span class="cal-arrow">▼</span>
