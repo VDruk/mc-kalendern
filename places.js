@@ -1,6 +1,21 @@
 const PLACES_DATA = {
-  "lastUpdated": "2026-04-18",
+  "lastUpdated": "2026-04-20",
   "places": [
+    {
+      "id": "probike-stockholm",
+      "name": "Probike Stockholm",
+      "address": "Probike Stockholm, Åkerivägen 6, Täby",
+      "category": "mc-handel",
+      "region": "Stockholm",
+      "lat": 59.4832829,
+      "lon": 18.0584031,
+      "organizers": [
+        "Probike",
+        "H.O.G. Stockholm Chapter",
+        "H-DCS"
+      ],
+      "eventCount": 24
+    },
     {
       "id": "ok-kramfors",
       "name": "OK Kramfors",
@@ -14,6 +29,19 @@ const PLACES_DATA = {
       ],
       "eventCount": 22,
       "note": "H-DCS samlingspunkt"
+    },
+    {
+      "id": "klubbstugan",
+      "name": "Klubbstugan",
+      "address": "Klubbstugan, Ingarvsvägen 8 B, Falun",
+      "category": "mc-klubb",
+      "region": "Dalarna",
+      "lat": 60.6080861,
+      "lon": 15.599032,
+      "organizers": [
+        "The Twin Club Falun"
+      ],
+      "eventCount": 21
     },
     {
       "id": "circle-k",
@@ -139,6 +167,20 @@ const PLACES_DATA = {
       "organizers": [
         "Sulas MC",
         "BSA Sverige AB"
+      ],
+      "eventCount": 4
+    },
+    {
+      "id": "motostar",
+      "name": "Motostar",
+      "address": "Motostar, Såggatan 3, Sjöbo",
+      "category": "motesplats",
+      "region": "Skåne",
+      "lat": 55.6373031,
+      "lon": 13.6793131,
+      "organizers": [
+        "Motostar",
+        "MC för alla - Skåne"
       ],
       "eventCount": 4
     },

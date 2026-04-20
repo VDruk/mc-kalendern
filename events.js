@@ -2123,7 +2123,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.thetwinclub.se/",
                                                       "region": "Dalarna",
-                                                      "source": "FB"
+                                                      "source": "FB",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png"
                                     },
                                     {
                                                       "id": "bmw-d10-teater-goteborgskravallerna-2026",
@@ -3227,7 +3228,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.thetwinclub.se/",
                                                       "region": "Dalarna",
-                                                      "source": "thetwinclub.se"
+                                                      "source": "thetwinclub.se",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-04-02",
@@ -12559,6 +12561,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-05-12",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-05-12",
+                                                      "dateEnd": "2026-05-12",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d11-torgnys-vardagstur-2026",
                                                       "name": "D11 Torgnys Vardagstur",
                                                       "date": "2026-05-13",
@@ -14830,6 +14865,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-05-19",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-05-19",
+                                                      "dateEnd": "2026-05-19",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "doa-kvallskörning-norrtalje-2026-05-20",
                                                       "name": "DOA - Kvällskörning Norrtälje",
                                                       "date": "2026-05-20",
@@ -16421,6 +16489,39 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
+                                    },
+                                    {
+                                                      "id": "twin-club-tisdagstur-2026-05-26",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-05-26",
+                                                      "dateEnd": "2026-05-26",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d7-tur-for-nya-medlemmar-2026",
@@ -18214,6 +18315,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-06-02",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-06-02",
+                                                      "dateEnd": "2026-06-02",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026-06-03",
                                                       "name": "D15 Onsdagstur med blandat underlag",
                                                       "date": "2026-06-03",
@@ -19794,6 +19928,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-06-09",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-06-09",
+                                                      "dateEnd": "2026-06-09",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "doa-kvallskörning-norrtalje-2026-06-10",
                                                       "name": "DOA - Kvällskörning Norrtälje",
                                                       "date": "2026-06-10",
@@ -20917,6 +21084,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-06-16",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-06-16",
+                                                      "dateEnd": "2026-06-16",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "condios-djurspatraffen-2026",
                                                       "name": "Djurspaträffen",
                                                       "date": "2026-06-17",
@@ -21682,6 +21882,39 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
+                                    },
+                                    {
+                                                      "id": "twin-club-tisdagstur-2026-06-23",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-06-23",
+                                                      "dateEnd": "2026-06-23",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-06-24",
@@ -22844,6 +23077,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/swedish-mc-touring.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-06-30",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-06-30",
+                                                      "dateEnd": "2026-06-30",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "doa-sommarkvallstur-nacka-2026",
                                                       "name": "DOA - Sommarkvällstur Nacka",
                                                       "date": "2026-07-01",
@@ -23700,6 +23966,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-07-07",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-07-07",
+                                                      "dateEnd": "2026-07-07",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "doa-sommarkvallstur-taby-2026",
                                                       "name": "DOA - Sommarkvällstur Täby",
                                                       "date": "2026-07-08",
@@ -24419,6 +24718,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-07-14",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-07-14",
+                                                      "dateEnd": "2026-07-14",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "doa-sommarkvallstur-ekero-2026",
                                                       "name": "DOA - Sommarkvällstur Ekerö",
                                                       "date": "2026-07-15",
@@ -24999,6 +25331,39 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/111motor",
                                                       "region": "Skåne",
                                                       "source": "facebook.com"
+                                    },
+                                    {
+                                                      "id": "twin-club-tisdagstur-2026-07-21",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-07-21",
+                                                      "dateEnd": "2026-07-21",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
                                                       "id": "doa-sommarkvallstur-skogskyrkogarden-2026",
@@ -25627,6 +25992,39 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
+                                    },
+                                    {
+                                                      "id": "twin-club-tisdagstur-2026-07-28",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-07-28",
+                                                      "dateEnd": "2026-07-28",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
                                                       "id": "doa-sommarkvallstur-nockeby-2026",
@@ -26331,6 +26729,39 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
+                                    },
+                                    {
+                                                      "id": "twin-club-tisdagstur-2026-08-04",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-08-04",
+                                                      "dateEnd": "2026-08-04",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-08-05",
@@ -27319,6 +27750,39 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "twin-club-tisdagstur-2026-08-11",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-08-11",
+                                                      "dateEnd": "2026-08-11",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-08-12",
@@ -28387,6 +28851,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-08-18",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-08-18",
+                                                      "dateEnd": "2026-08-18",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "doa-kvallskörning-norrtalje-2026-08-19",
                                                       "name": "DOA - Kvällskörning Norrtälje",
                                                       "date": "2026-08-19",
@@ -29150,6 +29647,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-08-25",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-08-25",
+                                                      "dateEnd": "2026-08-25",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "doa-kvallskörning-norrtalje-2026-08-26",
                                                       "name": "DOA - Kvällskörning Norrtälje",
                                                       "date": "2026-08-26",
@@ -29840,6 +30370,39 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
+                                    },
+                                    {
+                                                      "id": "twin-club-tisdagstur-2026-09-01",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-09-01",
+                                                      "dateEnd": "2026-09-01",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-09-02",
@@ -30649,6 +31212,39 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "twin-club-tisdagstur-2026-09-08",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-09-08",
+                                                      "dateEnd": "2026-09-08",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
+                                    },
+                                    {
                                                       "id": "doa-kvallskörning-norrtalje-2026-09-09",
                                                       "name": "DOA - Kvällskörning Norrtälje",
                                                       "date": "2026-09-09",
@@ -31426,6 +32022,39 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
+                                    },
+                                    {
+                                                      "id": "twin-club-tisdagstur-2026-09-15",
+                                                      "name": "Tisdagstur på motorcykel",
+                                                      "date": "2026-09-15",
+                                                      "dateEnd": "2026-09-15",
+                                                      "time": "18:30",
+                                                      "endTime": "21:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Ingarvsvägen 8 B, Falun",
+                                                      "organizer": "The Twin Club Falun",
+                                                      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3976810635786444",
+                                                      "description": "Tisdagstur med The Twin Club Falun. Alla med MC är välkomna, ingen medlemskap krävs. Avfärd 18:30.",
+                                                      "descriptionFull": "Varje tisdagskväll under säsongen, med start den 12:e maj, kör vi turer på mc. Alla med motorcykel är välkomna\\! Du behöver inte vara medlem i klubben. Avfärd 18:30, så kom i god tid före det\\!\n\nAll info om våra tisdagsturer hittar du här:\nhttps://www.thetwinclub.se/tisdagsturer/\n\nVälkommen att köra med oss\\!\n\nVi ställer in vid regn och tar nya tag nästkommande tisdag.\nOss väl och ingen illa.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3976810635786444"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Hemsida",
+                                                                                          "url": "https://www.thetwinclub.se/tisdagsturer/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsv%C3%A4gen+8+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-09-16",
