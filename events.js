@@ -71,6 +71,40 @@ const EVENTS_DATA = {
                                                       "frontImage": "ads/tarnsjo-pizzeria-front.jpg"
                                     },
                                     {
+                                                      "_ad": true,
+                                                      "_place": true,
+                                                      "id": "ad-no-name-mc-nykoping",
+                                                      "name": "No Name MC Nyköping",
+                                                      "date": "2026-01-01",
+                                                      "dateEnd": "2026-12-31",
+                                                      "location": "Pilotgången 1, 611 92 Nyköping",
+                                                      "type": "Plats",
+                                                      "organizer": "No Name MC",
+                                                      "organizerIcon": "clubs/normalized/no-name-mc-nykoping.png",
+                                                      "description": "Välkomna till No Name MC Nyköping! Klubblokal på Pilotgången 1. Följ oss på Facebook eller besök nonamemc.se för event och nyheter.",
+                                                      "descriptionFull": "Välkomna till No Name MC Nyköping!\n\nKlubblokal: Pilotgången 1, 611 92 Nyköping\n\nFölj oss på Facebook eller besök nonamemc.se för kommande event och nyheter.",
+                                                      "frontImage": "ads/no-name-mc-nykoping-front.jpg",
+                                                      "backImage": "ads/no-name-mc-nykoping-back.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/NNMCNYK"
+                                                                        },
+                                                                        {
+                                                                                          "label": "nonamemc.se",
+                                                                                          "url": "https://nonamemc.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Pilotgången+1+Nyköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/NNMCNYK",
+                                                      "region": "Södermanland",
+                                                      "source": "AD"
+                                    },
+                                    {
                                                       "id": "if-mc-forsakring-ad-2026",
                                                       "name": "If MC-försäkring",
                                                       "date": "2026-01-01",
