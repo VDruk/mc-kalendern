@@ -17993,6 +17993,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/kungsback-mc-30ar-pokerrun-back-2026-05-30.jpg"
                                     },
                                     {
+                                                      "id": "mc-dagen-sundsvall-2026",
+                                                      "name": "MC-Dagen i Sundsvall 2026",
+                                                      "date": "2026-05-30",
+                                                      "dateEnd": "2026-05-30",
+                                                      "location": "Gärdehov Arena, Johannedalsvägen, Sundsvall",
+                                                      "type": "Körning",
+                                                      "organizer": "Sundsvall MCC",
+                                                      "description": "Samling vid Gärdehov Arena från kl 11:00. Kl 12:00 rullar kortegen med poliseskort in mot Stenstan. En 50-årig tradition som fyller Storgatan med motorcyklar och myller.",
+                                                      "descriptionFull": "Vi har nu fått alla nödvändiga tillstånd på plats och kan glatt meddela att vi kommer att genomföra MC-Dagen i Sundsvall 2026!\n\nSamling vid södra gaveln av Gärdehov Arena från klockan 11:00.\n\nKlockan 12:00 rullar kortegen in mot Stenstan med Poliseskort och förkörsrätt in till vår uppställning på Storgatan.\n\nVi är verkligen glada att kunna arrangera MC-Dagen i Sundsvall 2026.\n\nVi hoppas att just DU och dina vänner kommer och hjälper oss att fylla Stenstan med motorcyklar och myller.\n\nMed tanke på hur kort tid det är kvar så hjälp oss att sprida budskapet att MC-Dagen i Sundsvall är viktigt och ett evenemang vi verkligen vill ha kvar här i Sundsvall.\n\nDet är en tradition som sträcker sig 50 år tillbaka i tiden som vi motorcyklister (och många andra med) verkligen ÄLSKAR!!!\n\nNUUUUU KÖÖÖR VIIIII",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/945929748181894"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gärdehov+Arena+Sundsvall",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/945929748181894",
+                                                      "region": "Västernorrland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/mc-dagen-sundsvall-back-2026-05-30.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d15-mats-och-bodils-tur-2026",
                                                       "name": "D15 Mats och Bodils tur",
                                                       "date": "2026-05-31",
