@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-                  "lastUpdated": "2026-04-17",
+                  "lastUpdated": "2026-04-20",
                   "events": [
                                     {
                                                       "_ad": true,
@@ -14621,6 +14621,29 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/smc-vastmanland-avrostning-back-2026-05-17.jpg"
                                     },
                                     {
+                                                      "id": "adventurecoach-infokvall-2026-05-17",
+                                                      "name": "Adventurecoach Infokväll",
+                                                      "date": "2026-05-17",
+                                                      "dateEnd": "2026-05-17",
+                                                      "time": "19:00",
+                                                      "endTime": "20:00",
+                                                      "type": "Träff",
+                                                      "region": "Sverige",
+                                                      "location": "Online",
+                                                      "organizer": "Adventurecoach Sweden",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/948739598083070",
+                                                      "description": "Online infomöte kl 19-20 om gruskurser i Kalmar, weekendresor nov 2026 och asfaltsresor i södra Spanien feb 2027.",
+                                                      "descriptionFull": "På mötet berättar vi på Adventurecoach om oss, om våra gruskurser i Sverige/Kalmar samt våra resor 3+3 weekendresor i november 2026 och Asfalt i södra Spanien i februari 2027.\n\nDet finns givetvis möjlighet att ställa frågor.\n\nMötet pågår mellan 19-20.\n\nVälkommen\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/948739598083070"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/adventurecoach-infokvall-back-2026-05-17.jpg"
+                                    },
+                                    {
                                                       "id": "doa-kvallskörning-nacka-2026-05-18",
                                                       "name": "DOA - Kvällskörning Nacka",
                                                       "date": "2026-05-18",
@@ -25657,6 +25680,33 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "darcks-motors-dalatravet-2026-07-29",
+                                                      "name": "Darcks Motors Hastighetstävlingar",
+                                                      "date": "2026-07-29",
+                                                      "dateEnd": "2026-07-29",
+                                                      "time": "10:00",
+                                                      "type": "Racing",
+                                                      "region": "Dalarna",
+                                                      "location": "Travvägen 4, Rättvik",
+                                                      "organizer": "Classic Car Week",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/891943810570259",
+                                                      "description": "Hastighetstävlingar på Dalatravet. Rundbana 1000m och rak bana 200m. Publikentré 100 kr, under 12 gratis.",
+                                                      "descriptionFull": "Publikentré 100 kr. Under 12 år gratis. Classicband-gäster fri entré\\!\n\nUnder dagen sker även målgång i rallyt Gammelfarfars Bilar.\n\ndarcksmotors1926@gmail.com för anmälan till uppvisningen.\n\nKl 8:00-10:00 Avlastning och samling i depån.\nKl 10:00 Publikinsläpp (för dom som vill se testkörningen)\nKl 10-11:45 Schemalagd testkörning\nKl 11:45-12:00 Kortege runt banan ett par varv som uppvisning\nKl 12:00 Tävlingsstart rundbana 1000m 2 varv\nKl 13:00 Tävlingsstart rak bana 200m\nKl 15:00 Prisutdelning",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/891943810570259"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Travv%C3%A4gen+4+R%C3%A4ttvik",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/darcks-motors-dalatravet-back-2026-07-29.jpg"
                                     },
                                     {
                                                       "id": "dacketraffen-2026",
