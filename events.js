@@ -6986,6 +6986,32 @@ const EVENTS_DATA = {
                                                       "source": "mchk.org"
                                     },
                                     {
+                                                      "id": "kvallskorning-hyllinge-2026-04-22",
+                                                      "name": "Kvällskörning",
+                                                      "date": "2026-04-22",
+                                                      "dateEnd": "2026-04-22",
+                                                      "location": "Yamaha Center, Vångavägen 4, Hyllinge",
+                                                      "type": "Körning",
+                                                      "organizer": "I Can Ride Adventure",
+                                                      "description": "Samling kl 17:00 vid Yamaha Center Helsingborg. Avgång 17:30, kom tankade. Ta med kaffe och kvällsfika, vi hittar en fin plats att stanna på.",
+                                                      "descriptionFull": "Vi samlas mellan kl. 17.00 - 17.30 (kör 17.30 kom tankade) Ta gärna med kaffe och lite kvällsfika så hittar vi en fin plats att äta medhavd kvällsmat på. Var vi kör ser när vi rullar.\nGlöm inte att anmäla er om ni vill följa med!\nVi möts vid Yamaha Center, och det finns även möjlighet att kika på motorcyklar för den som är sugen.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1571156647676606"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Yamaha+Center+V%C3%A5ngav%C3%A4gen+4+Hyllinge",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1571156647676606",
+                                                      "region": "Skåne",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/kvallskorning-hyllinge-back-2026-04-22.jpg"
+                                    },
+                                    {
                                                       "id": "doa-dagstur-ekero-2026-04-23",
                                                       "name": "DOA - Dagstur Ekerö",
                                                       "date": "2026-04-23",
