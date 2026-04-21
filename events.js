@@ -8670,6 +8670,33 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png"
                                     },
                                     {
+                                                      "id": "smc-valborgskortege-linkoping-2026",
+                                                      "name": "Valborgskortege Linköping - Skänninge",
+                                                      "date": "2026-04-30",
+                                                      "dateEnd": "2026-04-30",
+                                                      "location": "Idögatan 6, Linköping",
+                                                      "type": "Körning",
+                                                      "organizer": "SMC Östergötland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "description": "Valborgskortege från Linköping till Väderkvarnsbacken i Skänninge. Samling på Idögatan 6 från kl 17. Kortegen startar 18:00. Alla 2- och 3-hjuliga fordon välkomna.",
+                                                      "descriptionFull": "Valborgskortege från Linköping till Väderkvarnsbacken i Skänninge. Samling på IDÖ-gatan 6 från 17.00. Kortegen startar 18.00 och vi kör samma väg som vanligt. Alla. 2- och 3-hjuliga fordon välkomna.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/854926823641436"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Idögatan+6+Linköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/854926823641436",
+                                                      "region": "Östergötland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/smc-valborgskortege-linkoping-back-2026-04-30.jpg"
+                                    },
+                                    {
                                                       "id": "1-majkortege-norrkoping-2026",
                                                       "name": "1 Majkortege Norrköping",
                                                       "date": "2026-05-01",
