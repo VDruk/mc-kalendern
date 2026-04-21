@@ -7391,11 +7391,11 @@ const EVENTS_DATA = {
                                                       "type": "Körning",
                                                       "organizer": "Bruno Nicolaus",
                                                       "description": "Gruppkörning på slingriga landsvägar, drygt 100 km, ca 1h 40 min. Samling kl 17:15 vid St1 på Vaksalagatan i Uppsala. Ingen grus.",
-                                                      "descriptionFull": "Mc Tour 2h Friday\n\nHey, I'd like to organize a group ride on Friday, April 24th. We'll be riding a bit over 100 km, which should take roughly 1 hour and 40 minutes (without breaks). The route will be on twisty country roads (no gravel).\n\nWe'll meet at 17:15 at the St1 on Vaksalagatan in Uppsala.\n\nIf you can't make it this time but would still like to join a future ride, feel free to DM me. I have a Sena so it would be possible to ride with intercom.\n\nSee you on Friday",
+                                                      "descriptionFull": "Hey, I'd like to organize a group ride on Friday, April 24th. We'll be riding a bit over 100 km, which should take roughly 1 hour and 40 minutes (without breaks). The route will be on twisty country roads (no gravel).\n\nWe'll meet at 17:15 at the St1 on Vaksalagatan in Uppsala.\n\nIf you can't make it this time but would still like to join a future ride, feel free to DM me. I have a Sena so it would be possible to ride with intercom.\n\nSee you on Friday",
                                                       "links": [
                                                                         {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/profile.php?id=100084809913370"
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/groups/1146286748771749/user/100084809913370"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
@@ -7403,7 +7403,7 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "link": "https://www.facebook.com/profile.php?id=100084809913370",
+                                                      "link": "https://www.facebook.com/groups/1146286748771749/user/100084809913370",
                                                       "region": "Uppsala",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/mc-tour-2h-uppsala-back-2026-04-24.jpg"
