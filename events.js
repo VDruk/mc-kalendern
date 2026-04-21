@@ -28483,6 +28483,40 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "borlange-airshow-2026",
+                                                      "name": "Borlänge Airshow 2026",
+                                                      "date": "2026-08-14",
+                                                      "dateEnd": "2026-08-15",
+                                                      "location": "Nybrovägen 53, Borlänge",
+                                                      "type": "Show",
+                                                      "organizer": "Borlänge Airshow",
+                                                      "description": "Flygshow med JAS 39, Hercules och ca 20 inslag. Bra samlingspunkt för MC-folk. Biljetter på borlangeairshow.se.",
+                                                      "descriptionFull": "Ni har väl inte missat att bland annat kommer Jas39 och mäktiga Hercules kommer till Borlänge Airshow 15 Augusti + ca 20 ytterligare inslag\n\nwww.borlangeairshow.se",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1257973915924486"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Webbplats",
+                                                                                          "url": "https://www.borlangeairshow.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Biljetter",
+                                                                                          "url": "https://www.borlangeairshow.se/webbshop"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Nybrovägen+53+Borlänge",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1257973915924486",
+                                                      "region": "Dalarna",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/borlange-airshow-back-2026-08-15.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d11-blekingerundan-2026-2026",
                                                       "name": "D11 Blekingerundan 2026",
                                                       "date": "2026-08-15",
