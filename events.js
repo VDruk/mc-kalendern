@@ -7357,6 +7357,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/vrs-bikedagarna-back-2026-04-24.jpg"
                                     },
                                     {
+                                                      "id": "cec-oppet-hus-tibro-2026-04-24",
+                                                      "name": "Öppet hus CEC Motorcycles Tibro",
+                                                      "date": "2026-04-24",
+                                                      "dateEnd": "2026-04-25",
+                                                      "location": "CEC Motorcycles, Norra Rydsgatan 7, Tibro",
+                                                      "type": "Show",
+                                                      "organizer": "CEC Motorcycles",
+                                                      "description": "Öppet hus med bra priser på reservdelar, tillbehör och fordon. Kaffe, fika och korv med bröd. 24/4 kl 10-18, 25/4 kl 10-15.",
+                                                      "descriptionFull": "Välkommen på öppet hus hos CEC Motorcycles Tibro\\!\nDen 24–25 april öppnar vi dörrarna och bjuder in till två fullspäckade dagar med härlig stämning i butiken.\n24/4 kl. 10.00–18.00\n25/4 kl. 10.00–15.00\nUnder dagarna kan du ta del av riktigt bra priser i hela butiken, allt från reservdelar och tillbehör till fordon.\nVi bjuder dessutom på kaffe, fika och korv med bröd, så passa på att svänga förbi, snacka hoj, provkör fordon och göra riktigt bra fynd.\nVarmt välkomna\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/837429072714001"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=CEC+Motorcycles+Norra+Rydsgatan+7+Tibro",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/837429072714001",
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/cec-oppet-hus-tibro-back-2026-04-24.jpg"
+                                    },
+                                    {
                                                       "id": "ahlqvist-mc-oppet-hus-2026-04-25",
                                                       "name": "Öppet hus Ahlqvist MC",
                                                       "date": "2026-04-25",
@@ -10191,6 +10217,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/biscaya-motorcykelns-dag-back-2026-05-02.jpg"
                                     },
                                     {
+                                                      "id": "one-ride-one-cause-halmstad-2026-05-02",
+                                                      "name": "One Ride One Cause",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "location": "Biltema, Stormgatan 1, Halmstad",
+                                                      "type": "Körning",
+                                                      "organizer": "SK Motors charity rides",
+                                                      "description": "Välgörenhetstur för Kvinnojouren Viktoria. Samling vid Biltema Halmstad, fika vid Fika by Steph i Rydöbruk. Alla hojar välkomna, bidrag via Swish.",
+                                                      "descriptionFull": "One ride, one cause\" – på lördag den 2 maj rullar vi för en av de viktigaste sakerna vi har i Halmstad: Kvinnojouren Viktoria.\n\nJag har precis varit i kontakt med dem, och behovet av hjälp är tyvärr större än någonsin just nu. Därför vill jag att vi visar vad mc-communityt i Halmstad går för\\!\n\nVi gör det enkelt och opretentiöst. Målet är gemenskap, en snygg runda på småvägarna och att samla in så mycket bidrag som möjligt till jourens livsviktiga arbete.\n\nSAMLING: Biltema Halmstad\nMÅL: Fika by Steph i Rydöbruk (via de sköna bakvägarna\\!)\n\nVem kan hänga på?\nALLA är välkomna\\! Det spelar ingen roll om du kör en glidare, sporthoj, offroad eller touring. Det är ändamålet som räknas. Vi håller ett tempo så att alla kan hänga med.\n\nVi kommer att dela Kvinnojourens officiella Swish-nummer under samlingen och vid målgången. Varje krona går direkt till dem.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/802161329289265"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+Stormgatan+1+Halmstad",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/802161329289265",
+                                                      "region": "Halland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/one-ride-one-cause-halmstad-back-2026-05-02.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d10-gruskurs-avancerad-2026-05-03",
                                                       "name": "D10 Gruskurs Avancerad 2-cylindriga",
                                                       "date": "2026-05-03",
@@ -10764,6 +10816,32 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "tisdagsfika-tidaholm-2026",
+                                                      "name": "Tisdagsfika på Gamla Torget",
+                                                      "date": "2026-05-05",
+                                                      "dateEnd": "2026-08-25",
+                                                      "location": "Gamla Torget, Tidaholm",
+                                                      "type": "Träff",
+                                                      "organizer": "Labbås Cruisers Tidaholm",
+                                                      "description": "Varje tisdag maj-augusti fylls Gamla Torget med glänsande krom och lack. Bilar, MC, mopeder, EPA och A-traktorer. Fika och varm mat finns att köpa.",
+                                                      "descriptionFull": "Välkommen till gamla Torget i Tidaholm\nalla tisdagar från 5 maj till 25 augusti.\nVi hoppas att precis som förra året fylla torget med\nglänsande krom och lack\\!\nÄgare till äldre bilar, entusiastfordon, MC, mopeder, Epa- och A-traktorer hoppas vi ställer upp sina fordon på torget.\nBåde fika och varm mat finns att köpa på restauranger eller konditori\nArr Labbås Cruisers Tidaholm",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1547672210051093/1547672216717759"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Torget+Tidaholm",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1547672210051093/1547672216717759",
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026-05-06",
                                                       "name": "D15 Onsdagstur med blandat underlag",
                                                       "date": "2026-05-06",
@@ -10897,6 +10975,32 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "jarlasa-motor-meet-8-2026-05-06",
+                                                      "name": "Järlåsa Motor Meet #8",
+                                                      "date": "2026-05-06",
+                                                      "dateEnd": "2026-05-06",
+                                                      "location": "Järlåsa Bygdegård, Järlåsa-Laggarbo 2, Järlåsa",
+                                                      "type": "Träff",
+                                                      "organizer": "Järlåsa Bygdegård",
+                                                      "description": "Årets första motorträff i Järlåsa\\! Fordon, fika, hamburgare och en massa annat. Alla välkomna från kl 17.",
+                                                      "descriptionFull": "Välkomna till årets första motorträff\\!\nFordon, fika, hamburgare och en massa annat utlovas\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1655454505568704"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Järlåsa+Bygdegård+Järlåsa-Laggarbo+2",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1655454505568704",
+                                                      "region": "Uppsala",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/jarlasa-motor-meet-8-back-2026-05-06.jpg"
                                     },
                                     {
                                                       "id": "72-mil-grus-2026-05-07",
@@ -13377,6 +13481,32 @@ const EVENTS_DATA = {
                                                       "region": "Värmland",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/tangens-mc-memorial-run-back-2026-05-14.jpg"
+                                    },
+                                    {
+                                                      "id": "massingsbruks-mopedrunda-2026-05-14",
+                                                      "name": "Mässingsbruks mopedrunda",
+                                                      "date": "2026-05-14",
+                                                      "dateEnd": "2026-05-14",
+                                                      "location": "Skultuna, Västerås",
+                                                      "type": "Körning",
+                                                      "organizer": "Moped gänget Västerås",
+                                                      "description": "Veteranmopedrally runt Skultuna, 6-7 mil. Poker-Run med fina priser, hamburgare ingår i startavgift. Förarmöte kl 10:30. Kristi himmelsfärdsdag.",
+                                                      "descriptionFull": "Moped gänget Västerås bjuder in till moped\nveteran rally den 14 maj 2026..\nRundan kommer att gå runt Skultuna 6-7 mil ..ny åk väg blir de i år..\nHamrburgare (ingår i startavg) kommer att serveras på ett av våra stopp ..\nVi kör en Poker-Run med fina priser samt en vandrings pokal..\n1 lott ingår i start avg.\nSkultuna Lions kommer att sälja korv.\nSvenska kyrka ungdom säljer kaffe med till tugg.\nKommer även att finnas en skammkärra för den eller dom som inte tar sig runt..\nParkering kommer att finnas 1 km ifrån start (Skultuna lagården) kommer att vara funktonärer som visar er vägen + pilar dit..\nKurt Wilard kommer ner från Grängesberg å säljer moped delar. .\nKommer att vara ett prisbord värt ca 50000 kr som våra fantastiska sponsorer ha skänkt.. 95 sponsorer \nOBS förarmötet är kl 10.30..",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/4356849061225936"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Skultuna",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/4356849061225936",
+                                                      "region": "Västmanland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/massingsbruks-mopedrunda-back-2026-05-14.jpg"
                                     },
                                     {
                                                       "id": "ankansracing-trackdays-2026-05-15",
@@ -29896,6 +30026,32 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "jarlasa-motor-meet-9-2026-08-26",
+                                                      "name": "Järlåsa Motor Meet #9",
+                                                      "date": "2026-08-26",
+                                                      "dateEnd": "2026-08-26",
+                                                      "location": "Järlåsa Bygdegård, Järlåsa-Laggarbo 2, Järlåsa",
+                                                      "type": "Träff",
+                                                      "organizer": "Järlåsa Bygdegård",
+                                                      "description": "Årets sista motorträff i Järlåsa\\! Fika, hamburgare och mycket annat. Alla välkomna från kl 17.",
+                                                      "descriptionFull": "Välkomna på årets sista motorträff där det som vanligt serveras fika, hamburgare och mycket annat.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1194663495935069"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Järlåsa+Bygdegård+Järlåsa-Laggarbo+2",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1194663495935069",
+                                                      "region": "Uppsala",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/jarlasa-motor-meet-9-back-2026-08-26.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-08-27",
