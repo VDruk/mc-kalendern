@@ -7383,6 +7383,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/cec-oppet-hus-tibro-back-2026-04-24.jpg"
                                     },
                                     {
+                                                      "id": "mc-tour-2h-uppsala-2026-04-24",
+                                                      "name": "MC Tour 2h Friday",
+                                                      "date": "2026-04-24",
+                                                      "dateEnd": "2026-04-24",
+                                                      "location": "St1, Vaksalagatan, Uppsala",
+                                                      "type": "Körning",
+                                                      "organizer": "Bruno Nicolaus",
+                                                      "description": "Gruppkörning på slingriga landsvägar, drygt 100 km, ca 1h 40 min. Samling kl 17:15 vid St1 på Vaksalagatan i Uppsala. Ingen grus.",
+                                                      "descriptionFull": "Mc Tour 2h Friday\n\nHey, I'd like to organize a group ride on Friday, April 24th. We'll be riding a bit over 100 km, which should take roughly 1 hour and 40 minutes (without breaks). The route will be on twisty country roads (no gravel).\n\nWe'll meet at 17:15 at the St1 on Vaksalagatan in Uppsala.\n\nIf you can't make it this time but would still like to join a future ride, feel free to DM me. I have a Sena so it would be possible to ride with intercom.\n\nSee you on Friday",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/profile.php?id=100084809913370"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=St1+Vaksalagatan+Uppsala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/profile.php?id=100084809913370",
+                                                      "region": "Uppsala",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/mc-tour-2h-uppsala-back-2026-04-24.jpg"
+                                    },
+                                    {
                                                       "id": "ahlqvist-mc-oppet-hus-2026-04-25",
                                                       "name": "Öppet hus Ahlqvist MC",
                                                       "date": "2026-04-25",
