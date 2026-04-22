@@ -10269,6 +10269,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/one-ride-one-cause-halmstad-back-2026-05-02.jpg"
                                     },
                                     {
+                                                      "id": "motorcykelns-dag-mckonsult-lidkoping-2026-05-02",
+                                                      "name": "Motorcykelns Dag hos MC-konsult!",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "location": "Kinnegatan 15, 531 33 Lidköping",
+                                                      "type": "Show",
+                                                      "organizer": "Mc-konsult i Lidköping",
+                                                      "description": "Provkör demohojar och delta i utlottning av presentkort på 3000 kr. Hjälmberg med Nolanhjälmar till superpris. Köp 3 betala för 2 på Triumph/Indian-kläder. Matservering.",
+                                                      "descriptionFull": "Välkommen till oss på Motorcykelns Dag! Alla demohojar startklara och du som provkör är med i utlottningen av ett presentkort på 3000:- att användas i butiken eller verkstan! Dessutom hjälmberg med Nolanhjälmar till superpris och ta 3 betala för 2 bland våra Triumph/Indian originalkläder. Nån slags matservering kommer också finnas",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1925445591443024"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1925445591443024",
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/motorcykelns-dag-mckonsult-back-2026-05-02.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d10-gruskurs-avancerad-2026-05-03",
                                                       "name": "D10 Gruskurs Avancerad 2-cylindriga",
                                                       "date": "2026-05-03",
