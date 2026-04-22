@@ -294,6 +294,18 @@
     0%, 100% { opacity: 1; }
     50% { opacity: 0.4; }
   }
+  @media (max-width: 600px) {
+    .hander-inner {
+      flex-wrap: wrap; justify-content: center;
+      padding: 8px 10px; gap: 6px;
+    }
+    .hander-label {
+      width: 100%; text-align: center; margin-right: 0; margin-bottom: 2px;
+      font-size: 12px;
+    }
+    .hander-chip { padding: 5px 12px; font-size: 12px; }
+    .hander-bar { margin: 8px auto; padding: 0 8px; }
+  }
 
   /* ========== STICKY FILTERS ========== */
   .filters-wrapper {
