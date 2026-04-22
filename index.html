@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>MC Kalender 2026 - MC Kalendern | MC-träffar, evenemang & körningar i Sverige</title>
-<meta name="description" content="MC Kalender 2026 med mer än tusen MC-evenemang i Sverige. MC Kalendern listar träffar, mässor, körningar, racing och fester. Hitta MC-träff idag eller planera hela MC-säsongen.">
+<meta name="description" content="MC Kalender 2026 med 1300+ MC-evenemang i Sverige. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. Träffar, körningar, mässor, racing och fester från 380+ arrangörer.">
 <meta name="author" content="Slava Druk">
 <link rel="canonical" href="https://druk.se/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -29,8 +29,8 @@
 <meta property="fb:app_id" content="966242223397117">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://druk.se/">
-<meta property="og:title" content="MC Kalender 2026 - MC Kalendern | MC-träffar i Sverige">
-<meta property="og:description" content="MC Kalender 2026 med mer än tusen MC-evenemang i Sverige. Träffar, mässor, körningar, racing och fester. Hitta MC-träff idag.">
+<meta property="og:title" content="MC Kalender 2026 | 1300+ MC-träffar och evenemang i Sverige">
+<meta property="og:description" content="Sveriges största MC-kalender. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. 1300+ evenemang från 380+ arrangörer.">
 <meta property="og:image" content="https://druk.se/ads/og-image-cover.jpg">
 <meta property="og:image:alt" content="Sveriges Största MC-Kalender - MC Kalendern 2026">
 <meta property="og:image:width" content="1200">
@@ -40,8 +40,8 @@
 
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="MC Kalender 2026 - MC Kalendern | MC-träffar i Sverige">
-<meta name="twitter:description" content="MC Kalender 2026 med mer än tusen MC-evenemang i Sverige. Träffar, mässor, körningar, racing och fester. Hitta MC-träff idag.">
+<meta name="twitter:title" content="MC Kalender 2026 | 1300+ MC-träffar och evenemang i Sverige">
+<meta name="twitter:description" content="Sveriges största MC-kalender. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. 1300+ evenemang från 380+ arrangörer.">
 <meta name="twitter:image" content="https://druk.se/ads/og-image-cover.jpg">
 
 <!-- events.js moved to end of body for non-blocking load -->
@@ -224,6 +224,75 @@
     padding: 8px 16px; white-space: nowrap;
     border-left: 1px solid var(--border);
     margin-left: 4px;
+  }
+
+  /* ========== HÄNDER JUST NU BAR ========== */
+  .hander-bar {
+    max-width: 1100px; margin: 12px auto;
+    padding: 0 16px;
+  }
+  .hander-inner {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 10px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .hander-label {
+    font-size: 13px; font-weight: 600; color: var(--text-primary);
+    white-space: nowrap;
+    margin-right: 4px;
+  }
+  .hander-chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 6px 14px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 13px; color: var(--text-secondary);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all var(--transition);
+    text-decoration: none;
+  }
+  .hander-chip:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(255, 107, 53, 0.06);
+  }
+  .hander-chip.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .hander-chip .hander-count {
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .hander-chip.active .hander-count {
+    color: #fff;
+  }
+  .hander-chip .hander-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: #4caf50;
+    animation: hander-pulse 2s infinite;
+  }
+  .hander-chip.no-events {
+    opacity: 0.5;
+    cursor: default;
+  }
+  .hander-chip.no-events:hover {
+    border-color: var(--border);
+    color: var(--text-secondary);
+    background: var(--bg-primary);
+  }
+  @keyframes hander-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
   }
 
   /* ========== STICKY FILTERS ========== */
@@ -1366,7 +1435,7 @@
   "@type": "WebSite",
   "name": "MC Kalendern",
   "url": "https://druk.se/",
-  "description": "Hitta MC-träffar i Sverige 2026. Mer än tusen MC-evenemang: träffar, mässor, körningar, racing, fester och trackdays. Komplett MC-kalender med alla MC-träffar idag och kommande.",
+  "description": "MC Kalender 2026 med 1300+ MC-evenemang i Sverige. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. Träffar, körningar, mässor, racing och fester från 380+ arrangörer.",
   "inLanguage": "sv",
   "image": "https://druk.se/ads/mc-kalender-google-square.jpg",
   "thumbnailUrl": "https://druk.se/ads/mc-kalender-google-square.jpg",
@@ -1381,6 +1450,11 @@
       "height": 1200
     },
     "image": "https://druk.se/ads/mc-kalender-google-square.jpg"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://druk.se/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
   }
 }
 </script>
@@ -1514,6 +1588,26 @@
   </div>
 </div>
 
+<!-- ========== HÄNDER JUST NU ========== -->
+<nav class="hander-bar" id="handerBar" aria-label="MC-träffar just nu">
+  <div class="hander-inner">
+    <span class="hander-label">MC-träffar just nu:</span>
+    <a class="hander-chip" id="handerToday" role="button" tabindex="0">
+      <span class="hander-dot"></span>
+      Idag <span class="hander-count" id="handerTodayCount">0</span>
+    </a>
+    <a class="hander-chip" id="handerTomorrow" role="button" tabindex="0">
+      Imorgon <span class="hander-count" id="handerTomorrowCount">0</span>
+    </a>
+    <a class="hander-chip" id="handerWeekend" role="button" tabindex="0">
+      Helgen <span class="hander-count" id="handerWeekendCount">0</span>
+    </a>
+    <a class="hander-chip" id="handerWeek" role="button" tabindex="0">
+      Denna vecka <span class="hander-count" id="handerWeekCount">0</span>
+    </a>
+  </div>
+</nav>
+
 <!-- ========== EVENT MAP ========== -->
 <div class="event-map-section" id="eventMapSection" data-nosnippet>
   <button class="event-map-toggle" id="mapToggleBtn" onclick="toggleEventMap()">Dölj karta</button>
@@ -1641,15 +1735,15 @@
 <!-- ========== FOOTER ========== -->
 <footer class="footer">
   <div class="seo-block">
-    <h2>MC Kalender - MC-träffar i Sverige 2026</h2>
+    <h2>MC Kalender 2026 - MC-träffar och motorevenemang i Sverige</h2>
     <img class="seo-badge" src="ads/mc-kalender-google-square.jpg" alt="MC Kalender 2026 - Sveriges Största MC-Kalendern med motorcyklist och svensk flagga" width="200" height="200" loading="lazy">
-    <p>MC Kalendern är Sveriges mest kompletta MC-kalender för MC-träffar och MC-evenemang 2026. Letar du efter en MC-träff idag, en MC-mässa i helgen eller nästa körning i din region? Här hittar du allt samlat. Vår MC kalender listar träffar, mässor, motorshowar, körningar, racing, trackdays och fester från hela Sverige, så att du kan planera din MC-säsong utan att missa något.</p>
+    <p>MC Kalendern är Sveriges mest kompletta MC-kalender med MC-träffar och MC-evenemang 2026. Letar du efter en MC-träff idag, en MC-kortege i helgen eller nästa körning i din region? Här hittar du allt samlat. Vår MC-kalender listar träffar, mässor, motorshowar, körningar, MC-korteger, racing, trackdays och fester. Se vad som händer just nu eller planera hela MC-säsongen 2026.</p>
     <img class="seo-badge seo-badge-mobile" src="ads/mc-kalender-google-square.jpg" alt="" width="180" height="180" loading="lazy">
-    <p>Vi bevakar mer än tusen MC-evenemang från många av Sveriges största MC-klubbar och organisationer: BMW MC-klubben, Gold Wing Club Sweden (GWCS), Harley-Davidson Club Sweden (H-DCS), Östra Aros MC-Klubb (ÖAMCK), Sveriges MotorCyklister (SMC), Svenska Motorcykel- och Snöskoterförbundet (SVEMO) och många fler. Från MC-Mässan i Jönköping och Mälaren Runt till lokala kvällsträffar, gruskurser och avrostningskörningar. Oavsett om du kör sportcykel, cruiser, adventure, touring, enduro eller veteranmaskin finns det något för just dig och din hoj.</p>
-    <p>MC-säsongen i Sverige är kort men intensiv. Filtrera bland MC-träffar 2026 efter typ, klubb och region, från Skåne i söder till Norrbotten i norr. Spara dina favoritevenemang, dela med dina hojkompisar och håll dig uppdaterad. Vi bevakar MC-evenemang från fler än 470 klubbar och uppdaterar MC-kalendern regelbundet med nya träffar, körningar och mässor. Varje evenemangskort visar en inbyggd väderprognos från SMHI, så du kan planera din tur med koll på vädret. Hojåkare i Stockholm, Göteborg, Malmö, Uppsala och resten av landet hittar alltid kommande MC-händelser här.</p>
+    <p>Vi bevakar fler än 1300 MC-evenemang från 380+ arrangörer, bland annat BMW MC-klubben, Gold Wing Club Sweden (GWCS), Harley-Davidson Club Sweden (H-DCS), Östra Aros MC-Klubb (ÖAMCK), Sveriges MotorCyklister (SMC), Svenska Motorcykel- och Snöskoterförbundet (SVEMO) och många fler. Från MC-Mässan i Jönköping och Motorcykelns Dag till lokala kvällsträffar, gruskurser och avrostningskörningar. Oavsett om du kör sportcykel, cruiser, adventure, touring, enduro eller veteranmaskin finns det MC-event för dig.</p>
+    <p>Filtrera bland MC-träffar 2026 efter typ, klubb och region. Hitta MC-träffar i Stockholm, MC-event i Göteborg, MC-träffar i Skåne eller motorevenemang i Uppsala. Spara dina favoriter, dela med dina hojkompisar och håll dig uppdaterad. Varje evenemangskort visar en inbyggd väderprognos från SMHI och plats på kartan, så du kan planera din tur med koll på vädret. MC Kalendern uppdateras dagligen med nya träffar, körningar, MC-korteger och mässor från hela Sverige.</p>
   </div>
   <div class="footer-bottom">
-    <p>MC Kalender 2026 - MC Kalendern. Sveriges kompletta MC-kalender med träffar, körningar, mässor, racing och trackdays. Evenemang från BMW MC-klubben, GWCS, H-DCS, ÖAMCK, SMC, SVEMO och fler. Hitta MC-träff idag.</p>
+    <p>MC Kalender 2026 - MC Kalendern. Sveriges kompletta MC-kalender med MC-träffar, körningar, MC-korteger, mässor, racing och trackdays. 1300+ motorevenemang från 380+ arrangörer. Hitta MC-träff idag eller se vad som händer just nu.</p>
     <p style="margin-top: 6px;">Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt</a></p>
     <p style="margin-top: 6px;">&copy; 2026 Slava Druk, Uppsala. All eventdata tillhör MC Kalendern. Kommersiell användning kräver tillstånd.</p>
   </div>
@@ -1997,6 +2091,116 @@ function updateStats() {
   });
   document.getElementById('statThisMonth').textContent = thisMonth.length;
   document.getElementById('statClubs').textContent = countOrganizers(all);
+}
+
+// ========== HÄNDER JUST NU ==========
+function updateHanderBar() {
+  const today = getTodayStr();
+  const all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
+
+  // Today
+  const todayCount = all.filter(e => e.date <= today && (e.dateEnd || e.date) >= today).length;
+
+  // Tomorrow
+  const tmrw = new Date(); tmrw.setDate(tmrw.getDate() + 1);
+  const tmrwStr = tmrw.toISOString().slice(0, 10);
+  const tomorrowCount = all.filter(e => e.date <= tmrwStr && (e.dateEnd || e.date) >= tmrwStr).length;
+
+  // Weekend (coming Sat-Sun)
+  const now = new Date();
+  const dow = now.getDay();
+  let sat, sun;
+  if (dow === 6) { sat = new Date(now); sun = new Date(now); sun.setDate(sun.getDate() + 1); }
+  else if (dow === 0) { sun = new Date(now); sat = new Date(now); sat.setDate(sat.getDate() - 1); }
+  else { sat = new Date(now); sat.setDate(sat.getDate() + (6 - dow)); sun = new Date(sat); sun.setDate(sun.getDate() + 1); }
+  const satStr = sat.toISOString().slice(0, 10);
+  const sunStr = sun.toISOString().slice(0, 10);
+  const weekendCount = all.filter(e => {
+    const start = e.date; const end = e.dateEnd || e.date;
+    return (start <= sunStr && end >= satStr);
+  }).length;
+
+  // This week (Mon-Sun)
+  const monday = new Date(now);
+  monday.setDate(monday.getDate() - ((dow + 6) % 7));
+  const sunday = new Date(monday);
+  sunday.setDate(sunday.getDate() + 6);
+  const monStr = monday.toISOString().slice(0, 10);
+  const sunWeekStr = sunday.toISOString().slice(0, 10);
+  const weekCount = all.filter(e => {
+    const start = e.date; const end = e.dateEnd || e.date;
+    return (start <= sunWeekStr && end >= monStr);
+  }).length;
+
+  document.getElementById('handerTodayCount').textContent = todayCount;
+  document.getElementById('handerTomorrowCount').textContent = tomorrowCount;
+  document.getElementById('handerWeekendCount').textContent = weekendCount;
+  document.getElementById('handerWeekCount').textContent = weekCount;
+
+  // Mark empty chips
+  const chips = [
+    ['handerToday', todayCount],
+    ['handerTomorrow', tomorrowCount],
+    ['handerWeekend', weekendCount],
+    ['handerWeek', weekCount]
+  ];
+  chips.forEach(([id, count]) => {
+    const el = document.getElementById(id);
+    el.classList.toggle('no-events', count === 0);
+  });
+
+  // Hide the pulsing dot if no events today
+  const dot = document.querySelector('#handerToday .hander-dot');
+  if (dot) dot.style.display = todayCount > 0 ? '' : 'none';
+}
+
+function setupHanderBar() {
+  const filterMap = {
+    'handerToday': '__today__',
+    'handerTomorrow': '__tomorrow__',
+    'handerWeekend': '__weekend__'
+  };
+
+  Object.entries(filterMap).forEach(([chipId, filterVal]) => {
+    document.getElementById(chipId).addEventListener('click', () => {
+      const chip = document.getElementById(chipId);
+      if (chip.classList.contains('no-events')) return;
+      // Clear active state on all chips
+      document.querySelectorAll('.hander-chip').forEach(c => c.classList.remove('active'));
+      // If already filtered to this, reset to "all"
+      const monthSel = document.getElementById('monthFilter');
+      if (monthSel.value === filterVal) {
+        monthSel.value = 'all';
+      } else {
+        monthSel.value = filterVal;
+        chip.classList.add('active');
+      }
+      monthSel.dispatchEvent(new Event('change'));
+    });
+  });
+
+  // "Denna vecka" needs custom logic since there is no __week__ filter
+  document.getElementById('handerWeek').addEventListener('click', () => {
+    const chip = document.getElementById('handerWeek');
+    if (chip.classList.contains('no-events')) return;
+    document.querySelectorAll('.hander-chip').forEach(c => c.classList.remove('active'));
+    const monthSel = document.getElementById('monthFilter');
+    if (monthSel.value === '__week__') {
+      monthSel.value = 'all';
+    } else {
+      // Add __week__ option if not exists
+      if (!monthSel.querySelector('option[value="__week__"]')) {
+        const opt = document.createElement('option');
+        opt.value = '__week__';
+        opt.textContent = 'Denna vecka';
+        opt.style.display = 'none';
+        monthSel.appendChild(opt);
+      }
+      monthSel.value = '__week__';
+      chip.classList.add('active');
+    }
+    monthSel.dispatchEvent(new Event('change'));
+  });
 }
 
 // ========== WEATHER SYSTEM ==========
@@ -2457,6 +2661,19 @@ function render() {
       events = events.filter(e => {
         const start = e.date; const end = e.dateEnd || e.date;
         return (start <= sunStr && end >= satStr);
+      });
+    } else if (currentMonth === '__week__') {
+      const now = new Date();
+      const dow = now.getDay();
+      const monday = new Date(now);
+      monday.setDate(monday.getDate() - ((dow + 6) % 7));
+      const sunday = new Date(monday);
+      sunday.setDate(sunday.getDate() + 6);
+      const monStr = monday.toISOString().slice(0, 10);
+      const sunWeekStr = sunday.toISOString().slice(0, 10);
+      events = events.filter(e => {
+        const start = e.date; const end = e.dateEnd || e.date;
+        return (start <= sunWeekStr && end >= monStr);
       });
     } else {
       const selM = parseInt(currentMonth, 10);
@@ -3296,6 +3513,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Defer hero stats and fab to after first paint (not visible immediately on scroll)
   requestAnimationFrame(() => {
     updateStats();
+    updateHanderBar();
+    setupHanderBar();
     updateFab();
     setTimeout(() => {
       try { initEventMap(); } catch(e) { /* Leaflet not loaded — map disabled */ }
@@ -3343,6 +3562,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (sc) { sc.classList.remove('visible'); }
     mapCityFilter = '';
     updateMapCityBadge();
+    document.querySelectorAll('.hander-chip').forEach(c => c.classList.remove('active'));
     if (eventMap) eventMap.setView([62.5, 16.0], 4);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -3436,6 +3656,11 @@ document.addEventListener('DOMContentLoaded', () => {
     currentMonth = e.target.value;
     const mfm = document.getElementById('monthFilterMobile');
     if (mfm) mfm.value = e.target.value;
+    // Sync händer-bar chips
+    const activeVals = ['__today__', '__tomorrow__', '__weekend__', '__week__'];
+    document.querySelectorAll('.hander-chip').forEach(c => c.classList.remove('active'));
+    const chipMap = {'__today__':'handerToday','__tomorrow__':'handerTomorrow','__weekend__':'handerWeekend','__week__':'handerWeek'};
+    if (chipMap[currentMonth]) document.getElementById(chipMap[currentMonth]).classList.add('active');
     if (currentMonth !== 'all') {
       const now = new Date();
       const selectedMonth = parseInt(currentMonth, 10);
