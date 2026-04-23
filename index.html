@@ -1881,35 +1881,35 @@
     .card:not(.poster-card) .card-desc { display: none; }
     .card:not(.poster-card) .weather-strip { display: none; }
 
-    /* ======= UNIFIED DATE CHIP (both image and no-image cards use same size) ======= */
-    /* 25% smaller than desktop: min-width 36px, day 17px, month 8px */
+    /* ======= UNIFIED DATE CHIP (desktop-size, same on both card types) ======= */
     .card:not(.poster-card) .card-date-block {
-      display: flex; align-items: center; gap: 3px;
+      display: flex; align-items: center; gap: 4px;
       flex-shrink: 0;
     }
     .card:not(.poster-card) .date-unit {
       background: var(--bg-primary);
       border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 3px 7px;
+      border-radius: 8px;
+      padding: 6px 10px;
       text-align: center;
-      min-width: 36px;
+      min-width: 48px;
     }
     .card:not(.poster-card) .date-unit.red-day { border-color: #d92d20; }
     .card:not(.poster-card) .date-day {
       color: var(--text-primary);
-      font-size: 17px; font-weight: 700; line-height: 1.05;
+      font-size: 22px; font-weight: 700; line-height: 1.1;
     }
     .card:not(.poster-card) .date-month {
       color: var(--accent);
-      font-size: 8px; font-weight: 600;
-      text-transform: uppercase; letter-spacing: 0.8px;
-      margin-top: 0;
-      line-height: 1.1;
+      font-size: 10px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1px;
     }
     .card:not(.poster-card) .date-sep {
-      color: var(--text-muted); font-size: 11px; align-self: center;
+      color: var(--text-muted); font-size: 14px; align-self: center;
     }
+
+    /* Organizer hidden on the front of ALL mobile cards (shown in detail view only) */
+    .card:not(.poster-card) .card-organizer { display: none; }
 
     /* ======= IMAGE CARD (has backImage) ======= */
     .card.has-photo:not(.poster-card) {
@@ -1982,27 +1982,10 @@
       letter-spacing: -0.2px;
     }
     .card.has-photo:not(.poster-card) .card-body { display: none; }
-    .card.has-photo:not(.poster-card) .card-footer {
-      background: transparent;
-      border-top: 0;
-      padding: 4px 12px 10px;
-      margin-top: 4px;
-      color: rgba(255,255,255,0.85);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .card.has-photo:not(.poster-card) .card-organizer {
-      color: rgba(255,255,255,0.85);
-      font-size: 11px;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.7);
-      display: flex; align-items: center; gap: 4px;
-      min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-    }
-    .card.has-photo:not(.poster-card) .card-org-icon {
-      background: rgba(255,255,255,0.15);
-      border-radius: 4px;
-      padding: 1px;
+    .card.has-photo:not(.poster-card) .card-footer { display: none; }
+    .card.has-photo:not(.poster-card) .card-name {
+      padding: 0 12px 10px;
+      margin-top: auto;
     }
     .card.has-photo:not(.poster-card) .card-notice {
       background: rgba(220,38,38,0.95); color: #fff;
@@ -2070,22 +2053,16 @@
       min-height: 0;
       -webkit-line-clamp: 2;
     }
-    /* Footer: no separator (narrow card), organizer + Mer info arrow row */
+    /* Footer on no-image cards: only "Mer info →" aligned right (organizer hidden) */
     .card:not(.poster-card):not(.has-photo) .card-footer {
       background: transparent;
       border-top: 0;
       padding: 4px 0 0;
       margin-top: 6px;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-items: center;
       gap: 8px;
-    }
-    .card:not(.poster-card):not(.has-photo) .card-organizer {
-      color: var(--text-secondary);
-      font-size: 11px;
-      display: flex; align-items: center; gap: 6px;
-      min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
     }
     .card:not(.poster-card):not(.has-photo) .card-link,
     .card:not(.poster-card):not(.has-photo) .card-link-btn {
@@ -2094,7 +2071,7 @@
       background: transparent;
       border: 0;
       padding: 0;
-      font-size: 11px;
+      font-size: 12px;
       font-weight: 500;
       cursor: pointer;
       flex-shrink: 0;
