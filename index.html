@@ -1549,16 +1549,95 @@
   .m-filter-row .filter-select {
     width: 100%;
     min-width: 0;
-    background: var(--bg-secondary);
+    background-color: var(--bg-secondary);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='7' viewBox='0 0 12 7'><path fill='none' stroke='%23d97706' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' d='M1 1l5 5 5-5'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px 7px;
     border: 1px solid var(--border);
     border-radius: 10px;
-    padding: 8px 28px 8px 12px;
+    padding: 8px 34px 8px 12px;
     font-size: 13px;
     font-weight: 500;
     color: var(--text-primary);
     height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 
+  /* ========== MOBILE MENY DRAWER (fix 2026-04-23) ========== */
+  .m-meny-overlay {
+    position: fixed; inset: 0;
+    background: rgba(10,10,15,0.5);
+    z-index: 999;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.2s;
+  }
+  .m-meny-overlay.open { opacity: 1; pointer-events: auto; }
+  .m-meny {
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+    width: 300px;
+    max-width: 85vw;
+    background: var(--bg-secondary);
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -4px 0 24px rgba(0,0,0,0.2);
+  }
+  .m-meny.open { transform: translateX(0); }
+  .m-meny-head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+    background: #1a1a2e;
+    color: #fff;
+  }
+  .m-meny-title { font-size: 16px; font-weight: 500; letter-spacing: -0.2px; }
+  .m-meny-close {
+    background: transparent; border: 0;
+    width: 32px; height: 32px;
+    font-size: 26px; color: #fff;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    line-height: 1;
+    padding: 0;
+  }
+  .m-meny-list { padding: 6px 0; flex: 1; overflow-y: auto; }
+  .m-meny-item {
+    display: flex; align-items: center; justify-content: space-between;
+    width: 100%;
+    padding: 14px 16px;
+    background: transparent; border: 0;
+    text-align: left;
+    font-size: 15px;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .m-meny-item:active { background: var(--bg-card-hover); }
+  .m-meny-item-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .m-meny-icon {
+    width: 24px; height: 24px;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+  .m-meny-icon svg { width: 20px; height: 20px; }
+  .m-meny-arrow { color: #bbb; font-size: 20px; line-height: 1; }
+  .m-meny-divider { height: 1px; background: var(--border); margin: 6px 16px; }
+  .m-meny-foot {
+    padding: 16px;
+    font-size: 11px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border);
+    text-align: center;
+  }
+
+  /* ========== PHASE 2 CARDS (photo background on mobile) 2026-04-23 ========== */
   @media (max-width: 768px) {
     .m-topbar { display: flex; }
     .m-time-pills { display: grid; }
@@ -1570,6 +1649,7 @@
     .filter-right-col { display: none !important; }
     .filter-dropdowns { display: none !important; }
     .filter-row-mobile { display: none !important; }
+    .event-map-section { display: none !important; }
 
     /* Flatten filters-wrapper so it contributes no space on mobile */
     .filters-wrapper { background: transparent; border: 0; box-shadow: none; padding: 0; margin: 0; }
@@ -1581,7 +1661,128 @@
     .search-input { font-size: 14px; }
     .search-count { display: none; }
 
-    .main-content { padding-top: 8px; }
+    .main-content { padding-top: 8px; padding-bottom: 40px; }
+
+    /* --- Photo-backed cards --- */
+    /* Skip poster-card (already uses frontImage as full-bleed image) */
+    .card:not(.poster-card) {
+      position: relative;
+      overflow: hidden;
+      min-height: 130px;
+      border: 0;
+      background-color: #1a1a2e;
+      background-image: var(--card-bg-image, none);
+      background-size: cover;
+      background-position: center;
+      border-radius: 14px;
+      padding: 0;
+    }
+    .card:not(.poster-card)::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.88) 100%);
+      pointer-events: none;
+      z-index: 1;
+    }
+    .card:not(.poster-card) .card-flipper,
+    .card:not(.poster-card) .card-front {
+      position: relative;
+      z-index: 2;
+      background: transparent;
+      padding: 10px 12px;
+      min-height: 130px;
+    }
+    .card:not(.poster-card) .card-top {
+      justify-content: space-between;
+    }
+    .card:not(.poster-card) .card-date-block {
+      background: rgba(255,255,255,0.95);
+      border-radius: 8px;
+      padding: 3px;
+      gap: 3px;
+    }
+    .card:not(.poster-card) .date-unit {
+      background: transparent;
+      color: #1a1a2e;
+      border: 0;
+      padding: 2px 6px;
+    }
+    .card:not(.poster-card) .date-unit.red-day { background: rgba(220,38,38,0.1); color: #dc2626; }
+    .card:not(.poster-card) .date-day { color: #1a1a2e; font-size: 15px; }
+    .card:not(.poster-card) .date-month { color: #8b4a00; font-size: 9px; font-weight: 500; }
+    .card:not(.poster-card) .date-sep { color: #1a1a2e; font-weight: 500; align-self: center; }
+    .card:not(.poster-card) .type-badge { display: none; }
+    .card:not(.poster-card) .fav-btn {
+      background: transparent;
+      color: rgba(255,255,255,0.7);
+      font-size: 20px;
+      border: 0;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    }
+    .card:not(.poster-card) .fav-btn.active {
+      color: #fbbf24;
+    }
+    .card:not(.poster-card) .card-name {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 6px;
+      line-height: 1.25;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    }
+    .card:not(.poster-card) .card-body {
+      margin-top: 4px;
+    }
+    .card:not(.poster-card) .card-location-wrap {
+      color: rgba(255,255,255,0.85);
+      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    }
+    .card:not(.poster-card) .card-location {
+      color: rgba(255,255,255,0.85);
+      font-size: 12px;
+    }
+    .card:not(.poster-card) .card-location-icon {
+      filter: brightness(2);
+    }
+    /* Hide long description and weather strip on mobile card (will show in detail view) */
+    .card:not(.poster-card) .card-desc { display: none; }
+    .card:not(.poster-card) .weather-strip { display: none; }
+    .card:not(.poster-card) .card-notice {
+      background: rgba(220,38,38,0.95);
+      color: #fff;
+    }
+    .card:not(.poster-card) .card-footer {
+      border-top: 0;
+      padding-top: 6px;
+      margin-top: auto;
+      color: rgba(255,255,255,0.9);
+    }
+    .card:not(.poster-card) .card-organizer {
+      color: rgba(255,255,255,0.9);
+      font-size: 11px;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    }
+    .card:not(.poster-card) .card-link,
+    .card:not(.poster-card) .card-link-btn {
+      color: #ffb95e;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    }
+    .card:not(.poster-card) .card-org-icon {
+      background: rgba(255,255,255,0.15);
+      border-radius: 4px;
+      padding: 1px;
+    }
+    /* Remove left type-bar on mobile (color encoded on date chip via red-day etc.) */
+    .card.tb-traff::before,
+    .card.tb-korning::before,
+    .card.tb-fest::before,
+    .card.tb-show::before,
+    .card.tb-racing::before,
+    .card.tb-plats::before,
+    .card.tb-anons::before { display: none; }
+
+    /* Grid: bigger gap for the juicier cards */
+    .grid { gap: 10px; }
   }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" media="print" onload="this.media='all'"/>
@@ -1631,6 +1832,61 @@
     <span></span><span></span><span></span>
   </button>
 </header>
+
+<!-- ========== MOBILE MENY DRAWER ========== -->
+<div class="m-meny-overlay" id="mMenyOverlay" aria-hidden="true"></div>
+<aside class="m-meny" id="mMeny" aria-label="Meny" aria-hidden="true">
+  <div class="m-meny-head">
+    <div class="m-meny-title">Meny</div>
+    <button class="m-meny-close" id="mMenyClose" aria-label="Stäng meny">&times;</button>
+  </div>
+  <nav class="m-meny-list">
+    <button class="m-meny-item" id="mMenyDela">
+      <span class="m-meny-item-left">
+        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></span>
+        <span>Dela sidan</span>
+      </span>
+      <span class="m-meny-arrow">&rsaquo;</span>
+    </button>
+    <button class="m-meny-item" id="mMenyDonera">
+      <span class="m-meny-item-left">
+        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></span>
+        <span>Stöd projektet</span>
+      </span>
+      <span class="m-meny-arrow">&rsaquo;</span>
+    </button>
+    <button class="m-meny-item" id="mMenyKontakt">
+      <span class="m-meny-item-left">
+        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 7 9-7"/></svg></span>
+        <span>Kontakta oss</span>
+      </span>
+      <span class="m-meny-arrow">&rsaquo;</span>
+    </button>
+    <button class="m-meny-item" id="mMenyTipsa">
+      <span class="m-meny-item-left">
+        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+        <span>Tipsa om evenemang</span>
+      </span>
+      <span class="m-meny-arrow">&rsaquo;</span>
+    </button>
+    <div class="m-meny-divider"></div>
+    <button class="m-meny-item" id="mMenyFavoriter">
+      <span class="m-meny-item-left">
+        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></span>
+        <span>Sparade evenemang</span>
+      </span>
+      <span class="m-meny-arrow">&rsaquo;</span>
+    </button>
+    <button class="m-meny-item" id="mMenyPast">
+      <span class="m-meny-item-left">
+        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <span id="mMenyPastLabel">Visa passerade evenemang</span>
+      </span>
+      <span class="m-meny-arrow" id="mMenyPastState">&rsaquo;</span>
+    </button>
+  </nav>
+  <div class="m-meny-foot">druk.se · MC Kalendern 2026</div>
+</aside>
 
 <!-- ========== HERO ========== -->
 <header class="hero">
@@ -2499,13 +2755,59 @@ function setupMobileUI() {
   const si = document.getElementById('searchInput');
   if (si) si.addEventListener('input', syncMobilePillActive);
 
-  // Burger: Phase 1 placeholder, opens existing Dela modal. Phase 3 will wire to proper Meny drawer.
+  // Burger opens the proper Meny drawer
   const mBurger = document.getElementById('mBurger');
-  if (mBurger) {
-    mBurger.addEventListener('click', () => {
-      if (typeof openDelaModal === 'function') openDelaModal();
-    });
+  const mMeny = document.getElementById('mMeny');
+  const mMenyOverlay = document.getElementById('mMenyOverlay');
+  const mMenyClose = document.getElementById('mMenyClose');
+
+  function openMMeny() {
+    if (!mMeny) return;
+    mMeny.classList.add('open');
+    mMenyOverlay.classList.add('open');
+    mMeny.setAttribute('aria-hidden', 'false');
+    mMenyOverlay.setAttribute('aria-hidden', 'false');
+    if (mBurger) mBurger.setAttribute('aria-expanded', 'true');
   }
+  function closeMMeny() {
+    if (!mMeny) return;
+    mMeny.classList.remove('open');
+    mMenyOverlay.classList.remove('open');
+    mMeny.setAttribute('aria-hidden', 'true');
+    mMenyOverlay.setAttribute('aria-hidden', 'true');
+    if (mBurger) mBurger.setAttribute('aria-expanded', 'false');
+  }
+  window.closeMMeny = closeMMeny;
+
+  if (mBurger) mBurger.addEventListener('click', openMMeny);
+  if (mMenyOverlay) mMenyOverlay.addEventListener('click', closeMMeny);
+  if (mMenyClose) mMenyClose.addEventListener('click', closeMMeny);
+
+  // Wire each meny item
+  const menyWire = (id, action) => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('click', () => { closeMMeny(); setTimeout(action, 200); });
+  };
+  menyWire('mMenyDela', () => { if (typeof openDelaModal === 'function') openDelaModal(); });
+  menyWire('mMenyDonera', () => { window.open('https://ko-fi.com/mckalender', '_blank', 'noopener'); });
+  menyWire('mMenyKontakt', () => { if (typeof openKontaktModal === 'function') openKontaktModal(); });
+  menyWire('mMenyTipsa', () => {
+    const tm = document.getElementById('tipsaModal');
+    if (tm) tm.classList.add('open');
+  });
+  menyWire('mMenyFavoriter', () => {
+    const fab = document.getElementById('fabFavorites');
+    if (fab) fab.click();
+  });
+  menyWire('mMenyPast', () => {
+    const toggle = document.getElementById('pastToggle') || document.getElementById('pastToggleMobile');
+    if (toggle) toggle.click();
+  });
+
+  // Close meny on Escape
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && mMeny && mMeny.classList.contains('open')) closeMMeny();
+  });
 
   syncMobilePillActive();
 }
@@ -3280,6 +3582,11 @@ function render() {
     card.className = 'card' + (typeBarClass ? ' ' + typeBarClass : '') + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
     card.dataset.id = event.id;
     const cardId = 'c-' + event.id;
+
+    // Phase 2 (mobile): set --card-bg-image so CSS can render backImage as full card background
+    if (event.backImage) {
+      card.style.setProperty('--card-bg-image', 'url("' + event.backImage + '")');
+    }
 
     // Store event data for deferred back-side rendering (built on click, not now)
     _eventMap.set(cardId, event);
