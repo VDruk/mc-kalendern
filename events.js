@@ -944,7 +944,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/gwcs.png"
+                                                      "organizerIcon": "clubs/normalized/gwcs.png",
+                                                      "backImage": "ads/sormlandswingarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-syd-arsmote-2026",
@@ -5134,7 +5135,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/gwcs.png"
+                                                      "organizerIcon": "clubs/normalized/gwcs.png",
+                                                      "backImage": "ads/sormlandswingarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "oamck-fikakvall-thailand-2026-04-12",
@@ -13518,7 +13520,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/gwcs.png"
+                                                      "organizerIcon": "clubs/normalized/gwcs.png",
+                                                      "backImage": "ads/sormlandswingarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "hemligaturen-big-twins-mc-orebro-2026",
@@ -19711,7 +19714,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/gwcs.png"
+                                                      "organizerIcon": "clubs/normalized/gwcs.png",
+                                                      "backImage": "ads/sormlandswingarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-06-06",
@@ -34425,7 +34429,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/gwcs.png"
+                                                      "organizerIcon": "clubs/normalized/gwcs.png",
+                                                      "backImage": "ads/sormlandswingarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-10-13",
@@ -34965,7 +34970,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/gwcs.png"
+                                                      "organizerIcon": "clubs/normalized/gwcs.png",
+                                                      "backImage": "ads/sormlandswingarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-11-17",
@@ -35249,7 +35255,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/gwcs.png"
+                                                      "organizerIcon": "clubs/normalized/gwcs.png",
+                                                      "backImage": "ads/sormlandswingarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-12-08",
