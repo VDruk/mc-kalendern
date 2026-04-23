@@ -1881,6 +1881,36 @@
     .card:not(.poster-card) .card-desc { display: none; }
     .card:not(.poster-card) .weather-strip { display: none; }
 
+    /* ======= UNIFIED DATE CHIP (both image and no-image cards use same size) ======= */
+    /* 25% smaller than desktop: min-width 36px, day 17px, month 8px */
+    .card:not(.poster-card) .card-date-block {
+      display: flex; align-items: center; gap: 3px;
+      flex-shrink: 0;
+    }
+    .card:not(.poster-card) .date-unit {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 7px;
+      text-align: center;
+      min-width: 36px;
+    }
+    .card:not(.poster-card) .date-unit.red-day { border-color: #d92d20; }
+    .card:not(.poster-card) .date-day {
+      color: var(--text-primary);
+      font-size: 17px; font-weight: 700; line-height: 1.05;
+    }
+    .card:not(.poster-card) .date-month {
+      color: var(--accent);
+      font-size: 8px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.8px;
+      margin-top: 0;
+      line-height: 1.1;
+    }
+    .card:not(.poster-card) .date-sep {
+      color: var(--text-muted); font-size: 11px; align-self: center;
+    }
+
     /* ======= IMAGE CARD (has backImage) ======= */
     .card.has-photo:not(.poster-card) {
       position: relative;
@@ -1921,21 +1951,12 @@
       justify-content: space-between;
       align-items: flex-start;
     }
-    /* Tighter date chip ONLY on image cards (needs to fit on photo) */
-    .card.has-photo:not(.poster-card) .card-date-block {
+    /* Image card date chip: same size, but white pill on photo */
+    .card.has-photo:not(.poster-card) .date-unit {
       background: rgba(255,255,255,0.96);
-      border-radius: 8px;
-      padding: 2px;
-      gap: 2px;
+      border: 0;
       box-shadow: 0 1px 3px rgba(0,0,0,0.15);
     }
-    .card.has-photo:not(.poster-card) .date-unit {
-      background: transparent; color: #1a1a2e; border: 0;
-      padding: 2px 6px; min-width: 34px;
-    }
-    .card.has-photo:not(.poster-card) .date-day { color: #1a1a2e; font-size: 14px; font-weight: 600; line-height: 1; }
-    .card.has-photo:not(.poster-card) .date-month { color: #8b4a00; font-size: 8px; letter-spacing: 0.5px; margin-top: 1px; }
-    .card.has-photo:not(.poster-card) .date-sep { color: #666; font-size: 10px; align-self: center; }
     .card.has-photo:not(.poster-card) .fav-btn {
       background: rgba(0,0,0,0.35);
       border-radius: 50%;
@@ -2018,41 +2039,17 @@
     .card:not(.poster-card):not(.has-photo) .card-flipper,
     .card:not(.poster-card):not(.has-photo) .card-front {
       background: transparent;
-      padding: 10px 12px;
+      padding: 8px 10px;
     }
     .card:not(.poster-card):not(.has-photo) .card-top {
       padding: 0;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
     }
-    /* Desktop-matching date chip on no-image cards */
-    .card:not(.poster-card):not(.has-photo) .card-date-block {
-      display: flex; align-items: center; gap: 4px;
-      flex-shrink: 0;
-    }
-    .card:not(.poster-card):not(.has-photo) .date-unit {
-      background: var(--bg-primary);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 6px 10px;
-      text-align: center;
-      min-width: 48px;
-    }
-    .card:not(.poster-card):not(.has-photo) .date-unit.red-day { border-color: #d92d20; }
-    .card:not(.poster-card):not(.has-photo) .date-day {
-      color: var(--text-primary);
-      font-size: 22px; font-weight: 700; line-height: 1.1;
-    }
-    .card:not(.poster-card):not(.has-photo) .date-month {
-      color: var(--accent);
-      font-size: 10px; font-weight: 600;
-      text-transform: uppercase; letter-spacing: 1px;
-      margin-top: 0;
-    }
-    .card:not(.poster-card):not(.has-photo) .date-sep {
-      color: var(--text-muted); font-size: 14px;
-    }
-    /* Desktop-matching star (light grey) */
+    /* Location hidden (shown in detail view, keeps card compact) */
+    .card:not(.poster-card):not(.has-photo) .card-location-wrap { display: none; }
+
+    /* Light-grey star matches desktop */
     .card:not(.poster-card):not(.has-photo) .fav-btn {
       color: var(--border-light);
       background: transparent;
@@ -2062,20 +2059,12 @@
       margin-left: auto;
     }
     .card:not(.poster-card):not(.has-photo) .fav-btn.active { color: var(--accent); }
-    .card:not(.poster-card):not(.has-photo) .card-location-wrap {
-      display: flex; align-items: center; gap: 4px;
-      font-size: 12px; color: var(--text-muted);
-      margin-top: 6px;
-    }
-    .card:not(.poster-card):not(.has-photo) .card-location {
-      font-size: 12px; color: var(--text-muted);
-      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-    }
+
     .card:not(.poster-card):not(.has-photo) .card-name {
       color: var(--text-primary);
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 600;
-      margin-top: 6px;
+      margin-top: 5px;
       padding: 0;
       line-height: 1.3;
       min-height: 0;
@@ -2085,8 +2074,8 @@
     .card:not(.poster-card):not(.has-photo) .card-footer {
       background: transparent;
       border-top: 0;
-      padding: 6px 0 0;
-      margin-top: 8px;
+      padding: 4px 0 0;
+      margin-top: 6px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -2094,7 +2083,7 @@
     }
     .card:not(.poster-card):not(.has-photo) .card-organizer {
       color: var(--text-secondary);
-      font-size: 12px;
+      font-size: 11px;
       display: flex; align-items: center; gap: 6px;
       min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
     }
@@ -2105,7 +2094,7 @@
       background: transparent;
       border: 0;
       padding: 0;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 500;
       cursor: pointer;
       flex-shrink: 0;
@@ -2114,7 +2103,6 @@
       background: #fee2e2; color: #991b1b;
       padding: 2px 8px; font-size: 10px; border-radius: 4px;
     }
-    /* No chevron ::before on no-image cards (we have "Mer info →" text instead) */
   }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" media="print" onload="this.media='all'"/>
