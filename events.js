@@ -551,7 +551,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Online+%2F+Digitalt",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-roliga-timmen-med-ronnie-2026",
@@ -696,7 +697,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Landsv%C3%A4gen+49",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-gps-och-navigationsdag-stegra-passet-over-teams-2026",
@@ -722,7 +724,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Online+%2F+Digitalt",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-lordagsfika-pa-biltema-2026-03-14",
@@ -910,7 +913,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Stenbocksliden+2%2C+Stockam%C3%B6llan",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcs-fikatraff-sormland-mar-2026",
@@ -1028,7 +1032,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Bishops+Arms+Landsv%C3%A4gen+49+Sundbyberg",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "lod-onsdagsfika-soldathemmet-skovde-2026-03-18",
@@ -1081,7 +1086,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sl%C3%A5nb%C3%A4rsv%C3%A4gen+6%2C+Upplands+V%C3%A4sby",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-03-19",
@@ -2015,7 +2021,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Online+%2F+Digitalt",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-03-24",
@@ -2068,7 +2075,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sjudarev%C3%A4gen+42b%2C+Visby",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-medlems-kvall-probike-malmo-2026",
@@ -2206,7 +2214,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=G%C3%B6taplatsen%2C+G%C3%B6teborg",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "monteblanco-vip-portimao-2026-03-26",
@@ -4043,7 +4052,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Vigfastgatan+6%2C+Link%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "leftovers-mc-fikakvall-2026-04-08",
@@ -4200,7 +4210,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Vemmentorp+520%2C+%C3%96rkelljunga%2C+Sweden",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "condios-fredagsmys-2026-04-10",
@@ -4318,7 +4329,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=R40+Dalsj%C3%B6fors+Pendelparkering%2C+Bor%C3%A5s",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-hojslapp-2026-2026",
@@ -4344,7 +4356,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Korr%C3%B6%2C+Linneryd",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-mcq-brudar-bagar-bubbel-babbel-2026-2026",
@@ -4370,7 +4383,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Slottsv%C3%A4gen+1b%2C+Lyckeby",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "can-am-on-tour-cec-kallered-2026",
@@ -5079,7 +5093,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Gyllebosj%C3%B6ns+Badplats%2C+Simrishamn",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcs-medlemsmote-apr-2026",
@@ -5184,7 +5199,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.bmwklubben.se/aktiviteter/d7-premiar-tisdagskvallstur-norr/",
                                                       "region": "Stockholm",
-                                                      "source": "bmwklubben.se"
+                                                      "source": "bmwklubben.se",
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-04-14",
@@ -5264,7 +5280,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Ringsj%C3%B6v%C3%A4gen+40%2C+H%C3%B6rby",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "can-am-on-tour-cec-tibro-2026-04-15",
@@ -5594,7 +5611,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.bmwklubben.se/aktiviteter/valkommen-pa-en-grus-utbildning-for-tjejer/",
                                                       "region": "Västra Götaland",
-                                                      "source": "bmwklubben.se"
+                                                      "source": "bmwklubben.se",
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-medlemsmote-solleftea-2026-04-18",
@@ -5615,7 +5633,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.bmwklubben.se/aktiviteter/intresseforfragan-medlemsmote-i-solleftea/",
                                                       "region": "Västernorrland",
-                                                      "source": "bmwklubben.se"
+                                                      "source": "bmwklubben.se",
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "cg-10ars-jubileum-swap-meet-2026",
@@ -6598,7 +6617,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.bmwklubben.se/aktiviteter/d10-gruskurs-for-nyborjare/",
                                                       "region": "Västra Götaland",
-                                                      "source": "bmwklubben.se"
+                                                      "source": "bmwklubben.se",
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d10-tur-till-ostersjon-2026",
@@ -6651,7 +6671,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=N%C3%B6tesj%C3%B6v%C3%A4gen+293-12%2C+Svedala",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bsa-sverige-sulas-2026",
@@ -6839,7 +6860,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.bmwklubben.se/aktiviteter/d7-premiar-tisdagskvallstur-soder/",
                                                       "region": "Stockholm",
-                                                      "source": "bmwklubben.se"
+                                                      "source": "bmwklubben.se",
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-ekero-udda-veckor-2026-04-21",
@@ -7554,7 +7576,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sparrs%C3%A4tra+L%C3%A5d%C3%B6+16%2C+Enk%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-kul-pa-hjul-2026-avrostning-med-smc-2026",
@@ -7580,7 +7603,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%A5land",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d7-klubbknix-pa-gtr-motorpark-2026",
@@ -7606,7 +7630,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Tommy+Janssons+v%C3%A4g+17%2C+Eskilstuna",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "cfmoto-demodag-almhult-2026-04-25",
@@ -8285,7 +8310,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=L%C3%A5skolvsgatan+1%2C+Link%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d9-valkomst-tur-nya-medlemmar-2026",
@@ -8311,7 +8337,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=L%C3%A5skolvsgatan+1%2C+Link%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "oamck-staddag-kaken-obs-sondag-2026",
@@ -8417,7 +8444,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-norrsidan/",
                                                       "region": "Stockholm",
-                                                      "source": "bmwklubben.se"
+                                                      "source": "bmwklubben.se",
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-04-28",
@@ -9025,7 +9053,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Norra+Annebergsv%C3%A4gen%2C+Kungsbacka",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-mj-sa-rundt-1-mai-2026",
@@ -9051,7 +9080,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Hamar+Norge",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-oppet-hus-mc-massa-i-samarbete-med-omcc-2026",
@@ -9077,7 +9107,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+3e%2C+%C3%96rnsk%C3%B6ldsvik",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "cec-motorcykelns-dag-kallered-2026-05-01",
@@ -9636,7 +9667,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Oskarshamn",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d9-sormlandstur-2026",
@@ -9662,7 +9694,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Stavsj%C3%B6+Trafikplats+5%2C+Stavsj%C3%B6",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "condios-fire-up-2026",
@@ -10426,7 +10459,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.bmwklubben.se/aktiviteter/d10-gruskurs-2026-avancerad/",
                                                       "region": "Västra Götaland",
-                                                      "source": "bmwklubben.se"
+                                                      "source": "bmwklubben.se",
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-omberg-runt-2026-2026",
@@ -10452,7 +10486,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Biltema%2C+N%C3%A4ssj%C3%B6",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d14-tur-2026",
@@ -10478,7 +10513,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Bj%C3%B6rkall%C3%A9n+32%2C+Oskarstr%C3%B6m",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "mackatraffen-vollsjo-start-2026-05-03",
@@ -11035,7 +11071,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Ringsj%C3%B6v%C3%A4gen+40%2C+H%C3%B6rby",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-05-06",
@@ -11259,7 +11296,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Carl+Cederstr%C3%B6ms+gata+2%2C+Link%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-05-07",
@@ -11437,7 +11475,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Askersund",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-goes-to-spangens-gastgiveri-2026-2026",
@@ -11463,7 +11502,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sp%C3%A5ngengatan+344%2C+Ljungbyhed",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "roadracing-sm-falkenberg-2026",
@@ -11729,7 +11769,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Oskarshamn",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d14-forst-körningen-2026",
@@ -11755,7 +11796,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Halmstad",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-grustur-2026-05-09",
@@ -11781,7 +11823,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Oderljungav%C3%A4gen%2C+Klippan",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d7-gfa-grus-for-alla-2026",
@@ -11807,7 +11850,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Stockholm",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-hjalmaren-runt-fran-eskilstuna-en-svensk-mc-klassi-2026",
@@ -12534,7 +12578,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Gillingebanan%2C+Vallentuna",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d8-nossans-broar-2026",
@@ -12560,7 +12605,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Nossebro",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d8-roadracing-falkenberg-2026",
@@ -12586,7 +12632,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Falkenberg",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-emilsturen-2026-05-10",
@@ -12997,7 +13044,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%A5land",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-05-13",
@@ -13263,7 +13311,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Lind%C3%A4ngsv%C3%A4gen+11%2C+Orsa",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "coast-to-coast-2026",
@@ -13836,7 +13885,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-mcq-gor-en-vartur-till-omberg-2026",
@@ -13862,7 +13912,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Ryds+all%C3%A9+Link%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "dannike-motorstop-2026",
@@ -14741,7 +14792,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Alster%C3%A5v%C3%A4gen+1%2C+%C3%85lem",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "dgr-gothenburg-2026-05-17",
@@ -15210,7 +15262,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Lunds+V%C3%A4sterg%C3%A5rd+1%2C+S%C3%B6derk%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-ekero-udda-veckor-2026-05-19",
@@ -15958,7 +16011,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Bor%C3%A5s",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d7-miniature-kingdom-kungsor-2026",
@@ -15984,7 +16038,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Str%C3%A4ngn%C3%A4sv%C3%A4gen+509%2C+Nykvarn",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d8-tiveden-grus-2026",
@@ -16010,7 +16065,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Tiveden",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-malsjo-classic-cars-art-gallery-2026",
@@ -16036,7 +16092,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=%C3%85kerv%C3%A4gen+1A%2C+662+35+%C3%85m%C3%A5l",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "custom-street-tour-motorfestival-2026-05-23",
@@ -16635,7 +16692,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=%C3%96land",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-morgon-i-kopenhamn-2026",
@@ -16661,7 +16719,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Utsiktsv%C3%A4gen+10%2C+Limhamn",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-05-24",
@@ -16995,7 +17054,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Stockholm",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-05-27",
@@ -17619,7 +17679,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%A5land",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-asarna-2026",
@@ -17645,7 +17706,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Rusth%C3%A5llsgatan%2C+Helsingborg",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bollebygds-veteranmarknad-2026",
@@ -18508,7 +18570,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-soder8-an-2026",
@@ -18534,7 +18597,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Fj%C3%A4r%C3%A5s+Industriv%C3%A4g+2%2C+Fj%C3%A4r%C3%A5s",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "filip-backlund-trackdays-mantorp-2026",
@@ -18727,7 +18791,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Tingsryd%2C+Tingsryd",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-02",
@@ -18867,7 +18932,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Ringsj%C3%B6v%C3%A4gen+40%2C+H%C3%B6rby",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-06-03",
@@ -19350,7 +19416,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4stra%2C+G%C3%B6taland",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-historisk-heldagstur-oland-2026-2026",
@@ -19376,7 +19443,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=%C3%96land",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d14-nationaldagsturen-2026",
@@ -19402,7 +19470,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4xj%C3%B6v%C3%A4gen+15%2C+Halmstad",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-aventyrshelg-grus-2026",
@@ -19428,7 +19497,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d8-bengts-grustur-2026",
@@ -19454,7 +19524,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4stra%2C+G%C3%B6taland",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d9-nationaldagstur-2026",
@@ -19480,7 +19551,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=%C3%96sterg%C3%B6tland",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "custom-bikeshow-norrtalje-2026",
@@ -20079,7 +20151,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Kraftleden+2%2C+B%C3%A5lsta",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-malaren-runt-fran-nykvarn-en-svensk-mc-klassiker-2026",
@@ -20105,7 +20178,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Kraftleden+2%2C+B%C3%A5lsta",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-bonspalls-rundan-2026-06-07",
@@ -20302,7 +20376,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Hotellv%C3%A4gen+50%2C+Pite%C3%A5",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-nacka-2026-06-08",
@@ -20824,7 +20899,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Folkparksv%C3%A4gen+10%2C+Hultsfred",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "do-c-traff-wiggersvik-camping-2026",
@@ -20984,7 +21060,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Telemarken%2C+Norge",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-nashultarundan-2026",
@@ -21010,7 +21087,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Norremarksv%C3%A4gen%2C+V%C3%A4xj%C3%B6",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-skane-runt-med-spattan-2026",
@@ -21036,7 +21114,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Kronetorpsv%C3%A4gen+8%2C+Arl%C3%B6v",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "cancer-run-2026-06-13",
@@ -22869,7 +22948,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Ryabergsv%C3%A4gen+6%2C+Siml%C3%A5ngsdalen",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "roadracing-sm-sviestad-2026",
@@ -22967,7 +23047,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Frostavallsv%C3%A4gen+2%2C+H%C3%B6%C3%B6r",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-tur-fran-bromolla-2026-06-27",
@@ -22993,7 +23074,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Brom%C3%B6lla",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "charity-run-2026",
@@ -24056,7 +24138,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sellerigatan+7%2C+Lund",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-vattern-runt-fran-askersund-en-svensk-mc-klassiker-2026",
@@ -24082,7 +24165,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Klockaregatan%2C+Askersund",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-vattern-runt-fran-jonkoping-en-svensk-mc-klassiker-2026",
@@ -24108,7 +24192,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Birkagatan+8%2C+J%C3%B6nk%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-charity-run-2026",
@@ -24768,7 +24853,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Frostavallsv%C3%A4gen+2%2C+H%C3%B6%C3%B6r",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-smygeturen-2026",
@@ -24794,7 +24880,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=B%C3%B6keberg%2C+Svedala",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "do-c-gemensam-körning-till-bornholm-2026",
@@ -25623,7 +25710,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=J%C3%B6nk%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "finnskogsrundan-ostmark-2026-07-18",
@@ -25892,7 +25980,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Nykvarns+Slusscaf%C3%A9%2C+Link%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-07-21",
@@ -26366,7 +26455,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Preem%2C+Falkenberg",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "dagstur-med-distrikt-i-2026",
@@ -27005,7 +27095,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Laholm",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-08-01",
@@ -27163,7 +27254,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=H%C3%A4llingsj%C3%B6v%C3%A4gen+2%2C+H%C3%A4llingsj%C3%B6",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "gavle-norrlandscruisern-2026",
@@ -27504,7 +27596,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Brom%C3%B6lla",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-08-06",
@@ -27782,7 +27875,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=%C3%84lgerumsv%C3%A4gen+35%2C+M%C3%B6nster%C3%A5s%2C+Sweden",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d8-glasstur-2026",
@@ -27808,7 +27902,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4stra%2C+G%C3%B6taland",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bsa-summer-camp-oland-2026",
@@ -28157,7 +28252,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=%C3%96stra+v%C3%A4gen+3%2C+N%C3%A4ssj%C3%B6",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d14-glassturen-2026",
@@ -28183,7 +28279,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=J%C3%B6nk%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-jans-runda-2026",
@@ -28209,7 +28306,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-08-09",
@@ -28791,7 +28889,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Tj%C3%B6rn",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "sikhallsturen-med-overnattning-2026",
@@ -28929,7 +29028,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%A5land",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d8-vanern-runt-fran-vanersborg-2026",
@@ -28955,7 +29055,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4nersborg",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-mcq-pa-gronbete-i-goinge-2026",
@@ -28981,7 +29082,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sellerigatan+7%2C+Lund",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-vanern-runt-fran-kristinehamn-en-svensk-mc-klassik-2026",
@@ -29007,7 +29109,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4sterl%C3%A5nggatan+4%2C+Kristinehamn",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "guldrundan-skelleftea-2026",
@@ -29327,7 +29430,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Dalsland",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-stafsater-glass-gardsbutik-2026",
@@ -29353,7 +29457,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Stafs%C3%A4ter%2C+Sturefors",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-pelles-runda-2026",
@@ -29711,7 +29816,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Vollsj%C3%B6",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-08-20",
@@ -29902,7 +30008,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Halden%2C+%C3%98stfold+fylke%2C+Norge",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "carlbarks-aka-hoj-weekend-2026-08-21",
@@ -30747,7 +30854,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Limfjorden%2C+Danmark",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-upplandsturen-2026",
@@ -30958,7 +31066,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-emilsturen-2026-08-30",
@@ -31372,7 +31481,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%B6nbergagatan+35+S%C3%B6derk%C3%B6ping",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "do-c-unnarydstraffen-2026",
@@ -31503,7 +31613,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Norremarksv%C3%A4gen%2C+V%C3%A4xj%C3%B6",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-tur-fran-bromolla-2026-09-05",
@@ -31529,7 +31640,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Brom%C3%B6lla",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d8-mats-tur-2026",
@@ -31555,7 +31667,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Karl%2C+Gustav",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-alandsturen-2026",
@@ -32256,7 +32369,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=%C3%96land",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d14-bolmenturen-2026",
@@ -32282,7 +32396,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Bolmen%2FLjungby",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-scaniamus-et-och-tunga-rallyt-2026",
@@ -32308,7 +32423,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Krokek+Buthagen%2C+Kolm%C3%A5rden",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "con-dios-mc-20-årsjubileum-2026",
@@ -34742,7 +34858,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%A5land",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-11-14",
@@ -35159,7 +35276,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Lundag%C3%A5rd%2C+Lund",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-12-10",
@@ -35427,7 +35545,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4stra%2C+G%C3%B6taland",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-2-2026-12-31",
@@ -35453,7 +35572,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=V%C3%A4stra%2C+G%C3%B6taland",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
                                                       "id": "sista-turen-for-aret-2026",
