@@ -511,7 +511,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-gavleborg-bussresa-till-soderhamn-2026",
@@ -576,7 +577,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-narke-pysselkvall-2026",
@@ -615,7 +617,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "uppsala-mcmassa-2026",
@@ -666,7 +669,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d7-gps-och-navigationsdag-2026",
@@ -744,7 +748,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-pubkvall-stockholm-2026-03-14",
@@ -770,7 +775,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-årsmöte-2026",
@@ -796,7 +802,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikafraff-i-hedemora-2026",
@@ -822,7 +829,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lob-pubkvall-i-kristianstad-installt-2026",
@@ -848,7 +856,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "oamck-alands-x-2026",
@@ -992,7 +1001,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d7-aw-med-filmvisning-2026",
@@ -1044,7 +1054,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d7-sasongsuppstart-motorrad-center-upplands-vasby-2026",
@@ -1096,7 +1107,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-malardalen-arsmote-2026",
@@ -1161,7 +1173,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-harley-night-med-probike-pa-anchor-2026",
@@ -1187,7 +1200,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "hanssons-mc-massa-stromstad-2026",
@@ -1518,7 +1532,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-lordagsfika-pa-biltema-2026-03-21",
@@ -1544,7 +1559,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-03-21",
@@ -1570,7 +1586,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "johans-mc-bonneville-lansering-2026",
@@ -1626,7 +1643,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-arsmote-2026",
@@ -1726,7 +1744,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-stockholm-årsmöte-2026",
@@ -2022,7 +2041,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d12-planeringsmote-2026-2026",
@@ -2074,7 +2094,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lod-onsdagsfika-soldathemmet-skovde-2026-03-25",
@@ -2100,7 +2121,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-grundkurs-underhall-eskilstuna-2026",
@@ -2287,7 +2309,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "fikakväll-maiden-coast-2026-03-27",
@@ -2434,7 +2457,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "pubkvall-pa-cromwell-house-i-norrkoping-2026-03-27",
@@ -2460,7 +2484,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "sulas-mc-kladesrea-2026",
@@ -2635,7 +2660,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-mat-och-bowling-2026",
@@ -2649,7 +2675,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/doh-mat-och-bowling/",
                                                       "region": "Västerbotten",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gp-museet-arsmote-2026-03-28",
@@ -2885,7 +2912,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "pub-kvall-med-tura-2026",
@@ -2911,7 +2939,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-varmland-årsmöte-2026",
@@ -3075,7 +3104,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "kortege-soren-otte-mortensen-2026-03-31",
@@ -3206,7 +3236,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mc-dag-besikta-alvesta-2026",
@@ -3289,7 +3320,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "motortraffen-backavallen-2026-04-02",
@@ -3456,7 +3488,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gmc-karlstad-langfredag-2026-04-03",
@@ -3666,7 +3699,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-04-04",
@@ -3692,7 +3726,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "kastberga-paskarallyt-2026",
@@ -3954,7 +3989,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-04-07",
@@ -3980,7 +4016,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-klubbafton-hos-handelsboden-2026",
@@ -4058,7 +4095,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "omcc-medlemsmote-2026-04-08",
@@ -4379,7 +4417,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-pubkvall-ekero-2026",
@@ -4405,7 +4444,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-var-kickoff-caps-roskilde-2026",
@@ -4419,7 +4459,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/dob-var-kickoff-caps-roskilde/",
                                                       "region": "Skåne",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-i-falun-2026",
@@ -4445,7 +4486,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "ducati-provkorningsdag-claessons-2026-04-11",
@@ -5168,7 +5210,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-04-14",
@@ -5194,7 +5237,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-onsdagstur-med-blandat-underlag-2026-04-15",
@@ -5276,7 +5320,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-gavleborg-klubbtraff-2026",
@@ -5315,7 +5360,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "network-mc-matpaj-2026-04-16",
@@ -5651,7 +5697,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-lordagsfika-pa-biltema-2026-04-18",
@@ -5677,7 +5724,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-04-18",
@@ -5703,7 +5751,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "goodguys-mc-avrostning-arjang-2026-04-18",
@@ -6331,7 +6380,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "sulas-mc-invigning-2026",
@@ -6767,7 +6817,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d7-tisdagskvallstur-soder-2026-04-21",
@@ -6814,7 +6865,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-04-21",
@@ -6840,7 +6892,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-04-21",
@@ -6866,7 +6919,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-04-22",
@@ -6892,7 +6946,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-osmo-udda-veckor-2026-04-22",
@@ -6918,7 +6973,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-04-22",
@@ -6944,7 +7000,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-22",
@@ -6970,7 +7027,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-bussresa-till-england-2026",
@@ -7035,7 +7093,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-04-23",
@@ -7061,7 +7120,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-04-23",
@@ -7087,7 +7147,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-gotland-filmkvall-2026",
@@ -7266,7 +7327,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "svinkallt-mc-oppethus-2026-04-24",
@@ -7600,7 +7662,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-pubkvall-stockholm-2026-04-25",
@@ -7626,7 +7689,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-medlemsmote-25-26-april-2026",
@@ -7652,7 +7716,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gandalf-mc-motor-swap-bjurakers-2026-04-25",
@@ -7815,7 +7880,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mc-collection-sasongsoppning-2026",
@@ -8008,7 +8074,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "suzuki-day-nilssons-mc-2026-04-25",
@@ -8297,7 +8364,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-04-27",
@@ -8375,7 +8443,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-04-28",
@@ -8401,7 +8470,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-04-28",
@@ -8427,7 +8497,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "roadracing-licens-falkenberg-2026-04-28",
@@ -8479,7 +8550,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-04-29",
@@ -8505,7 +8577,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-04-29",
@@ -8566,7 +8639,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "balders-hage-bil-mc-cafe-2026",
@@ -8623,7 +8697,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-04-30",
@@ -8649,7 +8724,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-04-30",
@@ -8675,7 +8751,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-04-30",
@@ -8701,7 +8778,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-majbrasa-2026",
@@ -8727,7 +8805,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "omcc-brasrunda-2026-04-30",
@@ -8771,7 +8850,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/valborgskortege-linkoping/",
                                                       "region": "Östergötland",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-valborgskortege-linkoping-2026",
@@ -8812,7 +8892,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/1-majkortege-norrkoping/",
                                                       "region": "Norrbotten",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "adventurebike-gruskurs-niva1-2026-05-01",
@@ -9052,7 +9133,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "do-c-forsta-maj-körning-2026",
@@ -9078,7 +9160,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "elgetraef-2026-05-01",
@@ -9648,7 +9731,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/doa-poker-run/",
                                                       "region": "Stockholm",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-05-02",
@@ -9674,7 +9758,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "ducati-arboga-demodag-2026-05-02",
@@ -9838,7 +9923,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-02",
@@ -9864,7 +9950,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-skaraborg-manadsmote-2026-05-02",
@@ -10582,7 +10669,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "vulcan-riders-sondagstur-3-maj-2026-05-03",
@@ -10661,7 +10749,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-05-04",
@@ -10809,7 +10898,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-05-05",
@@ -10835,7 +10925,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-05-05",
@@ -10861,7 +10952,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "motortraffen-garsnas-premiar-2026-05-05",
@@ -10969,7 +11061,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-osmo-udda-veckor-2026-05-06",
@@ -10995,7 +11088,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-05-06",
@@ -11021,7 +11115,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-05-06",
@@ -11190,7 +11285,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-05-07",
@@ -11216,7 +11312,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-05-07",
@@ -11242,7 +11339,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-05-07",
@@ -11268,7 +11366,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-gavleborg-klubbkorning-2026-05-07",
@@ -11821,7 +11920,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-gokart-hovmantorp-9-maj-2026-2026",
@@ -11847,7 +11947,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "falkenbergs-majsvangen-2026",
@@ -11982,7 +12083,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-09",
@@ -12008,7 +12110,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lurblasarsvanget-high-riders-ystad-2026-05-09",
@@ -12267,7 +12370,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-mc-kortege-hedemora-2026",
@@ -12508,7 +12612,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-fdo-s-runda-till-danmark-2026",
@@ -12534,7 +12639,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "fikatraff-surahammar-2026",
@@ -12560,7 +12666,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "ghc-varmonstring-2026-05-10",
@@ -12718,7 +12825,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-05-11",
@@ -12775,7 +12883,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-05-12",
@@ -12801,7 +12910,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-05-12",
@@ -12827,7 +12937,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-05-12",
@@ -12912,7 +13023,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-05-13",
@@ -12938,7 +13050,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-05-13",
@@ -13176,7 +13289,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-05-14",
@@ -13202,7 +13316,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-05-14",
@@ -13228,7 +13343,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-05-14",
@@ -13254,7 +13370,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-blommans-amp-lybergs-saloon-runda-i-eringsboda-2026",
@@ -13280,7 +13397,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-05-14",
@@ -13306,7 +13424,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcs-minitraff-herrfallet-2026",
@@ -13431,7 +13550,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mc-ontours-gravel-jamtland-2026",
@@ -13636,7 +13756,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-kansli-tour-2026-05-15",
@@ -13771,7 +13892,8 @@ const EVENTS_DATA = {
                                                       "link": "https://www.hdcs.se",
                                                       "region": "Västra Götaland",
                                                       "source": "facebook.com",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-rundtur-runt-enkoping-2026",
@@ -13797,7 +13919,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-aviatorernas-flygarrally-2026",
@@ -13823,7 +13946,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-poker-run-lordag-16-maj-2026-pa-flying-eagle-s-2026",
@@ -13849,7 +13973,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-05-16",
@@ -13875,7 +14000,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "fmck-gruskurs-rorken-2026-05-16",
@@ -14095,7 +14221,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-16",
@@ -14121,7 +14248,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mc-kortegen-kristianstad-2026",
@@ -14403,7 +14531,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/pokerrun-finnspang/",
                                                       "region": "Norrbotten",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "rat-fest-falun-2026-05-16",
@@ -14798,7 +14927,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-05-17",
@@ -14997,7 +15127,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-05-18",
@@ -15105,7 +15236,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-05-19",
@@ -15131,7 +15263,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-05-19",
@@ -15157,7 +15290,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-05-19",
@@ -15216,7 +15350,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-osmo-udda-veckor-2026-05-20",
@@ -15242,7 +15377,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-05-20",
@@ -15268,7 +15404,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "grillkvall-longsjon-ankarsrum-2026",
@@ -15377,7 +15514,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "super-rally-2026-fredericia-danmark-2026",
@@ -15403,7 +15541,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "superrally-fredricia-danmark-2026",
@@ -15418,7 +15557,8 @@ const EVENTS_DATA = {
                                                       "region": "Danmark",
                                                       "source": "hdcs.se",
                                                       "descriptionFull": "Superrally Fredericia är en av de stora europeiska Harley-Davidson rallyna.\n\nFem dagar med shower, musik, utställningar och körningar i och kring Fredericia.\n\nArrangeras av H-DCS. Se länk för detaljer och anmälan.\n\nPlats: Fredericia, Danmark.",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-05-21",
@@ -15444,7 +15584,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-05-21",
@@ -15470,7 +15611,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-05-21",
@@ -15496,7 +15638,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "fmct-tjejdag-kinnekulle-2026",
@@ -15552,7 +15695,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-gavleborg-klubbkorning-2026-05-21",
@@ -15646,7 +15790,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "fmct-bandag-kinnekulle-2026",
@@ -15730,7 +15875,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "ttcs-vartraff-johannesberg-2026",
@@ -16052,7 +16198,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-23",
@@ -16078,7 +16225,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "malardalen-open-25-kjula-2026",
@@ -16410,7 +16558,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "adventurebike-gruskurs-niva1-2026-05-24",
@@ -16647,7 +16796,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-05-25",
@@ -16731,7 +16881,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-05-26",
@@ -16757,7 +16908,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-05-26",
@@ -16783,7 +16935,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-05-26",
@@ -16868,7 +17021,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-05-27",
@@ -16894,7 +17048,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "furuboda-korning-2026",
@@ -17021,7 +17176,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-05-28",
@@ -17047,7 +17203,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-05-28",
@@ -17073,7 +17230,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-05-28",
@@ -17099,7 +17257,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-05-28",
@@ -17125,7 +17284,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-mchk-gavleborg-klubbkorning-2026-05-28",
@@ -17164,7 +17324,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-noplatraffen-i-kristianopel-29-31-maj-2026",
@@ -17190,7 +17351,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcs-vikingtraffen-gallo-2026",
@@ -17595,7 +17757,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-tur-till-medlemsbutiken-i-ljungby-2026",
@@ -17621,7 +17784,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-05-30",
@@ -17647,7 +17811,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "ds-i-orange-day-sundsvall-2026",
@@ -17673,7 +17838,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "ducati-arboga-demodag-2026-05-30",
@@ -17729,7 +17895,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lerduveskytte-2026",
@@ -17755,7 +17922,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-05-30",
@@ -17781,7 +17949,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-05-30",
@@ -17807,7 +17976,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mc-treff-sommerfest-agder-wings-risor-2026",
@@ -18237,7 +18407,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "imrg-big-lake-lordagstur-2026-05-30",
@@ -18498,7 +18669,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-06-01",
@@ -18581,7 +18753,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-06-02",
@@ -18607,7 +18780,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-02",
@@ -18633,7 +18807,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-06-02",
@@ -18718,7 +18893,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-osmo-udda-veckor-2026-06-03",
@@ -18744,7 +18920,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-06-03",
@@ -18770,7 +18947,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-06-03",
@@ -18875,7 +19053,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-06-04",
@@ -18901,7 +19080,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-06-04",
@@ -18927,7 +19107,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-06-04",
@@ -18953,7 +19134,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-06-04",
@@ -18979,7 +19161,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lort-grusbus-halsingland-2026",
@@ -19349,7 +19532,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-custom-bike-show-norrtalje-2026",
@@ -19379,7 +19563,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-nationaldagstur-2026",
@@ -19405,7 +19590,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcs-nationaldagstur-2026",
@@ -19457,7 +19643,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-06-06",
@@ -19483,7 +19670,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mcv-osterlen-motorhistoriska-dagen-2026-06-06",
@@ -19580,7 +19768,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/nationaldagskorning-i-linkoping/",
                                                       "region": "Östergötland",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "nationaldagstur-2026",
@@ -19606,7 +19795,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "nationaldagsturen-haninge-2026",
@@ -19742,7 +19932,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "vulcan-riders-hemliga-turen-2026-06-06",
@@ -20137,7 +20328,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-06-08",
@@ -20194,7 +20386,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-06-09",
@@ -20220,7 +20413,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-09",
@@ -20246,7 +20440,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-06-09",
@@ -20305,7 +20500,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-06-10",
@@ -20331,7 +20527,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "htc-och-smc-kvallsstraff-nassjo-2026",
@@ -20492,7 +20689,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-06-11",
@@ -20518,7 +20716,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-06-11",
@@ -20544,7 +20743,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-06-11",
@@ -20570,7 +20770,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-06-11",
@@ -20596,7 +20797,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d10-hultsfred-2026-grus-och-asfalt-2026",
@@ -20648,7 +20850,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-grangetraffen-2026",
@@ -20674,7 +20877,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-sagverksfesten-xii-2026",
@@ -20700,7 +20904,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "oamck-vatternrundan-2026",
@@ -20878,7 +21083,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-girl-fun-run-2026",
@@ -20904,7 +21110,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-staffanstorp-motordag-2026",
@@ -20930,7 +21137,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-06-13",
@@ -20956,7 +21164,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "kuggnas-sommartraff-2026",
@@ -21003,7 +21212,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-06-13",
@@ -21029,7 +21239,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-06-13",
@@ -21055,7 +21266,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mchk-trondhjemsridtet-2026",
@@ -21193,7 +21405,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "hakan-p-slottsrundan-2026",
@@ -21219,7 +21432,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-06-14",
@@ -21324,7 +21538,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-16",
@@ -21350,7 +21565,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-06-16",
@@ -21376,7 +21592,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-16",
@@ -21402,7 +21619,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-06-16",
@@ -21486,7 +21704,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-osmo-udda-veckor-2026-06-17",
@@ -21512,7 +21731,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-06-17",
@@ -21538,7 +21758,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-06-17",
@@ -21621,7 +21842,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-06-18",
@@ -21647,7 +21869,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-06-18",
@@ -21673,7 +21896,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "indian-riders-fest-2026",
@@ -21730,7 +21954,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lort-2-grusbus-halsingland-2026",
@@ -21828,7 +22053,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "ekebacketraffen-2026-06-19",
@@ -21884,7 +22110,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "hdcs-midsommartraff-2026",
@@ -21910,7 +22137,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "summer-party-fauske-2026-06-19",
@@ -21962,7 +22190,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-06-20",
@@ -21988,7 +22217,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "skovde-mc-sommartorget-2026",
@@ -22093,7 +22323,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-06-22",
@@ -22150,7 +22381,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-06-23",
@@ -22176,7 +22408,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-23",
@@ -22202,7 +22435,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-06-23",
@@ -22261,7 +22495,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-06-24",
@@ -22287,7 +22522,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-06-24",
@@ -22340,7 +22576,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lort-nr3-grusbushelg-halsingland-2026",
@@ -22392,7 +22629,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-skogskyrkogarden-2026-06-25",
@@ -22418,7 +22656,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-06-25",
@@ -22444,7 +22683,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-06-25",
@@ -22470,7 +22710,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcs-nationell-traff-degeberga-2026",
@@ -22526,7 +22767,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "midnattssolsstraffenen-2026",
@@ -22777,7 +23019,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "daca-run-against-child-abuse-2026-06-27",
@@ -22829,7 +23072,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "do-c-h-d-golfen-2026",
@@ -22855,7 +23099,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "do-i-charity-run-2026",
@@ -22881,7 +23126,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-adelso-runt-2026",
@@ -22907,7 +23153,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-charity-run-2026",
@@ -22933,7 +23180,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-charity-run-27-juni-2026",
@@ -22959,7 +23207,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-06-27",
@@ -22985,7 +23234,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-charity-run-2026-2026",
@@ -23011,7 +23261,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "kojkland-blue-smoke-summer-meet-2026-06-27",
@@ -23063,7 +23314,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-06-27",
@@ -23089,7 +23341,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mcv-osterlen-artillerimuseet-2026-06-27",
@@ -23290,7 +23543,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-30",
@@ -23316,7 +23570,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-06-30",
@@ -23342,7 +23597,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-30",
@@ -23368,7 +23624,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "smt-gotland-2026",
@@ -23454,7 +23711,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-07-01",
@@ -23558,7 +23816,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "vasteras-summermeet-2026",
@@ -23639,7 +23898,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gotland-ring-bikeweek-2026",
@@ -23874,7 +24134,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-cherity-run-2026",
@@ -23900,7 +24161,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "hmcv-varmland-veteransvangen-2026",
@@ -24006,7 +24268,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-07-04",
@@ -24032,7 +24295,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mini-jumbo-i-klippan-2026",
@@ -24136,7 +24400,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "vulcan-riders-gostas-raektur-2026-07-04",
@@ -24184,7 +24449,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-07-05",
@@ -24237,7 +24503,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-nordic-run-2026",
@@ -24263,7 +24530,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-nordic-run-genom-distrikt-e-7-8-juli-2026",
@@ -24289,7 +24557,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-07-07",
@@ -24348,7 +24617,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-07-08",
@@ -24416,7 +24686,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/nordic-run/",
                                                       "region": "Norrbotten",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "speedskills-gellerasen-trackday-2026-07-08",
@@ -24549,7 +24820,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-07-09",
@@ -24575,7 +24847,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-07-09",
@@ -24601,7 +24874,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "baik-bitch-summer-raid-bollnas-2026-07-10",
@@ -24713,7 +24987,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-07-11",
@@ -24739,7 +25014,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "emc-sommerfest-2026-07-11",
@@ -24805,7 +25081,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-07-11",
@@ -24831,7 +25108,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "oamck-grillfest-2026",
@@ -25041,7 +25319,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-07-14",
@@ -25100,7 +25379,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-07-15",
@@ -25153,7 +25433,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-hoglandsturen-med-jonas-lager-17-juli-2026",
@@ -25179,7 +25460,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-bergsjotraffen-2026",
@@ -25205,7 +25487,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gotlands-mc-klubbs-campingtraff-2026",
@@ -25256,7 +25539,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "hemlig-tur-8230-2026",
@@ -25282,7 +25566,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "wheelswings-falkenberg-2026",
@@ -25390,7 +25675,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-07-18",
@@ -25416,7 +25702,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "rock-the-night-festival-malmo-2026",
@@ -25520,7 +25807,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-07-19",
@@ -25630,7 +25918,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "motortraffen-garsnas-musik-2026",
@@ -25715,7 +26004,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-07-22",
@@ -25795,7 +26085,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcf-treffen-muonio-2026-07-23",
@@ -25886,7 +26177,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "vulcan-riders-hojrock-2026-07-23",
@@ -25943,7 +26235,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "knalletraffen-2026",
@@ -26046,7 +26339,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/afrikansk-afton/",
                                                       "region": "Norrbotten",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d14-bynanders-2026",
@@ -26098,7 +26392,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-07-25",
@@ -26124,7 +26419,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-07-25",
@@ -26150,7 +26446,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-07-25",
@@ -26176,7 +26473,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "norge-tur-fran-trollhattan-2026",
@@ -26202,7 +26500,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "rock-the-night-festival-gavle-2026",
@@ -26317,7 +26616,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-07-28",
@@ -26376,7 +26676,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-07-29",
@@ -26487,7 +26788,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mc-campen-skogsrojet-2026-07-30",
@@ -26565,7 +26867,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "halsingetraffen-55-2026",
@@ -26622,7 +26925,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bisonturen-2026",
@@ -26648,7 +26952,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "blackngrey-summer-party-halmstad-2026",
@@ -26726,7 +27031,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-01",
@@ -26752,7 +27058,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mopedrally-bikerally-gunnarskog-2026-08-01",
@@ -26948,7 +27255,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-kalla-kriget-2026",
@@ -27028,7 +27336,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-08-04",
@@ -27054,7 +27363,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-08-04",
@@ -27113,7 +27423,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-08-05",
@@ -27139,7 +27450,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-08-05",
@@ -27218,7 +27530,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-08-06",
@@ -27244,7 +27557,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallstur-skogskyrkogarden-2026-08-06",
@@ -27270,7 +27584,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-08-06",
@@ -27296,7 +27611,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "emc-rally-finland-2026",
@@ -27386,7 +27702,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "treffen-sweden-gwef-2026",
@@ -27542,7 +27859,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "fly-n-ride-ljungbyhed-2026",
@@ -27624,7 +27942,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-08",
@@ -27650,7 +27969,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mcv-osterlen-osterlen-kicken-2026-08-08",
@@ -27967,7 +28287,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-08-10",
@@ -28024,7 +28345,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-08-11",
@@ -28050,7 +28372,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mototour-of-nations-2026",
@@ -28134,7 +28457,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-osmo-udda-veckor-2026-08-12",
@@ -28160,7 +28484,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-08-12",
@@ -28186,7 +28511,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-08-12",
@@ -28239,7 +28565,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-08-13",
@@ -28265,7 +28592,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-08-13",
@@ -28291,7 +28619,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallstur-skogskyrkogarden-2026-08-13",
@@ -28317,7 +28646,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcdk-international-treffen-2026-08-13",
@@ -28378,7 +28708,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "treffen-denmark-gwef-2026",
@@ -28486,7 +28817,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "sydtraffen-vulcan-riders-2026-08-14",
@@ -28752,7 +29084,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-15",
@@ -28778,7 +29111,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lulea-midnattssolsransen-2026",
@@ -29045,7 +29379,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-08-16",
@@ -29125,7 +29460,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-08-17",
@@ -29182,7 +29518,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-08-18",
@@ -29208,7 +29545,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-08-18",
@@ -29267,7 +29605,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-08-19",
@@ -29293,7 +29632,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "grillkvall-longsjon-augusti-2026",
@@ -29397,7 +29737,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-08-20",
@@ -29423,7 +29764,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallstur-skogskyrkogarden-2026-08-20",
@@ -29449,7 +29791,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-08-20",
@@ -29475,7 +29818,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "forza-orza-2026",
@@ -29531,7 +29875,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d10-en-god-bit-av-ostfold-26-2026",
@@ -29601,7 +29946,8 @@ const EVENTS_DATA = {
                                                       "link": "https://hdcs.se/evenemang/helgtraff-pa-joce-city/",
                                                       "region": "Norrbotten",
                                                       "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-ekero-runt-2026",
@@ -29627,7 +29973,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-hasses-olandsrunda-22-23-augusti-2026",
@@ -29653,7 +30000,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-08-22",
@@ -29679,7 +30027,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-till-jas39-2026-08-22",
@@ -29736,7 +30085,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-22",
@@ -29762,7 +30112,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "rockets-chopper-show-kungsbacka-2026",
@@ -29894,7 +30245,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-08-24",
@@ -29978,7 +30330,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-08-25",
@@ -30004,7 +30357,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-08-25",
@@ -30063,7 +30417,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-osmo-udda-veckor-2026-08-26",
@@ -30089,7 +30444,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-08-26",
@@ -30115,7 +30471,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-onsdagsturen-2026-08-26",
@@ -30194,7 +30551,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-08-27",
@@ -30220,7 +30578,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallstur-skogskyrkogarden-2026-08-27",
@@ -30246,7 +30605,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-08-27",
@@ -30272,7 +30632,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "brudfjallstraffen-2026-08-28",
@@ -30359,7 +30720,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d8-limfjorden-runt-med-bmwklubben-danmark-2026",
@@ -30411,7 +30773,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-08-29",
@@ -30437,7 +30800,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-08-29",
@@ -30463,7 +30827,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mxsm-gota-ms-2026",
@@ -30619,7 +30984,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-08-30",
@@ -30672,7 +31038,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-08-31",
@@ -30729,7 +31096,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-09-01",
@@ -30755,7 +31123,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-09-01",
@@ -30814,7 +31183,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-09-02",
@@ -30840,7 +31210,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-09-03",
@@ -30866,7 +31237,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-09-03",
@@ -30892,7 +31264,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallstur-skogskyrkogarden-2026-09-03",
@@ -30918,7 +31291,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-09-03",
@@ -30944,7 +31318,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-09-03",
@@ -30970,7 +31345,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-mcq-rikstraff-2026-2026",
@@ -31022,7 +31398,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-stenotraffen-2026",
@@ -31048,7 +31425,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "ranneslattsloppet-2026",
@@ -31203,7 +31581,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-09-05",
@@ -31229,7 +31608,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gokart-2026",
@@ -31255,7 +31635,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "jsm-mx-orion-2026",
@@ -31306,7 +31687,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-09-05",
@@ -31332,7 +31714,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mcv-osterlen-veterantraff-skane-tranas-2026-09-05",
@@ -31385,7 +31768,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "motorcycle-inferno-munkfors-2026-09-05",
@@ -31486,7 +31870,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-09-07",
@@ -31543,7 +31928,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-09-08",
@@ -31569,7 +31955,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "faaker-see-2026-osterrike-2026",
@@ -31595,7 +31982,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-09-08",
@@ -31654,7 +32042,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-osmo-udda-veckor-2026-09-09",
@@ -31680,7 +32069,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-09-09",
@@ -31706,7 +32096,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-09-10",
@@ -31732,7 +32123,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-09-10",
@@ -31758,7 +32150,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallstur-skogskyrkogarden-2026-09-10",
@@ -31784,7 +32177,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-09-10",
@@ -31810,7 +32204,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "roadracing-sm-anderstorp-2026",
@@ -31966,7 +32361,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-sormlandsturen-2026",
@@ -31992,7 +32388,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-tjejtraff-moheda-12-september-2026",
@@ -32018,7 +32415,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-09-12",
@@ -32044,7 +32442,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-09-12",
@@ -32070,7 +32469,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lumberjacks-mc-25ar-2026-09-12",
@@ -32175,7 +32575,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "vulcan-riders-full-gas-rally-2026-09-12",
@@ -32324,7 +32725,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-09-14",
@@ -32381,7 +32783,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-09-15",
@@ -32407,7 +32810,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "twin-club-tisdagstur-2026-09-15",
@@ -32466,7 +32870,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-09-16",
@@ -32492,7 +32897,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-09-17",
@@ -32518,7 +32924,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-09-17",
@@ -32544,7 +32951,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallstur-skogskyrkogarden-2026-09-17",
@@ -32570,7 +32978,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-09-17",
@@ -32596,7 +33005,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-09-17",
@@ -32622,7 +33032,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-fiskelager-i-kulagolen-18-19-september-2026",
@@ -32648,7 +33059,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "hosttraffenen-kristinehamn-2026",
@@ -32699,7 +33111,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "kinnekulleturen-2026",
@@ -32725,7 +33138,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "larrsons-runda-2026-09-19",
@@ -32777,7 +33191,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-09-19",
@@ -32803,7 +33218,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-09-19",
@@ -32829,7 +33245,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mxsm-uddevalla-2026",
@@ -33000,7 +33417,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-nacka-2026-09-21",
@@ -33026,7 +33444,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-09-21",
@@ -33083,7 +33502,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-09-22",
@@ -33109,7 +33529,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-09-23",
@@ -33135,7 +33556,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-osmo-udda-veckor-2026-09-23",
@@ -33161,7 +33583,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-09-23",
@@ -33187,7 +33610,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-09-24",
@@ -33213,7 +33637,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-uppsala-2026-09-24",
@@ -33239,7 +33664,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallstur-skogskyrkogarden-2026-09-24",
@@ -33265,7 +33691,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-09-24",
@@ -33291,7 +33718,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-09-26",
@@ -33317,7 +33745,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-ornskoldsvik-2026-09-26",
@@ -33343,7 +33772,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "rosa-bandet-mc-kortege-2026-09-26",
@@ -33395,7 +33825,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-nacka-2026-09-28",
@@ -33421,7 +33852,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "mc-kalendern-druk-se-ad-2026",
@@ -33470,7 +33902,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-09-29",
@@ -33496,7 +33929,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-norrtalje-2026-09-30",
@@ -33522,7 +33956,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-taby-2026-09-30",
@@ -33548,7 +33983,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-10-01",
@@ -33574,7 +34010,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-asian-food-varnamo-3-oktober-2026",
@@ -33600,7 +34037,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-sista-rundan-3-oktober-2026",
@@ -33626,7 +34064,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-10-03",
@@ -33652,7 +34091,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "medlemsmote-planeringsmote-2027-2026",
@@ -33678,7 +34118,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "oamck-dagtouring-okt-2026",
@@ -33731,7 +34172,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "rusktraffen-2026",
@@ -33787,7 +34229,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dob-grill-rovarkulan-2026",
@@ -33813,7 +34256,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcs-medlemsmote-okt-2026",
@@ -33865,7 +34309,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-10-15",
@@ -33891,7 +34336,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-10-17",
@@ -33917,7 +34363,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-10-20",
@@ -33943,7 +34390,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gotland-grand-national-2026",
@@ -34004,7 +34452,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "oamck-alandkryss-2026",
@@ -34057,7 +34506,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-10-29",
@@ -34083,7 +34533,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-10-31",
@@ -34109,7 +34560,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "pannkaksfsesten-boras-2026",
@@ -34160,7 +34612,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-aktivitet-i-oskarshamn-7-november-2026",
@@ -34186,7 +34639,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "oamck-andalusienresa-2026-11-07",
@@ -34234,7 +34688,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-11-12",
@@ -34260,7 +34715,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-planeringstraff-2026-2026",
@@ -34312,7 +34768,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "pubkvall-2026",
@@ -34338,7 +34795,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcs-fikatraff-sormland-nov-2026",
@@ -34390,7 +34848,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "oamck-flipperturnering-2026",
@@ -34485,7 +34944,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-11-26",
@@ -34511,7 +34971,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-julbordskryssning-2026",
@@ -34537,7 +34998,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doe-medlemsmote-julbord-28-29-november-2026",
@@ -34563,7 +35025,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-11-28",
@@ -34589,7 +35052,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-12-01",
@@ -34615,7 +35079,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "gwcs-jultallrik-2026",
@@ -34667,7 +35132,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-luciamys-i-lundagard-2026",
@@ -34719,7 +35185,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-12-12",
@@ -34745,7 +35212,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "julbord-2026",
@@ -34771,7 +35239,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-12-15",
@@ -34797,7 +35266,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "hjultomtekorning-2026-12-19",
@@ -34849,7 +35319,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doh-fika-lycksele-2026-12-24",
@@ -34875,7 +35346,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "dog-fikatraff-pa-radis-2026-12-26",
@@ -34901,7 +35373,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-12-29",
@@ -34927,7 +35400,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-1-2026-12-31",
@@ -35005,7 +35479,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/hdcs.png"
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
                                     }
                   ]
 };
