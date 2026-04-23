@@ -8063,6 +8063,32 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "let-the-thunder-run-egeskov-2026-04-25",
+                                                      "name": "Let The Thunder Run",
+                                                      "date": "2026-04-25",
+                                                      "dateEnd": "2026-04-25",
+                                                      "type": "Körning",
+                                                      "region": "Danmark",
+                                                      "location": "OK Karlslunde, Køge Bugt Motorvejen",
+                                                      "organizer": "H-D Klubben af 1930",
+                                                      "description": "Fællestur til Egeskov Slot. Afgang kl 09:00 fra Karlslunde, pitstop Slagelse kl 09:45. Små veje på Fyn.",
+                                                      "descriptionFull": "LET THE THUNDER RUN\nFællestur i weekenden – arrangeret af HDK1930\n\nWeekenden er skabt til motorlyde, frihed og fællesskab.\nVi inviterer til en fed og afslappet fællestur i weekenden, hvor vi samler maskinerne og nyder vejen sammen.\n\nKom som du er, kør som du vil – det handler om køreglæde, godt humør og stærkt sammenhold.\nJo flere vi er, jo federe bliver turen!\n\n25. april – Eventyr på Fyn & Egeskov Slot\n\nKl. 09.00 – Afgang fra OK, Karlslunde (Køge Bugt Motorvejen sydgående)\nKl. 09.45 – Pitstop ved Stop 39, Slagelse\nVi rammer de hyggelige små veje på Fyn.\nDestination: Egeskov Slot\nMasser af køreglæde og godt selskab!\n\nLET THE THUNDER RUN!\nDel gerne og tag dem, du vil rulle weekenden i gang med.",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/let-the-thunder-run-back-2026-04-25.jpg",
+                                                      "link": "https://www.facebook.com/events/1885429642337016",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1885429642337016"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Egeskov+Slot+Kv%C3%A6rndrup+Denmark",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "tranrikerundan-2026",
                                                       "name": "Tranrikerundan",
                                                       "date": "2026-04-25",
@@ -23567,15 +23593,20 @@ const EVENTS_DATA = {
                                                       "location": "Bredviksnäset, Höting",
                                                       "type": "Träff",
                                                       "organizer": "DMCK Fridas",
-                                                      "description": "45:an, en träff med underbara människor och otrolig atmosfär. Levande musik, matservering.",
+                                                      "description": "MC-träff mellan Dorotea och Hoting. Levande musik fredagskväll, mat och dryck i kiosken. Badstrand 100 m bort.",
                                                       "link": "https://dmck-fridas.se/",
                                                       "region": "Jämtland",
-                                                      "source": "smcboken.svmc.se",
-                                                      "descriptionFull": "45:an arrangeras av DMCK Fridas.\n\n45:an, en träff med underbara människor och otrolig atmosfär. Levande musik, matservering.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Bredviksnäset, Höting.",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/45an-hoting-back-2026-07-03.jpg",
+                                                      "descriptionFull": "DMCK-Fridas hälsar alla MC-vänner varmt välkommen!\n\n45:an MC-träff\n3/7 12.00 till 5/7 12.00\n\nEn träff där vi alla trivs.\nUnderbara människor och otrolig atmosfär.\nLevande musik fredagskväll.\n\nPlats: 45:an är beläget mellan Dorotea och Hoting, badmöjligheter finns vid vår fina sandstrand ca 100 m från träffområdet. Vi har en duschvagn som är öppen på utsatta tider.\n\nMat & Dryck: Träfförnödenheter finns att inföskaffa i kiosken. Såsom diverse mat, snacks och dricka (av olika slag). Frukostbuffé.\n\nBarn är välkomna till vår träff.\n\nVägbeskrivning: Bredviksnäset är beläget 15 km från Dorotea mot Hoting. Från Hoting ca 1 mil. Väl skyltat från både håll och flaggor vid infarten.\n\nVår facebooksida: Sök DMCK Fridas",
                                                       "links": [
                                                                         {
                                                                                           "label": "dmck-fridas.se",
                                                                                           "url": "https://dmck-fridas.se/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=10163548620923962&set=gm.26762941196678773"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
