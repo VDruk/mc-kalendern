@@ -1438,6 +1438,151 @@
       padding-bottom: calc(20px + env(safe-area-inset-bottom));
     }
   }
+
+  /* ========== MOBILE REDESIGN 2026-04-23 (Phase 1) ========== */
+  .m-topbar {
+    display: none;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: #1a1a2e;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    height: 56px;
+    padding: 0 12px;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+  }
+  .m-topbar-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .m-topbar-logo {
+    width: 34px; height: 34px;
+    border-radius: 7px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .m-topbar-text { min-width: 0; line-height: 1.15; }
+  .m-topbar-name {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    color: #fff;
+  }
+  .m-topbar-name span { color: var(--accent); }
+  .m-topbar-motto {
+    font-size: 10px;
+    color: rgba(255,255,255,0.55);
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .m-burger {
+    background: transparent;
+    border: 0;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+  .m-burger span {
+    width: 20px; height: 2px;
+    background: #fff;
+    border-radius: 1px;
+    transition: all 0.2s;
+  }
+
+  .m-time-pills {
+    display: none;
+    padding: 8px 10px 6px;
+    gap: 4px;
+    grid-template-columns: repeat(6, 1fr);
+    background: var(--bg-primary);
+  }
+  .m-pill {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 5px 2px 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.1s, background 0.15s;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .m-pill:active { transform: scale(0.96); }
+  .m-pill-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-primary);
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 2px;
+  }
+  .m-pill-count {
+    font-size: 10px;
+    color: var(--accent);
+    margin-top: 2px;
+    line-height: 1;
+    font-weight: 500;
+  }
+  .m-pill.active {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+  .m-pill.active .m-pill-label { color: #fff; }
+  .m-pill.active .m-pill-count { color: rgba(255,255,255,0.9); }
+  .m-pill.no-events { opacity: 0.45; pointer-events: none; }
+
+  .m-filter-row {
+    display: none;
+    padding: 0 10px 10px;
+    gap: 6px;
+    grid-template-columns: 1fr 1fr;
+    background: var(--bg-primary);
+  }
+  .m-filter-row .filter-select {
+    width: 100%;
+    min-width: 0;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 8px 28px 8px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+    height: 40px;
+  }
+
+  @media (max-width: 768px) {
+    .m-topbar { display: flex; }
+    .m-time-pills { display: grid; }
+    .m-filter-row { display: grid; }
+
+    /* Hide old desktop header stack on mobile */
+    .hero { display: none !important; }
+    .hander-bar { display: none !important; }
+    .filter-right-col { display: none !important; }
+    .filter-dropdowns { display: none !important; }
+    .filter-row-mobile { display: none !important; }
+
+    /* Flatten filters-wrapper so it contributes no space on mobile */
+    .filters-wrapper { background: transparent; border: 0; box-shadow: none; padding: 0; margin: 0; }
+    .filters-inner { padding: 0; margin: 0; }
+
+    /* Search sits below topbar now, no hero to tuck under */
+    .search-section { margin: 10px auto 0; padding: 0 10px; }
+    .search-bar { padding: 4px 6px 4px 14px; height: 44px; }
+    .search-input { font-size: 14px; }
+    .search-count { display: none; }
+
+    .main-content { padding-top: 8px; }
+  }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" media="print" onload="this.media='all'"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
@@ -1472,6 +1617,20 @@
 </script>
 </head>
 <body>
+
+<!-- ========== MOBILE TOPBAR (Phase 1 2026-04-23) ========== -->
+<header class="m-topbar" role="banner">
+  <div class="m-topbar-left">
+    <img class="m-topbar-logo" src="ads/logo-topbar.png" srcset="ads/logo-topbar.png 1x, ads/logo-topbar@2x.png 2x" width="34" height="34" alt="MC Kalendern logotyp">
+    <div class="m-topbar-text">
+      <div class="m-topbar-name">MC <span>Kalendern</span></div>
+      <div class="m-topbar-motto">MC-träffar i Sverige 2026</div>
+    </div>
+  </div>
+  <button class="m-burger" id="mBurger" aria-label="Öppna meny" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
 
 <!-- ========== HERO ========== -->
 <header class="hero">
@@ -1514,6 +1673,44 @@
     <button class="search-clear" id="searchClear" aria-label="Rensa sökning">&times;</button>
     <div class="search-count" id="searchCount">0 evenemang</div>
   </div>
+</div>
+
+<!-- ========== MOBILE TIME PILLS (Phase 1) ========== -->
+<div class="m-time-pills" id="mTimePills" role="tablist" aria-label="Snabbfilter tid">
+  <div class="m-pill active" id="mPillAll" role="tab" data-filter="all">
+    <div class="m-pill-label">Alla</div>
+    <div class="m-pill-count" id="mPillAllCount">0</div>
+  </div>
+  <div class="m-pill" id="mPillToday" role="tab" data-filter="__today__">
+    <div class="m-pill-label">Idag</div>
+    <div class="m-pill-count" id="mPillTodayCount">0</div>
+  </div>
+  <div class="m-pill" id="mPillTomorrow" role="tab" data-filter="__tomorrow__">
+    <div class="m-pill-label">Imorgon</div>
+    <div class="m-pill-count" id="mPillTomorrowCount">0</div>
+  </div>
+  <div class="m-pill" id="mPillWeekend" role="tab" data-filter="__weekend__">
+    <div class="m-pill-label">Helgen</div>
+    <div class="m-pill-count" id="mPillWeekendCount">0</div>
+  </div>
+  <div class="m-pill" id="mPillWeek" role="tab" data-filter="__week__">
+    <div class="m-pill-label">Vecka</div>
+    <div class="m-pill-count" id="mPillWeekCount">0</div>
+  </div>
+  <div class="m-pill" id="mPillMonth" role="tab" data-filter="__month__">
+    <div class="m-pill-label">Månad</div>
+    <div class="m-pill-count" id="mPillMonthCount">0</div>
+  </div>
+</div>
+
+<!-- ========== MOBILE FILTER ROW (Phase 1) ========== -->
+<div class="m-filter-row">
+  <select class="filter-select" id="mRegionFilter" aria-label="Filtrera efter region">
+    <option value="all">Alla regioner</option>
+  </select>
+  <select class="filter-select" id="mDatumFilter" aria-label="Filtrera efter datum">
+    <option value="all">Alla datum</option>
+  </select>
 </div>
 
 <!-- ========== FILTERS ========== -->
@@ -2212,6 +2409,201 @@ function setupHanderBar() {
       chip.classList.add('active');
     }
     monthSel.dispatchEvent(new Event('change'));
+  });
+}
+
+// ========== MOBILE UI (Phase 1 2026-04-23) ==========
+function setupMobileUI() {
+  const monthSel = document.getElementById('monthFilter');
+  const regionSel = document.getElementById('regionFilter');
+  if (!monthSel || !regionSel) return;
+
+  // Ensure __week__ hidden option exists on desktop monthFilter so pill toggling works
+  if (!monthSel.querySelector('option[value="__week__"]')) {
+    const opt = document.createElement('option');
+    opt.value = '__week__'; opt.textContent = 'Denna vecka';
+    opt.style.display = 'none';
+    monthSel.appendChild(opt);
+  }
+
+  const pills = [
+    { id: 'mPillAll', filter: 'all' },
+    { id: 'mPillToday', filter: '__today__' },
+    { id: 'mPillTomorrow', filter: '__tomorrow__' },
+    { id: 'mPillWeekend', filter: '__weekend__' },
+    { id: 'mPillWeek', filter: '__week__' },
+    { id: 'mPillMonth', filter: '__month__' }
+  ];
+
+  pills.forEach(p => {
+    const el = document.getElementById(p.id);
+    if (!el) return;
+    el.addEventListener('click', () => {
+      if (el.classList.contains('no-events')) return;
+      if (p.filter === 'all') {
+        // Reset all filters: month, region, search, type
+        monthSel.value = 'all';
+        regionSel.value = 'all';
+        const si = document.getElementById('searchInput');
+        if (si && si.value) { si.value = ''; si.dispatchEvent(new Event('input')); }
+        const allTypeBtn = document.querySelector('.filter-dropdowns .type-btn[data-type="all"]');
+        if (allTypeBtn && !allTypeBtn.classList.contains('active')) allTypeBtn.click();
+        monthSel.dispatchEvent(new Event('change'));
+        regionSel.dispatchEvent(new Event('change'));
+      } else if (p.filter === '__month__') {
+        const currentM = String(new Date().getMonth() + 1);
+        monthSel.value = (monthSel.value === currentM) ? 'all' : currentM;
+        monthSel.dispatchEvent(new Event('change'));
+      } else {
+        monthSel.value = (monthSel.value === p.filter) ? 'all' : p.filter;
+        monthSel.dispatchEvent(new Event('change'));
+      }
+      syncMobilePillActive();
+    });
+  });
+
+  // Mobile region select mirrors desktop regionFilter
+  const mRegionSel = document.getElementById('mRegionFilter');
+  if (mRegionSel) {
+    // Clone options (skip the placeholder "Alla regioner" we added statically since desktop has it too)
+    mRegionSel.innerHTML = '';
+    Array.from(regionSel.options).forEach(opt => mRegionSel.appendChild(opt.cloneNode(true)));
+    mRegionSel.addEventListener('change', e => {
+      regionSel.value = e.target.value;
+      regionSel.dispatchEvent(new Event('change'));
+    });
+  }
+
+  // Mobile datum select mirrors desktop monthFilter but excludes quick-time (pills handle those)
+  const mDatumSel = document.getElementById('mDatumFilter');
+  if (mDatumSel) {
+    mDatumSel.innerHTML = '';
+    const allOpt = document.createElement('option');
+    allOpt.value = 'all'; allOpt.textContent = 'Alla datum';
+    mDatumSel.appendChild(allOpt);
+    Array.from(monthSel.options).forEach(opt => {
+      if (opt.value === 'all') return;
+      if (opt.value.startsWith('__')) return;
+      if (opt.disabled) return;
+      mDatumSel.appendChild(opt.cloneNode(true));
+    });
+    mDatumSel.addEventListener('change', e => {
+      monthSel.value = e.target.value;
+      monthSel.dispatchEvent(new Event('change'));
+    });
+  }
+
+  // Any change to filters → update pill active state
+  monthSel.addEventListener('change', syncMobilePillActive);
+  regionSel.addEventListener('change', syncMobilePillActive);
+  const si = document.getElementById('searchInput');
+  if (si) si.addEventListener('input', syncMobilePillActive);
+
+  // Burger: Phase 1 placeholder, opens existing Dela modal. Phase 3 will wire to proper Meny drawer.
+  const mBurger = document.getElementById('mBurger');
+  if (mBurger) {
+    mBurger.addEventListener('click', () => {
+      if (typeof openDelaModal === 'function') openDelaModal();
+    });
+  }
+
+  syncMobilePillActive();
+}
+
+function syncMobilePillActive() {
+  const monthSel = document.getElementById('monthFilter');
+  const regionSel = document.getElementById('regionFilter');
+  const si = document.getElementById('searchInput');
+  if (!monthSel || !regionSel) return;
+  const monthVal = monthSel.value;
+  const regionVal = regionSel.value;
+  const searchVal = si ? si.value.trim() : '';
+  const currentMonthStr = String(new Date().getMonth() + 1);
+
+  const pillMap = {
+    'mPillAll': 'all',
+    'mPillToday': '__today__',
+    'mPillTomorrow': '__tomorrow__',
+    'mPillWeekend': '__weekend__',
+    'mPillWeek': '__week__',
+    'mPillMonth': '__month__'
+  };
+
+  Object.entries(pillMap).forEach(([id, filter]) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    let active = false;
+    if (filter === 'all') {
+      active = (monthVal === 'all' && regionVal === 'all' && !searchVal);
+    } else if (filter === '__month__') {
+      active = (monthVal === currentMonthStr);
+    } else {
+      active = (monthVal === filter);
+    }
+    el.classList.toggle('active', active);
+  });
+
+  // Sync mobile select values back from desktop state
+  const mRegionSel = document.getElementById('mRegionFilter');
+  if (mRegionSel && mRegionSel.value !== regionVal) mRegionSel.value = regionVal;
+  const mDatumSel = document.getElementById('mDatumFilter');
+  if (mDatumSel) {
+    if (monthVal === 'all' || monthVal.startsWith('__')) {
+      mDatumSel.value = 'all';
+    } else {
+      mDatumSel.value = monthVal;
+    }
+  }
+}
+
+function updateMobilePillCounts() {
+  if (typeof EVENTS_DATA === 'undefined' || !Array.isArray(EVENTS_DATA.events)) return;
+  const visible = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
+  const today = new Date().toISOString().slice(0, 10);
+  const future = visible.filter(e => (e.dateEnd || e.date) >= today);
+
+  const tmrw = new Date(); tmrw.setDate(tmrw.getDate() + 1);
+  const tmrwStr = tmrw.toISOString().slice(0, 10);
+  const now = new Date();
+  const dow = now.getDay();
+  let sat, sun;
+  if (dow === 6) { sat = new Date(now); sun = new Date(now); sun.setDate(sun.getDate() + 1); }
+  else if (dow === 0) { sun = new Date(now); sat = new Date(now); sat.setDate(sat.getDate() - 1); }
+  else { sat = new Date(now); sat.setDate(sat.getDate() + (6 - dow)); sun = new Date(sat); sun.setDate(sun.getDate() + 1); }
+  const satStr = sat.toISOString().slice(0, 10);
+  const sunStr = sun.toISOString().slice(0, 10);
+  const monday = new Date(now);
+  monday.setDate(monday.getDate() - ((dow + 6) % 7));
+  const sunday = new Date(monday); sunday.setDate(sunday.getDate() + 6);
+  const monStr = monday.toISOString().slice(0, 10);
+  const sunWeekStr = sunday.toISOString().slice(0, 10);
+  const curMonth = now.getMonth() + 1;
+  const curYear = now.getFullYear();
+
+  const todayN = future.filter(e => e.date <= today && (e.dateEnd || e.date) >= today).length;
+  const tmrwN = future.filter(e => e.date <= tmrwStr && (e.dateEnd || e.date) >= tmrwStr).length;
+  const weekendN = future.filter(e => e.date <= sunStr && (e.dateEnd || e.date) >= satStr).length;
+  const weekN = future.filter(e => e.date <= sunWeekStr && (e.dateEnd || e.date) >= monStr).length;
+  const monthN = future.filter(e => {
+    const d = new Date(e.date);
+    const de = new Date(e.dateEnd || e.date);
+    const matchStart = d.getFullYear() === curYear && d.getMonth() + 1 === curMonth;
+    const matchEnd = de.getFullYear() === curYear && de.getMonth() + 1 === curMonth;
+    return matchStart || matchEnd;
+  }).length;
+
+  const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+  set('mPillAllCount', future.length);
+  set('mPillTodayCount', todayN);
+  set('mPillTomorrowCount', tmrwN);
+  set('mPillWeekendCount', weekendN);
+  set('mPillWeekCount', weekN);
+  set('mPillMonthCount', monthN);
+
+  const noEvt = { mPillToday: todayN, mPillTomorrow: tmrwN, mPillWeekend: weekendN, mPillWeek: weekN, mPillMonth: monthN };
+  Object.entries(noEvt).forEach(([id, n]) => {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('no-events', n === 0);
   });
 }
 
@@ -3527,6 +3919,8 @@ document.addEventListener('DOMContentLoaded', () => {
     updateStats();
     updateHanderBar();
     setupHanderBar();
+    setupMobileUI();
+    updateMobilePillCounts();
     updateFab();
     setTimeout(() => {
       try { initEventMap(); } catch(e) { /* Leaflet not loaded — map disabled */ }
