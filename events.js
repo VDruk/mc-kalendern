@@ -407,7 +407,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-07",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-skane-årsmöte-2026",
@@ -433,7 +434,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-08",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-uppsala-årsmöte-2026",
@@ -459,7 +461,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-08",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-orebro-årsmöte-2026",
@@ -485,7 +488,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-10",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "lod-onsdagsfika-soldathemmet-skovde-2026-03-11",
@@ -979,7 +983,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-15",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-03-17",
@@ -1808,7 +1813,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-21",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-vastmanland-årsmöte-2026",
@@ -1834,7 +1840,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-21",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-vastra-gotaland-årsmöte-2026",
@@ -1860,7 +1867,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-21",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "triumph-bonneville-2026-unleashed",
@@ -1908,7 +1916,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-22",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-jonkoping-årsmöte-2026",
@@ -1969,7 +1978,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-22",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "lelledagarna-uppsala-2026",
@@ -2975,7 +2985,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-28",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-vasterbotten-årsmöte-2026",
@@ -3001,7 +3012,8 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "dateEnd": "2026-03-28",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "vulcan-riders-pubkvall-glada-stinsen-2026-03-28",
@@ -3087,7 +3099,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.thetwinclub.se/",
                                                       "region": "Dalarna",
-                                                      "source": "thetwinclub.se"
+                                                      "source": "thetwinclub.se",
+                                                      "backImage": "ads/smc-dalarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-03-31",
@@ -4968,7 +4981,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Stockholm",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "sasongsstart-ducati-trollhattan-2026-04-11",
@@ -10908,7 +10922,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Rorken%2C+Uppsala",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-ekero-udda-veckor-2026-05-05",
@@ -12441,7 +12456,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.svmc.se/dalarna/aktiviteter/",
                                                       "region": "Dalarna",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-dalarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "smc-nationellt-årsmöte-2026",
@@ -12467,7 +12483,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sundsvall",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "vulcan-riders-lurblasarsvangen-2026-05-09",
@@ -13206,7 +13223,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Aboda%2C+Klint",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "vulcan-riders-onsdagskorning-2026-05-13",
@@ -16452,7 +16470,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Skansbacken+4%2C+Gullmarsplan%2C+Stockholm",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "ride-for-ukraine-2026",
@@ -16508,7 +16527,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.svmc.se/dalarna/aktiviteter/",
                                                       "region": "Dalarna",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-dalarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "strangnas-bikeshow-2026",
@@ -17469,7 +17489,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Sundet+vid+Sj%C3%B6n+Vid%C3%B6stern",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "himmerlandstraef-2026",
@@ -19369,7 +19390,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Ursands+Camping%2C+Trollh%C3%A4ttan",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "arboga-motordag-2026-06-06",
@@ -21034,7 +21056,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Tavelsj%C3%B6",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-bmwklubben-norge-d8-telemarken-runt-2026",
@@ -23872,7 +23895,8 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%B6na+Uddens+Camping%2C+%C3%85land",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-07-02",
@@ -28200,7 +28224,8 @@ const EVENTS_DATA = {
                                                       ],
                                                       "link": "https://www.svmc.se/dalarna/aktiviteter/",
                                                       "region": "Dalarna",
-                                                      "source": "svmc.se"
+                                                      "source": "svmc.se",
+                                                      "backImage": "ads/smc-dalarna-default-back.jpg"
                                     },
                                     {
                                                       "id": "trollbikers-mc-pokerrun-2026-08-08",
@@ -29297,7 +29322,8 @@ const EVENTS_DATA = {
                                                       "description": "Mälaren runt",
                                                       "link": "https://oamck.se/events/malaren-runt/",
                                                       "region": "Stockholm",
-                                                      "source": "oamck.se"
+                                                      "source": "oamck.se",
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "oldmopperz-rally-2026-08-15",
