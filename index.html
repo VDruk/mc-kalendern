@@ -1637,6 +1637,177 @@
     text-align: center;
   }
 
+  /* ========== MOBILE DETAIL VIEW (Phase 2b) ========== */
+  .m-detail {
+    position: fixed; inset: 0;
+    background: var(--bg-secondary);
+    z-index: 1500;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .m-detail.open { display: flex; }
+  .m-detail-photo {
+    height: 220px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: #1a1a2e;
+    position: relative;
+  }
+  .m-detail-photo::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%);
+    pointer-events: none;
+  }
+  .m-detail-close,
+  .m-detail-fav {
+    position: absolute;
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    border: 0;
+    line-height: 1;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 2;
+    padding: 0;
+    top: calc(env(safe-area-inset-top) + 12px);
+  }
+  .m-detail-close { right: 12px; font-size: 24px; }
+  .m-detail-fav   { left: 12px;  font-size: 20px; }
+  .m-detail-fav.active { color: #fbbf24; }
+  .m-detail-body {
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: var(--bg-secondary);
+  }
+  .m-detail-head {
+    padding: 18px 16px 10px;
+  }
+  .m-detail-chips {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    margin-bottom: 8px;
+  }
+  .m-detail-chip {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 12px;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+  }
+  .m-detail-chip.type-Träff { background: #dcfce7; color: #166534; }
+  .m-detail-chip.type-Körning { background: #ffedd5; color: #9a3412; }
+  .m-detail-chip.type-Racing { background: #fee2e2; color: #991b1b; }
+  .m-detail-chip.type-Show { background: #fce7f3; color: #9d174d; }
+  .m-detail-chip.type-Fest { background: #ffe4e6; color: #9f1239; }
+  .m-detail-chip.type-Plats { background: #cffafe; color: #155e75; }
+  .m-detail-chip.type-Anons { background: #ede9fe; color: #5b21b6; }
+  .m-detail-title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--text-primary);
+    margin: 0;
+    letter-spacing: -0.3px;
+  }
+  .m-detail-date {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 6px;
+  }
+  .m-detail-location {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 4px;
+    display: flex; gap: 6px; align-items: flex-start;
+  }
+  .m-detail-weather {
+    padding: 0 16px 14px;
+  }
+  .m-detail-desc {
+    padding: 4px 16px 16px;
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--text-primary);
+  }
+  .m-detail-desc p { margin-bottom: 10px; }
+  .m-detail-desc p:last-child { margin-bottom: 0; }
+  .m-detail-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 0 16px 14px;
+  }
+  .m-detail-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 12px 14px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+  .m-detail-btn.primary {
+    background: var(--text-primary);
+    color: #fff;
+    border-color: var(--text-primary);
+  }
+  .m-detail-links {
+    padding: 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .m-detail-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 12px;
+    background: var(--bg-primary);
+    border-radius: 10px;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .m-detail-link-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .m-detail-link-ico { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: 6px; color: var(--accent); flex-shrink: 0; }
+  .m-detail-link-ico svg { width: 18px; height: 18px; }
+  .m-detail-link-ico.fb { background: #1877f2; color: #fff; font-weight: 500; }
+  .m-detail-link-arrow { color: var(--text-muted); font-size: 18px; }
+  .m-detail-org {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-primary);
+    font-size: 14px;
+    color: var(--text-primary);
+  }
+  .m-detail-org-ico {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .m-detail-org-ico img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+
   /* ========== PHASE 2 CARDS (photo background on mobile) 2026-04-23 ========== */
   @media (max-width: 768px) {
     .m-topbar { display: flex; }
@@ -1662,117 +1833,18 @@
     .search-count { display: none; }
 
     .main-content { padding-top: 8px; padding-bottom: 40px; }
+    .grid { gap: 10px; }
 
-    /* --- Photo-backed cards --- */
-    /* Skip poster-card (already uses frontImage as full-bleed image) */
-    .card:not(.poster-card) {
-      position: relative;
-      overflow: hidden;
-      min-height: 130px;
-      border: 0;
-      background-color: #1a1a2e;
-      background-image: var(--card-bg-image, none);
-      background-size: cover;
-      background-position: center;
-      border-radius: 14px;
-      padding: 0;
+    /* Disable card flip on mobile — we use full-screen detail modal instead */
+    .card-flipper {
+      transform: none !important;
+      transition: none !important;
+      transform-style: flat !important;
     }
-    .card:not(.poster-card)::before {
-      content: '';
-      position: absolute; inset: 0;
-      background: linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.88) 100%);
-      pointer-events: none;
-      z-index: 1;
-    }
-    .card:not(.poster-card) .card-flipper,
-    .card:not(.poster-card) .card-front {
-      position: relative;
-      z-index: 2;
-      background: transparent;
-      padding: 10px 12px;
-      min-height: 130px;
-    }
-    .card:not(.poster-card) .card-top {
-      justify-content: space-between;
-    }
-    .card:not(.poster-card) .card-date-block {
-      background: rgba(255,255,255,0.95);
-      border-radius: 8px;
-      padding: 3px;
-      gap: 3px;
-    }
-    .card:not(.poster-card) .date-unit {
-      background: transparent;
-      color: #1a1a2e;
-      border: 0;
-      padding: 2px 6px;
-    }
-    .card:not(.poster-card) .date-unit.red-day { background: rgba(220,38,38,0.1); color: #dc2626; }
-    .card:not(.poster-card) .date-day { color: #1a1a2e; font-size: 15px; }
-    .card:not(.poster-card) .date-month { color: #8b4a00; font-size: 9px; font-weight: 500; }
-    .card:not(.poster-card) .date-sep { color: #1a1a2e; font-weight: 500; align-self: center; }
-    .card:not(.poster-card) .type-badge { display: none; }
-    .card:not(.poster-card) .fav-btn {
-      background: transparent;
-      color: rgba(255,255,255,0.7);
-      font-size: 20px;
-      border: 0;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-    }
-    .card:not(.poster-card) .fav-btn.active {
-      color: #fbbf24;
-    }
-    .card:not(.poster-card) .card-name {
-      color: #fff;
-      font-size: 16px;
-      font-weight: 500;
-      margin-top: 6px;
-      line-height: 1.25;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.4);
-    }
-    .card:not(.poster-card) .card-body {
-      margin-top: 4px;
-    }
-    .card:not(.poster-card) .card-location-wrap {
-      color: rgba(255,255,255,0.85);
-      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-    }
-    .card:not(.poster-card) .card-location {
-      color: rgba(255,255,255,0.85);
-      font-size: 12px;
-    }
-    .card:not(.poster-card) .card-location-icon {
-      filter: brightness(2);
-    }
-    /* Hide long description and weather strip on mobile card (will show in detail view) */
-    .card:not(.poster-card) .card-desc { display: none; }
-    .card:not(.poster-card) .weather-strip { display: none; }
-    .card:not(.poster-card) .card-notice {
-      background: rgba(220,38,38,0.95);
-      color: #fff;
-    }
-    .card:not(.poster-card) .card-footer {
-      border-top: 0;
-      padding-top: 6px;
-      margin-top: auto;
-      color: rgba(255,255,255,0.9);
-    }
-    .card:not(.poster-card) .card-organizer {
-      color: rgba(255,255,255,0.9);
-      font-size: 11px;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-    }
-    .card:not(.poster-card) .card-link,
-    .card:not(.poster-card) .card-link-btn {
-      color: #ffb95e;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-    }
-    .card:not(.poster-card) .card-org-icon {
-      background: rgba(255,255,255,0.15);
-      border-radius: 4px;
-      padding: 1px;
-    }
-    /* Remove left type-bar on mobile (color encoded on date chip via red-day etc.) */
+    .card-back-flip { display: none !important; }
+    .card.flipped .card-front { pointer-events: auto !important; }
+
+    /* Remove left type-bar on mobile */
     .card.tb-traff::before,
     .card.tb-korning::before,
     .card.tb-fest::before,
@@ -1781,8 +1853,210 @@
     .card.tb-plats::before,
     .card.tb-anons::before { display: none; }
 
-    /* Grid: bigger gap for the juicier cards */
-    .grid { gap: 10px; }
+    .card:not(.poster-card) {
+      border-radius: 14px;
+      border: 0;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    /* Tighter date chip for both image and no-image cards */
+    .card:not(.poster-card) .card-date-block {
+      background: rgba(255,255,255,0.96);
+      border-radius: 8px;
+      padding: 2px;
+      gap: 2px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+      flex-shrink: 0;
+    }
+    .card:not(.poster-card) .date-unit {
+      background: transparent;
+      color: #1a1a2e;
+      border: 0;
+      padding: 2px 6px;
+      min-width: 34px;
+    }
+    .card:not(.poster-card) .date-unit.red-day { background: rgba(220,38,38,0.08); color: #dc2626; }
+    .card:not(.poster-card) .date-day { color: #1a1a2e; font-size: 14px; font-weight: 600; line-height: 1; }
+    .card:not(.poster-card) .date-month { color: #8b4a00; font-size: 8px; font-weight: 500; line-height: 1.1; margin-top: 1px; letter-spacing: 0.5px; }
+    .card:not(.poster-card) .date-sep { color: #666; font-weight: 400; align-self: center; font-size: 10px; }
+
+    /* Hide type badge, description, weather, location on mobile cards (shown in detail view) */
+    .card:not(.poster-card) .type-badge { display: none; }
+    .card:not(.poster-card) .card-desc { display: none; }
+    .card:not(.poster-card) .weather-strip { display: none; }
+    .card:not(.poster-card) .card-location-wrap { display: none; }
+    .card:not(.poster-card) .card-link,
+    .card:not(.poster-card) .card-link-btn { display: none; }
+
+    /* ======= IMAGE CARD (has backImage) ======= */
+    .card.has-photo:not(.poster-card) {
+      position: relative;
+      min-height: 150px;
+      background-color: #1a1a2e;
+      background-image: var(--card-bg-image, none);
+      background-size: cover;
+      background-position: center;
+      padding: 0;
+    }
+    .card.has-photo:not(.poster-card)::after {
+      content: '';
+      position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.12) 0%,
+        rgba(0,0,0,0) 25%,
+        rgba(0,0,0,0) 45%,
+        rgba(5,5,15,0.85) 78%,
+        rgba(5,5,15,0.97) 100%
+      );
+      pointer-events: none;
+      z-index: 1;
+    }
+    .card.has-photo:not(.poster-card) .card-flipper,
+    .card.has-photo:not(.poster-card) .card-front {
+      position: relative;
+      z-index: 2;
+      background: transparent;
+      padding: 0;
+      min-height: 150px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .card.has-photo:not(.poster-card) .card-top {
+      padding: 9px 10px 0;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .card.has-photo:not(.poster-card) .fav-btn {
+      background: rgba(0,0,0,0.35);
+      border-radius: 50%;
+      width: 30px; height: 30px;
+      color: rgba(255,255,255,0.85);
+      font-size: 16px;
+      border: 0;
+      padding: 0;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .card.has-photo:not(.poster-card) .fav-btn.active { color: #fbbf24; background: rgba(0,0,0,0.55); }
+    .card.has-photo:not(.poster-card) .card-name {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      padding: 0 12px;
+      margin-top: auto;
+      line-height: 1.25;
+      text-shadow: 0 1px 6px rgba(0,0,0,0.7);
+      letter-spacing: -0.2px;
+    }
+    .card.has-photo:not(.poster-card) .card-body { display: none; }
+    .card.has-photo:not(.poster-card) .card-footer {
+      background: transparent;
+      border-top: 0;
+      padding: 4px 12px 10px;
+      margin-top: 4px;
+      color: rgba(255,255,255,0.85);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card.has-photo:not(.poster-card) .card-organizer {
+      color: rgba(255,255,255,0.85);
+      font-size: 11px;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+      display: flex; align-items: center; gap: 4px;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .card.has-photo:not(.poster-card) .card-org-icon {
+      background: rgba(255,255,255,0.15);
+      border-radius: 4px;
+      padding: 1px;
+    }
+    .card.has-photo:not(.poster-card) .card-notice {
+      background: rgba(220,38,38,0.95);
+      color: #fff;
+      padding: 3px 8px;
+      font-size: 10px;
+    }
+
+    /* ======= NO-IMAGE CARD (compact, text-only) ======= */
+    .card:not(.poster-card):not(.has-photo) {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      min-height: 0;
+      padding: 0;
+    }
+    .card:not(.poster-card):not(.has-photo) .card-flipper,
+    .card:not(.poster-card):not(.has-photo) .card-front {
+      background: transparent;
+      padding: 10px 12px;
+    }
+    .card:not(.poster-card):not(.has-photo) .card-top {
+      padding: 0;
+      align-items: center;
+      gap: 10px;
+    }
+    .card:not(.poster-card):not(.has-photo) .card-date-block {
+      background: var(--bg-primary);
+      box-shadow: none;
+    }
+    .card:not(.poster-card):not(.has-photo) .fav-btn {
+      color: var(--text-muted);
+      background: transparent;
+      border: 0;
+      font-size: 20px;
+      padding: 0 4px;
+      margin-left: auto;
+    }
+    .card:not(.poster-card):not(.has-photo) .fav-btn.active { color: #d97706; }
+    .card:not(.poster-card):not(.has-photo) .card-name {
+      color: var(--text-primary);
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 8px;
+      padding: 0;
+      line-height: 1.3;
+    }
+    .card:not(.poster-card):not(.has-photo) .card-footer {
+      background: transparent;
+      border-top: 1px solid var(--border);
+      padding: 6px 0 0;
+      margin-top: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card:not(.poster-card):not(.has-photo) .card-organizer {
+      color: var(--text-secondary);
+      font-size: 11px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .card:not(.poster-card):not(.has-photo) .card-notice {
+      background: #fee2e2;
+      color: #991b1b;
+      padding: 2px 8px;
+      font-size: 10px;
+      border-radius: 4px;
+    }
+
+    /* Arrow ›  hint at bottom of cards (tap = details) */
+    .card:not(.poster-card)::before {
+      content: '›';
+      position: absolute;
+      right: 10px;
+      bottom: 6px;
+      color: rgba(255,255,255,0.7);
+      font-size: 18px;
+      z-index: 3;
+      pointer-events: none;
+    }
+    .card:not(.poster-card):not(.has-photo)::before {
+      color: var(--text-muted);
+    }
   }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" media="print" onload="this.media='all'"/>
@@ -1850,7 +2124,7 @@
     </button>
     <button class="m-meny-item" id="mMenyDonera">
       <span class="m-meny-item-left">
-        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></span>
+        <span class="m-meny-icon m-meny-icon-img"><img src="ads/kofi-logo.webp" alt="" width="22" height="22" loading="lazy"></span>
         <span>Stöd projektet</span>
       </span>
       <span class="m-meny-arrow">&rsaquo;</span>
@@ -1887,6 +2161,15 @@
   </nav>
   <div class="m-meny-foot">druk.se · MC Kalendern 2026</div>
 </aside>
+
+<!-- ========== MOBILE DETAIL VIEW (Phase 2b 2026-04-23) ========== -->
+<div class="m-detail" id="mDetail" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="m-detail-photo" id="mDetailPhoto">
+    <button class="m-detail-close" id="mDetailClose" aria-label="Stäng">&times;</button>
+    <button class="m-detail-fav" id="mDetailFav" aria-label="Spara">&#9734;</button>
+  </div>
+  <div class="m-detail-body" id="mDetailBody"></div>
+</div>
 
 <!-- ========== HERO ========== -->
 <header class="hero">
@@ -2346,6 +2629,11 @@ function buildBackHTML(cardId, ev) {
   </div>`;
 }
 function cardExpand(id) {
+  // Mobile: open full-screen detail modal instead of flipping
+  if (window.matchMedia('(max-width: 768px)').matches && typeof openMDetail === 'function') {
+    openMDetail(id);
+    return;
+  }
   const card = document.getElementById(id);
   if (!card) return;
   // Build back-side HTML on first expand (deferred to save memory)
@@ -2809,7 +3097,171 @@ function setupMobileUI() {
     if (e.key === 'Escape' && mMeny && mMeny.classList.contains('open')) closeMMeny();
   });
 
+  // ===== Mobile full-screen detail modal =====
+  const mDetail = document.getElementById('mDetail');
+  const mDetailClose = document.getElementById('mDetailClose');
+  if (mDetailClose) mDetailClose.addEventListener('click', () => closeMDetail());
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && mDetail && mDetail.classList.contains('open')) closeMDetail();
+  });
+
   syncMobilePillActive();
+}
+
+// Mobile full-screen detail modal functions
+function openMDetail(cardId) {
+  const ev = _eventMap.get(cardId);
+  if (!ev) return;
+  const modal = document.getElementById('mDetail');
+  const photo = document.getElementById('mDetailPhoto');
+  const body = document.getElementById('mDetailBody');
+  const favBtn = document.getElementById('mDetailFav');
+  if (!modal || !photo || !body) return;
+
+  // Photo header
+  const imgUrl = ev.backImage || ev.frontImage || '';
+  photo.style.backgroundImage = imgUrl ? 'url("' + imgUrl + '")' : '';
+
+  // Favorite button state
+  if (favBtn) {
+    favBtn.classList.toggle('active', isFavorited(ev.id));
+    favBtn.innerHTML = isFavorited(ev.id) ? '&#9733;' : '&#9734;';
+    favBtn.onclick = function() {
+      toggleFavorite(ev.id);
+      favBtn.classList.toggle('active', isFavorited(ev.id));
+      favBtn.innerHTML = isFavorited(ev.id) ? '&#9733;' : '&#9734;';
+    };
+  }
+
+  // Build detail body content
+  const displayName = (ev.name.includes('INSTÄLLT') || ev.name.includes('INSTALLT'))
+    ? ev.name.replace(/\s*INSTÄLLT\s*/gi, '').replace(/\s*INSTALLT\s*/gi, '').trim()
+    : ev.name;
+
+  const d = new Date(ev.date + 'T00:00:00');
+  const hasEnd = ev.dateEnd && ev.dateEnd !== ev.date;
+  const MONTHS_FULL_SV = ['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+  let dateStr;
+  if (hasEnd) {
+    const d2 = new Date(ev.dateEnd + 'T00:00:00');
+    if (d.getMonth() === d2.getMonth()) {
+      dateStr = d.getDate() + '-' + d2.getDate() + ' ' + MONTHS_FULL_SV[d.getMonth()] + ' ' + d.getFullYear();
+    } else {
+      dateStr = d.getDate() + ' ' + MONTHS_FULL_SV[d.getMonth()] + ' - ' + d2.getDate() + ' ' + MONTHS_FULL_SV[d2.getMonth()] + ' ' + d.getFullYear();
+    }
+  } else {
+    dateStr = d.getDate() + ' ' + MONTHS_FULL_SV[d.getMonth()] + ' ' + d.getFullYear();
+  }
+
+  const regionArr = Array.isArray(ev.region) ? ev.region : (ev.region ? [ev.region] : []);
+  const typeChipClass = ev.type ? ('type-' + ev.type) : '';
+  const chipsHTML = [
+    ev.type ? '<span class="m-detail-chip ' + typeChipClass + '">' + ev.type + '</span>' : '',
+    ...regionArr.map(r => '<span class="m-detail-chip">' + r + '</span>')
+  ].filter(Boolean).join('');
+
+  const isInstallt = ev.name.includes('INSTÄLLT') || ev.name.includes('INSTALLT');
+  const installtBanner = isInstallt ? '<span class="m-detail-chip" style="background:#fee2e2;color:#991b1b">INSTÄLLT</span>' : '';
+
+  const fullDesc = (ev.descriptionFull || ev.description || '');
+  const descHTML = fullDesc ? fullDesc.split('\n').filter(p => p.trim()).map(p => '<p>' + escapeHtml(p) + '</p>').join('') : '';
+
+  const locationHTML = ev.location
+    ? '<div class="m-detail-location"><span>📍</span><span>' + escapeHtml(ev.location) + '</span></div>'
+    : '';
+
+  const weatherHTML = (typeof getWeatherStripHTML === 'function') ? getWeatherStripHTML(ev.id, ev.date) : '';
+
+  // Calendar URLs
+  const gcalStart = ev.date.replace(/-/g, '');
+  const gcalEndDate = new Date((ev.dateEnd || ev.date) + 'T00:00:00');
+  gcalEndDate.setDate(gcalEndDate.getDate() + 1);
+  const gcalEnd = gcalEndDate.toISOString().slice(0, 10).replace(/-/g, '');
+  const gcalUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+    + '&text=' + encodeURIComponent(ev.name)
+    + '&dates=' + gcalStart + '/' + gcalEnd
+    + '&location=' + encodeURIComponent(ev.location || '')
+    + '&details=' + encodeURIComponent((ev.description || '') + (ev.link ? '\n\n' + ev.link : ''));
+
+  // Find map link in ev.links
+  let mapUrl = '';
+  if (Array.isArray(ev.links)) {
+    const mapLink = ev.links.find(l => l.type === 'map');
+    if (mapLink) mapUrl = mapLink.url;
+  }
+  if (!mapUrl && ev.location) {
+    mapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(ev.location);
+  }
+
+  const actionsHTML = ev._ad ? '' : `
+    <div class="m-detail-actions">
+      <a class="m-detail-btn primary" href="${gcalUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">+ Kalender</a>
+      ${mapUrl ? '<a class="m-detail-btn" href="' + mapUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">◎ Karta</a>' : '<span class="m-detail-btn" style="opacity:0.5;pointer-events:none">◎ Karta</span>'}
+    </div>`;
+
+  // Organizer row
+  const orgInitial = (ev.organizer || '?').trim().charAt(0).toUpperCase();
+  const orgIconHTML = ev.organizerIcon
+    ? '<span class="m-detail-org-ico"><img src="' + ev.organizerIcon + '" alt=""></span>'
+    : '<span class="m-detail-org-ico">' + orgInitial + '</span>';
+  const orgHTML = ev.organizer
+    ? '<div class="m-detail-org">' + orgIconHTML + '<span>' + escapeHtml(ev.organizer) + '</span></div>'
+    : '';
+
+  // Links rows (excluding map since we have a dedicated button)
+  let linksHTML = '';
+  if (Array.isArray(ev.links) && ev.links.length) {
+    const rows = ev.links.filter(l => l.type !== 'map').map(l => {
+      const label = (l.label || '').toLowerCase();
+      let icoHTML;
+      if (label.includes('fb') || label.includes('facebook')) {
+        icoHTML = '<span class="m-detail-link-ico fb">f</span>';
+      } else {
+        icoHTML = '<span class="m-detail-link-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>';
+      }
+      return '<a class="m-detail-link" href="' + l.url + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">'
+        + '<span class="m-detail-link-left">' + icoHTML + '<span>' + escapeHtml(l.label) + '</span></span>'
+        + '<span class="m-detail-link-arrow">&rsaquo;</span></a>';
+    }).join('');
+    if (rows) linksHTML = '<div class="m-detail-links">' + rows + '</div>';
+  }
+
+  body.innerHTML = `
+    <div class="m-detail-head">
+      <div class="m-detail-chips">${installtBanner}${chipsHTML}</div>
+      <h2 class="m-detail-title">${escapeHtml(displayName)}</h2>
+      <div class="m-detail-date">${dateStr}</div>
+      ${locationHTML}
+    </div>
+    ${weatherHTML ? '<div class="m-detail-weather">' + weatherHTML + '</div>' : ''}
+    ${descHTML ? '<div class="m-detail-desc">' + descHTML + '</div>' : ''}
+    ${actionsHTML}
+    ${orgHTML}
+    ${linksHTML}
+  `;
+
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeMDetail() {
+  const modal = document.getElementById('mDetail');
+  if (!modal) return;
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+  // Scroll the body back to top for next open
+  const body = document.getElementById('mDetailBody');
+  if (body) body.scrollTop = 0;
+}
+
+// Minimal HTML escape for injected strings
+function escapeHtml(str) {
+  if (str == null) return '';
+  return String(str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
 function syncMobilePillActive() {
@@ -3586,7 +4038,15 @@ function render() {
     // Phase 2 (mobile): set --card-bg-image so CSS can render backImage as full card background
     if (event.backImage) {
       card.style.setProperty('--card-bg-image', 'url("' + event.backImage + '")');
+      card.classList.add('has-photo');
     }
+
+    // Mobile: whole card tappable opens full-screen detail modal
+    card.addEventListener('click', function(e) {
+      if (!window.matchMedia('(max-width: 768px)').matches) return;
+      if (e.target.closest('.fav-btn, .cal-dropdown-wrapper, a, button')) return;
+      cardExpand(cardId);
+    });
 
     // Store event data for deferred back-side rendering (built on click, not now)
     _eventMap.set(cardId, event);
