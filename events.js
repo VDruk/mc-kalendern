@@ -7072,7 +7072,7 @@ const EVENTS_DATA = {
                                                       "id": "mchk-bussresa-till-england-2026",
                                                       "name": "bussresa till England",
                                                       "date": "2026-04-22",
-                                                      "dateEnd": "2026-04-29",
+                                                      "dateEnd": "2026-04-22",
                                                       "location": "Helsingborg",
                                                       "type": "Show",
                                                       "organizer": "MCHK",
