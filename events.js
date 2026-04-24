@@ -4017,7 +4017,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-04-07",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-04-07",
                                                       "dateEnd": "2026-04-07",
                                                       "location": "Kasernvägen 2, Borås",
@@ -5247,7 +5247,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-04-14",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-04-14",
                                                       "dateEnd": "2026-04-14",
                                                       "location": "Kasernvägen 2, Borås",
@@ -6935,7 +6935,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-04-21",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-04-21",
                                                       "dateEnd": "2026-04-21",
                                                       "location": "Kasernvägen 2, Borås",
@@ -8519,7 +8519,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-04-28",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-04-28",
                                                       "dateEnd": "2026-04-28",
                                                       "location": "Kasernvägen 2, Borås",
@@ -10983,7 +10983,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-05-05",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-05-05",
                                                       "dateEnd": "2026-05-05",
                                                       "location": "Kasernvägen 2, Borås",
@@ -11291,7 +11291,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-classic-traff-vid-flygvapenmuseet-2026",
-                                                      "name": "Classic-träff vid Flygvapenmuseet.",
+                                                      "name": "Classic-träff vid Flygvapenmuseet",
                                                       "date": "2026-05-07",
                                                       "dateEnd": "2026-05-07",
                                                       "location": "Carl Cederströms gata 2, Linköping",
@@ -12981,7 +12981,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-05-12",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-05-12",
                                                       "dateEnd": "2026-05-12",
                                                       "location": "Kasernvägen 2, Borås",
@@ -15342,7 +15342,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-05-19",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-05-19",
                                                       "dateEnd": "2026-05-19",
                                                       "location": "Kasernvägen 2, Borås",
@@ -16616,7 +16616,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "tur-till-frosakers-brygga-2026",
-                                                      "name": "Tur till Frösåkers brygga.",
+                                                      "name": "Tur till Frösåkers brygga",
                                                       "date": "2026-05-23",
                                                       "dateEnd": "2026-05-23",
                                                       "location": "Frösåkers Brygga",
@@ -16995,7 +16995,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-05-26",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-05-26",
                                                       "dateEnd": "2026-05-26",
                                                       "location": "Kasernvägen 2, Borås",
@@ -18874,7 +18874,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-02",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-06-02",
                                                       "dateEnd": "2026-06-02",
                                                       "location": "Kasernvägen 2, Borås",
@@ -20519,7 +20519,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-09",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-06-09",
                                                       "dateEnd": "2026-06-09",
                                                       "location": "Kasernvägen 2, Borås",
@@ -21703,7 +21703,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-16",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-06-16",
                                                       "dateEnd": "2026-06-16",
                                                       "location": "Kasernvägen 2, Borås",
@@ -22519,7 +22519,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-23",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-06-23",
                                                       "dateEnd": "2026-06-23",
                                                       "location": "Kasernvägen 2, Borås",
@@ -23711,7 +23711,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lo-c-boras-tisdags-körningar-2026-06-30",
-                                                      "name": "LO-C Borås tisdags körningar.",
+                                                      "name": "LO-C Borås tisdags körningar",
                                                       "date": "2026-06-30",
                                                       "dateEnd": "2026-06-30",
                                                       "location": "Kasernvägen 2, Borås",
