@@ -1661,6 +1661,48 @@
     background-color: #1a1a2e;
     position: relative;
   }
+  .m-detail-photo[data-image-src] { cursor: zoom-in; }
+
+  /* Image lightbox: tap photo → full-screen natural ratio, tap again to close */
+  .m-lightbox {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.96);
+    z-index: 3000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+    touch-action: manipulation;
+  }
+  .m-lightbox.open { display: flex; }
+  .m-lightbox-img {
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .m-lightbox-close {
+    position: absolute;
+    top: calc(env(safe-area-inset-top) + 12px);
+    right: 12px;
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.18);
+    color: #fff;
+    border: 0;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    z-index: 1;
+  }
   .m-detail-photo::before {
     content: '';
     position: absolute; inset: 0;
@@ -2149,6 +2191,12 @@
     <button class="m-detail-fav" id="mDetailFav" aria-label="Spara">&#9734;</button>
   </div>
   <div class="m-detail-body" id="mDetailBody"></div>
+</div>
+
+<!-- ========== MOBILE IMAGE LIGHTBOX (2026-04-24) ========== -->
+<div class="m-lightbox" id="mLightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Bild">
+  <img class="m-lightbox-img" id="mLightboxImg" alt="">
+  <button class="m-lightbox-close" id="mLightboxClose" aria-label="Stäng bild">&times;</button>
 </div>
 
 <!-- ========== HERO ========== -->
@@ -3085,7 +3133,48 @@ function setupMobileUI() {
     if (e.key === 'Escape' && mDetail && mDetail.classList.contains('open')) closeMDetail();
   });
 
+  // ===== Image lightbox (tap photo in detail view → full-screen natural ratio) =====
+  const mDetailPhoto = document.getElementById('mDetailPhoto');
+  const mLightbox = document.getElementById('mLightbox');
+  const mLightboxClose = document.getElementById('mLightboxClose');
+  if (mDetailPhoto) {
+    mDetailPhoto.addEventListener('click', (e) => {
+      if (e.target.closest('.m-detail-close, .m-detail-fav')) return;
+      const src = mDetailPhoto.dataset.imageSrc;
+      if (src) openMLightbox(src);
+    });
+  }
+  if (mLightbox) {
+    mLightbox.addEventListener('click', () => closeMLightbox());
+  }
+  if (mLightboxClose) {
+    mLightboxClose.addEventListener('click', (e) => { e.stopPropagation(); closeMLightbox(); });
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && mLightbox && mLightbox.classList.contains('open')) {
+      closeMLightbox();
+    }
+  });
+
   syncMobilePillActive();
+}
+
+// Lightbox open/close
+function openMLightbox(src) {
+  const lb = document.getElementById('mLightbox');
+  const img = document.getElementById('mLightboxImg');
+  if (!lb || !img || !src) return;
+  img.src = src;
+  lb.classList.add('open');
+  lb.setAttribute('aria-hidden', 'false');
+}
+function closeMLightbox() {
+  const lb = document.getElementById('mLightbox');
+  const img = document.getElementById('mLightboxImg');
+  if (!lb) return;
+  lb.classList.remove('open');
+  lb.setAttribute('aria-hidden', 'true');
+  if (img) img.removeAttribute('src');
 }
 
 // Mobile full-screen detail modal functions
@@ -3101,6 +3190,11 @@ function openMDetail(cardId) {
   // Photo header
   const imgUrl = ev.backImage || ev.frontImage || '';
   photo.style.backgroundImage = imgUrl ? 'url("' + imgUrl + '")' : '';
+  if (imgUrl) {
+    photo.dataset.imageSrc = imgUrl;
+  } else {
+    delete photo.dataset.imageSrc;
+  }
 
   // Favorite button state
   if (favBtn) {
