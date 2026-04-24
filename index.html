@@ -3227,15 +3227,9 @@ function openMDetail(cardId) {
     dateStr = d.getDate() + ' ' + MONTHS_FULL_SV[d.getMonth()] + ' ' + d.getFullYear();
   }
 
-  const regionArr = Array.isArray(ev.region) ? ev.region : (ev.region ? [ev.region] : []);
-  const typeChipClass = ev.type ? ('type-' + ev.type) : '';
-  const chipsHTML = [
-    ev.type ? '<span class="m-detail-chip ' + typeChipClass + '">' + ev.type + '</span>' : '',
-    ...regionArr.map(r => '<span class="m-detail-chip">' + r + '</span>')
-  ].filter(Boolean).join('');
-
   const isInstallt = ev.name.includes('INSTÄLLT') || ev.name.includes('INSTALLT');
   const installtBanner = isInstallt ? '<span class="m-detail-chip" style="background:#fee2e2;color:#991b1b">INSTÄLLT</span>' : '';
+  const chipsHTML = installtBanner; // type and region chips removed 2026-04-24 (redundant with photo+description and address)
 
   const fullDesc = (ev.descriptionFull || ev.description || '');
   const descHTML = fullDesc ? fullDesc.split('\n').filter(p => p.trim()).map(p => '<p>' + escapeHtml(p) + '</p>').join('') : '';
@@ -3302,7 +3296,7 @@ function openMDetail(cardId) {
 
   body.innerHTML = `
     <div class="m-detail-head">
-      <div class="m-detail-chips">${installtBanner}${chipsHTML}</div>
+      ${chipsHTML ? '<div class="m-detail-chips">' + chipsHTML + '</div>' : ''}
       <h2 class="m-detail-title">${escapeHtml(displayName)}</h2>
       <div class="m-detail-date">${dateStr}</div>
       ${locationHTML}
