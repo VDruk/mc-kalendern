@@ -27,7 +27,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Till alla hojåkare!\n\nRullar du på Enhörnaleden? Då vet du! En bra tur behöver ett riktigt bra stopp.\n\nEnhörna Café är platsen.\n\nLillängsvägen 1, 151 50 Enhörna\n\nStäll hojen, ta av hjälmen och ladda om med:\n\nStartkt, gott kaffe\nRejäla mackor, inga smågrejer här\nUteservering när vädret levererar\nGott om plats för hela MC-gänget\n\nSnabbt stopp, schyssta mackor och rätt känsla.\n\nPrecis längs vägen, bara att svänga in.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=61581825973860"
                                                                         },
                                                                         {
@@ -56,7 +56,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Pit stop för MC-förare!\n\nTärnsjö Pizzeria ligger längs väg 56, mitt emellan Uppsala och Gävle. Perfekt stopp när du rullar genom Uppland.\n\nPizza, kebab, grill, sallad och rejäla mackor. Uteservering när solen skiner och gott om plats att ställa hojen.\n\nAdress: Norra Storgatan 31, 740 45 Tärnsjö\nTelefon: 0292-504 09\n\nÖppet: mån-lör, kolla Facebook för aktuella tider.\n\nSväng in, ät gott, kör vidare.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100083061736120"
                                                                         },
                                                                         {
@@ -146,7 +146,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.dwr.se/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/dwruppsala"
                                                                         },
                                                                         {
@@ -370,7 +370,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/moon-bike-show-avesta-back-2026-03-07.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/p/Mooneyes-Sweden-100057805594083/"
                                                                         },
                                                                         {
@@ -1254,7 +1254,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/harley-davidson-night-bikeman-back-2026-03-20.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/bikemanhelsingborg/"
                                                                         }
                                                       ],
@@ -1476,7 +1476,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/bonneville-lansering-back-2026-03-21.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/1267483558130059/"
                                                                         },
                                                                         {
@@ -1507,7 +1507,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/769285075902559"
                                                                         },
                                                                         {
-                                                                                          "label": "Alternativ 1",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100063651364928"
                                                                         },
                                                                         {
@@ -1614,7 +1614,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/johans-mc-bonneville-back-2026-03-21.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/JohansMc"
                                                                         },
                                                                         {
@@ -1685,7 +1685,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/royal-enfield-125-back-2026-03-21.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/mtlpowersport"
                                                                         },
                                                                         {
@@ -1995,7 +1995,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/lelledagarna-uppsala-back-2026-03-23.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/lellesmc"
                                                                         },
                                                                         {
@@ -2265,7 +2265,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Medlemmar! Säsongens sista AW!\n\nVi träffas för att äta tacos, prata skit och ta något drickbart. In och anmäl er!\n\nKvällens öl: Corona Extra.\n\nTid: kl 18:00\nPlats: Landsvägen 12, 829 96 Jättendal",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northtrailmc"
                                                                         },
                                                                         {
@@ -2346,7 +2346,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/profile.php?id=61558419658686",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=61558419658686"
                                                                         },
                                                                         {
@@ -2370,7 +2370,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Hallå kamrater! Vi tänkte ha ett litet barhäng på fredag för att fira in våren. Kl 19 öppnar vi dörrarna. Endast SBM och inbjudna gäster – så på med vårjackan och kom och umgås med oss. Ha det gött i solen sålänge och akta rullgruset på vägarna. L&R / Haubits MC",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/HaubitsMC"
                                                                         }
                                                       ],
@@ -2392,7 +2392,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/karlstroms-varfest-back-2026-03-28.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/karlstromsmotor"
                                                                         },
                                                                         {
@@ -2419,7 +2419,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/photo?fbid=1424210899717607&set=a.517822163689823",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo?fbid=1424210899717607&set=a.517822163689823"
                                                                         },
                                                                         {
@@ -2444,7 +2444,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "After Work hos ÖMCC!\n\nSäsongens sista AW. Vi träffas för att äta tacos, prata skit och ta något drickbart.\n\nKvällens öl: Corona extra.\n\nKl 18:00 på ÖMCC klubblokalen i Örnsköldsvik.\n\nIn och anmäl er! Välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/823721797670088/"
                                                                         }
                                                       ],
@@ -2737,7 +2737,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/mc-center-oppet-hus-back-2026-03-28.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/hojgaraget"
                                                                         },
                                                                         {
@@ -2847,7 +2847,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1992350591314930"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northbikesweden"
                                                                         },
                                                                         {
@@ -2873,7 +2873,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Barhäng lördag 28/3 hos No Time MC. Kom förbi och tjöta lite!\n\nNo Time MC bjuder in till en avslappnad kväll i klubblokalen på Ångpannegatan 24 i Göteborg. Häng i baren, träffa folk och snacka hoj.\n\nStart kl 18:00.\n\nSupport: 14:20 MC Göteborg.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/notimemc"
                                                                         }
                                                       ],
@@ -3028,7 +3028,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Pubkväll med Vulcan Riders Sweden på Glada Stinsen i Hägersten.\n\nLördag 28 mars från kl 16:00.\n\nKom och häng med Kawasaki Vulcan-gänget och andra MC-vänner!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/642063332540047"
                                                                         },
                                                                         {
@@ -3199,7 +3199,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1879276416068794"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northbikesweden"
                                                                         },
                                                                         {
@@ -3583,7 +3583,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Långfredagsfest hos Sixpack MC!\n\nLivemusik: The Haj Hats\n\nFrån kl 19:00. Cash is king!\n\nPlats: Sixpack MC, Ölsund, Söderhamn, Hälsingland.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100067072917039"
                                                                         }
                                                       ],
@@ -3795,7 +3795,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/700046696505278"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/LingvallsMotor"
                                                                         },
                                                                         {
@@ -3820,7 +3820,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Overdooze MC Stockholm bjuder in till barhäng!\n\nDatum: lördagen 4 april\nTid: kl 18:00 till 02:00\n\nEndast SBM och inbjudna.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/overdooze.mc"
                                                                         }
                                                       ],
@@ -4082,7 +4082,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/photo/?fbid=1467583225161467",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100057294106386"
                                                                         },
                                                                         {
@@ -4160,7 +4160,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Torsdagsfika hos North Trail MC Hälsingland!\n\nHåkan har bakat och kaffet är nykokt 18:00. Välkommen in för en kopp, en bulle och trevligt snack.\n\nTid: Torsdag 9 april, kl 18:00\nPlats: Landsvägen 12, 829 96 Jättendal",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northtrailmc"
                                                                         },
                                                                         {
@@ -4240,7 +4240,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "På fredag är du välkommen till Spånhyltan och Con Dios MC på ett avslappnat fredagsmys.\n\nVi tänder grillen och fixar lite korv. Vi kör igång 18:30.\n\nPlats: Spånhyltan, Jönköpings län.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo?fbid=1353622336801026&set=a.458642259632376"
                                                                         }
                                                       ],
@@ -4530,7 +4530,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/photo/?fbid=1995121568027087",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=1995121568027087"
                                                                         },
                                                                         {
@@ -4560,7 +4560,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/photo/?fbid=1506306404838733",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=1506306404838733"
                                                                         },
                                                                         {
@@ -4586,7 +4586,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/fmct-grusdag-uddevalla-back-2026-04-11.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100046240842567"
                                                                         },
                                                                         {
@@ -4659,7 +4659,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Haskas MC Eastside bjuder in till barhäng på klubben.\n\nTid: Lördagen den 11 april från kl 18:00.\nPlats: Klubbkåken, Ljungbyholm.\n\nAlla är välkomna!\n\nRide Safe!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/haskasmc"
                                                                         },
                                                                         {
@@ -4689,7 +4689,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1736392417718937"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/urban.knutsson"
                                                                         },
                                                                         {
@@ -4772,7 +4772,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/25846999798273419"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/litooffroad"
                                                                         },
                                                                         {
@@ -4802,7 +4802,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/909720675019987"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/lundgrensmotor"
                                                                         },
                                                                         {
@@ -4833,7 +4833,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1224652663198413/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=10174001134740182&set=a.10150155778670182"
                                                                         },
                                                                         {
@@ -4860,7 +4860,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "MC-dag hos Besikta i Örebro den 11 april 2026.\n\nNu är det dags att väcka hojen ur vintervilan! Under MC-dagen erbjuder Besikta 100 kr rabatt på besiktning av din motorcykel. Använd kampanjkoden MC2A2026 när du bokar din tid.\n\nÖppet kl 09:00-15:00.\n\nPlats: Besikta Örebro, Skottvägen 5, 703 84 Örebro.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/2706683493034329/"
                                                                         },
                                                                         {
@@ -4898,7 +4898,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Psycho Squad MC firar att Janne har varit 10 år i klubben. Festen hålls på lördagen efter den vanliga onsdagsträffen kl 18.30. Välkomna att hälsa på och fira med oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=994385469590495"
                                                                         }
                                                       ],
@@ -5049,7 +5049,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Kickoff 2026 för SMK Hofors medlemmar!\n\nProgram:\n- Kl 10:00: Startup för crossskolan\n- Kl 11:30-12:30: Lunch\n- Kl 12:00: Fri åkning\n- Kl 12:00: Små hojar börjar\n\nKlubben bjuder på burgare och korv!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=10164879265653582&set=gm.26206673512287360"
                                                                         }
                                                       ],
@@ -5071,7 +5071,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Start of Season 2026 den 11 april i Holmegaard, Danmark.\n\nFör femte gången arrangerar Lazy Bones, Awesome Bikers och The Others MC sin legendariska säsongsstart. Alla på två hjul är välkomna, oavsett om du kommer med klubb, familj eller ensam.\n\nMorgenmad, frokost och aftensmad ingår. Pris: 150 kr per person. Dessutom en fantastisk körtur.\n\nMax 125 platser, säljer ofta slut snabbt.\n\nPlats: Kalbyvej 32, 4684 Holmegaard, Danmark.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/728281653052000/"
                                                                         },
                                                                         {
@@ -5315,7 +5315,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1276406154606123"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/cecmotorcyclessverige"
                                                                         },
                                                                         {
@@ -5533,7 +5533,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3863050857333012"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/backroadsnordicevents"
                                                                         },
                                                                         {
@@ -5691,7 +5691,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/photo/?fbid=1376728314473024",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/desmocenter"
                                                                         },
                                                                         {
@@ -5828,7 +5828,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/harley-day-probike-goteborg-back-2026-04-18-v2.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo?fbid=1479984690585990&set=a.559226439328491"
                                                                         },
                                                                         {
@@ -6027,7 +6027,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1487538302769713"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/HDTrollhattan"
                                                                         },
                                                                         {
@@ -6130,7 +6130,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Vårmönstring med IMRG Big Lake.\n\nOm vädret tillåter samlas vi för en första tur tillsammans efter vintern. Samling vid MC-Konsult i Lidköping kl 11:00.\n\nAlla är välkomna oavsett vilken hoj du har.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/urban.knutsson"
                                                                         },
                                                                         {
@@ -6295,7 +6295,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/MotorradCenterStockholm",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/MotorradCenterStockholm"
                                                                         },
                                                                         {
@@ -7217,7 +7217,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1289432436446731"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northbikesweden"
                                                                         },
                                                                         {
@@ -7270,7 +7270,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/baldernaes-barhang-back-2026-04-24.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/baldernaesmc.bollnas"
                                                                         },
                                                                         {
@@ -7417,7 +7417,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/tillsammans-varnamo-back-2026-04-24.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/condiosmc/"
                                                                         },
                                                                         {
@@ -7554,7 +7554,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Bike Zone Malmö tillsammans med ClubStyle.Sweden bjuder in till en grym säsongsspremiär! Alla är välkomna!\n\nDet blir en dag fylld med härlig stämning, snygga hojar och skönt häng med likasinnade.\n\nVi bjuder på korv och dricka till alla som kommer.\n\nTa med dina vänner och visa din hoj!\n\nDatum: Lördag 25 april\nTid: 10:00-15:00\nPlats: Bike Zone Malmö, Krusegatan 23, 212 25 Malmö.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=122178683828622361&set=a.122114305178622361"
                                                                         },
                                                                         {
@@ -7852,7 +7852,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Långkalsongrallyt i Garphyttan den 25 april 2026.\n\nÅrligt MC-rally arrangerat av Full Moppers MK. Starten går från Folkets Park i Garphyttan och banan är ca 5 mil lång genom vackra landskap.\n\nSamling kl 10:00, start kl 11:00.\n\nStartavgift: 200 kr (kontant eller Swish). I priset ingår mat, fika och 2 st lotter med fina priser. Vid deltagande stödjer du olika hjälporganisationer.\n\nMer info: www.fullmoppers.se\n\nPlats: Garphyttans Folkets Park, Garphyttan.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/1259563945922244/"
                                                                         },
                                                                         {
@@ -8427,7 +8427,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1581302876304446"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -8648,7 +8648,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/902163092636505/902163099303171/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -9002,7 +9002,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/apex-mc-gruskurs-back-2026-05-01.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/reel/1253111180117927"
                                                                         },
                                                                         {
@@ -9031,7 +9031,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/avrostning-mc-tur-back-2026-05-01.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/1530418525067996/"
                                                                         },
                                                                         {
@@ -9227,7 +9227,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1169777545235892"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/ElgeneMC"
                                                                         },
                                                                         {
@@ -9260,7 +9260,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1429442905473574/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/"
                                                                         },
                                                                         {
@@ -9442,7 +9442,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Nu är påskstöket över och Peking MC ser fram emot första maj-tåget med efterföljande födelsedagsfest för tre (!) 60-åringar i klubben.\n\nVarmt välkomna till klubben i Karstorp utanför Norrköping!\n\nPlats: Karstorp 2, 605 95 Norrköping.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/pekingmc"
                                                                         },
                                                                         {
@@ -9498,7 +9498,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Säsongsuppstart hos Sollefteå Motorklubb!\n\nFörsta maj öppnar vi säsongen. Kom och kolla banan, träffa gänget och se vad som är planerat för 2026.\n\nDatum: Torsdag 1 maj\nPlats: Sollefteå Motorklubb, Sollefteå",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100063500979498"
                                                                         },
                                                                         {
@@ -9625,7 +9625,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/photo/?fbid=1602080031517296",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=1602080031517296"
                                                                         }
                                                       ],
@@ -9757,7 +9757,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Fire Up arrangeras av Con Dios MC.\n\nSäsongsöppning med gemensam MC-tur i Småland. Samling i Kärda utanför Värnamo.\n\nAlla är välkomna oavsett om du är med i en klubb eller kör på egen hand. Con Dios MC är en klubb för bikers med kristen grundsyn, men alla som gillar att köra är välkomna att hänga med.\n\nKolla Con Dios hemsida eller Facebook för aktuella tider och detaljer.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/condiosmc"
                                                                         },
                                                                         {
@@ -9786,7 +9786,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/2147488876035234"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/DesmoCenter"
                                                                         },
                                                                         {
@@ -10087,7 +10087,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/929010159750762"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100063651364928"
                                                                         },
                                                                         {
@@ -10848,7 +10848,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -11224,7 +11224,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/902163102636504"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -11276,7 +11276,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.hojresor.se/2026/02/27/inbjudan-till-resan-72-mil-grus-2026/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/574363770251622/"
                                                                         },
                                                                         {
@@ -11752,7 +11752,7 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/besikta.png",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=1539140591544467&set=a.533667315425138"
                                                                         },
                                                                         {
@@ -11976,7 +11976,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Poker Run arrangeras av Con Dios MC.\n\nKlassisk Poker Run genom Småland. Kör mellan olika stationer och dra ett spelkort vid varje stopp. Den med bästa pokerhanden i mål vinner priser.\n\nAlla är välkomna oavsett klubbtillhörighet. Kolla Con Dios hemsida eller Facebook för startplats, tider och startavgift.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/condiosmc"
                                                                         },
                                                                         {
@@ -12079,7 +12079,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Hedemora Marknad blir i år den 9 maj och Hedemora Touring Team kör som vanligt sin MC Kortege.\n\nSamling från kl 09:30 vid Nygammalt, Kraftgatan 12.\nCa 10:40 blir det en tur runt TT-Banan.\nKl 11:00 startar vi vid Lappens grill och parkerar vid Vasahallen, där vi står ca 1 timme.\nKl 13:00 åker vi en tur och fikar någonstans.\n\nSamling vid TT-Källarn, Callerholmsg. 3.\n\nVälkomna både att köra och som publik!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/hedemoratouringteam"
                                                                         },
                                                                         {
@@ -12218,7 +12218,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/motorcyklarystad/",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/motorcyklarystad/"
                                                                         },
                                                                         {
@@ -12398,7 +12398,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Norberg Racing Academy läger hos Sollefteå Motorklubb.\n\nTvådagars intensivt MX-läger med professionell coaching. Perfekt tillfälle att utvecklas som förare.\n\nDatum: Lördag 9 - söndag 10 maj\nPlats: Sollefteå Motorklubb, Sollefteå",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100063500979498"
                                                                         },
                                                                         {
@@ -12810,7 +12810,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -12938,7 +12938,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -13168,7 +13168,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -13193,7 +13193,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Säsongens första träff för MCV Österlen, lokalavdelning av Club MC-Veteranerna Sverige.\n\nGrillkväll vid gamla tegelbruket i Fyledalen. Samling Svampa kl 17.45. Start kl 18.00.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/McvOsterlen"
                                                                         },
                                                                         {
@@ -13872,7 +13872,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Touring med SMC-kansliet, tre dagar, noll kompromisser!\n\nSMC Travel öppnar bokningen till vårens mest oväntade tur: SMC Kansli Tour 15-17 maj. Tre dagar, fyra stopp, fullt fokus på körning och allt runt omkring som du inte visste att du behövde.\n\nDag 1: Vaxholm, precision och glass. Samling öster om stan, Jesper leder ut.\n\nBokning via SMC Travel.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=1546231777509230&set=a.500033288795756"
                                                                         },
                                                                         {
@@ -14119,7 +14119,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/fmck-gruskurs-back-2026-05-16.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/FMCKUppsala"
                                                                         },
                                                                         {
@@ -14261,7 +14261,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Lappens Memorial Run 2026 till minne av Peter \"Lappen\" Nilsson (1962-2016).\n\nDatum: 16 maj kl 13:00\nPlats: Miner's MC, Lövparksvägen 8, 737 30 Fagersta\n\nPå scen: Dödens Gudbarn +2 support\n18+\n\nTill förmån för Hjärt-Lungfonden.\n\nKaffe, fika, korv och dryck finns.\n\nEndast inbjudna och vänner.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=10163786112309807&set=gm.3981199008678583"
                                                                         },
                                                                         {
@@ -14291,7 +14291,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/2866188243731977"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/notimemc"
                                                                         }
                                                       ],
@@ -14422,7 +14422,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "MHS Vårmarknad på Nifsta Gård den 16 maj 2026.\n\nTraditionell marknad för veteranfordon, renovering och hobbyn. Köp, sälj, snacka och nörda ner dig i allt som rullar. Bilar, motorcyklar, mopeder och tillbehör.\n\nFri entré. Parkering 100 kr/bil. MC, traktor och EPA parkerar gratis.\n\nÖppet kl 08:00-16:00. Mat, dryck och fika finns på plats.\n\nPlats: Nifsta Gård 1, 762 95 Rimbo.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/1776707783025197/"
                                                                         },
                                                                         {
@@ -14447,7 +14447,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Mitt Sverige Cupen deltävling 1 arrangerad av Sollefteå Motorklubb.\n\nMotocross-tävling med klasser för alla åldrar. Två dagar med racing.\n\nDatum: Lördag 16 - söndag 17 maj\nPlats: Sollefteå Motorklubb, Sollefteå",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100063500979498"
                                                                         },
                                                                         {
@@ -14499,7 +14499,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Mosquito Choppers MC bjuder in till Spring Break 2026!\n\nLördag 16 maj i Öjebyn utanför Piteå.\n\nPå scen: Crossroads\nVedeldad bastu\nMyrrah Tattoo & Art\n\nEndast SBM-medlemmar och inbjudna gäster.\n\nKontakt:\nLuggen: 070-611 52 16\nGurra: 070-377 55 07",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/MosquitoChoppersMC"
                                                                         },
                                                                         {
@@ -14549,7 +14549,7 @@ const EVENTS_DATA = {
                                                       "description": "I år firar vi stolta 25år! Varmt välkomna för att dela dagen med oss på klubbkåken i Odensbacken. Det blir kitchens choice och hamburgare på menyn. Go’fika och glass.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/2138455077009828"
                                                                         },
                                                                         {
@@ -14605,7 +14605,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Poker Run i Örebro den 16 maj 2026.\n\nÅrets Poker Run i Örebro arrangeras av SMC Örebro och Network MC. Starten går från Garaget/Genuine Bike Parts på Osmundgatan 3 kl 09:00-10:00. Målet är hos ATM MC, senast kl 15:00.\n\nStartavgift: 50 kr (betala gärna med Swish).\n\nMedverkande klubbar: MC Karlskoga, Genuine Bike Parts, ATM MC, Network MC, Nerikes Bikers MC, Templars Against, SMC Örebro, Garaget.\n\nPlats: Start Osmundgatan 3, Örebro.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/2095757894602710/"
                                                                         },
                                                                         {
@@ -14649,7 +14649,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Rat Fest 2026 hos Bockens Twin Club i Falun!\n\nÖppet från 12:00 till sent.\n\nPå scen: Hellforce\nDead Fashion Industries\nTatuerare på plats\nBar, chilidrinkar, smash burgers\n\nKontanter only (papperspengar).\n\nDetta är ett privat event.\n\nPlats: Timmervägen 666, Falun, Dalarna.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100063679684322"
                                                                         },
                                                                         {
@@ -14785,7 +14785,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/897414892979940"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/zatancruisers"
                                                                         },
                                                                         {
@@ -14926,7 +14926,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northbikesweden"
                                                                         },
                                                                         {
@@ -14956,7 +14956,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.gentlemansride.com"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northbikesweden"
                                                                         }
                                                       ]
@@ -14977,7 +14977,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/dgr-umea-front-2026-05-17.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northbikesweden"
                                                                         },
                                                                         {
@@ -15051,7 +15051,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -15247,7 +15247,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -15554,7 +15554,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -16631,7 +16631,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/2900616773461408"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/people/Tumba-Twins-Motorcycle-Club/100072138546799/"
                                                                         },
                                                                         {
@@ -16793,7 +16793,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -16925,7 +16925,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -17203,7 +17203,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -17228,7 +17228,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Träff för MCV Österlen vid Fritidsbaren i Ystad, det röda caféet vid strandpromenaden. Start kl 18.00.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/McvOsterlen"
                                                                         },
                                                                         {
@@ -18697,7 +18697,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -18804,7 +18804,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -19088,7 +19088,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -19110,7 +19110,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/provkorning-zontes-back-2026-06-03.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/839357122492882/"
                                                                         },
                                                                         {
@@ -19361,7 +19361,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.mcontours.se/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northbikesweden"
                                                                         },
                                                                         {
@@ -19817,7 +19817,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Motorhistoriska Dagen i Löderup. Veteranfordon, MC och bilar samlas. MCV Österlen är på plats. Start kl 10.00.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/McvOsterlen"
                                                                         },
                                                                         {
@@ -19939,7 +19939,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/nationaldagsturen-haninge-back-2026-06-06.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/1132728105638779/"
                                                                         },
                                                                         {
@@ -20255,7 +20255,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1400838854587535/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -20286,7 +20286,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -20476,7 +20476,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -20704,7 +20704,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -21589,7 +21589,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -21805,7 +21805,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Djurspaträffen arrangeras av Con Dios MC.\n\nEn sommarträff för bikers i Kronoberg. Gemenskap, mat och MC-prat.\n\nAlla är välkomna oavsett klubb eller märke. Kolla Con Dios hemsida eller Facebook för plats och tider.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/condiosmc"
                                                                         },
                                                                         {
@@ -21915,7 +21915,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -22054,7 +22054,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.indianridersfest.eu/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/IndianRidersFestCZ/"
                                                                         },
                                                                         {
@@ -22426,7 +22426,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -22476,7 +22476,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -22679,7 +22679,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -23046,7 +23046,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Big Twins Party den 27 juni 2026.\n\nPlats: Köpsta 591, 715 94 Odensbacken.\n\nBig Twins MC, grundat 1982.\n\nKontakt:\nPuma: 070-864 22 86\nOtto: 073-691 64 53",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/bigtwins.mc"
                                                                         },
                                                                         {
@@ -23499,7 +23499,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "MCV Österlen kör till Artillerimuseet i Kristianstad med guidad visning. På vägen dit stannar vi vid Mjelarasten i Degeberga. Samling Svampa kl 10.00.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/McvOsterlen"
                                                                         },
                                                                         {
@@ -23618,7 +23618,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -23871,7 +23871,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -24079,7 +24079,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Keff MC Wisby bjuder in till Summer Party!\n\nTvå dagar med fest, musik och sommarstämning på Gotland.\n\nMusik: Mojo Kings\nPris: 100 SEK/dag\n\nDatum: 3-4 juli 2026\nPlats: Visby, Gotland\n\nKontakt: info@keffmc.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=26935437459373762&set=gm.26487438094242145&idorvanity=667542576658384"
                                                                         },
                                                                         {
@@ -24321,7 +24321,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hmcv-varmland-veteransvangen-back-2026-07-04.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=26691354573806038&set=g.738956209589269"
                                                                         },
                                                                         {
@@ -24350,7 +24350,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Iron Horse MC Show i Nyköping den 4 juli 2026.\n\nÅrlig MC-show som hålls lördagen efter midsommar i Nyköpings Hamn. Custombyggen, klassiska motorcyklar och gemenskap.\n\nÖppet från kl 11:00.\n\nPlats: Nyköpings Hamn, Nyköping.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/ironhorsemcshow/"
                                                                         },
                                                                         {
@@ -24613,7 +24613,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -24781,7 +24781,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -24806,7 +24806,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Veteranträff i Dungen, Gyllebo. MCV Österlen samlas för en sommarkväll. Start kl 17.00.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/McvOsterlen"
                                                                         },
                                                                         {
@@ -25104,7 +25104,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/917173907755288"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/crowsmc"
                                                                         }
                                                       ]
@@ -25376,7 +25376,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -25427,7 +25427,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.sub5.se/evenemang/gellerasen-13-14-juli-2026/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/520709478068490/"
                                                                         },
                                                                         {
@@ -25545,7 +25545,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -25974,7 +25974,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -26082,7 +26082,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/motortraffen-garsnas-back-2026-07-21.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/111motor"
                                                                         },
                                                                         {
@@ -26172,7 +26172,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -26197,7 +26197,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Sommarfest för MCV Österlens medlemmar hos Kristine och Östen i Everöd. Helgrillad gris. Pris 100 kr, max 60 deltagare. Start kl 18.00.\n\nAnmälan via Swish 1236606107 eller BG 797-9362 senast 14/7.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/McvOsterlen"
                                                                         },
                                                                         {
@@ -26402,7 +26402,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1224034783175988"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/410100326179394"
                                                                         },
                                                                         {
@@ -26699,7 +26699,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -26845,7 +26845,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -27347,7 +27347,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -27621,7 +27621,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -27783,7 +27783,7 @@ const EVENTS_DATA = {
                                                                                           "url": "http://www.emcrally.com/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/condiosmc"
                                                                         },
                                                                         {
@@ -27811,7 +27811,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://hdcs.se/evenemang/h-dcs-internationella-traffen-ostersund/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=10163469007429436&set=gm.34697420146571013"
                                                                         },
                                                                         {
@@ -28060,7 +28060,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/photo?fbid=122231340902280655&set=a.122097923012280655",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=61558419658686"
                                                                         },
                                                                         {
@@ -28141,7 +28141,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Österlen-kicken, veteranrally för MC och moped. Startplats Industrigatan 10, Tomelilla.\n\nAnmälningsavgift 300 kr (frukost, lunch, kaffe och plakett ingår). Frukost 8.00 till 9.30. Första start 10.00. Efteranmälan +50 kr.\n\nAnmälan till Hans Lempinen, tel 070-369 29 80, senast 2/8.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/McvOsterlen"
                                                                         },
                                                                         {
@@ -28386,7 +28386,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -28461,7 +28461,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -28689,7 +28689,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -29565,7 +29565,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -29642,7 +29642,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -29843,7 +29843,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -30215,7 +30215,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/914618091274013/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -30379,7 +30379,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -30429,7 +30429,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -30659,7 +30659,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -30821,7 +30821,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.vulcanriders-sweden.org/sv/?view=article&id=1115%3Abrudfjaellstraeffen-2026&catid=333"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/642063332540047"
                                                                         },
                                                                         {
@@ -31040,7 +31040,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1284381863562705"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/NilssonsMC"
                                                                         },
                                                                         {
@@ -31174,7 +31174,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Söndagsrundan arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nFör dig som missar Onsdagsturen och Glassturen! Söndagsrundan är ett perfekt alternativ för dig som föredrar en skön tur i dagsljus och god mat.\n\nDetta är ett öppet och kravlöst evenemang. Vi vill skapa en naturlig samlingspunkt för MC-åkare i Jönköping på söndagar.\n\nSamling från 10:00, avfärd 11:00 (sharp). Plats: ST1 Macken A6 fulltankad o klar.\n\nSöndagsturens mål = LUNCH. Vi kör en härlig runda på fina asfaltsvägar och siktar på att landa på något trevligt ställe för att äta lunch tillsammans.\n\nAlla intresserade är välkomna på våra öppna träffar. Vi värdesätter säkerhet, respekt på vägarna och framför allt den glädje som två hjul ger oss.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
                                                                         {
@@ -31224,7 +31224,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -31906,7 +31906,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Veteranträff i Skåne Tranås. Säsongens sista samling för MCV Österlen. Start kl 10.00.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/McvOsterlen"
                                                                         },
                                                                         {
@@ -31958,7 +31958,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/motorcycle-inferno-back-2026-09-05.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/MotorcycleInferno"
                                                                         },
                                                                         {
@@ -32060,7 +32060,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -32663,7 +32663,7 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/photo/?fbid=27285801527675175&set=gm.26410178338634788",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/667542576658384"
                                                                         },
                                                                         {
@@ -32918,7 +32918,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -33637,7 +33637,7 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Göta MS Crosskola i Enköping.\n\nFör unga nybörjare som vill börja köra cross.\n\nPlats: Tärby 18, 745 95 Enköping (Pepparrotsbanan)\n\nAktivitetsdatum 2026: 27/4, 4/5, 11/5, 18/5, 25/5, 1/6, 8/6, 22/6, (sommaruppehåll), 10/8, 17/8, 24/8, (31/8), 7/9, 14/9, 21/9.\n\nInskrivning och informationskväll: Torsdag 9 april, 18:30-20:00, Klubbhuset, Pepparrotsbanan.\n\nMer info: www.gotams.se",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotams"
                                                                         },
                                                                         {
@@ -34593,7 +34593,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://gotlandgrandnational.se/anmal-dig-har/"
                                                                         },
                                                                         {
-                                                                                          "label": "Facebook",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/gotlandgrandnational"
                                                                         },
                                                                         {
