@@ -1853,28 +1853,45 @@
   .m-map-btn img { width: 18px; height: 18px; border-radius: 0; }
   .m-map-btn:active { background: rgba(0,0,0,0.03); }
   .m-detail-links {
-    padding: 0 16px 16px;
+    padding: 4px 16px 22px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 8px;
+    justify-content: center;
   }
   .m-detail-link {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 10px 12px;
-    background: var(--bg-primary);
-    border-radius: 10px;
+    gap: 8px;
+    padding: 8px 16px 8px 8px;
+    border-radius: 22px;
+    background: transparent;
+    border: 1px solid var(--border);
     color: var(--text-primary);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
   }
-  .m-detail-link-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
-  .m-detail-link-ico { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: 6px; color: var(--accent); flex-shrink: 0; }
-  .m-detail-link-ico svg { width: 18px; height: 18px; }
-  .m-detail-link-ico.fb { background: #1877f2; color: #fff; font-weight: 500; }
-  .m-detail-link-arrow { color: var(--text-muted); font-size: 18px; }
+  .m-detail-link:active { background: rgba(0,0,0,0.03); }
+  .m-detail-link-ico {
+    width: 26px; height: 26px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    flex-shrink: 0;
+    background: transparent;
+    color: var(--text-secondary);
+  }
+  .m-detail-link-ico svg { width: 16px; height: 16px; }
+  .m-detail-link-ico.fb {
+    background: #1877f2;
+    color: #fff;
+  }
+  .m-detail-link-ico.fb svg { width: 18px; height: 18px; }
   .m-detail-org {
     display: flex;
     align-items: center;
@@ -3337,20 +3354,19 @@ function openMDetail(cardId) {
     ? '<div class="m-detail-org">' + orgIconHTML + '<span>' + escapeHtml(ev.organizer) + '</span></div>'
     : '';
 
-  // Links rows (excluding map since we have a dedicated button)
+  // Link pills (excluding map, which has its own button above)
   let linksHTML = '';
   if (Array.isArray(ev.links) && ev.links.length) {
+    const fbLogoSVG = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>';
+    const webIconSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
     const rows = ev.links.filter(l => l.type !== 'map').map(l => {
       const label = (l.label || '').toLowerCase();
-      let icoHTML;
-      if (label.includes('fb') || label.includes('facebook')) {
-        icoHTML = '<span class="m-detail-link-ico fb">f</span>';
-      } else {
-        icoHTML = '<span class="m-detail-link-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>';
-      }
+      const isFB = label.includes('fb') || label.includes('facebook');
+      const icoHTML = isFB
+        ? '<span class="m-detail-link-ico fb">' + fbLogoSVG + '</span>'
+        : '<span class="m-detail-link-ico">' + webIconSVG + '</span>';
       return '<a class="m-detail-link" href="' + l.url + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">'
-        + '<span class="m-detail-link-left">' + icoHTML + '<span>' + escapeHtml(l.label) + '</span></span>'
-        + '<span class="m-detail-link-arrow">&rsaquo;</span></a>';
+        + icoHTML + '<span>' + escapeHtml(l.label) + '</span></a>';
     }).join('');
     if (rows) linksHTML = '<div class="m-detail-links">' + rows + '</div>';
   }
