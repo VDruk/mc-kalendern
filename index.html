@@ -931,6 +931,9 @@
   }
   .back-btn:hover { color: var(--accent-hover); }
 
+  /* ========== REGION PILL (mobile only, hidden on desktop) ========== */
+  .card-region-pill { display: none; }
+
   /* ========== POSTER / FRONT-IMAGE CARDS ========== */
   .card.poster-card {
     border: none; overflow: hidden; border-top: none;
@@ -1984,6 +1987,32 @@
       line-height: 1.25;
       text-shadow: 0 2px 8px rgba(0,0,0,0.9), 0 1px 2px rgba(0,0,0,0.8);
       letter-spacing: -0.2px;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: unset;
+      min-height: 0;
+    }
+    /* Region pill positioned below date chip (absolute so top-row flex is untouched) */
+    .card:not(.poster-card) .card-region-pill {
+      display: inline-block;
+      position: absolute;
+      top: 48px;
+      left: 10px;
+      background: rgba(255,255,255,0.92);
+      color: #1a1a2e;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: 10px;
+      z-index: 3;
+      max-width: calc(100% - 50px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+      letter-spacing: 0.2px;
     }
     .card:not(.poster-card) .card-notice {
       background: rgba(220,38,38,0.95); color: #fff;
@@ -4030,6 +4059,9 @@ function render() {
       `;
     } else {
       const weatherHTML = getWeatherStripHTML(event.id, event.date);
+      const regionArr = Array.isArray(event.region) ? event.region : (event.region ? [event.region] : []);
+      const regionText = regionArr.join(', ');
+      const regionPillHTML = regionText ? `<span class="card-region-pill">${regionText}</span>` : '';
       card.innerHTML = `
         <div class="card-flipper">
           <div class="card-front">
@@ -4041,6 +4073,7 @@ function render() {
                 <button class="fav-btn ${isFav ? 'active' : ''}" onclick="event.stopPropagation();toggleFavorite('${event.id}')" title="Spara">&#9733;</button>
               </div>
             </div>
+            ${regionPillHTML}
             <div class="card-name">${displayName}</div>
             <div class="card-body">
               <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
