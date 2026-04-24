@@ -1786,8 +1786,21 @@
     display: flex; gap: 6px; align-items: flex-start;
   }
   .m-detail-weather {
-    padding: 0 16px 14px;
+    padding: 0;
+    margin: 0;
   }
+  .m-detail-weather .weather-strip {
+    margin: 0;
+    min-height: 52px;
+    padding: 10px 16px;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .m-detail-weather .weather-icon { font-size: 22px; }
+  .m-detail-weather .weather-temp { font-size: 16px; }
+  .m-detail-weather .weather-detail { font-size: 13px; }
+  .m-detail-weather .weather-label { font-size: 11px; }
+  .m-detail-weather .weather-pending-text { font-size: 13px; }
   .m-detail-desc {
     padding: 4px 16px 16px;
     font-size: 14px;
@@ -3295,13 +3308,13 @@ function openMDetail(cardId) {
   }
 
   body.innerHTML = `
+    ${weatherHTML ? '<div class="m-detail-weather">' + weatherHTML + '</div>' : ''}
     <div class="m-detail-head">
       ${chipsHTML ? '<div class="m-detail-chips">' + chipsHTML + '</div>' : ''}
       <h2 class="m-detail-title">${escapeHtml(displayName)}</h2>
       <div class="m-detail-date">${dateStr}</div>
       ${locationHTML}
     </div>
-    ${weatherHTML ? '<div class="m-detail-weather">' + weatherHTML + '</div>' : ''}
     ${descHTML ? '<div class="m-detail-desc">' + descHTML + '</div>' : ''}
     ${actionsHTML}
     ${orgHTML}
