@@ -1796,6 +1796,13 @@
     margin-top: 2px;
   }
   .m-detail-meta-ico svg { width: 16px; height: 16px; }
+  .m-detail-meta-orgimg {
+    flex-shrink: 0;
+    width: 18px; height: 18px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-top: 1px;
+  }
   .m-detail-weather {
     padding: 0;
     margin: 0;
@@ -1825,94 +1832,61 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 16px 16px 18px;
+    padding: 16px 16px 14px;
     justify-content: center;
   }
-  /* Make the calendar dropdown and the map pill look like sibling pills on mobile */
+  /* Unified pill base: Kalender trigger, Karta button, link pills — all 40px tall. */
   .m-detail-actions .cal-dropdown-wrapper.m-detail-cal { display: inline-block; }
-  .m-detail-actions .cal-trigger {
-    padding: 10px 16px;
-    font-size: 13px;
-  }
-  .m-map-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 16px;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: 500;
-    font-family: inherit;
-    background: var(--bg-primary);
-    border: 1px solid var(--border);
-    color: var(--text-primary);
-    text-decoration: none;
-    cursor: pointer;
-    user-select: none;
-  }
-  .m-map-btn img { width: 18px; height: 18px; border-radius: 0; }
-  .m-map-btn:active { background: rgba(0,0,0,0.03); }
-  .m-detail-links {
-    padding: 4px 16px 22px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-  }
+  .m-detail-actions .cal-trigger,
+  .m-map-btn,
   .m-detail-link {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 8px 16px 8px 8px;
-    border-radius: 22px;
-    background: transparent;
+    min-height: 40px;
+    padding: 0 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1;
+    background: var(--bg-primary);
     border: 1px solid var(--border);
     color: var(--text-primary);
     text-decoration: none;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 1;
     cursor: pointer;
     user-select: none;
   }
-  .m-detail-link:active { background: rgba(0,0,0,0.03); }
+  .m-detail-actions .cal-trigger:active,
+  .m-map-btn:active,
+  .m-detail-link:active { background: rgba(0,0,0,0.04); }
+  .m-map-btn img { width: 20px; height: 20px; border-radius: 0; }
+  .m-detail-actions .cal-trigger img { width: 20px; height: 20px; }
+  .m-detail-links {
+    padding: 4px 16px 22px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  /* Link-specific: tighter left padding so the icon sits close to the edge */
+  .m-detail-link { padding: 0 16px 0 6px; }
   .m-detail-link-ico {
-    width: 26px; height: 26px;
+    width: 22px; height: 22px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 6px;
+    border-radius: 5px;
     flex-shrink: 0;
-    background: transparent;
     color: var(--text-secondary);
   }
-  .m-detail-link-ico svg { width: 16px; height: 16px; }
-  .m-detail-link-ico.fb {
-    background: #1877f2;
-    color: #fff;
-  }
-  .m-detail-link-ico.fb svg { width: 18px; height: 18px; }
-  .m-detail-org {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 16px;
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-    background: var(--bg-primary);
-    font-size: 14px;
-    color: var(--text-primary);
-  }
-  .m-detail-org-ico {
-    width: 32px; height: 32px;
-    border-radius: 50%;
-    background: var(--accent);
-    color: #fff;
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 500;
+  .m-detail-link-ico svg { width: 18px; height: 18px; }
+  .m-detail-link-fb-img {
+    width: 24px; height: 24px;
     flex-shrink: 0;
+    display: block;
   }
-  .m-detail-org-ico img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+  /* (old .m-detail-org grey band removed — organizer now lives as a meta row in the head block) */
 
   /* ========== PHASE 2 CARDS (photo background on mobile) 2026-04-23 ========== */
   @media (max-width: 768px) {
@@ -3345,25 +3319,24 @@ function openMDetail(cardId) {
     : '';
   const actionsHTML = ev._ad ? '' : `<div class="m-detail-actions">${calPillHTML}${mapPillHTML}</div>`;
 
-  // Organizer row
-  const orgInitial = (ev.organizer || '?').trim().charAt(0).toUpperCase();
-  const orgIconHTML = ev.organizerIcon
-    ? '<span class="m-detail-org-ico"><img src="' + ev.organizerIcon + '" alt=""></span>'
-    : '<span class="m-detail-org-ico">' + orgInitial + '</span>';
-  const orgHTML = ev.organizer
-    ? '<div class="m-detail-org">' + orgIconHTML + '<span>' + escapeHtml(ev.organizer) + '</span></div>'
+  // Organizer meta row (sits inside the head block, same pattern as date/location)
+  const personIconSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>';
+  const orgMetaIconHTML = ev.organizerIcon
+    ? '<img class="m-detail-meta-orgimg" src="' + ev.organizerIcon + '" alt="">'
+    : '<span class="m-detail-meta-ico">' + personIconSVG + '</span>';
+  const organizerMetaHTML = ev.organizer
+    ? '<div class="m-detail-meta">' + orgMetaIconHTML + '<span>' + escapeHtml(ev.organizer) + '</span></div>'
     : '';
 
   // Link pills (excluding map, which has its own button above)
   let linksHTML = '';
   if (Array.isArray(ev.links) && ev.links.length) {
-    const fbLogoSVG = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>';
     const webIconSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
     const rows = ev.links.filter(l => l.type !== 'map').map(l => {
       const label = (l.label || '').toLowerCase();
       const isFB = label.includes('fb') || label.includes('facebook');
       const icoHTML = isFB
-        ? '<span class="m-detail-link-ico fb">' + fbLogoSVG + '</span>'
+        ? '<img class="m-detail-link-fb-img" src="ads/icon-facebook.png" srcset="ads/icon-facebook.png 1x, ads/icon-facebook@2x.png 2x" alt="" width="24" height="24">'
         : '<span class="m-detail-link-ico">' + webIconSVG + '</span>';
       return '<a class="m-detail-link" href="' + l.url + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">'
         + icoHTML + '<span>' + escapeHtml(l.label) + '</span></a>';
@@ -3378,10 +3351,10 @@ function openMDetail(cardId) {
       <h2 class="m-detail-title">${escapeHtml(displayName)}</h2>
       <div class="m-detail-meta"><span class="m-detail-meta-ico">${calIconSVG}</span><span>${dateStr}</span></div>
       ${locationHTML}
+      ${organizerMetaHTML}
     </div>
     ${descHTML ? '<div class="m-detail-desc">' + descHTML + '</div>' : ''}
     ${actionsHTML}
-    ${orgHTML}
     ${linksHTML}
   `;
 
