@@ -162,7 +162,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "sponsor-harley-davidson-ad-2026",
-                                                      "name": "Harley-Davidson 2026",
+                                                      "name": "Harley-Davidson",
                                                       "date": "2026-01-01",
                                                       "dateEnd": "2026-12-31",
                                                       "location": "harley-davidson.com",
@@ -385,7 +385,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-norrbotten-årsmöte-2026",
-                                                      "name": "SMC Norrbottens Årsmöte 2026",
+                                                      "name": "SMC Norrbottens Årsmöte",
                                                       "date": "2026-03-07",
                                                       "location": "Biografen Royal, Luleå",
                                                       "region": "Norrbotten",
@@ -412,7 +412,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-skane-årsmöte-2026",
-                                                      "name": "SMC Skånes Årsmöte 2026",
+                                                      "name": "SMC Skånes Årsmöte",
                                                       "date": "2026-03-08",
                                                       "location": "Skåne",
                                                       "region": "Skåne",
@@ -439,7 +439,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-uppsala-årsmöte-2026",
-                                                      "name": "SMC Uppsala Årsmöte 2026",
+                                                      "name": "SMC Uppsala Årsmöte",
                                                       "date": "2026-03-08",
                                                       "location": "Östra Aros MC klubblokal, Stångby 1, Uppsala",
                                                       "region": "Uppsala",
@@ -466,7 +466,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-orebro-årsmöte-2026",
-                                                      "name": "SMC Örebros Årsmöte 2026",
+                                                      "name": "SMC Örebros Årsmöte",
                                                       "date": "2026-03-10",
                                                       "location": "Idrottens Hus, Karlsgatan 28, Örebro",
                                                       "region": "Örebro",
@@ -962,7 +962,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-kronoberg-årsmöte-2026",
-                                                      "name": "SMC Kronobergs Årsmöte 2026",
+                                                      "name": "SMC Kronobergs Årsmöte",
                                                       "date": "2026-03-15",
                                                       "location": "Hjorts klubbstuga, Kronoberg",
                                                       "region": "Kronoberg",
@@ -1603,7 +1603,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "johans-mc-bonneville-lansering-2026",
-                                                      "name": "Lanseringsdag Nya Bonneville 2026",
+                                                      "name": "Lanseringsdag Nya Bonneville",
                                                       "date": "2026-03-21",
                                                       "dateEnd": "2026-03-21",
                                                       "location": "Johans MC, Tagenevägen 28, Göteborg",
@@ -1761,7 +1761,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-stockholm-årsmöte-2026",
-                                                      "name": "SMC Stockholms Årsmöte 2026",
+                                                      "name": "SMC Stockholms Årsmöte",
                                                       "date": "2026-03-21",
                                                       "dateEnd": "2026-03-21",
                                                       "location": "7A Odenplan, Norrtullsgatan 6, Stockholm",
@@ -1792,7 +1792,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-vasternorrland-årsmöte-2026",
-                                                      "name": "SMC Västernorrlands Årsmöte 2026",
+                                                      "name": "SMC Västernorrlands Årsmöte",
                                                       "date": "2026-03-21",
                                                       "location": "Västernorrland",
                                                       "region": "Västernorrland",
@@ -1819,7 +1819,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-vastmanland-årsmöte-2026",
-                                                      "name": "SMC Västmanlands Årsmöte 2026",
+                                                      "name": "SMC Västmanlands Årsmöte",
                                                       "date": "2026-03-21",
                                                       "location": "Västerås",
                                                       "region": "Västmanland",
@@ -1846,7 +1846,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-vastra-gotaland-årsmöte-2026",
-                                                      "name": "SMC Västra Götalands Årsmöte 2026",
+                                                      "name": "SMC Västra Götalands Årsmöte",
                                                       "date": "2026-03-21",
                                                       "location": "Västra Götaland",
                                                       "region": "Västra Götaland",
@@ -1873,7 +1873,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "triumph-bonneville-2026-unleashed",
-                                                      "name": "Triumph Bonneville 2026 Unleashed",
+                                                      "name": "Triumph Bonneville Unleashed",
                                                       "date": "2026-03-21",
                                                       "dateEnd": "2026-03-21",
                                                       "location": "Hos din Triumph-handlare",
@@ -1895,7 +1895,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-gotland-årsmöte-2026",
-                                                      "name": "SMC Gotlands Årsmöte 2026",
+                                                      "name": "SMC Gotlands Årsmöte",
                                                       "date": "2026-03-22",
                                                       "location": "Uncle Joes, Visby",
                                                       "region": "Gotland",
@@ -1922,7 +1922,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-jonkoping-årsmöte-2026",
-                                                      "name": "SMC Jönköpings Årsmöte 2026",
+                                                      "name": "SMC Jönköpings Årsmöte",
                                                       "date": "2026-03-22",
                                                       "dateEnd": "2026-03-22",
                                                       "location": "Jönköpings Golfklubb, Golfbanevägen 11",
@@ -1957,7 +1957,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-kalmar-årsmöte-2026",
-                                                      "name": "SMC Kalmars Årsmöte 2026",
+                                                      "name": "SMC Kalmars Årsmöte",
                                                       "date": "2026-03-22",
                                                       "location": "Kalmar",
                                                       "region": "Kalmar",
@@ -2064,7 +2064,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d12-planeringsmote-2026-2026",
-                                                      "name": "D12 Planeringsmöte 2026",
+                                                      "name": "D12 Planeringsmöte",
                                                       "date": "2026-03-25",
                                                       "dateEnd": "2026-03-26",
                                                       "location": "Sjudarevägen 42b, Visby",
@@ -2600,7 +2600,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d10-hojslappet-2026-2026",
-                                                      "name": "D10 Hojsläppet 2026",
+                                                      "name": "D10 Hojsläppet",
                                                       "date": "2026-03-28",
                                                       "dateEnd": "2026-03-28",
                                                       "location": "R40, Dalsjöfors Pendelparkering, Borås",
@@ -2627,7 +2627,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d15-mc-fest-hos-claesson-i-bromolla-2026",
-                                                      "name": "MC-Fest i Bromölla 2026",
+                                                      "name": "MC-Fest i Bromölla",
                                                       "date": "2026-03-28",
                                                       "dateEnd": "2026-03-29",
                                                       "location": "Industrigatan 11, Bromölla",
@@ -2700,7 +2700,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "gp-museet-arsmote-2026-03-28",
-                                                      "name": "Årsmöte på GP-museet 2026",
+                                                      "name": "Årsmöte på GP-museet",
                                                       "date": "2026-03-28",
                                                       "dateEnd": "2026-03-28",
                                                       "location": "Råbelöfs Gods, 291 91 Kristianstad",
@@ -2964,7 +2964,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-varmland-årsmöte-2026",
-                                                      "name": "SMC Värmlands Årsmöte 2026",
+                                                      "name": "SMC Värmlands Årsmöte",
                                                       "date": "2026-03-28",
                                                       "location": "Värmlands TrafikCenter, Grums",
                                                       "region": "Värmland",
@@ -2991,7 +2991,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-vasterbotten-årsmöte-2026",
-                                                      "name": "SMC Västerbottens Årsmöte 2026",
+                                                      "name": "SMC Västerbottens Årsmöte",
                                                       "date": "2026-03-28",
                                                       "location": "Västerbotten",
                                                       "region": "Västerbotten",
@@ -3430,7 +3430,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "chicken-race-alingsas-2026",
-                                                      "name": "Chicken Race 2026",
+                                                      "name": "Chicken Race",
                                                       "date": "2026-04-03",
                                                       "dateEnd": "2026-04-03",
                                                       "location": "Borgens gata 11, Alingsås",
@@ -3543,7 +3543,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "hot-rat-pask-party-2026",
-                                                      "name": "Hot Rat Påsk Party 2026",
+                                                      "name": "Hot Rat Påsk Party",
                                                       "date": "2026-04-03",
                                                       "dateEnd": "2026-04-03",
                                                       "location": "Brogårdsgatan 18, Vetlanda",
@@ -3831,7 +3831,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "sk-motors-egg-run-2026",
-                                                      "name": "SK Motors Egg Run 2026",
+                                                      "name": "SK Motors Egg Run",
                                                       "date": "2026-04-04",
                                                       "dateEnd": "2026-04-04",
                                                       "location": "Biltema, Halmstad",
@@ -3937,7 +3937,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "avrostning-ystad-trafikbana-2026-04-06",
-                                                      "name": "Avrostning 2026",
+                                                      "name": "Avrostning",
                                                       "date": "2026-04-06",
                                                       "dateEnd": "2026-04-06",
                                                       "location": "Norra Koboltgatan 9, Ystad",
@@ -4321,7 +4321,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d10-grusslappet-2026-2026",
-                                                      "name": "D10 Grussläppet 2026",
+                                                      "name": "D10 Grussläppet",
                                                       "date": "2026-04-11",
                                                       "dateEnd": "2026-04-11",
                                                       "location": "R40 Dalsjöfors Pendelparkering, Borås",
@@ -4348,7 +4348,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-hojslapp-2026-2026",
-                                                      "name": "D11 Hojsläpp 2026",
+                                                      "name": "D11 Hojsläpp",
                                                       "date": "2026-04-11",
                                                       "dateEnd": "2026-04-11",
                                                       "location": "Korrö, Linneryd",
@@ -4375,7 +4375,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-mcq-brudar-bagar-bubbel-babbel-2026-2026",
-                                                      "name": "D11 mcQ Brudar, Bågar, Bubbel & Babbel 2026",
+                                                      "name": "D11 mcQ Brudar, Bågar, Bubbel & Babbel",
                                                       "date": "2026-04-11",
                                                       "dateEnd": "2026-04-12",
                                                       "location": "Gamla Slottsvägen 1b, Lyckeby",
@@ -4601,7 +4601,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "gmc-karlstad-ktm-enduro-provkorning-2026-04-11",
-                                                      "name": "Provkörning KTM Enduro 2026",
+                                                      "name": "Provkörning KTM Enduro",
                                                       "date": "2026-04-11",
                                                       "dateEnd": "2026-04-11",
                                                       "location": "KMX Hynboholm, Karlstad",
@@ -4818,7 +4818,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "mc-avrostning-oxie-2026",
-                                                      "name": "MC-avrostning 2026",
+                                                      "name": "MC-avrostning",
                                                       "date": "2026-04-11",
                                                       "dateEnd": "2026-04-11",
                                                       "location": "Lockarps gokartbana, Oxie",
@@ -4909,7 +4909,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "regression-start-of-season-2026",
-                                                      "name": "Kickstart the Season 2026",
+                                                      "name": "Kickstart the Season",
                                                       "date": "2026-04-11",
                                                       "dateEnd": "2026-04-11",
                                                       "location": "Vretstorp",
@@ -5039,7 +5039,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smk-hofors-kickoff-2026-04-11",
-                                                      "name": "Kickoff 2026",
+                                                      "name": "Kickoff",
                                                       "date": "2026-04-11",
                                                       "dateEnd": "2026-04-11",
                                                       "location": "SMK Hofors, Hofors",
@@ -5060,7 +5060,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "start-of-season-holmegaard-2026",
-                                                      "name": "Start of Season 2026",
+                                                      "name": "Start of Season",
                                                       "date": "2026-04-11",
                                                       "dateEnd": "2026-04-11",
                                                       "location": "Kalbyvej 32, 4684 Holmegaard, Danmark",
@@ -5515,7 +5515,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "adv-expo-2026",
-                                                      "name": "ADV Motorcycle Expo 2026",
+                                                      "name": "ADV Motorcycle Expo",
                                                       "date": "2026-04-18",
                                                       "dateEnd": "2026-04-19",
                                                       "location": "Scandic Infra City, Kanalvägen 10, Upplands Väsby",
@@ -6665,7 +6665,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d15-kul-pa-hjul-2026-avrostning-2026",
-                                                      "name": "D15 Kul på Hjul 2026 - Avrostning",
+                                                      "name": "D15 Kul på Hjul Avrostning",
                                                       "date": "2026-04-19",
                                                       "dateEnd": "2026-04-19",
                                                       "location": "Nötesjövägen 293-12, Svedala",
@@ -7233,7 +7233,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "adas-mc-varparty-2026",
-                                                      "name": "Adas VårParty 2026",
+                                                      "name": "Adas VårParty",
                                                       "date": "2026-04-24",
                                                       "dateEnd": "2026-04-26",
                                                       "location": "Regementsvägen 12, Sundsvall",
@@ -7285,7 +7285,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bikedagarna-trollhattan-2026",
-                                                      "name": "Bikedagarna 2026",
+                                                      "name": "Bikedagarna",
                                                       "date": "2026-04-24",
                                                       "dateEnd": "2026-04-25",
                                                       "location": "Lextorpsvägen 997, Trollhättan",
@@ -7597,7 +7597,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-kul-pa-hjul-2026-avrostning-med-smc-2026",
-                                                      "name": "D11 Kul På Hjul 2026 - Avrostning med SMC",
+                                                      "name": "D11 Kul På Hjul Avrostning med SMC",
                                                       "date": "2026-04-25",
                                                       "dateEnd": "2026-04-25",
                                                       "location": "Växjö",
@@ -7816,7 +7816,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lagarallyt-knared-2026-04-25",
-                                                      "name": "Lagarallyt 2026",
+                                                      "name": "Lagarallyt",
                                                       "date": "2026-04-25",
                                                       "dateEnd": "2026-04-25",
                                                       "location": "PerTec, Klockarevägen 20, Knäred",
@@ -7842,7 +7842,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "langkalsongrallyt-garphyttan-2026",
-                                                      "name": "Långkalsongrallyt 2026",
+                                                      "name": "Långkalsongrallyt",
                                                       "date": "2026-04-25",
                                                       "dateEnd": "2026-04-25",
                                                       "location": "Garphyttans Folkets Park, Garphyttan",
@@ -8066,7 +8066,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "open-garage-ktm-orebro-2026-04-25",
-                                                      "name": "Open Garage 2026",
+                                                      "name": "Open Garage",
                                                       "date": "2026-04-25",
                                                       "dateEnd": "2026-04-25",
                                                       "location": "Salamandervägen 16, Örebro",
@@ -8251,7 +8251,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "voge-dagen-mc-center-karlstad-2026-04-25",
-                                                      "name": "Voge Dagen 2026",
+                                                      "name": "Voge Dagen",
                                                       "date": "2026-04-25",
                                                       "dateEnd": "2026-04-25",
                                                       "location": "MC Center Karlstad, Bivägen 8, Hammarö",
@@ -9212,7 +9212,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "elgetraef-2026-05-01",
-                                                      "name": "Elgetræf 2026 - 50 års jubilæum",
+                                                      "name": "Elgetræf 50 års jubilæum",
                                                       "date": "2026-05-01",
                                                       "dateEnd": "2026-05-03",
                                                       "location": "Tustrup Møllevej 2, 9520 Skørping, Danmark",
@@ -9299,7 +9299,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "mittsverige-motorsportdag-2026",
-                                                      "name": "Mittsverige Motorsportdag 2026",
+                                                      "name": "Mittsverige Motorsportdag",
                                                       "date": "2026-05-01",
                                                       "dateEnd": "2026-05-01",
                                                       "location": "Mittsverigebanan, Tjärnsjö 100, Härnösand",
@@ -9462,7 +9462,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "primo-maggio-ducati-vasteras-2026-05-01",
-                                                      "name": "Primo Maggio 2026",
+                                                      "name": "Primo Maggio",
                                                       "date": "2026-05-01",
                                                       "dateEnd": "2026-05-01",
                                                       "location": "Circle K, Hammarbyrampen 1, Västerås",
@@ -9740,7 +9740,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "desmocenter-season-start-2026-05-02",
-                                                      "name": "Season Start 2026 och Motorcykelns Dag",
+                                                      "name": "Season Start och Motorcykelns Dag",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
                                                       "location": "Karins väg 5, Upplands Väsby",
@@ -9894,7 +9894,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "gokrallyt-ljungby-2026",
-                                                      "name": "Gökrallyt 2026",
+                                                      "name": "Gökrallyt",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
                                                       "location": "Vislandavägen, Ljungby",
@@ -10017,7 +10017,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "motorcykelns-dag-2026",
-                                                      "name": "Motorcykelns dag 2026",
+                                                      "name": "Motorcykelns dag",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
                                                       "location": "Hela Sverige (lokala MC-handlare)",
@@ -10190,7 +10190,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "poker-run-kak-2026-05-02",
-                                                      "name": "Poker Run K.A.K 2026",
+                                                      "name": "Poker Run K.A.K",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
                                                       "location": "SMK-lokalen, Köpingsvägen 8, Arboga",
@@ -10240,7 +10240,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "svackans-poker-run-2026-05-02",
-                                                      "name": "Svackans Poker Run 2026",
+                                                      "name": "Svackans Poker Run",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
                                                       "location": "OKQ8, Verkstadsgatan 1, Heby",
@@ -10266,7 +10266,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "tjejdagen-falkenberg-2026-05-02",
-                                                      "name": "Tjejdagen 2026",
+                                                      "name": "Tjejdagen",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
                                                       "location": "Falkenbergs Motorbana, Hällarp",
@@ -10292,7 +10292,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "triumph-stockholm-norr-season-start-2026-05-02",
-                                                      "name": "Season Start 2026",
+                                                      "name": "Season Start",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
                                                       "location": "Karins väg 5, Upplands-Väsby",
@@ -10318,7 +10318,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "varmonstringen-mothers-2026-05-02",
-                                                      "name": "Vårmönstringen 2026",
+                                                      "name": "Vårmönstringen",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
                                                       "location": "Norra Ågatan 28, Mölndal",
@@ -10345,7 +10345,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lille-mats-rally-2026-05-02",
-                                                      "name": "Lille Mats Rally 2026",
+                                                      "name": "Lille Mats Rally",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
                                                       "time": "11:00",
@@ -10480,7 +10480,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-omberg-runt-2026-2026",
-                                                      "name": "D11 Omberg Runt 2026",
+                                                      "name": "D11 Omberg Runt",
                                                       "date": "2026-05-03",
                                                       "dateEnd": "2026-05-03",
                                                       "location": "Biltema, Nässjö",
@@ -10753,7 +10753,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "mc-for-alla-sasongsstart-2026-05-03",
-                                                      "name": "Säsongspremiär 2026",
+                                                      "name": "Säsongspremiär",
                                                       "date": "2026-05-03",
                                                       "dateEnd": "2026-05-03",
                                                       "location": "Motostar, Såggatan 3, Sjöbo",
@@ -10837,7 +10837,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "honda-roadshow-arena-mc-sandnes-2026-05-04",
-                                                      "name": "Honda Roadshow 2026",
+                                                      "name": "Honda Roadshow",
                                                       "date": "2026-05-04",
                                                       "dateEnd": "2026-05-05",
                                                       "type": "Show",
@@ -11470,7 +11470,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d10-tiveden-spring-tour-2026-2026",
-                                                      "name": "D10 Tiveden Spring Tour 2026",
+                                                      "name": "D10 Tiveden Spring Tour",
                                                       "date": "2026-05-08",
                                                       "dateEnd": "2026-05-10",
                                                       "location": "Askersund",
@@ -11497,7 +11497,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-goes-to-spangens-gastgiveri-2026-2026",
-                                                      "name": "D11 Goes to Spångens Gästgiveri 2026",
+                                                      "name": "D11 Goes to Spångens Gästgiveri",
                                                       "date": "2026-05-08",
                                                       "dateEnd": "2026-05-10",
                                                       "location": "Spångengatan 344, Ljungbyhed",
@@ -11737,7 +11737,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "biker-market-trono-2026-05-09",
-                                                      "name": "Biker Market 2026",
+                                                      "name": "Biker Market",
                                                       "date": "2026-05-09",
                                                       "dateEnd": "2026-05-09",
                                                       "location": "Trönö, Söderhamn",
@@ -12013,7 +12013,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "falkenbergs-majsvangen-2026",
-                                                      "name": "MajSvängen 2026",
+                                                      "name": "MajSvängen",
                                                       "date": "2026-05-09",
                                                       "dateEnd": "2026-05-09",
                                                       "location": "Abilds Bygdegård, Abild",
@@ -12064,7 +12064,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "independent-mc-oppet-hus-2026-05-09",
-                                                      "name": "Öppet Hus 2026",
+                                                      "name": "Öppet Hus",
                                                       "date": "2026-05-09",
                                                       "dateEnd": "2026-05-09",
                                                       "location": "Värmdövägen 703, Saltsjö-Boo",
@@ -12280,7 +12280,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "motorsykkelens-dag-stavanger-2026-05-09",
-                                                      "name": "Motorsykkelens Dag Stavanger 2026",
+                                                      "name": "Motorsykkelens Dag Stavanger",
                                                       "date": "2026-05-09",
                                                       "dateEnd": "2026-05-09",
                                                       "location": "Hillevågsveien 18, Stavanger",
@@ -12463,7 +12463,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "smc-nationellt-årsmöte-2026",
-                                                      "name": "SMC Nationellt Årsmöte 2026",
+                                                      "name": "SMC Nationellt Årsmöte",
                                                       "date": "2026-05-09",
                                                       "dateEnd": "2026-05-09",
                                                       "location": "Sundsvall",
@@ -13309,7 +13309,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-regiontraff-vast-2026-2026",
-                                                      "name": "Regionträff Väst 2026",
+                                                      "name": "Regionträff Väst",
                                                       "date": "2026-05-14",
                                                       "dateEnd": "2026-05-17",
                                                       "location": "Lindängsvägen 11, Orsa",
@@ -13546,7 +13546,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "kcs-trackdays-gellerasen-2026",
-                                                      "name": "KCS Track Days Gelleråsen 2026",
+                                                      "name": "KCS Track Days Gelleråsen",
                                                       "date": "2026-05-14",
                                                       "dateEnd": "2026-05-14",
                                                       "location": "Gelleråsen, Karlskoga",
@@ -13721,7 +13721,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "tangens-mc-memorial-run-2026-05-14",
-                                                      "name": "Memorial Run 2026",
+                                                      "name": "Memorial Run",
                                                       "date": "2026-05-14",
                                                       "dateEnd": "2026-05-14",
                                                       "location": "Södra tången, Forshaga",
@@ -13856,7 +13856,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "outbrake-moppers-kustrundan-2026-05-15",
-                                                      "name": "Kustrundan 2026",
+                                                      "name": "Kustrundan",
                                                       "date": "2026-05-15",
                                                       "endDate": "2026-05-16",
                                                       "time": "13:00",
@@ -13938,7 +13938,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "dannike-motorstop-2026",
-                                                      "name": "Dannike Motorstop 2026",
+                                                      "name": "Dannike Motorstop",
                                                       "date": "2026-05-16",
                                                       "dateEnd": "2026-05-16",
                                                       "location": "Dannike Hills Harley Davidson, Dannike",
@@ -14159,7 +14159,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "hoktraffen-med-rally-ronneby-2026",
-                                                      "name": "Hökträffen med rally 2026",
+                                                      "name": "Hökträffen med rally",
                                                       "date": "2026-05-16",
                                                       "dateEnd": "2026-05-16",
                                                       "location": "Hökarna MC, Ronneby",
@@ -14220,7 +14220,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lappens-memorial-run-2026-05-16",
-                                                      "name": "Lappens Memorial Run 2026",
+                                                      "name": "Lappens Memorial Run",
                                                       "date": "2026-05-16",
                                                       "dateEnd": "2026-05-16",
                                                       "location": "Miner's MC, Lövparksvägen 8, Fagersta",
@@ -14458,7 +14458,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "mosquito-choppers-spring-break-2026-05-16",
-                                                      "name": "Spring Break 2026",
+                                                      "name": "Spring Break",
                                                       "date": "2026-05-16",
                                                       "dateEnd": "2026-05-16",
                                                       "location": "Öjebyn, Piteå",
@@ -14562,7 +14562,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "poker-run-orebro-2026",
-                                                      "name": "Poker Run 2026",
+                                                      "name": "Poker Run",
                                                       "date": "2026-05-16",
                                                       "dateEnd": "2026-05-16",
                                                       "location": "Osmundgatan 3, 703 83 Örebro",
@@ -14608,7 +14608,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "rat-fest-falun-2026-05-16",
-                                                      "name": "Rat Fest 2026",
+                                                      "name": "Rat Fest",
                                                       "date": "2026-05-16",
                                                       "dateEnd": "2026-05-16",
                                                       "location": "Timmervägen 666, Falun",
@@ -14738,7 +14738,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "zatan-cruisers-sommarfest-laholm-2026",
-                                                      "name": "Sommarfest 2026",
+                                                      "name": "Sommarfest",
                                                       "date": "2026-05-16",
                                                       "dateEnd": "2026-05-16",
                                                       "location": "Lilla Dömestorp 3, Laholm",
@@ -15593,7 +15593,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "super-rally-2026-fredericia-danmark-2026",
-                                                      "name": "Super Rally 2026 Fredericia Danmark",
+                                                      "name": "Super Rally Fredericia Danmark",
                                                       "date": "2026-05-20",
                                                       "dateEnd": "2026-05-24",
                                                       "location": "Danmark",
@@ -15954,7 +15954,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "ttcs-vartraff-johannesberg-2026",
-                                                      "name": "TTCS Vårträff 2026",
+                                                      "name": "TTCS Vårträff",
                                                       "date": "2026-05-22",
                                                       "dateEnd": "2026-05-24",
                                                       "location": "Johannesbergs Slott, Gottröra, Rimbo",
@@ -16478,7 +16478,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "ride-for-ukraine-2026",
-                                                      "name": "Ride for Ukraine 2026",
+                                                      "name": "Ride for Ukraine",
                                                       "date": "2026-05-23",
                                                       "dateEnd": "2026-05-23",
                                                       "location": "Herserudsvägen 5B, Lidingö",
@@ -16560,7 +16560,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "tps-swapmeet-oppet-hus-2026-05-23",
-                                                      "name": "Swapmeet Öppet Hus 2026",
+                                                      "name": "Swapmeet Öppet Hus",
                                                       "date": "2026-05-23",
                                                       "dateEnd": "2026-05-23",
                                                       "location": "Överby ladugården 5, Sollentuna",
@@ -17470,7 +17470,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "hermans-sjosalg-2026",
-                                                      "name": "Hermans Sjöslag 2026",
+                                                      "name": "Hermans Sjöslag",
                                                       "date": "2026-05-29",
                                                       "dateEnd": "2026-05-31",
                                                       "location": "Sundet vid Sjön Vidöstern",
@@ -17620,7 +17620,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "vulcan-riders-varbergstraffen-2026-05-29",
-                                                      "name": "Varbergsträffen 2026",
+                                                      "name": "Varbergsträffen",
                                                       "date": "2026-05-29",
                                                       "dateEnd": "2026-05-31",
                                                       "location": "Björkängs Vandrarhem, Ledsgård 4, Tvååker",
@@ -17651,7 +17651,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "baprun-gotland-2026",
-                                                      "name": "BAPRUN 2026",
+                                                      "name": "BAPRUN",
                                                       "date": "2026-05-30",
                                                       "dateEnd": "2026-05-30",
                                                       "location": "Dizappointed MC, Tingstäde, Gotland",
@@ -17681,7 +17681,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-mcq-morsdagsrunda-2026-2026",
-                                                      "name": "D11 mcQ Morsdagsrunda 2026",
+                                                      "name": "D11 mcQ Morsdagsrunda",
                                                       "date": "2026-05-30",
                                                       "dateEnd": "2026-05-30",
                                                       "location": "Växjö",
@@ -17791,7 +17791,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "dicerun-talita-2026",
-                                                      "name": "Dicerun 2026",
+                                                      "name": "Dicerun",
                                                       "date": "2026-05-30",
                                                       "dateEnd": "2026-05-30",
                                                       "location": "Krontorpsvägen 27, Trönninge (Halmstad)",
@@ -18146,7 +18146,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "nilssons-mc-festival-2026",
-                                                      "name": "Nilssons MC Festival 2026",
+                                                      "name": "Nilssons MC Festival",
                                                       "date": "2026-05-30",
                                                       "dateEnd": "2026-05-30",
                                                       "location": "Kanongatan 159, Ödåkra, Helsingborg",
@@ -18198,7 +18198,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "orangeday-charityride-2026-05-30",
-                                                      "name": "Orangeday MC Charityride 2026",
+                                                      "name": "Orangeday MC Charityride",
                                                       "date": "2026-05-30",
                                                       "dateEnd": "2026-05-30",
                                                       "location": "Vasaparken, Norrköping",
@@ -18546,7 +18546,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "mc-dagen-sundsvall-2026",
-                                                      "name": "MC-Dagen i Sundsvall 2026",
+                                                      "name": "MC-Dagen i Sundsvall",
                                                       "date": "2026-05-30",
                                                       "dateEnd": "2026-05-30",
                                                       "location": "Gärdehov Arena, Johannedalsvägen, Sundsvall",
@@ -19256,7 +19256,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lort-grusbus-halsingland-2026",
-                                                      "name": "L.O.R.T. 2026 nr 1 - Grusbushelg",
+                                                      "name": "L.O.R.T. nr 1 - Grusbushelg",
                                                       "date": "2026-06-04",
                                                       "dateEnd": "2026-06-07",
                                                       "location": "Lillbo, Alfta, Hälsingland",
@@ -19312,7 +19312,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "mc-adventure-tour-2026",
-                                                      "name": "MC Adventure Tour 2026",
+                                                      "name": "MC Adventure Tour",
                                                       "date": "2026-06-05",
                                                       "dateEnd": "2026-06-07",
                                                       "location": "Hallstaberget, Sollefteå",
@@ -19398,7 +19398,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "arboga-motordag-2026-06-06",
-                                                      "name": "Arboga Motordag 2026",
+                                                      "name": "Arboga Motordag",
                                                       "date": "2026-06-06",
                                                       "dateEnd": "2026-06-06",
                                                       "location": "Bergmansparken, Arboga",
@@ -19446,7 +19446,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-historisk-heldagstur-oland-2026-2026",
-                                                      "name": "D11 Historisk heldagstur Öland 2026",
+                                                      "name": "D11 Historisk heldagstur Öland",
                                                       "date": "2026-06-06",
                                                       "dateEnd": "2026-06-06",
                                                       "location": "Öland",
@@ -19898,7 +19898,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "nationaldagsturen-haninge-2026",
-                                                      "name": "Nationaldagsturen Haninge 2026",
+                                                      "name": "Nationaldagsturen Haninge",
                                                       "date": "2026-06-06",
                                                       "dateEnd": "2026-06-06",
                                                       "location": "GULF Tungelsta, Haninge",
@@ -20380,7 +20380,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-goes-to-pite-havsbad-arstraff-2026-2026",
-                                                      "name": "D11 Goes to Pite Havsbad (Årsträff 2026)",
+                                                      "name": "D11 Goes to Pite Havsbad (Årsträff)",
                                                       "date": "2026-06-08",
                                                       "dateEnd": "2026-06-10",
                                                       "location": "Hotellvägen 50, Piteå",
@@ -20741,7 +20741,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-arstraff-2026-pitea-2026",
-                                                      "name": "Årsträff 2026 Piteå",
+                                                      "name": "Årsträff Piteå",
                                                       "date": "2026-06-11",
                                                       "dateEnd": "2026-06-14",
                                                       "location": "Havsbadsvägen, Piteå",
@@ -20903,7 +20903,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d10-hultsfred-2026-grus-och-asfalt-2026",
-                                                      "name": "D10 Hultsfred 2026, Grus OCH asfalt",
+                                                      "name": "D10 Hultsfred, Grus OCH asfalt",
                                                       "date": "2026-06-12",
                                                       "dateEnd": "2026-06-14",
                                                       "location": "Folkparksvägen 10, Hultsfred",
@@ -21146,7 +21146,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "cancer-run-2026-06-13",
-                                                      "name": "Cancer Run 2026",
+                                                      "name": "Cancer Run",
                                                       "date": "2026-06-13",
                                                       "dateEnd": "2026-06-13",
                                                       "location": "A.R.M. Chapter #40, Gudmundsbyn 111, Sundsvall",
@@ -21275,7 +21275,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "kuggnas-sommartraff-2026",
-                                                      "name": "Kuggnäs Sommarträff 2026",
+                                                      "name": "Kuggnäs Sommarträff",
                                                       "date": "2026-06-13",
                                                       "dateEnd": "2026-06-13",
                                                       "location": "Kuggnäs, PL6228, Nyköping",
@@ -22007,7 +22007,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "indian-riders-fest-2026",
-                                                      "name": "Indian Riders Fest 2026",
+                                                      "name": "Indian Riders Fest",
                                                       "date": "2026-06-18",
                                                       "dateEnd": "2026-06-21",
                                                       "location": "Lipno nad Vltavou, Tjeckien",
@@ -22065,7 +22065,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lort-2-grusbus-halsingland-2026",
-                                                      "name": "L.O.R.T. 2026 nr 2 - Grusbushelg",
+                                                      "name": "L.O.R.T. nr 2 - Grusbushelg",
                                                       "date": "2026-06-18",
                                                       "dateEnd": "2026-06-21",
                                                       "location": "Lillbo, Alfta, Hälsingland",
@@ -22112,7 +22112,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "ridersday-2026-06-18",
-                                                      "name": "RidersDay 2026",
+                                                      "name": "RidersDay",
                                                       "date": "2026-06-18",
                                                       "dateEnd": "2026-06-18",
                                                       "location": "Mantorp Park, Parisvägen 8, Mantorp",
@@ -22248,7 +22248,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "summer-party-fauske-2026-06-19",
-                                                      "name": "Summer Party 2026",
+                                                      "name": "Summer Party",
                                                       "date": "2026-06-19",
                                                       "dateEnd": "2026-06-21",
                                                       "location": "Klungset Leir, Fauske, Norge",
@@ -22687,7 +22687,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "lort-nr3-grusbushelg-halsingland-2026",
-                                                      "name": "L.O.R.T. 2026 nr 3 - Grusbushelg",
+                                                      "name": "L.O.R.T. nr 3 - Grusbushelg",
                                                       "date": "2026-06-24",
                                                       "dateEnd": "2026-06-28",
                                                       "location": "Lillbo, Alfta, Hälsingland",
@@ -22821,7 +22821,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "gwcs-nationell-traff-degeberga-2026",
-                                                      "name": "Nationella Träffen Degeberga 2026",
+                                                      "name": "Nationella Träffen Degeberga",
                                                       "date": "2026-06-25",
                                                       "dateEnd": "2026-06-28",
                                                       "location": "Degeberga Stugby, Trollemölla vägen 52, Degeberga",
@@ -22918,7 +22918,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "vulcan-riders-rikstraff-2026-06-25",
-                                                      "name": "Riksträff 2026",
+                                                      "name": "Riksträff",
                                                       "date": "2026-06-25",
                                                       "dateEnd": "2026-06-28",
                                                       "location": "Tånga Hed, Vårgårda",
@@ -23529,7 +23529,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "skanerundan-2026-06-27",
-                                                      "name": "Skånerundan 2026",
+                                                      "name": "Skånerundan",
                                                       "date": "2026-06-27",
                                                       "dateEnd": "2026-06-27",
                                                       "location": "Motostar, Såggatan 3, Sjöbo",
@@ -24088,7 +24088,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "torringelund-bike-meet-2026",
-                                                      "name": "Törringelund Bike Meet 2026",
+                                                      "name": "Törringelund Bike Meet",
                                                       "date": "2026-07-03",
                                                       "dateEnd": "2026-07-04",
                                                       "location": "Hyltarpsvägen 771, Svedala",
@@ -24994,7 +24994,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "baik-bitch-summer-raid-bollnas-2026-07-10",
-                                                      "name": "Baik & Bitch Summer Raid 2026",
+                                                      "name": "Baik & Bitch Summer Raid",
                                                       "date": "2026-07-10",
                                                       "dateEnd": "2026-07-11",
                                                       "location": "Tegelbruksvägen 20, Bollnäs",
@@ -25025,7 +25025,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bornholms-traffen-2026",
-                                                      "name": "Bornholmertræffet 2026",
+                                                      "name": "Bornholmertræffet",
                                                       "date": "2026-07-10",
                                                       "dateEnd": "2026-07-12",
                                                       "location": "Skrædderbakkevejen 2, Rønne, Bornholm",
@@ -25308,7 +25308,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "semesterracet-2026-07-11",
-                                                      "name": "SemesterRacet 2026",
+                                                      "name": "SemesterRacet",
                                                       "date": "2026-07-11",
                                                       "dateEnd": "2026-07-11",
                                                       "time": "10:00",
@@ -25686,7 +25686,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "wheelswings-falkenberg-2026",
-                                                      "name": "Wheels & Wings 2026",
+                                                      "name": "Wheels & Wings",
                                                       "date": "2026-07-17",
                                                       "dateEnd": "2026-07-18",
                                                       "location": "Falkenbergs motorbana, Falkenberg",
@@ -26853,7 +26853,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "dacketraffen-2026",
-                                                      "name": "Dacketräffen 2026",
+                                                      "name": "Dacketräffen",
                                                       "date": "2026-07-30",
                                                       "dateEnd": "2026-08-02",
                                                       "location": "Södra Järnvägsgatan 35, Virserum",
@@ -27328,7 +27328,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "nordic-wilderness-tour-2026",
-                                                      "name": "Nordic Wilderness Tour 2026",
+                                                      "name": "Nordic Wilderness Tour",
                                                       "date": "2026-08-02",
                                                       "dateEnd": "2026-08-06",
                                                       "location": "Norge - Sverige",
@@ -27766,7 +27766,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "hdcs-internationella-traffen-ostersund-2026",
-                                                      "name": "Distrikt I & Internationella Träffen 2026",
+                                                      "name": "Distrikt I & Internationella Träffen",
                                                       "date": "2026-08-06",
                                                       "dateEnd": "2026-08-09",
                                                       "location": "Östersunds Camping, Krondikesvägen 95C, Östersund",
@@ -27987,7 +27987,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "fly-n-ride-ljungbyhed-2026",
-                                                      "name": "Fly 'N Ride 2026",
+                                                      "name": "Fly 'N Ride",
                                                       "date": "2026-08-08",
                                                       "dateEnd": "2026-08-08",
                                                       "location": "Ljungbyhed Park, Thulinvägen 7, Ljungbyhed",
@@ -28367,7 +28367,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "viking-tour-2026",
-                                                      "name": "Viking Tour 2026",
+                                                      "name": "Viking Tour",
                                                       "date": "2026-08-09",
                                                       "dateEnd": "2026-08-13",
                                                       "location": "Sverige - Danmark",
@@ -28504,7 +28504,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "mototour-of-nations-2026",
-                                                      "name": "Mototour of Nations 2026 (FIM)",
+                                                      "name": "Mototour of Nations (FIM)",
                                                       "date": "2026-08-11",
                                                       "dateEnd": "2026-08-14",
                                                       "location": "Imatra, Finland",
@@ -28950,7 +28950,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "sydtraffen-vulcan-riders-2026-08-14",
-                                                      "name": "Sydträffen 2026",
+                                                      "name": "Sydträffen",
                                                       "date": "2026-08-14",
                                                       "dateEnd": "2026-08-16",
                                                       "location": "Frostavallen, Höör",
@@ -29001,7 +29001,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "borlange-airshow-2026",
-                                                      "name": "Borlänge Airshow 2026",
+                                                      "name": "Borlänge Airshow",
                                                       "date": "2026-08-14",
                                                       "dateEnd": "2026-08-15",
                                                       "location": "Nybrovägen 53, Borlänge",
@@ -29035,7 +29035,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-blekingerundan-2026-2026",
-                                                      "name": "D11 Blekingerundan 2026",
+                                                      "name": "D11 Blekingerundan",
                                                       "date": "2026-08-15",
                                                       "dateEnd": "2026-08-15",
                                                       "location": "Växjö",
@@ -29262,7 +29262,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "malaren-runt-40ar-balsta-2026-08-15",
-                                                      "name": "Mälaren Runt 2026 - 40-årsjubileum",
+                                                      "name": "Mälaren Runt 40-årsjubileum",
                                                       "date": "2026-08-15",
                                                       "dateEnd": "2026-08-15",
                                                       "location": "Bålsta Centrum, Centrumstråket 1, Bålsta",
@@ -29331,7 +29331,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oldmopperz-rally-2026-08-15",
-                                                      "name": "OldMopperz veteran rally 2026",
+                                                      "name": "OldMopperz veteran rally",
                                                       "date": "2026-08-15",
                                                       "dateEnd": "2026-08-15",
                                                       "location": "Idrottsgatan 8, Järnforsen",
@@ -29959,7 +29959,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "forza-orza-2026",
-                                                      "name": "Forza Orza 2026",
+                                                      "name": "Forza Orza",
                                                       "date": "2026-08-20",
                                                       "dateEnd": "2026-08-22",
                                                       "location": "Orsa Grönklitt",
@@ -30254,7 +30254,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "rockets-chopper-show-kungsbacka-2026",
-                                                      "name": "Rockets Chopper Show 2026",
+                                                      "name": "Rockets Chopper Show",
                                                       "date": "2026-08-22",
                                                       "dateEnd": "2026-08-22",
                                                       "location": "Badhusparken, Kungsbacka",
@@ -30774,7 +30774,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "brudfjallstraffen-2026-08-28",
-                                                      "name": "Brudfjällsträffen 2026",
+                                                      "name": "Brudfjällsträffen",
                                                       "date": "2026-08-28",
                                                       "dateEnd": "2026-08-30",
                                                       "location": "Visiters Stugby, Upperudsvägen 4, Håverud",
@@ -30995,7 +30995,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "nilssons-mc-fest-2026-08-29",
-                                                      "name": "Nilssons MC Fest 2026",
+                                                      "name": "Nilssons MC Fest",
                                                       "date": "2026-08-29",
                                                       "dateEnd": "2026-08-29",
                                                       "location": "Kanongatan 159, Ödåkra",
@@ -31489,7 +31489,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-mcq-rikstraff-2026-2026",
-                                                      "name": "mcQ Riksträff 2026",
+                                                      "name": "mcQ Riksträff",
                                                       "date": "2026-09-04",
                                                       "dateEnd": "2026-09-06",
                                                       "location": "Söderköpings Brunn, Söderköping",
@@ -32103,7 +32103,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "faaker-see-2026-osterrike-2026",
-                                                      "name": "Faaker See 2026 Österrike",
+                                                      "name": "Faaker See Österrike",
                                                       "date": "2026-09-08",
                                                       "dateEnd": "2026-09-13",
                                                       "location": "Österrike",
@@ -32377,7 +32377,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-oland-experience-2026-2026",
-                                                      "name": "D11 Öland Experience 2026",
+                                                      "name": "D11 Öland Experience",
                                                       "date": "2026-09-12",
                                                       "dateEnd": "2026-09-12",
                                                       "location": "Öland",
@@ -33289,7 +33289,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "larrsons-runda-2026-09-19",
-                                                      "name": "Larrsons Runda 2026",
+                                                      "name": "Larrsons Runda",
                                                       "date": "2026-09-19",
                                                       "dateEnd": "2026-09-19",
                                                       "location": "Karlsrobadets parkering, Eslöv",
@@ -34323,7 +34323,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "rusktraffen-2026",
-                                                      "name": "Ruskträffen 2026",
+                                                      "name": "Ruskträffen",
                                                       "date": "2026-10-09",
                                                       "dateEnd": "2026-10-11",
                                                       "location": "Barva Bygdegård, Eskilstuna",
@@ -34542,7 +34542,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "gotland-grand-national-2026",
-                                                      "name": "GGN - Gotland Grand National 2026",
+                                                      "name": "GGN - Gotland Grand National",
                                                       "date": "2026-10-23",
                                                       "dateEnd": "2026-10-24",
                                                       "location": "Hejdeby, Gotland",
@@ -34867,7 +34867,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-d11-planeringstraff-2026-2026",
-                                                      "name": "D11 Planeringsträff 2026",
+                                                      "name": "D11 Planeringsträff",
                                                       "date": "2026-11-14",
                                                       "dateEnd": "2026-11-14",
                                                       "location": "Växjö",
@@ -35422,7 +35422,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "hjultomtekorning-2026-12-19",
-                                                      "name": "Hjultomtekörning 2026",
+                                                      "name": "Hjultomtekörning",
                                                       "date": "2026-12-19",
                                                       "dateEnd": "2026-12-19",
                                                       "location": "Jägersro Trav, Malmö",
@@ -35556,7 +35556,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-1-2026-12-31",
-                                                      "name": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 1",
+                                                      "name": "Region Väst Subventionerat Trafiksäkerhetsarbete 1",
                                                       "date": "2026-12-31",
                                                       "dateEnd": "2026-12-31",
                                                       "location": "Västra Götaland",
@@ -35583,7 +35583,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-2-2026-12-31",
-                                                      "name": "Region Väst Subventionerat Trafiksäkerhetsarbete 2026 - 2",
+                                                      "name": "Region Väst Subventionerat Trafiksäkerhetsarbete 2",
                                                       "date": "2026-12-31",
                                                       "dateEnd": "2026-12-31",
                                                       "location": "Västra Götaland",
