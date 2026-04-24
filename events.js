@@ -1310,7 +1310,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1475270160779643/"
                                                                         },
                                                                         {
-                                                                                          "label": "H-D Linköping",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/harleydavidsonstorelinkoping"
                                                                         },
                                                                         {
@@ -1340,7 +1340,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/908718191889174"
                                                                         },
                                                                         {
-                                                                                          "label": "H-D Trollhättan",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/hdtrollhattan"
                                                                         },
                                                                         {
@@ -1420,7 +1420,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1471187981267986"
                                                                         },
                                                                         {
-                                                                                          "label": "GMC Karlstad",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/profile.php?id=100028020349323"
                                                                         },
                                                                         {
@@ -1447,7 +1447,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/bonneville-lansering-lingvalls-back-2026-03-21.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Lingvalls Motor",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/LingvallsMotor"
                                                                         },
                                                                         {
@@ -1719,7 +1719,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1364830328517889"
                                                                         },
                                                                         {
-                                                                                          "label": "North Trail MC",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/northtrailmc"
                                                                         },
                                                                         {
@@ -1944,7 +1944,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://forms.office.com/e/S4Mhd12dQb"
                                                                         },
                                                                         {
-                                                                                          "label": "SMC Jönköping",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/SMCJonkoping"
                                                                         },
                                                                         {
@@ -2770,7 +2770,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.mcontours.se/marocko-adventure-tour-xl"
                                                                         },
                                                                         {
-                                                                                          "label": "MC Ontours (FB)",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/mcontours.se"
                                                                         }
                                                       ],
@@ -3558,7 +3558,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/896693243342121/"
                                                                         },
                                                                         {
-                                                                                          "label": "Hot Rat MC",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/Hotratmc"
                                                                         },
                                                                         {
@@ -4924,7 +4924,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/819566441168837"
                                                                         },
                                                                         {
-                                                                                          "label": "Regression MC",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/Regressionbrotherhoodmc"
                                                                         },
                                                                         {
@@ -10918,7 +10918,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1541636100430963/"
                                                                         },
                                                                         {
-                                                                                          "label": "MCE",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/Motorcykelentusiasterna"
                                                                         },
                                                                         {
@@ -13667,7 +13667,7 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/mc-ontours-gravel-back-2026-05-14.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "MC Ontours (FB)",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/mcontours.se"
                                                                         },
                                                                         {
@@ -16385,7 +16385,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1191568283087580/"
                                                                         },
                                                                         {
-                                                                                          "label": "MCE",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/Motorcykelentusiasterna"
                                                                         },
                                                                         {
@@ -18136,7 +18136,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1248254590518182"
                                                                         },
                                                                         {
-                                                                                          "label": "MCE",
+                                                                                          "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/Motorcykelentusiasterna"
                                                                         },
                                                                         {
