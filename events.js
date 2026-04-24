@@ -9634,6 +9634,37 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/wings-rogaland-25ar-back-2026-05-01.jpg"
                                     },
                                     {
+                                                      "id": "jmc-besok-mc-kompaniet-2026-05-02",
+                                                      "name": "Besök MC-Kompaniets Öppna Hus",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Körning",
+                                                      "region": "Jönköping",
+                                                      "location": "ST1 A6, Sjukhusgatan 6, Jönköping",
+                                                      "organizer": "JMC Samåkning Småland",
+                                                      "organizerIcon": "clubs/normalized/jmc.png",
+                                                      "description": "Samåkning till MC-Kompaniets Öppet Hus i Våring. Samling kl 9:00 vid ST1 A6, avresa 9:30. Tempo: lagligt. Kör bara i solsken!",
+                                                      "descriptionFull": "Besök på MC-Kompaniets öppna hus i Våring, Skövde.\n\nTid: 9:00, Avresa 9:30\nPlats: ST1 A6\nTempo: I stort sett lagligt\n\nhttps://mc-kompaniet.se/aktuellt/oppet-hus-1-2-maj/\n\n(Förutsatt att det är bra väder, kör bara i solsken)",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/jmc-besok-mc-kompaniet-back-2026-05-02.jpg",
+                                                      "link": "https://www.facebook.com/events/35765256273119578",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/35765256273119578"
+                                                                        },
+                                                                        {
+                                                                                          "label": "mc-kompaniet.se",
+                                                                                          "url": "https://mc-kompaniet.se/aktuellt/oppet-hus-1-2-maj/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=ST1+Sjukhusgatan+6+J%C3%B6nk%C3%B6ping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "avrostning-hasslo-trafikskola-2026-05-02",
                                                       "name": "Avrostning & Provkörning",
                                                       "date": "2026-05-02",
