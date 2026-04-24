@@ -1822,31 +1822,36 @@
   .m-detail-desc p { margin-bottom: 14px; }
   .m-detail-desc p:last-child { margin-bottom: 0; }
   .m-detail-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-    padding: 0 16px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 16px 16px 18px;
+    justify-content: center;
   }
-  .m-detail-btn {
+  /* Make the calendar dropdown and the map pill look like sibling pills on mobile */
+  .m-detail-actions .cal-dropdown-wrapper.m-detail-cal { display: inline-block; }
+  .m-detail-actions .cal-trigger {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+  .m-map-btn {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    gap: 6px;
-    padding: 12px 14px;
-    border-radius: 24px;
-    font-size: 14px;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-size: 13px;
     font-weight: 500;
-    cursor: pointer;
-    background: var(--bg-secondary);
+    font-family: inherit;
+    background: var(--bg-primary);
     border: 1px solid var(--border);
     color: var(--text-primary);
     text-decoration: none;
+    cursor: pointer;
+    user-select: none;
   }
-  .m-detail-btn.primary {
-    background: var(--text-primary);
-    color: #fff;
-    border-color: var(--text-primary);
-  }
+  .m-map-btn img { width: 18px; height: 18px; border-radius: 0; }
+  .m-map-btn:active { background: rgba(0,0,0,0.03); }
   .m-detail-links {
     padding: 0 16px 16px;
     display: flex;
@@ -3275,7 +3280,7 @@ function openMDetail(cardId) {
 
   const weatherHTML = (typeof getWeatherStripHTML === 'function') ? getWeatherStripHTML(ev.id, ev.date) : '';
 
-  // Calendar URLs
+  // Calendar URLs (Google + Outlook, Apple uses downloadSingleICS)
   const gcalStart = ev.date.replace(/-/g, '');
   const gcalEndDate = new Date((ev.dateEnd || ev.date) + 'T00:00:00');
   gcalEndDate.setDate(gcalEndDate.getDate() + 1);
@@ -3285,6 +3290,12 @@ function openMDetail(cardId) {
     + '&dates=' + gcalStart + '/' + gcalEnd
     + '&location=' + encodeURIComponent(ev.location || '')
     + '&details=' + encodeURIComponent((ev.description || '') + (ev.link ? '\n\n' + ev.link : ''));
+  const outlookUrl = 'https://outlook.live.com/calendar/0/action/compose?rru=addevent'
+    + '&subject=' + encodeURIComponent(ev.name)
+    + '&startdt=' + ev.date + 'T00:00:00'
+    + '&enddt=' + (ev.dateEnd || ev.date) + 'T23:59:00'
+    + '&location=' + encodeURIComponent(ev.location || '')
+    + '&body=' + encodeURIComponent((ev.description || '') + (ev.link ? '\n\n' + ev.link : ''));
 
   // Find map link in ev.links
   let mapUrl = '';
@@ -3296,11 +3307,26 @@ function openMDetail(cardId) {
     mapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(ev.location);
   }
 
-  const actionsHTML = ev._ad ? '' : `
-    <div class="m-detail-actions">
-      <a class="m-detail-btn primary" href="${gcalUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">+ Kalender</a>
-      ${mapUrl ? '<a class="m-detail-btn" href="' + mapUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">◎ Karta</a>' : '<span class="m-detail-btn" style="opacity:0.5;pointer-events:none">◎ Karta</span>'}
+  const calPillHTML = `
+    <div class="cal-dropdown-wrapper m-detail-cal">
+      <button class="cal-trigger" onclick="event.stopPropagation();this.parentElement.classList.toggle('open')">
+        <img src="ads/icon-cal-generic.png" alt="" width="18" height="18">
+        <span>Lägg till i kalender</span>
+        <span class="cal-arrow">&#9660;</span>
+      </button>
+      <div class="cal-dropdown">
+        <a class="cal-option" href="${gcalUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
+          <img src="ads/icon-google-cal.png" alt="" width="24" height="24"> Google Kalender</a>
+        <a class="cal-option" href="${outlookUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
+          <img src="ads/icon-outlook-cal.png" alt="" width="24" height="24"> Outlook Kalender</a>
+        <button class="cal-option" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open');downloadSingleICS('${ev.id}')">
+          <img src="ads/icon-apple-cal.png" alt="" width="24" height="24"> Apple Kalender</button>
+      </div>
     </div>`;
+  const mapPillHTML = mapUrl
+    ? `<a class="m-map-btn" href="${mapUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><img src="ads/icon-google-maps.png" srcset="ads/icon-google-maps.png 1x, ads/icon-google-maps@2x.png 2x" alt="" width="18" height="18"> <span>Karta</span></a>`
+    : '';
+  const actionsHTML = ev._ad ? '' : `<div class="m-detail-actions">${calPillHTML}${mapPillHTML}</div>`;
 
   // Organizer row
   const orgInitial = (ev.organizer || '?').trim().charAt(0).toUpperCase();
