@@ -10962,33 +10962,6 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/mc-for-alla-sasongsstart-back-2026-05-03.jpg"
                                     },
                                     {
-                                                      "id": "mce-manadsmote-maj-2026-05-04",
-                                                      "name": "MCE Månadsmöte maj",
-                                                      "date": "2026-05-04",
-                                                      "dateEnd": "2026-05-04",
-                                                      "type": "Träff",
-                                                      "region": "Stockholm",
-                                                      "location": "Snutenvägen 11, 177 61 Järfälla",
-                                                      "organizer": "MCE",
-                                                      "organizerIcon": "clubs/normalized/mce.png",
-                                                      "description": "Månadsmöte hos MCE. Vi går igenom vad som hänt och vad som är på gång. Fika från 18:30, mötet startar 19:00. Alla välkomna!",
-                                                      "descriptionFull": "Vi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar.\n\nAlla våra medlemmar, och \"klubbnyfikna kanske medlemmar\" är välkomna.\n\nVarmt välkomna på månadsmöten som startar kl. 19:00. Från 18:30 bjuds det på fika.\n\nKram / Styrelsen MCE",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/mce-manadsmote-back-2026-05-04.jpg",
-                                                      "link": "https://www.facebook.com/events/1541636100430963",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1541636100430963"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+J%C3%A4rf%C3%A4lla",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
-                                    },
-                                    {
                                                       "id": "doa-kvallskörning-nacka-2026-05-04",
                                                       "name": "DOA - Kvällskörning Nacka",
                                                       "date": "2026-05-04",
