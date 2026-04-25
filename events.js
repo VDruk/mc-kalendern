@@ -9661,6 +9661,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/wings-rogaland-25ar-back-2026-05-01.jpg"
                                     },
                                     {
+                                                      "id": "abate-avrostning-2026-05-01",
+                                                      "name": "ABATE Sveriges Avrostning",
+                                                      "date": "2026-05-01",
+                                                      "dateEnd": "2026-05-01",
+                                                      "location": "Ljungviks Torg, Gråbo Industriväg, Gråbo",
+                                                      "type": "Träff",
+                                                      "organizer": "ABATE Sverige",
+                                                      "description": "Avrostning för alla, inte bara hojåkare! Startavgift 100 kr med lotterivinst. Gemensam körning från Nostalgia Motor AB i Göteborg. Provkör Indian via MC-konsult.",
+                                                      "descriptionFull": "Plats: Ljungviks Torg, Gråbo\nTid: 12:00-15:00\n\nStartavgiften är oförändrad: 100:-/Person\n\nNi som inte har hoj, är välkomna med bil, eventet är för alla!\nEtt event för hela familjen!\n\nDet kommer att bli en gemensam körning ut till Eventet från Nostalgia Motor AB som ligger på Gullbergs Strandgata 34, 411 04 Göteborg.\nSamling mellan 09:00-10:00, start 11:00.\nButiken är öppen från cirka 08:30.\n\nMc-konsult i Lidköping kommer att finnas på plats och ger er möjligheten att provköra de senaste ur Indians sortiment.\n\nI startavgiften ingår en lott till vårt fina lotteri!\n\nFörtäring kommer att finnas på plats.\n\nVälkomna!\nRubber Side Down!\nPeace Out!\n\nBosse Larsson Ordförande\nABATE Sverige.",
+                                                      "link": "https://www.facebook.com/events/1443038960891708",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1443038960891708"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ljungviks+Torg+Gråbo+Industriväg+Gråbo",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/abate-avrostning-back-2026-05-01.jpg"
+                                    },
+                                    {
                                                       "id": "jmc-besok-mc-kompaniet-2026-05-02",
                                                       "name": "Besök MC-Kompaniets Öppna Hus",
                                                       "date": "2026-05-02",
