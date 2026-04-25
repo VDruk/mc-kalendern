@@ -4063,7 +4063,7 @@ function render() {
   let supportInserted = false;
 
   // Progressive rendering: mobile gets "Visa fler" button, desktop renders all at once
-  const MOBILE_BATCH = 100;
+  const MOBILE_BATCH = 30;
   const _isMobileRender = window.innerWidth < 900;
   let renderedCount = 0;
   window._pendingEvents = events;
@@ -4154,9 +4154,9 @@ function render() {
     card.dataset.id = event.id;
     const cardId = 'c-' + event.id;
 
-    // Phase 2 (mobile): set --card-bg-image so CSS can render backImage as full card background
+    // Phase 2 (mobile): lazy-load backImage via IntersectionObserver for performance
     if (event.backImage) {
-      card.style.setProperty('--card-bg-image', 'url("' + event.backImage + '")');
+      card.dataset.bg = event.backImage;
       card.classList.add('has-photo');
     }
 
@@ -4193,7 +4193,7 @@ function render() {
       card.innerHTML = `
         <div class="card-flipper">
           <div class="card-front" onclick="cardExpand('${cardId}')">
-            <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy">
+            <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy" decoding="async" width="800" height="1067">
           </div>
         </div>
       `;
@@ -4238,7 +4238,14 @@ function render() {
       const remaining = events.length - renderedCount;
       loadMoreBtn.textContent = `Visa fler evenemang (${remaining} till)`;
       loadMoreBtn.onclick = function() {
+        const prevCount = renderedCount;
         renderedCount = renderBatch(renderedCount, MOBILE_BATCH);
+        // Observe newly added cards for lazy background loading
+        if (window._cardBgObserver) {
+          grid.querySelectorAll('.card[data-bg]').forEach(function(card) {
+            window._cardBgObserver.observe(card);
+          });
+        }
         const left = events.length - renderedCount;
         if (left > 0) {
           loadMoreBtn.textContent = `Visa fler evenemang (${left} till)`;
@@ -4260,11 +4267,39 @@ function render() {
         setTimeout(() => {
           if (myGen !== render._gen) return; // superseded by a newer render() call
           renderedCount = renderBatch(renderedCount, NEXT_BATCH);
+          // Observe newly added cards for lazy background loading
+          if (window._cardBgObserver) {
+            grid.querySelectorAll('.card[data-bg]').forEach(function(card) {
+              window._cardBgObserver.observe(card);
+            });
+          }
           if (renderedCount < events.length) renderNextChunk();
         }, 0);
       })();
     }
   }
+
+  // Lazy-load card background images via IntersectionObserver (massive LCP improvement)
+  // Cards store their backImage URL in data-bg; we apply it only when near viewport
+  if (typeof window._cardBgObserver === 'undefined') {
+    window._cardBgObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          const card = entry.target;
+          const bgUrl = card.dataset.bg;
+          if (bgUrl) {
+            card.style.setProperty('--card-bg-image', 'url("' + bgUrl + '")');
+            delete card.dataset.bg;
+          }
+          window._cardBgObserver.unobserve(card);
+        }
+      });
+    }, { rootMargin: '200px 0px' }); // Start loading 200px before entering viewport
+  }
+  // Observe all cards with pending background images
+  grid.querySelectorAll('.card[data-bg]').forEach(function(card) {
+    window._cardBgObserver.observe(card);
+  });
 }
 
 // ========== JSON-LD EVENT SCHEMA ==========
