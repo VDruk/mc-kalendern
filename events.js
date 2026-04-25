@@ -2244,7 +2244,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/2381689725622769"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "onetrackdayevents.se",
                                                                                           "url": "https://www.onetrackdayevents.se"
                                                                         }
                                                       ],
@@ -5473,7 +5473,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/photo/?fbid=122226715844283130&set=a.122103788870283130"
                                                                         },
                                                                         {
-                                                                                          "label": "Webb",
+                                                                                          "label": "mascotmotor.com",
                                                                                           "url": "https://www.mascotmotor.com"
                                                                         },
                                                                         {
@@ -5695,7 +5695,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/desmocenter"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "desmocenter.se",
                                                                                           "url": "https://desmocenter.se"
                                                                         },
                                                                         {
@@ -7528,7 +7528,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/hondamccenter"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "ahlqvistmc.se",
                                                                                           "url": "https://ahlqvistmc.se"
                                                                         },
                                                                         {
@@ -8896,7 +8896,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1199408022096983/"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "omcc.se",
                                                                                           "url": "https://www.omcc.se"
                                                                         },
                                                                         {
@@ -10039,7 +10039,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/photo/?fbid=1555721863179465&set=a.464569285628067"
                                                                         },
                                                                         {
-                                                                                          "label": "Webb",
+                                                                                          "label": "italiabikecenter.se",
                                                                                           "url": "https://www.italiabikecenter.se"
                                                                         },
                                                                         {
@@ -10379,7 +10379,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1443940903690757"
                                                                         },
                                                                         {
-                                                                                          "label": "Mer info",
+                                                                                          "label": "falkenbergsstadsteater.se",
                                                                                           "url": "https://falkenbergsstadsteater.se/peter-linden-stridspilot-roadracinglegend/"
                                                                         },
                                                                         {
@@ -10603,7 +10603,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/biscayamotor"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "biscayamotor.se",
                                                                                           "url": "https://biscayamotor.se"
                                                                         },
                                                                         {
@@ -13238,7 +13238,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -15626,7 +15626,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -16065,7 +16065,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/748108538269884"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "caltexmacken.com",
                                                                                           "url": "https://caltexmacken.com"
                                                                         },
                                                                         {
@@ -17052,7 +17052,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1462802558572059"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "adventurebike.se",
                                                                                           "url": "https://www.adventurebike.se"
                                                                         }
                                                       ],
@@ -17279,7 +17279,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -18013,7 +18013,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3228363040678656"
                                                                         },
                                                                         {
-                                                                                          "label": "Webb",
+                                                                                          "label": "calleschopperdelar.com",
                                                                                           "url": "https://calleschopperdelar.com"
                                                                         },
                                                                         {
@@ -18184,7 +18184,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/photo/?fbid=1555721863179465&set=a.464569285628067"
                                                                         },
                                                                         {
-                                                                                          "label": "Webb",
+                                                                                          "label": "italiabikecenter.se",
                                                                                           "url": "https://www.italiabikecenter.se"
                                                                         },
                                                                         {
@@ -18662,7 +18662,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/salamskofficiell"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "salamsk.se",
                                                                                           "url": "https://salamsk.se"
                                                                         },
                                                                         {
@@ -19158,7 +19158,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -20803,7 +20803,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -21987,7 +21987,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -22363,7 +22363,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1590160265546758"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "ridersday.se",
                                                                                           "url": "https://www.ridersday.se"
                                                                         }
                                                       ],
@@ -22803,7 +22803,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -24022,7 +24022,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -24962,7 +24962,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -25726,7 +25726,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -26353,7 +26353,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -27026,7 +27026,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -27775,7 +27775,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -28816,7 +28816,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -29282,7 +29282,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1257973915924486"
                                                                         },
                                                                         {
-                                                                                          "label": "Webbplats",
+                                                                                          "label": "borlangeairshow.se",
                                                                                           "url": "https://www.borlangeairshow.se"
                                                                         },
                                                                         {
@@ -29972,7 +29972,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -30786,7 +30786,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -31554,7 +31554,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -32417,7 +32417,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
@@ -33248,7 +33248,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/3976810635786444"
                                                                         },
                                                                         {
-                                                                                          "label": "Hemsida",
+                                                                                          "label": "thetwinclub.se",
                                                                                           "url": "https://www.thetwinclub.se/tisdagsturer/"
                                                                         },
                                                                         {
