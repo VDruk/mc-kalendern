@@ -9665,6 +9665,36 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "molnlycke-mc-motorcykelns-dag-2026-05-02",
+                                                      "name": "Motorcykelns Dag hos Mölnlycke MC",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Show",
+                                                      "region": "Västra Götaland",
+                                                      "location": "Åvägen 3D, Mölnlycke",
+                                                      "organizer": "Mölnlycke MC & Moped",
+                                                      "description": "Öppet hus på Motorcykelns Dag! Årets nyheter, provkörning av Rieju och BSA, bra deals på fjolårets mopeder. Grillat och kaffe.",
+                                                      "descriptionFull": "Välkommen till oss på Motorcykelns Dag 2 Maj! Vi visar upp årets nyheter samt erbjuder provkörning av Rieju och BSA motorcyklar! Gör ett klipp på fiolårets mopedmodeller. Vi bjuder på grillat och kaffe!",
+                                                      "source": "facebook.com",
+                                                      "frontImage": "ads/molnlycke-mc-motorcykelns-dag-front-2026-05-02.jpg",
+                                                      "link": "https://www.facebook.com/photo/?fbid=1284313120451244&set=a.525302139685683",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1284313120451244&set=a.525302139685683"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/molnlyckemopedcenter"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85v%C3%A4gen+3D+M%C3%B6lnlycke",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "smc-jonkoping-avrostning-2026-05-02",
                                                       "name": "Avrostning med SMC Jönköping",
                                                       "date": "2026-05-02",
