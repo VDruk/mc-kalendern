@@ -24750,6 +24750,36 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/vrs-gostas-raektur-back-2026-07-04.jpg"
                                     },
                                     {
+                                                      "id": "umea-bikeshow-2026-07-04",
+                                                      "name": "Umeå Bikeshow",
+                                                      "date": "2026-07-04",
+                                                      "dateEnd": "2026-07-04",
+                                                      "location": "Döbelns Park, Umeå",
+                                                      "type": "Show",
+                                                      "organizer": "Umeå Bikeshow",
+                                                      "description": "Bikeshow i Döbelns Park med chopper, bobber, custom, classic och café-racer. Mat, musik och fri entré!",
+                                                      "descriptionFull": "Umeå Bikeshow 2026\n\nDöbelns Park, Umeå\n4 Juli 2026\n\nChopper, Bobber, Custom, Classic, Café-Racer\nMat, Musik\nFri Entré",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1301969662148510&set=a.503432948668856"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/umeabikeshow"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Döbelns+Park+Umeå",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/photo/?fbid=1301969662148510&set=a.503432948668856",
+                                                      "region": "Västerbotten",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/umea-bikeshow-back-2026-07-04.jpg"
+                                    },
+                                    {
                                                       "id": "do-c-lars-eriks-glassrunda-2026",
                                                       "name": "DO-C Lars-Eriks glassrunda",
                                                       "date": "2026-07-05",
