@@ -8303,6 +8303,33 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hog-stockholm-lordagskorning-back-2026-04-25.jpg"
                                     },
                                     {
+                                                      "id": "gota-ms-varstadning-2026-04-25",
+                                                      "name": "Vårstädning på motorstadion",
+                                                      "date": "2026-04-25",
+                                                      "dateEnd": "2026-04-25",
+                                                      "type": "Träff",
+                                                      "region": "Uppsala",
+                                                      "location": "Tärby 18, 745 95 Enköping",
+                                                      "organizer": "Göta MS",
+                                                      "organizerIcon": "clubs/normalized/gota-ms.png",
+                                                      "description": "Vårstädning av motorstadion i Tärby. Reparera flaggtorn, laga staket, röja gräs mm. Grill på plats. Alla välkomna!",
+                                                      "descriptionFull": "Välkommen ut i vårsolen och ta del av fantastisk gemenskap bland medlemmar i Göta MS.\n\nDen 25 april så ska vi städa bort hösten och vintern för att bibehålla ett fint motorområde. Bla ska vi reparera flaggtorn, laga staket, plocka sten, röja gräs vid behov, trimma in bevattning mm. Röja upp på området helt enkelt. Ta gärna med egna skruvdragare, sågar och verktyg som kan tänkas behövas. Alla är välkomna, främst våra yngsta och nyaste medlemmar som av erfarenhet får en bra första start in klubbgemenskapen. Ju fler vi är desto snabbare går det och det blir tid över till att dra på gasrullen om man har hojen med sig! Självklart drar vi igång grillen för en och annan korv & hamburgare.\n\nHjärtligt välkomna ska ni vara allihopa!",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/gota-ms-varstadning-back-2026-04-25.jpg",
+                                                      "link": "https://www.facebook.com/events/1398824658716069",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1398824658716069"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=T%C3%A4rby+18+745+95+Enk%C3%B6ping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "bmw-d9-aprilgruset-2026",
                                                       "name": "D9 Aprilgruset",
                                                       "date": "2026-04-26",
