@@ -10283,6 +10283,7 @@ const EVENTS_DATA = {
                                                       "link": "https://sulas.se/provkörning/",
                                                       "region": "Uppsala",
                                                       "source": "sulas.se",
+                                                      "backImage": "ads/sulas-mc-provkorning-back-2026-05-02.jpg",
                                                       "descriptionFull": "Sulas MC Provkörningshelg arrangeras av Sulas MC.\n\nProvkör demohojar från BSA, Honda, Indian, Kawasaki, Suzuki och QJ Motor. Lör 10-14, Sön 11-15.\n\nMC-mässa med utställare, provkörningar och tillbehör. Kolla arrangören för öppettider.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
                                                       "links": [
                                                                         {
