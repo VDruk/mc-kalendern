@@ -9665,6 +9665,37 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "smc-jonkoping-avrostning-2026-05-02",
+                                                      "name": "Avrostning med SMC Jönköping",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Körning",
+                                                      "region": "Jönköping",
+                                                      "location": "Galoppstigen 2, Nifsarp, Eksjö",
+                                                      "organizer": "SMC Jönköping",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "description": "SMC Jönköpings årliga avrostning. Samling vid Nifsarp utanför Eksjö. Anmälan via grundkurser.svmc.se.",
+                                                      "descriptionFull": "Den 2026-05-02 är det dags för SMC Jönköpings årliga avrostning!\n\nFör mer information se länken:\nhttps://grundkurser.svmc.se/956b3e44-f76f/deltagare\n\nHoppas vi ses där!\n\n#avrostning #smcjönköping",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/smc-jonkoping-avrostning-back-2026-05-02.jpg",
+                                                      "link": "https://www.facebook.com/events/835727408970782",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/835727408970782"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Anmälan",
+                                                                                          "url": "https://grundkurser.svmc.se/956b3e44-f76f/deltagare"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Galoppstigen+2+Nifsarp+Eksj%C3%B6",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "avrostning-hasslo-trafikskola-2026-05-02",
                                                       "name": "Avrostning & Provkörning",
                                                       "date": "2026-05-02",
