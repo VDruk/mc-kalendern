@@ -9692,6 +9692,40 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "lundgrens-motor-motorcykelns-dag-2026-05-02",
+                                                      "name": "Motorcykelns Dag hos Lundgrens Motor",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Show",
+                                                      "region": "Dalarna",
+                                                      "location": "Myntgatan 8, Avesta",
+                                                      "organizer": "Lundgrens Motor AB",
+                                                      "description": "Motorcykelns Dag hos BMW-återförsäljaren Lundgrens Motor. Erbjudanden, provkör 14 BMW-hojar, gratis vår-check, korv och fika!",
+                                                      "descriptionFull": "Kom och fira Motorcykelns Dag den 2/5 med oss på Lundgrens Motor!\n\n(Förutom grymma erbjudanden så kommer vi ha något alldeles speciellt att premiärvisa för er denna dag, håll utkik!)\n\nVar: Myntgatan 8, Avesta\nNär: Lördag 2 Maj kl: 10-15\n\n🏍 Butiken fylld med erbjudanden på hojar, tillbehör och kläder!\n\n🏍 Provkör någon av våra 14 BMW-hojar, allt från F450GS till R18B\n\n🔧 Vi hjälper till att ge din MC en gratis vår-check* inför säsongen!\n\n🌭 Vi bjuder på korv med bröd & fika!\n\nVarmt välkommen!\n\nLäs mer om Motorcykelns dag här:\nhttps://mcbranschen.se/motorcykelns-dag/\n\n(*Vi kan tyvärr inte erbjuda tid för service, reparation, däckbyten m.m. denna dag)",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/lundgrens-motorcykelns-dag-back-2026-05-02.jpg",
+                                                      "link": "https://www.facebook.com/events/1441891823919473",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1441891823919473"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/lundgrensmotor"
+                                                                        },
+                                                                        {
+                                                                                          "label": "mcbranschen.se",
+                                                                                          "url": "https://mcbranschen.se/motorcykelns-dag/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Myntgatan+8+Avesta",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "molnlycke-mc-motorcykelns-dag-2026-05-02",
                                                       "name": "Motorcykelns Dag hos Mölnlycke MC",
                                                       "date": "2026-05-02",
