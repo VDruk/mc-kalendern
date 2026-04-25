@@ -15267,6 +15267,33 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "skjutsa-barn-varnamo-2026-05-18",
+                                                      "name": "Skjutsa barn med Barnens Oas",
+                                                      "date": "2026-05-18",
+                                                      "dateEnd": "2026-05-18",
+                                                      "type": "Körning",
+                                                      "region": "Jönköping",
+                                                      "location": "Bäckaskog Strömsdal 1, Värnamo",
+                                                      "organizer": "Con Dios MC",
+                                                      "organizerIcon": "clubs/normalized/con-dios-mc.png",
+                                                      "description": "MC-skjuts för barn med Barnens Oas. Samling kl 17:45, barnen kommer 18:00. Grillad korv efter turen. Ta med extrahjälm!",
+                                                      "descriptionFull": "Nu är det dags att skjutsa barnen på hojarna igen\n\nVi kör måndag 18 maj\nSamling vid Crazy Kings klubbstuga i Bäckaskog kl.17.45\nBarnen kommer kl.18.00\n\nDet blir kul att träffa barnen och låta dom få lite glädje och äventyr på hoj.\n\nEfter turen bjuder vi barn och knuttar på grillad korv\n\nSvara om du kan vara med så fort som möjligt och tag gärna med fler som kör.\n\nGlöm inte extrahjälm.\n\nVälkommen\nBARNENS OAS\nMC FADDRARNA",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/skjutsa-barn-varnamo-back-2026-05-18.jpg",
+                                                      "link": "https://www.facebook.com/events/1473184843970868",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1473184843970868"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=B%C3%A4ckaskog+Str%C3%B6msdal+1+V%C3%A4rnamo",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "gota-ms-crosskola-2026-05-18",
                                                       "name": "Crosskolan",
                                                       "date": "2026-05-18",
