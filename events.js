@@ -9692,6 +9692,36 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "ava-mc-motorcykelns-dag-2026-05-02",
+                                                      "name": "Motorcykelns Dag hos AVA MC",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Show",
+                                                      "region": "Stockholm",
+                                                      "location": "Mörtnäs Hagväg 13, Gustavsberg",
+                                                      "organizer": "AVA MC",
+                                                      "description": "Motorcykelns Dag hos AVA MC i Gustavsberg. Extra provkörningsmöjligheter, erbjudanden på hojar och tillbehör. Kl 10-14.",
+                                                      "descriptionFull": "Ja nu firar vi Motorcykelns dag hos oss på AVA med extra mycket möjligheter att provköra hojar samt såklart erbjudanden på såväl motorcyklar samt tillbehör. Vår verkstadspersonal är på plats för bokning av service, reparation eller bara svara på frågor. Varmt välkommen och njut av en riktig åktur när nu äntligen våren kommit hälsar gänget på AVA!",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/ava-mc-motorcykelns-dag-back-2026-05-02.jpg",
+                                                      "link": "https://www.facebook.com/events/1585078110071250",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1585078110071250"
+                                                                        },
+                                                                        {
+                                                                                          "label": "avamc.se",
+                                                                                          "url": "http://www.avamc.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=M%C3%B6rtn%C3%A4s+Hagv%C3%A4g+13+Gustavsberg",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "lundgrens-motor-motorcykelns-dag-2026-05-02",
                                                       "name": "Motorcykelns Dag hos Lundgrens Motor",
                                                       "date": "2026-05-02",
@@ -10930,6 +10960,33 @@ const EVENTS_DATA = {
                                                       "region": "Skåne",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/mc-for-alla-sasongsstart-back-2026-05-03.jpg"
+                                    },
+                                    {
+                                                      "id": "mce-manadsmote-maj-2026-05-04",
+                                                      "name": "MCE Månadsmöte maj",
+                                                      "date": "2026-05-04",
+                                                      "dateEnd": "2026-05-04",
+                                                      "type": "Träff",
+                                                      "region": "Stockholm",
+                                                      "location": "Snutenvägen 11, 177 61 Järfälla",
+                                                      "organizer": "MCE",
+                                                      "organizerIcon": "clubs/normalized/mce.png",
+                                                      "description": "Månadsmöte hos MCE. Vi går igenom vad som hänt och vad som är på gång. Fika från 18:30, mötet startar 19:00. Alla välkomna!",
+                                                      "descriptionFull": "Vi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar.\n\nAlla våra medlemmar, och \"klubbnyfikna kanske medlemmar\" är välkomna.\n\nVarmt välkomna på månadsmöten som startar kl. 19:00. Från 18:30 bjuds det på fika.\n\nKram / Styrelsen MCE",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/mce-manadsmote-back-2026-05-04.jpg",
+                                                      "link": "https://www.facebook.com/events/1541636100430963",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1541636100430963"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+J%C3%A4rf%C3%A4lla",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
                                     },
                                     {
                                                       "id": "doa-kvallskörning-nacka-2026-05-04",
