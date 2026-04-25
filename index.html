@@ -16,8 +16,8 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="manifest" href="/manifest.json">
 
-<!-- Preload LCP hero image (discovered late via CSS background-image otherwise) -->
-<link rel="preload" href="hero.jpg" as="image" fetchpriority="high">
+<!-- Preload LCP hero image on desktop only (hero is hidden on mobile) -->
+<link rel="preload" href="hero.jpg" as="image" fetchpriority="high" media="(min-width: 769px)">
 
 <!-- Preconnect to external origins for faster loading -->
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
@@ -2547,17 +2547,20 @@
   </div>
 </footer>
 
-<script src="events.js"></script>
-<script src="places.js"></script>
+<script src="events.js" defer></script>
+<script src="places.js" defer></script>
 <script>
 // ========== SAFETY GUARD ==========
+// With defer, events.js loads after this inline script but before DOMContentLoaded
 if (typeof EVENTS_DATA === 'undefined' || !EVENTS_DATA || !Array.isArray(EVENTS_DATA.events)) {
   window.EVENTS_DATA = { events: [], lastUpdated: '' };
-  document.addEventListener('DOMContentLoaded', () => {
-    const grid = document.getElementById('grid');
-    if (grid) grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x26A0;</div><div class="no-results-text">Kunde inte ladda evenemang. Ladda om sidan.</div></div>';
-  });
 }
+document.addEventListener('DOMContentLoaded', () => {
+  if (!Array.isArray(window.EVENTS_DATA.events) || window.EVENTS_DATA.events.length === 0) {
+    const grid = document.getElementById('grid');
+    if (grid && !grid.children.length) grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x26A0;</div><div class="no-results-text">Kunde inte ladda evenemang. Ladda om sidan.</div></div>';
+  }
+});
 
 // ========== HELPERS: date + storage ==========
 function getTodayStr() {
