@@ -1519,7 +1519,18 @@
     flex-direction: column;
     justify-content: center;
     -webkit-tap-highlight-color: transparent;
+    position: relative;
   }
+  /* Pulsing green "live" dot on the Idag pill — same style as desktop hander-bar */
+  .m-pill-dot {
+    position: absolute;
+    top: 5px; right: 5px;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: #4caf50;
+    animation: hander-pulse 2s infinite;
+  }
+  .m-pill.no-events .m-pill-dot { display: none; }
   .m-pill:active { transform: scale(0.96); }
   .m-pill-label {
     font-size: 11px;
@@ -2290,6 +2301,7 @@
     <div class="m-pill-count" id="mPillAllCount">0</div>
   </div>
   <div class="m-pill" id="mPillToday" role="tab" data-filter="__today__">
+    <span class="m-pill-dot" aria-hidden="true"></span>
     <div class="m-pill-label">Idag</div>
     <div class="m-pill-count" id="mPillTodayCount">0</div>
   </div>
