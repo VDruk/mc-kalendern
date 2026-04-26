@@ -3177,7 +3177,7 @@ function updateStats() {
 // ========== HÄNDER JUST NU ==========
 function updateHanderBar() {
   const today = getTodayStr();
-  // Apply same filters that render() uses (region, type, club, organizer, search)
+  // Apply same filters that render() uses (region, type, club, organizer, search, month)
   // so the chip counts reflect the user's current view, not the global total.
   let all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
   if (currentRegion !== 'all') {
@@ -3208,6 +3208,19 @@ function updateHanderBar() {
       (e.organizer || '').toLowerCase().includes(q) ||
       (e.description || '').toLowerCase().includes(q)
     );
+  }
+  // Apply month filter ONLY when it's a real month (1-12). Skip the special
+  // __today__/__tomorrow__/__weekend__/__week__ values because those overlap
+  // with the chip semantics themselves (they're already represented by the chips).
+  if (currentMonth !== 'all' && !String(currentMonth).startsWith('__')) {
+    const monthNum = parseInt(currentMonth, 10);
+    if (monthNum >= 1 && monthNum <= 12) {
+      all = all.filter(e => {
+        const d = new Date(e.date + 'T00:00:00');
+        const dEnd = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : d;
+        return (d.getMonth() + 1) === monthNum || (dEnd.getMonth() + 1) === monthNum;
+      });
+    }
   }
 
   // Today
@@ -3778,6 +3791,17 @@ function updateMobilePillCounts() {
       (e.organizer || '').toLowerCase().includes(q) ||
       (e.description || '').toLowerCase().includes(q)
     );
+  }
+  // Apply month filter (real months only, skip __today__/__weekend__ etc.)
+  if (currentMonth !== 'all' && !String(currentMonth).startsWith('__')) {
+    const monthNum = parseInt(currentMonth, 10);
+    if (monthNum >= 1 && monthNum <= 12) {
+      visible = visible.filter(e => {
+        const d = new Date(e.date + 'T00:00:00');
+        const dEnd = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : d;
+        return (d.getMonth() + 1) === monthNum || (dEnd.getMonth() + 1) === monthNum;
+      });
+    }
   }
   const today = new Date().toISOString().slice(0, 10);
   const future = visible.filter(e => (e.dateEnd || e.date) >= today);
