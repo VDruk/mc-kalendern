@@ -79,9 +79,17 @@ def patch_html(html: str, region: str, slug: str, is_country: bool) -> str:
     """Replace meta tags + hero H1 in the index.html content."""
     title, desc, og_title, og_desc, url, h1_html, sub = make_meta(region, slug, is_country)
 
-    # Asset paths must point to root since this page lives one level deep.
-    # Replace src=" and href=" that don't already start with http, /, or # to use absolute root paths.
-    # We do a targeted change: rewrite relative asset references to absolute.
+    # Add <base href="/"> to <head> so ALL relative URLs in this region page
+    # resolve from the site root, not from /dalarna/ etc. This catches:
+    # - <img src="ads/foo.jpg"> set by JS at runtime
+    # - background-image: url('hero.jpg') in CSS
+    # - Card backgrounds applied via element.style.backgroundImage
+    # - All club icons, ads, weather data fetches
+    # Without this, every relative path on /dalarna/ tries /dalarna/ads/foo.jpg → 404.
+    html = re.sub(r'(<head[^>]*>)', r'\1\n<base href="/">', html, count=1)
+
+    # Belt-and-suspenders: also rewrite literal src=/href=/url() to absolute paths
+    # for the static HTML (helps in browsers that have base href quirks).
     def absolutize(match):
         attr = match.group(1)
         path = match.group(2)
@@ -90,16 +98,12 @@ def patch_html(html: str, region: str, slug: str, is_country: bool) -> str:
         return f'{attr}="/{path}"'
     html = re.sub(r'(\bsrc|\bhref)="([^"]+)"', absolutize, html)
 
-    # Rewrite CSS url(...) so background-image: url('hero.jpg') resolves to /hero.jpg
-    # (without this, /skane/index.html would try to load /skane/hero.jpg → 404 in Safari).
     def absolutize_css_url(match):
         quote = match.group(1) or ''
         path = match.group(2)
         if path.startswith(('http://', 'https://', '/', '#', 'data:')):
             return match.group(0)
         return f'url({quote}/{path}{quote})'
-    # Match the FULL url(...) including the closing paren; use backreference \1 so
-    # the closing quote matches the opening one.
     html = re.sub(r'url\((["\']?)([^)"\']+)\1\)', absolutize_css_url, html)
 
     # <title>
