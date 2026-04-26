@@ -1102,6 +1102,90 @@
   .modal-cancel { background: var(--bg-primary); color: var(--text-secondary); }
   .modal-submit { background: var(--accent); color: #fff; }
 
+  /* ========== REGIONS FOOTER (SEO + browse) ========== */
+  .regions-footer {
+    max-width: 1100px;
+    margin: 24px auto 0;
+    padding: 20px;
+    border-top: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+  }
+  .rf-col { min-width: 0; }
+  .rf-title {
+    font-size: 13px; font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .rf-list {
+    font-size: 13px; line-height: 1.9;
+    color: var(--text-muted);
+  }
+  .rf-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 0 4px;
+  }
+  .rf-link:hover { color: var(--accent); text-decoration: underline; }
+  .rf-link.rf-active { color: var(--accent); font-weight: 600; }
+  .rf-link.rf-empty { color: var(--text-muted); opacity: 0.55; }
+
+  /* ========== EMPTY REGION STATE ========== */
+  .region-empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 48px 20px;
+    color: var(--text-muted);
+  }
+  .region-empty-title {
+    font-size: 18px; color: var(--text-secondary);
+    margin-bottom: 8px; font-weight: 600;
+  }
+  .region-empty-sub {
+    font-size: 14px; margin-bottom: 20px;
+  }
+  .region-empty-suggest {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    justify-content: center; margin-bottom: 20px;
+  }
+  .region-empty-suggest a {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 13px;
+    background: var(--bg-card);
+  }
+  .region-empty-suggest a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .region-empty-tipsa {
+    display: inline-block;
+    padding: 10px 18px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+  }
+  @media (max-width: 768px) {
+    .regions-footer {
+      grid-template-columns: 1fr;
+      padding: 16px;
+      gap: 16px;
+    }
+    .rf-list { font-size: 12px; line-height: 1.8; }
+  }
+
   /* ========== FOOTER ========== */
   .footer {
     text-align: center; padding: 40px 20px;
@@ -2561,6 +2645,9 @@
   </div>
 </div>
 
+<!-- ========== REGIONS FOOTER (SEO + browse) ========== -->
+<nav class="regions-footer" id="regionsFooter" aria-label="Bläddra per region"></nav>
+
 <!-- ========== FOOTER ========== -->
 <footer class="footer">
   <div class="seo-block">
@@ -2787,6 +2874,144 @@ const SWEDISH_DISTRICTS = [
   'Västmanland','Västra Götaland','Örebro','Östergötland'
 ];
 const COUNTRIES = ['Danmark','Finland','Nederländerna','Norge','Spanien','Sverige','Tjeckien'];
+
+// ========== REGION URL SLUGS (SEO) ==========
+// ASCII slugs for /region URLs. å→a, ä→a, ö→o, space→hyphen.
+const REGION_SLUGS = {
+  'Blekinge':'blekinge','Dalarna':'dalarna','Gotland':'gotland','Gävleborg':'gavleborg',
+  'Halland':'halland','Jämtland':'jamtland','Jönköping':'jonkoping','Kalmar':'kalmar',
+  'Kronoberg':'kronoberg','Norrbotten':'norrbotten','Skåne':'skane','Stockholm':'stockholm',
+  'Södermanland':'sodermanland','Uppsala':'uppsala','Värmland':'varmland',
+  'Västerbotten':'vasterbotten','Västernorrland':'vasternorrland','Västmanland':'vastmanland',
+  'Västra Götaland':'vastra-gotaland','Örebro':'orebro','Östergötland':'ostergotland',
+  'Danmark':'danmark','Finland':'finland','Nederländerna':'nederlanderna','Norge':'norge',
+  'Spanien':'spanien','Sverige':'sverige','Tjeckien':'tjeckien'
+};
+// Reverse map: slug → region name
+const SLUG_TO_REGION = Object.fromEntries(Object.entries(REGION_SLUGS).map(([k,v]) => [v,k]));
+// Nearby regions for empty-state suggestions (~3 closest geographic neighbors)
+const REGION_NEIGHBORS = {
+  'Blekinge':['Skåne','Kronoberg','Kalmar'],
+  'Dalarna':['Gävleborg','Värmland','Västmanland'],
+  'Gotland':['Stockholm','Östergötland','Kalmar'],
+  'Gävleborg':['Dalarna','Västernorrland','Uppsala'],
+  'Halland':['Skåne','Västra Götaland','Kronoberg'],
+  'Jämtland':['Västernorrland','Västerbotten','Dalarna'],
+  'Jönköping':['Kronoberg','Östergötland','Västra Götaland'],
+  'Kalmar':['Kronoberg','Blekinge','Östergötland'],
+  'Kronoberg':['Skåne','Blekinge','Jönköping'],
+  'Norrbotten':['Västerbotten','Finland','Norge'],
+  'Skåne':['Halland','Kronoberg','Blekinge'],
+  'Stockholm':['Uppsala','Södermanland','Västmanland'],
+  'Södermanland':['Stockholm','Östergötland','Västmanland'],
+  'Uppsala':['Stockholm','Västmanland','Gävleborg'],
+  'Värmland':['Dalarna','Västra Götaland','Örebro'],
+  'Västerbotten':['Norrbotten','Västernorrland','Jämtland'],
+  'Västernorrland':['Jämtland','Västerbotten','Gävleborg'],
+  'Västmanland':['Uppsala','Stockholm','Dalarna'],
+  'Västra Götaland':['Halland','Värmland','Jönköping'],
+  'Örebro':['Västmanland','Värmland','Södermanland'],
+  'Östergötland':['Södermanland','Jönköping','Kalmar'],
+  'Danmark':['Skåne','Halland','Sverige'],
+  'Finland':['Norrbotten','Sverige','Norge'],
+  'Norge':['Värmland','Västra Götaland','Sverige'],
+  'Spanien':['Sverige','Danmark','Norge'],
+  'Sverige':['Stockholm','Skåne','Västra Götaland'],
+  'Tjeckien':['Sverige','Danmark','Norge'],
+  'Nederländerna':['Danmark','Sverige','Norge']
+};
+
+// Read region from URL path. Returns region name or null.
+function getRegionFromURL() {
+  const path = window.location.pathname.replace(/^\/+|\/+$/g, '').toLowerCase();
+  if (!path) return null;
+  // Take only first segment so /skane/something still resolves to Skåne
+  const slug = path.split('/')[0];
+  return SLUG_TO_REGION[slug] || null;
+}
+
+// Update browser URL when region changes (no page reload).
+function updateURLForRegion(region) {
+  const slug = (region && region !== 'all') ? REGION_SLUGS[region] : null;
+  const newPath = slug ? ('/' + slug) : '/';
+  if (window.location.pathname !== newPath) {
+    history.pushState({region: region}, '', newPath + window.location.search + window.location.hash);
+  }
+}
+
+// Update <title>, <meta description>, hero H1, hero stats label for current region.
+// Falls back to defaults when region is null/'all'.
+const DEFAULT_TITLE = 'MC Kalender 2026 - MC Kalendern | MC-träffar, evenemang & körningar i Sverige';
+const DEFAULT_DESC = 'MC Kalender 2026 med 1300+ MC-evenemang i Sverige. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. Träffar, körningar, mässor, racing och fester från 380+ arrangörer.';
+const DEFAULT_H1_HTML = 'MC <span>Kalendern</span>';
+const DEFAULT_SUB = 'MC-träffar och MC-evenemang i Sverige 2026';
+
+function updatePageMetaForRegion(region) {
+  const titleEl = document.querySelector('title');
+  const descEl = document.querySelector('meta[name="description"]');
+  const ogTitleEl = document.querySelector('meta[property="og:title"]');
+  const ogDescEl = document.querySelector('meta[property="og:description"]');
+  const ogUrlEl = document.querySelector('meta[property="og:url"]');
+  const canonEl = document.querySelector('link[rel="canonical"]');
+  const h1 = document.querySelector('.hero-logo');
+  const sub = document.querySelector('.hero-sub');
+
+  if (!region || region === 'all') {
+    if (titleEl) titleEl.textContent = DEFAULT_TITLE;
+    if (descEl) descEl.setAttribute('content', DEFAULT_DESC);
+    if (ogTitleEl) ogTitleEl.setAttribute('content', DEFAULT_TITLE);
+    if (ogDescEl) ogDescEl.setAttribute('content', DEFAULT_DESC);
+    if (ogUrlEl) ogUrlEl.setAttribute('content', 'https://druk.se/');
+    if (canonEl) canonEl.setAttribute('href', 'https://druk.se/');
+    if (h1) h1.innerHTML = DEFAULT_H1_HTML;
+    if (sub) sub.textContent = DEFAULT_SUB;
+    return;
+  }
+
+  const isCountry = COUNTRIES.indexOf(region) !== -1;
+  const slug = REGION_SLUGS[region];
+  const title = isCountry
+    ? `MC-träffar i ${region} 2026 - MC Kalendern`
+    : `MC-träffar i ${region} 2026 - MC-evenemang & körningar | MC Kalendern`;
+  const desc = isCountry
+    ? `MC-träffar i ${region} 2026. Här samlar vi MC-evenemang som svenska bikers reser till. Träffar, körningar och fester från 380+ arrangörer.`
+    : `MC-träffar och MC-evenemang i ${region} 2026. Hitta din nästa träff, körning eller mässa i ${region}. Uppdateras dagligen från 380+ arrangörer.`;
+  const url = `https://druk.se/${slug}`;
+
+  if (titleEl) titleEl.textContent = title;
+  if (descEl) descEl.setAttribute('content', desc);
+  if (ogTitleEl) ogTitleEl.setAttribute('content', title);
+  if (ogDescEl) ogDescEl.setAttribute('content', desc);
+  if (ogUrlEl) ogUrlEl.setAttribute('content', url);
+  if (canonEl) canonEl.setAttribute('href', url);
+  if (h1) h1.innerHTML = `MC-träffar i <span>${region}</span>`;
+  if (sub) sub.textContent = `MC-evenemang och körningar i ${region} 2026`;
+}
+
+// Build the regions footer (all 27 regions as links). Helps SEO + browsing.
+function buildRegionsFooter(activeRegions) {
+  const wrap = document.getElementById('regionsFooter');
+  if (!wrap) return;
+  const districts = SWEDISH_DISTRICTS.slice().sort((a, b) => a.localeCompare(b, 'sv'));
+  const countries = ['Sverige','Danmark','Norge','Finland','Spanien','Tjeckien'];
+  const currentRegion = getRegionFromURL();
+  const linkFor = (r) => {
+    const slug = REGION_SLUGS[r];
+    const isActive = (r === currentRegion);
+    const hasEvents = activeRegions ? activeRegions[r] > 0 : true;
+    const cls = 'rf-link' + (isActive ? ' rf-active' : '') + (hasEvents ? '' : ' rf-empty');
+    return `<a class="${cls}" href="/${slug}">${r}</a>`;
+  };
+  wrap.innerHTML = `
+    <div class="rf-col">
+      <div class="rf-title">MC-träffar per region</div>
+      <div class="rf-list">${districts.map(linkFor).join(' · ')}</div>
+    </div>
+    <div class="rf-col">
+      <div class="rf-title">MC-träffar per land</div>
+      <div class="rf-list">${countries.map(linkFor).join(' · ')}</div>
+    </div>`;
+}
 
 function buildRegionFilter() {
   // Single pass over events to collect regions, months, and organizer stats
@@ -4097,7 +4322,21 @@ function render() {
   document.getElementById('searchCount').textContent = countTxt;
 
   if (events.length === 0) {
-    grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x1F3CD;</div><div class="no-results-text">Inga evenemang hittades. Prova andra filter eller sök igen.</div></div>';
+    // If a region URL was used and we have zero events, show region-specific empty state
+    // with nearby region suggestions and a Tipsa CTA. Better for SEO than a thin page.
+    const urlReg = getRegionFromURL();
+    if (urlReg && currentRegion === urlReg && currentFilter === 'all' && currentClub === 'all' && currentMonth === 'all' && !searchQuery) {
+      const neighbors = (REGION_NEIGHBORS[urlReg] || []).slice(0, 3);
+      const suggestHTML = neighbors.map(n => `<a href="/${REGION_SLUGS[n]}">${n}</a>`).join('');
+      grid.innerHTML = `<div class="region-empty">
+        <div class="region-empty-title">Just nu finns inga kommande evenemang i ${urlReg}</div>
+        <div class="region-empty-sub">Säsongen är på väg. Kolla in närliggande regioner eller tipsa oss om ett event du känner till.</div>
+        <div class="region-empty-suggest">${suggestHTML}</div>
+        <button class="region-empty-tipsa" onclick="document.getElementById('tipsaModal').classList.add('open')">Tipsa om ett evenemang i ${urlReg}</button>
+      </div>`;
+    } else {
+      grid.innerHTML = '<div class="no-results"><div class="no-results-icon">&#x1F3CD;</div><div class="no-results-text">Inga evenemang hittades. Prova andra filter eller sök igen.</div></div>';
+    }
     return;
   }
 
@@ -4879,6 +5118,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
   buildRegionFilter();
+
+  // ========== REGION URL ROUTING (SEO) ==========
+  // If URL is /skane, /stockholm, etc., pre-apply that region as a filter and update meta tags.
+  const urlRegion = getRegionFromURL();
+  if (urlRegion) {
+    currentRegion = urlRegion;
+    const rSel = document.getElementById('regionFilter');
+    const rSelM = document.getElementById('regionFilterMobile');
+    const mRSel = document.getElementById('mRegionFilter');
+    if (rSel) rSel.value = urlRegion;
+    if (rSelM) rSelM.value = urlRegion;
+    if (mRSel) mRSel.value = urlRegion;
+  }
+  updatePageMetaForRegion(urlRegion);
+  buildRegionsFooter(null);
+
+  // Browser back/forward should update region filter and meta
+  window.addEventListener('popstate', () => {
+    const r = getRegionFromURL();
+    currentRegion = r || 'all';
+    const rSel = document.getElementById('regionFilter');
+    const rSelM = document.getElementById('regionFilterMobile');
+    const mRSel = document.getElementById('mRegionFilter');
+    if (rSel) rSel.value = currentRegion;
+    if (rSelM) rSelM.value = currentRegion;
+    if (mRSel) mRSel.value = currentRegion;
+    updatePageMetaForRegion(r);
+    render();
+  });
+
   render();
 
   // Defer hero stats and fab to after first paint (not visible immediately on scroll)
@@ -4928,12 +5197,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (mfm) mfm.value = 'all';
     const ofm = document.getElementById('organizerFilterMobile');
     if (ofm) ofm.value = 'all';
+    const mRfm = document.getElementById('mRegionFilter');
+    if (mRfm) mRfm.value = 'all';
+    const mDfm = document.getElementById('mDatumFilter');
+    if (mDfm) mDfm.value = 'all';
     document.getElementById('pastToggle').classList.remove('active');
     const si = document.getElementById('searchInput');
     const sc = document.getElementById('searchClear');
     if (si) { si.value = ''; }
     if (sc) { sc.classList.remove('visible'); }
     mapCityFilter = '';
+    // Reset URL to / and meta to defaults when user clicks Alla
+    updateURLForRegion('all');
+    updatePageMetaForRegion(null);
     updateMapCityBadge();
     document.querySelectorAll('.hander-chip').forEach(c => c.classList.remove('active'));
     if (eventMap) eventMap.setView([62.5, 16.0], 4);
@@ -5020,6 +5296,10 @@ document.addEventListener('DOMContentLoaded', () => {
     currentRegion = e.target.value;
     const rfm = document.getElementById('regionFilterMobile');
     if (rfm) rfm.value = e.target.value;
+    const mRfm = document.getElementById('mRegionFilter');
+    if (mRfm) mRfm.value = e.target.value;
+    updateURLForRegion(currentRegion);
+    updatePageMetaForRegion(currentRegion === 'all' ? null : currentRegion);
     updateAllaBtn();
     render();
   });

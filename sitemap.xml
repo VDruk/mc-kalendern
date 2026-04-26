@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://druk.se/</loc>
-        <lastmod>2026-04-06</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
+    <url><loc>https://druk.se/</loc><lastmod>2026-04-26</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+    <url><loc>https://druk.se/blekinge</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/dalarna</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/gotland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/gavleborg</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/halland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/jamtland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/jonkoping</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/kalmar</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/kronoberg</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/norrbotten</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/skane</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/stockholm</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/sodermanland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/uppsala</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/varmland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/vasterbotten</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/vasternorrland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/vastmanland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/vastra-gotaland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/orebro</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/ostergotland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://druk.se/danmark</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://druk.se/finland</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://druk.se/norge</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://druk.se/spanien</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://druk.se/sverige</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://druk.se/tjeckien</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 </urlset>
