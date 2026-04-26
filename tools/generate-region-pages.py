@@ -90,6 +90,18 @@ def patch_html(html: str, region: str, slug: str, is_country: bool) -> str:
         return f'{attr}="/{path}"'
     html = re.sub(r'(\bsrc|\bhref)="([^"]+)"', absolutize, html)
 
+    # Rewrite CSS url(...) so background-image: url('hero.jpg') resolves to /hero.jpg
+    # (without this, /skane/index.html would try to load /skane/hero.jpg → 404 in Safari).
+    def absolutize_css_url(match):
+        quote = match.group(1) or ''
+        path = match.group(2)
+        if path.startswith(('http://', 'https://', '/', '#', 'data:')):
+            return match.group(0)
+        return f'url({quote}/{path}{quote})'
+    # Match the FULL url(...) including the closing paren; use backreference \1 so
+    # the closing quote matches the opening one.
+    html = re.sub(r'url\((["\']?)([^)"\']+)\1\)', absolutize_css_url, html)
+
     # <title>
     html = re.sub(r'<title>[^<]*</title>', f'<title>{title}</title>', html, count=1)
     # <meta name="description">
