@@ -862,6 +862,7 @@
   .back-img {
     width: 100%; border-radius: var(--radius-sm);
     margin-top: 10px; object-fit: cover;
+    cursor: zoom-in;
   }
 
   .back-links {
@@ -1681,14 +1682,16 @@
   }
   .m-lightbox.open { display: flex; }
   .m-lightbox-img {
-    max-width: 100vw;
-    max-height: 100vh;
+    max-width: 90vw;
+    max-height: 90vh;
     width: auto;
     height: auto;
     object-fit: contain;
     display: block;
     user-select: none;
     -webkit-user-drag: none;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    border-radius: 4px;
   }
   .m-lightbox-close {
     position: absolute;
@@ -3174,7 +3177,7 @@ function setupMobileUI() {
     if (e.key === 'Escape' && mDetail && mDetail.classList.contains('open')) closeMDetail();
   });
 
-  // ===== Image lightbox (tap photo in detail view → full-screen natural ratio) =====
+  // ===== Image lightbox (mobile detail view photo + desktop card back-side image) =====
   const mDetailPhoto = document.getElementById('mDetailPhoto');
   const mLightbox = document.getElementById('mLightbox');
   const mLightboxClose = document.getElementById('mLightboxClose');
@@ -3185,6 +3188,13 @@ function setupMobileUI() {
       if (src) openMLightbox(src);
     });
   }
+  // Desktop: clicking a flipped card's back image opens the lightbox at natural ratio
+  document.addEventListener('click', (e) => {
+    const img = e.target.closest('.back-img');
+    if (!img) return;
+    e.stopPropagation();
+    if (img.src) openMLightbox(img.src);
+  });
   if (mLightbox) {
     mLightbox.addEventListener('click', () => closeMLightbox());
   }

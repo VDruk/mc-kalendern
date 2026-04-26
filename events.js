@@ -11789,6 +11789,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/poker-run-aland-back-2026-05-08.jpg"
                                     },
                                     {
+                                                      "id": "tet-trip-uppsala-2026-05-08",
+                                                      "name": "TET Trip Uppsala 3Day 2 Nights",
+                                                      "date": "2026-05-08",
+                                                      "dateEnd": "2026-05-10",
+                                                      "location": "Uppsala",
+                                                      "type": "Körning",
+                                                      "organizer": "Bruno Nicolaus",
+                                                      "description": "ADV-tur från Uppsala, 2,5 dagar, 625 km varav 400+ km grus/offroad. Baserad på TET. Camping i skogen. Start fredag efter jobbet.",
+                                                      "descriptionFull": "The plan is to go on a weekend ADV trip (2.5 days).\nThe total riding time is about 11 hours, covering 625 km, with over 400 km on gravel or off-road terrain. Most of the route is based on the TET.\n\nTime Plan:\nWe will start in Uppsala on Friday after work, around 17:45–18:00, and then ride outside the city for 1–2 hours to find a place to spend the night.\nSaturday will be the main riding day.\nOn Sunday, I plan to arrive back in Uppsala sometime in the afternoon (depending on our pace).\n\nAccommodation:\nI will bring my camping gear, and the plan is to find a spot in the woods to camp or stay at a official campsite. We will try to camp near water whenever possible.\n\nYou:\nHave a bike that can handle gravel tracks (ADV, dual sport, enduro, retro bike, or a street bike with a skid plate).\nHave some experience riding on gravel (e.g., 2+ years or occasional training).\nTire choice is up to you—use whatever makes you feel comfortable. (I ride a lot on gravel but only use street bike tires.)\n\nIf anyone wants to join later or along the way, feel free to contact me so we can plan together.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3533649440122464"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Uppsala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/3533649440122464",
+                                                      "region": "Uppsala",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/tet-trip-uppsala-back-2026-05-08.jpg"
+                                    },
+                                    {
                                                       "id": "20-ars-jubileum-destination-unknown-2026-05-09",
                                                       "name": "20 års Jubileum!",
                                                       "date": "2026-05-09",
