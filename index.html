@@ -3158,7 +3158,38 @@ function updateStats() {
 // ========== HÄNDER JUST NU ==========
 function updateHanderBar() {
   const today = getTodayStr();
-  const all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
+  // Apply same filters that render() uses (region, type, club, organizer, search)
+  // so the chip counts reflect the user's current view, not the global total.
+  let all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
+  if (currentRegion !== 'all') {
+    all = all.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
+  }
+  if (currentFilter !== 'all') {
+    all = all.filter(e => e.type === currentFilter);
+  }
+  if (currentClub !== 'all') {
+    if (currentClub === '__other__') {
+      all = all.filter(e => {
+        const org = e.organizer || '';
+        return !topOrgEntries.some(([key]) =>
+          CLUB_MATCHERS[key] ? CLUB_MATCHERS[key](org) : org.includes(key)
+        );
+      });
+    } else if (CLUB_MATCHERS[currentClub]) {
+      all = all.filter(e => CLUB_MATCHERS[currentClub](e.organizer || ''));
+    } else {
+      all = all.filter(e => (e.organizer || '').includes(currentClub));
+    }
+  }
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    all = all.filter(e =>
+      (e.name || '').toLowerCase().includes(q) ||
+      (e.location || '').toLowerCase().includes(q) ||
+      (e.organizer || '').toLowerCase().includes(q) ||
+      (e.description || '').toLowerCase().includes(q)
+    );
+  }
 
   // Today
   const todayCount = all.filter(e => e.date <= today && (e.dateEnd || e.date) >= today).length;
@@ -4145,6 +4176,10 @@ function render() {
   // Generation token: invalidates any pending chunk timeouts from previous render() call
   render._gen = (render._gen || 0) + 1;
   const myGen = render._gen;
+  // Refresh "händer just nu" counts so they reflect active filters (region, type, etc.)
+  if (typeof updateHanderBar === 'function' && document.getElementById('handerBar')) {
+    try { updateHanderBar(); } catch(e) { /* hander bar not yet built */ }
+  }
 
   const today = getTodayStr();
   if (!render._sorted) {
