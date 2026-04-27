@@ -22101,6 +22101,37 @@ const EVENTS_DATA = {
       "backImage": "ads/varmlandssafari-back-2026-06-13.jpg"
     },
     {
+      "id": "tyreso-bike-show-2026-06-13",
+      "name": "Tyresö Bike Show",
+      "date": "2026-06-13",
+      "dateEnd": "2026-06-13",
+      "time": "11:00",
+      "location": "Tyresö Slott, Tyresö",
+      "type": "Show",
+      "organizer": "Tyresö Bike Show",
+      "description": "MC-utställning på ängen bakom Tyresö Slott. Klasser: Custom, Chopper, Ombyggd Sportster, Dagens Outsider. Knallar, trubadur, hoppborg, mat och dryck.",
+      "descriptionFull": "MC-utställning nere på ängen bakom Tyresö Slott.\n\n13 juni kl 11:00-16:00.\n\nKlasser:\n- Custom\n- Chopper\n- Ombyggd Sportster\n- Dagens Outsider\n\nMat & Dryck\nKnallar\nTrubadur\nHoppborg\nUtställning\nStunts med minicrossar\n\nVälkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1528505558623326"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Tyresobikeshow"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tyresö+Slott+Tyresö",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/Tyresobikeshow",
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "backImage": "ads/tyreso-bike-show-back-2026-06-13.jpg"
+    },
+    {
       "id": "doa-emilsturen-2026-06-14",
       "name": "DOA - Emilsturen",
       "date": "2026-06-14",
