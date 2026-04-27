@@ -15096,6 +15096,36 @@ const EVENTS_DATA = {
       "backImage": "ads/imrg-big-lake-back.jpg"
     },
     {
+      "id": "galen-i-huvet-varrunda-2026-05-16",
+      "name": "Vårrunda",
+      "date": "2026-05-16",
+      "dateEnd": "2026-05-16",
+      "location": "Torget, Sjuntorp",
+      "type": "Körning",
+      "organizer": "Galen i huvet MC",
+      "description": "Vårrunda med Galen i huvet MC, klubben från Sjuntorp utanför Trollhättan. Start vid Torget i Sjuntorp. Alla välkomna!",
+      "descriptionFull": "Då var det dags att ta en sväng. Välkomna!",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1392291312928125&set=a.461026156054650"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/GalenIHuvetMc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Torget+Sjuntorp",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/GalenIHuvetMc",
+      "region": "Västra Götaland",
+      "source": "facebook.com",
+      "backImage": "ads/galen-i-huvet-varrunda-back-2026-05-16.jpg"
+    },
+    {
       "id": "bmw-d11-mixtur-med-sandra-och-mikael-2026",
       "name": "D11 Mixtur med Sandra och Mikael",
       "date": "2026-05-17",
