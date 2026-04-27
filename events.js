@@ -15163,6 +15163,37 @@ const EVENTS_DATA = {
       "backImage": "ads/galen-i-huvet-varrus-back-2026-05-16.jpg"
     },
     {
+      "id": "knarrsslappet-2026-05-16",
+      "name": "Knarrsläppet 2026",
+      "date": "2026-05-16",
+      "dateEnd": "2026-05-16",
+      "time": "10:00",
+      "location": "Vallgatan 2, Kristdala",
+      "type": "Körning",
+      "organizer": "Kristdala Motorsällskap",
+      "description": "Veteranmoped- och traktorrally i Kristdala. Anmälan från kl 09:00, start 10:00. Mopedrutt 6-7 mil, traktorrutt 2-3 mil. Fika och korv ingår. 120 kr.",
+      "descriptionFull": "Då var det äntligen dags för Kristdala Motorsällskap att bjuda in till sitt årliga mopedrally.\n\n16 Maj 2026, Vallgatan 2, Kristdala.\n\nAnmälan öppnar 09:00, kostnad 120 kr.\nBetalning sker via Swish.\n\nStart 10:00.\n\nMopedrallyt kommer vara cirka 6-7 mil med varierande underlag.\n\nRally för veterantraktorer kommer köras samtidigt på en kortare sträcka på cirka 2-3 mil.\n\nPå båda rutterna kommer det bjudas på kaffe och bulle längst med vägen samt korv med bröd och tillhörande dryck vid målgång.\n\nFrågesport kommer att finnas på båda rutterna med separat pris för moped samt traktor.\n\nAll körning sker på egen risk och trafikreglerna följs.\n\nVarmt välkomna!\nKristdala Motorsällskap",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26095685026770799"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/kristdalams"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vallgatan+2+Kristdala",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/kristdalams",
+      "region": "Kalmar",
+      "source": "facebook.com",
+      "backImage": "ads/knarrsslappet-back-2026-05-16.jpg"
+    },
+    {
       "id": "bmw-d11-mixtur-med-sandra-och-mikael-2026",
       "name": "D11 Mixtur med Sandra och Mikael",
       "date": "2026-05-17",
