@@ -8714,6 +8714,34 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "scrc-hall-of-odin-onsdagskorning-2026-04-29",
+      "name": "Onsdagskörning",
+      "date": "2026-04-29",
+      "dateEnd": "2026-04-29",
+      "time": "17:45",
+      "location": "Circle K, Onsalamotet, Valldavägen 1238, Onsala",
+      "type": "Körning",
+      "organizer": "SCRC #738 Hall of Odin",
+      "description": "Onsdagskörning med SCRC Hall of Odin. Samling kl 17:45, avfärd 18:00 från Circle K Onsalamotet. Längre tur med fikastopp. Egen fika medtages.",
+      "descriptionFull": "Välkomna att följa med på vår Onsdagskörning.\n\nVi samlas 17:45 och avfärd 18:00.\n\nNu när kvällarna blir ljusare så kör vi en lite längre tur, och stannar på någon trevlig plats och fikar. OBS! Egen fika medtages.\n\nOm det är någon som vill beställa en go macka från Susan's Mackor & Grill, så meddela mig senast dagen innan, så kan jag ta med mig till körningen iså fall.\n\nVälkomna\nRC Sture",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1505783654541882"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Onsalamotet+Valldavägen+1238+Onsala",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1505783654541882",
+      "region": "Halland",
+      "source": "facebook.com",
+      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
+      "backImage": "ads/scrc-hall-of-odin-onsdagskorning-back-2026-04-29.jpg"
+    },
+    {
       "id": "balders-hage-bil-mc-cafe-2026",
       "name": "Bil & MC Café - Säsongspremiär",
       "date": "2026-04-30",
@@ -15096,15 +15124,16 @@ const EVENTS_DATA = {
       "backImage": "ads/imrg-big-lake-back.jpg"
     },
     {
-      "id": "galen-i-huvet-varrunda-2026-05-16",
-      "name": "Vårrunda",
+      "id": "galen-i-huvet-varrus-2026-05-16",
+      "name": "Vårrus",
       "date": "2026-05-16",
       "dateEnd": "2026-05-16",
+      "time": "14:00",
       "location": "Torget, Sjuntorp",
       "type": "Körning",
       "organizer": "Galen i huvet MC",
-      "description": "Vårrunda med Galen i huvet MC, klubben från Sjuntorp utanför Trollhättan. Start vid Torget i Sjuntorp. Alla välkomna!",
-      "descriptionFull": "Då var det dags att ta en sväng. Välkomna!",
+      "description": "Vårrus med Galen i huvet MC i Sjuntorp utanför Trollhättan. Start vid Torget kl 14:00. Fikastopp utefter vägen, korv och bar på klubben efter.",
+      "descriptionFull": "Galen i huvet MC's Vårrus 16/5 2026.\n\nStart vid Torget i Sjuntorp kl 14:00.\nStartavgift 100:-/pp.\n\nVi åker en runda med ett fikastopp utefter vägen.\n\nNär vi senare är tillbaka på klubben så blir det en körv.\n\nBaren är öppen hela kvällen.\n\nVälkomna!",
       "links": [
         {
           "label": "FB Inlägg",
@@ -15123,7 +15152,7 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/GalenIHuvetMc",
       "region": "Västra Götaland",
       "source": "facebook.com",
-      "backImage": "ads/galen-i-huvet-varrunda-back-2026-05-16.jpg"
+      "backImage": "ads/galen-i-huvet-varrus-back-2026-05-16.jpg"
     },
     {
       "id": "bmw-d11-mixtur-med-sandra-och-mikael-2026",
