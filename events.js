@@ -13534,6 +13534,10 @@ const EVENTS_DATA = {
       "descriptionFull": "AD-Open Flat Track på Örebro Motorstadion, torsdag 14 maj.\n\nKlasser:\n- DT MX\n- Intermediate\n- Thunderbike\n- Hooligan\n- Vintage MC\n- Vintage RD/TG\n- Rookie\n\nAnmälan: akej13@hotmail.com\n\nArrangör: Flat Track Sweden.",
       "links": [
         {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/173959482708041"
+        },
+        {
           "label": "FB Inlägg",
           "url": "https://www.facebook.com/photo/?fbid=26514137438213476&set=gm.26164478326562801&idorvanity=173959482708041"
         },
