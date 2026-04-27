@@ -18170,6 +18170,40 @@ const EVENTS_DATA = {
       "backImage": "ads/vrs-varbergstraffen-back-2026-05-29.jpg"
     },
     {
+      "id": "biker-nights-kaunas-2026-05-29",
+      "name": "Biker Nights 2026",
+      "date": "2026-05-29",
+      "dateEnd": "2026-05-31",
+      "location": "Jadagoniai, Kaunas, Litauen",
+      "type": "Fest",
+      "organizer": "FIM Touring",
+      "description": "Internationell MC-festival i Litauen, del av FIM Touring World Challenge. Tre dagar med livemusik, körningar och bikergemenskap vid Pušynas camp utanför Kaunas.",
+      "descriptionFull": "Internationell MC-festival i Jadagoniai, Kaunas, Litauen. 29-31 maj.\n\nEn av Europas mest kända MC-festivaler, arrangerad sedan 2008 av Forever Free MCC och Steely Pegasus MC. Del av FIM Touring World Challenge.\n\nTre dagar med livemusik, rockkonserter, gemensamma körningar och bikergemenskap vid Pušynas camp i Jadagoniai utanför Kaunas.\n\nFestivalen har vuxit från en traditionell bikerträff till en stor rockfestival med internationella deltagare.\n\nMer info: bikernights.lt",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo?fbid=1398893415614480&set=a.562204779283352"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/FIMtouring"
+        },
+        {
+          "label": "bikernights.lt",
+          "url": "https://www.bikernights.lt/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Jadagoniai+Kaunas+Lithuania",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/FIMtouring",
+      "region": "Litauen",
+      "source": "facebook.com",
+      "backImage": "ads/biker-nights-back-2026-05-29.jpg"
+    },
+    {
       "id": "baprun-gotland-2026",
       "name": "BAPRUN",
       "date": "2026-05-30",
