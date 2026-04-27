@@ -13543,7 +13543,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "link": "https://www.facebook.com/photo/?fbid=26514137438213476&set=gm.26164478326562801&idorvanity=173959482708041",
+      "link": "https://www.facebook.com/groups/173959482708041",
       "region": "Örebro",
       "source": "facebook.com",
       "backImage": "ads/ad-open-flat-track-orebro-back-2026-05-14.jpg"
