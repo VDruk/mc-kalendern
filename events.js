@@ -19125,6 +19125,36 @@ const EVENTS_DATA = {
       "backImage": "ads/mc-dagen-sundsvall-back-2026-05-30.jpg"
     },
     {
+      "id": "kilmister-mc-15ar-2026-05-30",
+      "name": "Kilmister MC 15 År",
+      "date": "2026-05-30",
+      "dateEnd": "2026-05-30",
+      "location": "Dåntorpsvägen 5, 136 50 Jordbro",
+      "type": "Fest",
+      "organizer": "Kilmister MC Stockholm",
+      "description": "15-årsjubileum med liveband No Comments, tatuerare Carma Ink, mat från Texas Longhorn och dans. Endast för SBM och inbjudna gäster.",
+      "descriptionFull": "Efter 15 år på vägarna vill vi nu fira detta med er!\n\nVi brakar loss med med en hejdundrade fest, Texas Longhorn brassar käk, Carma Ink gaddar hud och ett av norra Europas bästa partyband No Comments kommer och river haket!\n\nKom hungrig, törstig och dansant.\nVi råder bot på allt!\n\nKall dryck, varm mat, svettigt dansgolv! Nu åker vi! Manöver!\n\nDenna tillställning är endast för våra vänner i SBM och ett fåtal personligt inbjudna gäster.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/975922891626870"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/kilmister.mc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Dåntorpsvägen+5+136+50+Jordbro",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/kilmister.mc",
+      "region": "Stockholm",
+      "source": "facebook.com",
+      "backImage": "ads/kilmister-mc-15ar-back-2026-05-30.jpg"
+    },
+    {
       "id": "bmw-d15-mats-och-bodils-tur-2026",
       "name": "D15 Mats och Bodils tur",
       "date": "2026-05-31",
