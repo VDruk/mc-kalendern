@@ -2258,7 +2258,10 @@
   },
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://druk.se/?q={search_term_string}",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://druk.se/?q={search_term_string}"
+    },
     "query-input": "required name=search_term_string"
   }
 }
