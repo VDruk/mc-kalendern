@@ -10173,7 +10173,7 @@ const EVENTS_DATA = {
       "type": "Körning",
       "organizer": "Hermans Hedningar LMCK",
       "description": "MC-rally med praktiska och teoretiska prov för både förare och passagerare. Start kl 10-12, mål vid MCK Röde Orms klubbstuga.",
-      "descriptionFull": "Hermans Hedningar LMCK och MCK Röde Orm arrangerar Gökrallyt 2026.\n\nStart från HermansHedningar Lmck, Vislandavägen, Ljungby. Starten är öppen lördag mellan kl 10.00-12.00. Möjlighet att köpå fika finns i starten.\n\nMC-rally med praktiska och teoretiska prov för både förare och passagerare. Fina priser!\n\nMål vid MCK Röde Orms klubbstuga där aktiviteterna fortsätter med prisutdelning. Försäljning av mat och dryck.\n\nStartavgift: 100 kr. Startavgiften skänkes till välgörande ändamål som är Våra barn.\n\nKontakt:\nJohanna: 0761887226\nJan: 0703561060\n\nPlats: Vislandavägen, Ljungby.",
+      "descriptionFull": "Start från HermansHedningar LMCK, Vislandavägen, Ljungby.\nGPS position: 56.82597, 14.02986\n\nMöjlighet för att köpa fika finns i starten.\nStarten är öppen lördag mellan kl 10.00-12.00.\n\nMC-rally med praktiska och teoretiska prov för både förare och passagerare. Fina priser.\n\nMål vid MCK Röde Orms klubbstuga där aktiviteterna fortsätter med prisutdelning. Försäljning av mat och dryck.\n\n100 kr i startavgift. Startavgiften skänkes till välgörande ändamål som är Våra barn.\n\nArrangörer: Hermans Hedningar LMCK och MCK Röde Orm\n\nJohanna: 0761887226\nJan: 0703561060",
       "backImage": "ads/gokrallyt-back-2026-05-02.jpg",
       "links": [
         {
@@ -10181,18 +10181,22 @@ const EVENTS_DATA = {
           "url": "https://www.facebook.com/events/1486198450181505/"
         },
         {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/mckrodeorm/"
+        },
+        {
           "label": "hermanshedningar.se",
           "url": "https://www.hermanshedningar.se/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Hermans+Hedningar+LMCK+Ljungby",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vislandavägen+Ljungby",
           "type": "map"
         }
       ],
-      "link": "https://www.hermanshedningar.se/",
+      "link": "https://www.facebook.com/mckrodeorm/",
       "region": "Kronoberg",
-      "source": "FB"
+      "source": "facebook.com"
     },
     {
       "id": "ljungbyhed-mc-bandag-2026-05-02",
