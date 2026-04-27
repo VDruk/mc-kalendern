@@ -9709,6 +9709,10 @@ const EVENTS_DATA = {
           "url": "https://www.facebook.com/events/1443038960891708"
         },
         {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10167221293517678&set=gm.2843985352617722&idorvanity=1681065958909673"
+        },
+        {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Ljungviks+Torg+Gråbo+Industriväg+Gråbo",
           "type": "map"
@@ -9716,7 +9720,7 @@ const EVENTS_DATA = {
       ],
       "region": "Västra Götaland",
       "source": "facebook.com",
-      "backImage": "ads/abate-avrostning-back-2026-05-01.jpg"
+      "backImage": "ads/abate-avrostning-back-2026-05-01-v2.jpg"
     },
     {
       "id": "jmc-besok-mc-kompaniet-2026-05-02",
