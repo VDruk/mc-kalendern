@@ -8730,12 +8730,16 @@ const EVENTS_DATA = {
           "url": "https://www.facebook.com/events/1505783654541882"
         },
         {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/738hallofodin"
+        },
+        {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Onsalamotet+Valldavägen+1238+Onsala",
           "type": "map"
         }
       ],
-      "link": "https://www.facebook.com/events/1505783654541882",
+      "link": "https://www.facebook.com/738hallofodin",
       "region": "Halland",
       "source": "facebook.com",
       "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
