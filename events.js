@@ -11879,7 +11879,7 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/events/3533649440122464",
       "region": "Uppsala",
       "source": "facebook.com",
-      "backImage": "ads/tet-trip-uppsala-back-2026-05-08.jpg"
+      "backImage": "ads/tet-trip-uppsala-back-2026-05-08-v2.jpg"
     },
     {
       "id": "20-ars-jubileum-destination-unknown-2026-05-09",
