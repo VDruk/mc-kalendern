@@ -1,5 +1,5 @@
 const PLACES_DATA = {
-  "lastUpdated": "2026-04-20",
+  "lastUpdated": "2026-04-27",
   "places": [
     {
       "id": "probike-stockholm",
@@ -40,6 +40,19 @@ const PLACES_DATA = {
       "lon": 15.599032,
       "organizers": [
         "The Twin Club Falun"
+      ],
+      "eventCount": 21
+    },
+    {
+      "id": "nifsta-gard",
+      "name": "Nifsta Gård",
+      "address": "Nifsta Gård, Gottröra",
+      "category": "motesplats",
+      "region": "Stockholm",
+      "lat": 59.7286718,
+      "lon": 18.1497919,
+      "organizers": [
+        "Nifsta Gård Café & Grill"
       ],
       "eventCount": 21
     },
@@ -298,6 +311,19 @@ const PLACES_DATA = {
       "eventCount": 3
     },
     {
+      "id": "shell-a6",
+      "name": "Shell A6",
+      "address": "Shell A6, Sjukhusgatan 6, Jönköping",
+      "category": "bensin",
+      "region": "Jönköping",
+      "lat": 57.7725181,
+      "lon": 14.1977511,
+      "organizers": [
+        "JMC Samåkning Småland"
+      ],
+      "eventCount": 3
+    },
+    {
       "id": "sawmill-mc-tavelsjo",
       "name": "Sawmill MC Tavelsjö",
       "address": "Sawmill MC Tavelsjö, Tavelsjö",
@@ -408,6 +434,19 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "mortnas-hagvag-13",
+      "name": "Mörtnäs Hagväg 13",
+      "address": "Mörtnäs Hagväg 13, Gustavsberg",
+      "category": "motesplats",
+      "region": "Stockholm",
+      "lat": 59.3152887,
+      "lon": 18.4309238,
+      "organizers": [
+        "AVA MC"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "ravlandavagen-22a-bollebygd",
       "name": "Rävlandavägen 22A, Bollebygd",
       "address": "Rävlandavägen 22A, Bollebygd",
@@ -418,6 +457,19 @@ const PLACES_DATA = {
       "organizers": [
         "BMW MC-klubben",
         "Bollebygds Veteranmarknad"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "cec-motorcycles",
+      "name": "CEC Motorcycles",
+      "address": "CEC Motorcycles, Gamla Riksvägen 20, Kållered",
+      "category": "motesplats",
+      "region": "Västra Götaland",
+      "lat": 58.4205405,
+      "lon": 14.1310381,
+      "organizers": [
+        "CEC Motorcycles"
       ],
       "eventCount": 2
     },
@@ -435,15 +487,41 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
-      "id": "shell-a6",
-      "name": "Shell A6",
-      "address": "Shell A6, Sjukhusgatan 6, Jönköping",
-      "category": "bensin",
-      "region": "Jönköping",
-      "lat": 57.7725181,
-      "lon": 14.1977511,
+      "id": "myntgatan-8",
+      "name": "Myntgatan 8",
+      "address": "Myntgatan 8, Avesta",
+      "category": "motesplats",
+      "region": "Dalarna",
+      "lat": 60.1461242,
+      "lon": 16.1760174,
       "organizers": [
-        "JMC Samåkning Småland"
+        "Lundgrens Motor AB"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "cec-motorcycles-vastra-gotaland",
+      "name": "CEC Motorcycles",
+      "address": "CEC Motorcycles, Norra Rydsgatan 7, Tibro",
+      "category": "motesplats",
+      "region": "Västra Götaland",
+      "lat": 58.4205405,
+      "lon": 14.1310381,
+      "organizers": [
+        "CEC Motorcycles"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "yamaha-center",
+      "name": "Yamaha Center",
+      "address": "Yamaha Center, Vångavägen 4, Hyllinge",
+      "category": "mc-handel",
+      "region": "Skåne",
+      "lat": 56.0997437,
+      "lon": 12.8524663,
+      "organizers": [
+        "I Can Ride Adventure"
       ],
       "eventCount": 2
     },
@@ -483,6 +561,45 @@ const PLACES_DATA = {
       "lon": 15.8516961,
       "organizers": [
         "Italia Bike Center"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "gamla-torget",
+      "name": "Gamla Torget",
+      "address": "Gamla Torget, Tidaholm",
+      "category": "motesplats",
+      "region": "Västra Götaland",
+      "lat": 58.180565,
+      "lon": 13.9581861,
+      "organizers": [
+        "Labbås Cruisers Tidaholm"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "kinnegatan-15",
+      "name": "Kinnegatan 15",
+      "address": "Kinnegatan 15, 531 33 Lidköping",
+      "category": "motesplats",
+      "region": "Västra Götaland",
+      "lat": 58.5029052,
+      "lon": 13.1685868,
+      "organizers": [
+        "Mc-konsult i Lidköping"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "jarlasa-bygdegard",
+      "name": "Järlåsa Bygdegård",
+      "address": "Järlåsa Bygdegård, Järlåsa-Laggarbo 2, Järlåsa",
+      "category": "motesplats",
+      "region": "Uppsala",
+      "lat": 59.8985481,
+      "lon": 17.2065695,
+      "organizers": [
+        "Järlåsa Bygdegård"
       ],
       "eventCount": 2
     },
