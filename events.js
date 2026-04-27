@@ -13503,12 +13503,16 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "AD-Open Flat Track på Örebro Motorstadion, torsdag 14 maj.\n\nKlasser:\n- DT MX\n- Intermediate\n- Thunderbike\n- Hooligan\n- Vintage MC\n- Vintage RD/TG\n- Rookie\n\nAnmälan: akej13@hotmail.com\n\nArrangör: Flat Track Sweden.",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=26514137438213476&set=gm.26164478326562801&idorvanity=173959482708041"
+                                                                        },
+                                                                        {
                                                                                           "label": "Karta",
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Örebro+Motorstadion+Örebro",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "link": "https://www.facebook.com/groups/173959482708041",
+                                                      "link": "https://www.facebook.com/photo/?fbid=26514137438213476&set=gm.26164478326562801&idorvanity=173959482708041",
                                                       "region": "Örebro",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/ad-open-flat-track-orebro-back-2026-05-14.jpg"
@@ -21749,6 +21753,37 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com",
                                                       "link": "https://www.facebook.com/urban.knutsson",
                                                       "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
+                                                      "id": "varmlandssafari-motorcykel-2026-06-13",
+                                                      "name": "Värmlandssafari på motorcykel",
+                                                      "date": "2026-06-13",
+                                                      "dateEnd": "2026-06-13",
+                                                      "location": "Romstadsvägen 2, Karlstad",
+                                                      "type": "Körning",
+                                                      "organizer": "Bengt-Martins",
+                                                      "organizerIcon": "clubs/normalized/bengt-martins.png",
+                                                      "description": "Heldagstur på MC i grupp genom Fryksdalen och Klarälvsdalen. Frukost i Karlstad, lunch i Sunnetrakten, middag på Julins BBQ. Boka plats!",
+                                                      "descriptionFull": "En heldags tur på motorcykel i grupp genom Fryksdalen och Klarälvsdalen.\n\nFrukost i Karlstad, lunch i Sunnetrakten och middag på Julins BBQ i Karlstad ingår.\n\nFör att deltaga behöver du ha egen motorcykel och boka plats.\n\nBegränsat antal platser.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1798404704910317"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Boka plats",
+                                                                                          "url": "https://www.bengt-martins.se/gruppresor/varmlandssafari"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Romstadsvägen+2+Karlstad",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1798404704910317",
+                                                      "region": "Värmland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/varmlandssafari-back-2026-06-13.jpg"
                                     },
                                     {
                                                       "id": "doa-emilsturen-2026-06-14",
