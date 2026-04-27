@@ -207,6 +207,33 @@ const EVENTS_DATA = {
       "_ad": true
     },
     {
+      "id": "ad-honda-gold-wing-50th",
+      "name": "Gold Wing 50th Anniversary",
+      "_ad": true,
+      "date": "2026-01-01",
+      "dateEnd": "2026-12-31",
+      "location": "hondamc.se",
+      "type": "Anons",
+      "organizer": "Honda MC",
+      "description": "Honda Gold Wing firar 50 år. Världens mest kända touringhoj, från 1000cc naked 1975 till dagens 1833cc boxersexa. Från 359 900 kr i Sverige.",
+      "descriptionFull": "Honda Gold Wing firar 50 år som världens mest kända touringhoj.\n\n1975 introducerade Honda den första Gold Wing, en naked 1000cc flat four som förändrade touringvärlden för alltid. Idag har Gold Wing växt till en 1833cc boxersexa med 93 kW, 7-växlad DCT, Apple CarPlay, Android Auto och backväxel.\n\nSpeciella 50th Anniversary-modellen (2025) levererades i guld med jubileumsemblem och boken om Gold Wings 50-åriga historia.\n\n2026 års modell finns i tre färger: Deep Pearl Gray, Metallic Black och Candy Ardent Red.\n\nPris i Sverige från 359 900 kr (Gold Wing) och uppåt för Tour-versionen med toppbox och 61 liters bagageutrymme.\n\nGold Wing Club Sweden (GWCS) har funnits sedan 1981 och arrangerar träffar, körningar och internationella möten för Gold Wing-ägare i hela Sverige.\n\nMer info: hondamc.se",
+      "frontImage": "ads/gold-wing-50th-front.jpg",
+      "backImage": "ads/gold-wing-50th-back.jpg",
+      "links": [
+        {
+          "label": "Honda MC Sverige",
+          "url": "https://www.hondamc.se/products/touring/goldwing-26/"
+        },
+        {
+          "label": "GWCS",
+          "url": "https://gwcs.se/"
+        }
+      ],
+      "link": "https://www.hondamc.se/products/touring/goldwing-26/",
+      "region": "Sverige",
+      "source": "AD"
+    },
+    {
       "id": "svedea-mc-forsakring-ad-2026",
       "name": "Svedea MC-försäkring",
       "date": "2026-01-01",
