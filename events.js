@@ -18264,6 +18264,36 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com",
                                                       "backImage": "ads/biker-nights-back-2026-05-29.jpg"
                                     },
+    {
+      "id": "hermans-sjoslag-2026-05-29",
+      "name": "Hermans Sjöslag",
+      "date": "2026-05-29",
+      "dateEnd": "2026-05-31",
+      "location": "Sundet vid sjön Vidöstern, Vittaryd",
+      "type": "Träff",
+      "organizer": "Hermans Hedningar LMCK",
+      "description": "Tre dagars MC-träff vid sjön Vidöstern, 1,5 mil norr om Ljungby. Liveband B&W och Take Two, bar, mat, tatuerare, Hermans Fylle runda, lekar och prisutdelning.",
+      "descriptionFull": "Välkomna till 2026 års upplaga av Hermans sjöslag den 29-31/5 - 2026\n\nVi kommer att vara i SUNDET vid sjön VIDÖSTERN\nca 1,5 mil Norr om Ljungby\n(pilat efter avfart från E4:an. Avfart 82 trafikplats Hallsjö)\n\nGPS KOORDINATER\nWGS84 decimal (lat, lon) 56.979169, 13.986915\n\nIncheckningen öppnar på Fredagen kl 16.00 samtidigt öppnar baren och köket med mat och dricka till knutte vänliga priser.\n\nBandet börjar spela ca kl 21. I år spelar B&W\n\nLördag blir det bland annat\nHermans Fylle runda\nLekar ca kl 15.00\nPrisutdelning\n\nKvällens musik startar ca kl 19.\nTake Two partybandet från Ronneby spelar\n\nVi kommer att ha samma tatuerare igen.\nMan hittar honom på Instagram: instagram.com/hdtheswede\n\nTräffen avslutas på Söndag\n\nHermans Hedningar LMCK",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1173768674881662"
+        },
+        {
+          "label": "hermanshedningar.se",
+          "url": "https://www.hermanshedningar.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=56.979169,+13.986915",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.hermanshedningar.se/",
+      "region": "Jönköping",
+      "source": "facebook.com",
+      "backImage": "ads/hermans-sjoslag-back-2026-05-29.jpg"
+    },
                                     {
                                                       "id": "baprun-gotland-2026",
                                                       "name": "BAPRUN",
