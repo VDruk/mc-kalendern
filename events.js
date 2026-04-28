@@ -9801,6 +9801,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/abate-avrostning-back-2026-05-01-v2.jpg"
                                     },
                                     {
+                                                      "id": "smc-se-oss-vaxjo-2026",
+                                                      "name": "Se Oss",
+                                                      "date": "2026-05-01",
+                                                      "dateEnd": "2026-05-01",
+                                                      "location": "Grand Samarkand, Växjö",
+                                                      "type": "Träff",
+                                                      "organizer": "SMC Kronoberg",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "description": "MC-träff vid Grand Samarkand i Växjö. Arrangeras av SMC Kronoberg. Alla MC-åkare välkomna!",
+                                                      "link": "https://smcboken.svmc.se/traffar/mctraffar",
+                                                      "region": "Kronoberg",
+                                                      "source": "smcboken.svmc.se",
+                                                      "descriptionFull": "Välkommen till Se Oss, en MC-träff vid Grand Samarkand i Växjö!\n\nArrangeras av SMC Kronoberg. Alla MC-åkare välkomna.\n\nTid: 1 maj kl 11:00-13:00\n\nPlats: Grand Samarkand, Växjö.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "SMC Boken",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mctraffar"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Grand+Samarkand%2C+Växjö",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "jmc-besok-mc-kompaniet-2026-05-02",
                                                       "name": "Besök MC-Kompaniets Öppna Hus",
                                                       "date": "2026-05-02",
@@ -33244,6 +33270,31 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com",
                                                       "link": "https://www.facebook.com/urban.knutsson",
                                                       "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
+                                                      "id": "mini-jumbo-i-apelviken-2026",
+                                                      "name": "Mini Jumbo i Apelviken",
+                                                      "date": "2026-09-06",
+                                                      "dateEnd": "2026-09-06",
+                                                      "location": "Apelviken, Varberg",
+                                                      "type": "Träff",
+                                                      "organizer": "Sv. Sidvagnsklubben SVEA",
+                                                      "description": "Miniträff där funktionsnedsatta personer får åka i sidvagnar. Arrangeras av Svenska Sidvagnsklubben SVEA i Apelviken, Varberg.",
+                                                      "link": "https://www.sidvagn.se/",
+                                                      "region": "Halland",
+                                                      "source": "smcboken.svmc.se",
+                                                      "descriptionFull": "Välkommen till Mini Jumbo i Apelviken! Arrangeras av Svenska Sidvagnsklubben SVEA.\n\nMiniträff där funktionsnedsatta personer får åka i sidvagnar.\n\nTid: 6 september kl 12:00-15:00\n\nPlats: Apelviken, 432 53 Varberg.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "sidvagn.se",
+                                                                                          "url": "https://www.sidvagn.se/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Apelviken%2C+Varberg",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
                                     },
                                     {
                                                       "id": "doa-kvallskörning-nacka-2026-09-07",
