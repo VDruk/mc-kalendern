@@ -11080,6 +11080,37 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com",
                                                       "backImage": "ads/mc-for-alla-sasongsstart-back-2026-05-03.jpg"
                                     },
+    {
+      "id": "scrc-hall-of-odin-heldagskorning-2026-05-03",
+      "name": "Heldagskörning",
+      "date": "2026-05-03",
+      "dateEnd": "2026-05-03",
+      "location": "Circle K, Onsalamotet, Valldavägen 1238, Onsala",
+      "type": "Körning",
+      "organizer": "SCRC #738 Hall of Odin",
+      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
+      "description": "Heldagskörning med SCRC Hall of Odin. Samling kl 9:45, avfärd 10:00 från Circle K Onsalamotet. Ca 25 mil med kulturstopp och pizzalunch.",
+      "descriptionFull": "Nu är det dags för årets första helgkörning. Vi samlas 9:45 och avfärd 10:00.\n\nDet blir en tur på ca 25 mil, och vi kommer att stanna för att vara lite kulturella, där vi också kommer att inta egen medhavd fika. Inträde till detta ställe är 70:-/person.\n\nVi kommer senare att stanna för att äta på pizzeria.\n\nSom vanligt så blir det lugn körning anpassad till deltagarna, och bensträckare med jämna mellanrum.\n\nGlöm inte att ta med egen fika, och vätska när vi stannar för bensträckare.\n\nVälkomna\nSture/RC",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1638907014107325"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/738hallofodin"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Onsalamotet+Valldavägen+1238+Onsala",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/738hallofodin",
+      "region": "Halland",
+      "source": "facebook.com",
+      "backImage": "ads/scrc-hall-of-odin-heldagskorning-back-2026-05-03.jpg"
+    },
                                     {
                                                       "id": "doa-kvallskörning-nacka-2026-05-04",
                                                       "name": "DOA - Kvällskörning Nacka",
