@@ -9037,6 +9037,31 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/smc-valborgskortege-linkoping-back-2026-04-30.jpg"
                                     },
                                     {
+                                                      "id": "smc-mc-traff-kumla-torg-2026",
+                                                      "name": "Traditionsenlig MC-träff på Kumla torg",
+                                                      "date": "2026-04-30",
+                                                      "dateEnd": "2026-04-30",
+                                                      "location": "Kumla torg 1, Kumla",
+                                                      "type": "Träff",
+                                                      "organizer": "Kumla Promotion",
+                                                      "description": "Traditionsenlig MC-träff mitt i centrala Kumla. Alla MC-åkare välkomna att samlas på torget. Arrangeras av Kumla Promotion i samarbete med SMC Örebro.",
+                                                      "link": "https://smcboken.svmc.se/traffar/mctraffar",
+                                                      "region": "Örebro",
+                                                      "source": "smcboken.svmc.se",
+                                                      "descriptionFull": "Välkommen till en traditionsenlig MC-träff mitt i centrala Kumla! Arrangeras av Kumla Promotion i samarbete med SMC Örebro.\n\nSamling på Kumla torg 1. Alla MC-åkare välkomna!\n\nTid: 30 april kl 14:00-18:10\n\nPlats: Kumla torg 1, 692 30 Kumla.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "SMC Boken",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mctraffar"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kumla+torg+1%2C+Kumla",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "1-majkortege-norrkoping-2026",
                                                       "name": "1 Majkortege Norrköping",
                                                       "date": "2026-05-01",
