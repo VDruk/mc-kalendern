@@ -19215,6 +19215,36 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com",
                                                       "backImage": "ads/kilmister-mc-15ar-back-2026-05-30.jpg"
                                     },
+    {
+      "id": "fmck-uppsala-gruskurs-2026-05-30",
+      "name": "Gruskurs Nivå 1 & 2",
+      "date": "2026-05-30",
+      "dateEnd": "2026-05-31",
+      "location": "Rörken Motorstadion, Uppsala",
+      "type": "Körning",
+      "organizer": "FMCK Uppsala",
+      "description": "Gruskurs för adventure/offroad MC, nivå 1 och 2. Två dagar vid Rörken Motorstadion. Start 09:00. 950 kr/dag, 10 platser. Anmälan: gruskurs@fmckuppsala.se",
+      "descriptionFull": "Årets andra Gruskurs nivå 1+2 är äntligen öppen för anmälan!\n\nKursen riktar sig till dig med adventure, offroad eller liknande MC.\nDu kanske precis börjat köra, eller bara behöver en repetition av grunderna.\n\nFöljande datum erbjuds:\nv22 30-31 Maj\nStart 09:00, slut ca 16:00\n\nPlats: Rörken Motorstadion\n\nKrav: Laglig trafiksäker MC och utrustning. Körkort för MC, vi kontrollerar detta på plats.\n\nFörtäring: Lättare fika ingår i avgiften. Lunch äts medhavd eller på annan plats.\n\nPris: 950 SEK per dag, betalas i förskott innan kursstart.\n10 platser, först till kvarn gäller.\n\nInformation: Antagningsbrev mailas ut efter anmälan med bl.a. betalningsinformation, plats, schema och så vidare.\n\nAnmälan till: gruskurs@fmckuppsala.se",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1403230608514253&set=a.558820029621986"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/FMCKUppsala"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Rörken+Motorstadion+Uppsala",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/FMCKUppsala",
+      "region": "Uppsala",
+      "source": "facebook.com",
+      "backImage": "ads/fmck-gruskurs-back-2026-05-30.jpg"
+    },
                                     {
                                                       "id": "bmw-d15-mats-och-bodils-tur-2026",
                                                       "name": "D15 Mats och Bodils tur",
