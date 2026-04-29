@@ -9010,6 +9010,38 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "jmc-valborg-till-linkoping-2026",
+                                                      "name": "Valborgsåkning till Linköping",
+                                                      "date": "2026-04-30",
+                                                      "dateEnd": "2026-04-30",
+                                                      "time": "11:30",
+                                                      "type": "Körning",
+                                                      "region": "Jönköping",
+                                                      "location": "ST1 Asecs, Jönköping",
+                                                      "organizer": "JMC Samåkning Småland",
+                                                      "organizerIcon": "clubs/normalized/jmc.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/groups/mcsamakning/events",
+                                                      "description": "Samåkning från Jönköping till Linköping för Valborgskortegen. Samling ST1 A6 kl 11:30, avfärd 11:45. Mat och fikastopp. Kortege i Linköping kl 18:00.",
+                                                      "descriptionFull": "Linköping med besök i valfri butik. MC kortege startar 18:00. Fika/mat stopp på vägen, fika/mat/glass innan kortege, fika/mat/glass på vägen hem.\n\n11:30 ST1 A6.\n11:45 rullar i fart.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1292057552368461"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/groups/mcsamakning/events"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=ST1+Asecs+J%C3%B6nk%C3%B6ping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/jmc-linkoping-kortege-back-2026-04-30.jpg"
+                                    },
+                                    {
                                                       "id": "smc-valborgskortege-linkoping-2026",
                                                       "name": "Valborgskortege Linköping - Skänninge",
                                                       "date": "2026-04-30",
@@ -20891,6 +20923,37 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/vrs-nationaldagstur-goteborg-back-2026-06-06.jpg"
                                     },
                                     {
+                                                      "id": "frambo-mopperally-2026-06-06",
+                                                      "name": "Frambo Mopperally",
+                                                      "date": "2026-06-06",
+                                                      "dateEnd": "2026-06-06",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Västra Götaland",
+                                                      "location": "Trökörna Frambo Bygdegård, Grästorp",
+                                                      "organizer": "Trökörna-Frambo bygdegård",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/trokornaframbo",
+                                                      "description": "Mopperally i Trökörna. Start kl 10, startavgift 150 kr inkl. kaffe och kaka. Teknikbana, tipsrunda och presentkort till vinnarna. Servering med hamburgare och fika.",
+                                                      "descriptionFull": "I år kör vi!!\n\nStart kl 10.\n\nStartavgift: 150 kr inkl. kaffe och kaka innan start (betalas på plats).\n\nTeknikbana kommer att finnas.\n\nPresentkort finns i potten till vinnarna i tipsrundan och teknikbanan.\n\nServering med hamburgare, dryck, kaffe och fika.\n\nVarmt välkommen! Dela gärna evenemanget!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/35441147818832540/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/trokornaframbo"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%B6k%C3%B6rna+Frambo+Bygdeg%C3%A5rd+1%2C+Gr%C3%A4storp",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/frambo-mopperally-back-2026-06-06.jpg"
+                                    },
+                                    {
                                                       "id": "adventurebike-gruskurs-niva1-2026-06-07",
                                                       "name": "Gruskurs nivå 1",
                                                       "date": "2026-06-07",
@@ -25553,6 +25616,10 @@ const EVENTS_DATA = {
                                                       "description": "Bikeshow i Döbelns Park med chopper, bobber, custom, classic och café-racer. Mat, musik och fri entré!",
                                                       "descriptionFull": "Umeå Bikeshow 2026\n\nDöbelns Park, Umeå\n4 Juli 2026\n\nChopper, Bobber, Custom, Classic, Café-Racer\nMat, Musik\nFri Entré",
                                                       "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1008121955218406"
+                                                                        },
                                                                         {
                                                                                           "label": "FB Inlägg",
                                                                                           "url": "https://www.facebook.com/photo/?fbid=1301969662148510&set=a.503432948668856"
