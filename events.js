@@ -9859,6 +9859,34 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "smc-dalarna-vartur-2026-05-02",
+                                                      "name": "Vårtur i strålande solsken",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Circle K, Borlänge",
+                                                      "organizer": "SMC Dalarna",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/groups/456537297764500/",
+                                                      "description": "Årlig vårtur på Motorcykelns dag. Ca 20 mil med lunchstopp i Rättvik. Samling Circle K Borlänge kl 10:00. Damma av motorcykeln och njut av fina vägar.",
+                                                      "descriptionFull": "På Motorcykelns dag kör SMC Dalarna den årliga vårturen för att damma av och känna på motorcykeln.\n\nDet blir ca 20 mil med ett trevlig lunch stopp i Rättvik. Häng med och njut av fina vägar.\n\nSamling vid Circle K i Borlänge kl 10.00 på Lördag 2 maj.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/groups/456537297764500/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Borl%C3%A4nge",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-dalarna-vartur-back-2026-05-02.jpg"
+                                    },
+                                    {
                                                       "id": "jmc-besok-mc-kompaniet-2026-05-02",
                                                       "name": "Besök MC-Kompaniets Öppna Hus",
                                                       "date": "2026-05-02",
