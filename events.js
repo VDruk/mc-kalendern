@@ -24513,6 +24513,37 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/imrg-big-lake-back.jpg"
                                     },
                                     {
+                                                      "id": "osterstad-if-mopedrally-2026-06-27",
+                                                      "name": "Mopedrally Hjärt-Rundan",
+                                                      "date": "2026-06-27",
+                                                      "dateEnd": "2026-06-27",
+                                                      "time": "13:00",
+                                                      "type": "Körning",
+                                                      "region": "Östergötland",
+                                                      "location": "Östvalla, Motala",
+                                                      "organizer": "Österstad IF",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/groups/54140541596/",
+                                                      "description": "MopedRally med en hjärtformad slinga på 3,6 mil från Östvalla. Klurig tipspromenad, Go-fika och korv vid målgång. Pris till finaste mopeden. Avgift 100 kr.",
+                                                      "descriptionFull": "MopedRally 27 Juni 2026 Hjärt-Rundan. Välkommna!\n\nLördagen den 27 Juni med start kl 13:00 från Östvalla. Slinga är på ca 3,6 mil. Vi tar oss igenom landsbygden med en klurig tipspromenad och en härlig Go-fika.\n\nVid målgång kl 15:00 bjuder vi på korv med bröd. Pris till den finaste mopeden (utses av deltagarna). Avgift 100 kr.\n\nSträckan är på 3,6 mil. Vi åker åt andra hållet i år (motsols).\n\n12:00 Inskrivning/anmälan öppnar.\n13:00 Startar Mopedrallyt.\n15:00 Målgång samt uppstart med fler aktiviteter på Östvalla.\n\nVid frågor kontakta: Patrik Welin 070-334 88 22",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/914331814735127"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/groups/54140541596/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%96stvalla+Motala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/osterstad-if-mopedrally-back-2026-06-27.jpg"
+                                    },
+                                    {
                                                       "id": "jmc-sondagsrundan-2026-06-28",
                                                       "name": "Söndagsrundan",
                                                       "date": "2026-06-28",
