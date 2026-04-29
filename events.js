@@ -27063,6 +27063,45 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/wilma-memorial-run-back-2026-07-18.jpg"
                                     },
                                     {
+                                                      "id": "big-air-freestyle-show-leksand-2026-07-18",
+                                                      "name": "BIG AIR - Freestyle Show",
+                                                      "date": "2026-07-18",
+                                                      "dateEnd": "2026-07-18",
+                                                      "time": "12:00",
+                                                      "type": "Show",
+                                                      "region": "Dalarna",
+                                                      "location": "Hembygdsgårdarna, Leksand",
+                                                      "organizer": "MKRS",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/mkrs.se",
+                                                      "description": "Freestyle motocross på toppnivå med Fredrik FROG Berggren i spetsen. Höga hopp och brutala tricks. Show 13:00, meet & greet 14:00. Food trucks. Biljetter på mkrs.se.",
+                                                      "descriptionFull": "Motorerna vrålar, pulsen stiger och luften fylls av adrenalin. Låt oss presentera BIG AIR - Freestyle Show, där gränser suddas ut och fysikens lagar sätts ur spel. För hela Familjen!\n\nUpplev freestyle motocross på absolut toppnivå när några av landets mest orädda förare med Fredrik FROG Berggren i spetsen kastar sig ut i luften och levererar trick du knappt trodde var möjliga. Höga hopp, brutala tricks och en stämning som slår det mesta.\n\n▸ ÅLDERSGRÄNS\nIngen åldersgräns!\n\n▸ TIDER\n12.00 - Välkomna\n13.00 - Big Air - Freestyle Show\n14.00 - Meet & greet\n15.00 - Tack för idag\n\n▸ BILJETTER\nhttps://nortic.se/ticket/event/81980\n\n▸ INFORMATION\nDatum: 18 juli 2026\nPlats: vid Hembygdsgårdarna, Kyrkallén\nLäs mer på www.mkrs.se\n\n▸ ÖVRIGT\nPå området finns aktiviteter & food trucks.\n\n▸ KONTAKT\nhej@mkrs.se\n\nVarmt välkomna till Leksand!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1597897941314410"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/mkrs.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Biljetter",
+                                                                                          "url": "https://nortic.se/ticket/event/81980"
+                                                                        },
+                                                                        {
+                                                                                          "label": "mkrs.se",
+                                                                                          "url": "https://www.mkrs.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Hembygdsg%C3%A5rdarna+Kyrkall%C3%A9n+Leksand",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/big-air-freestyle-show-back-2026-07-18.jpg"
+                                    },
+                                    {
                                                       "id": "doa-emilsturen-2026-07-19",
                                                       "name": "DOA - Emilsturen",
                                                       "date": "2026-07-19",
