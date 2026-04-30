@@ -9875,6 +9875,14 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "På Motorcykelns dag kör SMC Dalarna den årliga vårturen för att damma av och känna på motorcykeln.\n\nDet blir ca 20 mil med ett trevlig lunch stopp i Rättvik. Häng med och njut av fina vägar.\n\nSamling vid Circle K i Borlänge kl 10.00 på Lördag 2 maj.",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1378320544330854&set=a.549213253908258"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/smcdalarna"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/456537297764500/"
                                                                         },
@@ -9885,6 +9893,33 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "backImage": "ads/smc-dalarna-vartur-back-2026-05-02.jpg"
+                                    },
+                                    {
+                                                      "id": "vsm-glassrunda-ahus-2026-05-02",
+                                                      "name": "Glassrunda Åhus",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "time": "17:00",
+                                                      "type": "Körning",
+                                                      "region": "Skåne",
+                                                      "location": "Biltema, Öllegårdsväg 2, Kristianstad",
+                                                      "organizer": "Vi som kör mc i Skåne",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1515502983343085/",
+                                                      "description": "Glassrunda till Åhus hamn på slingriga skånska vägar, ca 2 timmar. Samling Biltema Kristianstad kl 17:00, avfärd 17:15. Möjlighet att köra tillbaka tillsammans efter glassen.",
+                                                      "descriptionFull": "Glassrunda till Åhus på slingriga fina skånska vägar. Planerad rutt tar cirka 2 h med avslut i Åhus hamn. För den som önskar kan rundan fortsätta efter glasstoppet tillbaka mot Kristianstad.\n\nTräffas Biltema Kristianstad vid stora skylten kl. 17:00 med avfärd kl. 17:15.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1515502983343085/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+%C3%96lleg%C3%A5rdsv%C3%A4g+2+Kristianstad",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/glassrunda-ahus-back-2026-05-02.jpg"
                                     },
                                     {
                                                       "id": "jmc-besok-mc-kompaniet-2026-05-02",
@@ -22025,6 +22060,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
+                                                      "id": "goodguystraffen-arjang-2026-06-12",
+                                                      "name": "Goodguysträffen",
+                                                      "date": "2026-06-12",
+                                                      "dateEnd": "2026-06-14",
+                                                      "type": "Fest",
+                                                      "region": "Värmland",
+                                                      "location": "Brännaregatan 6, 672 31 Årjäng",
+                                                      "organizer": "Goodguys Mc",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/photo/?fbid=10164828527929551&set=gm.10162264837795759",
+                                                      "description": "Goodguys MC Touringklubbs träff i Årjäng. God mat, tilltugg, musik, badresa och musikquiz. All inclusive 600 kr. Anmälan obligatorisk till Tony 070-553 23 28.",
+                                                      "descriptionFull": "Välkomna till Goodguysträffen!\n\nVälkomna bikers! Till en träff med god mat, bra med tilltugg, duschar och toaletter, musik, badresa, musikquiz mm.\n\nTräffavgift \"All inclusive\" 600:- för allt (om dryck hela helgen).\n\nOBS! Anmälan obligatorisk senast den 31 maj.\n\nAnmälan Tony på 070-553 23 28.\n\nPlats: Brännaregatan, Årjäng\nDatum: 12-14 juni 2026",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=10164828527929551&set=gm.10162264837795759"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Br%C3%A4nnaregatan+6+%C3%85rj%C3%A4ng",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/goodguystraffen-back-2026-06-12.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-bmwklubben-norge-d8-telemarken-runt-2026",
                                                       "name": "BMWKLUBBEN Norge/D8 Telemarken runt",
                                                       "date": "2026-06-13",
@@ -27756,6 +27817,32 @@ const EVENTS_DATA = {
                                                       "region": "Dalarna",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/veteranmarknad-rattvik-back-2026-07-24-v2.jpg"
+                                    },
+                                    {
+                                                      "id": "limestone-sommarfest-2026-07-24",
+                                                      "name": "Limestone sommarfest",
+                                                      "date": "2026-07-24",
+                                                      "dateEnd": "2026-07-26",
+                                                      "type": "Fest",
+                                                      "region": "Gotland",
+                                                      "location": "Herkulesvägen 10, Visby",
+                                                      "organizer": "Limestone HC Gotland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/photo/?fbid=10162720043568372&set=gm.27087879047470450",
+                                                      "description": "Sommarfest hos Limestone HC i klubblokalen i Visby. Mat och dryck till humana priser. Inträde 300 kr. Rabattkod till färjan kommer senare.",
+                                                      "descriptionFull": "Limestone sommarfest 24-26/7 i klubblokalen på Herkulesvägen 10, Visby.\n\nIngen camping utanför klubblokalen.\n\nMat och dryck till humana priser.\n\nInträde 300 kr.\n\nRabattkod till färjan kommer senare.\n\nMer info Berra 0764032343.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=10162720043568372&set=gm.27087879047470450"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Herkulesv%C3%A4gen+10+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/limestone-sommarfest-back-2026-07-24.jpg"
                                     },
                                     {
                                                       "id": "afrikansk-afton-2026",
