@@ -15512,11 +15512,11 @@ const EVENTS_DATA = {
                                                       "name": "The Distinguished Gentleman's Ride",
                                                       "date": "2026-05-17",
                                                       "dateEnd": "2026-05-17",
-                                                      "location": "6 städer i Sverige",
+                                                      "location": "7 städer i Sverige",
                                                       "type": "Körning",
                                                       "organizer": "The Distinguished Gentleman's Ride",
-                                                      "description": "Globalt välgörenhetsevent för prostatacancer och psykisk ohälsa. 17 maj kör gentlemen i Göteborg, Karlstad, Stockholm, Sundsvall, Umeå och Västervik.",
-                                                      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa. 2026 fyller DGR 15 år.\n\nI Sverige körs DGR den 17 maj på sex orter:\n\n- Göteborg\n- Karlstad\n- Stockholm (kl 9:30)\n- Sundsvall (kl 9:00)\n- Umeå (kl 10:00)\n- Västervik (kl 10:00)\n\nDresscode: dapper! Tänk tweed, slips och stil. Kör en klassiker och gör skillnad.\n\nDressing dapper, riding classics, comradery, and raising money for men's health. There is truly nothing like the atmosphere of The Distinguished Gentleman's Ride.\n\nAnmäl dig på gentlemansride.com",
+                                                      "description": "Globalt välgörenhetsevent för prostatacancer och psykisk ohälsa. 17 maj kör gentlemen i Göteborg, Karlstad, Lidköping, Stockholm, Sundsvall, Umeå och Västervik.",
+                                                      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa. 2026 fyller DGR 15 år.\n\nI Sverige körs DGR den 17 maj på sju orter:\n\n- Göteborg\n- Karlstad\n- Lidköping (MC-Konsult)\n- Stockholm (kl 9:30)\n- Sundsvall (kl 9:00)\n- Umeå (kl 10:00)\n- Västervik (kl 10:00)\n\nDresscode: dapper! Tänk tweed, slips och stil. Kör en klassiker och gör skillnad.\n\nAnmäl dig på gentlemansride.com",
                                                       "link": "https://www.gentlemansride.com",
                                                       "region": "Sverige",
                                                       "source": "gentlemansride.com",
@@ -15555,6 +15555,32 @@ const EVENTS_DATA = {
                                                                         {
                                                                                           "label": "DGR",
                                                                                           "url": "https://www.gentlemansride.com"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
+                                                      "id": "dgr-lidkoping-2026-05-17",
+                                                      "name": "The Distinguished Gentleman's Ride",
+                                                      "date": "2026-05-17",
+                                                      "dateEnd": "2026-05-17",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "Mc-konsult i Lidköping",
+                                                      "description": "Världsomfattande välgörenhetstur för prostatacancer och psykisk ohälsa. Klä dig som en gentleman, kör en klassiker och gör skillnad! Samling vid MC-Konsult.",
+                                                      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa.\n\nI Lidköping samlas vi vid MC-Konsult och kör en gemensam tur som äkta gentlemen. Dresscode: dapper! Tänk tweed, slips och stil.\n\n15 år av DGR worldwide. Classic motorcycles unite for men's health.\n\nHåll utkik på gentlemansride.com för mer info om samlingsplats och rutt.\n\nPlats: MC-Konsult, Kinnegatan 15, 531 33 Lidköping.",
+                                                      "link": "https://www.gentlemansride.com",
+                                                      "region": "Västra Götaland",
+                                                      "source": "gentlemansride.com",
+                                                      "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "DGR",
+                                                                                          "url": "https://www.gentlemansride.com"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidk%C3%B6ping",
+                                                                                          "type": "map"
                                                                         }
                                                       ]
                                     },
@@ -18374,6 +18400,32 @@ const EVENTS_DATA = {
                                                       "region": "Litauen",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/biker-nights-back-2026-05-29.jpg"
+                                    },
+                                    {
+                                                      "id": "indian-roadshow-mckonsult-2026-05-29",
+                                                      "name": "Indian Roadshow Provkörningar",
+                                                      "date": "2026-05-29",
+                                                      "dateEnd": "2026-05-29",
+                                                      "type": "Show",
+                                                      "region": "Västra Götaland",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "organizer": "Mc-konsult i Lidköping",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/mckonsult",
+                                                      "description": "Indian Motorcycle Roadshow hos MC-Konsult i Lidköping. Provkör de senaste modellerna från Indian.",
+                                                      "descriptionFull": "Indian Roadshow med provkörningar hos MC-Konsult i Lidköping.\n\nKom och provkör de senaste modellerna ur Indian Motorcycles sortiment.\n\nPlats: MC-Konsult, Kinnegatan 15, 531 33 Lidköping\nTel: 0510-24035",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/mckonsult"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidk%C3%B6ping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/indian-roadshow-mckonsult-back-2026-05-29.jpg"
                                     },
     {
       "id": "hermans-sjoslag-2026-05-29",
