@@ -22846,6 +22846,37 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
+                                                      "id": "triumph-ride-the-legends-jonkoping-2026-06-16",
+                                                      "name": "Ride the Legends Test Ride Tour",
+                                                      "date": "2026-06-16",
+                                                      "dateEnd": "2026-06-16",
+                                                      "time": "14:00",
+                                                      "type": "Show",
+                                                      "region": "Jönköping",
+                                                      "location": "Lillsjöplan 4, Jönköping",
+                                                      "organizer": "Triumph Motorcycles",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/OfficialTriumphSweden",
+                                                      "description": "Triumphs provkörningsevent med tio modeller. Ingen förbokning krävs, ta med MC-utrustning. Varumärkesambassadör Hanna C. Johansson på plats. 14:00-20:00.",
+                                                      "descriptionFull": "Triumph Motorcycles \"Ride the Legends Test Ride Tour\" kommer till Jönköping i år igen!\n\nEfter förra årets succé återkommer vi med vårt provkörningsevent.\n\n16 Juni\nPlats: Lillsjöplan, Jönköping\nTid: 14.00-20.00\n\nÄr du redo att uppleva legendariska motorcyklar? Kom och provkör Triumphs senaste modeller och hitta din nya favorit! Vi har med oss ett brett utbud av motorcyklar redo för dig att testa.\n\nIngen förbokning krävs. Ta med din MC-utrustning och kom förbi för en provkörning, kanske hittar du din nya drömhoj!\n\nPå plats finns även vår varumärkesambassadör Hanna C. Johansson. Kom och snacka hoj och inspireras av hennes spännande äventyrsresor.\n\nVi har med oss följande modeller:\n- Scrambler 400 XC\n- Scrambler 900\n- Scrambler 1200 XE\n- Speed Twin 1200\n- Speed Triple 1200 RS\n- Street Triple 765 RX\n- Bonneville T120 Black\n- Trident 800\n- Tiger 900 Desert Edition\n- Tiger 1200 Desert Edition\n\nHar du några frågor? Hör av dig till: nordic@triumph.co.uk\n\nHoppas vi ses!\nTriumph Nordic",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/2000261794175203"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/OfficialTriumphSweden"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Lillsj%C3%B6plan+4+J%C3%B6nk%C3%B6ping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/triumph-ride-the-legends-jonkoping-back-2026-06-16.jpg"
+                                    },
+                                    {
                                                       "id": "condios-djurspatraffen-2026",
                                                       "name": "Djurspaträffen",
                                                       "date": "2026-06-17",
