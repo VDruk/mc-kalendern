@@ -11073,58 +11073,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/mc-for-alla-sasongsstart-back-2026-05-03.jpg"
                                     },
                                     {
-                                                      "id": "oamck-fikakvall-vietnam-japan-2026-05-03",
-                                                      "name": "Fikakväll med bilder från Vietnam och Japan",
+                                                      "id": "oamck-fikakvall-2026-05-03",
+                                                      "name": "Fikakväll i Klubbkåken (Mats Hjelm)",
                                                       "date": "2026-05-03",
                                                       "dateEnd": "2026-05-03",
+                                                      "time": "19:00",
                                                       "location": "Klubbkåken, Stångby 1, Uppsala",
                                                       "type": "Träff",
-                                                      "organizer": "ÖAMCK",
-                                                      "description": "Fikakväll med bildvisning från MC-resor i Vietnam och Japan. Två reseberättelser på samma kväll i Klubbkåken.",
-                                                      "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-6/",
                                                       "region": "Uppsala",
-                                                      "source": "oamck.se",
-                                                      "descriptionFull": "Fikakväll med bildvisning från MC-resor i Vietnam och Japan. Två reseberättelser på samma kväll i Klubbkåken.\n\nStart kl 19:00. Alla välkomna!",
+                                                      "organizer": "ÖAMCK",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
+                                                      "source": "oamck.se",
+                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-8/",
+                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken i Stångby. Fikavärd: Mats Hjelm. Start kl 19:00. Alla medlemmar välkomna.",
+                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken i Stångby.\n\nFikavärd: Mats Hjelm.\n\nStart kl 19:00. Ta med fika och häng med liksinnade MC-entusiaster. Alla medlemmar välkomna!",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-6/"
+                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-8/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=St%C3%A5ngby+1%2C+754+73+Uppsala",
                                                                                           "type": "map"
                                                                         }
-                                                      ]
-                                    },
-                                    {
-                                                      "id": "oamck-ordonnansavrostning-2026-05-03",
-                                                      "name": "Ordonnansavrostning",
-                                                      "date": "2026-05-03",
-                                                      "dateEnd": "2026-05-03",
-                                                      "location": "Rörken, Uppsala",
-                                                      "type": "Träff",
-                                                      "organizer": "ÖAMCK",
-                                                      "description": "MC-ordonnansernas avrostning på Rörken. Dags att damma av uniformerna och hojen. Kl 09:00, samling på Rörken.",
-                                                      "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/",
-                                                      "region": "Uppsala",
-                                                      "source": "oamck.se",
-                                                      "descriptionFull": "MC-ordonnansernas avrostning på Rörken. Dags att damma av uniformerna och hojen inför den nya säsongen.\n\nKl 09:00. Samling på Rörken, Uppsala.",
-                                                      "organizerIcon": "clubs/normalized/oamck.png",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%B6rken%2C+Uppsala",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
+                                                      ],
+                                                      "backImage": "ads/oamck-klubbkaken-back.jpg"
                                     },
                                     {
                                                       "id": "peter-linden-halmstad-2026-05-03",
@@ -11417,7 +11391,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-knixpremiar-2026",
-                                                      "name": "Knixpremiar",
+                                                      "name": "Knixpremiär",
                                                       "date": "2026-05-04",
                                                       "dateEnd": "2026-05-04",
                                                       "location": "Rörken, Uppsala",
@@ -13520,23 +13494,23 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-fikakvall-2026-05-10",
-                                                      "name": "Fikakväll i Klubbkåken",
+                                                      "name": "Fikakväll i Klubbkåken (Christer Oliveskog)",
                                                       "date": "2026-05-10",
                                                       "dateEnd": "2026-05-10",
                                                       "location": "Klubbkåken, Stångby 1, Uppsala",
                                                       "type": "Träff",
                                                       "organizer": "ÖAMCK",
-                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
+                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken i Stångby. Fikavärd: Christer Oliveskog. Start kl 19:00. Alla medlemmar välkomna.",
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-7/",
+                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-9/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar. Ta med fika och häng med liksinnade MC-entusiaster.\n\nStart kl 19:00. Alla välkomna!",
+                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken i Stångby.\n\nFikavärd: Christer Oliveskog.\n\nStart kl 19:00. Ta med fika och häng med liksinnade MC-entusiaster. Alla medlemmar välkomna!",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-7/"
+                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-9/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
@@ -13881,33 +13855,6 @@ const EVENTS_DATA = {
                                                       ],
                                                       "backImage": "ads/mcv-osterlen-back.jpg",
                                                       "organizerIcon": "clubs/normalized/mcv-osterlen.png"
-                                    },
-                                    {
-                                                      "id": "oamck-klubbdag-daglediga-2026-05-13",
-                                                      "name": "Klubbdag för daglediga",
-                                                      "date": "2026-05-13",
-                                                      "dateEnd": "2026-05-13",
-                                                      "location": "Rörken, Uppsala",
-                                                      "type": "Träff",
-                                                      "organizer": "ÖAMCK",
-                                                      "description": "Klubbdag på Rörken för dig som är ledig dagtid. Kl 10:00. Fika, snack och kanske en tur om vädret tillåter.",
-                                                      "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/",
-                                                      "region": "Uppsala",
-                                                      "source": "oamck.se",
-                                                      "descriptionFull": "Klubbdag på Rörken för dig som är ledig dagtid. Kl 10:00.\n\nFika, snack och kanske en tur om vädret tillåter. Perfekt för pensionärer, skiftarbetare och andra med ledig vardag.",
-                                                      "organizerIcon": "clubs/normalized/oamck.png",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%B6rken%2C+Uppsala",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
                                     },
                                     {
                                                       "id": "onsdagskorning-gotland-2026-05-13",
@@ -14527,23 +14474,23 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-kristi-himmelfards-touring-2026-05-14",
-                                                      "name": "Kristi Himmelsfärdstouring",
+                                                      "name": "Dagtouring på Kristi Himmelsfärd",
                                                       "date": "2026-05-14",
                                                       "dateEnd": "2026-05-14",
                                                       "location": "Lelles MC, Nymansgatan 6, Uppsala",
                                                       "type": "Körning",
                                                       "organizer": "ÖAMCK",
-                                                      "description": "Dagstur med ÖAMCK på Kristi Himmelsfärdsdag. Samling kl 10:00 vid Lelles MC. Gemensam MC-tur genom fina vägar.",
+                                                      "description": "Extra Dagtouring på Kristi Himmelsfärds Dag med Anders Hjelm som färdledare. Samling vid Lelles parkering kl 10. Alla hojåkare välkomna!",
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/",
+                                                      "link": "https://oamck.se/events/dagtouring-pa-kristi-himmelsfard/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "Dagstur med ÖAMCK på Kristi Himmelsfärdsdag. Samling kl 10:00 vid Lelles MC, Nymansgatan 6, Uppsala.\n\nGemensam MC-tur genom fina vägar. Ta med bra humör och körglada vänner!",
+                                                      "descriptionFull": "På Kristi Himmelsfärds Dag när de flesta är lediga från jobb och sånt, kör vi en extra Dagtouring med Anders Hjelm som färdledare.\n\nAlla hojåkare välkomna! Samling vid Lelles parkering kl 10 som vanligt.\n\nPlats: Lelles MC, Nymansgatan 6, Uppsala.\nTid: 10:00-15:30.",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/"
+                                                                                          "url": "https://oamck.se/events/dagtouring-pa-kristi-himmelsfard/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
@@ -15506,17 +15453,17 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-hemlig-resa-maj-2026",
-                                                      "name": "Hemlig resa",
+                                                      "name": "Hemlig resa (OBS Inställt)",
                                                       "date": "2026-05-16",
                                                       "dateEnd": "2026-05-17",
-                                                      "location": "Hemligt",
+                                                      "location": "Uppsala (Hemlig destination)",
                                                       "type": "Körning",
                                                       "organizer": "ÖAMCK",
-                                                      "description": "Dagstur med ÖAMCK från Hemligt. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.",
+                                                      "description": "INSTÄLLT. Hemlig resa med ÖAMCK den 16-17 maj är inställd.",
                                                       "link": "https://oamck.se/events/hemlig-resa/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "Hemlig resa arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Hemligt. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Hemligt.",
+                                                      "descriptionFull": "OBS! Denna hemliga resa har ställts in.\n\nÖAMCK:s hemliga resa 16-17 maj 2026 är inställd. Mer info kommer senare på oamck.se.",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
@@ -16096,23 +16043,23 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-fikakvall-2026-05-17",
-                                                      "name": "Fikakväll i Klubbkåken",
+                                                      "name": "Fikakväll i Klubbkåken (Peter Appelqvist)",
                                                       "date": "2026-05-17",
                                                       "dateEnd": "2026-05-17",
                                                       "location": "Klubbkåken, Stångby 1, Uppsala",
                                                       "type": "Träff",
                                                       "organizer": "ÖAMCK",
-                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
+                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken i Stångby. Fikavärd: Peter Appelqvist. Start kl 19:00. Alla medlemmar välkomna.",
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-8/",
+                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-10/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar. Ta med fika och häng med liksinnade MC-entusiaster.\n\nStart kl 19:00. Alla välkomna!",
+                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken i Stångby.\n\nFikavärd: Peter Appelqvist.\n\nStart kl 19:00. Ta med fika och häng med liksinnade MC-entusiaster. Alla medlemmar välkomna!",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-8/"
+                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-10/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
@@ -17917,23 +17864,23 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-fikakvall-2026-05-24",
-                                                      "name": "Fikakväll i Klubbkåken",
+                                                      "name": "Fikakväll i Klubbkåken (Anders F Eriksson)",
                                                       "date": "2026-05-24",
                                                       "dateEnd": "2026-05-24",
                                                       "location": "Klubbkåken, Stångby 1, Uppsala",
                                                       "type": "Träff",
                                                       "organizer": "ÖAMCK",
-                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
+                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken i Stångby. Fikavärd: Anders F Eriksson. Start kl 19:00. Alla medlemmar välkomna.",
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-9/",
+                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-11/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar. Ta med fika och häng med liksinnade MC-entusiaster.\n\nStart kl 19:00. Alla välkomna!",
+                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken i Stångby.\n\nFikavärd: Anders F Eriksson.\n\nStart kl 19:00. Ta med fika och häng med liksinnade MC-entusiaster. Alla medlemmar välkomna!",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-9/"
+                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-11/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
@@ -20084,23 +20031,23 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-fikakvall-2026-05-31",
-                                                      "name": "Fikakväll i Klubbkåken",
+                                                      "name": "Fikakväll i Klubbkåken (Jan Lindberg)",
                                                       "date": "2026-05-31",
                                                       "dateEnd": "2026-05-31",
                                                       "location": "Klubbkåken, Stångby 1, Uppsala",
                                                       "type": "Träff",
                                                       "organizer": "ÖAMCK",
-                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
+                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken i Stångby. Fikavärd: Jan Lindberg. Start kl 19:00. Alla medlemmar välkomna.",
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-10/",
+                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-12/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar. Ta med fika och häng med liksinnade MC-entusiaster.\n\nStart kl 19:00. Alla välkomna!",
+                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken i Stångby.\n\nFikavärd: Jan Lindberg.\n\nStart kl 19:00. Ta med fika och häng med liksinnade MC-entusiaster. Alla medlemmar välkomna!",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-10/"
+                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-12/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
@@ -21512,7 +21459,7 @@ const EVENTS_DATA = {
                                                       "link": "https://oamck.se/events/nationaldagsloppet-ordonnanser/",
                                                       "region": "Stockholm",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "Nationaldagsloppet (ordonnanser) arrangeras av MC-ordonnans.\n\nGemensam körning från Stockholm. Samling enligt evenemangsinformation. Alla bikerare välkomna!\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Stockholm.",
+                                                      "descriptionFull": "MC-ordonnanser arrangerar trafiksäkring under Nationaldagsloppet i Stockholm den 6 juni 2026.\n\nKl 08:00-17:00. Mer info på oamck.se.",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
@@ -21923,23 +21870,23 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-fikakvall-2026-06-07",
-                                                      "name": "Fikakväll i Klubbkåken",
+                                                      "name": "Fikakväll i Klubbkåken (Andreas Brodin)",
                                                       "date": "2026-06-07",
                                                       "dateEnd": "2026-06-07",
                                                       "location": "Klubbkåken, Stångby 1, Uppsala",
                                                       "type": "Träff",
                                                       "organizer": "ÖAMCK",
-                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
+                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken i Stångby. Fikavärd: Andreas Brodin. Start kl 19:00. Alla medlemmar välkomna.",
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-11/",
+                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-13/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar. Ta med fika och häng med liksinnade MC-entusiaster.\n\nStart kl 19:00. Alla välkomna!",
+                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken i Stångby.\n\nFikavärd: Andreas Brodin.\n\nStart kl 19:00. Ta med fika och häng med liksinnade MC-entusiaster. Alla medlemmar välkomna!",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-11/"
+                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-13/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
@@ -23397,23 +23344,23 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-fikakvall-2026-06-14",
-                                                      "name": "Fikakväll i Klubbkåken",
+                                                      "name": "Fikakväll i Klubbkåken (Jan Karlsson)",
                                                       "date": "2026-06-14",
                                                       "dateEnd": "2026-06-14",
                                                       "location": "Klubbkåken, Stångby 1, Uppsala",
                                                       "type": "Träff",
                                                       "organizer": "ÖAMCK",
-                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar, ta med fika och häng med liksinnade MC-entusiaster.",
+                                                      "description": "ÖAMCK:s fikakväll i Klubbkåken i Stångby. Fikavärd: Jan Karlsson. Start kl 19:00. Alla medlemmar välkomna.",
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-12/",
+                                                      "link": "https://oamck.se/events/fikakvall-i-klubbkaken-14/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken. Öppet för alla medlemmar. Ta med fika och häng med liksinnade MC-entusiaster.\n\nStart kl 19:00. Alla välkomna!",
+                                                      "descriptionFull": "ÖAMCK:s fikakväll i Klubbkåken i Stångby.\n\nFikavärd: Jan Karlsson.\n\nStart kl 19:00. Ta med fika och häng med liksinnade MC-entusiaster. Alla medlemmar välkomna!",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-12/"
+                                                                                          "url": "https://oamck.se/events/fikakvall-i-klubbkaken-14/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
@@ -24944,12 +24891,19 @@ const EVENTS_DATA = {
                                                       "location": "Ulva Kvarn",
                                                       "type": "Träff",
                                                       "organizer": "MC-ordonnans",
-                                                      "description": "Cykel SM",
+                                                      "description": "MC-ordonnanser för Cykel SM vid Ulva Kvarn. Veckan 25 juni till 1 juli. Mer info på oamck.se.",
                                                       "link": "https://oamck.se/events/cykel-sm/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
-                                                      "backImage": "ads/oamck-klubbkaken-back.jpg"
+                                                      "backImage": "ads/oamck-klubbkaken-back.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "oamck.se",
+                                                                                          "url": "https://oamck.se/events/cykel-sm/"
+                                                                        }
+                                                      ],
+                                                      "descriptionFull": "MC-ordonnanser arrangerar trafiksäkring under Cykel SM vid Ulva Kvarn 25 juni - 1 juli 2026.\n\nMer info på oamck.se."
                                     },
                                     {
                                                       "id": "vulcan-riders-rikstraff-2026-06-25",
@@ -34038,7 +33992,7 @@ const EVENTS_DATA = {
                                     },
                                     {
                                                       "id": "oamck-kraftkalas-2026",
-                                                      "name": "Kraftkalas",
+                                                      "name": "Kräftkalas",
                                                       "date": "2026-08-29",
                                                       "dateEnd": "2026-08-29",
                                                       "location": "Klubbkåken, Stångby 1, Uppsala",
@@ -35883,14 +35837,14 @@ const EVENTS_DATA = {
                                                       "name": "Hemlig resa",
                                                       "date": "2026-09-12",
                                                       "dateEnd": "2026-09-13",
-                                                      "location": "Hemligt",
+                                                      "location": "Uppsala (Hemlig destination)",
                                                       "type": "Körning",
                                                       "organizer": "ÖAMCK",
-                                                      "description": "Dagstur med ÖAMCK från Hemligt. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.",
+                                                      "description": "Två-dagars hemlig resa med ÖAMCK 12-13 september. Mer info kommer senare på oamck.se.",
                                                       "link": "https://oamck.se/events/hemlig-resa-3/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
-                                                      "descriptionFull": "Hemlig resa arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Hemligt. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Hemligt.",
+                                                      "descriptionFull": "Två-dagars hemlig resa med ÖAMCK 12-13 september 2026.\n\nMer info kommer senare på OAMCK:s eventsida.",
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
@@ -38074,7 +38028,7 @@ const EVENTS_DATA = {
                                                       "organizer": "ÖAMCK",
                                                       "description": "ÖAMCK:s gemensamma MC-resa till Andalusien i Spanien. 10 dagars tur genom södra Spanien. Anmälan via ÖAMCK.",
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg",
-                                                      "link": "https://oamck.se/events/andalusienresa/",
+                                                      "link": "https://oamck.se/events/andalusienresa-3/",
                                                       "region": "Spanien",
                                                       "source": "oamck.se",
                                                       "descriptionFull": "ÖAMCK:s gemensamma MC-resa till Andalusien i Spanien. 10 dagars tur genom södra Spanien med fantastiska vägar och vackra landskap.\n\n7-16 november 2026. Anmälan och mer information via ÖAMCK.",
@@ -38082,7 +38036,7 @@ const EVENTS_DATA = {
                                                       "links": [
                                                                         {
                                                                                           "label": "oamck.se",
-                                                                                          "url": "https://oamck.se/events/andalusienresa/"
+                                                                                          "url": "https://oamck.se/events/andalusienresa-3/"
                                                                         }
                                                       ]
                                     },
@@ -38337,12 +38291,24 @@ const EVENTS_DATA = {
                                                       "location": "Klubbkåken, Stångby 1, Uppsala",
                                                       "type": "Träff",
                                                       "organizer": "MC-ordonnans",
-                                                      "description": "Ordonnansavslutning",
+                                                      "description": "MC-ordonnanssäsongens avslutning på Klubben i Stångby. Kl 16:00-19:00. Alla ordonnanser välkomna.",
                                                       "link": "https://oamck.se/events/ordonnansavslutning/",
                                                       "region": "Uppsala",
                                                       "source": "oamck.se",
                                                       "organizerIcon": "clubs/normalized/oamck.png",
-                                                      "backImage": "ads/oamck-klubbkaken-back.jpg"
+                                                      "backImage": "ads/oamck-klubbkaken-back.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "oamck.se",
+                                                                                          "url": "https://oamck.se/events/ordonnansavslutning/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=St%C3%A5ngby+1%2C+754+73+Uppsala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "descriptionFull": "MC-ordonnanssäsongens avslutning på Klubben i Stångby.\n\nKl 16:00-19:00. Plats: Klubbkåken, Stångby 1, Uppsala."
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-11-24",
