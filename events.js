@@ -23540,6 +23540,37 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/summer-party-fauske-back-2026-06-19.jpg"
                                     },
                                     {
+                                                      "id": "midsommarkorning-svedala-2026-06-19",
+                                                      "name": "Midsommarkörning Svedala",
+                                                      "date": "2026-06-19",
+                                                      "dateEnd": "2026-06-19",
+                                                      "time": "09:00",
+                                                      "type": "Körning",
+                                                      "region": "Skåne",
+                                                      "location": "Svedala",
+                                                      "organizer": "MC - körningar, event m.m.",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/groups/1681065958909673",
+                                                      "description": "Årlig midsommarkörning med start i Svedala, i samarbete med MC för alla Skåne. Utan extra varv i centrum i år. Mer info kommer.",
+                                                      "descriptionFull": "Snart är det dags för midsommarkörning igen! Mer info kommer snart.\n\nMen start i Svedala som vanligt. Dock utan de extra varven i centrum.\n\nDenna gång i samarbete med \"MC för alla Skåne\".",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/947871181445542"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/groups/1681065958909673"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Svedala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/midsommarkorning-svedala-back-2026-06-19.jpg"
+                                    },
+                                    {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-06-20",
                                                       "name": "LO I Lördagskörningar Kramfors",
                                                       "date": "2026-06-20",
