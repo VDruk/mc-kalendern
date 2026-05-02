@@ -21131,6 +21131,34 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/frambo-mopperally-back-2026-06-06.jpg"
                                     },
                                     {
+                                                      "id": "mce-vikingafest-2026-06-06",
+                                                      "name": "MCE:s Vikingafest",
+                                                      "date": "2026-06-06",
+                                                      "dateEnd": "2026-06-06",
+                                                      "time": "18:00",
+                                                      "type": "Fest",
+                                                      "region": "Stockholm",
+                                                      "location": "Snutenvägen 11, Järfälla",
+                                                      "organizer": "MCE",
+                                                      "organizerIcon": "clubs/normalized/mce.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1281478290231265",
+                                                      "description": "Vikingatema-fest hos MCE i Järfälla, arrangerad av ungdomssektionen. Ta på dig vikingahjälmen och björnfällen. Start kl 18:00.",
+                                                      "descriptionFull": "Nu är det dags. Ta på er vikingahjälmen och en björnfäll och fira med oss.\n\nTemat på festen är Vikingar. Låt fantasin flöda och låt dig inspireras.\n\nUngdomssektionen arrangerar.\n\nDatum: 6 juni kl 18:00\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1281478290231265"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+J%C3%A4rf%C3%A4lla",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/mce-vikingafest-back-2026-06-06.jpg"
+                                    },
+                                    {
                                                       "id": "adventurebike-gruskurs-niva1-2026-06-07",
                                                       "name": "Gruskurs nivå 1",
                                                       "date": "2026-06-07",
