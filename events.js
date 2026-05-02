@@ -8691,7 +8691,7 @@ const EVENTS_DATA = {
                                                       "region": "Jönköping",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
-                                                      "descriptionFull": "Onsdagsturen 2026 arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nAdmin kommer vara med större delen av turerna. Om inte så får någon som känner sig manad att leda turen till något härligt mål.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
+                                                      "descriptionFull": "Arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nÅ ja, vi vet att det är ST1 bredvid McDonalds. Vi samlas ish 16:30 för att åka mot ett mål som bestäms på plats och avfärd senast kl 17:00.\n\nAdmin kommer vara med större delen av turerna. Om inte så får någon som känner sig manad att leda turen till något härligt mål. Alla ska med. Alla ska känna sig välkomna.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nVid dåligt väder ställs evenemanget in utan förvarning. Mvh Admin",
                                                       "links": [
                                                                         {
                                                                                           "label": "FB Event",
@@ -11705,6 +11705,10 @@ const EVENTS_DATA = {
                                                       "links": [
                                                                         {
                                                                                           "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331181014013"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Event",
                                                                                           "url": "https://www.facebook.com/events/902163102636504"
                                                                         },
                                                                         {
@@ -13818,6 +13822,10 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331217680676"
+                                                                        },
                                                                         {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
@@ -16500,6 +16508,10 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331211014010"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
@@ -18261,6 +18273,10 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331177680680"
+                                                                        },
                                                                         {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
@@ -20410,6 +20426,10 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331204347344"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
@@ -22221,6 +22241,10 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331214347343"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
@@ -23664,6 +23688,10 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331197680678"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
@@ -24544,6 +24572,10 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331201014011"
+                                                                        },
                                                                         {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
@@ -25916,6 +25948,10 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331191014012"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
@@ -26974,6 +27010,10 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331174347347"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
@@ -27851,6 +27891,10 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331194347345"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
@@ -28629,6 +28673,10 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331207680677"
+                                                                        },
                                                                         {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
@@ -29442,6 +29490,10 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331167680681"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
@@ -30248,6 +30300,10 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331184347346"
+                                                                        },
                                                                         {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
@@ -31374,6 +31430,10 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331171014014"
+                                                                        },
                                                                         {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
@@ -32614,6 +32674,10 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
                                                                         {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331187680679"
+                                                                        },
+                                                                        {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
                                                                         },
@@ -33540,6 +33604,10 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/jmc-onsdagsturen-back-2026-04-29.jpg",
                                                       "descriptionFull": "Onsdagsturen arrangeras av JMC Samåkning Småland (Jönköping Motor Club).\n\nSamling kl 16:30 vid ST1 bredvid McDonalds. Avfärd senast kl 17:00 mot ett mål som bestäms på plats.\n\nSamåkningsregler:\n1. Kör inte över din förmåga\n2. Håll avstånd / Zig Zag formation när det tillåter\n3. Kör inte om på insidan, ej högersida\n4. Omkörning endast när framförvarande vinkar att det är okej\n5. Stressa inte, vi väntar in alla\n\nFika, glass och trevligt häng. Alla ska med, alla ska känna sig välkomna!",
                                                       "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/982331154347349/982331164347348"
+                                                                        },
                                                                         {
                                                                                           "label": "FB Sida",
                                                                                           "url": "https://www.facebook.com/groups/mcsamakning/events"
