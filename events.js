@@ -10017,6 +10017,41 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "lingvalls-motorcykelns-dag-2026-05-02",
+                                                      "name": "Motorcykelns Dag hos Lingvalls Motor",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "time": "10:00",
+                                                      "type": "Show",
+                                                      "region": "Gävleborg",
+                                                      "location": "Kryddstigen 12, Gävle",
+                                                      "organizer": "Lingvalls Motor",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/LingvallsMotor",
+                                                      "description": "Motorcykelns dag hos Lingvalls Motor i Gävle, kl 10-14. Grillen på och hojar från Ducati, Triumph, CFmoto, Kawasaki, Honda, Suzuki, Rieju, Stark Future, Indian och Aprilia.",
+                                                      "descriptionFull": "Välkommen till Lingvalls motor på motorcykelns dag Lördag 2 maj kl. 10-14!\n\nVi startar grillen och ser fram emot att träffa alla entusiastiska hojåkare.\n\nDucati, Triumph, CFmoto, Kawasaki, Honda, Suzuki, Rieju, Stark Future, Indian, Aprilia.\n\nVarmt välkommen!\n\nPlats: Kryddstigen 12, 802 92 Gävle.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/2771249773253651"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/LingvallsMotor"
+                                                                        },
+                                                                        {
+                                                                                          "label": "lingvalls.se",
+                                                                                          "url": "https://lingvalls.se/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kryddstigen+12+G%C3%A4vle",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/lingvalls-motorcykelns-dag-back-2026-05-02.jpg"
+                                    },
+                                    {
                                                       "id": "molnlycke-mc-motorcykelns-dag-2026-05-02",
                                                       "name": "Motorcykelns Dag hos Mölnlycke MC",
                                                       "date": "2026-05-02",
