@@ -14274,6 +14274,37 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/sjobacken-valborundan-back-2026-05-14.jpg"
                                     },
                                     {
+                                                      "id": "balders-hage-bil-mc-cafe-2026-05-14",
+                                                      "name": "Bil & MC Café Balders Hage",
+                                                      "date": "2026-05-14",
+                                                      "dateEnd": "2026-05-14",
+                                                      "time": "17:00",
+                                                      "type": "Träff",
+                                                      "region": "Kronoberg",
+                                                      "location": "Linvägen 3, 343 92 Häradsbäck",
+                                                      "organizer": "Balders Hage Nöje",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1514528856751279/",
+                                                      "description": "Bil & MC Café på Balders Hage på Kristi himmelsfärd. Öppet från 17:00. Snitzelbuffé 135 kr, ostkaka 65 kr. Hamburgare, fika och glass.",
+                                                      "descriptionFull": "Torsdagen 14/5 öppnar vi upp hagen för Bil & Mc Café.\n\nÖppettider från kl 17:00 tills sista gästen lämnar.\n\nKvällens-buffé:\nSnitzel\nBearnaisesås\nÄrtor\nPotatisgratäng\nSallad\nKaffe/te\n\nPris 135 kr för vuxen, barn under 12 år 65 kr.\n\nKvällens go-fika ostkaka med grädde & sylt 65 kr.\n\nVi serverar givetvis även hamburgare, fika, glass mm.\n\nBengt & Christina hälsar er välkomna och är redo när ni rullar in i hagen med kameran.\n\nVälkomna till Balders Hage!\n\nBalders Hage Nöje\nLinvägen 3\n343 92 Häradsbäck\n0708-680 782",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1514528856751279/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "baldershagenoje.se",
+                                                                                          "url": "https://baldershagenoje.se/biltraff/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Balders+Hage+N%C3%B6je+H%C3%A4radsb%C3%A4ck",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/balders-hage-bil-mc-cafe-back-2026-05-14.jpg"
+                                    },
+                                    {
                                                       "id": "nifsta-motortraff-2026-05-14",
                                                       "name": "Nifsta Motorträff & Sommarcafé",
                                                       "date": "2026-05-14",
