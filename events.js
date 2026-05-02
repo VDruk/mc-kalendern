@@ -14247,6 +14247,33 @@ const EVENTS_DATA = {
                                                       "source": "mchk.org"
                                     },
                                     {
+                                                      "id": "sjobacken-valborundan-stop-2026-05-14",
+                                                      "name": "Valborundan stannar vid Sjöbacken",
+                                                      "date": "2026-05-14",
+                                                      "dateEnd": "2026-05-14",
+                                                      "time": "11:00",
+                                                      "type": "Träff",
+                                                      "region": "Gävleborg",
+                                                      "location": "Sjöbacksvägen 22, Ockelbo",
+                                                      "organizer": "Sjöbacken Ockelbo",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/864446893077726/",
+                                                      "description": "Valborundan gör stopp vid Sjöbacken på Kristi himmelsfärdsdagen. Veteranmotorcyklar rullar in från ca 11:00. Fika eller mat på uteserveringen vid sjön.",
+                                                      "descriptionFull": "Torsdag 14 maj. Från ca kl. 11:00. Sjöbacken, Ockelbo.\n\nPå Kristi himmelsfärdsdagen får vi i Ockelbo finbesök när den klassiska Valborundan gör stopp vid Sjöbacken. Då rullar veteranmotorcyklar från hela regionen in och alla är varmt välkomna att komma och titta när fordonen anländer.\n\nDet brukar bli en härlig stämning när ekipagen kommer in ett efter ett. Motorljud, doften av vår och känslan av att sommaren är på väg. Ta en promenad ner till sjön, slå dig ner på uteserveringen och upplev motorhistoria på riktigt nära håll.\n\nHär finns gott om tid att:\n• se de klassiska motorcyklarna\n• prata med förare och entusiaster\n• fika eller äta något gott\n• träffa bekanta eller bara njuta av läget\n\nDet här är ett uppskattat inslag i byn och ett perfekt tillfälle att göra något trevligt tillsammans, oavsett om du är motorintresserad eller bara vill vara där det händer.\n\nVälkommen till Sjöbacken den 14 maj, vi ses vid sjön!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/864446893077726/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Sj%C3%B6backsv%C3%A4gen+22+Ockelbo",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/sjobacken-valborundan-back-2026-05-14.jpg"
+                                    },
+                                    {
                                                       "id": "nifsta-motortraff-2026-05-14",
                                                       "name": "Nifsta Motorträff & Sommarcafé",
                                                       "date": "2026-05-14",
