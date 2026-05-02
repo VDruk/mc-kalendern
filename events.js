@@ -11267,6 +11267,36 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/vrs-sondagstur-back-2026-05-03.jpg"
                                     },
                                     {
+                                                      "id": "grus-frodinge-2026-05-03",
+                                                      "name": "Träffas å köra grus",
+                                                      "date": "2026-05-03",
+                                                      "dateEnd": "2026-05-03",
+                                                      "location": "ICA Nära Frödinge, Västerviksvägen 1, Frödinge",
+                                                      "type": "Körning",
+                                                      "organizer": "Vi som gillar att åka grus 2.0",
+                                                      "description": "Spontan samåkning från ICA Frödinge kl 12:00. Glass vid starten, sedan ut på asfalt och grusvägar. Skicka sms om du kommer!",
+                                                      "link": "https://www.facebook.com/events/972971462141665/",
+                                                      "region": "Kalmar",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/grus-frodinge-back-2026-05-03.jpg",
+                                                      "descriptionFull": "Tjena \"grusaiders\" det verkar som mitt inlägg har stoppats. Så jag försöker igen. Är det någon som har lust att träffas vid ICA frödinge imorgon (söndag) ca kl 12 för att köra små asfalts vägar för att kunna upptäcka underbara grusvägar tillsammans?? Jag är där ca kl 12 å käkar glass till 12,30 . Hoppas ni dyker upp!!! Sänd mig gärna ett sms så jag vet om jag/vi ska vänta på dig.\n\nMvh Stephan Arfwidson\nSmedsstugan Toverum.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/972971462141665/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/groups/682148072257143/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=ICA+N%C3%A4ra+Fr%C3%B6dinge+V%C3%A4sterviksv%C3%A4gen+1+Fr%C3%B6dinge",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "doa-kvallskörning-nacka-2026-05-04",
                                                       "name": "DOA - Kvällskörning Nacka",
                                                       "date": "2026-05-04",
