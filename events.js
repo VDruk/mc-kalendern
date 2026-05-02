@@ -43,32 +43,31 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/enhorna-cafe-back.jpg"
                                     },
                                     {
+                                                      "id": "ad-honda-gold-wing-50th",
+                                                      "name": "Gold Wing 50th Anniversary",
                                                       "_ad": true,
-                                                      "_place": true,
-                                                      "id": "ad-tarnsjo-pizzeria",
-                                                      "name": "Tärnsjö Pizzeria",
                                                       "date": "2026-01-01",
                                                       "dateEnd": "2026-12-31",
-                                                      "location": "Norra Storgatan 31, Tärnsjö",
-                                                      "type": "Plats",
-                                                      "organizer": "Tärnsjö Restaurang & Bar",
-                                                      "description": "Pit stop för MC-förare! Pizzeria med uteservering längs väg 56. Pizza, kebab, grill och starkt kaffe. Gott om plats för hojar.",
-                                                      "descriptionFull": "Pit stop för MC-förare!\n\nTärnsjö Pizzeria ligger längs väg 56, mitt emellan Uppsala och Gävle. Perfekt stopp när du rullar genom Uppland.\n\nPizza, kebab, grill, sallad och rejäla mackor. Uteservering när solen skiner och gott om plats att ställa hojen.\n\nAdress: Norra Storgatan 31, 740 45 Tärnsjö\nTelefon: 0292-504 09\n\nÖppet: mån-lör, kolla Facebook för aktuella tider.\n\nSväng in, ät gott, kör vidare.",
+                                                      "location": "hondamc.se",
+                                                      "type": "Anons",
+                                                      "organizer": "Honda MC",
+                                                      "description": "Honda Gold Wing firar 50 år. Världens mest kända touringhoj, från 1000cc naked 1975 till dagens 1833cc boxersexa. Från 359 900 kr i Sverige.",
+                                                      "descriptionFull": "Honda Gold Wing firar 50 år som världens mest kända touringhoj.\n\n1975 introducerade Honda den första Gold Wing, en naked 1000cc flat four som förändrade touringvärlden för alltid. Idag har Gold Wing växt till en 1833cc boxersexa med 93 kW, 7-växlad DCT, Apple CarPlay, Android Auto och backväxel.\n\nSpeciella 50th Anniversary-modellen (2025) levererades i guld med jubileumsemblem och boken om Gold Wings 50-åriga historia.\n\n2026 års modell finns i tre färger: Deep Pearl Gray, Metallic Black och Candy Ardent Red.\n\nPris i Sverige från 359 900 kr (Gold Wing) och uppåt för Tour-versionen med toppbox och 61 liters bagageutrymme.\n\nGold Wing Club Sweden (GWCS) har funnits sedan 1981 och arrangerar träffar, körningar och internationella möten för Gold Wing-ägare i hela Sverige.\n\nMer info: hondamc.se",
+                                                      "frontImage": "ads/gold-wing-50th-front.jpg",
+                                                      "backImage": "ads/gold-wing-50th-back.jpg",
                                                       "links": [
                                                                         {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/profile.php?id=100083061736120"
+                                                                                          "label": "Honda MC Sverige",
+                                                                                          "url": "https://www.hondamc.se/products/touring/goldwing-26/"
                                                                         },
                                                                         {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Norra+Storgatan+31+Tärnsjö",
-                                                                                          "type": "map"
+                                                                                          "label": "GWCS",
+                                                                                          "url": "https://gwcs.se/"
                                                                         }
                                                       ],
-                                                      "link": "https://www.facebook.com/profile.php?id=100083061736120",
-                                                      "region": "Uppsala",
-                                                      "source": "AD",
-                                                      "frontImage": "ads/tarnsjo-pizzeria-front.jpg"
+                                                      "link": "https://www.hondamc.se/products/touring/goldwing-26/",
+                                                      "region": "Sverige",
+                                                      "source": "AD"
                                     },
                                     {
                                                       "_ad": true,
@@ -103,6 +102,34 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/NNMCNYK",
                                                       "region": "Södermanland",
                                                       "source": "AD"
+                                    },
+                                    {
+                                                      "_ad": true,
+                                                      "_place": true,
+                                                      "id": "ad-tarnsjo-pizzeria",
+                                                      "name": "Tärnsjö Pizzeria",
+                                                      "date": "2026-01-01",
+                                                      "dateEnd": "2026-12-31",
+                                                      "location": "Norra Storgatan 31, Tärnsjö",
+                                                      "type": "Plats",
+                                                      "organizer": "Tärnsjö Restaurang & Bar",
+                                                      "description": "Pit stop för MC-förare! Pizzeria med uteservering längs väg 56. Pizza, kebab, grill och starkt kaffe. Gott om plats för hojar.",
+                                                      "descriptionFull": "Pit stop för MC-förare!\n\nTärnsjö Pizzeria ligger längs väg 56, mitt emellan Uppsala och Gävle. Perfekt stopp när du rullar genom Uppland.\n\nPizza, kebab, grill, sallad och rejäla mackor. Uteservering när solen skiner och gott om plats att ställa hojen.\n\nAdress: Norra Storgatan 31, 740 45 Tärnsjö\nTelefon: 0292-504 09\n\nÖppet: mån-lör, kolla Facebook för aktuella tider.\n\nSväng in, ät gott, kör vidare.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/profile.php?id=100083061736120"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Norra+Storgatan+31+Tärnsjö",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/profile.php?id=100083061736120",
+                                                      "region": "Uppsala",
+                                                      "source": "AD",
+                                                      "frontImage": "ads/tarnsjo-pizzeria-front.jpg"
                                     },
                                     {
                                                       "id": "if-mc-forsakring-ad-2026",
@@ -205,33 +232,6 @@ const EVENTS_DATA = {
                                                       "region": "Sverige",
                                                       "source": "AD",
                                                       "_ad": true
-                                    },
-                                    {
-                                                      "id": "ad-honda-gold-wing-50th",
-                                                      "name": "Gold Wing 50th Anniversary",
-                                                      "_ad": true,
-                                                      "date": "2026-01-01",
-                                                      "dateEnd": "2026-12-31",
-                                                      "location": "hondamc.se",
-                                                      "type": "Anons",
-                                                      "organizer": "Honda MC",
-                                                      "description": "Honda Gold Wing firar 50 år. Världens mest kända touringhoj, från 1000cc naked 1975 till dagens 1833cc boxersexa. Från 359 900 kr i Sverige.",
-                                                      "descriptionFull": "Honda Gold Wing firar 50 år som världens mest kända touringhoj.\n\n1975 introducerade Honda den första Gold Wing, en naked 1000cc flat four som förändrade touringvärlden för alltid. Idag har Gold Wing växt till en 1833cc boxersexa med 93 kW, 7-växlad DCT, Apple CarPlay, Android Auto och backväxel.\n\nSpeciella 50th Anniversary-modellen (2025) levererades i guld med jubileumsemblem och boken om Gold Wings 50-åriga historia.\n\n2026 års modell finns i tre färger: Deep Pearl Gray, Metallic Black och Candy Ardent Red.\n\nPris i Sverige från 359 900 kr (Gold Wing) och uppåt för Tour-versionen med toppbox och 61 liters bagageutrymme.\n\nGold Wing Club Sweden (GWCS) har funnits sedan 1981 och arrangerar träffar, körningar och internationella möten för Gold Wing-ägare i hela Sverige.\n\nMer info: hondamc.se",
-                                                      "frontImage": "ads/gold-wing-50th-front.jpg",
-                                                      "backImage": "ads/gold-wing-50th-back.jpg",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "Honda MC Sverige",
-                                                                                          "url": "https://www.hondamc.se/products/touring/goldwing-26/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "GWCS",
-                                                                                          "url": "https://gwcs.se/"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.hondamc.se/products/touring/goldwing-26/",
-                                                      "region": "Sverige",
-                                                      "source": "AD"
                                     },
                                     {
                                                       "id": "svedea-mc-forsakring-ad-2026",
@@ -5541,6 +5541,34 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/yamaha-mc-days-umea-back-2026-04-17.jpg"
                                     },
                                     {
+                                                      "id": "1903-fyller-10-ar-2026-04-18",
+                                                      "name": "1903 fyller 10 år",
+                                                      "date": "2026-04-18",
+                                                      "time": "10:00",
+                                                      "endTime": "15:00",
+                                                      "type": "Träff",
+                                                      "region": "Västra Götaland",
+                                                      "location": "Gamla Riksvägen 24, Kållered",
+                                                      "organizer": "1903 Workshop/Bikeshop",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1461435792143524",
+                                                      "description": "10-årsfirande med korv, Mini-Swap Meet, REA på Moe's Hills-produkter och rabatt på alla delar.",
+                                                      "descriptionFull": "1903 fyller 10 i år\\!\n\nVi firar med:\nKorv\nMini-Swap\nREA på Moe's Hills\nRabatt alla delar\n\nVälkomna\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1461435792143524"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Riksv%C3%A4gen+24+K%C3%A5llered",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/1903-fyller-10-ar-back-2026-04-18.jpg",
+                                                      "dateEnd": "2026-04-18"
+                                    },
+                                    {
                                                       "id": "adv-expo-2026",
                                                       "name": "ADV Motorcycle Expo",
                                                       "date": "2026-04-18",
@@ -5678,6 +5706,36 @@ const EVENTS_DATA = {
                                                       "region": "Västernorrland",
                                                       "source": "bmwklubben.se",
                                                       "backImage": "ads/bmw-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "cfmoto-demodag-claessons-2026-04-18",
+                                                      "name": "CFMOTO Demodag",
+                                                      "date": "2026-04-18",
+                                                      "dateEnd": "2026-04-18",
+                                                      "location": "Industrigatan 11, Bromölla",
+                                                      "type": "Show",
+                                                      "organizer": "Claessons Motor Bromölla",
+                                                      "description": "CFMOTO Demodag hos Claessons Motor\\! Provkör 1000 MT-X, 800 MT-X, 800 MT Explorer, 675NK, 450 MT med flera. Lördag 18 april kl 10-14.",
+                                                      "descriptionFull": "Nu på lördag 18/4 har vi CFMOTO demodag\\!\n\n1000 MT-X finns på plats och står redo för provkörning tillsammans med 800 MT-X, 800 MT Explorer, 675NK, 450 MT med flera.\n\nVarmt välkomna\\!\n\nLördag 18 april kl 10-14\n\nClaessons Motor\nIndustrigatan 11, Bromölla",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=2000156264190284&set=a.648140436058547"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Claessons Motor",
+                                                                                          "url": "https://www.claessonsmotor.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Industrigatan+11+Bromölla",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/photo/?fbid=2000156264190284&set=a.648140436058547",
+                                                      "region": "Skåne",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/cfmoto-demodag-claessons-back-2026-04-18.jpg"
                                     },
                                     {
                                                       "id": "cg-10ars-jubileum-swap-meet-2026",
@@ -6337,6 +6395,32 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/motorrad-center-stockholm.png"
                                     },
                                     {
+                                                      "id": "omcc-staddag-2026-04-18",
+                                                      "name": "Städdag på ÖMCC",
+                                                      "date": "2026-04-18",
+                                                      "dateEnd": "2026-04-18",
+                                                      "location": "ÖMCC, Viktoriaesplanaden 3, Örnsköldsvik",
+                                                      "type": "Träff",
+                                                      "organizer": "ÖMCC",
+                                                      "description": "Städdag på ÖMCC. Städning av klubblokalen inför säsongens arrangemang. Listor på vad som behöver göras finns på plats. All hjälp behövs\\! Kl 10:00-14:00.",
+                                                      "descriptionFull": "Städning av klubblokalen behövs inför alla arrangemang.\n\nListor på vad vi vill ha hjälp med kommer finnas på plats. All hjälp behövs\\!\n\nTid: Lördag 18 april kl 10:00-14:00\nPlats: ÖMCC, Viktoriaesplanaden 3, Örnsköldsvik",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1491668319212281"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+3+Örnsköldsvik",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1491668319212281",
+                                                      "region": "Västernorrland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/omcc-staddag-back-2026-04-18.jpg"
+                                    },
+                                    {
                                                       "id": "open-house-jarvso-motor-2026-04-18",
                                                       "name": "Open House Järvsö Motor",
                                                       "date": "2026-04-18",
@@ -6535,90 +6619,6 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "descriptionFull": "Dags för Probikes vår kickoff / Harley Season Opener!\n\nLördag 18 april kl 10:00-15:00.\n\nEn dag med fokus på provkörning av vårt breda utbud av hojar. H-DCS kommer att vara på plats.\n\nPlats: Probike Malmö, Lundavägen 140, 212 24 Malmö.\n\n161 personer har visat intresse på Facebook."
-                                    },
-                                    {
-                                                      "id": "omcc-staddag-2026-04-18",
-                                                      "name": "Städdag på ÖMCC",
-                                                      "date": "2026-04-18",
-                                                      "dateEnd": "2026-04-18",
-                                                      "location": "ÖMCC, Viktoriaesplanaden 3, Örnsköldsvik",
-                                                      "type": "Träff",
-                                                      "organizer": "ÖMCC",
-                                                      "description": "Städdag på ÖMCC. Städning av klubblokalen inför säsongens arrangemang. Listor på vad som behöver göras finns på plats. All hjälp behövs\\! Kl 10:00-14:00.",
-                                                      "descriptionFull": "Städning av klubblokalen behövs inför alla arrangemang.\n\nListor på vad vi vill ha hjälp med kommer finnas på plats. All hjälp behövs\\!\n\nTid: Lördag 18 april kl 10:00-14:00\nPlats: ÖMCC, Viktoriaesplanaden 3, Örnsköldsvik",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1491668319212281"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+3+Örnsköldsvik",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/1491668319212281",
-                                                      "region": "Västernorrland",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/omcc-staddag-back-2026-04-18.jpg"
-                                    },
-                                    {
-                                                      "id": "cfmoto-demodag-claessons-2026-04-18",
-                                                      "name": "CFMOTO Demodag",
-                                                      "date": "2026-04-18",
-                                                      "dateEnd": "2026-04-18",
-                                                      "location": "Industrigatan 11, Bromölla",
-                                                      "type": "Show",
-                                                      "organizer": "Claessons Motor Bromölla",
-                                                      "description": "CFMOTO Demodag hos Claessons Motor\\! Provkör 1000 MT-X, 800 MT-X, 800 MT Explorer, 675NK, 450 MT med flera. Lördag 18 april kl 10-14.",
-                                                      "descriptionFull": "Nu på lördag 18/4 har vi CFMOTO demodag\\!\n\n1000 MT-X finns på plats och står redo för provkörning tillsammans med 800 MT-X, 800 MT Explorer, 675NK, 450 MT med flera.\n\nVarmt välkomna\\!\n\nLördag 18 april kl 10-14\n\nClaessons Motor\nIndustrigatan 11, Bromölla",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=2000156264190284&set=a.648140436058547"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Claessons Motor",
-                                                                                          "url": "https://www.claessonsmotor.se"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Industrigatan+11+Bromölla",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/photo/?fbid=2000156264190284&set=a.648140436058547",
-                                                      "region": "Skåne",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/cfmoto-demodag-claessons-back-2026-04-18.jpg"
-                                    },
-                                    {
-                                                      "id": "1903-fyller-10-ar-2026-04-18",
-                                                      "name": "1903 fyller 10 år",
-                                                      "date": "2026-04-18",
-                                                      "time": "10:00",
-                                                      "endTime": "15:00",
-                                                      "type": "Träff",
-                                                      "region": "Västra Götaland",
-                                                      "location": "Gamla Riksvägen 24, Kållered",
-                                                      "organizer": "1903 Workshop/Bikeshop",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/1461435792143524",
-                                                      "description": "10-årsfirande med korv, Mini-Swap Meet, REA på Moe's Hills-produkter och rabatt på alla delar.",
-                                                      "descriptionFull": "1903 fyller 10 i år\\!\n\nVi firar med:\nKorv\nMini-Swap\nREA på Moe's Hills\nRabatt alla delar\n\nVälkomna\\!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1461435792143524"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Riksv%C3%A4gen+24+K%C3%A5llered",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/1903-fyller-10-ar-back-2026-04-18.jpg",
-                                                      "dateEnd": "2026-04-18"
                                     },
                                     {
                                                       "id": "adventurecoach-kalmar-gruskurser-2026-04-19",
@@ -7069,6 +7069,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "kvallskorning-hyllinge-2026-04-22",
+                                                      "name": "Kvällskörning",
+                                                      "date": "2026-04-22",
+                                                      "dateEnd": "2026-04-22",
+                                                      "location": "Yamaha Center, Vångavägen 4, Hyllinge",
+                                                      "type": "Körning",
+                                                      "organizer": "I Can Ride Adventure",
+                                                      "description": "Samling kl 17:00 vid Yamaha Center Helsingborg. Avgång 17:30, kom tankade. Ta med kaffe och kvällsfika, vi hittar en fin plats att stanna på.",
+                                                      "descriptionFull": "Vi samlas mellan kl. 17.00 - 17.30 (kör 17.30 kom tankade) Ta gärna med kaffe och lite kvällsfika så hittar vi en fin plats att äta medhavd kvällsmat på. Var vi kör ser när vi rullar.\nGlöm inte att anmäla er om ni vill följa med!\nVi möts vid Yamaha Center, och det finns även möjlighet att kika på motorcyklar för den som är sugen.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1571156647676606"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Yamaha+Center+V%C3%A5ngav%C3%A4gen+4+Hyllinge",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1571156647676606",
+                                                      "region": "Skåne",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/kvallskorning-hyllinge-back-2026-04-22.jpg"
+                                    },
+                                    {
                                                       "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-22",
                                                       "name": "LoD Onsdagsfika Soldathemmet Skövde",
                                                       "date": "2026-04-22",
@@ -7107,32 +7133,6 @@ const EVENTS_DATA = {
                                                       "link": "https://mchk.org/evenemang/kalender-34490789",
                                                       "region": "Skåne",
                                                       "source": "mchk.org"
-                                    },
-                                    {
-                                                      "id": "kvallskorning-hyllinge-2026-04-22",
-                                                      "name": "Kvällskörning",
-                                                      "date": "2026-04-22",
-                                                      "dateEnd": "2026-04-22",
-                                                      "location": "Yamaha Center, Vångavägen 4, Hyllinge",
-                                                      "type": "Körning",
-                                                      "organizer": "I Can Ride Adventure",
-                                                      "description": "Samling kl 17:00 vid Yamaha Center Helsingborg. Avgång 17:30, kom tankade. Ta med kaffe och kvällsfika, vi hittar en fin plats att stanna på.",
-                                                      "descriptionFull": "Vi samlas mellan kl. 17.00 - 17.30 (kör 17.30 kom tankade) Ta gärna med kaffe och lite kvällsfika så hittar vi en fin plats att äta medhavd kvällsmat på. Var vi kör ser när vi rullar.\nGlöm inte att anmäla er om ni vill följa med!\nVi möts vid Yamaha Center, och det finns även möjlighet att kika på motorcyklar för den som är sugen.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1571156647676606"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Yamaha+Center+V%C3%A5ngav%C3%A4gen+4+Hyllinge",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/1571156647676606",
-                                                      "region": "Skåne",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/kvallskorning-hyllinge-back-2026-04-22.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-04-23",
@@ -7342,6 +7342,32 @@ const EVENTS_DATA = {
                                                       "source": "FB"
                                     },
                                     {
+                                                      "id": "cec-oppet-hus-tibro-2026-04-24",
+                                                      "name": "Öppet hus CEC Motorcycles Tibro",
+                                                      "date": "2026-04-24",
+                                                      "dateEnd": "2026-04-25",
+                                                      "location": "CEC Motorcycles, Norra Rydsgatan 7, Tibro",
+                                                      "type": "Show",
+                                                      "organizer": "CEC Motorcycles",
+                                                      "description": "Öppet hus med bra priser på reservdelar, tillbehör och fordon. Kaffe, fika och korv med bröd. 24/4 kl 10-18, 25/4 kl 10-15.",
+                                                      "descriptionFull": "Välkommen på öppet hus hos CEC Motorcycles Tibro\\!\nDen 24–25 april öppnar vi dörrarna och bjuder in till två fullspäckade dagar med härlig stämning i butiken.\n24/4 kl. 10.00–18.00\n25/4 kl. 10.00–15.00\nUnder dagarna kan du ta del av riktigt bra priser i hela butiken, allt från reservdelar och tillbehör till fordon.\nVi bjuder dessutom på kaffe, fika och korv med bröd, så passa på att svänga förbi, snacka hoj, provkör fordon och göra riktigt bra fynd.\nVarmt välkomna\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/837429072714001"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=CEC+Motorcycles+Norra+Rydsgatan+7+Tibro",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/837429072714001",
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/cec-oppet-hus-tibro-back-2026-04-24.jpg"
+                                    },
+                                    {
                                                       "id": "jmc-bike-dagarna-trollhattan-2026-04-24",
                                                       "name": "Samåkning till Bike dagarna Trollhättan",
                                                       "date": "2026-04-24",
@@ -7367,6 +7393,32 @@ const EVENTS_DATA = {
                                                       "region": "Jönköping",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/jmc-bike-dagarna-trollhattan-back-2026-04-24.jpg"
+                                    },
+                                    {
+                                                      "id": "mc-tour-2h-uppsala-2026-04-24",
+                                                      "name": "MC Tour 2h Friday",
+                                                      "date": "2026-04-24",
+                                                      "dateEnd": "2026-04-24",
+                                                      "location": "St1, Vaksalagatan, Uppsala",
+                                                      "type": "Körning",
+                                                      "organizer": "Bruno Nicolaus",
+                                                      "description": "Gruppkörning på slingriga landsvägar, drygt 100 km, ca 1h 40 min. Samling kl 17:15 vid St1 på Vaksalagatan i Uppsala. Ingen grus.",
+                                                      "descriptionFull": "Hey, I'd like to organize a group ride on Friday, April 24th. We'll be riding a bit over 100 km, which should take roughly 1 hour and 40 minutes (without breaks). The route will be on twisty country roads (no gravel).\n\nWe'll meet at 17:15 at the St1 on Vaksalagatan in Uppsala.\n\nIf you can't make it this time but would still like to join a future ride, feel free to DM me. I have a Sena so it would be possible to ride with intercom.\n\nSee you on Friday",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/groups/1146286748771749/user/100084809913370"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=St1+Vaksalagatan+Uppsala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/groups/1146286748771749/user/100084809913370",
+                                                      "region": "Uppsala",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/mc-tour-2h-uppsala-back-2026-04-24.jpg"
                                     },
                                     {
                                                       "id": "pubkvall-pa-cromwell-house-i-norrkoping-2026-04-24",
@@ -7482,58 +7534,6 @@ const EVENTS_DATA = {
                                                       "region": "Västra Götaland",
                                                       "source": "vulcanriders-sweden.org",
                                                       "backImage": "ads/vrs-bikedagarna-back-2026-04-24.jpg"
-                                    },
-                                    {
-                                                      "id": "cec-oppet-hus-tibro-2026-04-24",
-                                                      "name": "Öppet hus CEC Motorcycles Tibro",
-                                                      "date": "2026-04-24",
-                                                      "dateEnd": "2026-04-25",
-                                                      "location": "CEC Motorcycles, Norra Rydsgatan 7, Tibro",
-                                                      "type": "Show",
-                                                      "organizer": "CEC Motorcycles",
-                                                      "description": "Öppet hus med bra priser på reservdelar, tillbehör och fordon. Kaffe, fika och korv med bröd. 24/4 kl 10-18, 25/4 kl 10-15.",
-                                                      "descriptionFull": "Välkommen på öppet hus hos CEC Motorcycles Tibro\\!\nDen 24–25 april öppnar vi dörrarna och bjuder in till två fullspäckade dagar med härlig stämning i butiken.\n24/4 kl. 10.00–18.00\n25/4 kl. 10.00–15.00\nUnder dagarna kan du ta del av riktigt bra priser i hela butiken, allt från reservdelar och tillbehör till fordon.\nVi bjuder dessutom på kaffe, fika och korv med bröd, så passa på att svänga förbi, snacka hoj, provkör fordon och göra riktigt bra fynd.\nVarmt välkomna\\!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/837429072714001"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=CEC+Motorcycles+Norra+Rydsgatan+7+Tibro",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/837429072714001",
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/cec-oppet-hus-tibro-back-2026-04-24.jpg"
-                                    },
-                                    {
-                                                      "id": "mc-tour-2h-uppsala-2026-04-24",
-                                                      "name": "MC Tour 2h Friday",
-                                                      "date": "2026-04-24",
-                                                      "dateEnd": "2026-04-24",
-                                                      "location": "St1, Vaksalagatan, Uppsala",
-                                                      "type": "Körning",
-                                                      "organizer": "Bruno Nicolaus",
-                                                      "description": "Gruppkörning på slingriga landsvägar, drygt 100 km, ca 1h 40 min. Samling kl 17:15 vid St1 på Vaksalagatan i Uppsala. Ingen grus.",
-                                                      "descriptionFull": "Hey, I'd like to organize a group ride on Friday, April 24th. We'll be riding a bit over 100 km, which should take roughly 1 hour and 40 minutes (without breaks). The route will be on twisty country roads (no gravel).\n\nWe'll meet at 17:15 at the St1 on Vaksalagatan in Uppsala.\n\nIf you can't make it this time but would still like to join a future ride, feel free to DM me. I have a Sena so it would be possible to ride with intercom.\n\nSee you on Friday",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/groups/1146286748771749/user/100084809913370"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=St1+Vaksalagatan+Uppsala",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/groups/1146286748771749/user/100084809913370",
-                                                      "region": "Uppsala",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/mc-tour-2h-uppsala-back-2026-04-24.jpg"
                                     },
                                     {
                                                       "id": "ahlqvist-mc-oppet-hus-2026-04-25",
@@ -7815,6 +7815,60 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/gandalf-mc-delsbo.png"
                                     },
                                     {
+                                                      "id": "gota-ms-varstadning-2026-04-25",
+                                                      "name": "Vårstädning på motorstadion",
+                                                      "date": "2026-04-25",
+                                                      "dateEnd": "2026-04-25",
+                                                      "type": "Träff",
+                                                      "region": "Uppsala",
+                                                      "location": "Tärby 18, 745 95 Enköping",
+                                                      "organizer": "Göta MS",
+                                                      "organizerIcon": "clubs/normalized/gota-ms.png",
+                                                      "description": "Vårstädning av motorstadion i Tärby. Reparera flaggtorn, laga staket, röja gräs mm. Grill på plats. Alla välkomna!",
+                                                      "descriptionFull": "Välkommen ut i vårsolen och ta del av fantastisk gemenskap bland medlemmar i Göta MS.\n\nDen 25 april så ska vi städa bort hösten och vintern för att bibehålla ett fint motorområde. Bla ska vi reparera flaggtorn, laga staket, plocka sten, röja gräs vid behov, trimma in bevattning mm. Röja upp på området helt enkelt. Ta gärna med egna skruvdragare, sågar och verktyg som kan tänkas behövas. Alla är välkomna, främst våra yngsta och nyaste medlemmar som av erfarenhet får en bra första start in klubbgemenskapen. Ju fler vi är desto snabbare går det och det blir tid över till att dra på gasrullen om man har hojen med sig! Självklart drar vi igång grillen för en och annan korv & hamburgare.\n\nHjärtligt välkomna ska ni vara allihopa!",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/gota-ms-varstadning-back-2026-04-25.jpg",
+                                                      "link": "https://www.facebook.com/events/1398824658716069",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1398824658716069"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=T%C3%A4rby+18+745+95+Enk%C3%B6ping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
+                                                      "id": "hog-stockholm-lordagskorning-2026-04-25",
+                                                      "name": "Lördagskörning - Öppet hus-körning!",
+                                                      "date": "2026-04-25",
+                                                      "dateEnd": "2026-04-25",
+                                                      "location": "Probike Stockholm, Åkerivägen 6, Täby",
+                                                      "type": "Körning",
+                                                      "organizer": "H.O.G. Stockholm Chapter",
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "description": "Öppen lördagskörning med H.O.G. Stockholm. Alla hojåkare välkomna, inte bara medlemmar! Samling 10:00, avfärd 10:30. Tillbaka ca 15:00.",
+                                                      "descriptionFull": "Välkommen till ännu en härlig lördagskörning med H.O.G. Stockholm Chapter!\n\nDen här gången gör vi något extra roligt – vi öppnar upp turen för hojåkare som ännu inte är med i H.O.G., men är nyfikna på gemenskapen och våra körningar. Så passa på att bjuda in vänner, bekanta och andra som kör hoj – ju fler desto roligare!\n\nPlats: Probike Stockholm\nDatum: Lördag 25 april\nSamling: 10:00\nAvfärd: 10:30\nDagens mål: TBD\nTillbaka ca: 15:00\n\nKom i tid med full tank och redo för en härlig dag på vägarna.\n\nDagens Road Captain: Micke",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/26098882486461722"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Åkerivägen+6+Täby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/26098882486461722",
+                                                      "region": "Stockholm",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/hog-stockholm-lordagskorning-back-2026-04-25.jpg"
+                                    },
+                                    {
                                                       "id": "kor-hoj-offtrack-kinnekulle-2026-04-25",
                                                       "name": "Kör Hoj Offtrack Kinnekulle",
                                                       "date": "2026-04-25",
@@ -7923,6 +7977,32 @@ const EVENTS_DATA = {
                                                       ],
                                                       "region": "Västra Götaland",
                                                       "source": "facebook.com"
+                                    },
+                                    {
+                                                      "id": "let-the-thunder-run-egeskov-2026-04-25",
+                                                      "name": "Let The Thunder Run",
+                                                      "date": "2026-04-25",
+                                                      "dateEnd": "2026-04-25",
+                                                      "type": "Körning",
+                                                      "region": "Danmark",
+                                                      "location": "OK Karlslunde, Køge Bugt Motorvejen",
+                                                      "organizer": "H-D Klubben af 1930",
+                                                      "description": "Fællestur til Egeskov Slot. Afgang kl 09:00 fra Karlslunde, pitstop Slagelse kl 09:45. Små veje på Fyn.",
+                                                      "descriptionFull": "LET THE THUNDER RUN\nFællestur i weekenden – arrangeret af HDK1930\n\nWeekenden er skabt til motorlyde, frihed og fællesskab.\nVi inviterer til en fed og afslappet fællestur i weekenden, hvor vi samler maskinerne og nyder vejen sammen.\n\nKom som du er, kør som du vil – det handler om køreglæde, godt humør og stærkt sammenhold.\nJo flere vi er, jo federe bliver turen!\n\n25. april – Eventyr på Fyn & Egeskov Slot\n\nKl. 09.00 – Afgang fra OK, Karlslunde (Køge Bugt Motorvejen sydgående)\nKl. 09.45 – Pitstop ved Stop 39, Slagelse\nVi rammer de hyggelige små veje på Fyn.\nDestination: Egeskov Slot\nMasser af køreglæde og godt selskab!\n\nLET THE THUNDER RUN!\nDel gerne og tag dem, du vil rulle weekenden i gang med.",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/let-the-thunder-run-back-2026-04-25.jpg",
+                                                      "link": "https://www.facebook.com/events/1885429642337016",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1885429642337016"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Egeskov+Slot+Kv%C3%A6rndrup+Denmark",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
                                     },
                                     {
                                                       "id": "lob-morten-kofod-pub-kvall-i-markaryd-2026",
@@ -8198,32 +8278,6 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
-                                                      "id": "let-the-thunder-run-egeskov-2026-04-25",
-                                                      "name": "Let The Thunder Run",
-                                                      "date": "2026-04-25",
-                                                      "dateEnd": "2026-04-25",
-                                                      "type": "Körning",
-                                                      "region": "Danmark",
-                                                      "location": "OK Karlslunde, Køge Bugt Motorvejen",
-                                                      "organizer": "H-D Klubben af 1930",
-                                                      "description": "Fællestur til Egeskov Slot. Afgang kl 09:00 fra Karlslunde, pitstop Slagelse kl 09:45. Små veje på Fyn.",
-                                                      "descriptionFull": "LET THE THUNDER RUN\nFællestur i weekenden – arrangeret af HDK1930\n\nWeekenden er skabt til motorlyde, frihed og fællesskab.\nVi inviterer til en fed og afslappet fællestur i weekenden, hvor vi samler maskinerne og nyder vejen sammen.\n\nKom som du er, kør som du vil – det handler om køreglæde, godt humør og stærkt sammenhold.\nJo flere vi er, jo federe bliver turen!\n\n25. april – Eventyr på Fyn & Egeskov Slot\n\nKl. 09.00 – Afgang fra OK, Karlslunde (Køge Bugt Motorvejen sydgående)\nKl. 09.45 – Pitstop ved Stop 39, Slagelse\nVi rammer de hyggelige små veje på Fyn.\nDestination: Egeskov Slot\nMasser af køreglæde og godt selskab!\n\nLET THE THUNDER RUN!\nDel gerne og tag dem, du vil rulle weekenden i gang med.",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/let-the-thunder-run-back-2026-04-25.jpg",
-                                                      "link": "https://www.facebook.com/events/1885429642337016",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1885429642337016"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Egeskov+Slot+Kv%C3%A6rndrup+Denmark",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
-                                    },
-                                    {
                                                       "id": "tranrikerundan-2026",
                                                       "name": "Tranrikerundan",
                                                       "date": "2026-04-25",
@@ -8301,60 +8355,6 @@ const EVENTS_DATA = {
                                                       "region": "Värmland",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/voge-dagen-back-2026-04-25.jpg"
-                                    },
-                                    {
-                                                      "id": "hog-stockholm-lordagskorning-2026-04-25",
-                                                      "name": "Lördagskörning - Öppet hus-körning!",
-                                                      "date": "2026-04-25",
-                                                      "dateEnd": "2026-04-25",
-                                                      "location": "Probike Stockholm, Åkerivägen 6, Täby",
-                                                      "type": "Körning",
-                                                      "organizer": "H.O.G. Stockholm Chapter",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png",
-                                                      "description": "Öppen lördagskörning med H.O.G. Stockholm. Alla hojåkare välkomna, inte bara medlemmar! Samling 10:00, avfärd 10:30. Tillbaka ca 15:00.",
-                                                      "descriptionFull": "Välkommen till ännu en härlig lördagskörning med H.O.G. Stockholm Chapter!\n\nDen här gången gör vi något extra roligt – vi öppnar upp turen för hojåkare som ännu inte är med i H.O.G., men är nyfikna på gemenskapen och våra körningar. Så passa på att bjuda in vänner, bekanta och andra som kör hoj – ju fler desto roligare!\n\nPlats: Probike Stockholm\nDatum: Lördag 25 april\nSamling: 10:00\nAvfärd: 10:30\nDagens mål: TBD\nTillbaka ca: 15:00\n\nKom i tid med full tank och redo för en härlig dag på vägarna.\n\nDagens Road Captain: Micke",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/26098882486461722"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Åkerivägen+6+Täby",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/26098882486461722",
-                                                      "region": "Stockholm",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/hog-stockholm-lordagskorning-back-2026-04-25.jpg"
-                                    },
-                                    {
-                                                      "id": "gota-ms-varstadning-2026-04-25",
-                                                      "name": "Vårstädning på motorstadion",
-                                                      "date": "2026-04-25",
-                                                      "dateEnd": "2026-04-25",
-                                                      "type": "Träff",
-                                                      "region": "Uppsala",
-                                                      "location": "Tärby 18, 745 95 Enköping",
-                                                      "organizer": "Göta MS",
-                                                      "organizerIcon": "clubs/normalized/gota-ms.png",
-                                                      "description": "Vårstädning av motorstadion i Tärby. Reparera flaggtorn, laga staket, röja gräs mm. Grill på plats. Alla välkomna!",
-                                                      "descriptionFull": "Välkommen ut i vårsolen och ta del av fantastisk gemenskap bland medlemmar i Göta MS.\n\nDen 25 april så ska vi städa bort hösten och vintern för att bibehålla ett fint motorområde. Bla ska vi reparera flaggtorn, laga staket, plocka sten, röja gräs vid behov, trimma in bevattning mm. Röja upp på området helt enkelt. Ta gärna med egna skruvdragare, sågar och verktyg som kan tänkas behövas. Alla är välkomna, främst våra yngsta och nyaste medlemmar som av erfarenhet får en bra första start in klubbgemenskapen. Ju fler vi är desto snabbare går det och det blir tid över till att dra på gasrullen om man har hojen med sig! Självklart drar vi igång grillen för en och annan korv & hamburgare.\n\nHjärtligt välkomna ska ni vara allihopa!",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/gota-ms-varstadning-back-2026-04-25.jpg",
-                                                      "link": "https://www.facebook.com/events/1398824658716069",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1398824658716069"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=T%C3%A4rby+18+745+95+Enk%C3%B6ping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
                                     },
                                     {
                                                       "id": "bmw-d9-aprilgruset-2026",
@@ -8714,6 +8714,32 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/jmc.png"
                                     },
                                     {
+                                                      "id": "let-the-thunder-run-roskilde-2026-04-29",
+                                                      "name": "Let The Thunder Run",
+                                                      "date": "2026-04-29",
+                                                      "dateEnd": "2026-04-29",
+                                                      "location": "Roskilde Havn, 4000 Roskilde, Danmark",
+                                                      "type": "Körning",
+                                                      "organizer": "H-D Klubben af 1930",
+                                                      "description": "Hverdagsfællestur med HDK1930. Avgång från Roskilde Havn kl 17.30, tur i Roskilde-omegnen med stopp vid Bjarnes Pølser.",
+                                                      "link": "https://www.facebook.com/events/1605906724030257",
+                                                      "region": "Danmark",
+                                                      "source": "facebook.com",
+                                                      "descriptionFull": "LET THE THUNDER RUN\nFællestur på en hverdag – arrangeret af HDK1930\n\nMotoren kalder, og vejene venter! Vi inviterer til en hyggelig og energifyldt fællestur på en hverdag, hvor fællesskab, køreglæde og god stemning er i fokus\n\nUanset om du kører for friheden, fællesskabet eller bare elsker lyden af motorer i flok – så er du mere end velkommen!\n\nKl. 17.30 Afgang Roskilde Havn\n\nVi kører tur i Roskilde omegn hvor vi finder de små lækre veje gennem landskabet\n\nTuren stopper ved Bjarnes Pølser\n\nLET THE THUNDER RUN! Del gerne og tag dem, du vil køre sammen med",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1605906724030257"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Roskilde+Havn%2C+4000+Roskilde%2C+Danmark",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/let-the-thunder-run-roskilde-back-2026-04-29.jpg"
+                                    },
+                                    {
                                                       "id": "lod-onsdagsfika-soldathemmet-skovde-2026-04-29",
                                                       "name": "LoD Onsdagsfika Soldathemmet Skövde",
                                                       "date": "2026-04-29",
@@ -8771,32 +8797,6 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com",
                                                       "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
                                                       "backImage": "ads/scrc-hall-of-odin-onsdagskorning-back-2026-04-29.jpg"
-                                    },
-                                    {
-                                                      "id": "let-the-thunder-run-roskilde-2026-04-29",
-                                                      "name": "Let The Thunder Run",
-                                                      "date": "2026-04-29",
-                                                      "dateEnd": "2026-04-29",
-                                                      "location": "Roskilde Havn, 4000 Roskilde, Danmark",
-                                                      "type": "Körning",
-                                                      "organizer": "H-D Klubben af 1930",
-                                                      "description": "Hverdagsfællestur med HDK1930. Avgång från Roskilde Havn kl 17.30, tur i Roskilde-omegnen med stopp vid Bjarnes Pølser.",
-                                                      "link": "https://www.facebook.com/events/1605906724030257",
-                                                      "region": "Danmark",
-                                                      "source": "facebook.com",
-                                                      "descriptionFull": "LET THE THUNDER RUN\nFællestur på en hverdag – arrangeret af HDK1930\n\nMotoren kalder, og vejene venter! Vi inviterer til en hyggelig og energifyldt fællestur på en hverdag, hvor fællesskab, køreglæde og god stemning er i fokus\n\nUanset om du kører for friheden, fællesskabet eller bare elsker lyden af motorer i flok – så er du mere end velkommen!\n\nKl. 17.30 Afgang Roskilde Havn\n\nVi kører tur i Roskilde omegn hvor vi finder de små lækre veje gennem landskabet\n\nTuren stopper ved Bjarnes Pølser\n\nLET THE THUNDER RUN! Del gerne og tag dem, du vil køre sammen med",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1605906724030257"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Roskilde+Havn%2C+4000+Roskilde%2C+Danmark",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/let-the-thunder-run-roskilde-back-2026-04-29.jpg"
                                     },
                                     {
                                                       "id": "balders-hage-bil-mc-cafe-2026",
@@ -8965,51 +8965,6 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
-                                                      "id": "omcc-brasrunda-2026-04-30",
-                                                      "name": "Brasrunda",
-                                                      "date": "2026-04-30",
-                                                      "dateEnd": "2026-04-30",
-                                                      "location": "Viktoriaesplanaden, Örnsköldsvik",
-                                                      "type": "Körning",
-                                                      "organizer": "ÖMCC",
-                                                      "description": "Traditionell Brasrunda! Gulashsoppa på ÖMCC kl 18, sen sväng till Domsjö IP och Bonäset. Anmälan på omcc.se.",
-                                                      "descriptionFull": "Som traditionen bjuder så kör vi även i år en Brasrunda\n\nStart 18.00 från ÖMCC med att vi äter varm Gulashsoppa innan avfärd\n\nSen blir det en sväng till Domsjö IP och Bonäset för att värma oss.\n\nHäng på de brukar va trevligt, ifjol va vi 14 hojar\n\nAnmälan görs på hemsidan www.omcc.se pga inhandling av mat\n\n/Staffan",
-                                                      "link": "https://www.facebook.com/events/1199408022096983/",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1199408022096983/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "omcc.se",
-                                                                                          "url": "https://www.omcc.se"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+Örnsköldsvik",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västernorrland",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/brasrunda-back-2026-04-30.jpg"
-                                    },
-                                    {
-                                                      "id": "valborgskortege-linkoping-2026",
-                                                      "name": "Valborgskortege Linköping",
-                                                      "date": "2026-04-30",
-                                                      "dateEnd": "2026-04-30",
-                                                      "location": "Linköping",
-                                                      "type": "Träff",
-                                                      "organizer": "H-DCS",
-                                                      "description": "Mer info kommer",
-                                                      "link": "https://hdcs.se/evenemang/valborgskortege-linkoping/",
-                                                      "region": "Östergötland",
-                                                      "source": "hdcs.se",
-                                                      "organizerIcon": "clubs/normalized/hdcs.png",
-                                                      "backImage": "ads/hd-default-back.jpg"
-                                    },
-                                    {
                                                       "id": "jmc-valborg-till-linkoping-2026",
                                                       "name": "Valborgsåkning till Linköping",
                                                       "date": "2026-04-30",
@@ -9042,31 +8997,34 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/jmc-linkoping-kortege-back-2026-04-30.jpg"
                                     },
                                     {
-                                                      "id": "smc-valborgskortege-linkoping-2026",
-                                                      "name": "Valborgskortege Linköping - Skänninge",
+                                                      "id": "omcc-brasrunda-2026-04-30",
+                                                      "name": "Brasrunda",
                                                       "date": "2026-04-30",
                                                       "dateEnd": "2026-04-30",
-                                                      "location": "Idögatan 6, Linköping",
+                                                      "location": "Viktoriaesplanaden, Örnsköldsvik",
                                                       "type": "Körning",
-                                                      "organizer": "SMC Östergötland",
-                                                      "organizerIcon": "clubs/normalized/smc.png",
-                                                      "description": "Valborgskortege från Linköping till Väderkvarnsbacken i Skänninge. Samling på Idögatan 6 från kl 17. Kortegen startar 18:00. Alla 2- och 3-hjuliga fordon välkomna.",
-                                                      "descriptionFull": "Valborgskortege från Linköping till Väderkvarnsbacken i Skänninge. Samling på IDÖ-gatan 6 från 17.00. Kortegen startar 18.00 och vi kör samma väg som vanligt. Alla. 2- och 3-hjuliga fordon välkomna.",
+                                                      "organizer": "ÖMCC",
+                                                      "description": "Traditionell Brasrunda! Gulashsoppa på ÖMCC kl 18, sen sväng till Domsjö IP och Bonäset. Anmälan på omcc.se.",
+                                                      "descriptionFull": "Som traditionen bjuder så kör vi även i år en Brasrunda\n\nStart 18.00 från ÖMCC med att vi äter varm Gulashsoppa innan avfärd\n\nSen blir det en sväng till Domsjö IP och Bonäset för att värma oss.\n\nHäng på de brukar va trevligt, ifjol va vi 14 hojar\n\nAnmälan görs på hemsidan www.omcc.se pga inhandling av mat\n\n/Staffan",
+                                                      "link": "https://www.facebook.com/events/1199408022096983/",
                                                       "links": [
                                                                         {
                                                                                           "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/854926823641436"
+                                                                                          "url": "https://www.facebook.com/events/1199408022096983/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "omcc.se",
+                                                                                          "url": "https://www.omcc.se"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Idögatan+6+Linköping",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+Örnsköldsvik",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "link": "https://www.facebook.com/events/854926823641436",
-                                                      "region": "Östergötland",
+                                                      "region": "Västernorrland",
                                                       "source": "facebook.com",
-                                                      "backImage": "ads/smc-valborgskortege-linkoping-back-2026-04-30.jpg"
+                                                      "backImage": "ads/brasrunda-back-2026-04-30.jpg"
                                     },
                                     {
                                                       "id": "smc-mc-traff-kumla-torg-2026",
@@ -9094,6 +9052,48 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "smc-valborgskortege-linkoping-2026",
+                                                      "name": "Valborgskortege Linköping - Skänninge",
+                                                      "date": "2026-04-30",
+                                                      "dateEnd": "2026-04-30",
+                                                      "location": "Idögatan 6, Linköping",
+                                                      "type": "Körning",
+                                                      "organizer": "SMC Östergötland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "description": "Valborgskortege från Linköping till Väderkvarnsbacken i Skänninge. Samling på Idögatan 6 från kl 17. Kortegen startar 18:00. Alla 2- och 3-hjuliga fordon välkomna.",
+                                                      "descriptionFull": "Valborgskortege från Linköping till Väderkvarnsbacken i Skänninge. Samling på IDÖ-gatan 6 från 17.00. Kortegen startar 18.00 och vi kör samma väg som vanligt. Alla. 2- och 3-hjuliga fordon välkomna.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/854926823641436"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Idögatan+6+Linköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/854926823641436",
+                                                      "region": "Östergötland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/smc-valborgskortege-linkoping-back-2026-04-30.jpg"
+                                    },
+                                    {
+                                                      "id": "valborgskortege-linkoping-2026",
+                                                      "name": "Valborgskortege Linköping",
+                                                      "date": "2026-04-30",
+                                                      "dateEnd": "2026-04-30",
+                                                      "location": "Linköping",
+                                                      "type": "Träff",
+                                                      "organizer": "H-DCS",
+                                                      "description": "Mer info kommer",
+                                                      "link": "https://hdcs.se/evenemang/valborgskortege-linkoping/",
+                                                      "region": "Östergötland",
+                                                      "source": "hdcs.se",
+                                                      "organizerIcon": "clubs/normalized/hdcs.png",
+                                                      "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "1-majkortege-norrkoping-2026",
                                                       "name": "1 Majkortege Norrköping",
                                                       "date": "2026-05-01",
@@ -9107,6 +9107,36 @@ const EVENTS_DATA = {
                                                       "source": "hdcs.se",
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "abate-avrostning-2026-05-01",
+                                                      "name": "ABATE Sveriges Avrostning",
+                                                      "date": "2026-05-01",
+                                                      "dateEnd": "2026-05-01",
+                                                      "location": "Ljungviks Torg, Gråbo Industriväg, Gråbo",
+                                                      "type": "Träff",
+                                                      "organizer": "ABATE Sverige",
+                                                      "description": "Avrostning för alla, inte bara hojåkare! Startavgift 100 kr med lotterivinst. Gemensam körning från Nostalgia Motor AB i Göteborg. Provkör Indian via MC-konsult.",
+                                                      "descriptionFull": "Plats: Ljungviks Torg, Gråbo\nTid: 12:00-15:00\n\nStartavgiften är oförändrad: 100:-/Person\n\nNi som inte har hoj, är välkomna med bil, eventet är för alla!\nEtt event för hela familjen!\n\nDet kommer att bli en gemensam körning ut till Eventet från Nostalgia Motor AB som ligger på Gullbergs Strandgata 34, 411 04 Göteborg.\nSamling mellan 09:00-10:00, start 11:00.\nButiken är öppen från cirka 08:30.\n\nMc-konsult i Lidköping kommer att finnas på plats och ger er möjligheten att provköra de senaste ur Indians sortiment.\n\nI startavgiften ingår en lott till vårt fina lotteri!\n\nFörtäring kommer att finnas på plats.\n\nVälkomna!\nRubber Side Down!\nPeace Out!\n\nBosse Larsson Ordförande\nABATE Sverige.",
+                                                      "link": "https://www.facebook.com/events/1443038960891708",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1443038960891708"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=10167221293517678&set=gm.2843985352617722&idorvanity=1681065958909673"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ljungviks+Torg+Gråbo+Industriväg+Gråbo",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/abate-avrostning-back-2026-05-01-v2.jpg"
                                     },
                                     {
                                                       "id": "adventurebike-gruskurs-niva1-2026-05-01",
@@ -9656,6 +9686,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/primo-maggio-vasteras-back-2026-05-01.jpg"
                                     },
                                     {
+                                                      "id": "smc-se-oss-vaxjo-2026",
+                                                      "name": "Se Oss",
+                                                      "date": "2026-05-01",
+                                                      "dateEnd": "2026-05-01",
+                                                      "location": "Grand Samarkand, Växjö",
+                                                      "type": "Träff",
+                                                      "organizer": "SMC Kronoberg",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "description": "MC-träff vid Grand Samarkand i Växjö. Arrangeras av SMC Kronoberg. Alla MC-åkare välkomna!",
+                                                      "link": "https://smcboken.svmc.se/traffar/mctraffar",
+                                                      "region": "Kronoberg",
+                                                      "source": "smcboken.svmc.se",
+                                                      "descriptionFull": "Välkommen till Se Oss, en MC-träff vid Grand Samarkand i Växjö!\n\nArrangeras av SMC Kronoberg. Alla MC-åkare välkomna.\n\nTid: 1 maj kl 11:00-13:00\n\nPlats: Grand Samarkand, Växjö.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "SMC Boken",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mctraffar"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Grand+Samarkand%2C+Växjö",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "smk-solleftea-uppstart-2026-05-01",
                                                       "name": "Säsongsuppstart",
                                                       "date": "2026-05-01",
@@ -9803,156 +9859,6 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/wings-rogaland-25ar-back-2026-05-01.jpg"
                                     },
                                     {
-                                                      "id": "abate-avrostning-2026-05-01",
-                                                      "name": "ABATE Sveriges Avrostning",
-                                                      "date": "2026-05-01",
-                                                      "dateEnd": "2026-05-01",
-                                                      "location": "Ljungviks Torg, Gråbo Industriväg, Gråbo",
-                                                      "type": "Träff",
-                                                      "organizer": "ABATE Sverige",
-                                                      "description": "Avrostning för alla, inte bara hojåkare! Startavgift 100 kr med lotterivinst. Gemensam körning från Nostalgia Motor AB i Göteborg. Provkör Indian via MC-konsult.",
-                                                      "descriptionFull": "Plats: Ljungviks Torg, Gråbo\nTid: 12:00-15:00\n\nStartavgiften är oförändrad: 100:-/Person\n\nNi som inte har hoj, är välkomna med bil, eventet är för alla!\nEtt event för hela familjen!\n\nDet kommer att bli en gemensam körning ut till Eventet från Nostalgia Motor AB som ligger på Gullbergs Strandgata 34, 411 04 Göteborg.\nSamling mellan 09:00-10:00, start 11:00.\nButiken är öppen från cirka 08:30.\n\nMc-konsult i Lidköping kommer att finnas på plats och ger er möjligheten att provköra de senaste ur Indians sortiment.\n\nI startavgiften ingår en lott till vårt fina lotteri!\n\nFörtäring kommer att finnas på plats.\n\nVälkomna!\nRubber Side Down!\nPeace Out!\n\nBosse Larsson Ordförande\nABATE Sverige.",
-                                                      "link": "https://www.facebook.com/events/1443038960891708",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1443038960891708"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=10167221293517678&set=gm.2843985352617722&idorvanity=1681065958909673"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Ljungviks+Torg+Gråbo+Industriväg+Gråbo",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/abate-avrostning-back-2026-05-01-v2.jpg"
-                                    },
-                                    {
-                                                      "id": "smc-se-oss-vaxjo-2026",
-                                                      "name": "Se Oss",
-                                                      "date": "2026-05-01",
-                                                      "dateEnd": "2026-05-01",
-                                                      "location": "Grand Samarkand, Växjö",
-                                                      "type": "Träff",
-                                                      "organizer": "SMC Kronoberg",
-                                                      "organizerIcon": "clubs/normalized/smc.png",
-                                                      "description": "MC-träff vid Grand Samarkand i Växjö. Arrangeras av SMC Kronoberg. Alla MC-åkare välkomna!",
-                                                      "link": "https://smcboken.svmc.se/traffar/mctraffar",
-                                                      "region": "Kronoberg",
-                                                      "source": "smcboken.svmc.se",
-                                                      "descriptionFull": "Välkommen till Se Oss, en MC-träff vid Grand Samarkand i Växjö!\n\nArrangeras av SMC Kronoberg. Alla MC-åkare välkomna.\n\nTid: 1 maj kl 11:00-13:00\n\nPlats: Grand Samarkand, Växjö.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "SMC Boken",
-                                                                                          "url": "https://smcboken.svmc.se/traffar/mctraffar"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Grand+Samarkand%2C+Växjö",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
-                                    },
-                                    {
-                                                      "id": "smc-dalarna-vartur-2026-05-02",
-                                                      "name": "Vårtur i strålande solsken",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "time": "10:00",
-                                                      "type": "Körning",
-                                                      "region": "Dalarna",
-                                                      "location": "Circle K, Borlänge",
-                                                      "organizer": "SMC Dalarna",
-                                                      "organizerIcon": "clubs/normalized/smc.png",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/groups/456537297764500/",
-                                                      "description": "Årlig vårtur på Motorcykelns dag. Ca 20 mil med lunchstopp i Rättvik. Samling Circle K Borlänge kl 10:00. Damma av motorcykeln och njut av fina vägar.",
-                                                      "descriptionFull": "På Motorcykelns dag kör SMC Dalarna den årliga vårturen för att damma av och känna på motorcykeln.\n\nDet blir ca 20 mil med ett trevlig lunch stopp i Rättvik. Häng med och njut av fina vägar.\n\nSamling vid Circle K i Borlänge kl 10.00 på Lördag 2 maj.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=1378320544330854&set=a.549213253908258"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/smcdalarna"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/groups/456537297764500/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Borl%C3%A4nge",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/smc-dalarna-vartur-back-2026-05-02.jpg"
-                                    },
-                                    {
-                                                      "id": "vsm-glassrunda-ahus-2026-05-02",
-                                                      "name": "Glassrunda Åhus",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "time": "17:00",
-                                                      "type": "Körning",
-                                                      "region": "Skåne",
-                                                      "location": "Biltema, Öllegårdsväg 2, Kristianstad",
-                                                      "organizer": "Vi som kör mc i Skåne",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/1515502983343085/",
-                                                      "description": "Glassrunda till Åhus hamn på slingriga skånska vägar, ca 2 timmar. Samling Biltema Kristianstad kl 17:00, avfärd 17:15. Möjlighet att köra tillbaka tillsammans efter glassen.",
-                                                      "descriptionFull": "Glassrunda till Åhus på slingriga fina skånska vägar. Planerad rutt tar cirka 2 h med avslut i Åhus hamn. För den som önskar kan rundan fortsätta efter glasstoppet tillbaka mot Kristianstad.\n\nTräffas Biltema Kristianstad vid stora skylten kl. 17:00 med avfärd kl. 17:15.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1515502983343085/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+%C3%96lleg%C3%A5rdsv%C3%A4g+2+Kristianstad",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/glassrunda-ahus-back-2026-05-02.jpg"
-                                    },
-                                    {
-                                                      "id": "jmc-besok-mc-kompaniet-2026-05-02",
-                                                      "name": "Besök MC-Kompaniets Öppna Hus",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "type": "Körning",
-                                                      "region": "Jönköping",
-                                                      "location": "ST1 A6, Sjukhusgatan 6, Jönköping",
-                                                      "organizer": "JMC Samåkning Småland",
-                                                      "organizerIcon": "clubs/normalized/jmc.png",
-                                                      "description": "Samåkning till MC-Kompaniets Öppet Hus i Våring. Samling kl 9:00 vid ST1 A6, avresa 9:30. Tempo: lagligt. Kör bara i solsken!",
-                                                      "descriptionFull": "Besök på MC-Kompaniets öppna hus i Våring, Skövde.\n\nTid: 9:00, Avresa 9:30\nPlats: ST1 A6\nTempo: I stort sett lagligt\n\nhttps://mc-kompaniet.se/aktuellt/oppet-hus-1-2-maj/\n\n(Förutsatt att det är bra väder, kör bara i solsken)",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/jmc-besok-mc-kompaniet-back-2026-05-02.jpg",
-                                                      "link": "https://www.facebook.com/events/35765256273119578",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/35765256273119578"
-                                                                        },
-                                                                        {
-                                                                                          "label": "mc-kompaniet.se",
-                                                                                          "url": "https://mc-kompaniet.se/aktuellt/oppet-hus-1-2-maj/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=ST1+Sjukhusgatan+6+J%C3%B6nk%C3%B6ping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
-                                    },
-                                    {
                                                       "id": "ava-mc-motorcykelns-dag-2026-05-02",
                                                       "name": "Motorcykelns Dag hos AVA MC",
                                                       "date": "2026-05-02",
@@ -9983,136 +9889,6 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
-                                                      "id": "lundgrens-motor-motorcykelns-dag-2026-05-02",
-                                                      "name": "Motorcykelns Dag hos Lundgrens Motor",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "type": "Show",
-                                                      "region": "Dalarna",
-                                                      "location": "Myntgatan 8, Avesta",
-                                                      "organizer": "Lundgrens Motor AB",
-                                                      "description": "Motorcykelns Dag hos BMW-återförsäljaren Lundgrens Motor. Erbjudanden, provkör 14 BMW-hojar, gratis vår-check, korv och fika!",
-                                                      "descriptionFull": "Kom och fira Motorcykelns Dag den 2/5 med oss på Lundgrens Motor!\n\n(Förutom grymma erbjudanden så kommer vi ha något alldeles speciellt att premiärvisa för er denna dag, håll utkik!)\n\nVar: Myntgatan 8, Avesta\nNär: Lördag 2 Maj kl: 10-15\n\n🏍 Butiken fylld med erbjudanden på hojar, tillbehör och kläder!\n\n🏍 Provkör någon av våra 14 BMW-hojar, allt från F450GS till R18B\n\n🔧 Vi hjälper till att ge din MC en gratis vår-check* inför säsongen!\n\n🌭 Vi bjuder på korv med bröd & fika!\n\nVarmt välkommen!\n\nLäs mer om Motorcykelns dag här:\nhttps://mcbranschen.se/motorcykelns-dag/\n\n(*Vi kan tyvärr inte erbjuda tid för service, reparation, däckbyten m.m. denna dag)",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/lundgrens-motorcykelns-dag-back-2026-05-02.jpg",
-                                                      "link": "https://www.facebook.com/events/1441891823919473",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1441891823919473"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/lundgrensmotor"
-                                                                        },
-                                                                        {
-                                                                                          "label": "mcbranschen.se",
-                                                                                          "url": "https://mcbranschen.se/motorcykelns-dag/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Myntgatan+8+Avesta",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
-                                    },
-                                    {
-                                                      "id": "lingvalls-motorcykelns-dag-2026-05-02",
-                                                      "name": "Motorcykelns Dag hos Lingvalls Motor",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "time": "10:00",
-                                                      "type": "Show",
-                                                      "region": "Gävleborg",
-                                                      "location": "Kryddstigen 12, Gävle",
-                                                      "organizer": "Lingvalls Motor",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/LingvallsMotor",
-                                                      "description": "Motorcykelns dag hos Lingvalls Motor i Gävle, kl 10-14. Grillen på och hojar från Ducati, Triumph, CFmoto, Kawasaki, Honda, Suzuki, Rieju, Stark Future, Indian och Aprilia.",
-                                                      "descriptionFull": "Välkommen till Lingvalls motor på motorcykelns dag Lördag 2 maj kl. 10-14!\n\nVi startar grillen och ser fram emot att träffa alla entusiastiska hojåkare.\n\nDucati, Triumph, CFmoto, Kawasaki, Honda, Suzuki, Rieju, Stark Future, Indian, Aprilia.\n\nVarmt välkommen!\n\nPlats: Kryddstigen 12, 802 92 Gävle.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/2771249773253651"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/LingvallsMotor"
-                                                                        },
-                                                                        {
-                                                                                          "label": "lingvalls.se",
-                                                                                          "url": "https://lingvalls.se/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kryddstigen+12+G%C3%A4vle",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/lingvalls-motorcykelns-dag-back-2026-05-02.jpg"
-                                    },
-                                    {
-                                                      "id": "molnlycke-mc-motorcykelns-dag-2026-05-02",
-                                                      "name": "Motorcykelns Dag hos Mölnlycke MC",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "type": "Show",
-                                                      "region": "Västra Götaland",
-                                                      "location": "Åvägen 3D, Mölnlycke",
-                                                      "organizer": "Mölnlycke MC & Moped",
-                                                      "description": "Öppet hus på Motorcykelns Dag! Årets nyheter, provkörning av Rieju och BSA, bra deals på fjolårets mopeder. Grillat och kaffe.",
-                                                      "descriptionFull": "Välkommen till oss på Motorcykelns Dag 2 Maj! Vi visar upp årets nyheter samt erbjuder provkörning av Rieju och BSA motorcyklar! Gör ett klipp på fiolårets mopedmodeller. Vi bjuder på grillat och kaffe!",
-                                                      "source": "facebook.com",
-                                                      "frontImage": "ads/molnlycke-mc-motorcykelns-dag-front-2026-05-02.jpg",
-                                                      "link": "https://www.facebook.com/photo/?fbid=1284313120451244&set=a.525302139685683",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=1284313120451244&set=a.525302139685683"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/molnlyckemopedcenter"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85v%C3%A4gen+3D+M%C3%B6lnlycke",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
-                                    },
-                                    {
-                                                      "id": "smc-jonkoping-avrostning-2026-05-02",
-                                                      "name": "Avrostning med SMC Jönköping",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "type": "Körning",
-                                                      "region": "Jönköping",
-                                                      "location": "Galoppstigen 2, Nifsarp, Eksjö",
-                                                      "organizer": "SMC Jönköping",
-                                                      "organizerIcon": "clubs/normalized/smc.png",
-                                                      "description": "SMC Jönköpings årliga avrostning. Samling vid Nifsarp utanför Eksjö. Anmälan via grundkurser.svmc.se.",
-                                                      "descriptionFull": "Den 2026-05-02 är det dags för SMC Jönköpings årliga avrostning!\n\nFör mer information se länken:\nhttps://grundkurser.svmc.se/956b3e44-f76f/deltagare\n\nHoppas vi ses där!\n\n#avrostning #smcjönköping",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/smc-jonkoping-avrostning-back-2026-05-02.jpg",
-                                                      "link": "https://www.facebook.com/events/835727408970782",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/835727408970782"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Anmälan",
-                                                                                          "url": "https://grundkurser.svmc.se/956b3e44-f76f/deltagare"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Galoppstigen+2+Nifsarp+Eksj%C3%B6",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
-                                    },
-                                    {
                                                       "id": "avrostning-hasslo-trafikskola-2026-05-02",
                                                       "name": "Avrostning & Provkörning",
                                                       "date": "2026-05-02",
@@ -10137,6 +9913,40 @@ const EVENTS_DATA = {
                                                       "region": "Västmanland",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/avrostning-hasslo-back-2026-05-02.jpg"
+                                    },
+                                    {
+                                                      "id": "biscaya-motorcykelns-dag-2026-05-02",
+                                                      "name": "Motorcykelns Dag",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Träff",
+                                                      "region": "Västra Götaland",
+                                                      "location": "Grönäng 3, Alingsås",
+                                                      "organizer": "Biscaya Motor Racing",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/photo/?fbid=1474411444476107",
+                                                      "description": "Fira motorcykelns dag hos Biscaya Motor Racing\\! Extra öppet med provkörningar och gött häng.",
+                                                      "descriptionFull": "Den 2 maj firar vi motorcykelns dag och har extra öppet med provkörningar och gött häng, välkomna\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1474411444476107&set=a.558266092757318"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/biscayamotor"
+                                                                        },
+                                                                        {
+                                                                                          "label": "biscayamotor.se",
+                                                                                          "url": "https://biscayamotor.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%B6n%C3%A4ng+3+Aling%C3%A5s",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/biscaya-motorcykelns-dag-back-2026-05-02.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-oskarshamnsgrus-norr-2026",
@@ -10406,6 +10216,99 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com"
                                     },
                                     {
+                                                      "id": "jmc-besok-mc-kompaniet-2026-05-02",
+                                                      "name": "Besök MC-Kompaniets Öppna Hus",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Körning",
+                                                      "region": "Jönköping",
+                                                      "location": "ST1 A6, Sjukhusgatan 6, Jönköping",
+                                                      "organizer": "JMC Samåkning Småland",
+                                                      "organizerIcon": "clubs/normalized/jmc.png",
+                                                      "description": "Samåkning till MC-Kompaniets Öppet Hus i Våring. Samling kl 9:00 vid ST1 A6, avresa 9:30. Tempo: lagligt. Kör bara i solsken!",
+                                                      "descriptionFull": "Besök på MC-Kompaniets öppna hus i Våring, Skövde.\n\nTid: 9:00, Avresa 9:30\nPlats: ST1 A6\nTempo: I stort sett lagligt\n\nhttps://mc-kompaniet.se/aktuellt/oppet-hus-1-2-maj/\n\n(Förutsatt att det är bra väder, kör bara i solsken)",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/jmc-besok-mc-kompaniet-back-2026-05-02.jpg",
+                                                      "link": "https://www.facebook.com/events/35765256273119578",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/35765256273119578"
+                                                                        },
+                                                                        {
+                                                                                          "label": "mc-kompaniet.se",
+                                                                                          "url": "https://mc-kompaniet.se/aktuellt/oppet-hus-1-2-maj/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=ST1+Sjukhusgatan+6+J%C3%B6nk%C3%B6ping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
+                                                      "id": "lille-mats-rally-2026-05-02",
+                                                      "name": "Lille Mats Rally",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "time": "11:00",
+                                                      "type": "Körning",
+                                                      "region": "Skåne",
+                                                      "location": "Stattenavägen 53, Hässleholm",
+                                                      "organizer": "Lille Mats MCK",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1524776872405423",
+                                                      "description": "MC-rally med 12,5 mil fina vägar runt Hässleholm. Registrering 11:00-12:30. Pris 150 kr. Korv och dricka ingår.",
+                                                      "descriptionFull": "Välkomna till Lille Mats MCK´s traditionsenliga MC-rally\\!\n\nÅrets rally går av stapeln lördag d. 2 maj, 2026. Registrering mellan kl. 11.00 -12.30.\n\nStart: Besikta Hässleholm.\nPris: 150 kr\nMålgång senast 16:30. Därefter är det prisutdelning.\n\nVill du köra rundan i lugnt och behagligt tempo så börjar du tidigare. Det är gott om utrymme för frågor och pauser.\n\nPassa på att besikta din MC\\!\nBesikta har öppet för besiktning av MC.\nKontakta Besiktiga för ytterligare information.\n\nI startavgiften ingår det en grillad korv och en dricka, som serveras längs rundan. Vid målgången så bjuds det på kaffe och fralla.\n\nRally-rundan är 12,5 mil på fina vägar runt Hässleholm med praktiska övningar och teoretiska frågor längs vägen.\n\nVid starten delas det ut notor som beskriver rutten samt var övningarna är. Som en tipsrunda, fast på hoj\\! Svaren lämnas in vid målgången och sen korar vi några lyckliga vinnare.\n\nBjud in alla din vänner och hojåkare\\!\nSå ses vi vid målgången. Lycka till\\!\\!\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1524776872405423"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Stattenav%C3%A4gen+53+H%C3%A4ssleholm",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/lille-mats-rally-back-2026-05-02.jpg"
+                                    },
+                                    {
+                                                      "id": "lingvalls-motorcykelns-dag-2026-05-02",
+                                                      "name": "Motorcykelns Dag hos Lingvalls Motor",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "time": "10:00",
+                                                      "type": "Show",
+                                                      "region": "Gävleborg",
+                                                      "location": "Kryddstigen 12, Gävle",
+                                                      "organizer": "Lingvalls Motor",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/LingvallsMotor",
+                                                      "description": "Motorcykelns dag hos Lingvalls Motor i Gävle, kl 10-14. Grillen på och hojar från Ducati, Triumph, CFmoto, Kawasaki, Honda, Suzuki, Rieju, Stark Future, Indian och Aprilia.",
+                                                      "descriptionFull": "Välkommen till Lingvalls motor på motorcykelns dag Lördag 2 maj kl. 10-14!\n\nVi startar grillen och ser fram emot att träffa alla entusiastiska hojåkare.\n\nDucati, Triumph, CFmoto, Kawasaki, Honda, Suzuki, Rieju, Stark Future, Indian, Aprilia.\n\nVarmt välkommen!\n\nPlats: Kryddstigen 12, 802 92 Gävle.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/2771249773253651"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/LingvallsMotor"
+                                                                        },
+                                                                        {
+                                                                                          "label": "lingvalls.se",
+                                                                                          "url": "https://lingvalls.se/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kryddstigen+12+G%C3%A4vle",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/lingvalls-motorcykelns-dag-back-2026-05-02.jpg"
+                                    },
+                                    {
                                                       "id": "ljungbyhed-mc-bandag-2026-05-02",
                                                       "name": "Ljungbyhed MC Bandag",
                                                       "date": "2026-05-02",
@@ -10486,6 +10389,40 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "lundgrens-motor-motorcykelns-dag-2026-05-02",
+                                                      "name": "Motorcykelns Dag hos Lundgrens Motor",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Show",
+                                                      "region": "Dalarna",
+                                                      "location": "Myntgatan 8, Avesta",
+                                                      "organizer": "Lundgrens Motor AB",
+                                                      "description": "Motorcykelns Dag hos BMW-återförsäljaren Lundgrens Motor. Erbjudanden, provkör 14 BMW-hojar, gratis vår-check, korv och fika!",
+                                                      "descriptionFull": "Kom och fira Motorcykelns Dag den 2/5 med oss på Lundgrens Motor!\n\n(Förutom grymma erbjudanden så kommer vi ha något alldeles speciellt att premiärvisa för er denna dag, håll utkik!)\n\nVar: Myntgatan 8, Avesta\nNär: Lördag 2 Maj kl: 10-15\n\n🏍 Butiken fylld med erbjudanden på hojar, tillbehör och kläder!\n\n🏍 Provkör någon av våra 14 BMW-hojar, allt från F450GS till R18B\n\n🔧 Vi hjälper till att ge din MC en gratis vår-check* inför säsongen!\n\n🌭 Vi bjuder på korv med bröd & fika!\n\nVarmt välkommen!\n\nLäs mer om Motorcykelns dag här:\nhttps://mcbranschen.se/motorcykelns-dag/\n\n(*Vi kan tyvärr inte erbjuda tid för service, reparation, däckbyten m.m. denna dag)",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/lundgrens-motorcykelns-dag-back-2026-05-02.jpg",
+                                                      "link": "https://www.facebook.com/events/1441891823919473",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1441891823919473"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/lundgrensmotor"
+                                                                        },
+                                                                        {
+                                                                                          "label": "mcbranschen.se",
+                                                                                          "url": "https://mcbranschen.se/motorcykelns-dag/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Myntgatan+8+Avesta",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "mchk-mchk-skaraborg-manadsmote-2026-05-02",
                                                       "name": "MCHK Skaraborg: Månadsmöte",
                                                       "date": "2026-05-02",
@@ -10497,6 +10434,36 @@ const EVENTS_DATA = {
                                                       "link": "https://mchk.org/evenemang/kalender-34490789",
                                                       "region": "Västra Götaland",
                                                       "source": "mchk.org"
+                                    },
+                                    {
+                                                      "id": "molnlycke-mc-motorcykelns-dag-2026-05-02",
+                                                      "name": "Motorcykelns Dag hos Mölnlycke MC",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Show",
+                                                      "region": "Västra Götaland",
+                                                      "location": "Åvägen 3D, Mölnlycke",
+                                                      "organizer": "Mölnlycke MC & Moped",
+                                                      "description": "Öppet hus på Motorcykelns Dag! Årets nyheter, provkörning av Rieju och BSA, bra deals på fjolårets mopeder. Grillat och kaffe.",
+                                                      "descriptionFull": "Välkommen till oss på Motorcykelns Dag 2 Maj! Vi visar upp årets nyheter samt erbjuder provkörning av Rieju och BSA motorcyklar! Gör ett klipp på fiolårets mopedmodeller. Vi bjuder på grillat och kaffe!",
+                                                      "source": "facebook.com",
+                                                      "frontImage": "ads/molnlycke-mc-motorcykelns-dag-front-2026-05-02.jpg",
+                                                      "link": "https://www.facebook.com/photo/?fbid=1284313120451244&set=a.525302139685683",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1284313120451244&set=a.525302139685683"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/molnlyckemopedcenter"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85v%C3%A4gen+3D+M%C3%B6lnlycke",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
                                     },
                                     {
                                                       "id": "motorcykelns-dag-2026",
@@ -10552,6 +10519,32 @@ const EVENTS_DATA = {
                                                       "region": "Kalmar",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/motorcykelns-dag-kalmar-back-2026-05-02.jpg"
+                                    },
+                                    {
+                                                      "id": "motorcykelns-dag-mckonsult-lidkoping-2026-05-02",
+                                                      "name": "Motorcykelns Dag hos MC-konsult!",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "location": "Kinnegatan 15, 531 33 Lidköping",
+                                                      "type": "Show",
+                                                      "organizer": "Mc-konsult i Lidköping",
+                                                      "description": "Provkör demohojar och delta i utlottning av presentkort på 3000 kr. Hjälmberg med Nolanhjälmar till superpris. Köp 3 betala för 2 på Triumph/Indian-kläder. Matservering.",
+                                                      "descriptionFull": "Välkommen till oss på Motorcykelns Dag! Alla demohojar startklara och du som provkör är med i utlottningen av ett presentkort på 3000:- att användas i butiken eller verkstan! Dessutom hjälmberg med Nolanhjälmar till superpris och ta 3 betala för 2 bland våra Triumph/Indian originalkläder. Nån slags matservering kommer också finnas",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1925445591443024"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1925445591443024",
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/motorcykelns-dag-mckonsult-back-2026-05-02.jpg"
                                     },
                                     {
                                                       "id": "motorlordag-tidaholm-2026-05-02",
@@ -10638,6 +10631,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/mtl-motorcykelns-dag-back-2026-05-02.jpg"
                                     },
                                     {
+                                                      "id": "one-ride-one-cause-halmstad-2026-05-02",
+                                                      "name": "One Ride One Cause",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "location": "Biltema, Stormgatan 1, Halmstad",
+                                                      "type": "Körning",
+                                                      "organizer": "SK Motors charity rides",
+                                                      "description": "Välgörenhetstur för Kvinnojouren Viktoria. Samling vid Biltema Halmstad, fika vid Fika by Steph i Rydöbruk. Alla hojar välkomna, bidrag via Swish.",
+                                                      "descriptionFull": "One ride, one cause\" – på lördag den 2 maj rullar vi för en av de viktigaste sakerna vi har i Halmstad: Kvinnojouren Viktoria.\n\nJag har precis varit i kontakt med dem, och behovet av hjälp är tyvärr större än någonsin just nu. Därför vill jag att vi visar vad mc-communityt i Halmstad går för\\!\n\nVi gör det enkelt och opretentiöst. Målet är gemenskap, en snygg runda på småvägarna och att samla in så mycket bidrag som möjligt till jourens livsviktiga arbete.\n\nSAMLING: Biltema Halmstad\nMÅL: Fika by Steph i Rydöbruk (via de sköna bakvägarna\\!)\n\nVem kan hänga på?\nALLA är välkomna\\! Det spelar ingen roll om du kör en glidare, sporthoj, offroad eller touring. Det är ändamålet som räknas. Vi håller ett tempo så att alla kan hänga med.\n\nVi kommer att dela Kvinnojourens officiella Swish-nummer under samlingen och vid målgången. Varje krona går direkt till dem.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/802161329289265"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+Stormgatan+1+Halmstad",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/802161329289265",
+                                                      "region": "Halland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/one-ride-one-cause-halmstad-back-2026-05-02.jpg"
+                                    },
+                                    {
                                                       "id": "peter-linden-falkenberg-2026-05-02",
                                                       "name": "Peter Lindén - Från ljudvallen till racingbanan",
                                                       "date": "2026-05-02",
@@ -10691,6 +10710,73 @@ const EVENTS_DATA = {
                                                       "region": "Västmanland",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/poker-run-kak-back-2026-05-02.jpg"
+                                    },
+                                    {
+                                                      "id": "smc-dalarna-vartur-2026-05-02",
+                                                      "name": "Vårtur i strålande solsken",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "location": "Circle K, Borlänge",
+                                                      "organizer": "SMC Dalarna",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/groups/456537297764500/",
+                                                      "description": "Årlig vårtur på Motorcykelns dag. Ca 20 mil med lunchstopp i Rättvik. Samling Circle K Borlänge kl 10:00. Damma av motorcykeln och njut av fina vägar.",
+                                                      "descriptionFull": "På Motorcykelns dag kör SMC Dalarna den årliga vårturen för att damma av och känna på motorcykeln.\n\nDet blir ca 20 mil med ett trevlig lunch stopp i Rättvik. Häng med och njut av fina vägar.\n\nSamling vid Circle K i Borlänge kl 10.00 på Lördag 2 maj.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1378320544330854&set=a.549213253908258"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/smcdalarna"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/groups/456537297764500/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Borl%C3%A4nge",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-dalarna-vartur-back-2026-05-02.jpg"
+                                    },
+                                    {
+                                                      "id": "smc-jonkoping-avrostning-2026-05-02",
+                                                      "name": "Avrostning med SMC Jönköping",
+                                                      "date": "2026-05-02",
+                                                      "dateEnd": "2026-05-02",
+                                                      "type": "Körning",
+                                                      "region": "Jönköping",
+                                                      "location": "Galoppstigen 2, Nifsarp, Eksjö",
+                                                      "organizer": "SMC Jönköping",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "description": "SMC Jönköpings årliga avrostning. Samling vid Nifsarp utanför Eksjö. Anmälan via grundkurser.svmc.se.",
+                                                      "descriptionFull": "Den 2026-05-02 är det dags för SMC Jönköpings årliga avrostning!\n\nFör mer information se länken:\nhttps://grundkurser.svmc.se/956b3e44-f76f/deltagare\n\nHoppas vi ses där!\n\n#avrostning #smcjönköping",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/smc-jonkoping-avrostning-back-2026-05-02.jpg",
+                                                      "link": "https://www.facebook.com/events/835727408970782",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/835727408970782"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Anmälan",
+                                                                                          "url": "https://grundkurser.svmc.se/956b3e44-f76f/deltagare"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Galoppstigen+2+Nifsarp+Eksj%C3%B6",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
                                     },
                                     {
                                                       "id": "sulas-mc-provkörning-2026",
@@ -10828,117 +10914,31 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/varmonstringen-mothers-back-2026-05-02.jpg"
                                     },
                                     {
-                                                      "id": "lille-mats-rally-2026-05-02",
-                                                      "name": "Lille Mats Rally",
+                                                      "id": "vsm-glassrunda-ahus-2026-05-02",
+                                                      "name": "Glassrunda Åhus",
                                                       "date": "2026-05-02",
                                                       "dateEnd": "2026-05-02",
-                                                      "time": "11:00",
+                                                      "time": "17:00",
                                                       "type": "Körning",
                                                       "region": "Skåne",
-                                                      "location": "Stattenavägen 53, Hässleholm",
-                                                      "organizer": "Lille Mats MCK",
+                                                      "location": "Biltema, Öllegårdsväg 2, Kristianstad",
+                                                      "organizer": "Vi som kör mc i Skåne",
                                                       "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/1524776872405423",
-                                                      "description": "MC-rally med 12,5 mil fina vägar runt Hässleholm. Registrering 11:00-12:30. Pris 150 kr. Korv och dricka ingår.",
-                                                      "descriptionFull": "Välkomna till Lille Mats MCK´s traditionsenliga MC-rally\\!\n\nÅrets rally går av stapeln lördag d. 2 maj, 2026. Registrering mellan kl. 11.00 -12.30.\n\nStart: Besikta Hässleholm.\nPris: 150 kr\nMålgång senast 16:30. Därefter är det prisutdelning.\n\nVill du köra rundan i lugnt och behagligt tempo så börjar du tidigare. Det är gott om utrymme för frågor och pauser.\n\nPassa på att besikta din MC\\!\nBesikta har öppet för besiktning av MC.\nKontakta Besiktiga för ytterligare information.\n\nI startavgiften ingår det en grillad korv och en dricka, som serveras längs rundan. Vid målgången så bjuds det på kaffe och fralla.\n\nRally-rundan är 12,5 mil på fina vägar runt Hässleholm med praktiska övningar och teoretiska frågor längs vägen.\n\nVid starten delas det ut notor som beskriver rutten samt var övningarna är. Som en tipsrunda, fast på hoj\\! Svaren lämnas in vid målgången och sen korar vi några lyckliga vinnare.\n\nBjud in alla din vänner och hojåkare\\!\nSå ses vi vid målgången. Lycka till\\!\\!\\!",
+                                                      "link": "https://www.facebook.com/events/1515502983343085/",
+                                                      "description": "Glassrunda till Åhus hamn på slingriga skånska vägar, ca 2 timmar. Samling Biltema Kristianstad kl 17:00, avfärd 17:15. Möjlighet att köra tillbaka tillsammans efter glassen.",
+                                                      "descriptionFull": "Glassrunda till Åhus på slingriga fina skånska vägar. Planerad rutt tar cirka 2 h med avslut i Åhus hamn. För den som önskar kan rundan fortsätta efter glasstoppet tillbaka mot Kristianstad.\n\nTräffas Biltema Kristianstad vid stora skylten kl. 17:00 med avfärd kl. 17:15.",
                                                       "links": [
                                                                         {
                                                                                           "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1524776872405423"
+                                                                                          "url": "https://www.facebook.com/events/1515502983343085/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Stattenav%C3%A4gen+53+H%C3%A4ssleholm",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+%C3%96lleg%C3%A5rdsv%C3%A4g+2+Kristianstad",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "backImage": "ads/lille-mats-rally-back-2026-05-02.jpg"
-                                    },
-                                    {
-                                                      "id": "biscaya-motorcykelns-dag-2026-05-02",
-                                                      "name": "Motorcykelns Dag",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "type": "Träff",
-                                                      "region": "Västra Götaland",
-                                                      "location": "Grönäng 3, Alingsås",
-                                                      "organizer": "Biscaya Motor Racing",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/photo/?fbid=1474411444476107",
-                                                      "description": "Fira motorcykelns dag hos Biscaya Motor Racing\\! Extra öppet med provkörningar och gött häng.",
-                                                      "descriptionFull": "Den 2 maj firar vi motorcykelns dag och har extra öppet med provkörningar och gött häng, välkomna\\!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=1474411444476107&set=a.558266092757318"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/biscayamotor"
-                                                                        },
-                                                                        {
-                                                                                          "label": "biscayamotor.se",
-                                                                                          "url": "https://biscayamotor.se"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%B6n%C3%A4ng+3+Aling%C3%A5s",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/biscaya-motorcykelns-dag-back-2026-05-02.jpg"
-                                    },
-                                    {
-                                                      "id": "one-ride-one-cause-halmstad-2026-05-02",
-                                                      "name": "One Ride One Cause",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "location": "Biltema, Stormgatan 1, Halmstad",
-                                                      "type": "Körning",
-                                                      "organizer": "SK Motors charity rides",
-                                                      "description": "Välgörenhetstur för Kvinnojouren Viktoria. Samling vid Biltema Halmstad, fika vid Fika by Steph i Rydöbruk. Alla hojar välkomna, bidrag via Swish.",
-                                                      "descriptionFull": "One ride, one cause\" – på lördag den 2 maj rullar vi för en av de viktigaste sakerna vi har i Halmstad: Kvinnojouren Viktoria.\n\nJag har precis varit i kontakt med dem, och behovet av hjälp är tyvärr större än någonsin just nu. Därför vill jag att vi visar vad mc-communityt i Halmstad går för\\!\n\nVi gör det enkelt och opretentiöst. Målet är gemenskap, en snygg runda på småvägarna och att samla in så mycket bidrag som möjligt till jourens livsviktiga arbete.\n\nSAMLING: Biltema Halmstad\nMÅL: Fika by Steph i Rydöbruk (via de sköna bakvägarna\\!)\n\nVem kan hänga på?\nALLA är välkomna\\! Det spelar ingen roll om du kör en glidare, sporthoj, offroad eller touring. Det är ändamålet som räknas. Vi håller ett tempo så att alla kan hänga med.\n\nVi kommer att dela Kvinnojourens officiella Swish-nummer under samlingen och vid målgången. Varje krona går direkt till dem.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/802161329289265"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+Stormgatan+1+Halmstad",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/802161329289265",
-                                                      "region": "Halland",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/one-ride-one-cause-halmstad-back-2026-05-02.jpg"
-                                    },
-                                    {
-                                                      "id": "motorcykelns-dag-mckonsult-lidkoping-2026-05-02",
-                                                      "name": "Motorcykelns Dag hos MC-konsult!",
-                                                      "date": "2026-05-02",
-                                                      "dateEnd": "2026-05-02",
-                                                      "location": "Kinnegatan 15, 531 33 Lidköping",
-                                                      "type": "Show",
-                                                      "organizer": "Mc-konsult i Lidköping",
-                                                      "description": "Provkör demohojar och delta i utlottning av presentkort på 3000 kr. Hjälmberg med Nolanhjälmar till superpris. Köp 3 betala för 2 på Triumph/Indian-kläder. Matservering.",
-                                                      "descriptionFull": "Välkommen till oss på Motorcykelns Dag! Alla demohojar startklara och du som provkör är med i utlottningen av ett presentkort på 3000:- att användas i butiken eller verkstan! Dessutom hjälmberg med Nolanhjälmar till superpris och ta 3 betala för 2 bland våra Triumph/Indian originalkläder. Nån slags matservering kommer också finnas",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1925445591443024"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidköping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/1925445591443024",
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/motorcykelns-dag-mckonsult-back-2026-05-02.jpg"
+                                                      "backImage": "ads/glassrunda-ahus-back-2026-05-02.jpg"
                                     },
                                     {
                                                       "id": "bmw-d10-gruskurs-avancerad-2026-05-03",
@@ -11047,6 +11047,32 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "mc-for-alla-sasongsstart-2026-05-03",
+                                                      "name": "Säsongspremiär",
+                                                      "date": "2026-05-03",
+                                                      "dateEnd": "2026-05-03",
+                                                      "location": "Motostar, Såggatan 3, Sjöbo",
+                                                      "type": "Körning",
+                                                      "organizer": "MC för alla - Skåne",
+                                                      "description": "Första söndagsturen för säsongen! Samling 10:40, avfärd 11:00. Lugnt tempo på trevliga asfaltsvägar. Avslut på Äventyrskampen Sövde ca 13:00.",
+                                                      "descriptionFull": "Jag vet vi smygstartat lite med både Påskarallyt och Motostars öppet hus, men nu drar vi igång säsongen på riktigt med första söndagsturen!\n\nSamling på Motostar i Sjöbo 10:40\nAvfärd 11:00\nAvslut på Äventyrskampen Sövde ca 13-13:30\n\nHäng med oss på riktigt trevliga asfaltsvägar i lugnt tempo så alla kan hänga med\n\nTipsa era vänner så vi blir så många som möjligt!\n\nVi ses där!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/2354941118361200"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Såggatan+3+Sjöbo",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/2354941118361200",
+                                                      "region": "Skåne",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/mc-for-alla-sasongsstart-back-2026-05-03.jpg"
+                                    },
+                                    {
                                                       "id": "oamck-fikakvall-vietnam-japan-2026-05-03",
                                                       "name": "Fikakväll med bilder från Vietnam och Japan",
                                                       "date": "2026-05-03",
@@ -11129,6 +11155,37 @@ const EVENTS_DATA = {
                                                       "region": "Halland",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/peter-linden-halmstad-back-2026-05-03.jpg"
+                                    },
+                                    {
+                                                      "id": "scrc-hall-of-odin-heldagskorning-2026-05-03",
+                                                      "name": "Heldagskörning",
+                                                      "date": "2026-05-03",
+                                                      "dateEnd": "2026-05-03",
+                                                      "location": "Circle K, Onsalamotet, Valldavägen 1238, Onsala",
+                                                      "type": "Körning",
+                                                      "organizer": "SCRC #738 Hall of Odin",
+                                                      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
+                                                      "description": "Heldagskörning med SCRC Hall of Odin. Samling kl 9:45, avfärd 10:00 från Circle K Onsalamotet. Ca 25 mil med kulturstopp och pizzalunch.",
+                                                      "descriptionFull": "Nu är det dags för årets första helgkörning. Vi samlas 9:45 och avfärd 10:00.\n\nDet blir en tur på ca 25 mil, och vi kommer att stanna för att vara lite kulturella, där vi också kommer att inta egen medhavd fika. Inträde till detta ställe är 70:-/person.\n\nVi kommer senare att stanna för att äta på pizzeria.\n\nSom vanligt så blir det lugn körning anpassad till deltagarna, och bensträckare med jämna mellanrum.\n\nGlöm inte att ta med egen fika, och vätska när vi stannar för bensträckare.\n\nVälkomna\nSture/RC",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1638907014107325"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/738hallofodin"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Onsalamotet+Valldavägen+1238+Onsala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/738hallofodin",
+                                                      "region": "Halland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/scrc-hall-of-odin-heldagskorning-back-2026-05-03.jpg"
                                     },
                                     {
                                                       "id": "smc-vastmanland-avrostning-2026-05-03",
@@ -11235,63 +11292,6 @@ const EVENTS_DATA = {
                                                       "source": "vulcanriders-sweden.org",
                                                       "backImage": "ads/vrs-sondagstur-back-2026-05-03.jpg"
                                     },
-                                    {
-                                                      "id": "mc-for-alla-sasongsstart-2026-05-03",
-                                                      "name": "Säsongspremiär",
-                                                      "date": "2026-05-03",
-                                                      "dateEnd": "2026-05-03",
-                                                      "location": "Motostar, Såggatan 3, Sjöbo",
-                                                      "type": "Körning",
-                                                      "organizer": "MC för alla - Skåne",
-                                                      "description": "Första söndagsturen för säsongen! Samling 10:40, avfärd 11:00. Lugnt tempo på trevliga asfaltsvägar. Avslut på Äventyrskampen Sövde ca 13:00.",
-                                                      "descriptionFull": "Jag vet vi smygstartat lite med både Påskarallyt och Motostars öppet hus, men nu drar vi igång säsongen på riktigt med första söndagsturen!\n\nSamling på Motostar i Sjöbo 10:40\nAvfärd 11:00\nAvslut på Äventyrskampen Sövde ca 13-13:30\n\nHäng med oss på riktigt trevliga asfaltsvägar i lugnt tempo så alla kan hänga med\n\nTipsa era vänner så vi blir så många som möjligt!\n\nVi ses där!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/2354941118361200"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Såggatan+3+Sjöbo",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/2354941118361200",
-                                                      "region": "Skåne",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/mc-for-alla-sasongsstart-back-2026-05-03.jpg"
-                                    },
-    {
-      "id": "scrc-hall-of-odin-heldagskorning-2026-05-03",
-      "name": "Heldagskörning",
-      "date": "2026-05-03",
-      "dateEnd": "2026-05-03",
-      "location": "Circle K, Onsalamotet, Valldavägen 1238, Onsala",
-      "type": "Körning",
-      "organizer": "SCRC #738 Hall of Odin",
-      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
-      "description": "Heldagskörning med SCRC Hall of Odin. Samling kl 9:45, avfärd 10:00 från Circle K Onsalamotet. Ca 25 mil med kulturstopp och pizzalunch.",
-      "descriptionFull": "Nu är det dags för årets första helgkörning. Vi samlas 9:45 och avfärd 10:00.\n\nDet blir en tur på ca 25 mil, och vi kommer att stanna för att vara lite kulturella, där vi också kommer att inta egen medhavd fika. Inträde till detta ställe är 70:-/person.\n\nVi kommer senare att stanna för att äta på pizzeria.\n\nSom vanligt så blir det lugn körning anpassad till deltagarna, och bensträckare med jämna mellanrum.\n\nGlöm inte att ta med egen fika, och vätska när vi stannar för bensträckare.\n\nVälkomna\nSture/RC",
-      "links": [
-        {
-          "label": "FB Event",
-          "url": "https://www.facebook.com/events/1638907014107325"
-        },
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/738hallofodin"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Onsalamotet+Valldavägen+1238+Onsala",
-          "type": "map"
-        }
-      ],
-      "link": "https://www.facebook.com/738hallofodin",
-      "region": "Halland",
-      "source": "facebook.com",
-      "backImage": "ads/scrc-hall-of-odin-heldagskorning-back-2026-05-03.jpg"
-    },
                                     {
                                                       "id": "doa-kvallskörning-nacka-2026-05-04",
                                                       "name": "DOA - Kvällskörning Nacka",
@@ -11688,6 +11688,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "jarlasa-motor-meet-8-2026-05-06",
+                                                      "name": "Järlåsa Motor Meet #8",
+                                                      "date": "2026-05-06",
+                                                      "dateEnd": "2026-05-06",
+                                                      "location": "Järlåsa Bygdegård, Järlåsa-Laggarbo 2, Järlåsa",
+                                                      "type": "Träff",
+                                                      "organizer": "Järlåsa Bygdegård",
+                                                      "description": "Årets första motorträff i Järlåsa\\! Fordon, fika, hamburgare och en massa annat. Alla välkomna från kl 17.",
+                                                      "descriptionFull": "Välkomna till årets första motorträff\\!\nFordon, fika, hamburgare och en massa annat utlovas\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1655454505568704"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Järlåsa+Bygdegård+Järlåsa-Laggarbo+2",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1655454505568704",
+                                                      "region": "Uppsala",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/jarlasa-motor-meet-8-back-2026-05-06.jpg"
+                                    },
+                                    {
                                                       "id": "jmc-onsdagsturen-2026-05-06",
                                                       "name": "Onsdagsturen",
                                                       "date": "2026-05-06",
@@ -11719,30 +11745,86 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
-                                                      "id": "jarlasa-motor-meet-8-2026-05-06",
-                                                      "name": "Järlåsa Motor Meet #8",
+                                                      "id": "mck-freedom-akarkvallar-2026-05-06",
+                                                      "name": "Freedom Åkarkvällar",
                                                       "date": "2026-05-06",
                                                       "dateEnd": "2026-05-06",
-                                                      "location": "Järlåsa Bygdegård, Järlåsa-Laggarbo 2, Järlåsa",
-                                                      "type": "Träff",
-                                                      "organizer": "Järlåsa Bygdegård",
-                                                      "description": "Årets första motorträff i Järlåsa\\! Fordon, fika, hamburgare och en massa annat. Alla välkomna från kl 17.",
-                                                      "descriptionFull": "Välkomna till årets första motorträff\\!\nFordon, fika, hamburgare och en massa annat utlovas\\!",
+                                                      "time": "18:00",
+                                                      "type": "Körning",
+                                                      "region": "Östergötland",
+                                                      "location": "Circle K Norsholm, Klintorp, Norsholm",
+                                                      "organizer": "MCK Freedom",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Åkarkväll med MCK Freedom. Vid bra hoj-väder samlas vi varannan vecka onsdagar vid Circle K Norsholm. Krokiga småvägar och avslut vid fik.",
+                                                      "descriptionFull": "Vid bra hoj-väder samlas vi varannan vecka onsdagar vid Circle K Norsholm där E4:an och väg 215 möts.\n\nVi kör en sväng på krokiga småvägar och avslutar vid ett fik eller utflyktsmål.\n\nFart och längd anpassas efter deltagarnas önskemål.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1655454505568704"
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Järlåsa+Bygdegård+Järlåsa-Laggarbo+2",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Norsholm",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "link": "https://www.facebook.com/events/1655454505568704",
-                                                      "region": "Uppsala",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/jarlasa-motor-meet-8-back-2026-05-06.jpg"
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "onsdagskorning-gotland-2026-05-06",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-05-06",
+                                                      "dateEnd": "2026-05-06",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-05-06",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-05-06",
+                                                      "dateEnd": "2026-05-06",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "72-mil-grus-2026-05-07",
@@ -11913,6 +11995,33 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "hobbes-torsdagskorning-2026-05-07",
+                                                      "name": "Hobbes MC Torsdagskörning",
+                                                      "date": "2026-05-07",
+                                                      "dateEnd": "2026-05-07",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Halland",
+                                                      "location": "Karlstorpstugan, Sperlingsholm 797, Holm",
+                                                      "organizer": "Hobbes MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Torsdagskörning med Hobbes MC. Kurvig runda på ca 1 timme med avslut för förtäring. Avfärd 18:30, kom 15 min innan.",
+                                                      "descriptionFull": "Hobbes MCs torsdagskörning, 7 maj 2026.\n\nVi kör en kurvig runda och avslutar på en plats där det finns möjlighet för en lätt förtäring.\n\nPlats: Karlstorpstugan, Sperlingsholm 797, Holm\nAvfärd: kl. 18:30, så kom gärna 15 minuter innan\nKörtid: Ca. 1 timme\nAvslut: Plats oklar men avslutas ca. kl. 20:00-20:30\n\nVälkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Karlstorpstugan+Sperlingsholm+797+Holm",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-05-07",
                                                       "name": "LO-I Torsdagskörningar Sundsvall",
                                                       "date": "2026-05-07",
@@ -12069,6 +12178,28 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
+                                                      "id": "poker-run-aland-2026-05-08",
+                                                      "name": "Poker Run Åland",
+                                                      "date": "2026-05-08",
+                                                      "dateEnd": "2026-05-10",
+                                                      "time": "07:00",
+                                                      "type": "Körning",
+                                                      "region": "Finland",
+                                                      "location": "Eckerö, Åland",
+                                                      "organizer": "Åk med Sulas",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/3023374504539793",
+                                                      "description": "Tredagars MC-resa till Åland. Poker Run med Kobba Hoppers. Hotell, middagar och samkväm. Ca 35 deltagare.",
+                                                      "descriptionFull": "Har några platser kvar. Vi är idag i runda slängar 35 deltagare. För elfte året i rad vi nu åker på dessa omtyckta Ålandsresor\n\nHör av dig PM vid intresse för mer info.\n\nVi kör detta och med Kobba Hoppers på Åland som arrangör och jag har bokat ett 20-tal rum på centrala \"Hotell Esplanad\".\n\nKostnad blir 750:- per skalle i dubbelrum för två nätter MED frukostbuffé\n\nFärjan bokar ni själva. Vi kommer samåka upp fredag från Stockholm till Grisslehamn för de som väljer Eckerölinjen över till öjn.\n\nGivetvis samkväm på kvällarna med bokade middagar, ibland livemusik. Vi har alltid jättetrevligt och härliga minnen väl hemkomna\n\nPS. Jag ser redan fram emot detta i goda vänners lag",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/3023374504539793"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/poker-run-aland-back-2026-05-08.jpg"
+                                    },
+                                    {
                                                       "id": "roadracing-sm-falkenberg-2026",
                                                       "name": "SM Roadracing Falkenberg",
                                                       "date": "2026-05-08",
@@ -12101,28 +12232,6 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
-                                    },
-                                    {
-                                                      "id": "poker-run-aland-2026-05-08",
-                                                      "name": "Poker Run Åland",
-                                                      "date": "2026-05-08",
-                                                      "dateEnd": "2026-05-10",
-                                                      "time": "07:00",
-                                                      "type": "Körning",
-                                                      "region": "Finland",
-                                                      "location": "Eckerö, Åland",
-                                                      "organizer": "Åk med Sulas",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/3023374504539793",
-                                                      "description": "Tredagars MC-resa till Åland. Poker Run med Kobba Hoppers. Hotell, middagar och samkväm. Ca 35 deltagare.",
-                                                      "descriptionFull": "Har några platser kvar. Vi är idag i runda slängar 35 deltagare. För elfte året i rad vi nu åker på dessa omtyckta Ålandsresor\n\nHör av dig PM vid intresse för mer info.\n\nVi kör detta och med Kobba Hoppers på Åland som arrangör och jag har bokat ett 20-tal rum på centrala \"Hotell Esplanad\".\n\nKostnad blir 750:- per skalle i dubbelrum för två nätter MED frukostbuffé\n\nFärjan bokar ni själva. Vi kommer samåka upp fredag från Stockholm till Grisslehamn för de som väljer Eckerölinjen över till öjn.\n\nGivetvis samkväm på kvällarna med bokade middagar, ibland livemusik. Vi har alltid jättetrevligt och härliga minnen väl hemkomna\n\nPS. Jag ser redan fram emot detta i goda vänners lag",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/3023374504539793"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/poker-run-aland-back-2026-05-08.jpg"
                                     },
                                     {
                                                       "id": "tet-trip-uppsala-2026-05-08",
@@ -12609,6 +12718,64 @@ const EVENTS_DATA = {
                                                       "source": "FB"
                                     },
                                     {
+                                                      "id": "grasmarks-mopedrally-2026-05-09",
+                                                      "name": "Mopedrally Gräsmark",
+                                                      "date": "2026-05-09",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Värmland",
+                                                      "location": "Gräsmarks Hembygdsgård, Rottnavägen 7, Gräsmark",
+                                                      "organizer": "Gräsmarks Hembygdsförening",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1666479897849769",
+                                                      "description": "Mopedrally med 4 klasser och tipsrunda. Start kl 10, sista utsläpp kl 11. Avgift 100 kr.",
+                                                      "descriptionFull": "Mopedrally\n\nStart kl 10 sista utsläpp kl 11\n100 kr\n4 klasser\nTipsrunda\n\nVälkomna\\!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1666479897849769"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Rottnav%C3%A4gen+7+Gr%C3%A4smark",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/grasmarks-mopedrally-back-2026-05-09.jpg",
+                                                      "dateEnd": "2026-05-09"
+                                    },
+                                    {
+                                                      "id": "haskas-mc-eastside-spring-run-2026-05-09",
+                                                      "name": "Eastside Spring Run",
+                                                      "date": "2026-05-09",
+                                                      "time": "09:00",
+                                                      "type": "Körning",
+                                                      "region": "Kalmar",
+                                                      "location": "Klubbkåken, Ljungbyholm",
+                                                      "organizer": "Haskas MC Eastside",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/photo/?fbid=1402789491892325",
+                                                      "description": "Samling 09:00, avfärd Nybro kl 10:00. Startavgift 100 kr. Insamling till Power Up Ukraine.",
+                                                      "descriptionFull": "Välkomna till Vårt Spring Run 2026\n\nPlats: Klubbkåken i Ljungbyholm\nTid: 9 Maj kl 09:00\nAvfärd mot Nybro kl 10:00\n\nKaffe och Kaka kommer att finnas att köpa\n\nSTARTAVGIFT: 100 KR\n\nKriget i Ukraina är fortfarande inte över så även i år kommer insamlingen oavkortat gå till Power up Ukraine\n\nPower Up Ukraine är en ideell förening med ursprung från Vasakyrkan i Kalmar. Deras huvuduppdrag är att leverera elgeneratorer och fordon till krigsdrabbade områden i Ukraina. De ser till att människor i nöd får elektricitet till värme, ljus, sjukvård, kort och gott en tryggare vardag i krigets Ukraina.\n\nhttps://www.facebook.com/PowerUpUkraineSE\n\nUKRAINAS SAK ÄR VÅR\\!\\!\nSå skänk en slant du också\nSwisha 0704069936 Märkt: SPRING\n\nHjärtligt Välkomna 9 Maj // Haskas MC Eastside\n\nPs Gäller Alla Hojar Alla Modeller Alla Årtal\nALLA ÄR VÄLKOMNA\nGILLA DELA OCH DYK UPP",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/search/top?q=haskas%20mc"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1402789491892325"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Klubbk%C3%A5ken+Ljungbyholm",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/haskas-mc-spring-run-back-2026-05-09.jpg",
+                                                      "dateEnd": "2026-05-09"
+                                    },
+                                    {
                                                       "id": "hedemora-touring-kortege-2026-05-09",
                                                       "name": "MC Kortege Hedemora Marknad",
                                                       "date": "2026-05-09",
@@ -13007,6 +13174,33 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "sidvagn-mini-jumbo-hoganas-2026-05-09",
+                                                      "name": "Mini-Jumbo Höganäs",
+                                                      "date": "2026-05-09",
+                                                      "dateEnd": "2026-05-09",
+                                                      "time": "12:00",
+                                                      "type": "Körning",
+                                                      "region": "Skåne",
+                                                      "location": "Verkstadsgatan-Keramikgatan, Höganäs",
+                                                      "organizer": "Svenska Sidvagnsklubben SVEA",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Vi skjutsar funktionshindrade i våra sidvagnar i Höganäsområdet. Start 13:00, slut 16:00. Fika och grillad korv från kl 12. Anmälan SMS Christer 072-363 51 54.",
+                                                      "descriptionFull": "Vi skjutsar funktionshindrade i våra sidvagnar en kortare tur i Höganäsområdet.\n\nStart kl. 13:00. Slut kl. 16:00. Kom gärna vid 12 för fika innan vi kör.\n\nFika och grillad korv.\n\nOm möjligt anmäl deltagande till mig Christer Fournstedt Tel. 072-363 51 54 gärna på SMS.\n\nPlats: P-platsen i korsningen Verkstadsgatan-Keramikgatan, Höganäs.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Verkstadsgatan+Keramikgatan+H%C3%B6gan%C3%A4s",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "smc-mc-kortege-hedemora-2026",
                                                       "name": "MC kortege Hedemora marknad",
                                                       "date": "2026-05-09",
@@ -13086,64 +13280,6 @@ const EVENTS_DATA = {
                                                       "region": "Skåne",
                                                       "source": "vulcanriders-sweden.org",
                                                       "backImage": "ads/vrs-lurblasarsvangen-back-2026-05-09.jpg"
-                                    },
-                                    {
-                                                      "id": "haskas-mc-eastside-spring-run-2026-05-09",
-                                                      "name": "Eastside Spring Run",
-                                                      "date": "2026-05-09",
-                                                      "time": "09:00",
-                                                      "type": "Körning",
-                                                      "region": "Kalmar",
-                                                      "location": "Klubbkåken, Ljungbyholm",
-                                                      "organizer": "Haskas MC Eastside",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/photo/?fbid=1402789491892325",
-                                                      "description": "Samling 09:00, avfärd Nybro kl 10:00. Startavgift 100 kr. Insamling till Power Up Ukraine.",
-                                                      "descriptionFull": "Välkomna till Vårt Spring Run 2026\n\nPlats: Klubbkåken i Ljungbyholm\nTid: 9 Maj kl 09:00\nAvfärd mot Nybro kl 10:00\n\nKaffe och Kaka kommer att finnas att köpa\n\nSTARTAVGIFT: 100 KR\n\nKriget i Ukraina är fortfarande inte över så även i år kommer insamlingen oavkortat gå till Power up Ukraine\n\nPower Up Ukraine är en ideell förening med ursprung från Vasakyrkan i Kalmar. Deras huvuduppdrag är att leverera elgeneratorer och fordon till krigsdrabbade områden i Ukraina. De ser till att människor i nöd får elektricitet till värme, ljus, sjukvård, kort och gott en tryggare vardag i krigets Ukraina.\n\nhttps://www.facebook.com/PowerUpUkraineSE\n\nUKRAINAS SAK ÄR VÅR\\!\\!\nSå skänk en slant du också\nSwisha 0704069936 Märkt: SPRING\n\nHjärtligt Välkomna 9 Maj // Haskas MC Eastside\n\nPs Gäller Alla Hojar Alla Modeller Alla Årtal\nALLA ÄR VÄLKOMNA\nGILLA DELA OCH DYK UPP",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/search/top?q=haskas%20mc"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=1402789491892325"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Klubbk%C3%A5ken+Ljungbyholm",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/haskas-mc-spring-run-back-2026-05-09.jpg",
-                                                      "dateEnd": "2026-05-09"
-                                    },
-                                    {
-                                                      "id": "grasmarks-mopedrally-2026-05-09",
-                                                      "name": "Mopedrally Gräsmark",
-                                                      "date": "2026-05-09",
-                                                      "time": "10:00",
-                                                      "type": "Körning",
-                                                      "region": "Värmland",
-                                                      "location": "Gräsmarks Hembygdsgård, Rottnavägen 7, Gräsmark",
-                                                      "organizer": "Gräsmarks Hembygdsförening",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/1666479897849769",
-                                                      "description": "Mopedrally med 4 klasser och tipsrunda. Start kl 10, sista utsläpp kl 11. Avgift 100 kr.",
-                                                      "descriptionFull": "Mopedrally\n\nStart kl 10 sista utsläpp kl 11\n100 kr\n4 klasser\nTipsrunda\n\nVälkomna\\!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1666479897849769"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Rottnav%C3%A4gen+7+Gr%C3%A4smark",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/grasmarks-mopedrally-back-2026-05-09.jpg",
-                                                      "dateEnd": "2026-05-09"
                                     },
                                     {
                                                       "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
@@ -13774,6 +13910,34 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "onsdagskorning-gotland-2026-05-13",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-05-13",
+                                                      "dateEnd": "2026-05-13",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "smc-grillkvall-aboda-klint-2026",
                                                       "name": "Grillkväll på Aboda Klint",
                                                       "date": "2026-05-13",
@@ -13795,6 +13959,33 @@ const EVENTS_DATA = {
                                                                         {
                                                                                           "label": "Karta",
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Aboda%2C+Klint",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-05-13",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-05-13",
+                                                      "dateEnd": "2026-05-13",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
                                                                                           "type": "map"
                                                                         }
                                                       ],
@@ -13886,6 +14077,37 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "balders-hage-bil-mc-cafe-2026-05-14",
+                                                      "name": "Bil & MC Café Balders Hage",
+                                                      "date": "2026-05-14",
+                                                      "dateEnd": "2026-05-14",
+                                                      "time": "17:00",
+                                                      "type": "Träff",
+                                                      "region": "Kronoberg",
+                                                      "location": "Linvägen 3, 343 92 Häradsbäck",
+                                                      "organizer": "Balders Hage Nöje",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1514528856751279/",
+                                                      "description": "Bil & MC Café på Balders Hage på Kristi himmelsfärd. Öppet från 17:00. Snitzelbuffé 135 kr, ostkaka 65 kr. Hamburgare, fika och glass.",
+                                                      "descriptionFull": "Torsdagen 14/5 öppnar vi upp hagen för Bil & Mc Café.\n\nÖppettider från kl 17:00 tills sista gästen lämnar.\n\nKvällens-buffé:\nSnitzel\nBearnaisesås\nÄrtor\nPotatisgratäng\nSallad\nKaffe/te\n\nPris 135 kr för vuxen, barn under 12 år 65 kr.\n\nKvällens go-fika ostkaka med grädde & sylt 65 kr.\n\nVi serverar givetvis även hamburgare, fika, glass mm.\n\nBengt & Christina hälsar er välkomna och är redo när ni rullar in i hagen med kameran.\n\nVälkomna till Balders Hage!\n\nBalders Hage Nöje\nLinvägen 3\n343 92 Häradsbäck\n0708-680 782",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1514528856751279/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "baldershagenoje.se",
+                                                                                          "url": "https://baldershagenoje.se/biltraff/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Balders+Hage+N%C3%B6je+H%C3%A4radsb%C3%A4ck",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/balders-hage-bil-mc-cafe-back-2026-05-14.jpg"
                                     },
                                     {
                                                       "id": "bmw-regiontraff-vast-2026-2026",
@@ -14204,6 +14426,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "massingsbruks-mopedrunda-2026-05-14",
+                                                      "name": "Mässingsbruks mopedrunda",
+                                                      "date": "2026-05-14",
+                                                      "dateEnd": "2026-05-14",
+                                                      "location": "Skultuna, Västerås",
+                                                      "type": "Körning",
+                                                      "organizer": "Moped gänget Västerås",
+                                                      "description": "Veteranmopedrally runt Skultuna, 6-7 mil. Poker-Run med fina priser, hamburgare ingår i startavgift. Förarmöte kl 10:30. Kristi himmelsfärdsdag.",
+                                                      "descriptionFull": "Moped gänget Västerås bjuder in till moped\nveteran rally den 14 maj 2026..\nRundan kommer att gå runt Skultuna 6-7 mil ..ny åk väg blir de i år..\nHamrburgare (ingår i startavg) kommer att serveras på ett av våra stopp ..\nVi kör en Poker-Run med fina priser samt en vandrings pokal..\n1 lott ingår i start avg.\nSkultuna Lions kommer att sälja korv.\nSvenska kyrka ungdom säljer kaffe med till tugg.\nKommer även att finnas en skammkärra för den eller dom som inte tar sig runt..\nParkering kommer att finnas 1 km ifrån start (Skultuna lagården) kommer att vara funktonärer som visar er vägen + pilar dit..\nKurt Wilard kommer ner från Grängesberg å säljer moped delar. .\nKommer att vara ett prisbord värt ca 50000 kr som våra fantastiska sponsorer ha skänkt.. 95 sponsorer \nOBS förarmötet är kl 10.30..",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/4356849061225936"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Skultuna",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/4356849061225936",
+                                                      "region": "Västmanland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/massingsbruks-mopedrunda-back-2026-05-14.jpg"
+                                    },
+                                    {
                                                       "id": "mc-ontours-gravel-jamtland-2026",
                                                       "name": "Jämtland-Härjedalen Gravel Adventure",
                                                       "date": "2026-05-14",
@@ -14245,64 +14493,6 @@ const EVENTS_DATA = {
                                                       "link": "https://mchk.org/evenemang/kalender-34490789",
                                                       "region": "Gävleborg",
                                                       "source": "mchk.org"
-                                    },
-                                    {
-                                                      "id": "sjobacken-valborundan-stop-2026-05-14",
-                                                      "name": "Valborundan stannar vid Sjöbacken",
-                                                      "date": "2026-05-14",
-                                                      "dateEnd": "2026-05-14",
-                                                      "time": "11:00",
-                                                      "type": "Träff",
-                                                      "region": "Gävleborg",
-                                                      "location": "Sjöbacksvägen 22, Ockelbo",
-                                                      "organizer": "Sjöbacken Ockelbo",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/864446893077726/",
-                                                      "description": "Valborundan gör stopp vid Sjöbacken på Kristi himmelsfärdsdagen. Veteranmotorcyklar rullar in från ca 11:00. Fika eller mat på uteserveringen vid sjön.",
-                                                      "descriptionFull": "Torsdag 14 maj. Från ca kl. 11:00. Sjöbacken, Ockelbo.\n\nPå Kristi himmelsfärdsdagen får vi i Ockelbo finbesök när den klassiska Valborundan gör stopp vid Sjöbacken. Då rullar veteranmotorcyklar från hela regionen in och alla är varmt välkomna att komma och titta när fordonen anländer.\n\nDet brukar bli en härlig stämning när ekipagen kommer in ett efter ett. Motorljud, doften av vår och känslan av att sommaren är på väg. Ta en promenad ner till sjön, slå dig ner på uteserveringen och upplev motorhistoria på riktigt nära håll.\n\nHär finns gott om tid att:\n• se de klassiska motorcyklarna\n• prata med förare och entusiaster\n• fika eller äta något gott\n• träffa bekanta eller bara njuta av läget\n\nDet här är ett uppskattat inslag i byn och ett perfekt tillfälle att göra något trevligt tillsammans, oavsett om du är motorintresserad eller bara vill vara där det händer.\n\nVälkommen till Sjöbacken den 14 maj, vi ses vid sjön!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/864446893077726/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Sj%C3%B6backsv%C3%A4gen+22+Ockelbo",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/sjobacken-valborundan-back-2026-05-14.jpg"
-                                    },
-                                    {
-                                                      "id": "balders-hage-bil-mc-cafe-2026-05-14",
-                                                      "name": "Bil & MC Café Balders Hage",
-                                                      "date": "2026-05-14",
-                                                      "dateEnd": "2026-05-14",
-                                                      "time": "17:00",
-                                                      "type": "Träff",
-                                                      "region": "Kronoberg",
-                                                      "location": "Linvägen 3, 343 92 Häradsbäck",
-                                                      "organizer": "Balders Hage Nöje",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/1514528856751279/",
-                                                      "description": "Bil & MC Café på Balders Hage på Kristi himmelsfärd. Öppet från 17:00. Snitzelbuffé 135 kr, ostkaka 65 kr. Hamburgare, fika och glass.",
-                                                      "descriptionFull": "Torsdagen 14/5 öppnar vi upp hagen för Bil & Mc Café.\n\nÖppettider från kl 17:00 tills sista gästen lämnar.\n\nKvällens-buffé:\nSnitzel\nBearnaisesås\nÄrtor\nPotatisgratäng\nSallad\nKaffe/te\n\nPris 135 kr för vuxen, barn under 12 år 65 kr.\n\nKvällens go-fika ostkaka med grädde & sylt 65 kr.\n\nVi serverar givetvis även hamburgare, fika, glass mm.\n\nBengt & Christina hälsar er välkomna och är redo när ni rullar in i hagen med kameran.\n\nVälkomna till Balders Hage!\n\nBalders Hage Nöje\nLinvägen 3\n343 92 Häradsbäck\n0708-680 782",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1514528856751279/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "baldershagenoje.se",
-                                                                                          "url": "https://baldershagenoje.se/biltraff/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Balders+Hage+N%C3%B6je+H%C3%A4radsb%C3%A4ck",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/balders-hage-bil-mc-cafe-back-2026-05-14.jpg"
                                     },
                                     {
                                                       "id": "nifsta-motortraff-2026-05-14",
@@ -14389,6 +14579,33 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/orangeday-halmstad-back-2026-05-14.jpg"
                                     },
                                     {
+                                                      "id": "sjobacken-valborundan-stop-2026-05-14",
+                                                      "name": "Valborundan stannar vid Sjöbacken",
+                                                      "date": "2026-05-14",
+                                                      "dateEnd": "2026-05-14",
+                                                      "time": "11:00",
+                                                      "type": "Träff",
+                                                      "region": "Gävleborg",
+                                                      "location": "Sjöbacksvägen 22, Ockelbo",
+                                                      "organizer": "Sjöbacken Ockelbo",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/864446893077726/",
+                                                      "description": "Valborundan gör stopp vid Sjöbacken på Kristi himmelsfärdsdagen. Veteranmotorcyklar rullar in från ca 11:00. Fika eller mat på uteserveringen vid sjön.",
+                                                      "descriptionFull": "Torsdag 14 maj. Från ca kl. 11:00. Sjöbacken, Ockelbo.\n\nPå Kristi himmelsfärdsdagen får vi i Ockelbo finbesök när den klassiska Valborundan gör stopp vid Sjöbacken. Då rullar veteranmotorcyklar från hela regionen in och alla är varmt välkomna att komma och titta när fordonen anländer.\n\nDet brukar bli en härlig stämning när ekipagen kommer in ett efter ett. Motorljud, doften av vår och känslan av att sommaren är på väg. Ta en promenad ner till sjön, slå dig ner på uteserveringen och upplev motorhistoria på riktigt nära håll.\n\nHär finns gott om tid att:\n• se de klassiska motorcyklarna\n• prata med förare och entusiaster\n• fika eller äta något gott\n• träffa bekanta eller bara njuta av läget\n\nDet här är ett uppskattat inslag i byn och ett perfekt tillfälle att göra något trevligt tillsammans, oavsett om du är motorintresserad eller bara vill vara där det händer.\n\nVälkommen till Sjöbacken den 14 maj, vi ses vid sjön!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/864446893077726/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Sj%C3%B6backsv%C3%A4gen+22+Ockelbo",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/sjobacken-valborundan-back-2026-05-14.jpg"
+                                    },
+                                    {
                                                       "id": "tangens-mc-memorial-run-2026-05-14",
                                                       "name": "Memorial Run",
                                                       "date": "2026-05-14",
@@ -14420,30 +14637,31 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/tangens-mc-memorial-run-back-2026-05-14.jpg"
                                     },
                                     {
-                                                      "id": "massingsbruks-mopedrunda-2026-05-14",
-                                                      "name": "Mässingsbruks mopedrunda",
+                                                      "id": "vmck-kristi-himmelsfard-2026-05-14",
+                                                      "name": "Kristi himmelsfärd körning VMCK",
                                                       "date": "2026-05-14",
                                                       "dateEnd": "2026-05-14",
-                                                      "location": "Skultuna, Västerås",
+                                                      "time": "10:00",
                                                       "type": "Körning",
-                                                      "organizer": "Moped gänget Västerås",
-                                                      "description": "Veteranmopedrally runt Skultuna, 6-7 mil. Poker-Run med fina priser, hamburgare ingår i startavgift. Förarmöte kl 10:30. Kristi himmelsfärdsdag.",
-                                                      "descriptionFull": "Moped gänget Västerås bjuder in till moped\nveteran rally den 14 maj 2026..\nRundan kommer att gå runt Skultuna 6-7 mil ..ny åk väg blir de i år..\nHamrburgare (ingår i startavg) kommer att serveras på ett av våra stopp ..\nVi kör en Poker-Run med fina priser samt en vandrings pokal..\n1 lott ingår i start avg.\nSkultuna Lions kommer att sälja korv.\nSvenska kyrka ungdom säljer kaffe med till tugg.\nKommer även att finnas en skammkärra för den eller dom som inte tar sig runt..\nParkering kommer att finnas 1 km ifrån start (Skultuna lagården) kommer att vara funktonärer som visar er vägen + pilar dit..\nKurt Wilard kommer ner från Grängesberg å säljer moped delar. .\nKommer att vara ett prisbord värt ca 50000 kr som våra fantastiska sponsorer ha skänkt.. 95 sponsorer \nOBS förarmötet är kl 10.30..",
+                                                      "region": "Halland",
+                                                      "location": "Kåken VMCK, Susvindsvägen 9, Varberg",
+                                                      "organizer": "Varbergs Mc Klubb",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Kristi himmelsfärd-tur på halländska vägar med stopp för fika och eventuell lunch. Medtag eget fika.",
+                                                      "descriptionFull": "Det blir en fin tur på de halländska vägarna med stopp för fika ev lunch.\n\nMedtag eget fika för något litet stopp under turens gång.\n\nPlats: Kåken VMCK, Susvindsvägen 9, Varberg.\nTid: 10:00-16:00.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/4356849061225936"
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Skultuna",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Susvindsv%C3%A4gen+9+Varberg",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "link": "https://www.facebook.com/events/4356849061225936",
-                                                      "region": "Västmanland",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/massingsbruks-mopedrunda-back-2026-05-14.jpg"
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "ankansracing-trackdays-2026-05-15",
@@ -14499,31 +14717,6 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
-                                                      "id": "smc-kansli-tour-2026-05-15",
-                                                      "name": "SMC Kansli Tour",
-                                                      "date": "2026-05-15",
-                                                      "dateEnd": "2026-05-17",
-                                                      "location": "Sverige",
-                                                      "type": "Körning",
-                                                      "organizer": "SMC Travel",
-                                                      "description": "Tre dagars touring med SMC-kansliet. Fyra stopp, fullt fokus på körning. Dag 1: Vaxholm med glass. Bokning via SMC Travel.",
-                                                      "descriptionFull": "Touring med SMC-kansliet, tre dagar, noll kompromisser!\n\nSMC Travel öppnar bokningen till vårens mest oväntade tur: SMC Kansli Tour 15-17 maj. Tre dagar, fyra stopp, fullt fokus på körning och allt runt omkring som du inte visste att du behövde.\n\nDag 1: Vaxholm, precision och glass. Samling öster om stan, Jesper leder ut.\n\nBokning via SMC Travel.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=1546231777509230&set=a.500033288795756"
-                                                                        },
-                                                                        {
-                                                                                          "label": "SMC Travel",
-                                                                                          "url": "https://smctravel.se"
-                                                                        }
-                                                      ],
-                                                      "link": "https://smctravel.se",
-                                                      "region": "Sverige",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/smc-kansli-tour-back-2026-05-15.jpg"
-                                    },
-                                    {
                                                       "id": "outbrake-moppers-kustrundan-2026-05-15",
                                                       "name": "Kustrundan",
                                                       "date": "2026-05-15",
@@ -14550,6 +14743,31 @@ const EVENTS_DATA = {
                                                       ],
                                                       "backImage": "ads/outbrake-moppers-kustrundan-back-2026-05-15.jpg",
                                                       "dateEnd": "2026-05-16"
+                                    },
+                                    {
+                                                      "id": "smc-kansli-tour-2026-05-15",
+                                                      "name": "SMC Kansli Tour",
+                                                      "date": "2026-05-15",
+                                                      "dateEnd": "2026-05-17",
+                                                      "location": "Sverige",
+                                                      "type": "Körning",
+                                                      "organizer": "SMC Travel",
+                                                      "description": "Tre dagars touring med SMC-kansliet. Fyra stopp, fullt fokus på körning. Dag 1: Vaxholm med glass. Bokning via SMC Travel.",
+                                                      "descriptionFull": "Touring med SMC-kansliet, tre dagar, noll kompromisser!\n\nSMC Travel öppnar bokningen till vårens mest oväntade tur: SMC Kansli Tour 15-17 maj. Tre dagar, fyra stopp, fullt fokus på körning och allt runt omkring som du inte visste att du behövde.\n\nDag 1: Vaxholm, precision och glass. Samling öster om stan, Jesper leder ut.\n\nBokning via SMC Travel.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1546231777509230&set=a.500033288795756"
+                                                                        },
+                                                                        {
+                                                                                          "label": "SMC Travel",
+                                                                                          "url": "https://smctravel.se"
+                                                                        }
+                                                      ],
+                                                      "link": "https://smctravel.se",
+                                                      "region": "Sverige",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/smc-kansli-tour-back-2026-05-15.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-asnenturen-2026",
@@ -14771,6 +14989,37 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com"
                                     },
                                     {
+                                                      "id": "galen-i-huvet-varrus-2026-05-16",
+                                                      "name": "Vårrus",
+                                                      "date": "2026-05-16",
+                                                      "dateEnd": "2026-05-16",
+                                                      "time": "14:00",
+                                                      "location": "Torget, Sjuntorp",
+                                                      "type": "Körning",
+                                                      "organizer": "Galen i huvet MC",
+                                                      "description": "Vårrus med Galen i huvet MC i Sjuntorp utanför Trollhättan. Start vid Torget kl 14:00. Fikastopp utefter vägen, korv och bar på klubben efter.",
+                                                      "descriptionFull": "Galen i huvet MC's Vårrus 16/5 2026.\n\nStart vid Torget i Sjuntorp kl 14:00.\nStartavgift 100:-/pp.\n\nVi åker en runda med ett fikastopp utefter vägen.\n\nNär vi senare är tillbaka på klubben så blir det en körv.\n\nBaren är öppen hela kvällen.\n\nVälkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1392291312928125&set=a.461026156054650"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/GalenIHuvetMc"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Torget+Sjuntorp",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/GalenIHuvetMc",
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/galen-i-huvet-varrus-back-2026-05-16.jpg"
+                                    },
+                                    {
                                                       "id": "grangesrallyt-4-2026",
                                                       "name": "Grängesrallyt #4",
                                                       "date": "2026-05-16",
@@ -14855,6 +15104,59 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "imrg-big-lake-lordagstur-2026-05-16",
+                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "date": "2026-05-16",
+                                                      "dateEnd": "2026-05-16",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
+                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
+                                                      "id": "knarrsslappet-2026-05-16",
+                                                      "name": "Knarrsläppet 2026",
+                                                      "date": "2026-05-16",
+                                                      "dateEnd": "2026-05-16",
+                                                      "time": "10:00",
+                                                      "location": "Vallgatan 2, Kristdala",
+                                                      "type": "Körning",
+                                                      "organizer": "Kristdala Motorsällskap",
+                                                      "description": "Veteranmoped- och traktorrally i Kristdala. Anmälan från kl 09:00, start 10:00. Mopedrutt 6-7 mil, traktorrutt 2-3 mil. Fika och korv ingår. 120 kr.",
+                                                      "descriptionFull": "Då var det äntligen dags för Kristdala Motorsällskap att bjuda in till sitt årliga mopedrally.\n\n16 Maj 2026, Vallgatan 2, Kristdala.\n\nAnmälan öppnar 09:00, kostnad 120 kr.\nBetalning sker via Swish.\n\nStart 10:00.\n\nMopedrallyt kommer vara cirka 6-7 mil med varierande underlag.\n\nRally för veterantraktorer kommer köras samtidigt på en kortare sträcka på cirka 2-3 mil.\n\nPå båda rutterna kommer det bjudas på kaffe och bulle längst med vägen samt korv med bröd och tillhörande dryck vid målgång.\n\nFrågesport kommer att finnas på båda rutterna med separat pris för moped samt traktor.\n\nAll körning sker på egen risk och trafikreglerna följs.\n\nVarmt välkomna!\nKristdala Motorsällskap",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/26095685026770799"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/kristdalams"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Vallgatan+2+Kristdala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/kristdalams",
+                                                      "region": "Kalmar",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/knarrsslappet-back-2026-05-16.jpg"
                                     },
                                     {
                                                       "id": "kor-hoj-malin-ahr-kyrkekvarn-2026",
@@ -15437,88 +15739,27 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com"
                                     },
                                     {
-                                                      "id": "imrg-big-lake-lordagstur-2026-05-16",
-                                                      "name": "Lördagstur IMRG Big Lake",
-                                                      "date": "2026-05-16",
-                                                      "dateEnd": "2026-05-16",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
-                                                      "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
-                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västra Götaland",
+                                                      "id": "adventurecoach-infokvall-2026-05-17",
+                                                      "name": "Adventurecoach Infokväll",
+                                                      "date": "2026-05-17",
+                                                      "dateEnd": "2026-05-17",
+                                                      "time": "19:00",
+                                                      "endTime": "20:00",
+                                                      "type": "Träff",
+                                                      "region": "Sverige",
+                                                      "location": "Online",
+                                                      "organizer": "Adventurecoach Sweden",
                                                       "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
-                                    },
-                                    {
-                                                      "id": "galen-i-huvet-varrus-2026-05-16",
-                                                      "name": "Vårrus",
-                                                      "date": "2026-05-16",
-                                                      "dateEnd": "2026-05-16",
-                                                      "time": "14:00",
-                                                      "location": "Torget, Sjuntorp",
-                                                      "type": "Körning",
-                                                      "organizer": "Galen i huvet MC",
-                                                      "description": "Vårrus med Galen i huvet MC i Sjuntorp utanför Trollhättan. Start vid Torget kl 14:00. Fikastopp utefter vägen, korv och bar på klubben efter.",
-                                                      "descriptionFull": "Galen i huvet MC's Vårrus 16/5 2026.\n\nStart vid Torget i Sjuntorp kl 14:00.\nStartavgift 100:-/pp.\n\nVi åker en runda med ett fikastopp utefter vägen.\n\nNär vi senare är tillbaka på klubben så blir det en körv.\n\nBaren är öppen hela kvällen.\n\nVälkomna!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=1392291312928125&set=a.461026156054650"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/GalenIHuvetMc"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Torget+Sjuntorp",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/GalenIHuvetMc",
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/galen-i-huvet-varrus-back-2026-05-16.jpg"
-                                    },
-                                    {
-                                                      "id": "knarrsslappet-2026-05-16",
-                                                      "name": "Knarrsläppet 2026",
-                                                      "date": "2026-05-16",
-                                                      "dateEnd": "2026-05-16",
-                                                      "time": "10:00",
-                                                      "location": "Vallgatan 2, Kristdala",
-                                                      "type": "Körning",
-                                                      "organizer": "Kristdala Motorsällskap",
-                                                      "description": "Veteranmoped- och traktorrally i Kristdala. Anmälan från kl 09:00, start 10:00. Mopedrutt 6-7 mil, traktorrutt 2-3 mil. Fika och korv ingår. 120 kr.",
-                                                      "descriptionFull": "Då var det äntligen dags för Kristdala Motorsällskap att bjuda in till sitt årliga mopedrally.\n\n16 Maj 2026, Vallgatan 2, Kristdala.\n\nAnmälan öppnar 09:00, kostnad 120 kr.\nBetalning sker via Swish.\n\nStart 10:00.\n\nMopedrallyt kommer vara cirka 6-7 mil med varierande underlag.\n\nRally för veterantraktorer kommer köras samtidigt på en kortare sträcka på cirka 2-3 mil.\n\nPå båda rutterna kommer det bjudas på kaffe och bulle längst med vägen samt korv med bröd och tillhörande dryck vid målgång.\n\nFrågesport kommer att finnas på båda rutterna med separat pris för moped samt traktor.\n\nAll körning sker på egen risk och trafikreglerna följs.\n\nVarmt välkomna!\nKristdala Motorsällskap",
+                                                      "link": "https://www.facebook.com/events/948739598083070",
+                                                      "description": "Online infomöte kl 19-20 om gruskurser i Kalmar, weekendresor nov 2026 och asfaltsresor i södra Spanien feb 2027.",
+                                                      "descriptionFull": "På mötet berättar vi på Adventurecoach om oss, om våra gruskurser i Sverige/Kalmar samt våra resor 3+3 weekendresor i november 2026 och Asfalt i södra Spanien i februari 2027.\n\nDet finns givetvis möjlighet att ställa frågor.\n\nMötet pågår mellan 19-20.\n\nVälkommen\\!",
                                                       "links": [
                                                                         {
                                                                                           "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/26095685026770799"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/kristdalams"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Vallgatan+2+Kristdala",
-                                                                                          "type": "map"
+                                                                                          "url": "https://www.facebook.com/events/948739598083070"
                                                                         }
                                                       ],
-                                                      "link": "https://www.facebook.com/kristdalams",
-                                                      "region": "Kalmar",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/knarrsslappet-back-2026-05-16.jpg"
+                                                      "backImage": "ads/adventurecoach-infokvall-back-2026-05-17.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-mixtur-med-sandra-och-mikael-2026",
@@ -15586,6 +15827,32 @@ const EVENTS_DATA = {
                                                                         {
                                                                                           "label": "DGR",
                                                                                           "url": "https://www.gentlemansride.com"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
+                                                      "id": "dgr-lidkoping-2026-05-17",
+                                                      "name": "The Distinguished Gentleman's Ride",
+                                                      "date": "2026-05-17",
+                                                      "dateEnd": "2026-05-17",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "Mc-konsult i Lidköping",
+                                                      "description": "Världsomfattande välgörenhetstur för prostatacancer och psykisk ohälsa. Klä dig som en gentleman, kör en klassiker och gör skillnad! Samling vid MC-Konsult.",
+                                                      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa.\n\nI Lidköping samlas vi vid MC-Konsult och kör en gemensam tur som äkta gentlemen. Dresscode: dapper! Tänk tweed, slips och stil.\n\n15 år av DGR worldwide. Classic motorcycles unite for men's health.\n\nHåll utkik på gentlemansride.com för mer info om samlingsplats och rutt.\n\nPlats: MC-Konsult, Kinnegatan 15, 531 33 Lidköping.",
+                                                      "link": "https://www.gentlemansride.com",
+                                                      "region": "Västra Götaland",
+                                                      "source": "gentlemansride.com",
+                                                      "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "DGR",
+                                                                                          "url": "https://www.gentlemansride.com"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidk%C3%B6ping",
+                                                                                          "type": "map"
                                                                         }
                                                       ]
                                     },
@@ -15683,32 +15950,6 @@ const EVENTS_DATA = {
                                                                         {
                                                                                           "label": "DGR",
                                                                                           "url": "https://www.gentlemansride.com"
-                                                                        }
-                                                      ]
-                                    },
-                                    {
-                                                      "id": "dgr-lidkoping-2026-05-17",
-                                                      "name": "The Distinguished Gentleman's Ride",
-                                                      "date": "2026-05-17",
-                                                      "dateEnd": "2026-05-17",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
-                                                      "type": "Körning",
-                                                      "organizer": "Mc-konsult i Lidköping",
-                                                      "description": "Världsomfattande välgörenhetstur för prostatacancer och psykisk ohälsa. Klä dig som en gentleman, kör en klassiker och gör skillnad! Samling vid MC-Konsult.",
-                                                      "descriptionFull": "The Distinguished Gentleman's Ride (DGR) är ett globalt evenemang som samlar MC-förare världen över för att sprida kunskap om prostatacancer och psykisk ohälsa.\n\nI Lidköping samlas vi vid MC-Konsult och kör en gemensam tur som äkta gentlemen. Dresscode: dapper! Tänk tweed, slips och stil.\n\n15 år av DGR worldwide. Classic motorcycles unite for men's health.\n\nHåll utkik på gentlemansride.com för mer info om samlingsplats och rutt.\n\nPlats: MC-Konsult, Kinnegatan 15, 531 33 Lidköping.",
-                                                      "link": "https://www.gentlemansride.com",
-                                                      "region": "Västra Götaland",
-                                                      "source": "gentlemansride.com",
-                                                      "backImage": "ads/dgr-sundsvall-front-2026-05-17.jpg",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "DGR",
-                                                                                          "url": "https://www.gentlemansride.com"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidk%C3%B6ping",
-                                                                                          "type": "map"
                                                                         }
                                                       ]
                                     },
@@ -15881,6 +16122,34 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "smc-gavleborg-halsingetouren-1-2026-05-17",
+                                                      "name": "Hälsingetouren #1",
+                                                      "date": "2026-05-17",
+                                                      "dateEnd": "2026-05-17",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Gävleborg",
+                                                      "location": "Biltema, Hudiksvall",
+                                                      "organizer": "SMC Gävleborg",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Tredje årets Hälsingetour. Samling Biltema Hudiksvall, avfärd 10:00. Ca 15 mil till Hälsingegården Erik-Anders i Söderala. Färdledare Emo och Erling.",
+                                                      "descriptionFull": "För tredje året kör vi Hälsingetouren igen.\n\nEn gemensam mc-tur på härliga vägar.\n\nFärdledare: Emo och Erling.\n\nSamling i Hudiksvall på Biltemas parkering. Avfärd kl 10:00. Se till att din hoj är fulltankad.\n\nVi kör till Forsa, åker in där och åker mellan Dellensjöarna fram till Delsbo, sedan Kalvstigen-Nor-Iste-Växbo-Glössbo-Söderala. Vi tar en bensträckare på lämpligt ställe.\n\nMålet är Hälsingegården Erik-Anders i Söderala. Väldigt vackert och där kan man även ta en fika/lunch.\n\nTuren är ca 15 mil. Hjärtligt välkomna, och kom ihåg: ALLA får vara med!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+Hudiksvall",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "smc-vastmanland-avrostning-2026-05-17",
                                                       "name": "Avrostning 17 maj",
                                                       "date": "2026-05-17",
@@ -15911,29 +16180,6 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/smc-vastmanland-avrostning-back-2026-05-17.jpg"
                                     },
                                     {
-                                                      "id": "adventurecoach-infokvall-2026-05-17",
-                                                      "name": "Adventurecoach Infokväll",
-                                                      "date": "2026-05-17",
-                                                      "dateEnd": "2026-05-17",
-                                                      "time": "19:00",
-                                                      "endTime": "20:00",
-                                                      "type": "Träff",
-                                                      "region": "Sverige",
-                                                      "location": "Online",
-                                                      "organizer": "Adventurecoach Sweden",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/948739598083070",
-                                                      "description": "Online infomöte kl 19-20 om gruskurser i Kalmar, weekendresor nov 2026 och asfaltsresor i södra Spanien feb 2027.",
-                                                      "descriptionFull": "På mötet berättar vi på Adventurecoach om oss, om våra gruskurser i Sverige/Kalmar samt våra resor 3+3 weekendresor i november 2026 och Asfalt i södra Spanien i februari 2027.\n\nDet finns givetvis möjlighet att ställa frågor.\n\nMötet pågår mellan 19-20.\n\nVälkommen\\!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/948739598083070"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/adventurecoach-infokvall-back-2026-05-17.jpg"
-                                    },
-                                    {
                                                       "id": "doa-kvallskörning-nacka-2026-05-18",
                                                       "name": "DOA - Kvällskörning Nacka",
                                                       "date": "2026-05-18",
@@ -15959,33 +16205,6 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
-                                    },
-                                    {
-                                                      "id": "skjutsa-barn-varnamo-2026-05-18",
-                                                      "name": "Skjutsa barn med Barnens Oas",
-                                                      "date": "2026-05-18",
-                                                      "dateEnd": "2026-05-18",
-                                                      "type": "Körning",
-                                                      "region": "Jönköping",
-                                                      "location": "Bäckaskog Strömsdal 1, Värnamo",
-                                                      "organizer": "Con Dios MC",
-                                                      "organizerIcon": "clubs/normalized/con-dios-mc.png",
-                                                      "description": "MC-skjuts för barn med Barnens Oas. Samling kl 17:45, barnen kommer 18:00. Grillad korv efter turen. Ta med extrahjälm!",
-                                                      "descriptionFull": "Nu är det dags att skjutsa barnen på hojarna igen\n\nVi kör måndag 18 maj\nSamling vid Crazy Kings klubbstuga i Bäckaskog kl.17.45\nBarnen kommer kl.18.00\n\nDet blir kul att träffa barnen och låta dom få lite glädje och äventyr på hoj.\n\nEfter turen bjuder vi barn och knuttar på grillad korv\n\nSvara om du kan vara med så fort som möjligt och tag gärna med fler som kör.\n\nGlöm inte extrahjälm.\n\nVälkommen\nBARNENS OAS\nMC FADDRARNA",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/skjutsa-barn-varnamo-back-2026-05-18.jpg",
-                                                      "link": "https://www.facebook.com/events/1473184843970868",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1473184843970868"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=B%C3%A4ckaskog+Str%C3%B6msdal+1+V%C3%A4rnamo",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ]
                                     },
                                     {
                                                       "id": "gota-ms-crosskola-2026-05-18",
@@ -16039,6 +16258,33 @@ const EVENTS_DATA = {
                                                                         {
                                                                                           "label": "Karta",
                                                                                           "url": "https://www.google.com/maps/search/?api=1&query=Kemora+Ring%2C+Finland",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
+                                                      "id": "skjutsa-barn-varnamo-2026-05-18",
+                                                      "name": "Skjutsa barn med Barnens Oas",
+                                                      "date": "2026-05-18",
+                                                      "dateEnd": "2026-05-18",
+                                                      "type": "Körning",
+                                                      "region": "Jönköping",
+                                                      "location": "Bäckaskog Strömsdal 1, Värnamo",
+                                                      "organizer": "Con Dios MC",
+                                                      "organizerIcon": "clubs/normalized/con-dios-mc.png",
+                                                      "description": "MC-skjuts för barn med Barnens Oas. Samling kl 17:45, barnen kommer 18:00. Grillad korv efter turen. Ta med extrahjälm!",
+                                                      "descriptionFull": "Nu är det dags att skjutsa barnen på hojarna igen\n\nVi kör måndag 18 maj\nSamling vid Crazy Kings klubbstuga i Bäckaskog kl.17.45\nBarnen kommer kl.18.00\n\nDet blir kul att träffa barnen och låta dom få lite glädje och äventyr på hoj.\n\nEfter turen bjuder vi barn och knuttar på grillad korv\n\nSvara om du kan vara med så fort som möjligt och tag gärna med fler som kör.\n\nGlöm inte extrahjälm.\n\nVälkommen\nBARNENS OAS\nMC FADDRARNA",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/skjutsa-barn-varnamo-back-2026-05-18.jpg",
+                                                      "link": "https://www.facebook.com/events/1473184843970868",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1473184843970868"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=B%C3%A4ckaskog+Str%C3%B6msdal+1+V%C3%A4rnamo",
                                                                                           "type": "map"
                                                                         }
                                                       ]
@@ -16349,6 +16595,34 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/smc.png"
                                     },
                                     {
+                                                      "id": "onsdagskorning-gotland-2026-05-20",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-05-20",
+                                                      "dateEnd": "2026-05-20",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "super-rally-2026-2026",
                                                       "name": "Super Rally",
                                                       "date": "2026-05-20",
@@ -16417,6 +16691,33 @@ const EVENTS_DATA = {
                                                       "descriptionFull": "Superrally Fredericia är en av de stora europeiska Harley-Davidson rallyna.\n\nFem dagar med shower, musik, utställningar och körningar i och kring Fredericia.\n\nArrangeras av H-DCS. Se länk för detaljer och anmälan.\n\nPlats: Fredericia, Danmark.",
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-05-20",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-05-20",
+                                                      "dateEnd": "2026-05-20",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-05-21",
@@ -16498,6 +16799,33 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "floalt-torsdagskorning-2026-05-21",
+                                                      "name": "Floalt MC Torsdagskörning",
+                                                      "date": "2026-05-21",
+                                                      "dateEnd": "2026-05-21",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Skåne",
+                                                      "location": "24:ans Servicecenter, Drakabygget, Örkelljunga",
+                                                      "organizer": "Floalt MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Torsdagskörning med Floalt MC. Start från 24:ans Servicecenter, Drakabygget 1293 Örkelljunga.",
+                                                      "descriptionFull": "Floalt MC ordnar en torsdagskörning med start från 24:ans Servicecenter, Drakabygget 1293 Örkelljunga.\n\nKl 18:30.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=24:ans+Servicecenter+Drakabygget+%C3%96rkelljunga",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "fmct-tjejdag-kinnekulle-2026",
@@ -18025,6 +18353,61 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/mcv-osterlen.png"
                                     },
                                     {
+                                                      "id": "onsdagskorning-gotland-2026-05-27",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-05-27",
+                                                      "dateEnd": "2026-05-27",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-05-27",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-05-27",
+                                                      "dateEnd": "2026-05-27",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "backroads-adv-camp-stoten-2026-05-28",
                                                       "name": "Backroads ADV Camp Stöten",
                                                       "date": "2026-05-28",
@@ -18159,6 +18542,33 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "knareds-torsdagsrunda-2026-05-28",
+                                                      "name": "Knäreds Torsdagsrunda",
+                                                      "date": "2026-05-28",
+                                                      "dateEnd": "2026-05-28",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Halland",
+                                                      "location": "Per-Tec, Klockarevägen 2, Knäred",
+                                                      "organizer": "Knäreds MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Kvällstur på mindre vägar, ca 7 mil. Fika och lättare förtäring vid målet. Start Per-Tec, Knäred.",
+                                                      "descriptionFull": "En kvällstur på mindre vägar. Ca 7 mil.\n\nFika och lättare förtäring finns att köpa vid målet.\n\nStart: Per-Tec, Knäred. Mitt i samhället.\n\nTid: 18:30-21:00.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Per-Tec+Klockarev%C3%A4gen+2+Kn%C3%A4red",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-05-28",
                                                       "name": "LO-I Torsdagskörningar Sundsvall",
                                                       "date": "2026-05-28",
@@ -18228,6 +18638,40 @@ const EVENTS_DATA = {
                                                       "region": "Stockholm",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+                                    },
+                                    {
+                                                      "id": "biker-nights-kaunas-2026-05-29",
+                                                      "name": "Biker Nights 2026",
+                                                      "date": "2026-05-29",
+                                                      "dateEnd": "2026-05-31",
+                                                      "location": "Jadagoniai, Kaunas, Litauen",
+                                                      "type": "Fest",
+                                                      "organizer": "FIM Touring",
+                                                      "description": "Internationell MC-festival i Litauen, del av FIM Touring World Challenge. Tre dagar med livemusik, körningar och bikergemenskap vid Pušynas camp utanför Kaunas.",
+                                                      "descriptionFull": "Internationell MC-festival i Jadagoniai, Kaunas, Litauen. 29-31 maj.\n\nEn av Europas mest kända MC-festivaler, arrangerad sedan 2008 av Forever Free MCC och Steely Pegasus MC. Del av FIM Touring World Challenge.\n\nTre dagar med livemusik, rockkonserter, gemensamma körningar och bikergemenskap vid Pušynas camp i Jadagoniai utanför Kaunas.\n\nFestivalen har vuxit från en traditionell bikerträff till en stor rockfestival med internationella deltagare.\n\nMer info: bikernights.lt",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo?fbid=1398893415614480&set=a.562204779283352"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/FIMtouring"
+                                                                        },
+                                                                        {
+                                                                                          "label": "bikernights.lt",
+                                                                                          "url": "https://www.bikernights.lt/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Jadagoniai+Kaunas+Lithuania",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/FIMtouring",
+                                                      "region": "Litauen",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/biker-nights-back-2026-05-29.jpg"
                                     },
                                     {
                                                       "id": "doa-vatternrundan-2026",
@@ -18342,6 +18786,36 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
+                                                      "id": "hermans-sjoslag-2026-05-29",
+                                                      "name": "Hermans Sjöslag",
+                                                      "date": "2026-05-29",
+                                                      "dateEnd": "2026-05-31",
+                                                      "location": "Sundet vid sjön Vidöstern, Vittaryd",
+                                                      "type": "Träff",
+                                                      "organizer": "Hermans Hedningar LMCK",
+                                                      "description": "Tre dagars MC-träff vid sjön Vidöstern, 1,5 mil norr om Ljungby. Liveband B&W och Take Two, bar, mat, tatuerare, Hermans Fylle runda, lekar och prisutdelning.",
+                                                      "descriptionFull": "Välkomna till 2026 års upplaga av Hermans sjöslag den 29-31/5 - 2026\n\nVi kommer att vara i SUNDET vid sjön VIDÖSTERN\nca 1,5 mil Norr om Ljungby\n(pilat efter avfart från E4:an. Avfart 82 trafikplats Hallsjö)\n\nGPS KOORDINATER\nWGS84 decimal (lat, lon) 56.979169, 13.986915\n\nIncheckningen öppnar på Fredagen kl 16.00 samtidigt öppnar baren och köket med mat och dricka till knutte vänliga priser.\n\nBandet börjar spela ca kl 21. I år spelar B&W\n\nLördag blir det bland annat\nHermans Fylle runda\nLekar ca kl 15.00\nPrisutdelning\n\nKvällens musik startar ca kl 19.\nTake Two partybandet från Ronneby spelar\n\nVi kommer att ha samma tatuerare igen.\nMan hittar honom på Instagram: instagram.com/hdtheswede\n\nTräffen avslutas på Söndag\n\nHermans Hedningar LMCK",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1173768674881662"
+                                                                        },
+                                                                        {
+                                                                                          "label": "hermanshedningar.se",
+                                                                                          "url": "https://www.hermanshedningar.se/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=56.979169,+13.986915",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.hermanshedningar.se/",
+                                                      "region": "Jönköping",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/hermans-sjoslag-back-2026-05-29.jpg"
+                                    },
+                                    {
                                                       "id": "himmerlandstraef-2026",
                                                       "name": "46. Internationale Himmerlandstræf",
                                                       "date": "2026-05-29",
@@ -18366,6 +18840,32 @@ const EVENTS_DATA = {
                                                       "link": "https://www.facebook.com/events/1889900591932652/",
                                                       "region": "Danmark",
                                                       "source": "facebook.com"
+                                    },
+                                    {
+                                                      "id": "indian-roadshow-mckonsult-2026-05-29",
+                                                      "name": "Indian Roadshow Provkörningar",
+                                                      "date": "2026-05-29",
+                                                      "dateEnd": "2026-05-29",
+                                                      "type": "Show",
+                                                      "region": "Västra Götaland",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "organizer": "Mc-konsult i Lidköping",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/mckonsult",
+                                                      "description": "Indian Motorcycle Roadshow hos MC-Konsult i Lidköping. Provkör de senaste modellerna från Indian.",
+                                                      "descriptionFull": "Indian Roadshow med provkörningar hos MC-Konsult i Lidköping.\n\nKom och provkör de senaste modellerna ur Indian Motorcycles sortiment.\n\nPlats: MC-Konsult, Kinnegatan 15, 531 33 Lidköping\nTel: 0510-24035",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/mckonsult"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidk%C3%B6ping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/indian-roadshow-mckonsult-back-2026-05-29.jpg"
                                     },
                                     {
                                                       "id": "out-of-order-mc-30-ar-2026-05-29",
@@ -18495,96 +18995,6 @@ const EVENTS_DATA = {
                                                       "source": "vulcanriders-sweden.org",
                                                       "backImage": "ads/vrs-varbergstraffen-back-2026-05-29.jpg"
                                     },
-                                    {
-                                                      "id": "biker-nights-kaunas-2026-05-29",
-                                                      "name": "Biker Nights 2026",
-                                                      "date": "2026-05-29",
-                                                      "dateEnd": "2026-05-31",
-                                                      "location": "Jadagoniai, Kaunas, Litauen",
-                                                      "type": "Fest",
-                                                      "organizer": "FIM Touring",
-                                                      "description": "Internationell MC-festival i Litauen, del av FIM Touring World Challenge. Tre dagar med livemusik, körningar och bikergemenskap vid Pušynas camp utanför Kaunas.",
-                                                      "descriptionFull": "Internationell MC-festival i Jadagoniai, Kaunas, Litauen. 29-31 maj.\n\nEn av Europas mest kända MC-festivaler, arrangerad sedan 2008 av Forever Free MCC och Steely Pegasus MC. Del av FIM Touring World Challenge.\n\nTre dagar med livemusik, rockkonserter, gemensamma körningar och bikergemenskap vid Pušynas camp i Jadagoniai utanför Kaunas.\n\nFestivalen har vuxit från en traditionell bikerträff till en stor rockfestival med internationella deltagare.\n\nMer info: bikernights.lt",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo?fbid=1398893415614480&set=a.562204779283352"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/FIMtouring"
-                                                                        },
-                                                                        {
-                                                                                          "label": "bikernights.lt",
-                                                                                          "url": "https://www.bikernights.lt/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Jadagoniai+Kaunas+Lithuania",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/FIMtouring",
-                                                      "region": "Litauen",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/biker-nights-back-2026-05-29.jpg"
-                                    },
-                                    {
-                                                      "id": "indian-roadshow-mckonsult-2026-05-29",
-                                                      "name": "Indian Roadshow Provkörningar",
-                                                      "date": "2026-05-29",
-                                                      "dateEnd": "2026-05-29",
-                                                      "type": "Show",
-                                                      "region": "Västra Götaland",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
-                                                      "organizer": "Mc-konsult i Lidköping",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/mckonsult",
-                                                      "description": "Indian Motorcycle Roadshow hos MC-Konsult i Lidköping. Provkör de senaste modellerna från Indian.",
-                                                      "descriptionFull": "Indian Roadshow med provkörningar hos MC-Konsult i Lidköping.\n\nKom och provkör de senaste modellerna ur Indian Motorcycles sortiment.\n\nPlats: MC-Konsult, Kinnegatan 15, 531 33 Lidköping\nTel: 0510-24035",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/mckonsult"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kinnegatan+15+Lidk%C3%B6ping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/indian-roadshow-mckonsult-back-2026-05-29.jpg"
-                                    },
-    {
-      "id": "hermans-sjoslag-2026-05-29",
-      "name": "Hermans Sjöslag",
-      "date": "2026-05-29",
-      "dateEnd": "2026-05-31",
-      "location": "Sundet vid sjön Vidöstern, Vittaryd",
-      "type": "Träff",
-      "organizer": "Hermans Hedningar LMCK",
-      "description": "Tre dagars MC-träff vid sjön Vidöstern, 1,5 mil norr om Ljungby. Liveband B&W och Take Two, bar, mat, tatuerare, Hermans Fylle runda, lekar och prisutdelning.",
-      "descriptionFull": "Välkomna till 2026 års upplaga av Hermans sjöslag den 29-31/5 - 2026\n\nVi kommer att vara i SUNDET vid sjön VIDÖSTERN\nca 1,5 mil Norr om Ljungby\n(pilat efter avfart från E4:an. Avfart 82 trafikplats Hallsjö)\n\nGPS KOORDINATER\nWGS84 decimal (lat, lon) 56.979169, 13.986915\n\nIncheckningen öppnar på Fredagen kl 16.00 samtidigt öppnar baren och köket med mat och dricka till knutte vänliga priser.\n\nBandet börjar spela ca kl 21. I år spelar B&W\n\nLördag blir det bland annat\nHermans Fylle runda\nLekar ca kl 15.00\nPrisutdelning\n\nKvällens musik startar ca kl 19.\nTake Two partybandet från Ronneby spelar\n\nVi kommer att ha samma tatuerare igen.\nMan hittar honom på Instagram: instagram.com/hdtheswede\n\nTräffen avslutas på Söndag\n\nHermans Hedningar LMCK",
-      "links": [
-        {
-          "label": "FB Event",
-          "url": "https://www.facebook.com/events/1173768674881662"
-        },
-        {
-          "label": "hermanshedningar.se",
-          "url": "https://www.hermanshedningar.se/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=56.979169,+13.986915",
-          "type": "map"
-        }
-      ],
-      "link": "https://www.hermanshedningar.se/",
-      "region": "Jönköping",
-      "source": "facebook.com",
-      "backImage": "ads/hermans-sjoslag-back-2026-05-29.jpg"
-    },
                                     {
                                                       "id": "baprun-gotland-2026",
                                                       "name": "BAPRUN",
@@ -18894,6 +19304,88 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "fmck-uppsala-gruskurs-2026-05-30",
+                                                      "name": "Gruskurs Nivå 1 & 2",
+                                                      "date": "2026-05-30",
+                                                      "dateEnd": "2026-05-31",
+                                                      "location": "Rörken Motorstadion, Uppsala",
+                                                      "type": "Körning",
+                                                      "organizer": "FMCK Uppsala",
+                                                      "description": "Gruskurs för adventure/offroad MC, nivå 1 och 2. Två dagar vid Rörken Motorstadion. Start 09:00. 950 kr/dag, 10 platser. Anmälan: gruskurs@fmckuppsala.se",
+                                                      "descriptionFull": "Årets andra Gruskurs nivå 1+2 är äntligen öppen för anmälan!\n\nKursen riktar sig till dig med adventure, offroad eller liknande MC.\nDu kanske precis börjat köra, eller bara behöver en repetition av grunderna.\n\nFöljande datum erbjuds:\nv22 30-31 Maj\nStart 09:00, slut ca 16:00\n\nPlats: Rörken Motorstadion\n\nKrav: Laglig trafiksäker MC och utrustning. Körkort för MC, vi kontrollerar detta på plats.\n\nFörtäring: Lättare fika ingår i avgiften. Lunch äts medhavd eller på annan plats.\n\nPris: 950 SEK per dag, betalas i förskott innan kursstart.\n10 platser, först till kvarn gäller.\n\nInformation: Antagningsbrev mailas ut efter anmälan med bl.a. betalningsinformation, plats, schema och så vidare.\n\nAnmälan till: gruskurs@fmckuppsala.se",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1403230608514253&set=a.558820029621986"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/FMCKUppsala"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Rörken+Motorstadion+Uppsala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/FMCKUppsala",
+                                                      "region": "Uppsala",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/fmck-gruskurs-back-2026-05-30.jpg"
+                                    },
+                                    {
+                                                      "id": "imrg-big-lake-lordagstur-2026-05-30",
+                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "date": "2026-05-30",
+                                                      "dateEnd": "2026-05-30",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
+                                                      "id": "kilmister-mc-15ar-2026-05-30",
+                                                      "name": "Kilmister MC 15 År",
+                                                      "date": "2026-05-30",
+                                                      "dateEnd": "2026-05-30",
+                                                      "location": "Dåntorpsvägen 5, 136 50 Jordbro",
+                                                      "type": "Fest",
+                                                      "organizer": "Kilmister MC Stockholm",
+                                                      "description": "15-årsjubileum med liveband No Comments, tatuerare Carma Ink, mat från Texas Longhorn och dans. Endast för SBM och inbjudna gäster.",
+                                                      "descriptionFull": "Efter 15 år på vägarna vill vi nu fira detta med er!\n\nVi brakar loss med med en hejdundrade fest, Texas Longhorn brassar käk, Carma Ink gaddar hud och ett av norra Europas bästa partyband No Comments kommer och river haket!\n\nKom hungrig, törstig och dansant.\nVi råder bot på allt!\n\nKall dryck, varm mat, svettigt dansgolv! Nu åker vi! Manöver!\n\nDenna tillställning är endast för våra vänner i SBM och ett fåtal personligt inbjudna gäster.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/975922891626870"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/kilmister.mc"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Dåntorpsvägen+5+136+50+Jordbro",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/kilmister.mc",
+                                                      "region": "Stockholm",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/kilmister-mc-15ar-back-2026-05-30.jpg"
+                                    },
+                                    {
                                                       "id": "korvrundan-2026",
                                                       "name": "Dagstur Körvrundan",
                                                       "date": "2026-05-30",
@@ -18919,6 +19411,32 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "kungsback-mc-30ar-pokerrun-2026-05-30",
+                                                      "name": "Kungsbäck MC 30 År och Pokerrun",
+                                                      "date": "2026-05-30",
+                                                      "dateEnd": "2026-05-30",
+                                                      "location": "Kungsängsvägen 75, Gävle",
+                                                      "type": "Fest",
+                                                      "organizer": "Kungsbäck MC",
+                                                      "description": "Kungsbäck MC firar 30 år med Pokerrun\\! Start 11:00-12:30. Mat, dryck, livemusik med Stonefish kl 21:00. Tatuering med Crazy Fresh Tattoo. Stödjer Barncancerfonden.",
+                                                      "descriptionFull": "Fira 30 år med oss och kör Pokerrun!\n\nLördag 30:e Maj\nStarttid 11:00-12:30\n\nAlla hojåkare och märken är välkomna\n\nMat o dryck finns vid målgång samt på kvällen\n\nLive på scen runt 21:00 - Stonefish\n\nKom och fira med oss\nGästtält finns (boka)\nPlats för husbilar samt egna tält\n\nCrazy Fresh Tattoo finns på plats för tatuering.\ncrazyfreshtattoo@gmail.com\n\nI år stödjer vi Barncancerfonden\n\nFrågor o bokning, ring:\nWigan: 070-626 23 90\nMajkel: 070-581 65 40",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=2677175105998134&set=gm.26944873501763890&idorvanity=1120680964609831"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kungsängsvägen+75+Gävle",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/photo/?fbid=2677175105998134&set=gm.26944873501763890&idorvanity=1120680964609831",
+                                                      "region": "Gävleborg",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/kungsback-mc-30ar-pokerrun-back-2026-05-30.jpg"
                                     },
                                     {
                                                       "id": "lerduveskytte-2026",
@@ -19000,6 +19518,32 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "mc-dagen-sundsvall-2026",
+                                                      "name": "MC-Dagen i Sundsvall",
+                                                      "date": "2026-05-30",
+                                                      "dateEnd": "2026-05-30",
+                                                      "location": "Gärdehov Arena, Johannedalsvägen, Sundsvall",
+                                                      "type": "Körning",
+                                                      "organizer": "Sundsvall MCC",
+                                                      "description": "Samling vid Gärdehov Arena från kl 11:00. Kl 12:00 rullar kortegen med poliseskort in mot Stenstan. En 50-årig tradition som fyller Storgatan med motorcyklar och myller.",
+                                                      "descriptionFull": "Vi har nu fått alla nödvändiga tillstånd på plats och kan glatt meddela att vi kommer att genomföra MC-Dagen i Sundsvall 2026!\n\nSamling vid södra gaveln av Gärdehov Arena från klockan 11:00.\n\nKlockan 12:00 rullar kortegen in mot Stenstan med Poliseskort och förkörsrätt in till vår uppställning på Storgatan.\n\nVi är verkligen glada att kunna arrangera MC-Dagen i Sundsvall 2026.\n\nVi hoppas att just DU och dina vänner kommer och hjälper oss att fylla Stenstan med motorcyklar och myller.\n\nMed tanke på hur kort tid det är kvar så hjälp oss att sprida budskapet att MC-Dagen i Sundsvall är viktigt och ett evenemang vi verkligen vill ha kvar här i Sundsvall.\n\nDet är en tradition som sträcker sig 50 år tillbaka i tiden som vi motorcyklister (och många andra med) verkligen ÄLSKAR!!!\n\nNUUUUU KÖÖÖR VIIIII",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/945929748181894"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gärdehov+Arena+Sundsvall",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/945929748181894",
+                                                      "region": "Västernorrland",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/mc-dagen-sundsvall-back-2026-05-30.jpg"
                                     },
                                     {
                                                       "id": "mc-treff-sommerfest-agder-wings-risor-2026",
@@ -19432,140 +19976,6 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
-                                    {
-                                                      "id": "imrg-big-lake-lordagstur-2026-05-30",
-                                                      "name": "Lördagstur IMRG Big Lake",
-                                                      "date": "2026-05-30",
-                                                      "dateEnd": "2026-05-30",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
-                                                      "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
-                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
-                                    },
-                                    {
-                                                      "id": "kungsback-mc-30ar-pokerrun-2026-05-30",
-                                                      "name": "Kungsbäck MC 30 År och Pokerrun",
-                                                      "date": "2026-05-30",
-                                                      "dateEnd": "2026-05-30",
-                                                      "location": "Kungsängsvägen 75, Gävle",
-                                                      "type": "Fest",
-                                                      "organizer": "Kungsbäck MC",
-                                                      "description": "Kungsbäck MC firar 30 år med Pokerrun\\! Start 11:00-12:30. Mat, dryck, livemusik med Stonefish kl 21:00. Tatuering med Crazy Fresh Tattoo. Stödjer Barncancerfonden.",
-                                                      "descriptionFull": "Fira 30 år med oss och kör Pokerrun!\n\nLördag 30:e Maj\nStarttid 11:00-12:30\n\nAlla hojåkare och märken är välkomna\n\nMat o dryck finns vid målgång samt på kvällen\n\nLive på scen runt 21:00 - Stonefish\n\nKom och fira med oss\nGästtält finns (boka)\nPlats för husbilar samt egna tält\n\nCrazy Fresh Tattoo finns på plats för tatuering.\ncrazyfreshtattoo@gmail.com\n\nI år stödjer vi Barncancerfonden\n\nFrågor o bokning, ring:\nWigan: 070-626 23 90\nMajkel: 070-581 65 40",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=2677175105998134&set=gm.26944873501763890&idorvanity=1120680964609831"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Kungsängsvägen+75+Gävle",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/photo/?fbid=2677175105998134&set=gm.26944873501763890&idorvanity=1120680964609831",
-                                                      "region": "Gävleborg",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/kungsback-mc-30ar-pokerrun-back-2026-05-30.jpg"
-                                    },
-                                    {
-                                                      "id": "mc-dagen-sundsvall-2026",
-                                                      "name": "MC-Dagen i Sundsvall",
-                                                      "date": "2026-05-30",
-                                                      "dateEnd": "2026-05-30",
-                                                      "location": "Gärdehov Arena, Johannedalsvägen, Sundsvall",
-                                                      "type": "Körning",
-                                                      "organizer": "Sundsvall MCC",
-                                                      "description": "Samling vid Gärdehov Arena från kl 11:00. Kl 12:00 rullar kortegen med poliseskort in mot Stenstan. En 50-årig tradition som fyller Storgatan med motorcyklar och myller.",
-                                                      "descriptionFull": "Vi har nu fått alla nödvändiga tillstånd på plats och kan glatt meddela att vi kommer att genomföra MC-Dagen i Sundsvall 2026!\n\nSamling vid södra gaveln av Gärdehov Arena från klockan 11:00.\n\nKlockan 12:00 rullar kortegen in mot Stenstan med Poliseskort och förkörsrätt in till vår uppställning på Storgatan.\n\nVi är verkligen glada att kunna arrangera MC-Dagen i Sundsvall 2026.\n\nVi hoppas att just DU och dina vänner kommer och hjälper oss att fylla Stenstan med motorcyklar och myller.\n\nMed tanke på hur kort tid det är kvar så hjälp oss att sprida budskapet att MC-Dagen i Sundsvall är viktigt och ett evenemang vi verkligen vill ha kvar här i Sundsvall.\n\nDet är en tradition som sträcker sig 50 år tillbaka i tiden som vi motorcyklister (och många andra med) verkligen ÄLSKAR!!!\n\nNUUUUU KÖÖÖR VIIIII",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/945929748181894"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gärdehov+Arena+Sundsvall",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/945929748181894",
-                                                      "region": "Västernorrland",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/mc-dagen-sundsvall-back-2026-05-30.jpg"
-                                    },
-                                    {
-                                                      "id": "kilmister-mc-15ar-2026-05-30",
-                                                      "name": "Kilmister MC 15 År",
-                                                      "date": "2026-05-30",
-                                                      "dateEnd": "2026-05-30",
-                                                      "location": "Dåntorpsvägen 5, 136 50 Jordbro",
-                                                      "type": "Fest",
-                                                      "organizer": "Kilmister MC Stockholm",
-                                                      "description": "15-årsjubileum med liveband No Comments, tatuerare Carma Ink, mat från Texas Longhorn och dans. Endast för SBM och inbjudna gäster.",
-                                                      "descriptionFull": "Efter 15 år på vägarna vill vi nu fira detta med er!\n\nVi brakar loss med med en hejdundrade fest, Texas Longhorn brassar käk, Carma Ink gaddar hud och ett av norra Europas bästa partyband No Comments kommer och river haket!\n\nKom hungrig, törstig och dansant.\nVi råder bot på allt!\n\nKall dryck, varm mat, svettigt dansgolv! Nu åker vi! Manöver!\n\nDenna tillställning är endast för våra vänner i SBM och ett fåtal personligt inbjudna gäster.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/975922891626870"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/kilmister.mc"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Dåntorpsvägen+5+136+50+Jordbro",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/kilmister.mc",
-                                                      "region": "Stockholm",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/kilmister-mc-15ar-back-2026-05-30.jpg"
-                                    },
-    {
-      "id": "fmck-uppsala-gruskurs-2026-05-30",
-      "name": "Gruskurs Nivå 1 & 2",
-      "date": "2026-05-30",
-      "dateEnd": "2026-05-31",
-      "location": "Rörken Motorstadion, Uppsala",
-      "type": "Körning",
-      "organizer": "FMCK Uppsala",
-      "description": "Gruskurs för adventure/offroad MC, nivå 1 och 2. Två dagar vid Rörken Motorstadion. Start 09:00. 950 kr/dag, 10 platser. Anmälan: gruskurs@fmckuppsala.se",
-      "descriptionFull": "Årets andra Gruskurs nivå 1+2 är äntligen öppen för anmälan!\n\nKursen riktar sig till dig med adventure, offroad eller liknande MC.\nDu kanske precis börjat köra, eller bara behöver en repetition av grunderna.\n\nFöljande datum erbjuds:\nv22 30-31 Maj\nStart 09:00, slut ca 16:00\n\nPlats: Rörken Motorstadion\n\nKrav: Laglig trafiksäker MC och utrustning. Körkort för MC, vi kontrollerar detta på plats.\n\nFörtäring: Lättare fika ingår i avgiften. Lunch äts medhavd eller på annan plats.\n\nPris: 950 SEK per dag, betalas i förskott innan kursstart.\n10 platser, först till kvarn gäller.\n\nInformation: Antagningsbrev mailas ut efter anmälan med bl.a. betalningsinformation, plats, schema och så vidare.\n\nAnmälan till: gruskurs@fmckuppsala.se",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=1403230608514253&set=a.558820029621986"
-        },
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/FMCKUppsala"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Rörken+Motorstadion+Uppsala",
-          "type": "map"
-        }
-      ],
-      "link": "https://www.facebook.com/FMCKUppsala",
-      "region": "Uppsala",
-      "source": "facebook.com",
-      "backImage": "ads/fmck-gruskurs-back-2026-05-30.jpg"
-    },
                                     {
                                                       "id": "bmw-d15-mats-och-bodils-tur-2026",
                                                       "name": "D15 Mats och Bodils tur",
@@ -20064,6 +20474,61 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "old-knutters-onsdagstur-2026-06-03",
+                                                      "name": "Onsdagstur The Old Knutters",
+                                                      "date": "2026-06-03",
+                                                      "dateEnd": "2026-06-03",
+                                                      "time": "17:00",
+                                                      "type": "Körning",
+                                                      "region": "Halland",
+                                                      "location": "Snöstorps Kyrka, Ljungbyvägen 72, Halmstad",
+                                                      "organizer": "The Old Knutters",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur med The Old Knutters på slingriga vägar i ca 1-1,5 timme, avslut vid Backens café i Abild.",
+                                                      "descriptionFull": "Vår färdledare Anders Kolhammar tar oss på en fin tur på härligt slingriga vägar under ca 1-1,5 timmar.\n\nDå är vi framme på Backens café i Abild där det finns fika att köpa.\n\nStart: Snöstorps Kyrka, Ljungbyvägen 72, Halmstad. Tid: 17:00-18:30.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Sn%C3%B6storps+Kyrka+Ljungbyv%C3%A4gen+72+Halmstad",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "onsdagskorning-gotland-2026-06-03",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-06-03",
+                                                      "dateEnd": "2026-06-03",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "provkorning-zontes-cafe-rosenhill-2026",
                                                       "name": "Provkörning: Zontes",
                                                       "date": "2026-06-03",
@@ -20088,6 +20553,33 @@ const EVENTS_DATA = {
                                                       "region": "Stockholm",
                                                       "source": "facebook.com",
                                                       "descriptionFull": "Café Rosenhill bjuder in till en provkörningskväll!\n\nGrabbarna bakom Pauls Motor kommer och visar upp Zontes motorcyklar. Kom och ta en fika, kika på fina motorcyklar och provkör om du vill.\n\nZontes är ett spännande märke med prisvärda och moderna modeller.\n\nTid: Onsdag 3 juni kl. 16:00 - 19:00\nPlats: Rosenhill 23, Botkyrka (Grödinge)."
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-06-03",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-06-03",
+                                                      "dateEnd": "2026-06-03",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "american-days-2026",
@@ -20718,6 +21210,37 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "frambo-mopperally-2026-06-06",
+                                                      "name": "Frambo Mopperally",
+                                                      "date": "2026-06-06",
+                                                      "dateEnd": "2026-06-06",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Västra Götaland",
+                                                      "location": "Trökörna Frambo Bygdegård, Grästorp",
+                                                      "organizer": "Trökörna-Frambo bygdegård",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/trokornaframbo",
+                                                      "description": "Mopperally i Trökörna. Start kl 10, startavgift 150 kr inkl. kaffe och kaka. Teknikbana, tipsrunda och presentkort till vinnarna. Servering med hamburgare och fika.",
+                                                      "descriptionFull": "I år kör vi!!\n\nStart kl 10.\n\nStartavgift: 150 kr inkl. kaffe och kaka innan start (betalas på plats).\n\nTeknikbana kommer att finnas.\n\nPresentkort finns i potten till vinnarna i tipsrundan och teknikbanan.\n\nServering med hamburgare, dryck, kaffe och fika.\n\nVarmt välkommen! Dela gärna evenemanget!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/35441147818832540/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/trokornaframbo"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%B6k%C3%B6rna+Frambo+Bygdeg%C3%A5rd+1%2C+Gr%C3%A4storp",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/frambo-mopperally-back-2026-06-06.jpg"
+                                    },
+                                    {
                                                       "id": "gwcs-nationaldagstur-2026",
                                                       "name": "Nationaldagstur till Sigridslunds Café",
                                                       "date": "2026-06-06",
@@ -20797,6 +21320,34 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "mce-vikingafest-2026-06-06",
+                                                      "name": "MCE:s Vikingafest",
+                                                      "date": "2026-06-06",
+                                                      "dateEnd": "2026-06-06",
+                                                      "time": "18:00",
+                                                      "type": "Fest",
+                                                      "region": "Stockholm",
+                                                      "location": "Snutenvägen 11, Järfälla",
+                                                      "organizer": "MCE",
+                                                      "organizerIcon": "clubs/normalized/mce.png",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1281478290231265",
+                                                      "description": "Vikingatema-fest hos MCE i Järfälla, arrangerad av ungdomssektionen. Ta på dig vikingahjälmen och björnfällen. Start kl 18:00.",
+                                                      "descriptionFull": "Nu är det dags. Ta på er vikingahjälmen och en björnfäll och fira med oss.\n\nTemat på festen är Vikingar. Låt fantasin flöda och låt dig inspireras.\n\nUngdomssektionen arrangerar.\n\nDatum: 6 juni kl 18:00\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1281478290231265"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+J%C3%A4rf%C3%A4lla",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/mce-vikingafest-back-2026-06-06.jpg"
                                     },
                                     {
                                                       "id": "mcv-osterlen-motorhistoriska-dagen-2026-06-06",
@@ -20977,6 +21528,29 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg"
                                     },
                                     {
+                                                      "id": "smc-gavleborg-hemliga-turen-2026-06-06",
+                                                      "name": "Hemliga turen 2026",
+                                                      "date": "2026-06-06",
+                                                      "dateEnd": "2026-06-06",
+                                                      "time": "08:00",
+                                                      "type": "Körning",
+                                                      "region": "Gävleborg",
+                                                      "location": "Biltema, Hudiksvall",
+                                                      "organizer": "SMC Gävleborg",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "17:e året av Hemliga turen. Start på 8 olika ställen i länet, hemlig målgång i Hälsingland 2026. Färdledare vet var turen går.",
+                                                      "descriptionFull": "17:e året vi kör Hemliga turen.\n\nStart på given plats, målgång på hemlig plats. Låter det märkligt? Det är inte svårare än att vi startar på åtta olika ställen i länet. På varje plats finns en eller flera färdledare som vet vart turen går. Vid starttid rullar gänget iväg och så har ni några mil på er att försöka lista ut vart vi ska.\n\nJättekul och väldigt uppskattat. 2025 gick turen till Wij Trädgårdar, Ockelbo. Ca 200 deltagare tog sig till målet.\n\nVi alternerar och har målgång i Gästrikland och Hälsingland vartannat år. Då det var Gästrikland 2025 så innebär det att det är Hälsinglands tur 2026.\n\nStartplatser och starttider:\n- Gävle\n- Sandviken\n- Grustur Gästrikland, OKQ8 Ockelbo: Avfärd 8:00\n- Söderhamn\n- Ljusdal, OKQ8: Avfärd 10:00\n- Hudiksvall, Möljen: Avfärd 10:00\n- Bollnäs, Sibylla Häggesta: Avfärd 10:00\n- Grustur Hälsingland, Alfta: Avfärd 9:00 från vägen utanför Lillbo Gårdsscen\n\nHåll utkik på SMC Gävleborgs hemsida och sociala medier.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "smc-stockholm-nationaldagstur-2026-06-06",
                                                       "name": "Nationaldagsturen",
                                                       "date": "2026-06-06",
@@ -21131,65 +21705,6 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/vrs-nationaldagstur-goteborg-back-2026-06-06.jpg"
                                     },
                                     {
-                                                      "id": "frambo-mopperally-2026-06-06",
-                                                      "name": "Frambo Mopperally",
-                                                      "date": "2026-06-06",
-                                                      "dateEnd": "2026-06-06",
-                                                      "time": "10:00",
-                                                      "type": "Körning",
-                                                      "region": "Västra Götaland",
-                                                      "location": "Trökörna Frambo Bygdegård, Grästorp",
-                                                      "organizer": "Trökörna-Frambo bygdegård",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/trokornaframbo",
-                                                      "description": "Mopperally i Trökörna. Start kl 10, startavgift 150 kr inkl. kaffe och kaka. Teknikbana, tipsrunda och presentkort till vinnarna. Servering med hamburgare och fika.",
-                                                      "descriptionFull": "I år kör vi!!\n\nStart kl 10.\n\nStartavgift: 150 kr inkl. kaffe och kaka innan start (betalas på plats).\n\nTeknikbana kommer att finnas.\n\nPresentkort finns i potten till vinnarna i tipsrundan och teknikbanan.\n\nServering med hamburgare, dryck, kaffe och fika.\n\nVarmt välkommen! Dela gärna evenemanget!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/35441147818832540/"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/trokornaframbo"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%B6k%C3%B6rna+Frambo+Bygdeg%C3%A5rd+1%2C+Gr%C3%A4storp",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/frambo-mopperally-back-2026-06-06.jpg"
-                                    },
-                                    {
-                                                      "id": "mce-vikingafest-2026-06-06",
-                                                      "name": "MCE:s Vikingafest",
-                                                      "date": "2026-06-06",
-                                                      "dateEnd": "2026-06-06",
-                                                      "time": "18:00",
-                                                      "type": "Fest",
-                                                      "region": "Stockholm",
-                                                      "location": "Snutenvägen 11, Järfälla",
-                                                      "organizer": "MCE",
-                                                      "organizerIcon": "clubs/normalized/mce.png",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/1281478290231265",
-                                                      "description": "Vikingatema-fest hos MCE i Järfälla, arrangerad av ungdomssektionen. Ta på dig vikingahjälmen och björnfällen. Start kl 18:00.",
-                                                      "descriptionFull": "Nu är det dags. Ta på er vikingahjälmen och en björnfäll och fira med oss.\n\nTemat på festen är Vikingar. Låt fantasin flöda och låt dig inspireras.\n\nUngdomssektionen arrangerar.\n\nDatum: 6 juni kl 18:00\nPlats: MCE Klubblokalen, Snutenvägen 11, 177 61 Järfälla.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1281478290231265"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+J%C3%A4rf%C3%A4lla",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/mce-vikingafest-back-2026-06-06.jpg"
-                                    },
-                                    {
                                                       "id": "adventurebike-gruskurs-niva1-2026-06-07",
                                                       "name": "Gruskurs nivå 1",
                                                       "date": "2026-06-07",
@@ -21292,6 +21807,34 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "backImage": "ads/bmw-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "fordonstraff-edsbro-2026-06-07",
+                                                      "name": "Fordonsträff Edsbro",
+                                                      "date": "2026-06-07",
+                                                      "dateEnd": "2026-06-07",
+                                                      "time": "12:00",
+                                                      "endTime": "14:00",
+                                                      "type": "Träff",
+                                                      "region": "Stockholm",
+                                                      "location": "Åsavallsvägen 14, Edsbro",
+                                                      "organizer": "Edsbro Hembygdsförening",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/1701574997673141",
+                                                      "description": "Årlig fordonsträff. Ställ ut din gamla bil, motorcykel, traktor eller annat fordon. Servering.",
+                                                      "descriptionFull": "Välkommen på den årliga fordonsträffen\\! Ställ ut din gamla bil, motorcykel, traktor eller vad du än har som är ett fordon\\!\n\nIngen föranmälan krävs i år, det är först till kvarn som gäller.\n\nMer info kommer löpande.\n\nServering.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1701574997673141"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85savallsv%C3%A4gen+14+Edsbro",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/fordonstraff-edsbro-back-2026-06-07.jpg"
                                     },
                                     {
                                                       "id": "jmc-bonspalls-rundan-2026-06-07",
@@ -21435,34 +21978,6 @@ const EVENTS_DATA = {
                                                       ],
                                                       "region": "Uppsala",
                                                       "source": "facebook.com"
-                                    },
-                                    {
-                                                      "id": "fordonstraff-edsbro-2026-06-07",
-                                                      "name": "Fordonsträff Edsbro",
-                                                      "date": "2026-06-07",
-                                                      "dateEnd": "2026-06-07",
-                                                      "time": "12:00",
-                                                      "endTime": "14:00",
-                                                      "type": "Träff",
-                                                      "region": "Stockholm",
-                                                      "location": "Åsavallsvägen 14, Edsbro",
-                                                      "organizer": "Edsbro Hembygdsförening",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/1701574997673141",
-                                                      "description": "Årlig fordonsträff. Ställ ut din gamla bil, motorcykel, traktor eller annat fordon. Servering.",
-                                                      "descriptionFull": "Välkommen på den årliga fordonsträffen\\! Ställ ut din gamla bil, motorcykel, traktor eller vad du än har som är ett fordon\\!\n\nIngen föranmälan krävs i år, det är först till kvarn som gäller.\n\nMer info kommer löpande.\n\nServering.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1701574997673141"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85savallsv%C3%A4gen+14+Edsbro",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/fordonstraff-edsbro-back-2026-06-07.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-goes-to-pite-havsbad-arstraff-2026-2026",
@@ -21801,6 +22316,61 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/kor-hoj.png"
                                     },
                                     {
+                                                      "id": "onsdagskorning-gotland-2026-06-10",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-06-10",
+                                                      "dateEnd": "2026-06-10",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-06-10",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-06-10",
+                                                      "dateEnd": "2026-06-10",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "76-mil-grus-2026",
                                                       "name": "76 mil grus",
                                                       "date": "2026-06-11",
@@ -22127,6 +22697,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "goodguystraffen-arjang-2026-06-12",
+                                                      "name": "Goodguysträffen",
+                                                      "date": "2026-06-12",
+                                                      "dateEnd": "2026-06-14",
+                                                      "type": "Fest",
+                                                      "region": "Värmland",
+                                                      "location": "Brännaregatan 6, 672 31 Årjäng",
+                                                      "organizer": "Goodguys Mc",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/photo/?fbid=10164828527929551&set=gm.10162264837795759",
+                                                      "description": "Goodguys MC Touringklubbs träff i Årjäng. God mat, tilltugg, musik, badresa och musikquiz. All inclusive 600 kr. Anmälan obligatorisk till Tony 070-553 23 28.",
+                                                      "descriptionFull": "Välkomna till Goodguysträffen!\n\nVälkomna bikers! Till en träff med god mat, bra med tilltugg, duschar och toaletter, musik, badresa, musikquiz mm.\n\nTräffavgift \"All inclusive\" 600:- för allt (om dryck hela helgen).\n\nOBS! Anmälan obligatorisk senast den 31 maj.\n\nAnmälan Tony på 070-553 23 28.\n\nPlats: Brännaregatan, Årjäng\nDatum: 12-14 juni 2026",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=10164828527929551&set=gm.10162264837795759"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Br%C3%A4nnaregatan+6+%C3%85rj%C3%A4ng",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/goodguystraffen-back-2026-06-12.jpg"
+                                    },
+                                    {
                                                       "id": "oamck-vatternrundan-2026",
                                                       "name": "Vätternrundan (Ordonnanser)",
                                                       "date": "2026-06-12",
@@ -22181,30 +22777,31 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
-                                                      "id": "goodguystraffen-arjang-2026-06-12",
-                                                      "name": "Goodguysträffen",
-                                                      "date": "2026-06-12",
-                                                      "dateEnd": "2026-06-14",
-                                                      "type": "Fest",
-                                                      "region": "Värmland",
-                                                      "location": "Brännaregatan 6, 672 31 Årjäng",
-                                                      "organizer": "Goodguys Mc",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/photo/?fbid=10164828527929551&set=gm.10162264837795759",
-                                                      "description": "Goodguys MC Touringklubbs träff i Årjäng. God mat, tilltugg, musik, badresa och musikquiz. All inclusive 600 kr. Anmälan obligatorisk till Tony 070-553 23 28.",
-                                                      "descriptionFull": "Välkomna till Goodguysträffen!\n\nVälkomna bikers! Till en träff med god mat, bra med tilltugg, duschar och toaletter, musik, badresa, musikquiz mm.\n\nTräffavgift \"All inclusive\" 600:- för allt (om dryck hela helgen).\n\nOBS! Anmälan obligatorisk senast den 31 maj.\n\nAnmälan Tony på 070-553 23 28.\n\nPlats: Brännaregatan, Årjäng\nDatum: 12-14 juni 2026",
+                                                      "id": "bike-babes-gotland-2026-06-13",
+                                                      "name": "Bike babes-körning Gotland",
+                                                      "date": "2026-06-13",
+                                                      "dateEnd": "2026-06-13",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Visby",
+                                                      "organizer": "Bike babes Gotland",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Endast tjejer! Gemensam hojtur på Gotland. Samling 10:00, rullar 10:15. Ta med lunch/macka. Tillbaka i stan senast 14:00.",
+                                                      "descriptionFull": "Endast tjejer!\n\nVälkommen till en gemensam hojtur. Samling kl 10:00 vid träffpunkten i hamnsbacken. Vi rullar kl 10:15.\n\nTa med lunch/macka så käkar vi där vi är. Planerar att vara i stan igen senast kl 14:00.\n\nKontakt: Linda.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=10164828527929551&set=gm.10162264837795759"
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Br%C3%A4nnaregatan+6+%C3%85rj%C3%A4ng",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+Visby",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "backImage": "ads/goodguystraffen-back-2026-06-12.jpg"
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-bmwklubben-norge-d8-telemarken-runt-2026",
@@ -22417,6 +23014,28 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "imrg-big-lake-lordagstur-2026-06-13",
+                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "date": "2026-06-13",
+                                                      "dateEnd": "2026-06-13",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
                                                       "id": "kuggnas-sommartraff-2026",
                                                       "name": "Kuggnäs Sommarträff",
                                                       "date": "2026-06-13",
@@ -22588,47 +23207,35 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com"
                                     },
                                     {
-                                                      "id": "vulcan-riders-ostrundan-2026-06-13",
-                                                      "name": "Ostrundan",
+                                                      "id": "tyreso-bike-show-2026-06-13",
+                                                      "name": "Tyresö Bike Show",
                                                       "date": "2026-06-13",
                                                       "dateEnd": "2026-06-13",
-                                                      "location": "Göteborg",
-                                                      "type": "Körning",
-                                                      "organizer": "Vulcan Riders Sweden",
-                                                      "organizerIcon": "clubs/normalized/vra-sweden.png",
-                                                      "description": "VRS Göteborg kör Ostrundan 13 juni kl 10:00. Gemensam MC-tur genom västra Sverige. Mer info om rutt och samlingsplats kommer.",
-                                                      "descriptionFull": "Vulcan Riders Sweden Göteborg kör Ostrundan lördagen den 13 juni kl 10:00.\n\nMer information om rutt och samlingsplats kommer.",
+                                                      "time": "11:00",
+                                                      "location": "Tyresö Slott, Tyresö",
+                                                      "type": "Show",
+                                                      "organizer": "Tyresö Bike Show",
+                                                      "description": "MC-utställning på ängen bakom Tyresö Slott. Klasser: Custom, Chopper, Ombyggd Sportster, Dagens Outsider. Knallar, trubadur, hoppborg, mat och dryck.",
+                                                      "descriptionFull": "MC-utställning nere på ängen bakom Tyresö Slott.\n\n13 juni kl 11:00-16:00.\n\nKlasser:\n- Custom\n- Chopper\n- Ombyggd Sportster\n- Dagens Outsider\n\nMat & Dryck\nKnallar\nTrubadur\nHoppborg\nUtställning\nStunts med minicrossar\n\nVälkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "vulcanriders-sweden.org",
-                                                                                          "url": "https://www.vulcanriders-sweden.org/sv/event/eventlista/ostrundan/2026-06-13-10-00.html"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/ostrundan/2026-06-13-10-00.html",
-                                                      "region": "Västra Götaland",
-                                                      "source": "vulcanriders-sweden.org"
-                                    },
-                                    {
-                                                      "id": "imrg-big-lake-lordagstur-2026-06-13",
-                                                      "name": "Lördagstur IMRG Big Lake",
-                                                      "date": "2026-06-13",
-                                                      "dateEnd": "2026-06-13",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
-                                                      "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
-                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
-                                                      "links": [
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1528505558623326"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/Tyresobikeshow"
+                                                                        },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tyresö+Slott+Tyresö",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "region": "Västra Götaland",
+                                                      "link": "https://www.facebook.com/Tyresobikeshow",
+                                                      "region": "Stockholm",
                                                       "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                                      "backImage": "ads/tyreso-bike-show-back-2026-06-13.jpg"
                                     },
                                     {
                                                       "id": "varmlandssafari-motorcykel-2026-06-13",
@@ -22662,35 +23269,25 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/varmlandssafari-back-2026-06-13.jpg"
                                     },
                                     {
-                                                      "id": "tyreso-bike-show-2026-06-13",
-                                                      "name": "Tyresö Bike Show",
+                                                      "id": "vulcan-riders-ostrundan-2026-06-13",
+                                                      "name": "Ostrundan",
                                                       "date": "2026-06-13",
                                                       "dateEnd": "2026-06-13",
-                                                      "time": "11:00",
-                                                      "location": "Tyresö Slott, Tyresö",
-                                                      "type": "Show",
-                                                      "organizer": "Tyresö Bike Show",
-                                                      "description": "MC-utställning på ängen bakom Tyresö Slott. Klasser: Custom, Chopper, Ombyggd Sportster, Dagens Outsider. Knallar, trubadur, hoppborg, mat och dryck.",
-                                                      "descriptionFull": "MC-utställning nere på ängen bakom Tyresö Slott.\n\n13 juni kl 11:00-16:00.\n\nKlasser:\n- Custom\n- Chopper\n- Ombyggd Sportster\n- Dagens Outsider\n\nMat & Dryck\nKnallar\nTrubadur\nHoppborg\nUtställning\nStunts med minicrossar\n\nVälkomna!",
+                                                      "location": "Göteborg",
+                                                      "type": "Körning",
+                                                      "organizer": "Vulcan Riders Sweden",
+                                                      "organizerIcon": "clubs/normalized/vra-sweden.png",
+                                                      "description": "VRS Göteborg kör Ostrundan 13 juni kl 10:00. Gemensam MC-tur genom västra Sverige. Mer info om rutt och samlingsplats kommer.",
+                                                      "descriptionFull": "Vulcan Riders Sweden Göteborg kör Ostrundan lördagen den 13 juni kl 10:00.\n\nMer information om rutt och samlingsplats kommer.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1528505558623326"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/Tyresobikeshow"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tyresö+Slott+Tyresö",
-                                                                                          "type": "map"
+                                                                                          "label": "vulcanriders-sweden.org",
+                                                                                          "url": "https://www.vulcanriders-sweden.org/sv/event/eventlista/ostrundan/2026-06-13-10-00.html"
                                                                         }
                                                       ],
-                                                      "link": "https://www.facebook.com/Tyresobikeshow",
-                                                      "region": "Stockholm",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/tyreso-bike-show-back-2026-06-13.jpg"
+                                                      "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/ostrundan/2026-06-13-10-00.html",
+                                                      "region": "Västra Götaland",
+                                                      "source": "vulcanriders-sweden.org"
                                     },
                                     {
                                                       "id": "doa-emilsturen-2026-06-14",
@@ -22934,6 +23531,37 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "triumph-ride-the-legends-jonkoping-2026-06-16",
+                                                      "name": "Ride the Legends Test Ride Tour",
+                                                      "date": "2026-06-16",
+                                                      "dateEnd": "2026-06-16",
+                                                      "time": "14:00",
+                                                      "type": "Show",
+                                                      "region": "Jönköping",
+                                                      "location": "Lillsjöplan 4, Jönköping",
+                                                      "organizer": "Triumph Motorcycles",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/OfficialTriumphSweden",
+                                                      "description": "Triumphs provkörningsevent med tio modeller. Ingen förbokning krävs, ta med MC-utrustning. Varumärkesambassadör Hanna C. Johansson på plats. 14:00-20:00.",
+                                                      "descriptionFull": "Triumph Motorcycles \"Ride the Legends Test Ride Tour\" kommer till Jönköping i år igen!\n\nEfter förra årets succé återkommer vi med vårt provkörningsevent.\n\n16 Juni\nPlats: Lillsjöplan, Jönköping\nTid: 14.00-20.00\n\nÄr du redo att uppleva legendariska motorcyklar? Kom och provkör Triumphs senaste modeller och hitta din nya favorit! Vi har med oss ett brett utbud av motorcyklar redo för dig att testa.\n\nIngen förbokning krävs. Ta med din MC-utrustning och kom förbi för en provkörning, kanske hittar du din nya drömhoj!\n\nPå plats finns även vår varumärkesambassadör Hanna C. Johansson. Kom och snacka hoj och inspireras av hennes spännande äventyrsresor.\n\nVi har med oss följande modeller:\n- Scrambler 400 XC\n- Scrambler 900\n- Scrambler 1200 XE\n- Speed Twin 1200\n- Speed Triple 1200 RS\n- Street Triple 765 RX\n- Bonneville T120 Black\n- Trident 800\n- Tiger 900 Desert Edition\n- Tiger 1200 Desert Edition\n\nHar du några frågor? Hör av dig till: nordic@triumph.co.uk\n\nHoppas vi ses!\nTriumph Nordic",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/2000261794175203"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/OfficialTriumphSweden"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Lillsj%C3%B6plan+4+J%C3%B6nk%C3%B6ping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/triumph-ride-the-legends-jonkoping-back-2026-06-16.jpg"
+                                    },
+                                    {
                                                       "id": "twin-club-tisdagstur-2026-06-16",
                                                       "name": "Tisdagstur på motorcykel",
                                                       "date": "2026-06-16",
@@ -22965,37 +23593,6 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "backImage": "ads/twin-club-tisdagstur-back.jpg"
-                                    },
-                                    {
-                                                      "id": "triumph-ride-the-legends-jonkoping-2026-06-16",
-                                                      "name": "Ride the Legends Test Ride Tour",
-                                                      "date": "2026-06-16",
-                                                      "dateEnd": "2026-06-16",
-                                                      "time": "14:00",
-                                                      "type": "Show",
-                                                      "region": "Jönköping",
-                                                      "location": "Lillsjöplan 4, Jönköping",
-                                                      "organizer": "Triumph Motorcycles",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/OfficialTriumphSweden",
-                                                      "description": "Triumphs provkörningsevent med tio modeller. Ingen förbokning krävs, ta med MC-utrustning. Varumärkesambassadör Hanna C. Johansson på plats. 14:00-20:00.",
-                                                      "descriptionFull": "Triumph Motorcycles \"Ride the Legends Test Ride Tour\" kommer till Jönköping i år igen!\n\nEfter förra årets succé återkommer vi med vårt provkörningsevent.\n\n16 Juni\nPlats: Lillsjöplan, Jönköping\nTid: 14.00-20.00\n\nÄr du redo att uppleva legendariska motorcyklar? Kom och provkör Triumphs senaste modeller och hitta din nya favorit! Vi har med oss ett brett utbud av motorcyklar redo för dig att testa.\n\nIngen förbokning krävs. Ta med din MC-utrustning och kom förbi för en provkörning, kanske hittar du din nya drömhoj!\n\nPå plats finns även vår varumärkesambassadör Hanna C. Johansson. Kom och snacka hoj och inspireras av hennes spännande äventyrsresor.\n\nVi har med oss följande modeller:\n- Scrambler 400 XC\n- Scrambler 900\n- Scrambler 1200 XE\n- Speed Twin 1200\n- Speed Triple 1200 RS\n- Street Triple 765 RX\n- Bonneville T120 Black\n- Trident 800\n- Tiger 900 Desert Edition\n- Tiger 1200 Desert Edition\n\nHar du några frågor? Hör av dig till: nordic@triumph.co.uk\n\nHoppas vi ses!\nTriumph Nordic",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/2000261794175203"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/OfficialTriumphSweden"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Lillsj%C3%B6plan+4+J%C3%B6nk%C3%B6ping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/triumph-ride-the-legends-jonkoping-back-2026-06-16.jpg"
                                     },
                                     {
                                                       "id": "condios-djurspatraffen-2026",
@@ -23131,6 +23728,34 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "onsdagskorning-gotland-2026-06-17",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-06-17",
+                                                      "dateEnd": "2026-06-17",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "stensby-racing-bandagar-mantorp-2026",
                                                       "name": "Bandagar Stensby Racing",
                                                       "date": "2026-06-17",
@@ -23159,6 +23784,33 @@ const EVENTS_DATA = {
                                                       "link": "https://stensby-racing.se/bandag-testtune-mantorp-park/",
                                                       "region": "Östergötland",
                                                       "source": "facebook.com"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-06-17",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-06-17",
+                                                      "dateEnd": "2026-06-17",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-06-18",
@@ -23514,32 +24166,6 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
-                                                      "id": "summer-party-fauske-2026-06-19",
-                                                      "name": "Summer Party",
-                                                      "date": "2026-06-19",
-                                                      "dateEnd": "2026-06-21",
-                                                      "location": "Klungset Leir, Fauske, Norge",
-                                                      "type": "Fest",
-                                                      "organizer": "Sigge Sigurdsen & Joakim Julian Kristiansen",
-                                                      "description": "MC-treff i Fauske, Norge! Tre dagar med mat och dryck, stor gräsplan för tält, övernattningsmöjligheter inomhus, socialt och riktig treffstämning.",
-                                                      "descriptionFull": "Sommartreff vid Klungset Leir i Fauske, Norge. 19-21 juni 2026.\n\nVi inviterar til MC-treff! Det blir god stemning og fullt trekk hele helga.\n\nMat og Drikke Servering. Stor gressplan for telt. Overnattingsmuligheter innendørs. Sosialt, musikk og ekte treffstemning.\n\nTa med godt humør, venner og sykkel. Dette vil du ikke gå glipp av!\n\nKontakt: Joakim Julian Kristiansen, 414 63 474",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/2827216227641586"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Klungset+Leir+Fauske+Norway",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/2827216227641586",
-                                                      "region": "Norge",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/summer-party-fauske-back-2026-06-19.jpg"
-                                    },
-                                    {
                                                       "id": "midsommarkorning-svedala-2026-06-19",
                                                       "name": "Midsommarkörning Svedala",
                                                       "date": "2026-06-19",
@@ -23569,6 +24195,32 @@ const EVENTS_DATA = {
                                                                         }
                                                       ],
                                                       "backImage": "ads/midsommarkorning-svedala-back-2026-06-19.jpg"
+                                    },
+                                    {
+                                                      "id": "summer-party-fauske-2026-06-19",
+                                                      "name": "Summer Party",
+                                                      "date": "2026-06-19",
+                                                      "dateEnd": "2026-06-21",
+                                                      "location": "Klungset Leir, Fauske, Norge",
+                                                      "type": "Fest",
+                                                      "organizer": "Sigge Sigurdsen & Joakim Julian Kristiansen",
+                                                      "description": "MC-treff i Fauske, Norge! Tre dagar med mat och dryck, stor gräsplan för tält, övernattningsmöjligheter inomhus, socialt och riktig treffstämning.",
+                                                      "descriptionFull": "Sommartreff vid Klungset Leir i Fauske, Norge. 19-21 juni 2026.\n\nVi inviterar til MC-treff! Det blir god stemning og fullt trekk hele helga.\n\nMat og Drikke Servering. Stor gressplan for telt. Overnattingsmuligheter innendørs. Sosialt, musikk og ekte treffstemning.\n\nTa med godt humør, venner og sykkel. Dette vil du ikke gå glipp av!\n\nKontakt: Joakim Julian Kristiansen, 414 63 474",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/2827216227641586"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Klungset+Leir+Fauske+Norway",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/2827216227641586",
+                                                      "region": "Norge",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/summer-party-fauske-back-2026-06-19.jpg"
                                     },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-06-20",
@@ -24008,6 +24660,60 @@ const EVENTS_DATA = {
                                                       "region": "Gävleborg",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/lort-nr3-grusbushelg-back-2026-06-24.jpg"
+                                    },
+                                    {
+                                                      "id": "onsdagskorning-gotland-gute-riders-2026-06-24",
+                                                      "name": "Onsdagskörning Gotland - Korvgrillning Ekstakusten",
+                                                      "date": "2026-06-24",
+                                                      "dateEnd": "2026-06-24",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "Gute Riders",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning på Gotland med Gute Riders som värdar. Korvgrillning på Ekstakusten. Samling 18:30, avfärd 19:00.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00, och sedan kör vi en runda.\n\nDenna kväll är Gute Riders värdar och upprätthåller den fina traditionen \"Korvgrillning på Ekstakusten\".\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-06-24",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-06-24",
+                                                      "dateEnd": "2026-06-24",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-06-25",
@@ -24703,6 +25409,56 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "gwcs-vattern-runt-2026-06-27",
+                                                      "name": "Vättern Runt 2026",
+                                                      "date": "2026-06-27",
+                                                      "dateEnd": "2026-06-27",
+                                                      "time": "07:00",
+                                                      "type": "Körning",
+                                                      "region": "Jönköping",
+                                                      "location": "Rasta Värdshus, Kråkebergsvägen 1, Eksjö",
+                                                      "organizer": "GWCS Jönköpings Distrikt",
+                                                      "organizerIcon": "clubs/normalized/gwcs.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Vättern runt på MC. Samling Rasta Värdshus Eksjö 07:00, avfärd 07:30. Stopp i Hjo, Karlsborg, Askersund, Motala och Gränna. 50 kr till Barncancerfonden.",
+                                                      "descriptionFull": "Vättern Runt på MC.\n\nKl 07:00-07:30: Vi träffas vid (Abborravikens) Rasta Värdshus i Eksjö och åker därifrån tillsammans tankade och klara.\n\nVi kör mot Huskvarna via Nässjö - Forserum - Lekeryd, sen vidare mot Jönköping, Bankeryd uppsamling, Hjo, Askersund, Motala, Vadstena, Ödeshög och Gränna.\n\nStopp:\n- 09:45-10:30 Hjo: tankning och fika på hamnbryggan, ta med egen fikakorg\n- 11:00-11:15 Karlsborg Ölstoppet: 15 min bensträckare\n- 11:45-12:00 Askersund: tankning, vätskeintag\n- 13:00-14:00 Motala: 1 timme middagsrast vid Motala hamn (hamnkrogen)\n- 15:15 Gränna hamn: dagens sista stopp\n\nAnslut längs vägen är OK. Kontakta Mikael Johnsson 0733-836606.\n\nVi samlar in 50 kr/deltagare till Barncancerfonden. Swish 0733836606, märk: barncancer.\n\nMedtag: MC, fikakorg, 50 kr till Barncancerfonden, glatt humör, vänner.\n\nVälkomna! Mikael Johnsson, GWCS-F län.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Rasta+V%C3%A4rdshus+Eksj%C3%B6",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "imrg-big-lake-lordagstur-2026-06-27",
+                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "date": "2026-06-27",
+                                                      "dateEnd": "2026-06-27",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
+                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
                                                       "id": "kojkland-blue-smoke-summer-meet-2026-06-27",
                                                       "name": "Blue Smoke Summer Meet",
                                                       "date": "2026-06-27",
@@ -24836,6 +25592,37 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "osterstad-if-mopedrally-2026-06-27",
+                                                      "name": "Mopedrally Hjärt-Rundan",
+                                                      "date": "2026-06-27",
+                                                      "dateEnd": "2026-06-27",
+                                                      "time": "13:00",
+                                                      "type": "Körning",
+                                                      "region": "Östergötland",
+                                                      "location": "Östvalla, Motala",
+                                                      "organizer": "Österstad IF",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/groups/54140541596/",
+                                                      "description": "MopedRally med en hjärtformad slinga på 3,6 mil från Östvalla. Klurig tipspromenad, Go-fika och korv vid målgång. Pris till finaste mopeden. Avgift 100 kr.",
+                                                      "descriptionFull": "MopedRally 27 Juni 2026 Hjärt-Rundan. Välkommna!\n\nLördagen den 27 Juni med start kl 13:00 från Östvalla. Slinga är på ca 3,6 mil. Vi tar oss igenom landsbygden med en klurig tipspromenad och en härlig Go-fika.\n\nVid målgång kl 15:00 bjuder vi på korv med bröd. Pris till den finaste mopeden (utses av deltagarna). Avgift 100 kr.\n\nSträckan är på 3,6 mil. Vi åker åt andra hållet i år (motsols).\n\n12:00 Inskrivning/anmälan öppnar.\n13:00 Startar Mopedrallyt.\n15:00 Målgång samt uppstart med fler aktiviteter på Östvalla.\n\nVid frågor kontakta: Patrik Welin 070-334 88 22",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/914331814735127"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/groups/54140541596/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%96stvalla+Motala",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/osterstad-if-mopedrally-back-2026-06-27.jpg"
+                                    },
+                                    {
                                                       "id": "regression-10ars-fest-2026-06-27",
                                                       "name": "10-års fest Regression Brotherhood MC",
                                                       "date": "2026-06-27",
@@ -24878,57 +25665,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/skanerundan-back-2026-06-27.jpg"
                                     },
                                     {
-                                                      "id": "imrg-big-lake-lordagstur-2026-06-27",
-                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "id": "smc-vasterbotten-charity-run-2026-06-27",
+                                                      "name": "Charity Run 2026 Norsjö",
                                                       "date": "2026-06-27",
                                                       "dateEnd": "2026-06-27",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "time": "10:00",
                                                       "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
-                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "region": "Västerbotten",
+                                                      "location": "Monikas Café, Norsjövallen 53, Norsjö",
+                                                      "organizer": "SMC Västerbotten",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Gemensam Charity Run i Västerbotten med målgång på Monikas Café i Norsjövallen. Samling i Skellefteå, Umeå och Lycksele. 100 kr till välgörenhet, pin ingår.",
+                                                      "descriptionFull": "I år prövar vi en ny plats som ligger i Norsjövallen för vår gemensamma samlingspunkt i länet. Årets run går till ett fantastiskt café i Norsjövallen efter 365:an, nämligen Monikas Café.\n\nMonika har dessutom lovat att alla som visar upp medlemskortet i H-DCS ska få kaffe och te gratis.\n\nDetta slutmål blir en bra tur för oss alla i länet och jag hoppas att ni ställer upp och stöttar vårt inland förutom Min Stora Dag till förmån för allvarligt sjuka barn.\n\nSe till att ni får med er så många kompisar som möjlig och alla är välkomna oavsett MC-modell. Vi kommer att köra oavsett väderlek.\n\nAlla får en pin efter att ha swishat 100 kr till 123 091 96 21. Ange CR.\n\nStartplatser:\n- Skellefteå 11:00 från ICA Kvantum, Kronbodgatan 4 (85 km). Kontakt Glenn 070-201 99 63\n- Umeå 10:00 från Northbike (165 km). Kontakt Greger 070-683 97 53\n- Lycksele 11:00 från Shell (68 km). Kontakt Richard 070-539 97 96\n\nDet går också bra att åka direkt till Norsjövallen om tider och rutter inte passar.",
                                                       "links": [
                                                                         {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
-                                    },
-                                    {
-                                                      "id": "osterstad-if-mopedrally-2026-06-27",
-                                                      "name": "Mopedrally Hjärt-Rundan",
-                                                      "date": "2026-06-27",
-                                                      "dateEnd": "2026-06-27",
-                                                      "time": "13:00",
-                                                      "type": "Körning",
-                                                      "region": "Östergötland",
-                                                      "location": "Östvalla, Motala",
-                                                      "organizer": "Österstad IF",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/groups/54140541596/",
-                                                      "description": "MopedRally med en hjärtformad slinga på 3,6 mil från Östvalla. Klurig tipspromenad, Go-fika och korv vid målgång. Pris till finaste mopeden. Avgift 100 kr.",
-                                                      "descriptionFull": "MopedRally 27 Juni 2026 Hjärt-Rundan. Välkommna!\n\nLördagen den 27 Juni med start kl 13:00 från Östvalla. Slinga är på ca 3,6 mil. Vi tar oss igenom landsbygden med en klurig tipspromenad och en härlig Go-fika.\n\nVid målgång kl 15:00 bjuder vi på korv med bröd. Pris till den finaste mopeden (utses av deltagarna). Avgift 100 kr.\n\nSträckan är på 3,6 mil. Vi åker åt andra hållet i år (motsols).\n\n12:00 Inskrivning/anmälan öppnar.\n13:00 Startar Mopedrallyt.\n15:00 Målgång samt uppstart med fler aktiviteter på Östvalla.\n\nVid frågor kontakta: Patrik Welin 070-334 88 22",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/914331814735127"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/groups/54140541596/"
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%96stvalla+Motala",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Monikas+Caf%C3%A9+Norsj%C3%B6vallen",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "backImage": "ads/osterstad-if-mopedrally-back-2026-06-27.jpg"
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "jmc-sondagsrundan-2026-06-28",
@@ -25234,6 +25996,61 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "onsdagskorning-gotland-2026-07-01",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-07-01",
+                                                      "dateEnd": "2026-07-01",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-07-01",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-07-01",
+                                                      "dateEnd": "2026-07-01",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "alandstraffen-2026",
@@ -25881,6 +26698,68 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/psycho-squad-pig-party-back-2026-07-04.jpg"
                                     },
                                     {
+                                                      "id": "smc-skane-skanetouren-2026-07-04",
+                                                      "name": "Skånetouren 2026",
+                                                      "date": "2026-07-04",
+                                                      "dateEnd": "2026-07-04",
+                                                      "time": "09:00",
+                                                      "type": "Körning",
+                                                      "region": "Skåne",
+                                                      "location": "Stinsen, Verkstadsgatan 20, Perstorp",
+                                                      "organizer": "SMC Skåne",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Hemlig MC-tour i Skåne, ca 20 mil. Start parkeringen vid Stinsen i Perstorp. SMC Skåne bjuder på frukost och lunch. Körs första lördagen i juli oavsett väder.",
+                                                      "descriptionFull": "Skånetouren kommer som vanligt att vara hemlig in i det sista, men utgångspunkten förblir densamma, dvs. på parkeringsplatsen vid Stinsen i Perstorp.\n\nTuren körs alltid första lördagen i juli och oavsett väder.\n\n2026 går turen den 4 juli och rundan ligger på runt 20 mil i Skåne.\n\nDistriktet bjuder på frukost och lunch, men middagen efter touren får den medverkande själv stå för.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Stinsen+Verkstadsgatan+20+Perstorp",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "umea-bikeshow-2026-07-04",
+                                                      "name": "Umeå Bikeshow",
+                                                      "date": "2026-07-04",
+                                                      "dateEnd": "2026-07-04",
+                                                      "location": "Döbelns Park, Umeå",
+                                                      "type": "Show",
+                                                      "organizer": "Umeå Bikeshow",
+                                                      "description": "Bikeshow i Döbelns Park med chopper, bobber, custom, classic och café-racer. Mat, musik och fri entré!",
+                                                      "descriptionFull": "Umeå Bikeshow 2026\n\nDöbelns Park, Umeå\n4 Juli 2026\n\nChopper, Bobber, Custom, Classic, Café-Racer\nMat, Musik\nFri Entré",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1008121955218406"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=1301969662148510&set=a.503432948668856"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/umeabikeshow"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Döbelns+Park+Umeå",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/photo/?fbid=1301969662148510&set=a.503432948668856",
+                                                      "region": "Västerbotten",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/umea-bikeshow-back-2026-07-04.jpg"
+                                    },
+                                    {
                                                       "id": "vanern-runt-2026",
                                                       "name": "Vänern runt",
                                                       "date": "2026-07-04",
@@ -25928,40 +26807,6 @@ const EVENTS_DATA = {
                                                       "region": "Västra Götaland",
                                                       "source": "vulcanriders-sweden.org",
                                                       "backImage": "ads/vrs-gostas-raektur-back-2026-07-04.jpg"
-                                    },
-                                    {
-                                                      "id": "umea-bikeshow-2026-07-04",
-                                                      "name": "Umeå Bikeshow",
-                                                      "date": "2026-07-04",
-                                                      "dateEnd": "2026-07-04",
-                                                      "location": "Döbelns Park, Umeå",
-                                                      "type": "Show",
-                                                      "organizer": "Umeå Bikeshow",
-                                                      "description": "Bikeshow i Döbelns Park med chopper, bobber, custom, classic och café-racer. Mat, musik och fri entré!",
-                                                      "descriptionFull": "Umeå Bikeshow 2026\n\nDöbelns Park, Umeå\n4 Juli 2026\n\nChopper, Bobber, Custom, Classic, Café-Racer\nMat, Musik\nFri Entré",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1008121955218406"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=1301969662148510&set=a.503432948668856"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/umeabikeshow"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Döbelns+Park+Umeå",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/photo/?fbid=1301969662148510&set=a.503432948668856",
-                                                      "region": "Västerbotten",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/umea-bikeshow-back-2026-07-04.jpg"
                                     },
                                     {
                                                       "id": "do-c-lars-eriks-glassrunda-2026",
@@ -26228,6 +27073,34 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "onsdagskorning-gotland-2026-07-08",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-07-08",
+                                                      "dateEnd": "2026-07-08",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "speedskills-gellerasen-trackday-2026-07-08",
                                                       "name": "Trackday Gelleråsen med SpeedSkills",
                                                       "date": "2026-07-08",
@@ -26281,6 +27154,33 @@ const EVENTS_DATA = {
                                                       "link": "https://www.hdcs.se",
                                                       "region": "Södermanland",
                                                       "source": "FB"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-07-08",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-07-08",
+                                                      "dateEnd": "2026-07-08",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-smalandshelg-med-grand-prix-speedway-i-malilla-2026",
@@ -26615,6 +27515,28 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "imrg-big-lake-lordagstur-2026-07-11",
+                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "date": "2026-07-11",
+                                                      "dateEnd": "2026-07-11",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
+                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
                                                       "id": "karlstad-varmlandskransen-2026",
                                                       "name": "Varmlandskransen MC-treff",
                                                       "date": "2026-07-11",
@@ -26741,28 +27663,6 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com"
                                     },
                                     {
-                                                      "id": "imrg-big-lake-lordagstur-2026-07-11",
-                                                      "name": "Lördagstur IMRG Big Lake",
-                                                      "date": "2026-07-11",
-                                                      "dateEnd": "2026-07-11",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
-                                                      "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
-                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
-                                    },
-                                    {
                                                       "id": "semesterracet-2026-07-11",
                                                       "name": "SemesterRacet",
                                                       "date": "2026-07-11",
@@ -26835,6 +27735,33 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "skanes-mc-kultur-pa-hoj-2026-07-12",
+                                                      "name": "Kultur på Hoj",
+                                                      "date": "2026-07-12",
+                                                      "dateEnd": "2026-07-12",
+                                                      "time": "09:00",
+                                                      "type": "Körning",
+                                                      "region": "Skåne",
+                                                      "location": "Skånes Motorcyklister, Södertorpsvägen 90, Malmö",
+                                                      "organizer": "Skånes Motorcyklister",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Guidad tur i Skåne på mindre vanliga vägar med stopp vid sevärdheter och fikaställen.",
+                                                      "descriptionFull": "Vi kör en guidad tur i Skåne på mindre vanliga vägar och stannar vid sevärdheter och fikaställen.\n\nTid: 09:00-17:00.\nPlats: Ej fastställd ännu. Skånes Motorcyklister, Södertorpsvägen 90, 215 67 Malmö.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6dertorpsv%C3%A4gen+90+Malm%C3%B6",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "sub5-gellerasen-trackday-2026-07-13",
@@ -26979,6 +27906,61 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "onsdagskorning-gotland-2026-07-15",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-07-15",
+                                                      "dateEnd": "2026-07-15",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-07-15",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-07-15",
+                                                      "dateEnd": "2026-07-15",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-07-16",
@@ -27202,6 +28184,72 @@ const EVENTS_DATA = {
                                                       "source": "FB"
                                     },
                                     {
+                                                      "id": "big-air-freestyle-show-leksand-2026-07-18",
+                                                      "name": "BIG AIR - Freestyle Show",
+                                                      "date": "2026-07-18",
+                                                      "dateEnd": "2026-07-18",
+                                                      "time": "12:00",
+                                                      "type": "Show",
+                                                      "region": "Dalarna",
+                                                      "location": "Hembygdsgårdarna, Leksand",
+                                                      "organizer": "MKRS",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/mkrs.se",
+                                                      "description": "Freestyle motocross på toppnivå med Fredrik FROG Berggren i spetsen. Höga hopp och brutala tricks. Show 13:00, meet & greet 14:00. Food trucks. Biljetter på mkrs.se.",
+                                                      "descriptionFull": "Motorerna vrålar, pulsen stiger och luften fylls av adrenalin. Låt oss presentera BIG AIR - Freestyle Show, där gränser suddas ut och fysikens lagar sätts ur spel. För hela Familjen!\n\nUpplev freestyle motocross på absolut toppnivå när några av landets mest orädda förare med Fredrik FROG Berggren i spetsen kastar sig ut i luften och levererar trick du knappt trodde var möjliga. Höga hopp, brutala tricks och en stämning som slår det mesta.\n\n▸ ÅLDERSGRÄNS\nIngen åldersgräns!\n\n▸ TIDER\n12.00 - Välkomna\n13.00 - Big Air - Freestyle Show\n14.00 - Meet & greet\n15.00 - Tack för idag\n\n▸ BILJETTER\nhttps://nortic.se/ticket/event/81980\n\n▸ INFORMATION\nDatum: 18 juli 2026\nPlats: vid Hembygdsgårdarna, Kyrkallén\nLäs mer på www.mkrs.se\n\n▸ ÖVRIGT\nPå området finns aktiviteter & food trucks.\n\n▸ KONTAKT\nhej@mkrs.se\n\nVarmt välkomna till Leksand!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1597897941314410"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/mkrs.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Biljetter",
+                                                                                          "url": "https://nortic.se/ticket/event/81980"
+                                                                        },
+                                                                        {
+                                                                                          "label": "mkrs.se",
+                                                                                          "url": "https://www.mkrs.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Hembygdsg%C3%A5rdarna+Kyrkall%C3%A9n+Leksand",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/big-air-freestyle-show-back-2026-07-18.jpg"
+                                    },
+                                    {
+                                                      "id": "bike-babes-gotland-grus-2026-07-18",
+                                                      "name": "Bike babes-körning med grusinslag",
+                                                      "date": "2026-07-18",
+                                                      "dateEnd": "2026-07-18",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Visby",
+                                                      "organizer": "Bike babes Gotland",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Endast tjejer! Babes-körning med några km grusväg, mest asfalt. Samling 10:00, rullar 10:15. Inga särskilda krav på däck.",
+                                                      "descriptionFull": "Endast tjejer!\n\nVälkommen till en härlig gemensam babes-körning! Samling vid Träffpunkt Gotland i hamnsbacken kl 10:00, vi rullar kl 10:15.\n\nObs att vi kommer köra några km finare grusväg. Offroadhoj eller grusdäck eller nåt annat särskilt behövs INTE! Vi tar det lugnt och kör så att alla känner sig bekväma. Det är ändå mest asfalt på denna tur.\n\nMedtag lunch/macka så äter vi där vi är. Planerar att vara tillbaka i stan senast kl 14:00.\n\nKontakt: Linda.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "bmw-d14-tandstick-motormuseum-2026",
                                                       "name": "D14-Tändstick & Motormuseum",
                                                       "date": "2026-07-18",
@@ -27385,45 +28433,6 @@ const EVENTS_DATA = {
                                                       "region": "Västra Götaland",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/wilma-memorial-run-back-2026-07-18.jpg"
-                                    },
-                                    {
-                                                      "id": "big-air-freestyle-show-leksand-2026-07-18",
-                                                      "name": "BIG AIR - Freestyle Show",
-                                                      "date": "2026-07-18",
-                                                      "dateEnd": "2026-07-18",
-                                                      "time": "12:00",
-                                                      "type": "Show",
-                                                      "region": "Dalarna",
-                                                      "location": "Hembygdsgårdarna, Leksand",
-                                                      "organizer": "MKRS",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/mkrs.se",
-                                                      "description": "Freestyle motocross på toppnivå med Fredrik FROG Berggren i spetsen. Höga hopp och brutala tricks. Show 13:00, meet & greet 14:00. Food trucks. Biljetter på mkrs.se.",
-                                                      "descriptionFull": "Motorerna vrålar, pulsen stiger och luften fylls av adrenalin. Låt oss presentera BIG AIR - Freestyle Show, där gränser suddas ut och fysikens lagar sätts ur spel. För hela Familjen!\n\nUpplev freestyle motocross på absolut toppnivå när några av landets mest orädda förare med Fredrik FROG Berggren i spetsen kastar sig ut i luften och levererar trick du knappt trodde var möjliga. Höga hopp, brutala tricks och en stämning som slår det mesta.\n\n▸ ÅLDERSGRÄNS\nIngen åldersgräns!\n\n▸ TIDER\n12.00 - Välkomna\n13.00 - Big Air - Freestyle Show\n14.00 - Meet & greet\n15.00 - Tack för idag\n\n▸ BILJETTER\nhttps://nortic.se/ticket/event/81980\n\n▸ INFORMATION\nDatum: 18 juli 2026\nPlats: vid Hembygdsgårdarna, Kyrkallén\nLäs mer på www.mkrs.se\n\n▸ ÖVRIGT\nPå området finns aktiviteter & food trucks.\n\n▸ KONTAKT\nhej@mkrs.se\n\nVarmt välkomna till Leksand!",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1597897941314410"
-                                                                        },
-                                                                        {
-                                                                                          "label": "FB Sida",
-                                                                                          "url": "https://www.facebook.com/mkrs.se"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Biljetter",
-                                                                                          "url": "https://nortic.se/ticket/event/81980"
-                                                                        },
-                                                                        {
-                                                                                          "label": "mkrs.se",
-                                                                                          "url": "https://www.mkrs.se"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Hembygdsg%C3%A5rdarna+Kyrkall%C3%A9n+Leksand",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/big-air-freestyle-show-back-2026-07-18.jpg"
                                     },
                                     {
                                                       "id": "doa-emilsturen-2026-07-19",
@@ -27705,6 +28714,61 @@ const EVENTS_DATA = {
                                                       "organizerIcon": "clubs/normalized/mcv-osterlen.png"
                                     },
                                     {
+                                                      "id": "onsdagskorning-gotland-2026-07-22",
+                                                      "name": "Onsdagskörning Gotland",
+                                                      "date": "2026-07-22",
+                                                      "dateEnd": "2026-07-22",
+                                                      "time": "18:30",
+                                                      "type": "Körning",
+                                                      "region": "Gotland",
+                                                      "location": "Träffpunkt Gotland, Färjeleden 30, Visby",
+                                                      "organizer": "SMC Gotland",
+                                                      "organizerIcon": "clubs/normalized/smc.png",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagskörning för motorcyklister vid Träffpunkt Gotland. Samling 18:30, avfärd 19:00. Fri körning, alla med MC välkomna.",
+                                                      "descriptionFull": "Under maj, juni & augusti samlas man på Träffpunkt Gotland för onsdagskörning som normalt avslutas med fika och trevlig samvaro någonstans på ön.\n\nVi samlas på Träffpunkt Gotland Färjeleden ovanför Visby hamn kl 18.30 med avfärd kl 19.00. (From augusti samling 18.00 avfärd 18.30), och sedan kör vi en runda.\n\nDet är \"fri körning\", ingen arrangör, men det är kul om någon vill leda kvällen på roliga vägar till något trevligt ställe! Fika tar man med sig själv om man så önskar.\n\nAlla med MC är varmt välkomna att delta.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A4ffpunkt+Gotland+F%C3%A4rjeleden+30+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-07-22",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-07-22",
+                                                      "dateEnd": "2026-07-22",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "doh-fika-lycksele-2026-07-23",
                                                       "name": "DOH-Fika Lycksele",
                                                       "date": "2026-07-23",
@@ -27947,6 +29011,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/knalletraffen-50ar-back-2026-07-24.jpg"
                                     },
                                     {
+                                                      "id": "limestone-sommarfest-2026-07-24",
+                                                      "name": "Limestone sommarfest",
+                                                      "date": "2026-07-24",
+                                                      "dateEnd": "2026-07-26",
+                                                      "type": "Fest",
+                                                      "region": "Gotland",
+                                                      "location": "Herkulesvägen 10, Visby",
+                                                      "organizer": "Limestone HC Gotland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/photo/?fbid=10162720043568372&set=gm.27087879047470450",
+                                                      "description": "Sommarfest hos Limestone HC i klubblokalen i Visby. Mat och dryck till humana priser. Inträde 300 kr. Rabattkod till färjan kommer senare.",
+                                                      "descriptionFull": "Limestone sommarfest 24-26/7 i klubblokalen på Herkulesvägen 10, Visby.\n\nIngen camping utanför klubblokalen.\n\nMat och dryck till humana priser.\n\nInträde 300 kr.\n\nRabattkod till färjan kommer senare.\n\nMer info Berra 0764032343.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=10162720043568372&set=gm.27087879047470450"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Herkulesv%C3%A4gen+10+Visby",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/limestone-sommarfest-back-2026-07-24.jpg"
+                                    },
+                                    {
                                                       "id": "roadracing-sm-gellerasen-2026",
                                                       "name": "Roadracing SM - Gelleråsen",
                                                       "date": "2026-07-24",
@@ -28000,32 +29090,6 @@ const EVENTS_DATA = {
                                                       "region": "Dalarna",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/veteranmarknad-rattvik-back-2026-07-24-v2.jpg"
-                                    },
-                                    {
-                                                      "id": "limestone-sommarfest-2026-07-24",
-                                                      "name": "Limestone sommarfest",
-                                                      "date": "2026-07-24",
-                                                      "dateEnd": "2026-07-26",
-                                                      "type": "Fest",
-                                                      "region": "Gotland",
-                                                      "location": "Herkulesvägen 10, Visby",
-                                                      "organizer": "Limestone HC Gotland",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/photo/?fbid=10162720043568372&set=gm.27087879047470450",
-                                                      "description": "Sommarfest hos Limestone HC i klubblokalen i Visby. Mat och dryck till humana priser. Inträde 300 kr. Rabattkod till färjan kommer senare.",
-                                                      "descriptionFull": "Limestone sommarfest 24-26/7 i klubblokalen på Herkulesvägen 10, Visby.\n\nIngen camping utanför klubblokalen.\n\nMat och dryck till humana priser.\n\nInträde 300 kr.\n\nRabattkod till färjan kommer senare.\n\nMer info Berra 0764032343.",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Inlägg",
-                                                                                          "url": "https://www.facebook.com/photo/?fbid=10162720043568372&set=gm.27087879047470450"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Herkulesv%C3%A4gen+10+Visby",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "backImage": "ads/limestone-sommarfest-back-2026-07-24.jpg"
                                     },
                                     {
                                                       "id": "afrikansk-afton-2026",
@@ -28354,6 +29418,33 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/twin-club-tisdagstur-back.jpg"
                                     },
                                     {
+                                                      "id": "darcks-motors-dalatravet-2026-07-29",
+                                                      "name": "Darcks Motors Hastighetstävlingar",
+                                                      "date": "2026-07-29",
+                                                      "dateEnd": "2026-07-29",
+                                                      "time": "10:00",
+                                                      "type": "Racing",
+                                                      "region": "Dalarna",
+                                                      "location": "Travvägen 4, Rättvik",
+                                                      "organizer": "Classic Car Week",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/events/891943810570259",
+                                                      "description": "Hastighetstävlingar på Dalatravet. Rundbana 1000m och rak bana 200m. Publikentré 100 kr, under 12 gratis.",
+                                                      "descriptionFull": "Publikentré 100 kr. Under 12 år gratis. Classicband-gäster fri entré\\!\n\nUnder dagen sker även målgång i rallyt Gammelfarfars Bilar.\n\ndarcksmotors1926@gmail.com för anmälan till uppvisningen.\n\nKl 8:00-10:00 Avlastning och samling i depån.\nKl 10:00 Publikinsläpp (för dom som vill se testkörningen)\nKl 10-11:45 Schemalagd testkörning\nKl 11:45-12:00 Kortege runt banan ett par varv som uppvisning\nKl 12:00 Tävlingsstart rundbana 1000m 2 varv\nKl 13:00 Tävlingsstart rak bana 200m\nKl 15:00 Prisutdelning",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/891943810570259"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Travv%C3%A4gen+4+R%C3%A4ttvik",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/darcks-motors-dalatravet-back-2026-07-29.jpg"
+                                    },
+                                    {
                                                       "id": "doa-sommarkvallstur-nockeby-2026",
                                                       "name": "DOA - Sommarkvällstur Nockeby",
                                                       "date": "2026-07-29",
@@ -28408,31 +29499,31 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
-                                                      "id": "darcks-motors-dalatravet-2026-07-29",
-                                                      "name": "Darcks Motors Hastighetstävlingar",
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-07-29",
+                                                      "name": "Onsdagstur Gullmarsplan",
                                                       "date": "2026-07-29",
                                                       "dateEnd": "2026-07-29",
-                                                      "time": "10:00",
-                                                      "type": "Racing",
-                                                      "region": "Dalarna",
-                                                      "location": "Travvägen 4, Rättvik",
-                                                      "organizer": "Classic Car Week",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/events/891943810570259",
-                                                      "description": "Hastighetstävlingar på Dalatravet. Rundbana 1000m och rak bana 200m. Publikentré 100 kr, under 12 gratis.",
-                                                      "descriptionFull": "Publikentré 100 kr. Under 12 år gratis. Classicband-gäster fri entré\\!\n\nUnder dagen sker även målgång i rallyt Gammelfarfars Bilar.\n\ndarcksmotors1926@gmail.com för anmälan till uppvisningen.\n\nKl 8:00-10:00 Avlastning och samling i depån.\nKl 10:00 Publikinsläpp (för dom som vill se testkörningen)\nKl 10-11:45 Schemalagd testkörning\nKl 11:45-12:00 Kortege runt banan ett par varv som uppvisning\nKl 12:00 Tävlingsstart rundbana 1000m 2 varv\nKl 13:00 Tävlingsstart rak bana 200m\nKl 15:00 Prisutdelning",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/891943810570259"
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Travv%C3%A4gen+4+R%C3%A4ttvik",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "backImage": "ads/darcks-motors-dalatravet-back-2026-07-29.jpg"
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "dacketraffen-2026",
@@ -28741,6 +29832,28 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
+                                                      "id": "imrg-big-lake-lordagstur-2026-08-01",
+                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "date": "2026-08-01",
+                                                      "dateEnd": "2026-08-01",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-08-01",
                                                       "name": "LO I Lördagskörningar Kramfors",
                                                       "date": "2026-08-01",
@@ -28849,28 +29962,6 @@ const EVENTS_DATA = {
                                                       "link": "https://www.rockthenightfestival.com",
                                                       "region": "Västerbotten",
                                                       "source": "facebook.com"
-                                    },
-                                    {
-                                                      "id": "imrg-big-lake-lordagstur-2026-08-01",
-                                                      "name": "Lördagstur IMRG Big Lake",
-                                                      "date": "2026-08-01",
-                                                      "dateEnd": "2026-08-01",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
-                                                      "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
-                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-vilken-jakla-tur-2026",
@@ -29213,6 +30304,33 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-08-05",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-08-05",
+                                                      "dateEnd": "2026-08-05",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-kvallstur-fran-bromolla-2026",
@@ -30314,6 +31432,33 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-08-12",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-08-12",
+                                                      "dateEnd": "2026-08-12",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "aminnetraffen-2026",
                                                       "name": "Åminneträffen",
                                                       "date": "2026-08-13",
@@ -30598,6 +31743,40 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/bmw-default-back.jpg"
                                     },
                                     {
+                                                      "id": "borlange-airshow-2026",
+                                                      "name": "Borlänge Airshow",
+                                                      "date": "2026-08-14",
+                                                      "dateEnd": "2026-08-15",
+                                                      "location": "Nybrovägen 53, Borlänge",
+                                                      "type": "Show",
+                                                      "organizer": "Borlänge Airshow",
+                                                      "description": "Flygshow med JAS 39, Hercules och ca 20 inslag. Bra samlingspunkt för MC-folk. Biljetter på borlangeairshow.se.",
+                                                      "descriptionFull": "Ni har väl inte missat att bland annat kommer Jas39 och mäktiga Hercules kommer till Borlänge Airshow 15 Augusti + ca 20 ytterligare inslag\n\nwww.borlangeairshow.se",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1257973915924486"
+                                                                        },
+                                                                        {
+                                                                                          "label": "borlangeairshow.se",
+                                                                                          "url": "https://www.borlangeairshow.se"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Biljetter",
+                                                                                          "url": "https://www.borlangeairshow.se/webbshop"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Nybrovägen+53+Borlänge",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1257973915924486",
+                                                      "region": "Dalarna",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/borlange-airshow-back-2026-08-15.jpg"
+                                    },
+                                    {
                                                       "id": "sikhallsturen-med-overnattning-2026",
                                                       "name": "Sikhallsturen med övernattning",
                                                       "date": "2026-08-14",
@@ -30674,40 +31853,6 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
-                                    },
-                                    {
-                                                      "id": "borlange-airshow-2026",
-                                                      "name": "Borlänge Airshow",
-                                                      "date": "2026-08-14",
-                                                      "dateEnd": "2026-08-15",
-                                                      "location": "Nybrovägen 53, Borlänge",
-                                                      "type": "Show",
-                                                      "organizer": "Borlänge Airshow",
-                                                      "description": "Flygshow med JAS 39, Hercules och ca 20 inslag. Bra samlingspunkt för MC-folk. Biljetter på borlangeairshow.se.",
-                                                      "descriptionFull": "Ni har väl inte missat att bland annat kommer Jas39 och mäktiga Hercules kommer till Borlänge Airshow 15 Augusti + ca 20 ytterligare inslag\n\nwww.borlangeairshow.se",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1257973915924486"
-                                                                        },
-                                                                        {
-                                                                                          "label": "borlangeairshow.se",
-                                                                                          "url": "https://www.borlangeairshow.se"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Biljetter",
-                                                                                          "url": "https://www.borlangeairshow.se/webbshop"
-                                                                        },
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Nybrovägen+53+Borlänge",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "link": "https://www.facebook.com/events/1257973915924486",
-                                                      "region": "Dalarna",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/borlange-airshow-back-2026-08-15.jpg"
                                     },
                                     {
                                                       "id": "bmw-d11-blekingerundan-2026-2026",
@@ -30841,6 +31986,28 @@ const EVENTS_DATA = {
                                                       "link": "https://nmh.se/skellefteasektionen/evenemang-skelleftea/",
                                                       "region": "Västerbotten",
                                                       "source": "nmh.se"
+                                    },
+                                    {
+                                                      "id": "imrg-big-lake-lordagstur-2026-08-15",
+                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "date": "2026-08-15",
+                                                      "dateEnd": "2026-08-15",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
                                     },
                                     {
                                                       "id": "ljungbyhed-mc-bandag-2026-08-15",
@@ -31057,26 +32224,31 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com"
                                     },
                                     {
-                                                      "id": "imrg-big-lake-lordagstur-2026-08-15",
-                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "id": "vmck-lordagstur-2026-08-15",
+                                                      "name": "Lördagstur VMCK",
                                                       "date": "2026-08-15",
                                                       "dateEnd": "2026-08-15",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "time": "10:00",
                                                       "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
-                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "region": "Halland",
+                                                      "location": "Kåken VMCK, Susvindsvägen 9, Varberg",
+                                                      "organizer": "Varbergs Mc Klubb",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Lördagstur med VMCK på fina halländska vägar. Stopp för fika längs vägen. Medtag eget fika.",
+                                                      "descriptionFull": "Dax för lördagstur med VMCK på fina halländska vägar.\n\nMedtag eget fika för ett ev två stopp.\n\nPlats: Kåken VMCK, Susvindsvägen 9, Varberg.\nTid: 10:00-16:00.",
                                                       "links": [
                                                                         {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Susvindsv%C3%A4gen+9+Varberg",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "804-racing-lunda-2026",
@@ -31497,6 +32669,33 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-08-19",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-08-19",
+                                                      "dateEnd": "2026-08-19",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-pizzakvall-i-vollsjo-2026",
@@ -32017,6 +33216,33 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/scheele-choppers-50ar-back-2026-08-22.jpg"
                                     },
                                     {
+                                                      "id": "sidvagn-mini-jumbo-boras-2026-08-22",
+                                                      "name": "Mini Jumbo Borås",
+                                                      "date": "2026-08-22",
+                                                      "dateEnd": "2026-08-22",
+                                                      "time": "12:00",
+                                                      "type": "Körning",
+                                                      "region": "Västra Götaland",
+                                                      "location": "Simonsland, Viskastrandsgatan 5, Borås",
+                                                      "organizer": "Svenska Sidvagnsklubben SVEA",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Sidvagnstur med funktionsnedsatta personer i Borås. 10-15 sidvagnsekipage önskas. Mat och dryck efter turen. Kontakt Olle 0705-25 05 21.",
+                                                      "descriptionFull": "Denna träff är en dagstur där vi kör en runda med funktionsnedsatta personer i våra sidvagnar.\n\nEfter turen blir vi bjudna på något gott att äta och dricka.\n\nDet är bra om vi är mellan 10-15 sidvagnsekipage. Detta är ett mycket uppskattat inslag för dessa personer som får åtnjuta något utöver det vanliga.\n\nPlats: Simonsland Borås, Viskastrandsgatan 5.\nTid: 12:00-15:00.\n\nKontaktperson: Olle Darelius, 0705-25 05 21 eller olledarelius@hotmail.com.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Simonsland+Viskastrandsgatan+5+Bor%C3%A5s",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
                                                       "id": "vulcan-riders-tunnelrundan-2026-08-22",
                                                       "name": "Tunnelrundan",
                                                       "date": "2026-08-22",
@@ -32319,6 +33545,32 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "jarlasa-motor-meet-9-2026-08-26",
+                                                      "name": "Järlåsa Motor Meet #9",
+                                                      "date": "2026-08-26",
+                                                      "dateEnd": "2026-08-26",
+                                                      "location": "Järlåsa Bygdegård, Järlåsa-Laggarbo 2, Järlåsa",
+                                                      "type": "Träff",
+                                                      "organizer": "Järlåsa Bygdegård",
+                                                      "description": "Årets sista motorträff i Järlåsa\\! Fika, hamburgare och mycket annat. Alla välkomna från kl 17.",
+                                                      "descriptionFull": "Välkomna på årets sista motorträff där det som vanligt serveras fika, hamburgare och mycket annat.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1194663495935069"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Järlåsa+Bygdegård+Järlåsa-Laggarbo+2",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1194663495935069",
+                                                      "region": "Uppsala",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/jarlasa-motor-meet-9-back-2026-08-26.jpg"
+                                    },
+                                    {
                                                       "id": "jmc-onsdagsturen-2026-08-26",
                                                       "name": "Onsdagsturen",
                                                       "date": "2026-08-26",
@@ -32346,30 +33598,31 @@ const EVENTS_DATA = {
                                                       ]
                                     },
                                     {
-                                                      "id": "jarlasa-motor-meet-9-2026-08-26",
-                                                      "name": "Järlåsa Motor Meet #9",
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-08-26",
+                                                      "name": "Onsdagstur Gullmarsplan",
                                                       "date": "2026-08-26",
                                                       "dateEnd": "2026-08-26",
-                                                      "location": "Järlåsa Bygdegård, Järlåsa-Laggarbo 2, Järlåsa",
-                                                      "type": "Träff",
-                                                      "organizer": "Järlåsa Bygdegård",
-                                                      "description": "Årets sista motorträff i Järlåsa\\! Fika, hamburgare och mycket annat. Alla välkomna från kl 17.",
-                                                      "descriptionFull": "Välkomna på årets sista motorträff där det som vanligt serveras fika, hamburgare och mycket annat.",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
                                                       "links": [
                                                                         {
-                                                                                          "label": "FB Event",
-                                                                                          "url": "https://www.facebook.com/events/1194663495935069"
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Järlåsa+Bygdegård+Järlåsa-Laggarbo+2",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "link": "https://www.facebook.com/events/1194663495935069",
-                                                      "region": "Uppsala",
-                                                      "source": "facebook.com",
-                                                      "backImage": "ads/jarlasa-motor-meet-9-back-2026-08-26.jpg"
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-08-27",
@@ -32653,6 +33906,28 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "imrg-big-lake-lordagstur-2026-08-29",
+                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "date": "2026-08-29",
+                                                      "dateEnd": "2026-08-29",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
+                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-08-29",
                                                       "name": "LO I Lördagskörningar Kramfors",
                                                       "date": "2026-08-29",
@@ -32787,28 +34062,6 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/oamck.png",
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg"
-                                    },
-                                    {
-                                                      "id": "imrg-big-lake-lordagstur-2026-08-29",
-                                                      "name": "Lördagstur IMRG Big Lake",
-                                                      "date": "2026-08-29",
-                                                      "dateEnd": "2026-08-29",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
-                                                      "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Lördagstur med IMRG Big Lake. Samling 1: MC-Konsult Lidköping kl 9:30. Samling 2: Biltema Trollhättan kl 11:00. Alla välkomna oavsett hojmärke.",
-                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling plats 1: MC-Konsult Lidköping kl 9:30.\nSamling plats 2: Biltema Trollhättan kl 11:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
                                     },
                                     {
                                                       "id": "bmw-d15-grustur-2026-08-30",
@@ -33089,6 +34342,33 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-09-02",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-09-02",
+                                                      "dateEnd": "2026-09-02",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-09-03",
@@ -33551,6 +34831,28 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "imrg-big-lake-barncancermilen-2026-09-05",
+                                                      "name": "Barncancermilen",
+                                                      "date": "2026-09-05",
+                                                      "dateEnd": "2026-09-05",
+                                                      "location": "Lugnets MC-Center, Von Lingens väg 3, Borås",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Barncancermilen med start från Lugnets MC-Center i Borås. IMRG Big Lake samlas vid MC-Konsult i Lidköping kl 10:00 för gemensam körning dit.",
+                                                      "descriptionFull": "Välgörenhetskörning till förmån för barncancerfonden vid Lugnets MC-Center i Borås.\n\nIMRG Big Lake samlas vid MC-Konsult i Lidköping kl 10:00 för gemensam körning till evenemanget.\n\nAlla är välkomna oavsett hojmärke.\n\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Lugnets+MC-Center+Von+Lingens+väg+3+Borås",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
                                                       "id": "jsm-mx-orion-2026",
                                                       "name": "JSM MX Finalomgång - MK Orion",
                                                       "date": "2026-09-05",
@@ -33737,28 +35039,6 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/oamck-klubbkaken-back.jpg"
                                     },
                                     {
-                                                      "id": "imrg-big-lake-barncancermilen-2026-09-05",
-                                                      "name": "Barncancermilen",
-                                                      "date": "2026-09-05",
-                                                      "dateEnd": "2026-09-05",
-                                                      "location": "Lugnets MC-Center, Von Lingens väg 3, Borås",
-                                                      "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Barncancermilen med start från Lugnets MC-Center i Borås. IMRG Big Lake samlas vid MC-Konsult i Lidköping kl 10:00 för gemensam körning dit.",
-                                                      "descriptionFull": "Välgörenhetskörning till förmån för barncancerfonden vid Lugnets MC-Center i Borås.\n\nIMRG Big Lake samlas vid MC-Konsult i Lidköping kl 10:00 för gemensam körning till evenemanget.\n\nAlla är välkomna oavsett hojmärke.\n\nFörfrågningar: Urban 0735452749",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Lugnets+MC-Center+Von+Lingens+väg+3+Borås",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
-                                    },
-                                    {
                                                       "id": "mini-jumbo-i-apelviken-2026",
                                                       "name": "Mini Jumbo i Apelviken",
                                                       "date": "2026-09-06",
@@ -33782,6 +35062,33 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ]
+                                    },
+                                    {
+                                                      "id": "sidvagn-mini-jumbo-apelviken-2026-09-06",
+                                                      "name": "Mini Jumbo Apelviken",
+                                                      "date": "2026-09-06",
+                                                      "dateEnd": "2026-09-06",
+                                                      "time": "12:00",
+                                                      "type": "Körning",
+                                                      "region": "Halland",
+                                                      "location": "FUB-gården, Apelviken, Varberg",
+                                                      "organizer": "Svenska Sidvagnsklubben SVEA",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Årlig sidvagnstur med funktionsnedsatta personer i Apelviken. Vacker rutt med havsutsikt. Ca 15-20 ekipage. Kontakt Peder 070-533 95 20.",
+                                                      "descriptionFull": "Ett årligt arrangemang där vi skjutsar funktionsnedsatta personer i våra sidvagnar.\n\nEtt mycket uppskattat inslag för dessa personer som har vissa begränsningar i livet.\n\nVi kör i ett mycket vackert område där vi ser både mindre bebyggelse och havet, och det brukar vara surfare som bjuder på sin teknik i havets vågor.\n\nLagom med ca 15-20 ekipage då det är många som vill åka en tur.\n\nPeder Severinsson är den som bjuder in till detta. Tel: 070-533 95 20, mail: peder.severinsson@telia.com.\n\nPlats: FUB-gården i Apelviken, Varberg.\nTid: 12:00-15:00.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Apelviken+Varberg",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-kvallskörning-nacka-2026-09-07",
@@ -34035,6 +35342,33 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-09-09",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-09-09",
+                                                      "dateEnd": "2026-09-09",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-09-10",
@@ -34390,6 +35724,55 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "hobbes-lordagskorning-2026-09-12",
+                                                      "name": "Hobbes MC Lördagskörning",
+                                                      "date": "2026-09-12",
+                                                      "dateEnd": "2026-09-12",
+                                                      "time": "10:00",
+                                                      "type": "Körning",
+                                                      "region": "Halland",
+                                                      "location": "Karlstorpstugan, Sperlingsholm 797, Holm",
+                                                      "organizer": "Hobbes MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Lördagskörning med Hobbes MC, ca 11 mil i 2,5 timmar med bensträckare. Avslut Tvååker ca 14:00.",
+                                                      "descriptionFull": "Hobbes MCs lördagskörning, 12 september 2026.\n\nVi kör en kurvig runda och avslutar på en plats där det finns möjlighet för en förtäring.\n\nPlats: Karlstorpstugan, Sperlingsholm 797, Holm\nAvfärd: Kl. 10:00, så kom gärna 15 minuter innan\nKörtid: Ca. 2,5 timmar, med bensträckare\nSträcka: Ca. 11 mil\nAvslut: Tvååker, avslutas ca. kl. 14:00.\n\nVälkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Karlstorpstugan+Sperlingsholm+797+Holm",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "imrg-big-lake-lordagstur-2026-09-12",
+                                                      "name": "Lördagstur IMRG Big Lake",
+                                                      "date": "2026-09-12",
+                                                      "dateEnd": "2026-09-12",
+                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
+                                                      "type": "Körning",
+                                                      "organizer": "IMRG Big Lake",
+                                                      "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
+                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "region": "Västra Götaland",
+                                                      "source": "facebook.com",
+                                                      "link": "https://www.facebook.com/urban.knutsson",
+                                                      "backImage": "ads/imrg-big-lake-back.jpg"
+                                    },
+                                    {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-09-12",
                                                       "name": "LO I Lördagskörningar Kramfors",
                                                       "date": "2026-09-12",
@@ -34575,28 +35958,6 @@ const EVENTS_DATA = {
                                                       "region": "Skåne",
                                                       "source": "vulcanriders-sweden.org",
                                                       "backImage": "ads/vrs-full-gas-rally-back-2026-09-12.jpg"
-                                    },
-                                    {
-                                                      "id": "imrg-big-lake-lordagstur-2026-09-12",
-                                                      "name": "Lördagstur IMRG Big Lake",
-                                                      "date": "2026-09-12",
-                                                      "dateEnd": "2026-09-12",
-                                                      "location": "MC-Konsult, Kinnegatan 15, Lidköping",
-                                                      "type": "Körning",
-                                                      "organizer": "IMRG Big Lake",
-                                                      "description": "Lördagstur med IMRG Big Lake. Samling vid MC-Konsult i Lidköping kl 10:00. Alla välkomna oavsett hojmärke. Fika under turen.",
-                                                      "descriptionFull": "Lördagstur med IMRG Big Lake.\n\nSamling vid MC-Konsult i Lidköping kl 10:00.\n\nLördagsturerna kommer vi alltid hamna på något café för en fika. Den som vill kan även ta med extra fika.\n\nAlla är välkomna oavsett hojmärke.\n\nKom alltid med fulltankad hoj till samlingen.\nVid oväder/regn ställs turen in.\n\nRoad Captain: Leif Håkansson, Peter Lindqvist, P-H Östman och Urban Knutsson.\nFörfrågningar: Urban 0735452749",
-                                                      "links": [
-                                                                        {
-                                                                                          "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=MC-Konsult+Kinnegatan+15+Lidköping",
-                                                                                          "type": "map"
-                                                                        }
-                                                      ],
-                                                      "region": "Västra Götaland",
-                                                      "source": "facebook.com",
-                                                      "link": "https://www.facebook.com/urban.knutsson",
-                                                      "backImage": "ads/imrg-big-lake-back.jpg"
                                     },
                                     {
                                                       "id": "mackatraffen-vollsjo-avslutning-2026-09-13",
@@ -34870,6 +36231,33 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "tyfri-onsdagstur-gullmarsplan-2026-09-16",
+                                                      "name": "Onsdagstur Gullmarsplan",
+                                                      "date": "2026-09-16",
+                                                      "dateEnd": "2026-09-16",
+                                                      "time": "18:15",
+                                                      "type": "Körning",
+                                                      "region": "Stockholm",
+                                                      "location": "Gullmarsplans torg, Johanneshov",
+                                                      "organizer": "TYFRI MC",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "Onsdagstur från Gullmarsplan eller Circle K Häggvik om vädret tillåter. Samling 18:00, avfärd 18:30. Ta med egen fika.",
+                                                      "descriptionFull": "Varje onsdag under sommaren, maj-september, träffas vi på torget vid Gullmarsplan eller vid Circle K i Häggvik, om vädret tillåter. Vi samlas straxt efter 18:00 och åker 18:30 på en trevlig hojsväng.\n\nVar och en har med sig lite fika och vi stannar på något trevligt ställe och umgås. Ibland stannar vi även till vid något trevligt café.\n\nI september börjar det bli mörkt tidigare och därför försöker vi åka redan kl 18:00.\n\nAlla är välkomna!",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gullmarsplans+torg+Johanneshov",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-dagstur-ekero-2026-09-17",
@@ -37279,6 +38667,33 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "skanes-mc-luciakortege-2026-12-12",
+                                                      "name": "Luciakortege Malmö",
+                                                      "date": "2026-12-12",
+                                                      "dateEnd": "2026-12-12",
+                                                      "time": "16:00",
+                                                      "type": "Körning",
+                                                      "region": "Skåne",
+                                                      "location": "Stortorget, Malmö",
+                                                      "organizer": "Skånes Motorcyklister",
+                                                      "source": "smcboken.svmc.se",
+                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
+                                                      "description": "MC-luciatåg genom Malmö. Lucia, tärnor, stjärngossar och tomtar. Start Stortorget, avslut Skånes MC klubbstuga med glögg och lussekatter.",
+                                                      "descriptionFull": "Även i år arrangerar vi ett luciatåg för MC genom Malmös gator.\n\nFrämst i kortegen kör lucia följd av tärnor, stjärngossar och tomtar.\n\nKortegen startar från Stortorget i Malmö och avslutas vid Skånes Motorcyklisters klubbstuga på Södertorpsvägen, där deltagarna får glögg, lussekatter och pepparkakor.\n\nDär koras också det bäst utsmyckade ekipaget (motorcykel och förare).\n\nTid: 16:00-19:00.",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "smcboken.svmc.se",
+                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Stortorget+Malm%C3%B6",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "backImage": "ads/smc-default-back.jpg"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-12-15",
