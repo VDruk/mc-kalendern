@@ -12132,6 +12132,36 @@ const EVENTS_DATA = {
                                                       "source": "smcboken.svmc.se"
                                     },
                                     {
+                                                      "id": "hdk1930-klubaften-grill-2026-05-07",
+                                                      "name": "Klubaften & Grill i Gården",
+                                                      "date": "2026-05-07",
+                                                      "dateEnd": "2026-05-07",
+                                                      "location": "Gymnasievej 3, Stenløse, Danmark",
+                                                      "type": "Träff",
+                                                      "organizer": "H-D Klubben af 1930",
+                                                      "description": "Klubaften med grill hos HDK1930 i Stenløse. Kyllingespyd, rejechips, salat. Pris 75 kr inkl. mad. Tilmelding: MobilePay 782600.",
+                                                      "link": "https://www.facebook.com/events/1666292607674675",
+                                                      "region": "Danmark",
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/hdk1930-klubaften-grill-back-2026-05-07.jpg",
+                                                      "descriptionFull": "MAJ – FØRSTE SOMMEROMÅNED & GRILLAFTEN\nÅben aften for medlemmer, venner og gæster hos HDK1930\n\nKære medlemmer, venner og nysgerrige gæster –\nMaj er her, sommeren banker på døren, og det er tid til at pudse kromet, tænde motoren og sætte kursen mod Gymnasievej 3, Stenløse.\n\nVi fyrer op for grillen, fællesskabet og hyggen i gården.\n\nHvad sker der?\nKlubaften med lækker grillmad, kolde drikke og endnu bedre selskab.\n\nMenu: Grillede kyllingespyd\nSatay dressing/sauce\nRejechips\nGrøn Salat – Rissalat med mango, appelsin og andet....\n\nPris: 75 kr. – inkl. mad\n\nTilmelding: MobilePay 782600 – 75 kr.\n\nProgram:\n• 18.30 – Info\n• 18.45 – Fællesspisning\n• 19.15 – Klubaften & hygge\n\nKom i god tid, parkér jernhesten i gården og vær klar til at sparke dæk, snakke motorcykler og nyde de første rigtige sommeraftener.\n\nALLE er velkomne – også nye ansigter og gæster!\nVi glæder os til en aften med god stemning og masser af MC-snak.\n\nSes vi? Det håber vi!\n\n— Hilsen alle os i HDK1930",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1666292607674675"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/groups/www.hdk1930.dk/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Gymnasievej+3+3660+Stenl%C3%B8se+Danmark",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ]
+                                    },
+                                    {
                                                       "id": "bmw-d10-tiveden-spring-tour-2026-2026",
                                                       "name": "D10 Tiveden Spring Tour",
                                                       "date": "2026-05-08",
