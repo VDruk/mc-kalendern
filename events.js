@@ -25017,6 +25017,10 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/events/1388440089733288"
                                                                         },
                                                                         {
+                                                                                          "label": "FB Inlägg",
+                                                                                          "url": "https://www.facebook.com/photo/?fbid=10228114274642350&set=gm.10164344862889220&idorvanity=221610499219"
+                                                                        },
+                                                                        {
                                                                                           "label": "Inbjudan (PDF)",
                                                                                           "url": "https://media.gwcs.se/2026/01/Inbjudan-Nationella-2026-foreningsstamma1.pdf"
                                                                         },
@@ -25026,7 +25030,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "organizerIcon": "clubs/normalized/gwcs.png"
+                                                      "organizerIcon": "clubs/normalized/gwcs.png",
+                                                      "backImage": "ads/gwcs-nationell-traff-degeberga-back-2026-06-25.jpg"
                                     },
                                     {
                                                       "id": "lo-i-torsdagskörningar-sundsvall-2026-06-25",
