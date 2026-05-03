@@ -2892,7 +2892,7 @@ const SWEDISH_DISTRICTS = [
   'Södermanland','Uppsala','Värmland','Västerbotten','Västernorrland',
   'Västmanland','Västra Götaland','Örebro','Östergötland'
 ];
-const COUNTRIES = ['Danmark','Finland','Litauen','Nederländerna','Norge','Spanien','Sverige','Tjeckien'];
+const COUNTRIES = ['Danmark','Finland','Italien','Litauen','Nederländerna','Norge','Portugal','Spanien','Sverige','Tjeckien'];
 
 // ========== REGION URL SLUGS (SEO) ==========
 // ASCII slugs for /region URLs. å→a, ä→a, ö→o, space→hyphen.
@@ -2904,7 +2904,7 @@ const REGION_SLUGS = {
   'Västerbotten':'vasterbotten','Västernorrland':'vasternorrland','Västmanland':'vastmanland',
   'Västra Götaland':'vastra-gotaland','Örebro':'orebro','Östergötland':'ostergotland',
   'Danmark':'danmark','Finland':'finland','Litauen':'litauen','Nederländerna':'nederlanderna','Norge':'norge',
-  'Spanien':'spanien','Sverige':'sverige','Tjeckien':'tjeckien'
+  'Italien':'italien','Portugal':'portugal','Spanien':'spanien','Sverige':'sverige','Tjeckien':'tjeckien'
 };
 // Reverse map: slug → region name
 const SLUG_TO_REGION = Object.fromEntries(Object.entries(REGION_SLUGS).map(([k,v]) => [v,k]));
@@ -2937,7 +2937,7 @@ const REGION_NEIGHBORS = {
   'Spanien':['Sverige','Danmark','Norge'],
   'Sverige':['Stockholm','Skåne','Västra Götaland'],
   'Tjeckien':['Sverige','Danmark','Norge'],
-  'Litauen':['Finland','Sverige','Danmark'],
+  'Italien':['Spanien','Tjeckien','Sverige'],'Litauen':['Finland','Sverige','Danmark'],'Portugal':['Spanien','Sverige','Danmark'],
   'Nederländerna':['Danmark','Sverige','Norge']
 };
 
@@ -3916,7 +3916,7 @@ const LOCATION_COORDS = {
   'klippan': { lat: 56.13, lon: 13.13 }, 'kolmården': { lat: 58.6605369, lon: 16.3990329 },
   'kramfors': { lat: 62.9284332, lon: 17.7862946 }, 'kristinehamn': { lat: 59.3100677, lon: 14.1089193 },
   'kungälv': { lat: 57.869754, lon: 11.9740317 }, 'kågeröd': { lat: 56.00, lon: 13.09 },
-  'laholm': { lat: 56.51, lon: 13.04 }, 'knäred': { lat: 56.55, lon: 13.38 }, 'leksand': { lat: 60.7307194, lon: 14.998682 }, 'hembygdsgårdarna, leksand': { lat: 60.731280, lon: 14.988355 }, 'hembygdsgårdarna': { lat: 60.731280, lon: 14.988355 },
+  'laholm': { lat: 56.51, lon: 13.04 }, 'knäred': { lat: 56.55, lon: 13.38 }, 'leksand': { lat: 60.7307194, lon: 14.998682 }, 'hembygdsgårdarna, leksand': { lat: 60.731280, lon: 14.988355 }, 'hembygdsgårdarna': { lat: 60.731280, lon: 14.988355 }, 'effersgården, insjön': { lat: 60.6711575, lon: 15.1032146 }, 'effersgården': { lat: 60.6711575, lon: 15.1032146 },
   'lidingö': { lat: 59.37, lon: 18.43 }, 'limhamn': { lat: 55.58, lon: 13.10 },
   'lindesberg': { lat: 59.61, lon: 15.20 }, 'ljungby': { lat: 56.83, lon: 13.94 }, 'vislandavägen': { lat: 56.82597, lon: 14.02986 }, 'vislandavägen, ljungby': { lat: 56.82597, lon: 14.02986 },
   'vännäs': { lat: 63.91, lon: 19.76 },
@@ -4046,7 +4046,7 @@ const LOCATION_COORDS = {
   'gotland ring': { lat: 57.50, lon: 18.30 },
   'bornholm': { lat: 55.13, lon: 14.92 },
   'åminne': { lat: 57.63, lon: 18.62 },
-  'österrike': { lat: 46.58, lon: 13.90 },
+  'österrike': { lat: 46.58, lon: 13.90 }, 'portugal': { lat: 39.50, lon: -8.00 },
   'stenö': { lat: 61.25, lon: 17.00 },
   'vidöstern': { lat: 56.979169, lon: 13.986915 }, 'sundet vid sjön vidöstern': { lat: 56.979169, lon: 13.986915 }, 'vittaryd': { lat: 56.979169, lon: 13.986915 },
   'åland': { lat: 60.10, lon: 19.93 },

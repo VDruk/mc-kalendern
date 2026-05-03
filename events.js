@@ -14760,6 +14760,32 @@ const EVENTS_DATA = {
                                                       ],
                                                       "backImage": "ads/smc-default-back.jpg"
                                     },
+
+                                    {
+                                                      "id": "dalexs-vargruset-2026-05-14",
+                                                      "name": "Vårgruset 2026",
+                                                      "date": "2026-05-14",
+                                                      "dateEnd": "2026-05-17",
+                                                      "location": "Effersgården, Insjön, Dalarna",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "organizer": "DALEXS Adventure Service",
+                                                      "description": "4-dagarstur på grusvägar i Dalarna med erfarna guider. Basläger på Effersgården i Insjön. 2 950 kr. Fullbokat – kölista öppen.",
+                                                      "descriptionFull": "Med fina vägar och skön stämning blir detta en kanonstart på säsongen ihop med våra duktiga guider! Många deltagare återkommer år efter år och platserna är begränsade. Detta är Dalexs in i detaljerna!\n\nDatum: 14–17 Maj\nPlats: Insjön, Dalarna\nPris: 2 950 kr\nPlatser: Fullbokat – anmäl för att stå på kölistan.",
+                                                      "link": "https://www.dalexs.se/aktiviteter/",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "dalexs.se",
+                                                                                          "url": "https://www.dalexs.se/aktiviteter/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Effersg%C3%A5rden+Insj%C3%B6n",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "source": "dalexs.se"
+                                    },
                                     {
                                                       "id": "ankansracing-trackdays-2026-05-15",
                                                       "name": "Ankansracing Trackdays",
@@ -20134,6 +20160,28 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com",
                                                       "organizerIcon": "clubs/normalized/probike.png"
                                     },
+
+                                    {
+                                                      "id": "korhoj-morsafton-2026-05-30",
+                                                      "name": "MorsAfton – Välgörenhetstur",
+                                                      "date": "2026-05-30",
+                                                      "dateEnd": "2026-05-30",
+                                                      "location": "Lidköping",
+                                                      "type": "Körning",
+                                                      "region": "Västra Götaland",
+                                                      "organizer": "Kör Hoj",
+                                                      "organizerIcon": "clubs/normalized/kor-hoj.png",
+                                                      "description": "Välgörenhetstur till förmån för bröstcancerforskning. Avgång från Lidköping. Alla MC-åkare välkomna.",
+                                                      "descriptionFull": "Välgörenhetstur till förmån för bröstcancerforskning. Alla MC-åkare välkomna.\n\nArrangör: Kör Hoj\nPlats: Lidköping",
+                                                      "link": "https://korhoj.se/kommande-evenemang/",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "korhoj.se",
+                                                                                          "url": "https://korhoj.se/kommande-evenemang/"
+                                                                        }
+                                                      ],
+                                                      "source": "korhoj.se"
+                                    },
                                     {
                                                       "id": "bmw-d15-mats-och-bodils-tur-2026",
                                                       "name": "D15 Mats och Bodils tur",
@@ -25202,6 +25250,27 @@ const EVENTS_DATA = {
                                                       "region": "Västra Götaland",
                                                       "source": "vulcanriders-sweden.org",
                                                       "backImage": "ads/vrs-rikstraff-back-2026-06-25.jpg"
+                                    },
+
+                                    {
+                                                      "id": "dalexs-sveriges-mittpunkter-2026-06-25",
+                                                      "name": "Sveriges Mittpunkter 2026",
+                                                      "date": "2026-06-25",
+                                                      "dateEnd": "2026-06-28",
+                                                      "location": "Sandviken, Gävleborg",
+                                                      "type": "Körning",
+                                                      "region": "Gävleborg",
+                                                      "organizer": "DALEXS Adventure Service",
+                                                      "description": "Besök fem platser som gör anspråk på att vara Sveriges geografiska mittpunkt. Grusvägar genom stora skogar. 2 950 kr. 2 platser kvar.",
+                                                      "descriptionFull": "Detta blir en rolig utmaning! Vi besöker dom fem platser som utger sig för att vara Sveriges Mittpunkt och detta gör vi under en resa genom stora skogar på fina grusvägar!\n\n*Planering pågår och detaljer kan justeras. Uppdatering sker efterhand.\n\nDatum: 25–28 Juni\nPlats: Sandviken*\nPris: 2 950 kr\nPlatser kvar: 2",
+                                                      "link": "https://www.dalexs.se/aktiviteter/",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "dalexs.se",
+                                                                                          "url": "https://www.dalexs.se/aktiviteter/"
+                                                                        }
+                                                      ],
+                                                      "source": "dalexs.se"
                                     },
                                     {
                                                       "id": "bmw-d14-mcq-lager-hos-marre-i-mahult-2026",
@@ -36212,6 +36281,31 @@ const EVENTS_DATA = {
                                                       "source": "vulcanriders-sweden.org",
                                                       "backImage": "ads/vrs-full-gas-rally-back-2026-09-12.jpg"
                                     },
+
+                                    {
+                                                      "id": "mc-ontours-alperna-2026-09-12",
+                                                      "name": "Alperna Adventure Tour",
+                                                      "date": "2026-09-12",
+                                                      "dateEnd": "2026-09-19",
+                                                      "location": "Alperna, Italien/Österrike",
+                                                      "type": "Körning",
+                                                      "region": "Italien",
+                                                      "organizer": "MC Ontours",
+                                                      "description": "Veckolång MC-tur i Alperna – Gardasjön, Gaviapasset, Stelviopasset och Grossglockner. Motorcykeltransport ingår. 28 900 kr.",
+                                                      "descriptionFull": "Slingrande vägar, magiska scenarios, trevliga och bekväma boendealternativ samt möten med likasinnade. Vi transporterar din motorcykel till norra Italien tur och retur.\n\nDu flyger till Milano och tar dig till hotellet där din motorcykel väntar. Vi startar med en gemensam välkomstmiddag och åker sedan på Adventure Tour med 6 kördagar.\n\nRutten inkluderar bl.a. Gardasjön, Gaviapasset (2 440 möh), Stelviopasset (2 760 möh) i Italien och Grossglockner (2 530 möh) i Österrike.\n\nPris: 28 900 kr per person i dubbelrum. Passagerare 7 800 kr.\nEnkelrumstillägg: 5 300 kr.\n\nIngår: Motorcykeltransport tur/retur, 7 nätter inkl frukost, välkomstmiddag, guide och GPS-rutter.\nEj ingår: Flygresa, bensin, övriga måltider, transfers.",
+                                                      "link": "https://www.mcontours.se/alperna-italien-adventure-tour/",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "mcontours.se",
+                                                                                          "url": "https://www.mcontours.se/alperna-italien-adventure-tour/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/mcontours.se"
+                                                                        }
+                                                      ],
+                                                      "source": "mcontours.se"
+                                    },
                                     {
                                                       "id": "mackatraffen-vollsjo-avslutning-2026-09-13",
                                                       "name": "Mackaträffen - Säsongsavslutning",
@@ -37395,6 +37489,32 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com",
                                                       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
                                     },
+
+                                    {
+                                                      "id": "dalexs-hostgruset-2026-09-24",
+                                                      "name": "Höstgruset 2026",
+                                                      "date": "2026-09-24",
+                                                      "dateEnd": "2026-09-27",
+                                                      "location": "Effersgården, Insjön, Dalarna",
+                                                      "type": "Körning",
+                                                      "region": "Dalarna",
+                                                      "organizer": "DALEXS Adventure Service",
+                                                      "description": "4-dagarstur på grusvägar i Dalarna. Höstfärger, lägereldar och kvällshäng på Effersgården. 2 950 kr. Fullbokat – kölista öppen.",
+                                                      "descriptionFull": "Höstfärgerna lyser, elden är igång och när solen går ner efter turerna så hänger vi på gården! Denna tiden på året bjuder på det bästa underlaget och fukten i vägarna gör att det inte dammar. Vi åker hoj, pausar vid elden och njuter!\n\nDatum: 24–27 Sep\nPlats: Insjön, Dalarna\nPris: 2 950 kr\nPlatser: Fullbokat – anmäl för att stå på kölistan.",
+                                                      "link": "https://www.dalexs.se/aktiviteter/",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "dalexs.se",
+                                                                                          "url": "https://www.dalexs.se/aktiviteter/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Effersg%C3%A5rden+Insj%C3%B6n",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "source": "dalexs.se"
+                                    },
                                     {
                                                       "id": "lo-i-lordagskörningar-kramfors-2026-09-26",
                                                       "name": "LO I Lördagskörningar Kramfors",
@@ -38339,6 +38459,28 @@ const EVENTS_DATA = {
                                                                         }
                                                       ]
                                     },
+
+                                    {
+                                                      "id": "korhoj-farsafton-2026-11-07",
+                                                      "name": "FarsAfton – Välgörenhetstur",
+                                                      "date": "2026-11-07",
+                                                      "dateEnd": "2026-11-07",
+                                                      "location": "Lidköping",
+                                                      "type": "Körning",
+                                                      "region": "Västra Götaland",
+                                                      "organizer": "Kör Hoj",
+                                                      "organizerIcon": "clubs/normalized/kor-hoj.png",
+                                                      "description": "Välgörenhetstur till förmån för prostatacancerforskning. Avgång från Lidköping. Alla MC-åkare välkomna.",
+                                                      "descriptionFull": "Välgörenhetstur till förmån för prostatacancerforskning. Alla MC-åkare välkomna.\n\nArrangör: Kör Hoj\nPlats: Lidköping",
+                                                      "link": "https://korhoj.se/kommande-evenemang/",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "korhoj.se",
+                                                                                          "url": "https://korhoj.se/kommande-evenemang/"
+                                                                        }
+                                                      ],
+                                                      "source": "korhoj.se"
+                                    },
                                     {
                                                       "id": "doa-tisdagslunch-2026-11-10",
                                                       "name": "DOA - Tisdagslunch",
@@ -38473,6 +38615,31 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+
+                                    {
+                                                      "id": "mc-ontours-algarve-2026-11-14",
+                                                      "name": "Algarve Gravel Adventure",
+                                                      "date": "2026-11-14",
+                                                      "dateEnd": "2026-11-21",
+                                                      "location": "Armação de Pêra, Portugal",
+                                                      "type": "Körning",
+                                                      "region": "Portugal",
+                                                      "organizer": "MC Ontours",
+                                                      "description": "7 dagar grusäventyr i Algarve, Portugal. Motorcykeltransport tur/retur från Sverige ingår. Tre grupper för olika nivåer. 29 750 kr.",
+                                                      "descriptionFull": "7 dagar inklusive transport av egen motorcykel. Pris: 29 750 SEK per person i dubbelrum.\n\nOavsett om du vill finslipa dina färdigheter i gruskörning eller njuta av en extraordinär motorcykelupplevelse i en av Europas mest fascinerande regioner är detta resan för dig.\n\nTre körgrupper:\nSvart – hög erfarenhet, enduromodell max 700 cc\nRöd – god erfarenhet, adventure-däck rekommenderas\nBlå – viss erfarenhet, behagligt tempo\n\nVi bor på VILA GALÉ NÁUTICO i Armação de Pêra (4-stjärnigt, havsnära, garage ingår).\n\nIngår: Motorcykeltransport tur/retur (start Umeå söderut), 7 nätter inkl frukost, välkomst- och avslutningsmiddag, 6 kördagar med guide.\nEj ingår: Flygresa, bensin, lunch/middag, försäkring.",
+                                                      "link": "https://www.mcontours.se/algarve-portugal-gravel-adenture-s26/",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "mcontours.se",
+                                                                                          "url": "https://www.mcontours.se/algarve-portugal-gravel-adenture-s26/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/mcontours.se"
+                                                                        }
+                                                      ],
+                                                      "source": "mcontours.se"
                                     },
                                     {
                                                       "id": "gwcs-fikatraff-sormland-nov-2026",
