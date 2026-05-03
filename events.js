@@ -257,6 +257,28 @@ const EVENTS_DATA = {
                                                       "_ad": true
                                     },
                                     {
+                                                      "_ad": true,
+                                                      "id": "ad-sk-motors-charity-rides",
+                                                      "name": "SK Motors Charity Rides",
+                                                      "date": "2026-01-01",
+                                                      "dateEnd": "2026-12-31",
+                                                      "location": "Halmstad, Halland",
+                                                      "type": "Anons",
+                                                      "organizer": "SK Motors Charity",
+                                                      "description": "Välgörenhetskörningar varje månad i Halmstad. Hojglädje med hjärta, intäkterna går till lokala välgörenhetsmål.",
+                                                      "descriptionFull": "Välkommen till SK Motors! 🏍️❤️\n\nHär startar resan för 'SK Motors charity rides, one ride, one cause'. Mitt mål är att förena mitt stora intresse för motorcyklar med att göra något bra för vårt Halmstad.\n\nDen första lördagen i varje månad arrangerar vi körningar där vi tillsammans stöttar lokala ändamål.\n\nDu behöver inte äga en MC för att vara med! Gemenskapen och ändamålet står i centrum.\n\nKontakt: info@skmotors.se",
+                                                      "frontImage": "ads/sk-motors-charity-front.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/profile.php?id=61562745197883"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/profile.php?id=61562745197883",
+                                                      "region": "Sverige",
+                                                      "source": "AD"
+                                    },
+                                    {
                                                       "id": "jonkoping-mcmassan-2026",
                                                       "name": "MC-Mässan Jönköping (Elmia)",
                                                       "date": "2026-01-23",
@@ -14785,6 +14807,28 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/smc-kansli-tour-back-2026-05-15.jpg"
                                     },
                                     {
+                                                      "id": "why-not-mc-abningsfest-2026-05-15",
+                                                      "name": "Why Not! MC Åbningsfest",
+                                                      "date": "2026-05-15",
+                                                      "dateEnd": "2026-05-15",
+                                                      "location": "Dybdalsvej 5, Daugbjerg, 8800 Viborg",
+                                                      "type": "Fest",
+                                                      "organizer": "Why Not! MC",
+                                                      "description": "Åbningsfest för Why Not! MC:s nya klubbhus i Daugbjerg. Alla välkomna, MC-uppvisning, korvgrillning. Fr. kl. 14.",
+                                                      "descriptionFull": "Så er vi klar med åbningen af vores nye klubhus!\n\nDybdalsvej 5, Daugbjerg, 8800 Viborg\n\nD. 15/5-26 kl. 14:00 → ?\n\nKom og vær med til at fejre åbningen med os.\n\nDer er mulighed for køb af 2 pølser m. brød 25,-\n\nAlle er velkomne, store som små. Så tag familien under armen, og kom forbi og kig på de fine MC'er, der kommer forbi på dagen.\n\nVi ser frem til at vise jer vores nye sted.\n\nVi ses hos Why Not! MC",
+                                                      "backImage": "ads/why-not-mc-abningsfest-back-2026-05-15.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Dybdalsvej+5%2C+Daugbjerg%2C+8800+Viborg",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.google.com/maps/search/?api=1&query=Dybdalsvej+5%2C+Daugbjerg%2C+8800+Viborg",
+                                                      "region": "Danmark",
+                                                      "source": "facebook.com"
+                                    },
+                                    {
                                                       "id": "bmw-d15-asnenturen-2026",
                                                       "name": "D15 Åsnenturen",
                                                       "date": "2026-05-16",
@@ -19998,6 +20042,37 @@ const EVENTS_DATA = {
                                                       ],
                                                       "organizerIcon": "clubs/normalized/hdcs.png",
                                                       "backImage": "ads/hd-default-back.jpg"
+                                    },
+                                    {
+                                                      "id": "probike-bikes-burgers-swapmeet-2026-05-30",
+                                                      "name": "Bikes & Burgers med Swapmeet",
+                                                      "date": "2026-05-30",
+                                                      "dateEnd": "2026-05-30",
+                                                      "location": "Åkerivägen 6, 187 75 Täby",
+                                                      "type": "Träff",
+                                                      "organizer": "Probike",
+                                                      "description": "Probikes årliga Swapmeet med en twist: Bikes & Burgers! Burgare, fynd, tävlingar, utställning och leverantörer. Kl 11-15.",
+                                                      "descriptionFull": "Välkomna till Probikes årliga Swapmeet med en twist! \"Bikes & Burgers\"\n\n- Hog Grillar Burgare\n- Gör stora fynd i vår SwapContainer\n- Sälj dina överblivna Mc prylar.\n- Bra priser i butiken\n- Tävlingar med fina priser!\n- Leverantörer på plats!\n- Anmäl dig för Utställning av hoj & Swap! Maila Hans.angermund@probike.se.\n\nOCH MYCKET MER!\n\nVi ses då!\n\nMvh, Probike Stockholm",
+                                                      "backImage": "ads/probike-bikes-burgers-swapmeet-back-2026-05-30.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/850673418050367"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85keriv%C3%A4gen+6%2C+187+75+T%C3%A4by",
+                                                                                          "type": "map"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/probikeStockholm"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/probikeStockholm",
+                                                      "region": "Stockholm",
+                                                      "source": "facebook.com",
+                                                      "organizerIcon": "clubs/normalized/probike.png"
                                     },
                                     {
                                                       "id": "bmw-d15-mats-och-bodils-tur-2026",
