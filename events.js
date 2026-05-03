@@ -14766,24 +14766,25 @@ const EVENTS_DATA = {
                                                       "name": "Vårgruset 2026",
                                                       "date": "2026-05-14",
                                                       "dateEnd": "2026-05-17",
-                                                      "location": "Effersgården, Insjön, Dalarna",
+                                                      "location": "Vintergatan 61, Insjön, Dalarna",
                                                       "type": "Körning",
                                                       "region": "Dalarna",
                                                       "organizer": "DALEXS Adventure Service",
-                                                      "description": "4-dagarstur på grusvägar i Dalarna med erfarna guider. Basläger på Effersgården i Insjön. 2 950 kr. Fullbokat – kölista öppen.",
-                                                      "descriptionFull": "Med fina vägar och skön stämning blir detta en kanonstart på säsongen ihop med våra duktiga guider! Många deltagare återkommer år efter år och platserna är begränsade. Detta är Dalexs in i detaljerna!\n\nDatum: 14–17 Maj\nPlats: Insjön, Dalarna\nPris: 2 950 kr\nPlatser: Fullbokat – anmäl för att stå på kölistan.",
-                                                      "link": "https://www.dalexs.se/aktiviteter/",
-                                                      "links": [
+                                                      "description": "4-dagarstur på grusvägar i Siljansbygden. Basläger på Effersgården i Insjön. 2 950 kr. Fullbokat – kölista öppen.",
+                                                      "descriptionFull": "Vårgruset har alltid bjudit på en speciell stämning och sedan 2024 har vi Effersgården i Insjön som bas. Vi åker på fina grusvägar i Siljansbygden och pausar på sevärda platser.\n\nDatum: 14–17 maj (tors–sön)\nPlats: Effersgården, Vintergatan 61, Insjön, Dalarna\nNivå: Gravel Touring/Adventure Touring\nMax 12 deltagare\nPris: 2 950 kr (logi och mat ej inkl)\n\nFullbokat 2026 – anmäl dig för kölistan.",
+                                                      "link": "https://www.dalexs.se/vargruset2026/",
+                                                                                                            "links": [
                                                                         {
                                                                                           "label": "dalexs.se",
-                                                                                          "url": "https://www.dalexs.se/aktiviteter/"
+                                                                                          "url": "https://www.dalexs.se/vargruset2026/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Effersg%C3%A5rden+Insj%C3%B6n",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Vintergatan+61+Insj%C3%B6n",
                                                                                           "type": "map"
                                                                         }
                                                       ],
+                                                      "backImage": "ads/dalexs-vargruset-back-2026-05-14.jpg",
                                                       "source": "dalexs.se"
                                     },
                                     {
@@ -20166,20 +20167,26 @@ const EVENTS_DATA = {
                                                       "name": "MorsAfton – Välgörenhetstur",
                                                       "date": "2026-05-30",
                                                       "dateEnd": "2026-05-30",
-                                                      "location": "Lidköping",
+                                                      "location": "Mc-konsult i Lidköping",
                                                       "type": "Körning",
                                                       "region": "Västra Götaland",
                                                       "organizer": "Kör Hoj",
                                                       "organizerIcon": "clubs/normalized/kor-hoj.png",
-                                                      "description": "Välgörenhetstur till förmån för bröstcancerforskning. Avgång från Lidköping. Alla MC-åkare välkomna.",
-                                                      "descriptionFull": "Välgörenhetstur till förmån för bröstcancerforskning. Alla MC-åkare välkomna.\n\nArrangör: Kör Hoj\nPlats: Lidköping",
+                                                      "description": "Välgörenhetstur till förmån för bröstcancerforskning. Avgång från Mc-konsult i Lidköping kl 10:00. Kostnad 100 kr.",
+                                                      "descriptionFull": "Vi kör en lugn tur med fika på utsatt plats. Ta med egen termos med kaffe för fikastoppet. KÖR HOJ har med lite kanelbullar.\n\nKostnad: 100 kr – sätts in till förmån för bröstcancerforskning.\n\nAvgång: Mc-konsult i Lidköping, kl 10:00",
                                                       "link": "https://korhoj.se/kommande-evenemang/",
-                                                      "links": [
+                                                                                                            "links": [
                                                                         {
                                                                                           "label": "korhoj.se",
                                                                                           "url": "https://korhoj.se/kommande-evenemang/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Mc-konsult+i+Lidköping",
+                                                                                          "type": "map"
                                                                         }
                                                       ],
+                                                      "backImage": "ads/korhoj-morsafton-back-2026-05-30.jpg",
                                                       "source": "korhoj.se"
                                     },
                                     {
@@ -25257,19 +25264,20 @@ const EVENTS_DATA = {
                                                       "name": "Sveriges Mittpunkter 2026",
                                                       "date": "2026-06-25",
                                                       "dateEnd": "2026-06-28",
-                                                      "location": "Sandviken, Gävleborg",
+                                                      "location": "Medskogssjöns Camping, Sandviken",
                                                       "type": "Körning",
                                                       "region": "Gävleborg",
                                                       "organizer": "DALEXS Adventure Service",
-                                                      "description": "Besök fem platser som gör anspråk på att vara Sveriges geografiska mittpunkt. Grusvägar genom stora skogar. 2 950 kr. 2 platser kvar.",
-                                                      "descriptionFull": "Detta blir en rolig utmaning! Vi besöker dom fem platser som utger sig för att vara Sveriges Mittpunkt och detta gör vi under en resa genom stora skogar på fina grusvägar!\n\n*Planering pågår och detaljer kan justeras. Uppdatering sker efterhand.\n\nDatum: 25–28 Juni\nPlats: Sandviken*\nPris: 2 950 kr\nPlatser kvar: 2",
-                                                      "link": "https://www.dalexs.se/aktiviteter/",
-                                                      "links": [
+                                                      "description": "Besök alla fem platser som utger sig för att vara Sveriges geografiska mittpunkt. Grusvägar genom stora skogar. 2 platser kvar. 2 950 kr.",
+                                                      "descriptionFull": "Häng med på utmaningen att hitta och besöka dom fem platser som utger sig för att vara Sveriges Mittpunkt i härligt sällskap! Individuell gruppresa – åk med gpx-fil på egen hand eller följ guiden. Packningen transporteras mellan sovplatserna.\n\nDatum: 25–28 juni (tors–sön)\nStart & mål: Medskogssjöns Camping, norr om Sandviken\nNivå: Adventure Touring\nMax 12 deltagare\nPris: 2 950 kr (logi och mat ej inkl)\n\n2 platser kvar.",
+                                                      "link": "https://www.dalexs.se/mittpunkterna/",
+                                                                                                            "links": [
                                                                         {
                                                                                           "label": "dalexs.se",
-                                                                                          "url": "https://www.dalexs.se/aktiviteter/"
+                                                                                          "url": "https://www.dalexs.se/mittpunkterna/"
                                                                         }
                                                       ],
+                                                      "backImage": "ads/dalexs-mittpunkter-back-2026-06-25.jpg",
                                                       "source": "dalexs.se"
                                     },
                                     {
@@ -36304,6 +36312,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/mcontours.se"
                                                                         }
                                                       ],
+                                                      "backImage": "ads/mc-ontours-alperna-back-2026-09-12.jpg",
                                                       "source": "mcontours.se"
                                     },
                                     {
@@ -37495,24 +37504,25 @@ const EVENTS_DATA = {
                                                       "name": "Höstgruset 2026",
                                                       "date": "2026-09-24",
                                                       "dateEnd": "2026-09-27",
-                                                      "location": "Effersgården, Insjön, Dalarna",
+                                                      "location": "Vintergatan 61, Insjön, Dalarna",
                                                       "type": "Körning",
                                                       "region": "Dalarna",
                                                       "organizer": "DALEXS Adventure Service",
-                                                      "description": "4-dagarstur på grusvägar i Dalarna. Höstfärger, lägereldar och kvällshäng på Effersgården. 2 950 kr. Fullbokat – kölista öppen.",
-                                                      "descriptionFull": "Höstfärgerna lyser, elden är igång och när solen går ner efter turerna så hänger vi på gården! Denna tiden på året bjuder på det bästa underlaget och fukten i vägarna gör att det inte dammar. Vi åker hoj, pausar vid elden och njuter!\n\nDatum: 24–27 Sep\nPlats: Insjön, Dalarna\nPris: 2 950 kr\nPlatser: Fullbokat – anmäl för att stå på kölistan.",
-                                                      "link": "https://www.dalexs.se/aktiviteter/",
-                                                      "links": [
+                                                      "description": "4-dagarstur på grusvägar i Siljansbygden. Höstfärger, lägereldar och kvällshäng på Effersgården. 2 950 kr. Fullbokat – kölista öppen.",
+                                                      "descriptionFull": "Avsluta säsongen på bästa sätt med fina turer och gött häng på kvällarna! Som vanligt är Effersgården i Insjön basen och sommarköket är perfekt för middagarna. På utsidan brinner eldar och kanske att Matts kör igång kolmaskinen.\n\nDatum: 24–27 sep (tors–sön)\nPlats: Effersgården, Vintergatan 61, Insjön, Dalarna\nNivå: Gravel Touring/Adventure Touring\nMax 12 deltagare\nPris: 2 950 kr (logi och mat ej inkl)\n\nFullbokat 2026 – anmäl dig för kölistan.",
+                                                      "link": "https://www.dalexs.se/hostgruset-2026/",
+                                                                                                            "links": [
                                                                         {
                                                                                           "label": "dalexs.se",
-                                                                                          "url": "https://www.dalexs.se/aktiviteter/"
+                                                                                          "url": "https://www.dalexs.se/hostgruset-2026/"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
-                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Effersg%C3%A5rden+Insj%C3%B6n",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Vintergatan+61+Insj%C3%B6n",
                                                                                           "type": "map"
                                                                         }
                                                       ],
+                                                      "backImage": "ads/dalexs-hostgruset-back-2026-09-24.jpg",
                                                       "source": "dalexs.se"
                                     },
                                     {
@@ -38465,21 +38475,31 @@ const EVENTS_DATA = {
                                                       "name": "FarsAfton – Välgörenhetstur",
                                                       "date": "2026-11-07",
                                                       "dateEnd": "2026-11-07",
-                                                      "location": "Lidköping",
+                                                      "location": "Mc-konsult i Lidköping",
                                                       "type": "Körning",
                                                       "region": "Västra Götaland",
                                                       "organizer": "Kör Hoj",
                                                       "organizerIcon": "clubs/normalized/kor-hoj.png",
-                                                      "description": "Välgörenhetstur till förmån för prostatacancerforskning. Avgång från Lidköping. Alla MC-åkare välkomna.",
-                                                      "descriptionFull": "Välgörenhetstur till förmån för prostatacancerforskning. Alla MC-åkare välkomna.\n\nArrangör: Kör Hoj\nPlats: Lidköping",
+                                                      "description": "Välgörenhetstur till förmån för prostatacancerforskning. Avgång från Mc-konsult i Lidköping kl 10:00. Kostnad 100 kr.",
+                                                      "descriptionFull": "Vi kör en lugn tur med fika på utsatt plats. Ta med egen termos med kaffe för fikastoppet. KÖR HOJ har med lite kanelbullar.\n\nKostnad: 100 kr – sätts in till förmån för prostatacancerforskning.\n\nAvgång: Mc-konsult i Lidköping, kl 10:00",
                                                       "link": "https://korhoj.se/kommande-evenemang/",
-                                                      "links": [
+                                                                                                            "links": [
                                                                         {
                                                                                           "label": "korhoj.se",
                                                                                           "url": "https://korhoj.se/kommande-evenemang/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1750291535625691/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Mc-konsult+i+Lidköping",
+                                                                                          "type": "map"
                                                                         }
                                                       ],
-                                                      "source": "korhoj.se"
+                                                      "backImage": "ads/korhoj-farsafton-back-2026-11-07.jpg",
+                                                      "source": "facebook.com"
                                     },
                                     {
                                                       "id": "doa-tisdagslunch-2026-11-10",
@@ -38639,6 +38659,7 @@ const EVENTS_DATA = {
                                                                                           "url": "https://www.facebook.com/mcontours.se"
                                                                         }
                                                       ],
+                                                      "backImage": "ads/mc-ontours-algarve-back-2026-11-14.jpg",
                                                       "source": "mcontours.se"
                                     },
                                     {
