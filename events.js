@@ -13372,6 +13372,36 @@ const EVENTS_DATA = {
                                                       "source": "facebook.com"
                                     },
                                     {
+                                                      "id": "runstens-rally-vikingaby-2026-05-09",
+                                                      "name": "Runstens-Rally för Fotevikens Vikingaby",
+                                                      "date": "2026-05-09",
+                                                      "dateEnd": "2026-05-09",
+                                                      "location": "Granatvägen, Ystad",
+                                                      "type": "Körning",
+                                                      "organizer": "Urds Mc-tur",
+                                                      "description": "Välgörenhetsrally för Fotevikens Vikingaby. Svara på frågor vid runstenarna längs vägen. Start vid McDonald's Ystad kl 11-12, hemma senast 16. Avgift 50 kr.",
+                                                      "descriptionFull": "Insamling till förmån för Fotevikens Vikingaby.\n\nVi kör ett Runstens-Rally där varje runsten genererar ett stopp. Vid stoppen måste man läsa på informationstavlan för att hitta svaret på den ställda frågan som tillhör just den runstenen.\n\nStart vid McDonald's i Ystad, Granatvägen, Ystad, 271 53.\nStart 11:00-12:00. Målgång senast 16:00.\nRallyt beräknas ta ca 2 timmar.\n\nEndast mc är välkomna då parkering vid runstenarna är begränsad.\n\nFrån de rätta svaren lottar vi ut ett pris som går i vikingarnas tecken.\n\nPris: 50 kr",
+                                                      "backImage": "ads/runstens-rally-vikingaby-back-2026-05-09.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/26891061743913124"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Grupp",
+                                                                                          "url": "https://www.facebook.com/groups/698685101996883/"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Granatv%C3%A4gen%2C+Ystad",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/26891061743913124",
+                                                      "region": "Skåne",
+                                                      "source": "facebook.com"
+                                    },
+                                    {
                                                       "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
                                                       "name": "D7 Avrostning/Kul på Hjul, Gillingebanan",
                                                       "date": "2026-05-10",
