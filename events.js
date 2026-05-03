@@ -13342,6 +13342,36 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/vrs-lurblasarsvangen-back-2026-05-09.jpg"
                                     },
                                     {
+                                                      "id": "provkorning-bsa-avrostning-2026-05-09",
+                                                      "name": "Provkörning BSA samt avrostning",
+                                                      "date": "2026-05-09",
+                                                      "dateEnd": "2026-05-09",
+                                                      "location": "Centralvägen 30, 79146 Falun",
+                                                      "type": "Träff",
+                                                      "organizer": "Bike & Accessories Dalarna",
+                                                      "description": "Provkörna BSA och träffa representanten. Avrostning med Säker Trafik kl 08, butiken kl 10-14. Lunch ingår för anmälda till avrostningen.",
+                                                      "descriptionFull": "Boka in lördag 9 maj!\n\nDå finns det möjlighet att provköra BSA hos oss och prata med deras representant och/eller köpa lite god italiensk mat hos fantastiska Cantina Del Re som kommer finnas på plats.\n\nDagen till ära erbjuder vi 20 % på hela Spadas sortiment, även REA-varor! Vi kommer finnas på plats i butiken från klockan 10.00 och fram till ca klockan 14.00.\n\nPassa även på att träffa och prata med Säker Trafiks lärare Fredrik och Mats!\n\nOch kom ihåg att du kan boka in en avrostning hos Säker Trafik på deras trafikövningsplats Dalarnas Trafikövningsplats, Kniptjärnsberget 8 som börjar kl 08.00. Ni kommer göra säkerhetskontroll, träna krypkörning, kurv- och bromsteknik mm. Ett perfekt tillfälle att fräscha upp kunskaperna inför säsongen!\n\nOch som avslutning åker ni tillsammans på en trevlig tur och landar lagom till lunch (ca kl 12:30) i Hosjö hos oss på Bike & Accessories.\n\nSom anmäld till avrostningen med Säker Trafik ingår lunch från Cantina Del Re.\n\nOBS! Föranmälan obligatorisk för avrostningen – boka via länken nedan.",
+                                                      "backImage": "ads/provkorning-bsa-avrostning-back-2026-05-09.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1472504334666141"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/bikedalarna"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Centralv%C3%A4gen+30%2C+79146+Falun",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/bikedalarna",
+                                                      "region": "Dalarna",
+                                                      "source": "facebook.com"
+                                    },
+                                    {
                                                       "id": "bmw-d7-avrostning-kul-pa-hjul-gillingebanan-2026",
                                                       "name": "D7 Avrostning/Kul på Hjul, Gillingebanan",
                                                       "date": "2026-05-10",
@@ -20294,6 +20324,37 @@ const EVENTS_DATA = {
                                                       "region": "Uppsala",
                                                       "source": "facebook.com",
                                                       "backImage": "ads/gota-ms-crosskola-back-2026.jpg"
+                                    },
+                                    {
+                                                      "id": "mce-manadsmoete-juni-2026",
+                                                      "name": "MCE Månadsmöte",
+                                                      "date": "2026-06-01",
+                                                      "dateEnd": "2026-06-01",
+                                                      "location": "MCE, Snutenvägen 11, Järfälla",
+                                                      "type": "Träff",
+                                                      "organizer": "MCE",
+                                                      "organizerIcon": "clubs/normalized/mce.png",
+                                                      "description": "Månadsmöte i juni. Genomgång av vad som hänt och vad som är på gång. Nyval av medlemmar möjligt. Fika från 18:30, mötet startar 19:00.",
+                                                      "descriptionFull": "Vi går igenom vad som hänt och vad som är på gång. Diskuterar verksamheten och väljer in nya medlemmar.\n\nAlla våra medlemmar, och \"klubbnyfikna kanske medlemmar\" är välkomna.\n\nFika från kl 18:30, mötet startar kl 19:00.\n\nMCE i Järfälla är klubben för alla hojintresserade. Typ av hoj spelar absolut ingen roll.\n\nPlats: Snutenvägen 11, 177 61 Järfälla.",
+                                                      "backImage": "ads/mce-manadsmoete-juni-back-2026-06-01.jpg",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/1167115481847984"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/Motorcykelentusiasterna"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Snutenv%C3%A4gen+11+J%C3%A4rfälla",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "link": "https://www.facebook.com/events/1167115481847984",
+                                                      "region": "Stockholm",
+                                                      "source": "facebook.com"
                                     },
                                     {
                                                       "id": "bmw-d11-dagsledigtur-med-rune-2026",
