@@ -11714,6 +11714,36 @@ const EVENTS_DATA = {
                                                       "backImage": "ads/hd-default-back.jpg"
                                     },
                                     {
+                                                      "id": "moonshine-runner-grilltreff-2026-05-05",
+                                                      "name": "Grill & MC-träff #1",
+                                                      "date": "2026-05-05",
+                                                      "dateEnd": "2026-05-05",
+                                                      "location": "Verkstadsgatan 1, Skurup",
+                                                      "type": "Träff",
+                                                      "region": "Skåne",
+                                                      "organizer": "Moonshine Runner Custom",
+                                                      "description": "MC-träff och grillkväll hos Moonshine Runner Custom Bikes i Skurup. Årets första grillmåltid – dansk flæskesteg i bröd med rödkål, plus korv. Kl 17–20.",
+                                                      "descriptionFull": "Eventet många frågar efter och lika många som längtar efter. Nu är det äntligen dax kära vänner.\n\nTisdag den 5/5 kl 17 serverar vi årets första måltid.\nÄkta dansk fleskestej i bröd med rödkål.\n\nJa ni läste rätt TISDAG inte torsdag..\nSom alltid grillar vi även korv..\nNu hoppas vi att vädret håller i sig\nHjärtligt välkomna",
+                                                      "link": "https://www.facebook.com/profile.php?id=61583677230326",
+                                                      "links": [
+                                                                        {
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/2695329174200641"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/profile.php?id=61583677230326"
+                                                                        },
+                                                                        {
+                                                                                          "label": "Karta",
+                                                                                          "url": "https://www.google.com/maps/search/?api=1&query=Verkstadsgatan+1+Skurup",
+                                                                                          "type": "map"
+                                                                        }
+                                                      ],
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/moonshine-runner-grilltreff-back-2026-05-05.jpg"
+                                    },
+                                    {
                                                       "id": "jarlasa-motor-meet-8-2026-05-06",
                                                       "name": "Järlåsa Motor Meet #8",
                                                       "date": "2026-05-06",
