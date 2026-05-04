@@ -11814,14 +11814,17 @@ const EVENTS_DATA = {
                                                       "region": "Östergötland",
                                                       "location": "Circle K Norsholm, Klintorp, Norsholm",
                                                       "organizer": "MCK Freedom",
-                                                      "source": "smcboken.svmc.se",
-                                                      "link": "https://smcboken.svmc.se/traffar/mcturer",
-                                                      "description": "Åkarkväll med MCK Freedom. Vid bra hoj-väder samlas vi varannan vecka onsdagar vid Circle K Norsholm. Krokiga småvägar och avslut vid fik.",
-                                                      "descriptionFull": "Vid bra hoj-väder samlas vi varannan vecka onsdagar vid Circle K Norsholm där E4:an och väg 215 möts.\n\nVi kör en sväng på krokiga småvägar och avslutar vid ett fik eller utflyktsmål.\n\nFart och längd anpassas efter deltagarnas önskemål.",
+                                                      "description": "Åkarkväll med MCK Freedom. Samling Circle K Norsholm kl 18. Kvällstur på krokiga småvägar, målet denna kväll är LEONS i Norrköping.",
+                                                      "descriptionFull": "Hallojsan alla goa knuttar MCK Freedom inbjuder till: första ÅKARKVÄLLEN 2026\n\npå onsdag den 6/5 kl.18.00\n\nVi träffas Cirkel K vid E4 Norsholm kl.18.00\nåker absolut konongoa vägar och målet är: LEONS i Norrköping\n\nVÄLKOMMEN är alla som älskar hojåka Hoppas vi ses!!\n\nAnsv: Andreas R & Fredrik P",
+                                                      "link": "https://www.facebook.com/mckfreedom",
                                                       "links": [
                                                                         {
-                                                                                          "label": "smcboken.svmc.se",
-                                                                                          "url": "https://smcboken.svmc.se/traffar/mcturer"
+                                                                                          "label": "FB Event",
+                                                                                          "url": "https://www.facebook.com/events/973785805127610"
+                                                                        },
+                                                                        {
+                                                                                          "label": "FB Sida",
+                                                                                          "url": "https://www.facebook.com/mckfreedom"
                                                                         },
                                                                         {
                                                                                           "label": "Karta",
@@ -11829,7 +11832,8 @@ const EVENTS_DATA = {
                                                                                           "type": "map"
                                                                         }
                                                       ],
-                                                      "backImage": "ads/smc-default-back.jpg"
+                                                      "source": "facebook.com",
+                                                      "backImage": "ads/mck-freedom-akarkvallar-back-2026-05-06.jpg"
                                     },
                                     {
                                                       "id": "onsdagskorning-gotland-2026-05-06",
