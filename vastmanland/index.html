@@ -2259,7 +2259,10 @@
   },
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://druk.se/?q={search_term_string}",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://druk.se/?q={search_term_string}"
+    },
     "query-input": "required name=search_term_string"
   }
 }
@@ -2752,7 +2755,7 @@ function buildBackHTML(cardId, ev) {
     ? ev.name.replace(/\s*INSTÄLLT\s*/gi, '').replace(/\s*INSTALLT\s*/gi, '').trim()
     : ev.name;
   const fullDesc = (ev.descriptionFull || ev.description || '').split('\n').map(p => `<p>${p}</p>`).join('');
-  const backImg = ev.backImage ? `<img class="back-img" src="/${ev.backImage}" alt="${displayName}" loading="lazy">` : '';
+  const backImg = ev.backImage ? `<img class="back-img" src="${ev.backImage}" alt="${displayName}" loading="lazy">` : '';
   const gcalStart = ev.date.replace(/-/g, '');
   const gcalEndDate = new Date((ev.dateEnd || ev.date) + 'T00:00:00');
   gcalEndDate.setDate(gcalEndDate.getDate() + 1);
@@ -2779,9 +2782,9 @@ function buildBackHTML(cardId, ev) {
         <img src="/ads/icon-cal-generic.png" alt="" width="18" height="18"> Lägg till i kalender <span class="cal-arrow">▼</span>
       </button>
       <div class="cal-dropdown">
-        <a class="cal-option" href="/${gcalUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
+        <a class="cal-option" href="${gcalUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
           <img src="/ads/icon-google-cal.png" alt="" width="24" height="24"> Google Kalender</a>
-        <a class="cal-option" href="/${outlookUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
+        <a class="cal-option" href="${outlookUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
           <img src="/ads/icon-outlook-cal.png" alt="" width="24" height="24"> Outlook Kalender</a>
         <button class="cal-option" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open');downloadSingleICS('${ev.id}')">
           <img src="/ads/icon-apple-cal.png" alt="" width="24" height="24"> Apple Kalender</button>
@@ -2792,7 +2795,7 @@ function buildBackHTML(cardId, ev) {
     const mapIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
     const pills = ev.links.map(l => {
       const icon = l.type === 'map' ? mapIcon : extIcon;
-      return `<a class="back-link-pill" href="/${l.url}" target="_blank" rel="noopener">${icon} ${l.label}</a>`;
+      return `<a class="back-link-pill" href="${l.url}" target="_blank" rel="noopener">${icon} ${l.label}</a>`;
     }).join('');
     linksHTML = `<div class="back-links"><div class="back-link-pills">${pills}</div>${calRow}</div>`;
   } else {
@@ -2890,7 +2893,7 @@ const SWEDISH_DISTRICTS = [
   'Södermanland','Uppsala','Värmland','Västerbotten','Västernorrland',
   'Västmanland','Västra Götaland','Örebro','Östergötland'
 ];
-const COUNTRIES = ['Danmark','Finland','Nederländerna','Norge','Spanien','Sverige','Tjeckien'];
+const COUNTRIES = ['Danmark','Finland','Italien','Litauen','Nederländerna','Norge','Portugal','Spanien','Sverige','Tjeckien'];
 
 // ========== REGION URL SLUGS (SEO) ==========
 // ASCII slugs for /region URLs. å→a, ä→a, ö→o, space→hyphen.
@@ -2901,8 +2904,8 @@ const REGION_SLUGS = {
   'Södermanland':'sodermanland','Uppsala':'uppsala','Värmland':'varmland',
   'Västerbotten':'vasterbotten','Västernorrland':'vasternorrland','Västmanland':'vastmanland',
   'Västra Götaland':'vastra-gotaland','Örebro':'orebro','Östergötland':'ostergotland',
-  'Danmark':'danmark','Finland':'finland','Nederländerna':'nederlanderna','Norge':'norge',
-  'Spanien':'spanien','Sverige':'sverige','Tjeckien':'tjeckien'
+  'Danmark':'danmark','Finland':'finland','Litauen':'litauen','Nederländerna':'nederlanderna','Norge':'norge',
+  'Italien':'italien','Portugal':'portugal','Spanien':'spanien','Sverige':'sverige','Tjeckien':'tjeckien'
 };
 // Reverse map: slug → region name
 const SLUG_TO_REGION = Object.fromEntries(Object.entries(REGION_SLUGS).map(([k,v]) => [v,k]));
@@ -2935,6 +2938,7 @@ const REGION_NEIGHBORS = {
   'Spanien':['Sverige','Danmark','Norge'],
   'Sverige':['Stockholm','Skåne','Västra Götaland'],
   'Tjeckien':['Sverige','Danmark','Norge'],
+  'Italien':['Spanien','Tjeckien','Sverige'],'Litauen':['Finland','Sverige','Danmark'],'Portugal':['Spanien','Sverige','Danmark'],
   'Nederländerna':['Danmark','Sverige','Norge']
 };
 
@@ -2995,7 +2999,12 @@ function updatePageMetaForRegion(region) {
   const desc = isCountry
     ? `MC-träffar i ${region} 2026. Här samlar vi MC-evenemang som svenska bikers reser till. Träffar, körningar och fester från 380+ arrangörer.`
     : `MC-träffar och MC-evenemang i ${region} 2026. Hitta din nästa träff, körning eller mässa i ${region}. Uppdateras dagligen från 380+ arrangörer.`;
-  const url = `https://druk.se/${slug}`;
+  // Build URL with string concat (NOT template literal). Reason: Google's URL
+  // discovery scans script source as text and was crawling literal template
+  // strings like /SLUG_PLACEHOLDER as 404 pages. Trailing slash makes the
+  // canonical match the indexed URL (e.g. /orebro/), so GSC stops flagging
+  // the page as "Alternate page with proper canonical tag".
+  const url = 'https://druk.se/' + slug + '/';
 
   if (titleEl) titleEl.textContent = title;
   if (descEl) descEl.setAttribute('content', desc);
@@ -3013,14 +3022,16 @@ function buildRegionsFooter(activeRegions) {
   const wrap = document.getElementById('regionsFooter');
   if (!wrap) return;
   const districts = SWEDISH_DISTRICTS.slice().sort((a, b) => a.localeCompare(b, 'sv'));
-  const countries = ['Sverige','Danmark','Norge','Finland','Spanien','Tjeckien'];
+  const countries = ['Sverige','Danmark','Norge','Finland','Litauen','Spanien','Tjeckien'];
   const currentRegion = getRegionFromURL();
   const linkFor = (r) => {
     const slug = REGION_SLUGS[r];
     const isActive = (r === currentRegion);
     const hasEvents = activeRegions ? activeRegions[r] > 0 : true;
     const cls = 'rf-link' + (isActive ? ' rf-active' : '') + (hasEvents ? '' : ' rf-empty');
-    return `<a class="${cls}" href="/${slug}">${r}</a>`;
+    // String concat (NOT template literal) so Google's source scanner does not
+    // pick up a "/${slug}" URL pattern as a 404. Trailing slash matches sitemap.
+    return '<a class="' + cls + '" href="/' + slug + '/">' + r + '</a>';
   };
   wrap.innerHTML = `
     <div class="rf-col">
@@ -3637,16 +3648,16 @@ function openMDetail(cardId) {
         <span class="cal-arrow">&#9660;</span>
       </button>
       <div class="cal-dropdown">
-        <a class="cal-option" href="/${gcalUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
+        <a class="cal-option" href="${gcalUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
           <img src="/ads/icon-google-cal.png" alt="" width="24" height="24"> Google Kalender</a>
-        <a class="cal-option" href="/${outlookUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
+        <a class="cal-option" href="${outlookUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open')">
           <img src="/ads/icon-outlook-cal.png" alt="" width="24" height="24"> Outlook Kalender</a>
         <button class="cal-option" onclick="event.stopPropagation();this.closest('.cal-dropdown-wrapper').classList.remove('open');downloadSingleICS('${ev.id}')">
           <img src="/ads/icon-apple-cal.png" alt="" width="24" height="24"> Apple Kalender</button>
       </div>
     </div>`;
   const mapPillHTML = mapUrl
-    ? `<a class="m-map-btn" href="/${mapUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><img src="/ads/icon-google-maps.png" srcset="ads/icon-google-maps.png 1x, ads/icon-google-maps@2x.png 2x" alt="" width="18" height="18"> <span>Karta</span></a>`
+    ? `<a class="m-map-btn" href="${mapUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><img src="/ads/icon-google-maps.png" srcset="ads/icon-google-maps.png 1x, ads/icon-google-maps@2x.png 2x" alt="" width="18" height="18"> <span>Karta</span></a>`
     : '';
   const actionsHTML = ev._ad ? '' : `<div class="m-detail-actions">${calPillHTML}${mapPillHTML}</div>`;
 
@@ -3854,35 +3865,35 @@ function updateMobilePillCounts() {
 
 // ========== WEATHER SYSTEM ==========
 const LOCATION_COORDS = {
-  'stockholm': { lat: 59.33, lon: 18.07 }, 'skansbacken 4': { lat: 59.3007916, lon: 18.0820597 }, 'skansbacken 4, gullmarsplan, stockholm': { lat: 59.3007916, lon: 18.0820597 }, 'edsvallabacken 5, 123 43 farsta': { lat: 59.2410587, lon: 18.1141892 }, 'edsvallabacken 5': { lat: 59.2410587, lon: 18.1141892 }, 'göteborg': { lat: 57.71, lon: 11.97 },
-  'malmö': { lat: 55.60, lon: 13.00 }, 'uppsala': { lat: 59.86, lon: 17.64 }, 'hyttögatan': { lat: 59.88, lon: 17.59 }, 'sofielundsgatan 5b, 753 23 uppsala': { lat: 59.851217, lon: 17.6646664 }, 'kulturhuset femman': { lat: 59.851217, lon: 17.6646664 }, 'tärnsjö': { lat: 60.16, lon: 16.94 }, 'upplands-väsby': { lat: 59.52, lon: 17.91 }, 'tierp': { lat: 60.34, lon: 17.51 },
-  'linköping': { lat: 58.41, lon: 15.63 }, 'bonnorpsgatan': { lat: 58.4315106, lon: 15.5998161 }, 'låskolvsgatan': { lat: 58.40, lon: 15.69 }, 'norrköping': { lat: 58.59, lon: 16.18 }, 'bråvalla': { lat: 58.62, lon: 16.08 },
+  'stockholm': { lat: 59.33, lon: 18.07 }, 'tyresö slott': { lat: 59.2353474, lon: 18.3052139 }, 'skansbacken 4': { lat: 59.3007916, lon: 18.0820597 }, 'skansbacken 4, gullmarsplan, stockholm': { lat: 59.3007916, lon: 18.0820597 }, 'edsvallabacken 5, 123 43 farsta': { lat: 59.2410587, lon: 18.1141892 }, 'edsvallabacken 5': { lat: 59.2410587, lon: 18.1141892 }, 'göteborg': { lat: 57.71, lon: 11.97 },
+  'malmö': { lat: 55.60, lon: 13.00 }, 'skurup': { lat: 55.49, lon: 13.50 }, 'verkstadsgatan 1, skurup': { lat: 55.4862006, lon: 13.5118304 }, 'uppsala': { lat: 59.86, lon: 17.64 }, 'uppsala (hemlig destination)': { lat: 59.86, lon: 17.64 }, 'hyttögatan': { lat: 59.88, lon: 17.59 }, 'sofielundsgatan 5b, 753 23 uppsala': { lat: 59.851217, lon: 17.6646664 }, 'kulturhuset femman': { lat: 59.851217, lon: 17.6646664 }, 'tärnsjö': { lat: 60.16, lon: 16.94 }, 'tärnsjö järnvägsstation': { lat: 60.1560291, lon: 16.9248957 }, 'upplands-väsby': { lat: 59.52, lon: 17.91 }, 'tierp': { lat: 60.34, lon: 17.51 },
+  'linköping': { lat: 58.41, lon: 15.63 }, 'bonnorpsgatan': { lat: 58.4315106, lon: 15.5998161 }, 'låskolvsgatan': { lat: 58.40, lon: 15.69 }, 'norrköping': { lat: 58.59, lon: 16.18 }, 'malmgatan 4, norrköping': { lat: 58.6060302, lon: 16.1794709 }, 'mc-huset östergötland': { lat: 58.6060302, lon: 16.1794709 }, 'bråvalla': { lat: 58.62, lon: 16.08 },
   'örebro': { lat: 59.27, lon: 15.21 }, 'västerås': { lat: 59.61, lon: 16.54 },
-  'helsingborg': { lat: 56.05, lon: 12.69 }, 'hyllinge': { lat: 56.0997437, lon: 12.8524663 }, 'vångavägen 4, hyllinge': { lat: 56.0997437, lon: 12.8524663 }, 'yamaha center helsingborg': { lat: 56.0997437, lon: 12.8524663 }, 'ödåkra': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159, ödåkra': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159, ödåkra, helsingborg': { lat: 56.0915565, lon: 12.7443969 }, 'nilssons mc': { lat: 56.0915565, lon: 12.7443969 }, 'jönköping': { lat: 57.78, lon: 14.16 }, 'sjukhusgatan': { lat: 57.7725181, lon: 14.1977511 }, 'spånhyltan': { lat: 56.96, lon: 14.36 }, 'östersunds camping': { lat: 63.16, lon: 14.67 },
-  'luleå': { lat: 65.58, lon: 22.15 }, 'umeå': { lat: 63.83, lon: 20.26 }, 'döbelns park': { lat: 63.8229826, lon: 20.2703079 }, 'industrivägen 24': { lat: 63.8407643, lon: 20.2274606 }, 'vännäsby': { lat: 63.92, lon: 19.83 },
+  'helsingborg': { lat: 56.05, lon: 12.69 }, 'hyllinge': { lat: 56.0997437, lon: 12.8524663 }, 'vångavägen 4, hyllinge': { lat: 56.0997437, lon: 12.8524663 }, 'yamaha center helsingborg': { lat: 56.0997437, lon: 12.8524663 }, 'ödåkra': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159, ödåkra': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159, ödåkra, helsingborg': { lat: 56.0915565, lon: 12.7443969 }, 'nilssons mc': { lat: 56.0915565, lon: 12.7443969 }, 'jönköping': { lat: 57.78, lon: 14.16 }, 'tabergs topp': { lat: 57.679270, lon: 14.081600 }, 'tabergs topp, taberg': { lat: 57.679270, lon: 14.081600 }, 'forsviks bruk': { lat: 58.5790803, lon: 14.4366139 }, 'bruksvägen 2, forsvik': { lat: 58.5790803, lon: 14.4366139 }, 'hyltebruk': { lat: 56.9997593, lon: 13.2399333 }, 'storgatan 8, hyltebruk': { lat: 56.9997593, lon: 13.2399333 }, 'sjukhusgatan': { lat: 57.7725181, lon: 14.1977511 }, 'st1 asecs': { lat: 57.7725181, lon: 14.1977511 }, 'st1 asecs, jönköping': { lat: 57.7725181, lon: 14.1977511 }, 'lillsjöplan 4': { lat: 57.7800232, lon: 14.173035 }, 'lillsjöplan 4, jönköping': { lat: 57.7800232, lon: 14.173035 }, 'lillsjöplan': { lat: 57.7800232, lon: 14.173035 }, 'trökörna frambo bygdegård': { lat: 58.2629167, lon: 12.6192195 }, 'trökörna frambo bygdegård, grästorp': { lat: 58.2629167, lon: 12.6192195 }, 'grästorp': { lat: 58.34, lon: 12.67 }, 'spånhyltan': { lat: 56.96, lon: 14.36 }, 'östersunds camping': { lat: 63.16, lon: 14.67 },
+  'luleå': { lat: 65.58, lon: 22.15 }, 'umeå': { lat: 63.83, lon: 20.26 }, 'kummelvägen 1, umeå': { lat: 63.8506605, lon: 20.1417147 }, 'kummelvägen 1': { lat: 63.8506605, lon: 20.1417147 }, 'döbelns park': { lat: 63.8229826, lon: 20.2703079 }, 'industrivägen 24': { lat: 63.8407643, lon: 20.2274606 }, 'vännäsby': { lat: 63.92, lon: 19.83 },
   'älmhult': { lat: 56.5464149, lon: 14.156396 }, 'torvströvägen 6': { lat: 56.5464149, lon: 14.156396 }, 'torvströvägen 6, 343 33 älmhult': { lat: 56.5464149, lon: 14.156396 },
   'hasselfors': { lat: 59.0976001, lon: 14.649179 }, 'bruksgatan 4a': { lat: 59.0976001, lon: 14.649179 }, 'bruksgatan 4a, 695 60 hasselfors': { lat: 59.0976001, lon: 14.649179 }, 'bruksparken hasselfors': { lat: 59.0976001, lon: 14.649179 },
   'nyhammar': { lat: 60.2731261, lon: 14.9506754 }, 'norrbovägen 54': { lat: 60.2731261, lon: 14.9506754 }, 'norrbovägen 54, 77014 nyhammar': { lat: 60.2731261, lon: 14.9506754 }, 'norrbo folkets hus': { lat: 60.2731261, lon: 14.9506754 },
   'österbybruk': { lat: 60.1982266, lon: 17.8815795 }, 'dannemoravägen 46': { lat: 60.1982266, lon: 17.8815795 }, 'dannemoravägen 46, österbybruk': { lat: 60.1982266, lon: 17.8815795 }, 'folkets hus österbybruk': { lat: 60.1982266, lon: 17.8815795 },
-  'gärsnäs': { lat: 55.49, lon: 14.17 }, 'stenhedsvägen 3, 272 61 gärsnäs': { lat: 55.5444665, lon: 14.1747082 }, 'stenhedsvägen 3': { lat: 55.5444665, lon: 14.1747082 }, 'österlenvulk': { lat: 55.5444665, lon: 14.1747082 }, 'greve': { lat: 55.60, lon: 12.30 }, 'gävle': { lat: 60.67, lon: 17.14 }, 'kungsängsvägen 75': { lat: 60.6620583, lon: 17.0823886 }, 'forsbacka': { lat: 60.62, lon: 16.88 }, 'alfta': { lat: 61.48, lon: 15.99 }, 'alvesta': { lat: 56.90, lon: 14.56 }, 'årjäng': { lat: 59.38, lon: 12.13 }, 'vedum': { lat: 58.17, lon: 12.98 }, 'åhus': { lat: 55.93, lon: 14.31 }, 'hammarö': { lat: 59.33, lon: 13.52 }, 'karlstad': { lat: 59.38, lon: 13.50 }, 'kolstavallen': { lat: 59.8880115, lon: 12.5234598 }, 'kolstavallen, gunnarskog': { lat: 59.8880115, lon: 12.5234598 }, 'kmx hynboholm': { lat: 59.46, lon: 13.36 },
+  'gärsnäs': { lat: 55.49, lon: 14.17 }, 'stenhedsvägen 3, 272 61 gärsnäs': { lat: 55.5444665, lon: 14.1747082 }, 'stenhedsvägen 3': { lat: 55.5444665, lon: 14.1747082 }, 'österlenvulk': { lat: 55.5444665, lon: 14.1747082 }, 'greve': { lat: 55.60, lon: 12.30 }, 'gävle': { lat: 60.67, lon: 17.14 }, 'kungsängsvägen 75': { lat: 60.6620583, lon: 17.0823886 }, 'kryddstigen 12': { lat: 60.6574103, lon: 17.1711974 }, 'kryddstigen 12, gävle': { lat: 60.6574103, lon: 17.1711974 }, 'ockelbo': { lat: 60.89, lon: 16.72 }, 'sjöbacken': { lat: 60.892767, lon: 16.7143933 }, 'sjöbacksvägen 22': { lat: 60.892767, lon: 16.7143933 }, 'sjöbacksvägen 22, ockelbo': { lat: 60.892767, lon: 16.7143933 }, 'forsbacka': { lat: 60.62, lon: 16.88 }, 'alfta': { lat: 61.48, lon: 15.99 }, 'alvesta': { lat: 56.90, lon: 14.56 }, 'årjäng': { lat: 59.38, lon: 12.13 }, 'brännaregatan 6': { lat: 59.3825753, lon: 12.131063 }, 'brännaregatan 6, 672 31 årjäng': { lat: 59.3825753, lon: 12.131063 }, 'vedum': { lat: 58.17, lon: 12.98 }, 'åhus': { lat: 55.93, lon: 14.31 }, 'hammarö': { lat: 59.33, lon: 13.52 }, 'karlstad': { lat: 59.38, lon: 13.50 }, 'romstadsvägen 2': { lat: 59.3789211, lon: 13.4763122 }, 'kolstavallen': { lat: 59.8880115, lon: 12.5234598 }, 'kolstavallen, gunnarskog': { lat: 59.8880115, lon: 12.5234598 }, 'kmx hynboholm': { lat: 59.46, lon: 13.36 },
   'sälen': { lat: 61.15, lon: 13.26 }, 'stöten': { lat: 61.15, lon: 13.26 }, 'gelleråsen': { lat: 59.3836813, lon: 14.5093658 }, 'lindome': { lat: 57.57, lon: 12.09 }, 'mölndal': { lat: 57.65, lon: 12.01 }, 'norra ågatan': { lat: 57.6660677, lon: 12.0135647 }, 'skoghall': { lat: 59.32, lon: 13.47 },
   'sundsvall': { lat: 62.39, lon: 17.31 }, 'kontorsvägen 8': { lat: 62.38, lon: 17.36 }, 'östersund': { lat: 63.18, lon: 14.64 }, 'stortorget, östersund': { lat: 63.179182, lon: 14.635484 },
-  'växjö': { lat: 56.88, lon: 14.81 }, 'eksjö': { lat: 57.67, lon: 14.97 }, 'nifsarp': { lat: 57.6377968, lon: 14.9700034 }, 'galoppstigen': { lat: 57.6377968, lon: 14.9700034 }, 'hejdeby': { lat: 57.67, lon: 18.32 }, 'halmstad': { lat: 56.67, lon: 12.86 }, 'sadelvägen 720': { lat: 56.63, lon: 12.94 }, 'trönninge': { lat: 56.621431, lon: 12.9508076 }, 'trönningemacken': { lat: 56.621431, lon: 12.9508076 },
-  'karlskrona': { lat: 56.16, lon: 15.59 }, 'kalmar': { lat: 56.66, lon: 16.36 }, 'virserum': { lat: 57.32, lon: 15.57 },
-  'falun': { lat: 60.61, lon: 15.63 }, 'fagersta': { lat: 59.98, lon: 15.80 }, 'visby': { lat: 57.64, lon: 18.30 },
-  'avesta': { lat: 60.15, lon: 16.17 }, 'myntgatan 8': { lat: 60.1461242, lon: 16.1760174 }, 'trollhättan': { lat: 58.28, lon: 12.29 }, 'sjöatorp': { lat: 56.92, lon: 14.42 }, 'enhörna': { lat: 59.25, lon: 17.51 },
+  'växjö': { lat: 56.88, lon: 14.81 }, 'grand samarkand': { lat: 56.884661, lon: 14.765066 }, 'eksjö': { lat: 57.67, lon: 14.97 }, 'nifsarp': { lat: 57.6377968, lon: 14.9700034 }, 'galoppstigen': { lat: 57.6377968, lon: 14.9700034 }, 'hejdeby': { lat: 57.67, lon: 18.32 }, 'halmstad': { lat: 56.67, lon: 12.86 }, 'sadelvägen 720': { lat: 56.63, lon: 12.94 }, 'trönninge': { lat: 56.621431, lon: 12.9508076 }, 'trönningemacken': { lat: 56.621431, lon: 12.9508076 },
+  'karlskrona': { lat: 56.16, lon: 15.59 }, 'kalmar': { lat: 56.66, lon: 16.36 }, 'vallgatan 2, kristdala': { lat: 57.4007127, lon: 16.1968561 }, 'virserum': { lat: 57.32, lon: 15.57 }, 'västerviksvägen 1, frödinge': { lat: 57.6995291, lon: 16.0036305 },
+  'falun': { lat: 60.61, lon: 15.63 }, 'centralvägen 30': { lat: 60.5904167, lon: 15.7447248 }, 'fagersta': { lat: 59.98, lon: 15.80 }, 'visby': { lat: 57.64, lon: 18.30 }, 'herkulesvägen 10': { lat: 57.6469159, lon: 18.3162641 }, 'herkulesvägen 10, visby': { lat: 57.6469159, lon: 18.3162641 },
+  'avesta': { lat: 60.15, lon: 16.17 }, 'myntgatan 8': { lat: 60.1461242, lon: 16.1760174 }, 'trollhättan': { lat: 58.28, lon: 12.29 }, 'sjuntorp': { lat: 58.196423, lon: 12.223956 }, 'valldavägen 1238': { lat: 57.4056766, lon: 11.9841833 }, 'sjöatorp': { lat: 56.92, lon: 14.42 }, 'enhörna': { lat: 59.25, lon: 17.51 },
   'borås': { lat: 57.72, lon: 12.94 }, 'von lingens väg 3': { lat: 57.705203, lon: 12.9489166 }, 'eskilstuna': { lat: 59.37, lon: 16.51 },
-  'solna': { lat: 59.36, lon: 18.00 }, 'lidköping': { lat: 58.51, lon: 13.16 }, 'kinnegatan 15, 531 33 lidköping': { lat: 58.5029052, lon: 13.1685868 }, 'kinnegatan 15': { lat: 58.5029052, lon: 13.1685868 },
+  'solna': { lat: 59.36, lon: 18.00 }, 'lidköping': { lat: 58.51, lon: 13.16 }, 'kinnegatan 15, 531 33 lidköping': { lat: 58.5029052, lon: 13.1685868 }, 'kinnegatan 15': { lat: 58.5029052, lon: 13.1685868 }, 'mc-konsult i lidköping': { lat: 58.502843, lon: 13.167844 },
   'skövde': { lat: 58.39, lon: 13.85 }, 'östmark': { lat: 60.29, lon: 12.75 }, 'hofors': { lat: 60.56, lon: 16.33 }, 'hudiksvall': { lat: 61.73, lon: 17.11 },
   'mora': { lat: 61.01, lon: 14.54 }, 'hedemora': { lat: 60.28, lon: 15.99 }, 'filipstad': { lat: 59.71, lon: 14.17 },
-  'kumla': { lat: 59.13, lon: 15.14 }, 'motala': { lat: 58.54, lon: 15.04 },
+  'kumla': { lat: 59.13, lon: 15.14 }, 'kumla torg': { lat: 59.127749, lon: 15.143659 }, 'motala': { lat: 58.54, lon: 15.04 }, 'östvalla': { lat: 58.5186958, lon: 15.1781826 }, 'östvalla, motala': { lat: 58.5186958, lon: 15.1781826 },
   'väring': { lat: 58.63, lon: 13.93 }, 'kiruna': { lat: 67.86, lon: 20.23 }, 'industrivägen 2': { lat: 67.84792, lon: 20.2588702 }, 'industrivägen 2, 981 38 kiruna': { lat: 67.84792, lon: 20.2588702 }, 'svinkallt mc klubbhus': { lat: 67.84792, lon: 20.2588702 },
   'nyköping': { lat: 58.75, lon: 17.01 }, 'enköping': { lat: 59.64, lon: 17.08 }, 'enköpings mk': { lat: 59.65, lon: 17.05 }, 'pepparrotsbanan': { lat: 59.6562652, lon: 17.0494194 }, 'tärby 18': { lat: 59.6562652, lon: 17.0494194 }, 'tärby 18, 745 95 enköping': { lat: 59.6562652, lon: 17.0494194 }, 'malmköping': { lat: 59.139416, lon: 16.7314491 }, 'förrådsgatan 15, 642 60 malmköping': { lat: 59.139416, lon: 16.7314491 }, 'malmköping campingen': { lat: 59.139416, lon: 16.7314491 },
   'köping': { lat: 59.51, lon: 15.99 }, 'julita': { lat: 59.14, lon: 16.05 },
-  'norrtälje': { lat: 59.76, lon: 18.70 }, 'katrineholm': { lat: 58.99, lon: 16.21 },
-  'borlänge': { lat: 60.49, lon: 15.44 }, 'lustbergsvägen 5': { lat: 60.4693006, lon: 15.4404403 }, 'lustbergsvägen 5, borlänge': { lat: 60.4693006, lon: 15.4404403 }, 'ludvika': { lat: 60.15, lon: 15.19 },
+  'norrtälje': { lat: 59.76, lon: 18.70 }, 'nifsta gård': { lat: 59.7286718, lon: 18.1497919 }, 'nifsta gård, gottröra': { lat: 59.7286718, lon: 18.1497919 }, 'katrineholm': { lat: 58.99, lon: 16.21 },
+  'borlänge': { lat: 60.49, lon: 15.44 }, 'lustbergsvägen 5': { lat: 60.4693006, lon: 15.4404403 }, 'lustbergsvägen 5, borlänge': { lat: 60.4693006, lon: 15.4404403 }, 'circle k borlänge': { lat: 60.4780066, lon: 15.4356021 }, 'circle k, borlänge': { lat: 60.4780066, lon: 15.4356021 }, 'ludvika': { lat: 60.15, lon: 15.19 },
   'landskrona': { lat: 55.87, lon: 12.83 }, 'lund': { lat: 55.70, lon: 13.19 },
-  'kristianstad': { lat: 56.03, lon: 14.15 }, 'förrådsvägen 10, 291 63 kristianstad': { lat: 55.9859599, lon: 14.1239152 }, 'åsum ring': { lat: 55.9859599, lon: 14.1239152 }, 'varberg': { lat: 57.11, lon: 12.25 },
+  'kristianstad': { lat: 56.03, lon: 14.15 }, 'förrådsvägen 10, 291 63 kristianstad': { lat: 55.9859599, lon: 14.1239152 }, 'åsum ring': { lat: 55.9859599, lon: 14.1239152 }, 'biltema kristianstad': { lat: 56.02313, lon: 14.113968 }, 'biltema, kristianstad': { lat: 56.02313, lon: 14.113968 }, 'öllegårdsväg 2': { lat: 56.02313, lon: 14.113968 }, 'öllegårds väg 2': { lat: 56.02313, lon: 14.113968 }, 'varberg': { lat: 57.11, lon: 12.25 }, 'apelviken': { lat: 57.090060, lon: 12.250010 },
   'kungsbacka': { lat: 57.49, lon: 12.08 }, 'kållered': { lat: 57.61, lon: 12.05 }, 'alingsås': { lat: 57.93, lon: 12.53 },
   'mariestad': { lat: 58.71, lon: 13.82 }, 'arvika': { lat: 59.65, lon: 12.59 },
   'härnösand': { lat: 62.63, lon: 17.94 }, 'mittsverigebanan': { lat: 62.60, lon: 17.82 }, 'piteå': { lat: 65.32, lon: 21.48 }, 'öjebyn': { lat: 65.31, lon: 21.43 },
@@ -3891,14 +3902,14 @@ const LOCATION_COORDS = {
   'huskvarna': { lat: 57.79, lon: 14.27 }, 'mjölby': { lat: 58.33, lon: 15.13 },
   'tranås': { lat: 58.04, lon: 14.98 }, 'säffle': { lat: 59.13, lon: 12.93 },
   'torsby': { lat: 60.14, lon: 13.00 }, 'bollnäs': { lat: 61.35, lon: 16.39 }, 'tegelbruksvägen 20, bollnäs': { lat: 61.3820136, lon: 16.3963913 }, 'tegelbruksvägen, bollebygd': { lat: 57.6573282, lon: 12.5358154 }, 'brottby': { lat: 59.56, lon: 18.29 },
-  'söderhamn': { lat: 61.30, lon: 17.06 }, 'ölsund': { lat: 61.28, lon: 16.97 }, 'söderköping': { lat: 58.48, lon: 16.32 }, 'sandviken': { lat: 60.62, lon: 16.78 },
+  'söderhamn': { lat: 61.30, lon: 17.06 }, 'ölsund': { lat: 61.28, lon: 16.97 }, 'söderköping': { lat: 58.48, lon: 16.32 }, 'sandviken': { lat: 60.62, lon: 16.78 }, 'medskogssjöns camping': { lat: 60.7763076, lon: 16.7269824 },
   // Smaller towns
   'ankarsrum': { lat: 57.41, lon: 16.27 }, 'arboga': { lat: 59.37, lon: 15.82 }, 'köpingsvägen 8, arboga': { lat: 59.3982645, lon: 15.8586597 }, 'fabriksgatan 5, 732 31 arboga': { lat: 59.3965415, lon: 15.8516961 }, 'italia bike center': { lat: 59.3965415, lon: 15.8516961 },
   'arlöv': { lat: 55.63, lon: 13.07 }, 'askersund': { lat: 58.8894268, lon: 14.9109867 },
   'bankeryd': { lat: 57.59, lon: 14.22 }, 'bergsjö': { lat: 61.58, lon: 16.93 }, 'järvsö': { lat: 61.72, lon: 16.17 },
   'bollebygd': { lat: 57.6689691, lon: 12.5701433 }, 'botkyrka': { lat: 59.20, lon: 17.82 },
   'bromma': { lat: 59.35, lon: 17.92 }, 'bromölla': { lat: 56.07, lon: 14.47 }, 'industrigatan 11': { lat: 56.0660675, lon: 14.4816549 },
-  'dala-järna': { lat: 60.55, lon: 14.09 }, 'degeberga': { lat: 55.59, lon: 13.68 },
+  'dala-järna': { lat: 60.55, lon: 14.09 }, 'trollemölla vägen 52': { lat: 55.8205323, lon: 14.07575 }, 'degeberga':{ lat: 55.59, lon: 13.68 },
   'ekerö': { lat: 59.37, lon: 17.63 }, 'eringsboda': { lat: 56.44, lon: 15.37 },
   'eslöv': { lat: 55.84, lon: 13.30 }, 'falkenberg': { lat: 56.90, lon: 12.48 },
   'fjärås': { lat: 57.27, lon: 12.38 }, 'gagnef': { lat: 61.00, lon: 15.10 },
@@ -3913,16 +3924,17 @@ const LOCATION_COORDS = {
   'klippan': { lat: 56.13, lon: 13.13 }, 'kolmården': { lat: 58.6605369, lon: 16.3990329 },
   'kramfors': { lat: 62.9284332, lon: 17.7862946 }, 'kristinehamn': { lat: 59.3100677, lon: 14.1089193 },
   'kungälv': { lat: 57.869754, lon: 11.9740317 }, 'kågeröd': { lat: 56.00, lon: 13.09 },
-  'laholm': { lat: 56.51, lon: 13.04 }, 'knäred': { lat: 56.55, lon: 13.38 }, 'leksand': { lat: 61.05, lon: 15.03 },
+  'laholm': { lat: 56.51, lon: 13.04 }, 'knäred': { lat: 56.55, lon: 13.38 }, 'leksand': { lat: 60.7307194, lon: 14.998682 }, 'hembygdsgårdarna, leksand': { lat: 60.731280, lon: 14.988355 }, 'hembygdsgårdarna': { lat: 60.731280, lon: 14.988355 }, 'effersgården, insjön': { lat: 60.6711575, lon: 15.1032146 }, 'effersgården': { lat: 60.6711575, lon: 15.1032146 }, 'vintergatan 61, insjön': { lat: 60.6716434, lon: 15.103656 }, 'vintergatan 61': { lat: 60.6716434, lon: 15.103656 },
   'lidingö': { lat: 59.37, lon: 18.43 }, 'limhamn': { lat: 55.58, lon: 13.10 },
-  'lindesberg': { lat: 59.61, lon: 15.20 }, 'ljungby': { lat: 57.18, lon: 14.87 },
+  'lindesberg': { lat: 59.61, lon: 15.20 }, 'ljungby': { lat: 56.83, lon: 13.94 }, 'vislandavägen': { lat: 56.82597, lon: 14.02986 }, 'vislandavägen, ljungby': { lat: 56.82597, lon: 14.02986 },
   'vännäs': { lat: 63.91, lon: 19.76 },
   'mölnlycke': { lat: 57.6564569, lon: 12.1132408 }, 'åvägen 3d': { lat: 57.6564569, lon: 12.1132408 }, 'moheda': { lat: 56.90, lon: 14.82 }, 'slätthög 2': { lat: 57.0190225, lon: 14.5151129 }, 'slätthög 2, 342 63 moheda': { lat: 57.0190225, lon: 14.5151129 }, 'mullsjö': { lat: 57.92, lon: 13.88 }, 'kyrkekvarn': { lat: 57.92, lon: 13.88 }, 'mönsterås': { lat: 57.45, lon: 16.07 }, 'oknebäcksvägen': { lat: 57.0278095, lon: 16.4324099 },
   'mörarp': { lat: 56.07, lon: 12.80 }, 'kroppavägen': { lat: 56.07, lon: 12.80 }, 'mörbylånga': { lat: 56.53, lon: 16.67 },
   'nacka': { lat: 59.31, lon: 18.34 }, 'norsjö': { lat: 64.9135093, lon: 19.4826413 },
   'nossebro': { lat: 58.25, lon: 13.58 }, 'nynäshamn': { lat: 58.90, lon: 17.95 },
   'orsa': { lat: 61.12, lon: 14.62 }, 'lissvägen': { lat: 61.12, lon: 14.63 }, 'oskarshamn': { lat: 57.27, lon: 16.46 },
-  'rimbo': { lat: 59.63, lon: 18.75 }, 'ronneby': { lat: 56.210434, lon: 15.2760229 },
+  'rimbo': { lat: 59.63, lon: 18.75 }, 'ronneby': { lat: 56.210434, lon: 15.2760229 }, 'växjövägen 105, ronneby': { lat: 56.2974301, lon: 15.1964898 },
+  'hålbyspåret, lagnö': { lat: 59.3865661, lon: 16.9642231 }, 'hålbyspåret': { lat: 59.3865661, lon: 16.9642231 },
   'simrishamn': { lat: 55.53, lon: 14.36 }, 'spjutstorp': { lat: 55.59, lon: 14.21 }, 'skärholmen': { lat: 59.26, lon: 17.89 },
   'sköndal': { lat: 59.30, lon: 18.04 }, 'sollefteå': { lat: 63.17, lon: 17.27 },
   'staffanstorp': { lat: 55.70, lon: 13.21 }, 'strängnäs': { lat: 59.33, lon: 16.98 }, 'strömstad': { lat: 58.94, lon: 11.17 },
@@ -3944,7 +3956,7 @@ const LOCATION_COORDS = {
   'örkelljunga': { lat: 56.28, lon: 13.28 }, 'örnsköldsvik': { lat: 63.29, lon: 18.71 }, 'viktoriaesplanaden': { lat: 63.2896941, lon: 18.72037 },
   'ösmo': { lat: 59.03, lon: 17.88 }, 'alunda': { lat: 60.21, lon: 18.07 }, 'hornborgasjön': { lat: 58.31, lon: 13.55 }, 'lammhult': { lat: 57.17, lon: 14.59 }, 'stångby': { lat: 59.8638489, lon: 17.7210509 }, 'rörken': { lat: 59.9238959, lon: 17.747183 }, 'årdala': { lat: 59.10, lon: 16.47 }, 'borgeby': { lat: 55.75, lon: 13.08 }, 'ulva kvarn': { lat: 59.88, lon: 17.64 },
   'svartsjö': { lat: 59.36, lon: 17.62 }, 'sjöbo': { lat: 55.63, lon: 13.71 }, 'finspång': { lat: 58.71, lon: 15.77 }, 'järnforsen': { lat: 57.18, lon: 15.60 }, 'gudmundsbyn': { lat: 62.38, lon: 17.16 }, 'fotskäl': { lat: 57.48, lon: 12.49 }, 'delsbo': { lat: 61.80, lon: 16.58 }, 'bjuråker': { lat: 61.86, lon: 16.56 }, 'löddeköpinge': { lat: 55.76, lon: 13.01 }, 'grödinge': { lat: 59.14, lon: 17.83 }, 'saltsjö-boo': { lat: 59.32, lon: 18.27 }, 'bergby': { lat: 60.94, lon: 17.04 },
-  'munkfors': { lat: 59.85, lon: 13.54 }, 'falkenbergs motorbana': { lat: 56.98, lon: 12.56 }, 'lindenborgvej': { lat: 55.6214456, lon: 12.0534626 }, 'klintorp': { lat: 58.7010059, lon: 15.6519702 }, 'snutenvägen': { lat: 59.4318133, lon: 17.7940512 }, 'trönö, söderhamn': { lat: 61.3965122, lon: 16.8336652 }, 'nyborgsgatan': { lat: 59.5931784, lon: 15.2157426 }, 'hillevågsveien': { lat: 58.9512568, lon: 5.7425799 },
+  'munkfors': { lat: 59.85, lon: 13.54 }, 'falkenbergs motorbana': { lat: 56.98, lon: 12.56 }, 'lindenborgvej': { lat: 55.6214456, lon: 12.0534626 }, 'klintorp': { lat: 58.7010059, lon: 15.6519702 }, 'circle k norsholm': { lat: 58.491370, lon: 15.952280 }, 'circle k norsholm, klintorp, norsholm': { lat: 58.491370, lon: 15.952280 }, 'gullmarsplans torg': { lat: 59.298400, lon: 18.079907 }, 'gullmarsplans torg, johanneshov': { lat: 59.298400, lon: 18.079907 }, 'träffpunkt gotland': { lat: 57.623022, lon: 18.274136 }, 'färjeleden 30': { lat: 57.623022, lon: 18.274136 }, 'träffpunkt gotland, färjeleden 30, visby': { lat: 57.623022, lon: 18.274136 }, 'karlstorpstugan': { lat: 56.716590, lon: 12.899520 }, 'sperlingsholm 797': { lat: 56.716590, lon: 12.899520 }, 'karlstorpstugan, sperlingsholm 797, holm': { lat: 56.716590, lon: 12.899520 }, 'verkstadsgatan-keramikgatan, höganäs': { lat: 56.213244, lon: 12.558918 }, 'höganäs': { lat: 56.20, lon: 12.55 }, 'kåken vmck': { lat: 57.121626, lon: 12.272753 }, 'susvindsvägen 9': { lat: 57.121626, lon: 12.272753 }, 'kåken vmck, susvindsvägen 9, varberg': { lat: 57.121626, lon: 12.272753 }, 'hälsingegården erik-anders': { lat: 61.162080, lon: 16.593560 }, 'asta 728': { lat: 61.162080, lon: 16.593560 }, 'biltema hudiksvall': { lat: 61.737240, lon: 17.097190 }, 'biltema, hudiksvall': { lat: 61.737240, lon: 17.097190 }, '24:ans servicecenter': { lat: 56.348899, lon: 13.254866 }, '24:ans servicecenter, drakabygget, örkelljunga': { lat: 56.348899, lon: 13.254866 }, 'drakabygget': { lat: 56.348899, lon: 13.254866 }, 'per-tec': { lat: 56.519852, lon: 13.319311 }, 'per-tec, klockarevägen 2, knäred': { lat: 56.519852, lon: 13.319311 }, 'klockarevägen 2': { lat: 56.519852, lon: 13.319311 }, 'snöstorps kyrka': { lat: 56.670480, lon: 12.917867 }, 'ljungbyvägen 72': { lat: 56.670480, lon: 12.917867 }, 'snöstorps kyrka, ljungbyvägen 72, halmstad': { lat: 56.670480, lon: 12.917867 }, 'rasta värdshus': { lat: 57.708020, lon: 14.934060 }, 'kråkebergsvägen 1': { lat: 57.708020, lon: 14.934060 }, 'rasta värdshus, kråkebergsvägen 1, eksjö': { lat: 57.708020, lon: 14.934060 }, 'monikas café': { lat: 64.946508, lon: 19.371231 }, 'norsjövallen 53': { lat: 64.946508, lon: 19.371231 }, 'monikas café, norsjövallen 53, norsjö': { lat: 64.946508, lon: 19.371231 }, 'stinsen, verkstadsgatan 20, perstorp': { lat: 56.133070, lon: 13.383210 }, 'verkstadsgatan 20, perstorp': { lat: 56.133070, lon: 13.383210 }, 'perstorp': { lat: 56.13, lon: 13.39 }, 'skånes motorcyklister': { lat: 55.576900, lon: 12.994500 }, 'södertorpsvägen 90': { lat: 55.576900, lon: 12.994500 }, 'skånes motorcyklister, södertorpsvägen 90, malmö': { lat: 55.576900, lon: 12.994500 }, 'simonsland': { lat: 57.726970, lon: 12.937660 }, 'viskastrandsgatan 5': { lat: 57.726970, lon: 12.937660 }, 'simonsland, viskastrandsgatan 5, borås': { lat: 57.726970, lon: 12.937660 }, 'fub-gården': { lat: 57.089970, lon: 12.249950 }, 'fub-gården, apelviken, varberg': { lat: 57.089970, lon: 12.249950 }, 'stortorget, malmö': { lat: 55.606200, lon: 13.000100 }, 'snutenvägen': { lat: 59.4318133, lon: 17.7940512 }, 'trönö, söderhamn': { lat: 61.3965122, lon: 16.8336652 }, 'nyborgsgatan': { lat: 59.5931784, lon: 15.2157426 }, 'hillevågsveien': { lat: 58.9512568, lon: 5.7425799 },
   // Uppsala-specific venues (added 2026-04-13 audit)
   'enköpings motorgård': { lat: 59.6440532, lon: 17.1017952 }, 'rapsgatan': { lat: 59.8458818, lon: 17.6885113 }, 'klubbkåken': { lat: 59.8638489, lon: 17.7210509 }, 'lelles mc': { lat: 59.8556253, lon: 17.6743881 }, 'sulas mc': { lat: 59.7685073, lon: 17.3905281 }, 'fyrishov': { lat: 59.8704597, lon: 17.6204877 }, 'ulleråkersvägen': { lat: 59.8292438, lon: 17.6477894 }, 'rörken, uppsala': { lat: 59.9238959, lon: 17.747183 }, 'snutenvägen 11': { lat: 59.4318133, lon: 17.7940512 }, 'mörtnäs hagväg 13': { lat: 59.3152887, lon: 18.4309238 },
   // Södermanland-specific venues (added 2026-04-13 audit)
@@ -3983,9 +3995,11 @@ const LOCATION_COORDS = {
   'småland': { lat: 57.50, lon: 15.00 }, 'halland': { lat: 56.90, lon: 12.48 },
   'västerbotten': { lat: 63.83, lon: 20.26 }, 'västkusten': { lat: 57.71, lon: 12.00 },
   'öland': { lat: 56.80, lon: 16.80 }, 'sverige': { lat: 59.33, lon: 18.06 },
-  'danmark': { lat: 55.68, lon: 12.57 }, 'skørping': { lat: 56.83, lon: 9.85 }, 'varde': { lat: 55.62, lon: 8.48 }, 'thorsø': { lat: 56.25, lon: 9.92 }, 'maribo': { lat: 54.77, lon: 11.50 }, 'gislev': { lat: 55.2269321, lon: 10.626802 }, 'ørbækvej 61, 5854 gislev': { lat: 55.2269321, lon: 10.626802 }, 'nakskov': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2, 4900 nakskov': { lat: 54.83309, lon: 11.09206 }, 'nakskov fjord camping': { lat: 54.83309, lon: 11.09206 }, 'juelsminde': { lat: 55.7091, lon: 10.0183 }, 'klejsgårdvej 1, 7130 juelsminde': { lat: 55.7427641, lon: 9.9399153 }, 'klejsgårdvej 1': { lat: 55.7427641, lon: 9.9399153 }, 'norge': { lat: 59.91, lon: 10.75 }, 'sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1, 4313 sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'fauske': { lat: 67.26, lon: 15.39 }, 'trondheim': { lat: 63.43, lon: 10.40 }, 'tumba': { lat: 59.20, lon: 17.83 },
+  'danmark': { lat: 55.68, lon: 12.57 }, 'gymnasievej 3, stenløse': { lat: 55.7745182, lon: 12.1960015 }, 'dybdalsvej 5, daugbjerg': { lat: 56.4365555, lon: 9.1305017 }, 'skørping': { lat: 56.83, lon: 9.85 }, 'varde': { lat: 55.62, lon: 8.48 }, 'thorsø': { lat: 56.25, lon: 9.92 }, 'maribo': { lat: 54.77, lon: 11.50 }, 'gislev': { lat: 55.2269321, lon: 10.626802 }, 'ørbækvej 61, 5854 gislev': { lat: 55.2269321, lon: 10.626802 }, 'nakskov': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2, 4900 nakskov': { lat: 54.83309, lon: 11.09206 }, 'nakskov fjord camping': { lat: 54.83309, lon: 11.09206 }, 'juelsminde': { lat: 55.7091, lon: 10.0183 }, 'klejsgårdvej 1, 7130 juelsminde': { lat: 55.7427641, lon: 9.9399153 }, 'klejsgårdvej 1': { lat: 55.7427641, lon: 9.9399153 }, 'norge': { lat: 59.91, lon: 10.75 }, 'sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1, 4313 sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'fauske': { lat: 67.26, lon: 15.39 }, 'trondheim': { lat: 63.43, lon: 10.40 }, 'tumba': { lat: 59.20, lon: 17.83 },
   'finland': { lat: 60.17, lon: 24.94 }, 'kemora ring': { lat: 63.420208, lon: 23.9800051 }, 'imatra, finland': { lat: 61.1693627, lon: 28.7665858 }, 'muonio': { lat: 67.9332472, lon: 23.6566667 }, 'harrinivantie 35': { lat: 67.9332472, lon: 23.6566667 }, 'harrinivantie 35, 99300 muonio': { lat: 67.9332472, lon: 23.6566667 }, 'harriniva': { lat: 67.9332472, lon: 23.6566667 }, 'tjeckien': { lat: 49.82, lon: 15.47 },
   'spanien': { lat: 40.42, lon: -3.70 },
+  'jordbro': { lat: 59.1449312, lon: 18.1211554 }, 'dåntorpsvägen 5': { lat: 59.1449312, lon: 18.1211554 }, 'dåntorpsvägen 5, 136 50 jordbro': { lat: 59.1449312, lon: 18.1211554 },
+  'litauen': { lat: 54.90, lon: 23.90 }, 'jadagoniai': { lat: 54.9885119, lon: 23.578461 }, 'jadagoniai, kaunas': { lat: 54.9885119, lon: 23.578461 },
   'nederländerna': { lat: 52.37, lon: 4.90 }, 'gasselternijveenschemond': { lat: 52.94, lon: 6.86 },
   // Added 2026-03-22 location audit
   'abild': { lat: 56.88, lon: 12.81 },
@@ -4000,8 +4014,8 @@ const LOCATION_COORDS = {
   'gällö': { lat: 62.9174703, lon: 15.2530832 },
   'häradsback': { lat: 56.80, lon: 15.02 }, 'linvägen 3, 343 92 härадsbäck': { lat: 56.53098, lon: 14.4509218 }, 'linvägen 3, 343 92 häradsbäck': { lat: 56.53098, lon: 14.4509218 }, 'linvägen 3': { lat: 56.53098, lon: 14.4509218 },
   'höting': { lat: 64.1137186, lon: 16.2037552 },
-  'kinnekulle': { lat: 58.60, lon: 13.40 },
-  'ystad': { lat: 55.43, lon: 13.82 }, 'hässleholm': { lat: 56.16, lon: 13.77 }, 'tykarp': { lat: 56.12, lon: 13.69 }, 'jägersro': { lat: 55.57, lon: 13.03 },
+  'kinnekulle': { lat: 58.60, lon: 13.40 }, 'kinnekulle ring': { lat: 58.5470886, lon: 13.3950307 }, 'kinnekulle ring, götene': { lat: 58.5470886, lon: 13.3950307 },
+  'ystad': { lat: 55.43, lon: 13.82 }, 'granatvägen, ystad': { lat: 55.4380885, lon: 13.7905033 }, 'hässleholm': { lat: 56.16, lon: 13.77 }, 'tykarp': { lat: 56.12, lon: 13.69 }, 'jägersro': { lat: 55.57, lon: 13.03 },
   'kristianopel': { lat: 56.2578701, lon: 16.0411673 },
   'linneryd': { lat: 56.72, lon: 15.22 },
   'ljugarn': { lat: 57.33, lon: 18.72 },
@@ -4041,12 +4055,12 @@ const LOCATION_COORDS = {
   'gotland ring': { lat: 57.50, lon: 18.30 },
   'bornholm': { lat: 55.13, lon: 14.92 },
   'åminne': { lat: 57.63, lon: 18.62 },
-  'österrike': { lat: 46.58, lon: 13.90 },
+  'österrike': { lat: 46.58, lon: 13.90 }, 'portugal': { lat: 39.50, lon: -8.00 },
   'stenö': { lat: 61.25, lon: 17.00 },
-  'vidöstern': { lat: 57.07, lon: 13.87 },
+  'vidöstern': { lat: 56.979169, lon: 13.986915 }, 'sundet vid sjön vidöstern': { lat: 56.979169, lon: 13.986915 }, 'vittaryd': { lat: 56.979169, lon: 13.986915 },
   'åland': { lat: 60.10, lon: 19.93 },
   'kristiansand': { lat: 58.15, lon: 8.00 },
-  'roskilde': { lat: 55.64, lon: 12.08 },
+  'roskilde': { lat: 55.64, lon: 12.08 }, 'roskilde havn': { lat: 55.6504779, lon: 12.0777126 },
   'klepp': { lat: 58.78, lon: 5.62 },
   'rogaland': { lat: 58.78, lon: 5.62 },
   'darupvej': { lat: 55.62, lon: 12.08 },
@@ -4441,7 +4455,9 @@ function render() {
     const urlReg = getRegionFromURL();
     if (urlReg && currentRegion === urlReg && currentFilter === 'all' && currentClub === 'all' && currentMonth === 'all' && !searchQuery) {
       const neighbors = (REGION_NEIGHBORS[urlReg] || []).slice(0, 3);
-      const suggestHTML = neighbors.map(n => `<a href="/${REGION_SLUGS[n]}">${n}</a>`).join('');
+      // String concat to keep Google's URL extractor from grabbing the literal
+      // "/${REGION_SLUGS[n]}" template as a 404 path. Trailing slash matches sitemap.
+      const suggestHTML = neighbors.map(n => '<a href="/' + REGION_SLUGS[n] + '/">' + n + '</a>').join('');
       grid.innerHTML = `<div class="region-empty">
         <div class="region-empty-title">Just nu finns inga kommande evenemang i ${urlReg}</div>
         <div class="region-empty-sub">Säsongen är på väg. Kolla in närliggande regioner eller tipsa oss om ett event du känner till.</div>
@@ -4567,7 +4583,7 @@ function render() {
 
     // Footer: "Mer info" either expands card or goes external
     let footerHTML;
-    const orgIconHTML = event.organizerIcon ? `<img class="card-org-icon" src="/${event.organizerIcon}" alt="" width="20" height="20">` : '';
+    const orgIconHTML = event.organizerIcon ? `<img class="card-org-icon" src="${event.organizerIcon}" alt="" width="20" height="20">` : '';
     if (hasBack) {
       footerHTML = `<div class="card-footer">
         <span class="card-organizer">${orgIconHTML}${event.organizer || ''}</span>
@@ -4576,7 +4592,7 @@ function render() {
     } else {
       footerHTML = `<div class="card-footer">
         <span class="card-organizer">${orgIconHTML}${event.organizer || ''}</span>
-        <a class="card-link" href="/${event.link}" target="_blank" rel="noopener">Mer info &rarr;</a>
+        <a class="card-link" href="${event.link}" target="_blank" rel="noopener">Mer info &rarr;</a>
       </div>`;
     }
 
@@ -4588,7 +4604,7 @@ function render() {
       card.innerHTML = `
         <div class="card-flipper">
           <div class="card-front" onclick="cardExpand('${cardId}')">
-            <img class="poster-front-img" src="/${event.frontImage}" alt="${displayName}" loading="lazy" decoding="async" width="800" height="1067">
+            <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy" decoding="async" width="800" height="1067">
           </div>
         </div>
       `;

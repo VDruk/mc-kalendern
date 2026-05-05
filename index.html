@@ -2998,7 +2998,12 @@ function updatePageMetaForRegion(region) {
   const desc = isCountry
     ? `MC-träffar i ${region} 2026. Här samlar vi MC-evenemang som svenska bikers reser till. Träffar, körningar och fester från 380+ arrangörer.`
     : `MC-träffar och MC-evenemang i ${region} 2026. Hitta din nästa träff, körning eller mässa i ${region}. Uppdateras dagligen från 380+ arrangörer.`;
-  const url = `https://druk.se/${slug}`;
+  // Build URL with string concat (NOT template literal). Reason: Google's URL
+  // discovery scans script source as text and was crawling literal template
+  // strings like /SLUG_PLACEHOLDER as 404 pages. Trailing slash makes the
+  // canonical match the indexed URL (e.g. /orebro/), so GSC stops flagging
+  // the page as "Alternate page with proper canonical tag".
+  const url = 'https://druk.se/' + slug + '/';
 
   if (titleEl) titleEl.textContent = title;
   if (descEl) descEl.setAttribute('content', desc);
@@ -3023,7 +3028,9 @@ function buildRegionsFooter(activeRegions) {
     const isActive = (r === currentRegion);
     const hasEvents = activeRegions ? activeRegions[r] > 0 : true;
     const cls = 'rf-link' + (isActive ? ' rf-active' : '') + (hasEvents ? '' : ' rf-empty');
-    return `<a class="${cls}" href="/${slug}">${r}</a>`;
+    // String concat (NOT template literal) so Google's source scanner does not
+    // pick up a "/${slug}" URL pattern as a 404. Trailing slash matches sitemap.
+    return '<a class="' + cls + '" href="/' + slug + '/">' + r + '</a>';
   };
   wrap.innerHTML = `
     <div class="rf-col">
@@ -4447,7 +4454,9 @@ function render() {
     const urlReg = getRegionFromURL();
     if (urlReg && currentRegion === urlReg && currentFilter === 'all' && currentClub === 'all' && currentMonth === 'all' && !searchQuery) {
       const neighbors = (REGION_NEIGHBORS[urlReg] || []).slice(0, 3);
-      const suggestHTML = neighbors.map(n => `<a href="/${REGION_SLUGS[n]}">${n}</a>`).join('');
+      // String concat to keep Google's URL extractor from grabbing the literal
+      // "/${REGION_SLUGS[n]}" template as a 404 path. Trailing slash matches sitemap.
+      const suggestHTML = neighbors.map(n => '<a href="/' + REGION_SLUGS[n] + '/">' + n + '</a>').join('');
       grid.innerHTML = `<div class="region-empty">
         <div class="region-empty-title">Just nu finns inga kommande evenemang i ${urlReg}</div>
         <div class="region-empty-sub">Säsongen är på väg. Kolla in närliggande regioner eller tipsa oss om ett event du känner till.</div>

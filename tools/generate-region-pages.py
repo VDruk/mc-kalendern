@@ -69,7 +69,9 @@ def make_meta(region: str, slug: str, is_country: bool):
         title = f'MC-träffar i {region} 2026 - MC-evenemang & körningar | MC Kalendern'
         desc = (f'MC-träffar och MC-evenemang i {region} 2026. Hitta din nästa träff, '
                 f'körning eller mässa i {region}. Uppdateras dagligen från 380+ arrangörer.')
-    url = f'https://druk.se/{slug}'
+    # Trailing slash so canonical matches the indexed URL. Without it, GSC flags
+    # /orebro/ as "Alternate page with proper canonical tag" of /orebro.
+    url = f'https://druk.se/{slug}/'
     h1_html = f'MC-träffar i <span>{region}</span>'
     sub = f'MC-evenemang och körningar i {region} 2026'
     return title, desc, title, desc, url, h1_html, sub
@@ -95,6 +97,12 @@ def patch_html(html: str, region: str, slug: str, is_country: bool) -> str:
         path = match.group(2)
         if path.startswith(('http://', 'https://', '/', '#', 'data:', 'mailto:', 'tel:', 'javascript:')):
             return match.group(0)
+        # Skip JS template-literal placeholders. Without this, href="${event.link}"
+        # in a JS string was rewritten to href="/${event.link}", which evaluated
+        # at runtime to /https://hdcs.se/X and Google indexed it as a 404 at
+        # https://druk.se/https://hdcs.se/X.
+        if path.startswith('${') or '${' in path:
+            return match.group(0)
         return f'{attr}="/{path}"'
     html = re.sub(r'(\bsrc|\bhref)="([^"]+)"', absolutize, html)
 
@@ -102,6 +110,9 @@ def patch_html(html: str, region: str, slug: str, is_country: bool) -> str:
         quote = match.group(1) or ''
         path = match.group(2)
         if path.startswith(('http://', 'https://', '/', '#', 'data:')):
+            return match.group(0)
+        # Same template-literal guard as above.
+        if path.startswith('${') or '${' in path:
             return match.group(0)
         return f'url({quote}/{path}{quote})'
     html = re.sub(r'url\((["\']?)([^)"\']+)\1\)', absolutize_css_url, html)
