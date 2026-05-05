@@ -123,8 +123,11 @@ def validate_event(event, all_events, coords, errors, warnings):
 
     # --- 6. Valid region ---
     region = event.get("region", "")
-    if region and region not in VALID_REGIONS:
-        errors.append(f"[{eid}] Invalid region: '{region}'")
+    if region:
+        regions_to_check = region if isinstance(region, list) else [region]
+        for r in regions_to_check:
+            if r not in VALID_REGIONS:
+                errors.append(f"[{eid}] Invalid region: '{r}'")
 
     # --- 7. Swedish chars check ---
     for field in ["type", "region", "name", "description", "descriptionFull", "location"]:
