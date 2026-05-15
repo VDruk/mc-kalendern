@@ -2103,7 +2103,7 @@
       background-color: #1a1a2e;
       background-image: var(--card-bg-image, none);
       background-size: cover;
-      background-position: center;
+      background-position: var(--card-bg-position, center);
       padding: 0;
       /* GPU compositing: prevents repaint flicker during fast scroll on iOS */
       transform: translateZ(0);
@@ -4699,6 +4699,9 @@ function render() {
           const bgUrl = card.dataset.bg;
           if (bgUrl) {
             card.style.setProperty('--card-bg-image', 'url("' + bgUrl + '")');
+            if (bgUrl.includes('hd-default-back-2.jpg') || bgUrl.includes('hd-default-back-3.jpg')) {
+              card.style.setProperty('--card-bg-position', 'top');
+            }
             delete card.dataset.bg;
           }
           window._cardBgObserver.unobserve(card);
