@@ -4603,16 +4603,12 @@ function render() {
     card.id = cardId;
 
     // Render ONLY the front side. Back side is built on demand in cardExpand().
-    // mobileFrontImage: a photo shown only on mobile as the visible card front (poster-style).
-    // Desktop ignores it and renders the normal Type 1 text card. The backImage (e.g. poster)
-    // still shows in the mobile modal hero when the user taps the card.
-    const heroImage = event.frontImage || (_isMobileRender && event.mobileFrontImage ? event.mobileFrontImage : null);
-    if (heroImage) {
+    if (event.frontImage) {
       card.classList.add('poster-card');
       card.innerHTML = `
         <div class="card-flipper">
           <div class="card-front" onclick="cardExpand('${cardId}')">
-            <img class="poster-front-img" src="${heroImage}" alt="${displayName}" loading="lazy" decoding="async" width="800" height="1067">
+            <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy" decoding="async" width="800" height="1067">
           </div>
         </div>
       `;
