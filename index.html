@@ -2039,62 +2039,75 @@
       color: var(--accent);
       padding: 0;
     }
-    .event-map-section:not(.collapsed):not(.fullscreen) #eventMap { margin-top: 8px; }
+    .event-map-section:not(.collapsed) #eventMap { margin-top: 8px; }
 
-    /* Fullscreen map mode on mobile */
-    .event-map-section.fullscreen {
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      z-index: 9999;
-      padding: 0;
-      margin: 0;
-      max-width: none;
-      background: #fff;
-    }
-    .event-map-section.fullscreen .event-map-toggle { display: none; }
-    .event-map-section.fullscreen #eventMap {
-      display: block !important;
-      width: 100%;
-      height: 100vh !important;
-      border-radius: 0;
-      border: 0;
-      margin: 0 !important;
-    }
-    .event-map-section.fullscreen .event-map-stats {
-      display: block !important;
-      position: fixed;
-      bottom: 10px;
-      left: 12px; right: 12px;
-      text-align: center;
-      background: rgba(255,255,255,0.92);
-      padding: 6px 10px;
-      border-radius: 10px;
-      z-index: 10001;
-      font-size: 12px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.15);
-    }
-    .event-map-section.fullscreen .map-touch-overlay { display: none !important; }
-    .map-fullscreen-close {
+    /* Mini-list of visible events under the map (option 5) */
+    .map-minilist {
       display: none;
-      position: fixed;
-      top: 12px;
-      right: 12px;
-      width: 44px;
-      height: 44px;
-      border-radius: 22px;
+      margin: 8px -10px 0;
+      padding: 4px 10px 8px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      white-space: nowrap;
+    }
+    .map-minilist::-webkit-scrollbar { display: none; }
+    .event-map-section:not(.collapsed) .map-minilist { display: block; }
+    .mini-card {
+      display: inline-flex;
+      flex-direction: column;
+      vertical-align: top;
+      width: 220px;
+      scroll-snap-align: center;
       background: #fff;
       border: 1px solid var(--border);
-      box-shadow: 0 2px 10px rgba(0,0,0,0.25);
-      font-size: 22px;
+      border-radius: 12px;
+      padding: 10px 12px;
+      margin-right: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+      cursor: pointer;
+      white-space: normal;
+      transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    }
+    .mini-card.active {
+      border-color: var(--accent);
+      box-shadow: 0 2px 10px rgba(217,119,6,0.3);
+      transform: translateY(-1px);
+    }
+    .mini-card-date {
+      font-size: 11px;
+      color: var(--accent);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+    .mini-card-name {
+      font-size: 13px;
       font-weight: 600;
       color: var(--text-primary);
-      cursor: pointer;
-      z-index: 10002;
-      line-height: 40px;
-      text-align: center;
-      padding: 0;
+      margin: 3px 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      line-height: 1.25;
     }
-    .event-map-section.fullscreen .map-fullscreen-close { display: block; }
+    .mini-card-loc {
+      font-size: 11px;
+      color: #666;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .map-minilist-empty {
+      display: inline-block;
+      padding: 12px 8px;
+      font-size: 12px;
+      color: #888;
+    }
 
     /* Flatten filters-wrapper so it contributes no space on mobile */
     .filters-wrapper { background: transparent; border: 0; box-shadow: none; padding: 0; margin: 0; }
@@ -2618,11 +2631,11 @@
 <!-- ========== EVENT MAP ========== -->
 <div class="event-map-section" id="eventMapSection" data-nosnippet>
   <button class="event-map-toggle" id="mapToggleBtn" onclick="toggleEventMap()">Dölj karta</button>
-  <button class="map-fullscreen-close" id="mapFullscreenClose" onclick="closeFullscreenMap()" aria-label="Stäng karta">&times;</button>
   <div style="position:relative;">
     <div id="eventMap"></div>
     <div class="map-touch-overlay" id="mapTouchOverlay"><span>Använd två fingrar för att flytta kartan</span></div>
   </div>
+  <div class="map-minilist" id="mapMinilist"></div>
   <div class="event-map-stats" id="mapStats"></div>
 </div>
 
@@ -4496,6 +4509,7 @@ function render() {
   updateEventMap(events.concat(mapPlats));
   updatePlaceDots(mapPlatsOk, currentRegion);
   updateMapStats();
+  updateMapMinilist();
 
   // Map city filter
   if (mapCityFilter) {
@@ -5031,8 +5045,6 @@ function delaShare(platform) {
 
 function filterByMapCity(city) {
   mapCityFilter = city;
-  // On mobile, close fullscreen so user sees the filtered cards
-  closeFullscreenMap();
   render();
   updateMapCityBadge();
 }
@@ -5102,28 +5114,30 @@ function initEventMap() {
     }, { passive: true });
   }
 
-  // Apply saved visibility (mobile uses fullscreen overlay, so section stays collapsed inline)
+  // Apply saved visibility (hide on mobile by default; desktop always starts visible)
   const isMobileSmall = window.innerWidth <= 768;
+  if (isMobileSmall) {
+    mapVisible = safeGetItem('mc_map_visible') === 'true'; // default hidden on mobile
+  } else {
+    mapVisible = true; // always visible on desktop
+  }
   const section = document.getElementById('eventMapSection');
   const btn = document.getElementById('mapToggleBtn');
-  if (isMobileSmall) {
-    // Mobile: section is always collapsed inline (button only); fullscreen is the open state
-    mapVisible = false;
+  if (!mapVisible) {
     section.classList.add('collapsed');
-    btn.textContent = 'Öppna karta';
-  } else {
-    // Desktop: always visible
-    mapVisible = true;
+    btn.textContent = 'Visa karta';
   }
+
+  // Update mini-list when map moves (mobile sync).
+  // Skip if the pan came from the minilist itself (avoid scroll loop).
+  eventMap.on('moveend', () => {
+    if (window.innerWidth > 768) return;
+    if (eventMap._minilistPanning) return;
+    updateMapMinilist();
+  });
 }
 
 function toggleEventMap() {
-  const isMobile = window.innerWidth <= 768;
-  if (isMobile) {
-    openFullscreenMap();
-    return;
-  }
-  // Desktop: inline toggle (existing behavior)
   const section = document.getElementById('eventMapSection');
   const btn = document.getElementById('mapToggleBtn');
   mapVisible = !mapVisible;
@@ -5135,36 +5149,9 @@ function toggleEventMap() {
   }
 }
 
-function openFullscreenMap() {
-  const section = document.getElementById('eventMapSection');
-  section.classList.add('fullscreen');
-  document.body.style.overflow = 'hidden';
-  mapVisible = true; // so updateEventMap and updatePlaceDots run
-  if (!eventMap) initEventMap();
-  if (eventMap) {
-    // Disable two-finger protection in fullscreen
-    eventMap.dragging.enable();
-    const overlay = document.getElementById('mapTouchOverlay');
-    if (overlay) overlay.classList.remove('visible');
-  }
-  setTimeout(() => {
-    if (eventMap) {
-      eventMap.invalidateSize();
-      render();
-    }
-  }, 100);
-}
-
-function closeFullscreenMap() {
-  const section = document.getElementById('eventMapSection');
-  if (!section.classList.contains('fullscreen')) return;
-  section.classList.remove('fullscreen');
-  document.body.style.overflow = '';
-  if (window.innerWidth <= 768) {
-    mapVisible = false;
-    if (eventMap) eventMap.dragging.disable(); // restore two-finger protection
-  }
-}
+// Stores events that ended up on the map with their resolved coords.
+// Used by the mobile mini-list to know which events to show + sync with dots.
+let mapEventsWithCoords = [];
 
 function updateEventMap(filteredEvents) {
   if (!eventMap || !mapVisible) return;
@@ -5172,6 +5159,7 @@ function updateEventMap(filteredEvents) {
   // Clear old markers
   mapMarkers.forEach(m => eventMap.removeLayer(m));
   mapMarkers = [];
+  mapEventsWithCoords = [];
 
   // Group events by location coords (longest match)
   const locGroups = {};
@@ -5195,6 +5183,16 @@ function updateEventMap(filteredEvents) {
         if (locGroups[coordKey].names.length < 4) {
           locGroups[coordKey].names.push(e.name);
         }
+        // Track each event with its coords for the mini-list
+        mapEventsWithCoords.push({
+          id: e.id,
+          name: e.name,
+          date: e.date,
+          location: e.location,
+          coordKey: coordKey,
+          lat: bestCoords.lat,
+          lon: bestCoords.lon
+        });
     }
   });
 
@@ -5238,6 +5236,104 @@ function updateMapStats() {
   statsEl.textContent = txt;
 }
 
+// ========== MOBILE MAP MINI-LIST (option 5) ==========
+// Horizontal scrollable list of cards under the map that stays in sync with visible dots.
+// Swipe cards = pan map to that event. Tap card = jump to event in main grid.
+
+const SV_MONTH_SHORT = ['jan','feb','mar','apr','maj','jun','jul','aug','sep','okt','nov','dec'];
+
+function formatMiniDate(dateStr) {
+  // "2026-08-15" -> "15 aug"
+  if (!dateStr) return '';
+  const parts = dateStr.split('-');
+  if (parts.length < 3) return dateStr;
+  const m = parseInt(parts[1], 10);
+  const d = parseInt(parts[2], 10);
+  if (isNaN(m) || isNaN(d)) return dateStr;
+  return d + ' ' + (SV_MONTH_SHORT[m - 1] || '');
+}
+
+let _minilistScrollTimer = null;
+let _minilistSyncedId = null;
+
+function updateMapMinilist() {
+  if (window.innerWidth > 768) return; // mobile only
+  const list = document.getElementById('mapMinilist');
+  if (!list || !eventMap) return;
+
+  // Filter events to those whose dot is within current map bounds
+  const bounds = eventMap.getBounds();
+  const visible = mapEventsWithCoords.filter(ev =>
+    bounds.contains([ev.lat, ev.lon])
+  );
+  // Sort by date ascending
+  visible.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+
+  if (visible.length === 0) {
+    list.innerHTML = '<span class="map-minilist-empty">Inga evenemang i detta kartomr\u00e5de</span>';
+    return;
+  }
+
+  list.innerHTML = visible.map(ev => {
+    const dateStr = formatMiniDate(ev.date);
+    const safeName = (ev.name || '').replace(/</g, '&lt;');
+    const safeLoc = (ev.location || '').replace(/</g, '&lt;');
+    return '<div class="mini-card" data-event-id="' + ev.id + '" data-lat="' + ev.lat + '" data-lon="' + ev.lon + '" onclick="onMinilistCardClick(\'' + ev.id + '\')">'
+      + '<div class="mini-card-date">' + dateStr + '</div>'
+      + '<div class="mini-card-name">' + safeName + '</div>'
+      + '<div class="mini-card-loc">' + safeLoc + '</div>'
+      + '</div>';
+  }).join('');
+
+  // Attach scroll listener (debounced) to detect centered card and sync map
+  if (!list._scrollBound) {
+    list.addEventListener('scroll', () => {
+      if (_minilistScrollTimer) clearTimeout(_minilistScrollTimer);
+      _minilistScrollTimer = setTimeout(() => onMinilistScrollEnd(list), 120);
+    }, { passive: true });
+    list._scrollBound = true;
+  }
+}
+
+function onMinilistScrollEnd(list) {
+  // Find card closest to horizontal center of list
+  const listRect = list.getBoundingClientRect();
+  const centerX = listRect.left + listRect.width / 2;
+  const cards = list.querySelectorAll('.mini-card');
+  let best = null;
+  let bestDist = Infinity;
+  cards.forEach(c => {
+    const r = c.getBoundingClientRect();
+    const cx = r.left + r.width / 2;
+    const d = Math.abs(cx - centerX);
+    if (d < bestDist) { bestDist = d; best = c; }
+  });
+  if (!best) return;
+  const id = best.dataset.eventId;
+  if (id === _minilistSyncedId) return;
+  _minilistSyncedId = id;
+
+  // Mark active card
+  cards.forEach(c => c.classList.toggle('active', c === best));
+
+  // Pan map smoothly to that event's coords (without firing moveend loop)
+  const lat = parseFloat(best.dataset.lat);
+  const lon = parseFloat(best.dataset.lon);
+  if (eventMap && !isNaN(lat) && !isNaN(lon)) {
+    if (eventMap._minilistPanTimer) clearTimeout(eventMap._minilistPanTimer);
+    eventMap._minilistPanning = true;
+    eventMap.panTo([lat, lon], { animate: true, duration: 0.4 });
+    eventMap._minilistPanTimer = setTimeout(() => {
+      eventMap._minilistPanning = false;
+    }, 500);
+  }
+}
+
+function onMinilistCardClick(eventId) {
+  // Tap = jump to event in main grid
+  scrollToCard(eventId);
+}
+
 // ========== PLACES (teal dots from places.js) ==========
 
 const PLACE_CATEGORY_LABELS = {
@@ -5252,18 +5348,14 @@ const PLACE_CATEGORY_LABELS = {
 };
 
 function scrollToCard(eventId) {
-  // Close fullscreen map if open (so we can actually scroll)
-  closeFullscreenMap();
-  setTimeout(() => {
-    const cardEl = document.getElementById('c-' + eventId);
-    if (cardEl) {
-      cardEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      // Brief highlight flash
-      cardEl.style.transition = 'box-shadow 0.3s';
-      cardEl.style.boxShadow = '0 0 0 3px #0891b2';
-      setTimeout(() => { cardEl.style.boxShadow = ''; }, 2000);
-    }
-  }, 50);
+  const cardEl = document.getElementById('c-' + eventId);
+  if (cardEl) {
+    cardEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    // Brief highlight flash
+    cardEl.style.transition = 'box-shadow 0.3s';
+    cardEl.style.boxShadow = '0 0 0 3px #0891b2';
+    setTimeout(() => { cardEl.style.boxShadow = ''; }, 2000);
+  }
 }
 
 function createPlacePopup(place) {
