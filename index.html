@@ -4413,8 +4413,9 @@ function render() {
   }
 
   // Update event map with filtered events + place-ADs (before city filter)
-  // Plats dots: only when no filters or only region filter (same rule as Plats cards)
-  const mapPlatsOk = !searchQuery && (onlyRegionFilter || currentFilter === 'Plats');
+  // Plats dots: ONLY when user picks "Plats" from the type filter.
+  // On initial load (no filter) we keep the map clean and show only event dots.
+  const mapPlatsOk = currentFilter === 'Plats';
   const mapPlats = mapPlatsOk ? platsCards.filter(ad => (currentRegion === 'all') || ad.region === currentRegion) : [];
   updateEventMap(events.concat(mapPlats));
   updatePlaceDots(mapPlatsOk, currentRegion);
