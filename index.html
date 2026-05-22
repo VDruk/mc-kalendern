@@ -4573,6 +4573,11 @@ function render() {
     if (event.backImage) {
       card.dataset.bg = event.backImage;
       card.classList.add('has-photo');
+      // Optional per-event background-position override (e.g. "top" for posters where the
+      // important content is at the top of the image and the default center crop hides it).
+      if (event.backImagePosition) {
+        card.dataset.bgPosition = event.backImagePosition;
+      }
     }
 
     // Mobile: whole card tappable opens full-screen detail modal
@@ -4704,7 +4709,11 @@ function render() {
           const bgUrl = card.dataset.bg;
           if (bgUrl) {
             card.style.setProperty('--card-bg-image', 'url("' + bgUrl + '")');
-            if (bgUrl.includes('hd-default-back-2.jpg') || bgUrl.includes('hd-default-back-3.jpg')) {
+            // Per-event override wins; otherwise apply known image-specific overrides.
+            if (card.dataset.bgPosition) {
+              card.style.setProperty('--card-bg-position', card.dataset.bgPosition);
+              delete card.dataset.bgPosition;
+            } else if (bgUrl.includes('hd-default-back-2.jpg') || bgUrl.includes('hd-default-back-3.jpg')) {
               card.style.setProperty('--card-bg-position', 'top');
             }
             delete card.dataset.bg;
