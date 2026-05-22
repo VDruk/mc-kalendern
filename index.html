@@ -1328,7 +1328,7 @@
     border-radius: 4px !important;
   }
   @media (max-width: 600px) {
-    #eventMap { height: 300px; }
+    #eventMap { height: 360px; }
   }
   .map-touch-overlay {
     display: none;
@@ -2039,7 +2039,62 @@
       color: var(--accent);
       padding: 0;
     }
-    .event-map-section:not(.collapsed) #eventMap { margin-top: 8px; }
+    .event-map-section:not(.collapsed):not(.fullscreen) #eventMap { margin-top: 8px; }
+
+    /* Fullscreen map mode on mobile */
+    .event-map-section.fullscreen {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 9999;
+      padding: 0;
+      margin: 0;
+      max-width: none;
+      background: #fff;
+    }
+    .event-map-section.fullscreen .event-map-toggle { display: none; }
+    .event-map-section.fullscreen #eventMap {
+      display: block !important;
+      width: 100%;
+      height: 100vh !important;
+      border-radius: 0;
+      border: 0;
+      margin: 0 !important;
+    }
+    .event-map-section.fullscreen .event-map-stats {
+      display: block !important;
+      position: fixed;
+      bottom: 10px;
+      left: 12px; right: 12px;
+      text-align: center;
+      background: rgba(255,255,255,0.92);
+      padding: 6px 10px;
+      border-radius: 10px;
+      z-index: 10001;
+      font-size: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    }
+    .event-map-section.fullscreen .map-touch-overlay { display: none !important; }
+    .map-fullscreen-close {
+      display: none;
+      position: fixed;
+      top: 12px;
+      right: 12px;
+      width: 44px;
+      height: 44px;
+      border-radius: 22px;
+      background: #fff;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--text-primary);
+      cursor: pointer;
+      z-index: 10002;
+      line-height: 40px;
+      text-align: center;
+      padding: 0;
+    }
+    .event-map-section.fullscreen .map-fullscreen-close { display: block; }
 
     /* Flatten filters-wrapper so it contributes no space on mobile */
     .filters-wrapper { background: transparent; border: 0; box-shadow: none; padding: 0; margin: 0; }
@@ -2563,6 +2618,7 @@
 <!-- ========== EVENT MAP ========== -->
 <div class="event-map-section" id="eventMapSection" data-nosnippet>
   <button class="event-map-toggle" id="mapToggleBtn" onclick="toggleEventMap()">Dölj karta</button>
+  <button class="map-fullscreen-close" id="mapFullscreenClose" onclick="closeFullscreenMap()" aria-label="Stäng karta">&times;</button>
   <div style="position:relative;">
     <div id="eventMap"></div>
     <div class="map-touch-overlay" id="mapTouchOverlay"><span>Använd två fingrar för att flytta kartan</span></div>
@@ -4975,6 +5031,8 @@ function delaShare(platform) {
 
 function filterByMapCity(city) {
   mapCityFilter = city;
+  // On mobile, close fullscreen so user sees the filtered cards
+  closeFullscreenMap();
   render();
   updateMapCityBadge();
 }
@@ -5044,22 +5102,28 @@ function initEventMap() {
     }, { passive: true });
   }
 
-  // Apply saved visibility (hide on mobile by default; desktop always starts visible)
+  // Apply saved visibility (mobile uses fullscreen overlay, so section stays collapsed inline)
   const isMobileSmall = window.innerWidth <= 768;
-  if (isMobileSmall) {
-    mapVisible = safeGetItem('mc_map_visible') === 'true'; // default hidden on mobile
-  } else {
-    mapVisible = true; // always visible on desktop
-  }
   const section = document.getElementById('eventMapSection');
   const btn = document.getElementById('mapToggleBtn');
-  if (!mapVisible) {
+  if (isMobileSmall) {
+    // Mobile: section is always collapsed inline (button only); fullscreen is the open state
+    mapVisible = false;
     section.classList.add('collapsed');
-    btn.textContent = 'Visa karta';
+    btn.textContent = 'Öppna karta';
+  } else {
+    // Desktop: always visible
+    mapVisible = true;
   }
 }
 
 function toggleEventMap() {
+  const isMobile = window.innerWidth <= 768;
+  if (isMobile) {
+    openFullscreenMap();
+    return;
+  }
+  // Desktop: inline toggle (existing behavior)
   const section = document.getElementById('eventMapSection');
   const btn = document.getElementById('mapToggleBtn');
   mapVisible = !mapVisible;
@@ -5068,6 +5132,37 @@ function toggleEventMap() {
   safeSetItem('mc_map_visible', mapVisible);
   if (mapVisible && eventMap) {
     setTimeout(() => { eventMap.invalidateSize(); render(); }, 100);
+  }
+}
+
+function openFullscreenMap() {
+  const section = document.getElementById('eventMapSection');
+  section.classList.add('fullscreen');
+  document.body.style.overflow = 'hidden';
+  mapVisible = true; // so updateEventMap and updatePlaceDots run
+  if (!eventMap) initEventMap();
+  if (eventMap) {
+    // Disable two-finger protection in fullscreen
+    eventMap.dragging.enable();
+    const overlay = document.getElementById('mapTouchOverlay');
+    if (overlay) overlay.classList.remove('visible');
+  }
+  setTimeout(() => {
+    if (eventMap) {
+      eventMap.invalidateSize();
+      render();
+    }
+  }, 100);
+}
+
+function closeFullscreenMap() {
+  const section = document.getElementById('eventMapSection');
+  if (!section.classList.contains('fullscreen')) return;
+  section.classList.remove('fullscreen');
+  document.body.style.overflow = '';
+  if (window.innerWidth <= 768) {
+    mapVisible = false;
+    if (eventMap) eventMap.dragging.disable(); // restore two-finger protection
   }
 }
 
@@ -5157,14 +5252,18 @@ const PLACE_CATEGORY_LABELS = {
 };
 
 function scrollToCard(eventId) {
-  const cardEl = document.getElementById('c-' + eventId);
-  if (cardEl) {
-    cardEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    // Brief highlight flash
-    cardEl.style.transition = 'box-shadow 0.3s';
-    cardEl.style.boxShadow = '0 0 0 3px #0891b2';
-    setTimeout(() => { cardEl.style.boxShadow = ''; }, 2000);
-  }
+  // Close fullscreen map if open (so we can actually scroll)
+  closeFullscreenMap();
+  setTimeout(() => {
+    const cardEl = document.getElementById('c-' + eventId);
+    if (cardEl) {
+      cardEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // Brief highlight flash
+      cardEl.style.transition = 'box-shadow 0.3s';
+      cardEl.style.boxShadow = '0 0 0 3px #0891b2';
+      setTimeout(() => { cardEl.style.boxShadow = ''; }, 2000);
+    }
+  }, 50);
 }
 
 function createPlacePopup(place) {
