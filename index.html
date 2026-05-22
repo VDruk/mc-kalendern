@@ -2060,6 +2060,8 @@
       flex-direction: column;
       vertical-align: top;
       width: 220px;
+      height: 96px;
+      box-sizing: border-box;
       scroll-snap-align: center;
       background: #fff;
       border: 1px solid var(--border);
@@ -2069,6 +2071,7 @@
       box-shadow: 0 1px 3px rgba(0,0,0,0.06);
       cursor: pointer;
       white-space: normal;
+      overflow: hidden;
       transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
     }
     .mini-card.active {
@@ -2082,6 +2085,7 @@
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.4px;
+      line-height: 1.2;
     }
     .mini-card-name {
       font-size: 13px;
@@ -2094,6 +2098,8 @@
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       line-height: 1.25;
+      min-height: 32px; /* reserve 2 lines so the location always sits at the same spot */
+      flex: 0 0 auto;
     }
     .mini-card-loc {
       font-size: 11px;
@@ -2101,6 +2107,7 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      margin-top: auto; /* push location to the bottom of the card */
     }
     .map-minilist-empty {
       display: inline-block;
