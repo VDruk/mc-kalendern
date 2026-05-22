@@ -5121,10 +5121,10 @@ function initEventMap() {
     }, { passive: true });
   }
 
-  // Apply saved visibility (hide on mobile by default; desktop always starts visible)
+  // Map visibility: always hidden on mobile on load; always visible on desktop
   const isMobileSmall = window.innerWidth <= 768;
   if (isMobileSmall) {
-    mapVisible = safeGetItem('mc_map_visible') === 'true'; // default hidden on mobile
+    mapVisible = false; // always start hidden on mobile, no localStorage memory
   } else {
     mapVisible = true; // always visible on desktop
   }
@@ -5150,7 +5150,7 @@ function toggleEventMap() {
   mapVisible = !mapVisible;
   section.classList.toggle('collapsed', !mapVisible);
   btn.textContent = mapVisible ? 'Dölj karta' : 'Visa karta';
-  safeSetItem('mc_map_visible', mapVisible);
+  // Do not persist visibility — each load starts hidden on mobile (Slava's preference 2026-05-22)
   if (mapVisible && eventMap) {
     setTimeout(() => { eventMap.invalidateSize(); render(); }, 100);
   }
@@ -5589,6 +5589,28 @@ document.addEventListener('DOMContentLoaded', () => {
       render();
     });
   });
+
+  // Logo click = full reset + scroll to top (mobile topbar + desktop hero).
+  // Acts as a "home" button. Slava 2026-05-22.
+  function logoResetHome() {
+    resetAllFilters();
+    updateAllaBtn();
+    render();
+  }
+  const mobileLogoArea = document.querySelector('.m-topbar-left');
+  if (mobileLogoArea) {
+    mobileLogoArea.style.cursor = 'pointer';
+    mobileLogoArea.setAttribute('role', 'button');
+    mobileLogoArea.setAttribute('aria-label', 'Tillbaka till startsidan, rensa alla filter');
+    mobileLogoArea.addEventListener('click', logoResetHome);
+  }
+  const desktopLogo = document.querySelector('.hero-logo');
+  if (desktopLogo) {
+    desktopLogo.style.cursor = 'pointer';
+    desktopLogo.setAttribute('role', 'button');
+    desktopLogo.setAttribute('aria-label', 'Tillbaka till startsidan, rensa alla filter');
+    desktopLogo.addEventListener('click', logoResetHome);
+  }
 
   // Type filter dropdown (desktop)
   const typeDesktop = document.getElementById('typeFilter');
