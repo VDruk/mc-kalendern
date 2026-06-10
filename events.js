@@ -886,10 +886,10 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back-2.jpg"
     },
     {
-      "id": "sulas-mc-forsta-turen-2026-06-10",
+      "id": "sulas-mc-forsta-turen-2026-06-11",
       "name": "Åk med Sulas - första turen",
-      "date": "2026-06-10",
-      "dateEnd": "2026-06-10",
+      "date": "2026-06-11",
+      "dateEnd": "2026-06-11",
       "time": "17:00",
       "endTime": "20:00",
       "type": "Körning",
@@ -899,8 +899,8 @@ const EVENTS_DATA = {
       "source": "facebook.com",
       "link": "https://www.facebook.com/sulasmc",
       "description": "Sulas MC startar sin sommarsäsong med första gemensamma tur. Samling 17:00 hos Sulas, avfärd 17:15. Turen går till Österbygrillen i Österbybruk. Ingen föranmälan, alla välkomna.",
-      "descriptionFull": "Tid: Onsdag 10 juni 2026 - samling kl 17:00, avfärd kl 17:15. Slut ca kl 20:00.\nPlats: Sulas MC, Säva 17, 755 91 Uppsala.\n\nSulas första gemensamma tur för säsongen 2026. Turen går till Österbygrillen i Österbybruk.\n\nIngen föranmälan krävs - det är bara att dyka upp. Kom i god tid.\n\nArrangör: Sulas MC + gruppen 'Åk med Sulas - Kom en, kom alla'.",
-      "backImage": "ads/sulas-mc-forsta-turen-back-2026-06-10.jpg",
+      "descriptionFull": "Tid: Torsdag 11 juni 2026 - samling kl 17:00, avfärd kl 17:15. Slut ca kl 20:00.\nPlats: Sulas MC, Säva 17, 755 91 Uppsala.\n\nSulas första gemensamma tur för säsongen 2026. Turen går till Österbygrillen i Österbybruk.\n\nIngen föranmälan krävs - det är bara att dyka upp. Kom i god tid.\n\nArrangör: Sulas MC + gruppen 'Åk med Sulas - Kom en, kom alla'.",
+      "backImage": "ads/sulas-mc-forsta-turen-back-2026-06-11.jpg",
       "links": [
         {
           "label": "FB Event",
