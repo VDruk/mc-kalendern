@@ -13,3 +13,37 @@ START HERE.md
 .apify-token
 tools/.apify-token
 tools/discovery-results.json
+
+# Internal docs and working files - never publish on druk.se
+*.md
+BackUp/
+Design Questions/
+Previous Visual Ideas/
+Mobile/
+FB KF Social Media/
+FB Page/
+Site Pictures/
+Site Problems/
+Statistic/
+Statistics/
+AI/
+H-D/
+Calendars/
+T1/
+Previous*/
+backups/
+index-backup-*.html
+index-upgrade.html
+index-v2.html*
+events.js.backup
+events-backup-*.js
+events_clean.js
+test-*.html
+design-*.html
+card-design-proposal.html
+map-prototype.html
+weather-*.html
+hdcs_unique_texts.json
+Screenshot*.png
+*_n.jpg
+*.psd
