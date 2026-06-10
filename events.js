@@ -886,6 +886,38 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back-2.jpg"
     },
     {
+      "id": "sulas-mc-forsta-turen-2026-06-10",
+      "name": "Åk med Sulas - första turen",
+      "date": "2026-06-10",
+      "dateEnd": "2026-06-10",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Körning",
+      "region": "Uppsala",
+      "location": "Säva 17, Uppsala",
+      "organizer": "Sulas MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/sulasmc",
+      "description": "Sulas MC startar sin sommarsäsong med första gemensamma tur. Samling 17:00 hos Sulas, avfärd 17:15. Turen går till Österbygrillen i Österbybruk. Ingen föranmälan, alla välkomna.",
+      "descriptionFull": "Tid: Onsdag 10 juni 2026 - samling kl 17:00, avfärd kl 17:15. Slut ca kl 20:00.\nPlats: Sulas MC, Säva 17, 755 91 Uppsala.\n\nSulas första gemensamma tur för säsongen 2026. Turen går till Österbygrillen i Österbybruk.\n\nIngen föranmälan krävs - det är bara att dyka upp. Kom i god tid.\n\nArrangör: Sulas MC + gruppen 'Åk med Sulas - Kom en, kom alla'.",
+      "backImage": "ads/sulas-mc-forsta-turen-back-2026-06-10.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/881462728347847"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/sulasmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sulas+MC+Säva+17+Uppsala",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "leksand-gagnef-mck-onsdagstur-2026-06-10",
       "name": "Onsdagstur, medtag eget fika",
       "date": "2026-06-10",
@@ -1779,6 +1811,37 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/gojvtraffen-back-2026-06-12.jpg"
+    },
+    {
+      "id": "smc-jamtland-mc-dagen-2026-06-13",
+      "name": "MC dagen på Jämthalka",
+      "date": "2026-06-13",
+      "dateEnd": "2026-06-13",
+      "type": "Show",
+      "region": "Jämtland",
+      "location": "Jämthalka, Östersund",
+      "organizer": "SMC Jämtland",
+      "organizerIcon": "clubs/normalized/smc.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/smcjamtland",
+      "description": "MC-dag hos Jämthalka i Östersund arrangerad av SMC Jämtland. Alla välkomna att dyka upp. Mer programinfo och tider kommer.",
+      "descriptionFull": "Tid: Lördag 13 juni 2026 (tider kommer närmare).\nPlats: Jämthalka, Östersund.\n\nMC-dag arrangerad av SMC Jämtland på Jämthalka utanför Östersund.\n\nAlla är välkomna att bara dyka upp - ingen föranmälan.\n\nMer programinfo och exakta tider kommer närmare datumet. Håll utkik på SMC Jämtlands FB-sida.",
+      "backImage": "ads/smc-jamtland-mc-dagen-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1438723591617473&set=a.465752725581236"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/smcjamtland"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Jämthalka+Östersund",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "vv69mk-vanern-runt-natt-2026-06-13",
