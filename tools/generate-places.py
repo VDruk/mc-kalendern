@@ -72,7 +72,9 @@ CATEGORY_RULES = [
 
 
 def parse_events():
-    """Parse events.js and return list of event objects."""
+    """Parse events.js (+ events-archive.js, where past events live since 2026-06-10)
+    and return the combined list of event objects. Past events must count toward
+    the 3+ events rule for places."""
     with open(EVENTS_FILE, "r", encoding="utf-8") as f:
         content = f.read()
     match = re.search(r'const\s+EVENTS_DATA\s*=\s*(\{.*\})\s*;?\s*$', content, re.DOTALL)
@@ -80,7 +82,16 @@ def parse_events():
         print("ERROR: Could not parse events.js", file=sys.stderr)
         sys.exit(1)
     data = json.loads(match.group(1))
-    return data["events"]
+    events = data["events"]
+    archive_file = os.path.join(PROJECT_DIR, "events-archive.js")
+    if os.path.exists(archive_file):
+        with open(archive_file, "r", encoding="utf-8") as f:
+            arch_content = f.read()
+        arch_match = re.search(r'const\s+EVENTS_ARCHIVE\s*=\s*(\{.*\})\s*;?\s*$', arch_content, re.DOTALL)
+        if arch_match:
+            seen = {e["id"] for e in events}
+            events += [e for e in json.loads(arch_match.group(1))["events"] if e["id"] not in seen]
+    return events
 
 
 def parse_location_coords():

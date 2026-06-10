@@ -2494,28 +2494,28 @@
 
 <!-- ========== MOBILE TIME PILLS (Phase 1) ========== -->
 <div class="m-time-pills" id="mTimePills" role="tablist" aria-label="Snabbfilter tid">
-  <div class="m-pill active" id="mPillAll" role="tab" data-filter="all">
+  <div class="m-pill active" id="mPillAll" role="tab" tabindex="0" data-filter="all">
     <div class="m-pill-label">Alla</div>
     <div class="m-pill-count" id="mPillAllCount">0</div>
   </div>
-  <div class="m-pill" id="mPillToday" role="tab" data-filter="__today__">
+  <div class="m-pill" id="mPillToday" role="tab" tabindex="0" data-filter="__today__">
     <span class="m-pill-dot" aria-hidden="true"></span>
     <div class="m-pill-label">Idag</div>
     <div class="m-pill-count" id="mPillTodayCount">0</div>
   </div>
-  <div class="m-pill" id="mPillTomorrow" role="tab" data-filter="__tomorrow__">
+  <div class="m-pill" id="mPillTomorrow" role="tab" tabindex="0" data-filter="__tomorrow__">
     <div class="m-pill-label">Imorgon</div>
     <div class="m-pill-count" id="mPillTomorrowCount">0</div>
   </div>
-  <div class="m-pill" id="mPillWeekend" role="tab" data-filter="__weekend__">
+  <div class="m-pill" id="mPillWeekend" role="tab" tabindex="0" data-filter="__weekend__">
     <div class="m-pill-label">Helgen</div>
     <div class="m-pill-count" id="mPillWeekendCount">0</div>
   </div>
-  <div class="m-pill" id="mPillWeek" role="tab" data-filter="__week__">
+  <div class="m-pill" id="mPillWeek" role="tab" tabindex="0" data-filter="__week__">
     <div class="m-pill-label">Vecka</div>
     <div class="m-pill-count" id="mPillWeekCount">0</div>
   </div>
-  <div class="m-pill" id="mPillMonth" role="tab" data-filter="__month__">
+  <div class="m-pill" id="mPillMonth" role="tab" tabindex="0" data-filter="__month__">
     <div class="m-pill-label">Månad</div>
     <div class="m-pill-count" id="mPillMonthCount">0</div>
   </div>
@@ -2655,7 +2655,7 @@
 </main>
 
 <!-- ========== FAB (favorites) ========== -->
-<button class="fab-favorites" id="fabFavorites" title="Mina sparade evenemang">
+<button class="fab-favorites" id="fabFavorites" title="Mina sparade evenemang" aria-label="Mina sparade evenemang">
   &#9733;
   <span class="fab-badge" id="fabBadge" style="display:none">0</span>
 </button>
@@ -2838,6 +2838,29 @@ let topOrgEntries = []; // top 20 org entries, set during build, used in filter 
 let currentRegion = 'all';
 let currentMonth = 'all';
 let showPast = false;
+// ===== Archive lazy-loader (past events live in events-archive.js) =====
+let archiveLoaded = false;
+let archiveLoading = false;
+function ensureArchive(cb) {
+  if (archiveLoaded) { if (cb) cb(); return; }
+  if (archiveLoading) return;
+  archiveLoading = true;
+  const s = document.createElement('script');
+  s.src = 'events-archive.js?v=' + encodeURIComponent((typeof EVENTS_DATA !== 'undefined' && EVENTS_DATA.lastUpdated) || '');
+  s.onload = function() {
+    archiveLoading = false;
+    if (typeof EVENTS_ARCHIVE !== 'undefined' && Array.isArray(EVENTS_ARCHIVE.events)) {
+      const seen = new Set(EVENTS_DATA.events.map(e => e.id));
+      const older = EVENTS_ARCHIVE.events.filter(e => !seen.has(e.id));
+      EVENTS_DATA.events = older.concat(EVENTS_DATA.events);
+      archiveLoaded = true;
+      if (typeof render !== 'undefined') render._sorted = null; // invalidate sort/search cache
+    }
+    if (cb) cb();
+  };
+  s.onerror = function() { archiveLoading = false; };
+  document.head.appendChild(s);
+}
 let searchQuery = '';
 let mapCityFilter = ''; // set when user clicks a map dot
 let favorites;
@@ -3191,6 +3214,8 @@ function buildRegionFilter() {
   document.getElementById('statRegions').textContent = activeDistricts.length;
 
   const monthSel = document.getElementById('monthFilter');
+  // Months that only exist in the archive must still be selectable (selecting one lazy-loads the archive).
+  (EVENTS_DATA.archivedMonths || []).forEach(m => { monthCounts[m] = monthCounts[m] || 1; });
   Object.keys(monthCounts).sort((a, b) => a - b).forEach(m => {
     const opt = document.createElement('option');
     opt.value = m;
@@ -3268,7 +3293,9 @@ function updateStats() {
   const today = getTodayStr();
   const all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
   const upcoming = all.filter(e => (e.dateEnd || e.date) >= today);
-  document.getElementById('statEvents').textContent = all.length;
+  // Past events live in events-archive.js until loaded; archivedCount keeps the total honest.
+  const archivedExtra = archiveLoaded ? 0 : (EVENTS_DATA.archivedCount || 0);
+  document.getElementById('statEvents').textContent = all.length + archivedExtra;
   document.getElementById('statUpcoming').textContent = upcoming.length;
   const now = new Date();
   const thisMonth = upcoming.filter(e => {
@@ -3282,10 +3309,13 @@ function updateStats() {
 }
 
 // ========== HÄNDER JUST NU ==========
-function updateHanderBar() {
-  const today = getTodayStr();
-  // Apply same filters that render() uses (region, type, club, organizer, search, month)
-  // so the chip counts reflect the user's current view, not the global total.
+// Shared base filter (region, type, club, search, real-month) used by both
+// updateHanderBar and updateMobilePillCounts. Computed once per filter state
+// and cached, so a single state change no longer re-filters the list twice.
+function getBaseFiltered() {
+  const key = [currentRegion, currentFilter, currentClub, searchQuery, currentMonth,
+               EVENTS_DATA.events.length].join('');
+  if (getBaseFiltered._key === key) return getBaseFiltered._list;
   let all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
   if (currentRegion !== 'all') {
     all = all.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
@@ -3329,6 +3359,16 @@ function updateHanderBar() {
       });
     }
   }
+  getBaseFiltered._key = key;
+  getBaseFiltered._list = all;
+  return all;
+}
+
+function updateHanderBar() {
+  const today = getTodayStr();
+  // Same filters that render() uses (region, type, club, organizer, search, month)
+  // so the chip counts reflect the user's current view, not the global total.
+  const all = getBaseFiltered();
 
   // Today
   const todayCount = all.filter(e => e.date <= today && (e.dateEnd || e.date) >= today).length;
@@ -3798,6 +3838,9 @@ function openMDetail(cardId) {
   modal.classList.add('open');
   modal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
+  // Move focus into the modal (close button) so keyboard/screen reader users land inside it
+  const closeBtn = document.getElementById('mDetailClose');
+  if (closeBtn) closeBtn.focus();
 }
 
 function closeMDetail() {
@@ -3867,49 +3910,10 @@ function syncMobilePillActive() {
 
 function updateMobilePillCounts() {
   if (typeof EVENTS_DATA === 'undefined' || !Array.isArray(EVENTS_DATA.events)) return;
-  let visible = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
-  // Apply same filters as render() so pill counts reflect the user's current view
+  // Same filters as render() so pill counts reflect the user's current view
   // (e.g. picking Dalarna in the region dropdown updates the pill counts).
-  if (currentRegion !== 'all') {
-    visible = visible.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
-  }
-  if (currentFilter !== 'all') {
-    visible = visible.filter(e => e.type === currentFilter);
-  }
-  if (currentClub !== 'all') {
-    if (currentClub === '__other__') {
-      visible = visible.filter(e => {
-        const org = e.organizer || '';
-        return !topOrgEntries.some(([key]) =>
-          CLUB_MATCHERS[key] ? CLUB_MATCHERS[key](org) : org.includes(key)
-        );
-      });
-    } else if (CLUB_MATCHERS[currentClub]) {
-      visible = visible.filter(e => CLUB_MATCHERS[currentClub](e.organizer || ''));
-    } else {
-      visible = visible.filter(e => (e.organizer || '').includes(currentClub));
-    }
-  }
-  if (searchQuery) {
-    const q = searchQuery.toLowerCase();
-    visible = visible.filter(e =>
-      (e.name || '').toLowerCase().includes(q) ||
-      (e.location || '').toLowerCase().includes(q) ||
-      (e.organizer || '').toLowerCase().includes(q) ||
-      (e.description || '').toLowerCase().includes(q)
-    );
-  }
-  // Apply month filter (real months only, skip __today__/__weekend__ etc.)
-  if (currentMonth !== 'all' && !String(currentMonth).startsWith('__')) {
-    const monthNum = parseInt(currentMonth, 10);
-    if (monthNum >= 1 && monthNum <= 12) {
-      visible = visible.filter(e => {
-        const d = new Date(e.date + 'T00:00:00');
-        const dEnd = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : d;
-        return (d.getMonth() + 1) === monthNum || (dEnd.getMonth() + 1) === monthNum;
-      });
-    }
-  }
+  // Shared + cached with updateHanderBar via getBaseFiltered().
+  const visible = getBaseFiltered();
   const today = new Date().toISOString().slice(0, 10);
   const future = visible.filter(e => (e.dateEnd || e.date) >= today);
 
@@ -4678,12 +4682,8 @@ function render() {
       }
     }
 
-    // Mobile: whole card tappable opens full-screen detail modal
-    card.addEventListener('click', function(e) {
-      if (!window.matchMedia('(max-width: 768px)').matches) return;
-      if (e.target.closest('.fav-btn, .cal-dropdown-wrapper, a, button')) return;
-      cardExpand(cardId);
-    });
+    // Mobile tap is handled by ONE delegated listener on #grid (see initCardTapDelegation),
+    // not per-card listeners - keeps memory flat as the event count grows.
 
     // Store event data for deferred back-side rendering (built on click, not now)
     _eventMap.set(cardId, event);
@@ -5515,6 +5515,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
   render();
 
+  // ONE delegated tap handler for all cards (mobile opens detail modal).
+  // Replaces per-card listeners: flat memory use no matter how many cards render.
+  (function initCardTapDelegation() {
+    const gridEl = document.getElementById('grid');
+    if (!gridEl) return;
+    gridEl.addEventListener('click', function(e) {
+      if (!window.matchMedia('(max-width: 768px)').matches) return;
+      if (e.target.closest('.fav-btn, .cal-dropdown-wrapper, a, button')) return;
+      const card = e.target.closest('.card');
+      if (card && card.id && _eventMap.has(card.id)) cardExpand(card.id);
+    });
+  })();
+
+  // Keyboard accessibility: hander-chips and mobile pills activate on Enter/Space
+  document.querySelectorAll('.hander-chip, .m-pill').forEach(el => {
+    el.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); }
+    });
+  });
+
   // Defer hero stats and fab to after first paint (not visible immediately on scroll)
   requestAnimationFrame(() => {
     updateStats();
@@ -5710,6 +5730,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('pastToggle').classList.add('active');
         const mob = document.getElementById('pastToggleMobile');
         if (mob) mob.classList.add('active');
+        if (!archiveLoaded) ensureArchive(() => render());
       }
     }
     updateAllaBtn();
@@ -5722,6 +5743,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('pastToggle').classList.toggle('active', active);
     const mob = document.getElementById('pastToggleMobile');
     if (mob) mob.classList.toggle('active', active);
+    if (active && !archiveLoaded) ensureArchive(() => render());
     render();
   }
   document.getElementById('pastToggle').addEventListener('click', function() {
@@ -5841,6 +5863,10 @@ function updateDrawer() {
   }
   if (calWrapper) calWrapper.classList.remove('disabled');
   const allEvents = EVENTS_DATA.events;
+  // Some saved favorites may be past events that live in the archive file.
+  if (!archiveLoaded && favorites.some(id => !allEvents.find(e => e.id === id))) {
+    ensureArchive(() => updateDrawer());
+  }
   const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
   const icsText = document.getElementById('icsDownloadText');
