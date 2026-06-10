@@ -676,35 +676,59 @@ const EVENTS_DATA = {
       "source": "AD"
     },
     {
-      "id": "hdk1930-96ar-pokerrun-2026-06-14",
-      "name": "96 års Pokerrun",
-      "date": "2026-06-14",
-      "dateEnd": "2026-06-14",
-      "time": "09:30",
-      "type": "Körning",
-      "region": "Danmark",
-      "location": "Gymnasievej 3, Stenløse, Danmark",
-      "organizer": "H-D Klubben af 1930",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/groups/www.hdk1930.dk/",
-      "description": "Harley-Davidson Klubben af 1930 firar 96-årsjubileum med en Pokerrun. Söndag 14 juni kl 09:30 från klubbhuset i Stenløse. Anmälan senast 7/6 till HDK1930@netmail.dk.",
-      "descriptionFull": "Klubben firar 96-årsjubileum med en Pokerrun från klubbhuset i Stenløse.\n\nTid: Söndag 14 juni kl 09:30.\nPlats: Gymnasievej 3, 3660 Stenløse, Danmark.\n\nHarley-Davidson Klubben af 1930, även kallad HDK1930 eller \"1930\", grundades 1930 och är Europas näst äldsta Harley-Davidson-klubb.\n\nAnmälan senast 7 juni till HDK1930@netmail.dk.\n\nArrangör: Harley-Davidson Klubben af 1930, medarrangör Jeanette Hestehave.",
-      "backImage": "ads/hdk1930-96ar-pokerrun-back-2026-06-14.jpg",
+      "_ad": true,
+      "id": "ad-gwcs-treffen-2026",
+      "name": "41st International Treffen",
+      "date": "2026-07-28",
+      "dateEnd": "2026-07-28",
+      "location": "Orsa Grönklitt, Dalarna",
+      "type": "Anons",
+      "organizer": "GoldWing Club Sweden",
+      "description": "Internationella GoldWing-träffen i Orsa Grönklitt, 6-9 aug 2026. Galamiddag, Light Show, Nationsparad och Äventyrsbana. Boka på gwcs.se!",
+      "descriptionFull": "41st International Treffen i Orsa Grönklitt, 6-9 augusti 2026.\n\nTräffavgift:\nGWEF-medlem: SEK 700 / €70 inkl. galamiddag.\nEj GWEF-medlem: SEK 850 / €85 inkl. galamiddag.\n\nIngår: Träffmärke, Peoples Choice, Light Show, Nationsparad, Bastuflotte och Äventyrsbana, mat och dryck hela helgen.\n\nBokning stuga/vandrarhem: www.orsagronklitt.se, uppge kod \"Goldwing\" för rabatt.\n\nAnmälan: www.gwcs.se\nVälkommen till Orsa Grönklitt!",
       "links": [
         {
-          "label": "FB Event",
-          "url": "https://www.facebook.com/events/3352064648290856"
+          "label": "gwcs.se",
+          "url": "https://www.gwcs.se"
         },
         {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/groups/www.hdk1930.dk/"
+          "label": "Poster (GWCS)",
+          "url": "https://media.gwcs.se/2026/01/sv1.jpeg"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Gymnasievej+3+3660+Stenløse+Danmark",
+          "url": "https://www.google.com/maps/search/?api=1&query=Orsa+Gr%C3%B6nklitt+Dalarna",
           "type": "map"
         }
-      ]
+      ],
+      "link": "https://www.gwcs.se",
+      "region": "Sverige",
+      "source": "AD",
+      "frontImage": "ads/gwcs-treffen-2026-ad-front.jpg",
+      "backImage": "ads/gwcs-treffen-2026-08-06.jpg"
+    },
+    {
+      "id": "mc-kalendern-druk-se-ad-2026",
+      "name": "MC Kalendern",
+      "date": "2026-09-28",
+      "dateEnd": "2026-09-28",
+      "location": "druk.se",
+      "type": "Anons",
+      "organizer": "MC Kalendern / Slava Druk",
+      "description": "Sveriges mest kompletta MC-kalender med mer än tusen event. Gratis, utan reklam, byggd av en hojare för alla hojare.",
+      "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event på ett ställe.\n\nMer än tusen event från träffar och körningar till shower, racing och fester. All data hämtas från ett flertal källor och uppdateras varje dag.\n\nProjektet är 100% gratis och byggt av ren passion för tvåhjuliga äventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till så lägger vi till det!\n\nBesök oss på druk.se och hitta din nästa tur.",
+      "frontImage": "ads/mc-kalendern-front-2026-09-28.jpg",
+      "backImage": "ads/mc-kalendern-back-2026-09-28.jpg",
+      "links": [
+        {
+          "label": "druk.se",
+          "url": "https://druk.se"
+        }
+      ],
+      "link": "https://druk.se",
+      "region": "Sverige",
+      "source": "AD",
+      "_ad": true
     },
     {
       "id": "karlshamn-kustcruisers-treff-2026",
@@ -719,6 +743,33 @@ const EVENTS_DATA = {
       "region": "Blekinge",
       "source": "web",
       "_canary": true
+    },
+    {
+      "id": "bmw-d11-goes-to-pite-havsbad-arstraff-2026-2026",
+      "name": "D11 Goes to Pite Havsbad (Årsträff)",
+      "date": "2026-06-08",
+      "dateEnd": "2026-06-10",
+      "location": "Hotellvägen 50, Piteå",
+      "type": "Träff",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "description": "Träffpunkt med D11 i Hotellvägen 50, 941 43 Piteå, Sverige. Gemensam fika och MC-prat. Alla medlemmar välkomna!",
+      "link": "https://www.bmwklubben.se/aktiviteter/d11-goes-to-pite-havsbad-arstraff-2026/",
+      "region": "Norrbotten",
+      "source": "bmwklubben.se",
+      "descriptionFull": "D11 Goes to Pite Havsbad (Årsträff 2026) arrangeras av BMW MC-klubben.\n\nTräffpunkt med D11 i Hotellvägen 50, 941 43 Piteå, Sverige. Gemensam fika och MC-prat. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hotellvägen 50, Piteå.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d11-goes-to-pite-havsbad-arstraff-2026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hotellv%C3%A4gen+50%2C+Pite%C3%A5",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
     },
     {
       "id": "east2west-onsdagstraff-2026-06-10",
@@ -781,341 +832,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "jernviken-onsdagsfika-2026-06-17",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-06-17",
-      "dateEnd": "2026-06-17",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 17 juni kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-06-24",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-06-24",
-      "dateEnd": "2026-06-24",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 24 juni kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-07-01",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-07-01",
-      "dateEnd": "2026-07-01",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 1 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-07-08",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-07-08",
-      "dateEnd": "2026-07-08",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 8 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-07-15",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-07-15",
-      "dateEnd": "2026-07-15",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 15 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-07-22",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-07-22",
-      "dateEnd": "2026-07-22",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 22 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-07-29",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-07-29",
-      "dateEnd": "2026-07-29",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 29 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-08-05",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-08-05",
-      "dateEnd": "2026-08-05",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 5 augusti kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-08-12",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-08-12",
-      "dateEnd": "2026-08-12",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 12 augusti kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-08-19",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-08-19",
-      "dateEnd": "2026-08-19",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 19 augusti kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "jernviken-onsdagsfika-2026-08-26",
-      "name": "Onsdagsfika på Högbo Qvarn",
-      "date": "2026-08-26",
-      "dateEnd": "2026-08-26",
-      "time": "17:00",
-      "endTime": "19:30",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Högbo Qvarn, Sandviken",
-      "organizer": "Jernviken MC Sandviken",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
-      "description": "Sista onsdagsfikat för säsongen hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Alla välkomna, med eller utan hoj.",
-      "descriptionFull": "Sista onsdagsfikat för säsongen med Jernviken MC Sandviken.\n\nTid: Onsdag 26 augusti kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat har pågått hela sommaren från 10 juni. Tack till alla som hängt med under säsongen.\n\nAlla är välkomna, med eller utan hoj.",
-      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "bmw-d11-goes-to-pite-havsbad-arstraff-2026-2026",
-      "name": "D11 Goes to Pite Havsbad (Årsträff)",
-      "date": "2026-06-08",
-      "dateEnd": "2026-06-10",
-      "location": "Hotellvägen 50, Piteå",
-      "type": "Träff",
-      "organizer": "BMW MC-klubben",
-      "organizerIcon": "clubs/BMW_motorrad_v2.png",
-      "description": "Träffpunkt med D11 i Hotellvägen 50, 941 43 Piteå, Sverige. Gemensam fika och MC-prat. Alla medlemmar välkomna!",
-      "link": "https://www.bmwklubben.se/aktiviteter/d11-goes-to-pite-havsbad-arstraff-2026/",
-      "region": "Norrbotten",
-      "source": "bmwklubben.se",
-      "descriptionFull": "D11 Goes to Pite Havsbad (Årsträff 2026) arrangeras av BMW MC-klubben.\n\nTräffpunkt med D11 i Hotellvägen 50, 941 43 Piteå, Sverige. Gemensam fika och MC-prat. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Hotellvägen 50, Piteå.",
-      "links": [
-        {
-          "label": "bmwklubben.se",
-          "url": "https://www.bmwklubben.se/aktiviteter/d11-goes-to-pite-havsbad-arstraff-2026/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Hotellv%C3%A4gen+50%2C+Pite%C3%A5",
-          "type": "map"
-        }
-      ],
-      "backImage": "ads/bmw-default-back.jpg"
-    },
-    {
       "id": "doa-kvallskörning-norrtalje-2026-06-10",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-06-10",
@@ -1168,134 +884,6 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back-2.jpg"
-    },
-    {
-      "id": "vv69mk-vanern-runt-natt-2026-06-13",
-      "name": "Nattkörning Vänern Runt",
-      "date": "2026-06-13",
-      "dateEnd": "2026-06-14",
-      "time": "21:00",
-      "type": "Körning",
-      "region": "Västra Götaland",
-      "location": "Båbergsgrillen, Vänersborg",
-      "organizer": "Vänersborgs Motorcykelklubb",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/vv69mk",
-      "description": "Traditionsenlig nattkörning runt Vänern med Vänersborgs Motorcykelklubb (VV69MK). Start 21:00 från Båbergsgrillen. Ca 40 mil, sex timmar i sadeln. Stora vägar med viltstängsel. Egen fika.",
-      "descriptionFull": "Tid: Lördag 13 juni 2026 kl 21:00 (kör genom natten in i söndag morgon).\nPlats: Start vid Båbergsgrillen, Vänersborg.\n\nTraditionsenlig nattkörning runt Vänern med Vänersborgs Motorcykelklubb (VV69MK).\n\nRutten:\n- Start: Båbergsgrillen kl 21:00\n- Sjötorp för fika\n- Sola i Karlstad för foto\n- Sista stoppet före Åmål\n- Tillbaka till Vänersborg\n\nVi kör bara stora vägar med viltstängsel och håller vilsam hastighet. Cirka 40 mil totalt, sex timmar som ett nattligt äventyr.\n\nTa med egen fika för sköna stopp i natten.\n\nArrangör: Vänersborgs Motorcykelklubb (VV69MK).",
-      "backImage": "ads/vv69mk-vanern-runt-back-2026-06-13.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=27832776676327450&set=gm.27620920777500976&idorvanity=933961473290269"
-        },
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/vv69mk"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Båbergsgrillen+Vänersborg",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "scrc-lordagskorning-world-of-riccardo-2026-06-13",
-      "name": "Lördagskörning till World of Riccardo",
-      "date": "2026-06-13",
-      "dateEnd": "2026-06-13",
-      "time": "09:45",
-      "type": "Körning",
-      "region": "Halland",
-      "location": "Circle K, Kollavarvsvägen 10, Kungsbacka",
-      "organizer": "SCRC #738 Hall of Odin",
-      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/738hallofodin",
-      "description": "Lördagskörning med SCRC #738 Hall of Odin. Samling 09:45, avfärd 10:00 från Circle K Kungsbacka Onsalamotet. Söderut mot Mölle Gård och World of Riccardo utanför Halmstad.",
-      "descriptionFull": "Tid: Lördag 13 juni 2026 - samling kl 09:45, avfärd kl 10:00.\nPlats: Circle K Sverige (Kungsbacka Onsalamotet E6), Kollavarvsvägen 10, 434 91 Kungsbacka.\n\nTuren går söderut mot Mölle Gård och vidare till World of Riccardo utanför Halmstad där gruppen kan njuta av miljön. Alla välkomna.\n\nArrangör: SCRC #738 Hall of Odin (Southern Cruisers Riding Club).",
-      "backImage": "ads/scrc-lordagskorning-back-2026-06-13.jpg",
-      "links": [
-        {
-          "label": "FB Event",
-          "url": "https://www.facebook.com/events/2447095769097224"
-        },
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/738hallofodin"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Kollavarvsvägen+10+Kungsbacka",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "kus-mc-open-house-2026-06-13",
-      "name": "Open House på Kus MC",
-      "date": "2026-06-13",
-      "dateEnd": "2026-06-13",
-      "time": "10:00",
-      "endTime": "15:00",
-      "type": "Show",
-      "region": "Norge",
-      "location": "Ramstadveien 2, 1850 Mysen, Norge",
-      "organizer": "Kus Mc Østfold",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/kusmcostfold",
-      "description": "Open House och stor fest hos Kus MC Østfold tillsammans med Bullfighter. Över 100 motorsyklar redo för provkörning. 15 % på Bullfighter och LS2. Gratis korv, dricka och kaffe. Vinn en hjälm.",
-      "descriptionFull": "Tid: Lördag 13 juni 2026 kl 10:00-15:00.\nPlats: Ramstadveien 2, 1850 Mysen, Norge.\n\nKus MC Østfold och Bullfighter bjuder in till stor fest med MC-prat, nyheter, tävlingar och tilbud.\n\nPå plats:\n- Fantastiska tilbud - upp till 50 % på MC-utrustning\n- 15 % på allt från Bullfighter och LS2\n- Över 100 motorcyklar redo för provkörning\n- Gratis servering: korv, dricka och kaffe\n- Loddtrekning där du kan vinna en helt ny hjälm\n\nArrangörer: Kus Mc Østfold AS och Bullfighter.",
-      "backImage": "ads/kus-mc-open-house-back-2026-06-13.jpg",
-      "links": [
-        {
-          "label": "FB Event",
-          "url": "https://www.facebook.com/events/2203027413813910"
-        },
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/kusmcostfold"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Ramstadveien+2+Mysen+Norge",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "smc-norrbotten-mc-dagen-biltema-2026-06-13",
-      "name": "MC-dagen på Biltema",
-      "date": "2026-06-13",
-      "dateEnd": "2026-06-13",
-      "time": "11:00",
-      "endTime": "15:00",
-      "type": "Show",
-      "region": "Norrbotten",
-      "location": "Biltema, Betongvägen 1A, Luleå",
-      "organizer": "SMC Norrbotten",
-      "organizerIcon": "clubs/normalized/smc.png",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/profile.php?id=100082842400999",
-      "description": "MC-dag på Biltema Storheden i Luleå arrangerad av SMC Norrbotten och Tords Motorservice. Provkör Moto Gymkhana, träffa MC-handlare, prata säkerhet, körkort och besiktning. Kl 11-15.",
-      "descriptionFull": "Tid: Lördag 13 juni 2026 kl 11:00-15:00.\nPlats: Biltema Luleå, Betongvägen 1A, 973 45 Gammelstad (Storheden).\n\nBiltemas parkering blir för en dag ett MC-område med pulserande aktivitet.\n\nPå plats:\n- Lindroths, Heds och Tords Motor som MC-handlare\n- Besikta\n- Centrala trafikskolan\n- SMC Norrbotten\n- Moto Gymkhana - prova att köra själv\n\nFokus på säkerhet, körkort, gemenskap och kurser - för att göra MC-livet bättre.\n\nArrangörer: SMC Norrbotten och Tords Motorservice.",
-      "backImage": "ads/smc-norrbotten-mc-dagen-back-2026-06-13.jpg",
-      "links": [
-        {
-          "label": "FB Event",
-          "url": "https://www.facebook.com/events/871628258699701"
-        },
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/profile.php?id=100082842400999"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+Betongvägen+1A+Luleå",
-          "type": "map"
-        }
-      ]
     },
     {
       "id": "leksand-gagnef-mck-onsdagstur-2026-06-10",
@@ -1607,6 +1195,33 @@ const EVENTS_DATA = {
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
     },
     {
+      "id": "onsdagskorning-skovde-2026-06-10",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-06-10",
+      "dateEnd": "2026-06-10",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-06-10/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-06-10/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "76-mil-grus-2026",
       "name": "76 mil grus",
       "date": "2026-06-11",
@@ -1823,6 +1438,37 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+    },
+    {
+      "id": "furugrunds-hamncafe-2026-06-11",
+      "name": "DO-K Furugrunds Hamncafé",
+      "date": "2026-06-11",
+      "dateEnd": "2026-06-11",
+      "location": "OKQ8 Center, Robertsvik, Luleå",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Kvällstur till Byske och Furugrunds Hamncafé. Avfärd 17:00 från OKQ8 Robertsvik i Luleå och 18:00 från OKQ8 Degeränget i Piteå.",
+      "link": "https://hdcs.se/evenemang/furugrunds-hamncafe/",
+      "region": "Norrbotten",
+      "source": "hdcs.se",
+      "descriptionFull": "På torsdag 11 juni gör vi en ny körning istället för den uteblivna nationaldagskörningen som uteblev pga regn. Vi åker mot Byske och Furugrunds Hamncafé i Byske för att äta deras goda räkmacka eller för den delen något annat gott.\nVi åker 17.00 från OKQ8 Center på Robertsvik, Luleå och kör E4:an mot Piteå och där avgår vi från OKQ8 Degeränget kl 18.00, där tar vi vägen över Hemmingsmark och dom inre vägarna mot Byske för färd mot Furugrund.\n\nVid regn så ställs körningen in och skulle det bli så meddelar vi detta via Facebook och hemsidan.\nStyrelsen hälsar alla välkomna.\n\nhttps://furuogrundshamncafe.nu/",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/furugrunds-hamncafe/"
+        },
+        {
+          "label": "Hamncaféet",
+          "url": "https://furuogrundshamncafe.nu/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=OKQ8+Robertsvik%2C+Lule%C3%A5",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "moonshine-cruisers-karaoke-forfest-2026-06-12",
@@ -2135,6 +1781,134 @@ const EVENTS_DATA = {
       "backImage": "ads/gojvtraffen-back-2026-06-12.jpg"
     },
     {
+      "id": "vv69mk-vanern-runt-natt-2026-06-13",
+      "name": "Nattkörning Vänern Runt",
+      "date": "2026-06-13",
+      "dateEnd": "2026-06-14",
+      "time": "21:00",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "Båbergsgrillen, Vänersborg",
+      "organizer": "Vänersborgs Motorcykelklubb",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/vv69mk",
+      "description": "Traditionsenlig nattkörning runt Vänern med Vänersborgs Motorcykelklubb (VV69MK). Start 21:00 från Båbergsgrillen. Ca 40 mil, sex timmar i sadeln. Stora vägar med viltstängsel. Egen fika.",
+      "descriptionFull": "Tid: Lördag 13 juni 2026 kl 21:00 (kör genom natten in i söndag morgon).\nPlats: Start vid Båbergsgrillen, Vänersborg.\n\nTraditionsenlig nattkörning runt Vänern med Vänersborgs Motorcykelklubb (VV69MK).\n\nRutten:\n- Start: Båbergsgrillen kl 21:00\n- Sjötorp för fika\n- Sola i Karlstad för foto\n- Sista stoppet före Åmål\n- Tillbaka till Vänersborg\n\nVi kör bara stora vägar med viltstängsel och håller vilsam hastighet. Cirka 40 mil totalt, sex timmar som ett nattligt äventyr.\n\nTa med egen fika för sköna stopp i natten.\n\nArrangör: Vänersborgs Motorcykelklubb (VV69MK).",
+      "backImage": "ads/vv69mk-vanern-runt-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=27832776676327450&set=gm.27620920777500976&idorvanity=933961473290269"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/vv69mk"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Båbergsgrillen+Vänersborg",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "scrc-lordagskorning-world-of-riccardo-2026-06-13",
+      "name": "Lördagskörning till World of Riccardo",
+      "date": "2026-06-13",
+      "dateEnd": "2026-06-13",
+      "time": "09:45",
+      "type": "Körning",
+      "region": "Halland",
+      "location": "Circle K, Kollavarvsvägen 10, Kungsbacka",
+      "organizer": "SCRC #738 Hall of Odin",
+      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/738hallofodin",
+      "description": "Lördagskörning med SCRC #738 Hall of Odin. Samling 09:45, avfärd 10:00 från Circle K Kungsbacka Onsalamotet. Söderut mot Mölle Gård och World of Riccardo utanför Halmstad.",
+      "descriptionFull": "Tid: Lördag 13 juni 2026 - samling kl 09:45, avfärd kl 10:00.\nPlats: Circle K Sverige (Kungsbacka Onsalamotet E6), Kollavarvsvägen 10, 434 91 Kungsbacka.\n\nTuren går söderut mot Mölle Gård och vidare till World of Riccardo utanför Halmstad där gruppen kan njuta av miljön. Alla välkomna.\n\nArrangör: SCRC #738 Hall of Odin (Southern Cruisers Riding Club).",
+      "backImage": "ads/scrc-lordagskorning-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2447095769097224"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/738hallofodin"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Kollavarvsvägen+10+Kungsbacka",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "kus-mc-open-house-2026-06-13",
+      "name": "Open House på Kus MC",
+      "date": "2026-06-13",
+      "dateEnd": "2026-06-13",
+      "time": "10:00",
+      "endTime": "15:00",
+      "type": "Show",
+      "region": "Norge",
+      "location": "Ramstadveien 2, 1850 Mysen, Norge",
+      "organizer": "Kus Mc Østfold",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/kusmcostfold",
+      "description": "Open House och stor fest hos Kus MC Østfold tillsammans med Bullfighter. Över 100 motorsyklar redo för provkörning. 15 % på Bullfighter och LS2. Gratis korv, dricka och kaffe. Vinn en hjälm.",
+      "descriptionFull": "Tid: Lördag 13 juni 2026 kl 10:00-15:00.\nPlats: Ramstadveien 2, 1850 Mysen, Norge.\n\nKus MC Østfold och Bullfighter bjuder in till stor fest med MC-prat, nyheter, tävlingar och tilbud.\n\nPå plats:\n- Fantastiska tilbud - upp till 50 % på MC-utrustning\n- 15 % på allt från Bullfighter och LS2\n- Över 100 motorcyklar redo för provkörning\n- Gratis servering: korv, dricka och kaffe\n- Loddtrekning där du kan vinna en helt ny hjälm\n\nArrangörer: Kus Mc Østfold AS och Bullfighter.",
+      "backImage": "ads/kus-mc-open-house-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2203027413813910"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/kusmcostfold"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ramstadveien+2+Mysen+Norge",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "smc-norrbotten-mc-dagen-biltema-2026-06-13",
+      "name": "MC-dagen på Biltema",
+      "date": "2026-06-13",
+      "dateEnd": "2026-06-13",
+      "time": "11:00",
+      "endTime": "15:00",
+      "type": "Show",
+      "region": "Norrbotten",
+      "location": "Biltema, Betongvägen 1A, Luleå",
+      "organizer": "SMC Norrbotten",
+      "organizerIcon": "clubs/normalized/smc.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=100082842400999",
+      "description": "MC-dag på Biltema Storheden i Luleå arrangerad av SMC Norrbotten och Tords Motorservice. Provkör Moto Gymkhana, träffa MC-handlare, prata säkerhet, körkort och besiktning. Kl 11-15.",
+      "descriptionFull": "Tid: Lördag 13 juni 2026 kl 11:00-15:00.\nPlats: Biltema Luleå, Betongvägen 1A, 973 45 Gammelstad (Storheden).\n\nBiltemas parkering blir för en dag ett MC-område med pulserande aktivitet.\n\nPå plats:\n- Lindroths, Heds och Tords Motor som MC-handlare\n- Besikta\n- Centrala trafikskolan\n- SMC Norrbotten\n- Moto Gymkhana - prova att köra själv\n\nFokus på säkerhet, körkort, gemenskap och kurser - för att göra MC-livet bättre.\n\nArrangörer: SMC Norrbotten och Tords Motorservice.",
+      "backImage": "ads/smc-norrbotten-mc-dagen-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/871628258699701"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100082842400999"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+Betongvägen+1A+Luleå",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "gwcs-stockholm-lordagstur-trosa-2026-06-13",
       "name": "Lördagstur till Trosa",
       "date": "2026-06-13",
@@ -2362,33 +2136,6 @@ const EVENTS_DATA = {
       "backImage": "ads/cancer-run-back-2026-06-13.jpg"
     },
     {
-      "id": "charity-run-distrikt-k-2026",
-      "name": "Charity Run - Distrikt K",
-      "date": "2026-06-13",
-      "dateEnd": "2026-06-13",
-      "location": "Luleå",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Arrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
-      "link": "https://hdcs.se/evenemang/charity-run-distrikt-k/",
-      "region": "Norrbotten",
-      "source": "hdcs.se",
-      "descriptionFull": "Charity Run - Distrikt K arrangeras av H-DCS.\n\nArrangemang med H-DCS från Sverige. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Sverige.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/charity-run-distrikt-k/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Sverige",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back.jpg"
-    },
-    {
       "id": "doa-girl-fun-run-2026",
       "name": "DOA - Girl Fun Run",
       "date": "2026-06-13",
@@ -2444,25 +2191,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-06-13",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-06-13",
       "dateEnd": "2026-06-13",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-06-13/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-06-13/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-06-13/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-06-13/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -2839,31 +2586,35 @@ const EVENTS_DATA = {
       "backImage": "ads/staffanstorps-motorfestival-back-2026-06-13.jpg"
     },
     {
-      "id": "doa-emilsturen-2026-06-14",
-      "name": "DOA - Emilsturen",
+      "id": "hdk1930-96ar-pokerrun-2026-06-14",
+      "name": "96 års Pokerrun",
       "date": "2026-06-14",
       "dateEnd": "2026-06-14",
-      "location": "Stockholm",
+      "time": "09:30",
       "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Körtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.",
-      "link": "https://hdcs.se/evenemang/doa-emilsturen/2026-06-14/",
-      "region": "Stockholm",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Emilsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
+      "region": "Danmark",
+      "location": "Gymnasievej 3, Stenløse, Danmark",
+      "organizer": "H-D Klubben af 1930",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/www.hdk1930.dk/",
+      "description": "Harley-Davidson Klubben af 1930 firar 96-årsjubileum med en Pokerrun. Söndag 14 juni kl 09:30 från klubbhuset i Stenløse. Anmälan senast 7/6 till HDK1930@netmail.dk.",
+      "descriptionFull": "Klubben firar 96-årsjubileum med en Pokerrun från klubbhuset i Stenløse.\n\nTid: Söndag 14 juni kl 09:30.\nPlats: Gymnasievej 3, 3660 Stenløse, Danmark.\n\nHarley-Davidson Klubben af 1930, även kallad HDK1930 eller \"1930\", grundades 1930 och är Europas näst äldsta Harley-Davidson-klubb.\n\nAnmälan senast 7 juni till HDK1930@netmail.dk.\n\nArrangör: Harley-Davidson Klubben af 1930, medarrangör Jeanette Hestehave.",
+      "backImage": "ads/hdk1930-96ar-pokerrun-back-2026-06-14.jpg",
       "links": [
         {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-emilsturen/2026-06-14/"
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/3352064648290856"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/www.hdk1930.dk/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Stockholm",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gymnasievej+3+3660+Stenløse+Danmark",
           "type": "map"
         }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back.jpg"
+      ]
     },
     {
       "id": "hakan-p-slottsrundan-2026",
@@ -3050,258 +2801,6 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/bike.night.mobygdegard",
       "description": "Säsongspremiär för Classic Motor Monday vid Mo Bygdegård. Måndagar kl 18-21 från 15 juni till 17 augusti. Bil- och MC-träff. Egen servering med korv och hamburgare.",
       "descriptionFull": "Säsongspremiär för Classic Motor Monday vid Mo Bygdegård.\n\nTid: Måndag 15 juni kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag under juni-juli-augusti, fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.\n\n10 platser reserveras för sena eller långväga gäster - skicka SMS till 073-438 92 20 senast kl 12:00 på premiärdagen och boka plats. Ange märke och årsmodell. Bokad plats släpps fri efter kl 18:00.",
-      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/bike.night.mobygdegard"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "mo-bygdegard-classic-motor-monday-2026-06-22",
-      "name": "Classic Motor Monday",
-      "date": "2026-06-22",
-      "dateEnd": "2026-06-22",
-      "time": "18:00",
-      "endTime": "21:00",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Mo Bygdegård, Bollnäs",
-      "organizer": "Mo Bygdegård",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/bike.night.mobygdegard",
-      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
-      "descriptionFull": "Tid: Måndag 22 juni kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
-      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/bike.night.mobygdegard"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "mo-bygdegard-classic-motor-monday-2026-06-29",
-      "name": "Classic Motor Monday",
-      "date": "2026-06-29",
-      "dateEnd": "2026-06-29",
-      "time": "18:00",
-      "endTime": "21:00",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Mo Bygdegård, Bollnäs",
-      "organizer": "Mo Bygdegård",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/bike.night.mobygdegard",
-      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
-      "descriptionFull": "Tid: Måndag 29 juni kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
-      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/bike.night.mobygdegard"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "mo-bygdegard-classic-motor-monday-2026-07-06",
-      "name": "Classic Motor Monday",
-      "date": "2026-07-06",
-      "dateEnd": "2026-07-06",
-      "time": "18:00",
-      "endTime": "21:00",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Mo Bygdegård, Bollnäs",
-      "organizer": "Mo Bygdegård",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/bike.night.mobygdegard",
-      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
-      "descriptionFull": "Tid: Måndag 6 juli kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
-      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/bike.night.mobygdegard"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "mo-bygdegard-classic-motor-monday-2026-07-13",
-      "name": "Classic Motor Monday",
-      "date": "2026-07-13",
-      "dateEnd": "2026-07-13",
-      "time": "18:00",
-      "endTime": "21:00",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Mo Bygdegård, Bollnäs",
-      "organizer": "Mo Bygdegård",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/bike.night.mobygdegard",
-      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
-      "descriptionFull": "Tid: Måndag 13 juli kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
-      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/bike.night.mobygdegard"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "mo-bygdegard-classic-motor-monday-2026-07-20",
-      "name": "Classic Motor Monday",
-      "date": "2026-07-20",
-      "dateEnd": "2026-07-20",
-      "time": "18:00",
-      "endTime": "21:00",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Mo Bygdegård, Bollnäs",
-      "organizer": "Mo Bygdegård",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/bike.night.mobygdegard",
-      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
-      "descriptionFull": "Tid: Måndag 20 juli kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
-      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/bike.night.mobygdegard"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "mo-bygdegard-classic-motor-monday-2026-07-27",
-      "name": "Classic Motor Monday",
-      "date": "2026-07-27",
-      "dateEnd": "2026-07-27",
-      "time": "18:00",
-      "endTime": "21:00",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Mo Bygdegård, Bollnäs",
-      "organizer": "Mo Bygdegård",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/bike.night.mobygdegard",
-      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
-      "descriptionFull": "Tid: Måndag 27 juli kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
-      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/bike.night.mobygdegard"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "mo-bygdegard-classic-motor-monday-2026-08-03",
-      "name": "Classic Motor Monday",
-      "date": "2026-08-03",
-      "dateEnd": "2026-08-03",
-      "time": "18:00",
-      "endTime": "21:00",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Mo Bygdegård, Bollnäs",
-      "organizer": "Mo Bygdegård",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/bike.night.mobygdegard",
-      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
-      "descriptionFull": "Tid: Måndag 3 augusti kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
-      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/bike.night.mobygdegard"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "mo-bygdegard-classic-motor-monday-2026-08-10",
-      "name": "Classic Motor Monday",
-      "date": "2026-08-10",
-      "dateEnd": "2026-08-10",
-      "time": "18:00",
-      "endTime": "21:00",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Mo Bygdegård, Bollnäs",
-      "organizer": "Mo Bygdegård",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/bike.night.mobygdegard",
-      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
-      "descriptionFull": "Tid: Måndag 10 augusti kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
-      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
-      "links": [
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/bike.night.mobygdegard"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "mo-bygdegard-classic-motor-monday-2026-08-17",
-      "name": "Classic Motor Monday",
-      "date": "2026-08-17",
-      "dateEnd": "2026-08-17",
-      "time": "18:00",
-      "endTime": "21:00",
-      "type": "Träff",
-      "region": "Gävleborg",
-      "location": "Mo Bygdegård, Bollnäs",
-      "organizer": "Mo Bygdegård",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/bike.night.mobygdegard",
-      "description": "Säsongsavslutning för Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Sista måndagen för säsongen.",
-      "descriptionFull": "Tid: Måndag 17 augusti kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nSista Classic Motor Monday för säsongen. Hälsinglands största bil- och MC-träff.\n\nPå plats: egen servering med kaffe, korv och hamburgare.\n\nTack till alla som hängt med under sommaren - vi ses igen nästa år!",
       "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
       "links": [
         {
@@ -3513,6 +3012,34 @@ const EVENTS_DATA = {
       ],
       "source": "facebook.com",
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
+    },
+    {
+      "id": "jernviken-onsdagsfika-2026-06-17",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 17 juni kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "condios-djurspatraffen-2026",
@@ -3766,6 +3293,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-06-17",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-06-17/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-06-17/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "doa-dagstur-ekero-2026-06-18",
@@ -4210,6 +3764,33 @@ const EVENTS_DATA = {
       "backImage": "ads/summer-party-fauske-back-2026-06-19.jpg"
     },
     {
+      "id": "doh-kattisavan-midsommarfirande-2026-06-19",
+      "name": "DOH - Midsommarfirande Kattisavan",
+      "date": "2026-06-19",
+      "dateEnd": "2026-06-21",
+      "location": "Kattisavan Camping, Kattisavan 34, Lycksele",
+      "type": "Träff",
+      "organizer": "H-DCS",
+      "description": "Gemensam midsommarhelg på campingen som höll internationella träffen 2001 och 2007. Husbil, husvagn eller tält. Ingen föranmälan behövs.",
+      "link": "https://hdcs.se/evenemang/doh-kattisavan-midsommarfirande/",
+      "region": "Västerbotten",
+      "source": "hdcs.se",
+      "descriptionFull": "Alla som har möjlighet och vill, samlas för en trevlig midsommarhelg tillsammans på Kattisavan Camping, platsen för internationella träffen 2001 och 2007.\n\nDet finns inga stugor så det blir husbil, husvagn eller tält som gäller för oss som stannar.\nVar och en tar också med mat och dryck.\n\nNi som vill passa på och fiska tar med kastspön.\n\nDet behövs ingen föranmälan så det är bara att dyka upp.\nHar ni några frågor går det bra att ringa mig 070- 573 90 31 Kent",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/doh-kattisavan-midsommarfirande/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kattisavan+Camping%2C+Lycksele",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "lo-i-lordagskörningar-kramfors-2026-06-20",
       "name": "LO I Lördagskörningar Kramfors",
       "date": "2026-06-20",
@@ -4320,6 +3901,33 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "doa-emilsturen-2026-06-21",
+      "name": "DOA - Emilsturen",
+      "date": "2026-06-21",
+      "dateEnd": "2026-06-21",
+      "location": "Probike Täby, Åkerivägen 6, Täby",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Old school-tur norrut på länets småvägar med Emil. Samling 10:30 hos Probike i Täby, avfärd 11:00. Flyttad från 14/6.",
+      "link": "https://hdcs.se/evenemang/doa-emilsturen-3/",
+      "region": "Stockholm",
+      "source": "hdcs.se",
+      "descriptionFull": "Old school tur 2.0 med Emil flyttad från 14/6 till 21/6.\n\nEftersom det är Girls run 14/6 flyttar jag min nästa tur till söndagen midsommarhelgen den 21/6.\n\nTanken är att på mitt sätt utforska olika delar av vårat län och de småvägar det har att erbjuda. Det kommer vara olika startplatser beroende på om turen tar oss söder, väster eller norrut…\n\nDenna andra gång kör vi med en tur norr ut.\n\nSamling Kl:10:30 på Pro Bike i Täby.\nAvfärd Kl:11:00\n\nFörutsättningar:\nJag kör oavsett väder.\nJag kör utan GPS.\nJag kör inga motorvägar.\nJag kör med hyfsat täta stopp så man hinner umgås.\nJag kör skönt och lugnt men kanske inte tittar på hastighetsmätaren så ofta utan låter vägen bestämma hastigheten.\nMan kan välja att följa med på ett stopp, flera stopp eller hela dagen. (1-1,5 timme, 2,5-3 timmar eller hela dagen 6-8 timmar.)\n\nSe till att vara fulltankade och körsugna.",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/doa-emilsturen-3/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85keriv%C3%A4gen+6%2C+T%C3%A4by",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "jmc-sondagsrundan-2026-06-21",
       "name": "Söndagsrundan",
       "date": "2026-06-21",
@@ -4373,6 +3981,34 @@ const EVENTS_DATA = {
       ],
       "source": "facebook.com",
       "backImage": "ads/mittensverigetur-grus-back-2026-06-21.jpg"
+    },
+    {
+      "id": "mo-bygdegard-classic-motor-monday-2026-06-22",
+      "name": "Classic Motor Monday",
+      "date": "2026-06-22",
+      "dateEnd": "2026-06-22",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Mo Bygdegård, Bollnäs",
+      "organizer": "Mo Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/bike.night.mobygdegard",
+      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
+      "descriptionFull": "Tid: Måndag 22 juni kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
+      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/bike.night.mobygdegard"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "doa-kvallskörning-nacka-2026-06-22",
@@ -4572,6 +4208,34 @@ const EVENTS_DATA = {
       ],
       "source": "facebook.com",
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
+    },
+    {
+      "id": "jernviken-onsdagsfika-2026-06-24",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-06-24",
+      "dateEnd": "2026-06-24",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 24 juni kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "doa-kvallskörning-norrtalje-2026-06-24",
@@ -4795,6 +4459,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-06-24",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-06-24",
+      "dateEnd": "2026-06-24",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-06-24/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-06-24/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "doa-dagstur-ekero-2026-06-25",
@@ -5247,6 +4938,55 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "do-i-traff-i-sandslan-2026-06-26",
+      "name": "DO-I Träff i Sandslån",
+      "date": "2026-06-26",
+      "dateEnd": "2026-06-28",
+      "location": "Sandslåns vandrarhem, Flottarvägen 74, Nyland",
+      "type": "Träff",
+      "organizer": "H-DCS",
+      "description": "Helgträff med camping och vandrarhem. Tältplats och gemensam frukost ingår i avgiften, 250 kr. Boende i vandrarhemmet bokas hos campingen.",
+      "link": "https://hdcs.se/evenemang/do-i-traff-i-sandslan/",
+      "region": "Västernorrland",
+      "source": "hdcs.se",
+      "descriptionFull": "Vi kör denna träff även i år. Vill man ha boende i vandrarhemmet bokar man detta via campingen/vandrarhemmet, tältplats och gemensam frukost ingår i avgiften. 250 kr. Kom och trivs i vår trevliga gemenskap.\n\nDO-I Helen 070-2067637\n\nDS-I Helene 070-3084524\n\nDK-I Ann-Charlott 076-7661252\n\nSandslåns vandrarhem 070-7989711",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/do-i-traff-i-sandslan/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Flottarv%C3%A4gen+74%2C+Nyland",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "charity-run-distrikt-k-2026-06-27",
+      "name": "Charity Run - Distrikt K",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "location": "Norrbotten (DK)",
+      "type": "Träff",
+      "organizer": "H-DCS",
+      "description": "Charity Run till förmån för Min Stora Dag, som ordnar önskedagar för svårt sjuka barn. Plats och tid meddelas senare på hdcs.se.",
+      "link": "https://hdcs.se/evenemang/charity-run-distrikt-k-2/",
+      "region": "Norrbotten",
+      "source": "hdcs.se",
+      "descriptionFull": "Då har det börjats planera för Charity Run som detta år går för den hedervärda “min stora dag” som är en organisation som genomför önskedagar för svårt sjuka barn så det är en viktig sak.\n\nPlats och tid återkommer vi med",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/charity-run-distrikt-k-2/"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "bikeman-run-2026-06-27",
       "name": "Bikeman Run",
       "date": "2026-06-27",
@@ -5661,25 +5401,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-06-27",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-06-27",
       "dateEnd": "2026-06-27",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-06-27/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-06-27/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-06-27/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-06-27/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -5998,6 +5738,60 @@ const EVENTS_DATA = {
       "backImage": "ads/smc-default-back.jpg"
     },
     {
+      "id": "distriktsarsmote-f-charity-run-2026-06-27",
+      "name": "Distriktsårsmöte F med Charity Run",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-28",
+      "location": "Långmossen Ranch, Körtinge, Köping",
+      "type": "Träff",
+      "organizer": "H-DCS",
+      "description": "Distriktsårsmöte med övernattning på Långmossen Ranch väster om Köping, kombinerat med årets Charity Run med starter från olika delar av distriktet.",
+      "link": "https://hdcs.se/evenemang/distriktsarsmote-f-med-charity-run/",
+      "region": "Västmanland",
+      "source": "hdcs.se",
+      "descriptionFull": "27-28/6 har vi i distrikt F distriktsårsmöte med övernattning på\nLångmossen Ranch i Körtinge som ligger 17 km väst nord väst om Köping.\nDet är även årets Charity Run och det kommer att bli starter från olika delar av distriktet, se Facebookgruppen när det närmar sig.",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/distriktsarsmote-f-med-charity-run/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=L%C3%A5ngmossen%2C+K%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "doe-charity-run-ljungby-2026-06-27",
+      "name": "DOE Charity Run till medlemsbutiken",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "location": "Medlemsbutiken, Ljungby",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Charity Run med samlingar i Växjö, Värnamo, Oskarshamn och Vetlanda och gemensamt mål vid medlemsbutiken. Se tider för respektive startort.",
+      "link": "https://hdcs.se/evenemang/doe-charity-run-distrikt-e-2026-06-27-till-medlemsbutiken-i-ljungby/",
+      "region": "Kronoberg",
+      "source": "hdcs.se",
+      "descriptionFull": "Charity run Distrikt-E 2026-06-27 till medlemsbutiken i Ljungby.\n\nVäxjö\n\nVi samlas utanför Biltema i Växjö kl. 10.30. Avfärd kl. 10.45.\n\nKontaktperson: Magnus Eckervad 070-559 93 09\n\nVärnamo\n\nSamling Värnamo: Biltema kl 10,45 avfärd kl 11,00.\n\nKontaktperson: Budda 073-311 09 79\n\nOskarshamn\n\nSamling vid ST1 (Shell) kl 08:45. Avfärd kl 09:00.\n\nKontaktperson: Micke 070-381 68 58\n\nVetlanda\n\nSamling EM-Möbler kl 09.15 avfärd kl 09.30\n\nKontaktperson: Johnny- 070-557 10 45\n\nKarlshamn\n\nHär samlas vi vid Cirkel K kl 10.00 avfärd kl 10.15\n\nKontaktperson: Blomman 070-817 41 90\n\nKalmar\n\nVi samlas Rasta Kalmar kl 08.45 avfärd kl 09.00 vi ansluter till Växjögänget.\n\nKontaktperson: Sandra 073-511 01 27\n\nVi kan äta gemensamt efter besök på medlemsbutiken hos Steakhouse i Skeen för den som vill.",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/doe-charity-run-distrikt-e-2026-06-27-till-medlemsbutiken-i-ljungby/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ljungby",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "jmc-sondagsrundan-2026-06-28",
       "name": "Söndagsrundan",
       "date": "2026-06-28",
@@ -6078,6 +5872,34 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Sj%C3%B6bo+Marknadsplats+Sj%C3%B6bo",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "mo-bygdegard-classic-motor-monday-2026-06-29",
+      "name": "Classic Motor Monday",
+      "date": "2026-06-29",
+      "dateEnd": "2026-06-29",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Mo Bygdegård, Bollnäs",
+      "organizer": "Mo Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/bike.night.mobygdegard",
+      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
+      "descriptionFull": "Tid: Måndag 29 juni kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
+      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/bike.night.mobygdegard"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
           "type": "map"
         }
       ]
@@ -6310,6 +6132,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "jernviken-onsdagsfika-2026-07-01",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-07-01",
+      "dateEnd": "2026-07-01",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 1 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-sommarkvallstur-nacka-2026",
       "name": "DOA - Sommarkvällstur Nacka",
       "date": "2026-07-01",
@@ -6477,6 +6327,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-07-01",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-07-01",
+      "dateEnd": "2026-07-01",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-01/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-01/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "alandstraffen-2026",
@@ -7249,6 +7126,28 @@ const EVENTS_DATA = {
       "backImage": "ads/vrs-gostas-raektur-back-2026-07-04.jpg"
     },
     {
+      "id": "charity-run-distrikt-j-2026-07-04",
+      "name": "Charity Run - Distrikt J",
+      "date": "2026-07-04",
+      "dateEnd": "2026-07-04",
+      "location": "Jämtland (DJ)",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Charity Run i Distrikt J. Mer information om tider och startplatser kommer närmare datumet, håll utkik på hdcs.se.",
+      "link": "https://hdcs.se/evenemang/charityrun/",
+      "region": "Jämtland",
+      "source": "hdcs.se",
+      "descriptionFull": "Mer information om tider och startplatser kommer",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/charityrun/"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "do-c-lars-eriks-glassrunda-2026",
       "name": "DO-C Lars-Eriks glassrunda",
       "date": "2026-07-05",
@@ -7298,6 +7197,34 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=ST1+Asecs+J%C3%B6nk%C3%B6ping",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "mo-bygdegard-classic-motor-monday-2026-07-06",
+      "name": "Classic Motor Monday",
+      "date": "2026-07-06",
+      "dateEnd": "2026-07-06",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Mo Bygdegård, Bollnäs",
+      "organizer": "Mo Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/bike.night.mobygdegard",
+      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
+      "descriptionFull": "Tid: Måndag 6 juli kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
+      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/bike.night.mobygdegard"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
           "type": "map"
         }
       ]
@@ -7442,6 +7369,34 @@ const EVENTS_DATA = {
       ],
       "source": "facebook.com",
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
+    },
+    {
+      "id": "jernviken-onsdagsfika-2026-07-08",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-07-08",
+      "dateEnd": "2026-07-08",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 8 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "doa-sommarkvallstur-taby-2026",
@@ -7683,6 +7638,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-07-08",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-07-08",
+      "dateEnd": "2026-07-08",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-08/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-08/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "bmw-d15-smalandshelg-med-grand-prix-speedway-i-malilla-2026",
@@ -7965,25 +7947,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-07-11",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-07-11",
       "dateEnd": "2026-07-11",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-07-11/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-07-11/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-07-11/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-07-11/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -8324,6 +8306,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mo-bygdegard-classic-motor-monday-2026-07-13",
+      "name": "Classic Motor Monday",
+      "date": "2026-07-13",
+      "dateEnd": "2026-07-13",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Mo Bygdegård, Bollnäs",
+      "organizer": "Mo Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/bike.night.mobygdegard",
+      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
+      "descriptionFull": "Tid: Måndag 13 juli kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
+      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/bike.night.mobygdegard"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "sub5-gellerasen-trackday-2026-07-13",
       "name": "Sporthoj of Sweden Trackday Gelleråsen",
       "date": "2026-07-13",
@@ -8439,6 +8449,34 @@ const EVENTS_DATA = {
       ],
       "source": "facebook.com",
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
+    },
+    {
+      "id": "jernviken-onsdagsfika-2026-07-15",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-07-15",
+      "dateEnd": "2026-07-15",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 15 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "doa-sommarkvallstur-ekero-2026",
@@ -8585,6 +8623,33 @@ const EVENTS_DATA = {
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
     },
     {
+      "id": "onsdagskorning-skovde-2026-07-15",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-07-15",
+      "dateEnd": "2026-07-15",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-15/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-15/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "lo-i-torsdagskörningar-sundsvall-2026-07-16",
       "name": "LO-I Torsdagskörningar Sundsvall",
       "date": "2026-07-16",
@@ -8676,33 +8741,6 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
-    },
-    {
-      "id": "doe-hoglandsturen-med-jonas-lager-17-juli-2026",
-      "name": "DOE Höglandsturen med Jonas Lager",
-      "date": "2026-07-17",
-      "dateEnd": "2026-07-17",
-      "location": "Östergötland (DOE)",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Körtur med H-DCS DOE från Småland. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.",
-      "link": "https://hdcs.se/evenemang/doe-hoglandsturen-med-jonas-lager-17-juli/",
-      "region": "Östergötland",
-      "source": "hdcs.se",
-      "descriptionFull": "DOE Höglandsturen med Jonas Lager 17 juli arrangeras av H-DCS.\n\nKörtur med H-DCS DOE från Småland. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Småland.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doe-hoglandsturen-med-jonas-lager-17-juli/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%A5land",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back-3.jpg"
     },
     {
       "id": "dog-bergsjotraffen-2026",
@@ -8839,6 +8877,33 @@ const EVENTS_DATA = {
       "link": "https://www.wheelsandwings.se",
       "region": "Halland",
       "source": "FB"
+    },
+    {
+      "id": "doe-hoglandsturen-med-jonas-lager-2026-07-18",
+      "name": "DOE Höglandsturen med Jonas Lager",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "location": "Biltema, Vetlanda",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Runda på höglandet, ca 16-20 mil. Start från Biltema i Vetlanda, samling 09:15 och avfärd ca 09:30. Flyttad till 18 juli.",
+      "link": "https://hdcs.se/evenemang/doe-hoglandsturen-med-jonas-lager-17-juli/",
+      "region": "Jönköping",
+      "source": "hdcs.se",
+      "descriptionFull": "HÖGLANDSTUREN 2026-07-18\n\nDen 18/7 kör vi en runda på höglandet ca 16-20 mil. Vi startar från Biltema i Vetlanda, samling 09,15 start ca 09,30.\n\nVid frågor kontakta:\n\nLOE JONAS LAGER. 072-7443075\n\nJonas.lager@hotmail.com",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/doe-hoglandsturen-med-jonas-lager-17-juli/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Biltema%2C+Vetlanda",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back-3.jpg"
     },
     {
       "id": "big-air-freestyle-show-leksand-2026-07-18",
@@ -9103,6 +9168,33 @@ const EVENTS_DATA = {
       "backImage": "ads/wilma-memorial-run-back-2026-07-18.jpg"
     },
     {
+      "id": "andersson-runda-2026-07-18",
+      "name": "Andersson runda",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "location": "Hemköp, Tyringe",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling 10:30 på Hemköps parkering, start kl 11 mot Norra Rörum och Gårdstånga. Rundan avslutas på Hardys i Höör. Ställs in vid dåligt väder.",
+      "link": "https://hdcs.se/evenemang/andersson-runda/",
+      "region": "Skåne",
+      "source": "hdcs.se",
+      "descriptionFull": "Den 18 Juli kl 10,30 samlas vi på parkeringen Hemköp i Tyringe.\n\nStarten går kl 11 mot Norra Rörum vidare mot Gårdstånga.\n\nRundan avslutas på Hardys i Höör.\n\nVi kör ej vid dåligt väder.\n\nVälkomna\n\nMange\n\nThomas DOB",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/andersson-runda/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hemk%C3%B6p%2C+Tyringe",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "doa-emilsturen-2026-07-19",
       "name": "DOA - Emilsturen",
       "date": "2026-07-19",
@@ -9152,6 +9244,34 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=ST1+Asecs+J%C3%B6nk%C3%B6ping",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "mo-bygdegard-classic-motor-monday-2026-07-20",
+      "name": "Classic Motor Monday",
+      "date": "2026-07-20",
+      "dateEnd": "2026-07-20",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Mo Bygdegård, Bollnäs",
+      "organizer": "Mo Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/bike.night.mobygdegard",
+      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
+      "descriptionFull": "Tid: Måndag 20 juli kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
+      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/bike.night.mobygdegard"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
           "type": "map"
         }
       ]
@@ -9328,6 +9448,34 @@ const EVENTS_DATA = {
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
     },
     {
+      "id": "jernviken-onsdagsfika-2026-07-22",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-07-22",
+      "dateEnd": "2026-07-22",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 22 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-sommarkvallstur-skogskyrkogarden-2026",
       "name": "DOA - Sommarkvällstur Skogskyrkogården",
       "date": "2026-07-22",
@@ -9497,6 +9645,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-07-22",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-07-22",
+      "dateEnd": "2026-07-22",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-22/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-22/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "doh-fika-lycksele-2026-07-23",
@@ -9930,25 +10105,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-07-25",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-07-25",
       "dateEnd": "2026-07-25",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-07-25/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-07-25/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-07-25/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-07-25/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -10067,6 +10242,33 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "ds-i-fiskeresa-axmar-brygga-2026-07-25",
+      "name": "DS-I Fiskeresa till Axmar brygga",
+      "date": "2026-07-25",
+      "dateEnd": "2026-07-25",
+      "location": "Axmar brygga, Hamnmagasinet 60, Axmar",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Tur till restaurangen Axmar brygga i samarbete med distrikt G, 20 platser bokade. Start 9:00 från Circle K Bredsand i Sundsvall.",
+      "link": "https://hdcs.se/evenemang/ds-i-fiskeresa-till-axmar-brygga/",
+      "region": "Gävleborg",
+      "source": "hdcs.se",
+      "descriptionFull": "I år provar vi en annan restaurang. Axmar brygga. 20 platser bokade och vi kör även i år i samarbete med distrikt G.\n\nStart 9:00 från Cirkle K Bredsand. Hoppas på bra väder.\n\nDS-I Helene 070-3084524",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/ds-i-fiskeresa-till-axmar-brygga/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Axmar+brygga",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "jmc-sondagsrundan-2026-07-26",
       "name": "Söndagsrundan",
       "date": "2026-07-26",
@@ -10121,36 +10323,32 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "_ad": true,
-      "id": "ad-gwcs-treffen-2026",
-      "name": "41st International Treffen",
-      "date": "2026-07-28",
-      "dateEnd": "2026-07-28",
-      "location": "Orsa Grönklitt, Dalarna",
-      "type": "Anons",
-      "organizer": "GoldWing Club Sweden",
-      "description": "Internationella GoldWing-träffen i Orsa Grönklitt, 6-9 aug 2026. Galamiddag, Light Show, Nationsparad och Äventyrsbana. Boka på gwcs.se!",
-      "descriptionFull": "41st International Treffen i Orsa Grönklitt, 6-9 augusti 2026.\n\nTräffavgift:\nGWEF-medlem: SEK 700 / €70 inkl. galamiddag.\nEj GWEF-medlem: SEK 850 / €85 inkl. galamiddag.\n\nIngår: Träffmärke, Peoples Choice, Light Show, Nationsparad, Bastuflotte och Äventyrsbana, mat och dryck hela helgen.\n\nBokning stuga/vandrarhem: www.orsagronklitt.se, uppge kod \"Goldwing\" för rabatt.\n\nAnmälan: www.gwcs.se\nVälkommen till Orsa Grönklitt!",
+      "id": "mo-bygdegard-classic-motor-monday-2026-07-27",
+      "name": "Classic Motor Monday",
+      "date": "2026-07-27",
+      "dateEnd": "2026-07-27",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Mo Bygdegård, Bollnäs",
+      "organizer": "Mo Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/bike.night.mobygdegard",
+      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
+      "descriptionFull": "Tid: Måndag 27 juli kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
+      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
       "links": [
         {
-          "label": "gwcs.se",
-          "url": "https://www.gwcs.se"
-        },
-        {
-          "label": "Poster (GWCS)",
-          "url": "https://media.gwcs.se/2026/01/sv1.jpeg"
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/bike.night.mobygdegard"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Orsa+Gr%C3%B6nklitt+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
           "type": "map"
         }
-      ],
-      "link": "https://www.gwcs.se",
-      "region": "Sverige",
-      "source": "AD",
-      "frontImage": "ads/gwcs-treffen-2026-ad-front.jpg",
-      "backImage": "ads/gwcs-treffen-2026-08-06.jpg"
+      ]
     },
     {
       "id": "doa-tisdagslunch-2026-07-28",
@@ -10238,6 +10436,34 @@ const EVENTS_DATA = {
       ],
       "source": "facebook.com",
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
+    },
+    {
+      "id": "jernviken-onsdagsfika-2026-07-29",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-07-29",
+      "dateEnd": "2026-07-29",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 29 juli kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "darcks-motors-dalatravet-2026-07-29",
@@ -10381,6 +10607,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-07-29",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-07-29",
+      "dateEnd": "2026-07-29",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-29/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-07-29/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "dacketraffen-2026",
@@ -10972,6 +11225,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mo-bygdegard-classic-motor-monday-2026-08-03",
+      "name": "Classic Motor Monday",
+      "date": "2026-08-03",
+      "dateEnd": "2026-08-03",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Mo Bygdegård, Bollnäs",
+      "organizer": "Mo Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/bike.night.mobygdegard",
+      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
+      "descriptionFull": "Tid: Måndag 3 augusti kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
+      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/bike.night.mobygdegard"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-kvallskörning-nacka-2026-08-03",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-08-03",
@@ -11167,6 +11448,34 @@ const EVENTS_DATA = {
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
     },
     {
+      "id": "jernviken-onsdagsfika-2026-08-05",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-08-05",
+      "dateEnd": "2026-08-05",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 5 augusti kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-kvallskörning-norrtalje-2026-08-05",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-08-05",
@@ -11308,6 +11617,60 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-08-05",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-08-05",
+      "dateEnd": "2026-08-05",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-08-05/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-08-05/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "doa-gemensam-resa-ostersund-2026-08-05",
+      "name": "DOA - Gemensam resa till Östersund",
+      "date": "2026-08-05",
+      "dateEnd": "2026-08-06",
+      "location": "Hagaparkens parkering, Solna",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samåkning till Internationella träffen i Östersund. Samling kl 10:00, onsdag eller torsdag beroende på vad gruppen beslutar om resrutt.",
+      "link": "https://hdcs.se/evenemang/doa-gemensam-resa-till-ostersund/",
+      "region": "Stockholm",
+      "source": "hdcs.se",
+      "descriptionFull": "Ni som vill samåka till Internationella träffen i Östersund föreslås att samling sker på Haga-parkens parkering kl.10:00 onsdag eller torsdag beroende på vad ni beslutar om RC, resrutt etc.\n\nLennart 0722 126320",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/doa-gemensam-resa-till-ostersund/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hagaparkens+parkering%2C+Solna",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "bmw-d15-kvallstur-fran-bromolla-2026",
@@ -11700,25 +12063,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-08-08",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-08-08",
       "dateEnd": "2026-08-08",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-08-08/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-08-08/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-08-08/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-08-08/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -12163,6 +12526,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mo-bygdegard-classic-motor-monday-2026-08-10",
+      "name": "Classic Motor Monday",
+      "date": "2026-08-10",
+      "dateEnd": "2026-08-10",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Mo Bygdegård, Bollnäs",
+      "organizer": "Mo Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/bike.night.mobygdegard",
+      "description": "Veckans Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Måndagar hela sommaren fram till 17 augusti.",
+      "descriptionFull": "Tid: Måndag 10 augusti kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nHälsinglands största bil- och MC-träff. Träffarna pågår varje måndag fram till 17 augusti.\n\nPå plats: egen servering med kaffe, korv och hamburgare.",
+      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/bike.night.mobygdegard"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-kvallskörning-nacka-2026-08-10",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-08-10",
@@ -12360,6 +12751,34 @@ const EVENTS_DATA = {
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
     },
     {
+      "id": "jernviken-onsdagsfika-2026-08-12",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-08-12",
+      "dateEnd": "2026-08-12",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 12 augusti kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-kvallskörning-norrtalje-2026-08-12",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-08-12",
@@ -12528,6 +12947,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-08-12",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-08-12",
+      "dateEnd": "2026-08-12",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-08-12/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-08-12/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "aminnetraffen-2026",
@@ -13373,6 +13819,33 @@ const EVENTS_DATA = {
       "backImage": "ads/smc-default-back.jpg"
     },
     {
+      "id": "doa-malaren-runt-2026-08-15",
+      "name": "DOA - Mälaren runt",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "location": "INGO, Armégatan, Solna",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Kör Mälaren runt tillsammans med andra H-DCS:are. Samling kl 10:00 för att utse RC och starttid, före officiella starten kl 11:00.",
+      "link": "https://hdcs.se/evenemang/doa-malaren-runt/",
+      "region": "Stockholm",
+      "source": "hdcs.se",
+      "descriptionFull": "Om någon vill åka Mälaren runt med andra H-DCS:are föreslås samlingsplats vid Ingo kl.10:00 för att utse RC och starttid så man kommer iväg innan officiella starten kl.11:00.",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/doa-malaren-runt/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=INGO+Arm%C3%A9gatan%2C+Solna",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "804-racing-lunda-2026",
       "name": "804 Event No 39 - Half Mile Racing",
       "date": "2026-08-16",
@@ -13573,6 +14046,34 @@ const EVENTS_DATA = {
       "backImage": "ads/hornbaek-harley-day-back-2026-08-16.jpg"
     },
     {
+      "id": "mo-bygdegard-classic-motor-monday-2026-08-17",
+      "name": "Classic Motor Monday",
+      "date": "2026-08-17",
+      "dateEnd": "2026-08-17",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Mo Bygdegård, Bollnäs",
+      "organizer": "Mo Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/bike.night.mobygdegard",
+      "description": "Säsongsavslutning för Classic Motor Monday vid Mo Bygdegård. Bil- och MC-träff kl 18-21. Sista måndagen för säsongen.",
+      "descriptionFull": "Tid: Måndag 17 augusti kl 18:00-21:00.\nPlats: Mo Bygdegård vid väg 50 mellan Bollnäs och Söderhamn.\n\nSista Classic Motor Monday för säsongen. Hälsinglands största bil- och MC-träff.\n\nPå plats: egen servering med kaffe, korv och hamburgare.\n\nTack till alla som hängt med under sommaren - vi ses igen nästa år!",
+      "backImage": "ads/mo-bygdegard-classic-motor-monday-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/bike.night.mobygdegard"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-kvallskörning-nacka-2026-08-17",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-08-17",
@@ -13745,6 +14246,34 @@ const EVENTS_DATA = {
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
     },
     {
+      "id": "jernviken-onsdagsfika-2026-08-19",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-08-19",
+      "dateEnd": "2026-08-19",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Veckans onsdagsfika hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Hela sommaren fram till 26 augusti, varje onsdag. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Onsdagsfika med Jernviken MC Sandviken.\n\nTid: Onsdag 19 augusti kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat pågår hela sommaren från 10 juni fram till 26 augusti, varje onsdag.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-kvallskörning-norrtalje-2026-08-19",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-08-19",
@@ -13911,6 +14440,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-08-19",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-08-19",
+      "dateEnd": "2026-08-19",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-08-19/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-08-19/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "bmw-d15-pizzakvall-i-vollsjo-2026",
@@ -14293,25 +14849,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-08-22",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-08-22",
       "dateEnd": "2026-08-22",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-08-22/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-08-22/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-08-22/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-08-22/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -14763,6 +15319,34 @@ const EVENTS_DATA = {
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
     },
     {
+      "id": "jernviken-onsdagsfika-2026-08-26",
+      "name": "Onsdagsfika på Högbo Qvarn",
+      "date": "2026-08-26",
+      "dateEnd": "2026-08-26",
+      "time": "17:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Högbo Qvarn, Sandviken",
+      "organizer": "Jernviken MC Sandviken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500",
+      "description": "Sista onsdagsfikat för säsongen hos Jernviken MC på Högbo Qvarn. Kl 17-19:30. Alla välkomna, med eller utan hoj.",
+      "descriptionFull": "Sista onsdagsfikat för säsongen med Jernviken MC Sandviken.\n\nTid: Onsdag 26 augusti kl 17:00-19:30.\nPlats: Högbo Qvarn, Sandviken.\n\nOnsdagsfikat har pågått hela sommaren från 10 juni. Tack till alla som hängt med under säsongen.\n\nAlla är välkomna, med eller utan hoj.",
+      "backImage": "ads/jernviken-onsdagsfika-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163102795518635&set=gm.27180152091642991&idorvanity=456537297764500"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Högbo+Qvarn+Sandviken",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-kvallskörning-norrtalje-2026-08-26",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-08-26",
@@ -14957,6 +15541,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-08-26",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-08-26",
+      "dateEnd": "2026-08-26",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-08-26/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-08-26/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "doa-dagstur-ekero-2026-08-27",
@@ -15430,6 +16041,33 @@ const EVENTS_DATA = {
       "backImage": "ads/oamck-klubbkaken-back.jpg"
     },
     {
+      "id": "do-k-lojromssvangen-2026-08-29",
+      "name": "DO-K Löjromssvängen",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "location": "Café Vevves, Kalix",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Den populära löjromssvängen med målet Café Vevves, traditionsenligt sista helgen i augusti. Mer info kommer närmare datumet.",
+      "link": "https://hdcs.se/evenemang/lojromssvangen/",
+      "region": "Norrbotten",
+      "source": "hdcs.se",
+      "descriptionFull": "Den alltid så populära löjromssvängen med målet cafe Vevves i Kalix går av som vanligt sista helgen i augusti,\n\nMer info kommer senare.",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/lojromssvangen/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vevves%2C+Kalix",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "bmw-d15-grustur-2026-08-30",
       "name": "D15 Grustur",
       "date": "2026-08-30",
@@ -15766,6 +16404,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-09-02",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-09-02",
+      "dateEnd": "2026-09-02",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-02/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-02/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "norseman-grus-safsen-2026-09-03",
@@ -16206,25 +16871,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-09-05",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-09-05",
       "dateEnd": "2026-09-05",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-09-05/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-09-05/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-09-05/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-09-05/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -16855,6 +17520,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "onsdagskorning-skovde-2026-09-09",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-09-09",
+      "dateEnd": "2026-09-09",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-09/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-09/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "doa-dagstur-ekero-2026-09-10",
@@ -17806,6 +18498,33 @@ const EVENTS_DATA = {
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
     },
     {
+      "id": "onsdagskorning-skovde-2026-09-16",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-09-16",
+      "dateEnd": "2026-09-16",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-16/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-16/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "doa-dagstur-ekero-2026-09-17",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-09-17",
@@ -18025,25 +18744,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-09-19",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-09-19",
       "dateEnd": "2026-09-19",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-09-19/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-09-19/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-09-19/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-09-19/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -18581,6 +19300,33 @@ const EVENTS_DATA = {
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
     },
     {
+      "id": "onsdagskorning-skovde-2026-09-23",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-09-23",
+      "dateEnd": "2026-09-23",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-23/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-23/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "doa-dagstur-ekero-2026-09-24",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-09-24",
@@ -18880,29 +19626,6 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
-      "id": "mc-kalendern-druk-se-ad-2026",
-      "name": "MC Kalendern",
-      "date": "2026-09-28",
-      "dateEnd": "2026-09-28",
-      "location": "druk.se",
-      "type": "Anons",
-      "organizer": "MC Kalendern / Slava Druk",
-      "description": "Sveriges mest kompletta MC-kalender med mer än tusen event. Gratis, utan reklam, byggd av en hojare för alla hojare.",
-      "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event på ett ställe.\n\nMer än tusen event från träffar och körningar till shower, racing och fester. All data hämtas från ett flertal källor och uppdateras varje dag.\n\nProjektet är 100% gratis och byggt av ren passion för tvåhjuliga äventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till så lägger vi till det!\n\nBesök oss på druk.se och hitta din nästa tur.",
-      "frontImage": "ads/mc-kalendern-front-2026-09-28.jpg",
-      "backImage": "ads/mc-kalendern-back-2026-09-28.jpg",
-      "links": [
-        {
-          "label": "druk.se",
-          "url": "https://druk.se"
-        }
-      ],
-      "link": "https://druk.se",
-      "region": "Sverige",
-      "source": "AD",
-      "_ad": true
-    },
-    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-09-29",
       "name": "DOA - Kvällskörning Nockeby, Jämna veckor",
       "date": "2026-09-29",
@@ -19042,6 +19765,33 @@ const EVENTS_DATA = {
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
     },
     {
+      "id": "onsdagskorning-skovde-2026-09-30",
+      "name": "Onsdagskörning Skövde",
+      "date": "2026-09-30",
+      "dateEnd": "2026-09-30",
+      "location": "Gamla Kungsvägen 51, Skövde",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Samling på parkeringen bredvid OKQ8 kl 17:30 för en gemensam kvällstur med fika som mål. Arrangör LOD Valter Lindström.",
+      "link": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-30/",
+      "region": "Västra Götaland",
+      "source": "hdcs.se",
+      "descriptionFull": "Samling på parkeringen bredvid OKQ8 i Skövde för en tur med fika som mål.\n\nLOD Valter Lindström +46 72 576 05 07",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/onsdagskorning-skovde/2026-09-30/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Kungsv%C3%A4gen+51%2C+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/hd-default-back.jpg"
+    },
+    {
       "id": "doh-fika-lycksele-2026-10-01",
       "name": "DOH-Fika Lycksele",
       "date": "2026-10-01",
@@ -19124,25 +19874,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-10-03",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-10-03",
       "dateEnd": "2026-10-03",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-03/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-10-03/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-03/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-10-03/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -19397,25 +20147,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-10-17",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-10-17",
       "dateEnd": "2026-10-17",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-17/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-10-17/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-17/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-10-17/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -19594,25 +20344,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-10-31",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-10-31",
       "dateEnd": "2026-10-31",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-31/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-10-31/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-10-31/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-10-31/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -19834,25 +20584,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-11-14",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-11-14",
       "dateEnd": "2026-11-14",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-11-14/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-11-14/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-11-14/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-11-14/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -20156,25 +20906,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-11-28",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-11-28",
       "dateEnd": "2026-11-28",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-11-28/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-11-28/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-11-28/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-11-28/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -20318,25 +21068,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-12-12",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-12-12",
       "dateEnd": "2026-12-12",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-12-12/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-12-12/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-12-12/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-12-12/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
@@ -20506,25 +21256,25 @@ const EVENTS_DATA = {
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-12-26",
-      "name": "DOG  FIKATRÄFF på Rådis",
+      "name": "DOG - Fika på Rådis",
       "date": "2026-12-26",
       "dateEnd": "2026-12-26",
-      "location": "Rådis, Dalarna",
+      "location": "Rådhusparken (Rådis), Söderhamn",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
-      "link": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-12-26/",
-      "region": "Dalarna",
+      "description": "Fika kl 11 jämna veckor i Rådhusparken, därefter en gemensam sväng på hojarna om vädret tillåter. Alla är välkomna.",
+      "link": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-12-26/",
+      "region": "Gävleborg",
       "source": "hdcs.se",
-      "descriptionFull": "DOG  FIKATRÄFF på Rådis arrangeras av H-DCS.\n\nTräffpunkt för DOG i Rådis, Dalarna. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Rådis, Dalarna.",
+      "descriptionFull": "Fika på Rådis i Söderhamn kl 11 jämn vecka och därefter tar vi en sväng på våra hojar om vi tycker vädret är lämpligt.\n\nJanne LoG 070-222 22 52",
       "links": [
         {
           "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dog-fikatraff-pa-radis/2026-12-26/"
+          "url": "https://hdcs.se/evenemang/fika-pa-radis-i-soderhamn/2026-12-26/"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dis%2C+Dalarna",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%A5dhusparken%2C+S%C3%B6derhamn",
           "type": "map"
         }
       ],
