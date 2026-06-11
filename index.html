@@ -631,6 +631,31 @@
     display: flex; align-items: flex-start; gap: 8px;
   }
 
+  /* ===== Like ("Intresserad") pill - hidden until the likes API responds (body.likes-on) ===== */
+  .like-btn {
+    display: none;
+    align-items: center; gap: 5px;
+    position: absolute; top: 46px; right: 14px; /* desktop: just under the favourite star */
+    z-index: 3;
+    background: rgba(0,0,0,0.45);
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #fff;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, transform 0.1s;
+  }
+  body.likes-on .like-btn { display: inline-flex; }
+  .like-btn svg { width: 13px; height: 13px; }
+  .like-btn:hover { background: rgba(0,0,0,0.65); border-color: rgba(255,255,255,0.5); }
+  .like-btn:active { transform: scale(0.92); }
+  .like-btn.liked { background: var(--accent); border-color: var(--accent); }
+  .like-btn .like-n:empty { display: none; }
+  .poster-card .like-btn { top: auto; right: 10px; bottom: 10px; } /* posters: bottom-right on all screens */
+
   /* Date block */
   .card-date-block {
     display: flex; align-items: center; gap: 4px;
@@ -1854,6 +1879,27 @@
     color: #fff;
   }
   .m-detail-fav.active { color: #fbbf24; }
+  .m-detail-like {
+    position: absolute;
+    left: 64px;
+    top: calc(env(safe-area-inset-top) + 12px);
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    padding: 0 14px;
+    display: none;
+    align-items: center; gap: 6px;
+    z-index: 2;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  body.likes-on .m-detail-like { display: flex; }
+  body.likes-on .m-detail-like.m-like-hidden { display: none; }
+  .m-detail-like svg { width: 16px; height: 16px; }
+  .m-detail-like.liked { background: var(--accent); }
   .m-detail-body {
     flex: 1;
     overflow-y: auto;
@@ -2316,6 +2362,14 @@
       z-index: 3;
       pointer-events: none;
     }
+    /* Mobile: like pill sits bottom-right, just left of the chevron tap hint */
+    .card:not(.poster-card) .like-btn {
+      top: auto; right: 26px; bottom: 8px;
+      background: rgba(0,0,0,0.55);
+    }
+    .poster-card .like-btn {
+      top: auto; right: 10px; bottom: 10px;
+    }
 
     /* Colored left stripe ONLY on no-image cards (subtle type hint on the solid dark blue) */
     .card.tb-traff:not(.has-photo):not(.poster-card)   { box-shadow: inset 4px 0 0 var(--type-traff); }
@@ -2439,6 +2493,7 @@
   <div class="m-detail-photo" id="mDetailPhoto">
     <button class="m-detail-close" id="mDetailClose" aria-label="Stäng">&times;</button>
     <button class="m-detail-fav" id="mDetailFav" aria-label="Spara">&#9734;</button>
+    <button class="m-detail-like m-like-hidden" id="mDetailLike" aria-label="Intresserad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg><span id="mDetailLikeN"></span></button>
   </div>
   <div class="m-detail-body" id="mDetailBody"></div>
 </div>
@@ -2866,6 +2921,75 @@ let mapCityFilter = ''; // set when user clicks a map dot
 let favorites;
 try { favorites = JSON.parse(safeGetItem('mcFavorites') || '[]'); } catch { favorites = []; }
 if (!Array.isArray(favorites)) favorites = [];
+
+// ===== Anonymous likes ("Intresserad") - Cloudflare Worker + D1 backend =====
+// Feature is invisible (body lacks .likes-on) until GET /api/counts answers,
+// so the site works exactly as before if the Worker is not deployed/reachable.
+const LIKES_API = '/api';
+let likeCounts = null; // null = API not loaded; object = id -> count
+let likedIds;
+try { likedIds = new Set(JSON.parse(safeGetItem('mcLiked') || '[]')); } catch { likedIds = new Set(); }
+const LIKE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>';
+
+function likeBtnHTML(ev) {
+  if (ev._ad || ev._canary) return '';
+  const n = (likeCounts && likeCounts[ev.id]) || 0;
+  const liked = likedIds.has(ev.id);
+  return '<button class="like-btn' + (liked ? ' liked' : '') + '" data-eid="' + ev.id +
+    '" aria-label="Intresserad" title="Intresserad" onclick="event.stopPropagation();toggleLike(\'' + ev.id + '\')">' +
+    LIKE_SVG + '<span class="like-n">' + (n > 0 ? n : '') + '</span></button>';
+}
+
+function applyLikeState(id) {
+  const n = (likeCounts && likeCounts[id]) || 0;
+  const liked = likedIds.has(id);
+  document.querySelectorAll('.like-btn[data-eid="' + (window.CSS && CSS.escape ? CSS.escape(id) : id) + '"]').forEach(b => {
+    b.classList.toggle('liked', liked);
+    const s = b.querySelector('.like-n');
+    if (s) s.textContent = n > 0 ? n : '';
+  });
+  const mb = document.getElementById('mDetailLike');
+  if (mb && mb.dataset.eid === id) {
+    mb.classList.toggle('liked', liked);
+    const ms = document.getElementById('mDetailLikeN');
+    if (ms) ms.textContent = n > 0 ? n : '';
+  }
+}
+
+function toggleLike(id) {
+  if (likeCounts === null) return;
+  const wasLiked = likedIds.has(id);
+  const action = wasLiked ? 'unlike' : 'like';
+  // optimistic update
+  if (wasLiked) likedIds.delete(id); else likedIds.add(id);
+  likeCounts[id] = Math.max(0, (likeCounts[id] || 0) + (wasLiked ? -1 : 1));
+  safeSetItem('mcLiked', JSON.stringify([...likedIds]));
+  applyLikeState(id);
+  fetch(LIKES_API + '/like', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id: id, action: action })
+  }).then(r => { if (!r.ok) throw 0; return r.json(); })
+    .then(d => { if (d && typeof d.n === 'number') { likeCounts[id] = d.n; applyLikeState(id); } })
+    .catch(() => {
+      // revert optimistic update
+      if (action === 'like') { likedIds.delete(id); likeCounts[id] = Math.max(0, (likeCounts[id] || 0) - 1); }
+      else { likedIds.add(id); likeCounts[id] = (likeCounts[id] || 0) + 1; }
+      safeSetItem('mcLiked', JSON.stringify([...likedIds]));
+      applyLikeState(id);
+    });
+}
+
+function loadLikeCounts() {
+  fetch(LIKES_API + '/counts')
+    .then(r => { if (!r.ok) throw 0; return r.json(); })
+    .then(d => {
+      likeCounts = (d && typeof d === 'object') ? d : {};
+      document.body.classList.add('likes-on');
+      render(); // re-render once so cards get their counts
+    })
+    .catch(() => { /* Worker not deployed or offline: likes stay hidden, site unaffected */ });
+}
 
 // ========== HELPERS ==========
 function buildBackHTML(cardId, ev) {
@@ -3620,6 +3744,11 @@ function setupMobileUI() {
   const mDetail = document.getElementById('mDetail');
   const mDetailClose = document.getElementById('mDetailClose');
   if (mDetailClose) mDetailClose.addEventListener('click', () => closeMDetail());
+  const mDetailLikeBtn = document.getElementById('mDetailLike');
+  if (mDetailLikeBtn) mDetailLikeBtn.addEventListener('click', () => {
+    const id = mDetailLikeBtn.dataset.eid;
+    if (id) toggleLike(id);
+  });
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && mDetail && mDetail.classList.contains('open')) closeMDetail();
   });
@@ -3692,6 +3821,14 @@ function openMDetail(cardId) {
     photo.dataset.imageSrc = imgUrl;
   } else {
     delete photo.dataset.imageSrc;
+  }
+
+  // Like button state (hidden for AD cards or while likes API is not loaded)
+  const mLikeBtn = document.getElementById('mDetailLike');
+  if (mLikeBtn) {
+    mLikeBtn.dataset.eid = ev.id;
+    mLikeBtn.classList.toggle('m-like-hidden', !!ev._ad || !!ev._canary);
+    applyLikeState(ev.id);
   }
 
   // Favorite button state
@@ -4714,6 +4851,7 @@ function render() {
         <div class="card-flipper">
           <div class="card-front" onclick="cardExpand('${cardId}')">
             <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy" decoding="async" width="800" height="1067">
+            ${likeBtnHTML(event)}
           </div>
         </div>
       `;
@@ -4734,6 +4872,7 @@ function render() {
               </div>
             </div>
             ${regionPillHTML}
+            ${likeBtnHTML(event)}
             <div class="card-name">${displayName}</div>
             <div class="card-body">
               <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
@@ -5550,6 +5689,8 @@ document.addEventListener('DOMContentLoaded', () => {
       typeof requestIdleCallback === 'function' ? requestIdleCallback(() => injectEventSchema()) : setTimeout(injectEventSchema, 0);
       // Load weather data from SMHI, then re-render cards with weather strips
       loadAllWeather().then(() => { render(); });
+      // Load like counts (non-blocking; feature hidden if Worker not reachable)
+      loadLikeCounts();
     }, 0);
   });
 

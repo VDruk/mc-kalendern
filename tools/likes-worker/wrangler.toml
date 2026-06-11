@@ -1,0 +1,13 @@
+name = "mc-likes"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+routes = [
+  { pattern = "druk.se/api/*", zone_name = "druk.se" },
+  { pattern = "www.druk.se/api/*", zone_name = "druk.se" }
+]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mc-likes"
+database_id = "PASTE_DATABASE_ID_HERE"
