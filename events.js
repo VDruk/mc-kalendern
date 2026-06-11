@@ -4741,10 +4741,11 @@ const EVENTS_DATA = {
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=MMCK+klubbomr%C3%A5de",
+          "url": "https://www.google.com/maps/search/?api=1&query=67.1194%2C20.7656",
           "type": "map"
         }
-      ]
+      ],
+      "backImage": "ads/midnattssolstraffen-back-2026-06-25.jpg"
     },
     {
       "id": "nifsta-motortraff-2026-06-25",
