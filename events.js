@@ -1276,7 +1276,8 @@ const EVENTS_DATA = {
           "url": "https://www.google.com/maps/search/?api=1&query=Ockelbo%2C+G%C3%A4vleborg",
           "type": "map"
         }
-      ]
+      ],
+      "backImage": "ads/76-mil-grus-back-2026.jpg"
     },
     {
       "id": "bmw-arstraff-2026-pitea-2026",
