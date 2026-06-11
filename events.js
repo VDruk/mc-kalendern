@@ -7662,60 +7662,6 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
-      "id": "dob-nordic-run-2026",
-      "name": "DOB- Nordic Run",
-      "date": "2026-07-07",
-      "dateEnd": "2026-07-07",
-      "location": "Skåne",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Nordic Run 2026 2026-07-07 Samling och start vid Mc Donald Lockarp. Ligger c:a 8 km efter betalstationen avfart Lockarp. Starten går kl.",
-      "link": "https://hdcs.se/evenemang/dob-nordic-run/",
-      "region": "Skåne",
-      "source": "hdcs.se",
-      "descriptionFull": "Nordic Run 2026 2026-07-07\n\nSamling och start vid Mc Donald Lockarp. Ligger c:a 8 km efter betalstationen avfart Lockarp.\n\nStarten går kl. 10:00\n\nFörsta sträckan går till Skåneporten vid Örkelljunga. Beräknad tid är c:a 2 timmar, sträckan är c:a 11 mil.\n\nVi äter lunch på Old Mikes Diner.\n\nStartar c:a 13:00 från Örkelljunga och kör mot medlemsbutiken i Ljungby.\n\nBeräknad tid är c:a 1 timmar, sträckan är c:a 8 mil.\n \nThomas DOB",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/dob-nordic-run/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back.jpg"
-    },
-    {
-      "id": "doe-nordic-run-genom-distrikt-e-7-8-juli-2026",
-      "name": "DOE Nordic run genom Distrikt-E",
-      "date": "2026-07-07",
-      "dateEnd": "2026-07-08",
-      "location": "Östergötland (DOE)",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Arrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.",
-      "link": "https://hdcs.se/evenemang/doe-nordic-run-genom-distrikt-e-7-8-juli/",
-      "region": "Östergötland",
-      "source": "hdcs.se",
-      "descriptionFull": "DOE Nordic run genom Distrikt-E 7-8 juli arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Småland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Småland.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doe-nordic-run-genom-distrikt-e-7-8-juli/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Sm%C3%A5land",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back.jpg"
-    },
-    {
       "id": "twin-club-tisdagstur-2026-07-07",
       "name": "Tisdagstur på motorcykel",
       "date": "2026-07-07",
