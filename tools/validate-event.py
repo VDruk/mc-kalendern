@@ -83,6 +83,44 @@ def find_longest_match(location, coords):
     return best_key
 
 
+_GIT_TRACKED = None  # lazy cache of files tracked by git
+
+def git_tracked_files():
+    """Return a set of repo-relative paths tracked by git (or None if git unavailable)."""
+    global _GIT_TRACKED
+    if _GIT_TRACKED is None:
+        import subprocess
+        try:
+            out = subprocess.run(
+                ["git", "-c", "core.quotepath=off", "ls-files"],
+                cwd=PROJECT_DIR, capture_output=True, text=True, timeout=15)
+            _GIT_TRACKED = set(out.stdout.split("\n")) if out.returncode == 0 else set()
+        except Exception:
+            _GIT_TRACKED = set()
+    return _GIT_TRACKED
+
+
+def check_image_in_git(eid, field, path, errors):
+    """A referenced image that exists locally but is not tracked by git will 404
+    on druk.se (dark blue card). Real incident 2026-06-11: 10 cards broken
+    (fuckups.md #2b). Untracked images are staged-or-committed only after
+    `git add`, so this also passes once the file is staged."""
+    tracked = git_tracked_files()
+    if not tracked:
+        return  # git not available; skip silently
+    if path not in tracked:
+        import subprocess
+        try:
+            staged = subprocess.run(
+                ["git", "diff", "--cached", "--name-only", "--", path],
+                cwd=PROJECT_DIR, capture_output=True, text=True, timeout=15).stdout.strip()
+        except Exception:
+            staged = ""
+        if not staged:
+            errors.append(f"[{eid}] {field} exists locally but is NOT in git: {path} "
+                          f"(will be a dark blue card on druk.se - include it in the git add command)")
+
+
 def validate_event(event, all_events, coords, errors, warnings):
     """Validate a single event. Appends to errors and warnings lists."""
     eid = event.get("id", "UNKNOWN")
@@ -98,14 +136,22 @@ def validate_event(event, all_events, coords, errors, warnings):
             if field not in event or event[field] is None or event[field] == "":
                 errors.append(f"[{eid}] Missing required field: {field}")
 
-    # --- 2. backImage exists ---
+    # --- 2. backImage exists (on disk AND in git) ---
     back = event.get("backImage", "")
     if back:
         back_path = os.path.join(PROJECT_DIR, back)
         if not os.path.exists(back_path):
             errors.append(f"[{eid}] backImage file not found: {back}")
+        else:
+            check_image_in_git(eid, "backImage", back, errors)
     elif not is_ad:
         warnings.append(f"[{eid}] No backImage set")
+
+    # --- 2b. frontImage and organizerIcon must also be in git ---
+    for img_field in ("frontImage", "organizerIcon"):
+        p = event.get(img_field, "")
+        if p and os.path.exists(os.path.join(PROJECT_DIR, p)):
+            check_image_in_git(eid, img_field, p, errors)
 
     # --- 3. backImage is not default-back.jpg ---
     if back == "ads/default-back.jpg":
