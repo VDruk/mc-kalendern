@@ -2980,7 +2980,7 @@ function toggleLike(id) {
     });
 }
 
-function loadLikeCounts() {
+function loadLikeCounts(isRetry) {
   fetch(LIKES_API + '/counts')
     .then(r => { if (!r.ok) throw 0; return r.json(); })
     .then(d => {
@@ -2988,7 +2988,11 @@ function loadLikeCounts() {
       document.body.classList.add('likes-on');
       render(); // re-render once so cards get their counts
     })
-    .catch(() => { /* Worker not deployed or offline: likes stay hidden, site unaffected */ });
+    .catch(() => {
+      // One retry after 20s covers flaky first connections (e.g. DNS/proxy changes).
+      // If that also fails, likes stay hidden and the site is unaffected.
+      if (!isRetry) setTimeout(() => loadLikeCounts(true), 20000);
+    });
 }
 
 // ========== HELPERS ==========
