@@ -3412,9 +3412,8 @@ function buildRegionFilter() {
       const sep = document.createElement('option');
       sep.disabled = true; sep.textContent = '──────';
       monthSel.appendChild(sep);
-      const head = document.createElement('option');
-      head.disabled = true; head.textContent = y;
-      monthSel.appendChild(head);
+      // No separate year header: the month labels already include the year
+      // ("Januari 2027"), so a standalone "2027" row would be redundant.
       futureKeys.filter(k => k.startsWith(y + '-'))
         .map(k => parseInt(k.split('-')[1], 10))
         .sort((a, b) => a - b)
