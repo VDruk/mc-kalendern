@@ -886,38 +886,6 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back-2.jpg"
     },
     {
-      "id": "sulas-mc-forsta-turen-2026-06-11",
-      "name": "Åk med Sulas - första turen",
-      "date": "2026-06-11",
-      "dateEnd": "2026-06-11",
-      "time": "17:00",
-      "endTime": "20:00",
-      "type": "Körning",
-      "region": "Uppsala",
-      "location": "Säva 17, Uppsala",
-      "organizer": "Sulas MC",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/sulasmc",
-      "description": "Sulas MC startar sin sommarsäsong med första gemensamma tur. Samling 17:00 hos Sulas, avfärd 17:15. Turen går till Österbygrillen i Österbybruk. Ingen föranmälan, alla välkomna.",
-      "descriptionFull": "Tid: Torsdag 11 juni 2026 - samling kl 17:00, avfärd kl 17:15. Slut ca kl 20:00.\nPlats: Sulas MC, Säva 17, 755 91 Uppsala.\n\nSulas första gemensamma tur för säsongen 2026. Turen går till Österbygrillen i Österbybruk.\n\nIngen föranmälan krävs - det är bara att dyka upp. Kom i god tid.\n\nArrangör: Sulas MC + gruppen 'Åk med Sulas - Kom en, kom alla'.",
-      "backImage": "ads/sulas-mc-forsta-turen-back-2026-06-11.jpg",
-      "links": [
-        {
-          "label": "FB Event",
-          "url": "https://www.facebook.com/events/881462728347847"
-        },
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/sulasmc"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Sulas+MC+Säva+17+Uppsala",
-          "type": "map"
-        }
-      ]
-    },
-    {
       "id": "leksand-gagnef-mck-onsdagstur-2026-06-10",
       "name": "Onsdagstur, medtag eget fika",
       "date": "2026-06-10",
@@ -1252,6 +1220,38 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "sulas-mc-forsta-turen-2026-06-11",
+      "name": "Åk med Sulas - första turen",
+      "date": "2026-06-11",
+      "dateEnd": "2026-06-11",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Körning",
+      "region": "Uppsala",
+      "location": "Säva 17, Uppsala",
+      "organizer": "Sulas MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/sulasmc",
+      "description": "Sulas MC startar sin sommarsäsong med första gemensamma tur. Samling 17:00 hos Sulas, avfärd 17:15. Turen går till Österbygrillen i Österbybruk. Ingen föranmälan, alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 11 juni 2026 - samling kl 17:00, avfärd kl 17:15. Slut ca kl 20:00.\nPlats: Sulas MC, Säva 17, 755 91 Uppsala.\n\nSulas första gemensamma tur för säsongen 2026. Turen går till Österbygrillen i Österbybruk.\n\nIngen föranmälan krävs - det är bara att dyka upp. Kom i god tid.\n\nArrangör: Sulas MC + gruppen 'Åk med Sulas - Kom en, kom alla'.",
+      "backImage": "ads/sulas-mc-forsta-turen-back-2026-06-11.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/881462728347847"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/sulasmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sulas+MC+Säva+17+Uppsala",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "76-mil-grus-2026",
@@ -5959,6 +5959,67 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "nordic-run-2026",
+      "name": "Nordic Run",
+      "date": "2026-06-28",
+      "dateEnd": "2026-07-15",
+      "location": "Grimsbu (Norge) till Imatra (Finland)",
+      "type": "Träff",
+      "organizer": "Nordiska H-D-klubbarna",
+      "description": "Nordisk Harley-långfärd genom fyra länder under 18 dagar. Förare kan ansluta valfri dag längs rutten, varje land har egna etappkort i kalendern.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": [
+        "Norge",
+        "Danmark",
+        "Sverige",
+        "Finland"
+      ],
+      "source": "hdc.dk",
+      "organizerIcon": "clubs/normalized/hdcs.png",
+      "backImage": "ads/nordic-run-back-2026.jpg",
+      "descriptionFull": "Harley-Davidson-klubbarna i Norden kör sin gemensamma långfärd Nordic Run genom Norge, Danmark, Sverige och Finland, 28 juni till 15 juli 2026.\n\nStarten går i Grimsbu i Norge och rutten följer fjordarna söderut, korsar med färja till Danmark i Hirtshals, går genom Jylland, Fyn och Själland, över Öresundsbron till Sverige och vidare via Småland, Vättern och Mälardalen till Kapellskär. Efter nattfärjan fortsätter turen genom Finland och avslutas i Imatra med middagsfest den 15 juli, följt av H-DCF International Rally 16-19 juli.\n\nDu kan ansluta valfri dag där rutten passerar. Varje dagsetapp har ett eget kort i kalendern med samlingsplats, tider, road captain och boende.\n\nImportant info: There will be no form of group booking. All participants are responsible for making their own ferry and accommodation bookings.\n\nFull rutt, regler och kontaktuppgifter: hdc.dk/nordicrun-2026",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Regler (PDF)",
+          "url": "https://hdc.dk/media/5tlflmsf/nr_riding-group.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nordic-run-norge-2026-06-28",
+      "name": "Nordic Run: Grimsbu till Åndalsnes",
+      "date": "2026-06-28",
+      "dateEnd": "2026-06-28",
+      "location": "Grimsbu Turistsenter, Folldalsveien 3954, Grimsbu",
+      "type": "Körning",
+      "organizer": "HDOC Norway",
+      "description": "Norska etapp 1: 290 km på ca 4 timmar genom Hjerkinn, Oppdal och Sunndalsøra. Avfärd 09:00, möjlighet att köra Trollstigen på slutet.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Norge",
+      "source": "hdc.dk",
+      "descriptionFull": "Norway Roadcaptain: Frode Åshol, +47 984 79 530, frode2402@live.no\nBackup: Atle Kjelsrud, atlekjelsrud@gmail.com, +47 974 95 344\n\n290 km, ca 4 h. Departure 09:00.\n\nGrimsbu Turistsenter (Folldalsveien 3954, 2582 Grimsbu) - Åndalsnes Camping og Motell (Gryttenvegen 127, 6300 Åndalsnes).\n\nGrimsbu - Hjerkinn 40 km (09:40), Hjerkinn - Oppdal 50 km (10:20), stopp i Oppdal 15 min, Oppdal - Sunndalsøra 70 km (11:45), stopp för bensin och lunch, Sunndalsøra - Myklebostad 70 km (14:00), Myklebostad - Åndalsnes camp 60 km (15:00).\n\nIt will be a possibility to drive Trollstigen if you want. It will take about an hour.\n\nAccommodation: Åndalsnes Camping og Motell, Gryttenveien 127, 6300 Åndalsnes, tel +47 71 22 16 29. www.andalsnes-camping.net",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/KPU2dYX5q8QDuMkv8"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Grimsbu+Turistsenter",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-06-29",
       "name": "Classic Motor Monday",
       "date": "2026-06-29",
@@ -6012,6 +6073,32 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back-2.jpg"
+    },
+    {
+      "id": "nordic-run-norge-2026-06-29",
+      "name": "Nordic Run: Åndalsnes till Folven",
+      "date": "2026-06-29",
+      "dateEnd": "2026-06-29",
+      "location": "Åndalsnes Camping, Gryttenvegen 127, Åndalsnes",
+      "type": "Körning",
+      "organizer": "HDOC Norway",
+      "description": "Norska etapp 2: 246 km på ca 5 timmar med tre färjor och vägen genom Geiranger. Avfärd 09:00, mål Folven Adventure Camp.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Norge",
+      "source": "hdc.dk",
+      "descriptionFull": "Norway Roadcaptain: Frode Åshol, +47 984 79 530, frode2402@live.no\nBackup: Atle Kjelsrud, atlekjelsrud@gmail.com, +47 974 95 344\n\n246 km, ca 5 h. Departure 09:00.\n\nÅndalsnes Camping og Motell - Folven Adventure Camp.\n\nÅndalsnes - Rekdal 73 km (10:00), Rekdal - Magerholm 50 km (11:00), färja Magerholm - Ørsneset 15 min (NOK 51), Ørsneset - Stranda 38 km (12:00), mat och bensin 60 min, färja Stranda - Liabygda 15 min (NOK 50), Liabygda - Linge 12 km, färja Linge - Eidsdal 15 min (NOK 50), Eidsdal - Geiranger 26 km (14:45), Geiranger - Folven Adventure Camp 46 km (16:15).\n\nAccommodation: Folven Adventure Camp, Folven. Book at Booking or call +47 47 66 69 00.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Folven+Adventure+Camp",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
       "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-30",
@@ -6212,6 +6299,32 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "nordic-run-norge-2026-06-30",
+      "name": "Nordic Run: Folven till Høyanger",
+      "date": "2026-06-30",
+      "dateEnd": "2026-06-30",
+      "location": "Folven Adventure Camp",
+      "type": "Körning",
+      "organizer": "HDOC Norway",
+      "description": "Norska etapp 3: 312 km via Nordfjordeid, Svelgen och Førde till Høyangerbjørn MC i Høyanger där klubben ordnar övernattningen.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Norge",
+      "source": "hdc.dk",
+      "descriptionFull": "Norway Roadcaptain: Frode Åshol, +47 984 79 530, frode2402@live.no\nBackup: Atle Kjelsrud, atlekjelsrud@gmail.com, +47 974 95 344\n\n312 km. Departure 09:00.\n\nFolven Adventure Camp - Høyangbjørn MC, Høyanger (Dalevegen 6, 6993 Høyanger).\n\nFolven - Erdal 52 km (10:00), Erdal - Nordfjordeid 70 km (11:15), Nordfjordeid - Svelgen 50 km (12:45), stopp/bensin 1 h, Svelgen - Førde 80 km (15:00), Førde - Høyanger 60 km (16:15).\n\nAccommodation: Høyangerbjørn MC, Dalevegen 6b, 6993 Høyanger. Road Captain make the arrangements for the accommodation.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Dalevegen+6%2C+H%C3%B8yanger",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
       "id": "jernviken-onsdagsfika-2026-07-01",
@@ -6438,6 +6551,36 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "nordic-run-norge-2026-07-01",
+      "name": "Nordic Run: Høyanger till Sauda",
+      "date": "2026-07-01",
+      "dateEnd": "2026-07-01",
+      "location": "Høyangerbjørn MC, Dalevegen 6, Høyanger",
+      "type": "Körning",
+      "organizer": "HDOC Norway",
+      "description": "Norska etapp 4: 310 km på ca 6 timmar med färja över Sognefjorden och vägen förbi Kinsarvik till Sauda Fjord Camping.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Norge",
+      "source": "hdc.dk",
+      "descriptionFull": "Norway Roadcaptain: Frode Åshol, +47 984 79 530, frode2402@live.no\nBackup: Atle Kjelsrud, atlekjelsrud@gmail.com, +47 974 95 344\n\n310 km, ca 6 h.\n\nHøyangbjørn MC, Høyanger - Sauda Fjord Camping (Sjøen 5, 4208 Sauda).\n\nHøyanger - Dragsvik 53 km (10:00), färja Dragsvik - Vangsnes (går var 30:e min), Vangsnes - Vinje 58 km (11:40), Vinje - Kinsarvik 70 km (13:00), paus/bensin 60 min, Kinsarvik - Skare 58 km (15:00), Skare - Sauda 65 km (16:30).\n\nAccommodation: Sauda Fjordcamping, Sjøen 12, 4208 Saudasjøen, tel +47 52 78 18 00, saudafjordcamping.no. When you book tell them that you travel with HDOC-N.\n\nQuestions? Call Bent Olsen +47 941 10 533 or Frode Åshol +47 984 795 30.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/6XmJqx8zFMDWF2DR6"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sauda+Fjord+Camping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
       "id": "alandstraffen-2026",
       "name": "Ålandsträffen",
       "date": "2026-07-02",
@@ -6546,6 +6689,36 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "nordic-run-norge-2026-07-02",
+      "name": "Nordic Run: Sauda till Lyngdal",
+      "date": "2026-07-02",
+      "dateEnd": "2026-07-02",
+      "location": "Sauda Fjord Camping, Sjøen 5, Saudasjøen",
+      "type": "Körning",
+      "organizer": "HDOC Norway",
+      "description": "Norska etapp 5: 322 km på ca 5 timmar via Hjelmeland, Sverd i fjell och Jøssingfjord till Harley-Riders MC i Lyngdal.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Norge",
+      "source": "hdc.dk",
+      "descriptionFull": "Norway Roadcaptain: Frode Åshol, +47 984 79 530, frode2402@live.no\nBackup: Atle Kjelsrud, atlekjelsrud@gmail.com, +47 974 95 344\n\n322 km, ca 5 h. Departure 09:00.\n\nSauda Fjord Camping - Harley-Riders MC Lyngdal (Sandveien 12, 4580 Lyngdal).\n\nSauda - Nesvik ferjekai 70 km (10:00), färja Nesvik - Hjelmeland 15 min, Hjelmeland - Sverd i sjøen 75 km (12:30), Sverd i sjøen - Sola Bistro, Sola Bistro - Sirevåg 55 km (14:00), Sirevåg - Jøssingfjord 55 km (15:00), Jøssingfjord - Lyngdal 67 km (16:45).\n\nAccommodation: Harley Riders MC, Sandveien 12, 4580 Lyngdal. Road Captain make the arrangements for the accommodation.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/3h3ktMb7JHt98Xz86"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sandveien+12%2C+Lyngdal",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
       "id": "45an-hoting-2026",
@@ -6721,6 +6894,66 @@ const EVENTS_DATA = {
       "link": "https://www.nortic.se/ticket/event/78262",
       "region": "Skåne",
       "source": "FB"
+    },
+    {
+      "id": "nordic-run-norge-2026-07-03",
+      "name": "Nordic Run: Lyngdal till Kristiansand",
+      "date": "2026-07-03",
+      "dateEnd": "2026-07-03",
+      "location": "Harley-Riders MC, Sandveien 12, Lyngdal",
+      "type": "Körning",
+      "organizer": "HDOC Norway",
+      "description": "Norska etapp 6: kort avslutning på 80 km till färjeterminalen i Kristiansand. Avfärd 10:00, Fjordline-färjan till Danmark går 13:00.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Norge",
+      "source": "hdc.dk",
+      "descriptionFull": "Norway Roadcaptain: Frode Åshol, +47 984 79 530, frode2402@live.no\nBackup: Atle Kjelsrud, atlekjelsrud@gmail.com, +47 974 95 344\n\n80 km, ca 1 h. Departure 10:00.\n\nHarley-Riders MC Lyngdal (Sandveien 12, 4580 Lyngdal) - Ferry Terminal Kristiansand (Vesterveien 21, 4613 Kristiansand).\n\nFerry to Denmark: Fjordline, departure 13:00. You have to buy your own ticket at fjordline.com.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/1Najd96Kix3rp6XD8"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vesterveien+21%2C+Kristiansand",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
+      "id": "nordic-run-danmark-2026-07-03",
+      "name": "Nordic Run: Hirtshals till Hanstholm",
+      "date": "2026-07-03",
+      "dateEnd": "2026-07-03",
+      "location": "Hirtshals färjeterminal",
+      "type": "Körning",
+      "organizer": "H-DC Danmark",
+      "description": "Dansk etapp 1: 136 km längs Nordsjökusten förbi Løkken och Blokhus. Start när färjan anländer ca 16:30, mål Hanstholm Camping.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Danmark",
+      "source": "hdc.dk",
+      "descriptionFull": "Road Captain and local guide: Steen Christensen, +45 21 81 71 62, bm4@hdcn.dk\n\nHirtshals - Hanstholm Camping, 136 km.\n\nNR arrives at the port of Hirtshals 4:30 pm where HDC district Nord takes over. We follow the route close to the sea and passes the famous tourist area Løkken and Blokhus. From Aabybro we follow minor roads, passing Tranum and Fjerritslev, then route 569 towards the Thy area. Short rest approx 20 minutes close to the village Bjerget with a great view to Lønnerup Fjord and Bygholm Vejler. We pass the Frøstrup Camp from 1971 and the test center for the worlds biggest wind mills at Østerild. From Østerild we follow route 29 to Hanstholm Camping, Hamborgvej 95, 7730 Hanstholm.\n\nAt Hanstholm Camping we can stay overnight in our own tents or cabins can be rented (42 cabins, book as soon as possible, thyferiepark.dk). When booking inform the campsite that you participate in the Nordic Harley-Davidson Run. There is a do-it-yourself barbeque area and we plan to arrange common dinner for the participants.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/6sah38rTpxPh6RgH6"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hirtshals+havn",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
       "id": "asecs-mc-traff-jonkoping-2026",
@@ -7230,6 +7463,36 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "nordic-run-danmark-2026-07-04",
+      "name": "Nordic Run: Hanstholm till Tinglev",
+      "date": "2026-07-04",
+      "dateEnd": "2026-07-04",
+      "location": "Hanstholm Camping, Hamborgvej 95, Hanstholm",
+      "type": "Körning",
+      "organizer": "H-DC Danmark",
+      "description": "Dansk etapp 2: 369 km genom nationalparken Thy, längs kusten via Hvide Sande och Esbjerg till distrikt Syds klubbhus i Tinglev.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Danmark",
+      "source": "hdc.dk",
+      "descriptionFull": "Road Captain: Steen Christensen, +45 21 81 71 62, bm4@hdcn.dk. Lokal guide: Jørn Skouborg, +45 30 69 23 22. Stage 2 lokal guide: Dennis Cassøe, backup Jørgen Egebæk, +45 41 98 26 66, formand@hdcs.dk.\n\nHanstholm - Tinglev, 369 km. Departure 08:30 from Hanstholm Camping.\n\nThe headline for the first distance is the National Park Thy, a unique unspoiled nature of dune landscape and plantations. From Hanstholm we drive south along route 181, passing Klitmøller (Cold Hawaii), Vandet Lake and Vestervig with the largest village church in Scandinavia. At Oddesund we arrive 11:00 at Oddesund Kiosk & Bistro for a short rest.\n\nDeparture 11:15 towards Hvide Sande via Paris, Rom and Thorsminde. Lunch in Hvide Sande 13:15. Departure 14:15 towards Esbjerg, arriving at the parking lot by \"The Four White Men\" 15:30-16:00 where District South takes over.\n\nDeparture 16:30 from Esbjerg to the clubhouse of H-DC District South, Håndværkersvinget 3, Tinglev. Overnight in own tents, three shelters (first come first). Dinner will be served and the bar is open. Remember to refuel before departure in the morning.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/5veY5JNpvEuEMXhy5"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hanstholm+Camping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
       "id": "do-c-lars-eriks-glassrunda-2026",
       "name": "DO-C Lars-Eriks glassrunda",
       "date": "2026-07-05",
@@ -7284,6 +7547,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "nordic-run-danmark-2026-07-05",
+      "name": "Nordic Run: Tinglev till Marslev",
+      "date": "2026-07-05",
+      "dateEnd": "2026-07-05",
+      "location": "H-DC Syd klubbhus, Håndværkersvinget 3, Tinglev",
+      "type": "Körning",
+      "organizer": "H-DC Danmark",
+      "description": "Dansk etapp 3: 154 km förbi Dybbøl Mølle och Sønderborg, färja Fynshav-Bøjden, vidare till distrikt Fyns klubbhus i Marslev.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Danmark",
+      "source": "hdc.dk",
+      "descriptionFull": "Road Captain: Jørgen Egebæk, +45 41 98 26 66, formand@hdcs.dk. Lokalguide and backup: Flemming Gad Jacobsen (Hulk). From Bøjden: Road Captain Ellen Jørgensen, backup Allan Holm, +45 40 93 36 63, naestformand@hdcf.dk.\n\nTinglev - Marslev, 154 km.\n\nBreakfast between 7 and 8 am. Departure 08:30, we will pass Dybbøl Mølle and Sønderborg and arrive at Fynshav in order to take the ferry to Bøjden at 12:00. Sailing time 40-50 min, possible to buy lunch on board. Tickets: alslinjen.dk.\n\nArriving at Bøjden approx 12:50. The trip goes to Glamshøj where we stop for approx 2-2.5 hours. Thereafter we drive to the clubhouse of H-DC district Fyn, Kertemindevejen 38, Marslev and stay overnight in our own tents, if needed one can sleep on the floor inside the clubhouse. Dinner will be served and the bar is open. Remember to refuel before departure in the morning.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/QuCSV2HuRay99zqj7"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=H%C3%A5ndv%C3%A6rkersvinget+3%2C+Tinglev",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-07-06",
       "name": "Classic Motor Monday",
       "date": "2026-07-06",
@@ -7310,6 +7603,36 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "nordic-run-danmark-2026-07-06",
+      "name": "Nordic Run: Marslev till Viby Sjælland",
+      "date": "2026-07-06",
+      "dateEnd": "2026-07-06",
+      "location": "H-DC Fyn klubbhus, Kertemindevejen 38, Marslev",
+      "type": "Körning",
+      "organizer": "H-DC Danmark",
+      "description": "Dansk etapp 4: 279 km med färja Spodsbjerg-Tårs, lunch i Sakskøbing och småvägar till H-DCSJ:s klubbhus i Viby Sjælland.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Danmark",
+      "source": "hdc.dk",
+      "descriptionFull": "Road captain: Birgitte Rolling, +45 20 97 46 84, formand@hdcsj.dk.\n\nMarslev - Viby Sjælland, 279 km.\n\nBreakfast between 07:15 and 08:15. Team 1 departure from Marslev 08:45 to Spodsbjerg, ferry 10:15 arriving Tårs 11:00. Team 2 departure 09:45, ferry 11:15 arriving Tårs 12:00. Book own tickets at langelandslinien.dk. IMPORTANT: try to book the first departure (10:15) in order for all of us to go together.\n\nArriving at Tårs the trip goes to Café Hulyas, Torvet 5, 4990 Sakskøbing for lunch at approx 13:30. Thereafter we take small roads to H-DCSJ:s clubhouse, Truelstrupvejen 4, 4130 Viby Sjælland where dinner will be served and we stay overnight in our own tents or on the floor inside the clubhouse. Bar is open.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/Ew2gX38N8gN2Xcby8"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kertemindevejen+38%2C+Marslev",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
       "id": "doa-tisdagslunch-2026-07-07",
@@ -7453,6 +7776,66 @@ const EVENTS_DATA = {
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
     },
     {
+      "id": "nordic-run-danmark-2026-07-07",
+      "name": "Nordic Run: Viby Sjælland till Malmö",
+      "date": "2026-07-07",
+      "dateEnd": "2026-07-07",
+      "location": "H-DCSJ klubbhus, Truelstrupvejen 4, Viby Sjælland",
+      "type": "Körning",
+      "organizer": "H-DC Danmark",
+      "description": "Dansk etapp 5: 84 km motorväg över Öresundsbron till McDonald's i Malmö där den svenska road captainen tar över kl 10:00.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Danmark",
+      "source": "hdc.dk",
+      "descriptionFull": "Road captain: Birgitte Rolling, +45 20 97 46 84, formand@hdcsj.dk.\n\nViby Sjælland - Malmö, 84 km.\n\nBreakfast between 07:30 and 08:30, departure 09:00. We take the freeway to McDonald's, Bronsgjutaregatan 3, 238 41 Malmö via Øresundsbroen, where the Swedish Road Captain takes over at 10 am.\n\nPrice for the bridge: online DKK 211, at the bridge DKK 235.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/ef68D3AH8pfx2JfQA"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Truelstrupvejen+4%2C+Viby+Sj%C3%A6lland",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
+      "id": "nordic-run-sverige-2026-07-07",
+      "name": "Nordic Run: Malmö till Värnamo",
+      "date": "2026-07-07",
+      "dateEnd": "2026-07-07",
+      "location": "McDonald's Lockarp, Bronsgjutaregatan 3, Malmö",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Svensk etapp 1: samling 09:30 i Malmö, lunch på Old Mikes Diner i Örkelljunga, via medlemsbutiken i Ljungby till Crazy Kings MC i Värnamo.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Skåne",
+      "source": "hdc.dk",
+      "descriptionFull": "Stage 1 Roadcaptain: Thomas Berndtsson, +46 70 537 88 15, dob@hdcs.se. Backup: Magnus Eckervad, 070-559 93 09, och Mikael Ågren, 070-522 12 06.\n\nGathering 09:30 at McDonald's, Bronsgjutaregatan 3, 238 41 Malmö (about 8 km after the paystation, exit Lockarp). Departure 10:00.\n\nThe first part goes to Skåneporten at Örkelljunga. Lunch at Old Mikes Diner about 12:00. Departure 13:00 from Örkelljunga towards H-DCS membershop in Ljungby, arrival about 14:00.\n\nStage 2 Roadcaptain: Peter \"Budda\" Beckert, +46 70 311 09 79, peter@beckert.se.\n\nDeparture towards Värnamo 15:30. Stop at Cliff Burtons Memorial Stone (Metallica). Arrival about 16:30 at Crazy Kings MC, Bäckaskog Strömsdal 1, 331 93 Värnamo with a barbecue evening and stayover. Limited amount of beds but space indoors for air mattresses, also possible to put up your own tent. Breakfast at the site. Total cost for barbecue, breakfast and overnight stay is 300 SEK.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/ezcYZ2vTcwUbHMav9"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bronsgjutaregatan+3%2C+Malm%C3%B6",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
       "id": "jernviken-onsdagsfika-2026-07-08",
       "name": "Onsdagsfika på Högbo Qvarn",
       "date": "2026-07-08",
@@ -7564,21 +7947,6 @@ const EVENTS_DATA = {
       ],
       "backImage": "ads/mcv-osterlen-back.jpg",
       "organizerIcon": "clubs/normalized/mcv-osterlen.png"
-    },
-    {
-      "id": "nordic-run-2026",
-      "name": "Nordic Run",
-      "date": "2026-07-08",
-      "dateEnd": "2026-07-09",
-      "location": "Se länk",
-      "type": "Träff",
-      "organizer": "H-DCS",
-      "description": "Den 8/7 kommer Nordic Run till Distrikt J och Vadstena. Den 9/7 kör Nordic Run från Vadstena till Bröööl MC i Enköping. Mer information om ankomsttid i Vadstena och när starten den 9/7 är kommer senare",
-      "link": "https://hdcs.se/evenemang/nordic-run/",
-      "region": "Norrbotten",
-      "source": "hdcs.se",
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "onsdagskorning-gotland-2026-07-08",
@@ -7749,6 +8117,36 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "nordic-run-sverige-2026-07-08",
+      "name": "Nordic Run: Värnamo till Vadstena",
+      "date": "2026-07-08",
+      "dateEnd": "2026-07-08",
+      "location": "Crazy Kings MC, Bäckaskog Strömsdal 1, Värnamo",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Svensk etapp 2: Husqvarna museum, lunch på Kroatorpet, Röttle vattenfall och polkagristillverkning i Gränna innan Vadstena camping.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Jönköping",
+      "source": "hdc.dk",
+      "descriptionFull": "Roadcaptain: Peter \"Budda\" Beckert, +46 70 311 09 79, peter@beckert.se. Backup: Magnus Eckervad, 070-559 93 09.\n\nDeparture Värnamo 10:00. Husqvarna museum 11:30-13:00. Lunch at Landhs Kroatorpet 13:10-14:20. Short stop at Röttle Waterfall and Rasmus mill 14:50-15:20. Stop in Gränna 15:30-16:15 for manufacturing of polkagrisar.\n\nArrival Vadstena camping about 17:15 for check in. First Camp Vadstena-Vättern, Tegellöten 202, 592 94 Vadstena, +46 771 101 200, vadstena@firstcamp.se.\n\nWe drive together to Nostalgic Evening with cars and bikes in Vadstena. Feel free to drive back to the camping when you want to. Breakfast by your own.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/DRXXPYXHqheyMaP4A"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=B%C3%A4ckaskog+Str%C3%B6msdal+1%2C+V%C3%A4rnamo",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
       "id": "bmw-d15-smalandshelg-med-grand-prix-speedway-i-malilla-2026",
       "name": "D15 Smålandshelg med Grand prix speedway i Målilla",
       "date": "2026-07-09",
@@ -7915,6 +8313,36 @@ const EVENTS_DATA = {
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
     },
     {
+      "id": "nordic-run-sverige-2026-07-09",
+      "name": "Nordic Run: Vadstena till Enköping",
+      "date": "2026-07-09",
+      "dateEnd": "2026-07-09",
+      "location": "First Camp Vadstena, Tegellöten 202, Vadstena",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Svensk etapp 3: stopp vid Mantorp Park, lunch på Oskarshäll i Kolmården och övernattning hos Bröööl MC i centrala Enköping.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Östergötland",
+      "source": "hdc.dk",
+      "descriptionFull": "Roadcaptain: Magnus Andersson, +46 732 40 32 20, doj@hdcs.se.\n\nDeparture 10:00. Stop outside Mantorp Park raceway. Lunch at Oskarshäll, Kolmården 12:00. Departure Oskarshäll 13:15.\n\nOvernight stay at Bröööl MC, Ågatan 15C, Enköping. Arrival about 17:30. Limited amount of beds but space for air mattresses. No possibilities for tents. The bar will be open in the club but no food. The club is situated in walking distance to restaurants in the town. No costs except for what you buy in the bar.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/dCcwQdZLX62y3jjp8"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tegell%C3%B6ten+202%2C+Vadstena",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
       "id": "baik-bitch-summer-raid-bollnas-2026-07-10",
       "name": "Baik & Bitch Summer Raid",
       "date": "2026-07-10",
@@ -8026,6 +8454,36 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "nordic-run-sverige-2026-07-10",
+      "name": "Nordic Run: Enköping till Kapellskär",
+      "date": "2026-07-10",
+      "dateEnd": "2026-07-10",
+      "location": "Bröööl MC, Ågatan 15C, Enköping",
+      "type": "Körning",
+      "organizer": "H-DCS",
+      "description": "Svensk etapp 4: frukost på Mels garage, Sala silvergruva med gruvbesök, vikingabyn Storholmen och middag i Norrtälje före färjan till Finland.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Uppsala",
+      "source": "hdc.dk",
+      "descriptionFull": "Roadcaptain: Lennart Sellin, +46 722 126 320, doa@hdcs.se. Backup: Hans (Hasse) Lundin, +46 70 27 88 412, lundin.hasse@gmail.com.\n\nDeparture Bröööl MC 09:45. Breakfast at Mels garage 10-11. Sala Silvermine 12:00, exhibition above ground and lunch before visiting the mine. Visiting the mine 13:30-14:45 (notice: 60 meter stairways down). Departure 15:00.\n\nArrival Vikingvillage Storholmen, Varjagvägen 1, Svanberga about 17:00. Departure 18:00 for dinner in Norrtälje, Restaurant Havspiren, Badstugatan 10.\n\nArrival at Kapellskär about 20:30. Finnlines ferry departs 21:45, arrival in Nådendal 06:15 Swedish time (07:15 Finnish time). Kapellskär ferryterminal, 760 15 Gräddö, tel 077-134 09 00, finnlines.com. Breakfast in Finland, NOT on the ferry.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/9xfvwDjLgKGYZ5eaA"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85gatan+15C%2C+Enk%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-07-11",
@@ -8282,6 +8740,36 @@ const EVENTS_DATA = {
       "backImage": "ads/jawa-retro-day-back-2026-07-11.jpg"
     },
     {
+      "id": "nordic-run-finland-2026-07-11",
+      "name": "Nordic Run: Nådendal till Tammerfors",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-11",
+      "location": "Finnlines-terminalen, Satamatie 13, Nådendal",
+      "type": "Körning",
+      "organizer": "H-DCF",
+      "description": "Finsk etapp 1: ca 300 km. Start 07:30 från hamnen i Nådendal, lunch hos Old Rebels MC West och övernattning hos Old Rebels MC i Tammerfors.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Finland",
+      "source": "hdc.dk",
+      "descriptionFull": "Finland Road Captain: Mika \"Senaattori\" Laakso, +358 40 840 6655, Mika.Laakso@hdcf.fi\n\n07:30 Start from port of Nådendal (Naantali). 08:00 Breakfast. 12:00 Lunch at Old Rebels MC West (Valtatie 1379, Pomarkku).\n\nStayover at Old Rebels MC Central (Teerivuorenkatu 26, Tampere). Free accommodation with sauna, showers, kitchen and a few beds. Enough space indoors for everybody who has a sleeping bag and a mattress. Shopping center in walking distance.\n\nDays ride about 300 km.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/FVoJsMT2LcP2DgNn7"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Satamatie+13%2C+Naantali",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
       "id": "jmc-sondagsrundan-2026-07-12",
       "name": "Söndagsrundan",
       "date": "2026-07-12",
@@ -8388,6 +8876,36 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "nordic-run-finland-2026-07-12",
+      "name": "Nordic Run: Tammerfors till S:t Michel",
+      "date": "2026-07-12",
+      "dateEnd": "2026-07-12",
+      "location": "Old Rebels MC, Teerivuorenkatu 26, Tammerfors",
+      "type": "Körning",
+      "organizer": "H-DCF",
+      "description": "Finsk etapp 2: ca 267 km med besök på Finlands motorcykelmuseum i Lahtis och övernattning på Visulahti camping i S:t Michel.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Finland",
+      "source": "hdc.dk",
+      "descriptionFull": "Finland Road Captain: Mika \"Senaattori\" Laakso, +358 40 840 6655, Mika.Laakso@hdcf.fi\n\n08:00 Free breakfast at Old Rebels MC Central. 09:00 Start. 11:45 Visit at Suomen Moottoripyörämuseo (the Finnish motorcycle museum) in Lahti and lunch.\n\nStayover in Mikkeli Camping & Small Cottages - Visulahti. Prebooking is advised (negotiating with local mc clubs for accommodation/visit).\n\nDays ride about 267 km.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/qDhBwaVQmAJrBhM1A"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Visulahti%2C+Mikkeli",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-07-13",
       "name": "Classic Motor Monday",
       "date": "2026-07-13",
@@ -8444,6 +8962,36 @@ const EVENTS_DATA = {
       "region": "Örebro",
       "source": "sub5.se",
       "backImage": "ads/sub5-gellerasen-back-2026-07-13.jpg"
+    },
+    {
+      "id": "nordic-run-finland-2026-07-13",
+      "name": "Nordic Run: S:t Michel till Kontiolahti",
+      "date": "2026-07-13",
+      "dateEnd": "2026-07-13",
+      "location": "Visulahti Camping, S:t Michel",
+      "type": "Körning",
+      "organizer": "H-DCF",
+      "description": "Finsk etapp 3: ca 300 km österut med lunchbuffé i Leppävirta, besök på privata militär- och ölmuseer, boende hos Kontio Lomat.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Finland",
+      "source": "hdc.dk",
+      "descriptionFull": "Finland Road Captain: Mika \"Senaattori\" Laakso, +358 40 840 6655, Mika.Laakso@hdcf.fi\n\n09:00 Start. 11:30 Lunch at Neste Leppävirta (buffet 12,90 EUR).\n\nStayover hotel changed to: Kontio Lomat Oy, tel 044 045 6110, info@kontiolomat.fi.\n\nVisit in private military and beer museums.\n\nDays ride about 300 km.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/nCLH6587fkjesf8i9"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kontio+Lomat",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
       "id": "doa-tisdagslunch-2026-07-14",
@@ -8531,6 +9079,36 @@ const EVENTS_DATA = {
       ],
       "source": "facebook.com",
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
+    },
+    {
+      "id": "nordic-run-finland-2026-07-14",
+      "name": "Nordic Run: Kontiolahti till Nyslott",
+      "date": "2026-07-14",
+      "dateEnd": "2026-07-14",
+      "location": "Kontio Lomat, Kontiolahti",
+      "type": "Körning",
+      "organizer": "H-DCF",
+      "description": "Finsk etapp 4: ca 260 km via Ilomantsi, EU:s östligaste stad, och Kerimäki kyrka, världens största träkyrka, till camping i Nyslott.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Finland",
+      "source": "hdc.dk",
+      "descriptionFull": "Finland Road Captain: Mika \"Senaattori\" Laakso, +358 40 840 6655, Mika.Laakso@hdcf.fi\n\n09:00 Start. Coffee break at Ilomantsi, the most eastern town of the European Union. 12:00 Lunch at Kiteenhovi, hotel and restaurant in the middle of Kitee (buffet 13,70 EUR). Visit the Kerimäki church, the worlds biggest wooden church.\n\nStayover in Savonlinna at Vuohimäki Camping. Prebooking is advised (negotiating with local mc club for accommodation).\n\nDays ride about 260 km.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/CT5i9uFQ2mhqYXqf8"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vuohim%C3%A4ki+Camping%2C+Savonlinna",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
       "id": "jernviken-onsdagsfika-2026-07-15",
@@ -8730,6 +9308,36 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "nordic-run-finland-2026-07-15",
+      "name": "Nordic Run: Nyslott till Imatra (final)",
+      "date": "2026-07-15",
+      "dateEnd": "2026-07-15",
+      "location": "Vuohimäki Camping, Nyslott",
+      "type": "Körning",
+      "organizer": "H-DCF",
+      "description": "Finsk etapp 5 och final: ca 135 km via statyparken i Parikkala till Imatra spa. Kl 18:00 avslutningsmiddag för alla Nordic Run-förare.",
+      "link": "https://hdc.dk/nordicrun-2026/",
+      "region": "Finland",
+      "source": "hdc.dk",
+      "descriptionFull": "Finland Road Captain: Mika \"Senaattori\" Laakso, +358 40 840 6655, Mika.Laakso@hdcf.fi\n\n09:00 Start. Visit Koti - Parikkalan Patsaspuisto (the statue park in Parikkala).\n\n12:00 Finishing NR26 at Imatran Kylpylä (Imatra Spa), hotel and restaurants. Prebooking for hotel is advised, camping for free.\n\nDays ride about 135 km.\n\n18:00 Dinner party for all Nordic Run 2026 riders at the hotel restaurant. More info to come.\n\n16-19/7: H-DCF International Rally. More info to come.",
+      "links": [
+        {
+          "label": "hdc.dk",
+          "url": "https://hdc.dk/nordicrun-2026/"
+        },
+        {
+          "label": "Rutt",
+          "url": "https://maps.app.goo.gl/kwHL3TtaLaHtb5oh6"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Imatran+Kylpyl%C3%A4",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
       "id": "lo-i-torsdagskörningar-sundsvall-2026-07-16",
