@@ -2901,6 +2901,18 @@ function safeSetItem(key, value) {
 // ========== CONFIG ==========
 const MONTHS_SV = ['Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'];
 const MONTHS_SHORT = ['JAN','FEB','MAR','APR','MAJ','JUN','JUL','AUG','SEP','OKT','NOV','DEC'];
+// Base year for the plain "1".."12" month-filter values. Months for later years
+// use the value form "yYYYY-M" (e.g. "y2027-1") so 2026 and 2027 never mix in the filter.
+const FILTER_BASE_YEAR = 2026;
+// Parse a month-filter value into {year, month}, or null for 'all'/special chip values.
+function parseMonthFilter(v) {
+  if (v === 'all' || v == null || String(v).startsWith('__')) return null;
+  const ym = String(v).match(/^y(\d{4})-(\d{1,2})$/);
+  if (ym) return { year: parseInt(ym[1], 10), month: parseInt(ym[2], 10) };
+  const n = parseInt(v, 10);
+  if (n >= 1 && n <= 12) return { year: FILTER_BASE_YEAR, month: n };
+  return null;
+}
 const SE_HOLIDAYS_2026 = new Set(['2026-01-01','2026-01-06','2026-04-03','2026-04-05','2026-04-06','2026-05-01','2026-05-14','2026-05-24','2026-06-06','2026-06-20','2026-10-31','2026-12-25','2026-12-26']);
 
 const CLUB_MATCHERS = {
@@ -3329,7 +3341,8 @@ function buildRegionsFooter(activeRegions) {
 function buildRegionFilter() {
   // Single pass over events to collect regions, months, and organizer stats
   const regionCounts = {};
-  const monthCounts = {};
+  const monthCounts = {};        // base year (2026) months -> count, values "1".."12"
+  const futureMonthCounts = {};  // later years -> count, keyed "YYYY-M"
   const groupCounts = {};
   const standaloneOrgs = {};
   const matcherEntries = Object.entries(CLUB_MATCHERS);
@@ -3338,8 +3351,13 @@ function buildRegionFilter() {
   for (let i = 0; i < EVENTS_DATA.events.length; i++) {
     const e = EVENTS_DATA.events[i];
     if (e._canary) continue;
+    const _yr = parseInt(e.date.split('-')[0], 10);
     const m = parseInt(e.date.split('-')[1], 10);
-    monthCounts[m] = (monthCounts[m] || 0) + 1;
+    if (_yr > FILTER_BASE_YEAR) {
+      futureMonthCounts[_yr + '-' + m] = (futureMonthCounts[_yr + '-' + m] || 0) + 1;
+    } else {
+      monthCounts[m] = (monthCounts[m] || 0) + 1;
+    }
     if (e._ad) continue;
     // Region
     if (e.region) {
@@ -3386,6 +3404,28 @@ function buildRegionFilter() {
     opt.textContent = MONTHS_SV[m - 1];
     monthSel.appendChild(opt);
   });
+  // Future years (2027+): separator, a year header, then that year's months.
+  const futureKeys = Object.keys(futureMonthCounts);
+  if (futureKeys.length) {
+    const futureYears = [...new Set(futureKeys.map(k => k.split('-')[0]))].sort();
+    futureYears.forEach(y => {
+      const sep = document.createElement('option');
+      sep.disabled = true; sep.textContent = '──────';
+      monthSel.appendChild(sep);
+      const head = document.createElement('option');
+      head.disabled = true; head.textContent = y;
+      monthSel.appendChild(head);
+      futureKeys.filter(k => k.startsWith(y + '-'))
+        .map(k => parseInt(k.split('-')[1], 10))
+        .sort((a, b) => a - b)
+        .forEach(mm => {
+          const opt = document.createElement('option');
+          opt.value = 'y' + y + '-' + mm;
+          opt.textContent = MONTHS_SV[mm - 1];
+          monthSel.appendChild(opt);
+        });
+    });
+  }
 
   const groupEntries = Object.entries(groupCounts)
     .filter(([, count]) => count > 0).sort((a, b) => b[1] - a[1]);
@@ -3513,15 +3553,14 @@ function getBaseFiltered() {
   // Apply month filter ONLY when it's a real month (1-12). Skip the special
   // __today__/__tomorrow__/__weekend__/__week__ values because those overlap
   // with the chip semantics themselves (they're already represented by the chips).
-  if (currentMonth !== 'all' && !String(currentMonth).startsWith('__')) {
-    const monthNum = parseInt(currentMonth, 10);
-    if (monthNum >= 1 && monthNum <= 12) {
-      all = all.filter(e => {
-        const d = new Date(e.date + 'T00:00:00');
-        const dEnd = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : d;
-        return (d.getMonth() + 1) === monthNum || (dEnd.getMonth() + 1) === monthNum;
-      });
-    }
+  const _mf = parseMonthFilter(currentMonth);
+  if (_mf) {
+    const target = _mf.year * 12 + _mf.month;
+    all = all.filter(e => {
+      const s = e.date.split('-'); const en = (e.dateEnd || e.date).split('-');
+      const sv = (+s[0]) * 12 + (+s[1]); const ev = (+en[0]) * 12 + (+en[1]);
+      return sv <= target && target <= ev;
+    });
   }
   getBaseFiltered._key = key;
   getBaseFiltered._list = all;
@@ -4636,12 +4675,15 @@ function render() {
         return (start <= sunWeekStr && end >= monStr);
       });
     } else {
-      const selM = parseInt(currentMonth, 10);
-      events = events.filter(e => {
-        const startM = parseInt(e.date.split('-')[1], 10);
-        const endM = parseInt((e.dateEnd || e.date).split('-')[1], 10);
-        return startM <= selM && endM >= selM;
-      });
+      const mf = parseMonthFilter(currentMonth);
+      if (mf) {
+        const target = mf.year * 12 + mf.month;
+        events = events.filter(e => {
+          const s = e.date.split('-'); const en = (e.dateEnd || e.date).split('-');
+          const sv = (+s[0]) * 12 + (+s[1]); const ev = (+en[0]) * 12 + (+en[1]);
+          return sv <= target && target <= ev;
+        });
+      }
     }
   }
   if (!showPast) events = events.filter(e => (e.dateEnd || e.date) >= today);
