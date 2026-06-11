@@ -14363,20 +14363,6 @@ const EVENTS_DATA = {
       ]
     },
     {
-      "id": "oamck-malaren-runt-2026",
-      "name": "Mälaren runt",
-      "date": "2026-08-15",
-      "dateEnd": "2026-08-15",
-      "location": "Stockholm",
-      "type": "Träff",
-      "organizer": "SMC Riks",
-      "description": "Mälaren runt",
-      "link": "https://oamck.se/events/malaren-runt/",
-      "region": "Stockholm",
-      "source": "oamck.se",
-      "backImage": "ads/smc-default-back.jpg"
-    },
-    {
       "id": "oldmopperz-rally-2026-08-15",
       "name": "OldMopperz veteran rally",
       "date": "2026-08-15",
@@ -14619,33 +14605,6 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=ST1+Asecs+J%C3%B6nk%C3%B6ping",
-          "type": "map"
-        }
-      ]
-    },
-    {
-      "id": "malaren-runt-2026",
-      "name": "Mälaren Runt",
-      "date": "2026-08-16",
-      "dateEnd": "2026-08-16",
-      "location": "Mälardalen",
-      "type": "Körning",
-      "organizer": "SMC / Mälaren Runt",
-      "organizerIcon": "clubs/normalized/smc.png",
-      "description": "Arrangemang med SMC i Mälardalen. Mötespunkt för MC-klubben. Mer information på smc.nu.",
-      "link": "https://www.svmc.se/club/maelaren-runt/",
-      "region": "Stockholm",
-      "source": "svmc.se",
-      "backImage": "ads/malaren-runt-back-2026-08-16.jpg",
-      "descriptionFull": "Mälaren Runt arrangeras av SMC / Mälaren Runt.\n\nArrangemang med SMC i Mälardalen. Mötespunkt för MC-klubben. Mer information på smc.nu.\n\nGemensam körning på utvalda vägar. Kontrollera evenemangssidan för detaljer.\n\nPlats: Mälardalen.",
-      "links": [
-        {
-          "label": "svmc.se",
-          "url": "https://www.svmc.se/club/maelaren-runt/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=M%C3%A4lardalen",
           "type": "map"
         }
       ]
