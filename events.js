@@ -17402,6 +17402,31 @@ const EVENTS_DATA = {
       "backImage": "ads/mchk-back-2026.jpg"
     },
     {
+      "id": "strangnas-bike-show-2026-08-29",
+      "name": "Strängnäs Bike Show",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "location": "Ugglans park, Strängnäs",
+      "type": "Show",
+      "organizer": "Blotsvens MC",
+      "description": "Mälardalens familjära säsongsavslutning sedan 1992, traditionsenligt sista lördagen i augusti. Utställning med tävling i sex klasser.",
+      "link": "https://www.alltommc.se/kategori/evenemang/strangnas-bike-show/",
+      "region": "Södermanland",
+      "source": "alltommc.se",
+      "descriptionFull": "Blotsvens MC har arrangerat Strängnäs Bike Show i Ugglans park varje år sedan 1992, traditionsenligt sista lördagen i augusti.\n\nEn trivsam utställning där man kan tävla i sex olika klasser: Caféracer, Classic, US chopper/custom, Peoples choice samt vandringspokalen Erik Westerbergs minne.\n\nAnmälan sker på plats för den som vill ställa ut. Ta med en presentation av motorcykeln.",
+      "links": [
+        {
+          "label": "alltommc.se",
+          "url": "https://www.alltommc.se/kategori/evenemang/strangnas-bike-show/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ugglans+park%2C+Str%C3%A4ngn%C3%A4s",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bmw-d15-grustur-2026-08-30",
       "name": "D15 Grustur",
       "date": "2026-08-30",

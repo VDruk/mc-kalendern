@@ -18343,31 +18343,6 @@ const EVENTS_ARCHIVE = {
       "backImage": "ads/smc-dalarna-default-back.jpg"
     },
     {
-      "id": "strangnas-bikeshow-2026",
-      "name": "Strängnäs Bike Show",
-      "date": "2026-05-23",
-      "dateEnd": "2026-05-23",
-      "location": "Strängnäs",
-      "type": "Show",
-      "organizer": "Blotsvens MC",
-      "description": "Populär bike show sedan 90-talet. MC-förare från hela Mälardalen samlas för en dag av gemenskap.",
-      "link": "https://www.alltommc.se/kategori/evenemang/strangnas-bike-show/",
-      "region": "Södermanland",
-      "source": "alltommc.se",
-      "descriptionFull": "Strängnäs Bike Show arrangeras av Blotsvens MC.\n\nPopulär bike show sedan 90-talet. MC-förare från hela Mälardalen samlas för en dag av gemenskap.\n\nMC-show med utsmyckade hojar och byggen. Kolla arrangören för tider.\n\nPlats: Strängnäs.",
-      "links": [
-        {
-          "label": "alltommc.se",
-          "url": "https://www.alltommc.se/kategori/evenemang/strangnas-bike-show/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Str%C3%A4ngn%C3%A4s",
-          "type": "map"
-        }
-      ]
-    },
-    {
       "id": "tps-swapmeet-oppet-hus-2026-05-23",
       "name": "Swapmeet Öppet Hus",
       "date": "2026-05-23",
