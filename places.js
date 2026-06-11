@@ -1,5 +1,5 @@
 const PLACES_DATA = {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-11",
   "places": [
     {
       "id": "st1-asecs",
@@ -194,6 +194,19 @@ const PLACES_DATA = {
       "eventCount": 12
     },
     {
+      "id": "cirkel-k",
+      "name": "Cirkel K",
+      "address": "Cirkel K, Hagaström, Gävle",
+      "category": "motesplats",
+      "region": "Gävleborg",
+      "lat": 60.667533,
+      "lon": 17.0796549,
+      "organizers": [
+        "MCHK Gävleborg"
+      ],
+      "eventCount": 10
+    },
+    {
       "id": "mce-klubblokalen",
       "name": "MCE Klubblokalen",
       "address": "MCE Klubblokalen, Snutenvägen 11, Järfälla",
@@ -289,6 +302,19 @@ const PLACES_DATA = {
         "Sörmlandswingarna"
       ],
       "eventCount": 6
+    },
+    {
+      "id": "i-klubblokalen-pappersbruksallen-14",
+      "name": "i klubblokalen Pappersbruksallén 14",
+      "address": "i klubblokalen Pappersbruksallén 14, Örebro",
+      "category": "mc-klubb",
+      "region": "Örebro",
+      "lat": 59.2689075,
+      "lon": 15.2431924,
+      "organizers": [
+        "MCHK Närke"
+      ],
+      "eventCount": 5
     },
     {
       "id": "gellerasen-motorstadion",
@@ -520,6 +546,20 @@ const PLACES_DATA = {
       "eventCount": 3
     },
     {
+      "id": "snickarbergsbanan",
+      "name": "Snickarbergsbanan",
+      "address": "Snickarbergsbanan, Surahammar",
+      "category": "motesplats",
+      "region": "Västmanland",
+      "lat": 59.7072262,
+      "lon": 16.2268408,
+      "organizers": [
+        "MCHK Mälardalen",
+        "H-DCS"
+      ],
+      "eventCount": 3
+    },
+    {
       "id": "nya-pepparrotsbanan",
       "name": "Nya Pepparrotsbanan",
       "address": "Nya Pepparrotsbanan, Fagerskogen, Enköping",
@@ -529,6 +569,19 @@ const PLACES_DATA = {
       "lon": 17.0494194,
       "organizers": [
         "SMC Västmanland"
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "hemlingby",
+      "name": "Hemlingby",
+      "address": "Hemlingby, Gävle",
+      "category": "motesplats",
+      "region": "Gävleborg",
+      "lat": 60.646104,
+      "lon": 17.1485059,
+      "organizers": [
+        "MCHK Gävleborg"
       ],
       "eventCount": 3
     },
@@ -833,6 +886,34 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "grimsbu-turistsenter",
+      "name": "Grimsbu Turistsenter",
+      "address": "Grimsbu Turistsenter, Folldalsveien 3954, Grimsbu",
+      "category": "motesplats",
+      "region": "Norge",
+      "lat": 62.15565,
+      "lon": 10.1720706,
+      "organizers": [
+        "Nordiska H-D-klubbarna",
+        "HDOC Norway"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "gyllene-hjulet",
+      "name": "Gyllene Hjulet",
+      "address": "Gyllene Hjulet, Kontorsvägen 2, Surahammar",
+      "category": "motesplats",
+      "region": "Västmanland",
+      "lat": 59.7079372,
+      "lon": 16.2168329,
+      "organizers": [
+        "MCHK Södermanland",
+        "MCHK Mälardalen"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "klockaregatan",
       "name": "Klockaregatan",
       "address": "Klockaregatan, Askersund",
@@ -842,6 +923,34 @@ const PLACES_DATA = {
       "lon": 14.9109867,
       "organizers": [
         "BMW MC-klubben"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "nykopings-hamn",
+      "name": "Nyköpings Hamn",
+      "address": "Nyköpings Hamn, Nyköping",
+      "category": "motesplats",
+      "region": "Södermanland",
+      "lat": 58.7434106,
+      "lon": 17.0214164,
+      "organizers": [
+        "Iron Horse MC Show",
+        "MCHK Södermanland"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "crazy-kings-mc",
+      "name": "Crazy Kings MC",
+      "address": "Crazy Kings MC, Bäckaskog Strömsdal 1, Värnamo",
+      "category": "motesplats",
+      "region": "Jönköping",
+      "lat": 57.1990473,
+      "lon": 14.0756805,
+      "organizers": [
+        "H-DCS",
+        "Con Dios MC"
       ],
       "eventCount": 2
     },
@@ -939,6 +1048,20 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "kjula-dragway",
+      "name": "Kjula Dragway",
+      "address": "Kjula Dragway, Eskilstuna",
+      "category": "motesplats",
+      "region": "Södermanland",
+      "lat": 59.3538345,
+      "lon": 16.6897553,
+      "organizers": [
+        "MCHK Södermanland",
+        "Kjula Dragway"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "vintergatan-61",
       "name": "Vintergatan 61",
       "address": "Vintergatan 61, Insjön, Dalarna",
@@ -988,20 +1111,6 @@ const PLACES_DATA = {
       "lon": 13.491428,
       "organizers": [
         "MCHK Skaraborg"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "gyllene-hjulet",
-      "name": "Gyllene Hjulet",
-      "address": "Gyllene Hjulet, Kontorsvägen 2, Surahammar",
-      "category": "motesplats",
-      "region": "Västmanland",
-      "lat": 59.7072262,
-      "lon": 16.2268408,
-      "organizers": [
-        "MCHK Mälardalen",
-        "H-DCS"
       ],
       "eventCount": 2
     },

@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-06-11",
   "events": [
     {
       "_ad": true,
@@ -1504,6 +1504,60 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "mchk-gävleborg-klubbkörning-laxön-2026-06-11",
+      "name": "Klubbkörning till Laxön",
+      "date": "2026-06-11",
+      "dateEnd": "2026-06-11",
+      "time": "17:00",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Kvällstur för veteranhojar. Två startgrupper rullar kl 17.00 från varsin mack och möts vid målet kl 18.00. Kontaktperson Ulf Olsson.",
+      "descriptionFull": "Tors 11/6 18.00 Laxön. Samling Cirkel K Hagaström 17.00 - Cirkel K Gävlevägen Sandviken 17.00\n\nKontakt: Ulf Olsson 070-7246991",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
+      "id": "mchk-stockholm-nivsta-torsdagsträff-2026-06-11",
+      "name": "Tur till Nivstas torsdagsträff",
+      "date": "2026-06-11",
+      "dateEnd": "2026-06-11",
+      "time": "15:30",
+      "location": "Biltema, Upplands Väsby",
+      "type": "Körning",
+      "organizer": "MCHK Stockholm",
+      "description": "Gemensam avfärd kl 15:30 till torsdagsträffen med möjlighet att fika eller äta hamburgare. Träffen pågår 16-19, hemresan sker enskilt.",
+      "descriptionFull": "torsdag 11 juni 2026, 16:00 - 19:00. Vi åker från Biltema i Upplands Väsby kl 15:30 till Nivstas torsdagsträff. Där finns möjlighet att fika eller äta hamburgare. Hemresan gör ni enskilt när ni vill.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+Upplands+V%C3%A4sby",
+          "type": "map"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "moonshine-cruisers-karaoke-forfest-2026-06-12",
       "name": "Förfest med Karaoke inför Big Meet",
       "date": "2026-06-12",
@@ -2836,6 +2890,33 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mchk-södermanland-fikatur-östergården-2026-06-14",
+      "name": "Fikatur till Café Östergården",
+      "date": "2026-06-14",
+      "dateEnd": "2026-06-14",
+      "time": "11:00",
+      "location": "Café Östergården, väg 223, Runtuna",
+      "type": "Körning",
+      "organizer": "MCHK Södermanland",
+      "description": "Söndagsfika på ett lantligt kafé längs väg 223. Vi träffas på plats kl 11.00. Kontaktperson Leif Holmnäs, 070-660 46 82.",
+      "descriptionFull": "Söndag 14e juni. Fikatur till Café Östergården som ligger längs väg 223 mellan Runtuna och Aspa. Gården ligger på vänster sida när man åker från Runtuna norrut. Vi träffas där kl 11.00. Kontaktperson Leif Holmnäs 070-660 46 82.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+%C3%96sterg%C3%A5rden+Runtuna",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "mce-stadstur-2026-06-15",
       "name": "Stadstur",
       "date": "2026-06-15",
@@ -3401,6 +3482,33 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "mchk-gävleborg-klubbkörning-gåsholma-2026-06-17",
+      "name": "Klubbkörning till Gåsholma",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "17:00",
+      "location": "Björke Pizzeria, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Onsdagstur för veteranhojar med mål vid kusten kl 18.00. Fika föranmäls till Nisse. Samling vid pizzerian kl 17.00.",
+      "descriptionFull": "Ons 17/6 18.00 Gåsholma. Föranmälan av fika sker till Nisse 070-2395730 Samling Björke Pizzeria kl.17.00\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bj%C3%B6rke+Pizzeria+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "doa-dagstur-ekero-2026-06-18",
@@ -4905,6 +5013,33 @@ const EVENTS_DATA = {
       "backImage": "ads/occasional-moto-hangout-back-2026-06-25.jpg"
     },
     {
+      "id": "mchk-gävleborg-klubbkörning-lumsheden-2026-06-25",
+      "name": "Klubbkörning till Lumshedens Kaningård",
+      "date": "2026-06-25",
+      "dateEnd": "2026-06-25",
+      "time": "17:00",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Torsdagskväll på veteranhoj med gemensam körning mot kvällens mål kl 18.00. Samling kl 17.00 eller 17.30 beroende på startgrupp.",
+      "descriptionFull": "Tors 25/6 18.00 Lumshedens Kaningård. Samling Cirkel K Hagaström 17.00 - Cirkle K Gävlevägen Sandviken 17.30\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "hofors-stiil-traffen-light-2026-06-26",
       "name": "Stiil-träffen light",
       "date": "2026-06-26",
@@ -5874,6 +6009,90 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "mchk-södermanland-båvenrundan-2026-06-27",
+      "name": "Båvenrundan",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "location": "Skebokvarnsgården, Sparreholmsvägen 35, Skebokvarn",
+      "type": "Körning",
+      "organizer": "MCHK Södermanland",
+      "description": "Veteranrunda kring sjön med start och mål vid gården längs väg 57. Anmälan till Åke Lagerbäck senast 22 juni, 070-588 27 24.",
+      "descriptionFull": "Lördag 27e juni. Start och mål är på Skebokvarnsgården på Sparreholmsvägen 35 i Skebokvarn. Skyltat längs väg 57 i Skebokvarn. Kontaktperson och anmälan till Åke Lagerbäck 070 588 27 24 alt ake.lagerback@telia.com. Anmälan senast 22a juni.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sparreholmsv%C3%A4gen+35+Skebokvarn",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
+      "id": "mchk-närke-utflykt-ullermuller-2026-06-27",
+      "name": "Utflykt till Ullermuller",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "time": "10:30",
+      "location": "Klubblokalen, Pappersbruksallén 14, Örebro",
+      "type": "Körning",
+      "organizer": "MCHK Närke",
+      "description": "Gemensam utflykt på fina MC-vägar till veteranfordonsdag med traktorcruising och marknad. Start kl 10.30 för moped, 11.00 för MC.",
+      "descriptionFull": "Lördag 27 juni åker vi gemensamt till Ullermuller, Ullersäter från klubblokalen. Start kl 10.30 för moped, 11.00 för MC. Veteranfordon, traktorcruising, marknad med underhållning. En perfekt utflykt på fina MC-vägar, delvis grus förbi Ringaby, vill du undvika det, kör över Axberg och Frövi!",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Pappersbruksall%C3%A9n+14+%C3%96rebro",
+          "type": "map"
+        }
+      ],
+      "region": "Örebro",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
+      "id": "mchk-mälardalen-nostalgimotocross-2026-06-27",
+      "name": "Nostalgimotocross på Snickarbergsbanan",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "time": "07:30",
+      "location": "Snickarbergsbanan, Surahammar",
+      "type": "Träff",
+      "organizer": "MCHK Mälardalen",
+      "description": "Uppvisningskörning för crossar före 1984, 74 år efter banans invigning. Ingen tävling, ingen licens krävs. Incheckning 07.30, körning 10-14.",
+      "descriptionFull": "MCHK Mälardalen & MSK Hammaren arrangerar nostalgi-motocross lördagen den 27 juni 2026 vid Snickarbergsbanan i Surahammar med anledning av att det är 74 år sedan Snickarbergsbanan invigdes. Alla som känner för motocross från förr är mycket välkomna.\n\nMC-typ: Solo och MCS före 1984. Startavgift solo MC 250:- MCS 350:-. Betalas på plats, kontant eller Swish. Försäkring ingår, ingen licens krävs. Servering kommer att finnas. Deltagande förare parkerar transportfordon nära depån, motorcyklarna skall ställas upp på den asfalterade ”depån” i anslutning till banslingorna, där den förare som vill får uppvisningsköra sin motorcykel. (OBS ingen tävling!)\n\nAnmäl dig före 15 juni via formuläret på denna sida, eller ring Lennart Andersson 070-5338662.\n\nTidsplan: Incheckning på banan lördag 27 juni från 07.30, Förarmöte 09.30, Körning 10:00-14:00.\n\nSöndag 28 juni är det Veteranmarknad i Bruksparken, och Suradagarna pågår fredag till söndag, se www.surahammar.se. Du som vill stanna till marknaden, kan övernattsparkera din husbil/husvagn på anvisad plats invid marknaden för 100:-, inträde på MC-muséet Gyllene Hjulet 28 juni ingår då, samt tillgång till toalett under muséets öppettider, övrig tid finns Bajamaja i Bruksparken.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "surahammar.se",
+          "url": "https://www.surahammar.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snickarbergsbanan+Surahammar",
+          "type": "map"
+        }
+      ],
+      "region": "Västmanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "jmc-sondagsrundan-2026-06-28",
       "name": "Söndagsrundan",
       "date": "2026-06-28",
@@ -6018,6 +6237,64 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
+      "id": "mchk-södermanland-surahammar-veteranmarknad-2026-06-28",
+      "name": "Utflykt till Surahammars veteranmarknad",
+      "date": "2026-06-28",
+      "dateEnd": "2026-06-28",
+      "time": "10:00",
+      "location": "Gyllene Hjulet, Surahammar",
+      "type": "Körning",
+      "organizer": "MCHK Södermanland",
+      "description": "Besök på den populära marknaden med veterandelar, plus MC-museet intill. Samling utanför museet kl 10.00. Kontaktperson Åke Lagerbäck.",
+      "descriptionFull": "Söndag 28e juni. Vi besöker den mycket populära veteranmarknaden i Surahammar som ordnas av MCHK Mälardalen. Vi besöker också deras MC museum Gyllene Hjulet. Vi träffas utanför Gyllene Hjulet kl 10:00. Vi rekommenderar att gå en sväng på marknaden innan. Kontaktperson Åke Lagerbäck 070-588 27 24.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gyllene+Hjulet+Surahammar",
+          "type": "map"
+        }
+      ],
+      "region": "Västmanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
+      "id": "mchk-mälardalen-veteranmarknad-2026-06-28",
+      "name": "Veteranmarknad vid Gyllene Hjulet",
+      "date": "2026-06-28",
+      "dateEnd": "2026-06-28",
+      "time": "09:00",
+      "location": "Bruksparken, Surahammar",
+      "type": "Träff",
+      "organizer": "MCHK Mälardalen",
+      "description": "Marknad för 32:a året i rad under Suradagarna. MC-delar, verktyg och loppis. Öppet 9-16, 50 kr per meter för säljare, ingen föranmälan.",
+      "descriptionFull": "I den lummiga Bruksparken, Surahammar anordnas för det 32:a året i rad Veteranmarknaden. Den äger rum under Suradagarna då det förekommer många aktiviteter i Surahammar. Parken delas i två halvor varav den ena är reserverad för MC-Bildelar samt verktyg etc. I den andra halvan finns plats för antikviteter och annat av loppiskaraktär.\n\nLördagen den 27 juni öppnar vi för försäljare som vill vara ute i god tid. För säljare finns vi på plats under lördagen fram till klockan 21:00 samt på söndagen från klockan 05:30. Söndagen den 28 juni öppnar vi klockan 9.00 för besökare och har öppet till klockan 16.00.\n\nVi tar ut en avgift på 50:- per meter men max 600:-. Ingen föranmälan behövs.\n\nVid frågor ring 070 370 30 67, Janne Cermenius. Arrangör MCHK Mälardalen",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "surahammar.se",
+          "url": "https://www.surahammar.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bruksparken+Surahammar",
+          "type": "map"
+        }
+      ],
+      "region": "Västmanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "mo-bygdegard-classic-motor-monday-2026-06-29",
@@ -6719,6 +6996,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
+      "id": "mchk-gävleborg-klubbkörning-vinnersjö-2026-07-02",
+      "name": "Klubbkörning till Vinnersjö Busscafé",
+      "date": "2026-07-02",
+      "dateEnd": "2026-07-02",
+      "time": "17:00",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Torsdagstur för veteranhojar med fikamål kl 18.00. Samling kl 17.00 eller vid macken i Årsunda 17.30 för gemensam körning.",
+      "descriptionFull": "Tors 2/7 18.00 Vinnersjö Busscafé. Samling Cirkel K Hagaström 17.00 - Macken Årsunda 17.30\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "45an-hoting-2026",
@@ -7491,6 +7795,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
+      "id": "mchk-stockholm-glasstur-vaxholm-2026-07-04",
+      "name": "Glasstur",
+      "date": "2026-07-04",
+      "dateEnd": "2026-07-04",
+      "time": "12:45",
+      "location": "Vaxholm",
+      "type": "Körning",
+      "organizer": "MCHK Stockholm",
+      "description": "Sommartur på egen hand till skärgårdsstaden där vi ses kl 12:45. Klubben bjuder alla deltagare på glass.",
+      "descriptionFull": "Vi kör enskilt till Vaxholm och ses där kl 12:45. MCHK Stockholm bjuder på glass.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vaxholm",
+          "type": "map"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "do-c-lars-eriks-glassrunda-2026",
@@ -8289,6 +8620,33 @@ const EVENTS_DATA = {
       "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
+      "id": "mchk-gävleborg-klubbkörning-billudden-2026-07-09",
+      "name": "Klubbkörning till Billudden",
+      "date": "2026-07-09",
+      "dateEnd": "2026-07-09",
+      "time": "17:00",
+      "location": "Hemlingby, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Kvällsutflykt för veteranhojar mot kusten kl 18.00. Medtag egen korv och fika. Samling kl 17.00 eller i Skutskär 17.30.",
+      "descriptionFull": "Tors 9/7 18.00 Billudden. Medtag egen korv och fika. Samling Hemlingby Ka. 17.00 - Skutskär 17.30\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hemlingby+k%C3%B6pcentrum+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "baik-bitch-summer-raid-bollnas-2026-07-10",
       "name": "Baik & Bitch Summer Raid",
       "date": "2026-07-10",
@@ -8852,6 +9210,33 @@ const EVENTS_DATA = {
       "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
+      "id": "mchk-södermanland-fikatur-klaver-2026-07-12",
+      "name": "Fikatur till Café Klaver",
+      "date": "2026-07-12",
+      "dateEnd": "2026-07-12",
+      "time": "11:00",
+      "location": "Café Klaver, Ekbacka gård, Hedlandet",
+      "type": "Körning",
+      "organizer": "MCHK Södermanland",
+      "description": "Söndagsfika på kafé utanför Mariefred. Vi ses där kl 11.00, samåkning från macken i Vrena 09.45. Kontaktperson Kent Björvang.",
+      "descriptionFull": "Söndag 12 juli. Fikatur till café Klaver i Hedlandet utanför Mariefred. Vi träffas där kl 11.00. För de som vill samåka från macken i Vrena så samlas vi där 09.45. Adressen till fiket är Ekbacka gård Hedlandet. Kontaktperson Kent Björvang 070-569 94 33",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kafe+Klav%C3%A9r+Mariefred",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-07-13",
       "name": "Classic Motor Monday",
       "date": "2026-07-13",
@@ -9342,6 +9727,33 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+    },
+    {
+      "id": "mchk-gävleborg-klubbkörning-vretas-2026-07-16",
+      "name": "Klubbkörning till Vretas Saloon-Café",
+      "date": "2026-07-16",
+      "dateEnd": "2026-07-16",
+      "time": "17:00",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Torsdagstur för veteranhojar med kafé- och museimål kl 18.00. Samling kl 17.00, Sandvikengruppen 17.30 och inväntar den andra gruppen.",
+      "descriptionFull": "Tors 16/7 18.00 Vretas Saloon-Café och Muséum. Samling Cirkel K Hagaström 17.00 - Cirkel K Gävlevägen Sandviken 17.30, invänta Gävle\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "twin-club-koppartraffen-2026-07-17",
@@ -10491,6 +10903,33 @@ const EVENTS_DATA = {
       "backImage": "ads/vrs-hojrock-back-2026-07-23.jpg"
     },
     {
+      "id": "mchk-gävleborg-klubbkörning-rönnåsstugan-2026-07-23",
+      "name": "Klubbkörning till Rönnåsstugan",
+      "date": "2026-07-23",
+      "dateEnd": "2026-07-23",
+      "time": "17:00",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Torsdagstur för veteranhojar med mål kl 18.00. Samling kl 17.00 eller vid Medskogssjön 17.30 där grupperna möts för gemensam körning.",
+      "descriptionFull": "Tors 23/7 18.00 Rönnåsstugan. Samling Cirkel K Hagaström 17.00 - Medskogssjön 17.30 (Sandviksgruppen inväntar Gävlegruppen)\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "dob-skanetraffen-2-0-2026",
       "name": "DOB- Skåneträffen 2.0",
       "date": "2026-07-24",
@@ -11272,6 +11711,37 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "mchk-södermanland-hamnträff-mc-tema-2026-07-29",
+      "name": "Hamnträff med MC-tema",
+      "date": "2026-07-29",
+      "dateEnd": "2026-07-29",
+      "time": "17:30",
+      "location": "Nyköpings hamn",
+      "type": "Träff",
+      "organizer": "MCHK Södermanland",
+      "description": "Onsdagsträffen har MC-tema och klubben kommer mangrant för att visa veteranhojar. Start 17:30, ta med infoskylt om ditt fordon.",
+      "descriptionFull": "Onsdag 29e juli. De populära hamnträffarna i Nyköpings hamn inträffar på onsdagar med start 13e maj till och med 19e augusti. Den 29e juli är det MC-tema och vi åker så klart så många som möjligt dit för att visa upp våra hojar och sprida kunskap om vår hobby, start 17:30. Mer information finns på arrangörens hemsida www.automobilsallskapet.se. Glöm inte att ta med en infoskylt om ert fordon. Har du ingen så kan Stefan Andersson 070-525 74 34, hjälpa till att fixa.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "automobilsallskapet.se",
+          "url": "https://www.automobilsallskapet.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Nyk%C3%B6pings+hamn",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "dacketraffen-2026",
       "name": "Dacketräffen",
       "date": "2026-07-30",
@@ -11442,6 +11912,33 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "mchk-gävleborg-klubbkörning-rosengömman-2026-07-30",
+      "name": "Klubbkörning till Rosengömman",
+      "date": "2026-07-30",
+      "dateEnd": "2026-07-30",
+      "time": "17:00",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Torsdagskväll på veteranhoj med gemensam färd mot kvällens mål kl 18.00. Samling kl 17.00, Sandvikengruppen 17.30.",
+      "descriptionFull": "Tors 30/7 18.00 Rosengömman. Samling Cirkel K Hagaström 17.00 - Cirkel K Gävlevägen Sandviken 17.30\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "doa-tur-till-bisonturen-2026",
@@ -12593,6 +13090,33 @@ const EVENTS_DATA = {
       "organizerIcon": "clubs/normalized/gwcs.png"
     },
     {
+      "id": "mchk-gävleborg-klubbkörning-marskärsudden-2026-08-06",
+      "name": "Klubbkörning till Marskärsudden",
+      "date": "2026-08-06",
+      "dateEnd": "2026-08-06",
+      "time": "17:00",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Kvällstur ut mot kusten för klubbens veteranhojar, framme vid målet kl 18.00. Gemensam samling kl 17.00. Kontakt Nisse eller Bengt.",
+      "descriptionFull": "Tors 6/8 18.00 Marskärsudden. Samling Cirkel K Hagaström 17.00\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "british-motor-meet-hjo-2026",
       "name": "British Motor Meet Hjo",
       "date": "2026-08-07",
@@ -12995,6 +13519,37 @@ const EVENTS_DATA = {
       "region": "Västra Götaland",
       "source": "facebook.com",
       "backImage": "ads/trollbikers-mc-pokerrun-back-2026-08-08.jpg"
+    },
+    {
+      "id": "mchk-södermanland-61-årsracet-2026-08-08",
+      "name": "Utflykt till 61-årsracet",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "time": "07:00",
+      "location": "Sagers möbler, Nyköping",
+      "type": "Körning",
+      "organizer": "MCHK Södermanland",
+      "description": "Heldag med veteran-MC-tävlingar, öppna depåer och marknad på motorstadion i Sviestad. Gemensam avfärd kl 07:00. Kontakt Leif Holmnäs.",
+      "descriptionFull": "Lördag 8e augusti. 61-årsracet i Linköping. En tre dagar lång aktivitet med veteranmctävlingar i flera olika klasser, öppna depåer, marknad och annat. Vi åker tidigt på lördagen för en heldag på tävlingarna. Racet är på Linköpings motorstadion i Sviestad. Besök gärna årsracets hemsida, www.arsracet.se, för mer information. Vi samlas vid Sagers möbler i Nyköping kl 07:00 för gemensam avfärd. Kontaktperson Leif Holmnäs 070-6604682.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "arsracet.se",
+          "url": "https://www.arsracet.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sagers+M%C3%B6bler+Nyk%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "bmw-d11-norra-smaland-runt-2026",
@@ -13839,6 +14394,33 @@ const EVENTS_DATA = {
       "organizerIcon": "clubs/normalized/gwcs.png"
     },
     {
+      "id": "mchk-gävleborg-fri-klubbkörning-2026-08-13",
+      "name": "Fri klubbkörning",
+      "date": "2026-08-13",
+      "dateEnd": "2026-08-13",
+      "time": "18:00",
+      "location": "Bomhus Bygdegård, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Torsdagskväll utan fast rutt, vi möts kl 18.00 vid bygdegården och kör fritt. Kontakt Nisse Lundström eller Bengt Andreasson.",
+      "descriptionFull": "Tors 13/8 18.00 Bomhus Bygdegård. Fri körning\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bomhus+Bygdeg%C3%A5rd+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "ssmc-langgaffeltraffen-2026-08-14",
       "name": "Långgaffelträffen",
       "date": "2026-08-14",
@@ -14466,6 +15048,33 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "mchk-södermanland-motala-motormuseum-2026-08-15",
+      "name": "Heldagsutflykt till Motala motormuseum",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "08:00",
+      "location": "Biltema, Katrineholm",
+      "type": "Körning",
+      "organizer": "MCHK Södermanland",
+      "description": "Riktig långtur till ett sevärt museum med bilar, fordon och en imponerande radiosamling. Gemensam avfärd kl 08.00. Kontakt Stefan Andersson.",
+      "descriptionFull": "Lördag 15e augusti. En riktig långtur där vi försöker att åka gemensamt med samling på Biltemas parkering i Katrineholm kl 08.00. Museet är mycket sevärt och innehåller förutom bilar och andra fordon en imponerande radiosamling. Kontaktperson Stefan Andersson 070-525 74 34.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Biltema+Katrineholm",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "804-racing-lunda-2026",
@@ -15285,6 +15894,33 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+    },
+    {
+      "id": "mchk-gävleborg-klubbkörning-route56-2026-08-20",
+      "name": "Klubbkörning till Route 56 Cruisers",
+      "date": "2026-08-20",
+      "dateEnd": "2026-08-20",
+      "time": "17:00",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Torsdagstur för veteranhojar till cruisingklubben i Hedesunda kl 18.00. Fika föranmäls till Nisse. Samling kl 17.00, i Sandviken 16.00.",
+      "descriptionFull": "Tors 20/8 18.00 Route 56 Cruisers Hedesunda. Föranmälan av fika sker till Nisse 070-2395730. Samling Cirkel K Hagaström 17.00 - Cirkel K Gävlevägen Sandviken 16.00\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "bmw-d10-en-god-bit-av-ostfold-26-2026",
@@ -16165,6 +16801,60 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "mchk-gävleborg-klubbkörning-gårdskär-2026-08-26",
+      "name": "Klubbkörning till Gårdskär",
+      "date": "2026-08-26",
+      "dateEnd": "2026-08-26",
+      "time": "16:00",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Onsdagstur för veteranhojar med mål vid kusten kl 17.00. Samling kl 16.00 eller i Skutskär 16.30 för gemensam körning.",
+      "descriptionFull": "Ons 26/8 17.00 Gårdskär. Samling Cirkel K Hagaström 16.00 - Skutskär 16.30\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
+      "id": "mchk-närke-brandstationen-2026-08-26",
+      "name": "Besök på nya brandstationen",
+      "date": "2026-08-26",
+      "dateEnd": "2026-08-26",
+      "time": "09:30",
+      "location": "Klubblokalen, Pappersbruksallén 14, Örebro",
+      "type": "Träff",
+      "organizer": "MCHK Närke",
+      "description": "Klubben får komma in hos räddningstjänsten på öster. Samling kl 9.30 vid klubblokalen. Max 15 personer, anmälan till Hasse Fredriksson.",
+      "descriptionFull": "Onsdag 26 augusti får vi besöka den nya brandstationen på öster i Örebro. Vi samlas kl 9.30 vid klubblokalen och går den korta sträckan tillsammans. Vi kan bara vara 15 personer så Hasse Fredriksson tar emot anmälningar på telefon 070-483 0403. Om du inte kommer med i den omgången får vi boka in nya dagar längre fram.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Pappersbruksall%C3%A9n+14+%C3%96rebro",
+          "type": "map"
+        }
+      ],
+      "region": "Örebro",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "doa-dagstur-ekero-2026-08-27",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-08-27",
@@ -16661,6 +17351,55 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "mchk-södermanland-strängnäs-bike-show-2026-08-29",
+      "name": "Träff på Strängnäs Bike Show",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "11:00",
+      "location": "Ugglans park, Strängnäs",
+      "type": "Träff",
+      "organizer": "MCHK Södermanland",
+      "description": "Trivsam veteranträff där du kan ställa ut din hoj och tävla i sex klasser, bland annat caféracer och classic. Vi ses i parken kl 11.00.",
+      "descriptionFull": "Lördag 29e augusti. Här är tillfället att visa upp er fina veteranhoj. En mycket trivsam träff i Ugglans park i Strängnäs där man kan tävla i 6 olika klasser. Caféracer, Classic, US chopper/custom, Peoples choice samt vandringspokalen Erik Westerbergs minne. Vi ses där kl 11.00. Kom ihåg att ta med en presentation av motorcykeln. Anmälan sker på plats för den som vill ställa ut. Kontaktperson Kent Björvang 070-569 94 33.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ugglans+park+Str%C3%A4ngn%C3%A4s",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
+      "id": "mchk-stockholm-stockholmsrally-2026-08-29",
+      "name": "Stockholmsrally",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "09:30",
+      "location": "Norra Stockholm, exakt plats meddelas senare",
+      "type": "Körning",
+      "organizer": "MCHK Stockholm",
+      "description": "Veteranrally som i år körs på norra sidan av stan, exakt startplats meddelas senare. Samling 09:30, körning 10:00-15:00.",
+      "descriptionFull": "Lördag 29 Augusti 10:00-15:00 (samling 09:30)\n\nStartplats: I år körs rallyt på norra sidan av Stockholm (exakt plats meddelas senare).",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "bmw-d15-grustur-2026-08-30",
@@ -17223,6 +17962,33 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+    },
+    {
+      "id": "mchk-gävleborg-klubbkörning-gävle-mc-2026-09-03",
+      "name": "Klubbkörning till Gävle MC",
+      "date": "2026-09-03",
+      "dateEnd": "2026-09-03",
+      "time": "16:30",
+      "location": "Cirkel K, Hagaström, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Kvällskörning med klubben, framme vid målet kl 17.00. Gemensam samling kl 16.30. Kontakt Nisse Lundström eller Bengt Andreasson.",
+      "descriptionFull": "Mån 3/9 17.00 Gävle MC. Samling Cirkel K Hagaström 16.30\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Hagastr%C3%B6m+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "bmw-mcq-rikstraff-2026-2026",
@@ -17806,6 +18572,33 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mchk-södermanland-fikatur-sultans-2026-09-06",
+      "name": "Fikatur till Sultans konditori",
+      "date": "2026-09-06",
+      "dateEnd": "2026-09-06",
+      "time": "11:00",
+      "location": "Sultans konditori, Storgatan 27, Katrineholm",
+      "type": "Körning",
+      "organizer": "MCHK Södermanland",
+      "description": "Söndagsfika på klassiskt konditori med anor från 1896 och ett utmärkt sortiment. Vi ses kl 11.00, samåkning från Vrena kl 10.00.",
+      "descriptionFull": "Söndag 6e september. Konditoriet har anor från 1896 och har ett utmärkt sortiment av nya och gamla klassiker på fikabordet. Vi ses där kl 11.00. För den som vill samåka från macken i Vrena så träffas vi där kl 10.00. Adressen till Sultan är Storgatan 27 i Katrineholm. Kontaktperson Stefan Andersson 070-525 74 34.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Storgatan+27+Katrineholm",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "doa-kvallskörning-nacka-2026-09-07",
       "name": "DOA - Kvällskörning Nacka",
       "date": "2026-09-07",
@@ -18281,6 +19074,33 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+    },
+    {
+      "id": "mchk-gävleborg-klubbkörning-sjötorp-2026-09-10",
+      "name": "Klubbkörning till Sjötorp",
+      "date": "2026-09-10",
+      "dateEnd": "2026-09-10",
+      "time": "16:30",
+      "location": "Hemlingby, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Torsdagskväll på veteranhoj med gemensam körning mot målet kl 17.00. Samling kl 16.30. Kontakt Nisse Lundström eller Bengt Andreasson.",
+      "descriptionFull": "Tors 10/9 17.00 Sjötorp. Samling Hemlingby Ka. 16.30\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hemlingby+k%C3%B6pcentrum+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "roadracing-sm-anderstorp-2026",
@@ -19286,6 +20106,33 @@ const EVENTS_DATA = {
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
     },
     {
+      "id": "mchk-gävleborg-klubbkörning-rolfs-garage-2026-09-17",
+      "name": "Klubbkörning till Rolfs Garage",
+      "date": "2026-09-17",
+      "dateEnd": "2026-09-17",
+      "time": "16:45",
+      "location": "Hemlingby, Gävle",
+      "type": "Körning",
+      "organizer": "MCHK Gävleborg",
+      "description": "Torsdagstur till garaget i Järvsta, framme kl 17.00. Gemensam samling kl 16.45. Kontakt Nisse Lundström eller Bengt Andreasson.",
+      "descriptionFull": "Tors 17/9 17.00 Rolfs Garage. Järvsta. Samling Hemlingby Ka. 16.45\n\nKontakt Gävle: Nisse Lundström 070-239 57 30 eller Bengt Andreasson 070-717 35 95.\n\nKontakt Sandviken: Anders \"Nalle\" Lundgren 072-373 11 64",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hemlingby+k%C3%B6pcentrum+G%C3%A4vle",
+          "type": "map"
+        }
+      ],
+      "region": "Gävleborg",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
       "id": "doe-fiskelager-i-kulagolen-18-19-september-2026",
       "name": "DOE Fiskeläger i Kulagölen",
       "date": "2026-09-18",
@@ -19669,6 +20516,33 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back-3.jpg"
+    },
+    {
+      "id": "mchk-södermanland-dragracing-kjula-2026-09-20",
+      "name": "Dragracing på Mälardalen Open",
+      "date": "2026-09-20",
+      "dateEnd": "2026-09-20",
+      "time": "11:00",
+      "location": "Kjula Dragway, Eskilstuna",
+      "type": "Träff",
+      "organizer": "MCHK Södermanland",
+      "description": "Vi tittar på finalerna med flera bilklasser och åtta MC-klasser. Samling vid insläppet kl 11.00, gemensam hamburgare under dagen. Inträde 100 kr.",
+      "descriptionFull": "Söndag 20e september. Dragracing på Kjula Dragway, Mälardalen open. Kvaltävling fredag och lördag, vi tittar på finalerna på söndagen. Vi samlas vid insläppet kl. 11.00. Vi äter hamburgare och dryck gemensamt under dagen. Flera bilklasser och 8 olika mc-klasser. Inträde 100kr. Kontaktperson Kent Björvang 070-56 99 433.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kjula+Dragway+Eskilstuna",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "doa-kvallskörning-nacka-2026-09-21",
@@ -20165,6 +21039,32 @@ const EVENTS_DATA = {
       "region": "Skåne",
       "source": "facebook.com",
       "backImage": "ads/rosa-bandet-mc-kortege-back-2026-09-26.jpg"
+    },
+    {
+      "id": "mchk-södermanland-virå-bruk-lunch-2026-09-26",
+      "name": "Säsongsavslutning med lunch",
+      "date": "2026-09-26",
+      "dateEnd": "2026-09-26",
+      "location": "Virå Bruk, Stavsjö",
+      "type": "Träff",
+      "organizer": "MCHK Södermanland",
+      "description": "Gemensam lunch på bruksrestaurangen avrundar körsäsongen. Bord bokas i förväg, anmälan till Kent senast 23 september. Samåkning från Vrena kl 11.00.",
+      "descriptionFull": "Lördag 26e september. Vi träffas på restaurangen på Virå bruk som ligger mellan Björkvik och Stavsjö. Adressen är Virå Bruk 618 95 Stavsjö. För de som vill samåka samlas vi på macken i Vrena kl 11:00. Vi bokar bord i förväg så anmälan till Kent senast tisdag 23e september. Kontaktperson Kent Björvang 070-569 94 33.",
+      "link": "https://mchk.org/evenemang/kalender-34490789",
+      "links": [
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vir%C3%A5+Bruk+Stavsj%C3%B6",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "mchk.org",
+      "backImage": "ads/mchk-back-2026.jpg"
     },
     {
       "id": "dob-sista-rundan-2026",
