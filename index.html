@@ -643,19 +643,19 @@
     transform: translateX(50%);
     z-index: 3;
     background: transparent;
-    border: 1.5px solid var(--border-light);
-    color: #9ca3af;
+    border: 1.5px solid transparent; /* no pill when unpressed - bare icon like the star */
+    color: var(--border-light);      /* same gray as the unpressed star */
     border-radius: 999px;
     padding: 4px 10px;
     font-size: 11px;
     font-weight: 600;
     line-height: 1;
     cursor: pointer;
-    transition: color 0.15s, border-color 0.15s, transform 0.1s;
+    transition: color 0.15s, border-color 0.15s, background 0.15s, transform 0.1s;
   }
   body.likes-on .like-btn { display: inline-flex; }
-  .like-btn svg { width: 13px; height: 13px; }
-  .like-btn:hover { border-color: #9ca3af; color: #6b7280; }
+  .like-btn svg { width: 15px; height: 15px; }
+  .like-btn:hover { color: var(--accent); }
   .like-btn:active { transform: translateX(50%) scale(0.92); }
   .like-btn.liked { background: var(--accent); border-color: var(--accent); color: #fff; }
   .like-btn .like-n:empty { display: none; }
@@ -663,9 +663,9 @@
   .poster-card .like-btn {
     top: auto; right: 10px; bottom: 10px;
     transform: none;
-    background: rgba(0,0,0,0.25);
-    border-color: rgba(255,255,255,0.8);
-    color: #fff;
+    background: rgba(0,0,0,0.35); /* same translucent disc family as the mobile star */
+    border-color: transparent;
+    color: rgba(255,255,255,0.85);
   }
   .poster-card .like-btn:active { transform: scale(0.92); }
 
@@ -1898,12 +1898,12 @@
     top: calc(env(safe-area-inset-top) + 12px);
     height: 40px;
     border-radius: 20px;
-    border: 1.5px solid var(--border-light);
+    border: 1.5px solid transparent;
     padding: 0 14px;
     display: none;
     align-items: center; gap: 6px;
     z-index: 2;
-    background: rgba(0,0,0,0.25);
+    background: rgba(0,0,0,0.55); /* same disc style as the modal star button */
     color: #fff;
     font-size: 13px;
     font-weight: 600;
@@ -2381,9 +2381,9 @@
     .card:not(.poster-card) .like-btn {
       top: auto; right: 25px; bottom: 8px;
       transform: translateX(50%);
-      background: rgba(0,0,0,0.25); /* faint tint for readability on photos, not a gray fill */
-      border-color: var(--border-light);
-      color: #fff;
+      background: rgba(0,0,0,0.35); /* same translucent disc as the mobile star button */
+      border-color: transparent;
+      color: rgba(255,255,255,0.85);
       z-index: 4; /* above the absolutely positioned full-width .card-name (z-index 3) */
       min-height: 26px;
     }
