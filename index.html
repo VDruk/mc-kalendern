@@ -631,30 +631,43 @@
     display: flex; align-items: flex-start; gap: 8px;
   }
 
-  /* ===== Like ("Intresserad") pill - hidden until the likes API responds (body.likes-on) ===== */
+  /* ===== Like ("Intresserad") pill - hidden until the likes API responds (body.likes-on) =====
+     Style: transparent with star-gray contour (Slava's choice, "style A").
+     Desktop white card front: centered on the star column (star center = 32px from card
+     right edge; anchor is the transformed .card-front, right inset 21px -> right:11px,
+     translateX(50%) keeps the pill centered as the count grows). */
   .like-btn {
     display: none;
     align-items: center; gap: 5px;
-    position: absolute; top: 46px; right: 14px; /* desktop: just under the favourite star */
+    position: absolute; top: 30px; right: 11px;
+    transform: translateX(50%);
     z-index: 3;
-    background: rgba(0,0,0,0.45);
-    border: 1px solid rgba(255,255,255,0.25);
-    color: #fff;
+    background: transparent;
+    border: 1.5px solid var(--border-light);
+    color: #9ca3af;
     border-radius: 999px;
     padding: 4px 10px;
     font-size: 11px;
     font-weight: 600;
     line-height: 1;
     cursor: pointer;
-    transition: background 0.15s, border-color 0.15s, transform 0.1s;
+    transition: color 0.15s, border-color 0.15s, transform 0.1s;
   }
   body.likes-on .like-btn { display: inline-flex; }
   .like-btn svg { width: 13px; height: 13px; }
-  .like-btn:hover { background: rgba(0,0,0,0.65); border-color: rgba(255,255,255,0.5); }
-  .like-btn:active { transform: scale(0.92); }
-  .like-btn.liked { background: var(--accent); border-color: var(--accent); }
+  .like-btn:hover { border-color: #9ca3af; color: #6b7280; }
+  .like-btn:active { transform: translateX(50%) scale(0.92); }
+  .like-btn.liked { background: var(--accent); border-color: var(--accent); color: #fff; }
   .like-btn .like-n:empty { display: none; }
-  .poster-card .like-btn { top: auto; right: 10px; bottom: 10px; } /* posters: bottom-right on all screens */
+  /* Poster fronts are photos on every screen size: faint tint + light contour, bottom-right */
+  .poster-card .like-btn {
+    top: auto; right: 10px; bottom: 10px;
+    transform: none;
+    background: rgba(0,0,0,0.25);
+    border-color: rgba(255,255,255,0.8);
+    color: #fff;
+  }
+  .poster-card .like-btn:active { transform: scale(0.92); }
 
   /* Date block */
   .card-date-block {
@@ -1885,12 +1898,12 @@
     top: calc(env(safe-area-inset-top) + 12px);
     height: 40px;
     border-radius: 20px;
-    border: 0;
+    border: 1.5px solid var(--border-light);
     padding: 0 14px;
     display: none;
     align-items: center; gap: 6px;
     z-index: 2;
-    background: rgba(0,0,0,0.55);
+    background: rgba(0,0,0,0.25);
     color: #fff;
     font-size: 13px;
     font-weight: 600;
@@ -2368,7 +2381,9 @@
     .card:not(.poster-card) .like-btn {
       top: auto; right: 25px; bottom: 8px;
       transform: translateX(50%);
-      background: rgba(0,0,0,0.55);
+      background: rgba(0,0,0,0.25); /* faint tint for readability on photos, not a gray fill */
+      border-color: var(--border-light);
+      color: #fff;
       z-index: 4; /* above the absolutely positioned full-width .card-name (z-index 3) */
       min-height: 26px;
     }
