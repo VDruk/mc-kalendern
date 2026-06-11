@@ -3176,6 +3176,36 @@ const EVENTS_DATA = {
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
     },
     {
+      "id": "spf-seniorerna-motorcykeltur-2026-06-16",
+      "name": "Motorcykeltur för seniorer",
+      "date": "2026-06-16",
+      "dateEnd": "2026-06-16",
+      "location": "ICA Maxi, Borlänge",
+      "type": "Körning",
+      "organizer": "SPF Seniorerna Borlänge",
+      "description": "Gemensam tur på ca 15-20 mil med lunchstopp, i lugnt tempo och med fikapauser. Samling vid ICA Maxi, avfärd kl 10:00.",
+      "link": "https://www.facebook.com/profile.php?id=61574232743563",
+      "region": "Dalarna",
+      "source": "facebook.com",
+      "descriptionFull": "Vi bjuder in till en trevlig motorcykeltur tillsammans. Turen blir ca 15-20 mil och vi stannar för lunch. Tag gärna med termos för fikastopp.\n\nSamling: ICA Maxi\nDatum: 16 juni\nAvfärd: kl 10.00 (kom gärna i god tid)\n\nAlla är varmt välkomna - ta med gott humör och körglädje! Hoppas vi ses!",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122171685626807758&set=a.122094973388807758"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=61574232743563"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=ICA+Maxi+Borl%C3%A4nge",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/spf-seniorerna-motorcykeltur-back-2026-06-16.jpg"
+    },
+    {
       "id": "jernviken-onsdagsfika-2026-06-17",
       "name": "Onsdagsfika på Högbo Qvarn",
       "date": "2026-06-17",
