@@ -2362,13 +2362,26 @@
       z-index: 3;
       pointer-events: none;
     }
-    /* Mobile: like pill sits bottom-right, just left of the chevron tap hint */
+    /* Mobile: like pill bottom-right, horizontally centered on the star column.
+       right:25px = star center (card-top padding 10px + 30px circle / 2);
+       translateX(50%) keeps the pill centered on that axis as the count grows. */
     .card:not(.poster-card) .like-btn {
-      top: auto; right: 26px; bottom: 8px;
+      top: auto; right: 25px; bottom: 8px;
+      transform: translateX(50%);
       background: rgba(0,0,0,0.55);
+      z-index: 4; /* above the absolutely positioned full-width .card-name (z-index 3) */
+      min-height: 26px;
     }
+    .card:not(.poster-card) .like-btn:active {
+      transform: translateX(50%) scale(0.92);
+    }
+    /* The like pill replaces the chevron tap hint as the bottom-right element */
+    body.likes-on .card:not(.poster-card)::before { content: none; }
+    /* Keep the title text clear of the pill */
+    body.likes-on .card:not(.poster-card) .card-name { padding-right: 56px; }
     .poster-card .like-btn {
       top: auto; right: 10px; bottom: 10px;
+      z-index: 4;
     }
 
     /* Colored left stripe ONLY on no-image cards (subtle type hint on the solid dark blue) */
@@ -3749,7 +3762,8 @@ function setupMobileUI() {
   const mDetailClose = document.getElementById('mDetailClose');
   if (mDetailClose) mDetailClose.addEventListener('click', () => closeMDetail());
   const mDetailLikeBtn = document.getElementById('mDetailLike');
-  if (mDetailLikeBtn) mDetailLikeBtn.addEventListener('click', () => {
+  if (mDetailLikeBtn) mDetailLikeBtn.addEventListener('click', (e) => {
+    e.stopPropagation(); // the button sits on the photo header; without this the tap also opens the image lightbox
     const id = mDetailLikeBtn.dataset.eid;
     if (id) toggleLike(id);
   });
