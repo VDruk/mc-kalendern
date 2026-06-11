@@ -2412,10 +2412,27 @@ const EVENTS_DATA = {
       "location": "Trondheim, Norge",
       "type": "Träff",
       "organizer": "MCHK",
-      "description": "Invitation till Trondhjemsridtet 1919 - 2026-loppet:\"Trondhjemsridtet 1919\" arrangeras i Norge vart 2:a år och är en 4-dagars långfärd på ungefär 1200 km för veteran-motorcyklar tom. 1954.Dagsetapperna är på ungefär 300 km och vinnare är alla som gen",
+      "description": "Fyradagars långfärd på ca 1200 km för veteranmotorcyklar t.o.m. 1954, mestadels på pittoreska bivägar. Arrangeras vartannat år, inspirerad av det historiska loppet 1919-1924.",
       "link": "https://mchk.org/evenemang/kalender-34490789",
       "region": "Norge",
-      "source": "mchk.org"
+      "source": "mchk.org",
+      "descriptionFull": "Invitation till Trondhjemsridtet 1919 - 2026-loppet:\n\n\"Trondhjemsridtet 1919\" arrangeras i Norge vart 2:a år och är en 4-dagars långfärd på ungefär 1200 km för veteran-motorcyklar t.o.m. 1954.\n\nDagsetapperna är på ungefär 300 km och vinnare är alla som genomför. Pisten går mestadels på pittoreska bivägar, några med grusbeläggning och standard som i 1919. Turen är inspirerad av det historiska landsvägsloppet för motorcyklar som det arrangerades av Norsk Motorcykel Klub i åren 1919-1924.\n\nDeltagarna får en oförglömlig åktur i en trevlig atmosfär med ryttare från hela norra Europa. Vi har alltid haft svenska deltagare men vill gärna ha fler!\n\nTuren är öppen för alla motorcykelmärken tillverkade till 31/12-1954. Mer om 2026-loppet den 13-16 juni finns på www.trondhjemsridtet.com där det även finns anmälningsblankett.\n\nVälkommen! Hälsningar Trondhjemsridtet 1919",
+      "backImage": "ads/trondhjemsridtet-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "trondhjemsridtet.com",
+          "url": "http://www.trondhjemsridtet.com"
+        },
+        {
+          "label": "mchk.org",
+          "url": "https://mchk.org/evenemang/kalender-34490789"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Trondheim%2C+Norge",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "moonshine-big-meet-2026-06-13",
