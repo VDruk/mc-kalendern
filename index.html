@@ -3421,7 +3421,9 @@ function buildRegionFilter() {
         .forEach(mm => {
           const opt = document.createElement('option');
           opt.value = 'y' + y + '-' + mm;
-          opt.textContent = MONTHS_SV[mm - 1];
+          // Year in the label so it's unambiguous on mobile native selects
+          // (where the disabled "2027" header/separator does not stand out).
+          opt.textContent = MONTHS_SV[mm - 1] + ' ' + y;
           monthSel.appendChild(opt);
         });
     });
