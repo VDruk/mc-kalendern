@@ -1269,6 +1269,314 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "bjarnums-museum-bil-mc-traff-2026-06-11",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-06-11",
+      "dateEnd": "2026-06-11",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 11 juni kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 11 juni 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-06-18",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-06-18",
+      "dateEnd": "2026-06-18",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 18 juni kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 18 juni 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-06-25",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-06-25",
+      "dateEnd": "2026-06-25",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 25 juni kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 25 juni 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-07-02",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-07-02",
+      "dateEnd": "2026-07-02",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 2 juli kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 2 juli 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-07-09",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-07-09",
+      "dateEnd": "2026-07-09",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 9 juli kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 9 juli 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-07-16",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-07-16",
+      "dateEnd": "2026-07-16",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 16 juli kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 16 juli 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-07-23",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-07-23",
+      "dateEnd": "2026-07-23",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 23 juli kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 23 juli 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-07-30",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-07-30",
+      "dateEnd": "2026-07-30",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 30 juli kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 30 juli 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-08-06",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-08-06",
+      "dateEnd": "2026-08-06",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 6 augusti kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 6 augusti 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-08-13",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-08-13",
+      "dateEnd": "2026-08-13",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 13 augusti kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 13 augusti 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "bjarnums-museum-bil-mc-traff-2026-08-20",
+      "name": "Bil & MC Träff på Bjärnums Museum",
+      "date": "2026-08-20",
+      "dateEnd": "2026-08-20",
+      "time": "16:30",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Parkgatan 30, Bjärnum",
+      "organizer": "Bjärnums Museum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/26958959657049060",
+      "description": "Återkommande bil- och MC-träff hos Bjärnums Museum. Torsdag 20 augusti kl 16:30-19:30. Visa upp din bil, MC eller moped och träffa andra motorintresserade. Alla välkomna.",
+      "descriptionFull": "Tid: Torsdag 20 augusti 2026 kl 16:30-19:30.\nPlats: Bjärnums Museum, Parkgatan 30, 282 63 Bjärnum.\n\nÅterkommande torsdagsträff för motorintresserade. Har du en bil, MC eller moped som du vill visa upp, eller bara vill träffa andra som delar ditt intresse, är du välkommen.\n\nTräffarna pågår varje torsdag under sommarsäsongen 2026.\n\nArrangör: Bjärnums Museum (ett av Sveriges största hembygdsmuseum, beläget i Göinge).",
+      "backImage": "ads/bjarnums-museum-bil-mc-traff-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26958959657049060"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkgatan+30+Bjärnum",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "76-mil-grus-2026",
       "name": "76 mil grus",
       "date": "2026-06-11",
