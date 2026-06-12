@@ -1039,8 +1039,11 @@
     font-weight: 700; font-size: 2.7cqw; letter-spacing: 0.3cqw;
     padding: 1.1cqw 2.6cqw; border-radius: 999px;
   }
-  /* no-photo cards: name centered in the panel like the old dark-blue style is NOT used;
-     per spec the text stays at the bottom even without a photo (positions above still apply). */
+  /* Back side (flip / "Mer info"): white, padded and readable - same as the old poster-card
+     back. The place-card's dark front background and overflow must NOT leak into the back. */
+  .card.place-card .card-back-flip {
+    padding: 20px; background: var(--bg-card); border-radius: var(--radius);
+  }
 
   /* ========== FAVORITES BUTTON ========== */
   .fab-favorites {
