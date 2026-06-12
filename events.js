@@ -421,7 +421,8 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "AD",
       "organizerIcon": "clubs/normalized/mce.png",
-      "city": "Järfälla"
+      "city": "Järfälla",
+      "frontImage": "ads/place-ad-mce-klubblokalen.jpg"
     },
     {
       "_ad": true,
@@ -449,7 +450,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/gotenemotorklubb",
       "region": "Västra Götaland",
       "source": "AD",
-      "city": "Götene"
+      "city": "Götene",
+      "frontImage": "ads/place-ad-gotene-motorklubb.jpg"
     },
     {
       "id": "ad-honda-gold-wing-50th",
