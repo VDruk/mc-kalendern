@@ -3619,6 +3619,33 @@ const EVENTS_DATA = {
       "backImage": "ads/spf-seniorerna-motorcykeltur-back-2026-06-16.jpg"
     },
     {
+      "id": "mmck-medlemsmote-2026-06-16",
+      "name": "MMCK medlemsmöte inför Midnattssolsträffen",
+      "date": "2026-06-16",
+      "dateEnd": "2026-06-16",
+      "time": "19:00",
+      "type": "Träff",
+      "region": "Norrbotten",
+      "location": "MMCK Klubbkåken, Gällivare",
+      "organizer": "MMCK Touring-vänner",
+      "description": "Planeringsmöte hos MMCK Touring-vänner inför Midnattssolsträffen som startar 9 dagar senare. Medlemsmöte för MMCK, alla som vill hjälpa till med träffen är välkomna.",
+      "descriptionFull": "Träff & medlemsmöte hos MMCK Touring-vänner inför 50:e Midnattssolsträffen.\n\nBara 2 veckor kvar till Midnattssolsträffen. 1 vecka efter detta möte kör vi igång - kom å var med!\n\nKom, var med å hjälp till så vi får en fin MC-träff.\n\nDetta är ett medlems- och planeringsmöte. Alla som vill engagera sig i förberedelserna inför Midnattssolsträffen är välkomna.\n\nPlats: MMCK Klubbkåken, Gällivare.",
+      "backImage": "ads/mmck-medlemsmote-back-2026-06-16.jpg",
+      "link": "https://www.facebook.com/events/1750862969678807",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1750862969678807"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=MMCK+Klubbk%C3%A5ken+G%C3%A4llivare",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "jernviken-onsdagsfika-2026-06-17",
       "name": "Onsdagsfika på Högbo Qvarn",
       "date": "2026-06-17",
@@ -5294,15 +5321,20 @@ const EVENTS_DATA = {
       "name": "Midnattssolsträffen",
       "date": "2026-06-25",
       "dateEnd": "2026-06-28",
-      "location": "MMCK klubbområde",
+      "time": "12:00",
+      "location": "MMCK klubbområde, Gällivare",
       "type": "Träff",
       "organizer": "MMCK Malmfältens MCK",
-      "description": "50:e Midnattssolsträffen med extra program. En av Sveriges nordligaste MC-träffar.",
-      "link": "http://mmck.se/",
+      "description": "50:e Midnattssolsträffen hos MMCK i Gällivare. Traditionella aktiviteter, kortege upp till Dundret för att se midnattssolen, tävlingar och levande musik. Barn under 18 år gratis.",
+      "link": "https://www.facebook.com/events/1680677036648966",
       "region": "Norrbotten",
-      "source": "smcboken.svmc.se",
-      "descriptionFull": "Midnattssolsträffen arrangeras av MMCK Malmfältens MCK.\n\n50:e Midnattssolsträffen med extra program. En av Sveriges nordligaste MC-träffar.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: MMCK klubbområde.",
+      "source": "facebook.com",
+      "descriptionFull": "Vi firar den 50:e Midnattssolsträffen med lite extra på programmet samt att träffen startar redan på torsdagen.\n\nTraditionella aktiviteter, kortege upp till Dundrets topp för att se midnattssolen, tävlingar, levande musik mm.\n\nBarn och ungdomar upp till 18 år gratis.\n\nSwish och kortterminal finns för köp av 'bongar'. Kontanter går också bra.\n\nKontaktpersoner: Evelina Glad mobil: 073-8083626, Patrik 'Palle' Olofsson mobil: 070-6863667.\n\nUppdateringar kring programmet läggs in i FB-eventet och på hemsidan mmck.se.\n\nPlats: MMCK klubbområde, Gällivare.",
       "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1680677036648966"
+        },
         {
           "label": "mmck.se",
           "url": "http://mmck.se/"
@@ -6364,15 +6396,25 @@ const EVENTS_DATA = {
       "name": "10-års fest Regression Brotherhood MC",
       "date": "2026-06-27",
       "dateEnd": "2026-06-29",
-      "location": "Vretstorp",
+      "time": "18:00",
+      "location": "Sågbacken 18, Vretstorp",
       "type": "Fest",
       "organizer": "Regression Brotherhood MC",
       "description": "Regression Brotherhood MC firar 10 år! Öppnar fredag kväll kl 18. Mat, dryck och underhållning med trubadur Kaj Pousar. Stänger söndag.",
-      "descriptionFull": "10-års fest arrangeras av Regression Brotherhood MC.\n\nRegression Brotherhood MC firar 10 år!\n\nÖppnar fredag kväll kl 18:00, stänger söndag.\n\nMat, dryck och underhållning med trubadur Kaj Pousar.\n\nPlats: Vretstorp.",
+      "descriptionFull": "10-års jubileum arrangeras av Regression Brotherhood MC (est. 16).\n\nRegression Brotherhood MC firar 10 år!\n\nÖppnar fredag kväll kl 18:00, stänger söndag.\n\nMat, dryck och underhållning med trubadur Kaj Pousar.\n\nPlats: Sågbacken 18, 694 50 Vretstorp.",
       "links": [
         {
           "label": "FB Event",
           "url": "https://www.facebook.com/events/1424242152656290"
+        },
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=27968202226105605&set=gm.27319245824394697&idorvanity=667542576658384"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A5gbacken+18+Vretstorp",
+          "type": "map"
         }
       ],
       "link": "https://www.facebook.com/events/1424242152656290",
@@ -10402,6 +10444,34 @@ const EVENTS_DATA = {
       "source": "FB"
     },
     {
+      "id": "no-limits-roadburners-fauske-2026-07-17",
+      "name": "No Limits Treffet",
+      "date": "2026-07-17",
+      "dateEnd": "2026-07-19",
+      "time": "16:00",
+      "endTime": "19:00",
+      "type": "Träff",
+      "region": "Norge",
+      "location": "Klungset Leir, Arsenalveien 40, Fauske",
+      "organizer": "Roadburners MC",
+      "description": "Sommarträff hos Roadburners MC i Fauske, Norge. Tre dagar med MC-folk på Klungset Leir. Klubbens egen stil: ekte, enkelt och bra.",
+      "descriptionFull": "Sommarträff hos Roadburners MC i Fauske.\n\nKlubben skriver: vi skrur tida tilbake og kjører treff slik vi mener det burde være - ekte, enkelt og jævli bra. Ingen fancy greier.\n\nMer info kommer.\n\nRoadburners MC är en MC-klubb från Fauske som etablerades 2020. En klubb där alla är välkomna oavsett vad man kör.\n\nPlats: Klungset Leir, Arsenalveien 40, 8214 Fauske, Norge.",
+      "backImage": "ads/no-limits-roadburners-back-2026-07-17.jpg",
+      "link": "https://www.facebook.com/events/3437234959758269",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/3437234959758269"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Arsenalveien+40+Fauske",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "doe-hoglandsturen-med-jonas-lager-2026-07-18",
       "name": "DOE Höglandsturen med Jonas Lager",
       "date": "2026-07-18",
@@ -10493,6 +10563,39 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/smc-default-back.jpg"
+    },
+    {
+      "id": "jmc-vattern-runt-2026-07-18",
+      "name": "Vättern runt med JMC",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "time": "08:00",
+      "endTime": "17:00",
+      "type": "Körning",
+      "region": "Jönköping",
+      "location": "ST1 A6, Sjukhusgatan 6, Jönköping",
+      "organizer": "JMC Samåkning Småland",
+      "organizerIcon": "clubs/normalized/jmc.png",
+      "description": "Vättern runt med JMC. Samling ST1 A6 kl 8:00, avfärd 8:30. Rutten ca 37 mil via Hökensås, Tibro, Forsvik, Askersund, Godegård och Motala. Fika Forsvik, tankning Askersund, lunch Motala.",
+      "descriptionFull": "Klassisk MC-tur runt Vättern arrangerad av JMC Samåkning Småland.\n\nSamling ST1 A6 8:00, avfärd 8:30.\n\n36,9 mil (ev. via Tiveden 38,6 mil).\n\nFika Forsvik. Tankning Askersund. Lunch Motala.\n\nVägval: Jönköping - Hökensås - Tibro - Forsvik - Askersund - Godegård - Motala.\n\nEvenemanget kommer att flyttas om vädret är för dåligt!\n\nPlats: ST1 A6, Sjukhusgatan 6, Jönköping.",
+      "backImage": "ads/vattern-runt-jmc-back-2026-07-18.jpg",
+      "link": "https://www.facebook.com/events/4513065645579549",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4513065645579549"
+        },
+        {
+          "label": "Rutt (jole84.se)",
+          "url": "https://jole84.se/nav-app/index.html?getId=2"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sjukhusgatan+6+J%C3%B6nk%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
     },
     {
       "id": "bmw-d14-tandstick-motormuseum-2026",
@@ -15587,6 +15690,33 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "motorfest-karl-gustav-2026-08-15",
+      "name": "Motorfest & Byafest i Karl Gustav",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "10:00",
+      "location": "Karl Gustav 101, Kungsäter",
+      "type": "Show",
+      "organizer": "Karl Gustavs Tröskverksför.",
+      "description": "Motorfest för hela familjen i Karl Gustav. Bilar, traktorer, maskiner och traktorpulling från 10:00. Dans i paviljongen på kvällen. Entré 100 kr, kvällen 250 kr.",
+      "descriptionFull": "Den 15:e augusti kör vi festen för hela familjen igen. Bilar, traktorer, maskiner, traktorpulling m.m.\n\nVi öppnar 10.00 (för utställare från 8.00). Alla fordon som är 30 år eller äldre är välkomna.\n\nInträde på dagen 100:- (Barn under 15 år är gratis).\n\nPå kvällen, efter 20.00, blir det dans i paviljongen. Inträde på kvällen är 250:-, men 200:- om man visar upp sitt inträdesband från dagen.\n\nArrangör: Karl Gustavs Nya Tröskverksförening UPA. Varje år den 3:e helgen i augusti anordnar de Motorfest i Karl Gustav.\n\nVid frågor, skriv meddelande eller kontakta Tobbe: 070-6068979.\n\nPlats: Karl Gustav 101, 432 69 Karl Gustav (Kungsäter).",
+      "backImage": "ads/motorfest-karl-gustav-back-2026-08-15.jpg",
+      "link": "https://www.facebook.com/events/1344916197547536",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1344916197547536"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Karl+Gustav+101+Kungs%C3%A4ter",
+          "type": "map"
+        }
+      ],
+      "region": "Halland",
+      "source": "facebook.com"
     },
     {
       "id": "mchk-södermanland-motala-motormuseum-2026-08-15",
