@@ -1923,10 +1923,56 @@
     scroll-snap-align: center;
     position: relative;
     border-radius: 16px;
-    overflow: hidden;
-    background: #1a1a2e;
+    background: transparent;
     cursor: pointer;
+    perspective: 1400px;
   }
+  .m-plats-card {
+    position: absolute; inset: 0;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  .m-plats-slide.flipped .m-plats-card { transform: rotateY(180deg); }
+  .m-plats-face {
+    position: absolute; inset: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .m-plats-front { background: #1a1a2e; }
+  .m-plats-back {
+    transform: rotateY(180deg);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    display: flex; flex-direction: column;
+  }
+  .m-plats-back-head { padding: 14px 16px 6px; flex-shrink: 0; }
+  .m-plats-back-name { font-size: 17px; font-weight: 700; color: var(--text-primary); }
+  .m-plats-back-city { font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-muted); margin-top: 2px; }
+  .m-plats-back-body {
+    flex: 1; min-height: 0;
+    overflow-y: auto;
+    padding: 4px 16px 8px;
+    font-size: 13.5px; line-height: 1.55;
+    color: var(--text-secondary);
+    -webkit-overflow-scrolling: touch;
+  }
+  .m-plats-back-body p { margin: 0 0 10px; }
+  .m-plats-back-foot { flex-shrink: 0; padding: 8px 12px 12px; border-top: 1px solid var(--border); }
+  .m-plats-pills { display: flex; gap: 8px; justify-content: center; overflow-x: auto; scrollbar-width: none; }
+  .m-plats-pills::-webkit-scrollbar { display: none; }
+  .m-plats-pill {
+    display: inline-flex; align-items: center; gap: 7px;
+    min-height: 38px; padding: 0 14px;
+    border-radius: 19px;
+    font-size: 13px; font-weight: 500;
+    background: var(--bg-primary); border: 1px solid var(--border);
+    color: var(--text-primary); text-decoration: none;
+    white-space: nowrap; flex-shrink: 0;
+  }
+  .m-plats-pill img { width: 18px; height: 18px; }
+  .m-plats-back-hint { text-align: center; font-size: 11px; color: var(--text-muted); margin-top: 8px; }
   .m-plats-img {
     position: absolute; inset: 0;
     width: 100%; height: 100%;
@@ -4202,9 +4248,9 @@ function openMDetail(cardId) {
   const mapPillHTML = mapUrl
     ? `<a class="m-map-btn" href="${mapUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><img src="ads/icon-google-maps.png" srcset="ads/icon-google-maps.png 1x, ads/icon-google-maps@2x.png 2x" alt="" width="18" height="18"> <span>Karta</span></a>`
     : '';
-  const actionsHTML = ev._ad
-    ? (ev._place && mapPillHTML ? `<div class="m-detail-actions">${mapPillHTML}</div>` : '')
-    : `<div class="m-detail-actions">${calPillHTML}${mapPillHTML}</div>`;
+  // AD cards get no calendar button. Plats cards get the Karta pill merged into
+  // the links row below (one line, 2026-06-12) instead of a separate actions row.
+  const actionsHTML = ev._ad ? '' : `<div class="m-detail-actions">${calPillHTML}${mapPillHTML}</div>`;
 
   // Organizer meta row (sits inside the head block, same pattern as date/location)
   const personIconSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>';
@@ -4228,8 +4274,10 @@ function openMDetail(cardId) {
       return '<a class="m-detail-link" href="' + l.url + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">'
         + icoHTML + '<span>' + escapeHtml(l.label) + '</span></a>';
     }).join('');
-    if (rows) linksHTML = '<div class="m-detail-links">' + rows + '</div>';
+    const placeMapPill = (ev._place && mapPillHTML) ? mapPillHTML : '';
+    if (rows || placeMapPill) linksHTML = '<div class="m-detail-links">' + placeMapPill + rows + '</div>';
   }
+  if (!linksHTML && ev._place && mapPillHTML) linksHTML = '<div class="m-detail-links">' + mapPillHTML + '</div>';
 
   body.innerHTML = `
     ${weatherHTML ? '<div class="m-detail-weather">' + weatherHTML + '</div>' : ''}
@@ -4308,6 +4356,38 @@ function closeMDetail() {
     mpRegion = sel.value;
   }
 
+  function mpBackHTML(p) {
+    const desc = (p.descriptionFull || p.description || '');
+    const paras = desc
+      ? desc.split(/\n\s*\n+/).map(s => s.trim()).filter(Boolean)
+          .map(s => '<p>' + escapeHtml(s).replace(/\n/g, '<br>') + '</p>').join('')
+      : '';
+    let mapUrl = '';
+    if (Array.isArray(p.links)) {
+      const m = p.links.find(l => l.type === 'map');
+      if (m) mapUrl = m.url;
+    }
+    if (!mapUrl && p.location) {
+      mapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.location);
+    }
+    let pills = '';
+    if (mapUrl) {
+      pills += '<a class="m-plats-pill" href="' + mapUrl + '" target="_blank" rel="noopener"><img src="ads/icon-google-maps.png" srcset="ads/icon-google-maps.png 1x, ads/icon-google-maps@2x.png 2x" alt="" width="18" height="18"><span>Karta</span></a>';
+    }
+    (Array.isArray(p.links) ? p.links : []).filter(l => l.type !== 'map').forEach(l => {
+      const isFB = (l.label || '').toLowerCase().indexOf('fb') !== -1 || (l.label || '').toLowerCase().indexOf('facebook') !== -1;
+      pills += '<a class="m-plats-pill" href="' + l.url + '" target="_blank" rel="noopener">'
+        + (isFB ? '<img src="ads/icon-facebook.png" srcset="ads/icon-facebook.png 1x, ads/icon-facebook@2x.png 2x" alt="" width="18" height="18">' : '')
+        + '<span>' + escapeHtml(l.label) + '</span></a>';
+    });
+    return '<div class="m-plats-back-head"><div class="m-plats-back-name">' + escapeHtml(p.name) + '</div>'
+      + (p.city ? '<div class="m-plats-back-city">' + escapeHtml(p.city) + '</div>' : '') + '</div>'
+      + '<div class="m-plats-back-body">' + paras + '</div>'
+      + '<div class="m-plats-back-foot">'
+      + (pills ? '<div class="m-plats-pills">' + pills + '</div>' : '')
+      + '<div class="m-plats-back-hint">Tryck för att vända tillbaka</div></div>';
+  }
+
   function mpUpdateFoot(idx) {
     const foot = document.getElementById('mPlatsFoot');
     if (!foot) return;
@@ -4346,14 +4426,22 @@ function closeMDetail() {
       slide.className = 'm-plats-slide';
       const showDist = mpSortByDist && mpPos && p._mpDist != null && isFinite(p._mpDist);
       const distTxt = showDist ? (p._mpDist < 10 ? (Math.round(p._mpDist * 10) / 10).toFixed(1) : String(Math.round(p._mpDist))) : '';
-      slide.innerHTML =
+      const frontHTML =
         (p.frontImage ? '<img class="m-plats-img" src="' + p.frontImage + '" alt="" loading="lazy">' : '') +
         '<span class="m-plats-badge">PLATS</span>' +
         (showDist ? '<span class="m-plats-dist">' + PIN_SVG + distTxt + ' km</span>' : '') +
         '<div class="m-plats-grad"><div class="m-plats-name">' + escapeHtml(p.name) + '</div>' +
         (p.city ? '<div class="m-plats-city">' + escapeHtml(p.city) + '</div>' : '') +
         '</div>';
-      slide.addEventListener('click', () => { if (typeof openMDetail === 'function') openMDetail(p.id); });
+      slide.innerHTML =
+        '<div class="m-plats-card">' +
+        '<div class="m-plats-face m-plats-front">' + frontHTML + '</div>' +
+        '<div class="m-plats-face m-plats-back">' + mpBackHTML(p) + '</div>' +
+        '</div>';
+      slide.addEventListener('click', function(e) {
+        if (e.target.closest('a')) return;
+        slide.classList.toggle('flipped');
+      });
       scroller.appendChild(slide);
     });
     scroller.scrollLeft = 0;
@@ -5112,14 +5200,11 @@ function render() {
     // Type filter = Anons: show all Anons cards
     visibleAds = anonsCards.slice();
   } else {
-    // Normal browse mode: determine Plats and Anons visibility separately
-    // Plats: show ONLY when no filters active at all, OR only region filter is active (matching region)
-    if (onlyRegionFilter) {
-      platsCards.forEach(ad => {
-        const regionOk = noRegionFilter || (ad.region === currentRegion);
-        if (regionOk) visibleAds.push(ad);
-      });
-    }
+    // Normal browse mode: only Anons are injected into the card flow.
+    // Plats cards are NEVER blended into the events timeline (changed 2026-06-12):
+    // they are reachable via the Plats type filter (desktop), search,
+    // and the mobile Platser swipe view. With a growing number of places
+    // (18 now, 100-200 later) injection would drown the events.
     // Anons: show only when NO filters active at all
     if (noTypeFilter && noClubFilter && noMonthFilter && noRegionFilter && noMapCity) {
       anonsCards.forEach(ad => visibleAds.push(ad));
