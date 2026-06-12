@@ -7978,11 +7978,12 @@ const EVENTS_DATA = {
       "name": "Iron Horse MC Show Nyköping",
       "date": "2026-07-04",
       "dateEnd": "2026-07-04",
+      "time": "11:00",
       "location": "Nyköpings Hamn, Nyköping",
       "type": "Show",
       "organizer": "Iron Horse MC Show",
-      "description": "Årlig MC-show i Nyköpings Hamn. Custombyggen, klassiska hojar och gemenskap i sommarens Nyköping.",
-      "descriptionFull": "Iron Horse MC Show i Nyköping den 4 juli 2026.\n\nÅrlig MC-show som hålls lördagen efter midsommar i Nyköpings Hamn. Custombyggen, klassiska motorcyklar och gemenskap.\n\nÖppet från kl 11:00.\n\nPlats: Nyköpings Hamn, Nyköping.",
+      "description": "Hundratals motorcyklar i Nyköpings Hamn - choppers, custombyggen, veteranhojar, mopeder och hot rods. Dragracing, trial, speedway, airbrush, mat och marknad. Start kl 11:00.",
+      "descriptionFull": "Är du redo för en dag fylld med motorer, gemenskap och sommarkänsla?\n\nHundratals motorcyklar\nFrån klassiska choppers till unika custombyggen, plus veteranhojar, mopeder och hot rods.\n\nUtställningar & aktiviteter:\n- Dragracing - Psychotic Express\n- Trial & speedway\n- Airbrush workshop\n- Fota dagens bild\n- Rösta fram publikens favorit: Ton Pels Memorial People's Choice\n\nEn levande MC-kultur\nChoppern föddes ur önskan att skapa något eget - att 'choppa' hojen och göra den personlig. En passion som lever vidare, inte minst här i Sverige där vår egen choppestil blivit känd världen över.\n\nFör hela familjen\nMat, marknad, härlig stämning och unik miljö vid vattnet.\n\nPlats: Nyköpings Hamn.\nDatum: 4 juli.\nStart kl 11:00.\n\nMissa inte sommarens vackraste motorfest. Vi ses i hamnen!",
       "links": [
         {
           "label": "FB Sida",
