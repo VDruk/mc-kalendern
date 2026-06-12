@@ -3024,6 +3024,7 @@ const EVENTS_DATA = {
       "name": "Ostrundan",
       "date": "2026-06-13",
       "dateEnd": "2026-06-13",
+      "time": "10:00",
       "location": "Göteborg",
       "type": "Körning",
       "organizer": "Vulcan Riders Sweden",
@@ -3038,7 +3039,8 @@ const EVENTS_DATA = {
       ],
       "link": "https://www.vulcanriders-sweden.org/sv/event/eventlista/ostrundan/2026-06-13-10-00.html",
       "region": "Västra Götaland",
-      "source": "vulcanriders-sweden.org"
+      "source": "vulcanriders-sweden.org",
+      "backImage": "ads/vra-ostrundan-back-2026-06-13.jpg"
     },
     {
       "id": "classic-day-mitt-2026-06-13",
@@ -4242,6 +4244,10 @@ const EVENTS_DATA = {
         {
           "label": "FB Event",
           "url": "https://www.facebook.com/events/1774188496887486"
+        },
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo.php?fbid=1388937389934428&set=pb.100064545408165.-2207520000&type=3"
         },
         {
           "label": "FB Sida",
