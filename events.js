@@ -391,7 +391,8 @@ const EVENTS_DATA = {
       "region": "Uppsala",
       "source": "AD",
       "organizerIcon": "clubs/normalized/oamck.png",
-      "city": "Uppsala"
+      "city": "Uppsala",
+      "frontImage": "ads/place-ad-klubbkaken-oamck.jpg"
     },
     {
       "_ad": true,
