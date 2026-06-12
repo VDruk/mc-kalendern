@@ -2969,7 +2969,7 @@
 
 <!-- ========== GRID ========== -->
 <main class="main-content">
-  <div class="grid" id="grid"><div class="no-results"><div class="no-results-icon">&#x23F3;</div><div class="no-results-text">Laddar evenemang...</div></div></div>
+  <div class="grid" id="grid"><div class="no-results" style="min-height:130vh"><div class="no-results-icon">&#x23F3;</div><div class="no-results-text">Laddar evenemang...</div></div></div>
   <div class="tipsa-btn-wrapper">
     <button class="tipsa-btn" id="tipsaBtn">Tipsa om ett evenemang</button>
   </div>
@@ -5282,7 +5282,7 @@ function render() {
   const _isMobileRender = window.innerWidth < 900;
   let renderedCount = 0;
   window._pendingEvents = events;
-  window._renderState = { renderMonth, supportInserted, today, grid };
+  window._renderState = { renderMonth, supportInserted, today, grid, _eagerLeft: 4 };
 
   function renderBatch(startIdx, count) {
     const evts = window._pendingEvents;
@@ -5369,14 +5369,26 @@ function render() {
     card.dataset.id = event.id;
     const cardId = 'c-' + event.id;
 
-    // Phase 2 (mobile): lazy-load backImage via IntersectionObserver for performance
+    // Phase 2 (mobile): lazy-load backImage via IntersectionObserver for performance.
+    // LCP fix (2026-06-12): the FIRST few cards are above the fold, so their image
+    // loads immediately (no observer round-trip). Everything else stays lazy.
     if (event.backImage) {
-      card.dataset.bg = event.backImage;
       card.classList.add('has-photo');
-      // Optional per-event background-position override (e.g. "top" for posters where the
-      // important content is at the top of the image and the default center crop hides it).
-      if (event.backImagePosition) {
-        card.dataset.bgPosition = event.backImagePosition;
+      if (state._eagerLeft > 0) {
+        state._eagerLeft--;
+        card.style.setProperty('--card-bg-image', 'url("' + event.backImage + '")');
+        if (event.backImagePosition) {
+          card.style.setProperty('--card-bg-position', event.backImagePosition);
+        } else if (event.backImage.includes('hd-default-back-2.jpg') || event.backImage.includes('hd-default-back-3.jpg')) {
+          card.style.setProperty('--card-bg-position', 'top');
+        }
+      } else {
+        card.dataset.bg = event.backImage;
+        // Optional per-event background-position override (e.g. "top" for posters where the
+        // important content is at the top of the image and the default center crop hides it).
+        if (event.backImagePosition) {
+          card.dataset.bgPosition = event.backImagePosition;
+        }
       }
     }
 
