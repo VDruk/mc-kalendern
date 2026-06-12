@@ -13586,6 +13586,34 @@ const EVENTS_DATA = {
       "source": "britishmotormeet.se"
     },
     {
+      "id": "dubbeljubileum-yggdrasil-twoface-2026-08-07",
+      "name": "Dubbeljubileum Yggdrasil & Two Face MC",
+      "date": "2026-08-07",
+      "dateEnd": "2026-08-09",
+      "time": "18:00",
+      "endTime": "05:00",
+      "location": "Länna Ringväg 6, Merlänna",
+      "type": "Fest",
+      "organizer": "Yggdrasil & Two Face MC",
+      "description": "Yggdrasil MC Strängnäs fyller 25 år och firar tillsammans med Two Face MC Mariefred som fyller 5 år. Camping, mat, 3 barer, liveband och tatuerare.",
+      "descriptionFull": "Yggdrasil MC Strengnäs fyller 25 år!\n\nDetta ska vi fira tillsammans med våra nya grannar Two Face MC Mariefred som fyller 5 år!\n\nDet finns campingplats med tillgång till WC & Dusch för alla som vill stanna över helgen eller bara en natt.\n\nFörutom det man kan förvänta sig i form av dryck (3 barer) kommer det finnas frukost och mat. Och ja, våra uppskattade HD-burgare kommer även finnas för de sugna!\n\nBand kommer spela på vår utescen och tatuerare kommer även det finnas för de som vill snygga till sig med lite permanent bläck!\n\nDet här är en fest du inte vill missa!\n\nEventuella frågor kan ställas här i evenemangkanalen.\n\nVäl mött!\n\nFri entré. Endast kontanter. 18+ (SBM och vänner).\n\nPlats: Länna Ringväg 6, 645 91 Merlänna.",
+      "backImage": "ads/dubbeljubileum-yggdrasil-back-2026-08-07.jpg",
+      "link": "https://www.facebook.com/events/2485518828564346/",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2485518828564346/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=L%C3%A4nna+Ringv%C3%A4g+6+Merl%C3%A4nna",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d11-mcq-sandras-asfaltstur-2026",
       "name": "D11 mcQ Sandras asfaltstur",
       "date": "2026-08-08",
