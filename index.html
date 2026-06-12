@@ -23,6 +23,8 @@
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="manifest" href="/manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MC Kalendern">
 
 <!-- Preload LCP hero image on desktop only (hero is hidden on mobile) -->
 <link rel="preload" href="hero.jpg" as="image" fetchpriority="high" media="(min-width: 769px)">
@@ -6652,6 +6654,15 @@ function updateDrawer() {
       <button class="drawer-item-remove" onclick="toggleFavorite('${e.id}')" title="Ta bort">&times;</button>
     </div>`;
   }).join('');
+}
+
+// ========== PWA SERVICE WORKER (2026-06-12) ==========
+// Registers sw.js: cache-first for images, network-first for HTML/JS/data.
+// Makes druk.se installable (Lägg till på hemskärmen) with offline fallback.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').catch(function() {});
+  });
 }
 </script>
 <script data-goatcounter="https://mckalendern.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
