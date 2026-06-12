@@ -1850,6 +1850,44 @@
     text-align: center;
   }
 
+  /* ========== INSTALL AS APP MODAL (2026-06-12) ========== */
+  .m-install-overlay {
+    position: fixed; inset: 0;
+    background: rgba(10,10,15,0.55);
+    z-index: 1600;
+    display: none;
+    align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .m-install-overlay.open { display: flex; }
+  .m-install-card {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 24px 20px 20px;
+    max-width: 360px; width: 100%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  }
+  .m-install-close {
+    position: absolute; top: 6px; right: 6px;
+    background: transparent; border: 0;
+    width: 36px; height: 36px;
+    font-size: 24px; line-height: 1;
+    color: var(--text-muted);
+    cursor: pointer;
+  }
+  .m-install-logo { border-radius: 12px; margin-bottom: 10px; }
+  .m-install-title { font-size: 16px; font-weight: 700; color: var(--text-primary); margin-bottom: 14px; }
+  .m-install-steps {
+    text-align: left;
+    margin: 0 0 14px; padding-left: 22px;
+    font-size: 14px; color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .m-install-ico { display: inline-block; width: 16px; height: 16px; vertical-align: -3px; color: #0a84ff; }
+  .m-install-note { font-size: 12px; color: var(--text-muted); }
+
   /* ========== MOBILE PLATSER SWIPE VIEW (2026-06-12) ========== */
   .m-meny-badge {
     background: var(--type-plats); color: #fff;
@@ -2716,6 +2754,13 @@
       </span>
       <span class="m-meny-arrow">&rsaquo;</span>
     </button>
+    <button class="m-meny-item" id="mMenyInstall">
+      <span class="m-meny-item-left">
+        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 9v6M9 12h6"/></svg></span>
+        <span>L&auml;gg till som app</span>
+      </span>
+      <span class="m-meny-arrow">&rsaquo;</span>
+    </button>
     <div class="m-meny-divider"></div>
     <button class="m-meny-item" id="mMenyPlatser">
       <span class="m-meny-item-left">
@@ -2741,6 +2786,20 @@
   </nav>
   <div class="m-meny-foot">druk.se · MC Kalendern 2026</div>
 </aside>
+
+<!-- ========== INSTALL AS APP MODAL (iOS instructions, 2026-06-12) ========== -->
+<div class="m-install-overlay" id="mInstallOverlay" aria-hidden="true">
+  <div class="m-install-card" role="dialog" aria-modal="true" aria-label="L&auml;gg till som app">
+    <button class="m-install-close" id="mInstallClose" aria-label="St&auml;ng">&times;</button>
+    <img src="/favicon-192.png" alt="" width="56" height="56" class="m-install-logo">
+    <div class="m-install-title">L&auml;gg till MC Kalendern som app</div>
+    <ol class="m-install-steps">
+      <li>Tryck p&aring; <strong>Dela</strong>-knappen <svg class="m-install-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg> i webbl&auml;saren</li>
+      <li>V&auml;lj <strong>&rdquo;L&auml;gg till p&aring; hemsk&auml;rmen&rdquo;</strong></li>
+    </ol>
+    <div class="m-install-note">Gratis, ingen App Store. Kalendern f&aring;r en egen ikon och &ouml;ppnas i helsk&auml;rm.</div>
+  </div>
+</div>
 
 <!-- ========== MOBILE PLATSER SWIPE VIEW (2026-06-12) ========== -->
 <div class="m-plats" id="mPlats" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Platser">
@@ -4043,6 +4102,40 @@ function setupMobileUI() {
     if (tm) tm.classList.add('open');
   });
   menyWire('mMenyPlatser', () => { if (typeof openMPlats === 'function') openMPlats(); });
+
+  // "Lägg till som app" (PWA install, 2026-06-12).
+  // Android/Chrome: browser fires beforeinstallprompt -> we keep it and trigger the
+  // native install dialog from the Meny row. iOS: no such event exists, so the row
+  // opens a small instruction modal instead. Row hides when already installed.
+  window.addEventListener('beforeinstallprompt', function(e) {
+    e.preventDefault();
+    window._mckInstallPrompt = e;
+  });
+  const _mckStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+  const _mckInstallRow = document.getElementById('mMenyInstall');
+  if (_mckStandalone && _mckInstallRow) _mckInstallRow.style.display = 'none';
+  window.addEventListener('appinstalled', function() {
+    if (_mckInstallRow) _mckInstallRow.style.display = 'none';
+  });
+  menyWire('mMenyInstall', () => {
+    if (window._mckInstallPrompt) {
+      window._mckInstallPrompt.prompt();
+      window._mckInstallPrompt = null;
+    } else {
+      const ov = document.getElementById('mInstallOverlay');
+      if (ov) { ov.classList.add('open'); ov.setAttribute('aria-hidden', 'false'); }
+    }
+  });
+  const mInstallOverlay = document.getElementById('mInstallOverlay');
+  const mInstallClose = document.getElementById('mInstallClose');
+  function closeMInstall() {
+    if (mInstallOverlay) { mInstallOverlay.classList.remove('open'); mInstallOverlay.setAttribute('aria-hidden', 'true'); }
+  }
+  if (mInstallClose) mInstallClose.addEventListener('click', closeMInstall);
+  if (mInstallOverlay) mInstallOverlay.addEventListener('click', function(e) { if (e.target === mInstallOverlay) closeMInstall(); });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && mInstallOverlay && mInstallOverlay.classList.contains('open')) closeMInstall();
+  });
   menyWire('mMenyFavoriter', () => {
     const fab = document.getElementById('fabFavorites');
     if (fab) fab.click();
