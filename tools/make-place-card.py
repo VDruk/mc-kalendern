@@ -28,8 +28,9 @@ CITY_FRAC = 0.924   # city text vertical center (FIXED)
 NAME_GAP  = 22      # px between name bottom and separator
 CYAN  = (34, 211, 238, 255)
 WHITE = (255, 255, 255, 255)
-CITYC = (190, 225, 235, 255)
-FONT  = '/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf'
+CITYC = (209, 220, 231, 255)   # light cool gray, measured from existing cards
+FONT  = '/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf'        # name (bold)
+FONT_CITY = '/usr/share/fonts/truetype/google-fonts/Poppins-Medium.ttf'  # city (lighter weight)
 
 
 def fit_name(draw, text, max_w, start=52, min_size=30):
@@ -85,8 +86,8 @@ def make(photo, name, city, out):
     # SEPARATOR (fixed)
     d.line([(W // 2 - 38, sep_y), (W // 2 + 38, sep_y)], fill=CYAN, width=3)
 
-    # CITY (fixed, letter-spaced caps)
-    fcity = ImageFont.truetype(FONT, 22)
+    # CITY (fixed, letter-spaced caps) - lighter weight + muted gray to match other cards
+    fcity = ImageFont.truetype(FONT_CITY, 22)
     reg = city.upper(); track = 6
     widths = [d.textlength(ch, font=fcity) for ch in reg]
     total = sum(widths) + track * (len(reg) - 1)
