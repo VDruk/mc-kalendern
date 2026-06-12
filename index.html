@@ -1663,6 +1663,28 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .m-topbar-total {
+    margin-left: auto;
+    margin-right: 4px;
+    text-align: right;
+    line-height: 1.15;
+    flex-shrink: 0;
+  }
+  .m-topbar-total b {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.3px;
+    font-variant-numeric: tabular-nums;
+  }
+  .m-topbar-total span {
+    font-size: 9px;
+    color: rgba(255,255,255,0.55);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+  .m-topbar:has(.m-topbar-region.active) .m-topbar-total { display: none; }
   .m-topbar-region {
     flex: 1;
     text-align: center;
@@ -2712,6 +2734,7 @@
       <div class="m-topbar-motto">MC-träffar i Sverige 2026</div>
     </div>
   </div>
+  <div class="m-topbar-total" id="mTopbarTotal"></div>
   <div class="m-topbar-region" id="mTopbarRegion" aria-live="polite"></div>
   <button class="m-burger" id="mBurger" aria-label="Öppna meny" aria-expanded="false">
     <span></span><span></span><span></span>
@@ -3792,6 +3815,9 @@ function updateStats() {
   // Past events live in events-archive.js until loaded; archivedCount keeps the total honest.
   const archivedExtra = archiveLoaded ? 0 : (EVENTS_DATA.archivedCount || 0);
   document.getElementById('statEvents').textContent = all.length + archivedExtra;
+  // Mobile topbar: dynamic TOTAL event count (past + upcoming) - the USP number (2026-06-12)
+  const mTot = document.getElementById('mTopbarTotal');
+  if (mTot) mTot.innerHTML = '<b>' + (all.length + archivedExtra).toLocaleString('sv-SE') + '</b><span>evenemang</span>';
   document.getElementById('statUpcoming').textContent = upcoming.length;
   const now = new Date();
   const thisMonth = upcoming.filter(e => {
@@ -3999,7 +4025,13 @@ function setupMobileUI() {
     el.addEventListener('click', () => {
       if (el.classList.contains('no-events')) return;
       if (p.filter === 'all') {
-        // Reset all filters: month, region, search, type
+        // Reset all filters: month, region, search, type.
+        // Since 2026-06-12 Alla also exits "Visa passerade" mode - Alla means
+        // "back to the normal view" (same reset-everything role as on desktop).
+        if (typeof showPast !== 'undefined' && showPast) {
+          const pt = document.getElementById('pastToggle') || document.getElementById('pastToggleMobile');
+          if (pt) pt.click();
+        }
         monthSel.value = 'all';
         regionSel.value = 'all';
         const si = document.getElementById('searchInput');
@@ -4731,7 +4763,13 @@ function updateMobilePillCounts() {
   }).length;
 
   const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
-  set('mPillAllCount', future.length);
+  // Alla pill: in past mode (Visa passerade) it shows the TOTAL incl. past events,
+  // otherwise upcoming only. archivedCount bridges the moment before the archive
+  // file has loaded (corrected automatically on the re-render after load).
+  const allaCount = (typeof showPast !== 'undefined' && showPast)
+    ? visible.length + (archiveLoaded ? 0 : (EVENTS_DATA.archivedCount || 0))
+    : future.length;
+  set('mPillAllCount', allaCount);
   set('mPillTodayCount', todayN);
   set('mPillTomorrowCount', tmrwN);
   set('mPillWeekendCount', weekendN);
