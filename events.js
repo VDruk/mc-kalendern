@@ -5680,6 +5680,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "nilssons-sommarsnurr-2026-06-27",
+      "name": "Sommarsnurr hos Nilssons MC",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "time": "10:00",
+      "endTime": "14:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Kanongatan 159, Ödåkra",
+      "organizer": "Nilssons MC",
+      "description": "Sommarevent hos Nilssons MC i Ödåkra med 20% rabatt på alla lagervaror under fyra timmar. Provkörning av demohojar, grillad korv och bra erbjudanden.",
+      "descriptionFull": "Lördag 27 juni, kl. 10.00-14.00 | Kanongatan 159, Helsingborg\n\nVälkommen till årets billigaste MC-event - Sommarsnurr hos Nilssons MC!\n\nVi firar sommaren med 20 % rabatt på alla ordinarie priser i butiken - men bara under dessa fyra timmar! Kan du inte komma lördagen får du vänta till nästa event, så passa på!\n\nRabatten gäller på alla lagervaror, bland annat:\nHjälmar\nStövlar\nKläder och skydd\nStylingprodukter\nOljor och tillbehör\n...och mycket mer!\n\nObs: Rabatten gäller inte fordon eller presentkort.\n\nProvkörning & erbjudanden\nAlla våra demohojar står ute redo för provkörning! Fina priser och bra garantier på motorcyklar väntar på dig.\n\nGrill & go' stämning\nVi bjuder på grillad korv hela dagen. Regnar det? Då serverar vi kokt korv inomhus istället - lika gott!\n\nKom och njut av sommar, hojåkning och riktigt bra erbjudanden. Ta med vänner och familj - alla är välkomna!",
+      "backImage": "ads/nilssons-sommarsnurr-back-2026-06-27.jpg",
+      "link": "https://www.facebook.com/events/1007568055312642/",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1007568055312642/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/nilssonsmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kanongatan+159+%C3%96d%C3%A5kra",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "arboga-meet-2026-06-27",
       "name": "Arboga Meet",
       "date": "2026-06-27",
