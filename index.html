@@ -997,6 +997,51 @@
   }
   .card.poster-card .card-back-flip { padding: 20px; background: var(--bg-card); } /* Back side gets its own padding + bg */
 
+  /* ===== Plats (place) cards: text drawn by the SITE (not baked into the image) =====
+     Uses the site font automatically. Container-query units (cqw) scale the text with
+     the card width so it matches across a row. Name is bottom-anchored above the
+     separator; separator and city sit at FIXED positions, so a 1- or 2-line name
+     never moves them. Works with a photo or, for no-photo cards, a dark-blue panel. */
+  .card.place-card {
+    position: relative; aspect-ratio: 3 / 4; overflow: hidden;
+    border: none; padding: 0; background: #1a1a2e;
+    border-radius: var(--radius); container-type: inline-size;
+    align-self: center; box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;
+  }
+  .card.place-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.25); }
+  .card.place-card .place-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card.place-card .place-grad {
+    position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(to bottom, transparent 52%, rgba(8,10,24,0.55) 74%, rgba(8,10,24,0.92) 100%);
+  }
+  .card.place-card.no-photo .place-grad { display: none; }
+  .card.place-card .place-name {
+    position: absolute; left: 6%; right: 6%; bottom: 13.4%;
+    text-align: center; color: #fff; font-weight: 700;
+    font-size: 7.2cqw; line-height: 1.06; letter-spacing: -0.3px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.55);
+  }
+  .card.place-card .place-sep {
+    position: absolute; left: 50%; transform: translateX(-50%); bottom: 11.6%;
+    width: 9.5cqw; height: 0.4cqw; min-height: 2px; border-radius: 2px;
+    background: var(--type-plats, #0891b2);
+  }
+  .card.place-card .place-city {
+    position: absolute; left: 6%; right: 6%; bottom: 5.6%;
+    text-align: center; color: #d1dce7; font-weight: 500;
+    font-size: 3cqw; letter-spacing: 0.35cqw; text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+  .card.place-card .place-badge {
+    position: absolute; top: 4.2%; right: 5%; z-index: 3;
+    background: rgba(10,14,26,0.82); color: var(--type-plats, #0891b2);
+    font-weight: 700; font-size: 2.7cqw; letter-spacing: 0.3cqw;
+    padding: 1.1cqw 2.6cqw; border-radius: 999px;
+  }
+  /* no-photo cards: name centered in the panel like the old dark-blue style is NOT used;
+     per spec the text stays at the bottom even without a photo (positions above still apply). */
+
   /* ========== FAVORITES BUTTON ========== */
   .fab-favorites {
     position: fixed; bottom: 24px; right: 30px;
@@ -4933,7 +4978,27 @@ function render() {
     card.id = cardId;
 
     // Render ONLY the front side. Back side is built on demand in cardExpand().
-    if (event.frontImage) {
+    if (event._place) {
+      // Plats (place) card: site draws the name/separator/city overlay (real site font).
+      card.classList.add('place-card');
+      if (!event.frontImage) card.classList.add('no-photo');
+      const cityTxt = event.city || '';
+      const photoHTML = event.frontImage
+        ? `<img class="place-photo" src="${event.frontImage}" alt="${escapeHtml(displayName)}" loading="lazy" decoding="async">` : '';
+      card.innerHTML = `
+        <div class="card-flipper">
+          <div class="card-front" onclick="cardExpand('${cardId}')">
+            ${photoHTML}
+            <div class="place-grad"></div>
+            <div class="place-badge">PLATS</div>
+            <div class="place-name">${escapeHtml(displayName)}</div>
+            <div class="place-sep"></div>
+            ${cityTxt ? `<div class="place-city">${escapeHtml(cityTxt)}</div>` : ''}
+            ${likeBtnHTML(event)}
+          </div>
+        </div>
+      `;
+    } else if (event.frontImage) {
       card.classList.add('poster-card');
       card.innerHTML = `
         <div class="card-flipper">

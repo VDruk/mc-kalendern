@@ -39,8 +39,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/profile.php?id=61581825973860",
       "region": "Stockholm",
       "source": "AD",
-      "frontImage": "ads/enhorna-cafe-front.jpg",
-      "backImage": "ads/enhorna-cafe-back.jpg"
+      "frontImage": "ads/place-ad-enhorna-cafe.jpg",
+      "city": "Enhörna"
     },
     {
       "_ad": true,
@@ -69,7 +69,8 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "AD",
       "organizerIcon": "clubs/normalized/probike.png",
-      "frontImage": "ads/probike-stockholm-front.jpg"
+      "frontImage": "ads/place-ad-probike-stockholm.jpg",
+      "city": "Täby"
     },
     {
       "_ad": true,
@@ -97,7 +98,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/Mckonsult",
       "region": "Västra Götaland",
       "source": "AD",
-      "frontImage": "ads/ad-mc-konsult-lidkoping-front.jpg"
+      "frontImage": "ads/place-ad-mc-konsult-lidkoping.jpg",
+      "city": "Lidköping"
     },
     {
       "_ad": true,
@@ -125,7 +127,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/lellesmc",
       "region": "Uppsala",
       "source": "AD",
-      "frontImage": "ads/ad-lelles-mc-front.jpg"
+      "frontImage": "ads/place-ad-lelles-mc.jpg",
+      "city": "Uppsala"
     },
     {
       "_ad": true,
@@ -153,7 +156,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/SulasMC",
       "region": "Uppsala",
       "source": "AD",
-      "frontImage": "ads/ad-sulas-mc-front.jpg"
+      "frontImage": "ads/place-ad-sulas-mc.jpg",
+      "city": "Uppsala"
     },
     {
       "_ad": true,
@@ -182,7 +186,8 @@ const EVENTS_DATA = {
       "region": "Västra Götaland",
       "source": "AD",
       "organizerIcon": "clubs/normalized/bike-trollhattan.png",
-      "frontImage": "ads/ad-bike-trollhattan-front.jpg"
+      "frontImage": "ads/place-ad-bike-trollhattan.jpg",
+      "city": "Trollhättan"
     },
     {
       "_ad": true,
@@ -210,7 +215,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/harleydavidsonstorelinkoping",
       "region": "Östergötland",
       "source": "AD",
-      "frontImage": "ads/ad-hd-linkoping-front.jpg"
+      "frontImage": "ads/place-ad-hd-linkoping.jpg",
+      "city": "Linköping"
     },
     {
       "_ad": true,
@@ -239,7 +245,8 @@ const EVENTS_DATA = {
       "region": "Kalmar",
       "source": "AD",
       "organizerIcon": "clubs/normalized/mtl-powersport.png",
-      "frontImage": "ads/ad-mtl-powersport-front.jpg"
+      "frontImage": "ads/place-ad-mtl-powersport.jpg",
+      "city": "Mönsterås"
     },
     {
       "_ad": true,
@@ -267,7 +274,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/yamahacenterhelsingborg",
       "region": "Skåne",
       "source": "AD",
-      "frontImage": "ads/ad-yamaha-center-helsingborg-front.jpg"
+      "frontImage": "ads/place-ad-yamaha-center-helsingborg.jpg",
+      "city": "Helsingborg"
     },
     {
       "_ad": true,
@@ -295,7 +303,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/nilssonsmc",
       "region": "Skåne",
       "source": "AD",
-      "frontImage": "ads/ad-nilssons-mc-front.jpg"
+      "frontImage": "ads/place-ad-nilssons-mc.jpg",
+      "city": "Helsingborg"
     },
     {
       "_ad": true,
@@ -323,7 +332,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/Italiabikecenterarboga",
       "region": "Västmanland",
       "source": "AD",
-      "frontImage": "ads/ad-italia-bike-center-arboga-front.jpg"
+      "frontImage": "ads/place-ad-italia-bike-center-arboga.jpg",
+      "city": "Arboga"
     },
     {
       "_ad": true,
@@ -351,7 +361,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/thetwinclub",
       "region": "Dalarna",
       "source": "AD",
-      "frontImage": "ads/ad-twin-club-falun-front-2026.jpg"
+      "frontImage": "ads/place-ad-twin-club-falun.jpg",
+      "city": "Falun"
     },
     {
       "_ad": true,
@@ -380,7 +391,7 @@ const EVENTS_DATA = {
       "region": "Uppsala",
       "source": "AD",
       "organizerIcon": "clubs/normalized/oamck.png",
-      "frontImage": "ads/ad-klubbkaken-oamck-front.jpg"
+      "city": "Uppsala"
     },
     {
       "_ad": true,
@@ -409,7 +420,7 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "AD",
       "organizerIcon": "clubs/normalized/mce.png",
-      "frontImage": "ads/ad-mce-klubblokalen-front.jpg"
+      "city": "Järfälla"
     },
     {
       "_ad": true,
@@ -437,7 +448,7 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/gotenemotorklubb",
       "region": "Västra Götaland",
       "source": "AD",
-      "frontImage": "ads/ad-gotene-motorklubb-front.jpg"
+      "city": "Götene"
     },
     {
       "id": "ad-honda-gold-wing-50th",
@@ -479,8 +490,7 @@ const EVENTS_DATA = {
       "organizerIcon": "clubs/normalized/no-name-mc-nykoping.png",
       "description": "Välkomna till No Name MC Nyköping! Klubblokal på Pilotgången 1. Följ oss på Facebook eller besök nonamemc.se för event och nyheter.",
       "descriptionFull": "Välkomna till No Name MC Nyköping!\n\nKlubblokal: Pilotgången 1, 611 92 Nyköping\n\nFölj oss på Facebook eller besök nonamemc.se för kommande event och nyheter.",
-      "frontImage": "ads/no-name-mc-nykoping-front.jpg",
-      "backImage": "ads/no-name-mc-nykoping-back.jpg",
+      "frontImage": "ads/place-ad-no-name-mc-nykoping.jpg",
       "links": [
         {
           "label": "FB Sida",
@@ -498,7 +508,8 @@ const EVENTS_DATA = {
       ],
       "link": "https://www.facebook.com/NNMCNYK",
       "region": "Södermanland",
-      "source": "AD"
+      "source": "AD",
+      "city": "Nyköping"
     },
     {
       "_ad": true,
@@ -526,7 +537,8 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/profile.php?id=100083061736120",
       "region": "Uppsala",
       "source": "AD",
-      "frontImage": "ads/tarnsjo-pizzeria-front.jpg"
+      "frontImage": "ads/place-ad-tarnsjo-pizzeria.jpg",
+      "city": "Tärnsjö"
     },
     {
       "id": "if-mc-forsakring-ad-2026",
@@ -562,8 +574,7 @@ const EVENTS_DATA = {
       "organizer": "DWR Uppsala",
       "description": "DWR V-Twin Motorcycle Workshop i Uppsala. Service, reparation och customizing av V-Twin motorcyklar.",
       "descriptionFull": "DWR V-Twin Motorcycle Workshop i Uppsala. Specialiserade på service, reparation och customizing av V-Twin motorcyklar. Kontakta oss för mer info.",
-      "frontImage": "ads/dwr-uppsala-2026.jpg",
-      "backImage": "ads/dwr-uppsala-2026.jpg",
+      "frontImage": "ads/place-sponsor-dwr-uppsala-ad-2026.jpg",
       "links": [
         {
           "label": "dwr.se",
@@ -582,7 +593,8 @@ const EVENTS_DATA = {
       "link": "https://www.dwr.se/",
       "region": "Uppsala",
       "source": "AD",
-      "_ad": true
+      "_ad": true,
+      "city": "Uppsala"
     },
     {
       "id": "sponsor-harley-davidson-ad-2026",
