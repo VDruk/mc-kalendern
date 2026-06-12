@@ -2254,6 +2254,33 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "clubstyle-tershine-koenigsegg-2026-06-13",
+      "name": "Körning till Tershine Cars & Coffee",
+      "date": "2026-06-13",
+      "dateEnd": "2026-06-13",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Koenigsegg HQ, Ängelholm",
+      "organizer": "Clubstyle Sweden",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1276503504603110",
+      "description": "MC-körning till Tershine Cars & Coffee-evenemanget hos Koenigsegg HQ i Ängelholm. Lördag 13 juni från kl 10:00. Obs: bilfokuserat evenemang på destinationen, MC-gäng åker dit tillsammans.",
+      "descriptionFull": "Tid: Lördag 13 juni 2026 kl 10:00.\nDestination: Koenigsegg HQ, Valhall Park, Ängelholm.\n\nInformell MC-körning till Tershine Cars & Coffee-evenemanget på Koenigseggs huvudkontor.\n\nObservera: Själva destinationsevenemanget är primärt bilfokuserat (cars and coffee), men MC-gänget är välkomna att åka dit tillsammans.\n\nArrangörer: Måns Efternamn, Mohsin Boudal och Clubstyle Sweden.\n\nKolla FB-eventet för start- och samlingsdetaljer (ej angivet i FB-eventet).",
+      "backImage": "ads/clubstyle-tershine-koenigsegg-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1276503504603110"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Koenigsegg+Ängelholm",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "smc-jamtland-mc-dagen-2026-06-13",
       "name": "MC dagen på Jämthalka",
       "date": "2026-06-13",
