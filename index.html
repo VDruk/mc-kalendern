@@ -1670,19 +1670,24 @@
     line-height: 1.15;
     flex-shrink: 0;
   }
+  /* Mirrors .m-topbar-name / .m-topbar-motto exactly (size, line-height, gap)
+     so "1 729" sits on the same line as "MC Kalendern" and "EVENEMANG" on the
+     same line as the motto. Keep these in sync if the left side changes. */
   .m-topbar-total b {
     display: block;
     font-size: 15px;
     font-weight: 700;
+    letter-spacing: -0.2px;
     color: var(--accent);
-    letter-spacing: 0.3px;
     font-variant-numeric: tabular-nums;
   }
   .m-topbar-total span {
-    font-size: 9px;
+    display: block;
+    font-size: 10px;
+    margin-top: 2px;
     color: rgba(255,255,255,0.55);
     text-transform: uppercase;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
   }
   .m-topbar:has(.m-topbar-region.active) .m-topbar-total { display: none; }
   .m-topbar-region {
