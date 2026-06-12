@@ -29,8 +29,8 @@ NAME_GAP  = 22      # px between name bottom and separator
 CYAN  = (34, 211, 238, 255)
 WHITE = (255, 255, 255, 255)
 CITYC = (209, 220, 231, 255)   # light cool gray, measured from existing cards
-FONT  = '/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf'        # name (bold)
-FONT_CITY = '/usr/share/fonts/truetype/google-fonts/Poppins-Medium.ttf'  # city (lighter weight)
+FONT  = '/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf'     # name (bold) - matches site system font (Helvetica/SF)
+FONT_CITY = '/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf'  # city (regular weight)
 
 
 def fit_name(draw, text, max_w, start=52, min_size=30):
