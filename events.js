@@ -11787,6 +11787,37 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "hojtraff-cancerfonden-rosenhill-2026-07-25",
+      "name": "Hojträff till förmån för Cancerfonden",
+      "date": "2026-07-25",
+      "dateEnd": "2026-07-25",
+      "time": "10:30",
+      "location": "Rosenhill 23, Botkyrka",
+      "type": "Träff",
+      "organizer": "Café Rosenhill",
+      "description": "Välgörenhetstur från Nykvarn till Café Rosenhill via Järna, Ytterjärna, Mörkö och Kagghamra. Donation från 100 kr per hoj eller armband 150 kr stödjer Cancerfonden.",
+      "descriptionFull": "Välkommen på Hojträff till förmån för Cancerfonden!\n\nHäng med hojkompisarna hos oss på Café Rosenhill eller starta i Nykvarn för att gemensamt köra hit.\n\nFör sig som vill stödja Cancerfonden så kommer det finnas 'Fu*k cancer' armband att köpa i caféet för 150 kr/st. Det går även bra att ge en valfri donation via länken nedan.\n\nKom och kör hoj till förmån för Cancerfonden!\n\nSamlingsplats i Nykvarn: (info kommer)\n\nDonation från 100 kr per hoj eller köp ett armband för minst 150 kr. Alla som deltar får ett klistermärke.\n\nSamling från: 10:30\nStart: ca 11:15-11:30\n\nVar kör vi?\nTuren går via Järna, Ytterjärna, Mörkö, Skansundet, Kagghamra, avslutning på Café Rosenhill.\n\nUtan färjan medräknad tar turen ca 1 h (6 mil).\n\nVi kör INTE kortege. Kör gärna tillsammans men håll avstånd så att du kan köra i din takt.\n\nDetaljer inför dagens körning tas på plats. Ställ frågor om något är oklart. Alla ansvarar för att köra snyggt och ansvarsfullt.\n\nMissa inte! Naked Bikes of Sweden ansluter i Nykvarn. Separat information ges i NBOS gruppen.\n\nFrågor ang. körningen ställs till Andrea eller kommentera i eventet.\n\nTack vare donationer har forskningen om cancer gått framåt och fler har fått möjligheten att fortsätta leva.\n\nTack för att du är med och deltar eller har bidragit med en donation.",
+      "backImage": "ads/hojtraff-cancerfonden-back-2026-07-25.jpg",
+      "link": "https://www.facebook.com/events/1659142135537303/",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1659142135537303/"
+        },
+        {
+          "label": "cancerfonden.se",
+          "url": "https://www.cancerfonden.se/insamlingar/hojtraff-till-forman-for-cancerfonden"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Rosenhill+23+Botkyrka",
+          "type": "map"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
       "id": "jmc-sondagsrundan-2026-07-26",
       "name": "Söndagsrundan",
       "date": "2026-07-26",
@@ -13754,14 +13785,19 @@ const EVENTS_DATA = {
       "name": "Klubbhus Invigning",
       "date": "2026-08-08",
       "dateEnd": "2026-08-08",
+      "time": "12:00",
       "location": "Armévägen 3, Gnarp",
       "type": "Fest",
       "organizer": "2 MC Maiden Coast",
       "description": "Bastards MC Maiden Coast inviger sitt klubbhus i Gnarp! Efter lång tid med slit och uppdateringar med värmesystem är det äntligen dags. Markera datumet i kalendern!",
-      "descriptionFull": "Bastards MC Maiden Coast inviger officiellt sitt klubbhus!\n\nEfter lång tid med slit och uppdateringar med värmesystem är det äntligen dags.\n\nLördag 8 augusti 2026.\n\nPlats: Armévägen 3, 829 60 Gnarp.\n\nKontakt:\nJunior: 076-217 65 49\nChristian: 073-960 15 84\n\nMarkera datumet i kalendern. Nu kör vi!",
+      "descriptionFull": "Bastards MC Maiden Coast inviger officiellt sitt klubbhus!\n\nEfter lång tid med slit och uppdateringar med värmesystem är det äntligen dags.\n\nLördag 8 augusti 2026 från kl 12:00.\n\nPlats: Armévägen 3, 829 60 Gnarp.\n\nKontakt:\nJunior: 076-217 65 49\nChristian: 073-960 15 84\n\nMarkera datumet i kalendern. Nu kör vi!",
       "backImage": "ads/klubbhus-invigning-maiden-coast-back-2026-08-08.jpg",
-      "link": "https://www.facebook.com/photo?fbid=122231340902280655&set=a.122097923012280655",
+      "link": "https://www.facebook.com/events/960876373378992/",
       "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/960876373378992/"
+        },
         {
           "label": "FB Sida",
           "url": "https://www.facebook.com/profile.php?id=61558419658686"
@@ -17898,6 +17934,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "stubborn-hostfest-2026-08-29",
+      "name": "Stubborn Stockholm Höstfest",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "19:00",
+      "endTime": "00:00",
+      "location": "Kraus väg 4, Bergshamra",
+      "type": "Fest",
+      "organizer": "Stubborn MC",
+      "description": "Årlig höstfest hos Stubborn MC i Bergshamra. Liveband Bottlecap Jack och Stures Dansorkester. Baren öppnar 19:00, entré 150 kr. Endast SBM, anslutna klubbar och inbjudna gäster.",
+      "descriptionFull": "Äntligen dags igen för våran årliga höstfest!\n\nVälfyllda barer och liveband av världsklass som vanligt!\n\nPå scen:\nBottlecap Jack\nStures Dansorkester\n\nBaren öppnar 19:00. Mat & Dryck.\n\n150 kr i musikavgift.\n\nEndast SBM, anslutna klubbar samt inbjudna gäster.\n\nFör mer info:\nJoel 070 923 01 16\nMarcus 070 409 03 60\nstubborn-mc@hotmail.se\n\nAdress: Krausväg 4, 171 73 Solna (Bergshamra).",
+      "backImage": "ads/stubborn-hostfest-back-2026-08-29.jpg",
+      "link": "https://www.facebook.com/events/982994787434251/",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/982994787434251/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kraus+v%C3%A4g+4+Solna",
+          "type": "map"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d15-grustur-2026-08-30",
       "name": "D15 Grustur",
       "date": "2026-08-30",
@@ -20076,6 +20140,33 @@ const EVENTS_DATA = {
       ],
       "backImage": "ads/mc-ontours-alperna-back-2026-09-12.jpg",
       "source": "mcontours.se"
+    },
+    {
+      "id": "bouncers-hostfest-akersberga-2026-09-12",
+      "name": "Bouncers MC Höstfest",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-12",
+      "time": "18:00",
+      "location": "Rallarvägen 49, Åkersberga",
+      "type": "Fest",
+      "organizer": "Bouncers MC Stockholm",
+      "description": "Bouncers MC Stockholm bjuder in till höstfest i klubblokalen i Åkersberga. Endast SBM och inbjudna vänner. Cash is king.",
+      "descriptionFull": "Höstfest hos Bouncers MC Stockholm.\n\nCash is king.\n\nEndast SBM och inbjudna vänner.\n\nVälkomna!\n\nPlats: Rallarvägen 49, 184 40 Åkersberga.",
+      "backImage": "ads/bouncers-hostfest-back-2026-09-12.jpg",
+      "link": "https://www.facebook.com/events/1695511968254572/",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1695511968254572/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Rallarv%C3%A4gen+49+%C3%85kersberga",
+          "type": "map"
+        }
+      ],
+      "region": "Stockholm",
+      "source": "facebook.com"
     },
     {
       "id": "mackatraffen-vollsjo-avslutning-2026-09-13",
