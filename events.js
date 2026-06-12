@@ -351,7 +351,7 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/thetwinclub",
       "region": "Dalarna",
       "source": "AD",
-      "frontImage": "ads/ad-twin-club-falun-front.jpg"
+      "frontImage": "ads/ad-twin-club-falun-front-2026.jpg"
     },
     {
       "_ad": true,
