@@ -23672,7 +23672,7 @@ const EVENTS_DATA = {
       ]
     }
   ],
-  "archivedCount": 909,
+  "archivedCount": 908,
   "archivedMonths": [
     1,
     2,
