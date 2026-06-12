@@ -1881,6 +1881,69 @@ const EVENTS_DATA = {
       "backImage": "ads/gojvtraffen-back-2026-06-12.jpg"
     },
     {
+      "id": "lelles-mc-ktm-provkorning-2026-06-13",
+      "name": "Provkör KTM hos Lelles MC",
+      "date": "2026-06-13",
+      "dateEnd": "2026-06-13",
+      "time": "10:00",
+      "endTime": "15:00",
+      "type": "Show",
+      "region": "Uppsala",
+      "location": "Lelles MC, Uppsala",
+      "organizer": "Lelles MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/lellesmc",
+      "description": "KTM-provkörning hos Lelles MC i Uppsala. Lördag 13/6 kl 10-15. Testa årets KTM-modeller. Hamburgare och KTM-present till alla som provkör.",
+      "descriptionFull": "Tid: Lördag 13 juni 2026 kl 10:00-15:00.\nPlats: Lelles MC, Nymansgatan 6, Uppsala.\n\nLelles MC bjuder in till KTM-provkörning. Testa några av årets mest spännande modeller och snacka hoj med personalen på plats.\n\nModeller för provkörning:\n- 390 Adventure R\n- 690 Enduro R\n- 690 SMC R\n- 790 Adventure\n- 790 Duke\n- 890 SMT\n- 990 RC R\n- 1390 Super Adventure S Evo\n\nHamburgare och KTM-present till alla som provkör.\n\nArrangör: Lelles MC.",
+      "backImage": "ads/lelles-mc-ktm-provkorning-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1648261983968381&set=a.526564592804798"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/lellesmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lelles+MC+Uppsala",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "mmck-tur-hakkasfallet-2026-06-17",
+      "name": "Tur till Hakkasfallet",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "17:30",
+      "type": "Körning",
+      "region": "Norrbotten",
+      "location": "MMCK Klubbkåken, Gällivare",
+      "organizer": "MMCK Gällivare",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/mmcktouring",
+      "description": "MC-tur till Hakkasfallet med MMCK Touring-vänner. Samling 17:30 vid MMCK Klubbkåken i Gällivare. Korvgrillning vid fallet. Alla välkomna.",
+      "descriptionFull": "Tid: Onsdag 17 juni 2026 kl 17:30.\nPlats: MMCK Klubbkåken (MC-Folkets Park), Gällivare.\n\nGemensam tur till Hakkasfallet med MMCK Touring-vänner. På plats vid fallet grillar gänget korv.\n\nArrangörer: Axel Karlsson och MMCK Touring-vänner (Malmbergets Motorcykelklubb).",
+      "backImage": "ads/mmck-tur-hakkasfallet-back-2026-06-17.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/877851151373239/"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/mmcktouring"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=MMCK+Klubbkåken+Gällivare",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "smc-jamtland-mc-dagen-2026-06-13",
       "name": "MC dagen på Jämthalka",
       "date": "2026-06-13",
