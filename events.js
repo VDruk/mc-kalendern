@@ -10011,6 +10011,40 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "ronnegard-lofoten-kystriksveg-2026-07-14",
+      "name": "Lofoten med Kystriksveg 17",
+      "date": "2026-07-14",
+      "dateEnd": "2026-07-26",
+      "type": "Körning",
+      "region": "Norge",
+      "location": "Tallbacksvägen 19, Gagnef",
+      "organizer": "Ronnegard Adventure",
+      "description": "13-dagars MC-äventyr genom norra Sverige till Lofoten och Kystriksveg 17 i Norge. Start Gagnef 14/7, hemkomst 26/7. KÖLISTA. Pris 16 200 kr förare, 15 200 kr passagerare.",
+      "descriptionFull": "13 dagar med MC-touring genom de norra delarna av Sverige med riktning mot norska atlantkusten och Lofoten.\n\nStart: tisdag 14 juli i Gagnef.\nHemresa: söndag 26 juli.\nKÖLISTA - resan är fullbokad, anmäl dig till kölistan.\n\nVi färdas genom skogslandskap och fjällvidder, följer E45 upp genom landet och passar på att besöka Jukkasjärvi innan vi når Lapporten och Riksgränsen. På norska sidan fortsätter resan ut mot Lofoten där vi stannar tre dygn i samma boende.\n\nFrån Lofoten kör vi ner mot Saltstraumen och hela Kystriksveg 17 längs Helgelandskusten ner mot Trondheim innan vi åter tar sikte mot Sverige.\n\nMestadels asfalt med några kortare grussträckor. Gemensamt boende i stugor, vandrarhem och enklare hotell. Många mil per dag, men aldrig längre körpass än 50-80 minuter innan paus.\n\nGuider: Hans Rönnegård och Harri Wiklund.\n\nPris: 16 200 kr för förare, 15 200 kr för passagerare (inkl resegaranti och anmälningsavgift 1000 kr). 14-16 platser. I priset ingår boende, alla frukostar, en lunch samt fika.\n\nKontakt: Hans Rönnegård, hans@mctouring.se, 072-204 62 00.",
+      "backImage": "ads/ronnegard-lofoten-back-2026-07-14.jpg",
+      "link": "https://www.ronnegardadventure.se/resa/lofoten-med-kystriksveg-17-2026/",
+      "links": [
+        {
+          "label": "mctouring.se",
+          "url": "https://www.ronnegardadventure.se/resa/lofoten-med-kystriksveg-17-2026/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/mctouring/"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/1972181753036778"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tallbacksv%C3%A4gen+19+Gagnef",
+          "type": "map"
+        }
+      ],
+      "source": "ronnegardadventure.se"
+    },
+    {
       "id": "nordic-run-finland-2026-07-14",
       "name": "Nordic Run: Kontiolahti till Nyslott",
       "date": "2026-07-14",
@@ -16275,6 +16309,36 @@ const EVENTS_DATA = {
       "backImage": "ads/malaren-runt-40ar-back-2026-08-15.jpg"
     },
     {
+      "id": "ronnegard-norska-parlor-grus-2026-08-15",
+      "name": "Norska Pärlor Grustouring",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-22",
+      "type": "Körning",
+      "region": "Norge",
+      "location": "Tallbacksvägen 19, Gagnef",
+      "organizer": "Ronnegard Adventure",
+      "description": "8-dagars äventyrstouring med blandad asfalt och grus över fjällen i Norge. Start Gagnef 15/8, hemkomst 22/8. KÖLISTA - fullbokad. Lugn touring, inte offroad eller grusbus.",
+      "descriptionFull": "8 dagar med äventyrstouring på de finaste vägarna över fjället och genom skogen, oavsett om det är asfalt eller grus.\n\nStart: lördag 15 augusti i Gagnef.\nHemresa: lördag 22 augusti.\nKÖLISTA - resan är fullbokad, anmäl dig till kölistan.\n\nMer än 70 procent av vägnätet i både Sverige och Norge är grusväg, och här söker vi oss längre bort från semestertrafiken för att se platser vi annars aldrig skulle komma nära. Det är MC-touring i lugn takt, inte 'grusbus' eller offroad/enduro.\n\nGemensamt boende längs vägen. Mestadels grus- och asfaltsvägar, ingen offroad. Lämplig MC är touring eller äventyrs-MC med däck som klarar grus.\n\nGuider: Hans Rönnegård med hjälpguider.\n\nKontakt: Hans Rönnegård, hans@mctouring.se, 072-204 62 00.",
+      "backImage": "ads/ronnegard-norska-parlor-back-2026-08-15.jpg",
+      "link": "https://www.ronnegardadventure.se/resa/norska-parlor-grustouring-2026/",
+      "links": [
+        {
+          "label": "mctouring.se",
+          "url": "https://www.ronnegardadventure.se/resa/norska-parlor-grustouring-2026/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/mctouring/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tallbacksv%C3%A4gen+19+Gagnef",
+          "type": "map"
+        }
+      ],
+      "source": "ronnegardadventure.se"
+    },
+    {
       "id": "oldmopperz-rally-2026-08-15",
       "name": "OldMopperz veteran rally",
       "date": "2026-08-15",
@@ -19328,6 +19392,40 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "ronnegard-dalarnas-parlor-grus-2026-09-03",
+      "name": "Dalarnas Pärlor Grustouring",
+      "date": "2026-09-03",
+      "dateEnd": "2026-09-06",
+      "type": "Körning",
+      "region": "Dalarna",
+      "location": "Tallbacksvägen 19, Gagnef",
+      "organizer": "Ronnegard Adventure",
+      "description": "4-dagars grustouring i Siljansbygden och Dalabergslagen från Gagnef. 50 mil grus och asfalt, fäbodar och brukslämningar. Start torsdag 3/9, hemkomst 6/9. Pris 3 600 kr.",
+      "descriptionFull": "4 dagar grustouring i Siljansbygden och Dalabergslagen med start och mål i Gagnef.\n\nStart: torsdag 3 september eftermiddag/kväll i Gagnef.\nHemresa: söndag 6 september.\n\nVi kör två körpass (fredag och lördag) på allmänna och enskilda vägar, gamla forvägar och skogsbilvägar, ca 50 mil totalt. Mestadels grus med någon vägstump asfalt. Vi besöker fäbodar, gamla brukslämningar och andra intressanta platser i lugn takt. Det är grustouring, inte offroad eller grusbus.\n\nBoende: tre nätter på Rönnegård Bädd & Frukost på Tallbacken i Gagnef i flerbäddsrum (2-4 personer).\n\nGuider: Hans Rönnegård med hjälpguider. Körupplägg enligt Cornerman / Danska modellen.\n\nLämplig MC: i princip alla touring-MC. Lämpliga däck Michelin Anakee, Metzeler Tourance, Heidenau K60 eller liknande.\n\nPris: 3 600 kr inklusive resegaranti och anmälningsavgift 500 kr. 18-24 platser. I priset ingår boende, alla frukostar, två luncher, tre middagar samt fika.\n\nKontakt: Hans Rönnegård, hans@mctouring.se, 072-204 62 00.",
+      "backImage": "ads/ronnegard-dalarnas-parlor-back-2026-09-03.jpg",
+      "link": "https://www.ronnegardadventure.se/resa/dalarnas-parlor-grustouring-2026/",
+      "links": [
+        {
+          "label": "mctouring.se",
+          "url": "https://www.ronnegardadventure.se/resa/dalarnas-parlor-grustouring-2026/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/mctouring/"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/786526778136561/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tallbacksv%C3%A4gen+19+Gagnef",
+          "type": "map"
+        }
+      ],
+      "source": "ronnegardadventure.se"
+    },
+    {
       "id": "norseman-grus-safsen-2026-09-03",
       "name": "GRUS Säfsen",
       "date": "2026-09-03",
@@ -20650,6 +20748,44 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+    },
+    {
+      "id": "ronnegard-royal-enfield-grus-2026-09-10",
+      "name": "Royal Enfield Grustouring",
+      "date": "2026-09-10",
+      "dateEnd": "2026-09-13",
+      "type": "Körning",
+      "region": "Dalarna",
+      "location": "Tallbacksvägen 19, Gagnef",
+      "organizer": "Ronnegard Adventure",
+      "description": "4-dagars grustouring för Royal Enfield Himalayan 411/450 och Bear 650 i Siljansbygden. Samarbete med Royal Enfield Sverige och MC-skidan. Start 10/9, hemkomst 13/9. Pris 3 600 kr.",
+      "descriptionFull": "4 dagar grustouring för dig som kör Royal Enfield Himalayan 411/450 eller Bear 650. Samarrangemang med Royal Enfield Sverige (norrvalla.se), MC-skidan.se och Ronnegard Adventure.\n\nStart: torsdag 10 september eftermiddag/kväll i Gagnef.\nHemresa: söndag 13 september.\n\nVi kör i Siljansbygden och Dalabergslagen på allmänna och enskilda vägar, gamla forvägar och skogsbilvägar. Ca 50 mil totalt på två kördagar (fredag och lördag). Mestadels grus.\n\nRoyal Enfield Sverige och MC-skidan.se finns på plats hela arrangemanget. Ronnegard Adventure står för boende, mat och guidning. Vi visar film och bilder, ger tips om utrustning och hantering av MC på grus.\n\nBoende: tre nätter på Rönnegård Bädd & Frukost i Gagnef i flerbäddsrum.\n\nLämplig MC: din Royal Enfield Himalayan eller Bear. Däcken klarar i princip allt eftersom vi håller oss på väg.\n\nGuide: Hans Rönnegård.\n\nPris: 3 600 kr inklusive resegaranti och anmälningsavgift 500 kr. 16-18 platser. I priset ingår boende, alla frukostar, två luncher, tre middagar samt fika.\n\nKontakt: Hans Rönnegård, hans@mctouring.se, 072-204 62 00.",
+      "backImage": "ads/ronnegard-royal-enfield-back-2026-09-10.jpg",
+      "link": "https://www.ronnegardadventure.se/resa/royal-enfield-grustouring-2026/",
+      "links": [
+        {
+          "label": "mctouring.se",
+          "url": "https://www.ronnegardadventure.se/resa/royal-enfield-grustouring-2026/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/mctouring/"
+        },
+        {
+          "label": "norrvalla.se",
+          "url": "http://norrvalla.se"
+        },
+        {
+          "label": "mc-skidan.se",
+          "url": "http://mc-skidan.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tallbacksv%C3%A4gen+19+Gagnef",
+          "type": "map"
+        }
+      ],
+      "source": "ronnegardadventure.se"
     },
     {
       "id": "roadracing-sm-anderstorp-2026",
