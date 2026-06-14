@@ -2884,6 +2884,7 @@ const EVENTS_DATA = {
     {
       "id": "mxsm-tibro-2026",
       "name": "MXSM Deltävling 3 - Tibro",
+      "backImage": "ads/svemo-back.jpg",
       "date": "2026-06-14",
       "dateEnd": "2026-06-14",
       "location": "Tibro MK, Tibro",
@@ -9756,6 +9757,7 @@ const EVENTS_DATA = {
     {
       "id": "mxsm-varberg-2026",
       "name": "MXSM Deltävling 4 - Varberg",
+      "backImage": "ads/svemo-back.jpg",
       "date": "2026-07-12",
       "dateEnd": "2026-07-12",
       "location": "Varbergs MK, Varberg",
@@ -14611,6 +14613,7 @@ const EVENTS_DATA = {
     {
       "id": "mxsm-ulricehamn-2026",
       "name": "MXSM Deltävling 5 - Ulricehamn",
+      "backImage": "ads/svemo-back.jpg",
       "date": "2026-08-08",
       "dateEnd": "2026-08-09",
       "location": "Ulricehamns MK, Ulricehamn",
@@ -18732,6 +18735,7 @@ const EVENTS_DATA = {
     {
       "id": "mxsm-gota-ms-2026",
       "name": "MXSM Deltävling 6 - Göteborg",
+      "backImage": "ads/svemo-back.jpg",
       "date": "2026-08-29",
       "dateEnd": "2026-08-30",
       "location": "Göta MS, Göteborg",
@@ -22092,6 +22096,7 @@ const EVENTS_DATA = {
     {
       "id": "mxsm-uddevalla-2026",
       "name": "MXSM Final - Uddevalla",
+      "backImage": "ads/svemo-back.jpg",
       "date": "2026-09-19",
       "dateEnd": "2026-09-19",
       "location": "BMK Uddevalla, Uddevalla",
