@@ -4076,10 +4076,20 @@ function setupMobileUI() {
     const allOpt = document.createElement('option');
     allOpt.value = 'all'; allOpt.textContent = 'Alla datum';
     mDatumSel.appendChild(allOpt);
+    // Track whether we've added a real month yet, so the first separator
+    // (the static one between time pills and months) is skipped, but the
+    // later one (between current-year months and future-year months like
+    // "Januari 2027") is kept - same as the regions/countries separator.
+    let addedMonth = false;
     Array.from(monthSel.options).forEach(opt => {
       if (opt.value === 'all') return;
       if (opt.value.startsWith('__')) return;
-      if (opt.disabled) return;
+      if (opt.disabled) {
+        if (!addedMonth) return;
+        mDatumSel.appendChild(opt.cloneNode(true));
+        return;
+      }
+      addedMonth = true;
       mDatumSel.appendChild(opt.cloneNode(true));
     });
     mDatumSel.addEventListener('change', e => {
