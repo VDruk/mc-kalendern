@@ -3282,6 +3282,34 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "klingre-ktm-stark-provkorning-2026-06-16",
+      "name": "Visning och provkörning KTM/Stark Klingre",
+      "date": "2026-06-16",
+      "dateEnd": "2026-06-16",
+      "time": "18:00",
+      "endTime": "21:00",
+      "type": "Show",
+      "region": "Västernorrland",
+      "location": "Klingre Motorstadion, Örnsköldsvik",
+      "organizer": "ÖMK / Nordbike",
+      "description": "Visning och provkörning av Stark MX/EX och KTM Enduro på Klingre Motorstadion. I samarbete med ÖMK och Nordbike. Burgare att köpa på plats.",
+      "descriptionFull": "Klingre Motorstadion, Örnsköldsvik.\n\nTid: 16 juni 18:00-21:00.\n\nVisning och provkörning av:\nStark MX / EX\nKTM Enduro\n\nI samarbete med: ÖMK, Nordbike, KTM, STARK.\n\nBurgare att köpa på plats.\n\nDream it. Live it.",
+      "backImage": "ads/klingre-ktm-stark-back-2026-06-16.jpg",
+      "link": "https://www.facebook.com/photo/?fbid=1500357932134666&set=a.516107543893048",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1500357932134666&set=a.516107543893048"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Klingre+Motorstadion+%C3%96rnsk%C3%B6ldsvik",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "stensby-racing-bandagar-mantorp-2026",
       "name": "Bandagar Stensby Racing",
       "date": "2026-06-17",
@@ -10925,6 +10953,41 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "adventurebike-singeltur-sormland-2026-07-19",
+      "name": "Singeltur från Sörmland",
+      "date": "2026-07-19",
+      "dateEnd": "2026-07-19",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Södermanland",
+      "location": "Kungsgatan 14, Eskilstuna",
+      "organizer": "AdventureBike",
+      "description": "Motorcykeltur enbart för singlar från Sörmland. Fina asfaltsvägar med täta stopp för att lära känna varandra. Lunch och fika till självkostnad. Anmälan via adventurebike.se senast 2/7, avgift 300 kr.",
+      "descriptionFull": "Följ med på en motorcykeltur med enbart singlar - ta chansen att träffa andra med samma intresse som söker en partner.\n\nVi åker på fina asfaltsvägar och gör täta intressanta stopp för att ge deltagarna möjlighet att lära känna varandra. Det blir stopp för både lunch och fika till självkostnadspris för den som önskar.\n\nGruppen planeras utifrån gemensamma intressen och könspreferenser. Tanken är att få till en grupp där det finns flera personer som är intresserade för varje deltagare.\n\nAnmälan sker via adventurebike.se senast 2/7, sedan får man ett bekräftelsemail och avgiften på 300 kr/person betalas via swish.\n\nHör av dig vid frågor!\n\nStart: 19 juli kl 10:00, Kungsgatan 14, Eskilstuna.",
+      "backImage": "ads/adventurebike-singeltur-back-2026-07-19.jpg",
+      "link": "https://www.facebook.com/events/1511325220782066",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1511325220782066"
+        },
+        {
+          "label": "adventurebike.se",
+          "url": "https://adventurebike.se"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/adventurebikese"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kungsgatan+14+Eskilstuna",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "jmc-sondagsrundan-2026-07-19",
       "name": "Söndagsrundan",
       "date": "2026-07-19",
@@ -11730,6 +11793,38 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/limestone-sommarfest-back-2026-07-24.jpg"
+    },
+    {
+      "id": "nobodys-mbw-motorveckan-2026-07-24",
+      "name": "MBW - Motorveckan Bike Weekend",
+      "date": "2026-07-24",
+      "dateEnd": "2026-07-24",
+      "time": "10:00",
+      "endTime": "15:00",
+      "type": "Show",
+      "region": "Västerbotten",
+      "location": "Gammplatsen, Lycksele",
+      "organizer": "Nobody's MC Lappland",
+      "description": "Utställning och demodag på Gammplatsen i Lycksele under Lycksele Motorveckan. Representanter från H-DCS och SMC på plats. Provkör nya hojar från UTMAB.",
+      "descriptionFull": "Motorcycles-edition av Nobody's MC Lappland (etablerad 1991) under Lycksele Motorveckan.\n\nFredag 24 juli kl 10:00-15:00.\nPlats: Gammplatsen, Lycksele.\n\nKom titta och provkör nya hojar som visas upp från UTMAB.\n\nRepresentanter från Harley-Davidson Club Sweden (H-DCS) och SMC kommer att finnas på plats.\n\nSponsorer: Lycksele Motorveckan, Screen & Reklam AB (sponsor av vinstpokalerna).",
+      "backImage": "ads/mbw-nobodys-back-2026-07-24.jpg",
+      "link": "https://www.facebook.com/events/1476198190383809",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1476198190383809"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100029671343492"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gammplatsen+Lycksele",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
     },
     {
       "id": "markland-mc-poker-run-hojrock-2026-07-24",
