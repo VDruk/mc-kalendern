@@ -4221,7 +4221,7 @@ const EVENTS_DATA = {
         }
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/kattisavan-midsommar-back-2026-06-19.jpg"
+      "backImage": "ads/kattisavan-midsommar-2026-06-19.jpg"
     },
     {
       "id": "midsommarkorning-svedala-2026-06-19",
