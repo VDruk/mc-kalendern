@@ -507,6 +507,23 @@
     content: ''; flex: 1; height: 1px;
     background: linear-gradient(to right, var(--border), transparent);
   }
+  /* "Pågår nu" live divider (ongoing multi-day events) */
+  .now-divider { color: var(--type-traff); }
+  .now-divider .now-dot {
+    width: 9px; height: 9px; border-radius: 50%;
+    background: var(--type-traff);
+    box-shadow: 0 0 0 0 rgba(22,163,74,0.6);
+    animation: nowPulse 1.8s infinite;
+    flex-shrink: 0;
+  }
+  @keyframes nowPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(22,163,74,0.55); }
+    70%  { box-shadow: 0 0 0 8px rgba(22,163,74,0); }
+    100% { box-shadow: 0 0 0 0 rgba(22,163,74,0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .now-divider .now-dot { animation: none; }
+  }
 
   /* ========== SUPPORT SECTION ========== */
   .support-section {
@@ -5415,7 +5432,28 @@ function render() {
   if (platsCountHeader > 0) countTxt += ' \u00b7 ' + platsCountHeader + (platsCountHeader === 1 ? ' plats' : ' platser');
   document.getElementById('searchCount').textContent = countTxt;
 
-  if (events.length === 0) {
+  // --- "Pågår nu" bucket (desktop, default browse only) ---
+  // Multi-day events that already started (start < today) and are still running
+  // (dateEnd >= today) get pulled out of the timeline into a live section at the
+  // top. Single-day events and events that start today stay in the normal flow.
+  // Pulled out AFTER the header count and map update, so ongoing events still
+  // count in "X evenemang" and still show their map dots. Mobile keeps the old
+  // inline behaviour for now (desktop-first rollout).
+  let ongoingEvents = [];
+  const showOngoing = (window.innerWidth >= 900) && currentMonth === 'all' && !searchQuery && !showPast;
+  if (showOngoing) {
+    ongoingEvents = events.filter(e =>
+      !e._ad && e.dateEnd && e.dateEnd !== e.date && e.date < today && e.dateEnd >= today
+    );
+    if (ongoingEvents.length > 0) {
+      const ongoingIds = new Set(ongoingEvents.map(e => e.id));
+      events = events.filter(e => !ongoingIds.has(e.id));
+      // Ending soonest first ("last chance to catch it")
+      ongoingEvents.sort((a, b) => (a.dateEnd || a.date).localeCompare(b.dateEnd || b.date));
+    }
+  }
+
+  if (events.length === 0 && ongoingEvents.length === 0) {
     // If a region URL was used and we have zero events, show region-specific empty state
     // with nearby region suggestions and a Tipsa CTA. Better for SEO than a thin page.
     const urlReg = getRegionFromURL();
@@ -5471,7 +5509,7 @@ function render() {
 
     // Determine this card's visual type
     // Month divider (skip for injected ad cards)
-    if (!event._ad && monthKey !== state.renderMonth) {
+    if (!event._ad && !state.suppressDivider && monthKey !== state.renderMonth) {
       // Insert support section between first and second month (only in 'all' view)
       if (state.renderMonth !== '' && !state.supportInserted && currentMonth === 'all') {
         state.supportInserted = true;
@@ -5638,6 +5676,21 @@ function render() {
       `;
     }
     grid.appendChild(card);
+  }
+
+  // Render "Pågår nu" section first (desktop default browse only).
+  // These cards skip the month dividers; afterwards we reset the month state
+  // so the first normal card opens a fresh month divider (e.g. JUNI 2026).
+  if (ongoingEvents.length > 0) {
+    const nowDivider = document.createElement('div');
+    nowDivider.className = 'month-divider now-divider';
+    nowDivider.innerHTML = '<span class="now-dot"></span>Pågår nu';
+    grid.appendChild(nowDivider);
+    const st = window._renderState;
+    st.suppressDivider = true;
+    ongoingEvents.forEach(ev => renderSingleCard(ev, st));
+    st.suppressDivider = false;
+    st.renderMonth = '';
   }
 
   if (_isMobileRender) {
