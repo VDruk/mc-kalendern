@@ -9014,6 +9014,37 @@ const EVENTS_DATA = {
       "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
+      "id": "hdk1930-bornholmertraeffet-2026-07-08",
+      "name": "HDK1930 till Bornholmertræffet",
+      "date": "2026-07-08",
+      "dateEnd": "2026-07-12",
+      "time": "09:45",
+      "type": "Körning",
+      "region": "Danmark",
+      "location": "Circle K, Kystvejen 1, Kastrup",
+      "organizer": "HDK1930",
+      "description": "HDK1930 kör tillsammans till Bornholmertræffet. Samling Circle K Kastrup kl 09:45, färja från Ystad 12:30, ankomst Rønne 13:50. Camping, livemusik, fællestur med rökt sild. Hemresa söndag 12 juli.",
+      "descriptionFull": "Harley-Davidson Klubben af 1930 (HDK1930) kör som grupp till Bornholmertræffet 2026.\n\nBrian Nissen håller i arrangemanget i år. Det finns en Messengergrupp 'HDK1930 Bornholmertræffet 2026' för planering. Kontakta Brian för inbjudan.\n\nVad ingår i Bornholmertræffet:\n- Entré fredag till söndag\n- Aftensmad fredag och lördag\n- Morgenmad lördag och söndag\n- Camping på træfpladsen från fredag\n- HDCF's fællestur lördag med rökt sild och öl/vand i klubbhuset\n- Livemusik i tältet från torsdag kväll\n\nMat, öl och förfriskningar säljs på platsen. Övernattning måndag-fredag avregleras separat.\n\nUtresa onsdag 8 juli 2026:\n- Mötesplats: Circle K, Kystvejen 1, 2770 Kastrup\n- 09:45 - Vi möts och hälsar på varandra\n- 10:45 - Avgång mot Ystad\n- 12:30 - Färjeavgång från Ystadfärjan, Bornholmsgatan 8, 271 39 Ystad\n- 13:50 - Ankomst Rønne, sedan gemensam körning till træfpladsen på Skrædderbakkevej 2\n\nHemresa söndag 12 juli 2026:\n- Färjeavgång från Rønne kl 12:30\n\nÖnskemål från deltagare: fællestur runt Bornholm, mer tid på pladsen, gemensam restaurang, besök hos Fru Petersens kagebuffet.\n\nHusk festivalstol eller campingstol. Toaletter och bad finns på platsen.",
+      "backImage": "ads/hdk1930-bornholm-back-2026-07-08.jpg",
+      "link": "https://www.facebook.com/events/898310499302978",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/898310499302978"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/www.hdk1930.dk/"
+        },
+        {
+          "label": "Karta (start)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Kystvejen+1+Kastrup",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d15-smalandshelg-med-grand-prix-speedway-i-malilla-2026",
       "name": "D15 Smålandshelg med Grand prix speedway i Målilla",
       "date": "2026-07-09",
