@@ -2890,6 +2890,7 @@ const EVENTS_DATA = {
       "location": "Tibro MK, Tibro",
       "type": "Racing",
       "organizer": "SVEMO / Tibro MK",
+      "organizerIcon": "clubs/normalized/svemo.png",
       "description": "Deltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.",
       "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
       "region": "Västra Götaland",
@@ -9763,6 +9764,7 @@ const EVENTS_DATA = {
       "location": "Varbergs MK, Varberg",
       "type": "Racing",
       "organizer": "SVEMO / Varbergs MK",
+      "organizerIcon": "clubs/normalized/svemo.png",
       "description": "Deltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.",
       "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
       "region": "Halland",
@@ -14619,6 +14621,7 @@ const EVENTS_DATA = {
       "location": "Ulricehamns MK, Ulricehamn",
       "type": "Racing",
       "organizer": "SVEMO / Ulricehamns MK",
+      "organizerIcon": "clubs/normalized/svemo.png",
       "description": "Deltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.",
       "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
       "region": "Västra Götaland",
@@ -16793,6 +16796,41 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "condios-barnens-oas-rydaholm-2026",
+      "name": "En kväll med Barnens Oas",
+      "backImage": "ads/barnens-oas-back-2026-08-19.jpg",
+      "date": "2026-08-19",
+      "dateEnd": "2026-08-19",
+      "location": "Sjöholmen Sommarhem, Rydaholm",
+      "type": "Träff",
+      "organizer": "Con Dios MC",
+      "organizerIcon": "clubs/normalized/con-dios-mc.png",
+      "description": "Con Dios MC skjutsar barnen från Barnens Oas en runda på hoj. Sedan grillning och gemenskap. Samling 17.45, glöm inte skjutshjälm.",
+      "descriptionFull": "Nu är det dags igen för ett besök av Barnens Oas. Vi börjar med att skjutsa barnen en runda på hoj. Därefter grillar vi och får lyssna på barnen och du har även möjlighet att ge en gåva till verksamheten.\nVi som ska skjutsa samlas 17.45. Glöm inte skjutshjälm! (Har du extra skjutshjälm så ta med den med)\nAlla är välkomna.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1463622635035123/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/condiosmc"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Rydaholmsfrikyrka"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sj%C3%B6holmen+Sommarhem%2C+Rydaholm",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/condiosmc",
+      "region": "Jönköping",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-kvallskörning-norrtalje-2026-08-19",
       "name": "DOA - Kvällskörning Norrtälje",
       "date": "2026-08-19",
@@ -18741,6 +18779,7 @@ const EVENTS_DATA = {
       "location": "Göta MS, Göteborg",
       "type": "Racing",
       "organizer": "SVEMO / Göta MS",
+      "organizerIcon": "clubs/normalized/svemo.png",
       "description": "Deltävling i Svenska Mästerskapen i Motocross. Klasser: MX1, MX2, MX-Women. Mer info på svemo.se.",
       "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
       "region": "Västra Götaland",
@@ -22102,6 +22141,7 @@ const EVENTS_DATA = {
       "location": "BMK Uddevalla, Uddevalla",
       "type": "Racing",
       "organizer": "SVEMO / BMK Uddevalla",
+      "organizerIcon": "clubs/normalized/svemo.png",
       "description": "Svenska Mästerskapen i Motocross, sista deltävlingen (MX1, MX2, MX-Women, USM 125 U17).",
       "link": "https://www.svemo.se/vara-sportgrenar/start-motocross/tavlingar-motocross",
       "region": "Västra Götaland",
