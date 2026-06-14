@@ -5681,14 +5681,14 @@ const EVENTS_DATA = {
       "organizer": "Haskas MC Eastside",
       "source": "facebook.com",
       "link": "https://www.facebook.com/haskasmc",
-      "description": "MC-fest hos Haskas MC Eastside på Sandbergens Festplats, Öland. 26-28 juni. Inträde 350 kr inkl camping och frukost. Live på scen fre och lör. Open for any bike.",
-      "descriptionFull": "Datum: 26-28 juni 2026\nPlats: Sandbergens Festplats, Öland\nStart: fredagen den 26 juni från kl 16:00\nInträde: 350 kr inkl camping OCH frukost\n\nPå scen:\nFredag: mer info kommer\nLördag: mer info kommer\n\nGäller alla hojar, alla modeller, alla årtal. ALLA ÄR VÄLKOMNA!\n\nVi ses i sommar // Haskas MC Eastside\n\nGILLA - DELA och KOM",
+      "description": "MC-fest hos Haskas MC Eastside på Sandbergens Festplats, Öland. 26-28 juni. Inträde 350 kr inkl camping och frukost. Common Blue + DJ-JIM fredag, The Hildebirds och WhatAMess lördag. Open for any bike.",
+      "descriptionFull": "Datum: 26-28 juni 2026\nPlats: Sandbergens Festplats, Öland\nStart: fredagen den 26 juni från kl 16:00\nInträde: 350 kr inkl camping OCH frukost\n\nPå scen:\nFredag: Common Blue + DJ-JIM\nLördag: The Hildebirds, WhatAMess\n\nGäller alla hojar, alla modeller, alla årtal. ALLA ÄR VÄLKOMNA!\n\nVi ses i sommar // Haskas MC Eastside\n\nGILLA - DELA och KOM",
       "backImage": "ads/run-to-the-sun-back-2026-06-26.jpg",
       "backImagePosition": "top",
       "links": [
         {
           "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=1433028382201769&set=a.569315345239748"
+          "url": "https://www.facebook.com/photo/?fbid=1452141276957146&set=a.569315345239748"
         },
         {
           "label": "FB Sida",
