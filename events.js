@@ -3841,6 +3841,34 @@ const EVENTS_DATA = {
       "backImage": "ads/smc-default-back.jpg"
     },
     {
+      "id": "ekens-mc-kvarnarpstraffen-2026-06-17",
+      "name": "Kvarnarpsträffen",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Jönköping",
+      "location": "Kvarnarps Gård, Eksjö",
+      "organizer": "Ekens MC",
+      "description": "Inbjudan till Kvarnarpsträffen hos Ekens MC. Trevlig MC-träff i kvällsljus på Kvarnarps Gård utanför Eksjö. Kl 17-20.",
+      "descriptionFull": "Inbjudan till Kvarnarpsträffen!\n\nDatum: Onsdag 17 juni 2026.\nTid: 17:00-20:00.\nPlats: Kvarnarps Gård, Eksjö.\n\nAnordnas av Ekens MC.\n\nKom på en härlig MC-träff i kvällsljus med likasinnade hojåkare. Välkommen!",
+      "backImage": "ads/kvarnarpstraffen-back-2026-06-17.jpg",
+      "link": "https://www.facebook.com/photo/?fbid=1090640836722390&set=a.461292566323890",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1090640836722390&set=a.461292566323890"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kvarnarps+G%C3%A5rd+Eksj%C3%B6",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "stensby-racing-bandagar-mantorp-2026",
       "name": "Bandagar Stensby Racing",
       "date": "2026-06-17",
