@@ -4225,6 +4225,38 @@ const EVENTS_DATA = {
       "backImage": "ads/ridersday-back-2026-06-18.jpg"
     },
     {
+      "id": "smc-vastmanland-torsdagstur-norrtalje-2026-06-18",
+      "name": "Torsdagstur till Bergstugan Norrtälje",
+      "date": "2026-06-18",
+      "dateEnd": "2026-06-18",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Domkraftsgatan, Erikslund, Västerås",
+      "organizer": "SMC Västmanland",
+      "organizerIcon": "clubs/normalized/smc.png",
+      "description": "Torsdagstur med SMC Västmanland. Start från återvinningen på Domkraftsgatan kl 10:00, lunch på Bergstugan Norrtälje, avslut på Järnvägscaféet Sala. Ca 34 mil. Christer Nore leder turen.",
+      "descriptionFull": "Hej Mc Vänner!\n\nPå torsdag 18/6 kl 10:00 startar vi från Domkraftsgatan vid återvinningsstationen, Erikslund.\n\nVi kommer köra till Bergstugan, Norrtälje där vi äter lunch.\n\nVi avslutar på Järnvägscaféet Sala.\n\nTuren är på ca 34 mil. Jag kommer leda turen.\n\nVäl mött!\nChrister Nore\nTel: 070 5185434",
+      "backImage": "ads/smc-vastmanland-torsdagstur-back-2026-06-18.jpg",
+      "link": "https://www.facebook.com/SmcVastmanland/posts/1331573129161221",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/SmcVastmanland/posts/1331573129161221"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/SmcVastmanland"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Domkraftsgatan+Erikslund+V%C3%A4ster%C3%A5s",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "smc-stockholm-singelhojar-2026-06-19",
       "name": "Singelhojar i blom",
       "date": "2026-06-19",
