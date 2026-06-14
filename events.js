@@ -11960,6 +11960,41 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "rat-fink-reunion-by-kyrkby-2026-07-25",
+      "name": "Rat Fink Reunion",
+      "date": "2026-07-25",
+      "dateEnd": "2026-07-25",
+      "time": "10:00",
+      "location": "Näs IP, Näsvägen 41, By Kyrkby",
+      "type": "Show",
+      "organizer": "Mooneyes Sweden",
+      "description": "Hot rods, customs och hojar samlas i gamla folkparken i By Kyrkby tillsammans med pinstripers och konstnärer. Pinup show och pristävlingar för Hottest Hot Rod, Coolest Custom och Bitchin Bike.",
+      "descriptionFull": "Hot rods, custom & hojar samlas åter igen i den gamla folkparken tillsammans med pinstripers och alla möjliga typer av konstnärer.\n\nPinup show.\n\nPrisutdelning till Hottest Hot Rod, Coolest Custom & Bitchin Bike.\n\nMer info: www.mooneyessweden.com\n\nPlats: Näs IP, Näsvägen 41, 774 99 By Kyrkby (Avesta kommun).",
+      "backImage": "ads/rat-fink-reunion-back-2026-07-25.jpg",
+      "link": "https://www.facebook.com/events/1698288438160146",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1698288438160146"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/mooneyessweden"
+        },
+        {
+          "label": "mooneyessweden.com",
+          "url": "https://www.mooneyessweden.com"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=N%C3%A4sv%C3%A4gen+41+By+Kyrkby",
+          "type": "map"
+        }
+      ],
+      "region": "Dalarna",
+      "source": "facebook.com"
+    },
+    {
       "id": "jmc-sondagsrundan-2026-07-26",
       "name": "Söndagsrundan",
       "date": "2026-07-26",
