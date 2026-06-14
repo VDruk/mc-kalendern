@@ -6231,6 +6231,38 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "mud-ratz-juni-manadskorning-2026-06-27",
+      "name": "Juni månadskörning Mud Ratz",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "time": "09:45",
+      "endTime": "16:00",
+      "type": "Körning",
+      "region": "Jönköping",
+      "location": "Torskrok, Myresjö",
+      "organizer": "Vetlanda ATV Offroad",
+      "description": "Månadskörning för ATV och UTV i skogen vid Torskrok mellan Vetlanda och Myresjö. Tekniska spår, vatten och gegga. Förarmöte 09:45, körning 10-16. Ta med grillmat till lunch.",
+      "descriptionFull": "Månadskörning hos Vetlanda ATV Offroad - Mud Ratz!\n\nVi utlovar en rolig dag i skogen på våra olika spår. Det finns teknisk prövande körning, och även vatten och gegga.\n\nEfter gallring och slutavverkning på Slinga 1. Följ röd/vita band och röda/gröna pilar.\n\nVid lunch är grillglöden redo. Ta med er något gott att grilla så tjötar vi lite om förmiddagens tur i skogen.\n\nProgram:\nkl 09:45-10:00 Förarmöte\nkl 10:00-16:00 Körning\n\nKom gärna i tid eller meddela oss i chatten om ni blir sena, så att vi inte är i skogen och kör.\n\nFör ATV och UTV.\n\nMedlemsavgifter 2026:\n- Ungdom tom 17 år: 100 kr/år\n- Enskild: 400 kr/år\n- Familj: 500 kr/år\n\nEj medlem, köravgift:\n- över 150 cc: 50 kr/gång\n- över 175 cc: 300 kr/gång\n\nAvgift eller medlemsavgift betalas innan man kör ut på körning via Swish till 076 896 76 97.\n\nRegler:\n- Medlemmar SKALL sätta klistermärket synligt på sitt fordon.\n- Ägare av fordonet skall kunna uppvisa att fordonet är försäkrat.\n- Varje ATV/UTV har brandsläckare med sig.\n- ATV-förare har ryggskena.\n- Hjälmtvång för ATV/UTV.\n\nPlats: Klubbens övningsområde vid Torskrok, mellan Vetlanda och Myresjö.",
+      "backImage": "ads/mud-ratz-juni-back-2026-06-27.jpg",
+      "link": "https://www.facebook.com/events/1994805387807594",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1994805387807594"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100064767876608"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Torskrok+Myresj%C3%B6",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "lo-i-lordagskörningar-kramfors-2026-06-27",
       "name": "LO I Lördagskörningar Kramfors",
       "date": "2026-06-27",
