@@ -23738,6 +23738,40 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "american-days-oland-2027-06-03",
+      "name": "American Days Öland - 5 Year Anniversary",
+      "date": "2027-06-03",
+      "dateEnd": "2027-06-06",
+      "type": "Show",
+      "region": "Kalmar",
+      "location": "Lundegård Camping, Köpingsvik, Öland",
+      "organizer": "American Days Sweden",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1359906629533646",
+      "description": "Skandinaviens största mat, motor och musikfestival på Öland firar 5-årsjubileum. Nytt datum 3-6 juni 2027 efter framflyttning från ursprunglig vecka. Early Bird-biljetter släpps 1 oktober.",
+      "descriptionFull": "FIVE YEAR ANNIVERSARY\n\nPå grund av kalenderupplägget för 2027 och flera event under närliggande datum har vi valt att flytta fram en vecka. Nya datum är 3-6 juni 2027.\n\nVi känner att detta ger de bästa förutsättningarna för både besökare, utställare, campinggäster och deltagare och med detta kan vi ge en ännu bättre uppladdning inför vårt FIVE YEAR ANNIVERSARY på Öland.\n\nEarly Bird-biljetterna släpps som vanligt den 1 oktober.\n\nVi hoppas att ni är lika taggade som vi är - vi ses 2027!\n\nProbably Scandinavias biggest Food, Motor and Music Festival!\n\nPlats: Lundegård Camping och stugby, Lundegård 6, 387 96 Köpingsvik, Öland.",
+      "backImage": "ads/american-days-back-2027-06-03.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1359906629533646"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/americandayssweden"
+        },
+        {
+          "label": "americandays.se",
+          "url": "https://www.americandays.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lundeg%C3%A5rd+Camping+K%C3%B6pingsvik",
+          "type": "map"
+        }
+      ]
     }
   ],
   "archivedCount": 908,
