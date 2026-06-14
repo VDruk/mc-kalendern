@@ -3845,28 +3845,34 @@ const EVENTS_DATA = {
       "name": "Bandagar Stensby Racing",
       "date": "2026-06-17",
       "dateEnd": "2026-06-18",
+      "time": "09:00",
+      "endTime": "17:00",
       "location": "Mantorp Park, Mantorp",
       "type": "Körning",
-      "organizer": "Stensby Racing",
-      "description": "Två heldagar på bana med körning, service och gemenskap! Öppen depå 9-17, fotografer, däckservice och restaurang på plats.",
-      "descriptionFull": "Två heldagar på bana med massor av körning, service och gemenskap!\n\nNytt datum: 17-18 juni 2026, men upplägget är detsamma:\n\nÖppen depå 9-17, kör så mycket du vill!\nFotografer på plats, minnen för livet.\nPrimo Moto / Pirelli däckservice, alltid fräscha däck.\nRestaurang Depå, mat och fika hela dagen.\nAmbulans på plats, säkerheten först.\n\nAdvanced Motobility med komplett sortiment: skinnställ, handskar, stövlar m.m.\nBjörsner MC Teknik med support, reservdelar och bromsbänk bara 5 km från banan. De ställer även ut MC-modeller från Royal Enfield och Suzuki för provkörning!\n\nBoka din plats i tid, förra året fyllde vi snabbt!\n\nPlats: Mantorp Park, Mantorp.",
-      "backImage": "ads/stensby-racing-bandagar-back-2026-06-17.jpg",
+      "organizer": "Stensbytrackdays",
+      "description": "FULLBOKAT båda dagar! Två heldagar på bana med körning, service och gemenskap. Öppen depå 9-17, fotografer, däckservice och restaurang på plats.",
+      "descriptionFull": "FULLBOKAT! Tack för ert stora intresse, vi ses på banan!\n\nOnsdag 17 juni: FULLBOKAT.\nTorsdag 18 juni: FULLBOKAT.\n\nUpplägget:\n\nTvå heldagar på bana med massor av körning, service och gemenskap.\n\nÖppen depå 9-17, kör så mycket du vill!\nInga fasta körpass - maximalt med körtid för dig.\nFotografer på plats, minnen för livet.\nPrimo Moto / Pirelli däckservice, alltid fräscha däck.\nRestaurang Depå, mat och fika hela dagen.\nAmbulans på plats, säkerheten först.\n\nAdvanced Motobility med komplett sortiment: skinnställ, handskar, stövlar m.m.\nBjörsner MC Teknik med support, reservdelar och bromsbänk bara 5 km från banan. De ställer även ut MC-modeller från Royal Enfield och Suzuki för provkörning!\nCNAME AB på plats.\n\nPlats: Mantorp Park, Parisvägen 8, Mantorp.",
+      "backImage": "ads/stensby-bandagar-fullbokat-back-2026-06-17.jpg",
       "links": [
         {
           "label": "FB Event",
-          "url": "https://www.facebook.com/events/2014933485948219"
+          "url": "https://www.facebook.com/events/1591186021947871"
+        },
+        {
+          "label": "stensbytrackdays.se",
+          "url": "https://stensbytrackdays.se"
         },
         {
           "label": "stensby-racing.se",
-          "url": "https://stensby-racing.se/bandag-testtune-mantorp-park/"
+          "url": "https://stensby-racing.se/events/bandag-testtune-mantorp-park-17-18e-juni-2026"
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Mantorp+Park+Mantorp",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mantorp+Park+Parisv%C3%A4gen+8+Mantorp",
           "type": "map"
         }
       ],
-      "link": "https://stensby-racing.se/bandag-testtune-mantorp-park/",
+      "link": "https://www.facebook.com/events/1591186021947871",
       "region": "Östergötland",
       "source": "facebook.com"
     },
