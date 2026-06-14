@@ -3483,6 +3483,38 @@ const EVENTS_DATA = {
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
     },
     {
+      "id": "holmentraffen-mariestad-2026-06-17",
+      "name": "Holmenträffen",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Cafe Sandholmen, Nygatan 32, Mariestad",
+      "organizer": "Mariestads Fordonshistor.",
+      "description": "Veteran- och entusiastfordonsträff på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park. Bilar, MC, mopeder, EPA och A-traktorer välkomna. Onsdagskväll 17-20.",
+      "descriptionFull": "Tillfälle för dig med intresse för gamla bilar, mc, mopeder och andra entusiastfordon att träffa likasinnade.\n\nTräffarna hålls på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park, Mariestad. Caféet håller även öppet samtliga träffar.\n\nAlla med veteran eller entusiastfordon hälsas varmt välkomna. Givetvis är EPA, A-traktorer och stylade bilar också det.\n\nParkeringsvakterna på plats visar dig vart du kan parkera.\n\nTid: Onsdagar kl 17:00-20:00.\n\nDatum 2026: 6/5, 13/5, 20/5, 3/6, 17/6, 15/7, 5/8, 26/8, 9/9.\n\nArrangör: Mariestads Fordonshistoriska Sällskap.",
+      "backImage": "ads/holmentraffen-back-2026.jpg",
+      "link": "https://www.facebook.com/events/1638099246911061",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1638099246911061"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/MariestadsFordonshistoriskaSallskap"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cafe+Sandholmen+Nygatan+32+Mariestad",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "mchk-gävleborg-klubbkörning-gåsholma-2026-06-17",
       "name": "Klubbkörning till Gåsholma",
       "date": "2026-06-17",
@@ -10062,6 +10094,38 @@ const EVENTS_DATA = {
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
     },
     {
+      "id": "holmentraffen-mariestad-2026-07-15",
+      "name": "Holmenträffen",
+      "date": "2026-07-15",
+      "dateEnd": "2026-07-15",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Cafe Sandholmen, Nygatan 32, Mariestad",
+      "organizer": "Mariestads Fordonshistor.",
+      "description": "Veteran- och entusiastfordonsträff på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park. Bilar, MC, mopeder, EPA och A-traktorer välkomna. Onsdagskväll 17-20.",
+      "descriptionFull": "Tillfälle för dig med intresse för gamla bilar, mc, mopeder och andra entusiastfordon att träffa likasinnade.\n\nTräffarna hålls på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park, Mariestad. Caféet håller även öppet samtliga träffar.\n\nAlla med veteran eller entusiastfordon hälsas varmt välkomna. Givetvis är EPA, A-traktorer och stylade bilar också det.\n\nParkeringsvakterna på plats visar dig vart du kan parkera.\n\nTid: Onsdagar kl 17:00-20:00.\n\nDatum 2026: 6/5, 13/5, 20/5, 3/6, 17/6, 15/7, 5/8, 26/8, 9/9.\n\nArrangör: Mariestads Fordonshistoriska Sällskap.",
+      "backImage": "ads/holmentraffen-back-2026.jpg",
+      "link": "https://www.facebook.com/events/1638099246911061",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1638099246911061"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/MariestadsFordonshistoriskaSallskap"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cafe+Sandholmen+Nygatan+32+Mariestad",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "nordic-run-finland-2026-07-15",
       "name": "Nordic Run: Nyslott till Imatra (final)",
       "date": "2026-07-15",
@@ -13659,6 +13723,38 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "holmentraffen-mariestad-2026-08-05",
+      "name": "Holmenträffen",
+      "date": "2026-08-05",
+      "dateEnd": "2026-08-05",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Cafe Sandholmen, Nygatan 32, Mariestad",
+      "organizer": "Mariestads Fordonshistor.",
+      "description": "Veteran- och entusiastfordonsträff på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park. Bilar, MC, mopeder, EPA och A-traktorer välkomna. Onsdagskväll 17-20.",
+      "descriptionFull": "Tillfälle för dig med intresse för gamla bilar, mc, mopeder och andra entusiastfordon att träffa likasinnade.\n\nTräffarna hålls på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park, Mariestad. Caféet håller även öppet samtliga träffar.\n\nAlla med veteran eller entusiastfordon hälsas varmt välkomna. Givetvis är EPA, A-traktorer och stylade bilar också det.\n\nParkeringsvakterna på plats visar dig vart du kan parkera.\n\nTid: Onsdagar kl 17:00-20:00.\n\nDatum 2026: 6/5, 13/5, 20/5, 3/6, 17/6, 15/7, 5/8, 26/8, 9/9.\n\nArrangör: Mariestads Fordonshistoriska Sällskap.",
+      "backImage": "ads/holmentraffen-back-2026.jpg",
+      "link": "https://www.facebook.com/events/1638099246911061",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1638099246911061"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/MariestadsFordonshistoriskaSallskap"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cafe+Sandholmen+Nygatan+32+Mariestad",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
     },
     {
       "id": "jernviken-onsdagsfika-2026-08-05",
@@ -17897,6 +17993,38 @@ const EVENTS_DATA = {
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
     },
     {
+      "id": "holmentraffen-mariestad-2026-08-26",
+      "name": "Holmenträffen",
+      "date": "2026-08-26",
+      "dateEnd": "2026-08-26",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Cafe Sandholmen, Nygatan 32, Mariestad",
+      "organizer": "Mariestads Fordonshistor.",
+      "description": "Veteran- och entusiastfordonsträff på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park. Bilar, MC, mopeder, EPA och A-traktorer välkomna. Onsdagskväll 17-20.",
+      "descriptionFull": "Tillfälle för dig med intresse för gamla bilar, mc, mopeder och andra entusiastfordon att träffa likasinnade.\n\nTräffarna hålls på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park, Mariestad. Caféet håller även öppet samtliga träffar.\n\nAlla med veteran eller entusiastfordon hälsas varmt välkomna. Givetvis är EPA, A-traktorer och stylade bilar också det.\n\nParkeringsvakterna på plats visar dig vart du kan parkera.\n\nTid: Onsdagar kl 17:00-20:00.\n\nDatum 2026: 6/5, 13/5, 20/5, 3/6, 17/6, 15/7, 5/8, 26/8, 9/9.\n\nArrangör: Mariestads Fordonshistoriska Sällskap.",
+      "backImage": "ads/holmentraffen-back-2026.jpg",
+      "link": "https://www.facebook.com/events/1638099246911061",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1638099246911061"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/MariestadsFordonshistoriskaSallskap"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cafe+Sandholmen+Nygatan+32+Mariestad",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
+    },
+    {
       "id": "jarlasa-motor-meet-9-2026-08-26",
       "name": "Järlåsa Motor Meet #9",
       "date": "2026-08-26",
@@ -20206,6 +20334,38 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/tykarpsgrottan-grillkvall-back-2026.jpg"
+    },
+    {
+      "id": "holmentraffen-mariestad-2026-09-09",
+      "name": "Holmenträffen",
+      "date": "2026-09-09",
+      "dateEnd": "2026-09-09",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Cafe Sandholmen, Nygatan 32, Mariestad",
+      "organizer": "Mariestads Fordonshistor.",
+      "description": "Veteran- och entusiastfordonsträff på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park. Bilar, MC, mopeder, EPA och A-traktorer välkomna. Onsdagskväll 17-20.",
+      "descriptionFull": "Tillfälle för dig med intresse för gamla bilar, mc, mopeder och andra entusiastfordon att träffa likasinnade.\n\nTräffarna hålls på gräsmattan utanför Café Sandholmen i Karlsholme Folkets Park, Mariestad. Caféet håller även öppet samtliga träffar.\n\nAlla med veteran eller entusiastfordon hälsas varmt välkomna. Givetvis är EPA, A-traktorer och stylade bilar också det.\n\nParkeringsvakterna på plats visar dig vart du kan parkera.\n\nTid: Onsdagar kl 17:00-20:00.\n\nDatum 2026: 6/5, 13/5, 20/5, 3/6, 17/6, 15/7, 5/8, 26/8, 9/9.\n\nArrangör: Mariestads Fordonshistoriska Sällskap.",
+      "backImage": "ads/holmentraffen-back-2026.jpg",
+      "link": "https://www.facebook.com/events/1638099246911061",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1638099246911061"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/MariestadsFordonshistoriskaSallskap"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cafe+Sandholmen+Nygatan+32+Mariestad",
+          "type": "map"
+        }
+      ],
+      "source": "facebook.com"
     },
     {
       "id": "onsdagskorning-skovde-2026-09-09",
