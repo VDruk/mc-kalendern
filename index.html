@@ -625,6 +625,14 @@
     contain-intrinsic-size: auto 350px;
     border-top: 3px solid transparent;
   }
+  /* CLS fix (2026-06-15): on mobile, cards are batch-rendered (30 at a time), so
+     content-visibility gives almost no benefit, but its 350px size estimate is far
+     taller than a real mobile card (~160-190px). As short cards snap to their real
+     height on scroll, the page shifts (mobile CLS). Turn it off on mobile only.
+     Desktop (785 cards) keeps content-visibility for render speed. */
+  @media (max-width: 768px) {
+    .card { content-visibility: visible; contain-intrinsic-size: auto; }
+  }
   /* Type color bars */
   .card.tb-traff { border-top-color: var(--type-traff); }
   .card.tb-korning { border-top-color: var(--type-korning); }
