@@ -3312,6 +3312,33 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "garaget-fikakvall-orebro-2026-06-17",
+      "name": "Fikakväll på Garaget",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "16:20",
+      "location": "Garaget, Osmundgatan 3, 703 83 Örebro",
+      "type": "Träff",
+      "organizer": "Garaget Örebro",
+      "description": "Fikakväll igen på Garaget vid Osmundgatan i Örebro. Onsdag 17 juni från cirka kl 16.20. Kom förbi, fika och prata hoj. Alla välkomna.",
+      "descriptionFull": "Onsdag 17 juni är det fikakväll igen på Garaget i Örebro, från cirka kl 16.20.\n\nVälkommen!\n\nPlats: Garaget, Osmundgatan 3, Örebro.",
+      "backImage": "ads/garaget-fikakvall-back-2026-06-17.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10164285308878629&set=gm.27967409592844872&idorvanity=580620818617119"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Osmundgatan+3+%C3%96rebro",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/photo/?fbid=10164285308878629&set=gm.27967409592844872&idorvanity=580620818617119",
+      "region": "Örebro",
+      "source": "facebook.com"
+    },
+    {
       "id": "stensby-racing-bandagar-mantorp-2026",
       "name": "Bandagar Stensby Racing",
       "date": "2026-06-17",
@@ -13128,6 +13155,38 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "historical-racing-grangesberg-2026-08-01",
+      "name": "Historical Racing Grängesberg",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "time": "09:00",
+      "endTime": "18:00",
+      "location": "Jakobinavägen 17, 772 40 Grängesberg",
+      "type": "Racing",
+      "organizer": "Historical Racing",
+      "description": "En fartfylld tävling på asfalt med historiska fordon byggda före 1949. Både bil och MC på den 1200 meter långa banan i Grängesbergs gruvområde. Kl 09-18.",
+      "descriptionFull": "En fartfylld tävling på asfalt med historiska fordon före 1949.\n\n1 augusti 2026, kl 09.00-18.00.\n\n2026 är tävlingen 2 timmar längre med 3 heat samt 4 varv/heat, 6 bilar/heat. 2026 har vi 30 bilar som vanligt men MC ökar vi från 15 till 20 st.\n\nEventet sker på den 1200 meter långa asfalterade tävlingsbanan i Grängesbergs gruvområde (Maskinhuset).\n\nPlats: Jakobinavägen 17, Grängesberg.",
+      "backImage": "ads/historical-racing-grangesberg-back-2026-08-01.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo.php?fbid=122253360554117743&set=pb.61553532306112.-2207520000&type=3"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=61553532306112"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Jakobinav%C3%A4gen+17+Gr%C3%A4ngesberg",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/profile.php?id=61553532306112",
+      "region": "Dalarna",
+      "source": "facebook.com"
+    },
+    {
       "id": "bisonturen-2026",
       "name": "Bisonturen",
       "date": "2026-08-01",
@@ -15708,6 +15767,37 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "vulcan-riders-sydtraffen-2026-08-14",
+      "name": "Sydträffen",
+      "date": "2026-08-14",
+      "dateEnd": "2026-08-16",
+      "location": "Frostavallen, 243 93 Höör",
+      "type": "Träff",
+      "organizer": "Vulcan Riders Sweden",
+      "organizerIcon": "clubs/normalized/vra-sweden.png",
+      "description": "Vulcan Riders Skåneland träffas på Frostavallen utanför Höör. Boende på vandrarhem, mat i restaurangen, grillning, bad i Vaxsjön och Ride-Out. Anmälan senast 30 juni.",
+      "descriptionFull": "Häng med på Sydträffen i augusti!\n\nVälkommen till Frostavallen utanför Höör där vi har vår träff, bor på vandrarhem, äter gott i restaurangen, grillar, badar i Vaxsjön, kör Ride-Out och har det trevligt.\n\nMen då måste du anmäla dig senast 30 juni.\n\nPlats: Frostavallen, Höör.",
+      "backImage": "ads/sydtraffen-back-2026-08-14.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10228577512136809&set=gm.27422705867382430&idorvanity=642063332540047"
+        },
+        {
+          "label": "vulcanriders-sweden.org",
+          "url": "https://www.vulcanriders-sweden.org"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Frostavallen+H%C3%B6%C3%B6r",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.vulcanriders-sweden.org",
+      "region": "Skåne",
+      "source": "facebook.com"
     },
     {
       "id": "aprilia-bandag-kinnekulle-2026-08-14",
