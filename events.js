@@ -9477,6 +9477,30 @@ const EVENTS_DATA = {
       "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
+      "id": "vho-hojtraff-kinnekulle-2026-07-11",
+      "name": "Hojträff på Kinnekulle",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-12",
+      "time": "08:00",
+      "endTime": "16:00",
+      "location": "Kinnekulle Ring, Götene",
+      "type": "Körning",
+      "organizer": "Von Hausswolff On Track",
+      "_vehicle": "mc",
+      "description": "Trackday med Von Hausswolff On Track på Kinnekulle Ring (Västra Götaland) 11-12 juli 2026. Två dagar, 20-minuterspass i fyra fartgrupper, fika och lunch ingår. Rabatt 300 kr om du bokar båda dagarna.",
+      "descriptionFull": "Välkommen på hojträff på Kinnekulle Ring!\n\nObservera att vi kör två dagar i år! Du är välkommen att delta på båda, men måste boka varje dag separat. Bokar du båda anger du båda dagars bokningskod, och beloppet blir då 2x1895-300=3490.\n\nVi erbjuder dig en eller två trevliga dagar i gott sällskap, med duktiga föråkare, lagom stora grupper och lite mer plats på banan. Fika och lunch ingår - du kommer inte att behöva vara hungrig.\n\nDu ska ha gatregistrerad (påställd och försäkrad) motorcykel, körkort och ett glatt humör med dig. Du kör med hänsyn och omtanke, oavsett hastighet och ambition.\n\nVi startar kl 08.00, sedan kör vi 20-minuterspass med fyra fartgrupper mellan kl 09.00 och 16.00.\n\nBoka din plats via vhontrack.bokamera.se/book.\n\nPlats: Kinnekulle Ring, Götene.",
+      "backImage": "ads/vho-hojtraff-kinnekulle-back-2026-07-11.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1869532700341463"},
+        {"label": "FB Sida", "url": "https://www.facebook.com/profile.php?id=100083305480959"},
+        {"label": "Boka", "url": "https://vhontrack.bokamera.se/book"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Kinnekulle+Ring+G%C3%B6tene", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1869532700341463",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "dog-fikatraff-pa-radis-2026-07-11",
       "name": "DOG - Fika på Rådis",
       "date": "2026-07-11",
@@ -18839,6 +18863,29 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "smc-ung-hangout-eskilstuna-2026-08-29",
+      "name": "SMC UNG Hangout",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "12:00",
+      "location": "Eskilstuna Track & Resort",
+      "type": "Träff",
+      "organizer": "SMC UNG",
+      "organizerIcon": "clubs/normalized/smc.png",
+      "_vehicle": "mc",
+      "description": "Ungdomshäng för MC-åkare 16-35 år på Eskilstuna Track & Resort (Södermanland) lördag 29 augusti 2026. KNIX för den som vill (390 kr, föranmälan), matvagn, musik och kvällshäng på Vilsta.",
+      "descriptionFull": "VART: Eskilstuna Track & Resort, 29 augusti.\n\nINFO: En dag för att köra, hänga och träffa andra som gillar hoj lika mycket som du. Det blir KNIX för de som vill och föranmäler (utan krav på medlemskap). Det gäller alla mellan 16-35 år!\n\nDu behöver inte köra KNIX för att komma - vi kommer att ha massa annat roligt så som matvagn, musik och skön stämning. Ni behöver inte föranmäla er om ni inte kör KNIX. Vi har även merch på plats och det kan dyka upp någon tävling eller två under dagen.\n\nKVÄLLEN: Efter KNIX fortsätter kvällen på Vilsta med bad, grill och häng. Dit är man välkommen även om man inte övernattar.\n\nPRIS: KNIX kostar 390 kr (ord. 500 kr), anmäl via grundkurser.svmc.se.\n\nBOENDE: För dig som åker en bit finns boende på Vilsta sporthotell med ungdomsrabatt, från 375 kr/person på hotellet och från 199 kr/person i självhushållsstuga.\n\nArrangör: SMC UNG.\n\nPlats: Eskilstuna Track & Resort.",
+      "backImage": "ads/smc-ung-hangout-back-2026-08-29.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1882854555734327"},
+        {"label": "grundkurser.svmc.se", "url": "https://grundkurser.svmc.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Eskilstuna+Track+%26+Resort", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1882854555734327",
+      "region": "Södermanland",
+      "source": "facebook.com"
     },
     {
       "id": "bmw-d8-limfjorden-runt-med-bmwklubben-danmark-2026",
