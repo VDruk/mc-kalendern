@@ -11407,6 +11407,29 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "solleftea-mopedcruising-2026-07-22",
+      "name": "Sollefteå Mopedcruising 20 år",
+      "date": "2026-07-22",
+      "dateEnd": "2026-07-22",
+      "time": "16:00",
+      "endTime": "21:00",
+      "location": "Sollefteå kommunparkering, Hantverkaregatan, 881 31 Sollefteå",
+      "type": "Körning",
+      "organizer": "Sollefteå Mopedcruising",
+      "_vehicle": "moped",
+      "description": "Sollefteå Mopedcruising firar 20 år (2006-2026). Mopedträff och cruising i Västernorrland onsdag 22 juli 2026. Dagtid blir tipsrundan ett mopedrally på några mil. Samling från kl 16.",
+      "descriptionFull": "Information kommer att publiceras på vår hemsida (www.smf-solleftea.se), här på detta FB-evenemang och på Facebook-sidan Sollefteå Mopedcruising under våren/närmare sommaren!\n\nNya inslag och uppdateringar (tipsrundan på dagtid blir mopedrally på x antal mil) förväntas.\n\nJubileum 20 år, 2006-2026.\n\nPlats: Sollefteå kommunparkering, Hantverkaregatan, Sollefteå.",
+      "backImage": "ads/solleftea-mopedcruising-back-2026-07-22.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1974476356463760"},
+        {"label": "smf-solleftea.se", "url": "https://www.smf-solleftea.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Hantverkaregatan+881+31+Sollefte%C3%A5", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1974476356463760",
+      "region": "Västernorrland",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-sommarkvallstur-skogskyrkogarden-2026",
       "name": "DOA - Sommarkvällstur Skogskyrkogården",
       "date": "2026-07-22",
@@ -12413,6 +12436,28 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "asa-mopedrally-loppis-2026-07-26",
+      "name": "Asa Mopedrally och Loppis",
+      "date": "2026-07-26",
+      "dateEnd": "2026-07-26",
+      "time": "11:00",
+      "location": "Asa Bygdegård, Fraggahult, Lammhult",
+      "type": "Körning",
+      "organizer": "Asa Bygdegård",
+      "_vehicle": "moped",
+      "description": "Mopedrally och loppis vid Asa Bygdegård i Fraggahult, Lammhult (Kronoberg) söndag 26 juli 2026. Fika, gemensam start kl 11, korv och prisutdelning efter målgång. Avgift 150 kr.",
+      "descriptionFull": "Mopedrally 26 juli, start kl 11.\n\nVi börjar dagen med en fika - kom när ni är redo - sedan gemensam start kl 11 från Asa Bygdegård, Fraggahult.\n\nEfter målgång bjuder vi på korv, kaffe och kaka samt prisutdelning. Avgift 150 kr för rally och mat.\n\nOm du inte kör, kom och se start/mål, umgås och köp fika/korv hos oss!\n\nPlats: Asa Bygdegård, Fraggahult, Lammhult.",
+      "backImage": "ads/asa-mopedrally-back-2026-07-26.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1242668284444825"},
+        {"label": "asabygdegard.se", "url": "https://asabygdegard.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Asa+Bygdeg%C3%A5rd+Fraggahult+Lammhult", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1242668284444825",
+      "region": "Kronoberg",
+      "source": "facebook.com"
+    },
+    {
       "id": "sun-engine-days-2026-07-26",
       "name": "Sun Engine Day's",
       "date": "2026-07-26",
@@ -13185,6 +13230,28 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "rocknroll-rally-veteranmopeder-mc-hultsfred-2026-08-01",
+      "name": "Rock'n Roll Rally för veteranmopeder & MC",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "time": "11:00",
+      "location": "Hultsfreds Hembygdspark, 577 36 Hultsfred",
+      "type": "Körning",
+      "organizer": "Moppehultsfred",
+      "_vehicle": "both",
+      "description": "Mopedrally och MC-rally för veteranmopeder och mc i Hultsfreds Hembygdspark (Kalmar) lördag 1 augusti 2026. Anmälan från kl 8, start 11. Tipsfrågor, fika, kroppkakor, moppelotteri och efterfest.",
+      "descriptionFull": "Anmälan från kl. 08. Tipsfrågor och fika utmed banan. Kroppkakor efter målgång, moppelotteri och efterfest med grill.\n\nRallyt är öppet för veteranmopeder och mc.\n\nArrangör: Moppehultsfred (Hultsfreds hembygdsförenings veteranfordonssektion).\n\nPlats: Hultsfreds Hembygdspark, Hultsfred.",
+      "backImage": "ads/rocknroll-rally-hultsfred-back-2026-08-01.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1803282177053499"},
+        {"label": "FB Sida", "url": "https://www.facebook.com/moppehultsfred"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Hultsfreds+Hembygdspark+Hultsfred", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/moppehultsfred",
+      "region": "Kalmar",
+      "source": "facebook.com"
     },
     {
       "id": "historical-racing-grangesberg-2026-08-01",
@@ -14453,6 +14520,49 @@ const EVENTS_DATA = {
         }
       ],
       "region": "Södermanland",
+      "source": "facebook.com"
+    },
+    {
+      "id": "kmw-mopedrally-karlskoga-2026-08-08",
+      "name": "Mopedrally i Karlskoga",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "time": "11:00",
+      "location": "Bofors stationsområde, Korpkullsvägen, Karlskoga",
+      "type": "Körning",
+      "organizer": "Karlskoga Motorweteraner",
+      "_vehicle": "moped",
+      "description": "Mopedrally i Karlskoga (Örebro) lördag 8 augusti 2026. Start kl 11 vid Bofors Station. En tur på ca 5 mil med fika och hamburgare. Startavgift 150 kr, ingen föranmälan. After Moppe 15-17.",
+      "descriptionFull": "Återigen dags för Karlskoga Motorweteraners populära mopedrally.\n\nLördag 8 augusti 2026. Start kl 11.00 vid Bofors Station, Korpkullsvägen 5, Karlskoga.\n\nStartavgift 150 kr. Ingen föranmälan!\n\nEn tur på ca fem mil med fika efter vägen samt hamburgare efter målgång.\n\nEfter prisutdelning blir det \"After Moppe\" i Röda ladan på Stationsområdet kl 15.00-17.00. Gott å dricka, nåt att tugga på, trubadur och lite gött snack om dagen.\n\nPlats: Bofors stationsområde, Karlskoga.",
+      "backImage": "ads/mopedrally-karlskoga-back-2026-08-08.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/787698250618993"},
+        {"label": "FB Sida", "url": "https://www.facebook.com/karlskogamotorweteraner"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Korpkullsv%C3%A4gen+8+Karlskoga", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/karlskogamotorweteraner",
+      "region": "Örebro",
+      "source": "facebook.com"
+    },
+    {
+      "id": "karsta-tt-lakerun-2026-08-08",
+      "name": "Kårsta TT Lakerun",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "time": "12:00",
+      "location": "Kårstavägen 314, 186 60 Kårsta",
+      "type": "Körning",
+      "organizer": "Kårsta TT",
+      "_vehicle": "moped",
+      "description": "Mopedrally och lakerun med Kårsta TT i Kårsta, Vallentuna (Stockholm) lördag 8 augusti 2026. Samling 11, start 12. 7 mil slingriga vägar med fikastopp, mat och afterrace vid målet.",
+      "descriptionFull": "Välkomna till Kårsta TT lakerun.\n\nSamling från 11.00 och start 12.00. Gott om gratis parkering för ekipage finns.\n\nHärliga 7 mil körning längs slingriga vägar med stopp halvvägs där vi bjuder på kaffe och kaka!\n\nVid målgång kommer mat finnas att köpa och vi önskar att många stannar kvar och kör lite skönt afterrace.\n\nBromsbänk finns på plats för er som vill få papper på effekten!\n\nVarmt välkommen!\n\nPlats: Kårstavägen 314, Kårsta.",
+      "backImage": "ads/karsta-tt-lakerun-back-2026-08-08.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1045418914554572"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=K%C3%A5rstav%C3%A4gen+314+K%C3%A5rsta", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1045418914554572",
+      "region": "Stockholm",
       "source": "facebook.com"
     },
     {
@@ -16019,6 +16129,28 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "tibro-mopperally-rundan-2026-08-15",
+      "name": "Mopperally Tibrorundan",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "08:00",
+      "endTime": "14:00",
+      "location": "Tibro Motorstadion, Tibro",
+      "type": "Körning",
+      "organizer": "Tibro Motorklubb",
+      "_vehicle": "moped",
+      "description": "Mopedrally runt Tibro (Västra Götaland) lördag 15 augusti 2026. Start och mål på Tibro Motorstadion. Anmälan 9-10, avgift 200 kr inkl hamburgare. Ca 5 mil som tipspromenad, priser lottas ut.",
+      "descriptionFull": "Arrangör: Tibro Motorklubb (Speedwaysektionen).\n\nAnmälan kl 09:00 till 10:00. Anmälningsavgift 200 kr.\n\nI priset ingår en hamburgare med dricka och kaffe ute med vägen. Korv, dricka och kaffe finns att köpa i kiosken på motorstadion.\n\nStart och mål sker inne på området. Vi kör på natursköna vägar runt Tibro på asfalterade och fina grusvägar. Sträckan är ca 5 mil och rallyt körs som en tipspromenad. Priser lottas ut efter rallyt.\n\nUppsamlingsfordon finns på plats och en mindre utställning av speedwaycyklar visas också.\n\nPlats: Tibro Motorstadion.",
+      "backImage": "ads/mopperally-tibro-back-2026-08-15.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1671571193854049"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Tibro+Motorstadion", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1671571193854049",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
     },
     {
       "id": "smc-ostergotland-broms-kurvkurs-2026-08-15",
@@ -19871,6 +20003,48 @@ const EVENTS_DATA = {
       "backImage": "ads/bmw-default-back.jpg"
     },
     {
+      "id": "mosaracet-dalsjofors-2026-09-05",
+      "name": "Môsaracet",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "10:00",
+      "location": "Dalsjöfors Folkets Park, Storgatan 71, Dalsjöfors",
+      "type": "Körning",
+      "organizer": "Môsaracet",
+      "_vehicle": "moped",
+      "description": "Môsaracet, ett mopedrally för veteranmopeder i Dalsjöfors utanför Borås (Västra Götaland) lördag 5 september 2026. Start vid Dalsjöfors Folkets Park.",
+      "descriptionFull": "Lägg i almanackan lördagen den 5 september 2026 då det åter är dags för Môsaracet i Dalsjöfors.\n\nEtt rally för veteranmopeder, arrangerat av Môsarusa-Riders Toarp.\n\nMer information kommer.\n\nPlats: Dalsjöfors Folkets Park, Storgatan 71, Dalsjöfors.",
+      "backImage": "ads/mosaracet-dalsjofors-back-2026-09-05.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/764877159306614"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Dalsj%C3%B6fors+Folkets+Park+Storgatan+71", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/764877159306614",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
+      "id": "fagelfors-mopperally-2026-09-05",
+      "name": "Mopperally i Fågelfors",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "11:00",
+      "location": "Fågelfors Folkets Park, Parkvägen 16, Fågelfors",
+      "type": "Körning",
+      "organizer": "Fågelfors Folkets Park",
+      "_vehicle": "moped",
+      "description": "Mopedrally i Fågelfors Folkets Park (Kalmar) lördag 5 september 2026, tredje upplagan. Anmälan öppnar 9.30, förarmöte 10.45, start 11.00.",
+      "descriptionFull": "Välkomna till Folkets Parks 3:e mopperally!\n\nLördagen den 5/9. Anmälan öppnar 9.30. Förarmöte 10.45. Start kl 11.00.\n\nPlats: Fågelfors Folkets Park, Parkvägen, Fågelfors.",
+      "backImage": "ads/mopperally-fagelfors-back-2026-09-05.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/913511764629977"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=F%C3%A5gelfors+Folkets+Park", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/913511764629977",
+      "region": "Kalmar",
+      "source": "facebook.com"
+    },
+    {
       "id": "imrg-big-lake-barncancermilen-2026-09-05",
       "name": "Barncancermilen",
       "date": "2026-09-05",
@@ -22092,6 +22266,48 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "alabama-hostrally-mellerud-2026-09-19",
+      "name": "Alabamas höstrally",
+      "date": "2026-09-19",
+      "dateEnd": "2026-09-19",
+      "time": "09:00",
+      "location": "Mellerud",
+      "type": "Körning",
+      "organizer": "Alabama å de 40 rövarna",
+      "_vehicle": "moped",
+      "description": "Mopedrally med Alabama å de 40 rövarna i Mellerud (Västra Götaland) lördag 19 september 2026. Anmälan med kaffe i klubbstugan, start kl 10. Runt 8-12 mil, höstsoppa halvvägs. Avgift 200 kr.",
+      "descriptionFull": "Välkomna till Alabama å de 40 rövarnas höstrally den 19 september!\n\nDet blir kaffe och smörgås vid anmälan i klubbstugan och halvvägs in i rallyt blir det Alabamas värmande höstsoppa.\n\nRallyts längd blir runt 8-12 mil som vanligt. Starten går som vanligt klockan 10.00, men var gärna på plats i god tid.\n\nDeltagaravgift 200 kr.\n\nPlats: Mellerud.",
+      "backImage": "ads/alabamas-hostrally-back-2026-09-19.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/2143549473101622"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Mellerud", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/2143549473101622",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
+      "id": "kolvbultarna-bengt-wilhelmsson-minnesrally-2026-09-19",
+      "name": "Bengt Wilhelmssons Minnesrally",
+      "date": "2026-09-19",
+      "dateEnd": "2026-09-19",
+      "time": "10:00",
+      "location": "Säby gård, Strängstorp, Katrineholm",
+      "type": "Körning",
+      "organizer": "Kolvbultarna",
+      "_vehicle": "moped",
+      "description": "Mopedrally - Bengt Wilhelmssons minnesrally för veteranmopeder vid Säby gård, Strängstorp norr om Katrineholm (Södermanland) lördag 19 september 2026. Klassiska mopeder, härliga vägar, gott fika.",
+      "descriptionFull": "Katrineholms veteranmopedklubb Kolvbultarna inbjuder till 2026 års mopedrally med start och mål vid Säby gård, Strängstorp norr om Katrineholm i Södermanland, lördagen den 19 september.\n\nKlassiska mopeder, härliga vägar och gott fika!\n\nPlats: Säby gård, Strängstorp, Katrineholm.",
+      "backImage": "ads/bengt-wilhelmsson-minnesrally-back-2026-09-19.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/2040817156857459"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4by+Str%C3%A4ngstorp+Katrineholm", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/2040817156857459",
+      "region": "Södermanland",
+      "source": "facebook.com"
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-09-19",
