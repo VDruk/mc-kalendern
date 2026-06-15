@@ -4344,6 +4344,34 @@ const EVENTS_DATA = {
       "backImage": "ads/summer-party-fauske-back-2026-06-19.jpg"
     },
     {
+      "id": "moto-riders-skaraborg-midsommardagen-ride-2026-06-20",
+      "name": "Midsommardagen Ride",
+      "date": "2026-06-20",
+      "dateEnd": "2026-06-20",
+      "time": "13:00",
+      "endTime": "20:00",
+      "location": "Circle K, Varnhemsgatan 14, Skövde",
+      "type": "Körning",
+      "organizer": "Moto Riders Skaraborg",
+      "description": "Midsommardagsritt med Moto Riders Skaraborg. Samling på Circle K vid Lidl i Skövde kl 13.00, avfärd 13.30. Tur ner mot Jönköping. Alla som vill följer med!",
+      "descriptionFull": "Superretards Stunt, Jönköping har spontan rideout 15.00.\n\n13.00 samling på Circle K vid Lidl i Skövde.\n13.30 avfärd.\n\nBlir någon go väg ner till Jönköping där vi sluter upp ihop med fler MC-tokiga människor och åker med.\n\nHemgång blir när man vill!\n\nTid kan ändras, får mer info i veckan. Blir det spöregn ställer vi in.\n\nAlla som vill följer med, bara roligare om vi blir fler!",
+      "backImage": "ads/midsommardagen-ride-skovde-back-2026-06-20.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1716244209619435"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Varnhemsgatan+14+Sk%C3%B6vde",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/events/1716244209619435",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "lo-i-lordagskörningar-kramfors-2026-06-20",
       "name": "LO I Lördagskörningar Kramfors",
       "date": "2026-06-20",
@@ -5655,8 +5683,8 @@ const EVENTS_DATA = {
       "source": "facebook.com",
       "link": "https://www.facebook.com/sleepytowncruisers",
       "description": "Arboga Meet 2026 - bil, MC och moped. Utställning och cruising. Gratis evenemang. Främst för fordon 1975 och äldre, men nyare fordon också välkomna. Lördag 10-20.",
-      "descriptionFull": "Tid: Lördag 27 juni 2026 kl 10:00-20:00.\nPlats: Arboga.\n\nÅterkommande träff för bilar, MC och mopeder. Både utställning och cruising. Evenemanget är gratis.\n\nFordonsklasser: Bilar 1975 och äldre i huvudfokus, men nyare bilar 1976 och uppåt är också välkomna.\n\nArrangör: Sleepy Town Cruisers - förening i Arboga aktiv sedan 2000-talet. Arboga Meet är klubbens äldsta evenemang.",
-      "backImage": "ads/arboga-meet-back-2026-06-27.jpg",
+      "descriptionFull": "Missa inte årets Arboga Meet! Kl 10.00 den 27 juni öppnar vi upp Arboga för alla fordonsentusiaster. Evenemanget är gratis.\n\nAktiviteter vid Stora Torget, Järntorget och Strandvägen: knallar, utställare och fordonsutställning.\n\n10.00 Utställningen öppnar. Bilar 1975 års modell och äldre. Nyare bilar hänvisas till egen yta på ICA-parkeringen. Mopeder och MC har ingen åldersgräns. En jury utser årets pris till bil, MC och moped.\n\n10.00-13.00 Tävling: Fiska med tändstift på Stora Torget.\n13.45 Prisutdelning för bil, MC, moped och fisketävlingen på Stora Torget.\n\nHungrig? Besök Restaurang Ågården eller Restaurang Stadskällaren.\n\n16.00-20.00 Cruising för 1975 års modell och äldre. Nyare bilar (1976 och nyare) kan åka med, men ej i stadskärnan.\n\nKvällsaktiviteter:\nRestaurang Ågården, kl 20.00 spelar livebandet The Jumpin' Jukebox.\nStadskällaren Restaurang & Pub, kl 14.00 och på kvällen spelar livebandet Boppin Cats.\n\nArrangör: Sleepy Town Cruisers. Plats: Arboga.",
+      "backImage": "ads/arboga-meet-program-back-2026-06-27.jpg",
       "links": [
         {
           "label": "FB Event",
@@ -5665,6 +5693,10 @@ const EVENTS_DATA = {
         {
           "label": "FB Sida",
           "url": "https://www.facebook.com/sleepytowncruisers"
+        },
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1425071239654718&set=gm.2226186884860611&idorvanity=2094721301340504"
         },
         {
           "label": "Karta",
@@ -16018,6 +16050,37 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "smc-ostergotland-broms-kurvkurs-2026-08-15",
+      "name": "Broms- och Kurvkurs",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-16",
+      "location": "Linköpings Motorstadion, Linköping",
+      "type": "Körning",
+      "organizer": "SMC Östergötland",
+      "organizerIcon": "clubs/normalized/smc.png",
+      "description": "Broms- och kurvkurs med SMC Östergötland på Linköpings Motorstadion. 4 grupper för olika tempon, en endast för tjejer. Nybörjare och rutinerade, alla hojar välkomna.",
+      "descriptionFull": "För dig som vill utvecklas i din körning, i din takt, i en trygg miljö. En av grupperna är endast för tjejer. Det spelar ingen roll om du är nybörjare eller om du kört i många år. Det spelar inte heller någon roll vilken hoj du kör. Alla deltagare och alla hojar är välkomna!\n\nKursen körs med 4 grupper och totalt ca 80 deltagare. Vid anmälan väljer du en grupp. Boka dig i den grupp du tror passar ditt tempo:\n\nTjej_Lugn - dedikerad för enbart kvinnor. Passar dig som t.ex. är ny på hoj, kanske aldrig kört kurs på bana förut, eller av andra skäl är lite osäker och vill köra i ett mycket lugnt tempo.\n\nLugn/Medel - passar dig som är ny på hoj eller aldrig kört kurs på bana förut, och vill köra i ett lugnt tempo och träna en sak i taget.\n\nMedel - passar dig som är trygg i din körning och kanske gått en del knixkurser. Du vill vässa din körteknik ytterligare och känner dig redo att träna i ett lagom tempo.\n\nSnabb - passar dig som kört kurs på storbana tidigare, känner dig trygg med upplägget och bekväm i ett högre tempo. Du har god kännedom om gaskontroll, bromsteknik och hur du jobbar med blicken.\n\nPlats: Linköpings Motorstadion.\n\nMer information och bokning via kurser.svmc.se.",
+      "backImage": "ads/smc-ostergotland-broms-kurvkurs-back-2026-08-15.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Smcostergotland"
+        },
+        {
+          "label": "kurser.svmc.se",
+          "url": "https://kurser.svmc.se/boka/84d0ff0a-fd0b-11f0-9cb7-020234399001"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Link%C3%B6pings+Motorstadion",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/Smcostergotland",
+      "region": "Östergötland",
+      "source": "facebook.com"
     },
     {
       "id": "bmw-d11-blekingerundan-2026-2026",
