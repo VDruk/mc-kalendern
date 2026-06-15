@@ -15801,37 +15801,6 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
-      "id": "vulcan-riders-sydtraffen-2026-08-14",
-      "name": "Sydträffen",
-      "date": "2026-08-14",
-      "dateEnd": "2026-08-16",
-      "location": "Frostavallen, 243 93 Höör",
-      "type": "Träff",
-      "organizer": "Vulcan Riders Sweden",
-      "organizerIcon": "clubs/normalized/vra-sweden.png",
-      "description": "Vulcan Riders Skåneland träffas på Frostavallen utanför Höör. Boende på vandrarhem, mat i restaurangen, grillning, bad i Vaxsjön och Ride-Out. Anmälan senast 30 juni.",
-      "descriptionFull": "Häng med på Sydträffen i augusti!\n\nVälkommen till Frostavallen utanför Höör där vi har vår träff, bor på vandrarhem, äter gott i restaurangen, grillar, badar i Vaxsjön, kör Ride-Out och har det trevligt.\n\nMen då måste du anmäla dig senast 30 juni.\n\nPlats: Frostavallen, Höör.",
-      "backImage": "ads/sydtraffen-back-2026-08-14.jpg",
-      "links": [
-        {
-          "label": "FB Inlägg",
-          "url": "https://www.facebook.com/photo/?fbid=10228577512136809&set=gm.27422705867382430&idorvanity=642063332540047"
-        },
-        {
-          "label": "vulcanriders-sweden.org",
-          "url": "https://www.vulcanriders-sweden.org"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Frostavallen+H%C3%B6%C3%B6r",
-          "type": "map"
-        }
-      ],
-      "link": "https://www.vulcanriders-sweden.org",
-      "region": "Skåne",
-      "source": "facebook.com"
-    },
-    {
       "id": "aprilia-bandag-kinnekulle-2026-08-14",
       "name": "Bandagar med Svenska Apriliaklubben",
       "date": "2026-08-14",
