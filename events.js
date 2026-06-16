@@ -3312,6 +3312,28 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "huskvarna-mk-speed-cross-torsvik-2026-06-17",
+      "name": "Speed Cross",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "18:00",
+      "location": "Torsviksbanan, Möbelvägen 21, 556 52 Jönköping",
+      "type": "Racing",
+      "organizer": "Huskvarna MK",
+      "_vehicle": "mc",
+      "description": "Speed Cross-motocross på Torsviksbanan i Torsvik (Jönköping) onsdag 17 juni 2026 kl 18. 12 heat på ca 3 timmar med stora delar av Sverige-eliten. 10.000 kr till totalvinnaren. Entré 50 kr.",
+      "descriptionFull": "Gillar du motorsport? Då är det läge att åka till Torsvik, för då kommer Sveriges snabbaste MX-förare på besök. Start 18:00.\n\n12 stenhårda heat på ca 3 timmar med stora delar av Sverige-eliten på plats.\n10.000 kr till totalvinnaren och 5.000 kr till bästa MX2.\n\nEntré 50 kr, fritt inträde upp till 15 år. Servering, kiosk, korv och burgare.\n\nArrangör: Huskvarna MK.\n\nPlats: Torsviksbanan, Möbelvägen 21, Jönköping.",
+      "backImage": "ads/speed-cross-torsvik-back-2026-06-17.jpg",
+      "links": [
+        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=27196053770053324&set=gm.2720838874965208&idorvanity=1067807403601705"},
+        {"label": "huskvarnamk.se", "url": "https://huskvarnamk.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Torsviksbanan+M%C3%B6belv%C3%A4gen+21+J%C3%B6nk%C3%B6ping", "type": "map"}
+      ],
+      "link": "https://huskvarnamk.se",
+      "region": "Jönköping",
+      "source": "facebook.com"
+    },
+    {
       "id": "garaget-fikakvall-orebro-2026-06-17",
       "name": "Fikakväll på Garaget",
       "date": "2026-06-17",
