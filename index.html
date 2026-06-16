@@ -2991,6 +2991,11 @@
     <button type="button" class="veh-btn" data-veh="moped">Moped</button>
   </div>
 </div>
+<!-- A/B TEST (temporary) - plain native select vs our styled one. Remove after test. -->
+<div class="m-filter-row" id="plainTestRow" style="grid-template-columns:auto auto;justify-content:start;align-items:center;gap:10px;">
+  <span style="font-size:12px;color:#888;font-weight:600;">TEST plain &rarr;</span>
+  <select id="plainTestSelect"><option>Region</option></select>
+</div>
 
 <!-- ========== FILTERS ========== -->
 <div class="filters-wrapper" id="filtersWrapper">
@@ -4218,6 +4223,14 @@ function setupMobileUI() {
       regionSel.value = e.target.value;
       regionSel.dispatchEvent(new Event('change'));
     });
+  }
+
+  // A/B TEST (temporary): plain unstyled native <select> with the SAME options,
+  // to compare native open speed vs our styled .filter-select. Remove after testing.
+  const plainTest = document.getElementById('plainTestSelect');
+  if (plainTest && mRegionSel) {
+    plainTest.innerHTML = '';
+    Array.from(mRegionSel.options).forEach(opt => plainTest.appendChild(opt.cloneNode(true)));
   }
 
   // Mobile datum select mirrors desktop monthFilter but excludes quick-time (pills handle those)
