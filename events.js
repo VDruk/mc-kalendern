@@ -3312,6 +3312,28 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "skaj-fordonstraff-krylbo-lokstation-2026-06-17",
+      "name": "Fordonsträff Krylbo Lokstation",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "17:00",
+      "endTime": "20:00",
+      "location": "Krylbo Lokstation, Avesta",
+      "type": "Träff",
+      "organizer": "SKÅJ",
+      "_vehicle": "mc",
+      "description": "Fordonsträff vid Krylbo Lokstation i Avesta (Dalarna) onsdag 17 juni 2026, kl 17-20. Populär fordonsträff i lokstallet med alla sorters fordon i härlig blandning. Lokstallet öppet, fika, korv och hamburgare.",
+      "descriptionFull": "Efter ett års uppehåll från våra populära fordonsträffar i lokstallet täcker vi i år upp för de datum som Avesta ridklubb inte har möjlighet att arrangera.\n\nLokstallet hålls öppet så passa på att se vår samling, ta en fika och umgås med andra. Vi hoppas på många fina fordon i härlig blandning.\n\nFika finns att köpa i vår cafévagn, medan hamburgare samt korv & bröd går att köpa i tältet utanför.\n\nArrangör: SKÅJ, Krylbo Lokstation.\n\nPlats: Krylbo Lokstation, Avesta.",
+      "backImage": "ads/fordonstraff-krylbo-lokstation-back-2026-06-17.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1500408664388948"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Lokstallet+i+Krylbo", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1500408664388948",
+      "region": "Dalarna",
+      "source": "facebook.com"
+    },
+    {
       "id": "huskvarna-mk-speed-cross-torsvik-2026-06-17",
       "name": "Speed Cross",
       "date": "2026-06-17",
