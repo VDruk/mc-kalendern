@@ -5443,33 +5443,31 @@ function render() {
   document.getElementById('searchCount').textContent = countTxt;
 
   // --- "Pågår nu" bucket (desktop, default browse only) ---
-  // EVERYTHING happening today gets pulled out of the timeline into a live
-  // section at the top: single-day events today, multi-day events still running,
-  // and multi-day events starting today. Rule = same as the "Idag" filter
-  // (date <= today <= dateEnd). This keeps the section honest: nothing that is
-  // happening today is left behind under the month divider. The timeline below
-  // then starts from tomorrow (e.g. JUNI from the 15th).
+  // Multi-day events that already started (start < today) and are still running
+  // (dateEnd >= today) get pulled out of the timeline into a live section at the
+  // top. Single-day events stay in the normal month flow. A multi-day event that
+  // STARTS today also stays under the month on its first day and moves up to
+  // "Pågår nu" the next day. Reason: multi-day events are the ones that linger on
+  // the calendar for days and benefit from being surfaced; single-day events
+  // appear once on their own day where users expect them (decided 2026-06-14).
   // Pulled out AFTER the header count and map update, so these events still
-  // count in "X evenemang" and still show their map dots. Mobile keeps the old
-  // inline behaviour for now (desktop-first rollout).
-  let todayEvents = [];
-  const showToday = (window.innerWidth >= 900) && currentMonth === 'all' && !searchQuery && !showPast;
-  if (showToday) {
-    todayEvents = events.filter(e =>
-      !e._ad && e.date <= today && (e.dateEnd || e.date) >= today
+  // count in "X evenemang" and still show their map dots. Mobile keeps the
+  // inline behaviour (desktop-first).
+  let ongoingEvents = [];
+  const showOngoing = (window.innerWidth >= 900) && currentMonth === 'all' && !searchQuery && !showPast;
+  if (showOngoing) {
+    ongoingEvents = events.filter(e =>
+      !e._ad && e.dateEnd && e.dateEnd !== e.date && e.date < today && e.dateEnd >= today
     );
-    if (todayEvents.length > 0) {
-      const todayIds = new Set(todayEvents.map(e => e.id));
-      events = events.filter(e => !todayIds.has(e.id));
-      // Ending soonest first ("last chance to catch it"), then by start date
-      todayEvents.sort((a, b) =>
-        (a.dateEnd || a.date).localeCompare(b.dateEnd || b.date) ||
-        a.date.localeCompare(b.date)
-      );
+    if (ongoingEvents.length > 0) {
+      const ongoingIds = new Set(ongoingEvents.map(e => e.id));
+      events = events.filter(e => !ongoingIds.has(e.id));
+      // Ending soonest first ("last chance to catch it")
+      ongoingEvents.sort((a, b) => (a.dateEnd || a.date).localeCompare(b.dateEnd || b.date));
     }
   }
 
-  if (events.length === 0 && todayEvents.length === 0) {
+  if (events.length === 0 && ongoingEvents.length === 0) {
     // If a region URL was used and we have zero events, show region-specific empty state
     // with nearby region suggestions and a Tipsa CTA. Better for SEO than a thin page.
     const urlReg = getRegionFromURL();
@@ -5697,14 +5695,14 @@ function render() {
   // Render "Pågår nu" section first (desktop default browse only).
   // These cards skip the month dividers; afterwards we reset the month state
   // so the first normal card opens a fresh month divider (e.g. JUNI 2026).
-  if (todayEvents.length > 0) {
+  if (ongoingEvents.length > 0) {
     const nowDivider = document.createElement('div');
     nowDivider.className = 'month-divider now-divider';
     nowDivider.innerHTML = '<span class="now-dot"></span>Pågår nu';
     grid.appendChild(nowDivider);
     const st = window._renderState;
     st.suppressDivider = true;
-    todayEvents.forEach(ev => renderSingleCard(ev, st));
+    ongoingEvents.forEach(ev => renderSingleCard(ev, st));
     st.suppressDivider = false;
     st.renderMonth = '';
   }
