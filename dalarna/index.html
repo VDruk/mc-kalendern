@@ -4,9 +4,8 @@
 <base href="/">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<script>/* TEMP perf tests (remove after). ?noanim = disable all CSS animations. ?cv = re-enable content-visibility:auto on mobile cards (test if the dropdown lag is the off-screen card rendering). */
-if(location.search.indexOf('noanim')!==-1){var _st=document.createElement('style');_st.textContent='*,*::before,*::after{animation:none!important;}';(document.head||document.documentElement).appendChild(_st);}
-if(location.search.indexOf('cv')!==-1){var _st2=document.createElement('style');_st2.textContent='@media(max-width:768px){.card{content-visibility:auto!important;contain-intrinsic-size:auto 350px!important;}}';(document.head||document.documentElement).appendChild(_st2);}</script>
+<script>/* TEMP perf test (remove after). ?nogpu = strip the per-card and topbar GPU-layer promotion (will-change/translateZ) on mobile, to test if dozens of compositor layers are what slow the native dropdown. */
+if(location.search.indexOf('nogpu')!==-1){var _st=document.createElement('style');_st.textContent='@media(max-width:768px){.card,.card:not(.poster-card),.m-topbar{will-change:auto!important;transform:none!important;-webkit-backface-visibility:visible!important;backface-visibility:visible!important;}}';(document.head||document.documentElement).appendChild(_st);}</script>
 <!-- Google Analytics 4 (re-added 2026-06-11; was dropped during an earlier index.html rewrite) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HVJ6PFNE2W"></script>
 <script>
