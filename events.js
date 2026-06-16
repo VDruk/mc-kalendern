@@ -4591,6 +4591,28 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "vulcan-riders-spontankorning-2026-06-21",
+      "name": "Spontankörning",
+      "date": "2026-06-21",
+      "dateEnd": "2026-06-21",
+      "time": "10:00",
+      "location": "Vikingagrillen, Lilla Kongahällavägen 11, Kungälv",
+      "type": "Körning",
+      "organizer": "Vulcan Riders Sweden",
+      "organizerIcon": "clubs/normalized/vra-sweden.png",
+      "_vehicle": "mc",
+      "description": "Spontankörning med Vulcan Riders Sweden söndag 21 juni 2026. Samling kl 10 vid Vikingagrillen i Kungälv (full tank), avfärd 10.30. Gemensam tur till Slusscaféet. Skriv om du kommer!",
+      "descriptionFull": "Hej alla glada!\n\nVad sägs om körning nu på söndag, från Vikingagrillen till Slusscaféet.\n\nSamling kl 10 (full tank), avfärd 10.30.\n\nSkriv om du kommer.\n\nStorkramen.\n\nArrangör: Vulcan Riders Sweden.\n\nPlats: Vikingagrillen, Lilla Kongahällavägen 11, Kungälv.",
+      "backImage": "ads/vrs-spontankorning-back-2026-06-21.jpg",
+      "links": [
+        {"label": "vulcanriders-sweden.org", "url": "https://www.vulcanriders-sweden.org"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Vikingagrillen+Kung%C3%A4lv", "type": "map"}
+      ],
+      "link": "https://www.vulcanriders-sweden.org",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "sulas-mc-indian-week-2026-06-21",
       "name": "Indian Week hos Sulas MC",
       "date": "2026-06-21",
