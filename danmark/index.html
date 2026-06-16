@@ -6702,7 +6702,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (vehToggle) {
     vehToggle.querySelectorAll('.veh-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        currentVehicle = btn.dataset.veh;
+        // Re-clicking the active button deselects it (toggles back to all).
+        currentVehicle = (currentVehicle === btn.dataset.veh) ? 'all' : btn.dataset.veh;
         setVehicleButtons(currentVehicle);
         // URL + meta only when no region is active (a region path always wins).
         if (currentRegion === 'all') {
