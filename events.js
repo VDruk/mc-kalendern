@@ -5661,6 +5661,29 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "tartan-mopedoz-midnattsruset-2026-06-27",
+      "name": "Midnattsruset",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "time": "22:00",
+      "endTime": "02:00",
+      "location": "Västberga, Drivhjulsvägen, Stockholm",
+      "type": "Körning",
+      "organizer": "Tårtan Mopedoz",
+      "_vehicle": "moped",
+      "description": "Midnattsruset är Tårtan Mopedoz mopedcruising genom Stockholmsnatten, 23:e året. Lördag 27 juni 2026, samling i Västberga kl 20, avgång 22.10. Ca 35 km med fyra stopp. Endast klassiska mopeder, gratis och ingen föranmälan.",
+      "descriptionFull": "Det börjar bli dags att damma av gruppen - det är ett nytt år och ett nytt Midnattsrus. Lördagen 27 juni kör vi den 23:e upplagan av Midnattsruset. Midnattsruset är inget vanligt mopperally, det är en mopedcruising genom sommarnatten i Stockholm där alla deltar på eget ansvar - vi visar bara vägen.\n\nTidsschema:\n- 20.00 vi finns på plats i Västberga\n- 22.00 förarmöte med tysta moppar\n- 22.10 avgång\n- 01.30-02.00 målgång\n\nRundan är runt 35 km med runt 4 stopp på balla platser. Ledarmoppen kör i 20-30 km/t så alla hänger med. Det här är cruising och inget race.\n\nDet kostar ingenting att delta och det är ingen föranmälan. Försäljning av tilltugg, dricka och fika vid start/mål.\n\nRegler: Endast klassiska plåtmoppar tillverkade före 1982 (undantag via regeln minst 30 år gammal). Inga registreringsskyltar. Max tre hjul. Håll dig i ledet och visa respekt. Ingen fylla.\n\nArrangör: Tårtan Mopedoz.\n\nPlats: Västberga, hörnet av Drivhjulsvägen och Vretensborgsvägen, Stockholm.",
+      "backImage": "ads/midnattsruset-back-2026-06-27.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/3745624628907687"},
+        {"label": "FB Event", "url": "https://www.facebook.com/events/735781632370870"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Drivhjulsv%C3%A4gen+V%C3%A4stberga+Stockholm", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/3745624628907687",
+      "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
       "id": "regression-10ars-fest-2026-06-27",
       "name": "10-års fest Regression Brotherhood MC",
       "date": "2026-06-27",
@@ -19290,6 +19313,27 @@ const EVENTS_DATA = {
       "backImage": "ads/mchk-back-2026.jpg"
     },
     {
+      "id": "full-fart-moppers-lasse-cedergren-minnesrunda-2026-08-30",
+      "name": "Lasse Cedergrens Minnesrunda",
+      "date": "2026-08-30",
+      "dateEnd": "2026-08-30",
+      "time": "10:00",
+      "location": "TT Garage, Valla Gårds Väg 8, Bålsta",
+      "type": "Körning",
+      "organizer": "Full Fart Moppers 50cc",
+      "_vehicle": "moped",
+      "description": "Mopedrunda till minne av Lasse Cedergren med Full Fart Moppers 50cc i Bålsta (Uppsala) söndag 30 augusti 2026. Start kl 10 hos TT Garage. En längre och en kortare runda, den långa mot Enköping.",
+      "descriptionFull": "Nu har vi bestämt datumet för vår runda, boka in den 30/8 2026.\n\nDenna gång planerar vi för en längre och en kortare runda. Den långa rundan går via riktigt fina vägar in mot Enköping.\n\nStartplatsen är samma som förra gången, hos TT Garage i Bålsta där det finns gott om plats att parkera.\n\nMer information uppdateras under året.\n\nArrangör: Full Fart Moppers 50cc.\n\nPlats: TT Garage, Valla Gårds Väg 8, Bålsta.",
+      "backImage": "ads/lasse-cedergren-minnesrunda-back-2026-08-30.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/894241936445793"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Valla+G%C3%A5rds+V%C3%A4g+8+B%C3%A5lsta", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/894241936445793",
+      "region": "Uppsala",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-d15-grustur-2026-08-30",
       "name": "D15 Grustur",
       "date": "2026-08-30",
@@ -20075,6 +20119,27 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "ljungby-fhk-mopperally-lagan-2026-09-05",
+      "name": "Mopperally i Lagan",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "09:00",
+      "location": "Stationen, Järnvägsgatan 5, Lagan",
+      "type": "Körning",
+      "organizer": "Ljungby FHK",
+      "_vehicle": "moped",
+      "description": "Mopedrally i Lagan (Kronoberg) under Lagandagen lördag 5 september 2026. Samling kl 9 vid stationen, start kl 10. Ca 4 mil natursköna vägar runt Lagan. Startavgift 100 kr, fika ingår.",
+      "descriptionFull": "Ljungby Fordons Historiska Klubbs mopperally i samband med Lagandagen.\n\nLördag 5 september 2026. Samling kl 9 vid stationen i Lagan, Järnvägsgatan 5. Start kl 10.\n\nRallyt går en sträcka på ca 4 mil utmed natursköna vägar runt Lagan. Prisutdelning kl 13.\n\nStartavgift 100 kr. Fika vid målgång ingår.\n\nVid frågor ring Peter 070-835 55 93 eller Micke 070-822 01 81.\n\nArrangör: Ljungby Fordons Historiska Klubb.\n\nPlats: Stationen, Järnvägsgatan 5, Lagan.",
+      "backImage": "ads/mopperally-lagan-back-2026-09-05.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/26937299689294725"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=J%C3%A4rnv%C3%A4gsgatan+5+Lagan", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/26937299689294725",
+      "region": "Kronoberg",
+      "source": "facebook.com"
     },
     {
       "id": "mosaracet-dalsjofors-2026-09-05",
@@ -22363,6 +22428,27 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "lidingo-ligan-lidingorundan-2026-09-19",
+      "name": "LidingöRundan",
+      "date": "2026-09-19",
+      "dateEnd": "2026-09-19",
+      "time": "11:00",
+      "location": "St1 Ropsten, Ropstensslingan 10, Stockholm",
+      "type": "Körning",
+      "organizer": "Liiidingö Liiigan",
+      "_vehicle": "moped",
+      "description": "Moped-cruising på Lidingö, fjärde året, lördag 19 september 2026. Samling vid ST1 Ropsten, avfärd kl 11. Ca 6 mil via Djurgården och runt Lidingö, fika i Breviks båthamn, avslutning på Presto-grillen.",
+      "descriptionFull": "Lördagen den 19 september kör vi! För fjärde året på rad genomför vi den öppna moppe-cruisingen på Lidingö.\n\nVi träffas vid parkeringen vänster om ST1-macken vid Ropsten T-bana. Gemensam avfärd kl 11.00. Vi börjar med en sväng genom Norra Djurgårdsstaden/Gärdet/Djurgården (ca 1 mil) och styr sedan mot Lidingö och kör hela rundan runt södra och norra Lidingö (ca 5 mil).\n\nVi beräknar ca 3-4 timmars cruising i fin natur med kortare pauser för fika. Vi planerar att stanna i Breviks båthamn där det bjuds på kaffe och fika. Traditionell avslutning på Presto-grillen, Lidingö.\n\nVi ser gärna att ni kan ta er fram på era gammelmoppar på minst 44 km/h.\n\nArrangör: Liiidingö Liiigan.\n\nPlats: ST1 Ropsten, Ropstensslingan 10, Stockholm.",
+      "backImage": "ads/lidingorundan-back-2026-09-19.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1155658916753010"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Ropstensslingan+10+Stockholm", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1155658916753010",
+      "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
       "id": "alabama-hostrally-mellerud-2026-09-19",
       "name": "Alabamas höstrally",
       "date": "2026-09-19",
@@ -23319,6 +23405,28 @@ const EVENTS_DATA = {
       "region": "Södermanland",
       "source": "mchk.org",
       "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
+      "id": "tartan-mopedoz-hostmoppis-vastberga-2026-09-27",
+      "name": "Höstmoppis i Västberga",
+      "date": "2026-09-27",
+      "dateEnd": "2026-09-27",
+      "time": "09:00",
+      "endTime": "13:00",
+      "location": "Västberga Industriområde, Drivhjulsvägen, Stockholm",
+      "type": "Träff",
+      "organizer": "Tårtan Mopedoz",
+      "_vehicle": "moped",
+      "description": "Höstmoppis (mopedloppis) i Västberga Industriområde i Stockholm söndag 27 september 2026, kl 9-13. Sälj och köp moped- och verkstadsprylar. Ingen föranmälan, gratis. Arrangeras av Tårtan Mopedoz.",
+      "descriptionFull": "Som sig bör håller vi även en Höstmoppis i Västberga Industriområde, i hörnet av Drivhjulsvägen och Vretensborgsvägen.\n\nAlla ansvarar själva för sitt deltagande - vi visar bara en tid och plats, resten brukar lösa sig själv. Officiellt öppnar vi 09.00 och slår igen 13.00, men alla kommer och går när de själva vill.\n\nDu som säljer har bara mopedprylar eller verkstadsprylar på bordet, det är det enda kravet. Ingen föranmälan och ingen kostnad.\n\nArrangör: Tårtan Mopedoz.\n\nPlats: Västberga Industriområde, Drivhjulsvägen/Vretensborgsvägen, Stockholm.",
+      "backImage": "ads/hostmoppis-vastberga-back-2026-09-27.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/929899146058768"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Drivhjulsv%C3%A4gen+V%C3%A4stberga+Stockholm", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/929899146058768",
+      "region": "Stockholm",
+      "source": "facebook.com"
     },
     {
       "id": "dob-sista-rundan-2026",
@@ -25081,6 +25189,28 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "tartan-mopedoz-nyarsrundan-2026-12-31",
+      "name": "Nyårsrundan",
+      "date": "2026-12-31",
+      "dateEnd": "2026-12-31",
+      "time": "10:00",
+      "endTime": "14:00",
+      "location": "McDonald's Årsta, Sockengränd 1, Stockholm",
+      "type": "Körning",
+      "organizer": "Tårtan Mopedoz",
+      "_vehicle": "moped",
+      "description": "Nyårsrundan - en sista mopperunda på nyårsafton genom Stockholm med Tårtan Mopedoz, torsdag 31 december 2026. Samling vid McDonald's Årsta kl 10. Tradition sedan 2002.",
+      "descriptionFull": "Även i år kör vi Nyårsrundan! På nyårsafton, innan du firar nyår med familj och vänner, kör vi sedan 2002 en sista mopperunda innan året är slut.\n\nSamling sker vid McDonald's Årsta, Sockengränd 1.\n\nArrangör: Tårtan Mopedoz.\n\nPlats: McDonald's Årsta, Sockengränd 1, Stockholm.",
+      "backImage": "ads/nyarsrundan-back-2026-12-31.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/741670175338363"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=McDonalds+%C3%85rsta+Sockengr%C3%A4nd+1+Stockholm", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/741670175338363",
+      "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
       "id": "bmw-region-vast-subventionerat-trafiksakerhetsarbete-1-2026-12-31",
       "name": "Region Väst Subventionerat Trafiksäkerhetsarbete 1",
       "date": "2026-12-31",
@@ -25160,6 +25290,28 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "haninge-muppeders-drevan-runt-2027-01-24",
+      "name": "Drevan Runt",
+      "date": "2027-01-24",
+      "dateEnd": "2027-01-24",
+      "time": "10:00",
+      "location": "Krokodilbadet, Hagtornsvägen 49, Vendelsö",
+      "type": "Körning",
+      "organizer": "Haninge Muppeders",
+      "_vehicle": "moped",
+      "description": "Drevan Runt - Haninge Muppeders vintertur på moped, söndag 24 januari 2027. Samling vid Krokodilbadet i Vendelsö, förarmöte 09.55, avfärd 10. Ca 25 km runt Drevan, avslutning med korv vid Biltema Haninge.",
+      "descriptionFull": "Haninge Muppeders - Drevan Runt 2027. Välkomna till vår vintertur Drevan Runt!\n\nSöndag 24 januari 2027. Samling vid Krokodilbadet. Förarmöte 09.55, avfärd 10.00.\n\nVi ger oss ut på en härlig tur på ca 25 km runt Drevan, med gott sällskap, sköna mopeder och vinterkänsla i bästa Haninge Muppeders-anda. Efter rundan styr vi mot Biltema Haninge där vi avslutar med korv och snack tillsammans.\n\nTa med glatt humör, varma kläder och körsug!\n\nArrangör: Haninge Muppeders.\n\nPlats: Krokodilbadet, Hagtornsvägen, Vendelsö.",
+      "backImage": "ads/drevan-runt-back-2027-01-24.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1667608374473781"},
+        {"label": "muppeders.se", "url": "https://muppeders.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Krokodilbadet+Vendels%C3%B6", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1667608374473781",
+      "region": "Stockholm",
+      "source": "facebook.com"
     },
     {
       "id": "customhoj-bike-show-2027-01-29",
