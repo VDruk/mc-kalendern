@@ -1827,13 +1827,9 @@
     display: none;
     padding: 0 10px 10px;
     gap: 6px;
-    grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto;
-    align-items: stretch;
+    grid-template-columns: 1fr 1fr;
     background: var(--bg-primary);
   }
-  /* Mobile MC/Moped toggle: compact 3rd item in the dropdown row (no extra height) */
-  .m-vehicle-toggle { border-radius: 10px; }
-  .m-vehicle-toggle .veh-btn { padding: 0 11px; font-size: 13px; }
   .m-filter-row .filter-select {
     width: 100%;
     min-width: 0;
@@ -2987,10 +2983,6 @@
   <select class="filter-select" id="mDatumFilter" aria-label="Filtrera efter datum">
     <option value="all">Alla datum</option>
   </select>
-  <div class="vehicle-toggle m-vehicle-toggle" id="mVehicleToggle" role="group" aria-label="Fordon: MC eller moped">
-    <button type="button" class="veh-btn" data-veh="mc">MC</button>
-    <button type="button" class="veh-btn" data-veh="moped">Moped</button>
-  </div>
 </div>
 
 <!-- ========== FILTERS ========== -->
