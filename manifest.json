@@ -1,7 +1,7 @@
 {
   "name": "MC Kalendern",
   "short_name": "MC Kalendern",
-  "description": "MC-evenemang i Sverige 2026. Alla MC-tr\u00e4ffar, m\u00e4ssor, k\u00f6rningar och racing.",
+  "description": "MC-evenemang i Sverige 2026. Alla MC-tr\u00e4ffar, m\u00e4ssor, k\u00f6rningar, racing och mopedtr\u00e4ffar.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1a2e",
