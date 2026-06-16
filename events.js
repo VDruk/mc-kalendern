@@ -3312,6 +3312,29 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "triumph-ride-the-legends-norsholm-2026-06-17",
+      "name": "Ride the Legends Test Ride Tour",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "14:00",
+      "endTime": "20:00",
+      "location": "Norsholmsvägen 22, Norsholm",
+      "type": "Show",
+      "region": "Östergötland",
+      "organizer": "Triumph Motorcycles",
+      "_vehicle": "mc",
+      "description": "Triumphs provkörningsevent Ride the Legends kommer till Norsholms slusscafé (Östergötland) onsdag 17 juni 2026, kl 14-20. Provkör Triumphs senaste modeller, ingen förbokning. Ta med MC-utrustning.",
+      "descriptionFull": "Triumph Motorcycles \"Ride the Legends Test Ride Tour\" kommer till Norsholms slusscafé!\n\n17 juni\nPlats: Norsholmsvägen 22, Norsholm\nTid: 14.00-20.00\n\nÄr du redo att uppleva legendariska motorcyklar? Kom och provkör Triumphs senaste modeller och hitta din nya favorit! Vi har med oss ett brett utbud av motorcyklar redo för dig att testa.\n\nIngen förbokning krävs. Ta med din MC-utrustning och kom förbi för en provkörning.\n\nHar du några frågor? Hör av dig till: nordic@triumph.co.uk\n\nHoppas vi ses!\nTriumph Nordic",
+      "backImage": "ads/triumph-ride-the-legends-norsholm-back-2026-06-17.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1327722908731345"},
+        {"label": "FB Sida", "url": "https://www.facebook.com/OfficialTriumphSweden"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Norsholmsv%C3%A4gen+22+Norsholm", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1327722908731345",
+      "source": "facebook.com"
+    },
+    {
       "id": "skaj-fordonstraff-krylbo-lokstation-2026-06-17",
       "name": "Fordonsträff Krylbo Lokstation",
       "date": "2026-06-17",
