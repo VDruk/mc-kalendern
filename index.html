@@ -376,6 +376,24 @@
   .filter-select:hover { border-color: var(--text-muted); }
   .filter-select:focus { border-color: var(--accent); }
 
+  /* Vehicle toggle (Alla / MC / Moped) - separate axis from event type */
+  .vehicle-toggle {
+    display: inline-flex; align-items: stretch;
+    border: 1px solid var(--border); border-radius: 20px;
+    background: var(--bg-secondary); overflow: hidden;
+  }
+  .vehicle-toggle .veh-btn {
+    border: none; background: transparent; cursor: pointer;
+    font-size: 13px; color: var(--text-secondary);
+    padding: 6px 14px; transition: all var(--transition);
+    border-left: 1px solid var(--border);
+  }
+  .vehicle-toggle .veh-btn:first-child { border-left: none; }
+  .vehicle-toggle .veh-btn:hover { color: var(--text-primary); background: var(--bg-card-hover); }
+  .vehicle-toggle .veh-btn.active {
+    background: var(--accent); color: #fff; font-weight: 600;
+  }
+
   /* Filter spacer to push right-side items */
   .filter-spacer { flex: 1; }
 
@@ -2995,6 +3013,11 @@
         <option value="Plats">Plats</option>
         <option value="Anons">Anons</option>
       </select>
+      <div class="vehicle-toggle" id="vehicleToggle" role="group" aria-label="Fordon: MC eller moped">
+        <button type="button" class="veh-btn active" data-veh="all">Alla</button>
+        <button type="button" class="veh-btn" data-veh="mc">MC</button>
+        <button type="button" class="veh-btn" data-veh="moped">Moped</button>
+      </div>
     </div>
     <div class="filter-right-col">
       <div class="toggle-wrap">
@@ -3280,6 +3303,7 @@ const TYPE_CLASSES = {
 
 // ========== STATE ==========
 let currentFilter = 'all';
+let currentVehicle = 'all'; // 'all' | 'mc' | 'moped' (vehicle toggle). Untagged events count as mc.
 let currentClub = 'all'; // now driven by organizer dropdown
 let topOrgEntries = []; // top 20 org entries, set during build, used in filter logic
 let currentRegion = 'all';
@@ -3605,6 +3629,45 @@ const DEFAULT_DESC = 'MC Kalender 2026 med 1700+ MC-evenemang i Sverige. Hitta M
 const DEFAULT_H1_HTML = 'MC <span>Kalendern</span>';
 const DEFAULT_SUB = 'MC-träffar och MC-evenemang i Sverige 2026';
 
+// ===== Vehicle (moped) routing + meta. /moped/ is an SEO landing like regions. =====
+const MOPED_TITLE = 'Mopedträffar & mopedrally 2026 - MC Kalendern';
+const MOPED_DESC = 'Mopedträffar, mopedrally och mopedevenemang i Sverige 2026. Hitta nästa mopedträff och mopedrally nära dig. Uppdateras dagligen.';
+const MOPED_H1_HTML = 'Moped <span>Kalendern</span>';
+const MOPED_SUB = 'Mopedträffar och mopedrally i Sverige 2026';
+function getVehicleFromURL() {
+  const path = window.location.pathname.replace(/^\/+|\/+$/g, '').toLowerCase();
+  if (!path) return null;
+  return path.split('/')[0] === 'moped' ? 'moped' : null;
+}
+// Only 'moped' has a dedicated URL. Caller guards so a region path is never clobbered.
+function updateURLForVehicle(vehicle) {
+  const newPath = (vehicle === 'moped') ? '/moped' : '/';
+  if (window.location.pathname !== newPath) {
+    history.pushState({vehicle: vehicle || 'all'}, '', newPath + window.location.search + window.location.hash);
+  }
+}
+function setVehicleButtons(v) {
+  document.querySelectorAll('#vehicleToggle .veh-btn').forEach(b => b.classList.toggle('active', b.dataset.veh === v));
+}
+function applyMopedMeta() {
+  const titleEl = document.querySelector('title');
+  const descEl = document.querySelector('meta[name="description"]');
+  const ogTitleEl = document.querySelector('meta[property="og:title"]');
+  const ogDescEl = document.querySelector('meta[property="og:description"]');
+  const ogUrlEl = document.querySelector('meta[property="og:url"]');
+  const canonEl = document.querySelector('link[rel="canonical"]');
+  const h1 = document.querySelector('.hero-logo');
+  const sub = document.querySelector('.hero-sub');
+  if (titleEl) titleEl.textContent = MOPED_TITLE;
+  if (descEl) descEl.setAttribute('content', MOPED_DESC);
+  if (ogTitleEl) ogTitleEl.setAttribute('content', MOPED_TITLE);
+  if (ogDescEl) ogDescEl.setAttribute('content', MOPED_DESC);
+  if (ogUrlEl) ogUrlEl.setAttribute('content', 'https://druk.se/moped/');
+  if (canonEl) canonEl.setAttribute('href', 'https://druk.se/moped/');
+  if (h1) h1.innerHTML = MOPED_H1_HTML;
+  if (sub) sub.textContent = MOPED_SUB;
+}
+
 function updatePageMetaForRegion(region) {
   const titleEl = document.querySelector('title');
   const descEl = document.querySelector('meta[name="description"]');
@@ -3865,7 +3928,7 @@ function updateStats() {
 // updateHanderBar and updateMobilePillCounts. Computed once per filter state
 // and cached, so a single state change no longer re-filters the list twice.
 function getBaseFiltered() {
-  const key = [currentRegion, currentFilter, currentClub, searchQuery, currentMonth,
+  const key = [currentRegion, currentFilter, currentVehicle, currentClub, searchQuery, currentMonth,
                EVENTS_DATA.events.length].join('');
   if (getBaseFiltered._key === key) return getBaseFiltered._list;
   let all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
@@ -3874,6 +3937,11 @@ function getBaseFiltered() {
   }
   if (currentFilter !== 'all') {
     all = all.filter(e => e.type === currentFilter);
+  }
+  if (currentVehicle === 'moped') {
+    all = all.filter(e => e._vehicle === 'moped' || e._vehicle === 'both');
+  } else if (currentVehicle === 'mc') {
+    all = all.filter(e => e._vehicle !== 'moped');
   }
   if (currentClub !== 'all') {
     if (currentClub === '__other__') {
@@ -5286,6 +5354,13 @@ function render() {
   if (currentFilter !== 'all' && currentFilter !== 'Plats' && currentFilter !== 'Anons') {
     events = events.filter(e => e.type === currentFilter);
   }
+  // Vehicle filter (Alla / MC / Moped). Untagged events count as mc. A "both"
+  // event (open to mc AND moped) shows under both MC and Moped.
+  if (currentVehicle === 'moped') {
+    events = events.filter(e => e._vehicle === 'moped' || e._vehicle === 'both');
+  } else if (currentVehicle === 'mc') {
+    events = events.filter(e => e._vehicle !== 'moped');
+  }
   // If user selected Plats or Anons type filter, hide all regular events (only show those AD cards)
   if (currentFilter === 'Plats' || currentFilter === 'Anons') {
     events = [];
@@ -5394,7 +5469,7 @@ function render() {
     // and the mobile Platser swipe view. With a growing number of places
     // (18 now, 100-200 later) injection would drown the events.
     // Anons: show only when NO filters active at all
-    if (noTypeFilter && noClubFilter && noMonthFilter && noRegionFilter && noMapCity) {
+    if (noTypeFilter && noClubFilter && noMonthFilter && noRegionFilter && noMapCity && currentVehicle === 'all') {
       anonsCards.forEach(ad => visibleAds.push(ad));
     }
   }
@@ -6460,7 +6535,15 @@ document.addEventListener('DOMContentLoaded', () => {
   updatePageMetaForRegion(urlRegion);
   buildRegionsFooter(null);
 
-  // Browser back/forward should update region filter and meta
+  // ===== Vehicle URL routing (/moped). Only applies when there is no region in the URL. =====
+  const urlVehicle = getVehicleFromURL();
+  if (urlVehicle === 'moped' && !urlRegion) {
+    currentVehicle = 'moped';
+    setVehicleButtons('moped');
+    applyMopedMeta();
+  }
+
+  // Browser back/forward should update region + vehicle filter and meta
   window.addEventListener('popstate', () => {
     const r = getRegionFromURL();
     currentRegion = r || 'all';
@@ -6470,7 +6553,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (rSel) rSel.value = currentRegion;
     if (rSelM) rSelM.value = currentRegion;
     if (mRSel) mRSel.value = currentRegion;
-    updatePageMetaForRegion(r);
+    const v = getVehicleFromURL();
+    currentVehicle = (v === 'moped' && !r) ? 'moped' : 'all';
+    setVehicleButtons(currentVehicle);
+    if (currentVehicle === 'moped') applyMopedMeta();
+    else updatePageMetaForRegion(r);
     render();
   });
 
@@ -6516,7 +6603,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Helper: check if any filter is active and update Alla button
   function updateAllaBtn() {
-    const anyActive = currentFilter !== 'all' || currentClub !== 'all' || currentRegion !== 'all' || currentMonth !== 'all';
+    const anyActive = currentFilter !== 'all' || currentVehicle !== 'all' || currentClub !== 'all' || currentRegion !== 'all' || currentMonth !== 'all';
     document.querySelectorAll('.type-btn[data-type="all"]').forEach(btn => {
       btn.classList.toggle('active', !anyActive);
     });
@@ -6525,6 +6612,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Helper: reset all filters (including search)
   function resetAllFilters() {
     currentFilter = 'all';
+    currentVehicle = 'all';
     currentClub = 'all';
     currentRegion = 'all';
     currentMonth = 'all';
@@ -6539,6 +6627,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (tf) tf.value = 'all';
     const tfm = document.getElementById('typeFilterMobile');
     if (tfm) tfm.value = 'all';
+    setVehicleButtons('all');
     const rfm = document.getElementById('regionFilterMobile');
     if (rfm) rfm.value = 'all';
     const mfm = document.getElementById('monthFilterMobile');
@@ -6604,6 +6693,24 @@ document.addEventListener('DOMContentLoaded', () => {
       if (tfm) tfm.value = e.target.value;
       updateAllaBtn();
       render();
+    });
+  }
+
+  // Vehicle toggle (desktop): Alla / MC / Moped. Separate axis from event type.
+  const vehToggle = document.getElementById('vehicleToggle');
+  if (vehToggle) {
+    vehToggle.querySelectorAll('.veh-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentVehicle = btn.dataset.veh;
+        setVehicleButtons(currentVehicle);
+        // URL + meta only when no region is active (a region path always wins).
+        if (currentRegion === 'all') {
+          if (currentVehicle === 'moped') { updateURLForVehicle('moped'); applyMopedMeta(); }
+          else { updateURLForVehicle(null); updatePageMetaForRegion(null); }
+        }
+        updateAllaBtn();
+        render();
+      });
     });
   }
 

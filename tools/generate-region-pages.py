@@ -1,20 +1,21 @@
 #!/usr/bin/env python3
 """
-Generate per-region landing pages for SEO.
+Generate per-region landing pages (and the /moped/ landing page) for SEO.
 
 GitHub Pages does not support _redirects, so we create real folders:
   /skane/index.html
   /stockholm/index.html
+  /moped/index.html
   ...
 
 Each is a copy of /index.html with pre-baked <title>, <meta description>,
-og: tags, canonical, and hero H1 set to that region. The JS still picks up
-the URL on load and applies the region filter.
+og: tags, canonical, and hero H1 set to that region (or to moped). The JS still
+picks up the URL on load and applies the matching filter.
 
 Run after editing index.html:
     python3 tools/generate-region-pages.py
 
-This regenerates all 28 region pages from the current index.html.
+This regenerates all region pages AND the moped page from the current index.html.
 """
 
 import os
@@ -77,30 +78,28 @@ def make_meta(region: str, slug: str, is_country: bool):
     return title, desc, title, desc, url, h1_html, sub
 
 
-def patch_html(html: str, region: str, slug: str, is_country: bool) -> str:
-    """Replace meta tags + hero H1 in the index.html content."""
-    title, desc, og_title, og_desc, url, h1_html, sub = make_meta(region, slug, is_country)
+def make_moped_meta():
+    """Return meta tuple for the /moped/ landing page (vehicle = moped)."""
+    title = 'Mopedträffar & mopedrally 2026 - MC Kalendern'
+    desc = ('Mopedträffar, mopedrally och mopedevenemang i Sverige 2026. Hitta nästa '
+            'mopedträff och mopedrally nära dig. Uppdateras dagligen.')
+    url = 'https://druk.se/moped/'
+    h1_html = 'Moped<span>kalendern</span>'
+    sub = 'Mopedträffar och mopedrally i Sverige 2026'
+    return title, desc, title, desc, url, h1_html, sub
 
-    # Add <base href="/"> to <head> so ALL relative URLs in this region page
-    # resolve from the site root, not from /dalarna/ etc. This catches:
-    # - <img src="ads/foo.jpg"> set by JS at runtime
-    # - background-image: url('hero.jpg') in CSS
-    # - Card backgrounds applied via element.style.backgroundImage
-    # - All club icons, ads, weather data fetches
-    # Without this, every relative path on /dalarna/ tries /dalarna/ads/foo.jpg → 404.
+
+def absolutize_html(html: str) -> str:
+    """Add <base href="/"> and rewrite relative src/href/url() to absolute paths,
+    so a page served from a subfolder (/dalarna/, /moped/) still loads root assets."""
     html = re.sub(r'(<head[^>]*>)', r'\1\n<base href="/">', html, count=1)
 
-    # Belt-and-suspenders: also rewrite literal src=/href=/url() to absolute paths
-    # for the static HTML (helps in browsers that have base href quirks).
     def absolutize(match):
         attr = match.group(1)
         path = match.group(2)
         if path.startswith(('http://', 'https://', '/', '#', 'data:', 'mailto:', 'tel:', 'javascript:')):
             return match.group(0)
-        # Skip JS template-literal placeholders. Without this, href="${event.link}"
-        # in a JS string was rewritten to href="/${event.link}", which evaluated
-        # at runtime to /https://hdcs.se/X and Google indexed it as a 404 at
-        # https://druk.se/https://hdcs.se/X.
+        # Skip JS template-literal placeholders (e.g. href="${event.link}").
         if path.startswith('${') or '${' in path:
             return match.group(0)
         return f'{attr}="/{path}"'
@@ -111,36 +110,35 @@ def patch_html(html: str, region: str, slug: str, is_country: bool) -> str:
         path = match.group(2)
         if path.startswith(('http://', 'https://', '/', '#', 'data:')):
             return match.group(0)
-        # Same template-literal guard as above.
         if path.startswith('${') or '${' in path:
             return match.group(0)
         return f'url({quote}/{path}{quote})'
     html = re.sub(r'url\((["\']?)([^)"\']+)\1\)', absolutize_css_url, html)
+    return html
 
-    # <title>
+
+def apply_meta(html: str, title, desc, og_title, og_desc, url, h1_html, sub) -> str:
+    """Replace title / description / canonical / og tags / hero H1 / hero subtitle."""
     html = re.sub(r'<title>[^<]*</title>', f'<title>{title}</title>', html, count=1)
-    # <meta name="description">
     html = re.sub(r'<meta\s+name="description"\s+content="[^"]*"\s*/?>',
                   f'<meta name="description" content="{desc}">', html, count=1)
-    # <link rel="canonical">
     html = re.sub(r'<link\s+rel="canonical"\s+href="[^"]*"\s*/?>',
                   f'<link rel="canonical" href="{url}">', html, count=1)
-    # og:url
     html = re.sub(r'<meta\s+property="og:url"\s+content="[^"]*"\s*/?>',
                   f'<meta property="og:url" content="{url}">', html, count=1)
-    # og:title
     html = re.sub(r'<meta\s+property="og:title"\s+content="[^"]*"\s*/?>',
                   f'<meta property="og:title" content="{og_title}">', html, count=1)
-    # og:description
     html = re.sub(r'<meta\s+property="og:description"\s+content="[^"]*"\s*/?>',
                   f'<meta property="og:description" content="{og_desc}">', html, count=1)
-    # Hero H1 (class="hero-logo")
     html = re.sub(r'(<h1\s+class="hero-logo">)[^<]*(<span>[^<]*</span>)?[^<]*</h1>',
                   rf'\1{h1_html}</h1>', html, count=1)
-    # Hero subtitle (class="hero-sub")
     html = re.sub(r'(<div\s+class="hero-sub">)[^<]*(</div>)',
                   rf'\g<1>{sub}\g<2>', html, count=1)
     return html
+
+
+def patch_html(html: str, meta) -> str:
+    return apply_meta(absolutize_html(html), *meta)
 
 
 def main():
@@ -152,12 +150,15 @@ def main():
     for region, slug, is_country in REGIONS:
         out_dir = ROOT / slug
         out_dir.mkdir(exist_ok=True)
-        out_file = out_dir / 'index.html'
-        out_html = patch_html(html, region, slug, is_country)
-        out_file.write_text(out_html, encoding='utf-8')
+        (out_dir / 'index.html').write_text(patch_html(html, make_meta(region, slug, is_country)), encoding='utf-8')
         written += 1
         print(f'  wrote /{slug}/index.html')
-    print(f'\nDone. Generated {written} region pages.')
+    # Vehicle landing page: /moped/
+    moped_dir = ROOT / 'moped'
+    moped_dir.mkdir(exist_ok=True)
+    (moped_dir / 'index.html').write_text(patch_html(html, make_moped_meta()), encoding='utf-8')
+    print('  wrote /moped/index.html')
+    print(f'\nDone. Generated {written} region pages + 1 moped page.')
     print('Remember: re-run this script after every change to index.html.')
 
 

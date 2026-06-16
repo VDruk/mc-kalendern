@@ -4,6 +4,14 @@
 <base href="/">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- Google Analytics 4 (re-added 2026-06-11; was dropped during an earlier index.html rewrite) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HVJ6PFNE2W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HVJ6PFNE2W');
+</script>
 <title>MC-träffar i Finland 2026 - MC Kalendern</title>
 <meta name="description" content="MC-träffar i Finland 2026. Här samlar vi MC-evenemang som svenska bikers reser till. Träffar, körningar och fester från 380+ arrangörer.">
 <meta name="author" content="Slava Druk">
@@ -16,6 +24,8 @@
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="manifest" href="/manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MC Kalendern">
 
 <!-- Preload LCP hero image on desktop only (hero is hidden on mobile) -->
 <link rel="preload" href="/hero.jpg" as="image" fetchpriority="high" media="(min-width: 769px)">
@@ -41,8 +51,8 @@
 
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="MC Kalender 2026 | 1300+ MC-träffar och evenemang i Sverige">
-<meta name="twitter:description" content="Sveriges största MC-kalender. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. 1300+ evenemang från 380+ arrangörer.">
+<meta name="twitter:title" content="MC Kalender 2026 | 1700+ MC-träffar och evenemang i Sverige">
+<meta name="twitter:description" content="Sveriges största MC-kalender. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. 1700+ evenemang från hundratals arrangörer.">
 <meta name="twitter:image" content="https://druk.se/ads/og-image-cover.jpg">
 
 <!-- events.js moved to end of body for non-blocking load -->
@@ -367,6 +377,24 @@
   .filter-select:hover { border-color: var(--text-muted); }
   .filter-select:focus { border-color: var(--accent); }
 
+  /* Vehicle toggle (Alla / MC / Moped) - separate axis from event type */
+  .vehicle-toggle {
+    display: inline-flex; align-items: stretch;
+    border: 1px solid var(--border); border-radius: 20px;
+    background: var(--bg-secondary); overflow: hidden;
+  }
+  .vehicle-toggle .veh-btn {
+    border: none; background: transparent; cursor: pointer;
+    font-size: 13px; color: var(--text-secondary);
+    padding: 6px 14px; transition: all var(--transition);
+    border-left: 1px solid var(--border);
+  }
+  .vehicle-toggle .veh-btn:first-child { border-left: none; }
+  .vehicle-toggle .veh-btn:hover { color: var(--text-primary); background: var(--bg-card-hover); }
+  .vehicle-toggle .veh-btn.active {
+    background: var(--accent); color: #fff; font-weight: 600;
+  }
+
   /* Filter spacer to push right-side items */
   .filter-spacer { flex: 1; }
 
@@ -498,6 +526,23 @@
     content: ''; flex: 1; height: 1px;
     background: linear-gradient(to right, var(--border), transparent);
   }
+  /* "Pågår nu" live divider (ongoing multi-day events) */
+  .now-divider { color: var(--type-traff); }
+  .now-divider .now-dot {
+    width: 9px; height: 9px; border-radius: 50%;
+    background: var(--type-traff);
+    box-shadow: 0 0 0 0 rgba(22,163,74,0.6);
+    animation: nowPulse 1.8s infinite;
+    flex-shrink: 0;
+  }
+  @keyframes nowPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(22,163,74,0.55); }
+    70%  { box-shadow: 0 0 0 8px rgba(22,163,74,0); }
+    100% { box-shadow: 0 0 0 0 rgba(22,163,74,0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .now-divider .now-dot { animation: none; }
+  }
 
   /* ========== SUPPORT SECTION ========== */
   .support-section {
@@ -599,6 +644,14 @@
     contain-intrinsic-size: auto 350px;
     border-top: 3px solid transparent;
   }
+  /* CLS fix (2026-06-15): on mobile, cards are batch-rendered (30 at a time), so
+     content-visibility gives almost no benefit, but its 350px size estimate is far
+     taller than a real mobile card (~160-190px). As short cards snap to their real
+     height on scroll, the page shifts (mobile CLS). Turn it off on mobile only.
+     Desktop (785 cards) keeps content-visibility for render speed. */
+  @media (max-width: 768px) {
+    .card { content-visibility: visible; contain-intrinsic-size: auto; }
+  }
   /* Type color bars */
   .card.tb-traff { border-top-color: var(--type-traff); }
   .card.tb-korning { border-top-color: var(--type-korning); }
@@ -631,6 +684,44 @@
   .card-top-right {
     display: flex; align-items: flex-start; gap: 8px;
   }
+
+  /* ===== Like ("Intresserad") pill - hidden until the likes API responds (body.likes-on) =====
+     Style: transparent with star-gray contour (Slava's choice, "style A").
+     Desktop white card front: centered on the star column (star center = 32px from card
+     right edge; anchor is the transformed .card-front, right inset 21px -> right:11px,
+     translateX(50%) keeps the pill centered as the count grows). */
+  .like-btn {
+    display: none;
+    align-items: center; gap: 5px;
+    position: absolute; top: 30px; right: 11px;
+    transform: translateX(50%);
+    z-index: 3;
+    background: transparent;
+    border: 1.5px solid transparent; /* no pill when unpressed - bare icon like the star */
+    color: var(--border-light);      /* same gray as the unpressed star */
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s, background 0.15s, transform 0.1s;
+  }
+  body.likes-on .like-btn { display: inline-flex; }
+  .like-btn svg { width: 15px; height: 15px; }
+  .like-btn:hover { color: var(--accent); }
+  .like-btn:active { transform: translateX(50%) scale(0.92); }
+  .like-btn.liked { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .like-btn .like-n:empty { display: none; }
+  /* Poster fronts are photos on every screen size: faint tint + light contour, bottom-right */
+  .poster-card .like-btn {
+    top: auto; right: 10px; bottom: 10px;
+    transform: none;
+    background: rgba(0,0,0,0.35); /* same translucent disc family as the mobile star */
+    border-color: transparent;
+    color: rgba(255,255,255,0.85);
+  }
+  .poster-card .like-btn:active { transform: scale(0.92); }
 
   /* Date block */
   .card-date-block {
@@ -951,6 +1042,54 @@
     border-radius: var(--radius);
   }
   .card.poster-card .card-back-flip { padding: 20px; background: var(--bg-card); } /* Back side gets its own padding + bg */
+
+  /* ===== Plats (place) cards: text drawn by the SITE (not baked into the image) =====
+     Uses the site font automatically. Container-query units (cqw) scale the text with
+     the card width so it matches across a row. Name is bottom-anchored above the
+     separator; separator and city sit at FIXED positions, so a 1- or 2-line name
+     never moves them. Works with a photo or, for no-photo cards, a dark-blue panel. */
+  .card.place-card {
+    position: relative; aspect-ratio: 3 / 4; overflow: hidden;
+    border: none; padding: 0; background: #1a1a2e;
+    border-radius: var(--radius); container-type: inline-size;
+    align-self: center; box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;
+  }
+  .card.place-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.25); }
+  .card.place-card .place-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card.place-card .place-grad {
+    position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(to bottom, transparent 52%, rgba(8,10,24,0.55) 74%, rgba(8,10,24,0.92) 100%);
+  }
+  .card.place-card.no-photo .place-grad { display: none; }
+  .card.place-card .place-name {
+    position: absolute; left: 6%; right: 6%; bottom: 13.4%;
+    text-align: center; color: #fff; font-weight: 700;
+    font-size: 7.2cqw; line-height: 1.06; letter-spacing: -0.3px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.55);
+  }
+  .card.place-card .place-sep {
+    position: absolute; left: 50%; transform: translateX(-50%); bottom: 11.6%;
+    width: 9.5cqw; height: 0.4cqw; min-height: 2px; border-radius: 2px;
+    background: var(--type-plats, #0891b2);
+  }
+  .card.place-card .place-city {
+    position: absolute; left: 6%; right: 6%; bottom: 5.6%;
+    text-align: center; color: #d1dce7; font-weight: 500;
+    font-size: 3cqw; letter-spacing: 0.35cqw; text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+  .card.place-card .place-badge {
+    position: absolute; top: 4.2%; right: 5%; z-index: 3;
+    background: rgba(10,14,26,0.82); color: var(--type-plats, #0891b2);
+    font-weight: 700; font-size: 2.7cqw; letter-spacing: 0.3cqw;
+    padding: 1.1cqw 2.6cqw; border-radius: 999px;
+  }
+  /* Back side (flip / "Mer info"): white, padded and readable - same as the old poster-card
+     back. The place-card's dark front background and overflow must NOT leak into the back. */
+  .card.place-card .card-back-flip {
+    padding: 20px; background: var(--bg-card); border-radius: var(--radius);
+  }
 
   /* ========== FAVORITES BUTTON ========== */
   .fab-favorites {
@@ -1329,7 +1468,7 @@
     border-radius: 4px !important;
   }
   @media (max-width: 600px) {
-    #eventMap { height: 300px; }
+    #eventMap { height: 360px; }
   }
   .map-touch-overlay {
     display: none;
@@ -1568,6 +1707,33 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .m-topbar-total {
+    margin-left: auto;
+    margin-right: 4px;
+    text-align: right;
+    line-height: 1.15;
+    flex-shrink: 0;
+  }
+  /* Mirrors .m-topbar-name / .m-topbar-motto exactly (size, line-height, gap)
+     so "1 729" sits on the same line as "MC Kalendern" and "EVENEMANG" on the
+     same line as the motto. Keep these in sync if the left side changes. */
+  .m-topbar-total b {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .m-topbar-total span {
+    display: block;
+    font-size: 10px;
+    margin-top: 2px;
+    color: rgba(255,255,255,0.55);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .m-topbar:has(.m-topbar-region.active) .m-topbar-total { display: none; }
   .m-topbar-region {
     flex: 1;
     text-align: center;
@@ -1755,6 +1921,205 @@
     text-align: center;
   }
 
+  /* ========== INSTALL AS APP MODAL (2026-06-12) ========== */
+  .m-install-overlay {
+    position: fixed; inset: 0;
+    background: rgba(10,10,15,0.55);
+    z-index: 1600;
+    display: none;
+    align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .m-install-overlay.open { display: flex; }
+  .m-install-card {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 24px 20px 20px;
+    max-width: 360px; width: 100%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  }
+  .m-install-close {
+    position: absolute; top: 6px; right: 6px;
+    background: transparent; border: 0;
+    width: 36px; height: 36px;
+    font-size: 24px; line-height: 1;
+    color: var(--text-muted);
+    cursor: pointer;
+  }
+  .m-install-logo { border-radius: 12px; margin-bottom: 10px; }
+  .m-install-title { font-size: 16px; font-weight: 700; color: var(--text-primary); margin-bottom: 14px; }
+  .m-install-steps {
+    text-align: left;
+    margin: 0 0 14px; padding-left: 22px;
+    font-size: 14px; color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .m-install-ico { display: inline-block; width: 16px; height: 16px; vertical-align: -3px; color: #0a84ff; }
+  .m-install-note { font-size: 12px; color: var(--text-muted); }
+
+  /* ========== MOBILE PLATSER SWIPE VIEW (2026-06-12) ========== */
+  .m-meny-badge {
+    background: var(--type-plats); color: #fff;
+    font-size: 11px; font-weight: 700;
+    border-radius: 9px; padding: 1px 7px;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: 1px;
+  }
+  .m-plats {
+    position: fixed; inset: 0;
+    background: var(--bg-secondary);
+    z-index: 1400;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .m-plats.open { display: flex; }
+  .m-plats-head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 16px;
+    background: #1a1a2e; color: #fff;
+    flex-shrink: 0;
+  }
+  .m-plats-title { font-size: 16px; font-weight: 600; }
+  .m-plats-count { font-weight: 400; font-size: 13px; color: rgba(255,255,255,0.6); margin-left: 6px; }
+  .m-plats-close {
+    background: transparent; border: 0; color: #fff;
+    font-size: 26px; line-height: 1; padding: 0;
+    width: 32px; height: 32px; cursor: pointer;
+  }
+  .m-plats-bar {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 12px;
+    flex-shrink: 0;
+  }
+  .m-plats-region {
+    flex: 1; min-width: 0;
+    border: 1px solid var(--border); border-radius: 10px;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    font-size: 13px; font-weight: 500;
+    padding: 8px 10px; height: 38px;
+    font-family: inherit;
+  }
+  .m-plats-gps {
+    display: flex; align-items: center; gap: 6px;
+    border: 1px solid var(--accent); border-radius: 10px;
+    background: transparent; color: var(--accent);
+    font-size: 13px; font-weight: 600;
+    padding: 8px 12px; height: 38px;
+    cursor: pointer; font-family: inherit;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .m-plats-gps svg { width: 15px; height: 15px; }
+  .m-plats-gps.done { border-color: var(--border); color: var(--text-muted); font-weight: 500; pointer-events: none; }
+  .m-plats-gps.hidden { display: none; }
+  .m-plats-scroller {
+    flex: 1; min-height: 0;
+    display: flex; align-items: stretch;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    padding: 2px 7vw;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .m-plats-scroller::-webkit-scrollbar { display: none; }
+  .m-plats-slide {
+    flex: 0 0 86vw;
+    scroll-snap-align: center;
+    position: relative;
+    border-radius: 16px;
+    background: transparent;
+    cursor: pointer;
+    perspective: 1400px;
+  }
+  .m-plats-card {
+    position: absolute; inset: 0;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  .m-plats-slide.flipped .m-plats-card { transform: rotateY(180deg); }
+  .m-plats-face {
+    position: absolute; inset: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .m-plats-front { background: #1a1a2e; }
+  .m-plats-back {
+    transform: rotateY(180deg);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    display: flex; flex-direction: column;
+  }
+  .m-plats-back-head { padding: 14px 16px 6px; flex-shrink: 0; }
+  .m-plats-back-name { font-size: 17px; font-weight: 700; color: var(--text-primary); }
+  .m-plats-back-city { font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-muted); margin-top: 2px; }
+  .m-plats-back-body {
+    flex: 1; min-height: 0;
+    overflow-y: auto;
+    padding: 4px 16px 8px;
+    font-size: 13.5px; line-height: 1.55;
+    color: var(--text-secondary);
+    -webkit-overflow-scrolling: touch;
+  }
+  .m-plats-back-body p { margin: 0 0 10px; }
+  .m-plats-back-foot { flex-shrink: 0; padding: 8px 12px 12px; border-top: 1px solid var(--border); }
+  .m-plats-pills { display: flex; gap: 8px; justify-content: center; overflow-x: auto; scrollbar-width: none; }
+  .m-plats-pills::-webkit-scrollbar { display: none; }
+  .m-plats-pill {
+    display: inline-flex; align-items: center; gap: 7px;
+    min-height: 38px; padding: 0 14px;
+    border-radius: 19px;
+    font-size: 13px; font-weight: 500;
+    background: var(--bg-primary); border: 1px solid var(--border);
+    color: var(--text-primary); text-decoration: none;
+    white-space: nowrap; flex-shrink: 0;
+  }
+  .m-plats-pill img { width: 18px; height: 18px; }
+  .m-plats-img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .m-plats-badge {
+    position: absolute; top: 12px; right: 12px;
+    background: var(--type-plats); color: #fff;
+    font-size: 11px; font-weight: 700; letter-spacing: 1px;
+    padding: 3px 10px; border-radius: 10px;
+  }
+  .m-plats-dist {
+    position: absolute; top: 12px; left: 12px;
+    background: rgba(10,10,20,0.6); color: #fff;
+    font-size: 12px; font-weight: 600;
+    padding: 4px 10px; border-radius: 10px;
+    display: flex; align-items: center; gap: 5px;
+  }
+  .m-plats-dist svg { width: 12px; height: 12px; }
+  .m-plats-grad {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 70px 14px 22px;
+    background: linear-gradient(to top, rgba(0,0,0,0.82), rgba(0,0,0,0.45) 55%, rgba(0,0,0,0));
+    text-align: center;
+    pointer-events: none;
+  }
+  .m-plats-name { color: #fff; font-size: 21px; font-weight: 700; text-shadow: 0 1px 6px rgba(0,0,0,0.5); }
+  .m-plats-city { color: rgba(255,255,255,0.85); font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-top: 4px; }
+  .m-plats-foot {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 8px 12px calc(10px + env(safe-area-inset-bottom));
+    font-size: 12px; color: var(--text-muted);
+  }
+  .m-plats-empty { margin: auto; color: var(--text-muted); font-size: 14px; padding: 30px; text-align: center; }
+
   /* ========== MOBILE DETAIL VIEW (Phase 2b) ========== */
   .m-detail {
     position: fixed; inset: 0;
@@ -1855,6 +2220,27 @@
     color: #fff;
   }
   .m-detail-fav.active { color: #fbbf24; }
+  .m-detail-like {
+    position: absolute;
+    left: 64px;
+    top: calc(env(safe-area-inset-top) + 12px);
+    height: 40px;
+    border-radius: 20px;
+    border: 1.5px solid transparent;
+    padding: 0 14px;
+    display: none;
+    align-items: center; gap: 6px;
+    z-index: 2;
+    background: rgba(0,0,0,0.55); /* same disc style as the modal star button */
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  body.likes-on .m-detail-like { display: flex; }
+  body.likes-on .m-detail-like.m-like-hidden { display: none; }
+  .m-detail-like svg { width: 16px; height: 16px; }
+  .m-detail-like.liked { background: var(--accent); }
   .m-detail-body {
     flex: 1;
     overflow-y: auto;
@@ -2020,7 +2406,102 @@
     .filter-right-col { display: none !important; }
     .filter-dropdowns { display: none !important; }
     .filter-row-mobile { display: none !important; }
-    .event-map-section { display: none !important; }
+
+    /* Map on mobile: collapsed by default, full-width toggle button visible */
+    .event-map-section {
+      max-width: 100%;
+      padding: 6px 10px 0;
+      margin: 6px 0 0;
+    }
+    .event-map-section .event-map-toggle {
+      position: static;
+      display: block;
+      width: 100%;
+      height: 42px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 21px;
+      background: #fff;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      padding: 0;
+    }
+    .event-map-section:not(.collapsed) #eventMap { margin-top: 8px; }
+
+    /* Mini-list of visible events under the map (option 5) */
+    .map-minilist {
+      display: none;
+      margin: 8px -10px 0;
+      padding: 4px 10px 8px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      white-space: nowrap;
+    }
+    .map-minilist::-webkit-scrollbar { display: none; }
+    .event-map-section:not(.collapsed) .map-minilist { display: block; }
+    .mini-card {
+      display: inline-flex;
+      flex-direction: column;
+      vertical-align: top;
+      width: 220px;
+      height: 96px;
+      box-sizing: border-box;
+      scroll-snap-align: center;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+      margin-right: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+      cursor: pointer;
+      white-space: normal;
+      overflow: hidden;
+      transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    }
+    .mini-card.active {
+      border-color: var(--accent);
+      box-shadow: 0 2px 10px rgba(217,119,6,0.3);
+      transform: translateY(-1px);
+    }
+    .mini-card-date {
+      font-size: 11px;
+      color: var(--accent);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      line-height: 1.2;
+    }
+    .mini-card-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 3px 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      line-height: 1.25;
+      min-height: 32px; /* reserve 2 lines so the location always sits at the same spot */
+      flex: 0 0 auto;
+    }
+    .mini-card-loc {
+      font-size: 11px;
+      color: #666;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-top: auto; /* push location to the bottom of the card */
+    }
+    .map-minilist-empty {
+      display: inline-block;
+      padding: 12px 8px;
+      font-size: 12px;
+      color: #888;
+    }
 
     /* Flatten filters-wrapper so it contributes no space on mobile */
     .filters-wrapper { background: transparent; border: 0; box-shadow: none; padding: 0; margin: 0; }
@@ -2104,7 +2585,7 @@
       background-color: #1a1a2e;
       background-image: var(--card-bg-image, none);
       background-size: cover;
-      background-position: center;
+      background-position: var(--card-bg-position, center);
       padding: 0;
       /* GPU compositing: prevents repaint flicker during fast scroll on iOS */
       transform: translateZ(0);
@@ -2222,6 +2703,29 @@
       z-index: 3;
       pointer-events: none;
     }
+    /* Mobile: like pill bottom-right, horizontally centered on the star column.
+       right:25px = star center (card-top padding 10px + 30px circle / 2);
+       translateX(50%) keeps the pill centered on that axis as the count grows. */
+    .card:not(.poster-card) .like-btn {
+      top: auto; right: 25px; bottom: 8px;
+      transform: translateX(50%);
+      background: rgba(0,0,0,0.35); /* same translucent disc as the mobile star button */
+      border-color: transparent;
+      color: rgba(255,255,255,0.85);
+      z-index: 4; /* above the absolutely positioned full-width .card-name (z-index 3) */
+      min-height: 26px;
+    }
+    .card:not(.poster-card) .like-btn:active {
+      transform: translateX(50%) scale(0.92);
+    }
+    /* The like pill replaces the chevron tap hint as the bottom-right element */
+    body.likes-on .card:not(.poster-card)::before { content: none; }
+    /* Keep the title text clear of the pill */
+    body.likes-on .card:not(.poster-card) .card-name { padding-right: 56px; }
+    .poster-card .like-btn {
+      top: auto; right: 10px; bottom: 10px;
+      z-index: 4;
+    }
 
     /* Colored left stripe ONLY on no-image cards (subtle type hint on the solid dark blue) */
     .card.tb-traff:not(.has-photo):not(.poster-card)   { box-shadow: inset 4px 0 0 var(--type-traff); }
@@ -2241,7 +2745,7 @@
   "@type": "WebSite",
   "name": "MC Kalendern",
   "url": "https://druk.se/",
-  "description": "MC Kalender 2026 med 1300+ MC-evenemang i Sverige. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. Träffar, körningar, mässor, racing och fester från 380+ arrangörer.",
+  "description": "MC Kalender 2026 med 1700+ MC-evenemang i Sverige. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. Träffar, körningar, mässor, racing och fester från hundratals arrangörer.",
   "inLanguage": "sv",
   "image": "https://druk.se/ads/mc-kalender-google-square.jpg",
   "thumbnailUrl": "https://druk.se/ads/mc-kalender-google-square.jpg",
@@ -2279,6 +2783,7 @@
       <div class="m-topbar-motto">MC-träffar i Sverige 2026</div>
     </div>
   </div>
+  <div class="m-topbar-total" id="mTopbarTotal"></div>
   <div class="m-topbar-region" id="mTopbarRegion" aria-live="polite"></div>
   <button class="m-burger" id="mBurger" aria-label="Öppna meny" aria-expanded="false">
     <span></span><span></span><span></span>
@@ -2321,7 +2826,21 @@
       </span>
       <span class="m-meny-arrow">&rsaquo;</span>
     </button>
+    <button class="m-meny-item" id="mMenyInstall">
+      <span class="m-meny-item-left">
+        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 9v6M9 12h6"/></svg></span>
+        <span>L&auml;gg till som app</span>
+      </span>
+      <span class="m-meny-arrow">&rsaquo;</span>
+    </button>
     <div class="m-meny-divider"></div>
+    <button class="m-meny-item" id="mMenyPlatser">
+      <span class="m-meny-item-left">
+        <span class="m-meny-icon" style="color: var(--type-plats)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+        <span>Platser<span class="m-meny-badge" id="mMenyPlatserN"></span></span>
+      </span>
+      <span class="m-meny-arrow">&rsaquo;</span>
+    </button>
     <button class="m-meny-item" id="mMenyFavoriter">
       <span class="m-meny-item-left">
         <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></span>
@@ -2340,11 +2859,40 @@
   <div class="m-meny-foot">druk.se · MC Kalendern 2026</div>
 </aside>
 
+<!-- ========== INSTALL AS APP MODAL (iOS instructions, 2026-06-12) ========== -->
+<div class="m-install-overlay" id="mInstallOverlay" aria-hidden="true">
+  <div class="m-install-card" role="dialog" aria-modal="true" aria-label="L&auml;gg till som app">
+    <button class="m-install-close" id="mInstallClose" aria-label="St&auml;ng">&times;</button>
+    <img src="/favicon-192.png" alt="" width="56" height="56" class="m-install-logo">
+    <div class="m-install-title">L&auml;gg till MC Kalendern som app</div>
+    <ol class="m-install-steps">
+      <li>Tryck p&aring; <strong>Dela</strong>-knappen <svg class="m-install-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg> i webbl&auml;saren</li>
+      <li>V&auml;lj <strong>&rdquo;L&auml;gg till p&aring; hemsk&auml;rmen&rdquo;</strong></li>
+    </ol>
+    <div class="m-install-note">Gratis, ingen App Store. Kalendern f&aring;r en egen ikon och &ouml;ppnas i helsk&auml;rm.</div>
+  </div>
+</div>
+
+<!-- ========== MOBILE PLATSER SWIPE VIEW (2026-06-12) ========== -->
+<div class="m-plats" id="mPlats" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Platser">
+  <div class="m-plats-head">
+    <div class="m-plats-title">Platser<span class="m-plats-count" id="mPlatsCount"></span></div>
+    <button class="m-plats-close" id="mPlatsClose" aria-label="St&auml;ng">&times;</button>
+  </div>
+  <div class="m-plats-bar">
+    <select class="m-plats-region" id="mPlatsRegion" aria-label="Filtrera p&aring; region"></select>
+    <button class="m-plats-gps hidden" id="mPlatsGps"></button>
+  </div>
+  <div class="m-plats-scroller" id="mPlatsScroller"></div>
+  <div class="m-plats-foot" id="mPlatsFoot"></div>
+</div>
+
 <!-- ========== MOBILE DETAIL VIEW (Phase 2b 2026-04-23) ========== -->
 <div class="m-detail" id="mDetail" role="dialog" aria-modal="true" aria-hidden="true">
   <div class="m-detail-photo" id="mDetailPhoto">
     <button class="m-detail-close" id="mDetailClose" aria-label="Stäng">&times;</button>
     <button class="m-detail-fav" id="mDetailFav" aria-label="Spara">&#9734;</button>
+    <button class="m-detail-like m-like-hidden" id="mDetailLike" aria-label="Intresserad"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg><span id="mDetailLikeN"></span></button>
   </div>
   <div class="m-detail-body" id="mDetailBody"></div>
 </div>
@@ -2400,28 +2948,28 @@
 
 <!-- ========== MOBILE TIME PILLS (Phase 1) ========== -->
 <div class="m-time-pills" id="mTimePills" role="tablist" aria-label="Snabbfilter tid">
-  <div class="m-pill active" id="mPillAll" role="tab" data-filter="all">
+  <div class="m-pill active" id="mPillAll" role="tab" tabindex="0" data-filter="all">
     <div class="m-pill-label">Alla</div>
     <div class="m-pill-count" id="mPillAllCount">0</div>
   </div>
-  <div class="m-pill" id="mPillToday" role="tab" data-filter="__today__">
+  <div class="m-pill" id="mPillToday" role="tab" tabindex="0" data-filter="__today__">
     <span class="m-pill-dot" aria-hidden="true"></span>
     <div class="m-pill-label">Idag</div>
     <div class="m-pill-count" id="mPillTodayCount">0</div>
   </div>
-  <div class="m-pill" id="mPillTomorrow" role="tab" data-filter="__tomorrow__">
+  <div class="m-pill" id="mPillTomorrow" role="tab" tabindex="0" data-filter="__tomorrow__">
     <div class="m-pill-label">Imorgon</div>
     <div class="m-pill-count" id="mPillTomorrowCount">0</div>
   </div>
-  <div class="m-pill" id="mPillWeekend" role="tab" data-filter="__weekend__">
+  <div class="m-pill" id="mPillWeekend" role="tab" tabindex="0" data-filter="__weekend__">
     <div class="m-pill-label">Helgen</div>
     <div class="m-pill-count" id="mPillWeekendCount">0</div>
   </div>
-  <div class="m-pill" id="mPillWeek" role="tab" data-filter="__week__">
+  <div class="m-pill" id="mPillWeek" role="tab" tabindex="0" data-filter="__week__">
     <div class="m-pill-label">Vecka</div>
     <div class="m-pill-count" id="mPillWeekCount">0</div>
   </div>
-  <div class="m-pill" id="mPillMonth" role="tab" data-filter="__month__">
+  <div class="m-pill" id="mPillMonth" role="tab" tabindex="0" data-filter="__month__">
     <div class="m-pill-label">Månad</div>
     <div class="m-pill-count" id="mPillMonthCount">0</div>
   </div>
@@ -2466,6 +3014,11 @@
         <option value="Plats">Plats</option>
         <option value="Anons">Anons</option>
       </select>
+      <div class="vehicle-toggle" id="vehicleToggle" role="group" aria-label="Fordon: MC eller moped">
+        <button type="button" class="veh-btn active" data-veh="all">Alla</button>
+        <button type="button" class="veh-btn" data-veh="mc">MC</button>
+        <button type="button" class="veh-btn" data-veh="moped">Moped</button>
+      </div>
     </div>
     <div class="filter-right-col">
       <div class="toggle-wrap">
@@ -2548,19 +3101,20 @@
     <div id="eventMap"></div>
     <div class="map-touch-overlay" id="mapTouchOverlay"><span>Använd två fingrar för att flytta kartan</span></div>
   </div>
+  <div class="map-minilist" id="mapMinilist"></div>
   <div class="event-map-stats" id="mapStats"></div>
 </div>
 
 <!-- ========== GRID ========== -->
 <main class="main-content">
-  <div class="grid" id="grid"><div class="no-results"><div class="no-results-icon">&#x23F3;</div><div class="no-results-text">Laddar evenemang...</div></div></div>
+  <div class="grid" id="grid"><div class="no-results" style="min-height:130vh"><div class="no-results-icon">&#x23F3;</div><div class="no-results-text">Laddar evenemang...</div></div></div>
   <div class="tipsa-btn-wrapper">
     <button class="tipsa-btn" id="tipsaBtn">Tipsa om ett evenemang</button>
   </div>
 </main>
 
 <!-- ========== FAB (favorites) ========== -->
-<button class="fab-favorites" id="fabFavorites" title="Mina sparade evenemang">
+<button class="fab-favorites" id="fabFavorites" title="Mina sparade evenemang" aria-label="Mina sparade evenemang">
   &#9733;
   <span class="fab-badge" id="fabBadge" style="display:none">0</span>
 </button>
@@ -2675,11 +3229,11 @@
     <img class="seo-badge" src="/ads/mc-kalender-google-square.jpg" alt="MC Kalender 2026 - Sveriges Största MC-Kalendern med motorcyklist och svensk flagga" width="200" height="200" loading="lazy">
     <p>MC Kalendern är Sveriges mest kompletta MC-kalender med MC-träffar och MC-evenemang 2026. Letar du efter en MC-träff idag, en MC-kortege i helgen eller nästa körning i din region? Här hittar du allt samlat. Vår MC-kalender listar träffar, mässor, motorshowar, körningar, MC-korteger, racing, trackdays och fester. Se vad som händer just nu eller planera hela MC-säsongen 2026.</p>
     <img class="seo-badge seo-badge-mobile" src="/ads/mc-kalender-google-square.jpg" alt="" width="180" height="180" loading="lazy">
-    <p>Vi bevakar fler än 1300 MC-evenemang från 380+ arrangörer, bland annat BMW MC-klubben, Gold Wing Club Sweden (GWCS), Harley-Davidson Club Sweden (H-DCS), Östra Aros MC-Klubb (ÖAMCK), Sveriges MotorCyklister (SMC), Svenska Motorcykel- och Snöskoterförbundet (SVEMO) och många fler. Från MC-Mässan i Jönköping och Motorcykelns Dag till lokala kvällsträffar, gruskurser och avrostningskörningar. Oavsett om du kör sportcykel, cruiser, adventure, touring, enduro eller veteranmaskin finns det MC-event för dig.</p>
+    <p>Vi bevakar fler än 1700 MC-evenemang från hundratals arrangörer, bland annat BMW MC-klubben, Gold Wing Club Sweden (GWCS), Harley-Davidson Club Sweden (H-DCS), Östra Aros MC-Klubb (ÖAMCK), Sveriges MotorCyklister (SMC), Svenska Motorcykel- och Snöskoterförbundet (SVEMO) och många fler. Från MC-Mässan i Jönköping och Motorcykelns Dag till lokala kvällsträffar, gruskurser och avrostningskörningar. Oavsett om du kör sportcykel, cruiser, adventure, touring, enduro eller veteranmaskin finns det MC-event för dig.</p>
     <p>Filtrera bland MC-träffar 2026 efter typ, klubb och region. Hitta MC-träffar i Stockholm, MC-event i Göteborg, MC-träffar i Skåne eller motorevenemang i Uppsala. Spara dina favoriter, dela med dina hojkompisar och håll dig uppdaterad. Varje evenemangskort visar en inbyggd väderprognos från SMHI och plats på kartan, så du kan planera din tur med koll på vädret. MC Kalendern uppdateras dagligen med nya träffar, körningar, MC-korteger och mässor från hela Sverige.</p>
   </div>
   <div class="footer-bottom">
-    <p>MC Kalender 2026 - MC Kalendern. Sveriges kompletta MC-kalender med MC-träffar, körningar, MC-korteger, mässor, racing och trackdays. 1300+ motorevenemang från 380+ arrangörer. Hitta MC-träff idag eller se vad som händer just nu.</p>
+    <p>MC Kalender 2026 - MC Kalendern. Sveriges kompletta MC-kalender med MC-träffar, körningar, MC-korteger, mässor, racing och trackdays. 1700+ motorevenemang från hundratals arrangörer. Hitta MC-träff idag eller se vad som händer just nu.</p>
     <p style="margin-top: 6px;">Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt</a></p>
     <p style="margin-top: 6px;">&copy; 2026 Slava Druk, Uppsala. All eventdata tillhör MC Kalendern. Kommersiell användning kräver tillstånd.</p>
   </div>
@@ -2715,6 +3269,18 @@ function safeSetItem(key, value) {
 // ========== CONFIG ==========
 const MONTHS_SV = ['Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'];
 const MONTHS_SHORT = ['JAN','FEB','MAR','APR','MAJ','JUN','JUL','AUG','SEP','OKT','NOV','DEC'];
+// Base year for the plain "1".."12" month-filter values. Months for later years
+// use the value form "yYYYY-M" (e.g. "y2027-1") so 2026 and 2027 never mix in the filter.
+const FILTER_BASE_YEAR = 2026;
+// Parse a month-filter value into {year, month}, or null for 'all'/special chip values.
+function parseMonthFilter(v) {
+  if (v === 'all' || v == null || String(v).startsWith('__')) return null;
+  const ym = String(v).match(/^y(\d{4})-(\d{1,2})$/);
+  if (ym) return { year: parseInt(ym[1], 10), month: parseInt(ym[2], 10) };
+  const n = parseInt(v, 10);
+  if (n >= 1 && n <= 12) return { year: FILTER_BASE_YEAR, month: n };
+  return null;
+}
 const SE_HOLIDAYS_2026 = new Set(['2026-01-01','2026-01-06','2026-04-03','2026-04-05','2026-04-06','2026-05-01','2026-05-14','2026-05-24','2026-06-06','2026-06-20','2026-10-31','2026-12-25','2026-12-26']);
 
 const CLUB_MATCHERS = {
@@ -2738,16 +3304,113 @@ const TYPE_CLASSES = {
 
 // ========== STATE ==========
 let currentFilter = 'all';
+let currentVehicle = 'all'; // 'all' | 'mc' | 'moped' (vehicle toggle). Untagged events count as mc.
 let currentClub = 'all'; // now driven by organizer dropdown
 let topOrgEntries = []; // top 20 org entries, set during build, used in filter logic
 let currentRegion = 'all';
 let currentMonth = 'all';
 let showPast = false;
+// ===== Archive lazy-loader (past events live in events-archive.js) =====
+let archiveLoaded = false;
+let archiveLoading = false;
+function ensureArchive(cb) {
+  if (archiveLoaded) { if (cb) cb(); return; }
+  if (archiveLoading) return;
+  archiveLoading = true;
+  const s = document.createElement('script');
+  s.src = 'events-archive.js?v=' + encodeURIComponent((typeof EVENTS_DATA !== 'undefined' && EVENTS_DATA.lastUpdated) || '');
+  s.onload = function() {
+    archiveLoading = false;
+    if (typeof EVENTS_ARCHIVE !== 'undefined' && Array.isArray(EVENTS_ARCHIVE.events)) {
+      const seen = new Set(EVENTS_DATA.events.map(e => e.id));
+      const older = EVENTS_ARCHIVE.events.filter(e => !seen.has(e.id));
+      EVENTS_DATA.events = older.concat(EVENTS_DATA.events);
+      archiveLoaded = true;
+      if (typeof render !== 'undefined') render._sorted = null; // invalidate sort/search cache
+    }
+    if (cb) cb();
+  };
+  s.onerror = function() { archiveLoading = false; };
+  document.head.appendChild(s);
+}
 let searchQuery = '';
 let mapCityFilter = ''; // set when user clicks a map dot
 let favorites;
 try { favorites = JSON.parse(safeGetItem('mcFavorites') || '[]'); } catch { favorites = []; }
 if (!Array.isArray(favorites)) favorites = [];
+
+// ===== Anonymous likes ("Intresserad") - Cloudflare Worker + D1 backend =====
+// Feature is invisible (body lacks .likes-on) until GET /api/counts answers,
+// so the site works exactly as before if the Worker is not deployed/reachable.
+const LIKES_API = '/api';
+let likeCounts = null; // null = API not loaded; object = id -> count
+let likedIds;
+try { likedIds = new Set(JSON.parse(safeGetItem('mcLiked') || '[]')); } catch { likedIds = new Set(); }
+const LIKE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>';
+
+function likeBtnHTML(ev) {
+  if (ev._ad || ev._canary) return '';
+  const n = (likeCounts && likeCounts[ev.id]) || 0;
+  const liked = likedIds.has(ev.id);
+  return '<button class="like-btn' + (liked ? ' liked' : '') + '" data-eid="' + ev.id +
+    '" aria-label="Intresserad" title="Intresserad" onclick="event.stopPropagation();toggleLike(\'' + ev.id + '\')">' +
+    LIKE_SVG + '<span class="like-n">' + (n > 0 ? n : '') + '</span></button>';
+}
+
+function applyLikeState(id) {
+  const n = (likeCounts && likeCounts[id]) || 0;
+  const liked = likedIds.has(id);
+  document.querySelectorAll('.like-btn[data-eid="' + (window.CSS && CSS.escape ? CSS.escape(id) : id) + '"]').forEach(b => {
+    b.classList.toggle('liked', liked);
+    const s = b.querySelector('.like-n');
+    if (s) s.textContent = n > 0 ? n : '';
+  });
+  const mb = document.getElementById('mDetailLike');
+  if (mb && mb.dataset.eid === id) {
+    mb.classList.toggle('liked', liked);
+    const ms = document.getElementById('mDetailLikeN');
+    if (ms) ms.textContent = n > 0 ? n : '';
+  }
+}
+
+function toggleLike(id) {
+  if (likeCounts === null) return;
+  const wasLiked = likedIds.has(id);
+  const action = wasLiked ? 'unlike' : 'like';
+  // optimistic update
+  if (wasLiked) likedIds.delete(id); else likedIds.add(id);
+  likeCounts[id] = Math.max(0, (likeCounts[id] || 0) + (wasLiked ? -1 : 1));
+  safeSetItem('mcLiked', JSON.stringify([...likedIds]));
+  applyLikeState(id);
+  fetch(LIKES_API + '/like', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id: id, action: action })
+  }).then(r => { if (!r.ok) throw 0; return r.json(); })
+    .then(d => { if (d && typeof d.n === 'number') { likeCounts[id] = d.n; applyLikeState(id); } })
+    .catch(() => {
+      // revert optimistic update
+      if (action === 'like') { likedIds.delete(id); likeCounts[id] = Math.max(0, (likeCounts[id] || 0) - 1); }
+      else { likedIds.add(id); likeCounts[id] = (likeCounts[id] || 0) + 1; }
+      safeSetItem('mcLiked', JSON.stringify([...likedIds]));
+      applyLikeState(id);
+    });
+}
+
+function loadLikeCounts(isRetry) {
+  fetch(LIKES_API + '/counts')
+    .then(r => { if (!r.ok) throw 0; return r.json(); })
+    .then(d => {
+      likeCounts = (d && typeof d === 'object') ? d : {};
+      document.body.classList.add('likes-on');
+      render(); // re-render once so cards get their counts
+    })
+    .catch(() => {
+      // One retry after 20s covers flaky first connections (e.g. DNS/proxy changes).
+      // If that also fails, likes stay hidden and the site is unaffected.
+      if (!isRetry) setTimeout(() => loadLikeCounts(true), 20000);
+    });
+}
 
 // ========== HELPERS ==========
 function buildBackHTML(cardId, ev) {
@@ -2963,9 +3626,48 @@ function updateURLForRegion(region) {
 // Update <title>, <meta description>, hero H1, hero stats label for current region.
 // Falls back to defaults when region is null/'all'.
 const DEFAULT_TITLE = 'MC Kalender 2026 - MC Kalendern | MC-träffar, evenemang & körningar i Sverige';
-const DEFAULT_DESC = 'MC Kalender 2026 med 1300+ MC-evenemang i Sverige. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. Träffar, körningar, mässor, racing och fester från 380+ arrangörer.';
+const DEFAULT_DESC = 'MC Kalender 2026 med 1700+ MC-evenemang i Sverige. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. Träffar, körningar, mässor, racing och fester från hundratals arrangörer.';
 const DEFAULT_H1_HTML = 'MC <span>Kalendern</span>';
 const DEFAULT_SUB = 'MC-träffar och MC-evenemang i Sverige 2026';
+
+// ===== Vehicle (moped) routing + meta. /moped/ is an SEO landing like regions. =====
+const MOPED_TITLE = 'Mopedträffar & mopedrally 2026 - MC Kalendern';
+const MOPED_DESC = 'Mopedträffar, mopedrally och mopedevenemang i Sverige 2026. Hitta nästa mopedträff och mopedrally nära dig. Uppdateras dagligen.';
+const MOPED_H1_HTML = 'Moped <span>Kalendern</span>';
+const MOPED_SUB = 'Mopedträffar och mopedrally i Sverige 2026';
+function getVehicleFromURL() {
+  const path = window.location.pathname.replace(/^\/+|\/+$/g, '').toLowerCase();
+  if (!path) return null;
+  return path.split('/')[0] === 'moped' ? 'moped' : null;
+}
+// Only 'moped' has a dedicated URL. Caller guards so a region path is never clobbered.
+function updateURLForVehicle(vehicle) {
+  const newPath = (vehicle === 'moped') ? '/moped' : '/';
+  if (window.location.pathname !== newPath) {
+    history.pushState({vehicle: vehicle || 'all'}, '', newPath + window.location.search + window.location.hash);
+  }
+}
+function setVehicleButtons(v) {
+  document.querySelectorAll('#vehicleToggle .veh-btn').forEach(b => b.classList.toggle('active', b.dataset.veh === v));
+}
+function applyMopedMeta() {
+  const titleEl = document.querySelector('title');
+  const descEl = document.querySelector('meta[name="description"]');
+  const ogTitleEl = document.querySelector('meta[property="og:title"]');
+  const ogDescEl = document.querySelector('meta[property="og:description"]');
+  const ogUrlEl = document.querySelector('meta[property="og:url"]');
+  const canonEl = document.querySelector('link[rel="canonical"]');
+  const h1 = document.querySelector('.hero-logo');
+  const sub = document.querySelector('.hero-sub');
+  if (titleEl) titleEl.textContent = MOPED_TITLE;
+  if (descEl) descEl.setAttribute('content', MOPED_DESC);
+  if (ogTitleEl) ogTitleEl.setAttribute('content', MOPED_TITLE);
+  if (ogDescEl) ogDescEl.setAttribute('content', MOPED_DESC);
+  if (ogUrlEl) ogUrlEl.setAttribute('content', 'https://druk.se/moped/');
+  if (canonEl) canonEl.setAttribute('href', 'https://druk.se/moped/');
+  if (h1) h1.innerHTML = MOPED_H1_HTML;
+  if (sub) sub.textContent = MOPED_SUB;
+}
 
 function updatePageMetaForRegion(region) {
   const titleEl = document.querySelector('title');
@@ -2997,8 +3699,8 @@ function updatePageMetaForRegion(region) {
     ? `MC-träffar i ${region} 2026 - MC Kalendern`
     : `MC-träffar i ${region} 2026 - MC-evenemang & körningar | MC Kalendern`;
   const desc = isCountry
-    ? `MC-träffar i ${region} 2026. Här samlar vi MC-evenemang som svenska bikers reser till. Träffar, körningar och fester från 380+ arrangörer.`
-    : `MC-träffar och MC-evenemang i ${region} 2026. Hitta din nästa träff, körning eller mässa i ${region}. Uppdateras dagligen från 380+ arrangörer.`;
+    ? `MC-träffar i ${region} 2026. Här samlar vi MC-evenemang som svenska bikers reser till. Träffar, körningar och fester från hundratals arrangörer.`
+    : `MC-träffar och MC-evenemang i ${region} 2026. Hitta din nästa träff, körning eller mässa i ${region}. Uppdateras dagligen från hundratals arrangörer.`;
   // Build URL with string concat (NOT template literal). Reason: Google's URL
   // discovery scans script source as text and was crawling literal template
   // strings like /SLUG_PLACEHOLDER as 404 pages. Trailing slash makes the
@@ -3047,7 +3749,8 @@ function buildRegionsFooter(activeRegions) {
 function buildRegionFilter() {
   // Single pass over events to collect regions, months, and organizer stats
   const regionCounts = {};
-  const monthCounts = {};
+  const monthCounts = {};        // base year (2026) months -> count, values "1".."12"
+  const futureMonthCounts = {};  // later years -> count, keyed "YYYY-M"
   const groupCounts = {};
   const standaloneOrgs = {};
   const matcherEntries = Object.entries(CLUB_MATCHERS);
@@ -3056,8 +3759,13 @@ function buildRegionFilter() {
   for (let i = 0; i < EVENTS_DATA.events.length; i++) {
     const e = EVENTS_DATA.events[i];
     if (e._canary) continue;
+    const _yr = parseInt(e.date.split('-')[0], 10);
     const m = parseInt(e.date.split('-')[1], 10);
-    monthCounts[m] = (monthCounts[m] || 0) + 1;
+    if (_yr > FILTER_BASE_YEAR) {
+      futureMonthCounts[_yr + '-' + m] = (futureMonthCounts[_yr + '-' + m] || 0) + 1;
+    } else {
+      monthCounts[m] = (monthCounts[m] || 0) + 1;
+    }
     if (e._ad) continue;
     // Region
     if (e.region) {
@@ -3096,12 +3804,37 @@ function buildRegionFilter() {
   document.getElementById('statRegions').textContent = activeDistricts.length;
 
   const monthSel = document.getElementById('monthFilter');
+  // Months that only exist in the archive must still be selectable (selecting one lazy-loads the archive).
+  (EVENTS_DATA.archivedMonths || []).forEach(m => { monthCounts[m] = monthCounts[m] || 1; });
   Object.keys(monthCounts).sort((a, b) => a - b).forEach(m => {
     const opt = document.createElement('option');
     opt.value = m;
     opt.textContent = MONTHS_SV[m - 1];
     monthSel.appendChild(opt);
   });
+  // Future years (2027+): separator, a year header, then that year's months.
+  const futureKeys = Object.keys(futureMonthCounts);
+  if (futureKeys.length) {
+    const futureYears = [...new Set(futureKeys.map(k => k.split('-')[0]))].sort();
+    futureYears.forEach(y => {
+      const sep = document.createElement('option');
+      sep.disabled = true; sep.textContent = '──────';
+      monthSel.appendChild(sep);
+      // No separate year header: the month labels already include the year
+      // ("Januari 2027"), so a standalone "2027" row would be redundant.
+      futureKeys.filter(k => k.startsWith(y + '-'))
+        .map(k => parseInt(k.split('-')[1], 10))
+        .sort((a, b) => a - b)
+        .forEach(mm => {
+          const opt = document.createElement('option');
+          opt.value = 'y' + y + '-' + mm;
+          // Year in the label so it's unambiguous on mobile native selects
+          // (where the disabled "2027" header/separator does not stand out).
+          opt.textContent = MONTHS_SV[mm - 1] + ' ' + y;
+          monthSel.appendChild(opt);
+        });
+    });
+  }
 
   const groupEntries = Object.entries(groupCounts)
     .filter(([, count]) => count > 0).sort((a, b) => b[1] - a[1]);
@@ -3173,7 +3906,12 @@ function updateStats() {
   const today = getTodayStr();
   const all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
   const upcoming = all.filter(e => (e.dateEnd || e.date) >= today);
-  document.getElementById('statEvents').textContent = all.length;
+  // Past events live in events-archive.js until loaded; archivedCount keeps the total honest.
+  const archivedExtra = archiveLoaded ? 0 : (EVENTS_DATA.archivedCount || 0);
+  document.getElementById('statEvents').textContent = all.length + archivedExtra;
+  // Mobile topbar: dynamic TOTAL event count (past + upcoming) - the USP number (2026-06-12)
+  const mTot = document.getElementById('mTopbarTotal');
+  if (mTot) mTot.innerHTML = '<b>' + (all.length + archivedExtra).toLocaleString('sv-SE') + '</b><span>evenemang</span>';
   document.getElementById('statUpcoming').textContent = upcoming.length;
   const now = new Date();
   const thisMonth = upcoming.filter(e => {
@@ -3187,16 +3925,24 @@ function updateStats() {
 }
 
 // ========== HÄNDER JUST NU ==========
-function updateHanderBar() {
-  const today = getTodayStr();
-  // Apply same filters that render() uses (region, type, club, organizer, search, month)
-  // so the chip counts reflect the user's current view, not the global total.
+// Shared base filter (region, type, club, search, real-month) used by both
+// updateHanderBar and updateMobilePillCounts. Computed once per filter state
+// and cached, so a single state change no longer re-filters the list twice.
+function getBaseFiltered() {
+  const key = [currentRegion, currentFilter, currentVehicle, currentClub, searchQuery, currentMonth,
+               EVENTS_DATA.events.length].join('');
+  if (getBaseFiltered._key === key) return getBaseFiltered._list;
   let all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
   if (currentRegion !== 'all') {
     all = all.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
   }
   if (currentFilter !== 'all') {
     all = all.filter(e => e.type === currentFilter);
+  }
+  if (currentVehicle === 'moped') {
+    all = all.filter(e => e._vehicle === 'moped' || e._vehicle === 'both');
+  } else if (currentVehicle === 'mc') {
+    all = all.filter(e => e._vehicle !== 'moped');
   }
   if (currentClub !== 'all') {
     if (currentClub === '__other__') {
@@ -3224,16 +3970,25 @@ function updateHanderBar() {
   // Apply month filter ONLY when it's a real month (1-12). Skip the special
   // __today__/__tomorrow__/__weekend__/__week__ values because those overlap
   // with the chip semantics themselves (they're already represented by the chips).
-  if (currentMonth !== 'all' && !String(currentMonth).startsWith('__')) {
-    const monthNum = parseInt(currentMonth, 10);
-    if (monthNum >= 1 && monthNum <= 12) {
-      all = all.filter(e => {
-        const d = new Date(e.date + 'T00:00:00');
-        const dEnd = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : d;
-        return (d.getMonth() + 1) === monthNum || (dEnd.getMonth() + 1) === monthNum;
-      });
-    }
+  const _mf = parseMonthFilter(currentMonth);
+  if (_mf) {
+    const target = _mf.year * 12 + _mf.month;
+    all = all.filter(e => {
+      const s = e.date.split('-'); const en = (e.dateEnd || e.date).split('-');
+      const sv = (+s[0]) * 12 + (+s[1]); const ev = (+en[0]) * 12 + (+en[1]);
+      return sv <= target && target <= ev;
+    });
   }
+  getBaseFiltered._key = key;
+  getBaseFiltered._list = all;
+  return all;
+}
+
+function updateHanderBar() {
+  const today = getTodayStr();
+  // Same filters that render() uses (region, type, club, organizer, search, month)
+  // so the chip counts reflect the user's current view, not the global total.
+  const all = getBaseFiltered();
 
   // Today
   const todayCount = all.filter(e => e.date <= today && (e.dateEnd || e.date) >= today).length;
@@ -3369,7 +4124,13 @@ function setupMobileUI() {
     el.addEventListener('click', () => {
       if (el.classList.contains('no-events')) return;
       if (p.filter === 'all') {
-        // Reset all filters: month, region, search, type
+        // Reset all filters: month, region, search, type.
+        // Since 2026-06-12 Alla also exits "Visa passerade" mode - Alla means
+        // "back to the normal view" (same reset-everything role as on desktop).
+        if (typeof showPast !== 'undefined' && showPast) {
+          const pt = document.getElementById('pastToggle') || document.getElementById('pastToggleMobile');
+          if (pt) pt.click();
+        }
         monthSel.value = 'all';
         regionSel.value = 'all';
         const si = document.getElementById('searchInput');
@@ -3409,10 +4170,20 @@ function setupMobileUI() {
     const allOpt = document.createElement('option');
     allOpt.value = 'all'; allOpt.textContent = 'Alla datum';
     mDatumSel.appendChild(allOpt);
+    // Track whether we've added a real month yet, so the first separator
+    // (the static one between time pills and months) is skipped, but the
+    // later one (between current-year months and future-year months like
+    // "Januari 2027") is kept - same as the regions/countries separator.
+    let addedMonth = false;
     Array.from(monthSel.options).forEach(opt => {
       if (opt.value === 'all') return;
       if (opt.value.startsWith('__')) return;
-      if (opt.disabled) return;
+      if (opt.disabled) {
+        if (!addedMonth) return;
+        mDatumSel.appendChild(opt.cloneNode(true));
+        return;
+      }
+      addedMonth = true;
       mDatumSel.appendChild(opt.cloneNode(true));
     });
     mDatumSel.addEventListener('change', e => {
@@ -3440,6 +4211,10 @@ function setupMobileUI() {
     mMeny.setAttribute('aria-hidden', 'false');
     mMenyOverlay.setAttribute('aria-hidden', 'false');
     if (mBurger) mBurger.setAttribute('aria-expanded', 'true');
+    const platsN = document.getElementById('mMenyPlatserN');
+    if (platsN && typeof EVENTS_DATA !== 'undefined') {
+      platsN.textContent = EVENTS_DATA.events.filter(e => e._place).length;
+    }
   }
   function closeMMeny() {
     if (!mMeny) return;
@@ -3467,6 +4242,41 @@ function setupMobileUI() {
     const tm = document.getElementById('tipsaModal');
     if (tm) tm.classList.add('open');
   });
+  menyWire('mMenyPlatser', () => { if (typeof openMPlats === 'function') openMPlats(); });
+
+  // "Lägg till som app" (PWA install, 2026-06-12).
+  // Android/Chrome: browser fires beforeinstallprompt -> we keep it and trigger the
+  // native install dialog from the Meny row. iOS: no such event exists, so the row
+  // opens a small instruction modal instead. Row hides when already installed.
+  window.addEventListener('beforeinstallprompt', function(e) {
+    e.preventDefault();
+    window._mckInstallPrompt = e;
+  });
+  const _mckStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+  const _mckInstallRow = document.getElementById('mMenyInstall');
+  if (_mckStandalone && _mckInstallRow) _mckInstallRow.style.display = 'none';
+  window.addEventListener('appinstalled', function() {
+    if (_mckInstallRow) _mckInstallRow.style.display = 'none';
+  });
+  menyWire('mMenyInstall', () => {
+    if (window._mckInstallPrompt) {
+      window._mckInstallPrompt.prompt();
+      window._mckInstallPrompt = null;
+    } else {
+      const ov = document.getElementById('mInstallOverlay');
+      if (ov) { ov.classList.add('open'); ov.setAttribute('aria-hidden', 'false'); }
+    }
+  });
+  const mInstallOverlay = document.getElementById('mInstallOverlay');
+  const mInstallClose = document.getElementById('mInstallClose');
+  function closeMInstall() {
+    if (mInstallOverlay) { mInstallOverlay.classList.remove('open'); mInstallOverlay.setAttribute('aria-hidden', 'true'); }
+  }
+  if (mInstallClose) mInstallClose.addEventListener('click', closeMInstall);
+  if (mInstallOverlay) mInstallOverlay.addEventListener('click', function(e) { if (e.target === mInstallOverlay) closeMInstall(); });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && mInstallOverlay && mInstallOverlay.classList.contains('open')) closeMInstall();
+  });
   menyWire('mMenyFavoriter', () => {
     const fab = document.getElementById('fabFavorites');
     if (fab) fab.click();
@@ -3485,6 +4295,12 @@ function setupMobileUI() {
   const mDetail = document.getElementById('mDetail');
   const mDetailClose = document.getElementById('mDetailClose');
   if (mDetailClose) mDetailClose.addEventListener('click', () => closeMDetail());
+  const mDetailLikeBtn = document.getElementById('mDetailLike');
+  if (mDetailLikeBtn) mDetailLikeBtn.addEventListener('click', (e) => {
+    e.stopPropagation(); // the button sits on the photo header; without this the tap also opens the image lightbox
+    const id = mDetailLikeBtn.dataset.eid;
+    if (id) toggleLike(id);
+  });
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && mDetail && mDetail.classList.contains('open')) closeMDetail();
   });
@@ -3559,6 +4375,14 @@ function openMDetail(cardId) {
     delete photo.dataset.imageSrc;
   }
 
+  // Like button state (hidden for AD cards or while likes API is not loaded)
+  const mLikeBtn = document.getElementById('mDetailLike');
+  if (mLikeBtn) {
+    mLikeBtn.dataset.eid = ev.id;
+    mLikeBtn.classList.toggle('m-like-hidden', !!ev._ad || !!ev._canary);
+    applyLikeState(ev.id);
+  }
+
   // Favorite button state
   if (favBtn) {
     favBtn.classList.toggle('active', isFavorited(ev.id));
@@ -3611,7 +4435,7 @@ function openMDetail(cardId) {
     ? '<div class="m-detail-meta"><span class="m-detail-meta-ico">' + pinIconSVG + '</span><span>' + escapeHtml(ev.location) + '</span></div>'
     : '';
 
-  const weatherHTML = (typeof getWeatherStripHTML === 'function') ? getWeatherStripHTML(ev.id, ev.date) : '';
+  const weatherHTML = (!ev._place && typeof getWeatherStripHTML === 'function') ? getWeatherStripHTML(ev.id, ev.date) : '';
 
   // Calendar URLs (Google + Outlook, Apple uses downloadSingleICS)
   const gcalStart = ev.date.replace(/-/g, '');
@@ -3659,6 +4483,8 @@ function openMDetail(cardId) {
   const mapPillHTML = mapUrl
     ? `<a class="m-map-btn" href="${mapUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><img src="/ads/icon-google-maps.png" srcset="ads/icon-google-maps.png 1x, ads/icon-google-maps@2x.png 2x" alt="" width="18" height="18"> <span>Karta</span></a>`
     : '';
+  // AD cards get no calendar button. Plats cards get the Karta pill merged into
+  // the links row below (one line, 2026-06-12) instead of a separate actions row.
   const actionsHTML = ev._ad ? '' : `<div class="m-detail-actions">${calPillHTML}${mapPillHTML}</div>`;
 
   // Organizer meta row (sits inside the head block, same pattern as date/location)
@@ -3683,15 +4509,17 @@ function openMDetail(cardId) {
       return '<a class="m-detail-link" href="/' + l.url + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">'
         + icoHTML + '<span>' + escapeHtml(l.label) + '</span></a>';
     }).join('');
-    if (rows) linksHTML = '<div class="m-detail-links">' + rows + '</div>';
+    const placeMapPill = (ev._place && mapPillHTML) ? mapPillHTML : '';
+    if (rows || placeMapPill) linksHTML = '<div class="m-detail-links">' + placeMapPill + rows + '</div>';
   }
+  if (!linksHTML && ev._place && mapPillHTML) linksHTML = '<div class="m-detail-links">' + mapPillHTML + '</div>';
 
   body.innerHTML = `
     ${weatherHTML ? '<div class="m-detail-weather">' + weatherHTML + '</div>' : ''}
     <div class="m-detail-head">
       ${chipsHTML ? '<div class="m-detail-chips">' + chipsHTML + '</div>' : ''}
       <h2 class="m-detail-title">${escapeHtml(displayName)}</h2>
-      <div class="m-detail-meta"><span class="m-detail-meta-ico">${calIconSVG}</span><span>${dateStr}</span></div>
+      ${ev._place ? '' : '<div class="m-detail-meta"><span class="m-detail-meta-ico">' + calIconSVG + '</span><span>' + dateStr + '</span></div>'}
       ${locationHTML}
       ${organizerMetaHTML}
     </div>
@@ -3703,6 +4531,9 @@ function openMDetail(cardId) {
   modal.classList.add('open');
   modal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
+  // Move focus into the modal (close button) so keyboard/screen reader users land inside it
+  const closeBtn = document.getElementById('mDetailClose');
+  if (closeBtn) closeBtn.focus();
 }
 
 function closeMDetail() {
@@ -3715,6 +4546,237 @@ function closeMDetail() {
   const body = document.getElementById('mDetailBody');
   if (body) body.scrollTop = 0;
 }
+
+// ========== MOBILE PLATSER SWIPE VIEW (2026-06-12) ==========
+// Fullscreen one-card-per-screen horizontal swipe through Plats cards.
+// Sorting: GPS distance (nearest first) when position is available, else city A-Ö.
+// Position is requested only inside this view, never on page load, and is used
+// locally in the browser only. Last position is cached 10 min for instant sort.
+(function() {
+  const POS_KEY = 'mcPlatsPos';
+  const POS_MAX_AGE = 10 * 60 * 1000;
+  const PIN_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>';
+  let mpPos = null;
+  let mpSortByDist = false;
+  let mpRegion = 'all';
+  let mpList = [];
+  let mpInited = false;
+
+  function mpPlaces() {
+    return (typeof EVENTS_DATA !== 'undefined' && EVENTS_DATA.events)
+      ? EVENTS_DATA.events.filter(e => e._place) : [];
+  }
+
+  function mpDistKm(a, b) {
+    const R = 6371, rad = Math.PI / 180;
+    const dLat = (b.lat - a.lat) * rad;
+    const dLon = (b.lon - a.lon) * rad;
+    const sLat = Math.sin(dLat / 2), sLon = Math.sin(dLon / 2);
+    const h = sLat * sLat + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * sLon * sLon;
+    return 2 * R * Math.asin(Math.sqrt(h));
+  }
+
+  function mpBuildRegions() {
+    const sel = document.getElementById('mPlatsRegion');
+    if (!sel) return;
+    const counts = {};
+    mpPlaces().forEach(p => { counts[p.region] = (counts[p.region] || 0) + 1; });
+    const regions = Object.keys(counts).sort((a, b) => a.localeCompare(b, 'sv'));
+    let html = '<option value="all">Alla regioner</option>';
+    regions.forEach(r => {
+      html += '<option value="' + escapeHtml(r) + '">' + escapeHtml(r) + ' (' + counts[r] + ')</option>';
+    });
+    sel.innerHTML = html;
+    sel.value = (mpRegion !== 'all' && counts[mpRegion]) ? mpRegion : 'all';
+    mpRegion = sel.value;
+  }
+
+  function mpBackHTML(p) {
+    const desc = (p.descriptionFull || p.description || '');
+    const paras = desc
+      ? desc.split(/\n\s*\n+/).map(s => s.trim()).filter(Boolean)
+          .map(s => '<p>' + escapeHtml(s).replace(/\n/g, '<br>') + '</p>').join('')
+      : '';
+    let mapUrl = '';
+    if (Array.isArray(p.links)) {
+      const m = p.links.find(l => l.type === 'map');
+      if (m) mapUrl = m.url;
+    }
+    if (!mapUrl && p.location) {
+      mapUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.location);
+    }
+    let pills = '';
+    if (mapUrl) {
+      pills += '<a class="m-plats-pill" href="/' + mapUrl + '" target="_blank" rel="noopener"><img src="/ads/icon-google-maps.png" srcset="ads/icon-google-maps.png 1x, ads/icon-google-maps@2x.png 2x" alt="" width="18" height="18"><span>Karta</span></a>';
+    }
+    (Array.isArray(p.links) ? p.links : []).filter(l => l.type !== 'map').forEach(l => {
+      const isFB = (l.label || '').toLowerCase().indexOf('fb') !== -1 || (l.label || '').toLowerCase().indexOf('facebook') !== -1;
+      pills += '<a class="m-plats-pill" href="/' + l.url + '" target="_blank" rel="noopener">'
+        + (isFB ? '<img src="/ads/icon-facebook.png" srcset="ads/icon-facebook.png 1x, ads/icon-facebook@2x.png 2x" alt="" width="18" height="18">' : '')
+        + '<span>' + escapeHtml(l.label) + '</span></a>';
+    });
+    return '<div class="m-plats-back-head"><div class="m-plats-back-name">' + escapeHtml(p.name) + '</div>'
+      + (p.city ? '<div class="m-plats-back-city">' + escapeHtml(p.city) + '</div>' : '') + '</div>'
+      + '<div class="m-plats-back-body">' + paras + '</div>'
+      + '<div class="m-plats-back-foot">'
+      + (pills ? '<div class="m-plats-pills">' + pills + '</div>' : '')
+      + '</div>';
+  }
+
+  function mpUpdateFoot(idx) {
+    const foot = document.getElementById('mPlatsFoot');
+    if (!foot) return;
+    if (!mpList.length) { foot.textContent = ''; return; }
+    const mode = (mpSortByDist && mpPos) ? 'närmast först' : 'A-Ö';
+    foot.textContent = (idx + 1) + ' av ' + mpList.length + ' · ' + mode;
+  }
+
+  function mpBuild() {
+    const scroller = document.getElementById('mPlatsScroller');
+    const count = document.getElementById('mPlatsCount');
+    if (!scroller) return;
+    let list = mpPlaces();
+    if (mpRegion !== 'all') list = list.filter(p => p.region === mpRegion);
+    if (mpSortByDist && mpPos) {
+      list.forEach(p => {
+        const c = (typeof findCoords === 'function') ? findCoords(p.location) : null;
+        p._mpDist = c ? mpDistKm(mpPos, c) : Infinity;
+      });
+      list = list.slice().sort((a, b) => a._mpDist - b._mpDist);
+    } else {
+      list = list.slice().sort((a, b) =>
+        (a.city || '').localeCompare(b.city || '', 'sv') || (a.name || '').localeCompare(b.name || '', 'sv'));
+    }
+    mpList = list;
+    if (count) count.textContent = list.length ? list.length + (list.length === 1 ? ' plats' : ' platser') : '';
+    scroller.innerHTML = '';
+    if (!list.length) {
+      scroller.innerHTML = '<div class="m-plats-empty">Inga platser i den här regionen ännu.</div>';
+      mpUpdateFoot(0);
+      return;
+    }
+    list.forEach(p => {
+      if (typeof _eventMap !== 'undefined') _eventMap.set(p.id, p);
+      const slide = document.createElement('div');
+      slide.className = 'm-plats-slide';
+      const showDist = mpSortByDist && mpPos && p._mpDist != null && isFinite(p._mpDist);
+      const distTxt = showDist ? (p._mpDist < 10 ? (Math.round(p._mpDist * 10) / 10).toFixed(1) : String(Math.round(p._mpDist))) : '';
+      const frontHTML =
+        (p.frontImage ? '<img class="m-plats-img" src="/' + p.frontImage + '" alt="" loading="lazy">' : '') +
+        '<span class="m-plats-badge">PLATS</span>' +
+        (showDist ? '<span class="m-plats-dist">' + PIN_SVG + distTxt + ' km</span>' : '') +
+        '<div class="m-plats-grad"><div class="m-plats-name">' + escapeHtml(p.name) + '</div>' +
+        (p.city ? '<div class="m-plats-city">' + escapeHtml(p.city) + '</div>' : '') +
+        '</div>';
+      slide.innerHTML =
+        '<div class="m-plats-card">' +
+        '<div class="m-plats-face m-plats-front">' + frontHTML + '</div>' +
+        '<div class="m-plats-face m-plats-back">' + mpBackHTML(p) + '</div>' +
+        '</div>';
+      slide.addEventListener('click', function(e) {
+        if (e.target.closest('a')) return;
+        slide.classList.toggle('flipped');
+      });
+      scroller.appendChild(slide);
+    });
+    scroller.scrollLeft = 0;
+    mpUpdateFoot(0);
+  }
+
+  function mpSetGpsBtn(state) {
+    const btn = document.getElementById('mPlatsGps');
+    if (!btn) return;
+    btn.classList.remove('hidden', 'done');
+    if (state === 'ask') {
+      btn.innerHTML = PIN_SVG + '<span>Närmast först</span>';
+    } else if (state === 'busy') {
+      btn.innerHTML = '<span>Hämtar position…</span>';
+      btn.classList.add('done');
+    } else if (state === 'on') {
+      btn.innerHTML = PIN_SVG + '<span>Närmast först</span>';
+      btn.classList.add('done');
+    } else {
+      btn.classList.add('hidden');
+    }
+  }
+
+  function mpLocate() {
+    if (!navigator.geolocation) { mpSetGpsBtn('off'); return; }
+    mpSetGpsBtn('busy');
+    navigator.geolocation.getCurrentPosition(function(pos) {
+      mpPos = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+      try { localStorage.setItem(POS_KEY, JSON.stringify({ t: Date.now(), lat: mpPos.lat, lon: mpPos.lon })); } catch (e) {}
+      mpSortByDist = true;
+      mpSetGpsBtn('on');
+      mpBuild();
+    }, function() {
+      mpSetGpsBtn(mpPos ? 'on' : 'off');
+    }, { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 });
+  }
+
+  function mpInit() {
+    if (mpInited) return;
+    mpInited = true;
+    const scroller = document.getElementById('mPlatsScroller');
+    const closeBtn = document.getElementById('mPlatsClose');
+    const regionSel = document.getElementById('mPlatsRegion');
+    const gpsBtn = document.getElementById('mPlatsGps');
+    if (closeBtn) closeBtn.addEventListener('click', closeMPlats);
+    if (regionSel) regionSel.addEventListener('change', function() { mpRegion = this.value; mpBuild(); });
+    if (gpsBtn) gpsBtn.addEventListener('click', mpLocate);
+    if (scroller) {
+      let ticking = false;
+      scroller.addEventListener('scroll', function() {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(function() {
+          ticking = false;
+          const slide = scroller.querySelector('.m-plats-slide');
+          if (!slide) return;
+          const idx = Math.round(scroller.scrollLeft / (slide.offsetWidth + 10));
+          mpUpdateFoot(Math.max(0, Math.min(idx, mpList.length - 1)));
+        });
+      }, { passive: true });
+    }
+    document.addEventListener('keydown', function(e) {
+      const v = document.getElementById('mPlats');
+      if (e.key === 'Escape' && v && v.classList.contains('open')) closeMPlats();
+    });
+  }
+
+  window.openMPlats = function() {
+    const v = document.getElementById('mPlats');
+    if (!v) return;
+    mpInit();
+    mpBuildRegions();
+    try {
+      const c = JSON.parse(localStorage.getItem(POS_KEY) || 'null');
+      if (c && Date.now() - c.t < POS_MAX_AGE) {
+        mpPos = { lat: c.lat, lon: c.lon };
+        mpSortByDist = true;
+      }
+    } catch (e) {}
+    mpSetGpsBtn(mpPos ? 'on' : 'ask');
+    mpBuild();
+    v.classList.add('open');
+    v.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    if (navigator.permissions && navigator.permissions.query) {
+      navigator.permissions.query({ name: 'geolocation' }).then(function(st) {
+        if (st.state === 'granted') mpLocate();
+        else if (st.state === 'denied') mpSetGpsBtn(mpPos ? 'on' : 'off');
+      }).catch(function() {});
+    }
+  };
+
+  window.closeMPlats = function() {
+    const v = document.getElementById('mPlats');
+    if (!v) return;
+    v.classList.remove('open');
+    v.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  };
+})();
 
 // Minimal HTML escape for injected strings
 function escapeHtml(str) {
@@ -3772,49 +4834,10 @@ function syncMobilePillActive() {
 
 function updateMobilePillCounts() {
   if (typeof EVENTS_DATA === 'undefined' || !Array.isArray(EVENTS_DATA.events)) return;
-  let visible = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
-  // Apply same filters as render() so pill counts reflect the user's current view
+  // Same filters as render() so pill counts reflect the user's current view
   // (e.g. picking Dalarna in the region dropdown updates the pill counts).
-  if (currentRegion !== 'all') {
-    visible = visible.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
-  }
-  if (currentFilter !== 'all') {
-    visible = visible.filter(e => e.type === currentFilter);
-  }
-  if (currentClub !== 'all') {
-    if (currentClub === '__other__') {
-      visible = visible.filter(e => {
-        const org = e.organizer || '';
-        return !topOrgEntries.some(([key]) =>
-          CLUB_MATCHERS[key] ? CLUB_MATCHERS[key](org) : org.includes(key)
-        );
-      });
-    } else if (CLUB_MATCHERS[currentClub]) {
-      visible = visible.filter(e => CLUB_MATCHERS[currentClub](e.organizer || ''));
-    } else {
-      visible = visible.filter(e => (e.organizer || '').includes(currentClub));
-    }
-  }
-  if (searchQuery) {
-    const q = searchQuery.toLowerCase();
-    visible = visible.filter(e =>
-      (e.name || '').toLowerCase().includes(q) ||
-      (e.location || '').toLowerCase().includes(q) ||
-      (e.organizer || '').toLowerCase().includes(q) ||
-      (e.description || '').toLowerCase().includes(q)
-    );
-  }
-  // Apply month filter (real months only, skip __today__/__weekend__ etc.)
-  if (currentMonth !== 'all' && !String(currentMonth).startsWith('__')) {
-    const monthNum = parseInt(currentMonth, 10);
-    if (monthNum >= 1 && monthNum <= 12) {
-      visible = visible.filter(e => {
-        const d = new Date(e.date + 'T00:00:00');
-        const dEnd = e.dateEnd ? new Date(e.dateEnd + 'T00:00:00') : d;
-        return (d.getMonth() + 1) === monthNum || (dEnd.getMonth() + 1) === monthNum;
-      });
-    }
-  }
+  // Shared + cached with updateHanderBar via getBaseFiltered().
+  const visible = getBaseFiltered();
   const today = new Date().toISOString().slice(0, 10);
   const future = visible.filter(e => (e.dateEnd || e.date) >= today);
 
@@ -3849,7 +4872,13 @@ function updateMobilePillCounts() {
   }).length;
 
   const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
-  set('mPillAllCount', future.length);
+  // Alla pill: in past mode (Visa passerade) it shows the TOTAL incl. past events,
+  // otherwise upcoming only. archivedCount bridges the moment before the archive
+  // file has loaded (corrected automatically on the re-render after load).
+  const allaCount = (typeof showPast !== 'undefined' && showPast)
+    ? visible.length + (archiveLoaded ? 0 : (EVENTS_DATA.archivedCount || 0))
+    : future.length;
+  set('mPillAllCount', allaCount);
   set('mPillTodayCount', todayN);
   set('mPillTomorrowCount', tmrwN);
   set('mPillWeekendCount', weekendN);
@@ -3865,26 +4894,50 @@ function updateMobilePillCounts() {
 
 // ========== WEATHER SYSTEM ==========
 const LOCATION_COORDS = {
-  'stockholm': { lat: 59.33, lon: 18.07 }, 'tyresö slott': { lat: 59.2353474, lon: 18.3052139 }, 'skansbacken 4': { lat: 59.3007916, lon: 18.0820597 }, 'skansbacken 4, gullmarsplan, stockholm': { lat: 59.3007916, lon: 18.0820597 }, 'edsvallabacken 5, 123 43 farsta': { lat: 59.2410587, lon: 18.1141892 }, 'edsvallabacken 5': { lat: 59.2410587, lon: 18.1141892 }, 'göteborg': { lat: 57.71, lon: 11.97 },
-  'malmö': { lat: 55.60, lon: 13.00 }, 'skurup': { lat: 55.49, lon: 13.50 }, 'verkstadsgatan 1, skurup': { lat: 55.4862006, lon: 13.5118304 }, 'uppsala': { lat: 59.86, lon: 17.64 }, 'uppsala (hemlig destination)': { lat: 59.86, lon: 17.64 }, 'hyttögatan': { lat: 59.88, lon: 17.59 }, 'sofielundsgatan 5b, 753 23 uppsala': { lat: 59.851217, lon: 17.6646664 }, 'kulturhuset femman': { lat: 59.851217, lon: 17.6646664 }, 'tärnsjö': { lat: 60.16, lon: 16.94 }, 'tärnsjö järnvägsstation': { lat: 60.1560291, lon: 16.9248957 }, 'upplands-väsby': { lat: 59.52, lon: 17.91 }, 'tierp': { lat: 60.34, lon: 17.51 },
-  'linköping': { lat: 58.41, lon: 15.63 }, 'bonnorpsgatan': { lat: 58.4315106, lon: 15.5998161 }, 'låskolvsgatan': { lat: 58.40, lon: 15.69 }, 'norrköping': { lat: 58.59, lon: 16.18 }, 'malmgatan 4, norrköping': { lat: 58.6060302, lon: 16.1794709 }, 'mc-huset östergötland': { lat: 58.6060302, lon: 16.1794709 }, 'bråvalla': { lat: 58.62, lon: 16.08 },
-  'örebro': { lat: 59.27, lon: 15.21 }, 'västerås': { lat: 59.61, lon: 16.54 },
-  'helsingborg': { lat: 56.05, lon: 12.69 }, 'hyllinge': { lat: 56.0997437, lon: 12.8524663 }, 'vångavägen 4, hyllinge': { lat: 56.0997437, lon: 12.8524663 }, 'yamaha center helsingborg': { lat: 56.0997437, lon: 12.8524663 }, 'ödåkra': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159, ödåkra': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159, ödåkra, helsingborg': { lat: 56.0915565, lon: 12.7443969 }, 'nilssons mc': { lat: 56.0915565, lon: 12.7443969 }, 'jönköping': { lat: 57.78, lon: 14.16 }, 'thorsviksvägen 102, jönköping': { lat: 57.6907397, lon: 14.1561491 }, 'tabergs topp': { lat: 57.679270, lon: 14.081600 }, 'tabergs topp, taberg': { lat: 57.679270, lon: 14.081600 }, 'forsviks bruk': { lat: 58.5790803, lon: 14.4366139 }, 'bruksvägen 2, forsvik': { lat: 58.5790803, lon: 14.4366139 }, 'hyltebruk': { lat: 56.9997593, lon: 13.2399333 }, 'storgatan 8, hyltebruk': { lat: 56.9997593, lon: 13.2399333 }, 'sjukhusgatan': { lat: 57.7725181, lon: 14.1977511 }, 'st1 asecs': { lat: 57.7725181, lon: 14.1977511 }, 'st1 asecs, jönköping': { lat: 57.7725181, lon: 14.1977511 }, 'lillsjöplan 4': { lat: 57.7800232, lon: 14.173035 }, 'lillsjöplan 4, jönköping': { lat: 57.7800232, lon: 14.173035 }, 'lillsjöplan': { lat: 57.7800232, lon: 14.173035 }, 'trökörna frambo bygdegård': { lat: 58.2629167, lon: 12.6192195 }, 'trökörna frambo bygdegård, grästorp': { lat: 58.2629167, lon: 12.6192195 }, 'grästorp': { lat: 58.34, lon: 12.67 }, 'spånhyltan': { lat: 56.96, lon: 14.36 }, 'östersunds camping': { lat: 63.16, lon: 14.67 },
-  'luleå': { lat: 65.58, lon: 22.15 }, 'gamla lövskärsvägen 2, luleå': { lat: 65.5823308, lon: 22.2386688 }, 'strömvägen 2, umeå': { lat: 63.8460245, lon: 20.2266815 }, 'umeå': { lat: 63.83, lon: 20.26 }, 'kummelvägen 1, umeå': { lat: 63.8506605, lon: 20.1417147 }, 'kummelvägen 1': { lat: 63.8506605, lon: 20.1417147 }, 'döbelns park': { lat: 63.8229826, lon: 20.2703079 }, 'industrivägen 24': { lat: 63.8407643, lon: 20.2274606 }, 'västra strandgatan 8a, umeå': { lat: 63.82427, lon: 20.2600694 }, 'västra strandgatan 8a': { lat: 63.82427, lon: 20.2600694 }, 'vännäsby': { lat: 63.92, lon: 19.83 },
+  // MCHK kalender 2026-06-11 (coords from Google Maps !3d!4d, full precision)
+  'hagaström': { lat: 60.667533, lon: 17.0796549 }, 'björke pizzeria': { lat: 60.7673407, lon: 17.1913501 }, 'hemlingby': { lat: 60.646104, lon: 17.1485059 }, 'bomhus bygdegård': { lat: 60.6764606, lon: 17.2174432 }, 'östergården': { lat: 58.9088123, lon: 17.0966813 }, 'skebokvarnsgården': { lat: 59.0638964, lon: 16.713709 }, 'gyllene hjulet': { lat: 59.7079372, lon: 16.2168329 }, 'ekbacka gård': { lat: 59.2441749, lon: 17.239632 }, 'nyköpings hamn': { lat: 58.7434106, lon: 17.0214164 }, 'sagers möbler': { lat: 58.7425482, lon: 16.9153871 }, 'biltema, katrineholm': { lat: 59.0064779, lon: 16.2359288 }, 'sultans konditori': { lat: 58.9975576, lon: 16.2090584 }, 'virå bruk': { lat: 58.774927, lon: 16.4538661 }, 'ugglans park': { lat: 59.3772444, lon: 17.0301644 }, 'pappersbruksallén': { lat: 59.2689075, lon: 15.2431924 }, 'biltema, upplands väsby': { lat: 59.4968659, lon: 17.9217428 }, 'vaxholm': { lat: 59.4032968, lon: 18.3263804 },
+  // H-D sync 2026-06-10 (coords from Google Maps !3d!4d, full precision)
+  'gamla kungsvägen 51': { lat: 58.3947919, lon: 13.8363903 }, 'robertsvik': { lat: 65.5906264, lon: 22.1477402 }, 'kattisavan': { lat: 64.7582265, lon: 18.1657544 }, 'flottarvägen 74': { lat: 63.0099034, lon: 17.7948137 }, 'långmossen': { lat: 59.5418133, lon: 15.8097976 }, 'biltema, vetlanda': { lat: 57.4411569, lon: 15.0614186 }, 'tyringe': { lat: 56.1612815, lon: 13.6046552 }, 'axmar': { lat: 61.0487556, lon: 17.1596556 }, 'hagaparken': { lat: 59.3525624, lon: 18.0416061 }, 'armégatan': { lat: 59.3496531, lon: 18.0048763 }, 'vevves': { lat: 65.8562951, lon: 23.1415461 }, 'rådhusparken': { lat: 61.3021474, lon: 17.0502911 }, 'norrbotten': { lat: 65.58, lon: 22.15 }, 'jämtland': { lat: 63.18, lon: 14.64 }, 'mmck klubbområde': { lat: 67.1194, lon: 20.7656 }, 'ica maxi, borlänge': { lat: 60.4826388, lon: 15.4485267 },
+  // Plats card street coords added 2026-06-12 (were resolving only to city center)
+  'nymansgatan 6': { lat: 59.8560329, lon: 17.6767427 }, 'stångby 1': { lat: 59.8637962, lon: 17.7237077 }, 'järnvägsgatan 8 b': { lat: 58.5247741, lon: 13.4920889 },
+  // Holmenträffen Mariestad 2026-06-14
+  'nygatan 32': { lat: 58.7149151, lon: 13.8252685 }, 'nygatan 32, mariestad': { lat: 58.7149151, lon: 13.8252685 }, 'cafe sandholmen': { lat: 58.7149151, lon: 13.8252685 }, 'karlsholme folkets park': { lat: 58.7149151, lon: 13.8252685 }, 'karlsholme': { lat: 58.7149151, lon: 13.8252685 },
+  // MBW Lycksele + Klingre + Eskilstuna 2026-06-14
+  'gammplatsen': { lat: 64.6036, lon: 18.6709946 }, 'gammplatsen, lycksele': { lat: 64.6036, lon: 18.6709946 }, 'lycksele': { lat: 64.6036, lon: 18.6709946 }, 'klingre motorstadion': { lat: 63.3857637, lon: 18.6847607 }, 'klingre motor stadium': { lat: 63.3857637, lon: 18.6847607 }, 'kungsgatan 14': { lat: 59.3704172, lon: 16.5143792 }, 'kungsgatan 14, eskilstuna': { lat: 59.3704172, lon: 16.5143792 }, 'kungsgatan 14, sörmland': { lat: 59.3704172, lon: 16.5143792 },
+  // HDK1930 Bornholm trip + Kvarnarpsträffen 2026-06-14 (coords from Google Maps !3d!4d, full precision)
+  'kystvejen 1': { lat: 55.6314967, lon: 12.6570465 }, 'kystvejen 1, kastrup': { lat: 55.6314967, lon: 12.6570465 }, 'kastrup': { lat: 55.6314967, lon: 12.6570465 },
+  // Kvarnarpsträffen 2026-06-14 (coords from Google Maps !3d!4d, full precision)
+  'kvarnarps gård': { lat: 57.6446916, lon: 14.9837027 }, 'kvarnarps gård, eksjö': { lat: 57.6446916, lon: 14.9837027 }, 'kvarnarp': { lat: 57.6446916, lon: 14.9837027 },
+  // SMC Västmanland torsdagstur + Rat Fink Reunion 2026-06-14
+  'domkraftsgatan': { lat: 59.6161255, lon: 16.4652473 }, 'återvinning erikslund': { lat: 59.6161255, lon: 16.4652473 }, 'domkraftsgatan, erikslund': { lat: 59.6161255, lon: 16.4652473 }, 'erikslund': { lat: 59.6161255, lon: 16.4652473 },
+  // Rat Fink Reunion 2026-06-14 (coords from Google Maps !3d!4d, full precision)
+  'näsvägen 41': { lat: 60.1852828, lon: 16.4723086 }, 'näsvägen 41, by kyrkby': { lat: 60.1852828, lon: 16.4723086 }, 'näs ip': { lat: 60.1852828, lon: 16.4723086 }, 'näs ip, by kyrkby': { lat: 60.1852828, lon: 16.4723086 }, 'by kyrkby': { lat: 60.1852828, lon: 16.4723086 }, 'fors, sweden': { lat: 60.1852828, lon: 16.4723086 },
+  // 4 more FB events 2026-06-12 (coords from Google Maps !3d!4d, full precision)
+  'sjukhusgatan 6': { lat: 57.7728802, lon: 14.1985139 }, 'sjukhusgatan 6, jönköping': { lat: 57.7728802, lon: 14.1985139 }, 'st1 a6': { lat: 57.7728802, lon: 14.1985139 }, 'st1 a6, jönköping': { lat: 57.7728802, lon: 14.1985139 }, 'karl gustav 101': { lat: 57.2600224, lon: 12.557219 }, 'karl gustav': { lat: 57.2600224, lon: 12.557219 }, 'kungsäter': { lat: 57.2600224, lon: 12.557219 }, 'sågbacken 18': { lat: 59.0267779, lon: 14.8723588 }, 'sågbacken 18, vretstorp': { lat: 59.0267779, lon: 14.8723588 }, 'vretstorp': { lat: 59.0237544, lon: 14.8685106 }, 'arsenalveien 40': { lat: 67.2710886, lon: 15.3477958 }, 'arsenalveien 40, fauske': { lat: 67.2710886, lon: 15.3477958 }, 'klungset leir': { lat: 67.2710886, lon: 15.3477958 }, 'fauske': { lat: 67.2570, lon: 15.3933 },
+  // 5 new FB events 2026-06-12 (coords from Google Maps !3d!4d, full precision)
+  'länna ringväg 6': { lat: 59.2798216, lon: 16.9765909 }, 'länna ringväg 6, merlänna': { lat: 59.2798216, lon: 16.9765909 }, 'merlänna': { lat: 59.2798216, lon: 16.9765909 }, 'rosenhill 23': { lat: 59.1398851, lon: 17.8328799 }, 'rosenhill 23, botkyrka': { lat: 59.1398851, lon: 17.8328799 }, 'café rosenhill': { lat: 59.1398851, lon: 17.8328799 }, 'grödinge': { lat: 59.1398851, lon: 17.8328799 }, 'kraus väg 4': { lat: 59.3763152, lon: 18.0337935 }, 'kraus väg 4, solna': { lat: 59.3763152, lon: 18.0337935 }, 'kraus väg 4, bergshamra': { lat: 59.3763152, lon: 18.0337935 }, 'bergshamra': { lat: 59.3763152, lon: 18.0337935 }, 'rallarvägen 49': { lat: 59.4850001, lon: 18.2753151 }, 'rallarvägen 49, åkersberga': { lat: 59.4850001, lon: 18.2753151 }, 'åkersberga': { lat: 59.4850001, lon: 18.2753151 }, 'armévägen 3': { lat: 62.0498804, lon: 17.2476886 }, 'armévägen 3, gnarp': { lat: 62.0498804, lon: 17.2476886 }, 'gnarp': { lat: 62.0498804, lon: 17.2476886 },
+  // Nordic Run 2026 day-start venues (coords from Google Maps !3d!4d, full precision)
+  'grimsbu': { lat: 62.15565, lon: 10.1720706 }, 'gryttenvegen 127': { lat: 62.5523447, lon: 7.7040412 }, 'folven': { lat: 61.917968, lon: 7.166905 }, 'dalevegen 6': { lat: 61.2276118, lon: 6.0954475 }, 'sauda': { lat: 59.6404884, lon: 6.3095341 }, 'sandveien 12': { lat: 58.1384746, lon: 7.0367251 }, 'hirtshals': { lat: 57.5963295, lon: 9.9741068 }, 'hamborgvej': { lat: 57.109205, lon: 8.666898 }, 'tinglev': { lat: 54.9298558, lon: 9.2366132 }, 'marslev': { lat: 55.3977602, lon: 10.5360297 }, 'truelstrupvejen': { lat: 55.5295294, lon: 12.0201372 }, 'bronsgjutaregatan': { lat: 55.550574, lon: 13.0327762 }, 'bäckaskog': { lat: 57.1990473, lon: 14.0756805 }, 'tegellöten': { lat: 58.4655688, lon: 14.9333085 }, 'ågatan 15c': { lat: 59.6315457, lon: 17.0777774 }, 'satamatie': { lat: 60.4580378, lon: 22.0435802 }, 'teerivuorenkatu': { lat: 61.5014172, lon: 23.6166352 }, 'visulahti': { lat: 61.7028713, lon: 27.3439469 }, 'kontio lomat': { lat: 62.7355837, lon: 29.8384773 }, 'vuohimäki': { lat: 61.8637831, lon: 28.8068452 },
+  'stockholm': { lat: 59.33, lon: 18.07 }, 'åsögatan 159': { lat: 59.3143321, lon: 18.0839995 }, 'tyresö slott': { lat: 59.2353474, lon: 18.3052139 }, 'skansbacken 4': { lat: 59.3007916, lon: 18.0820597 }, 'skansbacken 4, gullmarsplan, stockholm': { lat: 59.3007916, lon: 18.0820597 }, 'skansbacken 3': { lat: 59.3007916, lon: 18.0820597 }, 'skansbacken 3, stockholm': { lat: 59.3007916, lon: 18.0820597 }, 'edsvallabacken 5, 123 43 farsta': { lat: 59.2410587, lon: 18.1141892 }, 'edsvallabacken 5': { lat: 59.2410587, lon: 18.1141892 }, 'göteborg': { lat: 57.71, lon: 11.97 },
+  'malmö': { lat: 55.60, lon: 13.00 }, 'skurup': { lat: 55.49, lon: 13.50 }, 'verkstadsgatan 1, skurup': { lat: 55.4862006, lon: 13.5118304 }, 'uppsala': { lat: 59.86, lon: 17.64 }, 'uppsala (hemlig destination)': { lat: 59.86, lon: 17.64 }, 'hyttögatan': { lat: 59.88, lon: 17.59 }, 'sofielundsgatan 5b, 753 23 uppsala': { lat: 59.851217, lon: 17.6646664 }, 'kulturhuset femman': { lat: 59.851217, lon: 17.6646664 }, 'tärnsjö': { lat: 60.16, lon: 16.94 }, 'tärnsjö järnvägsstation': { lat: 60.1560291, lon: 16.9248957 }, 'upplands-väsby': { lat: 59.52, lon: 17.91 }, 'kapellvägen 1, upplands-väsby': { lat: 59.5139142, lon: 17.9200733 }, 'tierp': { lat: 60.34, lon: 17.51 },
+  'linköping': { lat: 58.41, lon: 15.63 }, 'linköpings motorstadion': { lat: 58.3955574, lon: 15.7185792 }, 'fordonsvägen': { lat: 58.3955574, lon: 15.7185792 }, 'varnhemsgatan 14': { lat: 58.3857825, lon: 13.8362043 }, 'varnhemsgatan 14, skövde': { lat: 58.3857825, lon: 13.8362043 }, 'limmernäs': { lat: 58.2104242, lon: 15.5031911 }, 'bonnorpsgatan': { lat: 58.4315106, lon: 15.5998161 }, 'låskolvsgatan': { lat: 58.40, lon: 15.69 }, 'norrköping': { lat: 58.59, lon: 16.18 }, 'malmgatan 4, norrköping': { lat: 58.6060302, lon: 16.1794709 }, 'mc-huset östergötland': { lat: 58.6060302, lon: 16.1794709 }, 'bråvalla': { lat: 58.62, lon: 16.08 }, 'herstadberg': { lat: 58.627092, lon: 16.164458 }, 'bilprovningen norrköping-herstadberg': { lat: 58.627092, lon: 16.164458 },
+  'örebro': { lat: 59.27, lon: 15.21 }, 'osmundgatan': { lat: 59.2877318, lon: 15.2100956 }, 'osmundgatan 3, örebro': { lat: 59.2877318, lon: 15.2100956 }, 'västerås': { lat: 59.61, lon: 16.54 },
+  'helsingborg': { lat: 56.05, lon: 12.69 }, 'koenigsegg': { lat: 56.2967, lon: 12.8500 }, 'koenigsegg, ängelholm': { lat: 56.2967, lon: 12.8500 }, 'ängelholm': { lat: 56.2428, lon: 12.8623 }, 'valhall park, ängelholm': { lat: 56.2967, lon: 12.8500 }, 'hyllinge': { lat: 56.0997437, lon: 12.8524663 }, 'vångavägen 4, hyllinge': { lat: 56.0997437, lon: 12.8524663 }, 'yamaha center helsingborg': { lat: 56.0997437, lon: 12.8524663 }, 'ödåkra': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159, ödåkra': { lat: 56.0915565, lon: 12.7443969 }, 'kanongatan 159, ödåkra, helsingborg': { lat: 56.0915565, lon: 12.7443969 }, 'nilssons mc': { lat: 56.0915565, lon: 12.7443969 }, 'jönköping': { lat: 57.78, lon: 14.16 }, 'torsviksbanan': { lat: 57.6807095, lon: 14.1578351 }, 'möbelvägen 21': { lat: 57.6807095, lon: 14.1578351 }, 'elmiavägen 11': { lat: 57.7875869, lon: 14.2280727 }, 'elmiavägen 11, jönköping': { lat: 57.7875869, lon: 14.2280727 }, 'elmiamässan': { lat: 57.7875869, lon: 14.2280727 }, 'elmiamässan, jönköping': { lat: 57.7875869, lon: 14.2280727 }, 'elmia': { lat: 57.7875869, lon: 14.2280727 }, 'thorsviksvägen 102, jönköping': { lat: 57.6907397, lon: 14.1561491 }, 'tabergs topp': { lat: 57.679270, lon: 14.081600 }, 'tabergs topp, taberg': { lat: 57.679270, lon: 14.081600 }, 'forsviks bruk': { lat: 58.5790803, lon: 14.4366139 }, 'bruksvägen 2, forsvik': { lat: 58.5790803, lon: 14.4366139 }, 'hyltebruk': { lat: 56.9997593, lon: 13.2399333 }, 'storgatan 8, hyltebruk': { lat: 56.9997593, lon: 13.2399333 }, 'sjukhusgatan': { lat: 57.7725181, lon: 14.1977511 }, 'st1 asecs': { lat: 57.7725181, lon: 14.1977511 }, 'st1 asecs, jönköping': { lat: 57.7725181, lon: 14.1977511 }, 'lillsjöplan 4': { lat: 57.7800232, lon: 14.173035 }, 'lillsjöplan 4, jönköping': { lat: 57.7800232, lon: 14.173035 }, 'lillsjöplan': { lat: 57.7800232, lon: 14.173035 }, 'trökörna frambo bygdegård': { lat: 58.2629167, lon: 12.6192195 }, 'trökörna frambo bygdegård, grästorp': { lat: 58.2629167, lon: 12.6192195 }, 'grästorp': { lat: 58.34, lon: 12.67 }, 'spånhyltan': { lat: 56.96, lon: 14.36 }, 'östersunds camping': { lat: 63.16, lon: 14.67 },
+  'luleå': { lat: 65.58, lon: 22.15 }, 'arenaområdet': { lat: 65.59777, lon: 22.1483368 }, 'arenaområdet, luleå': { lat: 65.59777, lon: 22.1483368 }, 'coop norrbotten arena': { lat: 65.59777, lon: 22.1483368 }, 'betongvägen 1a': { lat: 65.6161892, lon: 22.0540089 }, 'betongvägen 1a, luleå': { lat: 65.6161892, lon: 22.0540089 }, 'betongvägen 1a, gammelstad': { lat: 65.6161892, lon: 22.0540089 }, 'biltema luleå': { lat: 65.6161892, lon: 22.0540089 }, 'biltema (luleå)': { lat: 65.6161892, lon: 22.0540089 }, 'gammelstad': { lat: 65.6161892, lon: 22.0540089 }, 'storheden': { lat: 65.6161892, lon: 22.0540089 }, 'cementvägen 2, luleå': { lat: 65.6151462, lon: 22.0495162 }, 'gamla lövskärsvägen 2, luleå': { lat: 65.5823308, lon: 22.2386688 }, 'strömvägen 2, umeå': { lat: 63.8460245, lon: 20.2266815 }, 'umeå': { lat: 63.83, lon: 20.26 }, 'mätarvägen 5, umeå': { lat: 63.8514112, lon: 20.2126067 }, 'kummelvägen 1, umeå': { lat: 63.8506605, lon: 20.1417147 }, 'kummelvägen 1': { lat: 63.8506605, lon: 20.1417147 }, 'döbelns park': { lat: 63.8229826, lon: 20.2703079 }, 'industrivägen 24': { lat: 63.8407643, lon: 20.2274606 }, 'västra strandgatan 8a, umeå': { lat: 63.82427, lon: 20.2600694 }, 'västra strandgatan 8a': { lat: 63.82427, lon: 20.2600694 }, 'vännäsby': { lat: 63.92, lon: 19.83 },
   'älmhult': { lat: 56.5464149, lon: 14.156396 }, 'torvströvägen 6': { lat: 56.5464149, lon: 14.156396 }, 'torvströvägen 6, 343 33 älmhult': { lat: 56.5464149, lon: 14.156396 },
   'hasselfors': { lat: 59.0976001, lon: 14.649179 }, 'bruksgatan 4a': { lat: 59.0976001, lon: 14.649179 }, 'bruksgatan 4a, 695 60 hasselfors': { lat: 59.0976001, lon: 14.649179 }, 'bruksparken hasselfors': { lat: 59.0976001, lon: 14.649179 },
   'nyhammar': { lat: 60.2731261, lon: 14.9506754 }, 'norrbovägen 54': { lat: 60.2731261, lon: 14.9506754 }, 'norrbovägen 54, 77014 nyhammar': { lat: 60.2731261, lon: 14.9506754 }, 'norrbo folkets hus': { lat: 60.2731261, lon: 14.9506754 },
   'österbybruk': { lat: 60.1982266, lon: 17.8815795 }, 'dannemoravägen 46': { lat: 60.1982266, lon: 17.8815795 }, 'dannemoravägen 46, österbybruk': { lat: 60.1982266, lon: 17.8815795 }, 'folkets hus österbybruk': { lat: 60.1982266, lon: 17.8815795 },
   'gärsnäs': { lat: 55.49, lon: 14.17 }, 'stenhedsvägen 3, 272 61 gärsnäs': { lat: 55.5444665, lon: 14.1747082 }, 'stenhedsvägen 3': { lat: 55.5444665, lon: 14.1747082 }, 'österlenvulk': { lat: 55.5444665, lon: 14.1747082 }, 'greve': { lat: 55.60, lon: 12.30 }, 'gävle': { lat: 60.67, lon: 17.14 }, 'kungsängsvägen 75': { lat: 60.6620583, lon: 17.0823886 }, 'kryddstigen 12': { lat: 60.6574103, lon: 17.1711974 }, 'kryddstigen 12, gävle': { lat: 60.6574103, lon: 17.1711974 }, 'ockelbo': { lat: 60.89, lon: 16.72 }, 'sjöbacken': { lat: 60.892767, lon: 16.7143933 }, 'sjöbacksvägen 22': { lat: 60.892767, lon: 16.7143933 }, 'sjöbacksvägen 22, ockelbo': { lat: 60.892767, lon: 16.7143933 }, 'forsbacka': { lat: 60.62, lon: 16.88 }, 'alfta': { lat: 61.48, lon: 15.99 }, 'alvesta': { lat: 56.90, lon: 14.56 }, 'årjäng': { lat: 59.38, lon: 12.13 }, 'brännaregatan 6': { lat: 59.3825753, lon: 12.131063 }, 'brännaregatan 6, 672 31 årjäng': { lat: 59.3825753, lon: 12.131063 }, 'vedum': { lat: 58.17, lon: 12.98 }, 'åhus': { lat: 55.93, lon: 14.31 }, 'hammarö': { lat: 59.33, lon: 13.52 }, 'karlstad': { lat: 59.38, lon: 13.50 }, 'romstadsvägen 2': { lat: 59.3789211, lon: 13.4763122 }, 'kolstavallen': { lat: 59.8880115, lon: 12.5234598 }, 'kolstavallen, gunnarskog': { lat: 59.8880115, lon: 12.5234598 }, 'kmx hynboholm': { lat: 59.46, lon: 13.36 },
   'sälen': { lat: 61.15, lon: 13.26 }, 'stöten': { lat: 61.15, lon: 13.26 }, 'gelleråsen': { lat: 59.3836813, lon: 14.5093658 }, 'lindome': { lat: 57.57, lon: 12.09 }, 'mölndal': { lat: 57.65, lon: 12.01 }, 'norra ågatan': { lat: 57.6660677, lon: 12.0135647 }, 'skoghall': { lat: 59.32, lon: 13.47 },
-  'sundsvall': { lat: 62.39, lon: 17.31 }, 'axvägen 12, sundsvall': { lat: 62.3933675, lon: 17.259896 }, 'kontorsvägen 8': { lat: 62.3816202, lon: 17.3587714 }, 'östersund': { lat: 63.18, lon: 14.64 }, 'stortorget, östersund': { lat: 63.179182, lon: 14.635484 },
-  'växjö': { lat: 56.88, lon: 14.81 }, 'arabygatan 41, växjö': { lat: 56.890293, lon: 14.7811725 }, 'grand samarkand': { lat: 56.884661, lon: 14.765066 }, 'eksjö': { lat: 57.67, lon: 14.97 }, 'nifsarp': { lat: 57.6377968, lon: 14.9700034 }, 'galoppstigen': { lat: 57.6377968, lon: 14.9700034 }, 'hejdeby': { lat: 57.67, lon: 18.32 }, 'halmstad': { lat: 56.67, lon: 12.86 }, 'sadelvägen 720': { lat: 56.63, lon: 12.94 }, 'trönninge': { lat: 56.621431, lon: 12.9508076 }, 'trönningemacken': { lat: 56.621431, lon: 12.9508076 },
-  'karlskrona': { lat: 56.16, lon: 15.59 }, 'kalmar': { lat: 56.66, lon: 16.36 }, 'vallgatan 2, kristdala': { lat: 57.4007127, lon: 16.1968561 }, 'virserum': { lat: 57.32, lon: 15.57 }, 'västerviksvägen 1, frödinge': { lat: 57.6995291, lon: 16.0036305 },
+  'sundsvall': { lat: 62.39, lon: 17.31 }, 'axvägen 12, sundsvall': { lat: 62.3933675, lon: 17.259896 }, 'kontorsvägen 8': { lat: 62.3816202, lon: 17.3587714 }, 'östersund': { lat: 63.18, lon: 14.64 }, 'stortorget, östersund': { lat: 63.179182, lon: 14.635484 }, 'jämthalka': { lat: 63.2030137, lon: 14.7909773 }, 'jämthalka, östersund': { lat: 63.2030137, lon: 14.7909773 }, 'mmck klubbkåken': { lat: 67.1161592, lon: 20.7714464 }, 'mmck klubbkåken, gällivare': { lat: 67.1161592, lon: 20.7714464 }, 'motorstadion mmck': { lat: 67.1161592, lon: 20.7714464 }, 'mc-folkets park, gällivare': { lat: 67.1161592, lon: 20.7714464 }, 'gällivare': { lat: 67.1161592, lon: 20.7714464 },
+  'växjö': { lat: 56.88, lon: 14.81 }, 'arabygatan 41, växjö': { lat: 56.890293, lon: 14.7811725 }, 'grand samarkand': { lat: 56.884661, lon: 14.765066 }, 'eksjö': { lat: 57.67, lon: 14.97 }, 'nifsarp': { lat: 57.6377968, lon: 14.9700034 }, 'galoppstigen': { lat: 57.6377968, lon: 14.9700034 }, 'hejdeby': { lat: 57.67, lon: 18.32 }, 'halmstad': { lat: 56.67, lon: 12.86 }, 'halmstad arena': { lat: 56.6742833, lon: 12.8849726 }, 'växjövägen 11': { lat: 56.6742833, lon: 12.8849726 }, 'sadelvägen 720': { lat: 56.63, lon: 12.94 }, 'trönninge': { lat: 56.621431, lon: 12.9508076 }, 'trönningemacken': { lat: 56.621431, lon: 12.9508076 },
+  'karlskrona': { lat: 56.16, lon: 15.59 }, 'sölvesborg': { lat: 56.0517908, lon: 14.5687548 }, 'svarta led, sölvesborg': { lat: 56.0517908, lon: 14.5687548 }, 'svarta led': { lat: 56.0517908, lon: 14.5687548 }, 'sölveshovs ishall': { lat: 56.0517908, lon: 14.5687548 }, 'kalmar': { lat: 56.66, lon: 16.36 }, 'vallgatan 2, kristdala': { lat: 57.4007127, lon: 16.1968561 }, 'virserum': { lat: 57.32, lon: 15.57 }, 'västerviksvägen 1, frödinge': { lat: 57.6995291, lon: 16.0036305 },
   'falun': { lat: 60.61, lon: 15.63 }, 'ryckepungsvägen 3': { lat: 60.6035608, lon: 15.605386 }, 'centralvägen 30': { lat: 60.5904167, lon: 15.7447248 }, 'fagersta': { lat: 59.98, lon: 15.80 }, 'endre svenskens 220, visby': { lat: 57.6231231, lon: 18.3754248 }, 'visby': { lat: 57.64, lon: 18.30 }, 'herkulesvägen 10': { lat: 57.6469159, lon: 18.3162641 }, 'herkulesvägen 10, visby': { lat: 57.6469159, lon: 18.3162641 },
-  'avesta': { lat: 60.15, lon: 16.17 }, 'myntgatan 8': { lat: 60.1461242, lon: 16.1760174 }, 'trollhättan': { lat: 58.28, lon: 12.29 }, 'sjuntorp': { lat: 58.196423, lon: 12.223956 }, 'valldavägen 1238': { lat: 57.4056766, lon: 11.9841833 }, 'sjöatorp': { lat: 56.92, lon: 14.42 }, 'enhörna': { lat: 59.25, lon: 17.51 },
-  'borås': { lat: 57.72, lon: 12.94 }, 'önum storegården 4': { lat: 58.246701, lon: 12.9829925 }, 'von lingens väg 3': { lat: 57.705203, lon: 12.9489166 }, 'eskilstuna': { lat: 59.37, lon: 16.51 },
+  'avesta': { lat: 60.15, lon: 16.17 }, 'fors folkets hus': { lat: 60.2086278, lon: 16.3041583 }, 'rundavägen 12': { lat: 60.2086278, lon: 16.3041583 }, 'myntgatan 8': { lat: 60.1461242, lon: 16.1760174 }, 'trollhättan': { lat: 58.28, lon: 12.29 }, 'sjuntorp': { lat: 58.196423, lon: 12.223956 }, 'valldavägen 1238': { lat: 57.4056766, lon: 11.9841833 }, 'kollavarvsvägen 10': { lat: 57.4748101, lon: 12.0601448 }, 'kollavarvsvägen 10, kungsbacka': { lat: 57.4748101, lon: 12.0601448 }, 'kungsbacka onsalamotet': { lat: 57.4748101, lon: 12.0601448 }, 'circle k kungsbacka onsalamotet': { lat: 57.4748101, lon: 12.0601448 }, 'kungsbacka': { lat: 57.4748101, lon: 12.0601448 }, 'sjöatorp': { lat: 56.92, lon: 14.42 }, 'enhörna': { lat: 59.25, lon: 17.51 },
+  'borås': { lat: 57.72, lon: 12.94 }, 'företagsgatan 60': { lat: 57.703026, lon: 12.8424789 }, 'företagsgatan 60, borås': { lat: 57.703026, lon: 12.8424789 }, 'eagle riders mc': { lat: 57.703026, lon: 12.8424789 }, 'önum storegården 4': { lat: 58.246701, lon: 12.9829925 }, 'von lingens väg 3': { lat: 57.705203, lon: 12.9489166 }, 'eskilstuna': { lat: 59.37, lon: 16.51 }, 'eskilstuna track & resort': { lat: 59.417490, lon: 16.389410 },
   'solna': { lat: 59.36, lon: 18.00 }, 'lidköping': { lat: 58.51, lon: 13.16 }, 'kinnegatan 15, 531 33 lidköping': { lat: 58.5029052, lon: 13.1685868 }, 'kinnegatan 15': { lat: 58.5029052, lon: 13.1685868 }, 'mc-konsult i lidköping': { lat: 58.502843, lon: 13.167844 },
-  'skövde': { lat: 58.39, lon: 13.85 }, 'östmark': { lat: 60.29, lon: 12.75 }, 'hofors': { lat: 60.56, lon: 16.33 }, 'hudiksvall': { lat: 61.73, lon: 17.11 },
+  'skövde': { lat: 58.39, lon: 13.85 }, 'östmark': { lat: 60.29, lon: 12.75 }, 'hofors': { lat: 60.56, lon: 16.33 }, 'edskevallsvägen 130': { lat: 60.5328856, lon: 16.2305624 }, 'edskevallsvägen 130, hofors': { lat: 60.5328856, lon: 16.2305624 }, 'edskevallen': { lat: 60.5328856, lon: 16.2305624 }, 'edskevallen, hofors': { lat: 60.5328856, lon: 16.2305624 }, 'mo bygdegård': { lat: 61.330782, lon: 16.754493 }, 'mo bygdegård, bollnäs': { lat: 61.330782, lon: 16.754493 }, 'säfsen resort': { lat: 60.1407739, lon: 14.4196606 }, 'vaggerydstravet': { lat: 57.5226426, lon: 14.1117155 }, 'travvägen 7': { lat: 57.5226426, lon: 14.1117155 }, 'travvägen 7, vaggeryd': { lat: 57.5226426, lon: 14.1117155 }, 'vaggeryd': { lat: 57.5226426, lon: 14.1117155 }, 'säfsen': { lat: 60.1407739, lon: 14.4196606 }, 'säfsbyn 30': { lat: 60.1407739, lon: 14.4196606 }, 'säfsbyn 30, fredriksberg': { lat: 60.1407739, lon: 14.4196606 }, 'fredriksberg': { lat: 60.1407739, lon: 14.4196606 }, 'hudiksvall': { lat: 61.73, lon: 17.11 },
   'mora': { lat: 61.01, lon: 14.54 }, 'hedemora': { lat: 60.28, lon: 15.99 }, 'filipstad': { lat: 59.71, lon: 14.17 },
   'kumla': { lat: 59.13, lon: 15.14 }, 'kumla torg': { lat: 59.127749, lon: 15.143659 }, 'motala': { lat: 58.54, lon: 15.04 }, 'östvalla': { lat: 58.5186958, lon: 15.1781826 }, 'östvalla, motala': { lat: 58.5186958, lon: 15.1781826 },
   'väring': { lat: 58.63, lon: 13.93 }, 'kiruna': { lat: 67.86, lon: 20.23 }, 'industrivägen 2': { lat: 67.84792, lon: 20.2588702 }, 'industrivägen 2, 981 38 kiruna': { lat: 67.84792, lon: 20.2588702 }, 'svinkallt mc klubbhus': { lat: 67.84792, lon: 20.2588702 },
@@ -3896,48 +4949,49 @@ const LOCATION_COORDS = {
   'kristianstad': { lat: 56.03, lon: 14.15 }, 'förrådsvägen 10, 291 63 kristianstad': { lat: 55.9859599, lon: 14.1239152 }, 'åsum ring': { lat: 55.9859599, lon: 14.1239152 }, 'biltema kristianstad': { lat: 56.02313, lon: 14.113968 }, 'biltema, kristianstad': { lat: 56.02313, lon: 14.113968 }, 'öllegårdsväg 2': { lat: 56.02313, lon: 14.113968 }, 'öllegårds väg 2': { lat: 56.02313, lon: 14.113968 }, 'varberg': { lat: 57.11, lon: 12.25 }, 'apelviken': { lat: 57.090060, lon: 12.250010 },
   'kungsbacka': { lat: 57.49, lon: 12.08 }, 'kållered': { lat: 57.61, lon: 12.05 }, 'alingsås': { lat: 57.93, lon: 12.53 },
   'mariestad': { lat: 58.71, lon: 13.82 }, 'arvika': { lat: 59.65, lon: 12.59 },
-  'härnösand': { lat: 62.63, lon: 17.94 }, 'mittsverigebanan': { lat: 62.60, lon: 17.82 }, 'piteå': { lat: 65.32, lon: 21.48 }, 'öjebyn': { lat: 65.31, lon: 21.43 },
+  'härnösand': { lat: 62.63, lon: 17.94 }, 'mittsverigebanan': { lat: 62.5998052, lon: 17.816555 }, 'tjärnsjö 100': { lat: 62.5998052, lon: 17.816555 }, 'piteå': { lat: 65.32, lon: 21.48 }, 'öjebyn': { lat: 65.31, lon: 21.43 },
   'boden': { lat: 66.00, lon: 21.69 }, 'komponentvägen 4, boden': { lat: 65.810684, lon: 21.6959022 }, 'skellefteå': { lat: 64.75, lon: 20.95 },
-  'nässjö': { lat: 57.65, lon: 14.70 }, 'storgatan 48, 571 32 nässjö': { lat: 57.6563504, lon: 14.6923111 }, 'mascot motor': { lat: 57.6563504, lon: 14.6923111 }, 'vetlanda': { lat: 57.43, lon: 15.08 }, 'landsbro': { lat: 57.3693191, lon: 14.9031816 }, 'torskrok, myresjö': { lat: 57.3834639, lon: 14.9598058 },
-  'huskvarna': { lat: 57.79, lon: 14.27 }, 'mjölby': { lat: 58.33, lon: 15.13 },
+  'nässjö': { lat: 57.65, lon: 14.70 }, 'gisshults badplats': { lat: 57.6216565, lon: 14.789075 }, 'gisshults badplats, nässjö': { lat: 57.6216565, lon: 14.789075 }, 'storgatan 48, 571 32 nässjö': { lat: 57.6563504, lon: 14.6923111 }, 'mascot motor': { lat: 57.6563504, lon: 14.6923111 }, 'vetlanda': { lat: 57.43, lon: 15.08 }, 'landsbro': { lat: 57.3693191, lon: 14.9031816 }, 'torskrok, myresjö': { lat: 57.3834639, lon: 14.9598058 },
+  'stockmakaregatan': { lat: 57.7879701, lon: 14.2791496 }, 'huskvarna': { lat: 57.79, lon: 14.27 }, 'långgatan 9, huskvarna': { lat: 57.7970031, lon: 14.2760353 }, 'mjölby': { lat: 58.33, lon: 15.13 },
   'tranås': { lat: 58.04, lon: 14.98 }, 'säffle': { lat: 59.13, lon: 12.93 },
   'torsby': { lat: 60.14, lon: 13.00 }, 'bollnäs': { lat: 61.35, lon: 16.39 }, 'näsudden, lingbo': { lat: 61.03852, lon: 16.70274 }, 'tegelbruksvägen 20, bollnäs': { lat: 61.3820136, lon: 16.3963913 }, 'tegelbruksvägen, bollebygd': { lat: 57.6573282, lon: 12.5358154 }, 'brottby': { lat: 59.56, lon: 18.29 },
-  'söderhamn': { lat: 61.30, lon: 17.06 }, 'ölsund': { lat: 61.28, lon: 16.97 }, 'söderköping': { lat: 58.48, lon: 16.32 }, 'sandviken': { lat: 60.62, lon: 16.78 }, 'medskogssjöns camping': { lat: 60.7763076, lon: 16.7269824 },
+  'söderhamn': { lat: 61.30, lon: 17.06 }, 'ölsund': { lat: 61.28, lon: 16.97 }, 'söderköping': { lat: 58.48, lon: 16.32 }, 'sandviken': { lat: 60.62, lon: 16.78 }, 'medskogssjöns camping': { lat: 60.7763076, lon: 16.7269824 }, 'högbo qvarn': { lat: 60.667909, lon: 16.8133179 }, 'högbo qvarn, sandviken': { lat: 60.667909, lon: 16.8133179 }, 'ängelsberg': { lat: 59.966667, lon: 16.008333 }, 'ängelsbergs bruk': { lat: 59.966667, lon: 16.008333 }, 'toftbyns festplats': { lat: 60.711888, lon: 15.785199 }, 'toftbyns festplats, svärdsjö': { lat: 60.711888, lon: 15.785199 }, 'toftbyn 70': { lat: 60.711888, lon: 15.785199 }, 'toftbyn 70, svärdsjö': { lat: 60.711888, lon: 15.785199 }, 'svärdsjö': { lat: 60.711888, lon: 15.785199 },
   // Smaller towns
   'ankarsrum': { lat: 57.41, lon: 16.27 }, 'arboga': { lat: 59.37, lon: 15.82 }, 'köpingsvägen 8, arboga': { lat: 59.3982645, lon: 15.8586597 }, 'fabriksgatan 5, 732 31 arboga': { lat: 59.3965415, lon: 15.8516961 }, 'italia bike center': { lat: 59.3965415, lon: 15.8516961 },
   'arlöv': { lat: 55.63, lon: 13.07 }, 'askersund': { lat: 58.8894268, lon: 14.9109867 },
   'bankeryd': { lat: 57.59, lon: 14.22 }, 'bergsjö': { lat: 61.58, lon: 16.93 }, 'järvsö': { lat: 61.72, lon: 16.17 },
-  'bollebygd': { lat: 57.6689691, lon: 12.5701433 }, 'botkyrka': { lat: 59.20, lon: 17.82 },
-  'bromma': { lat: 59.35, lon: 17.92 }, 'bromölla': { lat: 56.07, lon: 14.47 }, 'industrigatan 11': { lat: 56.0660675, lon: 14.4816549 },
+  'bollebygd': { lat: 57.6689691, lon: 12.5701433 }, 'café rosenhill': { lat: 59.1398851, lon: 17.8328799 }, 'botkyrka': { lat: 59.20, lon: 17.82 },
+  'bromma': { lat: 59.35, lon: 17.92 }, 'råckstavägen 2': { lat: 59.3517089, lon: 17.8862753 }, 'råckstavägen 2, bromma': { lat: 59.3517089, lon: 17.8862753 }, 'circle k, råckstavägen 2': { lat: 59.3517089, lon: 17.8862753 }, 'circle k råcksta': { lat: 59.3517089, lon: 17.8862753 }, 'bromölla': { lat: 56.07, lon: 14.47 }, 'industrigatan 11': { lat: 56.0660675, lon: 14.4816549 },
   'dala-järna': { lat: 60.55, lon: 14.09 }, 'trollemölla vägen 52': { lat: 55.8205323, lon: 14.07575 }, 'degeberga':{ lat: 55.59, lon: 13.68 },
   'ekerö': { lat: 59.37, lon: 17.63 }, 'eringsboda': { lat: 56.44, lon: 15.37 },
-  'eslöv': { lat: 55.84, lon: 13.30 }, 'fallskärmsgatan 1a, eslöv': { lat: 55.8433126, lon: 13.330662 }, 'falkenberg': { lat: 56.90, lon: 12.48 },
-  'fjärås': { lat: 57.27, lon: 12.38 }, 'gagnef': { lat: 61.00, lon: 15.10 },
+  'eslöv': { lat: 55.84, lon: 13.30 }, 'kastberga 209': { lat: 55.8532388, lon: 13.3540995 }, 'fallskärmsgatan 1a, eslöv': { lat: 55.8433126, lon: 13.330662 }, 'falkenberg': { lat: 56.90, lon: 12.48 },
+  'fjärås': { lat: 57.27, lon: 12.38 }, 'gagnef': { lat: 60.5598899, lon: 15.1369137 }, 'djurås': { lat: 60.5598899, lon: 15.1369137 }, 'södra industrivägen 8': { lat: 60.5598899, lon: 15.1369137 }, 'södra industrivägen 8, djurås': { lat: 60.5598899, lon: 15.1369137 }, 'mer, djurås': { lat: 60.5598899, lon: 15.1369137 },
   'garphyttan': { lat: 59.3037088, lon: 14.9451193 }, 'nyhyttans kurort': { lat: 59.6734988, lon: 14.8100748 }, 'grisslehamn': { lat: 60.10, lon: 18.82 }, 'sipsjöbanan, hallstavik': { lat: 60.0453906, lon: 18.5815248 },
-  'grums': { lat: 59.65, lon: 13.03 }, 'grängesberg': { lat: 60.07, lon: 15.00 },
+  'grums': { lat: 59.65, lon: 13.03 }, 'grängesberg': { lat: 60.07, lon: 15.00 }, 'jakobinavägen 17': { lat: 60.0736866, lon: 14.9900128 }, 'jakobinavägen 17, grängesberg': { lat: 60.0736866, lon: 14.9900128 },
   'gustavsberg': { lat: 59.36, lon: 18.38 }, 'götene': { lat: 58.528002, lon: 13.491428 },
   'vendelsövägen 1, handen': { lat: 59.1757867, lon: 18.1431529 }, 'haninge': { lat: 59.17, lon: 18.14 }, 'heby': { lat: 60.12, lon: 16.39 },
-  'hjo': { lat: 58.78, lon: 13.98 }, 'hovmantorp': { lat: 56.79, lon: 15.14 }, 'mantorp': { lat: 58.3695266, lon: 15.2836969 },
+  'hjo': { lat: 58.78, lon: 13.98 }, 'hjo hamn': { lat: 58.2927201, lon: 14.2812226 }, 'jönköpingsvägen 24': { lat: 58.2927201, lon: 14.2812226 }, 'hovmantorp': { lat: 56.79, lon: 15.14 }, 'mantorp': { lat: 58.3695266, lon: 15.2836969 },
   'hultsfred': { lat: 57.29, lon: 15.84 }, 'hällingsjö': { lat: 57.62, lon: 12.43 },
-  'hörby': { lat: 55.85, lon: 13.66 }, 'höör': { lat: 55.93, lon: 13.54 }, 'karl olsens vej 5, hornbæk': { lat: 56.0780373, lon: 12.4860678 },
+  'hörby': { lat: 55.85, lon: 13.66 }, 'höör': { lat: 55.93, lon: 13.54 }, 'parkgatan 30, bjärnum': { lat: 56.2881775, lon: 13.7201407 }, 'frostavallsvägen 2': { lat: 55.9369443, lon: 13.5545042 }, 'frostavallen': { lat: 55.9684426, lon: 13.5172941 }, 'karl olsens vej 5, hornbæk': { lat: 56.0780373, lon: 12.4860678 },
   'forshaga': { lat: 59.53, lon: 13.48 }, 'södra tången': { lat: 59.5465069, lon: 13.4940977 }, 'huddinge': { lat: 59.24, lon: 17.98 }, 'järfälla': { lat: 59.43, lon: 17.79 }, 'jättendal': { lat: 61.97, lon: 17.25 }, 'karlskoga': { lat: 59.33, lon: 14.54 }, 'torget, karlskoga': { lat: 59.3266953, lon: 14.5237174 },
   'klippan': { lat: 56.13, lon: 13.13 }, 'kolmården': { lat: 58.6605369, lon: 16.3990329 },
   'kramfors': { lat: 62.9284332, lon: 17.7862946 }, 'kristinehamn': { lat: 59.3100677, lon: 14.1089193 },
   'kungälv': { lat: 57.869754, lon: 11.9740317 }, 'kågeröd': { lat: 56.00, lon: 13.09 },
   'laholm': { lat: 56.51, lon: 13.04 }, 'knäred': { lat: 56.55, lon: 13.38 }, 'leksand': { lat: 60.7307194, lon: 14.998682 }, 'hembygdsgårdarna, leksand': { lat: 60.731280, lon: 14.988355 }, 'hembygdsgårdarna': { lat: 60.731280, lon: 14.988355 }, 'effersgården, insjön': { lat: 60.6711575, lon: 15.1032146 }, 'effersgården': { lat: 60.6711575, lon: 15.1032146 }, 'vintergatan 61, insjön': { lat: 60.6716434, lon: 15.103656 }, 'vintergatan 61': { lat: 60.6716434, lon: 15.103656 },
   'lidingö': { lat: 59.37, lon: 18.43 }, 'limhamn': { lat: 55.58, lon: 13.10 },
-  'lindesberg': { lat: 59.61, lon: 15.20 }, 'ljungby': { lat: 56.83, lon: 13.94 }, 'vislandavägen': { lat: 56.82597, lon: 14.02986 }, 'vislandavägen, ljungby': { lat: 56.82597, lon: 14.02986 },
+  'lindesberg': { lat: 59.61, lon: 15.20 }, 'ljungby': { lat: 56.83, lon: 13.94 }, 'storgatan 43, lagan': { lat: 56.9121482, lon: 13.9887822 }, 'qstar lagan': { lat: 56.9121482, lon: 13.9887822 }, 'lagan': { lat: 56.9121482, lon: 13.9887822 }, 'vislandavägen': { lat: 56.82597, lon: 14.02986 }, 'vislandavägen, ljungby': { lat: 56.82597, lon: 14.02986 },
   'vännäs': { lat: 63.91, lon: 19.76 },
   'mölnlycke': { lat: 57.6564569, lon: 12.1132408 }, 'åvägen 3d': { lat: 57.6564569, lon: 12.1132408 }, 'moheda': { lat: 56.90, lon: 14.82 }, 'slätthög 2': { lat: 57.0190225, lon: 14.5151129 }, 'slätthög 2, 342 63 moheda': { lat: 57.0190225, lon: 14.5151129 }, 'mullsjö': { lat: 57.92, lon: 13.88 }, 'kyrkekvarn': { lat: 57.92, lon: 13.88 }, 'mönsterås': { lat: 57.45, lon: 16.07 }, 'oknebäcksvägen': { lat: 57.0278095, lon: 16.4324099 },
-  'mörarp': { lat: 56.07, lon: 12.80 }, 'kroppavägen': { lat: 56.07, lon: 12.80 }, 'mörbylånga': { lat: 56.53, lon: 16.67 },
-  'nacka': { lat: 59.31, lon: 18.34 }, 'norsjö': { lat: 64.9135093, lon: 19.4826413 },
+  'mörarp': { lat: 56.0748333, lon: 12.7997097 }, 'kroppavägen': { lat: 56.0748333, lon: 12.7997097 }, 'mörbylånga': { lat: 56.53, lon: 16.67 },
+  'nacka': { lat: 59.31, lon: 18.34 }, 'norsjö': { lat: 64.9135093, lon: 19.4826413 }, 'fridfulla rännudden': { lat: 64.9389412, lon: 19.3713804 }, 'rännudden 4': { lat: 64.9389412, lon: 19.3713804 },
   'nossebro': { lat: 58.25, lon: 13.58 }, 'nynäshamn': { lat: 58.90, lon: 17.95 },
   'orsa': { lat: 61.12, lon: 14.62 }, 'lissvägen': { lat: 61.12, lon: 14.63 }, 'oskarshamn': { lat: 57.27, lon: 16.46 },
   'rimbo': { lat: 59.63, lon: 18.75 }, 'ronneby': { lat: 56.210434, lon: 15.2760229 }, 'grevavägen 35, johannishus': { lat: 56.2237231, lon: 15.4246548 }, 'växjövägen 105, ronneby': { lat: 56.2974301, lon: 15.1964898 },
   'hålbyspåret, lagnö': { lat: 59.3865661, lon: 16.9642231 }, 'hålbyspåret': { lat: 59.3865661, lon: 16.9642231 },
   'simrishamn': { lat: 55.53, lon: 14.36 }, 'spjutstorp': { lat: 55.59, lon: 14.21 }, 'skärholmen': { lat: 59.26, lon: 17.89 },
   'sköndal': { lat: 59.30, lon: 18.04 }, 'sollefteå': { lat: 63.17, lon: 17.27 },
-  'staffanstorp': { lat: 55.70, lon: 13.21 }, 'strängnäs': { lat: 59.33, lon: 16.98 }, 'strömstad': { lat: 58.94, lon: 11.17 },
+  'hantverkaregatan': { lat: 63.1676798, lon: 17.2717057 }, 'fraggahult': { lat: 57.2063910, lon: 14.6997482 }, 'hultsfreds hembygdspark': { lat: 57.4934266, lon: 15.8605872 }, 'korpkullsvägen': { lat: 59.3322884, lon: 14.5477173 }, 'kårstavägen 314': { lat: 59.6563797, lon: 18.2688673 }, 'tibro motorstadion': { lat: 58.450321, lon: 14.201047 }, 'dalsjöfors folkets park': { lat: 57.7174894, lon: 13.1197327 }, 'fågelfors folkets park': { lat: 57.2021592, lon: 15.836225 }, 'mellerud': { lat: 58.7025681, lon: 12.4518424 }, 'strängstorp, katrineholm': { lat: 59.0423815, lon: 16.2218909 },
+  'staffanstorp': { lat: 55.70, lon: 13.21 }, 'rondellens handelsområde': { lat: 55.642785, lon: 13.2327451 }, 'strängnäs': { lat: 59.33, lon: 16.98 }, 'strömstad': { lat: 58.94, lon: 11.17 },
   'sundbyberg': { lat: 59.36, lon: 17.97 }, 'surahammar': { lat: 59.7072262, lon: 16.2268408 },
   'svedala': { lat: 55.42, lon: 13.51 },
   'svenljunga': { lat: 57.79, lon: 13.64 }, 'torggatan 7, svenljunga': { lat: 57.4955385, lon: 13.1112547 }, 'tavelsjö': { lat: 64.0369926, lon: 20.0478102 },
@@ -3951,14 +5005,14 @@ const LOCATION_COORDS = {
   'slånbärsvägen': { lat: 59.50, lon: 17.94 },
   'frösön': { lat: 63.17, lon: 14.60 },
   'rejmyre': { lat: 58.83, lon: 15.94 },
-  'vretstorp': { lat: 59.03, lon: 14.87 }, 'värmskog': { lat: 59.4597058, lon: 12.872492 }, 'vänersborg': { lat: 58.40, lon: 12.30 }, 'värnamo': { lat: 57.70, lon: 14.90 }, 'bäckaskog': { lat: 57.1990473, lon: 14.0756805 }, 'västervik': { lat: 57.76, lon: 16.64 }, 'vingåker': { lat: 59.04, lon: 15.87 },
+  'vretstorp': { lat: 59.0218487, lon: 14.8700933 }, 'vretstorp folkets park': { lat: 59.0218487, lon: 14.8700933 }, 'värmskog': { lat: 59.4597058, lon: 12.872492 }, 'vänersborg': { lat: 58.40, lon: 12.30 }, 'båberg': { lat: 58.3320606, lon: 12.2665456 }, 'båbergsgrillen': { lat: 58.3320606, lon: 12.2665456 }, 'båbergsgrillen, vänersborg': { lat: 58.3320606, lon: 12.2665456 }, 'värnamo': { lat: 57.70, lon: 14.90 }, 'bäckaskog': { lat: 57.1990473, lon: 14.0756805 }, 'västervik': { lat: 57.76, lon: 16.64 }, 'vingåker': { lat: 59.04, lon: 15.87 }, 'sörlins väg 3': { lat: 59.0642178, lon: 15.870373 }, 'sörlins väg 3, vingåker': { lat: 59.0642178, lon: 15.870373 }, 'sörlinsväg 3': { lat: 59.0642178, lon: 15.870373 }, 'sörlinsväg 3, vingåker': { lat: 59.0642178, lon: 15.870373 }, 'crows mc': { lat: 59.0642178, lon: 15.870373 },
   'vårgårda': { lat: 58.00, lon: 13.60 }, 'åmål': { lat: 59.0578875, lon: 12.6777058 }, 'åkervägen 1a': { lat: 59.0578875, lon: 12.6777058 },
   'örkelljunga': { lat: 56.28, lon: 13.28 }, 'örnsköldsvik': { lat: 63.29, lon: 18.71 }, 'viktoriaesplanaden': { lat: 63.2896941, lon: 18.72037 },
-  'ösmo': { lat: 59.03, lon: 17.88 }, 'alunda': { lat: 60.21, lon: 18.07 }, 'hornborgasjön': { lat: 58.31, lon: 13.55 }, 'lammhult': { lat: 57.17, lon: 14.59 }, 'stångby': { lat: 59.8638489, lon: 17.7210509 }, 'rörken': { lat: 59.9238959, lon: 17.747183 }, 'årdala': { lat: 59.10, lon: 16.47 }, 'borgeby': { lat: 55.75, lon: 13.08 }, 'ulva kvarn': { lat: 59.88, lon: 17.64 },
+  'ösmo': { lat: 59.03, lon: 17.88 }, 'alunda': { lat: 60.21, lon: 18.07 }, 'hornborgasjön': { lat: 58.31, lon: 13.55 }, 'lammhult': { lat: 57.17, lon: 14.59 }, 'stångby': { lat: 59.8638489, lon: 17.7210509 }, 'rörken': { lat: 59.9238959, lon: 17.747183 }, 'årdala': { lat: 59.10, lon: 16.47 }, 'borgeby': { lat: 55.75, lon: 13.08 }, 'borgeby slott': { lat: 55.749722, lon: 13.0344675 }, 'borgeby slottsväg': { lat: 55.749722, lon: 13.0344675 }, 'borgeby event': { lat: 55.749722, lon: 13.0344675 }, 'bjärred': { lat: 55.749722, lon: 13.0344675 }, 'ulva kvarn': { lat: 59.88, lon: 17.64 },
   'svartsjö': { lat: 59.36, lon: 17.62 }, 'sjöbo': { lat: 55.63, lon: 13.71 }, 'finspång': { lat: 58.71, lon: 15.77 }, 'järnforsen': { lat: 57.18, lon: 15.60 }, 'gudmundsbyn': { lat: 62.38, lon: 17.16 }, 'fotskäl': { lat: 57.48, lon: 12.49 }, 'delsbo': { lat: 61.80, lon: 16.58 }, 'bjuråker': { lat: 61.86, lon: 16.56 }, 'löddeköpinge': { lat: 55.76, lon: 13.01 }, 'grödinge': { lat: 59.14, lon: 17.83 }, 'saltsjö-boo': { lat: 59.32, lon: 18.27 }, 'bergby': { lat: 60.94, lon: 17.04 },
   'munkfors': { lat: 59.85, lon: 13.54 }, 'falkenbergs motorbana': { lat: 56.98, lon: 12.56 }, 'lindenborgvej': { lat: 55.6214456, lon: 12.0534626 }, 'klintorp': { lat: 58.7010059, lon: 15.6519702 }, 'circle k norsholm': { lat: 58.491370, lon: 15.952280 }, 'circle k norsholm, klintorp, norsholm': { lat: 58.491370, lon: 15.952280 }, 'gullmarsplans torg': { lat: 59.298400, lon: 18.079907 }, 'gullmarsplans torg, johanneshov': { lat: 59.298400, lon: 18.079907 }, 'träffpunkt gotland': { lat: 57.623022, lon: 18.274136 }, 'färjeleden 30': { lat: 57.623022, lon: 18.274136 }, 'träffpunkt gotland, färjeleden 30, visby': { lat: 57.623022, lon: 18.274136 }, 'karlstorpstugan': { lat: 56.716590, lon: 12.899520 }, 'sperlingsholm 797': { lat: 56.716590, lon: 12.899520 }, 'karlstorpstugan, sperlingsholm 797, holm': { lat: 56.716590, lon: 12.899520 }, 'verkstadsgatan-keramikgatan, höganäs': { lat: 56.213244, lon: 12.558918 }, 'höganäs': { lat: 56.20, lon: 12.55 }, 'kåken vmck': { lat: 57.121626, lon: 12.272753 }, 'susvindsvägen 9': { lat: 57.121626, lon: 12.272753 }, 'kåken vmck, susvindsvägen 9, varberg': { lat: 57.121626, lon: 12.272753 }, 'hälsingegården erik-anders': { lat: 61.162080, lon: 16.593560 }, 'asta 728': { lat: 61.162080, lon: 16.593560 }, 'biltema hudiksvall': { lat: 61.737240, lon: 17.097190 }, 'biltema, hudiksvall': { lat: 61.737240, lon: 17.097190 }, '24:ans servicecenter': { lat: 56.348899, lon: 13.254866 }, '24:ans servicecenter, drakabygget, örkelljunga': { lat: 56.348899, lon: 13.254866 }, 'drakabygget': { lat: 56.348899, lon: 13.254866 }, 'per-tec': { lat: 56.519852, lon: 13.319311 }, 'per-tec, klockarevägen 2, knäred': { lat: 56.519852, lon: 13.319311 }, 'klockarevägen 2': { lat: 56.519852, lon: 13.319311 }, 'snöstorps kyrka': { lat: 56.670480, lon: 12.917867 }, 'ljungbyvägen 72': { lat: 56.670480, lon: 12.917867 }, 'snöstorps kyrka, ljungbyvägen 72, halmstad': { lat: 56.670480, lon: 12.917867 }, 'rasta värdshus': { lat: 57.708020, lon: 14.934060 }, 'kråkebergsvägen 1': { lat: 57.708020, lon: 14.934060 }, 'rasta värdshus, kråkebergsvägen 1, eksjö': { lat: 57.708020, lon: 14.934060 }, 'monikas café': { lat: 64.946508, lon: 19.371231 }, 'norsjövallen 53': { lat: 64.946508, lon: 19.371231 }, 'monikas café, norsjövallen 53, norsjö': { lat: 64.946508, lon: 19.371231 }, 'stinsen, verkstadsgatan 20, perstorp': { lat: 56.133070, lon: 13.383210 }, 'verkstadsgatan 20, perstorp': { lat: 56.133070, lon: 13.383210 }, 'perstorp': { lat: 56.13, lon: 13.39 }, 'skånes motorcyklister': { lat: 55.576900, lon: 12.994500 }, 'södertorpsvägen 90': { lat: 55.576900, lon: 12.994500 }, 'skånes motorcyklister, södertorpsvägen 90, malmö': { lat: 55.576900, lon: 12.994500 }, 'simonsland': { lat: 57.726970, lon: 12.937660 }, 'viskastrandsgatan 5': { lat: 57.726970, lon: 12.937660 }, 'simonsland, viskastrandsgatan 5, borås': { lat: 57.726970, lon: 12.937660 }, 'fub-gården': { lat: 57.089970, lon: 12.249950 }, 'fub-gården, apelviken, varberg': { lat: 57.089970, lon: 12.249950 }, 'stortorget, malmö': { lat: 55.606200, lon: 13.000100 }, 'snutenvägen': { lat: 59.4318133, lon: 17.7940512 }, 'trönö, söderhamn': { lat: 61.3965122, lon: 16.8336652 }, 'nyborgsgatan': { lat: 59.5931784, lon: 15.2157426 }, 'hillevågsveien': { lat: 58.9512568, lon: 5.7425799 },
   // Uppsala-specific venues (added 2026-04-13 audit)
-  'enköpings motorgård': { lat: 59.6440532, lon: 17.1017952 }, 'rapsgatan': { lat: 59.8458818, lon: 17.6885113 }, 'klubbkåken': { lat: 59.8638489, lon: 17.7210509 }, 'lelles mc': { lat: 59.8556253, lon: 17.6743881 }, 'sulas mc': { lat: 59.7685073, lon: 17.3905281 }, 'fyrishov': { lat: 59.8704597, lon: 17.6204877 }, 'ulleråkersvägen': { lat: 59.8292438, lon: 17.6477894 }, 'rörken, uppsala': { lat: 59.9238959, lon: 17.747183 }, 'snutenvägen 11': { lat: 59.4318133, lon: 17.7940512 }, 'ryttarhalsvägen 15, kungens kurva': { lat: 59.265827, lon: 17.9268789 }, 'mörtnäs hagväg 13': { lat: 59.3152887, lon: 18.4309238 },
+  'enköpings motorgård': { lat: 59.6440532, lon: 17.1017952 }, 'stockholmsvägen 17, enköping': { lat: 59.6437537, lon: 17.1045785 }, 'stockholmsvägen 17': { lat: 59.6437537, lon: 17.1045785 }, 'valsta gård tveta, södertälje': { lat: 59.1538309, lon: 17.5697663 }, 'valsta gård tveta': { lat: 59.1538309, lon: 17.5697663 }, 'rapsgatan': { lat: 59.8458818, lon: 17.6885113 }, 'klubbkåken': { lat: 59.8638489, lon: 17.7210509 }, 'lelles mc': { lat: 59.8556253, lon: 17.6743881 }, 'sulas mc': { lat: 59.7685073, lon: 17.3905281 }, 'säva 17': { lat: 59.7685073, lon: 17.3905281 }, 'säva 17, uppsala': { lat: 59.7685073, lon: 17.3905281 }, 'sulas mc, säva 17': { lat: 59.7685073, lon: 17.3905281 }, 'fyrishov': { lat: 59.8704597, lon: 17.6204877 }, 'ulleråkersvägen': { lat: 59.8292438, lon: 17.6477894 }, 'rörken, uppsala': { lat: 59.9238959, lon: 17.747183 }, 'snutenvägen 11': { lat: 59.4318133, lon: 17.7940512 }, 'ryttarhalsvägen 15, kungens kurva': { lat: 59.265827, lon: 17.9268789 }, 'sankt botvids väg 3, hallunda': { lat: 59.2403185, lon: 17.8285931 }, 'sankt botvids väg 3': { lat: 59.2403185, lon: 17.8285931 }, 'pizza hut botkyrka': { lat: 59.2403185, lon: 17.8285931 }, 'pizza hut hallunda': { lat: 59.2403185, lon: 17.8285931 }, 'hallunda': { lat: 59.2403185, lon: 17.8285931 }, 'mörtnäs hagväg 13': { lat: 59.3152887, lon: 18.4309238 },
   // Södermanland-specific venues (added 2026-04-13 audit)
   'kjula dragway': { lat: 59.3538345, lon: 16.6897553 },
   // Added 2026-04-14 session
@@ -3971,11 +5025,16 @@ const LOCATION_COORDS = {
   // Added 2026-04-17 session
   'gamla riksvägen 24': { lat: 57.6140629, lon: 12.0480605 }, 'rottnavägen 7': { lat: 59.9430093, lon: 12.9006077 }, 'varvsgatan 32': { lat: 58.3553032, lon: 11.2697134 }, 'mörevägen, ljungbyholm': { lat: 56.6308172, lon: 16.1722647 }, 'klubbkåken, ljungbyholm': { lat: 56.6308172, lon: 16.1722647 },
   'åsavallsvägen 14': { lat: 59.8955069, lon: 18.4878321 }, 'dals-ed': { lat: 58.9122731, lon: 11.9327196 },
-  'stattenavägen 53': { lat: 56.1490337, lon: 13.7761857 }, 'grönäng 3, alingsås': { lat: 57.9794149, lon: 12.6496106 }, 'eckerö': { lat: 60.2231622, lon: 19.5595375 }, 'travvägen 4': { lat: 60.9020521, lon: 15.1155748 }, 'ingarvsvägen 8': { lat: 60.6080861, lon: 15.599032 },
+  'stattenavägen 53': { lat: 56.1490337, lon: 13.7761857 }, 'grönäng 3, alingsås': { lat: 57.9794149, lon: 12.6496106 }, 'eckerö': { lat: 60.2231622, lon: 19.5595375 }, 'travvägen 4': { lat: 60.9020521, lon: 15.1155748 }, 'ingarvsvägen 8': { lat: 60.6080861, lon: 15.599032 }, 'långsjöns kaffestuga': { lat: 60.3001004, lon: 15.2808224 }, 'långsjöns kaffestuga, idkerberget': { lat: 60.3001004, lon: 15.2808224 }, 'idkerberget': { lat: 60.3001004, lon: 15.2808224 }, 'brända bröd': { lat: 60.3903042, lon: 15.6623621 }, 'brända bröd, solvarbo': { lat: 60.3903042, lon: 15.6623621 }, 'solvarbo': { lat: 60.3903042, lon: 15.6623621 }, 'gustafs bröd': { lat: 60.4041972, lon: 15.595997 }, 'gustafs bröd, gustafs': { lat: 60.4041972, lon: 15.595997 }, 'gustafs': { lat: 60.4041972, lon: 15.595997 },
   // Added 2026-04-19 session
   'åkerivägen 6, täby': { lat: 59.4832829, lon: 18.0584031 }, 'åkerivägen 6': { lat: 59.4832829, lon: 18.0584031 }, 'probike stockholm': { lat: 59.4832829, lon: 18.0584031 },
   'såggatan 3, sjöbo': { lat: 55.6373031, lon: 13.6793131 }, 'såggatan 3': { lat: 55.6373031, lon: 13.6793131 }, 'motostar': { lat: 55.6373031, lon: 13.6793131 },
+  'sjöbo marknadsplats': { lat: 55.6301577, lon: 13.7109343 }, 'marknadsplatsen, sjöbo': { lat: 55.6301577, lon: 13.7109343 },
+  'knektplatsen': { lat: 60.887897, lon: 15.1258459 }, 'knektplatsen, rättvik': { lat: 60.887897, lon: 15.1258459 },
   'ljungviks torg': { lat: 57.8394344, lon: 12.2875257 }, 'gråbo industriväg': { lat: 57.8394344, lon: 12.2875257 },
+  'motorstadion hedemora': { lat: 60.3042207, lon: 15.9574404 }, 'tt-vägen 37': { lat: 60.3042207, lon: 15.9574404 },
+  'ryggåsstugan': { lat: 60.5396536, lon: 14.4516493 }, 'ryggåsstugan, dala-järna': { lat: 60.5396536, lon: 14.4516493 },
+  'ölandsgatan 6': { lat: 60.6078174, lon: 15.6263477 }, 'näringslivets hus': { lat: 60.6078174, lon: 15.6263477 },
   // Added 2026-04-20 session
   'gärdehov arena': { lat: 62.4124684, lon: 17.3475871 },
   'barva bygdegård': { lat: 59.326491, lon: 16.7684885 },
@@ -3984,18 +5043,18 @@ const LOCATION_COORDS = {
   'norra rydsgatan 7': { lat: 58.4205405, lon: 14.1310381 }, 'cec motorcycles': { lat: 58.4205405, lon: 14.1310381 },
   'skultuna, västerås': { lat: 59.7164811, lon: 16.4302921 }, 'skultuna': { lat: 59.7164811, lon: 16.4302921 },
   'biltema, stormgatan 1': { lat: 56.6645114, lon: 12.9074906 }, 'stormgatan 1': { lat: 56.6645114, lon: 12.9074906 },
-  'gamla torget, tidaholm': { lat: 58.180565, lon: 13.9581861 },
+  'gamla torget, tidaholm': { lat: 58.180565, lon: 13.9581861 }, 'järnvägsgatan 18': { lat: 58.1813153, lon: 13.9448952 }, 'järnvägsgatan 18, tidaholm': { lat: 58.1813153, lon: 13.9448952 }, 'labbås cruisers': { lat: 58.1813153, lon: 13.9448952 },
   'järlåsa bygdegård': { lat: 59.8985481, lon: 17.2065695 }, 'järlåsa-laggarbo 2': { lat: 59.8985481, lon: 17.2065695 },
   'vaksalagatan': { lat: 59.8677337, lon: 17.6571051 },
   'nybrovägen 53': { lat: 60.4293588, lon: 15.4889615 },
   // Region fallbacks (central point for each region)
   'västernorrland': { lat: 62.63, lon: 17.94 }, 'västra götaland': { lat: 57.71, lon: 12.00 },
   'östergötland': { lat: 58.41, lon: 15.62 }, 'dalarna': { lat: 61.05, lon: 15.02 },
-  'skåne': { lat: 55.65, lon: 13.15 }, 'skåne-tranås': { lat: 55.61, lon: 13.99 }, 'skåne tranås': { lat: 55.61, lon: 13.99 }, 'fyledalen': { lat: 55.55, lon: 13.86 }, 'löderup': { lat: 55.44, lon: 14.11 }, 'gyllebo': { lat: 55.59, lon: 14.20 }, 'everöd': { lat: 55.90, lon: 14.10 }, 'tomelilla': { lat: 55.55, lon: 13.96 }, 'blekinge': { lat: 56.16, lon: 15.59 },
-  'småland': { lat: 57.50, lon: 15.00 }, 'halland': { lat: 56.90, lon: 12.48 },
+  'skåne': { lat: 55.65, lon: 13.15 }, 'skåne-tranås': { lat: 55.61, lon: 13.99 }, 'skåne tranås': { lat: 55.61, lon: 13.99 }, 'fyledalen': { lat: 55.55, lon: 13.86 }, 'löderup': { lat: 55.44, lon: 14.11 }, 'gyllebo': { lat: 55.59, lon: 14.20 }, 'everöd': { lat: 55.90, lon: 14.10 }, 'tomelilla': { lat: 55.55, lon: 13.96 }, 'industrigatan 10, tomelilla': { lat: 55.5526414, lon: 13.9557457 }, 'industrigatan 10': { lat: 55.5526414, lon: 13.9557457 }, 'blekinge': { lat: 56.16, lon: 15.59 },
+  'småland': { lat: 57.50, lon: 15.00 }, 'gamla folkskolan, skällinge': { lat: 57.1798692, lon: 12.472972 }, 'halland': { lat: 56.90, lon: 12.48 },
   'västerbotten': { lat: 63.83, lon: 20.26 }, 'västkusten': { lat: 57.71, lon: 12.00 },
-  'öland': { lat: 56.80, lon: 16.80 }, 'lundegård camping': { lat: 56.9056581, lon: 16.7324971 }, 'sverige': { lat: 59.33, lon: 18.06 },
-  'danmark': { lat: 55.68, lon: 12.57 }, 'gymnasievej 3, stenløse': { lat: 55.7745182, lon: 12.1960015 }, 'dybdalsvej 5, daugbjerg': { lat: 56.4365555, lon: 9.1305017 }, 'skørping': { lat: 56.83, lon: 9.85 }, 'varde': { lat: 55.62, lon: 8.48 }, 'thorsø': { lat: 56.25, lon: 9.92 }, 'maribo': { lat: 54.77, lon: 11.50 }, 'gislev': { lat: 55.2269321, lon: 10.626802 }, 'ørbækvej 61, 5854 gislev': { lat: 55.2269321, lon: 10.626802 }, 'nakskov': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2, 4900 nakskov': { lat: 54.83309, lon: 11.09206 }, 'nakskov fjord camping': { lat: 54.83309, lon: 11.09206 }, 'juelsminde': { lat: 55.7091, lon: 10.0183 }, 'klejsgårdvej 1, 7130 juelsminde': { lat: 55.7427641, lon: 9.9399153 }, 'klejsgårdvej 1': { lat: 55.7427641, lon: 9.9399153 }, 'norge': { lat: 59.91, lon: 10.75 }, 'furumoen 51, magnor': { lat: 59.9357688, lon: 12.2209048 }, 'sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1, 4313 sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'fauske': { lat: 67.26, lon: 15.39 }, 'trondheim': { lat: 63.43, lon: 10.40 }, 'tumba': { lat: 59.20, lon: 17.83 },
+  'öland': { lat: 56.80, lon: 16.80 }, 'lundegård camping': { lat: 56.9056581, lon: 16.7324971 }, 'sandbergens festplats': { lat: 56.5711131, lon: 16.4039692 }, 'sandbergens festplats, öland': { lat: 56.5711131, lon: 16.4039692 }, 'sverige': { lat: 59.33, lon: 18.06 }, 'runt mälaren': { lat: 59.47, lon: 17.10 },
+  'danmark': { lat: 55.68, lon: 12.57 }, 'gymnasievej 3, stenløse': { lat: 55.7745182, lon: 12.1960015 }, 'dybdalsvej 5, daugbjerg': { lat: 56.4365555, lon: 9.1305017 }, 'skørping': { lat: 56.83, lon: 9.85 }, 'varde': { lat: 55.62, lon: 8.48 }, 'thorsø': { lat: 56.25, lon: 9.92 }, 'maribo': { lat: 54.77, lon: 11.50 }, 'gislev': { lat: 55.2269321, lon: 10.626802 }, 'ørbækvej 61, 5854 gislev': { lat: 55.2269321, lon: 10.626802 }, 'nakskov': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2': { lat: 54.83309, lon: 11.09206 }, 'hestehovedet 2, 4900 nakskov': { lat: 54.83309, lon: 11.09206 }, 'nakskov fjord camping': { lat: 54.83309, lon: 11.09206 }, 'juelsminde': { lat: 55.7091, lon: 10.0183 }, 'klejsgårdvej 1, 7130 juelsminde': { lat: 55.7427641, lon: 9.9399153 }, 'klejsgårdvej 1': { lat: 55.7427641, lon: 9.9399153 }, 'norge': { lat: 59.91, lon: 10.75 }, 'furumoen 51, magnor': { lat: 59.9357688, lon: 12.2209048 }, 'ramstadveien 2': { lat: 59.5551925, lon: 11.3670971 }, 'ramstadveien 2, mysen': { lat: 59.5551925, lon: 11.3670971 }, 'mysen': { lat: 59.5551925, lon: 11.3670971 }, 'sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1': { lat: 58.8732735, lon: 5.7240362 }, 'somaveien 1, 4313 sandnes': { lat: 58.8732735, lon: 5.7240362 }, 'fauske': { lat: 67.26, lon: 15.39 }, 'trondheim': { lat: 63.43, lon: 10.40 }, 'tumba': { lat: 59.20, lon: 17.83 },
   'finland': { lat: 60.17, lon: 24.94 }, 'kemora ring': { lat: 63.420208, lon: 23.9800051 }, 'imatra, finland': { lat: 61.1693627, lon: 28.7665858 }, 'muonio': { lat: 67.9332472, lon: 23.6566667 }, 'harrinivantie 35': { lat: 67.9332472, lon: 23.6566667 }, 'harrinivantie 35, 99300 muonio': { lat: 67.9332472, lon: 23.6566667 }, 'harriniva': { lat: 67.9332472, lon: 23.6566667 }, 'tjeckien': { lat: 49.82, lon: 15.47 },
   'spanien': { lat: 40.42, lon: -3.70 },
   'jordbro': { lat: 59.1449312, lon: 18.1211554 }, 'dåntorpsvägen 5': { lat: 59.1449312, lon: 18.1211554 }, 'dåntorpsvägen 5, 136 50 jordbro': { lat: 59.1449312, lon: 18.1211554 },
@@ -4015,7 +5074,7 @@ const LOCATION_COORDS = {
   'häradsback': { lat: 56.80, lon: 15.02 }, 'linvägen 3, 343 92 härадsbäck': { lat: 56.53098, lon: 14.4509218 }, 'linvägen 3, 343 92 häradsbäck': { lat: 56.53098, lon: 14.4509218 }, 'linvägen 3': { lat: 56.53098, lon: 14.4509218 },
   'höting': { lat: 64.1137186, lon: 16.2037552 },
   'kinnekulle': { lat: 58.60, lon: 13.40 }, 'kinnekulle ring': { lat: 58.5470886, lon: 13.3950307 }, 'kinnekulle ring, götene': { lat: 58.5470886, lon: 13.3950307 },
-  'hamngatan 1, ystad': { lat: 55.4293858, lon: 13.8208256 }, 'ystad': { lat: 55.43, lon: 13.82 }, 'granatvägen, ystad': { lat: 55.4380885, lon: 13.7905033 }, 'hässleholm': { lat: 56.16, lon: 13.77 }, 'tykarp': { lat: 56.12, lon: 13.69 }, 'jägersro': { lat: 55.57, lon: 13.03 },
+  'hamngatan 1, ystad': { lat: 55.4293858, lon: 13.8208256 }, 'ystad': { lat: 55.43, lon: 13.82 }, 'granatvägen, ystad': { lat: 55.4380885, lon: 13.7905033 }, 'ystads sandskog': { lat: 55.4400, lon: 13.8650 }, 'high riders klubbstuga': { lat: 55.4400, lon: 13.8650 }, 'hässleholm': { lat: 56.16, lon: 13.77 }, 'hövdingegatan': { lat: 56.1481122, lon: 13.7814744 }, 'tykarp 7169': { lat: 56.118359, lon: 13.825997 }, 'tykarp': { lat: 56.12, lon: 13.69 }, 'jägersro': { lat: 55.57, lon: 13.03 },
   'kristianopel': { lat: 56.2578701, lon: 16.0411673 },
   'linneryd': { lat: 56.72, lon: 15.22 },
   'ljugarn': { lat: 57.33, lon: 18.72 },
@@ -4031,6 +5090,7 @@ const LOCATION_COORDS = {
   'ransäter': { lat: 59.78, lon: 13.10 },
   'rättvik': { lat: 60.89, lon: 15.12 }, 'stumsnäs': { lat: 60.88, lon: 14.94 },
   'rydaholm': { lat: 57.11, lon: 14.52 },
+  'sjöholmen sommarhem': { lat: 56.9699947, lon: 14.3277597 },
   'rødekro': { lat: 55.07, lon: 9.33 },
   'sala': { lat: 59.92, lon: 16.61 },
   'sandarne': { lat: 61.25, lon: 17.08 },
@@ -4295,6 +5355,13 @@ function render() {
   if (currentFilter !== 'all' && currentFilter !== 'Plats' && currentFilter !== 'Anons') {
     events = events.filter(e => e.type === currentFilter);
   }
+  // Vehicle filter (Alla / MC / Moped). Untagged events count as mc. A "both"
+  // event (open to mc AND moped) shows under both MC and Moped.
+  if (currentVehicle === 'moped') {
+    events = events.filter(e => e._vehicle === 'moped' || e._vehicle === 'both');
+  } else if (currentVehicle === 'mc') {
+    events = events.filter(e => e._vehicle !== 'moped');
+  }
   // If user selected Plats or Anons type filter, hide all regular events (only show those AD cards)
   if (currentFilter === 'Plats' || currentFilter === 'Anons') {
     events = [];
@@ -4348,12 +5415,15 @@ function render() {
         return (start <= sunWeekStr && end >= monStr);
       });
     } else {
-      const selM = parseInt(currentMonth, 10);
-      events = events.filter(e => {
-        const startM = parseInt(e.date.split('-')[1], 10);
-        const endM = parseInt((e.dateEnd || e.date).split('-')[1], 10);
-        return startM <= selM && endM >= selM;
-      });
+      const mf = parseMonthFilter(currentMonth);
+      if (mf) {
+        const target = mf.year * 12 + mf.month;
+        events = events.filter(e => {
+          const s = e.date.split('-'); const en = (e.dateEnd || e.date).split('-');
+          const sv = (+s[0]) * 12 + (+s[1]); const ev = (+en[0]) * 12 + (+en[1]);
+          return sv <= target && target <= ev;
+        });
+      }
     }
   }
   if (!showPast) events = events.filter(e => (e.dateEnd || e.date) >= today);
@@ -4394,27 +5464,26 @@ function render() {
     // Type filter = Anons: show all Anons cards
     visibleAds = anonsCards.slice();
   } else {
-    // Normal browse mode: determine Plats and Anons visibility separately
-    // Plats: show ONLY when no filters active at all, OR only region filter is active (matching region)
-    if (onlyRegionFilter) {
-      platsCards.forEach(ad => {
-        const regionOk = noRegionFilter || (ad.region === currentRegion);
-        if (regionOk) visibleAds.push(ad);
-      });
-    }
+    // Normal browse mode: only Anons are injected into the card flow.
+    // Plats cards are NEVER blended into the events timeline (changed 2026-06-12):
+    // they are reachable via the Plats type filter (desktop), search,
+    // and the mobile Platser swipe view. With a growing number of places
+    // (18 now, 100-200 later) injection would drown the events.
     // Anons: show only when NO filters active at all
-    if (noTypeFilter && noClubFilter && noMonthFilter && noRegionFilter && noMapCity) {
+    if (noTypeFilter && noClubFilter && noMonthFilter && noRegionFilter && noMapCity && currentVehicle === 'all') {
       anonsCards.forEach(ad => visibleAds.push(ad));
     }
   }
 
   // Update event map with filtered events + place-ADs (before city filter)
-  // Plats dots: only when no filters or only region filter (same rule as Plats cards)
-  const mapPlatsOk = !searchQuery && (onlyRegionFilter || currentFilter === 'Plats');
+  // Plats dots: ONLY when user picks "Plats" from the type filter.
+  // On initial load (no filter) we keep the map clean and show only event dots.
+  const mapPlatsOk = currentFilter === 'Plats';
   const mapPlats = mapPlatsOk ? platsCards.filter(ad => (currentRegion === 'all') || ad.region === currentRegion) : [];
   updateEventMap(events.concat(mapPlats));
   updatePlaceDots(mapPlatsOk, currentRegion);
   updateMapStats();
+  updateMapMinilist();
 
   // Map city filter
   if (mapCityFilter) {
@@ -4449,7 +5518,32 @@ function render() {
   if (platsCountHeader > 0) countTxt += ' \u00b7 ' + platsCountHeader + (platsCountHeader === 1 ? ' plats' : ' platser');
   document.getElementById('searchCount').textContent = countTxt;
 
-  if (events.length === 0) {
+  // --- "Pågår nu" bucket (desktop, default browse only) ---
+  // Multi-day events that already started (start < today) and are still running
+  // (dateEnd >= today) get pulled out of the timeline into a live section at the
+  // top. Single-day events stay in the normal month flow. A multi-day event that
+  // STARTS today also stays under the month on its first day and moves up to
+  // "Pågår nu" the next day. Reason: multi-day events are the ones that linger on
+  // the calendar for days and benefit from being surfaced; single-day events
+  // appear once on their own day where users expect them (decided 2026-06-14).
+  // Pulled out AFTER the header count and map update, so these events still
+  // count in "X evenemang" and still show their map dots. Mobile keeps the
+  // inline behaviour (desktop-first).
+  let ongoingEvents = [];
+  const showOngoing = (window.innerWidth >= 900) && currentMonth === 'all' && !searchQuery && !showPast;
+  if (showOngoing) {
+    ongoingEvents = events.filter(e =>
+      !e._ad && e.dateEnd && e.dateEnd !== e.date && e.date < today && e.dateEnd >= today
+    );
+    if (ongoingEvents.length > 0) {
+      const ongoingIds = new Set(ongoingEvents.map(e => e.id));
+      events = events.filter(e => !ongoingIds.has(e.id));
+      // Ending soonest first ("last chance to catch it")
+      ongoingEvents.sort((a, b) => (a.dateEnd || a.date).localeCompare(b.dateEnd || b.date));
+    }
+  }
+
+  if (events.length === 0 && ongoingEvents.length === 0) {
     // If a region URL was used and we have zero events, show region-specific empty state
     // with nearby region suggestions and a Tipsa CTA. Better for SEO than a thin page.
     const urlReg = getRegionFromURL();
@@ -4478,7 +5572,7 @@ function render() {
   const _isMobileRender = window.innerWidth < 900;
   let renderedCount = 0;
   window._pendingEvents = events;
-  window._renderState = { renderMonth, supportInserted, today, grid };
+  window._renderState = { renderMonth, supportInserted, today, grid, _eagerLeft: 4 };
 
   function renderBatch(startIdx, count) {
     const evts = window._pendingEvents;
@@ -4505,7 +5599,7 @@ function render() {
 
     // Determine this card's visual type
     // Month divider (skip for injected ad cards)
-    if (!event._ad && monthKey !== state.renderMonth) {
+    if (!event._ad && !state.suppressDivider && monthKey !== state.renderMonth) {
       // Insert support section between first and second month (only in 'all' view)
       if (state.renderMonth !== '' && !state.supportInserted && currentMonth === 'all') {
         state.supportInserted = true;
@@ -4565,18 +5659,31 @@ function render() {
     card.dataset.id = event.id;
     const cardId = 'c-' + event.id;
 
-    // Phase 2 (mobile): lazy-load backImage via IntersectionObserver for performance
+    // Phase 2 (mobile): lazy-load backImage via IntersectionObserver for performance.
+    // LCP fix (2026-06-12): the FIRST few cards are above the fold, so their image
+    // loads immediately (no observer round-trip). Everything else stays lazy.
     if (event.backImage) {
-      card.dataset.bg = event.backImage;
       card.classList.add('has-photo');
+      if (state._eagerLeft > 0) {
+        state._eagerLeft--;
+        card.style.setProperty('--card-bg-image', 'url("' + event.backImage + '")');
+        if (event.backImagePosition) {
+          card.style.setProperty('--card-bg-position', event.backImagePosition);
+        } else if (event.backImage.includes('hd-default-back-2.jpg') || event.backImage.includes('hd-default-back-3.jpg')) {
+          card.style.setProperty('--card-bg-position', 'top');
+        }
+      } else {
+        card.dataset.bg = event.backImage;
+        // Optional per-event background-position override (e.g. "top" for posters where the
+        // important content is at the top of the image and the default center crop hides it).
+        if (event.backImagePosition) {
+          card.dataset.bgPosition = event.backImagePosition;
+        }
+      }
     }
 
-    // Mobile: whole card tappable opens full-screen detail modal
-    card.addEventListener('click', function(e) {
-      if (!window.matchMedia('(max-width: 768px)').matches) return;
-      if (e.target.closest('.fav-btn, .cal-dropdown-wrapper, a, button')) return;
-      cardExpand(cardId);
-    });
+    // Mobile tap is handled by ONE delegated listener on #grid (see initCardTapDelegation),
+    // not per-card listeners - keeps memory flat as the event count grows.
 
     // Store event data for deferred back-side rendering (built on click, not now)
     _eventMap.set(cardId, event);
@@ -4599,12 +5706,33 @@ function render() {
     card.id = cardId;
 
     // Render ONLY the front side. Back side is built on demand in cardExpand().
-    if (event.frontImage) {
+    if (event._place) {
+      // Plats (place) card: site draws the name/separator/city overlay (real site font).
+      card.classList.add('place-card');
+      if (!event.frontImage) card.classList.add('no-photo');
+      const cityTxt = event.city || '';
+      const photoHTML = event.frontImage
+        ? `<img class="place-photo" src="${event.frontImage}" alt="${escapeHtml(displayName)}" loading="lazy" decoding="async">` : '';
+      card.innerHTML = `
+        <div class="card-flipper">
+          <div class="card-front" onclick="cardExpand('${cardId}')">
+            ${photoHTML}
+            <div class="place-grad"></div>
+            <div class="place-badge">PLATS</div>
+            <div class="place-name">${escapeHtml(displayName)}</div>
+            <div class="place-sep"></div>
+            ${cityTxt ? `<div class="place-city">${escapeHtml(cityTxt)}</div>` : ''}
+            ${likeBtnHTML(event)}
+          </div>
+        </div>
+      `;
+    } else if (event.frontImage) {
       card.classList.add('poster-card');
       card.innerHTML = `
         <div class="card-flipper">
           <div class="card-front" onclick="cardExpand('${cardId}')">
             <img class="poster-front-img" src="${event.frontImage}" alt="${displayName}" loading="lazy" decoding="async" width="800" height="1067">
+            ${likeBtnHTML(event)}
           </div>
         </div>
       `;
@@ -4625,6 +5753,7 @@ function render() {
               </div>
             </div>
             ${regionPillHTML}
+            ${likeBtnHTML(event)}
             <div class="card-name">${displayName}</div>
             <div class="card-body">
               <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
@@ -4637,6 +5766,21 @@ function render() {
       `;
     }
     grid.appendChild(card);
+  }
+
+  // Render "Pågår nu" section first (desktop default browse only).
+  // These cards skip the month dividers; afterwards we reset the month state
+  // so the first normal card opens a fresh month divider (e.g. JUNI 2026).
+  if (ongoingEvents.length > 0) {
+    const nowDivider = document.createElement('div');
+    nowDivider.className = 'month-divider now-divider';
+    nowDivider.innerHTML = '<span class="now-dot"></span>Pågår nu';
+    grid.appendChild(nowDivider);
+    const st = window._renderState;
+    st.suppressDivider = true;
+    ongoingEvents.forEach(ev => renderSingleCard(ev, st));
+    st.suppressDivider = false;
+    st.renderMonth = '';
   }
 
   if (_isMobileRender) {
@@ -4700,6 +5844,13 @@ function render() {
           const bgUrl = card.dataset.bg;
           if (bgUrl) {
             card.style.setProperty('--card-bg-image', 'url("' + bgUrl + '")');
+            // Per-event override wins; otherwise apply known image-specific overrides.
+            if (card.dataset.bgPosition) {
+              card.style.setProperty('--card-bg-position', card.dataset.bgPosition);
+              delete card.dataset.bgPosition;
+            } else if (bgUrl.includes('hd-default-back-2.jpg') || bgUrl.includes('hd-default-back-3.jpg')) {
+              card.style.setProperty('--card-bg-position', 'top');
+            }
             delete card.dataset.bg;
           }
           window._cardBgObserver.unobserve(card);
@@ -5007,10 +6158,10 @@ function initEventMap() {
     }, { passive: true });
   }
 
-  // Apply saved visibility (only hide on small mobile; desktop always starts visible)
-  const isMobileSmall = window.innerWidth < 600;
+  // Map visibility: always hidden on mobile on load; always visible on desktop
+  const isMobileSmall = window.innerWidth <= 768;
   if (isMobileSmall) {
-    mapVisible = safeGetItem('mc_map_visible') === 'true'; // default hidden on mobile
+    mapVisible = false; // always start hidden on mobile, no localStorage memory
   } else {
     mapVisible = true; // always visible on desktop
   }
@@ -5020,6 +6171,14 @@ function initEventMap() {
     section.classList.add('collapsed');
     btn.textContent = 'Visa karta';
   }
+
+  // Update mini-list when map moves (mobile sync).
+  // Skip if the pan came from the minilist itself (avoid scroll loop).
+  eventMap.on('moveend', () => {
+    if (window.innerWidth > 768) return;
+    if (eventMap._minilistPanning) return;
+    updateMapMinilist();
+  });
 }
 
 function toggleEventMap() {
@@ -5028,11 +6187,15 @@ function toggleEventMap() {
   mapVisible = !mapVisible;
   section.classList.toggle('collapsed', !mapVisible);
   btn.textContent = mapVisible ? 'Dölj karta' : 'Visa karta';
-  safeSetItem('mc_map_visible', mapVisible);
+  // Do not persist visibility — each load starts hidden on mobile (Slava's preference 2026-05-22)
   if (mapVisible && eventMap) {
     setTimeout(() => { eventMap.invalidateSize(); render(); }, 100);
   }
 }
+
+// Stores events that ended up on the map with their resolved coords.
+// Used by the mobile mini-list to know which events to show + sync with dots.
+let mapEventsWithCoords = [];
 
 function updateEventMap(filteredEvents) {
   if (!eventMap || !mapVisible) return;
@@ -5040,6 +6203,7 @@ function updateEventMap(filteredEvents) {
   // Clear old markers
   mapMarkers.forEach(m => eventMap.removeLayer(m));
   mapMarkers = [];
+  mapEventsWithCoords = [];
 
   // Group events by location coords (longest match)
   const locGroups = {};
@@ -5063,6 +6227,16 @@ function updateEventMap(filteredEvents) {
         if (locGroups[coordKey].names.length < 4) {
           locGroups[coordKey].names.push(e.name);
         }
+        // Track each event with its coords for the mini-list
+        mapEventsWithCoords.push({
+          id: e.id,
+          name: e.name,
+          date: e.date,
+          location: e.location,
+          coordKey: coordKey,
+          lat: bestCoords.lat,
+          lon: bestCoords.lon
+        });
     }
   });
 
@@ -5104,6 +6278,104 @@ function updateMapStats() {
   const visiblePlaceCount = placeMarkers.length;
   if (visiblePlaceCount > 0) txt += ' \u00b7 ' + visiblePlaceCount + (visiblePlaceCount === 1 ? ' plats' : ' platser');
   statsEl.textContent = txt;
+}
+
+// ========== MOBILE MAP MINI-LIST (option 5) ==========
+// Horizontal scrollable list of cards under the map that stays in sync with visible dots.
+// Swipe cards = pan map to that event. Tap card = jump to event in main grid.
+
+const SV_MONTH_SHORT = ['jan','feb','mar','apr','maj','jun','jul','aug','sep','okt','nov','dec'];
+
+function formatMiniDate(dateStr) {
+  // "2026-08-15" -> "15 aug"
+  if (!dateStr) return '';
+  const parts = dateStr.split('-');
+  if (parts.length < 3) return dateStr;
+  const m = parseInt(parts[1], 10);
+  const d = parseInt(parts[2], 10);
+  if (isNaN(m) || isNaN(d)) return dateStr;
+  return d + ' ' + (SV_MONTH_SHORT[m - 1] || '');
+}
+
+let _minilistScrollTimer = null;
+let _minilistSyncedId = null;
+
+function updateMapMinilist() {
+  if (window.innerWidth > 768) return; // mobile only
+  const list = document.getElementById('mapMinilist');
+  if (!list || !eventMap) return;
+
+  // Filter events to those whose dot is within current map bounds
+  const bounds = eventMap.getBounds();
+  const visible = mapEventsWithCoords.filter(ev =>
+    bounds.contains([ev.lat, ev.lon])
+  );
+  // Sort by date ascending
+  visible.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+
+  if (visible.length === 0) {
+    list.innerHTML = '<span class="map-minilist-empty">Inga evenemang i detta kartomr\u00e5de</span>';
+    return;
+  }
+
+  list.innerHTML = visible.map(ev => {
+    const dateStr = formatMiniDate(ev.date);
+    const safeName = (ev.name || '').replace(/</g, '&lt;');
+    const safeLoc = (ev.location || '').replace(/</g, '&lt;');
+    return '<div class="mini-card" data-event-id="' + ev.id + '" data-lat="' + ev.lat + '" data-lon="' + ev.lon + '" onclick="onMinilistCardClick(\'' + ev.id + '\')">'
+      + '<div class="mini-card-date">' + dateStr + '</div>'
+      + '<div class="mini-card-name">' + safeName + '</div>'
+      + '<div class="mini-card-loc">' + safeLoc + '</div>'
+      + '</div>';
+  }).join('');
+
+  // Attach scroll listener (debounced) to detect centered card and sync map
+  if (!list._scrollBound) {
+    list.addEventListener('scroll', () => {
+      if (_minilistScrollTimer) clearTimeout(_minilistScrollTimer);
+      _minilistScrollTimer = setTimeout(() => onMinilistScrollEnd(list), 120);
+    }, { passive: true });
+    list._scrollBound = true;
+  }
+}
+
+function onMinilistScrollEnd(list) {
+  // Find card closest to horizontal center of list
+  const listRect = list.getBoundingClientRect();
+  const centerX = listRect.left + listRect.width / 2;
+  const cards = list.querySelectorAll('.mini-card');
+  let best = null;
+  let bestDist = Infinity;
+  cards.forEach(c => {
+    const r = c.getBoundingClientRect();
+    const cx = r.left + r.width / 2;
+    const d = Math.abs(cx - centerX);
+    if (d < bestDist) { bestDist = d; best = c; }
+  });
+  if (!best) return;
+  const id = best.dataset.eventId;
+  if (id === _minilistSyncedId) return;
+  _minilistSyncedId = id;
+
+  // Mark active card
+  cards.forEach(c => c.classList.toggle('active', c === best));
+
+  // Pan map smoothly to that event's coords (without firing moveend loop)
+  const lat = parseFloat(best.dataset.lat);
+  const lon = parseFloat(best.dataset.lon);
+  if (eventMap && !isNaN(lat) && !isNaN(lon)) {
+    if (eventMap._minilistPanTimer) clearTimeout(eventMap._minilistPanTimer);
+    eventMap._minilistPanning = true;
+    eventMap.panTo([lat, lon], { animate: true, duration: 0.4 });
+    eventMap._minilistPanTimer = setTimeout(() => {
+      eventMap._minilistPanning = false;
+    }, 500);
+  }
+}
+
+function onMinilistCardClick(eventId) {
+  // Tap = jump to event in main grid
+  scrollToCard(eventId);
 }
 
 // ========== PLACES (teal dots from places.js) ==========
@@ -5264,7 +6536,15 @@ document.addEventListener('DOMContentLoaded', () => {
   updatePageMetaForRegion(urlRegion);
   buildRegionsFooter(null);
 
-  // Browser back/forward should update region filter and meta
+  // ===== Vehicle URL routing (/moped). Only applies when there is no region in the URL. =====
+  const urlVehicle = getVehicleFromURL();
+  if (urlVehicle === 'moped' && !urlRegion) {
+    currentVehicle = 'moped';
+    setVehicleButtons('moped');
+    applyMopedMeta();
+  }
+
+  // Browser back/forward should update region + vehicle filter and meta
   window.addEventListener('popstate', () => {
     const r = getRegionFromURL();
     currentRegion = r || 'all';
@@ -5274,11 +6554,35 @@ document.addEventListener('DOMContentLoaded', () => {
     if (rSel) rSel.value = currentRegion;
     if (rSelM) rSelM.value = currentRegion;
     if (mRSel) mRSel.value = currentRegion;
-    updatePageMetaForRegion(r);
+    const v = getVehicleFromURL();
+    currentVehicle = (v === 'moped' && !r) ? 'moped' : 'all';
+    setVehicleButtons(currentVehicle);
+    if (currentVehicle === 'moped') applyMopedMeta();
+    else updatePageMetaForRegion(r);
     render();
   });
 
   render();
+
+  // ONE delegated tap handler for all cards (mobile opens detail modal).
+  // Replaces per-card listeners: flat memory use no matter how many cards render.
+  (function initCardTapDelegation() {
+    const gridEl = document.getElementById('grid');
+    if (!gridEl) return;
+    gridEl.addEventListener('click', function(e) {
+      if (!window.matchMedia('(max-width: 768px)').matches) return;
+      if (e.target.closest('.fav-btn, .cal-dropdown-wrapper, a, button')) return;
+      const card = e.target.closest('.card');
+      if (card && card.id && _eventMap.has(card.id)) cardExpand(card.id);
+    });
+  })();
+
+  // Keyboard accessibility: hander-chips and mobile pills activate on Enter/Space
+  document.querySelectorAll('.hander-chip, .m-pill').forEach(el => {
+    el.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); }
+    });
+  });
 
   // Defer hero stats and fab to after first paint (not visible immediately on scroll)
   requestAnimationFrame(() => {
@@ -5293,12 +6597,14 @@ document.addEventListener('DOMContentLoaded', () => {
       typeof requestIdleCallback === 'function' ? requestIdleCallback(() => injectEventSchema()) : setTimeout(injectEventSchema, 0);
       // Load weather data from SMHI, then re-render cards with weather strips
       loadAllWeather().then(() => { render(); });
+      // Load like counts (non-blocking; feature hidden if Worker not reachable)
+      loadLikeCounts();
     }, 0);
   });
 
   // Helper: check if any filter is active and update Alla button
   function updateAllaBtn() {
-    const anyActive = currentFilter !== 'all' || currentClub !== 'all' || currentRegion !== 'all' || currentMonth !== 'all';
+    const anyActive = currentFilter !== 'all' || currentVehicle !== 'all' || currentClub !== 'all' || currentRegion !== 'all' || currentMonth !== 'all';
     document.querySelectorAll('.type-btn[data-type="all"]').forEach(btn => {
       btn.classList.toggle('active', !anyActive);
     });
@@ -5307,6 +6613,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Helper: reset all filters (including search)
   function resetAllFilters() {
     currentFilter = 'all';
+    currentVehicle = 'all';
     currentClub = 'all';
     currentRegion = 'all';
     currentMonth = 'all';
@@ -5321,6 +6628,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (tf) tf.value = 'all';
     const tfm = document.getElementById('typeFilterMobile');
     if (tfm) tfm.value = 'all';
+    setVehicleButtons('all');
     const rfm = document.getElementById('regionFilterMobile');
     if (rfm) rfm.value = 'all';
     const mfm = document.getElementById('monthFilterMobile');
@@ -5355,6 +6663,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Logo click = full reset + scroll to top (mobile topbar + desktop hero).
+  // Acts as a "home" button. Slava 2026-05-22.
+  function logoResetHome() {
+    resetAllFilters();
+    updateAllaBtn();
+    render();
+  }
+  const mobileLogoArea = document.querySelector('.m-topbar-left');
+  if (mobileLogoArea) {
+    mobileLogoArea.style.cursor = 'pointer';
+    mobileLogoArea.setAttribute('role', 'button');
+    mobileLogoArea.setAttribute('aria-label', 'Tillbaka till startsidan, rensa alla filter');
+    mobileLogoArea.addEventListener('click', logoResetHome);
+  }
+  const desktopLogo = document.querySelector('.hero-logo');
+  if (desktopLogo) {
+    desktopLogo.style.cursor = 'pointer';
+    desktopLogo.setAttribute('role', 'button');
+    desktopLogo.setAttribute('aria-label', 'Tillbaka till startsidan, rensa alla filter');
+    desktopLogo.addEventListener('click', logoResetHome);
+  }
+
   // Type filter dropdown (desktop)
   const typeDesktop = document.getElementById('typeFilter');
   if (typeDesktop) {
@@ -5364,6 +6694,24 @@ document.addEventListener('DOMContentLoaded', () => {
       if (tfm) tfm.value = e.target.value;
       updateAllaBtn();
       render();
+    });
+  }
+
+  // Vehicle toggle (desktop): Alla / MC / Moped. Separate axis from event type.
+  const vehToggle = document.getElementById('vehicleToggle');
+  if (vehToggle) {
+    vehToggle.querySelectorAll('.veh-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentVehicle = btn.dataset.veh;
+        setVehicleButtons(currentVehicle);
+        // URL + meta only when no region is active (a region path always wins).
+        if (currentRegion === 'all') {
+          if (currentVehicle === 'moped') { updateURLForVehicle('moped'); applyMopedMeta(); }
+          else { updateURLForVehicle(null); updatePageMetaForRegion(null); }
+        }
+        updateAllaBtn();
+        render();
+      });
     });
   }
 
@@ -5453,6 +6801,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('pastToggle').classList.add('active');
         const mob = document.getElementById('pastToggleMobile');
         if (mob) mob.classList.add('active');
+        if (!archiveLoaded) ensureArchive(() => render());
       }
     }
     updateAllaBtn();
@@ -5465,6 +6814,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('pastToggle').classList.toggle('active', active);
     const mob = document.getElementById('pastToggleMobile');
     if (mob) mob.classList.toggle('active', active);
+    if (active && !archiveLoaded) ensureArchive(() => render());
     render();
   }
   document.getElementById('pastToggle').addEventListener('click', function() {
@@ -5584,6 +6934,10 @@ function updateDrawer() {
   }
   if (calWrapper) calWrapper.classList.remove('disabled');
   const allEvents = EVENTS_DATA.events;
+  // Some saved favorites may be past events that live in the archive file.
+  if (!archiveLoaded && favorites.some(id => !allEvents.find(e => e.id === id))) {
+    ensureArchive(() => updateDrawer());
+  }
   const favEvents = favorites.map(id => allEvents.find(e => e.id === id)).filter(Boolean)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
   const icsText = document.getElementById('icsDownloadText');
@@ -5635,6 +6989,15 @@ function updateDrawer() {
       <button class="drawer-item-remove" onclick="toggleFavorite('${e.id}')" title="Ta bort">&times;</button>
     </div>`;
   }).join('');
+}
+
+// ========== PWA SERVICE WORKER (2026-06-12) ==========
+// Registers sw.js: cache-first for images, network-first for HTML/JS/data.
+// Makes druk.se installable (Lägg till på hemskärmen) with offline fallback.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').catch(function() {});
+  });
 }
 </script>
 <script data-goatcounter="https://mckalendern.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
