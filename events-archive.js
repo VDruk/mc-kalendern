@@ -12691,6 +12691,7 @@ const EVENTS_ARCHIVE = {
     {
       "id": "grasmarks-mopedrally-2026-05-09",
       "name": "Mopedrally Gräsmark",
+      "_vehicle": "moped",
       "date": "2026-05-09",
       "time": "10:00",
       "type": "Körning",
@@ -14667,6 +14668,7 @@ const EVENTS_ARCHIVE = {
     {
       "id": "massingsbruks-mopedrunda-2026-05-14",
       "name": "Mässingsbruks mopedrunda",
+      "_vehicle": "moped",
       "date": "2026-05-14",
       "dateEnd": "2026-05-14",
       "location": "Skultuna, Västerås",
@@ -15746,6 +15748,7 @@ const EVENTS_ARCHIVE = {
     {
       "id": "mopedrally-osterbybruk-2026-05-16",
       "name": "Mopedrally och bilträff",
+      "_vehicle": "moped",
       "date": "2026-05-16",
       "dateEnd": "2026-05-16",
       "type": "Körning",
@@ -16447,6 +16450,7 @@ const EVENTS_ARCHIVE = {
     {
       "id": "mopedrally-nasby-2026-05-17",
       "name": "Moped & MC Rally i Näsby",
+      "_vehicle": "both",
       "date": "2026-05-17",
       "dateEnd": "2026-05-17",
       "location": "Sockenstugan, Näsby, 574 94 Vetlanda",
@@ -21019,6 +21023,7 @@ const EVENTS_ARCHIVE = {
     {
       "id": "mopedens-dag-hasselfors-2026-05-30",
       "name": "Mopedens dag",
+      "_vehicle": "moped",
       "date": "2026-05-30",
       "dateEnd": "2026-05-30",
       "type": "Körning",
@@ -23482,6 +23487,7 @@ const EVENTS_ARCHIVE = {
     {
       "id": "frambo-mopperally-2026-06-06",
       "name": "Frambo Mopperally",
+      "_vehicle": "moped",
       "date": "2026-06-06",
       "dateEnd": "2026-06-06",
       "time": "10:00",

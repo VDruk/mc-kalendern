@@ -6456,6 +6456,7 @@ const EVENTS_DATA = {
     {
       "id": "osterstad-if-mopedrally-2026-06-27",
       "name": "Mopedrally Hjärt-Rundan",
+      "_vehicle": "moped",
       "date": "2026-06-27",
       "dateEnd": "2026-06-27",
       "time": "13:00",
@@ -6487,6 +6488,7 @@ const EVENTS_DATA = {
     {
       "id": "mopedrally-nyhammar-2026-06-27",
       "name": "Mopedrally Nyhammar",
+      "_vehicle": "moped",
       "date": "2026-06-27",
       "dateEnd": "2026-06-27",
       "type": "Körning",
@@ -10965,6 +10967,7 @@ const EVENTS_DATA = {
     {
       "id": "finnskogsrundan-ostmark-2026-07-18",
       "name": "Finnskogsrundan Moped- och MC-runda",
+      "_vehicle": "both",
       "date": "2026-07-18",
       "dateEnd": "2026-07-18",
       "location": "Östmarksparken, Röjdåforsvägen 25, Östmark",
@@ -13517,6 +13520,7 @@ const EVENTS_DATA = {
     {
       "id": "mopedrally-bikerally-gunnarskog-2026-08-01",
       "name": "Mopedrally - BIK(E)rally",
+      "_vehicle": "moped",
       "date": "2026-08-01",
       "dateEnd": "2026-08-01",
       "type": "Körning",
@@ -16647,6 +16651,7 @@ const EVENTS_DATA = {
     {
       "id": "oldmopperz-rally-2026-08-15",
       "name": "OldMopperz veteran rally",
+      "_vehicle": "moped",
       "date": "2026-08-15",
       "dateEnd": "2026-08-15",
       "location": "Idrottsgatan 8, Järnforsen",
