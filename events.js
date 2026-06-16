@@ -3793,6 +3793,27 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "ghc-torsdagsrundan-2026-06-18",
+      "name": "Torsdagsrundan",
+      "date": "2026-06-18",
+      "dateEnd": "2026-06-18",
+      "time": "17:30",
+      "location": "ST1 Hisings Kärra, Göteborg",
+      "type": "Körning",
+      "organizer": "Gentleman's Harley Club",
+      "_vehicle": "mc",
+      "description": "Torsdagsrundan med A Gentleman's Harley Club, torsdag 18 juni 2026. Samling på klubben 17.30, avresa 18, mellanstopp ST1 Hisings Kärra ca 18.30. Kvällstur mot Orust med grillad korv och gemenskap.",
+      "descriptionFull": "Full tank och fria själars terapikväll - torsdag 18 juni.\n\nOm vädergudarna håller fingrarna borta från regnkranen styr vi hojarna mot Orust och grabbarnas lokal. Där väntar grillad korv, gott snack och den sortens terapi som bara fungerar med V-twin, läderväst och likasinnade.\n\nSamling på klubben 17.30. Avresa 18.00. Mellanstopp ST1 Hisings Kärra ca 18.30 för er som vill haka på där.\n\nKom med full tank, gott humör och gärna några dåliga historier som blir bättre för varje mil.\n\nIngen stress, ingen prestige - bara vägen, hojarna och folket.\n\nArrangör: A Gentleman's Harley Club (GHC).\n\nPlats: samling på klubben, mellanstopp ST1 Hisings Kärra, Göteborg.",
+      "backImage": "ads/torsdagsrundan-ghc-back-2026-06-18.jpg",
+      "links": [
+        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=122184583538794305&set=a.122119569284794305"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=ST1+Hisings+K%C3%A4rra+G%C3%B6teborg", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/photo/?fbid=122184583538794305&set=a.122119569284794305",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-06-18",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-06-18",
@@ -4502,6 +4523,27 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "sulas-mc-indian-week-2026-06-21",
+      "name": "Indian Week hos Sulas MC",
+      "date": "2026-06-21",
+      "dateEnd": "2026-06-26",
+      "time": "09:30",
+      "location": "Sulas MC, Säva 17, Uppsala",
+      "type": "Träff",
+      "organizer": "Sulas MC",
+      "_vehicle": "mc",
+      "description": "Indian Week hos Sulas MC i Uppsala 21-26 juni 2026. För dig som är nyfiken på Indian och vill provköra. Flera modeller på plats hela veckan.",
+      "descriptionFull": "Nästa vecka bjuder vi in till Indian Week hos oss i Uppsala!\n\nDet här är veckan för dig som är nyfiken på Indian och vill känna vad det handlar om på riktigt. Flera modeller finns på plats för provkörning.\n\nVälkommen in!\n\nArrangör: Sulas MC.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
+      "backImage": "ads/indian-week-sulas-back-2026-06-21.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1314409903596562"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4va+17+Uppsala", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1314409903596562",
+      "region": "Uppsala",
+      "source": "facebook.com"
     },
     {
       "id": "doa-emilsturen-2026-06-21",
@@ -5661,6 +5703,27 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "lekvattnet-kojkland-blue-smoke-2026-06-27",
+      "name": "Kojkland Blue Smoke Summer Meet",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "time": "10:00",
+      "location": "Kyrkåsvägen 3, Lekvattnet",
+      "type": "Körning",
+      "organizer": "Lekvattnets snöskoterklubb",
+      "_vehicle": "both",
+      "description": "Mopedrally i Lekvattnet (Värmland) lördag 27 juni 2026. Samling kl 10 vid församlingshemmet på kyrkplanen. Både MC och moped välkomna. Startavgift 180 kr inkl hamburgare. Föranmälan ger statyett.",
+      "descriptionFull": "Välkommen på årets mopedrally i Lekvattnet lördagen den 27 juni!\n\nSamling kl 10.00 vid församlingshemmet i Lekvattnet på kyrkplanen, skyltar finns från E16.\n\nStartavgift 180 kr, där hamburgare och dricka ingår plus fika efter vägen. Skamkärra finns.\n\nFöranmäler du dig får du en unik statyett (föranmälan går ut 22 juni). Det går även bra att anmäla på plats, men då ingen statyett. Anmälan via swish 123 351 1938 eller BG 229-4338 till Lekvattnets Snöskoterklubb.\n\nBåde MC och mopeder är välkomna att delta! Vi lottar även ut en fin kniv tillverkad av Hassladalens hantverk & smide.\n\nFrågor: ring Torbjörn 070 299 90 67.\n\nArrangör: Lekvattnets snöskoterklubb.\n\nPlats: församlingshemmet, Kyrkåsvägen 3, Lekvattnet.",
+      "backImage": "ads/kojkland-blue-smoke-lekvattnet-back-2026-06-27.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1598885475304337"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Kyrk%C3%A5sv%C3%A4gen+3+Lekvattnet", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1598885475304337",
+      "region": "Värmland",
+      "source": "facebook.com"
+    },
+    {
       "id": "karsta-tt-goes-midnattsruset-2026-06-27",
       "name": "Kårsta TT goes Midnattsruset",
       "date": "2026-06-27",
@@ -6694,6 +6757,27 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/smc-default-back.jpg"
+    },
+    {
+      "id": "sulas-mc-bsa-vecka-2026-06-28",
+      "name": "BSA-vecka hos Sulas MC",
+      "date": "2026-06-28",
+      "dateEnd": "2026-07-04",
+      "time": "11:00",
+      "location": "Sulas MC, Säva 17, Uppsala",
+      "type": "Träff",
+      "organizer": "Sulas MC",
+      "_vehicle": "mc",
+      "description": "BSA-vecka hos Sulas MC i Uppsala 28 juni-4 juli 2026. För dig som är nyfiken på BSA och vill provköra. Flera hojar på plats i olika modeller hela veckan.",
+      "descriptionFull": "Nästa vecka kör vi BSA-vecka hos oss i Uppsala.\n\nDet här är veckan för dig som är nyfiken på BSA och vill känna hur den faktiskt är att köra. Vi har flera hojar på plats för provkörning.\n\nVälkommen in!\n\nArrangör: Sulas MC.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
+      "backImage": "ads/bsa-vecka-sulas-back-2026-06-28.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/968302609361574"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4va+17+Uppsala", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/968302609361574",
+      "region": "Uppsala",
+      "source": "facebook.com"
     },
     {
       "id": "smc-vastmanland-knix-pepparrotsbanan-2026-06-28",
@@ -12647,6 +12731,27 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "classic-car-week-mopedrally-knektplatsen-2026-07-27",
+      "name": "Mopedrally på Knektplatsen",
+      "date": "2026-07-27",
+      "dateEnd": "2026-07-27",
+      "time": "10:00",
+      "location": "Knektplatsen, Rättvik",
+      "type": "Körning",
+      "organizer": "Classic Car Week",
+      "_vehicle": "moped",
+      "description": "Mopedrally under Classic Car Week i Rättvik (Dalarna) måndag 27 juli 2026. Samling och start på Knektplatsen, anmälan från 8.30. Det traditionella mopperallyt med start i samlad tropp.",
+      "descriptionFull": "Samling och start på Knektplatsen.\n\nDet traditionella mopperallyt med start i samlad tropp.\n\nAnmälan från 8.30.\n\nArrangör: Classic Car Week.\n\nPlats: Knektplatsen, Rättvik.",
+      "backImage": "ads/mopedrally-knektplatsen-back-2026-07-27.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/4401480656797271"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Knektplatsen+R%C3%A4ttvik", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/4401480656797271",
+      "region": "Dalarna",
+      "source": "facebook.com"
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-07-27",
       "name": "Classic Motor Monday",
       "date": "2026-07-27",
@@ -18192,6 +18297,28 @@ const EVENTS_DATA = {
       "backImage": "ads/vrs-tunnelrundan-back-2026-08-22.jpg"
     },
     {
+      "id": "semnebyn-mopedrally-glavasvangen-2026-08-23",
+      "name": "Mopedrally Glavasvängen",
+      "date": "2026-08-23",
+      "dateEnd": "2026-08-23",
+      "time": "11:00",
+      "location": "Semnebyns Bygdegård, Semnebyn, Glava",
+      "type": "Körning",
+      "organizer": "Semnebyns Bygdegård",
+      "_vehicle": "moped",
+      "description": "Mopedrally Glavasvängen vid Semnebyns Bygdegård i Glava (Värmland) söndag 23 augusti 2026. Start kl 11, banlängd ca 5-6 mil. Servering finns. Startavgift 100 kr, prisutdelning ca kl 15.",
+      "descriptionFull": "Vid Semnebyns Bygdegård i Glava kör vi mopedrally söndag 23 augusti 2026, start kl 11.\n\nStartavgift 100 kr. Banlängd ca 5-6 mil. Servering finns. Prisutdelning ca kl 15.\n\nVälkomna!\n\nArrangör: Semnebyns Bygdegård.\n\nPlats: Semnebyns Bygdegård, Semnebyn, Glava.",
+      "backImage": "ads/mopedrally-glavasvangen-back-2026-08-23.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/983237614569235"},
+        {"label": "semnebyn.se", "url": "https://semnebyn.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Semnebyns+bygdeg%C3%A5rd+Glava", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/983237614569235",
+      "region": "Värmland",
+      "source": "facebook.com"
+    },
+    {
       "id": "sun-engine-days-2026-08-23",
       "name": "Sun Engine Day's",
       "date": "2026-08-23",
@@ -20287,6 +20414,28 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "mc-veteranerna-degeberga-veteranmarknad-2026-09-05",
+      "name": "Degeberga Veteranmarknad",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "09:00",
+      "location": "Degeberga",
+      "type": "Show",
+      "organizer": "MC-Veteranerna Kristianstad",
+      "_vehicle": "both",
+      "description": "Degeberga Veteranmarknad med MC-Veteranerna Kristianstad (Skåne) lördag 5 september 2026. Marknad för veteran-MC och moped med delar och prylar. Förmarknad fredag kväll. Säljplats 500 kr.",
+      "descriptionFull": "MC-Veteranerna Kristianstad hälsar välkomna till Degeberga Veteranmarknad 5/9.\n\nFörsta lördagen i september, med förmarknad på fredag kväll.\n\nInsläpp säljare fredag 4/9 kl 13.00-20.00.\nInsläpp säljare lördag 5/9 kl 06.00-09.00.\n\nSäljplats 500 kr.\n\nFör info: klubbtelefon 0766-329205 eller info@mcvksd.se.\n\nPlats: Degeberga, Kristianstad.",
+      "backImage": "ads/degeberga-veteranmarknad-back-2026-09-05.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1658246531875638"},
+        {"label": "mcvksd.se", "url": "https://www.mcvksd.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Degeberga+Kristianstad", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1658246531875638",
+      "region": "Skåne",
+      "source": "facebook.com"
     },
     {
       "id": "ljungby-fhk-mopperally-lagan-2026-09-05",
