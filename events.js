@@ -13472,6 +13472,28 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "oldmopedos-mopedrally-saxdalen-2026-08-01",
+      "name": "Mopedrally Saxdalen",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "time": "10:00",
+      "location": "Furuliden, Saxdalen",
+      "type": "Körning",
+      "organizer": "Oldmopedos",
+      "_vehicle": "moped",
+      "description": "Räfvålarally - mopedrally på Furuliden i Saxdalen (Dalarna) lördag 1 augusti 2026. Anmälan kl 10 inkl tipspromenad, start kl 11. Startavgift 150 kr inkl hamburgare och dryck. Arrangör Oldmopedos.",
+      "descriptionFull": "Årets Räfvålarally går av stapeln den 1/8 på Furuliden i Saxdalen.\n\nAnmälan kl 10:00 inklusive tipspromenad. Start kl 11:00. Startavgift 150 kr inklusive hamburgare och dryck.\n\nArrangör: Oldmopedos (Räfvåla med omnejd).\n\nPlats: Furuliden, Saxdalen.",
+      "backImage": "ads/mopedrally-saxdalen-back-2026-08-01.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1485092280029610"},
+        {"label": "oldmopedos.se", "url": "https://www.oldmopedos.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Furuliden+Saxdalen", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1485092280029610",
+      "region": "Dalarna",
+      "source": "facebook.com"
+    },
+    {
       "id": "tiveden-2stroke-festival-laxa-2026-08-01",
       "name": "Tiveden 2-stroke Festival",
       "date": "2026-08-01",
