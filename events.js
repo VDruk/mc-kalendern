@@ -5661,6 +5661,27 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "karsta-tt-goes-midnattsruset-2026-06-27",
+      "name": "Kårsta TT goes Midnattsruset",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "time": "17:00",
+      "location": "Bryggvägen 4, Viggbyholm, Österskär",
+      "type": "Körning",
+      "organizer": "Kårsta TT",
+      "_vehicle": "moped",
+      "description": "Samåkning till Midnattsruset med Kårsta TT, lördag 27 juni 2026. Samling på Bryggvägen 4 i Viggbyholm kl 17, avgång 17.30. Gemensam mopedtur in till Stockholm med middag innan Midnattsruset.",
+      "descriptionFull": "Samåkning till Midnattsruset.\n\nVi samlas på Bryggvägen 4 i Viggbyholm och åker gemensamt in till Stockholm där vi käkar middag innan vi sedan åker till Midnattsruset.\n\nSamling 17.00, avgång 17.30.\n\nArrangör: Kårsta TT.\n\nPlats: Bryggvägen 4, Viggbyholm, Österskär.",
+      "backImage": "ads/karsta-tt-goes-midnattsruset-back-2026-06-27.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/2051335592260170"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Bryggv%C3%A4gen+4+%C3%96stersk%C3%A4r", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/2051335592260170",
+      "region": "Stockholm",
+      "source": "facebook.com"
+    },
+    {
       "id": "tartan-mopedoz-midnattsruset-2026-06-27",
       "name": "Midnattsruset",
       "date": "2026-06-27",
@@ -7902,6 +7923,26 @@ const EVENTS_DATA = {
       "source": "FB"
     },
     {
+      "id": "hammarosvangen-2026-07-04",
+      "name": "Hammarösvängen",
+      "date": "2026-07-04",
+      "dateEnd": "2026-07-05",
+      "location": "Hammarö",
+      "type": "Körning",
+      "organizer": "Hammarösvängen",
+      "_vehicle": "both",
+      "description": "Mopedrally Hammarösvängen i Hammarö/Karlstad (Värmland) 4-5 juli 2026. Två rallyn på två dagar för moped och mc. Lördag fordon äldre än 1997, söndag äldre än 1967. 250 kr för båda dagarna.",
+      "descriptionFull": "Två dagar i rad!\n\nMoped/mc äldre än 1997 på lördagen. Moped/mc äldre än 1967 på söndagen.\n\nTvå rallyn till kostnaden av ett, 250 kr för två dagar.\n\nVarmt välkommen 4 & 5 juli!\n\nPlats: Hammarö, Karlstad.",
+      "backImage": "ads/hammarosvangen-back-2026-07-04.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1431894875111035"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Hammar%C3%B6+Karlstad", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1431894875111035",
+      "region": "Värmland",
+      "source": "facebook.com"
+    },
+    {
       "id": "asecs-mc-traff-jonkoping-2026",
       "name": "ASECS MC Träff No.1",
       "date": "2026-07-04",
@@ -9805,6 +9846,7 @@ const EVENTS_DATA = {
       "region": "Västra Götaland",
       "location": "Dals-Ed",
       "organizer": "Peter Ottosson",
+      "_vehicle": "moped",
       "source": "facebook.com",
       "link": "https://www.facebook.com/events/3284940835047778",
       "description": "10-års jubileum\\! Mopedrace i Dals-Ed med fredagskväll-sväng via Bengtsfors. Mer info kommer.",
@@ -10083,6 +10125,27 @@ const EVENTS_DATA = {
       "region": "Örebro",
       "source": "sub5.se",
       "backImage": "ads/sub5-gellerasen-back-2026-07-13.jpg"
+    },
+    {
+      "id": "halleskogsbrannan-gravlingsberget-2026-07-14",
+      "name": "Hälleskogsbrännan",
+      "date": "2026-07-14",
+      "dateEnd": "2026-07-14",
+      "time": "12:00",
+      "location": "Grävlingsberget, Hälleskogsbrännan, Västerfärnebo",
+      "type": "Körning",
+      "organizer": "Anders Lavett",
+      "_vehicle": "moped",
+      "description": "Mopedträff vid Grävlingsberget i Hälleskogsbrännan, Västerfärnebo (Västmanland) tisdag 14 juli 2026 kl 12. Vi åker moped, möts upp och fikar med eget medtaget. En orsak att åka moped!",
+      "descriptionFull": "Vi åker moped och möts upp kl 12 vid Grävlingsberget, Hälleskogsbrännan, och avnjuter eget medtaget fika och snackar strunt.\n\nVi har med andra ord en orsak att åka moped, vilket är allt som behövs.\n\nPlats: Grävlingsberget, Hälleskogsbrännan, Västerfärnebo.",
+      "backImage": "ads/halleskogsbrannan-back-2026-07-14.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/2545490495795700"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%A4vlingsberget+H%C3%A4lleskogsbr%C3%A4nnan", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/2545490495795700",
+      "region": "Västmanland",
+      "source": "facebook.com"
     },
     {
       "id": "doa-tisdagslunch-2026-07-14",
@@ -13304,6 +13367,27 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "tiveden-2stroke-festival-laxa-2026-08-01",
+      "name": "Tiveden 2-stroke Festival",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-02",
+      "time": "08:00",
+      "location": "Laxå flygfält, Motorvägen 1, Laxå",
+      "type": "Racing",
+      "organizer": "Tiveden 2-stroke",
+      "_vehicle": "moped",
+      "description": "Tiveden 2-stroke Festival med mopeddragracing på Laxå flygfält (Örebro) 1-2 augusti 2026. Dyno/bromsbänk MJP 1100 på plats, foodtruck på lördagen. En helg för tvåtaktare och mopeddragracing.",
+      "descriptionFull": "En tvådagars festival för dig som gillar tvåtaktare och mopeddragracing.\n\n- Mopeddragracing\n- Bromsbänk: MJP dyno 1100 finns på plats\n- Meals on Wheels Örebro kommer med sin foodtruck på lördagen\n\nPlats: Laxå flygfält, Motorvägen 1, Laxå.",
+      "backImage": "ads/tiveden-2stroke-festival-back-2026-08-01.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/853706497645741"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Lax%C3%A5+Motorstadion", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/853706497645741",
+      "region": "Örebro",
+      "source": "facebook.com"
+    },
+    {
       "id": "rocknroll-rally-veteranmopeder-mc-hultsfred-2026-08-01",
       "name": "Rock'n Roll Rally för veteranmopeder & MC",
       "date": "2026-08-01",
@@ -14593,6 +14677,27 @@ const EVENTS_DATA = {
         }
       ],
       "region": "Södermanland",
+      "source": "facebook.com"
+    },
+    {
+      "id": "hme-mopperally-oskarstrom-2026-08-08",
+      "name": "HME mopperally",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "time": "09:30",
+      "location": "Hallands Veteranbilsreparationer, Sennanvägen 62, Oskarström",
+      "type": "Körning",
+      "organizer": "HME",
+      "_vehicle": "moped",
+      "description": "HME:s årliga mopedrally i Oskarström (Halland) lördag 8 augusti 2026. Start och mål hos Hallands Veteranbilsreparationer. Start 09.30, hamburgare och fika ingår. Startavgift 150 kr.",
+      "descriptionFull": "Lördag 8 augusti är det dags för HME:s (Hallands Motor Entusiaster) årliga mopedrally.\n\nStart och mål hos Hallands Veteranbilsreparationer i Oskarström (Sennanvägen 62).\n\nStartavgift 150 kr swishas till 1232564086 senast 31/7. Märk med för- och efternamn samt mopedrally. Efteranmälan 200 kr.\n\nStarten går 09.30. Hamburgare, dricka, kaffe och kaka ingår i startavgiften och serveras vid målgång. Ett skamsläp finns tillgängligt. Priser för finaste moped delas ut.\n\nMer info om rundan kommer.\n\nPlats: Hallands Veteranbilsreparationer, Sennanvägen 62, Oskarström.",
+      "backImage": "ads/hme-mopperally-oskarstrom-back-2026-08-08.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1105716285031594"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Sennanv%C3%A4gen+62+Oskarstr%C3%B6m", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1105716285031594",
+      "region": "Halland",
       "source": "facebook.com"
     },
     {
@@ -16749,6 +16854,27 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "moppekul-yllerallyt-gallstad-2026-08-16",
+      "name": "Yllerallyt",
+      "date": "2026-08-16",
+      "dateEnd": "2026-08-16",
+      "time": "10:30",
+      "location": "Gällstad Torg, Boråsvägen 40, Gällstad",
+      "type": "Körning",
+      "organizer": "Moppekul i Gällstad",
+      "_vehicle": "moped",
+      "description": "Yllerallyt, ett mopedrally i Gällstadsbygden (Västra Götaland) söndag 16 augusti 2026. Samling på Gällstad Torg från kl 08.30, start 10.30. Ca 5,5 mil för veteranmoppar och lättviktare upp till 150 cc. 150 kr.",
+      "descriptionFull": "Rally för veteranmoppar och lättviktare upp till 150 cc.\n\nSamling på Gällstad Torg från kl 08.30. Tävlande bjuds på kaffe före start. Start 10.30 och mål 14.00 på torget.\n\nRallyt är på ca 5,5 mil på grusvägar och belagda vägar. Prisutdelning direkt på plats ca 14.15.\n\nFikabiljett ingår i startavgiften (150 kr).\n\nVälkomna!\n\nArrangör: Moppekul i Gällstad.\n\nPlats: Gällstad Torg, Gällstad.",
+      "backImage": "ads/yllerallyt-gallstad-back-2026-08-16.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1663363978144393"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=G%C3%A4llstad+Torg+Bor%C3%A5sv%C3%A4gen+40", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1663363978144393",
+      "region": "Västra Götaland",
+      "source": "facebook.com"
     },
     {
       "id": "804-racing-lunda-2026",
@@ -18913,6 +19039,48 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "alvseredsrallyt-2026-08-29",
+      "name": "Älvseredsrallyt",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "10:00",
+      "location": "Älvsereds Center, Älvsered",
+      "type": "Körning",
+      "organizer": "Älvseredsrallyt",
+      "_vehicle": "moped",
+      "description": "Älvseredsrallyt, ett klassiskt mopedrally på asfalt- och grusvägar i Älvsered (Halland) lördag 29 augusti 2026. Start vid Älvsereds Centrum kl 10.",
+      "descriptionFull": "Välkomna till Älvseredsrallyt 2026!\n\nEtt klassiskt mopedrally på både asfalt- och grusvägar i vacker halländsk natur.\n\nLördagen den 29 augusti 2026. Start och mål vid Älvsereds Centrum.\n\nPlats: Älvsereds Center, Älvsered.",
+      "backImage": "ads/alvseredsrallyt-back-2026-08-29.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1590095628845077"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=%C3%84lvsereds+Center+%C3%84lvsered", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1590095628845077",
+      "region": "Halland",
+      "source": "facebook.com"
+    },
+    {
+      "id": "asen-upp-och-ner-tollarp-2026-08-29",
+      "name": "Åsen Upp & Ner",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "10:00",
+      "location": "Vinterlust, Långtradargatan 2, Tollarp",
+      "type": "Körning",
+      "organizer": "Åsen Upp & Ner",
+      "_vehicle": "both",
+      "description": "Veteranmoped- och mc-rally Åsen Upp & Ner i Tollarp (Skåne) lördag 29 augusti 2026. Start och mål vid Vinterlust som firar 100 år. Pilad runda, kom och kör moped eller mc.",
+      "descriptionFull": "Veteranmoped/mc-rally 29 augusti 2026.\n\nStart- och målplats Vinterlust, Långtradargatan 2, Tollarp. Vinterlust firar 100 år sedan det byggdes.\n\nDet kommer att finnas en pilad runda. Välkomna med veteranmoped eller mc!\n\nPlats: Vinterlust, Långtradargatan 2, Tollarp.",
+      "backImage": "ads/asen-upp-och-ner-back-2026-08-29.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1482683750080098"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Vinterlust+L%C3%A5ngtradargatan+2+Tollarp", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1482683750080098",
+      "region": "Skåne",
+      "source": "facebook.com"
     },
     {
       "id": "smc-ung-hangout-eskilstuna-2026-08-29",
