@@ -20484,6 +20484,27 @@ const EVENTS_DATA = {
       "organizerIcon": "clubs/normalized/mcv-osterlen.png"
     },
     {
+      "id": "brunnback-crusaders-mopedrally-fors-2026-09-06",
+      "name": "Mopedrally i Fors",
+      "date": "2026-09-06",
+      "dateEnd": "2026-09-06",
+      "time": "10:00",
+      "location": "Fors Folkets Hus, Rundavägen 12, Fors",
+      "type": "Körning",
+      "organizer": "Brunnbäck Crusaders",
+      "_vehicle": "moped",
+      "description": "Mopedrally med Brunnbäck Crusaders i Fors utanför Avesta (Dalarna) söndag 6 september 2026. Start kl 10 från Fors Folkets Hus, banlängd ca 75 km. Startavgift 200 kr inkl kaffe och thaimat efter mål.",
+      "descriptionFull": "Brunnbäck Crusaders arrangerar mopedrally.\n\nSöndag 6 september vid Fors Folkets Hus, Rundavägen 12, Fors - 15 km från Avesta mot Gävle.\n\nStart kl 10:00. Startavgift 200 kr inkl kaffe före start och thaimat efter mål. Banlängd ca 75 km.\n\nMaten serveras från kl 12 (matleverantör Lilla Asien Avesta).\n\nMer info: Håkan 070-676 43 43, Peter 070-242 76 62.\n\nArrangör: Brunnbäck Crusaders.\n\nPlats: Fors Folkets Hus, Rundavägen 12, Fors.",
+      "backImage": "ads/brunnback-mopedrally-fors-back-2026-09-06.jpg",
+      "links": [
+        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=10163144625561317&set=gm.3067886170077414&idorvanity=486244568241600"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Fors+Folkets+Hus+Rundav%C3%A4gen+12+Fors+Avesta", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/photo/?fbid=10163144625561317&set=gm.3067886170077414&idorvanity=486244568241600",
+      "region": "Dalarna",
+      "source": "facebook.com"
+    },
+    {
       "id": "mchk-södermanland-fikatur-sultans-2026-09-06",
       "name": "Fikatur till Sultans konditori",
       "date": "2026-09-06",
