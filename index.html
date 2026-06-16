@@ -1826,9 +1826,13 @@
     display: none;
     padding: 0 10px 10px;
     gap: 6px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto;
+    align-items: stretch;
     background: var(--bg-primary);
   }
+  /* Mobile MC/Moped toggle: compact 3rd item in the dropdown row (no extra height) */
+  .m-vehicle-toggle { border-radius: 10px; }
+  .m-vehicle-toggle .veh-btn { padding: 0 11px; font-size: 13px; }
   .m-filter-row .filter-select {
     width: 100%;
     min-width: 0;
@@ -2982,6 +2986,10 @@
   <select class="filter-select" id="mDatumFilter" aria-label="Filtrera efter datum">
     <option value="all">Alla datum</option>
   </select>
+  <div class="vehicle-toggle m-vehicle-toggle" id="mVehicleToggle" role="group" aria-label="Fordon: MC eller moped">
+    <button type="button" class="veh-btn" data-veh="mc">MC</button>
+    <button type="button" class="veh-btn" data-veh="moped">Moped</button>
+  </div>
 </div>
 
 <!-- ========== FILTERS ========== -->
@@ -3647,7 +3655,8 @@ function updateURLForVehicle(vehicle) {
   }
 }
 function setVehicleButtons(v) {
-  document.querySelectorAll('#vehicleToggle .veh-btn').forEach(b => b.classList.toggle('active', b.dataset.veh === v));
+  // Updates BOTH the desktop (#vehicleToggle) and mobile (#mVehicleToggle) controls.
+  document.querySelectorAll('.veh-btn').forEach(b => b.classList.toggle('active', b.dataset.veh === v));
 }
 function applyMopedMeta() {
   const titleEl = document.querySelector('title');
@@ -3980,6 +3989,55 @@ function getBaseFiltered() {
   }
   getBaseFiltered._key = key;
   getBaseFiltered._list = all;
+  return all;
+}
+
+// Base filter WITHOUT the time/month selection (region, type, vehicle, club, search).
+// The mobile time pills use THIS so their counts (incl. "Alla") stay independent of
+// which time pill or month is picked. Without it, selecting "Månad" scoped the whole
+// base and dropped the Alla count to the month total. Keep the filters here in sync
+// with getBaseFiltered above (everything except the month block).
+function getBaseFilteredNoTime() {
+  const key = [currentRegion, currentFilter, currentVehicle, currentClub, searchQuery,
+               EVENTS_DATA.events.length].join('|');
+  if (getBaseFilteredNoTime._key === key) return getBaseFilteredNoTime._list;
+  let all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
+  if (currentRegion !== 'all') {
+    all = all.filter(e => Array.isArray(e.region) ? e.region.includes(currentRegion) : e.region === currentRegion);
+  }
+  if (currentFilter !== 'all') {
+    all = all.filter(e => e.type === currentFilter);
+  }
+  if (currentVehicle === 'moped') {
+    all = all.filter(e => e._vehicle === 'moped' || e._vehicle === 'both');
+  } else if (currentVehicle === 'mc') {
+    all = all.filter(e => e._vehicle !== 'moped');
+  }
+  if (currentClub !== 'all') {
+    if (currentClub === '__other__') {
+      all = all.filter(e => {
+        const org = e.organizer || '';
+        return !topOrgEntries.some(([key]) =>
+          CLUB_MATCHERS[key] ? CLUB_MATCHERS[key](org) : org.includes(key)
+        );
+      });
+    } else if (CLUB_MATCHERS[currentClub]) {
+      all = all.filter(e => CLUB_MATCHERS[currentClub](e.organizer || ''));
+    } else {
+      all = all.filter(e => (e.organizer || '').includes(currentClub));
+    }
+  }
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    all = all.filter(e =>
+      (e.name || '').toLowerCase().includes(q) ||
+      (e.location || '').toLowerCase().includes(q) ||
+      (e.organizer || '').toLowerCase().includes(q) ||
+      (e.description || '').toLowerCase().includes(q)
+    );
+  }
+  getBaseFilteredNoTime._key = key;
+  getBaseFilteredNoTime._list = all;
   return all;
 }
 
@@ -4835,8 +4893,9 @@ function updateMobilePillCounts() {
   if (typeof EVENTS_DATA === 'undefined' || !Array.isArray(EVENTS_DATA.events)) return;
   // Same filters as render() so pill counts reflect the user's current view
   // (e.g. picking Dalarna in the region dropdown updates the pill counts).
-  // Shared + cached with updateHanderBar via getBaseFiltered().
-  const visible = getBaseFiltered();
+  // Time-independent base so pill counts (incl. Alla) do not get scoped by the
+  // selected month/time pill. See getBaseFilteredNoTime.
+  const visible = getBaseFilteredNoTime();
   const today = new Date().toISOString().slice(0, 10);
   const future = visible.filter(e => (e.dateEnd || e.date) >= today);
 
@@ -6696,24 +6755,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Vehicle toggle (desktop): Alla / MC / Moped. Separate axis from event type.
-  const vehToggle = document.getElementById('vehicleToggle');
-  if (vehToggle) {
-    vehToggle.querySelectorAll('.veh-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        // Re-clicking the active button deselects it (toggles back to all).
-        currentVehicle = (currentVehicle === btn.dataset.veh) ? 'all' : btn.dataset.veh;
-        setVehicleButtons(currentVehicle);
-        // URL + meta only when no region is active (a region path always wins).
-        if (currentRegion === 'all') {
-          if (currentVehicle === 'moped') { updateURLForVehicle('moped'); applyMopedMeta(); }
-          else { updateURLForVehicle(null); updatePageMetaForRegion(null); }
-        }
-        updateAllaBtn();
-        render();
-      });
+  // Vehicle toggle: MC / Moped. Separate axis from event type. One handler drives
+  // both the desktop (#vehicleToggle) and mobile (#mVehicleToggle) controls.
+  document.querySelectorAll('.veh-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Re-clicking the active button deselects it (toggles back to all).
+      currentVehicle = (currentVehicle === btn.dataset.veh) ? 'all' : btn.dataset.veh;
+      setVehicleButtons(currentVehicle);
+      // URL + meta only when no region is active (a region path always wins).
+      if (currentRegion === 'all') {
+        if (currentVehicle === 'moped') { updateURLForVehicle('moped'); applyMopedMeta(); }
+        else { updateURLForVehicle(null); updatePageMetaForRegion(null); }
+      }
+      updateAllaBtn();
+      render();
     });
-  }
+  });
 
   // Organizer filter (desktop)
   document.getElementById('organizerFilter').addEventListener('change', e => {
