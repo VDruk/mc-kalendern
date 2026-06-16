@@ -3312,6 +3312,27 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "insane-mc-halmstad-onsdagskorning-2026-06-17",
+      "name": "Onsdagskörning Insane MC",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "17:30",
+      "location": "Insane MC Halmstad, Sadelvägen 720, Halmstad",
+      "type": "Körning",
+      "organizer": "Insane MC Halmstad",
+      "_vehicle": "mc",
+      "description": "Återkommande onsdagskväll med Insane MC Halmstad (med Psycho Squad). Samling kl 17.30 på klubben på Sadelvägen 720, vid okej väder kör vi kl 18.00. Fika m.m. som vanligt.",
+      "descriptionFull": "Onsdag ses vi som vanligt i Halmstad!\n\nSamling 17.30 på klubben. Vid okej väder kör vi 18.00. Det blir fika m.m. som vanligt.\n\nArrangör: Insane MC Halmstad (med Psycho Squad).\n\nPlats: Insane MC Halmstad, Sadelvägen 720, Halmstad.",
+      "backImage": "ads/insane-mc-onsdag-back-2026-06-17.jpg",
+      "links": [
+        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1051756280520080&set=a.219724093723307"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Sadelv%C3%A4gen+720+Halmstad", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/photo/?fbid=1051756280520080&set=a.219724093723307",
+      "region": "Halland",
+      "source": "facebook.com"
+    },
+    {
       "id": "triumph-ride-the-legends-norsholm-2026-06-17",
       "name": "Ride the Legends Test Ride Tour",
       "date": "2026-06-17",
