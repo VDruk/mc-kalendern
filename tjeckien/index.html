@@ -4,8 +4,6 @@
 <base href="/">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<script>/* TEMP perf test (remove after). ?nogpu = strip the per-card and topbar GPU-layer promotion (will-change/translateZ) on mobile, to test if dozens of compositor layers are what slow the native dropdown. */
-if(location.search.indexOf('nogpu')!==-1){var _st=document.createElement('style');_st.textContent='@media(max-width:768px){.card,.card:not(.poster-card),.m-topbar{will-change:auto!important;transform:none!important;-webkit-backface-visibility:visible!important;backface-visibility:visible!important;}}';(document.head||document.documentElement).appendChild(_st);}</script>
 <!-- Google Analytics 4 (re-added 2026-06-11; was dropped during an earlier index.html rewrite) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HVJ6PFNE2W"></script>
 <script>
@@ -1836,6 +1834,37 @@ if(location.search.indexOf('nogpu')!==-1){var _st=document.createElement('style'
   /* Mobile MC/Moped toggle: compact 3rd item in the dropdown row (no extra height) */
   .m-vehicle-toggle { border-radius: 10px; }
   .m-vehicle-toggle .veh-btn { padding: 0 11px; font-size: 13px; }
+  /* Custom Region dropdown (mobile) - replaces the slow native <select> popover */
+  .m-cdrop { position: relative; min-width: 0; }
+  .m-cdrop-btn {
+    width: 100%; height: 40px;
+    display: flex; align-items: center;
+    background-color: var(--bg-secondary);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='7' viewBox='0 0 12 7'><path fill='none' stroke='%23d97706' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' d='M1 1l5 5 5-5'/></svg>");
+    background-repeat: no-repeat; background-position: right 12px center; background-size: 12px 7px;
+    border: 1px solid var(--border); border-radius: 10px;
+    padding: 8px 30px 8px 12px;
+    font-size: 13px; font-weight: 500; color: var(--text-primary);
+    cursor: pointer;
+  }
+  .m-cdrop-btn span { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .m-cdrop-menu {
+    position: absolute; top: calc(100% + 4px); left: 0;
+    min-width: 100%; width: max-content; max-width: 72vw;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border); border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    max-height: 50vh; overflow-y: auto; -webkit-overflow-scrolling: touch;
+    z-index: 1200; display: none; padding: 4px 0;
+  }
+  .m-cdrop-menu.open { display: block; }
+  .m-cdrop-item {
+    padding: 11px 16px 11px 14px;
+    font-size: 15px; color: var(--text-primary);
+    cursor: pointer; white-space: nowrap;
+  }
+  .m-cdrop-item:active { background: var(--bg-card-hover); }
+  .m-cdrop-item.selected { color: var(--accent); font-weight: 600; }
   .m-filter-row .filter-select {
     width: 100%;
     min-width: 0;
@@ -2983,7 +3012,11 @@ if(location.search.indexOf('nogpu')!==-1){var _st=document.createElement('style'
 
 <!-- ========== MOBILE FILTER ROW (Phase 1) ========== -->
 <div class="m-filter-row">
-  <select class="filter-select" id="mRegionFilter" aria-label="Filtrera efter region">
+  <div class="m-cdrop" id="mRegionDrop">
+    <button type="button" class="m-cdrop-btn" id="mRegionDropBtn" aria-haspopup="listbox" aria-expanded="false"><span id="mRegionDropLabel">Alla regioner</span></button>
+    <div class="m-cdrop-menu" id="mRegionDropMenu" role="listbox" aria-label="Region"></div>
+  </div>
+  <select id="mRegionFilter" aria-label="Filtrera efter region" style="display:none">
     <option value="all">Alla regioner</option>
   </select>
   <select class="filter-select" id="mDatumFilter" aria-label="Filtrera efter datum">
@@ -4220,7 +4253,60 @@ function setupMobileUI() {
     mRegionSel.addEventListener('change', e => {
       regionSel.value = e.target.value;
       regionSel.dispatchEvent(new Event('change'));
+      if (window.updateMRegionDropLabel) window.updateMRegionDropLabel();
     });
+
+    // ----- Custom Region dropdown (mobile) -----
+    // iOS renders the native <select> popover with a multi-second backdrop blur.
+    // We keep #mRegionFilter hidden as the state holder and drive it from our own
+    // lightweight HTML menu, which opens instantly. All existing region logic
+    // (sync to desktop filter + render) runs unchanged via the dispatched change.
+    const mRegionDrop = document.getElementById('mRegionDrop');
+    const mRegionDropBtn = document.getElementById('mRegionDropBtn');
+    const mRegionDropMenu = document.getElementById('mRegionDropMenu');
+    const mRegionDropLabel = document.getElementById('mRegionDropLabel');
+    if (mRegionDrop && mRegionDropBtn && mRegionDropMenu) {
+      const closeMRegionMenu = () => {
+        mRegionDropMenu.classList.remove('open');
+        mRegionDropBtn.setAttribute('aria-expanded', 'false');
+      };
+      const openMRegionMenu = () => {
+        mRegionDropMenu.classList.add('open');
+        mRegionDropBtn.setAttribute('aria-expanded', 'true');
+        const sel = mRegionDropMenu.querySelector('.m-cdrop-item.selected');
+        if (sel) sel.scrollIntoView({ block: 'nearest' });
+      };
+      mRegionDropMenu.innerHTML = '';
+      Array.from(mRegionSel.options).forEach(opt => {
+        const item = document.createElement('div');
+        item.className = 'm-cdrop-item';
+        item.setAttribute('role', 'option');
+        item.dataset.value = opt.value;
+        item.textContent = opt.textContent;
+        item.addEventListener('click', () => {
+          mRegionSel.value = opt.value;
+          mRegionSel.dispatchEvent(new Event('change'));
+          closeMRegionMenu();
+        });
+        mRegionDropMenu.appendChild(item);
+      });
+      mRegionDropBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (mRegionDropMenu.classList.contains('open')) closeMRegionMenu(); else openMRegionMenu();
+      });
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('#mRegionDrop')) closeMRegionMenu();
+      });
+      window.updateMRegionDropLabel = function() {
+        const v = mRegionSel.value;
+        const opt = Array.from(mRegionSel.options).find(o => o.value === v);
+        if (mRegionDropLabel) mRegionDropLabel.textContent = opt ? opt.textContent : 'Alla regioner';
+        mRegionDropMenu.querySelectorAll('.m-cdrop-item').forEach(it => {
+          it.classList.toggle('selected', it.dataset.value === v);
+        });
+      };
+      window.updateMRegionDropLabel();
+    }
   }
 
 
@@ -5395,6 +5481,7 @@ function render() {
   if (typeof updateMobilePillCounts === 'function' && document.getElementById('mPillAllCount')) {
     try { updateMobilePillCounts(); } catch(e) { /* mobile pills not yet built */ }
   }
+  if (window.updateMRegionDropLabel) { try { window.updateMRegionDropLabel(); } catch(e) {} }
 
   const today = getTodayStr();
   if (!render._sorted) {
