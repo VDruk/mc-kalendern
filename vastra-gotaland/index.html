@@ -1851,11 +1851,17 @@
   .m-cdrop-menu {
     position: absolute; top: calc(100% + 4px); left: 0;
     min-width: 100%; width: max-content; max-width: 72vw;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border); border-radius: 10px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    /* Frosted glass, like the native iOS menu but without its slow popover */
+    background: rgba(255,255,255,0.82);
+    -webkit-backdrop-filter: blur(16px) saturate(1.6);
+    backdrop-filter: blur(16px) saturate(1.6);
+    border: 1px solid rgba(255,255,255,0.55); border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.22);
     max-height: 50vh; overflow-y: auto; -webkit-overflow-scrolling: touch;
     z-index: 1200; display: none; padding: 4px 0;
+  }
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    .m-cdrop-menu { background: var(--bg-secondary); }
   }
   .m-cdrop-menu.open { display: block; }
   .m-cdrop-item {
@@ -3019,7 +3025,11 @@
   <select id="mRegionFilter" aria-label="Filtrera efter region" style="display:none">
     <option value="all">Alla regioner</option>
   </select>
-  <select class="filter-select" id="mDatumFilter" aria-label="Filtrera efter datum">
+  <div class="m-cdrop" id="mDatumDrop">
+    <button type="button" class="m-cdrop-btn" id="mDatumDropBtn" aria-haspopup="listbox" aria-expanded="false"><span id="mDatumDropLabel">Alla datum</span></button>
+    <div class="m-cdrop-menu" id="mDatumDropMenu" role="listbox" aria-label="Datum"></div>
+  </div>
+  <select id="mDatumFilter" aria-label="Filtrera efter datum" style="display:none">
     <option value="all">Alla datum</option>
   </select>
   <div class="vehicle-toggle m-vehicle-toggle" id="mVehicleToggle" role="group" aria-label="Fordon: MC eller moped">
@@ -4278,6 +4288,7 @@ function setupMobileUI() {
       };
       mRegionDropMenu.innerHTML = '';
       Array.from(mRegionSel.options).forEach(opt => {
+        if (opt.disabled) return; // skip separator lines
         const item = document.createElement('div');
         item.className = 'm-cdrop-item';
         item.setAttribute('role', 'option');
@@ -4336,7 +4347,57 @@ function setupMobileUI() {
     mDatumSel.addEventListener('change', e => {
       monthSel.value = e.target.value;
       monthSel.dispatchEvent(new Event('change'));
+      if (window.updateMDatumDropLabel) window.updateMDatumDropLabel();
     });
+
+    // ----- Custom Datum dropdown (mobile) - same as Region (avoids slow native popover) -----
+    const mDatumDrop = document.getElementById('mDatumDrop');
+    const mDatumDropBtn = document.getElementById('mDatumDropBtn');
+    const mDatumDropMenu = document.getElementById('mDatumDropMenu');
+    const mDatumDropLabel = document.getElementById('mDatumDropLabel');
+    if (mDatumDrop && mDatumDropBtn && mDatumDropMenu) {
+      const closeMDatumMenu = () => {
+        mDatumDropMenu.classList.remove('open');
+        mDatumDropBtn.setAttribute('aria-expanded', 'false');
+      };
+      const openMDatumMenu = () => {
+        mDatumDropMenu.classList.add('open');
+        mDatumDropBtn.setAttribute('aria-expanded', 'true');
+        const sel = mDatumDropMenu.querySelector('.m-cdrop-item.selected');
+        if (sel) sel.scrollIntoView({ block: 'nearest' });
+      };
+      mDatumDropMenu.innerHTML = '';
+      Array.from(mDatumSel.options).forEach(opt => {
+        if (opt.disabled) return;
+        const item = document.createElement('div');
+        item.className = 'm-cdrop-item';
+        item.setAttribute('role', 'option');
+        item.dataset.value = opt.value;
+        item.textContent = opt.textContent;
+        item.addEventListener('click', () => {
+          mDatumSel.value = opt.value;
+          mDatumSel.dispatchEvent(new Event('change'));
+          closeMDatumMenu();
+        });
+        mDatumDropMenu.appendChild(item);
+      });
+      mDatumDropBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (mDatumDropMenu.classList.contains('open')) closeMDatumMenu(); else openMDatumMenu();
+      });
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('#mDatumDrop')) closeMDatumMenu();
+      });
+      window.updateMDatumDropLabel = function() {
+        const v = mDatumSel.value;
+        const opt = Array.from(mDatumSel.options).find(o => o.value === v);
+        if (mDatumDropLabel) mDatumDropLabel.textContent = opt ? opt.textContent : 'Alla datum';
+        mDatumDropMenu.querySelectorAll('.m-cdrop-item').forEach(it => {
+          it.classList.toggle('selected', it.dataset.value === v);
+        });
+      };
+      window.updateMDatumDropLabel();
+    }
   }
 
   // Any change to filters → update pill active state
@@ -5482,6 +5543,7 @@ function render() {
     try { updateMobilePillCounts(); } catch(e) { /* mobile pills not yet built */ }
   }
   if (window.updateMRegionDropLabel) { try { window.updateMRegionDropLabel(); } catch(e) {} }
+  if (window.updateMDatumDropLabel) { try { window.updateMDatumDropLabel(); } catch(e) {} }
 
   const today = getTodayStr();
   if (!render._sorted) {
