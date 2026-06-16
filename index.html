@@ -1826,7 +1826,9 @@
     display: none;
     padding: 0 10px 10px;
     gap: 6px;
-    grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto;
+    /* Region + Datum capped (no longer full-width), MC/Moped compact, left-packed */
+    grid-template-columns: minmax(84px,128px) minmax(84px,128px) auto;
+    justify-content: start;
     align-items: stretch;
     background: var(--bg-primary);
   }
