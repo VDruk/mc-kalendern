@@ -1870,6 +1870,7 @@
   }
   .m-cdrop-item:active { background: var(--bg-card-hover); }
   .m-cdrop-item.selected { color: var(--accent); font-weight: 600; }
+  .m-cdrop-sep { height: 1px; background: var(--border); margin: 5px 12px; }
   .m-filter-row .filter-select {
     width: 100%;
     min-width: 0;
@@ -4290,7 +4291,12 @@ function setupMobileUI() {
       };
       mRegionDropMenu.innerHTML = '';
       Array.from(mRegionSel.options).forEach(opt => {
-        if (opt.disabled) return; // skip separator lines
+        if (opt.disabled) {
+          const sep = document.createElement('div');
+          sep.className = 'm-cdrop-sep';
+          mRegionDropMenu.appendChild(sep);
+          return;
+        }
         const item = document.createElement('div');
         item.className = 'm-cdrop-item';
         item.setAttribute('role', 'option');
@@ -4373,7 +4379,12 @@ function setupMobileUI() {
       };
       mDatumDropMenu.innerHTML = '';
       Array.from(mDatumSel.options).forEach(opt => {
-        if (opt.disabled) return;
+        if (opt.disabled) {
+          const sep = document.createElement('div');
+          sep.className = 'm-cdrop-sep';
+          mDatumDropMenu.appendChild(sep);
+          return;
+        }
         const item = document.createElement('div');
         item.className = 'm-cdrop-item';
         item.setAttribute('role', 'option');
