@@ -12231,6 +12231,27 @@ const EVENTS_DATA = {
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
     },
     {
+      "id": "peking-mc-fest-2026-07-24",
+      "name": "Peking - 59 år på vägen",
+      "date": "2026-07-24",
+      "dateEnd": "2026-07-25",
+      "location": "Karstorp, Norrköping",
+      "type": "Fest",
+      "organizer": "Peking MC",
+      "_vehicle": "mc",
+      "description": "Peking MC:s årliga fest helgen v.30 (24-25 juli 2026) i Norrköping. Liveband torsdag-lördag (Benny and the Bangers, Hysteria, Pera & Blom m.fl.), bra mat och dryck. Endast SBM och inbjudna vänner.",
+      "descriptionFull": "Nu så! Bra mat, folk, dryck och väder? Varmt välkomna helgen v.30 till oss.\n\nPeking - 59 år på vägen, 24-25 juli 2026.\n\nLiveband:\nTorsdag: Benny and the Bangers\nFredag: Pera & Blom, Muddy Mojo, Hysteria, Mingoz Amigoz\nLördag: Pera & Blom, Snarskank, Gerda Blom, Glädjens Hus\n\nCash is king.\n\nInfo: Johan 0702-56 90 47, Henka 0709-77 13 34. Säljare ring Holma 070-325 97 42 (senast 21 juli).\n\nVägbeskrivning: följ sjukhusskyltarna och kör förbi ca 1 km. Endast SBM och inbjudna vänner.\n\nArrangör: Peking MC (pekingmc.se).\n\nPlats: Karstorp, Norrköping.",
+      "backImage": "ads/peking-mc-fest-back-2026-07-24.jpg",
+      "links": [
+        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo?fbid=1539673747945772&set=a.215441620368998"},
+        {"label": "pekingmc.se", "url": "https://pekingmc.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Karstorp+Norrk%C3%B6ping", "type": "map"}
+      ],
+      "link": "https://pekingmc.se",
+      "region": "Östergötland",
+      "source": "facebook.com"
+    },
+    {
       "id": "dob-skanetraffen-2-0-2026",
       "name": "DOB- Skåneträffen 2.0",
       "date": "2026-07-24",
