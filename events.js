@@ -4846,6 +4846,27 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back-3.jpg"
     },
     {
+      "id": "mmck-sista-motet-innan-traff-2026-06-23",
+      "name": "Sista mötet innan träff",
+      "date": "2026-06-23",
+      "dateEnd": "2026-06-23",
+      "time": "19:00",
+      "location": "MMCK Klubbkåken, Gällivare",
+      "type": "Träff",
+      "organizer": "MMCK Touring-vänner",
+      "_vehicle": "mc",
+      "description": "Sista klubbmötet innan träffen med MMCK Touring-vänner i Gällivare (Norrbotten) tisdag 23 juni 2026 kl 19. Kom och hjälp till och bidra med idéer inför träffen.",
+      "descriptionFull": "Kom och hjälp till inför träffen! Det här är sista mötet innan träffen - kom med idéer om vad vi kan göra mer.\n\nArrangör: MMCK Touring-vänner.\n\nPlats: MMCK Klubbkåken, Gällivare.",
+      "backImage": "ads/mmck-sista-motet-back-2026-06-23.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1017248954160047"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=MMCK+Klubbk%C3%A5ken+G%C3%A4llivare", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1017248954160047",
+      "region": "Norrbotten",
+      "source": "facebook.com"
+    },
+    {
       "id": "doa-kvallskörning-nockeby-jamna-veckor-2026-06-23",
       "name": "DOA - Kvällskörning Nockeby, jämna veckor",
       "date": "2026-06-23",
