@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Likes - MC Kalendern (internt)</title>
+<style>
+  :root { --bg:#12121c; --card:#1a1a2e; --line:#2a2a40; --txt:#e8e8f0; --dim:#9a9ab0; --amber:#d97706; --amber2:#b45309; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; padding:20px; }
+  .wrap { max-width:920px; margin:0 auto; }
+  h1 { font-size:20px; margin:0 0 4px; }
+  .sub { color:var(--dim); font-size:13px; margin-bottom:18px; }
+  .stats { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:18px; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 16px; min-width:120px; }
+  .stat .n { font-size:24px; font-weight:700; color:var(--amber); }
+  .stat .l { font-size:12px; color:var(--dim); text-transform:uppercase; letter-spacing:.5px; }
+  .bar { display:flex; gap:10px; align-items:center; margin-bottom:14px; }
+  button { background:var(--amber); color:#fff; border:0; border-radius:10px; padding:9px 16px; font-size:14px; font-weight:600; cursor:pointer; }
+  button:hover { background:var(--amber2); }
+  table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  th, td { text-align:left; padding:11px 12px; border-bottom:1px solid var(--line); font-size:14px; vertical-align:middle; }
+  th { color:var(--dim); font-size:12px; text-transform:uppercase; letter-spacing:.5px; background:#16162400; }
+  tr:last-child td { border-bottom:0; }
+  .rank { color:var(--dim); width:34px; }
+  .cnt { font-weight:700; color:var(--amber); white-space:nowrap; }
+  .cntbar { display:inline-block; height:8px; border-radius:4px; background:var(--amber); margin-left:8px; vertical-align:middle; }
+  .name a { color:var(--txt); text-decoration:none; }
+  .name a:hover { text-decoration:underline; }
+  .meta { color:var(--dim); font-size:12px; }
+  .pill { display:inline-block; font-size:11px; padding:2px 8px; border-radius:999px; border:1px solid var(--line); color:var(--dim); }
+  .past { opacity:.6; }
+  .msg { color:var(--dim); padding:20px 0; }
+  .upd { color:var(--dim); font-size:12px; margin-top:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Likes / Intresserad <span class="meta">(internt)</span></h1>
+  <div class="sub">Live-data fran druk.se/api/counts. Endast for dig, inte lankad nagonstans.</div>
+
+  <div class="stats">
+    <div class="stat"><div class="n" id="sTotal">-</div><div class="l">Likes totalt</div></div>
+    <div class="stat"><div class="n" id="sEvents">-</div><div class="l">Event med likes</div></div>
+    <div class="stat"><div class="n" id="sTop">-</div><div class="l">Hogst pa ett event</div></div>
+  </div>
+
+  <div class="bar">
+    <button id="reload">Uppdatera</button>
+    <span class="meta" id="status"></span>
+  </div>
+
+  <div id="out"><div class="msg">Laddar...</div></div>
+  <div class="upd" id="upd"></div>
+</div>
+
+<script src="/events.js"></script>
+<script src="/events-archive.js"></script>
+<script>
+(function () {
+  var TODAY = new Date().toISOString().slice(0, 10);
+
+  function buildIndex() {
+    var idx = {};
+    function add(list) {
+      (list || []).forEach(function (e) {
+        if (!e || !e.id) return;
+        idx[e.id] = e;
+      });
+    }
+    if (window.EVENTS_DATA && EVENTS_DATA.events) add(EVENTS_DATA.events);
+    if (window.EVENTS_ARCHIVE && EVENTS_ARCHIVE.events) add(EVENTS_ARCHIVE.events);
+    return idx;
+  }
+
+  function regionStr(r) { return Array.isArray(r) ? r.join(", ") : (r || ""); }
+
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  function render(counts) {
+    var idx = buildIndex();
+    var rows = Object.keys(counts).map(function (id) {
+      var e = idx[id] || {};
+      return {
+        id: id,
+        n: counts[id],
+        name: e.name || id,
+        date: e.date || "",
+        region: regionStr(e.region),
+        link: e.link || ("https://druk.se/#" + id),
+        known: !!e.name,
+        past: e.date ? (e.date < TODAY) : false
+      };
+    }).sort(function (a, b) { return b.n - a.n || (a.date < b.date ? -1 : 1); });
+
+    var total = rows.reduce(function (s, r) { return s + r.n; }, 0);
+    var top = rows.length ? rows[0].n : 0;
+    document.getElementById("sTotal").textContent = total;
+    document.getElementById("sEvents").textContent = rows.length;
+    document.getElementById("sTop").textContent = top;
+
+    if (!rows.length) {
+      document.getElementById("out").innerHTML = '<div class="msg">Inga likes an. Nar nagon klickar "Intresserad" dyker det upp har.</div>';
+      return;
+    }
+
+    var html = '<table><thead><tr><th class="rank">#</th><th>Likes</th><th>Event</th><th>Datum</th><th>Region</th></tr></thead><tbody>';
+    rows.forEach(function (r, i) {
+      var w = Math.max(8, Math.round((r.n / top) * 80));
+      var status = r.past ? ' <span class="pill">passerat</span>' : "";
+      var miss = r.known ? "" : ' <span class="pill">okant id</span>';
+      html += '<tr class="' + (r.past ? "past" : "") + '">' +
+        '<td class="rank">' + (i + 1) + '</td>' +
+        '<td class="cnt">' + r.n + '<span class="cntbar" style="width:' + w + 'px"></span></td>' +
+        '<td class="name"><a href="' + esc(r.link) + '" target="_blank" rel="noopener">' + esc(r.name) + '</a>' + miss + '</td>' +
+        '<td class="meta">' + esc(r.date) + status + '</td>' +
+        '<td class="meta">' + esc(r.region) + '</td>' +
+        '</tr>';
+    });
+    html += '</tbody></table>';
+    document.getElementById("out").innerHTML = html;
+  }
+
+  function load() {
+    var st = document.getElementById("status");
+    st.textContent = "hamtar...";
+    fetch("/api/counts", { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) {
+        render(d || {});
+        st.textContent = "";
+        document.getElementById("upd").textContent = "Senast hamtat: " + new Date().toLocaleString("sv-SE");
+      })
+      .catch(function (e) {
+        document.getElementById("out").innerHTML = '<div class="msg">Kunde inte hamta data (' + esc(e.message) + ').</div>';
+        st.textContent = "";
+      });
+  }
+
+  document.getElementById("reload").addEventListener("click", load);
+  load();
+})();
+</script>
+</body>
+</html>
