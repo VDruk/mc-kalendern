@@ -3312,6 +3312,28 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "scrc-hall-of-odin-onsdagskorning-2026-06-17",
+      "name": "Onsdagskörning Hall of Odin",
+      "date": "2026-06-17",
+      "dateEnd": "2026-06-17",
+      "time": "17:45",
+      "location": "Circle K, Kollavarvsvägen 10, Kungsbacka",
+      "type": "Körning",
+      "organizer": "SCRC Hall of Odin",
+      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
+      "_vehicle": "mc",
+      "description": "Onsdagskörning med SCRC #738 Hall of Odin (Southern Cruisers) onsdag 17 juni 2026. Samling kl 17.45 vid Circle K i Kungsbacka, avfärd 18. Ta med egen fika. Vid regn ställs körningen in.",
+      "descriptionFull": "Välkomna på #738 Hall of Odins onsdagskörning!\n\nVi samlas 17.45 för avfärd 18.00. Medtag egen fika.\n\nVid regn ställs evenemanget in.\n\nArrangör: SCRC #738 Hall of Odin (Southern Cruisers Riding Club).\n\nPlats: Circle K, Kollavarvsvägen 10, Kungsbacka.",
+      "backImage": "ads/scrc-onsdagskorning-back-2026-06-17.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1728458021501878"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Kollavarvsv%C3%A4gen+10+Kungsbacka", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1728458021501878",
+      "region": "Halland",
+      "source": "facebook.com"
+    },
+    {
       "id": "insane-mc-halmstad-onsdagskorning-2026-06-17",
       "name": "Onsdagskörning Insane MC",
       "date": "2026-06-17",
@@ -4591,6 +4613,28 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "templar-knights-fisherman-memorial-run-2026-06-21",
+      "name": "Fisherman Memorial Crusade Run",
+      "date": "2026-06-21",
+      "dateEnd": "2026-06-21",
+      "time": "12:00",
+      "location": "Stortorget, Östersund",
+      "type": "Körning",
+      "organizer": "Templar Knights MC",
+      "organizerIcon": "clubs/normalized/templar-knights-mc.png",
+      "_vehicle": "mc",
+      "description": "Minneskörning med Templar Knights MC (Jämtland Lodge) för fallne brodern Fisherman och för organdonation (MOD). Söndag 21 juni 2026, samling och start på Stortorget i Östersund kl 12.",
+      "descriptionFull": "Templar Knights Motorcycle Club Jämtland Lodge kör för att hedra vår fallne broder Fisherman och för att uppmärksamma organisationen MOD (Mer Organ Donation).\n\nSamling och start på Stortorget i Östersund kl 12.00.\n\nVälkomna att köra med och hedra Fisherman.\n\nArrangör: Templar Knights MC, Jämtland Lodge.\n\nPlats: Stortorget, Östersund.",
+      "backImage": "ads/fisherman-memorial-run-back-2026-06-21.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1562338552159730"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Stortorget+%C3%96stersund", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1562338552159730",
+      "region": "Jämtland",
+      "source": "facebook.com"
+    },
+    {
       "id": "vulcan-riders-spontankorning-2026-06-21",
       "name": "Spontankörning",
       "date": "2026-06-21",
@@ -4941,6 +4985,29 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
+    },
+    {
+      "id": "lingvalls-motor-ducati-demodag-2026-06-24",
+      "name": "Ducati Demodag",
+      "date": "2026-06-24",
+      "dateEnd": "2026-06-24",
+      "time": "12:00",
+      "endTime": "18:00",
+      "location": "Lingvalls Motor, Kryddstigen 12, Gävle",
+      "type": "Träff",
+      "organizer": "Lingvalls Motor",
+      "_vehicle": "mc",
+      "description": "Ducati Demodag hos Lingvalls Motor i Gävle (Gävleborg) onsdag 24 juni 2026, kl 12-18. Provkör Ducatis alla modeller. Välkommen in!",
+      "descriptionFull": "Välkommen in till oss på Lingvalls Motor onsdag 24 juni på provkörning av Ducatis alla modeller.\n\nVi startar kl 12.00 och kör fram till kl 18.00.\n\nArrangör: Lingvalls Motor.\n\nPlats: Lingvalls Motor, Kryddstigen 12, Gävle.",
+      "backImage": "ads/ducati-demodag-lingvalls-back-2026-06-24.jpg",
+      "links": [
+        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1668608888074112&set=a.594378512163827"},
+        {"label": "lingvalls.se", "url": "https://lingvalls.se"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Lingvalls+Motor+G%C3%A4vle", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/photo/?fbid=1668608888074112&set=a.594378512163827",
+      "region": "Gävleborg",
+      "source": "facebook.com"
     },
     {
       "id": "doa-kvallskörning-norrtalje-2026-06-24",
