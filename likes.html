@@ -69,8 +69,8 @@
         idx[e.id] = e;
       });
     }
-    if (window.EVENTS_DATA && EVENTS_DATA.events) add(EVENTS_DATA.events);
-    if (window.EVENTS_ARCHIVE && EVENTS_ARCHIVE.events) add(EVENTS_ARCHIVE.events);
+    if (typeof EVENTS_DATA !== "undefined" && EVENTS_DATA.events) add(EVENTS_DATA.events);
+    if (typeof EVENTS_ARCHIVE !== "undefined" && EVENTS_ARCHIVE.events) add(EVENTS_ARCHIVE.events);
     return idx;
   }
 
