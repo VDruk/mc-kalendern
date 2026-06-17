@@ -4281,6 +4281,9 @@ function setupMobileUI() {
         mRegionDropBtn.setAttribute('aria-expanded', 'false');
       };
       const openMRegionMenu = () => {
+        // Close any other open custom dropdown first (one at a time)
+        document.querySelectorAll('.m-cdrop-menu.open').forEach(m => m.classList.remove('open'));
+        document.querySelectorAll('.m-cdrop-btn[aria-expanded="true"]').forEach(b => b.setAttribute('aria-expanded', 'false'));
         mRegionDropMenu.classList.add('open');
         mRegionDropBtn.setAttribute('aria-expanded', 'true');
         const sel = mRegionDropMenu.querySelector('.m-cdrop-item.selected');
@@ -4361,6 +4364,9 @@ function setupMobileUI() {
         mDatumDropBtn.setAttribute('aria-expanded', 'false');
       };
       const openMDatumMenu = () => {
+        // Close any other open custom dropdown first (one at a time)
+        document.querySelectorAll('.m-cdrop-menu.open').forEach(m => m.classList.remove('open'));
+        document.querySelectorAll('.m-cdrop-btn[aria-expanded="true"]').forEach(b => b.setAttribute('aria-expanded', 'false'));
         mDatumDropMenu.classList.add('open');
         mDatumDropBtn.setAttribute('aria-expanded', 'true');
         const sel = mDatumDropMenu.querySelector('.m-cdrop-item.selected');
