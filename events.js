@@ -4236,6 +4236,27 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "jotunheimen-mc-treff-2026-06-19",
+      "name": "Jotunheimen MC Treff",
+      "date": "2026-06-19",
+      "dateEnd": "2026-06-21",
+      "time": "12:00",
+      "location": "Furuly Camping, Nordberg",
+      "type": "Träff",
+      "organizer": "Jotunheimen MC",
+      "_vehicle": "mc",
+      "description": "Jotunheimen MC-klubbs 50-årsjubileumsträff på Furuly Camping i Nordberg, Norge, 19-21 juni 2026. Liveband fredag och lördag, frukost och premieutdelning. Treffavgift 400/500 kr (NMCU/övriga).",
+      "descriptionFull": "50-årsjubileum för Jotunheimen MC-klubb!\n\nDato: 19-21 juni 2026.\nSted: Furuly Camping, 2693 Nordberg.\n\nFredag 19/6: 12.00 treffet åpner, 16.00 baren åpner, 21.00 live musikk, 02.00 slutt på øl/vinsalg.\nLørdag 20/6: 08.00-11.00 frokost/baren åpner, treffaktivitet på dagtid, 21.00 live musikk, 22.00 premieutdeling, 02.00 slutt på øl/vinsalg.\nSøndag 21/6: 07.00-11.00 frokost.\n\nTreffavgift: NMCU-medlem 400 kr, andre 500 kr (frokost/kaffe inkludert).\n\nKontakt: Rolf Rakstad 994 22 675, Furuly Camping 941 93 497.\n\nArrangör: Jotunheimen MC-klubb.\n\nPlats: Furuly Camping, Nordberg.",
+      "backImage": "ads/jotunheimen-mc-treff-back-2026-06-19.jpg",
+      "links": [
+        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1663865072413703&set=a.540698028063752"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Furuly+Camping+Nordberg", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/photo/?fbid=1663865072413703&set=a.540698028063752",
+      "region": "Norge",
+      "source": "facebook.com"
+    },
+    {
       "id": "doe-midsommartraff-pa-hasselbacken-i-alstermo-19-2-2026",
       "name": "DOE Midsommarträff på Hasselbacken i Alstermo",
       "date": "2026-06-19",
@@ -5952,6 +5973,7 @@ const EVENTS_DATA = {
       "location": "Sågbacken 18, Vretstorp",
       "type": "Fest",
       "organizer": "Regression Brotherhood MC",
+      "_vehicle": "mc",
       "description": "Regression Brotherhood MC firar 10 år! Öppnar fredag kväll kl 18. Mat, dryck och underhållning med trubadur Kaj Pousar. Stänger söndag.",
       "descriptionFull": "10-års jubileum arrangeras av Regression Brotherhood MC (est. 16).\n\nRegression Brotherhood MC firar 10 år!\n\nÖppnar fredag kväll kl 18:00, stänger söndag.\n\nMat, dryck och underhållning med trubadur Kaj Pousar.\n\nPlats: Sågbacken 18, 694 50 Vretstorp.",
       "links": [
@@ -9750,6 +9772,7 @@ const EVENTS_DATA = {
       "location": "Sörlinsväg 3, Vingåker",
       "type": "Fest",
       "organizer": "Crows MC Vingåker",
+      "_vehicle": "mc",
       "description": "Crows MC firar 20 år! Tre dagar med liveband (Pådrag, Vaert), tatuerare House of Pain, tältplatser och käk. Endast SBM och inbjudna vänner.",
       "descriptionFull": "Crows MC Vingåker firar 20-årsjubileum med en tredagarsfest den 10-12 juli 2026.\n\nLiveband fredag: Pådrag\nLiveband lördag: Vaert\nTattoo: House of Pain\n\nTältplatser finns. Käk finns som vanligt.\n\nAdress: Sörlinsväg 3, 64332 Vingåker.\n\nEndast SBM och inbjudna vänner.",
       "link": "https://www.facebook.com/events/917173907755288",
@@ -9764,6 +9787,11 @@ const EVENTS_DATA = {
         {
           "label": "FB Sida",
           "url": "https://www.facebook.com/crowsmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6rlinsv%C3%A4g+3+Ving%C3%A5ker",
+          "type": "map"
         }
       ]
     },
@@ -9823,6 +9851,28 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/nordic-run-back-2026.jpg"
+    },
+    {
+      "id": "osta-camping-mosquito-meet-2026-07-11",
+      "name": "Östa Mosquito Meet",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-11",
+      "time": "10:00",
+      "endTime": "16:00",
+      "location": "Östa Camping, Östa 541, Tärnsjö",
+      "type": "Show",
+      "organizer": "Östa Camping",
+      "_vehicle": "mc",
+      "description": "Östa Mosquito Meet - fordonsträff och bilutställning vid Östa Camping i Tärnsjö (Uppsala) lördag 11 juli 2026, kl 10-16. Livemusik med rockabillybandet Sunliners. Restaurang Kolartorpet med öl och hamburgare. Inträde 100 kr.",
+      "descriptionFull": "Bilutställningen öppnar klockan 10.00 och stänger 16.00.\n\nSunliners spelar rockabilly under dagen.\n\nRestaurang Kolartorpet håller öppet med öl och hamburgare. Inträde 100 kr. Myggigt kul för hela familjen!\n\nMer information kommer inom kort.\n\nArrangör: Östa Camping.\n\nPlats: Östa Camping, Östa 541, Tärnsjö.",
+      "backImage": "ads/osta-mosquito-meet-back-2026-07-11.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1504547357826543"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=%C3%96sta+Camping+T%C3%A4rnsj%C3%B6", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1504547357826543",
+      "region": "Uppsala",
+      "source": "facebook.com"
     },
     {
       "id": "vho-hojtraff-kinnekulle-2026-07-11",
@@ -20633,6 +20683,27 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "no-name-mc-strangnas-swap-meet-2026-09-05",
+      "name": "Swap Meet",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "10:00",
+      "location": "Elofsbergsvägen 25, Strängnäs",
+      "type": "Show",
+      "organizer": "No Name MC Strängnäs",
+      "_vehicle": "mc",
+      "description": "MC Swap Meet hos No Name MC Strängnäs (Södermanland) lördag 5 september 2026. Säljare från kl 9, gäster från kl 10. Köp och sälj MC-prylar. Korv med bröd, fika och dryck finns att köpa.",
+      "descriptionFull": "Varmt välkomna på MC Swap Meet hos No Name MC Strängnäs!\n\nSäljare är välkomna från kl 09.00 för att ställa upp saker, övriga gäster från kl 10.00.\n\nKorv med bröd, fika och dryck finns att köpa.\n\nArrangör: No Name MC Strängnäs.\n\nPlats: Elofsbergsvägen 25, Strängnäs.",
+      "backImage": "ads/no-name-mc-swap-meet-back-2026-09-05.jpg",
+      "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1701543954495332"},
+        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Elofsbergsv%C3%A4gen+25+Str%C3%A4ngn%C3%A4s", "type": "map"}
+      ],
+      "link": "https://www.facebook.com/events/1701543954495332",
+      "region": "Södermanland",
+      "source": "facebook.com"
     },
     {
       "id": "mc-veteranerna-degeberga-veteranmarknad-2026-09-05",
