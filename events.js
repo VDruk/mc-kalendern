@@ -4781,6 +4781,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motorrad-center-provkorningsvecka-2026-06-22",
+      "name": "BMW Provkörningsvecka",
+      "date": "2026-06-22",
+      "dateEnd": "2026-06-27",
+      "type": "Show",
+      "region": "Stockholm",
+      "location": "Slånbärsvägen 6, Upplands Väsby",
+      "organizer": "Motorrad Center Stockholm",
+      "organizerIcon": "clubs/normalized/motorrad-center-stockholm.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/MotorradCenterStockholm",
+      "_vehicle": "mc",
+      "description": "Provkörningsvecka hos BMW Motorrad Center 22-27 juni. Provkör BMW-modeller hela veckan. 100 kr går till Cancerfonden för varje genomförd provkörning.",
+      "descriptionFull": "Provkörningsvecka hos BMW Motorrad Center Stockholm 22-27 juni 2026.\n\nKom in och provkör våra BMW-modeller under hela veckan.\n\n100 kr till Cancerfonden för varje genomförd provkörning!\n\nMake Life a Ride.",
+      "backImage": "ads/motorrad-center-provkorningsvecka-back-2026-06-22.jpg",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/MotorradCenterStockholm"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Slånbärsvägen+6+Upplands+Väsby",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-06-22",
       "name": "Classic Motor Monday",
       "date": "2026-06-22",
@@ -4865,6 +4893,38 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back-3.jpg"
+    },
+    {
+      "id": "lyan-mc-fikatraff-2026-06-23",
+      "name": "Fikaträff hos Lyan MC",
+      "date": "2026-06-23",
+      "dateEnd": "2026-06-23",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Södermanland",
+      "location": "Hyndevad 1, Eskilstuna",
+      "organizer": "Lyan MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/Lyan-MC-119346409121/",
+      "_vehicle": "mc",
+      "description": "Återkommande fikaträff från kl 17. Försäljning av delar inom fordonshobbyn är tillåten. Kom och fika och snacka motor med likasinnade.",
+      "descriptionFull": "Lyan MC Eskilstuna bjuder in till fikaträffar i sommar.\n\nVarje tisdag: 23/6, 30/6, 7/7, 14/7, 21/7 och 28/7. Från kl 17:00.\n\nFörsäljning av delar inom fordonshobbyn är tillåten.\n\nPlats: Hyndevad 1, 635 13 Eskilstuna.",
+      "backImage": "ads/lyan-mc-fikatraff-back.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122240091854130312&set=gm.4243487642572478&idorvanity=1585574338363835"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Lyan-MC-119346409121/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hyndevad+1+Eskilstuna",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "borgeby-slott-tisdagstraff-2026-06-23",
@@ -7401,6 +7461,38 @@ const EVENTS_DATA = {
       "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
+      "id": "lyan-mc-fikatraff-2026-06-30",
+      "name": "Fikaträff hos Lyan MC",
+      "date": "2026-06-30",
+      "dateEnd": "2026-06-30",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Södermanland",
+      "location": "Hyndevad 1, Eskilstuna",
+      "organizer": "Lyan MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/Lyan-MC-119346409121/",
+      "_vehicle": "mc",
+      "description": "Återkommande fikaträff från kl 17. Försäljning av delar inom fordonshobbyn är tillåten. Kom och fika och snacka motor med likasinnade.",
+      "descriptionFull": "Lyan MC Eskilstuna bjuder in till fikaträffar i sommar.\n\nVarje tisdag: 23/6, 30/6, 7/7, 14/7, 21/7 och 28/7. Från kl 17:00.\n\nFörsäljning av delar inom fordonshobbyn är tillåten.\n\nPlats: Hyndevad 1, 635 13 Eskilstuna.",
+      "backImage": "ads/lyan-mc-fikatraff-back.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122240091854130312&set=gm.4243487642572478&idorvanity=1585574338363835"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Lyan-MC-119346409121/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hyndevad+1+Eskilstuna",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-kvallskörning-ekero-udda-veckor-2026-06-30",
       "name": "DOA - Kvällskörning Ekerö, udda veckor",
       "date": "2026-06-30",
@@ -9127,6 +9219,38 @@ const EVENTS_DATA = {
       "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
+      "id": "lyan-mc-fikatraff-2026-07-07",
+      "name": "Fikaträff hos Lyan MC",
+      "date": "2026-07-07",
+      "dateEnd": "2026-07-07",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Södermanland",
+      "location": "Hyndevad 1, Eskilstuna",
+      "organizer": "Lyan MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/Lyan-MC-119346409121/",
+      "_vehicle": "mc",
+      "description": "Återkommande fikaträff från kl 17. Försäljning av delar inom fordonshobbyn är tillåten. Kom och fika och snacka motor med likasinnade.",
+      "descriptionFull": "Lyan MC Eskilstuna bjuder in till fikaträffar i sommar.\n\nVarje tisdag: 23/6, 30/6, 7/7, 14/7, 21/7 och 28/7. Från kl 17:00.\n\nFörsäljning av delar inom fordonshobbyn är tillåten.\n\nPlats: Hyndevad 1, 635 13 Eskilstuna.",
+      "backImage": "ads/lyan-mc-fikatraff-back.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122240091854130312&set=gm.4243487642572478&idorvanity=1585574338363835"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Lyan-MC-119346409121/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hyndevad+1+Eskilstuna",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-tisdagslunch-2026-07-07",
       "name": "DOA - Tisdagslunch",
       "date": "2026-07-07",
@@ -10632,6 +10756,38 @@ const EVENTS_DATA = {
       "backImage": "ads/sub5-gellerasen-back-2026-07-13.jpg"
     },
     {
+      "id": "lyan-mc-fikatraff-2026-07-14",
+      "name": "Fikaträff hos Lyan MC",
+      "date": "2026-07-14",
+      "dateEnd": "2026-07-14",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Södermanland",
+      "location": "Hyndevad 1, Eskilstuna",
+      "organizer": "Lyan MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/Lyan-MC-119346409121/",
+      "_vehicle": "mc",
+      "description": "Återkommande fikaträff från kl 17. Försäljning av delar inom fordonshobbyn är tillåten. Kom och fika och snacka motor med likasinnade.",
+      "descriptionFull": "Lyan MC Eskilstuna bjuder in till fikaträffar i sommar.\n\nVarje tisdag: 23/6, 30/6, 7/7, 14/7, 21/7 och 28/7. Från kl 17:00.\n\nFörsäljning av delar inom fordonshobbyn är tillåten.\n\nPlats: Hyndevad 1, 635 13 Eskilstuna.",
+      "backImage": "ads/lyan-mc-fikatraff-back.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122240091854130312&set=gm.4243487642572478&idorvanity=1585574338363835"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Lyan-MC-119346409121/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hyndevad+1+Eskilstuna",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "halleskogsbrannan-gravlingsberget-2026-07-14",
       "name": "Hälleskogsbrännan",
       "date": "2026-07-14",
@@ -11409,6 +11565,38 @@ const EVENTS_DATA = {
       "source": "FB"
     },
     {
+      "id": "pokerrun-svedboang-2026-07-18",
+      "name": "Poker Run Svedboäng",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Svedboäng IP, Västerfärnebo",
+      "organizer": "Odendisa & Galtholmen MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1105182402681512",
+      "_vehicle": "mc",
+      "description": "Poker Run för alla MC-åkare oavsett märke. Start mellan kl 10-13, startavgift 100 kr. Första pris 5000 kr och ett rejält prisbord.",
+      "descriptionFull": "Härmed inbjuder vi alla MC-åkare, oavsett märke på motorcykeln till Svedboäng till vårt Poker Run lördagen 18/7.\nStart mellan 10.00 - 13.00 och startavgiften ligger kvar även i år på 100kr.\nFörst priset är 5000kr och vi har ett väldigt bra prisbord till de som inte vinner första priset och ser gärna att ni är kvar och hämtar priset själva.\nVi ser gärna att ni betalar med kontanter för enklare och snabbare betalningsmetod.",
+      "backImage": "ads/pokerrun-svedboang-back-2026-07-18.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1105182402681512"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100068376753599"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Svedboäng+IP+Västerfärnebo",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "andersson-runda-2026-07-18",
       "name": "Andersson runda",
       "date": "2026-07-18",
@@ -11905,6 +12093,38 @@ const EVENTS_DATA = {
       "region": "Norge",
       "source": "facebook.com",
       "descriptionFull": "KÖR HOJ arrangerar en 7-dagarstur till Norge, ca 220 mil. Max 8 deltagare.\n\nAvfärd 20 juli, transportsträcka till Horten och vidare in i Norge. Boende i stugor/hus.\n\nIngår: turledare & sweeper, boende 6 nätter, en grillkväll inkl mat, t-shirt, enklare mekanisk support, äventyrscoach.\n\nIngår ej: bensin, fika/mat längs rutten, personliga utgifter, färja och vägtullar.\n\nPris: 7 475 kr.\nAnmälan: korhoj.se/event/norge-20-26-juli/"
+    },
+    {
+      "id": "lyan-mc-fikatraff-2026-07-21",
+      "name": "Fikaträff hos Lyan MC",
+      "date": "2026-07-21",
+      "dateEnd": "2026-07-21",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Södermanland",
+      "location": "Hyndevad 1, Eskilstuna",
+      "organizer": "Lyan MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/Lyan-MC-119346409121/",
+      "_vehicle": "mc",
+      "description": "Återkommande fikaträff från kl 17. Försäljning av delar inom fordonshobbyn är tillåten. Kom och fika och snacka motor med likasinnade.",
+      "descriptionFull": "Lyan MC Eskilstuna bjuder in till fikaträffar i sommar.\n\nVarje tisdag: 23/6, 30/6, 7/7, 14/7, 21/7 och 28/7. Från kl 17:00.\n\nFörsäljning av delar inom fordonshobbyn är tillåten.\n\nPlats: Hyndevad 1, 635 13 Eskilstuna.",
+      "backImage": "ads/lyan-mc-fikatraff-back.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122240091854130312&set=gm.4243487642572478&idorvanity=1585574338363835"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Lyan-MC-119346409121/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hyndevad+1+Eskilstuna",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "doa-tisdagslunch-2026-07-21",
@@ -13217,6 +13437,38 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Mo+Bygdegård+Bollnäs",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "lyan-mc-fikatraff-2026-07-28",
+      "name": "Fikaträff hos Lyan MC",
+      "date": "2026-07-28",
+      "dateEnd": "2026-07-28",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Södermanland",
+      "location": "Hyndevad 1, Eskilstuna",
+      "organizer": "Lyan MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/Lyan-MC-119346409121/",
+      "_vehicle": "mc",
+      "description": "Återkommande fikaträff från kl 17. Försäljning av delar inom fordonshobbyn är tillåten. Kom och fika och snacka motor med likasinnade.",
+      "descriptionFull": "Lyan MC Eskilstuna bjuder in till fikaträffar i sommar.\n\nVarje tisdag: 23/6, 30/6, 7/7, 14/7, 21/7 och 28/7. Från kl 17:00.\n\nFörsäljning av delar inom fordonshobbyn är tillåten.\n\nPlats: Hyndevad 1, 635 13 Eskilstuna.",
+      "backImage": "ads/lyan-mc-fikatraff-back.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122240091854130312&set=gm.4243487642572478&idorvanity=1585574338363835"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Lyan-MC-119346409121/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hyndevad+1+Eskilstuna",
           "type": "map"
         }
       ]
