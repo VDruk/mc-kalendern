@@ -8205,6 +8205,35 @@ const EVENTS_DATA = {
       "source": "FB"
     },
     {
+      "id": "gwcs-touring-herrang-2026-07-04",
+      "name": "Touring till Herräng",
+      "date": "2026-07-04",
+      "dateEnd": "2026-07-04",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Uppsala",
+      "location": "ICA Maxi Gnista, Visthusvägen 1, Uppsala",
+      "organizer": "GWCS",
+      "organizerIcon": "clubs/normalized/gwcs.png",
+      "source": "gwcs.se",
+      "link": "https://gwcs.se",
+      "_vehicle": "mc",
+      "description": "Gemensam touring med GWCS ut till Herräng via sköna vägar. Lunchstopp på vägen och fika väl framme. Samling vid ICA Maxi Gnista, avfärd kl 10.",
+      "descriptionFull": "Inbjudan till touring\n\nDen 4 juli har vi tänkt göra en repris och ha en touring ut till våra vänner Nina och Tomas i Herräng. Nina och Tomas har tidigare varit medlemmar i C-wings.\n\nVi träffas vid Ica Maxi Gnista i Uppsala, avfärd kl 10, och kör lite trevliga vägar ut till Herräng. Stopp för lunch och sen får vi lite fika ute i Herräng.\n\nTacksam om ni som vill åka med hör av er till mig via SMS, 0763-182999, senast onsdag 1 juli så vi kan ge Nina och Tomas en liten heads-up om hur många vi blir.\n\nVäl mött/Nina Wällensjö",
+      "backImage": "ads/gwcs-touring-herrang-back-2026-07-04.jpg",
+      "links": [
+        {
+          "label": "gwcs.se",
+          "url": "https://gwcs.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=ICA+Maxi+Gnista+Visthusvägen+1+Uppsala",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "hammarosvangen-2026-07-04",
       "name": "Hammarösvängen",
       "date": "2026-07-04",
