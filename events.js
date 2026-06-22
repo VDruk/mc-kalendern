@@ -5456,6 +5456,29 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "ghc-torsdagsrundan-2026-06-25",
+      "name": "Torsdagsrundan",
+      "date": "2026-06-25",
+      "dateEnd": "2026-06-25",
+      "time": "17:30",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "Göteborg",
+      "organizer": "Gentleman's Harley Club",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=122185261580794305&set=a.122119569284794305",
+      "_vehicle": "mc",
+      "description": "Torsdagsrundan med A Gentleman's Harley Club, torsdag 25 juni. Samling 17.30, avfärd 18. Kvällstur via Fjärås, Horred, Kungsäter och Derome med matstopp och skön gemenskap.",
+      "descriptionFull": "Full tank & fria själars terapi.\n\nPå torsdag lämnar vi vardagens måsten bakom oss och låter krom, V-twin och goda vänner stå för medicinen. Planen är att följa de slingrande vägarna genom Fjärås – Horred – Kungsäter – Derome, där vi gör ett strategiskt depåstopp för påfyllning av både energi och biker-visdom.\n\nVår vägvisare för kvällen, Road Captain Dawa, har dammat av en klassiker från förra året – en runda som bjuder på fina vägar, skön gemenskap och tillräckligt många kurvor för att hålla själen på gott humör. Hemfärd sker via gamla E6:an när kvällssolen börjar sjunka.\n\nSamling: 17:30\nAvfärd: 18:00\nMatstopp längs vägen\n\nGHC – där terapi inte bokas, den körs.\nVäl mött på asfalten, bröder och systrar. Låt oss ge bekymren en chans att inte hinna ikapp oss.",
+      "backImage": "ads/torsdagsrundan-ghc-back-2026-06-25.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122185261580794305&set=a.122119569284794305"
+        }
+      ]
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-06-25",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-06-25",
@@ -7717,6 +7740,43 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
+    },
+    {
+      "id": "leksand-gagnef-kvallstraffen-2026-07-01",
+      "name": "Kvällsträffen",
+      "date": "2026-07-01",
+      "dateEnd": "2026-07-01",
+      "time": "18:00",
+      "endTime": "22:00",
+      "type": "Träff",
+      "region": "Dalarna",
+      "location": "Rastplatsen, Djurås",
+      "organizer": "Leksand Gagnef MCK",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1024450533336361",
+      "_vehicle": "mc",
+      "description": "Sommarens kvällsträff hos Leksand Gagnef MCK. Grillen igång kl 18 med hamburgare och korv, tävlingar med fina priser, och avslutning med samlad körning till Hjortnäs brygga.",
+      "descriptionFull": "Onsdagen 1 juli blir det MC-träff vid rastplatsen i Djurås\n\nVi kör igång grillen klockan 18 och sen blir det lika skoj som vanligt.\n\nHamburgare, korv, dricka, kaffe, mm finns det gott om.\n\nTävlingar med fina priser.\n\nVi avslutar med samlad körning till Hjortnäs brygga.\n\nNi är alla hjärtligt välkomna.\n\nFrågor? – 070-537 97 42 (Lars-Olov Lissel)",
+      "backImage": "ads/leksand-gagnef-kvallstraffen-back-2026-07-01.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1024450533336361"
+        },
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1431176115713045&set=a.454950273335639"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/leksandgagnefmck"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Rastplatsen+Djurås",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "doa-sommarkvallstur-nacka-2026",
