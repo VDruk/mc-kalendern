@@ -5062,6 +5062,39 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "hdk1930-thunder-run-2026-06-24",
+      "name": "Let The Thunder Run",
+      "date": "2026-06-24",
+      "dateEnd": "2026-06-24",
+      "time": "17:15",
+      "endTime": "19:30",
+      "type": "Körning",
+      "region": "Danmark",
+      "location": "Lindenborgvej 2, 4000 Roskilde, Danmark",
+      "organizer": "H-D Klubben af 1930",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1530993971489325",
+      "_vehicle": "mc",
+      "description": "Fællestur en vardagskväll arrangerad av HDK1930. Avfärd kl 17 från Lindenborgvej i Roskilde, matpaus på vägen och avslutning vid Jyllinge hamn kl 19.30 med glass. Alla välkomna.",
+      "descriptionFull": "LET THE THUNDER RUN\n\nFællestur på en hverdag – arrangeret af HDK1930\nMotoren kalder, og vejene venter!\n\nVi inviterer til en hyggelig og energifyldt fællestur på en hverdag, hvor fællesskab, køreglæde og god stemning er i fokus\nUanset om du kører for friheden, fællesskabet eller bare elsker lyden af motorer i flok\n– så er du mere end velkommen!\nAfgang kl. 17 fra Lindenborgvej 2, 4000 Roskilde\n\nSpisepause kl. ca. 18\n\nSmil på læben\n\nAfslutning på Jyllinge havn kl. 19.30 med is\nLET THE THUNDER RUN!\n\nDel gerne og tag dem, du vil køre sammen med",
+      "backImage": "ads/let-the-thunder-run-back-2026-06-24.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1530993971489325"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/www.hdk1930.dk/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lindenborgvej+2+4000+Roskilde+Danmark",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "lingvalls-motor-ducati-demodag-2026-06-24",
       "name": "Ducati Demodag",
       "date": "2026-06-24",
@@ -8334,6 +8367,34 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=ICA+Maxi+Gnista+Visthusvägen+1+Uppsala",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "klippanrallyt-2026-07-04",
+      "name": "Klippanrallyt",
+      "date": "2026-07-04",
+      "dateEnd": "2026-07-04",
+      "time": "11:00",
+      "type": "Träff",
+      "region": "Dalarna",
+      "location": "Klippan, Dala-Husby",
+      "organizer": "Smedby Bygdegårdsförening",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=36892651053681846&set=gm.1324022349878782&idorvanity=719934536954236",
+      "_vehicle": "moped",
+      "description": "Klassiskt mopedrally i Dalarna 2026, cirka 5 mil på asfalt och grus. Fika halvvägs och hamburgare vid målgång. Samling från kl 10, start kl 11. Mopeder och gemenskap.",
+      "descriptionFull": "Lördag 4 juli 2026 i Dala-Husby.\n\n5 mil på asfalt & grus – fika halvvägs & hamburgare vid målgång!\n\nStart & mål: Vid Klippan, Dala-Husby\nStartavgift: 200 kr via Swish – 123 596 5009\nFöranmälan senast: söndag 21/6\nTid: Samling från kl. 10:00, start kl. 11:00\nKontaktperson: Reijo – 070-277 79 34\n\nMopeder, gemenskap och sommarkänsla – vi ses i Dala-Husby!",
+      "backImage": "ads/klippanrallyt-back-2026-07-04.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=36892651053681846&set=gm.1324022349878782&idorvanity=719934536954236"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Klippan+Dala-Husby",
           "type": "map"
         }
       ]
