@@ -6957,6 +6957,42 @@ const EVENTS_DATA = {
       "backImage": "ads/smc-default-back.jpg"
     },
     {
+      "id": "holas-motortraff-2026-06-28",
+      "name": "Hölas Motorträff",
+      "date": "2026-06-28",
+      "dateEnd": "2026-06-28",
+      "time": "11:00",
+      "type": "Träff",
+      "region": "Örebro",
+      "location": "Linnebäck 416, Karlskoga",
+      "organizer": "Bygdens Danshöla",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/BygdenDanshola",
+      "_vehicle": "mc",
+      "description": "Årlig motorträff vid Bygdens Danshöla med fordonsutställning för bil och MC, körtävling, loppis, tipspromenad, grill och hembakat fika. Kul för hela familjen.",
+      "descriptionFull": "Hölas Motorträff är här igen!\nTa med alla ni känner och utforska alla våra tävlingar med fina priser för både barn och vuxna, lekar, god mat, hembakat fika, Loppis och massa mer!\n\n--- FORDONS UTSTÄLLNING ---\nHar du en bil eller en motorcykel du ska ge chansen att kamma hem ett av årets priset? JA!\nsåhär ser årets utställningsklasser ut.\nSnyggast/Coolast MC ( Ingen åldergräns )\nSnyggast/Coolast NY BIL ( Yngre än 30 år )\nSnyggast/ Coolast VETERAN BIL ( Äldre än 30 år )\n1:an, 2:an och 3:an får pris i varje klass.\nUtställnings fordon och chaufför går in gratis. gäller alla klasser.(Passagerare betalar entré)\nINSLÄPP 10:30\n\n--- LOPPIS ---\nDags att rensa hemma och få sälja av lite?\nvare sig du är ett företag eller en privatperson så är du varmt välkommen att boka upp en loppis plats och sälja av lite grejer.\nDu har 2 val.\n1: du tar med dig eget bord eller använder bakluckan, backen och ställer upp dina varor på. kostnad 20kr\n2: du kan hyra bord av oss för 100kr per bord.\nLoppis insläpp sker en timme innan öppning ( 10:00 ) så ni hinner få upp era varor.\nBoka bord genom att mejla bygdensdanshola@gmail.com (Gott om plats finns och ingen anmälan behövs om man kör enligt alternativ 1 & dyker upp mellan kl 10-11)\nLoppis deltagare betalar ingen ytterligare entré.\n(Gäller för 1 person, vid flera i bilen så betalar resterande 20kr per person i entré)\n\n--- ENTRÈ ---\nPris Entré 20:- per person ( gratis entré under 10 år)\nUtställningsfordon & chaufför går in gratis.\n\n--- KUL FÖR ALLA ÅLDRAR ---\nTa med hela familjen och ha roligt med oss!\nTävlingar & Aktiviteter för både vuxna och barn.\nGod mat och Söta sötsaker i olika former.\nKörtävling för alla med körkort med chans till fin vinst.(A-traktor körkort gills också)\nTipspromenad med fina vinster\nFiskedam, snygga tatueringar(fake såklart) och massa lek aktiviteter.\n\n--- INFO ---\nDatum 28 Juni\nTid 11-14 ( Loppis insläpp från 10-11 )\nVälkomna!",
+      "backImage": "ads/holas-motortraff-back-2026-06-28.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1499141091167390"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/BygdenDanshola"
+        },
+        {
+          "label": "bygdensdanshola.se",
+          "url": "https://www.bygdensdanshola.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Linnebäck+416+Karlskoga",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "sulas-mc-bsa-vecka-2026-06-28",
       "name": "BSA-vecka hos Sulas MC",
       "date": "2026-06-28",
