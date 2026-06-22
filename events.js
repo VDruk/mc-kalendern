@@ -4867,6 +4867,39 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back-3.jpg"
     },
     {
+      "id": "borgeby-slott-tisdagstraff-2026-06-23",
+      "name": "Tisdagsträff på Borgeby Slott",
+      "date": "2026-06-23",
+      "dateEnd": "2026-06-23",
+      "time": "16:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Borgeby Slott, Borgeby Slottsväg 13, Bjärred",
+      "organizer": "Borgeby Slott",
+      "source": "facebook.com",
+      "link": "https://borgebyslott.se/tisdagstraffar/",
+      "_vehicle": "both",
+      "description": "Klassisk tisdagsträff för motorintresserade, varje tisdag maj-september kl 16-20. Fordon av alla slag, fritt inträde och servering. Gemensam avfärd från Circle K i Svedala kl 16.",
+      "descriptionFull": "Varje tisdag under perioden maj-september anordnar Borgeby Slott träff för motorintresserade.\n\nEn kul träff för fordonsentusiaster i en härlig miljö med kulturhistoriska byggnader! På Borgeby Slott finns det gott om ytor för uppställning av motorcyklar, veteranmopeder, entusiastbilar, veterantraktorer m.m.\n\nTräffen pågår kl 16-20. Fritt inträde. Restaurangen serverar hamburgare, korv, varmrätter, kaffe och kaka samt dryck.\n\nDenna tisdag (23 juni) ordnas en gemensam avfärd från Circle K i Svedala kl 16:00, postad i gruppen \"Vi som kör mc i Skåne\".\n\nFrågor om träffen: Max 0705-24 76 34.",
+      "backImage": "ads/borgeby-tisdagstraff-back-2026-06-23.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10236733334847579&set=gm.2080235576255419&idorvanity=533169104295415"
+        },
+        {
+          "label": "borgebyslott.se",
+          "url": "https://borgebyslott.se/tisdagstraffar/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Borgeby+Slott+Bjärred",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "mmck-sista-motet-innan-traff-2026-06-23",
       "name": "Sista mötet innan träff",
       "date": "2026-06-23",
