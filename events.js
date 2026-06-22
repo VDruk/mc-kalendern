@@ -6993,6 +6993,42 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "skillingarydsrallyt-2026-06-28",
+      "name": "SkillingarydsRallyt",
+      "date": "2026-06-28",
+      "dateEnd": "2026-06-28",
+      "time": "09:00",
+      "type": "Träff",
+      "region": "Jönköping",
+      "location": "Hembygdsparken, Sturegatan 52, Skillingaryd",
+      "organizer": "Götaströms FHK",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/GFHKsida",
+      "_vehicle": "moped",
+      "description": "Klassiskt mopedrally i Jönköping 2026. En härlig runda på cirka 4-5 mil, öppen för mopeder och mc upp till 200 cc. Start kl 09. Gemenskap, nostalgi och körglädje.",
+      "descriptionFull": "Damma av mopeden, fyll på tvåtakten och gör dig redo för en härlig tur i sommar!\nDen 28 juni anordnar Götaströms fordons historiska klubb det klassiska SkillingarydsRallyt 2026\nEn trevlig runda på cirka 4–5 mil väntar, fylld av gemenskap, nostalgi och härlig körglädje.\nRallyt är öppet för mopeder och motorcyklar upp till 200 cc – perfekt för dig som vill ta en sväng tillsammans med andra entusiaster.\nStart kl. 09:00\n\nDatum: 28 juni\nSå väck liv i din gamla pärla och häng med – det här vill du inte missa!\nMer information hittar ni på: www.gotastrom.nu",
+      "backImage": "ads/skillingarydsrallyt-back-2026-06-28.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2723899334678028"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/GFHKsida"
+        },
+        {
+          "label": "gotastrom.nu",
+          "url": "https://www.gotastrom.nu"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hembygdsparken+Sturegatan+52+Skillingaryd",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "sulas-mc-bsa-vecka-2026-06-28",
       "name": "BSA-vecka hos Sulas MC",
       "date": "2026-06-28",
