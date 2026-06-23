@@ -6077,6 +6077,35 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "charity-run-norsjovallen-2026-06-27",
+      "name": "Charity Run",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "time": "10:00",
+      "endTime": "15:00",
+      "type": "Körning",
+      "region": "Västerbotten",
+      "location": "Monikas Café, Norsjövallen",
+      "organizer": "Nobody's MC Lappland",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1014218577871566",
+      "_vehicle": "mc",
+      "description": "H-DCS Charity Run i Västerbotten till förmån för Min Stora Dag. Gemensam tur till Monikas Café i Norsjövallen, med start från Skellefteå, Umeå och Lycksele. Alla mc-modeller välkomna.",
+      "descriptionFull": "DOH-Charity Run 2026 - 27 juni kl 10:00-15:00.\n\nI år prövar vi samma plats som ligger i Norsjövallen för vår gemensamma samlingspunkt i länet. Årets run går till ett fantastiskt café i Norsjövallen efter 365:an, nämligen Monikas Café. Monika har dessutom lovat att alla som visar upp medlemskortet i H-DCS ska få kaffe och te gratis.\n\nDetta slutmål blir en bra tur för oss alla i länet och jag hoppas att ni ställer upp och stöttar vårt inland förutom Min Stora Dag till förmån för allvarligt sjuka barn, denna dag.\n\nAlla är välkomna oavsett mc-modell. Vi kommer att köra oavsett väderlek.\n\nAlla får en pin efter att ha swishat 100 kr till 123 091 96 21 (ange CR).\n\nStartpunkter:\n- Skellefteå 11.00 från ICA Kvantum, Kronbodgatan 4 (85 km). Kontakt Glenn 070-201 99 63\n- Umeå 10.00 från Northbike (165 km). Kontakt Greger 070-683 97 53\n- Lycksele 11.00 från Shell (68 km). Kontakt Richard 070-539 97 96\n\nDet går också bra att åka direkt till Norsjövallen om tider och rutter inte passar.",
+      "backImage": "ads/charity-run-norsjovallen-back-2026-06-27.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1014218577871566"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Monikas+Café+Norsjövallen",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "mopedrally-tarnsjo-2026-06-27",
       "name": "Mopedrally Tärnsjö",
       "date": "2026-06-27",
