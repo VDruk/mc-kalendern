@@ -14909,6 +14909,42 @@ const EVENTS_DATA = {
       "backImage": "ads/bmw-default-back.jpg"
     },
     {
+      "id": "rapido-bankorning-kinnekulle-2026-08-03",
+      "name": "Bankörning för alla",
+      "date": "2026-08-03",
+      "dateEnd": "2026-08-04",
+      "time": "08:00",
+      "type": "Racing",
+      "region": "Västra Götaland",
+      "location": "Kinnekulle Ring, Götene",
+      "organizer": "Rapido MCK Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/3540249389450220",
+      "_vehicle": "mc",
+      "description": "Bankörning på racerbana för alla nivåer, 3-4 augusti. Från nybörjare (SMC School) till vana förare, med instruktörer på plats. Två dagar arrangerade av Rapido MCK.",
+      "descriptionFull": "Har du aldrig kört på bana förut så passa på nu! Det finns inget bättre sätt att lära känna sin hoj än att under kontrollerade former köra på en motorbana och få tips/råd av erfarna instruktörer.\n\nErbjudande: Vi behöver funktionärer - ta med en så får du köra för halva priset, eller kör 1 dag och var funktionär 1 dag för halva priset.\n\nGrupper:\nVit grupp = Lugn SMC School-grupp med instruktörer och 2 dagars utbildning (Steg 1 och Steg 2). Perfekt för dig som aldrig kört bana förut eller vill bli en bättre förare.\nGrön grupp = Lugn fri grupp med tillgång till instruktör när du vill.\nGul grupp = Medelsnabb fri grupp, för dig som kört bana förr eller är van hojåkare.\nRöd grupp = Snabb fri grupp, värdefulla tips av instruktör.\nGrön, gul och röd grupp är som andra icke-SMC bandagar utan försäkring i de flesta bolag (kontrollera med ditt försäkringsbolag).\n\nAlla är välkomna, men medlemmar och återkommande deltagare har förtur i Grön, Gul och Röd grupp. Begränsat antal platser.\n\n2026 kör vi på bana vid två tillfällen: Gelleråsen utanför Karlskoga 6-7 juli och Kinnekulle Ring nära Götene 3-4 augusti.\n\nKinnekulle Ring är en kurvig, kuperad och härlig bana. Mer info: www.kinnekulle-ring.se. Boende ordnar ni själva (förslag: Hotell Gustaf i Götene, Kinnekulle vandrarhem i Hällekis). Det går även bra att tälta eller bo i husvagn vid banan.\n\nKlädsel: Alla kör på egen risk och måste ha godkänd CE-märkt klädsel - hjälm, ryggskydd, bra MC-kläder (skinnställ krävs i röd grupp).\n\nPriser för 2 dagar: Grön/Gul/Röd grupp - Rapido-medlem 1900 kr (betalning innan 5 maj), junior max 20 år 300 kr, icke medlem eller betalning efter 5 maj 2500 kr. Vit SMC-grupp 3100 kr (Rapido-medlem får 600 kr tillbaka efter genomförd utbildning).\n\nAnmälan: rapidobandagar@gmail.com (vit grupp via kurser.svmc.se). Ange namn, klubb, telefon, e-post, vald grupp, närmast anhörig, ev. bankompis, om du kört Rapido-bandagar förut och om du vill ha lunch (300 kr för 2 dagar).\n\nArrangör: Rapido MCK Stockholm.",
+      "backImage": "ads/bankorning-kinnekulle-back-2026-08-03.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/3540249389450220"
+        },
+        {
+          "label": "rapido.se",
+          "url": "https://www.rapido.se"
+        },
+        {
+          "label": "kinnekulle-ring.se",
+          "url": "https://www.kinnekulle-ring.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kinnekulle+Ring+Götene",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-08-03",
       "name": "Classic Motor Monday",
       "date": "2026-08-03",
