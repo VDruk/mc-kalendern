@@ -6049,6 +6049,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mopedrally-tarnsjo-2026-06-27",
+      "name": "Mopedrally Tärnsjö",
+      "date": "2026-06-27",
+      "dateEnd": "2026-06-27",
+      "time": "09:00",
+      "type": "Körning",
+      "region": "Uppsala",
+      "location": "Tärnsjö station, Tärnsjö",
+      "organizer": "Nora-Tärnsjö Hembygd",
+      "source": "hembygd.se",
+      "link": "https://www.hembygd.se/nora-tarnsjo/activities",
+      "_vehicle": "moped",
+      "description": "Mopedrally för gamla mopeder i Uppsala 2026. Start kl 9 vid tåget i Tärnsjö, sedan en gemensam markerad slinga med stopp, spännande inslag och fika. Var i tid!",
+      "descriptionFull": "MOPEDRALLY.\n\nAlla som har en gammal moped är välkomna att delta i mopedrallyt 27/6.\n\nStart vid tåget i Tärnsjö kl 9.00. Var i tid!\n\nSedan kör alla en gemensam slinga som är markerad. Stop längst vägen med spännande inslag och fika.\n\nArrangör: Nora-Tärnsjö Hembygdsförening.",
+      "backImage": "ads/mopedrally-tarnsjo-back-2026-06-27.jpg",
+      "links": [
+        {
+          "label": "hembygd.se",
+          "url": "https://www.hembygd.se/nora-tarnsjo/activities"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tärnsjö+station",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "lekvattnet-kojkland-blue-smoke-2026-06-27",
       "name": "Kojkland Blue Smoke Summer Meet",
       "date": "2026-06-27",
@@ -7338,6 +7366,10 @@ const EVENTS_DATA = {
       "backImage": "ads/sun-engine-days-back-2026.jpg",
       "descriptionFull": "Då börjar det närma sig för motor träffarna Sun Engine Day's på Sjöbo marknadsplats. Boka in söndagar\n\nBilar, motorcyklar, veterantraktorer och mopeder. Rallystart kl 12:30.",
       "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1757801851894057"
+        },
         {
           "label": "FB Grupp",
           "url": "https://www.facebook.com/groups/306434545020038"
@@ -14296,6 +14328,35 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "simson-mopedtraff-grafsnas-2026-08-01",
+      "name": "Simson Mopedträff",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "time": "10:00",
+      "endTime": "18:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Gräfsnäs Bygdegård, Wasaallén 10, Sollebrunn",
+      "organizer": "André Wetzel",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1495756745369056",
+      "_vehicle": "moped",
+      "description": "Simson mopedträff samtidigt som Trabant- och Östbilsklubbens DDR-träff på samma plats. Mopedrally i Västra Götaland 2026 om intresse finns. Kostnadsfritt, kl 10-18.",
+      "descriptionFull": "Vi kör en mopedträff för Simson mopeder och givetvis alla som är intresserade av att snacka lite bensin relaterade samtal i sann tvåtaktsanda.\n\nDenna Simsonträffen går av stapeln samtidigt som den Svenska Trabant- & Östbilsklubben har sin årliga träff på samma plats. Detta innebär att man samtidigt kan beskåda den ena eller den andra Trabanten eller Wartburgen med tillhörande husvagnar eller ekipage över lag från det forna DDR.\n\nTräffen är helt kostnadsfri och om vi blir ett större gäng som träffas, så kanske jag kan styra upp ett litet trivsamt Simson mopedrally med start och mål på samma plats om intresse finns.\n\nMer information kommer här löpande.\n\nAdressen är: Wasaallén 10, 441 72 Sollebrunn.\nStart från kl 10:00. Slut 18:00.\n\nVäl mött och varmt välkomna!",
+      "backImage": "ads/simson-mopedtraff-grafsnas-back-2026-08-01.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1495756745369056"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gräfsnäs+Bygdegård+Wasaallén+10+Sollebrunn",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "oldmopedos-mopedrally-saxdalen-2026-08-01",
       "name": "Mopedrally Saxdalen",
       "date": "2026-08-01",
@@ -15629,6 +15690,34 @@ const EVENTS_DATA = {
       ],
       "region": "Södermanland",
       "source": "facebook.com"
+    },
+    {
+      "id": "memorial-peter-johansson-2026-08-08",
+      "name": "Memorial race Peter Johansson",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "Hindås Station, Hindås Stationsväg 30, Hindås",
+      "organizer": "Ombyggda-Mopperz",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1498768705305592",
+      "_vehicle": "moped",
+      "description": "Mopperally till minne av Peter Johansson, insamling till Cancerfonden. Start kl 10 vid Hindås station. Mopedrally i Västra Götaland 2026, alla välkomna.",
+      "descriptionFull": "Då förra årets mopperally var väldigt fint och uppskattat, skapar vi nu ett nytt mopperally med samma syfte, att hedra Peter och samla in en slant till Cancerfonden.\n\nStart kl. 10.00 Hindås station.\n\nVälkomna.\n\nArrangör: Ombyggda-Mopperz.",
+      "backImage": "ads/memorial-peter-johansson-back-2026-08-08.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1498768705305592"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hindås+Stationsväg+30+Hindås",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "hme-mopperally-oskarstrom-2026-08-08",
@@ -22491,6 +22580,34 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Anderstorp",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "mopperally-tvarred-2026-09-12",
+      "name": "Mopperally Tvärred",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-12",
+      "time": "11:00",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "Idrottsplatsen, Tvärred",
+      "organizer": "Tvärreds MotorEntusiaster",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1450021097158864",
+      "_vehicle": "moped",
+      "description": "Mopedrally i Västra Götaland 2026 med Tvärreds MotorEntusiaster utanför Ulricehamn. Samling kl 10, start 11. Pokerun med 3 stopp, ca 6 mil grus och asfalt. Även lättviktare välkomna.",
+      "descriptionFull": "Välkomna till Tvärreds MotorEntusiasters mopperally i Tvärred strax utanför Ulricehamn lördagen 12 september kl 10:00!\n\nStart kl 11:00 från Idrottsplatsen Tvärred.\n\nStartavgift 150 kr, max 100 startande. Även lättviktare är välkomna.\nBetalning på Swish 1232004034 senast 9 sep.\n\nInnan start bjuds det på kaffe och fralla, vid målgång korv, bröd och dricka.\nPokerun under resans gång med 3 stopp, prisutdelning vid mål.\nRundan är ca 6 mil på grus- och asfaltsvägar i vacker miljö.\n\nKontakt vid frågor: K-G Davidsson, 073-156 52 92.",
+      "backImage": "ads/mopperally-tvarred-back-2026-09-12.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1450021097158864"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Idrottsplatsen+Tvärred",
           "type": "map"
         }
       ]
