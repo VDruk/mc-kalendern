@@ -5122,6 +5122,35 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "scrc-hall-of-odin-onsdagskorning-2026-06-24",
+      "name": "Onsdagskörning",
+      "date": "2026-06-24",
+      "dateEnd": "2026-06-24",
+      "time": "17:45",
+      "type": "Körning",
+      "region": "Halland",
+      "location": "Circle K Onsalamotet, Kollavarvsvägen 10, Kungsbacka",
+      "organizer": "SCRC #738 Hall of Odin",
+      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/4320545324942116",
+      "_vehicle": "mc",
+      "description": "Onsdagskörning med SCRC #738 Hall of Odin. Samling 17:45, avfärd 18:00 från Circle K Onsalamotet. Tur med fikastopp och bad - ta med egen fika och badkläder. Alla välkomna.",
+      "descriptionFull": "Varmt välkommen till SCRC #738 Hall of Odins onsdagskörning!\n\nVi samlas vid Circle K Onsalamotet 17:45 med avfärd 18:00 och alla är välkomna. Medtag egen fika - där kommer att finnas badmöjligheter så packa även badkläder.\n\nVid regn kan körningen komma att ställas in, det meddelas i så fall här i evenemanget.\n\nVi ses på onsdag!\n/Iza, RC",
+      "backImage": "ads/scrc-onsdagskorning-back-2026-06-24.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4320545324942116"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Kollavarvsvägen+10+Kungsbacka",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "insane-mc-halmstad-onsdagskorning-2026-06-24",
       "name": "Onsdagskörning Insane MC",
       "date": "2026-06-24",
