@@ -11657,6 +11657,44 @@ const EVENTS_DATA = {
       "source": "FB"
     },
     {
+      "id": "strul-kustom-car-bike-show-2026-07-18",
+      "name": "Kustom Car & Bike Show",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "time": "10:00",
+      "endTime": "15:00",
+      "type": "Show",
+      "region": "Uppsala",
+      "location": "Enköpings Motorgård, Stockholmsvägen 17, Enköping",
+      "organizer": "Strul MCC",
+      "organizerIcon": "clubs/normalized/strul-mcc.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1447877726597850",
+      "_vehicle": "mc",
+      "description": "Kustom car & bike show hos Strul MCC på Enköpings Motorgård, kl 10-15. Utställning av bilar och hojar. Anmäl ditt fordon senast 12/7. Grill och cafeteria öppet.",
+      "descriptionFull": "Uppdatering!\nNu är det hög tid att anmäla er bil eller hoj!\nvar inte blygsam!!!\nbilen eller hojen behöver inte vara i perfekt skick huvudsaken är att den är frän att titta på!\nvi hoppas att vi kan få till en trevlig tillställning och träffa nya och gamla bekanta, anmälan senast 12/7!!\n\nOm ni har frågor så kan ni ringa\nLopez 076-707 60 35\nGurra 070-320 34 98\nkustom@strulmcc.se\n\nVi anordnar en bil & mc utställning - Kustom Car & Bike Show!\nVill ni ställa ut en hoj eller en bil? Kontakta oss med bild och info om erat fordon: kustom@strulmcc.se\nBilar och hojar som var utställda när det begav sig har förtur.\nObs! endast anmälda fordon!\n\n(Grillen & Cafeterian håller öppet)\nMer info kommer!",
+      "backImage": "ads/kustom-car-bike-show-back-2026-07-18.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1447877726597850"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100057683850901"
+        },
+        {
+          "label": "strulmcc.se",
+          "url": "https://www.strulmcc.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Enköpings+Motorgård+Stockholmsvägen+17+Enköping",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "pokerrun-svedboang-2026-07-18",
       "name": "Poker Run Svedboäng",
       "date": "2026-07-18",
