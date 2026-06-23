@@ -7106,6 +7106,38 @@ const EVENTS_DATA = {
       "backImage": "ads/smc-default-back.jpg"
     },
     {
+      "id": "pokerrun-tompa-borlange-2026-06-28",
+      "name": "Pokerrun till minne av Tompa",
+      "date": "2026-06-28",
+      "dateEnd": "2026-06-28",
+      "time": "14:00",
+      "type": "Körning",
+      "region": "Dalarna",
+      "location": "Gamla Humlan, Stationsgatan 24, Borlänge",
+      "organizer": "UBAKA Sweden",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/p/UBAKA-Sweden-Support-100068570238163/",
+      "_vehicle": "mc",
+      "description": "Välgörenhets-pokerrun till minne av Tompa, 7 mil fina vägar. Start kl 14, startkort 150 kr, fika på plats. Öppet för alla fordon. Alla bidrag går till Barnhjärtan, Hjärt-Lungfonden.",
+      "descriptionFull": "Söndag 28 juni 2026 i Borlänge. Pokerrun till förmån för Barnhjärtan, Hjärt-Lungfonden.\n\nVi kör för Tompa – och för barnen.\n\nStart kl 14.00 vid Gamla Humlan, IKF Borlänge, Stationsgatan 24, Borlänge.\n\n- 7 mil fina vägar\n- Fika finns på plats\n- Startkort 150 kr\n- Öppet för alla fordon: MC, bilar, veteranfordon mm\n- Trash Metal Silversmide och fler försäljare\n\nInsamling till Barnhjärtan. Alla bidrag går oavkortat till Hjärt-Lungfonden, Barnhjärtan.",
+      "backImage": "ads/pokerrun-tompa-back-2026-06-28.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122104814445363896&set=a.122098549305363896"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/p/UBAKA-Sweden-Support-100068570238163/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Stationsgatan+24+Borlänge",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "holas-motortraff-2026-06-28",
       "name": "Hölas Motorträff",
       "date": "2026-06-28",
