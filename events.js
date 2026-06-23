@@ -5122,6 +5122,34 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "insane-mc-halmstad-onsdagskorning-2026-06-24",
+      "name": "Onsdagskörning Insane MC",
+      "date": "2026-06-24",
+      "dateEnd": "2026-06-24",
+      "time": "18:00",
+      "type": "Körning",
+      "region": "Halland",
+      "location": "Insane MC Halmstad, Sadelvägen 720, Halmstad",
+      "organizer": "Insane MC Halmstad",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=1057649596597415&set=a.219724093723307",
+      "_vehicle": "mc",
+      "description": "Återkommande onsdagskväll med Insane MC Halmstad (med Psycho Squad). Denna onsdag (24/6) träffas vi i Helsingborg, samma ställe som vanligt. Hojta till om du vill köra med från Halmstad.",
+      "descriptionFull": "Onsdag kl 18.00 träffas vi i Helsingborg. Samma ställe som vanligt.\n\nBara hojta till om man vill köra med från Halmstad.\n\nArrangör: Insane MC Halmstad (Psycho Squad).",
+      "backImage": "ads/insane-mc-helsingborg-back-2026-06-24.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1057649596597415&set=a.219724093723307"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sadelvägen+720+Halmstad",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "hdk1930-thunder-run-2026-06-24",
       "name": "Let The Thunder Run",
       "date": "2026-06-24",
