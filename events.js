@@ -5456,6 +5456,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "v69-torsdagstur-2026-06-25",
+      "name": "Torsdagstur",
+      "date": "2026-06-25",
+      "dateEnd": "2026-06-25",
+      "time": "18:00",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "Båberg, Vänersborg",
+      "organizer": "Vänersborgs MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=2808196859560047&set=gm.27917835281142856&idorvanity=933961473290269",
+      "_vehicle": "mc",
+      "description": "Torsdagstur med Vänersborgs MC (V69), 25 juni kl 18 från Båberg. Tur på 12-13 mil på småvägar i Bohuslän till Jordfalls hamn. Fika och mat på plats.",
+      "descriptionFull": "Dags för Torsdagstur 25 juni kl 18.00 från Båberg.\n\nVi åker till Jordfalls Hamn, en tur på 12-13 mil totalt. Det finns möjlighet att köpa fika och mat på plats. Räkna med 3 tim innan vi är tillbaka till Båberg.\n\nDet blir småvägar kors och tvärs i Bohuslän, har provåkt och det var bra väg hela turen runt.\n\nVälkomna! V69",
+      "backImage": "ads/v69-torsdagstur-back-2026-06-25.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=2808196859560047&set=gm.27917835281142856&idorvanity=933961473290269"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Båberg+Vänersborg",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "ghc-torsdagsrundan-2026-06-25",
       "name": "Torsdagsrundan",
       "date": "2026-06-25",
@@ -14326,6 +14354,43 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "vallentunatraffen-2026-08-01",
+      "name": "Vallentunaträffen",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "time": "09:00",
+      "endTime": "14:00",
+      "type": "Träff",
+      "region": "Stockholm",
+      "location": "Vallentuna Flygfält, Wäsbyvägen, Vallentuna",
+      "organizer": "Classic Motor",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/4370103733211042",
+      "_vehicle": "mc",
+      "description": "Klassisk bilträff och marknad på flygfältet med enbart entusiastfordon. Öppet kl 9-14, entré 100 kr. Arrangeras av Classic Motor och Wheels Nationals.",
+      "descriptionFull": "Ny träff i Stockholm! Vallentuna flygfält den 1 augusti.\n\nÖppettider 9-14.\n\nVi laddar om och lämnar Solvalla bakom oss och går tillbaka till rötterna. Lite mindre, lite enklare men mycket bättre. En klassisk bilträff i härlig miljö på Vallentuna flygfält med enbart entusiastfordon.\n\nEntré endast 100 kr.\n\nVill du boka swap-plats eller klubbparkering? Ring eller mejla Nilla på 070-665 02 94 eller nilla.lundgren@wheelsmagazine.se\n\nVarmt välkomna!",
+      "backImage": "ads/vallentunatraffen-back-2026-08-01.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4370103733211042"
+        },
+        {
+          "label": "classicmotor.se",
+          "url": "https://www.classicmotor.se"
+        },
+        {
+          "label": "wheelsnationals.se",
+          "url": "https://www.wheelsnationals.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vallentuna+Flygfält+Wäsbyvägen",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "simson-mopedtraff-grafsnas-2026-08-01",
