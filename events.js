@@ -19454,6 +19454,34 @@ const EVENTS_DATA = {
       "backImage": "ads/vrs-tunnelrundan-back-2026-08-22.jpg"
     },
     {
+      "id": "silverforza-silverforsen-runt-2026-08-23",
+      "name": "Silverforsen Runt",
+      "date": "2026-08-23",
+      "dateEnd": "2026-08-23",
+      "time": "11:00",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Silverforsen Folkets Park, Dalgatan 22, Kävlinge",
+      "organizer": "Mopedsällskapet Ställbart",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=27265485053114655&set=gm.2714772638904322&idorvanity=224556431259301",
+      "_vehicle": "moped",
+      "description": "Mopedrally och cruising i Skåne 2026 - Silverforza #5 \"Silverforsen Runt\". Samling från kl 11, rally start 12. Bil- och mopedutställning, tipsrunda och prisbord. Startavgift 100 kr, fritt inträde.",
+      "descriptionFull": "Silverforza #5 - Moppe cruising 2026. Hjärtligt välkomna till årets Moppe Road trip \"Silverforsen Runt\" på Silverforsens Folkets Park i Kävlinge, tillsammans med Bilentusiasterna i Kävlinge. Den 23 augusti 2026.\n\nÅrets Silverforza Road trip \"Silverforsen Runt\" 2026 körs tillsammans med Bilentusiasterna i Kävlinge, med stor bil- och mopedutställning.\n\nStart & mål: Silverforsens Folkets Park. Samling från ca kl 11:00.\nGemensam rally start kl 12:00. Tipsrunda. Prisutdelning ca kl 15:00.\nStartavgift 100 kr (jämna pengar tack, eller Swish).\n\nFika finns för köp dels ute på rundan och på Silverforsen. Stort prisbord med möjlighet att vinna presentkort och mopedrelaterade prylar.\n\nIngen föranmälan. Fritt inträde till hela utställningen och alla övriga aktiviteter i parken: olika utställningar, livemusik, dansuppvisning, matvagn, bilar, mopeder m.m.",
+      "backImage": "ads/silverforza-silverforsen-runt-back-2026-08-23.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=27265485053114655&set=gm.2714772638904322&idorvanity=224556431259301"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Silverforsen+Folkets+Park+Dalgatan+22+Kävlinge",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "semnebyn-mopedrally-glavasvangen-2026-08-23",
       "name": "Mopedrally Glavasvängen",
       "date": "2026-08-23",
