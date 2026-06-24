@@ -1,0 +1,8 @@
+name = "mc-og"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+routes = [
+  { pattern = "druk.se/e/*", zone_name = "druk.se" },
+  { pattern = "www.druk.se/e/*", zone_name = "druk.se" }
+]

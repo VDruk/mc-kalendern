@@ -1022,6 +1022,15 @@
     transition: color var(--transition);
   }
   .back-btn:hover { color: var(--accent-hover); }
+  .back-footer-actions { display: flex; align-items: center; gap: 12px; }
+  .back-share-btn {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 12px; font-weight: 600; color: var(--accent);
+    background: none; border: none; cursor: pointer; padding: 0;
+    font-family: inherit; transition: color var(--transition);
+  }
+  .back-share-btn:hover { color: var(--accent-hover); }
+  .back-share-btn svg { width: 14px; height: 14px; }
 
   /* ========== REGION PILL (mobile only, hidden on desktop) ========== */
   .card-region-pill { display: none; }
@@ -2409,6 +2418,14 @@
   .m-detail-link:active { background: rgba(0,0,0,0.04); }
   .m-map-btn img { width: 20px; height: 20px; border-radius: 0; }
   .m-detail-actions .cal-trigger img { width: 20px; height: 20px; }
+  .m-detail-share {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    width: calc(100% - 32px); margin: 4px auto 8px; min-height: 42px;
+    border-radius: 21px; font-size: 14px; font-weight: 600; font-family: inherit;
+    background: var(--accent); color: #fff; border: none; cursor: pointer; line-height: 1;
+  }
+  .m-detail-share:active { opacity: 0.85; }
+  .m-detail-share svg { width: 16px; height: 16px; stroke: #fff; }
   .m-detail-links {
     padding: 4px 16px 22px;
     display: flex;
@@ -3466,6 +3483,67 @@ function loadLikeCounts(isRetry) {
 }
 
 // ========== HELPERS ==========
+// ===== Per-event share ("Dela") links: druk.se/e/<id> with rich previews =====
+// The /e/<id> URL is served by the mc-og Cloudflare Worker, which injects per-event
+// Open Graph tags so the link shows a proper preview when shared. Here we (a) let
+// users copy/share that link from a card, and (b) open the right event when someone
+// arrives on such a link.
+const SHARE_ICON_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>';
+
+function shareEvent(id) {
+  let ev = (typeof _eventMap !== 'undefined' && _eventMap.get('c-' + id))
+        || (typeof EVENTS_DATA !== 'undefined' && EVENTS_DATA.events.find(e => e.id === id));
+  const name = (ev && ev.name) ? ev.name : 'MC-evenemang';
+  const url = 'https://druk.se/e/' + encodeURIComponent(id);
+  if (navigator.share && /Mobi|Android/i.test(navigator.userAgent)) {
+    navigator.share({ title: name, text: name + ' - MC Kalendern', url: url }).catch(() => {});
+    return;
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url)
+      .then(() => { if (typeof showToast === 'function') showToast('Länk kopierad', 2000); })
+      .catch(() => window.prompt('Kopiera länk:', url));
+  } else {
+    window.prompt('Kopiera länk:', url);
+  }
+}
+
+function openSharedEvent() {
+  let mm;
+  try { mm = (location.pathname || '').match(/^\/e\/(.+?)\/?$/); } catch (e) { return; }
+  if (!mm) return;
+  const id = decodeURIComponent(mm[1]).toLowerCase();
+  // Clean the URL back to "/" so region/filter navigation behaves normally afterwards.
+  try { history.replaceState({}, '', '/'); } catch (e) {}
+
+  const isMobile = window.matchMedia('(max-width: 768px)').matches;
+  const cardKey = 'c-' + id;
+
+  function tryOpen() {
+    let ev = (typeof EVENTS_DATA !== 'undefined') && EVENTS_DATA.events.find(e => e.id === id);
+    if (!ev && typeof _eventMap !== 'undefined') ev = _eventMap.get(cardKey);
+    if (!ev) return false;
+    if (isMobile && typeof openMDetail === 'function') {
+      if (typeof _eventMap !== 'undefined') _eventMap.set(cardKey, ev); // works even if the card was not rendered
+      openMDetail(cardKey);
+      return true;
+    }
+    const card = document.getElementById(cardKey);
+    if (card && typeof cardExpand === 'function') {
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(() => cardExpand(cardKey), 300);
+      return true;
+    }
+    return false;
+  }
+
+  if (tryOpen()) return;
+  // Event might live in the lazy-loaded archive (a past event). Load it, then retry once.
+  if (typeof ensureArchive === 'function' && typeof archiveLoaded !== 'undefined' && !archiveLoaded) {
+    ensureArchive(function () { if (typeof render === 'function') render(); setTimeout(tryOpen, 250); });
+  }
+}
+
 function buildBackHTML(cardId, ev) {
   const displayName = (ev.name.includes('INSTÄLLT') || ev.name.includes('INSTALLT'))
     ? ev.name.replace(/\s*INSTÄLLT\s*/gi, '').replace(/\s*INSTALLT\s*/gi, '').trim()
@@ -3531,7 +3609,10 @@ function buildBackHTML(cardId, ev) {
     </div>
     <div class="back-footer">
       <span class="card-organizer">${ev.organizer || ''}</span>
-      <button class="back-btn" onclick="event.stopPropagation();cardCollapse('${cardId}')">&larr; Tillbaka</button>
+      <div class="back-footer-actions">
+        ${ev.type === 'Anons' ? '' : `<button class="back-share-btn" title="Dela detta event" onclick="event.stopPropagation();shareEvent('${ev.id}')">${SHARE_ICON_SVG}<span>Dela</span></button>`}
+        <button class="back-btn" onclick="event.stopPropagation();cardCollapse('${cardId}')">&larr; Tillbaka</button>
+      </div>
     </div>
   </div>`;
 }
@@ -4710,6 +4791,8 @@ function openMDetail(cardId) {
   // AD cards get no calendar button. Plats cards get the Karta pill merged into
   // the links row below (one line, 2026-06-12) instead of a separate actions row.
   const actionsHTML = ev._ad ? '' : `<div class="m-detail-actions">${calPillHTML}${mapPillHTML}</div>`;
+  const shareBtnHTML = (ev.type === 'Anons') ? '' :
+    `<button class="m-detail-share" onclick="event.stopPropagation();shareEvent('${ev.id}')">${SHARE_ICON_SVG}<span>Dela event</span></button>`;
 
   // Organizer meta row (sits inside the head block, same pattern as date/location)
   const personIconSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>';
@@ -4750,6 +4833,7 @@ function openMDetail(cardId) {
     ${descHTML ? '<div class="m-detail-desc">' + descHTML + '</div>' : ''}
     ${actionsHTML}
     ${linksHTML}
+    ${shareBtnHTML}
   `;
 
   modal.classList.add('open');
@@ -6790,6 +6874,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   render();
+
+  // If the page was opened via a shared /e/<id> link, open that event now.
+  if (typeof openSharedEvent === 'function') openSharedEvent();
 
   // ONE delegated tap handler for all cards (mobile opens detail modal).
   // Replaces per-card listeners: flat memory use no matter how many cards render.
