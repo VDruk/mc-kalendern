@@ -7254,6 +7254,35 @@ const EVENTS_DATA = {
       "backImage": "ads/smc-default-back.jpg"
     },
     {
+      "id": "mc-konsult-triumph-demo-tour-skene-2026-06-28",
+      "name": "Triumph MX & Enduro Demo Tour",
+      "date": "2026-06-28",
+      "dateEnd": "2026-06-28",
+      "time": "13:00",
+      "endTime": "16:00",
+      "type": "Show",
+      "region": "Västra Götaland",
+      "location": "Backabanan, Backabanan 4, Skene",
+      "organizer": "MC-Konsult",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2084158659150782",
+      "_vehicle": "mc",
+      "description": "MC-Konsult tar Triumphs MX- och Enduroprogram ut på banan. Provkör hojarna, körtips från VM-teamet Triumph/Johansson/MPE och VM-föraren Will Dennett. Prova-på-licens kan lösas på plats.",
+      "descriptionFull": "Nu tar MC-konsult med sig Triumphs MX- och Enduroprogram ut på banorna. Kom och provkör hojarna där de faktiskt hör hemma, snacka inställningar och ta del av våra särskilda Demo Tour-erbjudanden.\n\nVår teamchef från VM-teamet Triumph/Johansson/MPE finns på plats och delar med sig av erfarenheter och körtips. Dessutom får vi förstärkning av VM-föraren Will Dennett och Instatecs Racing Team, som finns på plats för support och tips.\n\nProva-på-licens kan lösas på plats.\nKom för hojarna. Stanna för kunskapen. Kör hem med ett betydligt större köpbegär än du hade planerat.",
+      "backImage": "ads/triumph-demo-tour-skene-back-2026-06-28.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2084158659150782"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Backabanan+4+Skene",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "pokerrun-tompa-borlange-2026-06-28",
       "name": "Pokerrun till minne av Tompa",
       "date": "2026-06-28",
