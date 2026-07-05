@@ -16996,6 +16996,35 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motortraff-prastnibble-2026-08-09",
+      "name": "Motorträff på Prästnibble gård",
+      "date": "2026-08-09",
+      "dateEnd": "2026-08-09",
+      "time": "10:00",
+      "endTime": "14:00",
+      "type": "Träff",
+      "region": "Stockholm",
+      "location": "Prästnibble gård, Svartsjö, Ekerö",
+      "organizer": "Yvonne Larsson",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1776197470491385",
+      "_vehicle": "both",
+      "description": "Återkommande motorträff för alla motorfordon, med en hel hage reserverad för tvåhjulingar. Hamburgare och fika att köpa på plats. Fri entré för utställare och besökare.",
+      "descriptionFull": "Välkomna till vår välbesökta och återkommande Motorträff!\n\nEn hel hage reserverad för 2hjulingar!\n\nSöndag 9/8 2026 kl 10-14. Alla motorfordon är välkomna!\n\nDet finns hamburgare o fika att köpa på plats.\n\nFri entré för både utställare och besökare!\n\nVill ni som företagare vara med - skicka pm.\n\nPlats: Prästnibble gård, Svartsjö, Ekerö.",
+      "backImage": "ads/motortraff-prastnibble-back-2026-08-09.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1776197470491385"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Pr%C3%A4stnibble+Svartsj%C3%B6",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-08-10",
       "name": "Classic Motor Monday",
       "date": "2026-08-10",
