@@ -9675,6 +9675,38 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "brunnen-runt-satra-brunn-2026-07-07",
+      "name": "Brunnen runt!",
+      "date": "2026-07-07",
+      "dateEnd": "2026-07-09",
+      "time": "13:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Sätra Brunn 105, Sala",
+      "organizer": "Tommy Ekström & Annelie",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2477671179378574/",
+      "_vehicle": "mc",
+      "description": "Tre dagar på kurorten med guidad hojtur på Västmanlands små krokiga vägar, grillbuffé, pubkvällar med liveband och bad. Två nätters boende ingår. Max 25 platser.",
+      "descriptionFull": "Nu träffas vi på Sätrabrunn för skönt häng och kurviga vägar!\n\nDag 1: Man kan komma när som helst och checka in på rummet från 13.00 sen softa runt på brunnen för att sedan på kvällen kör vi en grillbuffe å hänger i Ofvandals pub som har fullständiga rättigheter (grillbuffen ingår!)\n\nDag 2: Frukost med självservering och sen kör vi runt i Västmanland på alla härliga små och krokiga vägar och stannar för lunch och någon fika där vi köper själva det vi vill ha. Efter 20-40 mil (beroende på väder och önskemål) så landar vi på brunnen igen där vi softar, snackar hoj å laddar för en pubkväll med liveband på stora hotellet där man kan köpa mat och dricka och bara njuta!\n\nDag 3: Frukost när ni vill och ni har rummen hela dagen ifall ni kanske vill gå upp till badhuset eller köpa en fantastisk lunch på hotellet för att sedan rulla hemåt.\n\nIngår i paketet: Två nätter i vandrarhemmet \"Lasarettet\" med frukost (självplock i köket). Entré till pubkvällen. En grillbuffe och guidad hojtur plus även guidad tur på brunnen om så önska! Plus att \"dricka brunn\" oxå såklart!\n\nEntré till badhus med relax för rabatterat pris (195:- ordinarie 295:-).\n\nVi kör tre gånger i sommar! 7-9/7, 21-23/7 och 4-6/8.\nMax 25 platser så in och boka!\n\nBOKA HÄR: https://satrabrunn.workcloud.se/boka",
+      "backImage": "ads/brunnen-runt-satra-brunn-back-2026-07-07.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2477671179378574/"
+        },
+        {
+          "label": "Boka",
+          "url": "https://satrabrunn.workcloud.se/boka"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4tra+Brunn+105+Sala",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-sommarkvallstur-taby-2026",
       "name": "DOA - Sommarkvällstur Täby",
       "date": "2026-07-08",
@@ -11935,6 +11967,35 @@ const EVENTS_DATA = {
       "source": "FB"
     },
     {
+      "id": "ankansracing-trackdays-2026-07-17",
+      "name": "Ankansracing Trackdays",
+      "date": "2026-07-17",
+      "dateEnd": "2026-07-18",
+      "time": "09:00",
+      "endTime": "17:00",
+      "type": "Racing",
+      "region": "Västernorrland",
+      "location": "Mittsverigebanan, Tjärnsjö 100, Härnösand",
+      "organizer": "Ankans Racing",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/755944790405275",
+      "_vehicle": "mc",
+      "description": "Trackdays på Mittsverigebanan, fredag kl 09 till lördag kl 17. Alla välkomna att köra, unga som äldre. Tidtagning, däckservice och grupper efter antal. 1000 kr per dag.",
+      "descriptionFull": "Nu är det dags för Ankansracing å ha Trackdays.\n\nDenna gång kör vi från fredag kl 09:00 till lördag kl 17:00.\n\nAlla är välkomna att köra. Vi tar hand om alla, unga som äldre.\n\nDet finns däckservice plus försäljning av däck, både slicks å gatdäck från Bridgestone.\n\nVi kommer att ha tidtagning igång. Hyra av transponder 100 kr/per dag.\n\nVi kommer ha olika grupper beroende på hur många vi blir.\n\nAnmälan görs till Anders på Swish 073-3380817. Skriv fredag eller lördag eller båda.\nPriset är 1000 kr/per dag.\n\nAll körning görs på egen risk. Inga försäkringar finns.\n\nGällande mat: Självklart kommer det finnas hamburgare å kanske något trevlig kvälls mat att köpa.\n\nPs: Ta med er vatten att dricka på banan.\n\nAnkansRacing med Personal",
+      "backImage": "ads/ankansracing-trackdays-back-2026-07-17.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/755944790405275"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=62.599914,17.816566",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "strul-kustom-car-bike-show-2026-07-18",
       "name": "Kustom Car & Bike Show",
       "date": "2026-07-18",
@@ -13850,6 +13911,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "run-4-fun-2026-07-27",
+      "name": "Run 4 Fun",
+      "date": "2026-07-27",
+      "dateEnd": "2026-08-01",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Norra Vallåkravägen 162 1/2, Vallåkra",
+      "organizer": "Maximus Riders",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1632080938004255",
+      "_vehicle": "mc",
+      "description": "Sex dagar gemenskap och hojkörning genom Sverige och Gotland, till förmån för Aja Baja Cancer. Avslutningsfest hos Maximus Riders. Det går bra att ansluta under veckan.",
+      "descriptionFull": "RUN 4 FUN 2026\n\nRun 4 Fun handlar om gemenskap, hojkörning och att göra skillnad.\nUnder veckan kör vi tillsammans genom Sverige och Gotland samtidigt som vi samlar in pengar till Aja Baja Cancer, som stöttar familjer med barn som drabbats av cancer.\nVi avslutar veckan med en gemensam avslutningsfest hos Maximus Riders i Vallåkra.\n\nSchema för veckan:\n27/7 - Avfärd. Kl. 10:00 från Maximus Riders klubblokal, Vallåkra. Övernattning: First Camp Oskarshamn.\n28/7 - Mot Gotland. Färjeavgång kl. 11:50. Boende: Traume Vandrarhem (28-31/7).\n28-31/7 - Gotland. Aigen DC håller i körningarna. Andra inbjudna klubbar deltar.\n31/7 - Hemresa. Färjeavgång kl. 15:35. Övernattning: First Camp Oskarshamn.\n1/8 - Hemkomst. Preliminär starttid 10:00. Avslutningsfest hos Maximus Riders.\n\nBetalning - senast 31 maj 2026.\nAnmälningsavgift - 250 kr (ange t-shirtstorlek vid betalning).\nFärja tur & retur - ca 1 500 kr. Fullpris inkl. fordon. Ange typ av fordon vid anmälan. Eventuell mellanskillnad återbetalas.\nBoende: 5 nätter x ca 400 kr = ca 2 000 kr.\n\nSwish: 070 615 31 74. Märk betalningar tydligt med: Namn + Anmälningsavgift, Namn + Färja, Namn + Boende.\n\nEnkel kalkyl R4F 2026:\nFasta kostnader: ca 3 750 kr. Drivmedel: 120 mil x 0,7 liter/mil = 84 liter, ca 1 680 kr. Mat: 3 mål per dag x 6 dagar = 18 måltider, 2 520-4 500 kr.\nTotalt ca 7 950-9 930 kr (beroende på matval och drivmedelspris).\n\nViktigt inför körning:\n- Fulltankad motorcykel vid start\n- Gemensamma tankstopp\n- Alla tankar fullt varje stopp\n\nKörordning och säkerhet:\n- Road Captain: Jimmie Andersen\n- Assisterande RC: Anders \"Mästaren\" Jansson\n- Tailgunner: Sten Cronwall\n- Följebil bakom Tailgunner\nEventuella sjukdomar eller medicinska behov meddelas till RC innan start.\n\nÖvrigt:\n- Husdjur ska uppges vid anmälan (viktigt för färjebokning)\n- Det går bra att ansluta under veckan",
+      "backImage": "ads/run-4-fun-back-2026-07-27.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1632080938004255"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/302865806754277/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Norra+Vall%C3%A5krav%C3%A4gen+162+Vall%C3%A5kra",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "lyan-mc-fikatraff-2026-07-28",
       "name": "Fikaträff hos Lyan MC",
       "date": "2026-07-28",
@@ -14975,6 +15068,35 @@ const EVENTS_DATA = {
       "link": "https://www.rockthenightfestival.com",
       "region": "Västerbotten",
       "source": "facebook.com"
+    },
+    {
+      "id": "support-fika-smc-ervalla-2026-08-01",
+      "name": "Support-Fika för SMC",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "time": "14:00",
+      "endTime": "17:00",
+      "type": "Träff",
+      "region": "Örebro",
+      "location": "Ervalla Station, Södra Dylta 224, Dyltabruk",
+      "organizer": "Ervalla Station",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1538342874351231/",
+      "_vehicle": "mc",
+      "description": "Fjärde året i rad: fika där allt överskott går till Sveriges MotorCyklister. Betala kontant eller med Swish. Alla hojar är välkomna. Finns även i SMC-appen.",
+      "descriptionFull": "Vi på Ervalla Station genomför nu för 4:e året i rad en \"SUPPORT-FIKA\" för Sveriges MotorCyklister SMC.\n\nNär vi kommer till betalning så är det cash is king eller Swish som gäller. Allt överskott går till SMC!\n\nNi hittar även detta evenemang i SMC-appen.\n\nAlla hojar är välkomna!\n\n#sverigesmotorcyklister",
+      "backImage": "ads/support-fika-smc-back-2026-08-01.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1538342874351231/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6dra+Dylta+224+Dyltabruk",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "nordic-wilderness-tour-2026",
@@ -18217,6 +18339,38 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "arboga-landsbygds-cruising-2026-08-15",
+      "name": "Arboga Landsbygds Cruising",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "12:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Köpingsvägen 8, Arboga",
+      "organizer": "Sleepy Town Cruisers",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/sleepytowncruisers",
+      "_vehicle": "mc",
+      "description": "Cruising på asfalterade landsbygdsvägar runt Arboga med inspiration från Rättvik. Samling kl 12, avfärd ca 12.30. Avslutas med glass hos Götlunda glass.",
+      "descriptionFull": "Detta är en Cruising som går ut på Landsbygden. På asfalterade vägar runt Arboga.\n\nPerfekt för barnfamiljen eller om man bara vill köra en annorlunda cruising utan att trängas inne i stan, med inspiration från Rättvik.\n\nKl 12.00 samling Köpingsvägen 8 i Arboga.\n\nCa kl 12.30 börjar vi rulla på dem fina vägarna runt Arboga som sedan avslutas på Götlunda glass ute i Götlunda.\n\nMer info kommer.",
+      "backImage": "ads/arboga-landsbygds-cruising-back-2026-08-15.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/735569012955884"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/sleepytowncruisers"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=K%C3%B6pingsv%C3%A4gen+8+Arboga",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "moppekul-yllerallyt-gallstad-2026-08-16",
