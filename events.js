@@ -17579,6 +17579,10 @@ const EVENTS_DATA = {
       "descriptionFull": "Mälaren Runt är ett av Sveriges och Europas största motorcykelevenemang, med anor sedan 1986 då tidningen Motorcykelmagasinet (MCM) arrangerade den första körningen. Varje år samlas tiotusentals förare till en gemensam rundtur längs Mälarens ca 300 kilometer långa stränder. Under rekordår har mer än 20 000 motorcyklister deltagit, och 2026 firar evenemanget sitt 40-årsjubileum.\n\nKörningen startar från flera platser runt sjön – bland annat Bålsta, Nykvarn och Enköping – och leds av lokala MC-klubbar och SMC-distrikt. Alla typer av motorcyklar och förare är välkomna. Körningen hålls traditionsenligt den tredje lördagen i augusti, med festligheter redan från fredagen.",
       "links": [
         {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1023392046906559/"
+        },
+        {
           "label": "svmc.se",
           "url": "https://www.svmc.se/club/maelaren-runt/"
         }
