@@ -12736,6 +12736,38 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "brunnen-runt-satra-brunn-2026-07-21",
+      "name": "Brunnen runt!",
+      "date": "2026-07-21",
+      "dateEnd": "2026-07-23",
+      "time": "13:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Sätra Brunn 105, Sala",
+      "organizer": "Tommy Ekström & Annelie",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2477671179378574/",
+      "_vehicle": "mc",
+      "description": "Tre dagar på kurorten med guidad hojtur på Västmanlands små krokiga vägar, grillbuffé, pubkvällar med liveband och bad. Två nätters boende ingår. Max 25 platser.",
+      "descriptionFull": "Nu träffas vi på Sätrabrunn för skönt häng och kurviga vägar! Denna omgång körs 21-23 juli.\n\nDag 1: Man kan komma när som helst och checka in på rummet från 13.00 sen softa runt på brunnen för att sedan på kvällen kör vi en grillbuffe å hänger i Ofvandals pub som har fullständiga rättigheter (grillbuffen ingår!)\n\nDag 2: Frukost med självservering och sen kör vi runt i Västmanland på alla härliga små och krokiga vägar och stannar för lunch och någon fika där vi köper själva det vi vill ha. Efter 20-40 mil (beroende på väder och önskemål) så landar vi på brunnen igen där vi softar, snackar hoj å laddar för en pubkväll med liveband på stora hotellet där man kan köpa mat och dricka och bara njuta!\n\nDag 3: Frukost när ni vill och ni har rummen hela dagen ifall ni kanske vill gå upp till badhuset eller köpa en fantastisk lunch på hotellet för att sedan rulla hemåt.\n\nIngår i paketet: Två nätter i vandrarhemmet \"Lasarettet\" med frukost (självplock i köket). Entré till pubkvällen. En grillbuffe och guidad hojtur plus även guidad tur på brunnen om så önska! Plus att \"dricka brunn\" oxå såklart!\n\nEntré till badhus med relax för rabatterat pris (195:- ordinarie 295:-).\n\nVi kör tre gånger i sommar! 7-9/7, 21-23/7 och 4-6/8.\nMax 25 platser så in och boka!\n\nBOKA HÄR: https://satrabrunn.workcloud.se/boka",
+      "backImage": "ads/brunnen-runt-satra-brunn-back-2026-07-07.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2477671179378574/"
+        },
+        {
+          "label": "Boka",
+          "url": "https://satrabrunn.workcloud.se/boka"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4tra+Brunn+105+Sala",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "solleftea-mopedcruising-2026-07-22",
       "name": "Sollefteå Mopedcruising 20 år",
       "date": "2026-07-22",
@@ -15451,6 +15483,38 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "brunnen-runt-satra-brunn-2026-08-04",
+      "name": "Brunnen runt!",
+      "date": "2026-08-04",
+      "dateEnd": "2026-08-06",
+      "time": "13:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Sätra Brunn 105, Sala",
+      "organizer": "Tommy Ekström & Annelie",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2477671179378574/",
+      "_vehicle": "mc",
+      "description": "Tre dagar på kurorten med guidad hojtur på Västmanlands små krokiga vägar, grillbuffé, pubkvällar med liveband och bad. Två nätters boende ingår. Max 25 platser.",
+      "descriptionFull": "Nu träffas vi på Sätrabrunn för skönt häng och kurviga vägar! Denna omgång körs 4-6 augusti.\n\nDag 1: Man kan komma när som helst och checka in på rummet från 13.00 sen softa runt på brunnen för att sedan på kvällen kör vi en grillbuffe å hänger i Ofvandals pub som har fullständiga rättigheter (grillbuffen ingår!)\n\nDag 2: Frukost med självservering och sen kör vi runt i Västmanland på alla härliga små och krokiga vägar och stannar för lunch och någon fika där vi köper själva det vi vill ha. Efter 20-40 mil (beroende på väder och önskemål) så landar vi på brunnen igen där vi softar, snackar hoj å laddar för en pubkväll med liveband på stora hotellet där man kan köpa mat och dricka och bara njuta!\n\nDag 3: Frukost när ni vill och ni har rummen hela dagen ifall ni kanske vill gå upp till badhuset eller köpa en fantastisk lunch på hotellet för att sedan rulla hemåt.\n\nIngår i paketet: Två nätter i vandrarhemmet \"Lasarettet\" med frukost (självplock i köket). Entré till pubkvällen. En grillbuffe och guidad hojtur plus även guidad tur på brunnen om så önska! Plus att \"dricka brunn\" oxå såklart!\n\nEntré till badhus med relax för rabatterat pris (195:- ordinarie 295:-).\n\nVi kör tre gånger i sommar! 7-9/7, 21-23/7 och 4-6/8.\nMax 25 platser så in och boka!\n\nBOKA HÄR: https://satrabrunn.workcloud.se/boka",
+      "backImage": "ads/brunnen-runt-satra-brunn-back-2026-07-07.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2477671179378574/"
+        },
+        {
+          "label": "Boka",
+          "url": "https://satrabrunn.workcloud.se/boka"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4tra+Brunn+105+Sala",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-gemensam-resa-ostersund-2026-08-05",
       "name": "DOA - Gemensam resa till Östersund",
       "date": "2026-08-05",
@@ -17702,7 +17766,7 @@ const EVENTS_DATA = {
       "source": "web",
       "link": "https://www.svmc.se/club/maelaren-runt/",
       "description": "Sveriges och ett av Europas största motorcykelevenemang. Ca 300 km runt Mälaren med stater från bland annat Bålsta och Nykvarn.",
-      "descriptionFull": "Mälaren Runt är ett av Sveriges och Europas största motorcykelevenemang, med anor sedan 1986 då tidningen Motorcykelmagasinet (MCM) arrangerade den första körningen. Varje år samlas tiotusentals förare till en gemensam rundtur längs Mälarens ca 300 kilometer långa stränder. Under rekordår har mer än 20 000 motorcyklister deltagit, och 2026 firar evenemanget sitt 40-årsjubileum.\n\nKörningen startar från flera platser runt sjön – bland annat Bålsta, Nykvarn och Enköping – och leds av lokala MC-klubbar och SMC-distrikt. Alla typer av motorcyklar och förare är välkomna. Körningen hålls traditionsenligt den tredje lördagen i augusti, med festligheter redan från fredagen.",
+      "descriptionFull": "Mälaren Runt fyller 40 år - välkommen den 15 augusti!\n\nI år firar vi 40 år av Mälaren Runt, en av Europas största och mest uppskattade motorcykelträffar. Oavsett om du har varit med i många år eller kör turen för första gången är du varmt välkommen att uppleva en dag fylld av körglädje, gemenskap och motorcykelkultur.\n\nFölj den klassiska rutten runt Mälaren och besök de många aktiviteterna längs vägen. Rutten är skyltad, men tänk på att vissa stopp ligger en kort avstickare från huvudvägen där skyltningen kan vara begränsad.\n\nJubileumsåret bjuder bland annat på:\n- Start från Pampas Marina i Solna kl. 11.00\n- SM i Supermoto i Strängnäs\n- Fikastopp, hojträffar och utställningar längs hela rutten\n- MC Collection på Tidö Slott\n- Minimoto-racing på Pepparrotsbanan i Enköping\n- Målgång hos MCE i Järfälla med mat, dryck och livemusik\n- Traditionell Mälaren Runt-fest hos Strul MCC i Enköping\n\nJubileumsprodukter: Alla deltagare får en Mälaren Runt 40-årsdekal utan kostnad. Dessutom finns årets jubileumsprodukter till försäljning på flera platser längs rutten: t-shirts med jubileumstryck, pins, tygmärken, kepsar, buffar, öronproppar och nyckelringar.\n\nErbjudanden längs vägen: Flera av våra stopp erbjuder rabatter på mat och fika mot uppvisande av årets jubileumsdekal.\n\nHela jubileumsprogrammet, karta, GPX-fil och aktuell trafikinformation publiceras i FB-evenemanget, i SMC-appen och på Mälaren Runts Facebooksida. Trafikinformation uppdateras under veckan före evenemanget.\n\nVälkommen att fira 40 år av Mälaren Runt tillsammans med tusentals andra motorcyklister!\n\nKör snyggt - vi ses den 15 augusti!",
       "links": [
         {
           "label": "FB Event",
@@ -20972,6 +21036,8 @@ const EVENTS_DATA = {
       "name": "Strängnäs Bike Show",
       "date": "2026-08-29",
       "dateEnd": "2026-08-29",
+      "time": "11:00",
+      "backImage": "ads/strangnas-bike-show-back-2026-08-29.jpg",
       "location": "Ugglans park, Strängnäs",
       "type": "Show",
       "organizer": "Blotsvens MC",
