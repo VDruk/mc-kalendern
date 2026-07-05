@@ -9675,6 +9675,34 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "frojereds-mopedtraff-2026-07-07",
+      "name": "Fröjereds mopedträff",
+      "date": "2026-07-07",
+      "dateEnd": "2026-07-07",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Fröjered",
+      "organizer": "Fröjereds samhällsförening",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1322029359254396",
+      "_vehicle": "moped",
+      "description": "Mopedträff med mopedrally i Fröjered, Tidaholm (Västra Götaland) tisdag 7 juli 2026. Samling kl 17, mopedrallyt startar kl 17:30.",
+      "descriptionFull": "Snart dags för Fröjereds mopedträff 2026!\n\nTisdag 7/7 kl 17:00.\n\nMopedrallyt startar kl 17:30.\n\nMer info kommer inom kort.\n\nMvh Fröjereds samhällsförening",
+      "backImage": "ads/frojereds-mopedtraff-back-2026-07-07.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1322029359254396"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fr%C3%B6jered",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "brunnen-runt-satra-brunn-2026-07-07",
       "name": "Brunnen runt!",
       "date": "2026-07-07",
