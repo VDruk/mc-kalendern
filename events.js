@@ -8544,6 +8544,10 @@ const EVENTS_DATA = {
       "descriptionFull": "Gotland Ring Bike Week arrangeras av Gotland Ring.\n\nTre dagar på Gotlands racingbana. Bankörning, provkörningar och mc-festival på ön.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Gotland Ring, Gotland.",
       "links": [
         {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2476558432738398"
+        },
+        {
           "label": "alltommc.se",
           "url": "https://www.alltommc.se/gotland-ring-bike-week-2026-early-bird-erbjudande/"
         },
