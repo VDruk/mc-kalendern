@@ -24707,6 +24707,34 @@ const EVENTS_DATA = {
       "backImage": "ads/vrs-slumpenturen-back-2026-09-19.jpg"
     },
     {
+      "id": "grusaventyr-sjotorp-2026-09-19",
+      "name": "Grusäventyr Sjötorp",
+      "date": "2026-09-19",
+      "dateEnd": "2026-09-20",
+      "time": "08:30",
+      "type": "Körning",
+      "region": "Örebro",
+      "location": "Micke Marin Butiken, Adolfsbergsvägen 2, Örebro",
+      "organizer": "Micke Marin Butiken",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10164300791533043&set=gm.2911809075835349&idorvanity=1681065958909673",
+      "_vehicle": "mc",
+      "description": "Två dagar och cirka 41 mil grus mellan Örebro och Sjötorp. Ingen tävling, vi kör tillsammans med servicebuss och övernattning på pensionat Kajutan. 3700 kr, anmälan senast 8/9.",
+      "descriptionFull": "Följ med på en oförglömlig grusresa där upplevelsen är minst lika viktig som målet. Under två dagar tar vi oss genom slingrande grusvägar, djupa skogar, öppna landskap och små samhällen mellan Örebro och Sjötorp.\n\nDet här är ingen tävling - vi kör tillsammans, hjälper varandra och njuter av friheten som bara äventyrshojar kan ge. Oavsett om du kör en Kawasaki, Yamaha, Honda, KTM, Suzuki eller annan äventyrsmaskin väntar en helg fylld av körglädje, gemenskap och härliga naturupplevelser.\n\nSträcka: ca 41 mil grus (21 mil dag 1, 20 mil dag 2). Start och mål: Micke Marin Butiken, Adolfsbergsvägen 2, Örebro. Övernattning: Pensionat & Restaurang Kajutan i Sjötorp. Pris: 3 700 kr per person.\n\nDag 1 - lördag 19/9: 08:30 ankomst och inlastning i servicebil. 09:00 start från butiken Micke Marin i Örebro. Tre stopp under dagen (macka, lunch, fika). Mål ca 17:00 vid Pensionat & Restaurang Kajutan i Sjötorp. 19:00 middag (ingår), dryck köper man själv. Kött eller fisk, meddela senast 14/9. Incheckning i dubbelrum samt 2 st 4-bäddsrum.\n\nDag 2 - söndag 20/9: 08:00 frukost. 08:45 inlastning i servicebuss. 09:00 avfärd MC mot Örebro. Två stopp under dagen (macka/fika, lunch). Mål ca 15:00 vid butiken Micke Marin.\n\nLämpliga MC: allt från 250cc 2-takt och 4-takt. Det är grusväg med inslag av bitvis asfaltstransport. Grövre däck rekommenderas, även egen hoj på bränsleåtgång så soppatorsk förebyggs. \"Kultur Leffe\" Olsen kör i täten, \"Micke Marin\" Strömgren åker sist som svepare. Vi kör rullande vägvisarsystem vid vägbyten.\n\nDetta ingår: vägvisning, körtips på grus samt körövningar. Lördag: lunch, fika och middag på kvällen. Söndag: frukost, lunch, fika. Övernattning. Servicebuss. Bensin ingår ej.\n\nAnmälan: senast 8/9 2026. Betala kontant till Mikael Strömgren. Skicka mail med namn, telefonnummer och t-shirtstorlek till Mikael.stromgren@batmc.se. Frågor: 0761-38 06 21.\n\nResan genomförs om lägsta antal deltagare uppnås, samt om vädret tillåter.",
+      "backImage": "ads/grusaventyr-sjotorp-back-2026-09-19.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10164300791533043&set=gm.2911809075835349&idorvanity=1681065958909673"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Adolfsbergsv%C3%A4gen+2+%C3%96rebro",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-emilsturen-2026-09-20",
       "name": "DOA - Emilsturen",
       "date": "2026-09-20",
