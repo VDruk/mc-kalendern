@@ -10013,6 +10013,39 @@ const EVENTS_DATA = {
       "organizerIcon": "clubs/normalized/mcv-osterlen.png"
     },
     {
+      "id": "east2west-onsdagstraff-2026-07-08",
+      "name": "Onsdagsträff Tomelilla",
+      "date": "2026-07-08",
+      "dateEnd": "2026-07-08",
+      "time": "18:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Industrigatan 10, Tomelilla",
+      "organizer": "East 2 West CC Skåne",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/East2Westcc",
+      "_vehicle": "both",
+      "description": "Motorträff med swapmeet och bakluckeloppis, fritt och gratis att sälja. Alla fordon välkomna, även MC och moped. Säljare från kl 17. Mat och dryck finns på plats.",
+      "descriptionFull": "Välkomna till Onsdagsträff där alla fordons entusiaster är välkomna i en stor gemenskap. Alla fordon är välkomna. Övriga är ju naturligtvis också välkomna.\n\nNu kör vi på för fjärde gången med swapmeet med nya och gamla reservdelar, tillbehör samt övrig kulturrelaterade prylar för alla som vill och känner för det, även hela fordon också. Vi kör även vanlig bakluckeloppis samtidigt. Detta är fritt för alla att stå och sälja, ingen förbokning behövs och det är dessutom gratis. Det är bara att komma förbi och bli av med lite överblivna saker, eller varför inte hitta något man behöver. Samtidigt slår man ju ett slag för miljön genom att någon annan återbrukar, det man själv inte behöver längre.\n\nDet finns ett begränsat antal bord att låna, om man behöver. Först till kvarn gäller.\n\nSäljare välkomna från klockan 17,00.\n\nDetta är början på en fordonsträff kombinerat med en handelsplats för motorintresserade entusiaster där man köper, säljer och byter.\n\nMat och dryck finns att köpa för dom som är hungriga, så kvällsmaten fixar vi åt er.\n\nVi är inte väderberoende då man kan sitta inomhus vid dåligt väder.\n\nVi har även startat upp en digital handelsplats grupp, som det är fritt för alla här på Facebook att gå med i. Sök på East 2 West Car Club Swapmeet Gruop.\n\nVarmt välkomna alla.\nEast 2 West Car Club Skåne",
+      "backImage": "ads/east2west-onsdagstraff-back-2026-07-08.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2117101935820295"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/East2Westcc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Industrigatan+10+Tomelilla",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-07-09",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-07-09",
@@ -10776,6 +10809,38 @@ const EVENTS_DATA = {
       "_canary": true
     },
     {
+      "id": "mc-pilgrimsfard-rombostaven-lillhardal-2026-07-11",
+      "name": "MC-Pilgrimsfärd med Rombostaven till Lillhärdal kyrka",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-11",
+      "time": "11:00",
+      "type": "Körning",
+      "region": "Dalarna",
+      "location": "Dalgatan 74, Älvdalen",
+      "organizer": "Älvdalens Församling",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/AlvdalenForsamling",
+      "_vehicle": "mc",
+      "description": "Följ med Rombostaven på hoj från Älvdalens kyrka till Lillhärdal. Lugn och sansad körning via Rot, överlämning cirka 12.30 med guidning av kyrkan efteråt.",
+      "descriptionFull": "Vi \"vandrar\" med staven på dess väg till Lillhärdal med hjälp av motorcykel.\n\nAvresa från parkeringen bakom kyrkan kl. 11.00. Lugn och sansad körning via Rot mot Lillhärdal. Vi överlämnar staven ca 12.30 vid Lillhärdal kyrka med en guidning av kyrkan efteråt.\n\nVarmt välkomna att delta.\n\nAnmäl er gärna till Stephan Knagg via mobil 0735-022174 eller mail stephan.knagg@svenskakyrkan.se",
+      "backImage": "ads/mc-pilgrimsfard-lillhardal-back-2026-07-11.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1342735747196986"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/AlvdalenForsamling"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Dalgatan+74+%C3%84lvdalen",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "mchk-södermanland-fikatur-klaver-2026-07-12",
       "name": "Fikatur till Café Klaver",
       "date": "2026-07-12",
@@ -11056,6 +11121,34 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Hyndevad+1+Eskilstuna",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "mc-rundtur-strangnas-eskilstuna-2026-07-14",
+      "name": "MC Rundtur Strängnäs/Eskilstuna landsbygd",
+      "date": "2026-07-14",
+      "dateEnd": "2026-07-14",
+      "time": "18:00",
+      "type": "Körning",
+      "region": "Södermanland",
+      "location": "Grusparkeringen, Vansö kyrka, Strängnäs",
+      "organizer": "Alex Eklund",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=28527964586803525&set=gm.4452321138314772&idorvanity=1445457805667802",
+      "_vehicle": "mc",
+      "description": "Gemensam kvällstur på härliga landsvägar i lugnt tempo, cirka 2,5 timmar. Bensträckare med glass eller fika vid Sundbyholms hamn. Alla är välkomna oavsett typ av hoj, ålder eller klass.",
+      "descriptionFull": "Välkomna göra oss sällskap på en kvällstur i norra Södermanland (Strängnäs/Eskilstuna) tisdagen den 14 juli!\n\nDet blir landsvägskörning vid öppna fält, skog och sjö. Bland annat genom en av Europas nordligaste bokskogar!\n\nAnmäl gärna i kommentarerna så vi får en uppfattning om hur många vi blir.\n\nAlla med motorcykel i och omkring Strängnäs är varmt välkomna att hänga med på en gemensam kvällstur tisdagen den 14 juli kl 18.00. Vi kör en cirka 2,5 h lång tur på härliga landsvägar och mindre asfalterade vägar i lugnt tempo. Vi startar och slutar vid grusparkeringen Vansö kyrka.\n\nAlla är välkomna oavsett typ av hoj, ålder eller klass. Vid Sundbyholms hamn tar vi en bensträckare och för den som vill finns möjlighet till glass eller fika!\n\nKörsträcka: Vansö kyrka (gemensam samling grusparkeringen) - Hässelbyholm - Rällinge - Björsundsbron - Mora/Sigurdsristningen - Sundbyholms hamn (fikapaus) - Lilla Lövhulta - Slätviken - Kolsta - Lilla Lövhulta - Ramshammar - Jäder kyrka - Åsby - Alfvesta - Björsundsbron - Helgarö kyrka - Vansö kyrka (avslut grusparkeringen).",
+      "backImage": "ads/mc-rundtur-strangnas-back-2026-07-14.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=28527964586803525&set=gm.4452321138314772&idorvanity=1445457805667802"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vans%C3%B6+kyrka+Str%C3%A4ngn%C3%A4s",
           "type": "map"
         }
       ]
