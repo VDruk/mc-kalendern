@@ -1,0 +1,53 @@
+name: Build og-data.json + AI feeds
+
+# Keeps the generated data files in sync automatically whenever events.js or
+# events-archive.js is pushed:
+#   - og-data.json        (mc-og share-link Worker, rich /e/<id> previews + JSON-LD)
+#   - events.json         (machine-readable feed for AI assistants, see llms.txt)
+#   - sitemap-events.xml  (per-event /e/<id> URLs for crawlers)
+#
+# No loop: this only triggers on events.js / events-archive.js changes. The commit
+# it makes touches generated files only, which are not in the paths filter.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'events.js'
+      - 'events-archive.js'
+
+permissions:
+  contents: write
+
+jobs:
+  build-og-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerate og-data.json
+        run: python3 tools/build-og-data.py
+
+      - name: Regenerate events.json (AI/LLM feed)
+        run: python3 tools/build-events-feed.py
+
+      - name: Regenerate sitemap-events.xml
+        run: python3 tools/build-events-sitemap.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- og-data.json events.json sitemap-events.xml; then
+            echo "Generated files unchanged, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add og-data.json events.json sitemap-events.xml
+          git commit -m "Auto-update og-data.json, events.json, sitemap-events.xml from events change"
+          git push

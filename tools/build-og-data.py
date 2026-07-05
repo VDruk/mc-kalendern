@@ -8,9 +8,12 @@ compact JSON file the Worker fetches and edge-caches.
 
 Output: og-data.json at repo root.
 Format (array per id keeps the file small):
-    { "<event-id>": ["name", "description", "backImage"] }
+    { "<event-id>": ["name", "description", "backImage",
+                     "date", "dateEnd", "time", "location", "region", "organizer"] }
 - backImage is the relative path (e.g. "ads/foo.jpg") or "" if none.
   The Worker turns it into an absolute URL and falls back to the site cover.
+- Fields 3-8 (since 2026-07-05) feed the schema.org Event JSON-LD the Worker
+  injects into /e/<id> pages. Old Worker versions ignore the extra fields.
 
 Reads BOTH events.js (upcoming) and events-archive.js (past) so old shared
 links still get a rich preview. Run it whenever events change (or before a push
@@ -65,7 +68,20 @@ def main():
         name = (ev.get("name") or "").strip()
         if not name:
             continue
-        out[eid] = [name, short_desc(ev), (ev.get("backImage") or "").strip()]
+        region = ev.get("region") or ""
+        if isinstance(region, list):
+            region = ", ".join(region)
+        out[eid] = [
+            name,
+            short_desc(ev),
+            (ev.get("backImage") or "").strip(),
+            (ev.get("date") or "").strip(),
+            (ev.get("dateEnd") or "").strip(),
+            (ev.get("time") or "").strip(),
+            (ev.get("location") or "").strip(),
+            region.strip(),
+            (ev.get("organizer") or "").strip(),
+        ]
 
     dest = os.path.join(ROOT, "og-data.json")
     with open(dest, "w", encoding="utf-8") as f:

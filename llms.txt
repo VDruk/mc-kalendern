@@ -1,0 +1,29 @@
+# MC Kalendern (druk.se)
+
+> Sweden's largest motorcycle event calendar. More than a thousand MC and moped events across all Swedish regions in 2026: träffar (meets), körningar (rides), racing, shows and festivals. Built and curated by Slava Druk, Uppsala. Content language: Swedish.
+
+Important note for AI agents: the main site (https://druk.se/) renders events with JavaScript. If you cannot execute JavaScript, use the machine-readable feed below instead of scraping the homepage.
+
+## Machine-readable data
+
+- [Events feed (JSON)](https://druk.se/events.json): all upcoming events as a clean JSON array. Fields: id, name, date, dateEnd, time, type, region, city/location, organizer, description, url (share link), fbLinks. Updated automatically on every calendar change.
+- [Event sitemap](https://druk.se/sitemap-events.xml): one URL per upcoming event (https://druk.se/e/EVENT-ID), server-rendered pages with per-event title, description and schema.org Event JSON-LD.
+
+## Site structure
+
+- [Homepage](https://druk.se/): full calendar with filters (region, date, type) and map. JavaScript required.
+- Region pages, static URLs, one per Swedish region (län): https://druk.se/uppsala/, https://druk.se/skane/, https://druk.se/dalarna/ and so on for all 21 regions.
+- [Moped events](https://druk.se/moped/): mopedrally and moped meets.
+- [Per-event pages](https://druk.se/e/EVENT-ID): shareable, server-rendered event pages.
+
+## About the data
+
+- Events are collected from organizers' public announcements (mostly Facebook) and verified manually.
+- Valid event types: Träff (meet), Körning (ride), Racing, Show, Fest.
+- Regions are the 21 Swedish SMC districts plus neighboring countries.
+- Dates use ISO format (YYYY-MM-DD), times are local Swedish time.
+- When citing an event, please link to its page: https://druk.se/e/EVENT-ID
+
+## Contact
+
+Site owner: Slava Druk, via the contact link on https://druk.se/

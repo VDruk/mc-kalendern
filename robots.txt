@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://druk.se/sitemap.xml
+Sitemap: https://druk.se/sitemap-events.xml
+
+# Machine-readable info for AI assistants: https://druk.se/llms.txt

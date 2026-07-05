@@ -39,6 +39,45 @@ class HeadBase {
   element(el) { el.prepend('<base href="/">', { html: true }); }
 }
 
+// Appends raw HTML (e.g. a JSON-LD script) at the end of <head>.
+class HeadAppend {
+  constructor(html) { this.html = html; }
+  element(el) { el.append(this.html, { html: true }); }
+}
+
+// Sets the href attribute (canonical link).
+class LinkHref {
+  constructor(value) { this.value = value; }
+  element(el) { el.setAttribute('href', this.value); }
+}
+
+// Builds schema.org Event JSON-LD from an og-data row.
+// Row: [name, desc, backImage, date, dateEnd, time, location, region, organizer]
+function eventJsonLd(ev, id) {
+  const [name, desc, img, date, dateEnd, time, location, region, organizer] = ev;
+  if (!date) return null;
+  const ld = {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name: name,
+    startDate: time ? date + 'T' + time + ':00+02:00' : date,
+    endDate: dateEnd || date,
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    description: desc || undefined,
+    image: absImage(img),
+    url: SITE + '/e/' + encodeURIComponent(id),
+    location: {
+      '@type': 'Place',
+      name: location || region || 'Sverige',
+      address: { '@type': 'PostalAddress', addressRegion: region || undefined, addressCountry: 'SE' }
+    },
+    organizer: organizer ? { '@type': 'Organization', name: organizer } : undefined
+  };
+  return '<script type="application/ld+json">' +
+    JSON.stringify(ld).replace(/</g, '\\u003c') + '</scr' + 'ipt>';
+}
+
 async function getOgData(ctx) {
   const cacheKey = new Request(SITE + '/og-data.json');
   const cached = await caches.default.match(cacheKey);
@@ -77,7 +116,7 @@ export default {
     if (!pageResp.ok) return Response.redirect(SITE + '/', 302);
 
     const data = await getOgData(ctx);
-    const ev = data && data[id]; // [name, description, backImage] or undefined
+    const ev = data && data[id]; // [name, desc, backImage, date, dateEnd, time, location, region, organizer]
 
     const rewriter = new HTMLRewriter().on('head', new HeadBase());
 
@@ -97,7 +136,14 @@ export default {
         .on('meta[property="og:type"]', new MetaContent('article'))
         .on('meta[name="twitter:title"]', new MetaContent(title))
         .on('meta[name="twitter:description"]', new MetaContent(desc))
-        .on('meta[name="twitter:image"]', new MetaContent(image));
+        .on('meta[name="twitter:image"]', new MetaContent(image))
+        .on('link[rel="canonical"]', new LinkHref(pageUrl));
+
+      // Server-side schema.org Event so non-JS crawlers (AI assistants, search
+      // bots) get full event facts on this page. og-data rows built before
+      // 2026-07-05 have only 3 fields; eventJsonLd returns null for those.
+      const ld = eventJsonLd(ev, id);
+      if (ld) rewriter.on('head', new HeadAppend(ld));
     }
     // If the id is unknown we still serve the page (with <base> injected) so the
     // human gets a working site; the default site OG tags stay in place.
@@ -109,7 +155,10 @@ export default {
         'Content-Type': 'text/html; charset=utf-8',
         // preview content changes rarely; safe to cache the assembled page briefly
         'Cache-Control': 'public, max-age=600',
-        'X-Robots-Tag': 'noindex' // /e/ links are for sharing, not for the index
+        // Known events are real landing pages (listed in sitemap-events.xml,
+        // canonical to themselves, own title/desc/JSON-LD) -> indexable.
+        // Unknown ids keep noindex so junk URLs never enter the index.
+        'X-Robots-Tag': ev ? 'index, follow' : 'noindex'
       }
     });
   }
