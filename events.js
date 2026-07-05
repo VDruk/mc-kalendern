@@ -10514,6 +10514,69 @@ const EVENTS_DATA = {
       "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
+      "id": "humletorkan-mc-traff-2026-07-10",
+      "name": "MC-träff på Humletorkan",
+      "date": "2026-07-10",
+      "dateEnd": "2026-07-10",
+      "time": "14:00",
+      "endTime": "16:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Humletorkan, Klagstorpsvägen 1, Näsum",
+      "organizer": "Humletorkan",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/humletorkancafe",
+      "_vehicle": "mc",
+      "description": "Drop-in fikaträff för hojåkare längs Humleslingan. Kafé och vandrarhem med utsikt över åkrarna. Under träffen: räksmörgås på hembakat rågbröd + kaffe 115 kr.",
+      "descriptionFull": "Ta en tur längs Humleslingans vackra vägar och gör ett stopp hos oss på Humletorkan för en stunds avkoppling och trevligt umgänge. Försommarlandskapet visar sig från sin bästa sida med grön bokskog, blommande vägkanter och öppna vyer över landskapet.\n\nVi serverar fika, smörgåsar och gott kaffe i mysig miljö. Parkera hojen, slå dig ner och njut av en paus tillsammans med andra motorcykelentusiaster.\n\nTid: Fredag 10 juli kl 14-16 (drop-in).\nPlats: Humletorkan, Klagstorpsvägen 1, Näsum.\n\nErbjudande under träffen: Vår klassiska räksmörgås på hembakat rågbröd + kaffe 115 kr.\n\nAlla är varmt välkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1008430795020558/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/humletorkancafe"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Klagstorpsv%C3%A4gen+1+N%C3%A4sum",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "veteranfordonsdag-mopedrally-as-brunn-2026-07-11",
+      "name": "Veteranfordonsdag & Mopedrally",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-11",
+      "time": "11:00",
+      "type": "Träff",
+      "region": "Värmland",
+      "location": "Ås Brunn, Södra Ås 110, Östra Ämtervik",
+      "organizer": "Östra Ämterviks Hembygd",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/ostraamtervikshembygdsforening",
+      "_vehicle": "both",
+      "description": "Veteranfordonsdag med mopedrally i Värmland 11 juli 2026. Utställning av traktorer, bilar, mopeder och motorcyklar vid hembygdsgården Ås Brunn. Priser till alla deltagare i rallyt.",
+      "descriptionFull": "Lördag 11 juli kl 11.00: Veteranfordonsdagen på Ås Brunn.\n\nUtställning av traktorer, bilar, mopeder och motorcyklar.\n\nMopedrally med priser till alla deltagare!\n\nPlats: Östra Ämterviks hembygdsgård, Ås Brunn, Södra Ås 110, Östra Ämtervik.\n\nArrangör: Östra Ämterviks hembygdsförening.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1083353647905949/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/ostraamtervikshembygdsforening"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6dra+%C3%85s+110+%C3%96stra+%C3%84mtervik",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "osta-camping-mosquito-meet-2026-07-11",
       "name": "Östa Mosquito Meet",
       "date": "2026-07-11",
@@ -13516,6 +13579,38 @@ const EVENTS_DATA = {
       "region": "Dalarna",
       "source": "facebook.com",
       "backImage": "ads/veteranmarknad-rattvik-back-2026-07-24-v2.jpg"
+    },
+    {
+      "id": "humletorkan-mc-traff-2026-07-24",
+      "name": "MC-träff på Humletorkan",
+      "date": "2026-07-24",
+      "dateEnd": "2026-07-24",
+      "time": "14:00",
+      "endTime": "16:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Humletorkan, Klagstorpsvägen 1, Näsum",
+      "organizer": "Humletorkan",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/humletorkancafe",
+      "_vehicle": "mc",
+      "description": "Drop-in fikaträff för hojåkare längs Humleslingan. Kafé och vandrarhem med utsikt över åkrarna. Under träffen: räksmörgås på hembakat rågbröd + kaffe 115 kr.",
+      "descriptionFull": "Ta en tur längs Humleslingans vackra vägar och gör ett stopp hos oss på Humletorkan för en stunds avkoppling och trevligt umgänge. Försommarlandskapet visar sig från sin bästa sida med grön bokskog, blommande vägkanter och öppna vyer över landskapet.\n\nVi serverar fika, smörgåsar och gott kaffe i mysig miljö. Parkera hojen, slå dig ner och njut av en paus tillsammans med andra motorcykelentusiaster.\n\nTid: Fredag 24 juli kl 14-16 (drop-in).\nPlats: Humletorkan, Klagstorpsvägen 1, Näsum.\n\nErbjudande under träffen: Vår klassiska räksmörgås på hembakat rågbröd + kaffe 115 kr.\n\nAlla är varmt välkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1003898295359392/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/humletorkancafe"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Klagstorpsv%C3%A4gen+1+N%C3%A4sum",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "afrikansk-afton-2026",
@@ -18432,6 +18527,41 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=K%C3%B6pingsv%C3%A4gen+8+Arboga",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "mhs-mopedrally-taby-2026-08-15",
+      "name": "MHS Mopedrally",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "MHS klubbhus, Polygonvägen 19, Täby",
+      "organizer": "MHS",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=100064776394280",
+      "_vehicle": "moped",
+      "description": "Mopedrally i Täby (Stockholm) 15 augusti 2026 för mopeder minst 20 år gamla. Samling kl 10 vid MHS klubbhus i Arninge, start kl 11. Föranmälan på mhs.se. Medlemmar gratis, övriga 100 kr.",
+      "descriptionFull": "MHS rally för mopeder minst 20 år gamla.\n\nSamling vid MHS klubbhus på Polygonvägen 19 i Arninge, Täby kl 10. Start kl 11. Parkering finns.\n\nFöranmälan gäller och görs på www.mhs.se under \"Evenemang\".\n\nDeltagaravgift: MHS-medlemmar gratis mot uppvisande av medlemskort. Icke medlemmar 100 kr. Betala gärna i förskott via Swish 123 453 64 21 eller till plusgiro 40 14 41-1. Ange \"Startavgift Mopedrallyt\" och ditt namn på betalningen.\n\nFrågor? Ring 08-702 07 06 måndag 18-21 eller torsdag 9-12.\n\nVälkomna!\n\nArrangör: Motorhistoriska Sällskapet i Sverige (MHS).",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1958598144851855/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100064776394280"
+        },
+        {
+          "label": "Anmälan",
+          "url": "https://www.mhs.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Polygonv%C3%A4gen+19+T%C3%A4by",
           "type": "map"
         }
       ]
