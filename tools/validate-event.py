@@ -24,7 +24,7 @@ VALID_REGIONS = {
     "Jönköping", "Kalmar", "Kronoberg", "Norrbotten", "Skåne", "Stockholm",
     "Södermanland", "Uppsala", "Värmland", "Västerbotten", "Västernorrland",
     "Västmanland", "Västra Götaland", "Örebro", "Östergötland",
-    "Danmark", "Finland", "Italien", "Litauen", "Norge", "Portugal", "Spanien", "Sverige", "Tjeckien"
+    "Danmark", "Estland", "Finland", "Italien", "Litauen", "Norge", "Portugal", "Spanien", "Sverige", "Tjeckien"
 }
 REQUIRED_FIELDS = ["id", "name", "date", "dateEnd", "location", "type", "organizer",
                    "description", "descriptionFull", "link", "links", "region", "source"]

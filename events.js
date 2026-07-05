@@ -12675,6 +12675,46 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "bike-fest-narva-2026-07-18",
+      "name": "Bike Fest Narva",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "time": "12:00",
+      "type": "Fest",
+      "region": "Estland",
+      "location": "Narva Hermanni linnus, Peetri plats 7, Narva",
+      "organizer": "Magnum MC Narva",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/MagnumMCNarva",
+      "_vehicle": "mc",
+      "description": "Europas östligaste motofestival vid Narva fästning i Estland. Motorparad kl 12, open air-festival från kl 18 med fyra rockband, camping och bevakad MC-parkering.",
+      "descriptionFull": "BIKE FEST 2026 - the easternmost motorcycle festival in Europe!\n\nThis is not just a festival. It is a gathering of people united by love for motorcycles, real human connection, music and the atmosphere of true summer.\n\nLocation: Narva Castle grounds, Estonia, Peetri plats 7.\nDate: 18.07.2026. Format: Open Air. Start: 18:00.\nwww.bikefest.ee\n\nMotorcycle parade: gathering at Peetri plats 12:00, ride starts 13:00.\n\nLive Rock Music: ZIGGY WILD, AVENUE, O'MORALES, RockShock.\n\nTickets (fienta.com/bike-fest-2026):\nDriver Pass (motorcycle riders only): festival entry, tent space, motorcycle parking in a guarded area. Motorcycle parking and tent setup available already from Friday 17.07.2026 kl 18:00.\nDay Pass: festival entry, valid 18.07.2026 from 18:00. Passengers arriving by motorcycle enter with a regular Day Pass.\nDriver and Day Pass allow free re-entry to the festival area.\n\nHotel discount code MAGNUM from festival partners, partner list at bikefest.ee.\n\nContact: info@bikefest.ee\n\nArrangör: Magnum MC Narva, Narvas enda MC-klubb, grundad 2001.",
+      "backImage": "ads/bike-fest-narva-back-2026-07-18.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1467143497746846"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/MagnumMCNarva"
+        },
+        {
+          "label": "bikefest.ee",
+          "url": "https://www.bikefest.ee"
+        },
+        {
+          "label": "Biljetter",
+          "url": "https://fienta.com/bike-fest-2026"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Peetri+plats+7+Narva",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-emilsturen-2026-07-19",
       "name": "DOA - Emilsturen",
       "date": "2026-07-19",
