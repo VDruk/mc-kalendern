@@ -20982,6 +20982,10 @@ const EVENTS_DATA = {
       "descriptionFull": "Blotsvens MC har arrangerat Strängnäs Bike Show i Ugglans park varje år sedan 1992, traditionsenligt sista lördagen i augusti.\n\nEn trivsam utställning där man kan tävla i sex olika klasser: Caféracer, Classic, US chopper/custom, Peoples choice samt vandringspokalen Erik Westerbergs minne.\n\nAnmälan sker på plats för den som vill ställa ut. Ta med en presentation av motorcykeln.",
       "links": [
         {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=28149450681305025&set=gm.27590076640604900&idorvanity=681479808557948"
+        },
+        {
           "label": "alltommc.se",
           "url": "https://www.alltommc.se/kategori/evenemang/strangnas-bike-show/"
         },
@@ -21046,6 +21050,38 @@ const EVENTS_DATA = {
       "region": "Södermanland",
       "source": "mchk.org",
       "backImage": "ads/mchk-back-2026.jpg"
+    },
+    {
+      "id": "no-time-mc-big-party-2026-08-29",
+      "name": "NO TIME MC Big Party",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "17:00",
+      "type": "Fest",
+      "region": "Västra Götaland",
+      "location": "Ångpannegatan 24, Göteborg",
+      "organizer": "NO TIME MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/notimemc",
+      "_vehicle": "mc",
+      "description": "Årets stora fest i klubblokalen: livemusik, tattoo, food truck och fullproppad bar. Anteckna i kalendern och sätt påminnelser.",
+      "descriptionFull": "Den 29/8 är det dax!!\n\nÅrets BIG PARTY!\n\nDetta vill ni inte missa.\n\nDet blir live musik, Tattoo och food truck!\n\nSjälvklart fullproppad bar och massa goa människor!\n\nSå anteckna i kalendern sätt påminnelser mm!!",
+      "backImage": "ads/no-time-mc-big-party-back-2026-08-29.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2070220477066654"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/notimemc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85ngpannegatan+24+G%C3%B6teborg",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "full-fart-moppers-lasse-cedergren-minnesrunda-2026-08-30",
