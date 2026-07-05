@@ -22581,6 +22581,7 @@ const EVENTS_DATA = {
       "descriptionFull": "Brunnbäck Crusaders arrangerar mopedrally.\n\nSöndag 6 september vid Fors Folkets Hus, Rundavägen 12, Fors - 15 km från Avesta mot Gävle.\n\nStart kl 10:00. Startavgift 200 kr inkl kaffe före start och thaimat efter mål. Banlängd ca 75 km.\n\nMaten serveras från kl 12 (matleverantör Lilla Asien Avesta).\n\nMer info: Håkan 070-676 43 43, Peter 070-242 76 62.\n\nArrangör: Brunnbäck Crusaders.\n\nPlats: Fors Folkets Hus, Rundavägen 12, Fors.",
       "backImage": "ads/brunnback-mopedrally-fors-back-2026-09-06.jpg",
       "links": [
+        {"label": "FB Event", "url": "https://www.facebook.com/events/1520544142860645"},
         {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=10163144625561317&set=gm.3067886170077414&idorvanity=486244568241600"},
         {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Fors+Folkets+Hus+Rundav%C3%A4gen+12+Fors+Avesta", "type": "map"}
       ],
