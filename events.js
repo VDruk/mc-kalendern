@@ -10529,6 +10529,7 @@ const EVENTS_DATA = {
       "_vehicle": "mc",
       "description": "Drop-in fikaträff för hojåkare längs Humleslingan. Kafé och vandrarhem med utsikt över åkrarna. Under träffen: räksmörgås på hembakat rågbröd + kaffe 115 kr.",
       "descriptionFull": "Ta en tur längs Humleslingans vackra vägar och gör ett stopp hos oss på Humletorkan för en stunds avkoppling och trevligt umgänge. Försommarlandskapet visar sig från sin bästa sida med grön bokskog, blommande vägkanter och öppna vyer över landskapet.\n\nVi serverar fika, smörgåsar och gott kaffe i mysig miljö. Parkera hojen, slå dig ner och njut av en paus tillsammans med andra motorcykelentusiaster.\n\nTid: Fredag 10 juli kl 14-16 (drop-in).\nPlats: Humletorkan, Klagstorpsvägen 1, Näsum.\n\nErbjudande under träffen: Vår klassiska räksmörgås på hembakat rågbröd + kaffe 115 kr.\n\nAlla är varmt välkomna!",
+      "backImage": "ads/humletorkan-mc-traff-back-2026.jpg",
       "links": [
         {
           "label": "FB Event",
@@ -10558,8 +10559,9 @@ const EVENTS_DATA = {
       "source": "facebook.com",
       "link": "https://www.facebook.com/ostraamtervikshembygdsforening",
       "_vehicle": "both",
-      "description": "Veteranfordonsdag med mopedrally i Värmland 11 juli 2026. Utställning av traktorer, bilar, mopeder och motorcyklar vid hembygdsgården Ås Brunn. Priser till alla deltagare i rallyt.",
-      "descriptionFull": "Lördag 11 juli kl 11.00: Veteranfordonsdagen på Ås Brunn.\n\nUtställning av traktorer, bilar, mopeder och motorcyklar.\n\nMopedrally med priser till alla deltagare!\n\nPlats: Östra Ämterviks hembygdsgård, Ås Brunn, Södra Ås 110, Östra Ämtervik.\n\nArrangör: Östra Ämterviks hembygdsförening.",
+      "description": "Veteranfordonsdag med mopedrally i Värmland 11 juli 2026. Utställning av traktorer, bilar, mopeder och motorcyklar vid hembygdsgården Ås Brunn. Fri entré, priser till alla i rallyt.",
+      "descriptionFull": "Lördag 11 juli kl 11.00: Veteranfordonsdagen på Ås Brunn.\n\nUtställning av traktorer, bilar, mopeder, motorcyklar och redskap.\n\nMopedrally med priser till alla deltagare!\n\nFri entré. Försäljning av hamburgare. Kaffe och glass i restaurangen.\n\nPlats: Östra Ämterviks hembygdsgård, Ås Brunn, Södra Ås 110, Östra Ämtervik.\n\nArrangörer: LRF:s lokalavdelning och Östra Ämterviks hembygdsförening.",
+      "backImage": "ads/veteranfordonsdag-as-brunn-back-2026-07-11.jpg",
       "links": [
         {
           "label": "FB Event",
@@ -13596,6 +13598,7 @@ const EVENTS_DATA = {
       "_vehicle": "mc",
       "description": "Drop-in fikaträff för hojåkare längs Humleslingan. Kafé och vandrarhem med utsikt över åkrarna. Under träffen: räksmörgås på hembakat rågbröd + kaffe 115 kr.",
       "descriptionFull": "Ta en tur längs Humleslingans vackra vägar och gör ett stopp hos oss på Humletorkan för en stunds avkoppling och trevligt umgänge. Försommarlandskapet visar sig från sin bästa sida med grön bokskog, blommande vägkanter och öppna vyer över landskapet.\n\nVi serverar fika, smörgåsar och gott kaffe i mysig miljö. Parkera hojen, slå dig ner och njut av en paus tillsammans med andra motorcykelentusiaster.\n\nTid: Fredag 24 juli kl 14-16 (drop-in).\nPlats: Humletorkan, Klagstorpsvägen 1, Näsum.\n\nErbjudande under träffen: Vår klassiska räksmörgås på hembakat rågbröd + kaffe 115 kr.\n\nAlla är varmt välkomna!",
+      "backImage": "ads/humletorkan-mc-traff-back-2026.jpg",
       "links": [
         {
           "label": "FB Event",
@@ -18546,6 +18549,7 @@ const EVENTS_DATA = {
       "_vehicle": "moped",
       "description": "Mopedrally i Täby (Stockholm) 15 augusti 2026 för mopeder minst 20 år gamla. Samling kl 10 vid MHS klubbhus i Arninge, start kl 11. Föranmälan på mhs.se. Medlemmar gratis, övriga 100 kr.",
       "descriptionFull": "MHS rally för mopeder minst 20 år gamla.\n\nSamling vid MHS klubbhus på Polygonvägen 19 i Arninge, Täby kl 10. Start kl 11. Parkering finns.\n\nFöranmälan gäller och görs på www.mhs.se under \"Evenemang\".\n\nDeltagaravgift: MHS-medlemmar gratis mot uppvisande av medlemskort. Icke medlemmar 100 kr. Betala gärna i förskott via Swish 123 453 64 21 eller till plusgiro 40 14 41-1. Ange \"Startavgift Mopedrallyt\" och ditt namn på betalningen.\n\nFrågor? Ring 08-702 07 06 måndag 18-21 eller torsdag 9-12.\n\nVälkomna!\n\nArrangör: Motorhistoriska Sällskapet i Sverige (MHS).",
+      "backImage": "ads/mhs-mopedrally-back-2026-08-15.jpg",
       "links": [
         {
           "label": "FB Event",
