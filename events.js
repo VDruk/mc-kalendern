@@ -16192,6 +16192,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "leksand-gagnef-mck-onsdagstur-2026-08-05",
+      "name": "Onsdagstur",
+      "date": "2026-08-05",
+      "dateEnd": "2026-08-05",
+      "time": "18:00",
+      "type": "Körning",
+      "region": "Dalarna",
+      "location": "Djurås",
+      "organizer": "Leksand Gagnef MCK",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/leksandgagnefmck",
+      "_vehicle": "mc",
+      "description": "Onsdagsturerna är tillbaka efter julipausen. Veckans tur med Leksand Gagnef MCK startar kl 18 i Djurås.",
+      "descriptionFull": "Nu tar vi julipaus med onsdagsturer och återkommer 5 augusti.\n\nOnsdagstur med Leksand Gagnef MCK. Start kl 18:00 i Djurås.\n\nLeksand Gagnef MCK kör onsdagsturer under sommaren. Klubbens större arrangemang är Kvällsträffen.",
+      "backImage": "ads/leksand-gagnef-mck-onsdagstur-back-2026-08-05.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1027362809691997"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/leksandgagnefmck"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Djur%C3%A5s",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-08-06",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-08-06",
