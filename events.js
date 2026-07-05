@@ -24717,6 +24717,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "septemberturen-haninge-nynashamn-2026-09-13",
+      "name": "Septemberturen Haninge och Nynäshamn",
+      "date": "2026-09-13",
+      "dateEnd": "2026-09-13",
+      "time": "14:00",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "GULF Tungelsta, Södertäljevägen 19, Tungelsta",
+      "organizer": "Nationaldagsturen Haninge",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1820494829359854",
+      "_vehicle": "mc",
+      "description": "En lite längre söndagstur via Muskö, Nynäshamn och Stora Vika som avslutas med fika på Rosenhill. Krokiga vägar, så var trygg bakom styret. Alla sorters MC är välkomna.",
+      "descriptionFull": "Detta är en lite längre tur som, via Muskö, Nynäshamn och Stora Vika avslutas med en fika på Rosenhill.\n\nVägen är rätt krokig så man bör vara trygg bakom styret i laglig hastighet+.\n\nStart: GULF Tungelsta, Södertäljevägen 19, Tungelsta, kl 14:00.\n\nAlla sorters MC får vara med, the more the merrier.",
+      "backImage": "ads/septemberturen-haninge-back-2026-09-13.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1820494829359854"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/1413350486527314/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6dert%C3%A4ljev%C3%A4gen+19+Tungelsta",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "gota-ms-crosskola-2026-09-14",
       "name": "Crosskolan",
       "date": "2026-09-14",
