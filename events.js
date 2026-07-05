@@ -10110,6 +10110,39 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motortraff-sovde-badkiosk-2026-07-08",
+      "name": "Motorträff i Sövde",
+      "date": "2026-07-08",
+      "dateEnd": "2026-07-08",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-07-09",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-07-09",
@@ -11135,6 +11168,44 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "smc-ostergotland-knix-herstadberg-2026-07-12",
+      "name": "Knix vid Herstadberg",
+      "date": "2026-07-12",
+      "dateEnd": "2026-07-12",
+      "time": "10:00",
+      "endTime": "15:00",
+      "type": "Körning",
+      "region": "Östergötland",
+      "location": "Bilprovningen Norrköping-Herstadberg, Norrköping",
+      "organizer": "SMC Östergötland",
+      "organizerIcon": "clubs/normalized/smc.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1941650630047825",
+      "_vehicle": "mc",
+      "description": "Knixkurs för alla nivåer: tre grupper från lugnt tempo till högre fart. Körpass 20 min, förarmöte 45 min innan start. 300 kr medlem, 450 kr icke-medlem. Anmälan via svmc.se.",
+      "descriptionFull": "Välkommen till Knixkurs på Bilprovningen i Norrköping med SMC Östergötland!\n\nNybörjare eller rutinerade/erfarna mc-åkare, med eller utan passagerare och oavsett motorcykel. Du kör i ditt eget tempo efter din förmåga! Alla är välkomna!\n\nOM KURSEN\nDenna dag ges möjligheter att få ökad förståelse för hur din motorcykel beter sig, hur du som förare kan få bättre kontroll genom blick, körställning, planering inför kurva mm. Genom god taktik och teknik blir du en säkrare förare som kommer fram dit du ska varje gång du åker motorcykel.\n\nVi kommer ha tre olika grupper.\nGrupp 1: För dig som kör första gången på kursen eller vill köra i ett lugnt tempo.\nGrupp 2: För dig som kört knix tidigare och som vill prova ett lite högre tempo än grupp 1.\nGrupp 3: För dig som vill prova ett lite högre tempo än grupp 2 och kan köra stabilt, kontrollerat och säkert även i lite högre tempo.\n\nEtt körpass är 20 min.\n\nÄr du osäker vilken grupp som är lämplig för dig? Anmäl dig till den gruppen du tror passar bäst. Vi kan flytta deltagare mellan grupper under kursen.\n\nVIKTIGT! Kom i god tid, gärna en och en halvtimme innan kursstart. Förarmöte hålls 45 min innan kursstart, där alla skall deltaga.\n\nANMÄLAN\nNär du anmält dig till kursen skall betalning vara genomförd senast 1 timme efter din anmälan, annars kan din anmälan tas bort. Anmälan är bindande och ingen återbetalning medges. Om SMC tvingas ställa in kursen återbetalas hela anmälningsavgiften.\n\nPris: 300 kr för medlemmar och 450 kr för icke medlemmar. Betalning till Swish 1235 63 80 93, ange namn och kursdatum.\n\nÖVNINGSKÖRNING\nÖvningskörare skall ha sin handledare med sig. Handledaren behöver ej deltaga. Mer info: svmc.se/ostergotland/kurser/grundkurser/\n\nDet finns ingen servering på banan, så medtag egen fika och vattenflaska.\n\nMer info om KNIX: svmc.se/ostergotland/kurser/knixkurs/\n\nVälkommen!",
+      "backImage": "ads/smc-ostergotland-knix-herstadberg-back-2026-07-12.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1941650630047825"
+        },
+        {
+          "label": "Anmälan",
+          "url": "https://grundkurser.svmc.se/boka/710241de-3c7e-11f1-8428-020234399001/deltagare"
+        },
+        {
+          "label": "svmc.se",
+          "url": "https://www.svmc.se/ostergotland/kurser/knixkurs/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=58.627092,16.164458",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-07-13",
       "name": "Classic Motor Monday",
       "date": "2026-07-13",
@@ -11716,6 +11787,39 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motortraff-sovde-badkiosk-2026-07-15",
+      "name": "Motorträff i Sövde",
+      "date": "2026-07-15",
+      "dateEnd": "2026-07-15",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-07-16",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-07-16",
@@ -11859,6 +11963,35 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+    },
+    {
+      "id": "motortraff-svalbo-cafe-2026-07-16",
+      "name": "Motorträff Svalbo cafe",
+      "date": "2026-07-16",
+      "dateEnd": "2026-07-16",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Örebro",
+      "location": "Svalbo cafe, Järle, Nora",
+      "organizer": "Svalbo cafe och keramik",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2421792464893030",
+      "_vehicle": "both",
+      "description": "Motorträff med musik och mat vid Järleåns naturreservat, varannan torsdag (ojämna veckor) kl 17-20. Grillat, smörgåsar, thaimat och fika.",
+      "descriptionFull": "Motorträffar 2026 - musik och mat.\n\nMotorträffar i sommar varannan torsdag, ojämna veckor, kl. 17.00-20.00. Man kommer som vanligt att kunna köpa grillat, smörgåsar och godsaker, thaimat.\n\nProgram:\n21 maj Blue Mountains Hillbillies\n4 juni The Rockwells Brothers\n6 juni traktorparad\n18 juni Buddy Larsson & Rimcross\n2 juli Gubb Keps\n16 juli\n30 juli\n13 augusti Anders Sister\n27 augusti Samarbete med SHRA Bergslagens snyggaste bil EWA EASTWOOD\n\nAlla är välkomna! Bandet börjar ca 18.00.\n\nDet finns hamburgare och smörgåsar, thaimat och fika. Vid rikligt regn så finns endast fika.\n\nMvh Mia 0729 43 92 68\n\nPlats: Svalbo cafe och keramik, vid Järleåns naturreservat, Nora.",
+      "backImage": "ads/motortraff-svalbo-cafe-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2421792464893030"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Svalbo+caf%C3%A9+och+Mias+Godsaker+J%C3%A4rle",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "dog-bergsjotraffen-2026",
@@ -12509,6 +12642,39 @@ const EVENTS_DATA = {
       "backImage": "ads/vrs-wilma-memorial-back-2026-07-18.jpg"
     },
     {
+      "id": "krakestans-mc-kortege-2026-07-18",
+      "name": "Kråkestans MC Kortege",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "time": "13:30",
+      "endTime": "16:30",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "Bike Trollhättan, Lextorpsvägen 997, Trollhättan",
+      "organizer": "Kråkestans MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1503494230849212",
+      "_vehicle": "mc",
+      "description": "Årlig välgörenhetskortege för barnen på NÄL. Samling 13:30 vid Bike Trollhättan, start 14:00. Deltagaravgift från 100 kr går oavkortat till barnavdelningen.",
+      "descriptionFull": "KRÅKEKORTEGEN 2026\n\nVälgörenhetskortege för barnen på NÄL.\n\nKråkekortegen är ett årligt välgörenhetsevenemang där motorcykelförare visar solidaritet med barn som vårdas på Norra Älvsborgs Länssjukhus (NÄL). Deltagaravgiften går oavkortat till presenter och gåvor som gör sjukhusvardagen lite ljusare.\n\n13:30 Samling - BIKE Trollhättan\n14:00 Start\n15:00 Passage över klaffbron\n\nEn gemensam och naturskön runda runt Trollhättan på mindre vägar. Kortegen passerar sedan genom stadskärnan, kör över Oscarsbron mellan fallpåsläppet, fortsätter vidare till ett uppehåll vid NÄL sjukhus och avslutas vid Kråkestans klubbstuga på Överby.\n\n100 kr/person eller uppåt via Swish: 123 369 42 96.\nFör dig som inte har möjlighet att delta men ändå vill bidra: märk Swish-betalningen med \"Barnavdelningen NÄL\".\n\nVid klubbstugan finns korv med mos och kaffe & dopp - och tid att umgås.\n\nAlla insamlade medel går direkt till barnavdelningen på NÄL och används till gåvor som skapar trygghet och glädje under barnens sjukhusvistelse.",
+      "backImage": "ads/krakestans-mc-kortege-back-2026-07-18.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1503494230849212"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/1814532559372027/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lextorpsv%C3%A4gen+997+Trollh%C3%A4ttan",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-emilsturen-2026-07-19",
       "name": "DOA - Emilsturen",
       "date": "2026-07-19",
@@ -13108,6 +13274,39 @@ const EVENTS_DATA = {
       ],
       "backImage": "ads/mcv-sommarfest-everod-back-2026-07-22.jpg",
       "organizerIcon": "clubs/normalized/mcv-osterlen.png"
+    },
+    {
+      "id": "motortraff-sovde-badkiosk-2026-07-22",
+      "name": "Motorträff i Sövde",
+      "date": "2026-07-22",
+      "dateEnd": "2026-07-22",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "bjarnums-museum-bil-mc-traff-2026-07-23",
@@ -14481,6 +14680,39 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motortraff-sovde-badkiosk-2026-07-29",
+      "name": "Motorträff i Sövde",
+      "date": "2026-07-29",
+      "dateEnd": "2026-07-29",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-07-30",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-07-30",
@@ -14738,6 +14970,35 @@ const EVENTS_DATA = {
         }
       ],
       "organizerIcon": "clubs/normalized/gwcs.png"
+    },
+    {
+      "id": "motortraff-svalbo-cafe-2026-07-30",
+      "name": "Motorträff Svalbo cafe",
+      "date": "2026-07-30",
+      "dateEnd": "2026-07-30",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Örebro",
+      "location": "Svalbo cafe, Järle, Nora",
+      "organizer": "Svalbo cafe och keramik",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2421792464893030",
+      "_vehicle": "both",
+      "description": "Motorträff med musik och mat vid Järleåns naturreservat, varannan torsdag (ojämna veckor) kl 17-20. Grillat, smörgåsar, thaimat och fika.",
+      "descriptionFull": "Motorträffar 2026 - musik och mat.\n\nMotorträffar i sommar varannan torsdag, ojämna veckor, kl. 17.00-20.00. Man kommer som vanligt att kunna köpa grillat, smörgåsar och godsaker, thaimat.\n\nProgram:\n21 maj Blue Mountains Hillbillies\n4 juni The Rockwells Brothers\n6 juni traktorparad\n18 juni Buddy Larsson & Rimcross\n2 juli Gubb Keps\n16 juli\n30 juli\n13 augusti Anders Sister\n27 augusti Samarbete med SHRA Bergslagens snyggaste bil EWA EASTWOOD\n\nAlla är välkomna! Bandet börjar ca 18.00.\n\nDet finns hamburgare och smörgåsar, thaimat och fika. Vid rikligt regn så finns endast fika.\n\nMvh Mia 0729 43 92 68\n\nPlats: Svalbo cafe och keramik, vid Järleåns naturreservat, Nora.",
+      "backImage": "ads/motortraff-svalbo-cafe-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2421792464893030"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Svalbo+caf%C3%A9+och+Mias+Godsaker+J%C3%A4rle",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "halsingetraffen-55-2026",
@@ -15898,6 +16159,39 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motortraff-sovde-badkiosk-2026-08-05",
+      "name": "Motorträff i Sövde",
+      "date": "2026-08-05",
+      "dateEnd": "2026-08-05",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-08-06",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-08-06",
@@ -16831,6 +17125,38 @@ const EVENTS_DATA = {
       "organizerIcon": "clubs/normalized/mcv-osterlen.png"
     },
     {
+      "id": "varmlandssafari-motorcykel-2026-08-08",
+      "name": "Värmlandssafari på motorcykel",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "type": "Körning",
+      "region": "Värmland",
+      "location": "Romstadsvägen 2, Karlstad",
+      "organizer": "Bengt-Martins",
+      "organizerIcon": "clubs/normalized/bengt-martins.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1570534947760905",
+      "_vehicle": "mc",
+      "description": "Heldagstur på MC i grupp, på både asfalt- och grusvägar, genom Fryksdalen och Klarälvsdalen. Frukost i Karlstad, lunch i Sunnetrakten, middag på Julins BBQ. Boka plats!",
+      "descriptionFull": "En heldags tur på motorcykel i grupp, på både asfalt- och grusvägar, genom Fryksdalen och Klarälvsdalen.\n\nFrukost i Karlstad, lunch i Sunnetrakten och middag på Julins BBQ i Karlstad ingår.\n\nFör att deltaga behöver du ha egen motorcykel och boka plats.\n\nBegränsat antal platser.",
+      "backImage": "ads/varmlandssafari-back-2026-06-13.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1570534947760905"
+        },
+        {
+          "label": "Boka plats",
+          "url": "https://www.bengt-martins.se/gruppresor/varmlandssafari"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Romstadsv%C3%A4gen+2+Karlstad",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bmw-d11-norra-smaland-runt-2026",
       "name": "D11 Norra Småland Runt",
       "date": "2026-08-09",
@@ -17016,6 +17342,10 @@ const EVENTS_DATA = {
         {
           "label": "FB Event",
           "url": "https://www.facebook.com/events/1776197470491385"
+        },
+        {
+          "label": "FB Event (2)",
+          "url": "https://www.facebook.com/events/2195116737720356"
         },
         {
           "label": "Karta",
@@ -17475,6 +17805,72 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motortraff-sovde-badkiosk-2026-08-12",
+      "name": "Motorträff i Sövde",
+      "date": "2026-08-12",
+      "dateEnd": "2026-08-12",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "aminnebruk-motortraff-musik-2026-08-12",
+      "name": "Motorträff med musik på Åminne bruk",
+      "date": "2026-08-12",
+      "dateEnd": "2026-08-12",
+      "time": "17:00",
+      "endTime": "21:00",
+      "type": "Träff",
+      "region": "Jönköping",
+      "location": "Åminne Bruksmuseum, Åminne bruk, Värnamo",
+      "organizer": "Åminne Bruk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/aminnebruk",
+      "_vehicle": "both",
+      "description": "Kvällsträff för två-, tre- och fyrhjulsburna entusiaster med livemusik av Chuck's Beat. Entré 40 kr inkl museum och konstutställning. Korv, våffla, kaffe och hamburgare.",
+      "descriptionFull": "Motorträff med musik 12/8 för två-, tre- och fyrhjulsburna entusiaster på Åminne Bruk.\n\nVälkomna den 12 augusti kl 17. Det kommer bjudas på musik av Chuck's Beat.\n\nEntré 40 kr. Vi tar swish, kontanter och kort.\n\nDu som hade tänkt komma och titta, vänligen parkera på samhället så entusiastfordon får plats inne på bruksområdet. Finns parkeringsmöjlighet bl a vid missionskyrkan, på badplatsen och vid Åmini.\n\nServering av korv, kaffe och våffla. I samarbete med Wernamo Food & Event kommer även hamburgare att serveras under kvällen. Hamburgare säljs utanför i tält men missa inte vår försäljning av korv, våffla och kaffe inomhus i vår fina festlokal som bara måste upplevas.\n\nPassa även på att besöka vårt museum och pågående konstutställning. Ingår i entrén. Där har vi även glassförsäljning.\n\nVarmt välkomna!\n\nPS: Hjälp oss gärna att sprida inbjudan genom att dela på Facebook och bjuda in era vänner.",
+      "backImage": "ads/aminnebruk-motortraff-musik-back-2026-08-12.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2232625993813522"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/aminnebruk"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85minne+Bruksmuseum+V%C3%A4rnamo",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-08-13",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-08-13",
@@ -17787,6 +18183,35 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "motortraff-svalbo-cafe-2026-08-13",
+      "name": "Motorträff Svalbo cafe",
+      "date": "2026-08-13",
+      "dateEnd": "2026-08-13",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Örebro",
+      "location": "Svalbo cafe, Järle, Nora",
+      "organizer": "Svalbo cafe och keramik",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2421792464893030",
+      "_vehicle": "both",
+      "description": "Motorträff med musik och mat vid Järleåns naturreservat, varannan torsdag (ojämna veckor) kl 17-20. Grillat, smörgåsar, thaimat och fika. Denna kväll spelar Anders Sister.",
+      "descriptionFull": "Motorträffar 2026 - musik och mat.\n\nMotorträffar i sommar varannan torsdag, ojämna veckor, kl. 17.00-20.00. Man kommer som vanligt att kunna köpa grillat, smörgåsar och godsaker, thaimat.\n\nProgram:\n21 maj Blue Mountains Hillbillies\n4 juni The Rockwells Brothers\n6 juni traktorparad\n18 juni Buddy Larsson & Rimcross\n2 juli Gubb Keps\n16 juli\n30 juli\n13 augusti Anders Sister\n27 augusti Samarbete med SHRA Bergslagens snyggaste bil EWA EASTWOOD\n\nAlla är välkomna! Bandet börjar ca 18.00.\n\nDet finns hamburgare och smörgåsar, thaimat och fika. Vid rikligt regn så finns endast fika.\n\nMvh Mia 0729 43 92 68\n\nPlats: Svalbo cafe och keramik, vid Järleåns naturreservat, Nora.",
+      "backImage": "ads/motortraff-svalbo-cafe-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2421792464893030"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Svalbo+caf%C3%A9+och+Mias+Godsaker+J%C3%A4rle",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "aprilia-bandag-kinnekulle-2026-08-14",
@@ -19280,6 +19705,39 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motortraff-sovde-badkiosk-2026-08-19",
+      "name": "Motorträff i Sövde",
+      "date": "2026-08-19",
+      "dateEnd": "2026-08-19",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-08-20",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-08-20",
@@ -20604,6 +21062,39 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "motortraff-sovde-badkiosk-2026-08-26",
+      "name": "Motorträff i Sövde",
+      "date": "2026-08-26",
+      "dateEnd": "2026-08-26",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-dagstur-ekero-2026-08-27",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-08-27",
@@ -20773,6 +21264,35 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+    },
+    {
+      "id": "motortraff-svalbo-cafe-2026-08-27",
+      "name": "Motorträff Svalbo cafe",
+      "date": "2026-08-27",
+      "dateEnd": "2026-08-27",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Örebro",
+      "location": "Svalbo cafe, Järle, Nora",
+      "organizer": "Svalbo cafe och keramik",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2421792464893030",
+      "_vehicle": "both",
+      "description": "Motorträff med musik och mat vid Järleåns naturreservat, varannan torsdag (ojämna veckor) kl 17-20. Grillat, smörgåsar, thaimat och fika. Denna kväll: samarbete med SHRA Bergslagens snyggaste bil EWA EASTWOOD.",
+      "descriptionFull": "Motorträffar 2026 - musik och mat.\n\nMotorträffar i sommar varannan torsdag, ojämna veckor, kl. 17.00-20.00. Man kommer som vanligt att kunna köpa grillat, smörgåsar och godsaker, thaimat.\n\nProgram:\n21 maj Blue Mountains Hillbillies\n4 juni The Rockwells Brothers\n6 juni traktorparad\n18 juni Buddy Larsson & Rimcross\n2 juli Gubb Keps\n16 juli\n30 juli\n13 augusti Anders Sister\n27 augusti Samarbete med SHRA Bergslagens snyggaste bil EWA EASTWOOD\n\nAlla är välkomna! Bandet börjar ca 18.00.\n\nDet finns hamburgare och smörgåsar, thaimat och fika. Vid rikligt regn så finns endast fika.\n\nMvh Mia 0729 43 92 68\n\nPlats: Svalbo cafe och keramik, vid Järleåns naturreservat, Nora.",
+      "backImage": "ads/motortraff-svalbo-cafe-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2421792464893030"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Svalbo+caf%C3%A9+och+Mias+Godsaker+J%C3%A4rle",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "brudfjallstraffen-2026-08-28",
@@ -21727,6 +22247,39 @@ const EVENTS_DATA = {
       "backImage": "ads/smc-default-back.jpg"
     },
     {
+      "id": "motortraff-sovde-badkiosk-2026-09-02",
+      "name": "Motorträff i Sövde",
+      "date": "2026-09-02",
+      "dateEnd": "2026-09-02",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-dagstur-ekero-2026-09-03",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-09-03",
@@ -22015,6 +22568,38 @@ const EVENTS_DATA = {
       "region": "Stockholm",
       "source": "facebook.com",
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
+    },
+    {
+      "id": "aminnebruk-motortraff-2026-09-03",
+      "name": "Motorträff Åminne bruk",
+      "date": "2026-09-03",
+      "dateEnd": "2026-09-03",
+      "time": "16:00",
+      "type": "Träff",
+      "region": "Jönköping",
+      "location": "Åminne Bruksmuseum, Åminne bruk, Värnamo",
+      "organizer": "Wernamo Food & Event",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/wernamofood",
+      "_vehicle": "both",
+      "description": "Motorträff vid vackra Åminne bruk utanför Värnamo. Ta med familjen, kompisar och vänner för en härlig kväll bland vackra fordon. Hamburgare finns att köpa.",
+      "descriptionFull": "Motorträff vid vackra Åminnebruk.\n\nTa med familjen, kompisar och vänner för en härlig kväll bland vackra fordon.\n\nStanna gärna förbi oss, och köp en hamburgare.\n\nPlats: Åminne Bruksmuseum, Åminne bruk, 331 91 Värnamo.\n\nArrangör: Wernamo Food & Event.",
+      "backImage": "ads/aminnebruk-motortraff-back-2026-09-03.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/923565660441353"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/wernamofood"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85minne+Bruksmuseum+V%C3%A4rnamo",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "do-c-unnarydstraffen-2026",
@@ -22625,6 +23210,66 @@ const EVENTS_DATA = {
       "organizerIcon": "clubs/normalized/mcv-osterlen.png"
     },
     {
+      "id": "no-name-mc-strengnas-swap-meet-2026-09-05",
+      "name": "Motorcycle Swap Meet",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "10:00",
+      "type": "Träff",
+      "region": "Södermanland",
+      "location": "Elofsbergsvägen 25, Strängnäs",
+      "organizer": "No Name MC Strengnäs",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=100054318710276",
+      "_vehicle": "mc",
+      "description": "Swap meet för MC-delar hos No Name MC. Gratis entré och gratis säljbord (boka via mail). Säljare från kl 09, gäster från kl 10. Korv, fika och dryck. Barhäng från kl 17.",
+      "descriptionFull": "Varmt välkomna på MC Swap Meet hos No Name MC Strengnäs!\n\nSäljare är välkomna från kl. 09.00 för att ställa upp saker och övriga gäster från kl. 10.00.\n\nKorv med bröd, fika och dryck kommer att finnas på plats.\n\nHör av er till swapmeet@nonamemc.se om ni vill ha ett bord och sälja era MC-delar!\n\nVi avslutar med ett barhäng på kvällen från kl. 17.00!\n\nLite svar på frågor vi fått:\nVad kostar det för säljare? Svar: Gratis - men ni behöver boka bord. Kontakta swapmeet@nonamemc.se\nÄr det inomhus eller utomhus? Svar: Beror lite på väder, men om det är fint, så både och. Annars inne.\nKostar det något att gå in? Svar: Nej.\nStorlek på bord? Svar: Cirka 2 meter x 60-70 cm.",
+      "backImage": "ads/no-name-mc-strengnas-swap-meet-back-2026-09-05.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1701543954495332"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100054318710276"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Elofsbergsv%C3%A4gen+25+Str%C3%A4ngn%C3%A4s",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "hyssna-motortraff-2026-09-05",
+      "name": "Hyssna motorträff",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "09:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Hyssnaskolan, Hyssna",
+      "organizer": "William Ivarson",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1744076163442831",
+      "_vehicle": "both",
+      "description": "Andra upplagan av motorträffen i samband med Hyssnadagen. Förra året kom nästan 80 fordon. Lotterier, tävlingar, marknad, musik och foodtrucks. Alla fordon välkomna.",
+      "descriptionFull": "Jajamän, det blir en till upplaga av Hyssna motorträff!\n\nFörra året och även första året vart en succé! Med nästan 80 st olika fordon som kom så satsar vi i år på ännu fler!\n\nDetta är en perfekt dag för alla åldrar då det är i samband med Hyssnadagen. Det finns allt från lotterier, tävlingar, testa på sporter, marknad, musik, foodtrucks och mycket mer!\n\nSå har du ett fordon som du gärna visar upp för andra så borde du komma och även ta med dig en vän såklart.\n\nMer information kommer att komma lite löpande så håll utkik!\n\nPlats: Hyssnaskolan, Hyssna.",
+      "backImage": "ads/hyssna-motortraff-back-2026-09-05.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1744076163442831"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hyssnaskolan+Hyssna",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "brunnback-crusaders-mopedrally-fors-2026-09-06",
       "name": "Mopedrally i Fors",
       "date": "2026-09-06",
@@ -23121,6 +23766,39 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/smc-default-back.jpg"
+    },
+    {
+      "id": "motortraff-sovde-badkiosk-2026-09-09",
+      "name": "Motorträff i Sövde",
+      "date": "2026-09-09",
+      "dateEnd": "2026-09-09",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "doa-dagstur-ekero-2026-09-10",
@@ -24251,6 +24929,39 @@ const EVENTS_DATA = {
       "backImage": "ads/smc-default-back.jpg"
     },
     {
+      "id": "motortraff-sovde-badkiosk-2026-09-16",
+      "name": "Motorträff i Sövde",
+      "date": "2026-09-16",
+      "dateEnd": "2026-09-16",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-dagstur-ekero-2026-09-17",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-09-17",
@@ -24927,6 +25638,33 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "norrala-mopedfantaster-2026-09-19",
+      "name": "Norrala Mopedfantaster",
+      "date": "2026-09-19",
+      "dateEnd": "2026-09-19",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Gävleborg",
+      "location": "Kungsgården 109, Norrala",
+      "organizer": "Norrala Mopedfantaster",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/4420512994935319/",
+      "_vehicle": "moped",
+      "description": "Mopedrally i Norrala utanför Söderhamn (Gävleborg) lördag 19 september 2026. Samling kl 10 med kaffe och smörgås vid Kungsgården, start kl 11.",
+      "descriptionFull": "Samling klockan 10.00 med kaffe och smörgås.\n\nStart klockan 11.00.\n\nPlats: Kungsgården, Kungsgården 109, 826 94 Norrala.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4420512994935319/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kungsg%C3%A5rden+109+Norrala",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "doa-emilsturen-2026-09-20",
       "name": "DOA - Emilsturen",
       "date": "2026-09-20",
@@ -25230,6 +25968,39 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "motortraff-sovde-badkiosk-2026-09-23",
+      "name": "Motorträff i Sövde",
+      "date": "2026-09-23",
+      "dateEnd": "2026-09-23",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
+      "organizer": "Sövde Badkiosk",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/999896992613362",
+      "_vehicle": "both",
+      "description": "Onsdagsträff vid Sövdesjön varje vecka hela sommaren. Ta med bilen, hojen, familjen eller en vän. Glass, korv, kaffe och skön stämning, oavsett väder.",
+      "descriptionFull": "Motorträff vid Sövde Badkiosk - oavsett väder!\n\nOnsdagar kl 17.00-20.00, vid Sövdesjön.\n\nTa med bilen, hojen, familjen eller en vän och kom förbi!\n\nGlass, korv, kaffe och skön stämning väntar.\n\nTräffen återkommer varje onsdag till och med 23 september 2026.\n\nPlats: Sövde Badkiosk, Sövdeborgsvägen 48, Sövde (Sjöbo kommun).",
+      "backImage": "ads/motortraff-sovde-badkiosk-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/999896992613362"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Sovdebadplats"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6vdeborgsv%C3%A4gen+48+S%C3%B6vde",
+          "type": "map"
+        }
+      ]
     },
     {
       "id": "doa-dagstur-ekero-2026-09-24",
