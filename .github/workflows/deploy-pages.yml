@@ -28,7 +28,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -42,6 +42,22 @@ jobs:
         with:
           path: .
 
+      # GitHub's Pages backend has been flaky since 2026-07-05 ("Deployment failed,
+      # try again later" at random). A fresh attempt ~1 minute later almost always
+      # succeeds, so we retry automatically instead of needing a manual re-dispatch.
+      # NOTE: never use the "Re-run failed jobs" button on this workflow - a re-run
+      # uploads a second "github-pages" artifact into the same run and deploy-pages
+      # fails with "Multiple artifacts". Use "Run workflow" (fresh run) instead.
       - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Wait before retry
+        if: steps.deployment.outcome == 'failure'
+        run: echo "First deploy attempt failed, waiting 60s before retry..." && sleep 60
+
+      - name: Deploy to GitHub Pages (attempt 2)
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
