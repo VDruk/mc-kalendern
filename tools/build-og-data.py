@@ -74,7 +74,9 @@ def main():
         out[eid] = [
             name,
             short_desc(ev),
-            (ev.get("backImage") or "").strip(),
+            # backImage preferred; poster cards (Type 2) often only have
+            # frontImage - use it so previews/JSON-LD get a real image
+            (ev.get("backImage") or ev.get("frontImage") or "").strip(),
             (ev.get("date") or "").strip(),
             (ev.get("dateEnd") or "").strip(),
             (ev.get("time") or "").strip(),

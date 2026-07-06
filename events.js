@@ -18791,8 +18791,8 @@ const EVENTS_DATA = {
       "location": "Runt Mälaren",
       "organizer": "Mälaren Runt",
       "source": "web",
-      "link": "https://www.svmc.se/club/maelaren-runt/",
-      "description": "Sveriges och ett av Europas största motorcykelevenemang. Ca 300 km runt Mälaren med stater från bland annat Bålsta och Nykvarn.",
+      "link": "https://www.svmc.se/maelaren-runt-2026/",
+      "description": "Sveriges största MC-evenemang firar 40 år den 15 augusti 2026. Ca 300 km runt Mälaren med start från Pampas Marina i Solna kl 11 och målgång hos MCE i Järfälla. Över 20 000 motorcyklister väntas.",
       "descriptionFull": "Mälaren Runt fyller 40 år - välkommen den 15 augusti!\n\nI år firar vi 40 år av Mälaren Runt, en av Europas största och mest uppskattade motorcykelträffar. Oavsett om du har varit med i många år eller kör turen för första gången är du varmt välkommen att uppleva en dag fylld av körglädje, gemenskap och motorcykelkultur.\n\nFölj den klassiska rutten runt Mälaren och besök de många aktiviteterna längs vägen. Rutten är skyltad, men tänk på att vissa stopp ligger en kort avstickare från huvudvägen där skyltningen kan vara begränsad.\n\nJubileumsåret bjuder bland annat på:\n- Start från Pampas Marina i Solna kl. 11.00\n- SM i Supermoto i Strängnäs\n- Fikastopp, hojträffar och utställningar längs hela rutten\n- MC Collection på Tidö Slott\n- Minimoto-racing på Pepparrotsbanan i Enköping\n- Målgång hos MCE i Järfälla med mat, dryck och livemusik\n- Traditionell Mälaren Runt-fest hos Strul MCC i Enköping\n\nJubileumsprodukter: Alla deltagare får en Mälaren Runt 40-årsdekal utan kostnad. Dessutom finns årets jubileumsprodukter till försäljning på flera platser längs rutten: t-shirts med jubileumstryck, pins, tygmärken, kepsar, buffar, öronproppar och nyckelringar.\n\nErbjudanden längs vägen: Flera av våra stopp erbjuder rabatter på mat och fika mot uppvisande av årets jubileumsdekal.\n\nHela jubileumsprogrammet, karta, GPX-fil och aktuell trafikinformation publiceras i FB-evenemanget, i SMC-appen och på Mälaren Runts Facebooksida. Trafikinformation uppdateras under veckan före evenemanget.\n\nVälkommen att fira 40 år av Mälaren Runt tillsammans med tusentals andra motorcyklister!\n\nKör snyggt - vi ses den 15 augusti!",
       "links": [
         {
@@ -18801,7 +18801,7 @@ const EVENTS_DATA = {
         },
         {
           "label": "svmc.se",
-          "url": "https://www.svmc.se/club/maelaren-runt/"
+          "url": "https://www.svmc.se/maelaren-runt-2026/"
         }
       ],
       "frontImage": "ads/malaren-runt-poster-front-2026-08-15.jpg"
