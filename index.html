@@ -235,6 +235,20 @@
     border-left: 1px solid var(--border);
     margin-left: 4px;
   }
+  /* "Nära mig" GPS radius filter (mobile only): round pin button next to the
+     search bar. Hidden on desktop; shown in the max-768 media block. */
+  .m-near-btn {
+    display: none;
+    width: 44px; height: 44px; padding: 0; flex-shrink: 0;
+    align-items: center; justify-content: center;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border); border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    color: var(--text-secondary); cursor: pointer;
+  }
+  .m-near-btn svg { width: 19px; height: 19px; }
+  .m-near-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .m-near-btn.busy { opacity: 0.6; pointer-events: none; }
 
   /* ========== HÄNDER JUST NU BAR ========== */
   .hander-bar {
@@ -393,19 +407,6 @@
   .vehicle-toggle .veh-btn.active {
     background: var(--accent); color: #fff; font-weight: 600;
   }
-
-  /* "Nära mig" GPS radius filter button (desktop). Filter, never a sort. */
-  .near-btn {
-    display: inline-flex; align-items: center; gap: 6px;
-    border: 1px solid var(--border); border-radius: 20px;
-    background: var(--bg-secondary); color: var(--text-secondary);
-    font-size: 13px; padding: 6px 14px; cursor: pointer;
-    font-family: inherit; transition: all var(--transition);
-  }
-  .near-btn svg { width: 14px; height: 14px; }
-  .near-btn:hover { color: var(--text-primary); background: var(--bg-card-hover); }
-  .near-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
-  .near-btn.busy { opacity: 0.7; pointer-events: none; }
 
   /* Filter spacer to push right-side items */
   .filter-spacer { flex: 1; }
@@ -822,12 +823,6 @@
     display: -webkit-box; -webkit-line-clamp: 2;
     -webkit-box-orient: vertical; overflow: hidden;
     line-height: 1.5;
-  }
-  /* km distance badge in the location row (desktop). Shown when position is known. */
-  .card-dist {
-    flex-shrink: 0; margin-left: auto;
-    font-size: 12px; font-weight: 600; line-height: 1.5;
-    color: var(--accent); white-space: nowrap;
   }
   .card-desc {
     font-size: 13px; color: var(--text-muted);
@@ -1854,21 +1849,10 @@
     display: none;
     padding: 0 10px 10px;
     gap: 6px;
-    grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto auto;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto;
     align-items: stretch;
     background: var(--bg-primary);
   }
-  /* "Nära mig" GPS button: compact 4th item in the dropdown row */
-  .m-near-btn {
-    width: 40px; height: 40px; padding: 0;
-    display: flex; align-items: center; justify-content: center;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border); border-radius: 10px;
-    color: var(--text-secondary); cursor: pointer;
-  }
-  .m-near-btn svg { width: 18px; height: 18px; }
-  .m-near-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .m-near-btn.busy { opacity: 0.6; pointer-events: none; }
   /* Mobile MC/Moped toggle: compact 3rd item in the dropdown row (no extra height) */
   .m-vehicle-toggle { border-radius: 10px; }
   .m-vehicle-toggle .veh-btn { padding: 0 11px; font-size: 13px; }
@@ -2595,9 +2579,11 @@
     .filters-wrapper { background: transparent; border: 0; box-shadow: none; padding: 0; margin: 0; }
     .filters-inner { padding: 0; margin: 0; }
 
-    /* Search sits below topbar now, no hero to tuck under */
-    .search-section { margin: 10px auto 0; padding: 0 10px; }
-    .search-bar { padding: 4px 6px 4px 14px; height: 44px; }
+    /* Search sits below topbar now, no hero to tuck under.
+       Row layout: search bar flexes, Nära mig pin button takes the right edge. */
+    .search-section { margin: 10px auto 0; padding: 0 10px; display: flex; align-items: center; gap: 8px; }
+    .search-bar { flex: 1; min-width: 0; padding: 4px 6px 4px 14px; height: 44px; }
+    .m-near-btn { display: flex; }
     .search-input { font-size: 14px; }
     .search-count { display: none; }
 
@@ -3032,6 +3018,9 @@
     <button class="search-clear" id="searchClear" aria-label="Rensa sökning">&times;</button>
     <div class="search-count" id="searchCount">0 evenemang</div>
   </div>
+  <button type="button" class="m-near-btn" id="mNearBtn" aria-pressed="false" aria-label="Nära mig: visa endast evenemang inom 100 km" onclick="toggleNearFilter()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+  </button>
 </div>
 
 <!-- ========== MOBILE TIME PILLS (Phase 1) ========== -->
@@ -3083,9 +3072,6 @@
     <button type="button" class="veh-btn" data-veh="mc">MC</button>
     <button type="button" class="veh-btn" data-veh="moped">Moped</button>
   </div>
-  <button type="button" class="m-near-btn" id="mNearBtn" aria-pressed="false" aria-label="Nära mig: visa endast evenemang inom 100 km" onclick="toggleNearFilter()">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-  </button>
 </div>
 
 <!-- ========== FILTERS ========== -->
@@ -3121,10 +3107,6 @@
         <button type="button" class="veh-btn" data-veh="mc">MC</button>
         <button type="button" class="veh-btn" data-veh="moped">Moped</button>
       </div>
-      <button type="button" class="near-btn" id="nearBtn" aria-pressed="false" title="Visa endast evenemang inom 100 km från dig" onclick="toggleNearFilter()">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        <span id="nearBtnLabel">Nära mig</span>
-      </button>
     </div>
     <div class="filter-right-col">
       <div class="toggle-wrap">
@@ -3483,15 +3465,13 @@ function formatDistKm(dk) {
   return (dk < 10 ? (Math.round(dk * 10) / 10).toFixed(1) : String(Math.round(dk))) + ' km';
 }
 
-// Sync both Nära mig buttons (desktop #nearBtn + mobile #mNearBtn)
+// Sync the Nära mig button (mobile-only feature, #mNearBtn next to the search bar)
 function updateNearBtns(busy) {
-  document.querySelectorAll('#nearBtn, #mNearBtn').forEach(btn => {
-    btn.classList.toggle('active', nearActive);
-    btn.classList.toggle('busy', !!busy);
-    btn.setAttribute('aria-pressed', nearActive ? 'true' : 'false');
-  });
-  const lbl = document.getElementById('nearBtnLabel');
-  if (lbl) lbl.textContent = busy ? 'Hämtar position…' : 'Nära mig';
+  const btn = document.getElementById('mNearBtn');
+  if (!btn) return;
+  btn.classList.toggle('active', nearActive);
+  btn.classList.toggle('busy', !!busy);
+  btn.setAttribute('aria-pressed', nearActive ? 'true' : 'false');
 }
 
 function toggleNearFilter() {
@@ -6203,10 +6183,9 @@ function render() {
       const regionArr = Array.isArray(event.region) ? event.region : (event.region ? [event.region] : []);
       const regionText = regionArr.join(', ');
       // km badge when position is known (from Nära mig tap or 10-min cache).
-      // Mobile: appended inside the region pill. Desktop: small span in the location row.
+      // Mobile-only feature: appended inside the region pill (pill is hidden on desktop).
       const distTxt = nearPos ? formatDistKm(eventDistKm(event)) : '';
       const regionPillHTML = regionText ? `<span class="card-region-pill">${regionText}${distTxt ? ' · ' + distTxt : ''}</span>` : '';
-      const distHTML = distTxt ? `<span class="card-dist">${distTxt}</span>` : '';
       card.innerHTML = `
         <div class="card-flipper">
           <div class="card-front">
@@ -6222,7 +6201,7 @@ function render() {
             ${likeBtnHTML(event)}
             <div class="card-name">${displayName}</div>
             <div class="card-body">
-              <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span>${distHTML}</div>
+              <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
               <div class="card-desc">${event.description || ''}</div>
             </div>
             ${weatherHTML}
