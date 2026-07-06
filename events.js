@@ -9866,6 +9866,42 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "red-wings-tisdagstur-2026-07-07",
+      "name": "Tisdagstur till Venjan",
+      "date": "2026-07-07",
+      "dateEnd": "2026-07-07",
+      "time": "18:30",
+      "type": "Körning",
+      "region": "Dalarna",
+      "location": "Red Wings Mora MC klubbstuga, Lomsmyren, Mora",
+      "organizer": "Red Wings Mora MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/410100326179394",
+      "_vehicle": "mc",
+      "description": "Veckans kvällstur från klubbstugan kl 18.30. Denna gång går turen till Venjan med fika vid en slogbod vid Vanån. Ta med egen termos och tilltugg!",
+      "descriptionFull": "Hejsan!\n\nVi kör vidare med tisdagsturerna. I morgon (7/7) kl. 18.30 startar vi från klubbstugan.\n\nDenna gång åker vi till Venjan och fikar vid en slogbod vid Vanån.\n\nTa med egen termos och tilltugg!\n\nVi ses!\n\nAnders & Anders",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=4305228633027556&set=gm.2439581796564560&idorvanity=410100326179394"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/410100326179394"
+        },
+        {
+          "label": "redwingsmoramc.se",
+          "url": "https://www.redwingsmoramc.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Red+Wings+Mora+MC+Lomsmyren+Mora",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/red-wings-tisdagstur-back-2026-07-07.jpg"
+    },
+    {
       "id": "doa-sommarkvallstur-taby-2026",
       "name": "DOA - Sommarkvällstur Täby",
       "date": "2026-07-08",
