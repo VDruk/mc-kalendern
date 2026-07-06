@@ -1,0 +1,47 @@
+# Deploys druk.se to GitHub Pages via GitHub Actions (Pages source: "GitHub Actions").
+#
+# Added 2026-07-06 to replace the built-in "Deploy from a branch" pipeline, whose
+# deploy step ("pages build and deployment" -> syncing_files) had been failing on
+# GitHub's side since 2026-07-05 across all retries and commits. Community threads
+# reported switching the Pages source to GitHub Actions as the working fix.
+#
+# The site is fully static: no build step, the repo root IS the site.
+# workflow_dispatch allows manual redeploys from the Actions tab.
+
+name: Deploy site to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
