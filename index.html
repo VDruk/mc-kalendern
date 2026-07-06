@@ -249,6 +249,25 @@
   .m-near-btn svg { width: 19px; height: 19px; }
   .m-near-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
   .m-near-btn.busy { opacity: 0.6; pointer-events: none; }
+  /* Blue pulsing "you are here" dot on the map (Google Maps pattern) */
+  .near-me-wrap { background: none; border: none; }
+  .near-me-wrap .nm-core {
+    position: absolute; inset: 0;
+    background: #2f80ed; border: 2.5px solid #fff; border-radius: 50%;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.4);
+  }
+  .near-me-wrap .nm-pulse {
+    position: absolute; left: 50%; top: 50%;
+    width: 44px; height: 44px; margin: -22px 0 0 -22px;
+    border-radius: 50%; background: rgba(47,128,237,0.35);
+    animation: nmPulse 2s ease-out infinite;
+    pointer-events: none;
+  }
+  @keyframes nmPulse {
+    0% { transform: scale(0.3); opacity: 0.8; }
+    70% { transform: scale(1); opacity: 0; }
+    100% { transform: scale(1); opacity: 0; }
+  }
 
   /* ========== HÄNDER JUST NU BAR ========== */
   .hander-bar {
@@ -3474,9 +3493,15 @@ function updateNearBtns(busy) {
   btn.setAttribute('aria-pressed', nearActive ? 'true' : 'false');
 }
 
+// GA4: track usage so real data can decide desktop version / distance sort later
+function trackNear(state) {
+  try { if (typeof gtag === 'function') gtag('event', 'nara_mig', { state: state }); } catch (e) {}
+}
+
 function toggleNearFilter() {
   if (nearActive) {
     nearActive = false;
+    trackNear('off');
     updateNearBtns();
     if (typeof updateAllaBtn === 'function') updateAllaBtn();
     render();
@@ -3485,6 +3510,7 @@ function toggleNearFilter() {
   // Fresh-enough cached position: activate instantly, no GPS round-trip
   if (nearPos) {
     nearActive = true;
+    trackNear('on_cached');
     updateNearBtns();
     if (typeof updateAllaBtn === 'function') updateAllaBtn();
     render();
@@ -3492,6 +3518,7 @@ function toggleNearFilter() {
   }
   if (!navigator.geolocation) {
     showToast('Din webbläsare stöder inte platstjänster');
+    trackNear('unsupported');
     return;
   }
   updateNearBtns(true);
@@ -3501,12 +3528,14 @@ function toggleNearFilter() {
     // Position changed: throw away cached per-event distances? Not needed -
     // e._crd caches COORDS (position-independent), distance is always computed fresh.
     nearActive = true;
+    trackNear('on_gps');
     updateNearBtns();
     if (typeof updateAllaBtn === 'function') updateAllaBtn();
     render();
   }, function() {
     updateNearBtns();
     showToast('Kunde inte hämta din position');
+    trackNear('denied');
   }, { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 });
 }
 let favorites;
@@ -5923,6 +5952,7 @@ function render() {
   const mapPlatsOk = currentFilter === 'Plats';
   const mapPlats = mapPlatsOk ? platsCards.filter(ad => (currentRegion === 'all') || ad.region === currentRegion) : [];
   updateEventMap(events.concat(mapPlats));
+  updateNearMapLayer();
   updatePlaceDots(mapPlatsOk, currentRegion);
   updateMapStats();
   updateMapMinilist();
@@ -5957,8 +5987,10 @@ function render() {
   const realCount = events.filter(e => !e._ad).length;
   const platsCountHeader = events.filter(e => e._place).length;
   let countTxt = realCount + ' evenemang';
+  if (nearActive && nearPos) countTxt += ' inom ' + NEAR_RADIUS_KM + ' km';
   if (platsCountHeader > 0) countTxt += ' \u00b7 ' + platsCountHeader + (platsCountHeader === 1 ? ' plats' : ' platser');
   document.getElementById('searchCount').textContent = countTxt;
+  updateNearBadge();
 
   // --- "Pågår nu" bucket (desktop, default browse only) ---
   // Multi-day events that already started (start < today) and are still running
@@ -6484,6 +6516,46 @@ let mapMarkers = [];
 let placeMarkers = [];
 let placesVisible = true;
 let mapVisible = true;
+let nearDotMarker = null;    // blue pulsing "you are here" dot
+let nearRadiusCircle = null; // light 100 km circle while Nära mig is active
+
+// "Nära mig" map layers: pulsing position dot (whenever position is known) and
+// a light radius circle (only while the filter is active). Managed separately
+// from mapMarkers so updateEventMap's marker clearing never touches them.
+function updateNearMapLayer() {
+  if (!eventMap) return;
+  const show = nearPos && mapVisible;
+  if (show) {
+    const ll = [nearPos.lat, nearPos.lon];
+    if (!nearDotMarker) {
+      nearDotMarker = L.marker(ll, {
+        icon: L.divIcon({ className: 'near-me-wrap', html: '<span class="nm-pulse"></span><span class="nm-core"></span>', iconSize: [16, 16], iconAnchor: [8, 8] }),
+        interactive: false, keyboard: false, zIndexOffset: 500
+      }).addTo(eventMap);
+    } else {
+      nearDotMarker.setLatLng(ll);
+    }
+  } else if (nearDotMarker) {
+    eventMap.removeLayer(nearDotMarker);
+    nearDotMarker = null;
+  }
+  if (show && nearActive) {
+    const ll = [nearPos.lat, nearPos.lon];
+    if (!nearRadiusCircle) {
+      nearRadiusCircle = L.circle(ll, {
+        radius: NEAR_RADIUS_KM * 1000,
+        color: '#2f80ed', weight: 1.5, opacity: 0.4, dashArray: '4 6',
+        fillColor: '#2f80ed', fillOpacity: 0.05,
+        interactive: false
+      }).addTo(eventMap);
+    } else {
+      nearRadiusCircle.setLatLng(ll);
+    }
+  } else if (nearRadiusCircle) {
+    eventMap.removeLayer(nearRadiusCircle);
+    nearRadiusCircle = null;
+  }
+}
 
 function openKontaktModal() {
   document.getElementById('kontaktModal').classList.add('open');
@@ -6558,6 +6630,29 @@ function updateMapCityBadge() {
     badge.innerHTML = '<span style="display:inline-flex;align-items:center;gap:6px;background:rgba(217,119,6,0.1);color:#b45309;font-size:13px;font-weight:600;padding:5px 14px;border-radius:20px;">' +
       name +
       '<button onclick="clearMapCityFilter()" style="background:none;border:none;cursor:pointer;color:#b45309;font-size:16px;line-height:1;padding:0 0 0 2px;">\u00d7</button>' +
+      '</span>';
+  } else if (badge) {
+    badge.remove();
+  }
+}
+
+// "N\u00e4ra mig" active chip above the grid: shows the radius and offers one-tap
+// deactivation. Important on mobile where the searchCount text is hidden, so
+// without this chip the user gets no visible explanation of the shorter list.
+// Blue to match the position dot on the map (orange = city filter chip).
+function updateNearBadge() {
+  let badge = document.getElementById('nearBadge');
+  if (nearActive && nearPos) {
+    if (!badge) {
+      badge = document.createElement('div');
+      badge.id = 'nearBadge';
+      badge.style.cssText = 'text-align:center;margin:8px auto 4px;max-width:1100px;';
+      const section = document.getElementById('eventMapSection');
+      section.parentNode.insertBefore(badge, section.nextSibling);
+    }
+    badge.innerHTML = '<span style="display:inline-flex;align-items:center;gap:6px;background:rgba(47,128,237,0.12);color:#2563eb;font-size:13px;font-weight:600;padding:5px 14px;border-radius:20px;">' +
+      'Inom ' + NEAR_RADIUS_KM + ' km fr\u00e5n dig' +
+      '<button onclick="toggleNearFilter()" aria-label="St\u00e4ng av N\u00e4ra mig" style="background:none;border:none;cursor:pointer;color:#2563eb;font-size:16px;line-height:1;padding:0 0 0 2px;">\u00d7</button>' +
       '</span>';
   } else if (badge) {
     badge.remove();
