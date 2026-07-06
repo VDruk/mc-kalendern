@@ -14175,15 +14175,19 @@ const EVENTS_DATA = {
       "name": "Roadracing SM - Gelleråsen",
       "date": "2026-07-24",
       "dateEnd": "2026-07-26",
-      "location": "Gelleråsen, Karlskoga",
+      "location": "Gelleråsen Arena, Karlskoga",
       "type": "Racing",
       "organizer": "MotoSE / Svemo",
-      "description": "MC-arrangemang i Gelleråsen, Karlskoga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.",
+      "description": "SM- och NM-deltävling i roadracing som avslutar BIKE Week på Gelleråsen Arena. Sprintrace lördag, längre race söndag, stuntshow, veteranuppvisning och mässområde. Helgbiljett 499 kr.",
       "link": "https://mcparken.se/calendar/176",
       "region": "Örebro",
       "source": "mcparken.se",
-      "descriptionFull": "Roadracing SM - Gelleråsen arrangeras av MotoSE / Svemo.\n\nMC-arrangemang i Gelleråsen, Karlskoga. Gemensamt event för MC-entusiaster. Mer information på arrangörens hemsida.\n\nTävlingsevenemang. Se arrangören för schema och biljetter.\n\nPlats: Gelleråsen, Karlskoga.",
+      "descriptionFull": "Svenskt Mästerskap i Roadracing är riktigt häftiga tävlingar som är otroligt roliga att kolla in på plats på Gelleråsen Arena. Under 2026 blir det även Norskt Mästerskap som gästar, så det blir otroligt många tävlande på plats! Som avslutning på BIKE Week kör de bästa roadracingförarna en deltävling i SM- och NM-serien. De bästa förarna i Sverige och Norge fightas om de stora pokalerna.\n\nFredag är träning och kvaldag, lördag körs de lite kortare sprintracen hela dagen (huvuddag för arrangemanget). Söndag är kval och ett längre race för alla klasser.\n\nKlasser SM & NM: Supersport/Superstock 600, Superbike.\nKlass RM: Aprilia RS 660-Cup, Supersport 300 (Senior/Junior).\nÖvriga klasser: Open 600, Open 1000.\n\nSEC Endurance: torsdagen körs Svenska Endurance Cupen 7 tim.\n\nUppvisningar och aktiviteter: veteran-MC-uppvisning, MC-stuntshow, knattecross-uppvisning, hoppborg och ansiktsmålning för barnen samt mässområde med MC-utställare.\n\nRestaurang och café öppet för servering av mat och fika hela helgen. Foodcourtområde med hamburgare och korv öppet lördag och söndag.\n\nBiljetter (endast förköp, ingen kontant betalning på plats):\nFredag 99 kr, lördag 299 kr, söndag 199 kr, helgbiljett 499 kr. Parkering och valfri läktare ingår i biljettpriset. Barn under 15 år gratis i målsmans sällskap men behöver egen entrébiljett. Campingplats 200 kr för helgen (husbil/husvagn, ström ej tillgängligt).\n\nEntrégrindarna öppnar kl 08.30 varje dag. Körning från kl 09.00.\n\nTävlingen arrangeras av Gelleråsen Arena, Karlskoga Motorförening.",
       "links": [
+        {
+          "label": "gellerasen.se",
+          "url": "https://gellerasen.se/event/svenskt-masterskap-roadracing/"
+        },
         {
           "label": "mcparken.se",
           "url": "https://mcparken.se/calendar/176"
@@ -14193,7 +14197,9 @@ const EVENTS_DATA = {
           "url": "https://www.google.com/maps/search/?api=1&query=Geller%C3%A5sen%2C+Karlskoga",
           "type": "map"
         }
-      ]
+      ],
+      "backImage": "ads/roadracing-sm-gellerasen-back-2026-07-24.jpg",
+      "time": "08:30"
     },
     {
       "id": "veteranmarknad-rattvik-2026-07-24",
