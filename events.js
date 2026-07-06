@@ -16296,6 +16296,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mc-kortegen-katrineholm-2026-08-05",
+      "name": "MC Kortegen Stompers 50 år",
+      "date": "2026-08-05",
+      "dateEnd": "2026-08-05",
+      "time": "18:30",
+      "location": "Terminalgatan, Katrineholm",
+      "type": "Körning",
+      "organizer": "Stompers MC",
+      "description": "Stompers MC firar 50 år med kortege genom stan och utställning på torget. Samling Terminalgatan, avfärd 18:30. Alla hojar och mopeder välkomna, 20 kr till Musikföreningen Inferno.",
+      "descriptionFull": "Välkomna till Katrineholm och MC Kortegen!\n\nStompers Katrineholm 50 år (1976-2026).\n\nOnsdagen 5/8. Samling Terminalgatan för avfärd 18:30.\n\nKostnad 20 kr som går till Musikföreningen Inferno och deras ungdomar.\n\nVäl mött alla hojar och mopeder oavsett märke och stil, gamla som nya.\n\nInfo Per: 070-1478297\nInfo Tomas: 076-1047021\n\nHoppas att detta kan locka till en trevlig onsdagskväll i Katrineholm med kortegen och utställningen på torget, så dela denna bild bland folk och föreningar i mc-världen så vi kan slå rekord i antal fordon denna kväll.",
+      "link": "https://www.facebook.com/Stompers.mc",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=27794613150148354&set=a.123898384313203"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Stompers.mc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Terminalgatan+Katrineholm",
+          "type": "map"
+        }
+      ],
+      "region": "Södermanland",
+      "source": "facebook.com",
+      "_vehicle": "both",
+      "backImage": "ads/mc-kortegen-katrineholm-back-2026-08-05.jpg"
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-08-06",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-08-06",
