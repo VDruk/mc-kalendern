@@ -394,6 +394,19 @@
     background: var(--accent); color: #fff; font-weight: 600;
   }
 
+  /* "Nära mig" GPS radius filter button (desktop). Filter, never a sort. */
+  .near-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    border: 1px solid var(--border); border-radius: 20px;
+    background: var(--bg-secondary); color: var(--text-secondary);
+    font-size: 13px; padding: 6px 14px; cursor: pointer;
+    font-family: inherit; transition: all var(--transition);
+  }
+  .near-btn svg { width: 14px; height: 14px; }
+  .near-btn:hover { color: var(--text-primary); background: var(--bg-card-hover); }
+  .near-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .near-btn.busy { opacity: 0.7; pointer-events: none; }
+
   /* Filter spacer to push right-side items */
   .filter-spacer { flex: 1; }
 
@@ -809,6 +822,12 @@
     display: -webkit-box; -webkit-line-clamp: 2;
     -webkit-box-orient: vertical; overflow: hidden;
     line-height: 1.5;
+  }
+  /* km distance badge in the location row (desktop). Shown when position is known. */
+  .card-dist {
+    flex-shrink: 0; margin-left: auto;
+    font-size: 12px; font-weight: 600; line-height: 1.5;
+    color: var(--accent); white-space: nowrap;
   }
   .card-desc {
     font-size: 13px; color: var(--text-muted);
@@ -1835,10 +1854,21 @@
     display: none;
     padding: 0 10px 10px;
     gap: 6px;
-    grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto auto;
     align-items: stretch;
     background: var(--bg-primary);
   }
+  /* "Nära mig" GPS button: compact 4th item in the dropdown row */
+  .m-near-btn {
+    width: 40px; height: 40px; padding: 0;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border); border-radius: 10px;
+    color: var(--text-secondary); cursor: pointer;
+  }
+  .m-near-btn svg { width: 18px; height: 18px; }
+  .m-near-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .m-near-btn.busy { opacity: 0.6; pointer-events: none; }
   /* Mobile MC/Moped toggle: compact 3rd item in the dropdown row (no extra height) */
   .m-vehicle-toggle { border-radius: 10px; }
   .m-vehicle-toggle .veh-btn { padding: 0 11px; font-size: 13px; }
@@ -3053,6 +3083,9 @@
     <button type="button" class="veh-btn" data-veh="mc">MC</button>
     <button type="button" class="veh-btn" data-veh="moped">Moped</button>
   </div>
+  <button type="button" class="m-near-btn" id="mNearBtn" aria-pressed="false" aria-label="Nära mig: visa endast evenemang inom 100 km" onclick="toggleNearFilter()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+  </button>
 </div>
 
 <!-- ========== FILTERS ========== -->
@@ -3088,6 +3121,10 @@
         <button type="button" class="veh-btn" data-veh="mc">MC</button>
         <button type="button" class="veh-btn" data-veh="moped">Moped</button>
       </div>
+      <button type="button" class="near-btn" id="nearBtn" aria-pressed="false" title="Visa endast evenemang inom 100 km från dig" onclick="toggleNearFilter()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span id="nearBtnLabel">Nära mig</span>
+      </button>
     </div>
     <div class="filter-right-col">
       <div class="toggle-wrap">
@@ -3405,6 +3442,93 @@ function ensureArchive(cb) {
 }
 let searchQuery = '';
 let mapCityFilter = ''; // set when user clicks a map dot
+
+// ===== "Nära mig" (near me) - GPS radius filter + km badges (2026-07-07) =====
+// Distance is a FILTER, never a sort: date order is the backbone of the calendar.
+// Position is requested ONLY when the user taps the button (never on page load),
+// used locally in the browser only, and cached 10 min in localStorage under the
+// SAME key as the mobile Platser view so the two features share one position.
+// When a position is known (even from cache), event cards show a km badge.
+const NEAR_POS_KEY = 'mcPlatsPos'; // shared with Platser swipe view
+const NEAR_POS_MAX_AGE = 10 * 60 * 1000;
+const NEAR_RADIUS_KM = 100;
+let nearActive = false;
+let nearPos = null;
+try {
+  const _np = JSON.parse(safeGetItem(NEAR_POS_KEY) || 'null');
+  if (_np && Date.now() - _np.t < NEAR_POS_MAX_AGE) nearPos = { lat: _np.lat, lon: _np.lon };
+} catch (e) {}
+
+function geoDistKm(a, b) {
+  const R = 6371, rad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * rad;
+  const dLon = (b.lon - a.lon) * rad;
+  const sLat = Math.sin(dLat / 2), sLon = Math.sin(dLon / 2);
+  const h = sLat * sLat + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * sLon * sLon;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+// Distance from current position to an event, in km (null if unknown).
+// Coords lookup (findCoords) is cached per event: it scans all LOCATION_COORDS
+// keys, too slow to repeat for 1000+ events on every render.
+function eventDistKm(e) {
+  if (!nearPos) return null;
+  if (e._crd === undefined) e._crd = (typeof findCoords === 'function') ? findCoords(e.location) : null;
+  if (!e._crd) return null;
+  return geoDistKm(nearPos, e._crd);
+}
+
+function formatDistKm(dk) {
+  if (dk == null || !isFinite(dk)) return '';
+  return (dk < 10 ? (Math.round(dk * 10) / 10).toFixed(1) : String(Math.round(dk))) + ' km';
+}
+
+// Sync both Nära mig buttons (desktop #nearBtn + mobile #mNearBtn)
+function updateNearBtns(busy) {
+  document.querySelectorAll('#nearBtn, #mNearBtn').forEach(btn => {
+    btn.classList.toggle('active', nearActive);
+    btn.classList.toggle('busy', !!busy);
+    btn.setAttribute('aria-pressed', nearActive ? 'true' : 'false');
+  });
+  const lbl = document.getElementById('nearBtnLabel');
+  if (lbl) lbl.textContent = busy ? 'Hämtar position…' : 'Nära mig';
+}
+
+function toggleNearFilter() {
+  if (nearActive) {
+    nearActive = false;
+    updateNearBtns();
+    if (typeof updateAllaBtn === 'function') updateAllaBtn();
+    render();
+    return;
+  }
+  // Fresh-enough cached position: activate instantly, no GPS round-trip
+  if (nearPos) {
+    nearActive = true;
+    updateNearBtns();
+    if (typeof updateAllaBtn === 'function') updateAllaBtn();
+    render();
+    return;
+  }
+  if (!navigator.geolocation) {
+    showToast('Din webbläsare stöder inte platstjänster');
+    return;
+  }
+  updateNearBtns(true);
+  navigator.geolocation.getCurrentPosition(function(pos) {
+    nearPos = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+    try { safeSetItem(NEAR_POS_KEY, JSON.stringify({ t: Date.now(), lat: nearPos.lat, lon: nearPos.lon })); } catch (e) {}
+    // Position changed: throw away cached per-event distances? Not needed -
+    // e._crd caches COORDS (position-independent), distance is always computed fresh.
+    nearActive = true;
+    updateNearBtns();
+    if (typeof updateAllaBtn === 'function') updateAllaBtn();
+    render();
+  }, function() {
+    updateNearBtns();
+    showToast('Kunde inte hämta din position');
+  }, { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 });
+}
 let favorites;
 try { favorites = JSON.parse(safeGetItem('mcFavorites') || '[]'); } catch { favorites = []; }
 if (!Array.isArray(favorites)) favorites = [];
@@ -4065,6 +4189,7 @@ function updateStats() {
 // and cached, so a single state change no longer re-filters the list twice.
 function getBaseFiltered() {
   const key = [currentRegion, currentFilter, currentVehicle, currentClub, searchQuery, currentMonth,
+               (nearActive && nearPos) ? ('near' + nearPos.lat + ',' + nearPos.lon) : '',
                EVENTS_DATA.events.length].join('');
   if (getBaseFiltered._key === key) return getBaseFiltered._list;
   let all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
@@ -4102,6 +4227,10 @@ function getBaseFiltered() {
       (e.description || '').toLowerCase().includes(q)
     );
   }
+  // Nära mig: radius filter, never a sort (date order stays the backbone)
+  if (nearActive && nearPos) {
+    all = all.filter(e => { const dk = eventDistKm(e); return dk != null && dk <= NEAR_RADIUS_KM; });
+  }
   // Apply month filter ONLY when it's a real month (1-12). Skip the special
   // __today__/__tomorrow__/__weekend__/__week__ values because those overlap
   // with the chip semantics themselves (they're already represented by the chips).
@@ -4126,6 +4255,7 @@ function getBaseFiltered() {
 // with getBaseFiltered above (everything except the month block).
 function getBaseFilteredNoTime() {
   const key = [currentRegion, currentFilter, currentVehicle, currentClub, searchQuery,
+               (nearActive && nearPos) ? ('near' + nearPos.lat + ',' + nearPos.lon) : '',
                EVENTS_DATA.events.length].join('|');
   if (getBaseFilteredNoTime._key === key) return getBaseFilteredNoTime._list;
   let all = EVENTS_DATA.events.filter(e => !e._canary && !e._ad);
@@ -4162,6 +4292,10 @@ function getBaseFilteredNoTime() {
       (e.organizer || '').toLowerCase().includes(q) ||
       (e.description || '').toLowerCase().includes(q)
     );
+  }
+  // Nära mig: radius filter (keep in sync with getBaseFiltered)
+  if (nearActive && nearPos) {
+    all = all.filter(e => { const dk = eventDistKm(e); return dk != null && dk <= NEAR_RADIUS_KM; });
   }
   getBaseFilteredNoTime._key = key;
   getBaseFilteredNoTime._list = all;
@@ -5014,6 +5148,8 @@ function closeMDetail() {
     navigator.geolocation.getCurrentPosition(function(pos) {
       mpPos = { lat: pos.coords.latitude, lon: pos.coords.longitude };
       try { localStorage.setItem(POS_KEY, JSON.stringify({ t: Date.now(), lat: mpPos.lat, lon: mpPos.lon })); } catch (e) {}
+      // Share with the main page "Nära mig" filter / km badges (same cache key)
+      if (typeof nearPos !== 'undefined') nearPos = mpPos;
       mpSortByDist = true;
       mpSetGpsBtn('on');
       mpBuild();
@@ -5753,6 +5889,13 @@ function render() {
     events = events.filter(e => e._searchIndex && e._searchIndex.includes(q));
   }
 
+  // Nära mig: keep only events within NEAR_RADIUS_KM of the user's position.
+  // A FILTER, never a sort - the timeline stays date-ordered. Applied before
+  // the map update so the map also shows only nearby events.
+  if (nearActive && nearPos) {
+    events = events.filter(e => { const dk = eventDistKm(e); return dk != null && dk <= NEAR_RADIUS_KM; });
+  }
+
   // --- Determine which AD cards to show based on filter state ---
   const currentM = parseInt(today.split('-')[1], 10);
   let visibleAds = [];
@@ -5789,7 +5932,7 @@ function render() {
     // and the mobile Platser swipe view. With a growing number of places
     // (18 now, 100-200 later) injection would drown the events.
     // Anons: show only when NO filters active at all
-    if (noTypeFilter && noClubFilter && noMonthFilter && noRegionFilter && noMapCity && currentVehicle === 'all') {
+    if (noTypeFilter && noClubFilter && noMonthFilter && noRegionFilter && noMapCity && currentVehicle === 'all' && !nearActive) {
       anonsCards.forEach(ad => visibleAds.push(ad));
     }
   }
@@ -6059,7 +6202,11 @@ function render() {
       const weatherHTML = getWeatherStripHTML(event.id, event.date);
       const regionArr = Array.isArray(event.region) ? event.region : (event.region ? [event.region] : []);
       const regionText = regionArr.join(', ');
-      const regionPillHTML = regionText ? `<span class="card-region-pill">${regionText}</span>` : '';
+      // km badge when position is known (from Nära mig tap or 10-min cache).
+      // Mobile: appended inside the region pill. Desktop: small span in the location row.
+      const distTxt = nearPos ? formatDistKm(eventDistKm(event)) : '';
+      const regionPillHTML = regionText ? `<span class="card-region-pill">${regionText}${distTxt ? ' · ' + distTxt : ''}</span>` : '';
+      const distHTML = distTxt ? `<span class="card-dist">${distTxt}</span>` : '';
       card.innerHTML = `
         <div class="card-flipper">
           <div class="card-front">
@@ -6075,7 +6222,7 @@ function render() {
             ${likeBtnHTML(event)}
             <div class="card-name">${displayName}</div>
             <div class="card-body">
-              <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span></div>
+              <div class="card-location-wrap"><span class="card-location-icon"></span><span class="card-location">${event.location || ''}</span>${distHTML}</div>
               <div class="card-desc">${event.description || ''}</div>
             </div>
             ${weatherHTML}
@@ -6926,7 +7073,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Helper: check if any filter is active and update Alla button
   function updateAllaBtn() {
-    const anyActive = currentFilter !== 'all' || currentVehicle !== 'all' || currentClub !== 'all' || currentRegion !== 'all' || currentMonth !== 'all';
+    const anyActive = currentFilter !== 'all' || currentVehicle !== 'all' || currentClub !== 'all' || currentRegion !== 'all' || currentMonth !== 'all' || nearActive;
     document.querySelectorAll('.type-btn[data-type="all"]').forEach(btn => {
       btn.classList.toggle('active', !anyActive);
     });
@@ -6967,6 +7114,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (si) { si.value = ''; }
     if (sc) { sc.classList.remove('visible'); }
     mapCityFilter = '';
+    nearActive = false;
+    updateNearBtns();
     // Reset URL to / and meta to defaults when user clicks Alla
     updateURLForRegion('all');
     updatePageMetaForRegion(null);
