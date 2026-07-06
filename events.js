@@ -12351,11 +12351,11 @@ const EVENTS_DATA = {
       "location": "GMCK Klubbstuga, Västerhejde, Gotland",
       "type": "Träff",
       "organizer": "Gotlands MC klubb",
-      "description": "Träffpunkt i GMCK Klubbstuga, Västerhejde, Gotland. Gemensam fika och MC-umgänge. Alla välkomna!",
+      "description": "Tredagars MC-camping i grönskande trädgård strax utanför Visby med utekök, grillar, vedeldad bastu och varmdusch. Kiosk fre-lör 18-22, guidad MC-tur lördag kl 11. 100 kr per natt.",
       "link": "https://www.gmck.se/",
       "region": "Gotland",
       "source": "smcboken.svmc.se",
-      "descriptionFull": "Gotlands MC klubbs campingträff arrangeras av Gotlands MC klubb.\n\nTräffpunkt i GMCK Klubbstuga, Västerhejde, Gotland. Gemensam fika och MC-umgänge. Alla välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: GMCK Klubbstuga, Västerhejde, Gotland.",
+      "descriptionFull": "Välkommen till Gotlands MC klubbs campingträff 17-19 juli 2026!\n\nPlats: GMCK:s klubbstuga nära Västerhejde kyrka, 8 km söder om Visby.\n\nDen klassiska Guteträffen är sedan i fjol ett minne blott. Men för den skull finns platsen och minnena ännu kvar och långt ifrån glömda.\n\nSå välkomna tillsammans med andra gamla och nya besökare till våran MC camping och upplev den fina atmosfären och idylliska platsen med grönskande trädgård och fruktträd strax utanför Visby. Samtidigt som du kan göra egna dagsutflykter med MC och uppleva hela ön och dess rika utflyktsmål med klubbens camping som hemmabas.\n\nHär finns alla nödvändiga faciliteter som utekök, grillar, kyl/frys, vedeldad bastu, varmdusch samt miljötoalett.\n\nCampingen är normalt öppen för MC-åkare mellan V27-V32 och då får man klara sig själv med hjälp av dom faciliteter som finns på campingen. Men under campingträffen i helgen V29 fredag-lördag har vi öppet i kiosken mellan kl. 18.00-22.00 där man kan handla drycker av olika slag och enklare föda typ varmkorv och smörgåsar.\n\nVi arrangerar även en guidad MC-utflykt på lördag fm.\n\nPreliminära hålltider:\nKiosktider: fre-lör kl. 18:00-22:00\nGuidad MC-tur: start lör kl. 11:00\n\nCampingpris per natt och person: 100:-\n\nFör info kontakta:\nOrdf. Kaj Boström 070-551 20 43, k.bostrom990@gmail.com\nSekr. Lennart Karlsson 076-246 77 64, lenn.klsson@gmail.com\n\nBokning av förmånlig båtbiljett: deltagare till träffen är berättigade att boka förmånliga grupp- & idrottsresor hos Destination Gotland. Uppge att det gäller biljetter till evenemanget \"GMCK Campingträffen 2026\". Telefon: 0771-22 33 50 (mån-fre 9-12, 13-16:30), e-post: idrottsresor@destinationgotland.se\n\nGPS-koordinater till klubbkåken: N 57.57435, E 18.24509.\n\nVälkommen!",
       "links": [
         {
           "label": "gmck.se",
@@ -12366,7 +12366,8 @@ const EVENTS_DATA = {
           "url": "https://www.google.com/maps/search/?api=1&query=GMCK+Klubbstuga%2C+V%C3%A4sterhejde%2C+Gotland",
           "type": "map"
         }
-      ]
+      ],
+      "backImage": "ads/gotlands-campingtraff-back-2026-07-17.jpg"
     },
     {
       "id": "hdcs-rally-2026",
