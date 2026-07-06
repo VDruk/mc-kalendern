@@ -13005,6 +13005,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "nbos-ride-out-trollhattan-2026-07-18",
+      "name": "Två Crew Slår Ihop",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "time": "11:00",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "Stora Coop Överby, Anes väg 2, Trollhättan",
+      "organizer": "NBoS Trollhättan",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1508646030639772",
+      "_vehicle": "mc",
+      "description": "Två klubbar slår ihop för barnen på NÄL. NBoS Trollhättans första ride out för säsongen startar kl 11.30, kl 14 ansluter man till Kråkestans välgörenhetskortege från Bike Trollhättan.",
+      "descriptionFull": "Två crew – en gemensam dag för hojåkning och välgörenhet!\n\nDen här dagen slår NBoS Trollhättan och Kråkestan MC ihop sig för en fantastisk dag på två hjul!\n\nVi börjar dagen med NBoS Trollhättans första Ride Out för säsongen.\nSamling: Kl. 11.00 – Stora Coop Överby, Trollhättan (parkeringen)\nAvfärd: Kl. 11.30\n\nSamling 13.30 - Bike Trollhättan\nAvfärd 14.00\n\nAlla hojar är välkomna!\n\nVi kör tillsammans på härliga vägar med fokus på säkerhet, gemenskap och körglädje.\n\nViktig information:\n• Tanka upp hojen innan färd.\n• Du ansvarar alltid för din egen körning.\n• Kör aldrig över din egen förmåga.\n• Tempot är högre längst fram i gruppen.\n• Är du osäker – börja längst bak och flytta fram när du känner dig bekväm.\n• Rutten publiceras dagen innan och finns tillgänglig under turen.\n• Vid riktningsändringar väntar vi in varandra.\n• Om ingen visar något annat gäller alltid: rakt fram.\n\nHandsignaler:\nHand upp = Fara eller mötande trafik.\nFot ut = Grus, smuts eller annat hinder på vägen.\n\nKl. 14.00 fortsätter dagen tillsammans med Kråkestan MC. Vi ansluter till Kråkestan MC:s välgörenhetskörning med start från Bike.\n\nAvgift: 100 kr. Hela startavgiften går oavkortat till Barnavdelningen på NÄL.\n\nKom gärna i god tid så vi kan samlas innan starten. Låt oss göra detta till en dag fylld av gemenskap, fina vägar och samtidigt bidra till en viktig sak.\n\nVid frågor kontakta Mathias Johansson.\n\nTvå crew – en gemensam passion. Vi ses på vägarna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1508646030639772"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/4710969808974091/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Stora+Coop+%C3%96verby+Anes+v%C3%A4g+2+Trollh%C3%A4ttan",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nbos-ride-out-back-2026-07-18.jpg"
+    },
+    {
       "id": "doa-emilsturen-2026-07-19",
       "name": "DOA - Emilsturen",
       "date": "2026-07-19",
