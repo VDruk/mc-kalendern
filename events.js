@@ -10608,6 +10608,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "omcc-spontan-grillning-2026-07-10",
+      "name": "Spontan Grillning",
+      "date": "2026-07-10",
+      "dateEnd": "2026-07-10",
+      "time": "17:00",
+      "location": "ÖMCC, Viktoriaesplanaden 3, Örnsköldsvik",
+      "type": "Träff",
+      "organizer": "ÖMCC",
+      "description": "Spontan grillkväll vid ÖMCC:s klubblokal fredag kl 17-22. Grillen tänds 17.00, ta med eget att grilla och gott humör!",
+      "descriptionFull": "Du är hjärtligt inbjuden till spontan grillning på ÖMCC!\n\nGrillen tänds kl 17.00, ta med eget att grilla.\n\nKom förbi och ta med gott humör - vi ses på ÖMCC!\n\nTid: Fredag 10 juli kl 17.00-22.00\nPlats: ÖMCC, Viktoriaesplanaden 3, Örnsköldsvik",
+      "link": "https://www.facebook.com/groups/823721797670088/",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4427339220912059"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/823721797670088/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+3+Örnsköldsvik",
+          "type": "map"
+        }
+      ],
+      "region": "Västernorrland",
+      "source": "facebook.com",
+      "_vehicle": "mc",
+      "backImage": "ads/omcc-spontan-grillning-back-2026-07-10.jpg"
+    },
+    {
       "id": "veteranfordonsdag-mopedrally-as-brunn-2026-07-11",
       "name": "Veteranfordonsdag & Mopedrally",
       "date": "2026-07-11",
@@ -16615,12 +16647,13 @@ const EVENTS_DATA = {
       "location": "Orsa Grönklitt, Dalarna",
       "type": "Träff",
       "organizer": "GoldWing Club Sweden",
-      "description": "41:a internationella GoldWing-träffen i Orsa Grönklitt, 6-9 aug. Träffavgift 700 kr (GWEF-medlem) / 850 kr. Galamiddag ingår!",
+      "description": "41:a internationella GoldWing-träffen 6-9 aug. Galamiddag, light show, nationsparad och livemusik båda kvällarna med Togga Liljedahl och Favvobandet.",
       "link": "https://media.gwcs.se/2026/01/sv1.jpeg",
       "region": "Dalarna",
       "source": "gwef.eu",
       "frontImage": "ads/gwcs-treffen-2026-08-06.jpg",
-      "descriptionFull": "41st International Treffen i Orsa Grönklitt, 6-9 augusti 2026.\n\nTräffavgift:\nGWEF-medlem: SEK 700 / €70 inkl. galamiddag (värde SEK 250). Måste förbokas.\nEj GWEF-medlem: SEK 850 / €85 inkl. galamiddag (värde SEK 250). Måste förbokas.\n\nFrukostpåse, träfftröja och galamiddag måste förbokas.\n\nInskrivning öppnar torsdag kl 12:00. Man kan komma redan under tisdagen till träffplatsen utan extra kostnad, men utan service.\n\nIngår i avgiften: Träffmärke, Peoples Choice på lördagen, Light show på fredagen, Nationsparad under lördagen, Bastuflotte och Äventyrsbana, Öl/vin/tilltugg hela helgen, Gemensam middag på fredagen.\n\nHusbil med el: hänvisas till Orsa Grönklitt för bokning.\nEl finns för medicinska ändamål och laddning. OBS: ej för värmare.\nMinilivs finns på området. Natursköna omgivning.\n\nBokning stuga/vandrarhem: www.orsagronklitt.se eller +46 250 462 00. Uppge kod \"Goldwing\" för rabatt. Boka i området \"Centrumbyn\".\n\nGalamiddag ingår i träffpriset. Prisutdelning på lördag kväll.\n\nAnmälan: www.gwcs.se\nVälkommen till Orsa Grönklitt!",
+      "backImage": "ads/gwcs-treffen-back-2026-08-06.jpg",
+      "descriptionFull": "41st International Treffen i Orsa Grönklitt, 6-9 augusti 2026.\n\nTräffavgift:\nGWEF-medlem: SEK 700 / €70 inkl. galamiddag (värde SEK 250). Måste förbokas.\nEj GWEF-medlem: SEK 850 / €85 inkl. galamiddag (värde SEK 250). Måste förbokas.\n\nFrukostpåse, träfftröja och galamiddag måste förbokas.\n\nInskrivning öppnar torsdag kl 12:00. Man kan komma redan under tisdagen till träffplatsen utan extra kostnad, men utan service.\n\nIngår i avgiften: Träffmärke, Peoples Choice på lördagen, Light show på fredagen, Nationsparad under lördagen, Bastuflotte och Äventyrsbana, Öl/vin/tilltugg hela helgen, Gemensam middag på fredagen.\n\nUnderhållning: På torsdagskvällen underhåller Togga Liljedahl i träffens stora partytält, han börjar vid 20-tiden. Togga är både underhållare och trubadur och han ger sig inte förrän han fått igång publiken. Han spelar en blandning av gamla godingar och modernare låtar, gärna några hårdrockslåtar. Som avslutning brukar han spela Py Bäckmans Stad i Ljus och då står publiken med armarna om varandras axlar och sjunger med.\n\nFredagens underhållning består av Favvobandet, då har Togga fått förstärkning och det blir mer show än kvällen innan. Förutom bra musik utlovas mycket ljus och rök.\n\nHusbil med el: hänvisas till Orsa Grönklitt för bokning.\nEl finns för medicinska ändamål och laddning. OBS: ej för värmare.\nMinilivs finns på området. Natursköna omgivning.\n\nBokning stuga/vandrarhem: www.orsagronklitt.se eller +46 250 462 00. Uppge kod \"Goldwing\" för rabatt. Boka i området \"Centrumbyn\".\n\nGalamiddag ingår i träffpriset. Prisutdelning på lördag kväll.\n\nAnmälan: www.gwcs.se\nVälkommen till Orsa Grönklitt!",
       "links": [
         {
           "label": "Poster (GWCS)",
