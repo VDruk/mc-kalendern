@@ -11783,6 +11783,39 @@ const EVENTS_DATA = {
       "backImage": "ads/tisdagsfika-tidaholm-back.jpg"
     },
     {
+      "id": "gota-ms-arbetsdagar-2026-07-14",
+      "name": "Arbetsdagar på Motorstadion",
+      "date": "2026-07-14",
+      "dateEnd": "2026-07-15",
+      "time": "08:00",
+      "type": "Träff",
+      "region": "Uppsala",
+      "location": "Tärby 18, 745 95 Enköping",
+      "organizer": "Göta MS Enköping",
+      "organizerIcon": "clubs/normalized/gota-ms.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/27034748432887725",
+      "_vehicle": "mc",
+      "description": "Klubben ställer i ordning motorområdet inför USM/MXSM i augusti. Arbete kl 8-12 båda dagarna, alla händer behövs. Från kl 12 fri körning på banan för alla som hjälpt till.",
+      "descriptionFull": "Dags för iordningställande av motorområdet inför USM/MXSM 2026 som går av stapeln den 29-30/8.\n\nFinns mycket att göra och vi behöver från föreningens håll all manskap som bara går, stora som små, nybörjare som elitåkare, föräldrar, anhöriga etc som kan hjälpa till med diverse arbete.\n\nVi kör full fart med arbete 08.00-12.00 den 14-15 juli och från 12.00 är det okey för *alla* att åka hoj.\n* = Gäller enbart om du är och bidrar med arbete.\n\nAtt göra:\n• Gräsklippning hela banområdet. (Ta gärna med egen trimmer/gräsklippare. Vi har några trimrar)\n• Laga skyddsplanket på nya bandelen (Ta gärna med skruvdragare, hammare, såg mm)\n• Laga staket publikvallen. (Så gott det går)\n• Fixa bevattningssystemet, justera in och byta spridare.\n• Laga/rusta upp flaggvaktsposter.\n• Laga godishyllan i kiosken, är för ostabil.\n• Tvätta av banmarkeringarna från förra året.\n• Ev. måla flaggstänger/staket.\n• Städa och snygga till hela depåområdet.\n• Finns massor att göra och ju fler vi blir desto snabbare går det.\n\nVälkomna!\nMvh Stefan Jansson 070-922 53 15",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/27034748432887725"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/gotams"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=T%C3%A4rby+18+745+95+Enk%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/gota-ms-arbetsdagar-back-2026-07-14.jpg"
+    },
+    {
       "id": "doa-sommarkvallstur-ekero-2026",
       "name": "DOA - Sommarkvällstur Ekerö",
       "date": "2026-07-15",
