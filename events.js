@@ -3326,8 +3326,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkomna på #738 Hall of Odins onsdagskörning!\n\nVi samlas 17.45 för avfärd 18.00. Medtag egen fika.\n\nVid regn ställs evenemanget in.\n\nArrangör: SCRC #738 Hall of Odin (Southern Cruisers Riding Club).\n\nPlats: Circle K, Kollavarvsvägen 10, Kungsbacka.",
       "backImage": "ads/scrc-onsdagskorning-back-2026-06-17.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1728458021501878"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Kollavarvsv%C3%A4gen+10+Kungsbacka", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1728458021501878"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kollavarvsv%C3%A4gen+10+Kungsbacka",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1728458021501878",
       "region": "Halland",
@@ -3347,8 +3354,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Onsdag ses vi som vanligt i Halmstad!\n\nSamling 17.30 på klubben. Vid okej väder kör vi 18.00. Det blir fika m.m. som vanligt.\n\nArrangör: Insane MC Halmstad (med Psycho Squad).\n\nPlats: Insane MC Halmstad, Sadelvägen 720, Halmstad.",
       "backImage": "ads/insane-mc-onsdag-back-2026-06-17.jpg",
       "links": [
-        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1051756280520080&set=a.219724093723307"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Sadelv%C3%A4gen+720+Halmstad", "type": "map"}
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1051756280520080&set=a.219724093723307"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sadelv%C3%A4gen+720+Halmstad",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/photo/?fbid=1051756280520080&set=a.219724093723307",
       "region": "Halland",
@@ -3370,9 +3384,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Triumph Motorcycles \"Ride the Legends Test Ride Tour\" kommer till Norsholms slusscafé!\n\n17 juni\nPlats: Norsholmsvägen 22, Norsholm\nTid: 14.00-20.00\n\nÄr du redo att uppleva legendariska motorcyklar? Kom och provkör Triumphs senaste modeller och hitta din nya favorit! Vi har med oss ett brett utbud av motorcyklar redo för dig att testa.\n\nIngen förbokning krävs. Ta med din MC-utrustning och kom förbi för en provkörning.\n\nHar du några frågor? Hör av dig till: nordic@triumph.co.uk\n\nHoppas vi ses!\nTriumph Nordic",
       "backImage": "ads/triumph-ride-the-legends-norsholm-back-2026-06-17.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1327722908731345"},
-        {"label": "FB Sida", "url": "https://www.facebook.com/OfficialTriumphSweden"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Norsholmsv%C3%A4gen+22+Norsholm", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1327722908731345"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/OfficialTriumphSweden"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Norsholmsv%C3%A4gen+22+Norsholm",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1327722908731345",
       "source": "facebook.com"
@@ -3392,8 +3416,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Efter ett års uppehåll från våra populära fordonsträffar i lokstallet täcker vi i år upp för de datum som Avesta ridklubb inte har möjlighet att arrangera.\n\nLokstallet hålls öppet så passa på att se vår samling, ta en fika och umgås med andra. Vi hoppas på många fina fordon i härlig blandning.\n\nFika finns att köpa i vår cafévagn, medan hamburgare samt korv & bröd går att köpa i tältet utanför.\n\nArrangör: SKÅJ, Krylbo Lokstation.\n\nPlats: Krylbo Lokstation, Avesta.",
       "backImage": "ads/fordonstraff-krylbo-lokstation-back-2026-06-17.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1500408664388948"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Lokstallet+i+Krylbo", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1500408664388948"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lokstallet+i+Krylbo",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1500408664388948",
       "region": "Dalarna",
@@ -3413,9 +3444,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Gillar du motorsport? Då är det läge att åka till Torsvik, för då kommer Sveriges snabbaste MX-förare på besök. Start 18:00.\n\n12 stenhårda heat på ca 3 timmar med stora delar av Sverige-eliten på plats.\n10.000 kr till totalvinnaren och 5.000 kr till bästa MX2.\n\nEntré 50 kr, fritt inträde upp till 15 år. Servering, kiosk, korv och burgare.\n\nArrangör: Huskvarna MK.\n\nPlats: Torsviksbanan, Möbelvägen 21, Jönköping.",
       "backImage": "ads/speed-cross-torsvik-back-2026-06-17.jpg",
       "links": [
-        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=27196053770053324&set=gm.2720838874965208&idorvanity=1067807403601705"},
-        {"label": "huskvarnamk.se", "url": "https://huskvarnamk.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Torsviksbanan+M%C3%B6belv%C3%A4gen+21+J%C3%B6nk%C3%B6ping", "type": "map"}
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=27196053770053324&set=gm.2720838874965208&idorvanity=1067807403601705"
+        },
+        {
+          "label": "huskvarnamk.se",
+          "url": "https://huskvarnamk.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Torsviksbanan+M%C3%B6belv%C3%A4gen+21+J%C3%B6nk%C3%B6ping",
+          "type": "map"
+        }
       ],
       "link": "https://huskvarnamk.se",
       "region": "Jönköping",
@@ -3894,8 +3935,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Full tank och fria själars terapikväll - torsdag 18 juni.\n\nOm vädergudarna håller fingrarna borta från regnkranen styr vi hojarna mot Orust och grabbarnas lokal. Där väntar grillad korv, gott snack och den sortens terapi som bara fungerar med V-twin, läderväst och likasinnade.\n\nSamling på klubben 17.30. Avresa 18.00. Mellanstopp ST1 Hisings Kärra ca 18.30 för er som vill haka på där.\n\nKom med full tank, gott humör och gärna några dåliga historier som blir bättre för varje mil.\n\nIngen stress, ingen prestige - bara vägen, hojarna och folket.\n\nArrangör: A Gentleman's Harley Club (GHC).\n\nPlats: samling på klubben, mellanstopp ST1 Hisings Kärra, Göteborg.",
       "backImage": "ads/torsdagsrundan-ghc-back-2026-06-18.jpg",
       "links": [
-        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=122184583538794305&set=a.122119569284794305"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=ST1+Hisings+K%C3%A4rra+G%C3%B6teborg", "type": "map"}
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122184583538794305&set=a.122119569284794305"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=ST1+Hisings+K%C3%A4rra+G%C3%B6teborg",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/photo/?fbid=122184583538794305&set=a.122119569284794305",
       "region": "Västra Götaland",
@@ -4249,8 +4297,15 @@ const EVENTS_DATA = {
       "descriptionFull": "50-årsjubileum för Jotunheimen MC-klubb!\n\nDato: 19-21 juni 2026.\nSted: Furuly Camping, 2693 Nordberg.\n\nFredag 19/6: 12.00 treffet åpner, 16.00 baren åpner, 21.00 live musikk, 02.00 slutt på øl/vinsalg.\nLørdag 20/6: 08.00-11.00 frokost/baren åpner, treffaktivitet på dagtid, 21.00 live musikk, 22.00 premieutdeling, 02.00 slutt på øl/vinsalg.\nSøndag 21/6: 07.00-11.00 frokost.\n\nTreffavgift: NMCU-medlem 400 kr, andre 500 kr (frokost/kaffe inkludert).\n\nKontakt: Rolf Rakstad 994 22 675, Furuly Camping 941 93 497.\n\nArrangör: Jotunheimen MC-klubb.\n\nPlats: Furuly Camping, Nordberg.",
       "backImage": "ads/jotunheimen-mc-treff-back-2026-06-19.jpg",
       "links": [
-        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1663865072413703&set=a.540698028063752"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Furuly+Camping+Nordberg", "type": "map"}
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1663865072413703&set=a.540698028063752"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Furuly+Camping+Nordberg",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/photo/?fbid=1663865072413703&set=a.540698028063752",
       "region": "Norge",
@@ -4648,8 +4703,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Templar Knights Motorcycle Club Jämtland Lodge kör för att hedra vår fallne broder Fisherman och för att uppmärksamma organisationen MOD (Mer Organ Donation).\n\nSamling och start på Stortorget i Östersund kl 12.00.\n\nVälkomna att köra med och hedra Fisherman.\n\nArrangör: Templar Knights MC, Jämtland Lodge.\n\nPlats: Stortorget, Östersund.",
       "backImage": "ads/fisherman-memorial-run-back-2026-06-21.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1562338552159730"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Stortorget+%C3%96stersund", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1562338552159730"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Stortorget+%C3%96stersund",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1562338552159730",
       "region": "Jämtland",
@@ -4670,8 +4732,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Hej alla glada!\n\nVad sägs om körning nu på söndag, från Vikingagrillen till Slusscaféet.\n\nSamling kl 10 (full tank), avfärd 10.30.\n\nSkriv om du kommer.\n\nStorkramen.\n\nArrangör: Vulcan Riders Sweden.\n\nPlats: Vikingagrillen, Lilla Kongahällavägen 11, Kungälv.",
       "backImage": "ads/vrs-spontankorning-back-2026-06-21.jpg",
       "links": [
-        {"label": "vulcanriders-sweden.org", "url": "https://www.vulcanriders-sweden.org"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Vikingagrillen+Kung%C3%A4lv", "type": "map"}
+        {
+          "label": "vulcanriders-sweden.org",
+          "url": "https://www.vulcanriders-sweden.org"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vikingagrillen+Kung%C3%A4lv",
+          "type": "map"
+        }
       ],
       "link": "https://www.vulcanriders-sweden.org",
       "region": "Västra Götaland",
@@ -4691,8 +4760,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Nästa vecka bjuder vi in till Indian Week hos oss i Uppsala!\n\nDet här är veckan för dig som är nyfiken på Indian och vill känna vad det handlar om på riktigt. Flera modeller finns på plats för provkörning.\n\nVälkommen in!\n\nArrangör: Sulas MC.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
       "backImage": "ads/indian-week-sulas-back-2026-06-21.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1314409903596562"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4va+17+Uppsala", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1314409903596562"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4va+17+Uppsala",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1314409903596562",
       "region": "Uppsala",
@@ -4973,8 +5049,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Kom och hjälp till inför träffen! Det här är sista mötet innan träffen - kom med idéer om vad vi kan göra mer.\n\nArrangör: MMCK Touring-vänner.\n\nPlats: MMCK Klubbkåken, Gällivare.",
       "backImage": "ads/mmck-sista-motet-back-2026-06-23.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1017248954160047"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=MMCK+Klubbk%C3%A5ken+G%C3%A4llivare", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1017248954160047"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=MMCK+Klubbk%C3%A5ken+G%C3%A4llivare",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1017248954160047",
       "region": "Norrbotten",
@@ -5226,9 +5309,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkommen in till oss på Lingvalls Motor onsdag 24 juni på provkörning av Ducatis alla modeller.\n\nVi startar kl 12.00 och kör fram till kl 18.00.\n\nArrangör: Lingvalls Motor.\n\nPlats: Lingvalls Motor, Kryddstigen 12, Gävle.",
       "backImage": "ads/ducati-demodag-lingvalls-back-2026-06-24.jpg",
       "links": [
-        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=1668608888074112&set=a.594378512163827"},
-        {"label": "lingvalls.se", "url": "https://lingvalls.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Lingvalls+Motor+G%C3%A4vle", "type": "map"}
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1668608888074112&set=a.594378512163827"
+        },
+        {
+          "label": "lingvalls.se",
+          "url": "https://lingvalls.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lingvalls+Motor+G%C3%A4vle",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/photo/?fbid=1668608888074112&set=a.594378512163827",
       "region": "Gävleborg",
@@ -6204,8 +6297,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkommen på årets mopedrally i Lekvattnet lördagen den 27 juni!\n\nSamling kl 10.00 vid församlingshemmet i Lekvattnet på kyrkplanen, skyltar finns från E16.\n\nStartavgift 180 kr, där hamburgare och dricka ingår plus fika efter vägen. Skamkärra finns.\n\nFöranmäler du dig får du en unik statyett (föranmälan går ut 22 juni). Det går även bra att anmäla på plats, men då ingen statyett. Anmälan via swish 123 351 1938 eller BG 229-4338 till Lekvattnets Snöskoterklubb.\n\nBåde MC och mopeder är välkomna att delta! Vi lottar även ut en fin kniv tillverkad av Hassladalens hantverk & smide.\n\nFrågor: ring Torbjörn 070 299 90 67.\n\nArrangör: Lekvattnets snöskoterklubb.\n\nPlats: församlingshemmet, Kyrkåsvägen 3, Lekvattnet.",
       "backImage": "ads/kojkland-blue-smoke-lekvattnet-back-2026-06-27.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1598885475304337"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Kyrk%C3%A5sv%C3%A4gen+3+Lekvattnet", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1598885475304337"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kyrk%C3%A5sv%C3%A4gen+3+Lekvattnet",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1598885475304337",
       "region": "Värmland",
@@ -6225,8 +6325,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Samåkning till Midnattsruset.\n\nVi samlas på Bryggvägen 4 i Viggbyholm och åker gemensamt in till Stockholm där vi käkar middag innan vi sedan åker till Midnattsruset.\n\nSamling 17.00, avgång 17.30.\n\nArrangör: Kårsta TT.\n\nPlats: Bryggvägen 4, Viggbyholm, Österskär.",
       "backImage": "ads/karsta-tt-goes-midnattsruset-back-2026-06-27.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/2051335592260170"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Bryggv%C3%A4gen+4+%C3%96stersk%C3%A4r", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2051335592260170"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bryggv%C3%A4gen+4+%C3%96stersk%C3%A4r",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/2051335592260170",
       "region": "Stockholm",
@@ -6247,9 +6354,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Det börjar bli dags att damma av gruppen - det är ett nytt år och ett nytt Midnattsrus. Lördagen 27 juni kör vi den 23:e upplagan av Midnattsruset. Midnattsruset är inget vanligt mopperally, det är en mopedcruising genom sommarnatten i Stockholm där alla deltar på eget ansvar - vi visar bara vägen.\n\nTidsschema:\n- 20.00 vi finns på plats i Västberga\n- 22.00 förarmöte med tysta moppar\n- 22.10 avgång\n- 01.30-02.00 målgång\n\nRundan är runt 35 km med runt 4 stopp på balla platser. Ledarmoppen kör i 20-30 km/t så alla hänger med. Det här är cruising och inget race.\n\nDet kostar ingenting att delta och det är ingen föranmälan. Försäljning av tilltugg, dricka och fika vid start/mål.\n\nRegler: Endast klassiska plåtmoppar tillverkade före 1982 (undantag via regeln minst 30 år gammal). Inga registreringsskyltar. Max tre hjul. Håll dig i ledet och visa respekt. Ingen fylla.\n\nArrangör: Tårtan Mopedoz.\n\nPlats: Västberga, hörnet av Drivhjulsvägen och Vretensborgsvägen, Stockholm.",
       "backImage": "ads/midnattsruset-back-2026-06-27.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/3745624628907687"},
-        {"label": "FB Event", "url": "https://www.facebook.com/events/735781632370870"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Drivhjulsv%C3%A4gen+V%C3%A4stberga+Stockholm", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/3745624628907687"
+        },
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/735781632370870"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Drivhjulsv%C3%A4gen+V%C3%A4stberga+Stockholm",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/3745624628907687",
       "region": "Stockholm",
@@ -7400,8 +7517,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Nästa vecka kör vi BSA-vecka hos oss i Uppsala.\n\nDet här är veckan för dig som är nyfiken på BSA och vill känna hur den faktiskt är att köra. Vi har flera hojar på plats för provkörning.\n\nVälkommen in!\n\nArrangör: Sulas MC.\n\nPlats: Sulas MC, Säva 17, Uppsala.",
       "backImage": "ads/bsa-vecka-sulas-back-2026-06-28.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/968302609361574"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4va+17+Uppsala", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/968302609361574"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4va+17+Uppsala",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/968302609361574",
       "region": "Uppsala",
@@ -8781,8 +8905,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Två dagar i rad!\n\nMoped/mc äldre än 1997 på lördagen. Moped/mc äldre än 1967 på söndagen.\n\nTvå rallyn till kostnaden av ett, 250 kr för två dagar.\n\nVarmt välkommen 4 & 5 juli!\n\nPlats: Hammarö, Karlstad.",
       "backImage": "ads/hammarosvangen-back-2026-07-04.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1431894875111035"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Hammar%C3%B6+Karlstad", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1431894875111035"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hammar%C3%B6+Karlstad",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1431894875111035",
       "region": "Värmland",
@@ -10640,6 +10771,37 @@ const EVENTS_DATA = {
       "backImage": "ads/omcc-spontan-grillning-back-2026-07-10.jpg"
     },
     {
+      "id": "vendelbo-traef-2026",
+      "name": "Vendelbo Træf",
+      "date": "2026-07-10",
+      "dateEnd": "2026-07-12",
+      "type": "Träff",
+      "region": "Danmark",
+      "location": "Dyrhedenvej 15, Sæby",
+      "organizer": "Vendelboerne MC",
+      "source": "smcboken.svmc.se",
+      "link": "https://www.vendelboernemc.dk/",
+      "_vehicle": "mc",
+      "description": "Dansk MC-träff söder om Frederikshavn med camping i naturen nära skog och strand. Rock och blues live på fredagen, DJ på lördagen. Hela helgen 100 DKK inkl frukost.",
+      "descriptionFull": "Motorcykel træf 10-12 juli 2026, 12 km syd for Frederikshavn. Glade bikere og Vendelbo hygge.\n\nMad og drikke til fornuftige priser. God plads til dit telt. Natur med skov og strand.\n\nRock og Blues live fredag, lørdag DJ.\n\nIndgang for hele weekenden 100 dkr. inkl. morgenmad.",
+      "links": [
+        {
+          "label": "vendelboernemc.dk",
+          "url": "https://www.vendelboernemc.dk/"
+        },
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/ovrigatraffar"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Dyrhedenvej+15+Sæby+Danmark",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
       "id": "veteranfordonsdag-mopedrally-as-brunn-2026-07-11",
       "name": "Veteranfordonsdag & Mopedrally",
       "date": "2026-07-11",
@@ -10686,8 +10848,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Bilutställningen öppnar klockan 10.00 och stänger 16.00.\n\nSunliners spelar rockabilly under dagen.\n\nRestaurang Kolartorpet håller öppet med öl och hamburgare. Inträde 100 kr. Myggigt kul för hela familjen!\n\nMer information kommer inom kort.\n\nArrangör: Östa Camping.\n\nPlats: Östa Camping, Östa 541, Tärnsjö.",
       "backImage": "ads/osta-mosquito-meet-back-2026-07-11.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1504547357826543"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=%C3%96sta+Camping+T%C3%A4rnsj%C3%B6", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1504547357826543"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%96sta+Camping+T%C3%A4rnsj%C3%B6",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1504547357826543",
       "region": "Uppsala",
@@ -10708,10 +10877,23 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkommen på hojträff på Kinnekulle Ring!\n\nObservera att vi kör två dagar i år! Du är välkommen att delta på båda, men måste boka varje dag separat. Bokar du båda anger du båda dagars bokningskod, och beloppet blir då 2x1895-300=3490.\n\nVi erbjuder dig en eller två trevliga dagar i gott sällskap, med duktiga föråkare, lagom stora grupper och lite mer plats på banan. Fika och lunch ingår - du kommer inte att behöva vara hungrig.\n\nDu ska ha gatregistrerad (påställd och försäkrad) motorcykel, körkort och ett glatt humör med dig. Du kör med hänsyn och omtanke, oavsett hastighet och ambition.\n\nVi startar kl 08.00, sedan kör vi 20-minuterspass med fyra fartgrupper mellan kl 09.00 och 16.00.\n\nBoka din plats via vhontrack.bokamera.se/book.\n\nPlats: Kinnekulle Ring, Götene.",
       "backImage": "ads/vho-hojtraff-kinnekulle-back-2026-07-11.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1869532700341463"},
-        {"label": "FB Sida", "url": "https://www.facebook.com/profile.php?id=100083305480959"},
-        {"label": "Boka", "url": "https://vhontrack.bokamera.se/book"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Kinnekulle+Ring+G%C3%B6tene", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1869532700341463"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100083305480959"
+        },
+        {
+          "label": "Boka",
+          "url": "https://vhontrack.bokamera.se/book"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kinnekulle+Ring+G%C3%B6tene",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1869532700341463",
       "region": "Västra Götaland",
@@ -11399,8 +11581,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Vi åker moped och möts upp kl 12 vid Grävlingsberget, Hälleskogsbrännan, och avnjuter eget medtaget fika och snackar strunt.\n\nVi har med andra ord en orsak att åka moped, vilket är allt som behövs.\n\nPlats: Grävlingsberget, Hälleskogsbrännan, Västerfärnebo.",
       "backImage": "ads/halleskogsbrannan-back-2026-07-14.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/2545490495795700"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%A4vlingsberget+H%C3%A4lleskogsbr%C3%A4nnan", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2545490495795700"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%A4vlingsberget+H%C3%A4lleskogsbr%C3%A4nnan",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/2545490495795700",
       "region": "Västmanland",
@@ -12024,6 +12213,39 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "mitt-touren-2026-07-16",
+      "name": "Mitt-Touren",
+      "date": "2026-07-16",
+      "dateEnd": "2026-07-16",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Gävleborg",
+      "location": "Fågelsjö Gammelgård",
+      "organizer": "SMC Gävleborg",
+      "organizerIcon": "clubs/normalized/smc.png",
+      "source": "smcboken.svmc.se",
+      "link": "https://www.svmc.se/gavleborg",
+      "_vehicle": "mc",
+      "description": "Gemensam tur för distrikten i Region Mitt plus Jämtland som sammanstrålar vid Gammelgården. Gävleborg samlas vid OKQ8 i Ljusdal kl 10.00, ingen föranmälan behövs.",
+      "descriptionFull": "För motorcyklister i Gävleborg-Dalarna-Västernorrland (Region Mitt) och som bonus även Jämtland!\n\nTorsdagen den 16 juli åker vi från respektive distrikt och sammanstrålar på Fågelsjö Gammelgård (efter riksväg 45). Planen är att respektive distrikt planerar sin tur själva, dvs vart man startar, om man utgår från flera startplatser osv.\n\nVi i Gävleborg kommer att utgå från OKQ8 i Ljusdal. Samling kl 10.00, avfärd 10.15, vi kör gemensamt till Fågelsjö.\n\nEfter en trevlig tur på fina kurviga vägar så möter vi de andra distrikten i Fågelsjö. Där finns mat eller fika om man vill.\n\nDet finns möjlighet att gå guidad tur på gården (rekommenderas).\n\nViktigt: Målgång i Fågelsjö skall vara ca 12.00.\n\nIngen föranmälan, bara att dyka upp på OKQ8 i Ljusdal.",
+      "links": [
+        {
+          "label": "svmc.se",
+          "url": "https://www.svmc.se/gavleborg"
+        },
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/mcturer"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fågelsjö+Gammelgård",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
     },
     {
       "id": "dog-bergsjotraffen-2026",
@@ -13113,9 +13335,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Information kommer att publiceras på vår hemsida (www.smf-solleftea.se), här på detta FB-evenemang och på Facebook-sidan Sollefteå Mopedcruising under våren/närmare sommaren!\n\nNya inslag och uppdateringar (tipsrundan på dagtid blir mopedrally på x antal mil) förväntas.\n\nJubileum 20 år, 2006-2026.\n\nPlats: Sollefteå kommunparkering, Hantverkaregatan, Sollefteå.",
       "backImage": "ads/solleftea-mopedcruising-back-2026-07-22.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1974476356463760"},
-        {"label": "smf-solleftea.se", "url": "https://www.smf-solleftea.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Hantverkaregatan+881+31+Sollefte%C3%A5", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1974476356463760"
+        },
+        {
+          "label": "smf-solleftea.se",
+          "url": "https://www.smf-solleftea.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hantverkaregatan+881+31+Sollefte%C3%A5",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1974476356463760",
       "region": "Västernorrland",
@@ -13661,9 +13893,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Nu så! Bra mat, folk, dryck och väder? Varmt välkomna helgen v.30 till oss.\n\nPeking - 59 år på vägen, 24-25 juli 2026.\n\nLiveband:\nTorsdag: Benny and the Bangers\nFredag: Pera & Blom, Muddy Mojo, Hysteria, Mingoz Amigoz\nLördag: Pera & Blom, Snarskank, Gerda Blom, Glädjens Hus\n\nCash is king.\n\nInfo: Johan 0702-56 90 47, Henka 0709-77 13 34. Säljare ring Holma 070-325 97 42 (senast 21 juli).\n\nVägbeskrivning: följ sjukhusskyltarna och kör förbi ca 1 km. Endast SBM och inbjudna vänner.\n\nArrangör: Peking MC (pekingmc.se).\n\nPlats: Karstorp, Norrköping.",
       "backImage": "ads/peking-mc-fest-back-2026-07-24.jpg",
       "links": [
-        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo?fbid=1539673747945772&set=a.215441620368998"},
-        {"label": "pekingmc.se", "url": "https://pekingmc.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Karstorp+Norrk%C3%B6ping", "type": "map"}
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo?fbid=1539673747945772&set=a.215441620368998"
+        },
+        {
+          "label": "pekingmc.se",
+          "url": "https://pekingmc.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Karstorp+Norrk%C3%B6ping",
+          "type": "map"
+        }
       ],
       "link": "https://pekingmc.se",
       "region": "Östergötland",
@@ -14228,9 +14470,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Mopedrally 26 juli, start kl 11.\n\nVi börjar dagen med en fika - kom när ni är redo - sedan gemensam start kl 11 från Asa Bygdegård, Fraggahult.\n\nEfter målgång bjuder vi på korv, kaffe och kaka samt prisutdelning. Avgift 150 kr för rally och mat.\n\nOm du inte kör, kom och se start/mål, umgås och köp fika/korv hos oss!\n\nPlats: Asa Bygdegård, Fraggahult, Lammhult.",
       "backImage": "ads/asa-mopedrally-back-2026-07-26.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1242668284444825"},
-        {"label": "asabygdegard.se", "url": "https://asabygdegard.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Asa+Bygdeg%C3%A5rd+Fraggahult+Lammhult", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1242668284444825"
+        },
+        {
+          "label": "asabygdegard.se",
+          "url": "https://asabygdegard.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Asa+Bygdeg%C3%A5rd+Fraggahult+Lammhult",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1242668284444825",
       "region": "Kronoberg",
@@ -14304,8 +14556,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Samling och start på Knektplatsen.\n\nDet traditionella mopperallyt med start i samlad tropp.\n\nAnmälan från 8.30.\n\nArrangör: Classic Car Week.\n\nPlats: Knektplatsen, Rättvik.",
       "backImage": "ads/mopedrally-knektplatsen-back-2026-07-27.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/4401480656797271"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Knektplatsen+R%C3%A4ttvik", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4401480656797271"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Knektplatsen+R%C3%A4ttvik",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/4401480656797271",
       "region": "Dalarna",
@@ -15237,9 +15496,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Årets Räfvålarally går av stapeln den 1/8 på Furuliden i Saxdalen.\n\nAnmälan kl 10:00 inklusive tipspromenad. Start kl 11:00. Startavgift 150 kr inklusive hamburgare och dryck.\n\nArrangör: Oldmopedos (Räfvåla med omnejd).\n\nPlats: Furuliden, Saxdalen.",
       "backImage": "ads/mopedrally-saxdalen-back-2026-08-01.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1485092280029610"},
-        {"label": "oldmopedos.se", "url": "https://www.oldmopedos.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Furuliden+Saxdalen", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1485092280029610"
+        },
+        {
+          "label": "oldmopedos.se",
+          "url": "https://www.oldmopedos.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Furuliden+Saxdalen",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1485092280029610",
       "region": "Dalarna",
@@ -15259,8 +15528,15 @@ const EVENTS_DATA = {
       "descriptionFull": "En tvådagars festival för dig som gillar tvåtaktare och mopeddragracing.\n\n- Mopeddragracing\n- Bromsbänk: MJP dyno 1100 finns på plats\n- Meals on Wheels Örebro kommer med sin foodtruck på lördagen\n\nPlats: Laxå flygfält, Motorvägen 1, Laxå.",
       "backImage": "ads/tiveden-2stroke-festival-back-2026-08-01.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/853706497645741"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Lax%C3%A5+Motorstadion", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/853706497645741"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lax%C3%A5+Motorstadion",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/853706497645741",
       "region": "Örebro",
@@ -15280,9 +15556,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Anmälan från kl. 08. Tipsfrågor och fika utmed banan. Kroppkakor efter målgång, moppelotteri och efterfest med grill.\n\nRallyt är öppet för veteranmopeder och mc.\n\nArrangör: Moppehultsfred (Hultsfreds hembygdsförenings veteranfordonssektion).\n\nPlats: Hultsfreds Hembygdspark, Hultsfred.",
       "backImage": "ads/rocknroll-rally-hultsfred-back-2026-08-01.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1803282177053499"},
-        {"label": "FB Sida", "url": "https://www.facebook.com/moppehultsfred"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Hultsfreds+Hembygdspark+Hultsfred", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1803282177053499"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/moppehultsfred"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hultsfreds+Hembygdspark+Hultsfred",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/moppehultsfred",
       "region": "Kalmar",
@@ -16795,8 +17081,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Lördag 8 augusti är det dags för HME:s (Hallands Motor Entusiaster) årliga mopedrally.\n\nStart och mål hos Hallands Veteranbilsreparationer i Oskarström (Sennanvägen 62).\n\nStartavgift 150 kr swishas till 1232564086 senast 31/7. Märk med för- och efternamn samt mopedrally. Efteranmälan 200 kr.\n\nStarten går 09.30. Hamburgare, dricka, kaffe och kaka ingår i startavgiften och serveras vid målgång. Ett skamsläp finns tillgängligt. Priser för finaste moped delas ut.\n\nMer info om rundan kommer.\n\nPlats: Hallands Veteranbilsreparationer, Sennanvägen 62, Oskarström.",
       "backImage": "ads/hme-mopperally-oskarstrom-back-2026-08-08.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1105716285031594"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Sennanv%C3%A4gen+62+Oskarstr%C3%B6m", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1105716285031594"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sennanv%C3%A4gen+62+Oskarstr%C3%B6m",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1105716285031594",
       "region": "Halland",
@@ -16816,9 +17109,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Återigen dags för Karlskoga Motorweteraners populära mopedrally.\n\nLördag 8 augusti 2026. Start kl 11.00 vid Bofors Station, Korpkullsvägen 5, Karlskoga.\n\nStartavgift 150 kr. Ingen föranmälan!\n\nEn tur på ca fem mil med fika efter vägen samt hamburgare efter målgång.\n\nEfter prisutdelning blir det \"After Moppe\" i Röda ladan på Stationsområdet kl 15.00-17.00. Gott å dricka, nåt att tugga på, trubadur och lite gött snack om dagen.\n\nPlats: Bofors stationsområde, Karlskoga.",
       "backImage": "ads/mopedrally-karlskoga-back-2026-08-08.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/787698250618993"},
-        {"label": "FB Sida", "url": "https://www.facebook.com/karlskogamotorweteraner"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Korpkullsv%C3%A4gen+8+Karlskoga", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/787698250618993"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/karlskogamotorweteraner"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Korpkullsv%C3%A4gen+8+Karlskoga",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/karlskogamotorweteraner",
       "region": "Örebro",
@@ -16838,8 +17141,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkomna till Kårsta TT lakerun.\n\nSamling från 11.00 och start 12.00. Gott om gratis parkering för ekipage finns.\n\nHärliga 7 mil körning längs slingriga vägar med stopp halvvägs där vi bjuder på kaffe och kaka!\n\nVid målgång kommer mat finnas att köpa och vi önskar att många stannar kvar och kör lite skönt afterrace.\n\nBromsbänk finns på plats för er som vill få papper på effekten!\n\nVarmt välkommen!\n\nPlats: Kårstavägen 314, Kårsta.",
       "backImage": "ads/karsta-tt-lakerun-back-2026-08-08.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1045418914554572"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=K%C3%A5rstav%C3%A4gen+314+K%C3%A5rsta", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1045418914554572"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=K%C3%A5rstav%C3%A4gen+314+K%C3%A5rsta",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1045418914554572",
       "region": "Stockholm",
@@ -18589,8 +18899,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Arrangör: Tibro Motorklubb (Speedwaysektionen).\n\nAnmälan kl 09:00 till 10:00. Anmälningsavgift 200 kr.\n\nI priset ingår en hamburgare med dricka och kaffe ute med vägen. Korv, dricka och kaffe finns att köpa i kiosken på motorstadion.\n\nStart och mål sker inne på området. Vi kör på natursköna vägar runt Tibro på asfalterade och fina grusvägar. Sträckan är ca 5 mil och rallyt körs som en tipspromenad. Priser lottas ut efter rallyt.\n\nUppsamlingsfordon finns på plats och en mindre utställning av speedwaycyklar visas också.\n\nPlats: Tibro Motorstadion.",
       "backImage": "ads/mopperally-tibro-back-2026-08-15.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1671571193854049"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Tibro+Motorstadion", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1671571193854049"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tibro+Motorstadion",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1671571193854049",
       "region": "Västra Götaland",
@@ -19190,6 +19507,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "silkestraffen-2026-08-15",
+      "name": "Silkesträffen",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Kalmar",
+      "location": "Kährs parkering, Dunderbergsgatan 10, Nybro",
+      "organizer": "Nybro MC klubb",
+      "source": "smcboken.svmc.se",
+      "link": "https://smcboken.svmc.se/traffar/fikakvallar",
+      "_vehicle": "mc",
+      "description": "Fin MC-runda i naturskön småländsk miljö som avrundas med grillning. Korv, hamburgare och dryck finns till försäljning. Avgift 50 kr, kaffe och kaka ingår.",
+      "descriptionFull": "Fin MC-runda i naturskön småländsk miljö.\n\nAvrundas med grillning; korv, hamburgare och dryck finns till försäljning.\n\nAvgift 50:-. Kaffe och kaka ingår.\n\nSamling kl. 10:00 vid Kährs parkering bakom polishuset i Nybro.",
+      "links": [
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/fikakvallar"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Dunderbergsgatan+10+Nybro",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
       "id": "moppekul-yllerallyt-gallstad-2026-08-16",
       "name": "Yllerallyt",
       "date": "2026-08-16",
@@ -19203,8 +19548,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Rally för veteranmoppar och lättviktare upp till 150 cc.\n\nSamling på Gällstad Torg från kl 08.30. Tävlande bjuds på kaffe före start. Start 10.30 och mål 14.00 på torget.\n\nRallyt är på ca 5,5 mil på grusvägar och belagda vägar. Prisutdelning direkt på plats ca 14.15.\n\nFikabiljett ingår i startavgiften (150 kr).\n\nVälkomna!\n\nArrangör: Moppekul i Gällstad.\n\nPlats: Gällstad Torg, Gällstad.",
       "backImage": "ads/yllerallyt-gallstad-back-2026-08-16.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1663363978144393"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=G%C3%A4llstad+Torg+Bor%C3%A5sv%C3%A4gen+40", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1663363978144393"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=G%C3%A4llstad+Torg+Bor%C3%A5sv%C3%A4gen+40",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1663363978144393",
       "region": "Västra Götaland",
@@ -20287,6 +20639,42 @@ const EVENTS_DATA = {
       "backImage": "ads/carlbarks-aka-hoj-weekend-back-2026-08-21.jpg"
     },
     {
+      "id": "stenotraffen-smtt-2026",
+      "name": "Stenöträffen",
+      "date": "2026-08-21",
+      "dateEnd": "2026-08-23",
+      "time": "16:00",
+      "type": "Träff",
+      "region": "Gävleborg",
+      "location": "Stenövägen 117, Sandarne, Söderhamn",
+      "organizer": "SMTT Söderhamns MC Touring Team",
+      "source": "smcboken.svmc.se",
+      "link": "https://smtt.se/",
+      "_vehicle": "mc",
+      "description": "36:e upplagan med tältning runt klubbstugan, livemusik fredag och lördag, mat hela helgen och frukostbuffé från verandan. Tipsrunda och prisutdelning på lördag kväll.",
+      "descriptionFull": "För 36:e gången blir det tältning på därtill lämpliga platser runt klubbstugan.\n\nMusik fredag-lördag. Mat serveras under hela helgen med frukostbuffé från verandan lördag-söndag. Inga ansträngande lekar utan endast en tipsrunda som fysisk ansträngning kommer att finnas. Prisutdelning lördag kväll.\n\nMöjlighet till övernattning i stuga finns, se länken Stugor att hyra.\n\nPå grund av den begränsade yta vi har till vårt förfogande runt klubbkåken så hänvisar vi våra gäster i husbil och husvagn till vår närmaste granne Stenö Camping, undantaget husvagnar dragna av MC-registrerade fordon som naturligtvis är välkomna på träffplatsen.",
+      "links": [
+        {
+          "label": "smtt.se",
+          "url": "https://smtt.se/"
+        },
+        {
+          "label": "Stugor att hyra",
+          "url": "https://www.smtt.se/stugor-att-hyra/"
+        },
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/mctraffar"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Stenövägen+117+Sandarne+Söderhamn",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
       "id": "doa-ekero-runt-2026",
       "name": "DOA - Ekerö Runt",
       "date": "2026-08-22",
@@ -20559,6 +20947,38 @@ const EVENTS_DATA = {
       "backImage": "ads/vrs-tunnelrundan-back-2026-08-22.jpg"
     },
     {
+      "id": "tupprundan-2026-08-22",
+      "name": "Tupprundan",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Kalmar",
+      "location": "Torget, Torsås",
+      "organizer": "Roosters MCC",
+      "source": "smcboken.svmc.se",
+      "link": "https://www.facebook.com/roostersmcc",
+      "_vehicle": "mc",
+      "description": "MC-dagrally på asfalterade vägar med start och mål vid torget. Rundans längd ca 10-12 mil. Start mellan 10 och 12, startavgift 50 kr per person.",
+      "descriptionFull": "Välkomna att köra Tupprundan, ett MC-dagrally på asfalterade vägar med start och mål i Torsås.\n\nStart 10-12. Startavgift 50 kr/person.\n\nRundans längd ca 10-12 mil.",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/roostersmcc"
+        },
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/mcrallyn"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Torget+Torsås",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
       "id": "silverforza-silverforsen-runt-2026-08-23",
       "name": "Silverforsen Runt",
       "date": "2026-08-23",
@@ -20600,9 +21020,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Vid Semnebyns Bygdegård i Glava kör vi mopedrally söndag 23 augusti 2026, start kl 11.\n\nStartavgift 100 kr. Banlängd ca 5-6 mil. Servering finns. Prisutdelning ca kl 15.\n\nVälkomna!\n\nArrangör: Semnebyns Bygdegård.\n\nPlats: Semnebyns Bygdegård, Semnebyn, Glava.",
       "backImage": "ads/mopedrally-glavasvangen-back-2026-08-23.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/983237614569235"},
-        {"label": "semnebyn.se", "url": "https://semnebyn.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Semnebyns+bygdeg%C3%A5rd+Glava", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/983237614569235"
+        },
+        {
+          "label": "semnebyn.se",
+          "url": "https://semnebyn.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Semnebyns+bygdeg%C3%A5rd+Glava",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/983237614569235",
       "region": "Värmland",
@@ -21232,6 +21662,62 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "old-knutters-onsdagstur-2026-08-26",
+      "name": "Onsdagstur The Old Knutters",
+      "date": "2026-08-26",
+      "dateEnd": "2026-08-26",
+      "time": "17:00",
+      "type": "Körning",
+      "region": "Halland",
+      "location": "Snöstorps Kyrka, Ljungbyvägen 72, Halmstad",
+      "organizer": "The Old Knutters",
+      "source": "smcboken.svmc.se",
+      "link": "https://smcboken.svmc.se/traffar/mcturer",
+      "_vehicle": "mc",
+      "description": "En härlig kvällstur på kurviga halländska vägar med ett stopp på Backens café. Samling vid kyrkan, start kl 17. Alla motorcyklister är välkomna!",
+      "descriptionFull": "Det blir en härlig tur på kurviga halländska vägar med ett stopp på Backens café.\n\nSnöstorps Kyrka, Ljungbyvägen 72, Halmstad.\n\nStart kl 17.",
+      "links": [
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/mcturer"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snöstorps+Kyrka+Ljungbyvägen+72+Halmstad",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
+      "id": "hobbes-kvallstraff-2026-08-26",
+      "name": "Hobbes MC Kvällsträff",
+      "date": "2026-08-26",
+      "dateEnd": "2026-08-26",
+      "time": "18:30",
+      "type": "Träff",
+      "region": "Halland",
+      "location": "Utsiktstornet, Galgberget, Halmstad",
+      "organizer": "Hobbes MC",
+      "source": "smcboken.svmc.se",
+      "link": "https://smcboken.svmc.se/traffar/ovrigatraffar",
+      "_vehicle": "mc",
+      "description": "Liten kvällsträff med MC-tur som avslutas på hemligt mål med tipsrunda och grillad korv. Samling vid utsiktstornet kl 18:30, alla är välkomna!",
+      "descriptionFull": "Hobbes MC:s lilla kvällsträff. MC-tur som avslutas på hemligt mål, där det blir tipsrunda och grillad korv.\n\nSamling vid utsiktstornet på Galgberget, Halmstad.",
+      "links": [
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/ovrigatraffar"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Galgberget+utsiktstorn+Halmstad",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
       "id": "doa-dagstur-ekero-2026-08-27",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-08-27",
@@ -21533,8 +22019,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkomna till Älvseredsrallyt 2026!\n\nEtt klassiskt mopedrally på både asfalt- och grusvägar i vacker halländsk natur.\n\nLördagen den 29 augusti 2026. Start och mål vid Älvsereds Centrum.\n\nPlats: Älvsereds Center, Älvsered.",
       "backImage": "ads/alvseredsrallyt-back-2026-08-29.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1590095628845077"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=%C3%84lvsereds+Center+%C3%84lvsered", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1590095628845077"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%84lvsereds+Center+%C3%84lvsered",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1590095628845077",
       "region": "Halland",
@@ -21554,8 +22047,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Veteranmoped/mc-rally 29 augusti 2026.\n\nStart- och målplats Vinterlust, Långtradargatan 2, Tollarp. Vinterlust firar 100 år sedan det byggdes.\n\nDet kommer att finnas en pilad runda. Välkomna med veteranmoped eller mc!\n\nPlats: Vinterlust, Långtradargatan 2, Tollarp.",
       "backImage": "ads/asen-upp-och-ner-back-2026-08-29.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1482683750080098"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Vinterlust+L%C3%A5ngtradargatan+2+Tollarp", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1482683750080098"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vinterlust+L%C3%A5ngtradargatan+2+Tollarp",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1482683750080098",
       "region": "Skåne",
@@ -21576,9 +22076,19 @@ const EVENTS_DATA = {
       "descriptionFull": "VART: Eskilstuna Track & Resort, 29 augusti.\n\nINFO: En dag för att köra, hänga och träffa andra som gillar hoj lika mycket som du. Det blir KNIX för de som vill och föranmäler (utan krav på medlemskap). Det gäller alla mellan 16-35 år!\n\nDu behöver inte köra KNIX för att komma - vi kommer att ha massa annat roligt så som matvagn, musik och skön stämning. Ni behöver inte föranmäla er om ni inte kör KNIX. Vi har även merch på plats och det kan dyka upp någon tävling eller två under dagen.\n\nKVÄLLEN: Efter KNIX fortsätter kvällen på Vilsta med bad, grill och häng. Dit är man välkommen även om man inte övernattar.\n\nPRIS: KNIX kostar 390 kr (ord. 500 kr), anmäl via grundkurser.svmc.se.\n\nBOENDE: För dig som åker en bit finns boende på Vilsta sporthotell med ungdomsrabatt, från 375 kr/person på hotellet och från 199 kr/person i självhushållsstuga.\n\nArrangör: SMC UNG.\n\nPlats: Eskilstuna Track & Resort.",
       "backImage": "ads/smc-ung-hangout-back-2026-08-29.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1882854555734327"},
-        {"label": "grundkurser.svmc.se", "url": "https://grundkurser.svmc.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Eskilstuna+Track+%26+Resort", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1882854555734327"
+        },
+        {
+          "label": "grundkurser.svmc.se",
+          "url": "https://grundkurser.svmc.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Eskilstuna+Track+%26+Resort",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1882854555734327",
       "region": "Södermanland",
@@ -21998,6 +22508,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "freedomrallyt-2026-08-29",
+      "name": "Freedomrallyt",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "12:00",
+      "type": "Körning",
+      "region": "Östergötland",
+      "location": "Himmelstalundsbadets parkering, Norrköping",
+      "organizer": "MCK Freedom",
+      "source": "smcboken.svmc.se",
+      "link": "http://www.freedom.nu/",
+      "_vehicle": "mc",
+      "description": "Årligt MC-rally på ca 10 mil krokiga och goa asfaltsvägar med busiga kontroller, fika och grillning vid hemligt mål. Kör i valfritt tempo efter karta. Gratis, finfina priser!",
+      "descriptionFull": "MCK Freedoms årliga MC-rally med ca 10 mil krokiga goa asfaltsvägar, diverse busiga kontroller, fika och grillning vid hemligt mål.\n\nDu kör själv eller med dina polare efter karta/roadmap i valfritt tempo.\n\nKostar inget. Finfina priser!\n\nStart från Himmelstalundsbadets parkering i Norrköping, gamla E4 igenom Norrköping där den korsar Motala ström.",
+      "links": [
+        {
+          "label": "freedom.nu",
+          "url": "http://www.freedom.nu/"
+        },
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/mcrallyn"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Himmelstalundsbadet+Norrköping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
       "id": "full-fart-moppers-lasse-cedergren-minnesrunda-2026-08-30",
       "name": "Lasse Cedergrens Minnesrunda",
       "date": "2026-08-30",
@@ -22011,8 +22553,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Nu har vi bestämt datumet för vår runda, boka in den 30/8 2026.\n\nDenna gång planerar vi för en längre och en kortare runda. Den långa rundan går via riktigt fina vägar in mot Enköping.\n\nStartplatsen är samma som förra gången, hos TT Garage i Bålsta där det finns gott om plats att parkera.\n\nMer information uppdateras under året.\n\nArrangör: Full Fart Moppers 50cc.\n\nPlats: TT Garage, Valla Gårds Väg 8, Bålsta.",
       "backImage": "ads/lasse-cedergren-minnesrunda-back-2026-08-30.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/894241936445793"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Valla+G%C3%A5rds+V%C3%A4g+8+B%C3%A5lsta", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/894241936445793"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Valla+G%C3%A5rds+V%C3%A4g+8+B%C3%A5lsta",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/894241936445793",
       "region": "Uppsala",
@@ -22884,8 +23433,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Varmt välkomna på MC Swap Meet hos No Name MC Strängnäs!\n\nSäljare är välkomna från kl 09.00 för att ställa upp saker, övriga gäster från kl 10.00.\n\nKorv med bröd, fika och dryck finns att köpa.\n\nArrangör: No Name MC Strängnäs.\n\nPlats: Elofsbergsvägen 25, Strängnäs.",
       "backImage": "ads/no-name-mc-swap-meet-back-2026-09-05.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1701543954495332"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Elofsbergsv%C3%A4gen+25+Str%C3%A4ngn%C3%A4s", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1701543954495332"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Elofsbergsv%C3%A4gen+25+Str%C3%A4ngn%C3%A4s",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1701543954495332",
       "region": "Södermanland",
@@ -22905,9 +23461,19 @@ const EVENTS_DATA = {
       "descriptionFull": "MC-Veteranerna Kristianstad hälsar välkomna till Degeberga Veteranmarknad 5/9.\n\nFörsta lördagen i september, med förmarknad på fredag kväll.\n\nInsläpp säljare fredag 4/9 kl 13.00-20.00.\nInsläpp säljare lördag 5/9 kl 06.00-09.00.\n\nSäljplats 500 kr.\n\nFör info: klubbtelefon 0766-329205 eller info@mcvksd.se.\n\nPlats: Degeberga, Kristianstad.",
       "backImage": "ads/degeberga-veteranmarknad-back-2026-09-05.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1658246531875638"},
-        {"label": "mcvksd.se", "url": "https://www.mcvksd.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Degeberga+Kristianstad", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1658246531875638"
+        },
+        {
+          "label": "mcvksd.se",
+          "url": "https://www.mcvksd.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Degeberga+Kristianstad",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1658246531875638",
       "region": "Skåne",
@@ -22927,8 +23493,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Ljungby Fordons Historiska Klubbs mopperally i samband med Lagandagen.\n\nLördag 5 september 2026. Samling kl 9 vid stationen i Lagan, Järnvägsgatan 5. Start kl 10.\n\nRallyt går en sträcka på ca 4 mil utmed natursköna vägar runt Lagan. Prisutdelning kl 13.\n\nStartavgift 100 kr. Fika vid målgång ingår.\n\nVid frågor ring Peter 070-835 55 93 eller Micke 070-822 01 81.\n\nArrangör: Ljungby Fordons Historiska Klubb.\n\nPlats: Stationen, Järnvägsgatan 5, Lagan.",
       "backImage": "ads/mopperally-lagan-back-2026-09-05.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/26937299689294725"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=J%C3%A4rnv%C3%A4gsgatan+5+Lagan", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26937299689294725"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=J%C3%A4rnv%C3%A4gsgatan+5+Lagan",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/26937299689294725",
       "region": "Kronoberg",
@@ -22948,8 +23521,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Lägg i almanackan lördagen den 5 september 2026 då det åter är dags för Môsaracet i Dalsjöfors.\n\nEtt rally för veteranmopeder, arrangerat av Môsarusa-Riders Toarp.\n\nMer information kommer.\n\nPlats: Dalsjöfors Folkets Park, Storgatan 71, Dalsjöfors.",
       "backImage": "ads/mosaracet-dalsjofors-back-2026-09-05.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/764877159306614"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Dalsj%C3%B6fors+Folkets+Park+Storgatan+71", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/764877159306614"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Dalsj%C3%B6fors+Folkets+Park+Storgatan+71",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/764877159306614",
       "region": "Västra Götaland",
@@ -22969,8 +23549,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkomna till Folkets Parks 3:e mopperally!\n\nLördagen den 5/9. Anmälan öppnar 9.30. Förarmöte 10.45. Start kl 11.00.\n\nPlats: Fågelfors Folkets Park, Parkvägen, Fågelfors.",
       "backImage": "ads/mopperally-fagelfors-back-2026-09-05.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/913511764629977"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=F%C3%A5gelfors+Folkets+Park", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/913511764629977"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=F%C3%A5gelfors+Folkets+Park",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/913511764629977",
       "region": "Kalmar",
@@ -23420,9 +24007,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Brunnbäck Crusaders arrangerar mopedrally.\n\nSöndag 6 september vid Fors Folkets Hus, Rundavägen 12, Fors - 15 km från Avesta mot Gävle.\n\nStart kl 10:00. Startavgift 200 kr inkl kaffe före start och thaimat efter mål. Banlängd ca 75 km.\n\nMaten serveras från kl 12 (matleverantör Lilla Asien Avesta).\n\nMer info: Håkan 070-676 43 43, Peter 070-242 76 62.\n\nArrangör: Brunnbäck Crusaders.\n\nPlats: Fors Folkets Hus, Rundavägen 12, Fors.",
       "backImage": "ads/brunnback-mopedrally-fors-back-2026-09-06.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1520544142860645"},
-        {"label": "FB Inlägg", "url": "https://www.facebook.com/photo/?fbid=10163144625561317&set=gm.3067886170077414&idorvanity=486244568241600"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Fors+Folkets+Hus+Rundav%C3%A4gen+12+Fors+Avesta", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1520544142860645"
+        },
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163144625561317&set=gm.3067886170077414&idorvanity=486244568241600"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fors+Folkets+Hus+Rundav%C3%A4gen+12+Fors+Avesta",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/photo/?fbid=10163144625561317&set=gm.3067886170077414&idorvanity=486244568241600",
       "region": "Dalarna",
@@ -23533,6 +24130,34 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "tollarps-hostrally-2026-09-06",
+      "name": "Tollarps Höstrally",
+      "date": "2026-09-06",
+      "dateEnd": "2026-09-06",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Klubbstugan, Tränevägen 43, Tollarp",
+      "organizer": "Tollarps MC Klubb",
+      "source": "smcboken.svmc.se",
+      "link": "https://smcboken.svmc.se/traffar/mcrallyn",
+      "_vehicle": "mc",
+      "description": "Naturskön runda på ca 8 mil med teoretiska och praktiska prov för både förare och passagerare. Stort prisbord, korv och dryck vid målet. Avgift 100 kr, fika ingår.",
+      "descriptionFull": "Start 10.00-12.00.\n\nNaturskön runda på ca 8 mil, med teoretiska och praktiska prov för både förare och passagerare.\n\nStort prisbord med pokal till 1:a, 2:a och 3:e. Försäljning av korv med bröd eller mos samt dryck m.m. vid mål.\n\nAvgift 100:-, fika ingår.\n\nKontaktman: Roland Nilsson, 0708-19 32 16, nilssonroland957@gmail.com",
+      "links": [
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/mcrallyn"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tränevägen+43+Tollarp",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
     },
     {
       "id": "gota-ms-crosskola-2026-09-07",
@@ -25421,8 +26046,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Lördagen den 19 september kör vi! För fjärde året på rad genomför vi den öppna moppe-cruisingen på Lidingö.\n\nVi träffas vid parkeringen vänster om ST1-macken vid Ropsten T-bana. Gemensam avfärd kl 11.00. Vi börjar med en sväng genom Norra Djurgårdsstaden/Gärdet/Djurgården (ca 1 mil) och styr sedan mot Lidingö och kör hela rundan runt södra och norra Lidingö (ca 5 mil).\n\nVi beräknar ca 3-4 timmars cruising i fin natur med kortare pauser för fika. Vi planerar att stanna i Breviks båthamn där det bjuds på kaffe och fika. Traditionell avslutning på Presto-grillen, Lidingö.\n\nVi ser gärna att ni kan ta er fram på era gammelmoppar på minst 44 km/h.\n\nArrangör: Liiidingö Liiigan.\n\nPlats: ST1 Ropsten, Ropstensslingan 10, Stockholm.",
       "backImage": "ads/lidingorundan-back-2026-09-19.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1155658916753010"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Ropstensslingan+10+Stockholm", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1155658916753010"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ropstensslingan+10+Stockholm",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1155658916753010",
       "region": "Stockholm",
@@ -25442,8 +26074,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkomna till Alabama å de 40 rövarnas höstrally den 19 september!\n\nDet blir kaffe och smörgås vid anmälan i klubbstugan och halvvägs in i rallyt blir det Alabamas värmande höstsoppa.\n\nRallyts längd blir runt 8-12 mil som vanligt. Starten går som vanligt klockan 10.00, men var gärna på plats i god tid.\n\nDeltagaravgift 200 kr.\n\nPlats: Mellerud.",
       "backImage": "ads/alabamas-hostrally-back-2026-09-19.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/2143549473101622"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Mellerud", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2143549473101622"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mellerud",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/2143549473101622",
       "region": "Västra Götaland",
@@ -25463,8 +26102,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Katrineholms veteranmopedklubb Kolvbultarna inbjuder till 2026 års mopedrally med start och mål vid Säby gård, Strängstorp norr om Katrineholm i Södermanland, lördagen den 19 september.\n\nKlassiska mopeder, härliga vägar och gott fika!\n\nPlats: Säby gård, Strängstorp, Katrineholm.",
       "backImage": "ads/bengt-wilhelmsson-minnesrally-back-2026-09-19.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/2040817156857459"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4by+Str%C3%A4ngstorp+Katrineholm", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2040817156857459"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4by+Str%C3%A4ngstorp+Katrineholm",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/2040817156857459",
       "region": "Södermanland",
@@ -25832,6 +26478,34 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "nattorientering-savsjostrom-2026-09-19",
+      "name": "Nattorientering",
+      "date": "2026-09-19",
+      "dateEnd": "2026-09-19",
+      "time": "17:30",
+      "type": "Körning",
+      "region": "Kronoberg",
+      "location": "Tullgarns MC, Sävsjöström",
+      "organizer": "Tullgarns MC",
+      "source": "smcboken.svmc.se",
+      "link": "https://smcboken.svmc.se/traffar/mcrallyn",
+      "_vehicle": "mc",
+      "description": "Nattrunda på ca 10 mil med tipsfrågor utmed vägen. Start 17:30-18:30, prisutdelning vid fast tid. Mat och dryck vid klubbstugan och efter rallyt blir det fest!",
+      "descriptionFull": "Rundan är ca 10 mil och det kommer att vara tipsfrågor utmed vägen!\n\nStart 17.30-18.30. Prisutdelning vid fast tid.\n\nVid klubbstugan kommer det finnas mat och dricka.\n\nEfter rallyt blir det fest!",
+      "links": [
+        {
+          "label": "smcboken.svmc.se",
+          "url": "https://smcboken.svmc.se/traffar/mcrallyn"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tullgarns+MC+Sävsjöström",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/smcboken-default-back.jpg"
     },
     {
       "id": "doa-emilsturen-2026-09-20",
@@ -26489,8 +27163,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Som sig bör håller vi även en Höstmoppis i Västberga Industriområde, i hörnet av Drivhjulsvägen och Vretensborgsvägen.\n\nAlla ansvarar själva för sitt deltagande - vi visar bara en tid och plats, resten brukar lösa sig själv. Officiellt öppnar vi 09.00 och slår igen 13.00, men alla kommer och går när de själva vill.\n\nDu som säljer har bara mopedprylar eller verkstadsprylar på bordet, det är det enda kravet. Ingen föranmälan och ingen kostnad.\n\nArrangör: Tårtan Mopedoz.\n\nPlats: Västberga Industriområde, Drivhjulsvägen/Vretensborgsvägen, Stockholm.",
       "backImage": "ads/hostmoppis-vastberga-back-2026-09-27.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/929899146058768"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Drivhjulsv%C3%A4gen+V%C3%A4stberga+Stockholm", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/929899146058768"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Drivhjulsv%C3%A4gen+V%C3%A4stberga+Stockholm",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/929899146058768",
       "region": "Stockholm",
@@ -28271,8 +28952,15 @@ const EVENTS_DATA = {
       "descriptionFull": "Även i år kör vi Nyårsrundan! På nyårsafton, innan du firar nyår med familj och vänner, kör vi sedan 2002 en sista mopperunda innan året är slut.\n\nSamling sker vid McDonald's Årsta, Sockengränd 1.\n\nArrangör: Tårtan Mopedoz.\n\nPlats: McDonald's Årsta, Sockengränd 1, Stockholm.",
       "backImage": "ads/nyarsrundan-back-2026-12-31.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/741670175338363"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=McDonalds+%C3%85rsta+Sockengr%C3%A4nd+1+Stockholm", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/741670175338363"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=McDonalds+%C3%85rsta+Sockengr%C3%A4nd+1+Stockholm",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/741670175338363",
       "region": "Stockholm",
@@ -28373,9 +29061,19 @@ const EVENTS_DATA = {
       "descriptionFull": "Haninge Muppeders - Drevan Runt 2027. Välkomna till vår vintertur Drevan Runt!\n\nSöndag 24 januari 2027. Samling vid Krokodilbadet. Förarmöte 09.55, avfärd 10.00.\n\nVi ger oss ut på en härlig tur på ca 25 km runt Drevan, med gott sällskap, sköna mopeder och vinterkänsla i bästa Haninge Muppeders-anda. Efter rundan styr vi mot Biltema Haninge där vi avslutar med korv och snack tillsammans.\n\nTa med glatt humör, varma kläder och körsug!\n\nArrangör: Haninge Muppeders.\n\nPlats: Krokodilbadet, Hagtornsvägen, Vendelsö.",
       "backImage": "ads/drevan-runt-back-2027-01-24.jpg",
       "links": [
-        {"label": "FB Event", "url": "https://www.facebook.com/events/1667608374473781"},
-        {"label": "muppeders.se", "url": "https://muppeders.se"},
-        {"label": "Karta", "url": "https://www.google.com/maps/search/?api=1&query=Krokodilbadet+Vendels%C3%B6", "type": "map"}
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1667608374473781"
+        },
+        {
+          "label": "muppeders.se",
+          "url": "https://muppeders.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Krokodilbadet+Vendels%C3%B6",
+          "type": "map"
+        }
       ],
       "link": "https://www.facebook.com/events/1667608374473781",
       "region": "Stockholm",
