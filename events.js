@@ -10629,6 +10629,38 @@ const EVENTS_DATA = {
       "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
+      "type": "Träff",
+      "region": "Jönköping",
+      "location": "Hovslätts Hembygdsgård, Hovslätt, Jönköping",
+      "organizer": "Hovslätts Hembygdsförening",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/1067807403601705",
+      "_vehicle": "both",
+      "backImage": "ads/hovslatt-fikakvall-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=28031530233097856&set=gm.2740813176301111&idorvanity=1067807403601705"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/1067807403601705"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hovsl%C3%A4tts+hembygdsg%C3%A5rd",
+          "type": "map"
+        }
+      ],
+      "id": "hovslatt-fikakvall-2026-07-09",
+      "name": "MC och Moped Fikakväll",
+      "date": "2026-07-09",
+      "dateEnd": "2026-07-09",
+      "time": "18:00",
+      "description": "Fikakväll för moped- och MC-folk vid hembygdsgården kl 18-20. Ta med hojen eller moppen, fika och umgås. Torsdagar varannan vecka under sommaren.",
+      "descriptionFull": "Välkomna till fikakvällar för MC och moped vid Hovslätts Hembygdsgård 2026.\n\nTorsdagar kl 18:00-20:00:\n• 9 juli\n• 23 juli\n• 6 augusti\n\nDessutom: lördagen den 12 september blir det Moped och MC Marknad vid hembygdsgården.\n\nVälkomna!"
+    },
+    {
       "id": "baik-bitch-summer-raid-bollnas-2026-07-10",
       "name": "Baik & Bitch Summer Raid",
       "date": "2026-07-10",
@@ -14051,6 +14083,38 @@ const EVENTS_DATA = {
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
     },
     {
+      "type": "Träff",
+      "region": "Jönköping",
+      "location": "Hovslätts Hembygdsgård, Hovslätt, Jönköping",
+      "organizer": "Hovslätts Hembygdsförening",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/1067807403601705",
+      "_vehicle": "both",
+      "backImage": "ads/hovslatt-fikakvall-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=28031530233097856&set=gm.2740813176301111&idorvanity=1067807403601705"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/1067807403601705"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hovsl%C3%A4tts+hembygdsg%C3%A5rd",
+          "type": "map"
+        }
+      ],
+      "id": "hovslatt-fikakvall-2026-07-23",
+      "name": "MC och Moped Fikakväll",
+      "date": "2026-07-23",
+      "dateEnd": "2026-07-23",
+      "time": "18:00",
+      "description": "Fikakväll för moped- och MC-folk vid hembygdsgården kl 18-20. Ta med hojen eller moppen, fika och umgås. Torsdagar varannan vecka under sommaren.",
+      "descriptionFull": "Välkomna till fikakvällar för MC och moped vid Hovslätts Hembygdsgård 2026.\n\nTorsdagar kl 18:00-20:00:\n• 9 juli\n• 23 juli\n• 6 augusti\n\nDessutom: lördagen den 12 september blir det Moped och MC Marknad vid hembygdsgården.\n\nVälkomna!"
+    },
+    {
       "id": "peking-mc-fest-2026-07-24",
       "name": "Peking - 59 år på vägen",
       "date": "2026-07-24",
@@ -17160,6 +17224,38 @@ const EVENTS_DATA = {
         }
       ],
       "organizerIcon": "clubs/normalized/gwcs.png"
+    },
+    {
+      "type": "Träff",
+      "region": "Jönköping",
+      "location": "Hovslätts Hembygdsgård, Hovslätt, Jönköping",
+      "organizer": "Hovslätts Hembygdsförening",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/1067807403601705",
+      "_vehicle": "both",
+      "backImage": "ads/hovslatt-fikakvall-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=28031530233097856&set=gm.2740813176301111&idorvanity=1067807403601705"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/1067807403601705"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hovsl%C3%A4tts+hembygdsg%C3%A5rd",
+          "type": "map"
+        }
+      ],
+      "id": "hovslatt-fikakvall-2026-08-06",
+      "name": "MC och Moped Fikakväll",
+      "date": "2026-08-06",
+      "dateEnd": "2026-08-06",
+      "time": "18:00",
+      "description": "Fikakväll för moped- och MC-folk vid hembygdsgården kl 18-20. Ta med hojen eller moppen, fika och umgås. Torsdagar varannan vecka under sommaren.",
+      "descriptionFull": "Välkomna till fikakvällar för MC och moped vid Hovslätts Hembygdsgård 2026.\n\nTorsdagar kl 18:00-20:00:\n• 9 juli\n• 23 juli\n• 6 augusti\n\nDessutom: lördagen den 12 september blir det Moped och MC Marknad vid hembygdsgården.\n\nVälkomna!"
     },
     {
       "id": "british-motor-meet-hjo-2026",
@@ -25602,6 +25698,37 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "type": "Show",
+      "region": "Jönköping",
+      "location": "Hovslätts Hembygdsgård, Hovslätt, Jönköping",
+      "organizer": "Hovslätts Hembygdsförening",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/1067807403601705",
+      "_vehicle": "both",
+      "backImage": "ads/hovslatt-fikakvall-back-2026.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=28031530233097856&set=gm.2740813176301111&idorvanity=1067807403601705"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/1067807403601705"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hovsl%C3%A4tts+hembygdsg%C3%A5rd",
+          "type": "map"
+        }
+      ],
+      "id": "hovslatt-moped-mc-marknad-2026-09-12",
+      "name": "Moped och MC Marknad",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-12",
+      "description": "Moped- och MC-marknad vid Hovslätts Hembygdsgård i Jönköping 12 september 2026. Avslutning på hembygdsgårdens moped- och MC-säsong med fikakvällar under sommaren.",
+      "descriptionFull": "Lördagen den 12 september 2026 arrangeras marknad för moped och MC vid Hovslätts Hembygdsgård.\n\nUnder sommaren arrangeras även fikakvällar för MC och moped vid hembygdsgården: torsdagarna 9 juli, 23 juli och 6 augusti kl 18:00-20:00.\n\nVälkomna!"
     },
     {
       "id": "nykoping-hosttraffen-2026",
