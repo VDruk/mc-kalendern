@@ -10346,6 +10346,42 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "sala-msk-oppet-2026-07-08",
+      "name": "Öppet för allmänheten",
+      "date": "2026-07-08",
+      "dateEnd": "2026-07-08",
+      "time": "16:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Isätra Motorstadion, Sala",
+      "organizer": "Sala MSK",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/salamskofficiell",
+      "_vehicle": "mc",
+      "description": "Klubben håller banorna öppna för allmänheten, både cross och enduro, onsdag kl 16-20 på Isätrabanan. Alla välkomna!",
+      "descriptionFull": "Sala MSK håller öppet för allmänheten, både cross och enduro.\n\nOnsdag 8/7 kl 16-20.\n\nVälkomna till Isätra!\n\nPlats: Isätra Motorstadion, Sala.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1580503070532236&set=a.785169426732275"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/salamskofficiell"
+        },
+        {
+          "label": "salamsk.se",
+          "url": "https://salamsk.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Is%C3%A4tra+Motorstadion+Sala",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/sala-msk-oppet-back-2026-07-08.jpg"
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-07-09",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-07-09",
