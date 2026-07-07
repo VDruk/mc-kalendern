@@ -9627,38 +9627,6 @@ const EVENTS_DATA = {
       "backImage": "ads/nordic-run-back-2026.jpg"
     },
     {
-      "id": "mmck-medlemsmote-2026-07-06",
-      "name": "MMCK medlemsmöte",
-      "date": "2026-07-06",
-      "dateEnd": "2026-07-06",
-      "time": "19:00",
-      "type": "Träff",
-      "region": "Norrbotten",
-      "location": "MMCK Klubbkåken, Gällivare",
-      "organizer": "MMCK Touring-vänner",
-      "source": "facebook.com",
-      "link": "https://www.facebook.com/events/1607532604123451",
-      "_vehicle": "mc",
-      "description": "Medlemsmöte i klubbkåken kl 19 för att diskutera framtida träffar och körningar, bland annat ett möjligt öppet hus med kaffe för alla intresserade.",
-      "descriptionFull": "Kom å diskutera framtida träffar å körningar.\n\nKanske vi ska hålla i ett öppet hus så folk kan komma å dricka kaffe o.s.v.\n\nPlats: MMCK Klubbkåken, Gällivare. Kl 19.00.",
-      "links": [
-        {
-          "label": "FB Event",
-          "url": "https://www.facebook.com/events/1607532604123451"
-        },
-        {
-          "label": "FB Grupp",
-          "url": "https://www.facebook.com/groups/mmcktouring"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=MMCK+Klubbk%C3%A5ken+G%C3%A4llivare",
-          "type": "map"
-        }
-      ],
-      "backImage": "ads/mmck-medlemsmote-back-2026-07-06.jpg"
-    },
-    {
       "id": "lyan-mc-fikatraff-2026-07-07",
       "name": "Fikaträff hos Lyan MC",
       "date": "2026-07-07",
@@ -9936,6 +9904,38 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/red-wings-tisdagstur-back-2026-07-07.jpg"
+    },
+    {
+      "id": "mmck-medlemsmote-2026-07-07",
+      "name": "MMCK medlemsmöte",
+      "date": "2026-07-07",
+      "dateEnd": "2026-07-07",
+      "time": "19:00",
+      "type": "Träff",
+      "region": "Norrbotten",
+      "location": "MMCK Klubbkåken, Gällivare",
+      "organizer": "MMCK Touring-vänner",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1607532604123451",
+      "_vehicle": "mc",
+      "description": "Medlemsmöte i klubbkåken kl 19 för att diskutera framtida träffar och körningar, bland annat ett möjligt öppet hus med kaffe för alla intresserade.",
+      "descriptionFull": "Kom å diskutera framtida träffar å körningar.\n\nKanske vi ska hålla i ett öppet hus så folk kan komma å dricka kaffe o.s.v.\n\nPlats: MMCK Klubbkåken, Gällivare. Kl 19.00.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1607532604123451"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/mmcktouring"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=MMCK+Klubbk%C3%A5ken+G%C3%A4llivare",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mmck-medlemsmote-back-2026-07-06.jpg"
     },
     {
       "id": "doa-sommarkvallstur-taby-2026",
