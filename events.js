@@ -11253,6 +11253,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "tjejlager-froshultsbanan-2026-07-11",
+      "name": "Tjejläger på Fröshultsbanan",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-12",
+      "time": "08:00",
+      "type": "Körning",
+      "region": "Östergötland",
+      "location": "Fröshults Crossbana, Åtvidaberg",
+      "organizer": "Hilma Enander",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1570348044201457",
+      "_vehicle": "mc",
+      "description": "Tjejläger för alla nivåer på ombyggd crossbana, minst 65cc. Fyra grupper, tränarna Casper Lindholm och Hilda Sjöberg, max 30 platser. 950 kr, depån öppen från fredag kväll.",
+      "descriptionFull": "Hej alla!\n\nPlaneringen inför årets höjdpunkt (tjejläger) är i full gång och i år kan jag presentera några roliga nyheter som jag hoppas gör lägret ännu bättre.\n\nLägret hålls som vanligt på Fröshultsbanan i Åtvidaberg helgen den 11-12 juli (v28). Det är öppet för alla nivåer: nybörjare, motionärer och tävlingsförare. Det enda kravet är att du kör minst 65cc. För att alla ska få möjlighet att utvecklas i sin egen takt är lägret begränsat till 30 platser. Först till kvarn gäller och det är betalningsdatum som avgör.\n\nNyheter 2026:\n• Banan är ombyggd inför året, vilket ger nya partier att träna på.\n• Vi kommer köra med 2 tränare.\n• Vi kommer köra med 4 grupper istället för 2, vilket ger möjlighet till mer individuell feedback och underlättar tränarnas arbete.\n• Oroa er inte, lika mycket körtid som innan utlovas.\n\nTränare:\nCasper Lindholm, numera rutinerad tränare på tjejläger (tränare på lägret hela 5 gånger), uppväxt på Fröshultsbanan och kan den utan och innan. Han kör SM i Enduro och har tidigare kört MXSM i flera år.\nHilda Sjöberg, även hon rutinerad tränare och förare trots sin unga ålder. Framgångsrik i cross-SM med många fina pallplatser.\n\nPraktisk information:\nKostnad: 950 kr per förare.\nMat: ordnas på egen hand (ingen el eller vatten finns vid banan). Det finns möjlighet att bada i en närliggande sjö för att tvätta sig.\nDepån är öppen från fredag kväll för de som vill övernatta. Har man inte husvagn, husbil, tält, buss eller annat sätt att sova vid banan finns det boenden i närheten: Borkhult Lapphem, Yxnevallen samt Yxnerum hotell (ca 2 km från banan).\n\nAnmälan:\nAnmälan sker via anmälningslänken. Betalning görs via Swish till 0721-926 447 (Hilma Enander). Ange namn på den/dem betalningen avser och glöm inte fylla i alla uppgifter i anmälningsformuläret. Bekräftelsemejl skickas när betalningen mottagits. Mer information skickas ut via mejl när lägret närmar sig.\n\nArrangör: Hilma Enander.\nTränare: Casper Lindholm & Hilda Sjöberg.\nAnsvarig: Tävlingsledare Lars-Erik Enander.\n\nVarmt välkomna!\n/ Hilma Enander",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1570348044201457"
+        },
+        {
+          "label": "Anmälan",
+          "url": "https://forms.gle/T1k9jXAV1uuGyB1v7"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fr%C3%B6shult+%C3%85tvidaberg",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/tjejlager-froshultsbanan-back-2026-07-11.jpg"
+    },
+    {
       "id": "mchk-södermanland-fikatur-klaver-2026-07-12",
       "name": "Fikatur till Café Klaver",
       "date": "2026-07-12",
