@@ -9850,13 +9850,17 @@ const EVENTS_DATA = {
       "source": "facebook.com",
       "link": "https://www.facebook.com/events/1322029359254396",
       "_vehicle": "moped",
-      "description": "Mopedträff med mopedrally i Fröjered, Tidaholm (Västra Götaland) tisdag 7 juli 2026. Samling kl 17, mopedrallyt startar kl 17:30.",
-      "descriptionFull": "Snart dags för Fröjereds mopedträff 2026!\n\nTisdag 7/7 kl 17:00.\n\nMopedrallyt startar kl 17:30.\n\nMer info kommer inom kort.\n\nMvh Fröjereds samhällsförening",
-      "backImage": "ads/frojereds-mopedtraff-back-2026-07-07.jpg",
+      "description": "Mopedträff med 30-års jubileum och mopedrally i Fröjered, Tidaholm (Västra Götaland) 7 juli 2026. Samling kl 17, rally 17.30, utställning, lotteri och underhållning.",
+      "descriptionFull": "Moppeträff i Fröjered 7 juli kl 17.00 - 30-års jubileum!\n\nMopperally: start 17.30-18.30 (banan är ca 8 km).\n\nMopedutställning: vår jury utser Custom, den vackraste och juryns special.\n\nPrisutdelning kl 19:45 för utställning och rally. Dragning i mopedlotteriet.\n\n30-års jubileum! Vi bjuder på en trevlig tillbakablick.\n\nUnderhållning med Peder Sveder.\n\nChokladhjul, våfflor, korv, glass och kaffe.\n\nArrangör: Fröjereds Samhällsförening i samarbete med Studieförbundet Vuxenskolan.",
+      "backImage": "ads/frojereds-mopedtraff-back-v2-2026-07-07.jpg",
       "links": [
         {
           "label": "FB Event",
           "url": "https://www.facebook.com/events/1322029359254396"
+        },
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1073351335104876&set=pcb.27949142344677750"
         },
         {
           "label": "Karta",
