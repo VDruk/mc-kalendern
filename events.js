@@ -10347,7 +10347,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "sala-msk-oppet-2026-07-08",
-      "name": "Öppet för allmänheten",
+      "name": "Öppen bana cross och enduro",
       "date": "2026-07-08",
       "dateEnd": "2026-07-08",
       "time": "16:00",
