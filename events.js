@@ -17712,6 +17712,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "nothung-sommarfest-2026-08-08",
+      "name": "Sommarfest & Uffe 50 bast",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "time": "18:00",
+      "type": "Fest",
+      "region": "Stockholm",
+      "location": "Nothung MC, Kolbodavägen 1, Järfälla",
+      "organizer": "Nothung MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/nothung.mc",
+      "_vehicle": "mc",
+      "description": "Sommarfest hos klubben med start kl 18, och samtidigt firas Uffe som fyller 50. Kom förbi och fukta strupen och ha en trevlig kväll! Endast SBM och inbjudna vänner.",
+      "descriptionFull": "Uffe bastar 50 och det måste vi såklart uppmärksamma.\n\nEndast SBM och inbjudna vänner.\n\nFrån affischen: Sommarfest! Kom förbi och fukta strupen å ha en trevlig kväll. Passar även på att fira Uffe som bastar 50.\n\nTid: 8/8 kl 18:00-03:00 (man får komma tidigare).\n\nPlats: Nothung MC, Kolbodavägen 1, Järfälla.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1731795361306494"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/nothung.mc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kolbodav%C3%A4gen+1+J%C3%A4rf%C3%A4lla",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nothung-sommarfest-back-2026-08-08.jpg"
+    },
+    {
       "id": "bmw-d11-norra-smaland-runt-2026",
       "name": "D11 Norra Småland Runt",
       "date": "2026-08-09",
@@ -19643,6 +19675,38 @@ const EVENTS_DATA = {
       "backImage": "ads/smcboken-default-back.jpg"
     },
     {
+      "id": "uppsala-american-car-show-2026-08-15",
+      "name": "Uppsala American Car Show",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "08:00",
+      "type": "Show",
+      "region": "Uppsala",
+      "location": "Gottsundagipen, Gottsunda skogsväg, Uppsala",
+      "organizer": "Uppsala American Car Show",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/uppsalaamericancarshow",
+      "_vehicle": "mc",
+      "description": "Amerikanska bilar till och med 1979 vid Gipen med livemusik av Teddie Ericsson Band och Troubled Three, matservering, öltält och tävlingsklasser från EPA till MC. Publik från kl 10, entré 100 kr.",
+      "descriptionFull": "Välkommen till Uppsala American Car Show!\n\nBilinsläpp öppnar kl. 08.00.\nPublikinsläpp öppnar kl. 10.00.\nEntré: 100 kr. Betalning sker med Swish eller kontanter (ej kort).\nBarn under 13 år och chauffören till utställningsfordonet går in gratis.\n\nOmrådet ligger norr om Gottsundagipen. Vi skyltar vägarna in till området och publicerar kartor med vägbeskrivning inför evenemanget.\n\nVi välkomnar främst amerikanska bilar till och med årsmodell 1979. Nyare amerikanska fordon är också välkomna om de sticker ut ordentligt, till exempel genom motivlack, omfattande ombyggnation eller unik styling. OBS! Vi förbehåller oss rätten att sålla bland bilar på plats.\n\nUnder dagen spelar Teddie Ericsson Band och Troubled Three live.\n\nPå området finns matservering, öltält, säljare och godisregn.\n\nTävlingsklasser: EPA, Before 50's, Hot Rod, Custom, 50-tal, 60-tal, 70-tal, Street Machine, MC, Pick-up, Bästa Lack, People's Choice, Övrigt.\n\nVi hälsar alla varmt välkomna till en dag fylld med fina bilar, livemusik och härlig gemenskap!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1695914424878094"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/uppsalaamericancarshow"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gottsundagipen+Uppsala",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/uppsala-american-car-show-back-2026-08-15.jpg"
+    },
+    {
       "id": "moppekul-yllerallyt-gallstad-2026-08-16",
       "name": "Yllerallyt",
       "date": "2026-08-16",
@@ -21085,6 +21149,37 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
+      "id": "tidavads-mc-kraftskiva-2026-08-22",
+      "name": "Kräftskiva",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "type": "Fest",
+      "region": "Västra Götaland",
+      "location": "Tidavads MC, Tidavad, Mariestad",
+      "organizer": "Tidavads MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/3043589039275494",
+      "_vehicle": "mc",
+      "description": "Kräftskiva med döda kräftor, salta kräftor från Hamburgsund och levande musik. På scen: DFB och Choppershit. Tältplatser, mat och dryck finns. Inträde 100 kr.",
+      "descriptionFull": "Döa kräfter och levande musik. Tältplatser, mat & dryck.\n\nPå scen: DFB och Choppershit.\n\nInträde 100:-\n\nFrån arrangörens inbjudan: Grymt band i år gästar oss och salta kräftor från Hamburgsund som alltid! Välkomna!\n\nPlats: Tidavads MC klubbstuga, Tidavad (nära Mariestad).",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo?fbid=1554914969445188&set=gm.3962321160735606&idorvanity=3043589039275494"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/3043589039275494"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tidavads+MC+Tidavad",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/tidavads-kraftskiva-back-2026-08-22.jpg"
     },
     {
       "id": "silverforza-silverforsen-runt-2026-08-23",
