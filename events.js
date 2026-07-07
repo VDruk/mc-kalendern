@@ -11389,6 +11389,38 @@ const EVENTS_DATA = {
       "backImage": "ads/tjejlager-froshultsbanan-back-2026-07-11.jpg"
     },
     {
+      "id": "rapido-grillkvall-2026-07-11",
+      "name": "Grillkväll",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-11",
+      "time": "18:00",
+      "type": "Träff",
+      "region": "Stockholm",
+      "location": "Skansbacken 4, Gullmarsplan, Stockholm",
+      "organizer": "Rapido MCK Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1508240964675640",
+      "_vehicle": "mc",
+      "description": "Grillen är varm från ca kl 18 och kaffe och fika finns från kl 16. Ta med det du vill äta och dricka eller köp något i baren. Umgås med andra hojåkare!",
+      "descriptionFull": "Ett perfekt tillfälle att äta gott (förutsatt din grillkunskap), umgås med andra hojåkare och skryta över semesteräventyren.\n\nTa med dig det du vill äta och dricka eller köp något i baren.\n\nGrillen kommer vara varm från ca kl 18, men det finns kaffe och fika från kl 16.\n\nVi ses!\n/Kjell",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1508240964675640"
+        },
+        {
+          "label": "rapido.se",
+          "url": "https://www.rapido.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Skansbacken+4+Stockholm",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/rapido-grillkvall-back-2026-07-11.jpg"
+    },
+    {
       "id": "mchk-södermanland-fikatur-klaver-2026-07-12",
       "name": "Fikatur till Café Klaver",
       "date": "2026-07-12",
@@ -17942,6 +17974,37 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/nothung-sommarfest-back-2026-08-08.jpg"
+    },
+    {
+      "id": "wulfings-arsfest-2026-08-08",
+      "name": "Årsfest",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "type": "Fest",
+      "region": "Kalmar",
+      "location": "Wulfings MC, Västervik",
+      "organizer": "Wulfings MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/WulfingsMC",
+      "_vehicle": "mc",
+      "description": "Årsfest hos klubben med varm mat, kall dryck och liveband lördagen den 8 augusti. Endast SBM och vänner. Lägg datumet på minnet!",
+      "descriptionFull": "Dax att planera inför Wulfings årsfest, lägg datumet på minnet: 8/8.\n\nVälkomna SBM & Vänner!\n\nFrån affischen: varm mat & kall dryck, liveband.\n\nNi får gärna dela om ni vill.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1546889944114211&set=a.722895409847006"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/WulfingsMC"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Wulfings+MC+V%C3%A4stervik",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/wulfings-arsfest-back-2026-08-08.jpg"
     },
     {
       "id": "bmw-d11-norra-smaland-runt-2026",
@@ -25765,6 +25828,42 @@ const EVENTS_DATA = {
       "dateEnd": "2026-09-12",
       "description": "Moped- och MC-marknad vid Hovslätts Hembygdsgård i Jönköping 12 september 2026. Avslutning på hembygdsgårdens moped- och MC-säsong med fikakvällar under sommaren.",
       "descriptionFull": "Lördagen den 12 september 2026 arrangeras marknad för moped och MC vid Hovslätts Hembygdsgård.\n\nUnder sommaren arrangeras även fikakvällar för MC och moped vid hembygdsgården: torsdagarna 9 juli, 23 juli och 6 augusti kl 18:00-20:00.\n\nVälkomna!"
+    },
+    {
+      "id": "knights-mc-valgorenhetsrun-2026-09-12",
+      "name": "Välgörenhetsrun",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-12",
+      "time": "12:00",
+      "type": "Körning",
+      "region": "Halland",
+      "location": "Industrivägen 2, Halmstad",
+      "organizer": "Knights MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/knightsmc333",
+      "_vehicle": "mc",
+      "description": "Årligt välgörenhetsrun till stöd för Barndiabetesfonden och Kvinnojouren i Halmstad. Samling från kl 12, start kl 13. Startavgift 100 kr, fina priser och pannkaksbuffé efter körningen!",
+      "descriptionFull": "Välkomna på vårt årliga välgörenhetsrun!\n\nStödet går till Barndiabetesfonden samt Kvinnojouren i Halmstad.\n\nVälkomna från klockan 12.00. Starten går klockan 13.00.\n\nStartavgift 100:-. Fina priser!\n\nPannkaksbuffé efter körningen.\n\nFör mer info se: www.knightsmc.se\n\nPlats: Industrivägen 2, Halmstad.\nKontakt: Haki 076-015 10 19, haki@knightsmc.se",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1686167532991453&set=a.231197861821768"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/knightsmc333"
+        },
+        {
+          "label": "knightsmc.se",
+          "url": "https://www.knightsmc.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Industriv%C3%A4gen+2+Halmstad",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/knights-valgorenhetsrun-back-2026-09-12.jpg"
     },
     {
       "id": "nykoping-hosttraffen-2026",
