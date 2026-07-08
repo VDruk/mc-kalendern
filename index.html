@@ -2,7 +2,10 @@
 <html lang="sv" prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- Pinch zoom allowed since 2026-07-08 (accessibility: 45+ audience, small text on cards).
+     Do NOT re-add maximum-scale/user-scalable: iOS input auto-zoom is prevented by the
+     16px font-size rule on focusable fields instead (see "iOS input zoom guard" in CSS). -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Analytics 4 (re-added 2026-06-11; was dropped during an earlier index.html rewrite) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HVJ6PFNE2W"></script>
 <script>
@@ -2829,6 +2832,17 @@
     .card.tb-plats:not(.has-photo):not(.poster-card)   { box-shadow: inset 4px 0 0 var(--type-plats); }
     .card.tb-anons:not(.has-photo):not(.poster-card)   { box-shadow: inset 4px 0 0 var(--type-anons); }
   }
+/* ===== iOS input zoom guard (2026-07-08) =====
+   The viewport no longer sets maximum-scale=1 (pinch zoom is allowed for
+   accessibility). iOS Safari auto-zooms the page when a focused input has
+   font-size < 16px, so every field a user can focus must be >= 16px on mobile.
+   Covers: search, Tipsa form, share-link field, Platser region select. */
+@media (max-width: 768px) {
+  #searchInput, #tipName, #tipDate, #tipLocation, #tipLink, #tipEmail,
+  #tipDesc, #delaLinkInput, #mPlatsRegion, textarea {
+    font-size: 16px;
+  }
+}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" media="print" onload="this.media='all'"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
