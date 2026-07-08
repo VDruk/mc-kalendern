@@ -11453,6 +11453,38 @@ const EVENTS_DATA = {
       "backImage": "ads/watercross-sm-sandslan-back-2026-07-11.jpg"
     },
     {
+      "id": "mc-for-alla-sondagstur-hassleholm-2026-07-12",
+      "name": "Söndagstur Hässleholm",
+      "date": "2026-07-12",
+      "dateEnd": "2026-07-12",
+      "time": "10:40",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Hövdingegatan 22, Hässleholm (Ishallens parkering)",
+      "organizer": "MC för alla - Skåne",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/3322417321320442/",
+      "_vehicle": "mc",
+      "description": "Söndagstur i lugnt tempo på asfalterade vägar runt Hässleholm. Samling 10:40, avfärd 11:00, avslut ca 13:30. Ca 10 mil. Gratis!",
+      "descriptionFull": "Då var det dags igen! Söndagstur på härliga asfalterade mc-vägar i lugnt tempo.\nSamling Ishallens parkering i Hässleholm 10:40\nAvfärd 11:00\nAvslut cirka 13:30\n\n- Cirka 10 mil\n- Lugnt tempo\n- Kostar inget att delta\n\nBjud in era vänner så vi blir så många som möjligt! Vi ses där!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1710039100232803"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/3322417321320442/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hövdingegatan+22+Hässleholm",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mc-for-alla-sondagstur-hassleholm-back-2026-07-12.jpg"
+    },
+    {
       "id": "mchk-södermanland-fikatur-klaver-2026-07-12",
       "name": "Fikatur till Café Klaver",
       "date": "2026-07-12",
@@ -21205,6 +21237,38 @@ const EVENTS_DATA = {
       "backImage": "ads/smcboken-default-back.jpg"
     },
     {
+      "id": "reloaded-heldagstur-helsingor-2026-08-22",
+      "name": "Heldagstur Helsingør T/R",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "time": "10:30",
+      "type": "Körning",
+      "region": "Danmark",
+      "location": "Klosterparks Allé, Ringsted (P-plads bag Ringsted Outlet)",
+      "organizer": "Reloaded MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/1239893386118878/",
+      "_vehicle": "mc",
+      "description": "Dansk heldagstur i lugnt tempo. Start 10:30, lunch vid Route 66 i Frederikssund, paus vid Kronborg slott, avslut med gemensam buffé i Benløse. Bordsbokning krävs för buffén.",
+      "descriptionFull": "MC-tur 22/8 HELSINGØR T/R\n\n(Man kan springe på turen når og hvor man har lyst og hoppe fra. Ankomsttider kommer når vi nærmer os.\nMht. fælles spisning skal der bestilles bord på Tatami i Ringsted, hvor vi slutter af med en god omgang buffet.\nFor at være sikker på at du kan få plads henviser vi til selv at tage kontakt til Tatami og bestille plads. Sig blot selskabet Reloaded MC. Der kan bestilles bordplads fra den 1.8 frem til 10.8. Venligst bestil kun plads hvis du er sikker på at deltage, ellers ring og meld fra. Oplys dit navn og fortæl det er til selskabet Reloaded MC, tlf 42628188.)\n\nStart kl. 10:30 - Ringsted, P Plads bag Outlet.\nMød op i god tid. Tanket, klar og kaffe i blodet.\n\nVi ruller samlet mod Route 66 i Frederikssund, hvor vi indtager frokosten - fede veje, roligt tempo og ren køreglæde.\nVidere mod Kronborg Slot af kystvejen hvor der kan strækkes ben, nydes en is og tankes og røverhistorier.\n\nHjemturen går af kystvejen rute 151 mod København, Ishøj, Køge og videre ad rute 150 tilbage mod Ringsted.\nSidste stop: Tatami Sushi i Benløse. Hvor aftensmaden indtages ved langbordet.\nTilmelding er nødvendig.\n\nGod asfalt, godt selskab og en dag, der bare spiller.\nUD PÅ TUR, ALDRIG SUR OG KM PÅ KLOKKEN",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1858739634784779/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/1239893386118878/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ringsted+Designer+Outlet+Klosterparks+Allé",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/heldagstur-helsingor-back-2026-08-22.jpg"
+    },
+    {
       "id": "doa-ekero-runt-2026",
       "name": "DOA - Ekerö Runt",
       "date": "2026-08-22",
@@ -25400,6 +25464,42 @@ const EVENTS_DATA = {
       "source": "ronnegardadventure.se"
     },
     {
+      "id": "bal-og-bajer-hyggetraef-2026-09-11",
+      "name": "Bål og Bajer MC Hyggetræf",
+      "date": "2026-09-11",
+      "dateEnd": "2026-09-13",
+      "time": "14:00",
+      "type": "Träff",
+      "region": "Danmark",
+      "location": "Rørgårdsvej 6, 7850 Stoholm",
+      "organizer": "Smollerup MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/48074045909",
+      "_vehicle": "mc",
+      "description": "MC-träff på Jylland med camping i eget tält, fadöl, grillmat och livemusik. Entré 225 DKK för hela helgen eller 175 DKK för lördagen, biljett köps online.",
+      "descriptionFull": "HUSK at sætte X i kalenderen uge 37.\n\nMulighed for overnatning i eget telt i naturskønt område.\n\nBredt udvalg af drikkevarer, fadøl/vand fra Hancock.\nMad: Pølser, pomfritter, hjemmelavet cowboytoast, bøfsandwich osv.\n\nMusik: FED musik for os der er blevet lidt ældre.\nFredag-lørdag: DJ-Mix of Music sørger for musikken.\nLørdag kl. 20:30: https://www.facebook.com/memphisblvd\n\nEntré weekend kr. 225, inkl. 2 x morgenmad kl. 8-11.\nLørdag kr. 175, inkl. 1 x morgenmad kl. 8-11.\nVil du være sikker på at deltage SKAL billetterne købes online.\n\nEvt. spørgsmål ring 40551626.\n\nVi glæder os!\nMvh. Smollerup MC",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1503655934665966/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/48074045909"
+        },
+        {
+          "label": "Biljetter",
+          "url": "https://www.billetsalg.dk/Event/B%C3%A5l%20og%20Bajer%20Mc%20hyggetr%C3%A6f%202026/10479"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Rørgårdsvej+6+7850+Stoholm",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bal-og-bajer-hyggetraef-back-2026-09-11.jpg"
+    },
+    {
       "id": "roadracing-sm-anderstorp-2026",
       "name": "Roadracing SM - Anderstorp",
       "date": "2026-09-11",
@@ -25423,6 +25523,38 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "riders-mc-grisefest-jubileum-2026-09-12",
+      "name": "Grisefest + 45 år Jubilæum",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-12",
+      "time": "16:00",
+      "type": "Fest",
+      "region": "Danmark",
+      "location": "Riders MC, Murervej 9, 4370 Store Merløse",
+      "organizer": "Riders MC St-Merløse",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/303061659753389/",
+      "_vehicle": "mc",
+      "description": "Årlig grisefest som i år även firar klubbens 45-årsjubileum. Helstegt pattegris kl 18, livemusik med Riders Allstars, fest till kl 04. Anmälan via MobilePay senast 4/9.",
+      "descriptionFull": "Så er det igen blevet tid til vores årlige Grisefest!\n\nI år holder vi samtidig vores 45 år Jubilæum for både klubben men også for vores 2 medlemmer som var med til at starte klubben op - Stjans & Tom.\n\nPlanen for aftenen:\nVi slår dørene op til en brag af en fest med højt humør kl. 16:00.\nDer vil blive serveret helstegt pattegris + tilbehør kl. 18:00-18:30.\nDette er med tilmelding på MobilePay.\nMobilePay: 0477HS\nPris: 120 kr pr. person.\nSkriv gerne antal + navn.\nSU senest d. 04/09-26.\n\nIgen i år kommer gutterne fra Riders Allstars til at stå for live musikken hen over aftenen.\n\nMadboden vil være åben fra kl. 18:00-00:00, hvor der er mulighed for at købe pommes, fransk hotdog, pølsemix mm. Så der vil være rig mulighed for at man ikke kommer til at gå sulten i seng.\n\nFesten slutter kl. 04:00.\nDer er mulighed for overnatning hvis man kan tage telt + sovepose med.\n\nVi håber at I vil være med til at skabe en uforglemmelig aften for både Stjans & Tom!\nVi ser frem til en skide hyggelig aften med jer alle sammen!\n\n(Husk eventuelt en middagslur så I er kampklar til aftenen!)",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/961602239677402"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/303061659753389/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Murervej+9+4370+Store+Merløse",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/riders-mc-grisefest-back-2026-09-12.jpg"
     },
     {
       "id": "mopperally-tvarred-2026-09-12",
