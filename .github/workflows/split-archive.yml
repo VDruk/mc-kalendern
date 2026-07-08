@@ -1,0 +1,76 @@
+# Monthly archive split: moves expired events from events.js to events-archive.js.
+#
+# Runs on the 3rd of each month at 04:00 UTC (Slava's request 2026-07-08: monthly,
+# on the 3rd, so the whole previous month gets archived in one go). Can also be
+# started manually from the Actions tab (workflow_dispatch) for testing.
+#
+# Why this workflow does MORE than just the split:
+# commits made with the default GITHUB_TOKEN do not trigger other workflows
+# (GitHub anti-loop rule), so the "Build og-data.json + AI feeds" and
+# "Deploy site to Pages" workflows would NOT run after our bot commit.
+# Therefore this workflow regenerates the feed files itself (same scripts,
+# same commit) and then explicitly dispatches the deploy workflow.
+# workflow_dispatch IS the documented exception to the anti-loop rule.
+
+name: Monthly archive split
+
+on:
+  schedule:
+    - cron: '0 4 3 * *'   # 04:00 UTC on the 3rd of every month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # needed to dispatch the deploy workflow
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run archive split
+        run: python3 tools/split-archive.py
+
+      - name: Stop if nothing expired
+        id: check
+        run: |
+          if git diff --quiet -- events.js events-archive.js; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No expired events to move, nothing to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Regenerate og-data.json
+        if: steps.check.outputs.changed == 'true'
+        run: python3 tools/build-og-data.py
+
+      - name: Regenerate events.json (AI/LLM feed)
+        if: steps.check.outputs.changed == 'true'
+        run: python3 tools/build-events-feed.py
+
+      - name: Regenerate sitemap-events.xml
+        if: steps.check.outputs.changed == 'true'
+        run: python3 tools/build-events-sitemap.py
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.js events-archive.js og-data.json events.json sitemap-events.xml
+          git commit -m "Monthly archive split (auto): move expired events to events-archive.js"
+          git push
+
+      - name: Deploy site
+        if: steps.check.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml --repo "$GITHUB_REPOSITORY" --ref main
