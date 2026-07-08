@@ -11421,6 +11421,38 @@ const EVENTS_DATA = {
       "backImage": "ads/rapido-grillkvall-back-2026-07-11.jpg"
     },
     {
+      "id": "watercross-sm-sandslan-2026-07-11",
+      "name": "SM-deltävling 4 i watercross",
+      "date": "2026-07-11",
+      "dateEnd": "2026-07-11",
+      "time": "10:00",
+      "type": "Racing",
+      "region": "Västernorrland",
+      "location": "Flottarvägen 70, Sandslån, Kramfors",
+      "organizer": "Höga kusten Motorvecka",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/hogakustenmotorvecka",
+      "_vehicle": "mc",
+      "description": "Fjärde SM-deltävlingen i watercross vid Sandslåns vandrarhem och camping. Hamburgare, korv, toast, kaffe och läsk till försäljning. Inträde 100 kr från 15 år, 50 kr för medlemmar.",
+      "descriptionFull": "Välkomna till SM-deltävling 4 på Sandslån 2026!\n\nDet kommer finnas hamburgare, korv, toast, kaffe och läsk till försäljning.\n\nInträde 100 kr fr. 15 år, 50 kr för medlemmar!\n\nPlats: Flottarvägen 70 (Sandslåns vandrarhem & camping).\n\nSpeaker: Björn Hägglund.\n\nVarmt välkomna och hoppas vi ses!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/26931997159832811"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/hogakustenmotorvecka"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Flottarv%C3%A4gen+70+Nyland",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/watercross-sm-sandslan-back-2026-07-11.jpg"
+    },
+    {
       "id": "mchk-södermanland-fikatur-klaver-2026-07-12",
       "name": "Fikatur till Café Klaver",
       "date": "2026-07-12",
@@ -18007,6 +18039,42 @@ const EVENTS_DATA = {
       "backImage": "ads/wulfings-arsfest-back-2026-08-08.jpg"
     },
     {
+      "id": "malardalsrallyt-2026-08-08",
+      "name": "Mälardalsrallyt",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Gyllene Hjulet, Gustaf Eriksons väg 2, Surahammar",
+      "organizer": "MCHK Mälardalen",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=100064547958546",
+      "_vehicle": "both",
+      "description": "Gemytligt veteranrally för hela familjen med start och mål vid MC-museet. För MC, moped och bil äldre än 30 år (t.o.m. 1996). Start 10-12, tipspromenad, bokstavsjakt och lunch vid målgång.",
+      "descriptionFull": "Välkommen till ett trevligt veteranrally för hela familjen!\n\nEtt gemytligt rally för klassiska fordon med start och mål vid MC-museet Gyllene Hjulet i Surahammar.\n\nTIPSPROMENAD OCH BOKSTAVSJAKT!\nInnan starten kan du gå en tipspromenad i Bruksparken med utslagsfrågor - svaren lämnas in vid starten. Under rallyt samlar du bokstäver längs vägen - bilda rätt ord och lämna in vid målgång!\n\nREGLER FÖR FORDON\nFör MC och moped och bil gäller: nyaste årsmodell 1996 (30 år och äldre). Giltig trafikförsäkring skall finnas och övrig utrustning enligt lag.\n\nStarttider: första starttid 10.00, sista starttid 12.00.\n\nANMÄLAN OCH STARTAVGIFTER\nStartavgift: 300 kr per person som betalas in på bankgiro 340-5933 MCHK Mälardalen eller Swish 123 386 63 99. Din anmälan vill vi ha senast 3 augusti 2026.\nPassagerare betalar 150 kr per person och deltar på samma villkor som förare.\nAnmälan är giltig först när betalningen är mottagen och registrerad.\n\nI startavgiften ingår kaffe/saft med bulle efter vägen och en lunch (fläsknoisette med potatis, sås och sallad) vid målgång, samt att ta del av ett digert prisbord.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1496493588879235"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100064547958546"
+        },
+        {
+          "label": "mcmuseum.se",
+          "url": "https://www.mcmuseum.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gyllene+Hjulet+Surahammar",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/malardalsrallyt-back-2026-08-08.jpg"
+    },
+    {
       "id": "bmw-d11-norra-smaland-runt-2026",
       "name": "D11 Norra Småland Runt",
       "date": "2026-08-09",
@@ -24458,6 +24526,46 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "vastmanland-runt-veteranenduro-2026-09-05",
+      "name": "Västmanland Runt Veteranenduro",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Gyllene Hjulet, Gustaf Eriksons väg 2, Surahammar",
+      "organizer": "MCHK Mälardalen",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=100064547958546",
+      "_vehicle": "mc",
+      "description": "Klassisk veteranenduro av OT-typ, över 90 år efter premiären. Ca 75 km lättkörda skogsvägar och stigar med 6 prov för motorcyklar 1945-1984, plus ny lättåkt parkenduro-klass. Anmälan senast 24/8.",
+      "descriptionFull": "Det är över 90 år sedan SMK Västerås arrangerade Västmanland Runt första gången och 26 år sedan MCHK Mälardalen tog vid som arrangör.\n\nNär MCHK Mälardalen arrangerar Västmanland Runt 2026 är det för att stimulera bevarande och användande av äldre tillförlitlighetsmotorcyklar. Efter förslag från Enduro Nostalgi finns en ny parkenduro-klass för förare som vill åka motorcykel i mjuk och fin terräng - det skall vara lätt åkt.\n\nKLASSER\nKlass 1: förare 60+ på motorcyklar före 1975.\nKlass 2: övriga förare på motorcyklar före 1975.\nKlass 3: motorcyklar 1975-1984 oavsett förarens ålder.\nProvklass: MC 1984-1990, enbart luftkylda, max 10 ekipage (gallring kan ske, inget vandringspris).\n\nBANAN\nStarten är vid MC-museet Gyllene Hjulet, första provet på en del av Snickarbergsbanan. För att skona de fint renoverade motorcyklarna går banan längs pilade allmänna och enskilda mindre vägar och stigar. Banlängd ca 75 km. Längs banan körs 6 prov av tillförlitlighetstyp, varav ett regularitetsprov. Förarna erhåller diplom och för varje klass finns ett vandringspris.\n\nLämpliga motorcyklar är tillverkade 1945 t.o.m. 1984, med grovmönstrade däck samt försedda med tre ovala nummerplåtar med startnummer enligt startlista. Färddator eller liknande hjälpmedel är inte tillåtet. Deltagande motorcyklar skall vara registrerade, tagna i trafik och minst trafikförsäkrade. Förare bär kraftiga stövlar/kängor, ryggskydd, handskar och godkänd hjälm.\n\nParkenduro/VR är inte att betrakta som tävling, varför endast förarens egna försäkringar gäller.\n\nANMÄLAN\nAnmälan görs enklast via hemsidan www.mcmuseum.se eller e-post tord.a@hotmail.se, samt MCHK Mälardalen, Gustaf Eriksons väg 2, 735 31 Surahammar.\nAnmälningsavgift 400 kr till bankgiro 340-5933, MCHK Mälardalen. Sista anmälningsdag 24 augusti 2026. Utländska deltagare betalar startavgiften på plats.",
+      "links": [
+        {
+          "label": "FB Event Veteranenduro",
+          "url": "https://www.facebook.com/events/961305126519938"
+        },
+        {
+          "label": "FB Event Parkenduro",
+          "url": "https://www.facebook.com/events/1434286551486259"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100064547958546"
+        },
+        {
+          "label": "mcmuseum.se",
+          "url": "https://www.mcmuseum.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gyllene+Hjulet+Surahammar",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/vastmanland-runt-back-2026-09-05.jpg"
     },
     {
       "id": "brunnback-crusaders-mopedrally-fors-2026-09-06",
