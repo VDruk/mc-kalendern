@@ -7213,6 +7213,12 @@ document.addEventListener('DOMContentLoaded', () => {
     updatePageMetaForRegion(null);
     updateMapCityBadge();
     document.querySelectorAll('.hander-chip').forEach(c => c.classList.remove('active'));
+    // Re-sync the mobile UI (time pills + custom dropdown labels). Without this
+    // the logo/Alla reset clears the STATE but "Idag"/"Imorgon" pills stay lit
+    // and the Region/Datum buttons keep their old labels (bug found 2026-07-08).
+    if (typeof syncMobilePillActive === 'function') { try { syncMobilePillActive(); } catch(e) {} }
+    if (window.updateMRegionDropLabel) { try { window.updateMRegionDropLabel(); } catch(e) {} }
+    if (window.updateMDatumDropLabel) { try { window.updateMDatumDropLabel(); } catch(e) {} }
     if (eventMap) eventMap.setView([62.5, 16.0], 4);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
