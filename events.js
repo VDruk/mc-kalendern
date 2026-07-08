@@ -14797,6 +14797,33 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "green-goat-barhang-2026-07-25",
+      "name": "Barhäng",
+      "date": "2026-07-25",
+      "dateEnd": "2026-07-25",
+      "time": "20:00",
+      "type": "Fest",
+      "region": "Dalarna",
+      "location": "Green Goat MC, Borlänge",
+      "organizer": "Green Goat MC Borlänge",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/212700824964259",
+      "_vehicle": "mc",
+      "description": "Klubben öppnar baren för ett barhäng lördag kväll från kl 20.00. Kom förbi, häng med klubben och supporta ditt lokala Green Goat!",
+      "descriptionFull": "Green Goat MC Borlänge bjuder in till barhäng.\n\nLördag 25/7 från kl 20.00.\n\nSupport your local Green Goat!",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1027794286843573&set=gm.1004137655820568&idorvanity=212700824964259"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/212700824964259"
+        }
+      ],
+      "backImage": "ads/green-goat-barhang-back-2026-07-25.jpg"
+    },
+    {
       "id": "asa-mopedrally-loppis-2026-07-26",
       "name": "Asa Mopedrally och Loppis",
       "date": "2026-07-26",
