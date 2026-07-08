@@ -3488,6 +3488,30 @@ const _adObserver = ('IntersectionObserver' in window) ? new IntersectionObserve
 function observeAdCard(el, id) {
   if (_adObserver && el && id) _adObserver.observe(el);
 }
+// Safety net: hook every AD card the moment it enters the DOM, no matter which
+// render path created it (grid render, injection, Platser swipe, future code).
+// Found 2026-07-08: the render-time hook alone missed cards on initial desktop
+// load, so tracking must not depend on being called from the renderer.
+if (_adObserver && 'MutationObserver' in window) {
+  const _adMo = new MutationObserver(function(muts) {
+    for (let i = 0; i < muts.length; i++) {
+      const added = muts[i].addedNodes;
+      for (let j = 0; j < added.length; j++) {
+        const n = added[j];
+        if (n.nodeType !== 1) continue;
+        const els = (n.matches && n.matches('[data-id]')) ? [n]
+          : (n.querySelectorAll ? n.querySelectorAll('[data-id]') : []);
+        for (let k = 0; k < els.length; k++) {
+          const id = els[k].dataset.id;
+          if (id && !_adSeen.has(id) && _isAdId(id)) _adObserver.observe(els[k]);
+        }
+      }
+    }
+  });
+  const _adMoStart = function() { _adMo.observe(document.body, { childList: true, subtree: true }); };
+  if (document.body) _adMoStart();
+  else document.addEventListener('DOMContentLoaded', _adMoStart);
+}
 // Capture phase (third arg true) is REQUIRED: card/modal handlers call
 // stopPropagation, so a normal bubble listener never sees these clicks.
 document.addEventListener('click', function(e) {
