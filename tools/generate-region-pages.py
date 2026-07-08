@@ -50,10 +50,17 @@ REGIONS = [
     ('Västra Götaland', 'vastra-gotaland', False),
     ('Örebro', 'orebro', False),
     ('Östergötland', 'ostergotland', False),
+    # Countries: ALL countries that ever had an event (past-only ones included).
+    # Never remove a country here because it lacks upcoming events - the pages
+    # keep their SEO value and show past events via "Visa passerade".
     ('Danmark', 'danmark', True),
+    ('Estland', 'estland', True),
     ('Finland', 'finland', True),
+    ('Italien', 'italien', True),
+    ('Litauen', 'litauen', True),
     ('Nederländerna', 'nederlanderna', True),
     ('Norge', 'norge', True),
+    ('Portugal', 'portugal', True),
     ('Spanien', 'spanien', True),
     ('Sverige', 'sverige', True),
     ('Tjeckien', 'tjeckien', True),
@@ -65,11 +72,11 @@ def make_meta(region: str, slug: str, is_country: bool):
     if is_country:
         title = f'MC-träffar i {region} 2026 - MC Kalendern'
         desc = (f'MC-träffar i {region} 2026. Här samlar vi MC-evenemang som '
-                f'svenska bikers reser till. Träffar, körningar och fester från 380+ arrangörer.')
+                f'svenska bikers reser till. Träffar, körningar och fester från hundratals arrangörer.')
     else:
         title = f'MC-träffar i {region} 2026 - MC-evenemang & körningar | MC Kalendern'
         desc = (f'MC-träffar och MC-evenemang i {region} 2026. Hitta din nästa träff, '
-                f'körning eller mässa i {region}. Uppdateras dagligen från 380+ arrangörer.')
+                f'körning eller mässa i {region}. Uppdateras dagligen från hundratals arrangörer.')
     # Trailing slash so canonical matches the indexed URL. Without it, GSC flags
     # /orebro/ as "Alternate page with proper canonical tag" of /orebro.
     url = f'https://druk.se/{slug}/'
