@@ -3489,11 +3489,6 @@ const EVENTS_DATA = {
         {
           "label": "hdcs.se",
           "url": "https://hdcs.se/evenemang/hemlig-tur/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Hemligt",
-          "type": "map"
         }
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
@@ -5377,13 +5372,20 @@ const EVENTS_DATA = {
       "name": "Afrikansk afton",
       "date": "2026-07-25",
       "dateEnd": "2026-07-25",
-      "location": "Se länk",
+      "location": "Distrikt J, plats meddelas senare",
       "type": "Träff",
       "organizer": "H-DCS",
       "description": "Mer information om denna kväll kommer. Vi kommer att äta afrikansk mat och ha en trevlig kväll",
+      "descriptionFull": "Afrikansk afton med H-DCS Distrikt J.\n\nLördag 25 juli kl 15:00-23:00.\n\nMer information om denna kväll kommer. Vi kommer att äta afrikansk mat och ha en trevlig kväll.\n\nPlats meddelas senare, se hdcs.se.",
       "link": "https://hdcs.se/evenemang/afrikansk-afton/",
-      "region": "Norrbotten",
+      "region": "Östergötland",
       "source": "hdcs.se",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/afrikansk-afton/"
+        }
+      ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
     },
@@ -11974,13 +11976,25 @@ const EVENTS_DATA = {
       "name": "Helgträff på Joce-City",
       "date": "2026-08-21",
       "dateEnd": "2026-08-23",
-      "location": "Se länk",
+      "location": "Joce City, Björkvik",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Mer information kommer",
+      "description": "Helgträff med H-DCS Distrikt J på Joce City, westernstaden i Björkvik. Mer information kommer.",
+      "descriptionFull": "Helgträff med H-DCS Distrikt J på Joce City, en uppbyggd westernstad i Björkvik (Katrineholms kommun).\n\nFredag 21 augusti kl 08:00 till söndag 23 augusti kl 17:00.\n\nMer information kommer från arrangören, se hdcs.se.",
       "link": "https://hdcs.se/evenemang/helgtraff-pa-joce-city/",
-      "region": "Norrbotten",
+      "region": "Södermanland",
       "source": "hdcs.se",
+      "links": [
+        {
+          "label": "hdcs.se",
+          "url": "https://hdcs.se/evenemang/helgtraff-pa-joce-city/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Joce+City+Björkvik",
+          "type": "map"
+        }
+      ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
     },
@@ -15113,15 +15127,16 @@ const EVENTS_DATA = {
       "name": "D8 Mats tur",
       "date": "2026-09-05",
       "dateEnd": "2026-09-05",
-      "location": "Karl, Gustav",
+      "time": "09:00",
+      "location": "Karl Gustav, Halland",
       "type": "Körning",
       "organizer": "BMW MC-klubben",
       "organizerIcon": "clubs/BMW_motorrad_v2.png",
-      "description": "Körning med D8 från Karl Gustav, Hallands län, Sverige. Samling enligt schema. Följ bmwklubben.se för information.",
+      "description": "Dagsutflykt med D8 från Karl Gustav i Varbergs kommun. Start kl 09:00. Följ bmwklubben.se för information.",
       "link": "https://www.bmwklubben.se/aktiviteter/d8-mats-tur/",
       "region": "Halland",
       "source": "bmwklubben.se",
-      "descriptionFull": "D8 Mats tur arrangeras av BMW MC-klubben.\n\nKörning med D8 från Karl Gustav, Hallands län, Sverige. Samling enligt schema. Följ bmwklubben.se för information.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Karl, Gustav.",
+      "descriptionFull": "D8 Mats tur arrangeras av BMW MC-klubben.\n\nDagsutflykt med start i Karl Gustav, Hallands län, kl 09:00. Aktivitetsansvarig: Mats Niklasson.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Karl Gustav, Varbergs kommun.",
       "links": [
         {
           "label": "bmwklubben.se",
@@ -15129,7 +15144,7 @@ const EVENTS_DATA = {
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Karl%2C+Gustav",
+          "url": "https://www.google.com/maps/search/?api=1&query=Karl+Gustav+Varberg+Halland",
           "type": "map"
         }
       ],
