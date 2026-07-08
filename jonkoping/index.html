@@ -3456,6 +3456,48 @@ function ensureArchive(cb) {
   s.onerror = function() { archiveLoading = false; };
   document.head.appendChild(s);
 }
+
+// ===== AD card tracking (2026-07-08) =====
+// Counts views and clicks per AD card (Anons + Plats) via GA4 events.
+// This is the sponsor sales data: "your card was seen X times, clicked Y times
+// last month". Impression = card at least 50% visible, once per page load.
+// Click = any link tap inside an AD card, Platser slide, or its detail modal.
+// No cookies added, no personal data: only the card id and link URL.
+const _adSeen = new Set();
+const _adIds = new Set();
+function _isAdId(id) {
+  if (_adIds.size === 0 && typeof EVENTS_DATA !== 'undefined' && Array.isArray(EVENTS_DATA.events)) {
+    EVENTS_DATA.events.forEach(ev => { if (ev._ad) _adIds.add(ev.id); });
+  }
+  return _adIds.has(id);
+}
+function _adTrack(action, id, extra) {
+  try {
+    if (typeof gtag === 'function') gtag('event', action, Object.assign({ card_id: id }, extra || {}));
+  } catch (e) {}
+}
+const _adObserver = ('IntersectionObserver' in window) ? new IntersectionObserver(function(entries) {
+  entries.forEach(function(en) {
+    if (!en.isIntersecting) return;
+    const id = en.target.dataset.id;
+    if (!id || _adSeen.has(id)) return;
+    _adSeen.add(id);
+    _adTrack('ad_impression', id);
+    _adObserver.unobserve(en.target);
+  });
+}, { threshold: 0.5 }) : null;
+function observeAdCard(el, id) {
+  if (_adObserver && el && id) _adObserver.observe(el);
+}
+document.addEventListener('click', function(e) {
+  const a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  const holder = e.target.closest('[data-id]');
+  if (!holder || !holder.dataset.id) return;
+  if (!_isAdId(holder.dataset.id)) return;
+  _adTrack('ad_click', holder.dataset.id, { link_url: String(a.href).slice(0, 100) });
+});
+
 let searchQuery = '';
 let mapCityFilter = ''; // set when user clicks a map dot
 
@@ -4834,6 +4876,7 @@ function openMDetail(cardId) {
   const body = document.getElementById('mDetailBody');
   const favBtn = document.getElementById('mDetailFav');
   if (!modal || !photo || !body) return;
+  modal.dataset.id = cardId; // lets AD click tracking attribute modal link taps to the card
 
   // Photo header
   const imgUrl = ev.backImage || ev.frontImage || '';
@@ -5131,6 +5174,8 @@ function closeMDetail() {
       if (typeof _eventMap !== 'undefined') _eventMap.set(p.id, p);
       const slide = document.createElement('div');
       slide.className = 'm-plats-slide';
+      slide.dataset.id = p.id;
+      if (typeof observeAdCard === 'function') observeAdCard(slide, p.id); // sponsor impression tracking
       const showDist = mpSortByDist && mpPos && p._mpDist != null && isFinite(p._mpDist);
       const distTxt = showDist ? (p._mpDist < 10 ? (Math.round(p._mpDist * 10) / 10).toFixed(1) : String(Math.round(p._mpDist))) : '';
       const frontHTML =
@@ -6164,6 +6209,7 @@ function render() {
     const typeBarClass = typeBarMap[event.type] || '';
     card.className = 'card' + (typeBarClass ? ' ' + typeBarClass : '') + (isPast ? ' past' : '') + (isFav ? ' favorited' : '');
     card.dataset.id = event.id;
+    if (event._ad) observeAdCard(card, event.id); // sponsor impression tracking
     const cardId = 'c-' + event.id;
 
     // Phase 2 (mobile): lazy-load backImage via IntersectionObserver for performance.
