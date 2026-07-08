@@ -3489,6 +3489,8 @@ const _adObserver = ('IntersectionObserver' in window) ? new IntersectionObserve
 function observeAdCard(el, id) {
   if (_adObserver && el && id) _adObserver.observe(el);
 }
+// Capture phase (third arg true) is REQUIRED: card/modal handlers call
+// stopPropagation, so a normal bubble listener never sees these clicks.
 document.addEventListener('click', function(e) {
   const a = e.target.closest ? e.target.closest('a[href]') : null;
   if (!a) return;
@@ -3496,7 +3498,7 @@ document.addEventListener('click', function(e) {
   if (!holder || !holder.dataset.id) return;
   if (!_isAdId(holder.dataset.id)) return;
   _adTrack('ad_click', holder.dataset.id, { link_url: String(a.href).slice(0, 100) });
-});
+}, true);
 
 let searchQuery = '';
 let mapCityFilter = ''; // set when user clicks a map dot
@@ -4876,7 +4878,7 @@ function openMDetail(cardId) {
   const body = document.getElementById('mDetailBody');
   const favBtn = document.getElementById('mDetailFav');
   if (!modal || !photo || !body) return;
-  modal.dataset.id = cardId; // lets AD click tracking attribute modal link taps to the card
+  modal.dataset.id = ev.id; // real event id (cardId carries a "c-" prefix): lets AD click tracking attribute modal link taps
 
   // Photo header
   const imgUrl = ev.backImage || ev.frontImage || '';
