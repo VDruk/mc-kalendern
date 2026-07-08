@@ -4056,23 +4056,26 @@ function buildRegionFilter() {
   }
 
   const sel = document.getElementById('regionFilter');
-  const activeDistricts = SWEDISH_DISTRICTS.filter(r => regionCounts[r]);
-  activeDistricts.forEach(r => {
+  // ALL districts and countries stay selectable, even with zero upcoming events
+  // (past-only countries like Litauen, off-season districts). Selecting an empty
+  // one shows the region-empty state with the "Visa passerade" button, which
+  // lazy-loads the archive. Same principle as archived months in the month
+  // dropdown. Never filter this list down to "has upcoming events only".
+  SWEDISH_DISTRICTS.forEach(r => {
     const opt = document.createElement('option');
     opt.value = r; opt.textContent = r;
     sel.appendChild(opt);
   });
-  const activeCountries = COUNTRIES.filter(c => regionCounts[c]);
-  if (activeCountries.length > 0) {
-    const sep = document.createElement('option');
-    sep.disabled = true; sep.textContent = '──────';
-    sel.appendChild(sep);
-    activeCountries.forEach(c => {
-      const opt = document.createElement('option');
-      opt.value = c; opt.textContent = c;
-      sel.appendChild(opt);
-    });
-  }
+  const sep = document.createElement('option');
+  sep.disabled = true; sep.textContent = '──────';
+  sel.appendChild(sep);
+  COUNTRIES.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c; opt.textContent = c;
+    sel.appendChild(opt);
+  });
+  // Hero stat still counts districts with upcoming events (not list length).
+  const activeDistricts = SWEDISH_DISTRICTS.filter(r => regionCounts[r]);
   document.getElementById('statRegions').textContent = activeDistricts.length;
 
   const monthSel = document.getElementById('monthFilter');
