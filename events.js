@@ -2620,6 +2620,38 @@ const EVENTS_DATA = {
       "backImage": "ads/sub5-gellerasen-back-2026-07-13.jpg"
     },
     {
+      "id": "spf-seniorerna-mc-tur-fors-2026-07-14",
+      "name": "MC-tur till Fors med färja",
+      "date": "2026-07-14",
+      "dateEnd": "2026-07-14",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Dalarna",
+      "location": "ICA Maxi, Borlänge",
+      "organizer": "SPF Seniorerna Borlänge",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=61574232743563",
+      "_vehicle": "mc",
+      "description": "Gemensam tisdagstur på cirka 20 mil med färjetur över Dalälven på Trelänsleden och lunch i Fors. En mil grusväg ingår. Avfärd kl 10, ta med termos för förmiddagsfika.",
+      "descriptionFull": "Tisdag 14 juli är det dags för ännu en MC-tur. Vi träffas vid ICA Maxi med fulltankade hojar för avfärd 10.00. Ta med termos för förmiddagsfika, lunch äter vi i Fors. Denna gång ska vi åka färjan i Hovnäs- Trelänsleden. Överfart kostar 50:-/MC och betalas med Swish. Vi kommer att köra en mil grusväg, totalt cirka 20 mil. Väl mött!\n\nPälle Lekander, Motorkommittén",
+      "backImage": "ads/spf-mc-tur-fors-back-2026-07-14.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122173872188807758&set=a.122094973388807758"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=61574232743563"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=ICA+Maxi+Borl%C3%A4nge",
+          "type": "map"
+        }
+      ]
+    },
+    {
       "id": "lyan-mc-fikatraff-2026-07-14",
       "name": "Fikaträff hos Lyan MC",
       "date": "2026-07-14",
@@ -17687,6 +17719,38 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=Gustavsvik%2C+Kristinehamn",
+          "type": "map"
+        }
+      ]
+    },
+    {
+      "id": "soderslattsrundan-mopedrally-2026-09-19",
+      "name": "Söderslättsrundan Mopedrally",
+      "date": "2026-09-19",
+      "dateEnd": "2026-09-19",
+      "time": "09:30",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Robbans Bildepå, Landsvägen 563, Vellinge",
+      "organizer": "1 H.P. Moppers Trelleborg",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=100070363303654",
+      "_vehicle": "moped",
+      "description": "Söderslättsrundan mopedrally i Skåne 2026. Rundtur på 3 eller 6 mil på Söderslätt med 10 frågor längs vägen. Öppnar 09:30, start kl 11, prisutdelning 14:30. Startavgift 40 kr.",
+      "descriptionFull": "En dag för alla mopedentusiaster! Kör, umgås & ha kul!\n\nVi öppnar 09.30\nStarten går 11.00\nPrisutdelning 14.30\nStartavgift 40 kr\n\nRundans längd: 3 eller 6 mil, 10 frågor på rundan!\n\nPlats: Robbans Bildepå\n\nOavsett om du kör veteranmoped, klassiker eller nyare modell är du varmt välkommen att delta i vår gemensamma träff och rundtur.\n\nVi samlas vid Robbans Bildepå där det finns möjlighet att umgås, titta på varandras mopeder och njuta av god mat. Under dagen serveras grillade hamburgare och korv med tillbehör, samt läsk, kaffe och kaka. När starten går ger vi oss ut på en rundtur genom vackra omgivningar på Söderslätt. Efter avslutad rundtur återvänder vi till samlingsplatsen där dagen avslutas med prisutdelning i olika kategorier och fortsatt trevligt umgänge.\n\nTa med gott humör och din moped, vi ser fram emot en minnesvärd dag tillsammans med både gamla och nya vänner i mopedgemenskapen!\n\nFör mer info skicka mail till: 1hpmoppers@gmail.com",
+      "backImage": "ads/soderslattsrundan-mopedrally-back-2026-09-19.jpg",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10238385519168753&set=gm.2733221683726084&idorvanity=224556431259301"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100070363303654"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Landsv%C3%A4gen+563+Vellinge",
           "type": "map"
         }
       ]
