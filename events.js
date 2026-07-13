@@ -3543,6 +3543,10 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-koppartraffen-back-2026-07-17.jpg",
       "links": [
         {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1060097140031904"
+        },
+        {
           "label": "FB Inlägg",
           "url": "https://www.facebook.com/photo/?fbid=122239743542098370&set=gm.1888685398462614&idorvanity=1887829268548227"
         },
