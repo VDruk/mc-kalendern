@@ -8353,6 +8353,38 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "gardslovs-mopedrally-2026-08-08",
+      "name": "Gärdslövs Mopedrally",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "time": "11:00",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Gärdslöv, utanför Skurup",
+      "organizer": "Gärdslövs Byalag",
+      "source": "gardslov.se",
+      "link": "https://www.gardslov.se/mopederally.html",
+      "_vehicle": "moped",
+      "description": "Mopedrally i sydvästra Skåne 2026. Runda på ca 4 mil med start kl 11:00. Startavgift 50 kr. Fika, korv och hamburgare vid start och mål. Pokaler till topp tre.",
+      "descriptionFull": "Lördagen den 8/8 startar mopedrallyt kl 11.00.\n\nSTARTAVGIFT 50:- kr\nRundan är ca 4 mil lång.\n\nKaffe, kanelbulle, korv och hamburgare finns att köpa vid start och mål.\n\n1a Pris: pokal och 500:-\n2a pris: pokal och 300:-\n3a pris: pokal och 200:-\n\nHar du/ni frågor?\nRING: Lennart Kristensson 0705-12 08 11.\n\nArrangör: Gärdslövs Byalag.",
+      "links": [
+        {
+          "label": "gardslov.se",
+          "url": "https://www.gardslov.se/mopederally.html"
+        },
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo?fbid=27879779868300900&set=gm.26983389041340298&idorvanity=486893728083190"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gärdslövs+kyrka",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/gardslovs-mopedrally-back-2026-08-08.jpg"
+    },
+    {
       "id": "memorial-peter-johansson-2026-08-08",
       "name": "Memorial race Peter Johansson",
       "date": "2026-08-08",
