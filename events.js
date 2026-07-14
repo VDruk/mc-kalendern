@@ -2652,6 +2652,39 @@ const EVENTS_DATA = {
       "backImage": "ads/sub5-gellerasen-back-2026-07-13.jpg"
     },
     {
+      "id": "enhorna-cafe-motorkvall-2026-07-14",
+      "name": "Motorkväll på Enhörna Cafe",
+      "date": "2026-07-14",
+      "dateEnd": "2026-07-14",
+      "time": "16:00",
+      "endTime": "19:30",
+      "type": "Träff",
+      "region": "Stockholm",
+      "location": "Enhörna Cafe, Lillängsvägen 1, Enhörna",
+      "organizer": "Enhörna Cafe",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=61581825973860",
+      "_vehicle": "mc",
+      "description": "Motorkväll hos det nystartade caféet på landsbygden utanför Södertälje. Extra mycket räkmackor och godsaker. Stor gratis parkering. Kl 16-19:30.",
+      "descriptionFull": "Tisdag 14/7 så är det motorkväll igen, kl 16-19:30.\n\nDet ser ut att bli toppenväder! Vi laddar på med nya råvaror och extra mycket räkmackor och andra godsaker!\n\nÖppettider:\ntis-fre 07:00-17:00 (extra öppet motorkväll tisdagar)\nlör-sön 10:00-16:00\nmåndagar stängt\n\nStor gratis parkering!\n\nLillängsvägen 1, 151 50 Enhörna\n08-550 444 67\n\nVarmt välkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1693275198562657"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=61581825973860"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lillängsvägen+1+Enhörna",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/enhorna-cafe-motorkvall-back-2026-07-14.jpg"
+    },
+    {
       "id": "moonshine-runner-grill-traff-6-2026-07-14",
       "name": "Grill & Mc träff #6",
       "date": "2026-07-14",
@@ -2987,6 +3020,38 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/gota-ms-arbetsdagar-back-2026-07-14.jpg"
+    },
+    {
+      "id": "rc-palle-kvallskorning-balsta-2026-07-15",
+      "name": "Kvällskörning Bålsta/Grillby",
+      "date": "2026-07-15",
+      "dateEnd": "2026-07-15",
+      "time": "17:45",
+      "type": "Körning",
+      "region": "Uppsala",
+      "location": "PLOQ/ST1, Kraftleden 2, Bålsta",
+      "organizer": "RC Palle",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/1681065958909673/",
+      "_vehicle": "mc",
+      "description": "RC Palles kvällskörning i Nordväst. Aktivt högt tempo på kurviga asfalterade vägar, öppen grupp med sicksack-kortege. Körtid ca 2-3 timmar.",
+      "descriptionFull": "Välkomna alla på RC Palles kvällskörning i Nordväst!\n\nNÄR: Onsdag 15 juli\nSAMLING: 17:45 vid PLOQ/ST1, Kraftleden 2, Bålsta. Starten går strax efter genomgången.\n\nTEMPO/VÄGVAL/KÖRSTIL:\nAktivt högt tempo på kurviga asfalterade vägar.\nÖppen grupp, dvs. håll reda på att personen bakom dig ser vart du svänger vid en korsning/sväng. Jag väntar in då och då ifall gruppen blir alltför splittrad.\nKortegekörning med sicksack-körning när det ej svänger.\n\nKÖRTID: ca 2-3 timmar. Dom som orkar mer kan jag erbjuda mer efter ordinarie rutt.\n\nVälkomna!\nVrooom\n//RC Palle",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/27619037367716351/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/1681065958909673/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kraftleden+2+Bålsta",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/rc-palle-kvallskorning-balsta-back-2026-07-15.jpg"
     },
     {
       "id": "hdk1930-let-the-thunder-run-2026-07-15",
