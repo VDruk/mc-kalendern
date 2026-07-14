@@ -3022,6 +3022,38 @@ const EVENTS_DATA = {
       "backImage": "ads/gota-ms-arbetsdagar-back-2026-07-14.jpg"
     },
     {
+      "id": "mck-freedom-akarkvall-2026-07-15",
+      "name": "Freedom Åkarkvällar",
+      "date": "2026-07-15",
+      "dateEnd": "2026-07-15",
+      "time": "17:30",
+      "type": "Körning",
+      "region": "Östergötland",
+      "location": "Circle K Norsholm, Klintorp, Norsholm",
+      "organizer": "MCK Freedom",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/mckfreedom",
+      "_vehicle": "mc",
+      "description": "Åkarkväll med MCK Freedom. Samling Circle K vid E4 kl 17:30, OBS tiden. Kvällens mål är Nostalgiafton i Vadstena. Alla knuttar är välkomna!",
+      "descriptionFull": "MCK Freedom inbjuder ALLA knuttar till Åkarkväll onsdag 15/7.\n\nVi ses Cirkel K Norsholm vid E4 kl. 17.30.\nOBS!! Tiden: 17.30.\n\nMålet för kvällen är Nostalgiafton Vadstena.\n\nHoppas Du kan och Du ÄR så VÄLKOMMEN!\n\nVi ses på onsdag 15/7 kl. 17.30.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1000783709469245"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/mckfreedom"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Norsholm",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mck-freedom-akarkvall-back-2026-07-15.jpg"
+    },
+    {
       "id": "rc-palle-kvallskorning-balsta-2026-07-15",
       "name": "Kvällskörning Bålsta/Grillby",
       "date": "2026-07-15",
@@ -16735,6 +16767,34 @@ const EVENTS_DATA = {
         }
       ],
       "source": "ronnegardadventure.se"
+    },
+    {
+      "id": "thorsmen-helgeland-hostfest-2026-09-11",
+      "name": "Høstfest på Valhall",
+      "date": "2026-09-11",
+      "dateEnd": "2026-09-13",
+      "time": "16:00",
+      "type": "Fest",
+      "region": "Norge",
+      "location": "Valhall, Sandnessjøen",
+      "organizer": "Thorsmen Helgeland",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2089294682010992",
+      "_vehicle": "mc",
+      "description": "Höstfest hos norska klubben Thorsmen Helgeland på klubbstället Valhall. Livemusik, servering av mat och dryck, alla välkomna. Entré 300 NOK, hotellrabatt finns.",
+      "descriptionFull": "Thorsmen Helgeland inviterer til Høstfest på Valhall, 11/09 og 12/09-26.\n\nLive musikk. Knall musikk garanteres.\nServering av mat og drikke.\nAlle er velkommen.\n\nInngang 300,-\n\nMeld gjerne fra om du kommer.\n\nOvernatting på Hotell Syv Søstre. Rabattert pris, oppgi koden: Ref nr 98196623.\n\nPlats: Valhall, Sandnessjøen (se kartlänken för exakt plats).",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2089294682010992"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=66.0037329,12.5898248",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/thorsmen-hostfest-back-2026-09-11.jpg"
     },
     {
       "id": "bal-og-bajer-hyggetraef-2026-09-11",
