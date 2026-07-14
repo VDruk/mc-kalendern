@@ -4618,6 +4618,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "klockaregarden-mc-traff-2026-07-22",
+      "name": "MC-träff på äldreboendet",
+      "date": "2026-07-22",
+      "dateEnd": "2026-07-22",
+      "time": "10:30",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Klockaregården, Hyssnavägen 11, Sätila",
+      "organizer": "Klockaregården",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163144089295415&set=gm.27701088926241078&idorvanity=168238033286205",
+      "_vehicle": "mc",
+      "description": "Visa upp din hoj på äldreboendets parkering och glädj pensionärerna, som har stort motorintresse. Personalens initiativ i Marks kommun. Onsdag kl 10:30.",
+      "descriptionFull": "Vi på Klockaregårdens äldreboende tänkte försöka anordna en mindre MC-träff på vår parkering.\n\nIntresset för motorer av alla de slag finns hos våra pensionärer som bor hos oss. Vi vill glädja våra pensionärer genom att anordna detta.\n\nHar du en MC som du vill ställa ut någon timme hos oss, kontakta gärna Linda i kommentarerna till inlägget eller via PM.\n\nTid: onsdag 22 juli kl 10:30.\nPlats: Klockaregårdens parkering, Hyssnavägen 11, Sätila (Marks kommun).",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163144089295415&set=gm.27701088926241078&idorvanity=168238033286205"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hyssnavägen+11+Sätila",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/klockaregarden-mc-traff-back-2026-07-22.jpg"
+    },
+    {
       "id": "solleftea-mopedcruising-2026-07-22",
       "name": "Sollefteå Mopedcruising 20 år",
       "date": "2026-07-22",
