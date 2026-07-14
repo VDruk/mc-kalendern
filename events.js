@@ -3681,6 +3681,37 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "hindas-mc-utefest-2026-07-18",
+      "name": "Utefest med öl-orientering",
+      "date": "2026-07-18",
+      "dateEnd": "2026-07-18",
+      "type": "Fest",
+      "region": "Västra Götaland",
+      "location": "Hindås MC, Risbohult 115, Hindås",
+      "organizer": "Hindås MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=122180073746740501&set=a.122095300718740501",
+      "_vehicle": "mc",
+      "description": "Utefest med öl-orientering och liveband hos Hindås MC. Lördag 18 juli vid klubbhuset. Se klubbens kanaler för mer information.",
+      "descriptionFull": "Hindås MC bjuder in till utefest med öl-orientering, lördagen den 18 juli 2026.\n\nLiveband spelar.\n\nPlats: Hindås MC:s klubbhus, Risbohult 115, Hindås (Härryda kommun).\n\nFölj Hindås MC på Instagram (@hindasmc) för mer information.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122180073746740501&set=a.122095300718740501"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hindasmc/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Risbohult+115+Hindås",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/hindas-mc-utefest-back-2026-07-18.jpg"
+    },
+    {
       "id": "strul-kustom-car-bike-show-2026-07-18",
       "name": "Kustom Car & Bike Show",
       "date": "2026-07-18",
