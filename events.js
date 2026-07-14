@@ -4178,6 +4178,35 @@ const EVENTS_DATA = {
       "backImage": "ads/nbos-ride-out-back-2026-07-18.jpg"
     },
     {
+      "id": "gwcs-kaffeturen-roslagen-2026-07-19",
+      "name": "Kaffe-turen i Roslagen",
+      "date": "2026-07-19",
+      "dateEnd": "2026-07-19",
+      "time": "10:30",
+      "type": "Körning",
+      "region": "Uppsala",
+      "location": "Sharpwood, Gimo",
+      "organizer": "GWCS",
+      "organizerIcon": "clubs/normalized/gwcs.png",
+      "source": "gwcs.se",
+      "link": "https://gwcs.se",
+      "_vehicle": "mc",
+      "description": "Söndagskörning med C-Wings genom Roslagens härliga MC-vägar. Samling kl 10:30 hos Anders och Benita där turen startar. Fika och mat under resans gång.",
+      "descriptionFull": "OBS! På grund av väderprognos med 16 mm regn har Lördagsturen nu blivit en Söndagstur istället!\n\nPå söndag är det dags för ännu en tur med C-Wings, denna gång är det den trevliga Kaffe-turen som Anders och Benita Kennbranth håller.\n\nTuren är fylld av härliga MC-vägar i Roslagen och goa MC-kompisar, fika och mat. Hoppas vi blir många som hänger på!\n\nVad: Söndagskörning med C-Wings\nNär: Söndagen den 19 juli kl 10:30\nVar: Vi träffas hos Anders och Benita i Sharpwood (Gimo) där turen startar.\nFika: Jajamänsan! Kaffe och macka hos Anders och Benita, och mat finns också att få under resans gång.\n\nHar ni frågor eller funderingar så är det bara att höra av er.\n\nArrangör: C-Wings (GWCS).",
+      "links": [
+        {
+          "label": "gwcs.se",
+          "url": "https://gwcs.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gimo",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/gwcs-kaffeturen-roslagen-back-2026-07-19.jpg"
+    },
+    {
       "id": "doa-emilsturen-2026-07-19",
       "name": "DOA - Emilsturen",
       "date": "2026-07-19",
