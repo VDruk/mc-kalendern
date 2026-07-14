@@ -2652,6 +2652,39 @@ const EVENTS_DATA = {
       "backImage": "ads/sub5-gellerasen-back-2026-07-13.jpg"
     },
     {
+      "id": "moonshine-runner-grill-traff-6-2026-07-14",
+      "name": "Grill & Mc träff #6",
+      "date": "2026-07-14",
+      "dateEnd": "2026-07-14",
+      "time": "17:00",
+      "endTime": "20:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Verkstadsgatan 1, Skurup",
+      "organizer": "Moonshine Runner Custom",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=61583677230326",
+      "_vehicle": "mc",
+      "description": "Grillkväll hos Moonshine Runner Custom Bikes, denna gång med Medelhavstema: souvlaki med hemmagjord fetaoströra, pitabröd och potatissallad. Kl 17-20.",
+      "descriptionFull": "Hej alla kunder och följare, på tisdag är det dax igen!\n\nDenna gången tar vi smaklökarna ner mot Medelhavet.\n\nKvällens rätt: Souvlaki (grillspett) med hemmagjord fetaoströra gjord på fetaost och grillad paprika som mixas ihop. Till detta serveras pitabröd och potatissallad.\n\nHjärtligt välkomna!\n\nTid: tisdag 14 juli kl 17:00-20:00.\nPlats: Moonshine Runner Custom Bikes, Verkstadsgatan 1, Skurup.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/901832822277264"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=61583677230326"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Verkstadsgatan+1+Skurup",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/moonshine-grill-traff-6-back-2026-07-14.jpg"
+    },
+    {
       "id": "spf-seniorerna-mc-tur-fors-2026-07-14",
       "name": "MC-tur till Fors med färja",
       "date": "2026-07-14",
@@ -2954,6 +2987,38 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/gota-ms-arbetsdagar-back-2026-07-14.jpg"
+    },
+    {
+      "id": "hdk1930-let-the-thunder-run-2026-07-15",
+      "name": "Let the Thunder Run",
+      "date": "2026-07-15",
+      "dateEnd": "2026-07-15",
+      "time": "17:15",
+      "type": "Körning",
+      "region": "Danmark",
+      "location": "Lindenborgvej 2, 4000 Roskilde",
+      "organizer": "H-D Klubben af 1930",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/www.hdk1930.dk/",
+      "_vehicle": "mc",
+      "description": "Fællestur på en hverdag med HDK1930, Europas näst äldsta Harley-klubb. Samling 17:15, avgång 17:30. Stopp i Undløse och Skippers Bistro i Holbæk. Ca 100 km.",
+      "descriptionFull": "LET THE THUNDER RUN\n\nFællestur på en hverdag - arrangeret af HDK1930.\nMotoren kalder, og vejene venter!\n\nVi inviterer til en hyggelig og energifyldt fællestur på en hverdag, hvor fællesskab, køreglæde og god stemning er i fokus. Uanset om du kører for friheden, fællesskabet eller bare elsker lyden af motorer i flok - så er du mere end velkommen!\n\n15/7 mødes Lindenborgvej 2 klokken 17.15 med afgang kl. 17.30. Stop Brugsen Undløse og videre til Skippers Bistro i Holbæk hvor der både er is og mad. Ca 100 km, cirka 2 timer.\n\nLET THE THUNDER RUN!\n\nDel gerne og tag dem, du vil køre sammen med.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2055541871674607"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/www.hdk1930.dk/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lindenborgvej+2+4000+Roskilde",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/hdk1930-thunder-run-back-2026-07-15.jpg"
     },
     {
       "id": "doa-sommarkvallstur-ekero-2026",
