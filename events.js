@@ -13557,6 +13557,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mck-flamman-augustifest-2026-08-28",
+      "name": "Augustifest",
+      "date": "2026-08-28",
+      "dateEnd": "2026-08-30",
+      "time": "12:00",
+      "type": "Fest",
+      "region": "Blekinge",
+      "location": "MCK Flamman, Munkahusvägen 67-13, Karlshamn",
+      "organizer": "MCK Flamman",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/1438290216428191/",
+      "_vehicle": "mc",
+      "description": "Augustifest hos MCK Flamman, i år med en hyllning till Ozzy Osbourne. Mat och dryck serveras, tältplatser finns för övernattning. 28-30 augusti.",
+      "descriptionFull": "Nu är det dags för Flammans Augustifest!\n\nI år kommer vi bland annat köra en hyllning till Ozzy Osbourne.\n\nVi kommer att servera mat och dryck.\n\nTältplatser finns om man vill övernatta.\n\nTid: fredag 28 augusti kl 12:00 till söndag 30 augusti kl 12:00.\nPlats: MCK Flamman, Munkahusvägen 67-13, Karlshamn.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2113860996214325"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/1438290216428191/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Munkahusvägen+67+Karlshamn",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mck-flamman-augustifest-back-2026-08-28.jpg"
+    },
+    {
       "id": "brudfjallstraffen-2026-08-28",
       "name": "Brudfjällsträffen",
       "date": "2026-08-28",
