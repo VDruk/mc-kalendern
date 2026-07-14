@@ -2532,6 +2532,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mini-malaren-runt-2026-07-13",
+      "name": "Mini Mälaren Runt",
+      "date": "2026-07-13",
+      "dateEnd": "2026-07-13",
+      "time": "10:42",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "McDonald's Hallunda, Sankt Botvidsväg 3, Norsborg",
+      "organizer": "MC-upplevelser Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/135478476213393/",
+      "_vehicle": "mc",
+      "description": "Heldagstur runt Mälaren med Bonnie and Clyde-tema: Hedlandets köplada, lunch i Strängnäs småbåtshamn, glass på Aspö, gratis färja till Arnö och hemåt via Bålsta.",
+      "descriptionFull": "Förklaring till \"Bonnie and Clyde\" ges på plats.\n\nVi drar först till Hedlandets köplada. Bonnie behöver nytt tyll och mannekängar för oss, och vi i juryn ger vårt omdöme vilket hon passar bäst i. Clyde behöver inköpa en K-pist. Hedlandet har även andra kläder (även MC) samt massvis annat man inte trodde att man behövde. Så ta med era Foodoralådor.\n\nVidare till Strängnäs småbåtshamn som ligger så vackert, för lunch. Efter lunchen åker vi till systrarna Lena för en glass/java och deras loppis på Aspö. Genom Enköping och till Chiefland, och sen löser sig resten till Bålsta och vidare hemåt.\n\nUppdatering från arrangören: fint väder utlovas, ta med badkläder! Badstopp efter Hedlandet vid en liten avsides badplats med Gripsholms slott som utsikt. Efter systrarna Lena åker vi ut till Arnö via en gratis vägfärja. Arnö har ett av Sveriges bäst bevarade medeltida stenhus och väldigt få bofasta. Vi ser också Grönsöö slott från andra sidan.\n\nSamling: McDonald's Hallunda, Sankt Botvidsväg 3, Norsborg.\n\nEvenemang via gruppen MC-upplevelser Stockholm.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1723663178825714/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/135478476213393/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=McDonald's+Hallunda+Sankt+Botvidsväg+3+Norsborg",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mini-malaren-runt-back-2026-07-13.jpg"
+    },
+    {
       "id": "mo-bygdegard-classic-motor-monday-2026-07-13",
       "name": "Classic Motor Monday",
       "date": "2026-07-13",
@@ -5852,6 +5884,42 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/green-goat-barhang-back-2026-07-25.jpg"
+    },
+    {
+      "id": "arvika-tvataktsrally-2026-07-26",
+      "name": "Tvåtaktsrally för moped och MC",
+      "date": "2026-07-26",
+      "dateEnd": "2026-07-26",
+      "time": "11:30",
+      "type": "Körning",
+      "region": "Värmland",
+      "location": "Arvika Fordonsmuseum, Thermiavägen 2, Arvika",
+      "organizer": "Arvika Fordonsmuseum",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/Arvikafordonsmuseum/",
+      "_vehicle": "both",
+      "description": "Tvåtaktsrally för moped och MC i Värmland 2026, med tipsfrågor utefter banan på ca 3,5 mil. Samling 11:30, start 12:00. 100 kr inkl museientré, smörgås och kaffe.",
+      "descriptionFull": "Söndag den 26 juli är det dags för vårat tvåtaktsrally för moped och MC med tipsfrågor utefter banan på ca 3,5 mil.\n\nStartavgift på 100:-, i detta pris ingår entré till museet och en smörgås och kaffe/te.\n\nSamling sker på innergården kl. 11.30 och starten börjar kl. 12.00.\n\nPlats: Arvika Fordonsmuseum, Thermiavägen 2, Arvika.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1613912174068965&set=a.498748558918671"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Arvikafordonsmuseum/"
+        },
+        {
+          "label": "arvikafordon.se",
+          "url": "https://arvikafordon.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Thermiavägen+2+Arvika",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/arvika-tvataktsrally-back-2026-07-26.jpg"
     },
     {
       "id": "asa-mopedrally-loppis-2026-07-26",
