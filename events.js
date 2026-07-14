@@ -3218,6 +3218,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "torsdagskorningen-mc-kajen-2026-07-16",
+      "name": "Torsdagskörningen",
+      "date": "2026-07-16",
+      "dateEnd": "2026-07-16",
+      "time": "19:00",
+      "type": "Körning",
+      "region": "Västerbotten",
+      "location": "Kajen, Västra Strandgatan 8A, Umeå",
+      "organizer": "MC Kajen",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163577127407675&set=gm.27749412694698280&idorvanity=123738171025771",
+      "_vehicle": "mc",
+      "description": "Samling kl 19 vid Kajen Umeå, kortege ca 45 min till ett trevligt fikaställe. Gofika och lotteri med många priser. Alla välkomna!",
+      "descriptionFull": "Hoppas det kommer många. Kom gärna tidigt och surra med alla som är på plats.\n\nAlla är välkomna!\n\nSamlingsplats: KAJEN Umeå\nAVRESETID: 19.00\n\nNu är det dags för körning på torsdag 16/7 klockan 19.00 till ett trevligt fikaställe!\n\nVi kör som vanligt i 45 min, sedan gofika. Och självklart lotteri med många priser!\n\nTänk på kortegekörning enligt nedan. Och se var vägvisaren står så ni ser var vi ska köra i korsningar och rondeller. OBS: se till att bakomvarande ser vart ni far.\n\nMC Gemenskap\nLottdragning\nFika\n\nKom ihåg att vi kör i kortege, så:\n• Håll ett jämnt avstånd till motorcykeln framför (vanligtvis tre sekunder).\n• Kör i ett zigzag-mönster (dvs. motorcyklarna i varje fil växlar position för att öka sikt och säkerhet).\n• Håll koll bakåt och se till att ingen tappar bort sig längs vägen!",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163577127407675&set=gm.27749412694698280&idorvanity=123738171025771"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kajen+Västra+Strandgatan+8A+Umeå",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/torsdagskorningen-mc-kajen-back-2026-07-16.jpg"
+    },
+    {
       "id": "bjarnums-museum-bil-mc-traff-2026-07-16",
       "name": "Bil & MC Träff på Bjärnums Museum",
       "date": "2026-07-16",
