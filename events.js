@@ -10789,6 +10789,40 @@ const EVENTS_DATA = {
       "backImage": "ads/bmw-default-back.jpg"
     },
     {
+      "id": "mce-till-malaren-runt-2026-08-15",
+      "name": "Gemensam körning till Mälaren Runt",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "09:00",
+      "endTime": "17:00",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "Kåken, Snutenvägen 11, Järfälla",
+      "organizer": "MCE",
+      "organizerIcon": "clubs/normalized/mce.png",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/Motorcykelentusiasterna",
+      "_vehicle": "mc",
+      "description": "MCE kör gemensamt från klubbhuset Kåken till starten av Mälaren Runt. Samling kl 9, clutch out 9:30, lugnt tempo. Kom fulltankad och i klubbkläder!",
+      "descriptionFull": "Samling i Kåken, för utomsocknes se adressen nedan, redan klockan 9 för den som vill och har möjlighet.\n\nDatum: 2026-08-15\nVaraktighet: 9:00-17:00\n\nGemensam körning utgår från Kåken 9:30.\nTempo: lugnt\nClutch out: 09:30\n\nKom fulltankad och klubbkläder på!\n\nPlats: Kåken (MCE:s klubbhus), Snutenvägen 11, Järfälla.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1771805813812452"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Motorcykelentusiasterna"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Snutenvägen+11+Järfälla",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mce-till-malaren-runt-back-2026-08-15.jpg"
+    },
+    {
       "id": "doa-malaren-runt-2026-08-15",
       "name": "DOA - Mälaren runt",
       "date": "2026-08-15",
