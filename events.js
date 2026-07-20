@@ -12393,6 +12393,42 @@ const EVENTS_DATA = {
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
     },
     {
+      "id": "skog-lithuania-2026-08-21",
+      "name": "SKOG Lithuania",
+      "date": "2026-08-21",
+      "dateEnd": "2026-08-23",
+      "time": "09:00",
+      "type": "Träff",
+      "region": "Litauen",
+      "location": "Zypliai Manor, Beržų gatvė 3, Lukšiai",
+      "organizer": "Basecamp North",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/BasecampNorthTeam",
+      "_vehicle": "mc",
+      "description": "Adventureträff på 1800-talsherrgården Zypliai i Litauen: guidade turer på grus, sand och skogsleder, camping eller herrgårdsrum, mat från Kuchmistriai. Biljetter online.",
+      "descriptionFull": "Welcome to Lithuania and SKOG™!\n\nLithuania - a tiny green corner on the shores of the Baltic Sea, boasting a rather curious section of the Trans Euro Trail, pink summer soup, and an unhealthy percentage of the population obsessed with dirt bikes, adventure travel, and rider camaraderie.\n\nExpect scenic backroads, sunny weather, lush forests, free camping anywhere near lakes or rivers, delicious cuisine, and plenty of dirt trails. If you have time to spare, ride the Curonian Spit, or Panemune, Lithuania's most beloved road: sweeping bends along the river, castles and mounds, and cute little towns perfect for a coffee stop.\n\nThe venue: Zypliai Manor House, a large 19th century estate now converted into an art gallery, event space, and hotel with a restaurant. Vast green space to pitch your tent (or lux 19th century manor rooms if you prefer indoor shenanigans), catered meals by Kuchmistriai restaurant, and a crew of very excited Lithuanian riders ready to show you the most scenic trails.\n\nTo get here, you'll need to jump on Lithuania's last cable ferry across the Nemunas River. During the event there are group rides involving gravel, sand, and countryside trails, the Nemuno Kilpu national park, Dubysos regional park, and beyond.\n\nThe hosts: Eglé (adventure nerd turned tour guide), Aidas (Lithuanian long-distance riding record holder and rally racer), Tomas, and a motley crew of volunteers.\n\nThe vibe: nature, adventure, camaraderie, and a slightly unhinged sense of humor, plus excellent food and improvised guitar music.\n\nAs with the SKOG May edition, the event supports riders-turned-defenders in Ukraine by donating to the NGO Kelio Knyga.\n\nTid: 21-23 augusti.\nPlats: Zypliai Manor, Beržų gatvė 3, Lukšiai, Litauen.\nBiljetter: skognorth.org.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1299634215577101/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/BasecampNorthTeam"
+        },
+        {
+          "label": "Biljetter",
+          "url": "https://www.skognorth.org/event-details/skog-26-lithuania"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Zypliai+Manor+Lukšiai",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/skog-lithuania-back-2026-08-21.jpg"
+    },
+    {
       "id": "bmw-d10-en-god-bit-av-ostfold-26-2026",
       "name": "D10 En God Bit Av Östfold -26",
       "date": "2026-08-21",
