@@ -12639,6 +12639,42 @@ const EVENTS_DATA = {
       "backImage": "ads/smcboken-default-back.jpg"
     },
     {
+      "id": "adventurebike-singeltur-sormland-2026-08-22",
+      "name": "Singeltur från Sörmland",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Södermanland",
+      "location": "Kungsgatan 14, Eskilstuna",
+      "organizer": "AdventureBike",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1669062787546300",
+      "_vehicle": "mc",
+      "description": "Motorcykeltur enbart för singlar från Sörmland. Fina asfaltsvägar med täta stopp för att lära känna varandra. Lunch och fika till självkostnad. Anmälan via adventurebike.se senast 11/8, avgift 300 kr.",
+      "descriptionFull": "Följ med på en motorcykeltur med enbart singlar - ta chansen att träffa andra med samma intresse som söker en partner.\n\nVi åker på fina asfaltsvägar och gör täta intressanta stopp för att ge deltagarna möjlighet att lära känna varandra. Det blir stopp för både lunch och fika till självkostnadspris för den som önskar.\n\nGruppen planeras utifrån gemensamma intressen och könspreferenser. Tanken är att få till en grupp där det finns flera personer som är intressanta för varje deltagare.\n\nAnmälan sker via adventurebike.se senast 11/8, sedan får man ett bekräftelsemail och avgiften på 300 kr/person betalas via swish.\n\nHör av dig vid frågor!\n\nStart: lördag 22 augusti kl 10:00, Kungsgatan 14, Eskilstuna.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1669062787546300"
+        },
+        {
+          "label": "adventurebike.se",
+          "url": "https://adventurebike.se"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/adventurebikese"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kungsgatan+14+Eskilstuna",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/adventurebike-singeltur-back-2026-08-22.jpg"
+    },
+    {
       "id": "reloaded-heldagstur-helsingor-2026-08-22",
       "name": "Heldagstur Helsingør T/R",
       "date": "2026-08-22",
