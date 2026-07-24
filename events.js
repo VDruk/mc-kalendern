@@ -6076,6 +6076,38 @@ const EVENTS_DATA = {
       "backImage": "ads/green-goat-barhang-back-2026-07-25.jpg"
     },
     {
+      "id": "mc-for-alla-sondagstur-sjobo-2026-07-26",
+      "name": "Söndagstur Sjöbo",
+      "date": "2026-07-26",
+      "dateEnd": "2026-07-26",
+      "time": "10:40",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Motostar, Såggatan 3, Sjöbo",
+      "organizer": "MC för alla - Skåne",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/3322417321320442/",
+      "_vehicle": "mc",
+      "description": "Söndagstur i lugnt tempo från Motostar så alla kan hänga med. Härliga asfalterade MC-vägar i trevligt sällskap. Samling 10:40, avfärd 11:00, avslut ca 13:30.",
+      "descriptionFull": "Då var det dags igen!\n\nSöndagstur från Motostar i Sjöbo i lugnt tempo så alla ska kunna hänga med. Härliga asfalterade mc-vägar i trevligt sällskap.\n\nSamling Motostar Sjöbo 10:40\nAvfärd 11:00\nAvslut cirka 13:30\n\nDela gärna och berätta för nära och kära så vi blir så många som möjligt!\n\nOBS: Vid dåligt väder ställs körningen in!\n\nVi ses där!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1097730092914012"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/3322417321320442/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Motostar+Såggatan+3+Sjöbo",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mc-for-alla-sondagstur-sjobo-back-2026-07-26.jpg"
+    },
+    {
       "id": "arvika-tvataktsrally-2026-07-26",
       "name": "Tvåtaktsrally för moped och MC",
       "date": "2026-07-26",
