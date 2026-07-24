@@ -8795,6 +8795,38 @@ const EVENTS_DATA = {
       "source": "facebook.com"
     },
     {
+      "id": "kraftprovet-mopedrally-2026-08-08",
+      "name": "Mopedrally Kraftprovet",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Värmland",
+      "location": "Bengen i Änga, Sysslebäck",
+      "organizer": "Rv62 Event Club",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/rv62eventclub",
+      "_vehicle": "moped",
+      "description": "Mopedrally i norra Värmland 2026 med två slingor, 6 eller 9 mil, fritt val. Samling 10, start 11. Startavgift 200 kr varav 50 kr går direkt till Cancerfonden.",
+      "descriptionFull": "Lördag den 8 augusti.\n\nSamling 10.00, start 11.00, vid Bengen i Änga, Sysslebäck.\n\nDet kommer att finnas två slingor att välja på, en som är 6 mil och en på 9 mil. Fritt att välja vem man vill.\n\nPilat från riksväg 62 till starten i Änga.\n\nStartavgift 200 kr, varav 50 kr går direkt till Cancerfonden.\n\nMer info kommer på Rv62 Event Club på Facebook.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10225899358670286&set=gm.2746215975759988&idorvanity=224556431259301"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/rv62eventclub"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sysslebäck",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/kraftprovet-mopedrally-back-2026-08-08.jpg"
+    },
+    {
       "id": "gardslovs-mopedrally-2026-08-08",
       "name": "Gärdslövs Mopedrally",
       "date": "2026-08-08",
