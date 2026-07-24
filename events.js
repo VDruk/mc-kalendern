@@ -14169,6 +14169,38 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "sleazy-riders-arsfest-2026-08-29",
+      "name": "Årsfest hos Sleazy Riders MC",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "20:00",
+      "type": "Fest",
+      "region": "Östergötland",
+      "location": "Gästisgatan 11, Motala",
+      "organizer": "Sleazy Riders MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/sleazyridersmc",
+      "_vehicle": "mc",
+      "description": "Årsfest med livemusik i klubblokalen, kl 20-02. Musikavgift 100 kr, kontanter gäller. OBS: endast SBM och vänner.",
+      "descriptionFull": "Lördag 29 augusti kl 20:00-02:00.\n\nLivemusik!\n100:- musikavgift.\nCash is king.\n\nEndast SBM och vänner.\n\nAdress: Gästisgatan 11, Motala.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/38375994108666314"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/sleazyridersmc"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gästisgatan+11+Motala",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/sleazy-riders-arsfest-back-2026-08-29.jpg"
+    },
+    {
       "id": "alvseredsrallyt-2026-08-29",
       "name": "Älvseredsrallyt",
       "date": "2026-08-29",
