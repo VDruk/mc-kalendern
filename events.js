@@ -7531,6 +7531,42 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "nbos-goteborg-rideout-2026-08-02",
+      "name": "NBoS Rideout Göteborg #1",
+      "date": "2026-08-02",
+      "dateEnd": "2026-08-02",
+      "time": "11:00",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "IKEA, Kållered",
+      "organizer": "NBoS Göteborg",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/4710969808974091/",
+      "_vehicle": "mc",
+      "description": "Sommarens rideout på västkusten med Naked Bikes of Sweden. Samling kl 11 vid IKEA, ca 2 timmar körning med kurvor och gemenskap. Alla hojar välkomna! Frivillig donation till BAPRUN.",
+      "descriptionFull": "Nu är det äntligen dags för sommarens fetaste rideout på västkusten! Vi ser fram emot en fantastisk dag fylld med härliga vägar, skönt sällskap och ren körglädje. Västkusten, NU KÖR VI!\n\nBAPRUN: Det kommer finnas möjlighet att donera till BAPRUN under eventet - helt frivilligt, men till en fin sak och otroligt uppskattat. \"Ingen kan göra allt - men alla kan göra lite\" - baprun.se\n\nSamling: kl 11.00 - OBS!!! NY PLATS: IKEA Kållered.\nNär? Söndag 2 augusti.\nRutten: publiceras dagen innan vi kör.\n\nVi samlas i god tid för att hälsa på varandra, gå igenom dagens upplägg, regler och säkerställa att alla är redo innan vi rullar. Det blir ca 2 timmar effektiv körning fylld av kurvor, puls och gemenskap!\n\nAlla hojar är välkomna! #IdentifyAsNaked\n\nViktig information:\n• KOM FULLTANKAD! Det är det absolut viktigaste.\n• Du ansvarar alltid för din egen körning.\n• Kör aldrig över din egen förmåga.\n• Är du osäker - börja längst bak och flytta fram när du känner dig bekväm.\n• Rutten kommer att finnas tillgänglig så att du alltid kan hitta tillbaka till gruppen.\n• Vid riktningsändringar väntar vi in varandra.\n• Om ingen visar något annat gäller alltid: rakt fram.\n\nOmkörning: gör det säkert och med god marginal, på vänster sida, eller invänta en framvinkning.\n\nHandsignaler:\nHand upp = fara eller mötande trafik.\nFot ut = grus, smuts eller annat hinder på vägen.\n\nVi kör tillsammans, vi håller ihop. Det här är inte bara en körning - det här är NBoS.\n\nVi ses på vägarna!\nNBoS Crew Göteborg",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/954935334167744"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/4710969808974091/"
+        },
+        {
+          "label": "baprun.se",
+          "url": "https://baprun.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=IKEA+Göteborg+Kållered",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nbos-goteborg-rideout-back-2026-08-02.jpg"
+    },
+    {
       "id": "nordic-wilderness-tour-2026",
       "name": "Nordic Wilderness Tour",
       "date": "2026-08-02",
