@@ -12739,6 +12739,35 @@ const EVENTS_DATA = {
       "backImage": "ads/smcboken-default-back.jpg"
     },
     {
+      "id": "kortkalsongrallyt-garphyttan-2026-08-22",
+      "name": "Kortkalsongrallyt",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "time": "10:00",
+      "endTime": "18:00",
+      "type": "Körning",
+      "region": "Örebro",
+      "location": "Garphyttans Folkets Park, Slätåsvägen 2, Garphyttan",
+      "organizer": "Full Moppers MK",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1123906699075955",
+      "_vehicle": "moped",
+      "description": "Mopedrally i Örebro län 2026 genom vackra landskap, ca 7-8 mil med fikastopp. Samling 10, start ca 11, prisutdelning ca 15. Startavgift 200 kr inkl 2 lotter, mat och fika.",
+      "descriptionFull": "Här kommer lite info om Kortkalsongrallyt som i år går av stapeln lördag 22 augusti 2026.\n\nStarten går från Folkets Park Garphyttan och vidare genom vackra landskap. Totalt omfattar rallyt en sträcka på ca 7-8 mil. Vid första stoppet serveras dryck och kakor. Vi passar på att prata lite skit och sen bär det av mot Garphyttan igen där målgången är.\n\nVid mål blir det mat, dryck, kaffe och fika som serveras av mästerkocken Anders.\n\nEfter maten blir det prisutdelning ca 15:00 med fina priser: 1:a, 2:a och 3:e pris delas ut. Alla som deltar i rallyt får 2 st lotter som ingår i startavgiften. Det går även att köpa extra lotter för 40 kr/st. Som deltagare i rallyt stödjer du också hjälporganisationer.\n\nAndra priser som också delas ut (röstas fram av arrangörerna, Full Moppers MK):\n- Coolaste mopeden\n- Finaste originalmopeden\n- Åkt längst till rallyt\n\nHålltider och praktisk information:\nSamling 10.00\nStarten går ca 11.00\nPrisutdelning ca 15.00\nStartavgift: 200 kr inkl 2 st lotter, mat, kaffe, kakor mm.\n\nFel efter vägen? Inga problem! Det fixar servicebilen.\n\nOBS: Bil/MC/moped-swap och utställning blir det inget i år, kanske senare i framtiden.\n\nÖvrig info: kontakta Rally-Joakim, 0707-72 10 75.\nAnmäl er gärna genom att trycka \"kommer\" i inbjudan på FB.\n\nVarmt välkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1123906699075955"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Slätåsvägen+2+Garphyttan",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/kortkalsongrallyt-back-2026-08-22.jpg"
+    },
+    {
       "id": "adventurebike-singeltur-sormland-2026-08-22",
       "name": "Singeltur från Sörmland",
       "date": "2026-08-22",
