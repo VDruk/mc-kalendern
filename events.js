@@ -8673,6 +8673,38 @@ const EVENTS_DATA = {
       "descriptionFull": "Välkomna till fikakvällar för MC och moped vid Hovslätts Hembygdsgård 2026.\n\nTorsdagar kl 18:00-20:00:\n• 9 juli\n• 23 juli\n• 6 augusti\n\nDessutom: lördagen den 12 september blir det Moped och MC Marknad vid hembygdsgården.\n\nVälkomna!"
     },
     {
+      "id": "nord-salten-treffet-2026-08-07",
+      "name": "Nord-Salten Treffet",
+      "date": "2026-08-07",
+      "dateEnd": "2026-08-09",
+      "time": "10:00",
+      "type": "Träff",
+      "region": "Norge",
+      "location": "Ulvsvåg Gjestgiveri og Fjordcamping, Hamarøy",
+      "organizer": "Nord-Salten MC klubb",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=100064439870003",
+      "_vehicle": "mc",
+      "description": "Årets höjdpunkt för Nord-Salten MC klubb: helgträff vid fjordcampingen i Hamarøy med utsikt mot Lofoten. Hotell, camping, kafé och bar på plats.",
+      "descriptionFull": "Årets høydepunkt!\n\nNord-Salten MC klubb bjuder in till Nord-Salten Treffet 2026, fredag 7 augusti till söndag 9 augusti.\n\nPlats: Ulvsvåg Gjestgiveri og Fjordcamping, Hamarøyveien 5690, Hamarøy (Nordland).\n\nEtt koseligt litet hotell med fjordcamping, kafé och bar, mitt i vackra Hamarøy med utsikt mot Lofoten.\n\nNord-Salten MC klubb är en lokal MC-klubb i Nord-Salten med omkring 30 medlemmar.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1518651776566209/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100064439870003"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ulvsvåg+Gjestgiveri+og+Fjordcamping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nord-salten-treffet-back-2026-08-07.jpg"
+    },
+    {
       "id": "british-motor-meet-hjo-2026",
       "name": "British Motor Meet Hjo",
       "date": "2026-08-07",
