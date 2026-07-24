@@ -5714,6 +5714,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "mopperally-rodeby-2026-07-25",
+      "name": "Mopperally i Rödeby",
+      "date": "2026-07-25",
+      "dateEnd": "2026-07-25",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Blekinge",
+      "location": "Preem-macken, Rödeby",
+      "organizer": "Mikael Pettersson",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2020249538561301",
+      "_vehicle": "moped",
+      "description": "Mopedrally i Blekinge 2026 med start från Preem-macken kl 10. Grillning av medhavd korv vid glödbädd, uppsamlingsplatser längs vägen. Förra året ca 180 mopeder!",
+      "descriptionFull": "Vi kör från Preem-macken i Rödeby klockan 10.00.\n\nVi grillar vår medtagna korv, vi ser till att det finns en rejäl glödbädd när vi kommer till grillplatsen. Kaffepausen vet jag inte hur vi gör med, då vi växt ur de flesta lämpliga platser - kanske får vi ta kaffet direkt efter maten.\n\nVi kommer ha lite uppsamlingsplatser där vi väntar in varandra.\n\nAvslutningen blir i bromsbänken för dom som vill. Det kommer vara en liten kostnad för att bromsa sitt fordon då jag sålt bänken.\n\nDom som vill är välkomna att komma till Bergtorp för lite avslut på kvällen.\n\nFörra året var vi ca 180 vassa mopeder och det måste vi slå i år!\n\nVälkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2020249538561301"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Preem+Automat+Rödeby",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mopperally-rodeby-back-2026-07-25.jpg"
+    },
+    {
       "id": "afrikansk-afton-2026",
       "name": "Afrikansk afton",
       "date": "2026-07-25",
