@@ -7104,6 +7104,34 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "bmw-d10-sabines-bad-och-fikatur-2026",
+      "name": "D10 Sabines bad- och fikatur",
+      "date": "2026-07-31",
+      "dateEnd": "2026-07-31",
+      "location": "Fjärås Smedjeväg 23, Fjärås",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Minnestur till Sabine Herrmann: ren asfaltstur på 16 mil i tre etapper med bad- och fikastopp. Start kl 10:00 från pendelparkeringen. Medlemskap krävs, anmälan är stängd.",
+      "link": "https://www.bmwklubben.se/aktiviteter/sabines-bad-och-fikatur/",
+      "region": "Halland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: fredag 31 juli 2026 kl 10:00-15:00.\nSamling: Fjärås pendelparkering, Fjärås Smedjeväg 23, 439 74 Fjärås.\n\nSabine älskade verkligen sina badturer. Den här turen vi kör är hennes egen bad- och fikatur, senast körd den 31 juli 2025.\n\nTuren är en ren asfaltstur på totalt 16 mil, uppdelad i tre etapper.\n\nEtapp 1: Fjärås pendelparkering till Nösslinge (ståfika), ca 50 min körtid.\nEtapp 2: Nösslinge till Öxasjöns badplats (bad- och ståfika), ca 50 min körtid.\nEtapp 3: Öxasjöns badplats till Fjärås pendelparkering, ca 45 min körtid.\n\nSabine älskade rosa. Knyt gärna fast något rosa på din motorcykel till hennes minne.\n\nMedlemskap krävs för att delta. Anmälan är stängd.\n\nKontakt: Richard Säterborn.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/sabines-bad-och-fikatur/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fj%C3%A4r%C3%A5s+Smedjev%C3%A4g+23%2C+Fj%C3%A4r%C3%A5s",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
       "id": "vallentunatraffen-2026-08-01",
       "name": "Vallentunaträffen",
       "date": "2026-08-01",
@@ -7563,6 +7591,90 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "bmw-d7-sormlandsrundan-2026",
+      "name": "D7 Sörmlandsrundan",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "location": "McDonalds, Nykvarn",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Klassiska slingrande MC-vägar genom Sörmland ner mot Kvarsebo, ca 31 mil med lunch- och badpaus vid Bråviken. Start kl 09:00. Medlemskap krävs, fullbokad.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-sormlandsrundan/",
+      "region": "Södermanland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 1 augusti 2026 kl 09:00-17:30 (genomgång 08:45).\nSamling: McDonalds i Nykvarn.\n\nNu är det dags för Sörmlandsrundan 2026. Starten är vid Mcdonalds i Nykvarn kl 09.00. Vi åker på klassiska slingrande MC-vägar i fantastisk sörmländsk natur ner mot Kvarsebo där vi stannar och intar vår medhavda lunch med vacker utsikt över Bråviken.\n\nDom som vill ta sig ett dopp i Bråviken så finns det möjlighet att göra detta i samband med lunchen.\n\nEfter lunchen är vi redo att ta oss an de riktigt fina kurviga vägarna via Tista, Runtuna, Östermalma.\n\nTurens längd: ca 31 mil. Gruppkörningssystem: öppen grupp med aktivt anpassat tempo.\n\nVIKTIGT! Ha full tank innan vi åker från Nykvarn. Tankmöjlighet finns först efter 22 mil vid Stigtomta.\n\nMedlemskap krävs för att delta. Turen är fullbokad (30 platser), anmälan är stängd.\n\nKontakt: Pier Ravetti, Robert Mlakar.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-sormlandsrundan/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=McDonald's+Nykvarn",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d10-far-och-flyg-2026",
+      "name": "D10 Far och flyg",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "location": "Fjärås Industriväg 2, Fjärås",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Kurvig tur med bubbelprovning på Källsjö Bryggeri, gårdsbesök på Björkelunds Gård och sen lunch på glutenfria Stenungsbageriet. Medlemskap krävs, anmälan är stängd.",
+      "link": "https://www.bmwklubben.se/aktiviteter/far-och-flyg/",
+      "region": "Halland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 1 augusti 2026 kl 10:00-16:00. Samling 09:45.\nSamling: Fjärås pendelparkering, Fjärås Industriväg 2, 439 74 Fjärås.\n\nVi träffas på Fjärås pendelparkering kl 09.45 och kör en härlig etapp på ca 1 timme till Källsjö Bryggeri. Här väntas lite bubbelprovning av närproducerat fermenterat bubbel i olika former.\n\nVidare kör vi en ca timme till Jennie på Björkelunds Gård där det blir lite visning av hennes verksamhet och en liten shoppingtur i gårdsbutiken för den som önskar.\n\nVi rullar sedan ca en timme till och stannar denna gången på Glutenfria stenungsbageriet där det finns både pizza och glass så här är tanken att vi käkar lite sen lunch.\n\nSista etappen är också på ca en timme till Källarbacken där turen avslutas.\n\nTuren är begränsad till 30 personer! VID REGN STÄLLER VI IN TUREN!\n\nPris: 40 kr. Medlemskap krävs för att delta. Anmälan är stängd.\n\nKontakt: Anna Elias.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/far-och-flyg/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fj%C3%A4r%C3%A5s+Industriv%C3%A4g+2%2C+Fj%C3%A4r%C3%A5s",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d9-zinkgruvan-knalla-gruva-2026",
+      "name": "D9 Zinkgruvan – Besök på Knalla gruva och Go Glass",
+      "date": "2026-08-01",
+      "dateEnd": "2026-08-01",
+      "location": "Carl Cederströms gata, Linköping",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Tur på ca 22 mil till Zinkgruvan med guidad visning av Knalla gruvmuseum, lunch på Askersunds golfklubb och glasstopp i Hjortkvarn. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/zinkgruvan-besok-pa-knalla-gruva-och-go-glass/",
+      "region": "Östergötland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 1 augusti 2026 kl 10:00.\nSamling: Carl Cederströms gata, Linköping.\n\nFölj med på en tur på trevliga vägar till Zinkgruvan och ett besök på Knalla gruvmuseum med guidad visning och en åktur med järnväg runt muséeområdet.\n\nVisningen kostar 50:-/per person och inkluderar ett rundturståg, en kostnad som klubben står för! Det finns även ett café vid museet om man bara vill ta en fika.\n\nVi åker sedan vidare och äter lunch på Askersunds golfklubb. Därefter tar vi oss tillbaka ner mot Linköping via Hallsberg med ett stopp för glass och kaffe på Go Glass i Hjortkvarn.\n\nTuren är ca 22 mil, men eftersom man är sparsam med asfalt i Örebro län så ingår en kort sträcka, ca 4 km, på jämn och fin grusväg.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se senast 31 juli kl 23:00.\n\nKontakt: turledare Mikael Karlsson.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/zinkgruvan-besok-pa-knalla-gruva-och-go-glass/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Carl+Cederstr%C3%B6ms+gata%2C+Link%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
       "id": "nbos-goteborg-rideout-2026-08-02",
       "name": "NBoS Rideout Göteborg #1",
       "date": "2026-08-02",
@@ -7686,6 +7798,34 @@ const EVENTS_DATA = {
         {
           "label": "Karta",
           "url": "https://www.google.com/maps/search/?api=1&query=H%C3%A4llingsj%C3%B6v%C3%A4gen+2%2C+H%C3%A4llingsj%C3%B6",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d7-klubbknix-pa-gtr-motorpark-2026-08-02",
+      "name": "D7 KlubbKnix på GTR Motorpark",
+      "date": "2026-08-02",
+      "dateEnd": "2026-08-02",
+      "location": "GTR Motorpark, Tommy Janssons väg 17, Eskilstuna",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Egen KNIX-dag för klubben på GTR Motorpark (Gröndal), en bred och rolig bana på 870 m. Klubben sponsrar avgiften och bjuder på korvgrillning. Anmälan via SMC.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-klubbknix-pa-gtr-motorpark/",
+      "region": "Södermanland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: söndag 2 augusti 2026 kl 12:00-17:00.\nPlats: GTR Motorpark, Tommy Janssons väg 17, 635 11 Eskilstuna. Gemensam touring från OKQ8 Stålhamravägen 93, Södertälje, start 09:30.\n\nVi har ordnat en helt egen KNIX-dag på GTR Motorpark (Gröndal), avfart 129 på E20, Eskilstuna. Det är alltså bara BMW MC-klubben där!\n\nKlubben sponsrar avgiften med 300 kr. Klubben bjuder på korvgrillning! (ta med egen dryck).\n\nGTR Motorpark är en riktigt kul bana, bredare än dom flesta KNIX-banor, 870 m lång.\n\nPris: 200 kr (klubben sponsrar 300 kr av avgiften). Man behöver vara SMC-medlem eller ha ett konto på SMC för att kunna anmäla sig. 48 platser. Anmälan via SMC, se aktivitetssidan på bmwklubben.se. Ingen återbetalning vid avbokning.\n\nKontakt: Andreas Wennborg.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-klubbknix-pa-gtr-motorpark/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tommy+Janssons+v%C3%A4g+17%2C+Eskilstuna",
           "type": "map"
         }
       ],
@@ -7981,6 +8121,85 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "bmw-d4-tisdagskorning-till-ulva-kvarn-2026",
+      "name": "D4 Tisdagskörning till Ulva kvarn",
+      "date": "2026-08-04",
+      "dateEnd": "2026-08-04",
+      "location": "Valbovägen 463, Valbo",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Kvällskörning med D4 från Valbo till motorträffen vid Ulva kvarn norr om Uppsala. Start kl 15:00. Mer information på bmwklubben.se.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d4-tidagskorning-till-ulva-kvarn/",
+      "region": "Gävleborg",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: tisdag 4 augusti 2026 kl 15:00-21:00.\nSamling: Valbovägen 463, 818 91 Valbo.\n\nAsfaltskörning med distrikt D4 till Ulva kvarn. Mer information på bmwklubben.se.\n\nKontakt: Lars Lundström.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d4-tidagskorning-till-ulva-kvarn/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Valbov%C3%A4gen+463%2C+Valbo",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-classic-mc-traff-ulva-kvarn-2026",
+      "name": "Classic MC-träff",
+      "date": "2026-08-04",
+      "dateEnd": "2026-08-04",
+      "location": "Ulva kvarn, Uppsala",
+      "type": "Träff",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "BMW-tema på Ulva kvarns tisdagsträff: Automobilhistoriska klubben ordnar motorträff kl 16-20 och BMW MC-klubben Classic träffas från kl 17 på MC-parkeringen.",
+      "link": "https://www.bmwklubben.se/aktiviteter/bmw-mc-klubben-classic-mc-traff-4-aug-2026/",
+      "region": "Uppsala",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: tisdag 4 augusti 2026 från kl 17:00.\nPlats: Ulva kvarn, strax norr om Uppsala.\n\nAutomobilhistoriska klubben i Uppland anordnar trevliga motorträffar vid Ulva kvarn varje tisdag kväll kl 16-20. Varje tisdag har ett tema. Tisdag den 4 aug 2026 är det BMW-tema. BMW Club Schweden (bilklubben) medverkar.\n\nVi hakar på med ett eget evenemang: BMW MC klubben Classic MC-träff. Vi träffas från kl 17 den 4 aug vid MC/moped-parkeringen inne på området vid Ulva kvarn.\n\nKontakt: Håkan Runfeldt.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/bmw-mc-klubben-classic-mc-traff-4-aug-2026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ulva+kvarn%2C+Uppsala",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d7-tisdagskvallstur-norrsidan-2026-08-04",
+      "name": "D7 Tisdagskvällstur Norrsidan",
+      "date": "2026-08-04",
+      "dateEnd": "2026-08-04",
+      "location": "Stockholm, startplats meddelas senare",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Kvällstur på norrsidan i lugnt tempo med fikastopp längs vägen. Samling 17:45, avfärd kl 18:00. Ny som erfaren är välkommen. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-norrsidan-8/",
+      "region": "Stockholm",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: tisdag 4 augusti 2026. Samling 17:45, avfärd 18:00.\nPlats: norrsidan, startplats meddelas senare på bmwklubben.se.\n\nVarannan tisdag samlas vi på norrsidan, redo att rulla ut på vägar som leder genom landskap, kurvor och gemenskap, mot nya små äventyr.\n\nTisdagskörningarna är ett perfekt sätt att lära känna både klubben och gemenskapen. Här möts nya och erfarna förare, och stämningen är alltid välkomnande.\n\nVi kör alltid i ett tempo där alla kan känna sig trygga. Du kör i ditt eget tempo och vi ser till att ingen blir lämnad efter.\n\nLängs vägen gör vi ett stopp vid ett mysigt café eller en trevlig plats där vi kan ta en fika eller en kvällsmacka.\n\nMedlemskap krävs för att delta. Att anmäla sig till körningarna är helt frivilligt.\n\nKontakt: Anders Berglund, Hans Ring.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-norrsidan-8/"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
     },
     {
       "id": "doa-gemensam-resa-ostersund-2026-08-05",
@@ -8335,6 +8554,34 @@ const EVENTS_DATA = {
       "source": "facebook.com",
       "_vehicle": "both",
       "backImage": "ads/mc-kortegen-katrineholm-back-2026-08-05.jpg"
+    },
+    {
+      "id": "bmw-d11-kvallstur-smaland-2026",
+      "name": "D11 Kvällstur Småland",
+      "date": "2026-08-05",
+      "dateEnd": "2026-08-05",
+      "location": "Qstar, Konga (väg 120)",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Sommarkvällstur med Rune och Lars på underbara sommarvägar i deras hemtrakter. Start kl 17:00, åter i Konga före kl 19. Medtag egen fika. Medlemskap krävs.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d11-sommarkvallstur-2026/",
+      "region": "Kronoberg",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: onsdag 5 augusti 2026 kl 17:00. Vi beräknar att vara tillbaka till Konga innan kl 19.\nSamling: Qstar, Konga, väg 120.\n\nRune och Lars kör en sommartur i sina hemtrakter på som vanligt underbara sommarvägar.\n\nMedtag egen fika.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se senast 5 augusti.\n\nKontakt: Rune Nilsson.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d11-sommarkvallstur-2026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Qstar+Konga",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
     },
     {
       "id": "bjarnums-museum-bil-mc-traff-2026-08-06",
@@ -9527,6 +9774,85 @@ const EVENTS_DATA = {
       "backImage": "ads/malardalsrallyt-back-2026-08-08.jpg"
     },
     {
+      "id": "bmw-d7-munktell-museet-2026",
+      "name": "D7 Munktell Museet",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "location": "Eskilstuna",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Tur till Munktell Museet i Eskilstuna, flyttad från juni till nytt datum. Detaljerna är inte klara än, mer information kommer på bmwklubben.se.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-munktell-museet/",
+      "region": "Södermanland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 8 augusti 2026 kl 09:00-17:00.\nPlats: Munktell Museet, Eskilstuna.\n\nNytt datum. Inte klar ännu, riktig info kommer. Gick inte att lösa i juni. Flyttat till augusti men datumet är inte 100%.\n\nMer information kommer på bmwklubben.se.\n\nKontakt: Andreas Wennborg.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-munktell-museet/"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d10-bringebartur-2026",
+      "name": "D10 Bringebärtur",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "location": "Alevägen 2, Nol",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Tur på 29 mil genom Dalsland med lunchstopp på Evenstorps Gård: våfflor och glass med hemlagad hallonsylt och gårdsbutik. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d10-hallonturen/",
+      "region": "Västra Götaland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 8 augusti 2026 kl 09:30-16:30.\nSamling: Alevägen 2, 449 44 Nol.\n\nHäng med på en tur genom Dalsland och ett lunchstopp på Evenstorps Gård. Här kan vi frossa i våfflor och glass med hemlagad hallonsylt samt besöka deras gårdsförsäljning med hemgjorda bärprodukter.\n\nFör de mer hungriga finns även mackor, sallad, burgare m.m. Det går också fint att äta medhavd lunch men då utanför restaurangytorna.\n\nRundan är 29 mil uppdelad på 5 delsträckor och körs på asfalt med korta undantag till och från lunchstället.\n\nTa med lite egen fika och dricka för mindre stopp på vägen.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se senast 8 augusti kl 09:30.\n\nKontakt: Magnus Windt.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d10-hallonturen/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Alev%C3%A4gen+2%2C+Nol",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d7-sormlands-hjarta-2026",
+      "name": "D7 Sörmlands Hjärta",
+      "date": "2026-08-08",
+      "dateEnd": "2026-08-08",
+      "location": "McDonalds, Nykvarn",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "En av D7:s favoritturer: slingrande vägar mitt i Sörmlands hjärta via Östermalma, Runtuna och Båven, med lunch i Vrena. Start kl 09:30. Medlemskap krävs, fullbokad.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-sormlands-hjarta/",
+      "region": "Södermanland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 8 augusti 2026 kl 09:30 (genomgång 09:20), åter ca 16:30-17:00. Reservdag 9 augusti.\nSamling: McDonalds parkering vid OKQ8 Nykvarn, E20 trafikplats Nykvarn avfart 140.\n\nNu är det dags för en av våra absolut favoritturer i Sörmland, Sörmlands Hjärta. Om du gillar slingriga vägar så garanterar vi att du inte kommer bli missnöjd, vi kanske till och med kan lova att du kommer längta efter raksträckor efter denna tur.\n\nVi åker på slingrande MC-vägar i fantastisk sörmländsk natur med många sjöar, småbroar och gårdar mitt i Sörmlands hjärta.\n\nPå vår färd kommer vi köra på klassiska MC-vägar som Östermalma, Runtuna, Årdala, Granhed, Båven, Sköldinge, Ärla och Dunkern. Vi kommer stanna upp för en morgonfika vid Östermalma och eftermiddagsfika vid Harpsund. Lunch kommer vi inta vid Maximums Pizzeria i Vrena.\n\nMedlemskap krävs för att delta. Max 25 deltagare, endast för klubbmedlemmar. Fullbokat, anmälan är stängd.\n\nKontakt: Pier Ravetti, Robert Mlakar.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-sormlands-hjarta/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=McDonald's+Nykvarn",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
       "id": "bmw-d11-norra-smaland-runt-2026",
       "name": "D11 Norra Småland Runt",
       "date": "2026-08-09",
@@ -9723,6 +10049,57 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "bmw-d7-innan-staden-vaknar-2026",
+      "name": "D7 Innan staden vaknar",
+      "date": "2026-08-09",
+      "dateEnd": "2026-08-09",
+      "location": "Stockholm innerstad",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Klassikern körs för 21:a gången: tidig söndagsmorgontur genom Stockholm i lugnt tempo enligt Dansk modell. Samling kl 04:45, avfärd ca 05:00. Ingen anmälan krävs.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-innan-staden-vaknar/",
+      "region": "Stockholm",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: söndag 9 augusti 2026. Samling kl 04:45, tvåans växel lägger vi i kring kl 05:00.\nPlats: startplatsen är inte bestämd än, men någonstans i Stockholms innerstad (meddelas onsdag 5 aug efter sista rekningen).\n\nVälkomna till turen Innan Staden Vaknar som körs för 21:a gången söndag den 9 augusti 2026.\n\nDen effektiva körtiden beräknas till ca tre timmar. Tre raster om vardera 15 minuter. Total tid ca fyra timmar.\n\nTäten kommer inte att överskrida 40 kilometer per timme.\n\nVi kör enligt DANSK MODELL/CORNERMAN-principen.\n\nDenna aktivitet kräver ingen anmälan.\n\nKontakt: Magne Hansen.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-innan-staden-vaknar/"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d12-grustur-med-hans-2026",
+      "name": "D12 Grustur med Hans",
+      "date": "2026-08-09",
+      "dateEnd": "2026-08-09",
+      "location": "Färjeleden 30, Visby",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Hans Håkansson tar med gruppen på en grustur på mellersta Gotland. Start kl 09:00 från Visby, max 10 platser. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d12-grustur-med-hans-2/",
+      "region": "Gotland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: söndag 9 augusti 2026 kl 09:00-16:00.\nSamling: Färjeleden 30, 621 58 Visby.\n\nHans Håkansson tar oss på en grustur på mellersta Gotland.\n\nMer info kommer närmare.\n\nMedlemskap krävs för att delta. Totalt 10 platser. Anmälan via bmwklubben.se.\n\nKontakt: Hans Håkansson.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d12-grustur-med-hans-2/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=F%C3%A4rjeleden+30%2C+Visby",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
     },
     {
       "id": "mo-bygdegard-classic-motor-monday-2026-08-10",
@@ -11871,6 +12248,29 @@ const EVENTS_DATA = {
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
     },
     {
+      "id": "bmw-d7-tisdagskvallstur-norrsidan-2026-08-18",
+      "name": "D7 Tisdagskvällstur Norrsidan",
+      "date": "2026-08-18",
+      "dateEnd": "2026-08-18",
+      "location": "Stockholm, startplats meddelas senare",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Kvällstur på norrsidan i lugnt tempo med fikastopp längs vägen. Samling 17:45, avfärd kl 18:00. Ny som erfaren är välkommen. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-norrsidan-9/",
+      "region": "Stockholm",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: tisdag 18 augusti 2026. Samling 17:45, avfärd 18:00.\nPlats: norrsidan, startplats meddelas senare på bmwklubben.se.\n\nVarannan tisdag samlas vi på norrsidan, redo att rulla ut på vägar som leder genom landskap, kurvor och gemenskap, mot nya små äventyr.\n\nTisdagskörningarna är ett perfekt sätt att lära känna både klubben och gemenskapen. Här möts nya och erfarna förare, och stämningen är alltid välkomnande.\n\nVi kör alltid i ett tempo där alla kan känna sig trygga. Du kör i ditt eget tempo och vi ser till att ingen blir lämnad efter.\n\nLängs vägen gör vi ett stopp vid ett mysigt café eller en trevlig plats där vi kan ta en fika eller en kvällsmacka.\n\nMedlemskap krävs för att delta. Att anmäla sig till körningarna är helt frivilligt.\n\nKontakt: BMW MC-klubben D7.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-norrsidan-9/"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
       "id": "condios-barnens-oas-rydaholm-2026",
       "name": "En kväll med Barnens Oas",
       "backImage": "ads/barnens-oas-back-2026-08-19.jpg",
@@ -12160,6 +12560,34 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "bmw-d11-kvallstur-final-bbq-2026",
+      "name": "D11 Kvällstur Final & BBQ",
+      "date": "2026-08-19",
+      "dateEnd": "2026-08-19",
+      "location": "Öland",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Säsongsavslutning för D11:s kvällsturer: Ölandstur med avslutande grillning på hemlig plats tillsammans med Alternativ 1MC. Start kl 16:00. Medlemskap krävs.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d11-kvallstur-final-2026-bbq/",
+      "region": "Kalmar",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: onsdag 19 augusti 2026 kl 16:00.\nSamling: Öland, se koordinater i Karta-länken (56.66563715525205, 16.330908435076005).\n\nDenna kväll är det säsongsavslutning på kvällstursaktiviteterna i D11. Vi tar en tur på Öland och med en avslutande grillning på hemlig plats på Öland tillsammans med Annika och Tom, Alternativ 1MC. Missa inte detta. Brukar bli en minnesvärd kväll.\n\nVi siktar på att fixa korvgrillning med korv från Rosas korv från Löttorp.\n\nVarmt välkommen Niclas, Marie, Håkan, D11 & Annica och Tom, Alternativ 1MC.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se senast 19 augusti.\n\nKontakt: Niclas Elneus, Marie Johansson, Håkan Bygdén.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d11-kvallstur-final-2026-bbq/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=56.66563715525205,16.330908435076005",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
     },
     {
       "id": "bjarnums-museum-bil-mc-traff-2026-08-20",
@@ -12472,6 +12900,34 @@ const EVENTS_DATA = {
       "backImage": "ads/nifsta-motortraff-back-2026.jpg"
     },
     {
+      "id": "bmw-d10-historiska-turen-2026",
+      "name": "D10 Historiska Turen",
+      "date": "2026-08-20",
+      "dateEnd": "2026-08-20",
+      "location": "Fjärås Smedjeväg, Fjärås",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Heldagsutflykt på ca 20 mil till Ästad Folkskola i Hallands inland, bevarad i ursprungsskick, med guidad tur och klassisk lektion. Medlemskap krävs, fullbokad.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d10-historiska-turen-2026/",
+      "region": "Halland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: torsdag 20 augusti 2026 kl 09:15-17:00.\nSamling: Fjärås ST1 bensinstation, Fjärås Smedjeväg, senast kl 09:15 för gruppindelning. Avfärd 09:28.\n\nHistoriska turen går i år till Ästad Folkskola i Hallands inland. Folkskolan är bevarad i ursprungsskick och vi kommer få en guidad tur samt en klassisk lektion.\n\nFika medtages för ett fikastopp på utfärden. BMW Klubben står för kostnaden för studiebesöket.\n\nEfter guidad tur och historisk lektion köper vi fika på plats. Sedan så kör vi vidare för köpelunch i närområdet innan vi kör tillbaka mot Fjärås.\n\nTuren är en heldagsutflykt på totalt ca 20 mil.\n\nMedlemskap krävs för att delta. Fullbokat (15 platser), anmälan är stängd.\n\nKontakt: Carl-Gustaf Johansson, Rolf Törnberg.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d10-historiska-turen-2026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Fj%C3%A4r%C3%A5s+Smedjev%C3%A4g%2C+Fj%C3%A4r%C3%A5s",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
       "id": "skog-lithuania-2026-08-21",
       "name": "SKOG Lithuania",
       "date": "2026-08-21",
@@ -12656,6 +13112,62 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
+      "id": "bmw-classic-sommartraff-2026",
+      "name": "Classic sommarträff",
+      "date": "2026-08-21",
+      "dateEnd": "2026-08-23",
+      "location": "Duse Udde, Säffle",
+      "type": "Träff",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Classic-sektionens sommarträff vid Duse Udde: boende i stuga eller tält, gemensam grill, MC-runda till Eds MC- och motormuseum och middag på Fyren. Träffavgift 100 kr.",
+      "link": "https://www.bmwklubben.se/aktiviteter/classic-sommartraff-21-23-augusti-2026/",
+      "region": "Värmland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: fredag 21 augusti kl 16:00 till söndag 23 augusti 2026 kl 12:00.\nPlats: Duse Udde, Dusevägen 2, 661 94 Säffle.\n\n2026 besöker vi Säffle och Duse Udde för vår sommarträff. Alla är välkomna, på vilken MC du vill, oberoende av fabrikat och årsmodell.\n\nAnmälan sker till klubbens hemsida för medlemmar där träffavgift 100 SEK betalas. Internationella besökare skickar ett mail till classic@bmwklubben.se och betalar träffavgift 100 SEK kontant på plats.\n\nDuse Udde erbjuder boende i stuga eller eget tält.\n\nFredag: gemensam grill när vi anlänt.\nLördag: frukost (ordnar var och en själva). Sedan kör vi en runda med våra MC. Gemensam lunch på nåt trevligt ställe, Eds MC och motormuseum. På kvällen gemensam middag på Fyren Restaurang, tvårättersmiddag med varmrätt och efterrätt, kostnad 395 SEK/person.\nSöndag: frukost (ordnar var och en själva), sedan hemresa.\n\nMedlemskap krävs för att delta. Träffavgift 100 kr. Anmälan via bmwklubben.se.\n\nKontakt: Håkan Runfeldt.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/classic-sommartraff-21-23-augusti-2026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Duse+Udde+Camping%2C+S%C3%A4ffle",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-kg-sleepovertour-2026",
+      "name": "KG SleepOverTour",
+      "date": "2026-08-21",
+      "dateEnd": "2026-08-23",
+      "location": "Karl Gustav, Halland",
+      "type": "Träff",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "MC-helg med boende på vandrarhemmet KG SleepOver: två turer på lördagen (asfalt och grus), grillkvällar och gemenskap. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/kg-sleepovertour/",
+      "region": "Halland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: fredag 21 augusti kl 18:00 till söndag 23 augusti 2026 kl 12:00.\nPlats: vandrarhemmet KG SleepOver, Karl Gustav, Halland.\n\nNu är det dags att hänga med på en härlig helg med roliga likasinnade, härligt boende och fantastisk mc-körning!\n\nVi kommer att bo på vandrarhemmet KG SLEEPOVER i Karl-Gustav, som ligger i Halland, som har lite olika lösningar på boende.\n\nLördag erbjuds två olika turer: en på asfalt och en på grus.\n\nVäl tillbaka så kommer grillar tändas, glasen fyllas med kalla goda drycker och skratten eka långt in på småtimmarna.\n\nKaffe för turerna och grillkol ingår för alla!\n\nPris: delat 2-bäddsrum 1100 kr/person (2 nätter inkl frukost), ställplats inkl el 200 kr/natt, tält inkl el 100 kr/natt, frukost 80 kr/dag för övriga boenden.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se senast 6 augusti.\n\nKontakt: kg@sleepover.se (bokning), info@bmwklubben.se (övriga frågor).",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/kg-sleepovertour/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Karl+Gustav%2C+Halland",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
     },
     {
       "id": "kortkalsongrallyt-garphyttan-2026-08-22",
@@ -13090,6 +13602,174 @@ const EVENTS_DATA = {
       "backImage": "ads/tidavads-kraftskiva-back-2026-08-22.jpg"
     },
     {
+      "id": "bmw-d8-halden-2026",
+      "name": "D8 Halden",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "location": "Karl Gustav, Halland",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Den årliga turen till Halden i Norge med start kl 09:00 från Karl Gustav. Mer information kommer på bmwklubben.se. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d8-halden/",
+      "region": "Halland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 22 augusti 2026 kl 09:00.\nSamling: Karl Gustav, Halland.\n\nDags för den årliga turen till Halden. Mer info kommer.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se.\n\nKontakt: Bengt Hallberg.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d8-halden/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Karl+Gustav%2C+Halland",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d9-asfalt-svangar-mot-sodermanland-2026",
+      "name": "D9 Asfalt & Svängar mot Södermanland",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "location": "Circle K, Rydsvägen, Linköping",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Asfaltstur norrut på ca 30 mil på krokiga, roliga vägar med lunch på Stora Djulö Herrgård. Start kl 08:30. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d9-asfalt-svangar-mot-sodermanland/",
+      "region": "Östergötland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 22 augusti 2026 kl 08:30.\nSamling: Circle K, Rydsvägen, Linköping.\n\nHäng med på en skön asfaltstur norrut med rolig körning i gott sällskap! Vi letar upp de där krokiga, roliga vägarna som skapar ett leende i hjälmen! Turen är ca 30 mil.\n\nLunch äter vi i trevlig miljö på Stora Djulö Herrgård. Stopp för fika, tjöt och bensträckare däremellan.\n\nHåll koll på aktivitetssidan och i D9:s Facebookgrupp för eventuella uppdateringar.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se.\n\nKontakt: turledare Andreas Edstrand, Erik Wänström.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d9-asfalt-svangar-mot-sodermanland/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K+Rydsv%C3%A4gen+Link%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d15-claessonrallyt-2026",
+      "name": "D15 Claessonrallyt",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "location": "Friluftsvägen 11, Höör",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Rally på valfria vägar mellan kontroller med klurigheter och frågor. Start i Höör 09:00-10:00, målgång hos Claessons i Bromölla med grill och prisutdelning. Medlemskap krävs.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d15-claessonrallyt/",
+      "region": "Skåne",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 22 augusti 2026 kl 09:00-17:00.\nStart: Höörs Idrottsplats, Friluftsvägen 11, 243 30 Höör.\n\nVar med på årets Claessonrally som körs på valfria vägar mellan olika kontroller, där klurigheter ska lösas och frågor besvaras.\n\nVi startar på Höörs Idrottsplats mellan 09.00-10.00 och målgång sker senast 14.00 på Claessons i Bromölla. Claessons startar grillen och grillar korv till oss 14.30 då det även blir prisutdelning.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se senast 22 augusti.\n\nKontakt: Ola Johansson.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d15-claessonrallyt/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Friluftsv%C3%A4gen+11%2C+H%C3%B6%C3%B6r",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d7-brannerituren-i-roslagen-2026",
+      "name": "D7 Brännerituren i Roslagen",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "location": "Släntvägen 2, Upplands Väsby",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Heldag genom Roslagen med stopp vid hembygdsgården Erikskulle, lunch i Svanberga och guidad visning på Norrtälje Bränneri. Pris 50 kr. Medlemskap krävs.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-brannerituren-i-roslagen/",
+      "region": "Stockholm",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 22 augusti 2026 kl 09:45-15:30.\nSamling: Släntvägen 2, 194 61 Upplands Väsby.\n\nVi rullar från Upplands Väsby kl 10.00 för en heldag fylld av vackra vägar, kulturhistoria och god mat. Vi åker norrut genom Roslagen med fikarast.\n\nDagens första stopp blir Erikskulle, en av Roslagens mest charmiga hembygdsgårdar. Andra stoppet är Svanberga, där en god lunch väntar.\n\nDagen avslutas med en guidad visning på Norrtälje Bränneri och en alkoholfri, frisk och smakrik mocktail.\n\nKlubben står för den guidade visningen på Norrtälje Bränneri, övriga kostnader betalar du själv.\n\nPris: 50 kr. Medlemskap krävs för att delta. Anmälan via bmwklubben.se senast 10 augusti.\n\nKontakt: Anders Galvenius.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-brannerituren-i-roslagen/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sl%C3%A4ntv%C3%A4gen+2%2C+Upplands+V%C3%A4sby",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d10-curvy-ride-2026",
+      "name": "D10 Curvy Ride",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "location": "Shell, Varbergsvägen 751, Fjärås",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Kurvig tur i tre delar på totalt ca 22 mil: paus vid Öresjön, mat på Sonjas Veranda och avslutning på Åsa Glasscafé. Start kl 10:00. Medlemskap krävs.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d10-kumars-tur/",
+      "region": "Halland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 22 augusti 2026 kl 09:45-16:00.\nSamling: Fjärås Shell, Varbergsvägen 751, 439 74 Fjärås, kl 09:45. Avfärd 10:00.\n\nFörsta delen går längs härliga kurvvägar i cirka 5 mil till Öresjön där vi tar en paus. Medhavd fika uppmuntras.\n\nDärefter kör vi cirka 9 mil till Sonjas Veranda där man kan beställa mat och planen är att äta på plats.\n\nSist kör vi de sista 7 milen till Åsa Glasscafé där turen avslutas.\n\nTotal körsträcka: ca 22 mil.\n\nOm vädret inte vill samarbeta och prognosen ser alltför dålig ut kommer turen tyvärr att ställas in.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se senast 21 augusti.\n\nKontakt: Kumar Vasan.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d10-kumars-tur/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Varbergsv%C3%A4gen+751%2C+Fj%C3%A4r%C3%A5s",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d11-mollers-tur-2026",
+      "name": "D11 Möllers tur",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "location": "Norremarksvägen, Växjö",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Tur på slingrande vägar runt Växjö med turledare Håkan Möller. Start kl 10:00, max 15 platser. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/mollers-tur/",
+      "region": "Kronoberg",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 22 augusti 2026 kl 10:00-16:00.\nSamling: Norremarksvägen, 352 45 Växjö.\n\nStartplats Växjö där vi tar oss fram på slingrande vägar runt Växjö. Mer info kommer.\n\nTurledare är Håkan Möller.\n\nMedlemskap krävs för att delta. Totalt 15 platser. Anmälan via bmwklubben.se senast 22 augusti.\n\nKontakt: Håkan Möller.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/mollers-tur/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Norremarksv%C3%A4gen%2C+V%C3%A4xj%C3%B6",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
       "id": "silverforza-silverforsen-runt-2026-08-23",
       "name": "Silverforsen Runt",
       "date": "2026-08-23",
@@ -13202,6 +13882,34 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "bmw-d14-graddhyllan-2026",
+      "name": "D14-Gräddhyllan",
+      "date": "2026-08-23",
+      "dateEnd": "2026-08-23",
+      "location": "Gräddhyllans Lantcafé, Markaryd",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Tur med D14 till Gräddhyllans Lantcafé med start kl 10:00. Mer information kommer på bmwklubben.se.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d14-graddhyllan/",
+      "region": "Kronoberg",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: söndag 23 augusti 2026 kl 10:00.\n\nTur med distrikt D14 till Gräddhyllan. Mer information kommer på bmwklubben.se.\n\nKontakt: Mårten Lind, Lars-Olof Nilsson.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d14-graddhyllan/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gr%C3%A4ddhyllans+Lantcaf%C3%A9%2C+Markaryd",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
     },
     {
       "id": "gota-ms-crosskola-2026-08-24",
@@ -13401,6 +14109,29 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
+    },
+    {
+      "id": "bmw-d7-tisdagskvallstur-sodersidan-2026-08-25",
+      "name": "D7 Tisdagskvällstur Södersidan",
+      "date": "2026-08-25",
+      "dateEnd": "2026-08-25",
+      "location": "Stockholm, startplats meddelas senare",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Kvällstur på södersidan i lugnt tempo med fikastopp längs vägen. Samling 17:45, avfärd kl 18:00. Ny som erfaren är välkommen. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-sodersidan-9/",
+      "region": "Stockholm",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: tisdag 25 augusti 2026. Samling 17:45, avfärd 18:00.\nPlats: södersidan, startplats meddelas senare på bmwklubben.se.\n\nVarannan tisdag samlas vi på södersidan, redo att rulla ut på vägar som leder genom landskap, kurvor och gemenskap, mot nya små äventyr.\n\nTisdagskörningarna är ett perfekt sätt att lära känna både klubben och gemenskapen.\n\nVi kör alltid i ett tempo där alla kan känna sig trygga. Du kör i ditt eget tempo och vi ser till att ingen blir lämnad efter.\n\nLängs vägen gör vi ett stopp vid ett mysigt café eller en trevlig plats där vi kan ta en fika eller en kvällsmacka.\n\nMedlemskap krävs för att delta. Att anmäla sig till körningarna är helt frivilligt, men vi uppskattar om du som medlem gör det.\n\nKontakt: BMW MC-klubben D7.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-sodersidan-9/"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
     },
     {
       "id": "mchk-närke-brandstationen-2026-08-26",
@@ -14149,6 +14880,90 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "bmw-d7-helgtur-med-d9-och-d5-2026",
+      "name": "D7 Helgtur med D9 och D5",
+      "date": "2026-08-28",
+      "dateEnd": "2026-08-30",
+      "location": "McDonalds Stäket, Skarprättarvägen 40, Järfälla",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "MC-helg genom tre klubbdistrikt: fredagstur till Linköping, lördagstur på D9:s bästa vägar och hemresa på söndagen. Medlemskap krävs för att delta.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-helgtur-med-kompisarna-i-d9/",
+      "region": "Stockholm",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: fredag 28 augusti kl 09:00 till söndag 30 augusti 2026 ca kl 16:00.\nSamling: McDonalds Stäket, Skarprättarvägen 40, 176 77 Järfälla.\n\nMC-helg genom tre klubbdistrikt!\n\nFredag: avfärd! Vi samlas vid McDonalds Stäket med avfärd kl 09.00. Efter Gurkstaden svänger vi av söderut och fortsätter resan mot Linköping och D9 (Östergötland/Norra Småland).\n\nPå lördagsförmiddagen möter vi upp klubbkompisarna från D9 som tar med oss på en heldagstur genom deras bästa vägar.\n\nPå söndagsförmiddagen styr vi åter norrut efter frukost. Vi beräknas att vara tillbaka i Stockholm runt 16-tiden.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se senast 27 augusti (totalt 15 platser).\n\nKontakt: Joakim Borg, Niclas Bohlin.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-helgtur-med-kompisarna-i-d9/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Skarpr%C3%A4ttarv%C3%A4gen+40%2C+J%C3%A4rf%C3%A4lla",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d9-far-besok-av-d7-d5-2026",
+      "name": "D9 får besök av D7/D5!",
+      "date": "2026-08-28",
+      "dateEnd": "2026-08-30",
+      "location": "Låskolvsgatan 2, Linköping",
+      "type": "Träff",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "D9 bjuder på helg med besökarna från D7/D5: middag på fredagen och gemensam tur på ca 26-27 mil på lördagen med start från Beviks. Medlemskap krävs.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d7-d5-besoker-d9/",
+      "region": "Östergötland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: helgen 28-30 augusti 2026.\nSamling lördag: Beviks, Låskolvsgatan 2, 589 41 Linköping, kl 09:00.\n\nVi har ju under ett par år fått besök av D7 över en helg, där vi bjudit på lite fina vägar i vårt distrikt och haft trevlig samvaro.\n\nPå fredagen erbjuds enkel middag. På lördagen 29/8 genomförs en gemensam tur på ca 26-27 mil, med start från Beviks kl 09:00. Medtag fika för flera stopp, lunch serveras på restaurang. Turen avslutas vid 16:30 med gemensam middag.\n\nMedlemskap krävs för att delta. Anmälan via bmwklubben.se (öppnar 1 augusti, stänger 27 augusti kl 18:00).\n\nKontakt: Simon Gustafsson, Per-Olov Gunnar.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d7-d5-besoker-d9/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=L%C3%A5skolvsgatan+2%2C+Link%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
+      "id": "bmw-d11-kor-tet-2026",
+      "name": "D11 kör TET",
+      "date": "2026-08-28",
+      "dateEnd": "2026-08-30",
+      "location": "Lagmanshagasjöns badplats, Lindås 64, Ljungsarp",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Några dagars gruskörning längs TET-spåret med camping vid Lagmanshagasjön och lunch i Hjo. Grusvana är ett måste, grusdäck att föredra. Medlemskap krävs.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d11-kor-tet-2026/",
+      "region": "Västra Götaland",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: fredag 28 augusti kl 19:00 till söndag 30 augusti 2026 ca kl 16:00.\nSamling: Lagmanshagasjöns badplats, Lindås 64, Ljungsarp, från kl 19:00 på fredagen.\n\nVälkommen på några dagars gruskörning längs TET-spår, med D11!\n\nVi samlas från kl 19 på fredagen vid badplatsen med grill, toalett och möjlighet att campa. Ta med mat för två kvällar och två frukostar.\n\nLördag avfärd ca kl 08:00 norrut längs TET-spåret med lunch i Hjo. Söndag finns möjlighet att köra tillbaka samma väg eller ta snabbare asfaltsvägar hem.\n\nGrusvana är ett måste och grusdäck är att föredra, då underlaget varierar mycket.\n\nMedlemskap krävs för att delta. Totalt 12 platser. Anmälan via bmwklubben.se.\n\nKontakt: Stefan Hylander, Henrik Axelsson.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d11-kor-tet-2026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lind%C3%A5s+64%2C+Ljungsarp",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
+    },
+    {
       "id": "sleazy-riders-arsfest-2026-08-29",
       "name": "Årsfest hos Sleazy Riders MC",
       "date": "2026-08-29",
@@ -14713,6 +15528,34 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
+      "id": "bmw-d15-lars-lerin-pa-kabusa-2026",
+      "name": "D15 Lars Lerin på Kabusa",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "location": "Planteringsgatan 52, Sjöbo",
+      "type": "Körning",
+      "organizer": "BMW MC-klubben",
+      "organizerIcon": "clubs/BMW_motorrad_v2.png",
+      "_vehicle": "mc",
+      "description": "Tur på Österlens kurviga vägar till Lars Lerins nya konsthall i Kabusa med guidad visning, elvakaffe och gofika på Backagården. Pris 100 kr. Medlemskap krävs.",
+      "link": "https://www.bmwklubben.se/aktiviteter/d15-lars-lerin-pa-kabusa/",
+      "region": "Skåne",
+      "source": "bmwklubben.se",
+      "descriptionFull": "Tid: lördag 29 augusti 2026 kl 10:00.\nSamling: fd Bilmånsson i Sjöbo, Planteringsgatan 52, 275 33 Sjöbo.\n\nTill påsk öppnade Lars Lerin sin tredje konsthall i Kabusa utanför Ystad. Nu har ni chansen till ett besök där för att beskåda Lerins fantastiska akvarellmålningar.\n\nVi har bokat en guidning som BMW-klubben står för, men tyvärr har varken Lars eller Junior Lerin möjlighet att guida.\n\nFrån Sjöbo kör vi en runda på Österlens fina kurviga asfaltsvägar mot Kabusa. Stannar på ett trevligt ställe och tar vårt elvakaffe.\n\nNär vi har sett oss mätta på konsten kör vi vidare till Backagården för en gofika innan vi kör hem.\n\nPris: 100 kr. Medlemskap krävs för att delta. Anmälan via bmwklubben.se senast 15 augusti (totalt 20 platser).\n\nKontakt: Per-Anders Olsson.",
+      "links": [
+        {
+          "label": "bmwklubben.se",
+          "url": "https://www.bmwklubben.se/aktiviteter/d15-lars-lerin-pa-kabusa/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Planteringsgatan+52%2C+Sj%C3%B6bo",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bmw-default-back.jpg"
     },
     {
       "id": "full-fart-moppers-lasse-cedergren-minnesrunda-2026-08-30",
