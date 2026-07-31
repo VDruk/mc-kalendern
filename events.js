@@ -7129,7 +7129,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-sabines-bad-och-fikatur-back-2026-07-31.jpg"
     },
     {
       "id": "vallentunatraffen-2026-08-01",
@@ -7616,7 +7616,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-sormlandsrundan-back-2026-08-01.jpg"
     },
     {
       "id": "bmw-d10-far-och-flyg-2026",
@@ -7644,7 +7644,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d10-far-och-flyg-back-2026-08-01.jpg"
     },
     {
       "id": "bmw-d9-zinkgruvan-knalla-gruva-2026",
@@ -7672,7 +7672,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d9-zinkgruvan-back-2026-08-01.jpg"
     },
     {
       "id": "nbos-goteborg-rideout-2026-08-02",
@@ -7801,7 +7801,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-vilken-jakla-tur-back-2026-08-02.jpg"
     },
     {
       "id": "bmw-d7-klubbknix-pa-gtr-motorpark-2026-08-02",
@@ -7829,7 +7829,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-klubbknix-gtr-back-2026-08-02.jpg"
     },
     {
       "id": "rapido-bankorning-kinnekulle-2026-08-03",
@@ -8176,7 +8176,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-classic-mc-traff-back-2026-08-04.jpg"
     },
     {
       "id": "bmw-d7-tisdagskvallstur-norrsidan-2026-08-04",
@@ -8199,7 +8199,7 @@ const EVENTS_DATA = {
           "url": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-norrsidan-8/"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-tisdagskvallstur-back-2026.jpg"
     },
     {
       "id": "doa-gemensam-resa-ostersund-2026-08-05",
@@ -8581,7 +8581,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d11-kvallstur-smaland-back-2026-08-05.jpg"
     },
     {
       "id": "bjarnums-museum-bil-mc-traff-2026-08-06",
@@ -8636,7 +8636,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d15-kvallstur-bromolla-back-2026-08-06.jpg"
     },
     {
       "id": "doa-dagstur-ekero-2026-08-06",
@@ -9303,7 +9303,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d8-glasstur-back-2026-08-08.jpg"
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-08-08",
@@ -9794,7 +9794,7 @@ const EVENTS_DATA = {
           "url": "https://www.bmwklubben.se/aktiviteter/d7-munktell-museet/"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-munktell-museet-back-2026-08-08.jpg"
     },
     {
       "id": "bmw-d10-bringebartur-2026",
@@ -9822,7 +9822,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d10-bringebartur-back-2026-08-08.jpg"
     },
     {
       "id": "bmw-d7-sormlands-hjarta-2026",
@@ -9850,7 +9850,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-sormlands-hjarta-back-2026-08-08.jpg"
     },
     {
       "id": "bmw-d11-norra-smaland-runt-2026",
@@ -10071,7 +10071,7 @@ const EVENTS_DATA = {
           "url": "https://www.bmwklubben.se/aktiviteter/d7-innan-staden-vaknar/"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-innan-staden-vaknar-back-2026-08-09.jpg"
     },
     {
       "id": "bmw-d12-grustur-med-hans-2026",
@@ -10099,7 +10099,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d12-grustur-med-hans-back-2026-08-09.jpg"
     },
     {
       "id": "mo-bygdegard-classic-motor-monday-2026-08-10",
@@ -11269,7 +11269,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d11-blekingerundan-back-2026-08-15.jpg"
     },
     {
       "id": "bmw-d8-vanern-runt-fran-vanersborg-2026",
@@ -11296,7 +11296,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d8-vanern-runt-vanersborg-back-2026-08-15.jpg"
     },
     {
       "id": "mce-till-malaren-runt-2026-08-15",
@@ -11743,7 +11743,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-vanern-runt-kristinehamn-back-2026-08-15.jpg"
     },
     {
       "id": "arboga-landsbygds-cruising-2026-08-15",
@@ -11960,7 +11960,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d8-dalsland-back-2026-08-16.jpg"
     },
     {
       "id": "dob-pelles-runda-2026",
@@ -12268,7 +12268,7 @@ const EVENTS_DATA = {
           "url": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-norrsidan-9/"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-tisdagskvallstur-back-2026.jpg"
     },
     {
       "id": "condios-barnens-oas-rydaholm-2026",
@@ -12587,7 +12587,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d11-kvallstur-final-back-2026-08-19.jpg"
     },
     {
       "id": "bjarnums-museum-bil-mc-traff-2026-08-20",
@@ -12642,7 +12642,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d15-pizzakvall-back-2026-08-20.jpg"
     },
     {
       "id": "doa-dagstur-ekero-2026-08-20",
@@ -12925,7 +12925,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d10-historiska-turen-back-2026-08-20.jpg"
     },
     {
       "id": "skog-lithuania-2026-08-21",
@@ -12988,7 +12988,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d10-ostfold-back-2026-08-21.jpg"
     },
     {
       "id": "helgtraff-pa-joce-city-2026",
@@ -13139,7 +13139,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-classic-sommartraff-back-2026-08-21.jpg"
     },
     {
       "id": "bmw-kg-sleepovertour-2026",
@@ -13655,7 +13655,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d9-asfalt-svangar-back-2026-08-22.jpg"
     },
     {
       "id": "bmw-d15-claessonrallyt-2026",
@@ -13683,7 +13683,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d15-claessonrallyt-back-2026-08-22.jpg"
     },
     {
       "id": "bmw-d7-brannerituren-i-roslagen-2026",
@@ -13711,7 +13711,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-brannerituren-back-2026-08-22.jpg"
     },
     {
       "id": "bmw-d10-curvy-ride-2026",
@@ -13739,7 +13739,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d10-curvy-ride-back-2026-08-22.jpg"
     },
     {
       "id": "bmw-d11-mollers-tur-2026",
@@ -13767,7 +13767,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d11-mollers-tur-back-2026-08-22.jpg"
     },
     {
       "id": "silverforza-silverforsen-runt-2026-08-23",
@@ -13909,7 +13909,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d14-graddhyllan-back-2026-08-23.jpg"
     },
     {
       "id": "gota-ms-crosskola-2026-08-24",
@@ -14131,7 +14131,7 @@ const EVENTS_DATA = {
           "url": "https://www.bmwklubben.se/aktiviteter/d7-tisdagskvallstur-sodersidan-9/"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-tisdagskvallstur-back-2026.jpg"
     },
     {
       "id": "mchk-närke-brandstationen-2026-08-26",
@@ -14905,7 +14905,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d7-helgtur-d9-d5-back-2026-08-28.jpg"
     },
     {
       "id": "bmw-d9-far-besok-av-d7-d5-2026",
@@ -14933,7 +14933,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d9-far-besok-back-2026-08-28.jpg"
     },
     {
       "id": "bmw-d11-kor-tet-2026",
@@ -14961,7 +14961,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d11-kor-tet-back-2026-08-28.jpg"
     },
     {
       "id": "sleazy-riders-arsfest-2026-08-29",
@@ -15555,7 +15555,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/bmw-default-back.jpg"
+      "backImage": "ads/bmw-d15-lars-lerin-kabusa-back-2026-08-29.jpg"
     },
     {
       "id": "full-fart-moppers-lasse-cedergren-minnesrunda-2026-08-30",
