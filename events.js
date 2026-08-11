@@ -4180,12 +4180,16 @@ const EVENTS_DATA = {
       "source": "web",
       "link": "https://www.svmc.se/maelaren-runt-2026/",
       "_vehicle": "mc",
-      "description": "Slava kör från Uppsala till Mälaren Runts 40-årsjubileum. Samling vid parkeringen Eva Lagerwalls väg 1 kl 08:00 på lördag 15 augusti. Häng på, alla är välkomna!",
-      "descriptionFull": "Jag kör till Mälaren Runt i år, och det går bra att hänga på!\n\nSamling vid parkeringen på Eva Lagerwalls väg 1, Uppsala, kl 08:00 på lördag 15 augusti. Vi kör gemensamt ner mot starten vid Pampas Marina i Solna, där själva Mälaren Runt drar igång kl 11.00.\n\nAlla som vill köra med är varmt välkomna, hör av dig om du vill hänga på!",
+      "description": "Slava Druk, skapare av mc-kalendern och Goldwing-förare, kör sin första Mälaren Runt. Han lämnar garaget i Uppsala kl 08:00 för att hinna ner till starten vid Pampas Marina kl 11:00. Häng på!",
+      "descriptionFull": "Jag heter Slava Druk, skapare av mc-kalendern och Goldwing-förare. På lördag kör jag min första Mälaren Runt!\n\nJag bor i Uppsala och lämnar garaget kl 08:00. Målet är att hinna ner till det officiella starten vid Pampas Marina i Solna, där Mälaren Runt drar igång kl 11:00.\n\nSamling vid parkeringen på Eva Lagerwalls väg 1, Uppsala, kl 08:00 på lördag 15 augusti. Alla som vill köra med är varmt välkomna, hör av dig om du vill hänga på!\n\nKontakta mig gärna: 076-033 53 68 eller via Facebook.",
       "links": [
         {
           "label": "svmc.se",
           "url": "https://www.svmc.se/maelaren-runt-2026/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/slava.druk"
         },
         {
           "label": "Karta",
@@ -4193,7 +4197,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "backImage": "ads/slava-till-malaren-runt-back-2026-08-15.jpg"
+      "frontImage": "ads/slava-till-malaren-runt-front-2026-08-15.jpg"
     },
     {
       "id": "tibro-mopperally-rundan-2026-08-15",
