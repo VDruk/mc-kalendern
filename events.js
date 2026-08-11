@@ -4076,7 +4076,7 @@ const EVENTS_DATA = {
       "source": "web",
       "link": "https://www.svmc.se/maelaren-runt-2026/",
       "description": "Sveriges största MC-evenemang firar 40 år den 15 augusti 2026. Ca 300 km runt Mälaren med start från Pampas Marina i Solna kl 11 och målgång hos MCE i Järfälla. Över 20 000 motorcyklister väntas.",
-      "descriptionFull": "Mälaren Runt fyller 40 år - välkommen den 15 augusti!\n\nI år firar vi 40 år av Mälaren Runt, en av Europas största och mest uppskattade motorcykelträffar. Oavsett om du har varit med i många år eller kör turen för första gången är du varmt välkommen att uppleva en dag fylld av körglädje, gemenskap och motorcykelkultur.\n\nFölj den klassiska rutten runt Mälaren och besök de många aktiviteterna längs vägen. Rutten är skyltad, men tänk på att vissa stopp ligger en kort avstickare från huvudvägen där skyltningen kan vara begränsad.\n\nJubileumsåret bjuder bland annat på:\n- Start från Pampas Marina i Solna kl. 11.00\n- SM i Supermoto i Strängnäs\n- Fikastopp, hojträffar och utställningar längs hela rutten\n- MC Collection på Tidö Slott\n- Minimoto-racing på Pepparrotsbanan i Enköping\n- Målgång hos MCE i Järfälla med mat, dryck och livemusik\n- Traditionell Mälaren Runt-fest hos Strul MCC i Enköping\n\nJubileumsprodukter: Alla deltagare får en Mälaren Runt 40-årsdekal utan kostnad. Dessutom finns årets jubileumsprodukter till försäljning på flera platser längs rutten: t-shirts med jubileumstryck, pins, tygmärken, kepsar, buffar, öronproppar och nyckelringar.\n\nErbjudanden längs vägen: Flera av våra stopp erbjuder rabatter på mat och fika mot uppvisande av årets jubileumsdekal.\n\nHela jubileumsprogrammet, karta, GPX-fil och aktuell trafikinformation publiceras i FB-evenemanget, i SMC-appen och på Mälaren Runts Facebooksida. Trafikinformation uppdateras under veckan före evenemanget.\n\nVälkommen att fira 40 år av Mälaren Runt tillsammans med tusentals andra motorcyklister!\n\nKör snyggt - vi ses den 15 augusti!",
+      "descriptionFull": "Mälaren Runt fyller 40 år - välkommen den 15 augusti!\n\nI år firar vi 40 år av Mälaren Runt, en av Europas största och mest uppskattade motorcykelträffar. Oavsett om du har varit med i många år eller kör turen för första gången är du varmt välkommen att uppleva en dag fylld av körglädje, gemenskap och motorcykelkultur.\n\nFölj den klassiska rutten runt Mälaren och besök de många aktiviteterna längs vägen. Rutten är skyltad, men tänk på att vissa stopp ligger en kort avstickare från huvudvägen där skyltningen kan vara begränsad.\n\nJubileumsåret bjuder bland annat på:\n- Start från Pampas Marina i Solna kl. 11.00\n- SM i Supermoto i Strängnäs\n- Fikastopp vid Turinge kyrka, hojträff hos Eskilstuna Track & Resort med SMC Sörmland och Ducati-hojar från Italia Bike Center, samt fler stopp längs hela rutten\n- MC Collection på Tidö Slott\n- Minimoto-racing på Pepparrotsbanan i Enköping\n- Målgång hos MCE i Järfälla med mat, dryck, livemusik och camping\n- Traditionell Mälaren Runt-fest hos Strul MCC i Enköping, även där med camping\n\nJubileumsprodukter: Alla deltagare får en Mälaren Runt 40-årsdekal utan kostnad. Dessutom finns årets jubileumsprodukter till försäljning på flera platser längs rutten: t-shirts med jubileumstryck, pins, tygmärken, kepsar, buffar, öronproppar och nyckelringar.\n\nErbjudanden längs vägen: Flera av våra stopp erbjuder rabatter på mat och fika mot uppvisande av årets jubileumsdekal.\n\nHela jubileumsprogrammet, karta, GPX-fil och aktuell trafikinformation publiceras i FB-evenemanget, i SMC-appen och på Mälaren Runts Facebooksida. Trafikinformation uppdateras under veckan före evenemanget.\n\nVälkommen att fira 40 år av Mälaren Runt tillsammans med tusentals andra motorcyklister!\n\nKör snyggt - vi ses den 15 augusti!",
       "links": [
         {
           "label": "FB Event",
@@ -4594,11 +4594,12 @@ const EVENTS_DATA = {
       "name": "Mälaren Runt 40-årsjubileum",
       "date": "2026-08-15",
       "dateEnd": "2026-08-15",
-      "location": "Bålsta Centrum, Centrumstråket 1, Bålsta",
+      "time": "09:30",
+      "location": "PLOQ, Kraftleden 2, Bålsta",
       "type": "Körning",
       "organizer": "Håbo MC Entusiaster",
-      "description": "Mälaren Runt firar 40 år! Start från Bålsta Centrum. Tid och detaljer uppdateras inför eventet.",
-      "descriptionFull": "Mälaren Runt 2026 firar 40-årsjubileum!\n\nStart från Bålsta Centrum.\n\nTid och plats justeras närmare eventet.\n\nMer info: svmc.se/club/maelaren-runt/\n\nArrangör: Håbo MC Entusiaster och Susann Bergström.",
+      "description": "Håbo MC Entusiaster samlas för gemensam start till Mälaren Runts 40-årsjubileum. Samling 09:30, avfärd 10:00 från PLOQ, Kraftleden 2, Bålsta. Gemensam färd genom Bålsta mot Pampas Marina.",
+      "descriptionFull": "Samling kl 0930 med avfärd kl 1000.\nSe till att du tankat i förväg och har med dricka och glatt humör.\nVi hoppas det blir en stor uppslutning i Bålsta, men inser att det är omöjligt att hålla ihop en större grupp under en sån här dag.\nSå gemensam färd genom Bålsta mot Pampas Marina, sen får man gruppera sig i mindre grupper för resten av dagen.\nHar ni andra önskemål hör av er!\nMed önskan om en grymt trevlig tur och njut massor av fina hojar och härliga människor!\n\nMer info: svmc.se/club/maelaren-runt/\n\nArrangör: Håbo MC Entusiaster och Susann Bergström.",
       "links": [
         {
           "label": "FB Event",
@@ -4610,7 +4611,7 @@ const EVENTS_DATA = {
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=B%C3%A5lsta+Centrum+B%C3%A5lsta",
+          "url": "https://www.google.com/maps/search/?api=1&query=PLOQ+Kraftleden+2+B%C3%A5lsta",
           "type": "map"
         }
       ],
