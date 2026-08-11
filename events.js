@@ -8396,6 +8396,10 @@ const EVENTS_DATA = {
       "descriptionFull": "Blotsvens MC har arrangerat Strängnäs Bike Show i Ugglans park varje år sedan 1992, traditionsenligt sista lördagen i augusti.\n\nEn trivsam utställning där man kan tävla i sex olika klasser: Caféracer, Classic, US chopper/custom, Peoples choice samt vandringspokalen Erik Westerbergs minne.\n\nAnmälan sker på plats för den som vill ställa ut. Ta med en presentation av motorcykeln.",
       "links": [
         {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1354411636827497"
+        },
+        {
           "label": "FB Inlägg",
           "url": "https://www.facebook.com/photo/?fbid=28149450681305025&set=gm.27590076640604900&idorvanity=681479808557948"
         },
