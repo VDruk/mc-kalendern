@@ -1,5 +1,5 @@
 const PLACES_DATA = {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-08-11",
   "places": [
     {
       "id": "st1-asecs",
@@ -40,7 +40,7 @@ const PLACES_DATA = {
       "organizers": [
         "The Twin Club Falun"
       ],
-      "eventCount": 23
+      "eventCount": 24
     },
     {
       "id": "ok-kramfors",
@@ -82,20 +82,6 @@ const PLACES_DATA = {
         "Nifsta Gård Café & Grill"
       ],
       "eventCount": 21
-    },
-    {
-      "id": "circle-k",
-      "name": "Circle K",
-      "address": "Circle K, Rapsgatan 1H, Uppsala",
-      "category": "bensin",
-      "region": "Uppsala",
-      "lat": 59.8458818,
-      "lon": 17.6885113,
-      "organizers": [
-        "H-DCS"
-      ],
-      "eventCount": 18,
-      "note": "H-DCS samlingspunkt"
     },
     {
       "id": "gamla-torget",
@@ -194,17 +180,30 @@ const PLACES_DATA = {
       "eventCount": 12
     },
     {
-      "id": "cirkel-k",
-      "name": "Cirkel K",
-      "address": "Cirkel K, Hagaström, Gävle",
+      "id": "sovde-badkiosk",
+      "name": "Sövde Badkiosk",
+      "address": "Sövde Badkiosk, Sövdeborgsvägen 48, Sövde",
       "category": "motesplats",
-      "region": "Gävleborg",
-      "lat": 60.667533,
-      "lon": 17.0796549,
+      "region": "Skåne",
+      "lat": 55.58952,
+      "lon": 13.66788,
       "organizers": [
-        "MCHK Gävleborg"
+        "Sövde Badkiosk"
       ],
-      "eventCount": 10
+      "eventCount": 12
+    },
+    {
+      "id": "bjarnums-museum",
+      "name": "Bjärnums Museum",
+      "address": "Bjärnums Museum, Parkgatan 30, Bjärnum",
+      "category": "motesplats",
+      "region": "Skåne",
+      "lat": 56.2881775,
+      "lon": 13.7201407,
+      "organizers": [
+        "Bjärnums Museum"
+      ],
+      "eventCount": 12
     },
     {
       "id": "mce-klubblokalen",
@@ -217,7 +216,7 @@ const PLACES_DATA = {
       "organizers": [
         "MCE"
       ],
-      "eventCount": 10
+      "eventCount": 11
     },
     {
       "id": "mo-bygdegard",
@@ -233,9 +232,36 @@ const PLACES_DATA = {
       "eventCount": 10
     },
     {
+      "id": "cirkel-k",
+      "name": "Cirkel K",
+      "address": "Cirkel K, Hagaström, Gävle",
+      "category": "motesplats",
+      "region": "Gävleborg",
+      "lat": 60.667533,
+      "lon": 17.0796549,
+      "organizers": [
+        "MCHK Gävleborg"
+      ],
+      "eventCount": 10
+    },
+    {
+      "id": "circle-k",
+      "name": "Circle K",
+      "address": "Circle K, Rapsgatan 1H, Uppsala",
+      "category": "bensin",
+      "region": "Uppsala",
+      "lat": 59.8458818,
+      "lon": 17.6885113,
+      "organizers": [
+        "H-DCS"
+      ],
+      "eventCount": 10,
+      "note": "H-DCS samlingspunkt"
+    },
+    {
       "id": "lelles-mc",
       "name": "Lelles MC",
-      "address": "Lelles MC, Nymansgatan 6, Uppsala",
+      "address": "Lelles MC, Uppsala",
       "category": "mc-handel",
       "region": "Uppsala",
       "lat": 59.8556253,
@@ -245,6 +271,21 @@ const PLACES_DATA = {
         "Lelles MC"
       ],
       "eventCount": 9
+    },
+    {
+      "id": "ornskoldsviks-mc-club",
+      "name": "Örnsköldsviks MC Club",
+      "address": "Örnsköldsviks MC Club, Viktoriaesplanaden, Örnsköldsvik",
+      "category": "motesplats",
+      "region": "Västernorrland",
+      "lat": 63.2896941,
+      "lon": 18.72037,
+      "organizers": [
+        "ÖMCC",
+        "BMW MC-klubben",
+        "Northbike, H-D Sundsvall & H-D Umeå"
+      ],
+      "eventCount": 8
     },
     {
       "id": "sjobo-marknadsplats",
@@ -260,17 +301,20 @@ const PLACES_DATA = {
       "eventCount": 8
     },
     {
-      "id": "ornskoldsviks-mc-club",
-      "name": "Örnsköldsviks MC Club",
-      "address": "Örnsköldsviks MC Club, Viktoriaesplanaden, Örnsköldsvik",
+      "id": "kinnekulle-ring",
+      "name": "Kinnekulle Ring",
+      "address": "Kinnekulle Ring, Götene",
       "category": "motesplats",
-      "region": "Västernorrland",
-      "lat": 63.2896941,
-      "lon": 18.72037,
+      "region": "Västra Götaland",
+      "lat": 58.5470886,
+      "lon": 13.3950307,
       "organizers": [
-        "ÖMCC",
-        "BMW MC-klubben",
-        "Northbike, H-D Sundsvall & H-D Umeå"
+        "Von Hausswolff On Track",
+        "Rapido MCK Stockholm",
+        "Svenska Apriliaklubben",
+        "Kör Hoj",
+        "Färg & MC Center",
+        "Kinnekulle Trackdays"
       ],
       "eventCount": 7
     },
@@ -284,9 +328,36 @@ const PLACES_DATA = {
       "lon": 18.0820597,
       "organizers": [
         "Rapido MCK Stockholm",
-        "SMC Stockholm",
         "Mc-konsult i Lidköping",
-        "Rapido MCK / SMC Stockholm"
+        "Rapido MCK / SMC Stockholm",
+        "SMC Stockholm"
+      ],
+      "eventCount": 7
+    },
+    {
+      "id": "sulas-mc",
+      "name": "Sulas MC",
+      "address": "Sulas MC, Säva 17, Uppsala",
+      "category": "mc-handel",
+      "region": "Uppsala",
+      "lat": 59.7685073,
+      "lon": 17.3905281,
+      "organizers": [
+        "Sulas MC",
+        "BSA Sverige AB"
+      ],
+      "eventCount": 7
+    },
+    {
+      "id": "hyndevad-1",
+      "name": "Hyndevad 1",
+      "address": "Hyndevad 1, Eskilstuna",
+      "category": "motesplats",
+      "region": "Södermanland",
+      "lat": 59.3313718,
+      "lon": 16.440007,
+      "organizers": [
+        "Lyan MC"
       ],
       "eventCount": 6
     },
@@ -304,17 +375,17 @@ const PLACES_DATA = {
       "eventCount": 6
     },
     {
-      "id": "i-klubblokalen-pappersbruksallen-14",
-      "name": "i klubblokalen Pappersbruksallén 14",
-      "address": "i klubblokalen Pappersbruksallén 14, Örebro",
-      "category": "mc-klubb",
-      "region": "Örebro",
-      "lat": 59.2689075,
-      "lon": 15.2431924,
+      "id": "lingvalls-motor",
+      "name": "Lingvalls Motor",
+      "address": "Lingvalls Motor, Kryddstigen 12, Gävle",
+      "category": "motesplats",
+      "region": "Gävleborg",
+      "lat": 60.6574103,
+      "lon": 17.1711974,
       "organizers": [
-        "MCHK Närke"
+        "Lingvalls Motor"
       ],
-      "eventCount": 5
+      "eventCount": 6
     },
     {
       "id": "gellerasen-motorstadion",
@@ -328,8 +399,65 @@ const PLACES_DATA = {
         "SpeedSkills",
         "SUB5 Racing & Event",
         "MotoSE / Svemo",
-        "KCS",
-        "Von Hausswolff On Track"
+        "Von Hausswolff On Track",
+        "KCS"
+      ],
+      "eventCount": 5
+    },
+    {
+      "id": "tallbacksvagen-19-gagnef",
+      "name": "Tallbacksvägen 19, Gagnef",
+      "address": "Tallbacksvägen 19, Gagnef",
+      "category": "motesplats",
+      "region": "Norge",
+      "lat": 60.5598899,
+      "lon": 15.1369137,
+      "organizers": [
+        "Ronnegard Adventure",
+        "mctouring.se"
+      ],
+      "eventCount": 5
+    },
+    {
+      "id": "cafe-sandholmen",
+      "name": "Cafe Sandholmen",
+      "address": "Cafe Sandholmen, Nygatan 32, Mariestad",
+      "category": "cafe",
+      "region": "Västra Götaland",
+      "lat": 58.7149151,
+      "lon": 13.8252685,
+      "organizers": [
+        "Mariestads Fordonshistor."
+      ],
+      "eventCount": 5
+    },
+    {
+      "id": "bike-trollhattan",
+      "name": "Bike Trollhättan",
+      "address": "Bike Trollhättan, Lextorpsvägen 997, Trollhättan",
+      "category": "mc-handel",
+      "region": "Västra Götaland",
+      "lat": 58.2613837,
+      "lon": 12.2904377,
+      "organizers": [
+        "Kråkestans MC",
+        "Bike Trollhättan",
+        "Harley-Davidson Trollhättan",
+        "Vulcan Riders Sweden"
+      ],
+      "eventCount": 5
+    },
+    {
+      "id": "motostar",
+      "name": "Motostar",
+      "address": "Motostar, Såggatan 3, Sjöbo",
+      "category": "motesplats",
+      "region": "Skåne",
+      "lat": 55.6373031,
+      "lon": 13.6793131,
+      "organizers": [
+        "MC för alla - Skåne",
+        "Motostar"
       ],
       "eventCount": 5
     },
@@ -349,47 +477,83 @@ const PLACES_DATA = {
       "eventCount": 5
     },
     {
-      "id": "kinnekulle-ring",
-      "name": "Kinnekulle Ring",
-      "address": "Kinnekulle Ring, Götene",
-      "category": "motesplats",
-      "region": "Västra Götaland",
-      "lat": 58.5470886,
-      "lon": 13.3950307,
+      "id": "i-klubblokalen-pappersbruksallen-14",
+      "name": "i klubblokalen Pappersbruksallén 14",
+      "address": "i klubblokalen Pappersbruksallén 14, Örebro",
+      "category": "mc-klubb",
+      "region": "Örebro",
+      "lat": 59.2689075,
+      "lon": 15.2431924,
       "organizers": [
-        "Svenska Apriliaklubben",
-        "Kör Hoj",
-        "Färg & MC Center",
-        "Kinnekulle Trackdays"
+        "MCHK Närke"
       ],
       "eventCount": 5
     },
     {
-      "id": "lingvalls-motor",
-      "name": "Lingvalls Motor",
-      "address": "Lingvalls Motor, Kryddstigen 12, Gävle",
+      "id": "hovslatts-hembygdsgard",
+      "name": "Hovslätts Hembygdsgård",
+      "address": "Hovslätts Hembygdsgård, Hovslätt, Jönköping",
       "category": "motesplats",
-      "region": "Gävleborg",
-      "lat": 60.6574103,
-      "lon": 17.1711974,
+      "region": "Jönköping",
+      "lat": 57.7328169,
+      "lon": 14.1182604,
       "organizers": [
-        "Lingvalls Motor"
+        "Hovslätts Hembygdsförening"
       ],
-      "eventCount": 5
+      "eventCount": 4
     },
     {
-      "id": "sulas-mc",
-      "name": "Sulas MC",
-      "address": "Sulas MC, Säva 17, Uppsala",
-      "category": "mc-handel",
-      "region": "Uppsala",
-      "lat": 59.7685073,
-      "lon": 17.3905281,
+      "id": "lindenborgvej-2",
+      "name": "Lindenborgvej 2",
+      "address": "Lindenborgvej 2, 4000 Roskilde, Danmark",
+      "category": "motesplats",
+      "region": "Danmark",
+      "lat": 55.6214456,
+      "lon": 12.0534626,
       "organizers": [
-        "Sulas MC",
-        "BSA Sverige AB"
+        "H-D Klubben af 1930"
       ],
-      "eventCount": 5
+      "eventCount": 4
+    },
+    {
+      "id": "svalbo-cafe",
+      "name": "Svalbo cafe",
+      "address": "Svalbo cafe, Järle, Nora",
+      "category": "cafe",
+      "region": "Örebro",
+      "lat": 59.5165434,
+      "lon": 15.1526885,
+      "organizers": [
+        "Svalbo cafe och keramik"
+      ],
+      "eventCount": 4
+    },
+    {
+      "id": "mittsverigebanan",
+      "name": "Mittsverigebanan",
+      "address": "Mittsverigebanan, Tjärnsjö 100, Härnösand",
+      "category": "motesplats",
+      "region": "Västernorrland",
+      "lat": 62.5998052,
+      "lon": 17.816555,
+      "organizers": [
+        "Ankans Racing",
+        "Mittsverigebanan"
+      ],
+      "eventCount": 4
+    },
+    {
+      "id": "shell-a6",
+      "name": "Shell A6",
+      "address": "Shell A6, Sjukhusgatan 6, Jönköping",
+      "category": "bensin",
+      "region": "Jönköping",
+      "lat": 57.7728802,
+      "lon": 14.1985139,
+      "organizers": [
+        "JMC Samåkning Småland"
+      ],
+      "eventCount": 4
     },
     {
       "id": "tanga-hed",
@@ -400,23 +564,65 @@ const PLACES_DATA = {
       "lat": 58.0299352,
       "lon": 12.8286195,
       "organizers": [
-        "Vulcan Riders Sweden",
         "HojRock",
+        "Vulcan Riders Sweden",
         "Markland MC"
       ],
       "eventCount": 4
     },
     {
-      "id": "motostar",
-      "name": "Motostar",
-      "address": "Motostar, Såggatan 3, Sjöbo",
+      "id": "insane-mc-halmstad",
+      "name": "Insane MC Halmstad",
+      "address": "Insane MC Halmstad, Sadelvägen 720, Halmstad",
       "category": "motesplats",
-      "region": "Skåne",
-      "lat": 55.6373031,
-      "lon": 13.6793131,
+      "region": "Halland",
+      "lat": 56.6327846,
+      "lon": 12.9382778,
       "organizers": [
-        "MC för alla - Skåne",
-        "Motostar"
+        "Insane MC Halmstad",
+        "Psycho Squad"
+      ],
+      "eventCount": 4
+    },
+    {
+      "id": "gyllene-hjulet",
+      "name": "Gyllene Hjulet",
+      "address": "Gyllene Hjulet, Gustaf Eriksons väg 2, Surahammar",
+      "category": "motesplats",
+      "region": "Västmanland",
+      "lat": 59.7079372,
+      "lon": 16.2168329,
+      "organizers": [
+        "MCHK Mälardalen",
+        "MCHK Södermanland"
+      ],
+      "eventCount": 4
+    },
+    {
+      "id": "circle-k-onsalamotet",
+      "name": "Circle K Onsalamotet",
+      "address": "Circle K Onsalamotet, Kollavarvsvägen 10, Kungsbacka",
+      "category": "bensin",
+      "region": "Halland",
+      "lat": 57.4748101,
+      "lon": 12.0601448,
+      "organizers": [
+        "SCRC #738 Hall of Odin",
+        "SCRC Hall of Odin"
+      ],
+      "eventCount": 4
+    },
+    {
+      "id": "motorrad-center",
+      "name": "Motorrad Center",
+      "address": "Motorrad Center, Slånbärsvägen 6, Upplands Väsby",
+      "category": "mc-handel",
+      "region": "Stockholm",
+      "lat": 59.4986902,
+      "lon": 17.936235,
+      "organizers": [
+        "BMW MC-klubben D7",
+        "Motorrad Center Stockholm"
       ],
       "eventCount": 4
     },
@@ -434,6 +640,21 @@ const PLACES_DATA = {
       "eventCount": 4
     },
     {
+      "id": "orrekulla-industrigata-35",
+      "name": "Orrekulla Industrigata 35",
+      "address": "Orrekulla Industrigata 35, Hisings Kärra",
+      "category": "motesplats",
+      "region": "Västra Götaland",
+      "lat": 57.7731211,
+      "lon": 11.9930453,
+      "organizers": [
+        "Motorrad Center Göteborg",
+        "Johans MC",
+        "Gentleman's Harley Club"
+      ],
+      "eventCount": 4
+    },
+    {
       "id": "kontorsvagen-8-sundsvall-stromvagen-2",
       "name": "Kontorsvägen 8, Sundsvall & Strömvägen 2",
       "address": "Kontorsvägen 8, Sundsvall & Strömvägen 2, Umeå",
@@ -443,21 +664,6 @@ const PLACES_DATA = {
       "lon": 20.2266815,
       "organizers": [
         "Northbike Sweden"
-      ],
-      "eventCount": 4
-    },
-    {
-      "id": "lextorpsvagen-997-trollhattan",
-      "name": "Lextorpsvägen 997, Trollhättan",
-      "address": "Lextorpsvägen 997, Trollhättan",
-      "category": "mc-handel",
-      "region": "Västra Götaland",
-      "lat": 58.2613837,
-      "lon": 12.2904377,
-      "organizers": [
-        "Bike Trollhättan",
-        "Harley-Davidson Trollhättan",
-        "Vulcan Riders Sweden"
       ],
       "eventCount": 4
     },
@@ -490,44 +696,43 @@ const PLACES_DATA = {
       "eventCount": 4
     },
     {
-      "id": "circle-k-halland",
-      "name": "Circle K",
-      "address": "Circle K, Onsalamotet, Valldavägen 1238, Onsala",
-      "category": "bensin",
-      "region": "Halland",
-      "lat": 57.4056766,
-      "lon": 11.9841833,
+      "id": "mmck-klubbkaken",
+      "name": "MMCK Klubbkåken",
+      "address": "MMCK Klubbkåken, Gällivare",
+      "category": "mc-klubb",
+      "region": "Norrbotten",
+      "lat": 67.1161592,
+      "lon": 20.7714464,
       "organizers": [
-        "SCRC #738 Hall of Odin"
+        "MMCK Touring-vänner",
+        "MMCK Gällivare"
       ],
-      "eventCount": 3
+      "eventCount": 4
     },
     {
-      "id": "sawmill-mc-tavelsjo",
-      "name": "Sawmill MC Tavelsjö",
-      "address": "Sawmill MC Tavelsjö, Tavelsjö",
+      "id": "satra-brunn-105",
+      "name": "Sätra Brunn 105",
+      "address": "Sätra Brunn 105, Sala",
       "category": "motesplats",
-      "region": "Västerbotten",
-      "lat": 64.0369926,
-      "lon": 20.0478102,
+      "region": "Västmanland",
+      "lat": 59.8501963,
+      "lon": 16.4779844,
       "organizers": [
-        "H-DCS",
-        "SMC"
+        "Tommy Ekström & Annelie"
       ],
       "eventCount": 3
     },
     {
-      "id": "mantorp-park",
-      "name": "Mantorp Park",
-      "address": "Mantorp Park, Parisvägen 8, Mantorp",
-      "category": "arena",
-      "region": "Östergötland",
-      "lat": 58.3695266,
-      "lon": 15.2836969,
+      "id": "industrigatan-10",
+      "name": "Industrigatan 10",
+      "address": "Industrigatan 10, Tomelilla",
+      "category": "motesplats",
+      "region": "Skåne",
+      "lat": 55.5526414,
+      "lon": 13.9557457,
       "organizers": [
-        "Stensby Racing",
-        "Riders Day",
-        "Filip Backlund Trackdays"
+        "East 2 West CC Skåne",
+        "MCV Österlen"
       ],
       "eventCount": 3
     },
@@ -542,33 +747,6 @@ const PLACES_DATA = {
       "organizers": [
         "BMW MC-klubben",
         "MC för alla - Skåne"
-      ],
-      "eventCount": 3
-    },
-    {
-      "id": "snickarbergsbanan",
-      "name": "Snickarbergsbanan",
-      "address": "Snickarbergsbanan, Surahammar",
-      "category": "motesplats",
-      "region": "Västmanland",
-      "lat": 59.7072262,
-      "lon": 16.2268408,
-      "organizers": [
-        "MCHK Mälardalen",
-        "H-DCS"
-      ],
-      "eventCount": 3
-    },
-    {
-      "id": "nya-pepparrotsbanan",
-      "name": "Nya Pepparrotsbanan",
-      "address": "Nya Pepparrotsbanan, Fagerskogen, Enköping",
-      "category": "arena",
-      "region": "Uppsala",
-      "lat": 59.6562652,
-      "lon": 17.0494194,
-      "organizers": [
-        "SMC Västmanland"
       ],
       "eventCount": 3
     },
@@ -600,6 +778,46 @@ const PLACES_DATA = {
       "eventCount": 3
     },
     {
+      "id": "verkstadsgatan-1",
+      "name": "Verkstadsgatan 1",
+      "address": "Verkstadsgatan 1, Skurup",
+      "category": "verkstad",
+      "region": "Skåne",
+      "lat": 55.4862006,
+      "lon": 13.5118304,
+      "organizers": [
+        "Moonshine Runner Custom"
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "ploq-st1",
+      "name": "PLOQ/ST1",
+      "address": "PLOQ/ST1, Kraftleden 2, Bålsta",
+      "category": "bensin",
+      "region": "Uppsala",
+      "lat": 59.5847242,
+      "lon": 17.5052997,
+      "organizers": [
+        "RC Palle",
+        "BMW MC-klubben"
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "kungsgatan-14",
+      "name": "Kungsgatan 14",
+      "address": "Kungsgatan 14, Eskilstuna",
+      "category": "motesplats",
+      "region": "Södermanland",
+      "lat": 59.3704172,
+      "lon": 16.5143792,
+      "organizers": [
+        "AdventureBike"
+      ],
+      "eventCount": 3
+    },
+    {
       "id": "eagle-riders-mc",
       "name": "Eagle Riders MC",
       "address": "Eagle Riders MC, Företagsgatan 60, Borås",
@@ -625,6 +843,47 @@ const PLACES_DATA = {
         "BMW MC-klubben",
         "Christinehamns MC klubb",
         "SMC Värmland"
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "karl-gustav",
+      "name": "Karl Gustav",
+      "address": "Karl Gustav, Halland",
+      "category": "motesplats",
+      "region": "Halland",
+      "lat": 57.2600224,
+      "lon": 12.557219,
+      "organizers": [
+        "BMW MC-klubben"
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "kanongatan-159",
+      "name": "Kanongatan 159",
+      "address": "Kanongatan 159, Ödåkra",
+      "category": "mc-handel",
+      "region": "Skåne",
+      "lat": 56.0915565,
+      "lon": 12.7443969,
+      "organizers": [
+        "Nilssons MC",
+        "Bikeman Helsingborg"
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "angpannegatan-24",
+      "name": "Ångpannegatan 24",
+      "address": "Ångpannegatan 24, Göteborg",
+      "category": "motesplats",
+      "region": "Västra Götaland",
+      "lat": 57.7292138,
+      "lon": 11.9457434,
+      "organizers": [
+        "NO TIME MC",
+        "No Time MC"
       ],
       "eventCount": 3
     },
@@ -669,20 +928,6 @@ const PLACES_DATA = {
       "eventCount": 3
     },
     {
-      "id": "orrekulla-industrigata-35",
-      "name": "Orrekulla Industrigata 35",
-      "address": "Orrekulla Industrigata 35, Hisings Kärra",
-      "category": "motesplats",
-      "region": "Västra Götaland",
-      "lat": 57.7731211,
-      "lon": 11.9930453,
-      "organizers": [
-        "Motorrad Center Göteborg",
-        "Johans MC"
-      ],
-      "eventCount": 3
-    },
-    {
       "id": "kontorsvagen-8-854-60-sundsvall",
       "name": "Kontorsvägen 8, 854 60 Sundsvall",
       "address": "Kontorsvägen 8, 854 60 Sundsvall",
@@ -693,21 +938,6 @@ const PLACES_DATA = {
       "organizers": [
         "Northbike Sweden",
         "Harley-Davidson Sundsvall"
-      ],
-      "eventCount": 3
-    },
-    {
-      "id": "vikingagrillen",
-      "name": "Vikingagrillen",
-      "address": "Vikingagrillen, Lilla Kongahällavägen 11, Kungälv",
-      "category": "cafe",
-      "region": "Västra Götaland",
-      "lat": 57.869754,
-      "lon": 11.9740317,
-      "organizers": [
-        "ADV riders väst",
-        "BMW MC-klubben",
-        "H-DCS"
       ],
       "eventCount": 3
     },
@@ -725,165 +955,88 @@ const PLACES_DATA = {
       "eventCount": 3
     },
     {
-      "id": "shell-a6",
-      "name": "Shell A6",
-      "address": "Shell A6, Sjukhusgatan 6, Jönköping",
+      "id": "circle-k-halland",
+      "name": "Circle K",
+      "address": "Circle K, Onsalamotet, Valldavägen 1238, Onsala",
       "category": "bensin",
-      "region": "Jönköping",
-      "lat": 57.7725181,
-      "lon": 14.1977511,
+      "region": "Halland",
+      "lat": 57.4056766,
+      "lon": 11.9841833,
       "organizers": [
-        "JMC Samåkning Småland"
+        "SCRC #738 Hall of Odin"
       ],
       "eventCount": 3
     },
     {
-      "id": "mittsverigebanan",
-      "name": "Mittsverigebanan",
-      "address": "Mittsverigebanan, Tjärnsjö 100, Härnösand",
+      "id": "sawmill-mc-tavelsjo",
+      "name": "Sawmill MC Tavelsjö",
+      "address": "Sawmill MC Tavelsjö, Tavelsjö",
       "category": "motesplats",
-      "region": "Västernorrland",
-      "lat": 62.5998052,
-      "lon": 17.816555,
-      "organizers": [
-        "Mittsverigebanan",
-        "Ankans Racing"
-      ],
-      "eventCount": 3
-    },
-    {
-      "id": "industrigatan-10",
-      "name": "Industrigatan 10",
-      "address": "Industrigatan 10, Tomelilla",
-      "category": "motesplats",
-      "region": "Skåne",
-      "lat": 55.5526414,
-      "lon": 13.9557457,
-      "organizers": [
-        "East 2 West CC Skåne",
-        "MCV Österlen"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "edsvallabacken-5",
-      "name": "Edsvallabacken 5",
-      "address": "Edsvallabacken 5, 123 43 Farsta",
-      "category": "motesplats",
-      "region": "Stockholm",
-      "lat": 59.2410587,
-      "lon": 18.1141892,
-      "organizers": [
-        "Moonshine Cruisers Sthlm"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "wiggersvik-camping",
-      "name": "Wiggersvik camping",
-      "address": "Wiggersvik camping, Kungshamn",
-      "category": "camping",
-      "region": "Västra Götaland",
-      "lat": 58.3630857,
-      "lon": 11.2807908,
+      "region": "Västerbotten",
+      "lat": 64.0369926,
+      "lon": 20.0478102,
       "organizers": [
         "H-DCS",
-        "Wiggersviks Camping"
+        "SMC"
       ],
-      "eventCount": 2
+      "eventCount": 3
     },
     {
-      "id": "brannaregatan-6",
-      "name": "Brännaregatan 6",
-      "address": "Brännaregatan 6, 672 31 Årjäng",
-      "category": "motesplats",
-      "region": "Värmland",
-      "lat": 59.3825753,
-      "lon": 12.131063,
-      "organizers": [
-        "Goodguys Mc"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "traffpunkt-gotland-gotland",
-      "name": "Träffpunkt Gotland",
-      "address": "Träffpunkt Gotland, Visby",
-      "category": "motesplats",
-      "region": "Gotland",
-      "lat": 57.623022,
-      "lon": 18.274136,
-      "organizers": [
-        "Bike babes Gotland"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "gymnasievej-3",
-      "name": "Gymnasievej 3",
-      "address": "Gymnasievej 3, Stenløse, Danmark",
-      "category": "motesplats",
-      "region": "Danmark",
-      "lat": 55.7745182,
-      "lon": 12.1960015,
-      "organizers": [
-        "H-D Klubben af 1930"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "asogatan-159",
-      "name": "Åsögatan 159",
-      "address": "Åsögatan 159, Stockholm",
-      "category": "motesplats",
-      "region": "Stockholm",
-      "lat": 59.3143321,
-      "lon": 18.0839995,
-      "organizers": [
-        "The Occasional Rider"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "kanongatan-159",
-      "name": "Kanongatan 159",
-      "address": "Kanongatan 159, Ödåkra",
-      "category": "mc-handel",
-      "region": "Skåne",
-      "lat": 56.0915565,
-      "lon": 12.7443969,
-      "organizers": [
-        "Bikeman Helsingborg",
-        "Nilssons MC"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "vretstorp",
-      "name": "Vretstorp",
-      "address": "Vretstorp",
+      "id": "garaget",
+      "name": "Garaget",
+      "address": "Garaget, Osmundgatan 3, 703 83 Örebro",
       "category": "motesplats",
       "region": "Örebro",
-      "lat": 59.0218487,
-      "lon": 14.8700933,
+      "lat": 59.2877318,
+      "lon": 15.2100956,
       "organizers": [
-        "Regression Brotherhood MC"
+        "Garaget, Network MC, Fenix MK",
+        "SMC Örebro",
+        "Garaget Örebro"
       ],
-      "eventCount": 2
+      "eventCount": 3
     },
     {
-      "id": "langmossen-ranch",
-      "name": "Långmossen Ranch",
-      "address": "Långmossen Ranch, Körtinge, Köping",
+      "id": "snickarbergsbanan",
+      "name": "Snickarbergsbanan",
+      "address": "Snickarbergsbanan, Surahammar",
       "category": "motesplats",
       "region": "Västmanland",
-      "lat": 59.5418133,
-      "lon": 15.8097976,
+      "lat": 59.7072262,
+      "lon": 16.2268408,
       "organizers": [
         "H-DCS",
-        "Scheele Choppers Köping"
+        "MCHK Mälardalen"
       ],
-      "eventCount": 2
+      "eventCount": 3
+    },
+    {
+      "id": "nya-pepparrotsbanan",
+      "name": "Nya Pepparrotsbanan",
+      "address": "Nya Pepparrotsbanan, Fagerskogen, Enköping",
+      "category": "arena",
+      "region": "Uppsala",
+      "lat": 59.6562652,
+      "lon": 17.0494194,
+      "organizers": [
+        "SMC Västmanland"
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "mantorp-park",
+      "name": "Mantorp Park",
+      "address": "Mantorp Park, Parisvägen 8, Mantorp",
+      "category": "arena",
+      "region": "Östergötland",
+      "lat": 58.3695266,
+      "lon": 15.2836969,
+      "organizers": [
+        "Filip Backlund Trackdays",
+        "Stensbytrackdays",
+        "Riders Day"
+      ],
+      "eventCount": 3
     },
     {
       "id": "grimsbu-turistsenter",
@@ -896,47 +1049,6 @@ const PLACES_DATA = {
       "organizers": [
         "Nordiska H-D-klubbarna",
         "HDOC Norway"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "gyllene-hjulet",
-      "name": "Gyllene Hjulet",
-      "address": "Gyllene Hjulet, Kontorsvägen 2, Surahammar",
-      "category": "motesplats",
-      "region": "Västmanland",
-      "lat": 59.7079372,
-      "lon": 16.2168329,
-      "organizers": [
-        "MCHK Södermanland",
-        "MCHK Mälardalen"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "klockaregatan",
-      "name": "Klockaregatan",
-      "address": "Klockaregatan, Askersund",
-      "category": "motesplats",
-      "region": "Örebro",
-      "lat": 58.8894268,
-      "lon": 14.9109867,
-      "organizers": [
-        "BMW MC-klubben"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "nykopings-hamn",
-      "name": "Nyköpings Hamn",
-      "address": "Nyköpings Hamn, Nyköping",
-      "category": "motesplats",
-      "region": "Södermanland",
-      "lat": 58.7434106,
-      "lon": 17.0214164,
-      "organizers": [
-        "Iron Horse MC Show",
-        "MCHK Södermanland"
       ],
       "eventCount": 2
     },
@@ -955,6 +1067,137 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "isatra-motorstadion",
+      "name": "Isätra Motorstadion",
+      "address": "Isätra Motorstadion, Sala",
+      "category": "arena",
+      "region": "Västmanland",
+      "lat": 59.9228286,
+      "lon": 16.7254219,
+      "organizers": [
+        "Sala MSK"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "humletorkan",
+      "name": "Humletorkan",
+      "address": "Humletorkan, Klagstorpsvägen 1, Näsum",
+      "category": "motesplats",
+      "region": "Skåne",
+      "lat": 56.162443,
+      "lon": 14.4597392,
+      "organizers": [
+        "Humletorkan"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "hovdingegatan-22",
+      "name": "Hövdingegatan 22",
+      "address": "Hövdingegatan 22, Hässleholm (Ishallens parkering)",
+      "category": "motesplats",
+      "region": "Skåne",
+      "lat": 56.1481122,
+      "lon": 13.7814744,
+      "organizers": [
+        "MC för alla - Skåne"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "bilprovningen-norrkoping-herstadberg",
+      "name": "Bilprovningen Norrköping-Herstadberg",
+      "address": "Bilprovningen Norrköping-Herstadberg, Norrköping",
+      "category": "motesplats",
+      "region": "Östergötland",
+      "lat": 58.627092,
+      "lon": 16.164458,
+      "organizers": [
+        "SMC Östergötland"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "ica-maxi",
+      "name": "ICA Maxi",
+      "address": "ICA Maxi, Borlänge",
+      "category": "motesplats",
+      "region": "Dalarna",
+      "lat": 60.4826388,
+      "lon": 15.4485267,
+      "organizers": [
+        "SPF Seniorerna Borlänge"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "tarby-18",
+      "name": "Tärby 18",
+      "address": "Tärby 18, 745 95 Enköping",
+      "category": "motesplats",
+      "region": "Uppsala",
+      "lat": 59.6562652,
+      "lon": 17.0494194,
+      "organizers": [
+        "Göta MS Enköping",
+        "Göta MS"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "circle-k-norsholm",
+      "name": "Circle K Norsholm",
+      "address": "Circle K Norsholm, Klintorp, Norsholm",
+      "category": "bensin",
+      "region": "Östergötland",
+      "lat": 58.49137,
+      "lon": 15.95228,
+      "organizers": [
+        "MCK Freedom"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "kajen",
+      "name": "Kajen",
+      "address": "Kajen, Västra Strandgatan 8A, Umeå",
+      "category": "motesplats",
+      "region": "Västerbotten",
+      "lat": 63.82427,
+      "lon": 20.2600694,
+      "organizers": [
+        "MC Kajen"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "enkopings-motorgard",
+      "name": "Enköpings Motorgård",
+      "address": "Enköpings Motorgård, Stockholmsvägen 17, Enköping",
+      "category": "motesplats",
+      "region": "Uppsala",
+      "lat": 59.6437537,
+      "lon": 17.1045785,
+      "organizers": [
+        "Strul MCC"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "traffpunkt-gotland-gotland",
+      "name": "Träffpunkt Gotland",
+      "address": "Träffpunkt Gotland, Visby",
+      "category": "motesplats",
+      "region": "Gotland",
+      "lat": 57.623022,
+      "lon": 18.274136,
+      "organizers": [
+        "Bike babes Gotland"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "kurodsvagen-9-uddevalla",
       "name": "Kurödsvägen 9, Uddevalla",
       "address": "Kurödsvägen 9, Uddevalla",
@@ -963,8 +1206,131 @@ const PLACES_DATA = {
       "lat": 58.3558626,
       "lon": 11.9736766,
       "organizers": [
-        "Vulcan Riders Sweden",
-        "Wilma Memorial Run"
+        "Wilma Memorial Run",
+        "Vulcan Riders Sweden"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "cafe-rosenhill",
+      "name": "Café Rosenhill",
+      "address": "Café Rosenhill, Rosenhill 23, Botkyrka",
+      "category": "cafe",
+      "region": "Stockholm",
+      "lat": 59.1398851,
+      "lon": 17.8328799,
+      "organizers": [
+        "Café Rosenhill",
+        "Yamahacenter Stockholm"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "knektplatsen",
+      "name": "Knektplatsen",
+      "address": "Knektplatsen, Rättvik",
+      "category": "motesplats",
+      "region": "Dalarna",
+      "lat": 60.887897,
+      "lon": 15.1258459,
+      "organizers": [
+        "Classic Car Week"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "nykopings-hamn",
+      "name": "Nyköpings Hamn",
+      "address": "Nyköpings Hamn, Nyköping",
+      "category": "motesplats",
+      "region": "Södermanland",
+      "lat": 58.7434106,
+      "lon": 17.0214164,
+      "organizers": [
+        "MCHK Södermanland",
+        "Iron Horse MC Show"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "orsa-gronklitt",
+      "name": "Orsa Grönklitt",
+      "address": "Orsa Grönklitt, Dalarna",
+      "category": "motesplats",
+      "region": "Dalarna",
+      "lat": 61.207805,
+      "lon": 14.5383945,
+      "organizers": [
+        "GoldWing Club Sweden",
+        "ForzaOrza"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "armevagen-3",
+      "name": "Armévägen 3",
+      "address": "Armévägen 3, Gnarp",
+      "category": "motesplats",
+      "region": "Gävleborg",
+      "lat": 62.0498804,
+      "lon": 17.2476886,
+      "organizers": [
+        "2 MC Maiden Coast"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "romstadsvagen-2-karlstad",
+      "name": "Romstadsvägen 2, Karlstad",
+      "address": "Romstadsvägen 2, Karlstad",
+      "category": "motesplats",
+      "region": "Värmland",
+      "lat": 59.3789211,
+      "lon": 13.4763122,
+      "organizers": [
+        "Bengt-Martins"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "prastnibble-gard",
+      "name": "Prästnibble gård",
+      "address": "Prästnibble gård, Svartsjö, Ekerö",
+      "category": "motesplats",
+      "region": "Stockholm",
+      "lat": 59.394845000872,
+      "lon": 17.690331608565,
+      "organizers": [
+        "Yvonne Larsson",
+        "Bilträffar i hela Sverige"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "ljungviks-torg",
+      "name": "Ljungviks Torg",
+      "address": "Ljungviks Torg, Gråbo Industriväg, Gråbo",
+      "category": "motesplats",
+      "region": "Västra Götaland",
+      "lat": 57.8394344,
+      "lon": 12.2875257,
+      "organizers": [
+        "Ljungviks Torg",
+        "ABATE Sverige"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "aminne-bruksmuseum",
+      "name": "Åminne Bruksmuseum",
+      "address": "Åminne Bruksmuseum, Åminne bruk, Värnamo",
+      "category": "motesplats",
+      "region": "Jönköping",
+      "lat": 57.124416859111,
+      "lon": 14.010417268658,
+      "organizers": [
+        "Åminne Bruk",
+        "Wernamo Food & Event"
       ],
       "eventCount": 2
     },
@@ -982,6 +1348,19 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "smk-lokalen",
+      "name": "SMK-lokalen",
+      "address": "SMK-lokalen, Köpingsvägen 8, Arboga",
+      "category": "motesplats",
+      "region": "Västmanland",
+      "lat": 59.3982645,
+      "lon": 15.8586597,
+      "organizers": [
+        "Sleepy Town Cruisers"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "norra-mosvagen-1",
       "name": "Norra Mosvägen 1",
       "address": "Norra Mosvägen 1, Kumla",
@@ -995,6 +1374,33 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "st1-a6",
+      "name": "St1 A6",
+      "address": "St1 A6, Jönköping",
+      "category": "bensin",
+      "region": "Jönköping",
+      "lat": 57.7728802,
+      "lon": 14.1985139,
+      "organizers": [
+        "JMC Samåkning Småland"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "langmossen-ranch",
+      "name": "Långmossen Ranch",
+      "address": "Långmossen Ranch, Körtinge, Köping",
+      "category": "motesplats",
+      "region": "Västmanland",
+      "lat": 59.5418133,
+      "lon": 15.8097976,
+      "organizers": [
+        "Scheele Choppers Köping",
+        "H-DCS"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "jarlasa-bygdegard",
       "name": "Järlåsa Bygdegård",
       "address": "Järlåsa Bygdegård, Järlåsa-Laggarbo 2, Järlåsa",
@@ -1004,6 +1410,61 @@ const PLACES_DATA = {
       "lon": 17.2065695,
       "organizers": [
         "Järlåsa Bygdegård"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "snostorps-kyrka",
+      "name": "Snöstorps Kyrka",
+      "address": "Snöstorps Kyrka, Ljungbyvägen 72, Halmstad",
+      "category": "motesplats",
+      "region": "Halland",
+      "lat": 56.67048,
+      "lon": 12.917867,
+      "organizers": [
+        "The Old Knutters"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "borgeby-slott",
+      "name": "Borgeby Slott",
+      "address": "Borgeby Slott, Borgeby Slottsväg 13, Bjärred",
+      "category": "motesplats",
+      "region": "Skåne",
+      "lat": 55.749722,
+      "lon": 13.0344675,
+      "organizers": [
+        "MCHK Syd",
+        "Borgeby Slott"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "ugglans-park",
+      "name": "Ugglans park",
+      "address": "Ugglans park, Strängnäs",
+      "category": "motesplats",
+      "region": "Södermanland",
+      "lat": 59.3772444,
+      "lon": 17.0301644,
+      "organizers": [
+        "Blotsvens MC",
+        "MCHK Södermanland"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "elofsbergsvagen-25-strangnas",
+      "name": "Elofsbergsvägen 25, Strängnäs",
+      "address": "Elofsbergsvägen 25, Strängnäs",
+      "category": "motesplats",
+      "region": "Södermanland",
+      "lat": 59.3345935,
+      "lon": 17.044716,
+      "organizers": [
+        "No Name MC Strängnäs",
+        "No Name MC Strengnäs"
       ],
       "eventCount": 2
     },
@@ -1022,6 +1483,19 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "ostra-sallerups-kyrka",
+      "name": "Östra Sallerups kyrka",
+      "address": "Östra Sallerups kyrka",
+      "category": "motesplats",
+      "region": "Skåne",
+      "lat": 55.8013757,
+      "lon": 13.7294224,
+      "organizers": [
+        "Vulcan Riders Sweden"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "karlstorpstugan",
       "name": "Karlstorpstugan",
       "address": "Karlstorpstugan, Sperlingsholm 797, Holm",
@@ -1035,15 +1509,16 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
-      "id": "ostra-sallerups-kyrka",
-      "name": "Östra Sallerups kyrka",
-      "address": "Östra Sallerups kyrka",
+      "id": "gulf-tungelsta",
+      "name": "GULF Tungelsta",
+      "address": "GULF Tungelsta, Södertäljevägen 19, Tungelsta",
       "category": "motesplats",
-      "region": "Skåne",
-      "lat": 55.8013757,
-      "lon": 13.7294224,
+      "region": "Stockholm",
+      "lat": 59.10568,
+      "lon": 18.04145,
       "organizers": [
-        "Vulcan Riders Sweden"
+        "Nationaldagsturen Haninge",
+        "Kari Lindh"
       ],
       "eventCount": 2
     },
@@ -1075,6 +1550,19 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "vastberga-industriomrade",
+      "name": "Västberga Industriområde",
+      "address": "Västberga Industriområde, Drivhjulsvägen, Stockholm",
+      "category": "motesplats",
+      "region": "Stockholm",
+      "lat": 59.2995624,
+      "lon": 18.0201867,
+      "organizers": [
+        "Tårtan Mopedoz"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "mc-konsult-i-lidkoping",
       "name": "Mc-konsult i Lidköping",
       "address": "Mc-konsult i Lidköping",
@@ -1084,6 +1572,20 @@ const PLACES_DATA = {
       "lon": 13.167844,
       "organizers": [
         "Kör Hoj"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "lundegard-camping",
+      "name": "Lundegård Camping",
+      "address": "Lundegård Camping, Köpingsvik, Öland",
+      "category": "camping",
+      "region": "Kalmar",
+      "lat": 56.9056581,
+      "lon": 16.7324971,
+      "organizers": [
+        "American Days Sweden",
+        "American Days"
       ],
       "eventCount": 2
     },
@@ -1169,6 +1671,20 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "lilla-kongahallavagen",
+      "name": "Lilla Kongahällavägen",
+      "address": "Lilla Kongahällavägen, Kungälv",
+      "category": "motesplats",
+      "region": "Västra Götaland",
+      "lat": 57.869754,
+      "lon": 11.9740317,
+      "organizers": [
+        "ADV riders väst",
+        "BMW MC-klubben"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "myntgatan-8",
       "name": "Myntgatan 8",
       "address": "Myntgatan 8, Avesta",
@@ -1195,6 +1711,19 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "brannaregatan-6",
+      "name": "Brännaregatan 6",
+      "address": "Brännaregatan 6, 672 31 Årjäng",
+      "category": "motesplats",
+      "region": "Värmland",
+      "lat": 59.3825753,
+      "lon": 12.131063,
+      "organizers": [
+        "Goodguys Mc"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "yamaha-center",
       "name": "Yamaha Center",
       "address": "Yamaha Center, Vångavägen 4, Hyllinge",
@@ -1204,19 +1733,6 @@ const PLACES_DATA = {
       "lon": 12.8524663,
       "organizers": [
         "I Can Ride Adventure"
-      ],
-      "eventCount": 2
-    },
-    {
-      "id": "lindenborgvej-2",
-      "name": "Lindenborgvej 2",
-      "address": "Lindenborgvej 2, 4000 Roskilde, Danmark",
-      "category": "motesplats",
-      "region": "Danmark",
-      "lat": 55.6214456,
-      "lon": 12.0534626,
-      "organizers": [
-        "H-D Klubben af 1930"
       ],
       "eventCount": 2
     },
@@ -1287,15 +1803,28 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
-      "id": "verkstadsgatan-1",
-      "name": "Verkstadsgatan 1",
-      "address": "Verkstadsgatan 1, Skurup",
-      "category": "verkstad",
-      "region": "Skåne",
-      "lat": 55.4862006,
-      "lon": 13.5118304,
+      "id": "gymnasievej-3",
+      "name": "Gymnasievej 3",
+      "address": "Gymnasievej 3, Stenløse, Danmark",
+      "category": "motesplats",
+      "region": "Danmark",
+      "lat": 55.7745182,
+      "lon": 12.1960015,
       "organizers": [
-        "Moonshine Runner Custom"
+        "H-D Klubben af 1930"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "klockaregatan",
+      "name": "Klockaregatan",
+      "address": "Klockaregatan, Askersund",
+      "category": "motesplats",
+      "region": "Örebro",
+      "lat": 58.8894268,
+      "lon": 14.9109867,
+      "organizers": [
+        "BMW MC-klubben"
       ],
       "eventCount": 2
     },
@@ -1354,6 +1883,20 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "vikingagrillen",
+      "name": "Vikingagrillen",
+      "address": "Vikingagrillen, Lilla Kongahällavägen 11, Kungälv",
+      "category": "cafe",
+      "region": "Västra Götaland",
+      "lat": 57.8582802,
+      "lon": 11.9991531,
+      "organizers": [
+        "H-DCS",
+        "Vulcan Riders Sweden"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "biltema",
       "name": "Biltema",
       "address": "Biltema, Hudiksvall",
@@ -1367,16 +1910,16 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
-      "id": "cafe-rosenhill",
-      "name": "Café Rosenhill",
-      "address": "Café Rosenhill, Rosenhill 23, Botkyrka",
-      "category": "cafe",
-      "region": "Stockholm",
-      "lat": 59.1398851,
-      "lon": 17.8328799,
+      "id": "wiggersvik-camping",
+      "name": "Wiggersvik camping",
+      "address": "Wiggersvik camping, Kungshamn",
+      "category": "camping",
+      "region": "Västra Götaland",
+      "lat": 58.3630857,
+      "lon": 11.2807908,
       "organizers": [
-        "Yamahacenter Stockholm",
-        "Café Rosenhill"
+        "Wiggersviks Camping",
+        "H-DCS"
       ],
       "eventCount": 2
     },
@@ -1390,6 +1933,19 @@ const PLACES_DATA = {
       "lon": 20.1417147,
       "organizers": [
         "Umeå Terräng&Motor"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "asogatan-159",
+      "name": "Åsögatan 159",
+      "address": "Åsögatan 159, Stockholm",
+      "category": "motesplats",
+      "region": "Stockholm",
+      "lat": 59.3143321,
+      "lon": 18.0839995,
+      "organizers": [
+        "The Occasional Rider"
       ],
       "eventCount": 2
     },
@@ -1408,6 +1964,19 @@ const PLACES_DATA = {
       "eventCount": 2
     },
     {
+      "id": "torskrok",
+      "name": "Torskrok",
+      "address": "Torskrok, Myresjö",
+      "category": "motesplats",
+      "region": "Jönköping",
+      "lat": 57.3834639,
+      "lon": 14.9598058,
+      "organizers": [
+        "Vetlanda ATV Offroad"
+      ],
+      "eventCount": 2
+    },
+    {
       "id": "handelsboden",
       "name": "Handelsboden",
       "address": "Handelsboden, Ryttarhalsvägen 15, Kungens Kurva",
@@ -1418,6 +1987,72 @@ const PLACES_DATA = {
       "organizers": [
         "Stockholmsvingarna",
         "MCE"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "red-wings-mora-mc-klubbstuga",
+      "name": "Red Wings Mora MC klubbstuga",
+      "address": "Red Wings Mora MC klubbstuga, Lomsmyren, Mora",
+      "category": "mc-klubb",
+      "region": "Dalarna",
+      "lat": 60.97745,
+      "lon": 14.5057169,
+      "organizers": [
+        "Red Wings Mora MC"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "stortorget",
+      "name": "Stortorget",
+      "address": "Stortorget, Östersund",
+      "category": "motesplats",
+      "region": "Jämtland",
+      "lat": 63.179182,
+      "lon": 14.635484,
+      "organizers": [
+        "Templar Knights MC"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "edsvallabacken-5",
+      "name": "Edsvallabacken 5",
+      "address": "Edsvallabacken 5, 123 43 Farsta",
+      "category": "motesplats",
+      "region": "Stockholm",
+      "lat": 59.2410587,
+      "lon": 18.1141892,
+      "organizers": [
+        "Moonshine Cruisers Sthlm"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "monikas-cafe",
+      "name": "Monikas Café",
+      "address": "Monikas Café, Norsjövallen",
+      "category": "cafe",
+      "region": "Västerbotten",
+      "lat": 64.946508,
+      "lon": 19.371231,
+      "organizers": [
+        "Nobody's MC Lappland",
+        "H-DCS"
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "kyrkasvagen-3-lekvattnet",
+      "name": "Kyrkåsvägen 3, Lekvattnet",
+      "address": "Kyrkåsvägen 3, Lekvattnet",
+      "category": "motesplats",
+      "region": "Värmland",
+      "lat": 60.1869878,
+      "lon": 12.6690824,
+      "organizers": [
+        "Lekvattnets snöskoterklubb"
       ],
       "eventCount": 2
     }

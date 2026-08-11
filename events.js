@@ -11,7 +11,7 @@
  * Data contains integrity markers for copy detection.
  */
 const EVENTS_DATA = {
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-07-31",
   "events": [
     {
       "_ad": true,
@@ -983,11 +983,11 @@ const EVENTS_DATA = {
       "location": "Väringgården, Träkvista torg, Ekerö",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.",
+      "description": "DOA:s tisdagslunch: vi ses på Väringgårdens Kök och Bar och äter raggmunk varje tisdag, året om. Samling kl 11:30.",
       "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-04/",
       "region": "Stockholm",
       "source": "hdcs.se",
-      "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+      "descriptionFull": "Tid: tisdag 4 augusti 2026 kl 11:30-12:30.\nPlats: Väringgården, Träkvista torg, Jungfrusundsvägen 6, Ekerö.\n\nVi ses på Väringgården's Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nKontakt: Lennart, 0722-126 320.",
       "links": [
         {
           "label": "hdcs.se",
@@ -1638,33 +1638,6 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back-3.jpg"
     },
     {
-      "id": "doa-kvallskörning-uppsala-2026-08-06",
-      "name": "DOA - Kvällskörning Uppsala",
-      "date": "2026-08-06",
-      "dateEnd": "2026-08-06",
-      "location": "Circle K, Rapsgatan 1H, Uppsala",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-      "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-06/",
-      "region": "Uppsala",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-06/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K%2C+Rapsgatan+1H%2C+Uppsala",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back.jpg"
-    },
-    {
       "id": "doa-kvallstur-skogskyrkogarden-2026-08-06",
       "name": "DOA - Kvällstur Skogskyrkogården",
       "date": "2026-08-06",
@@ -1699,11 +1672,11 @@ const EVENTS_DATA = {
       "location": "Nobody's MC Lappland, Lycksele",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
+      "description": "DOH:s fikaträff hos Nobody's MC Lappland kl 18:00-21:00, Fabriksgatan 2. Hockeyvarning på storbild.",
       "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-08-06/",
       "region": "Västerbotten",
       "source": "hdcs.se",
-      "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+      "descriptionFull": "Tid: torsdag 6 augusti 2026 kl 18:00-21:00.\nPlats: Nobody's MC Lappland, Fabriksgatan 2, Lycksele.\n\nVi träffas hos Nobody's MC och fikar. Hockeyvarning på storbild.\n\nArrangör: H-DCS Distrikt H.",
       "links": [
         {
           "label": "hdcs.se",
@@ -3159,6 +3132,38 @@ const EVENTS_DATA = {
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back-3.jpg"
     },
+        {
+      "id": "ljungvikstorg-motortraff-musik-2026-08-11",
+      "name": "Motorträff med musikunderhållning",
+      "date": "2026-08-11",
+      "dateEnd": "2026-08-11",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Ljungviks Torg, Gråbo Industriväg, Gråbo",
+      "organizer": "Ljungviks Torg",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1452007393424111",
+      "_vehicle": "mc",
+      "description": "Motorträff på Ljungviks Torg i Gråbo med en timmes liveunderhållning av Inger Nordström Band kl 18-19. Foodtrucks och kaffe på plats. Entusiastfordon släpps in på torget i första hand.",
+      "descriptionFull": "Denna gången blir det en timmas musikunderhållning under motorträffen!\n* Inger Nordström Band spelar mellan kl. 18-19\n* Gråbo Centrumförening bistår med musikarrangemanget!\n* La Delicia Foodtruck finns på plats.\n* Panda Churros Foodtruck finns på plats.\n* Kaffe och bulle utanför Evolution Shop\n* I första hand kommer entusiastfordon släppas in på torget. Övriga besökare hänvisas till att parkera i närheten av torget utan att blockera övrig trafik, samt på parkeringen vid fotbollsplanen mitt emot Gulfmacken.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1452007393424111"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/ljungvikstorg"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ljungviks+Torg+Gråbo+Industriväg+Gråbo",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/ljungvikstorg-motortraff-musik-back-2026-08-11.jpg"
+    },
     {
       "id": "doa-kvallskörning-ekero-udda-veckor-2026-08-11",
       "name": "DOA - Kvällskörning Ekerö, udda veckor",
@@ -3194,11 +3199,11 @@ const EVENTS_DATA = {
       "location": "Väringgården, Träkvista torg, Ekerö",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.",
+      "description": "DOA:s tisdagslunch: vi ses på Väringgårdens Kök och Bar och äter raggmunk varje tisdag, året om. Samling kl 11:30.",
       "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-11/",
       "region": "Stockholm",
       "source": "hdcs.se",
-      "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+      "descriptionFull": "Tid: tisdag 11 augusti 2026 kl 11:30-12:30.\nPlats: Väringgården, Träkvista torg, Jungfrusundsvägen 6, Ekerö.\n\nVi ses på Väringgården's Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nKontakt: Lennart, 0722-126 320.",
       "links": [
         {
           "label": "hdcs.se",
@@ -3297,6 +3302,39 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/twin-club-tisdagstur-back.jpg"
+    },
+        {
+      "id": "scrc-hall-of-odin-onsdagskorning-2026-08-12",
+      "name": "Onsdagskörning",
+      "date": "2026-08-12",
+      "dateEnd": "2026-08-12",
+      "time": "17:45",
+      "type": "Körning",
+      "region": "Halland",
+      "location": "Circle K, Kollavarvsvägen 10, Kungsbacka",
+      "organizer": "SCRC #738 Hall of Odin",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/738hallofodin",
+      "_vehicle": "mc",
+      "description": "Onsdagskörning med SCRC #738 Hall of Odin. Samling 17:45, avfärd 18:00 från Circle K, Kollavarvsvägen 10, Kungsbacka. Fika säljs vid målet. Alla välkomna oavsett hoj eller erfarenhet.",
+      "descriptionFull": "Välkomna att följa med på vår onsdagskörning.\nSamling 17:45 och avfärd 18:00.\nFika/förtäring kommer att finnas att handla vid målet för veckans körning.\nAlla är välkomna att åka med, oavsett typ av hoj, erfarenhet, kön eller någon annan oväsentlig egenskap.\n\nVälkomna\nRC / Sture",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2279194646148552"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/738hallofodin"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kollavarvsvägen+10+Kungsbacka",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
+      "backImage": "ads/scrc-hall-of-odin-onsdagskorning-back-2026-08-12.jpg"
     },
     {
       "id": "doa-kvallskörning-norrtalje-2026-08-12",
@@ -3643,33 +3681,6 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back-2.jpg"
-    },
-    {
-      "id": "doa-kvallskörning-uppsala-2026-08-13",
-      "name": "DOA - Kvällskörning Uppsala",
-      "date": "2026-08-13",
-      "dateEnd": "2026-08-13",
-      "location": "Circle K, Rapsgatan 1H, Uppsala",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-      "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-13/",
-      "region": "Uppsala",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-13/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K%2C+Rapsgatan+1H%2C+Uppsala",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back-3.jpg"
     },
     {
       "id": "doa-kvallstur-skogskyrkogarden-2026-08-13",
@@ -4845,6 +4856,34 @@ const EVENTS_DATA = {
       ],
       "backImage": "ads/uppsala-american-car-show-back-2026-08-15.jpg"
     },
+        {
+      "id": "tolg-veteranmoped-mc-rally-2026-08-16",
+      "name": "Veteranmoped- och MC-rally i Tolg",
+      "date": "2026-08-16",
+      "dateEnd": "2026-08-16",
+      "time": "09:00",
+      "type": "Körning",
+      "region": "Kronoberg",
+      "location": "Tolgs Östra Kyrkstall, Tolg",
+      "organizer": "Tolgs Skytteförening",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=3845441825609215&set=gm.2763896813991904&idorvanity=224556431259301",
+      "_vehicle": "both",
+      "description": "Tolgs Skytteförenings femte veteranmoped- och MC-rally. Samling 09.00, start 10.00 vid Tolgs Östra Kyrkstall. Runda ca 3 mil i natursköna Tolg, norr om Växjö. Startavgift 120 kr.",
+      "descriptionFull": "Tolgs Skytteförenings femte rally startar som de tidigare åren vid Tolgs Östra Kyrkstall.\nSamling vid 09.00 och start vid 10.00.\nTuren går i det natursköna Tolg 3 mil norr om Växjö. Längs en runda som är ca. 3 mil lång.\nStartavgift 120kr, där det ingår korv med bröd, kaffe och fika.\nPrisutdelning blir i bygdegården där även våfflor serveras.\nKontaktperson: Peter Gustavsson 070-6477784. Ingen föranmälan behövs.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=3845441825609215&set=gm.2763896813991904&idorvanity=224556431259301"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tolgs+kyrka,+Tolg",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/tolg-veteranmoped-mc-rally-back-2026-08-16.jpg"
+    },
     {
       "id": "moppekul-yllerallyt-gallstad-2026-08-16",
       "name": "Yllerallyt",
@@ -4939,14 +4978,14 @@ const EVENTS_DATA = {
       "name": "DOB- Pelles runda",
       "date": "2026-08-16",
       "dateEnd": "2026-08-16",
-      "location": "Skåne",
+      "location": "Preem, Klippan",
       "type": "Körning",
       "organizer": "H-DCS",
-      "description": "Arrangemang med H-DCS DOB från Skåne. Mötespunkt för Harley-klubben. Mer info på hdcs.se.",
+      "description": "Rundtur på goa, kurviga asfaltvägar i nordvästra Skåne och södra Halland. Samling kl 10:15 vid Preem, avfärd 10:30. Medtag fika.",
       "link": "https://hdcs.se/evenemang/dob-pelles-runda/",
       "region": "Skåne",
       "source": "hdcs.se",
-      "descriptionFull": "DOB- Pelles runda arrangeras av H-DCS.\n\nArrangemang med H-DCS DOB från Skåne. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Skåne.",
+      "descriptionFull": "Tid: söndag 16 augusti 2026 kl 10:15-15:00.\nSamling: Preem vid väg 13 i Klippan, avfärd 10:30.\n\nDen 16/8 kl 10.15 samlas vi på Preem vid väg 13 i Klippan (som tidigare) för avfärd 10.30. Vi kör som tidigare på lite nya och lite gamla vägar. Rundan sträcker sig till NV Skåne och lite i S Halland.\n\nVägarna är som vanligt goa, asfalterade, mc-vänliga, kurviga i skog och landsbygd. Medtag fika som vi avnjuter vid något bra ställe.\n\nVi hoppas klart på bra väder, men vid ev. dåligt väder blir det inställt, detta meddelas senast kvällen före.\n\nArrangör: H-DCS Distrikt B (DOB).",
       "links": [
         {
           "label": "hdcs.se",
@@ -4954,7 +4993,7 @@ const EVENTS_DATA = {
         },
         {
           "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne",
+          "url": "https://www.google.com/maps/search/?api=1&query=Preem+Klippan",
           "type": "map"
         }
       ],
@@ -5140,11 +5179,11 @@ const EVENTS_DATA = {
       "location": "Väringgården, Träkvista torg, Ekerö",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.",
+      "description": "DOA:s tisdagslunch: vi ses på Väringgårdens Kök och Bar och äter raggmunk varje tisdag, året om. Samling kl 11:30.",
       "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-18/",
       "region": "Stockholm",
       "source": "hdcs.se",
-      "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+      "descriptionFull": "Tid: tisdag 18 augusti 2026 kl 11:30-12:30.\nPlats: Väringgården, Träkvista torg, Jungfrusundsvägen 6, Ekerö.\n\nVi ses på Väringgården's Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nKontakt: Lennart, 0722-126 320.",
       "links": [
         {
           "label": "hdcs.se",
@@ -5644,33 +5683,6 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back-2.jpg"
     },
     {
-      "id": "doa-kvallskörning-uppsala-2026-08-20",
-      "name": "DOA - Kvällskörning Uppsala",
-      "date": "2026-08-20",
-      "dateEnd": "2026-08-20",
-      "location": "Circle K, Rapsgatan 1H, Uppsala",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-      "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-20/",
-      "region": "Uppsala",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-20/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K%2C+Rapsgatan+1H%2C+Uppsala",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back-3.jpg"
-    },
-    {
       "id": "doa-kvallstur-skogskyrkogarden-2026-08-20",
       "name": "DOA - Kvällstur Skogskyrkogården",
       "date": "2026-08-20",
@@ -5705,11 +5717,11 @@ const EVENTS_DATA = {
       "location": "Nobody's MC Lappland, Lycksele",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Träffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!",
+      "description": "DOH:s fikaträff hos Nobody's MC Lappland kl 18:00-21:00, Fabriksgatan 2. Hockeyvarning på storbild.",
       "link": "https://hdcs.se/evenemang/doh-fika-lycksele-2/2026-08-20/",
       "region": "Västerbotten",
       "source": "hdcs.se",
-      "descriptionFull": "DOH-Fika Lycksele arrangeras av H-DCS.\n\nTräffpunkt för DOH i Nobody's MC Lappland, Lycksele. Gemensam fika och MC-umgänge. Alla medlemmar välkomna!\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Nobody's MC Lappland, Lycksele.",
+      "descriptionFull": "Tid: torsdag 20 augusti 2026 kl 18:00-21:00.\nPlats: Nobody's MC Lappland, Fabriksgatan 2, Lycksele.\n\nVi träffas hos Nobody's MC och fikar. Hockeyvarning på storbild.\n\nArrangör: H-DCS Distrikt H.",
       "links": [
         {
           "label": "hdcs.se",
@@ -6009,6 +6021,10 @@ const EVENTS_DATA = {
           "url": "https://www.facebook.com/photo/?fbid=10163177337298020&set=gm.10162412457880759&idorvanity=44150200758"
         },
         {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163441292458020&set=gm.2947138605635729&idorvanity=1681065958909673"
+        },
+        {
           "label": "FB Grupp",
           "url": "https://www.facebook.com/groups/44150200758"
         },
@@ -6141,6 +6157,39 @@ const EVENTS_DATA = {
       ],
       "backImage": "ads/bmw-default-back.jpg"
     },
+        {
+      "id": "twin-club-kopparmoppen-2026-08-22",
+      "name": "Kopparmoppen",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Dalarna",
+      "location": "Ingarvsvägen 8b, Falun",
+      "organizer": "The Twin Club Falun",
+      "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
+      "source": "thetwinclub.se",
+      "link": "https://www.thetwinclub.se/kopparmoppen",
+      "_vehicle": "moped",
+      "description": "The Twin Club Falun arrangerar 14:e Kopparmoppen, ett mopedrally för veteranmopeder i Dalarna 2026. Start kl 10-11 vid Ingarvsvägen 8b, Falun. Anmälan senast 16/8, 200 kr inkl mat.",
+      "descriptionFull": "The Twin Club Falun bjuder in till 14:e Kopparmoppen, ett mopedrally för veteranmopeder.\n\nDatum: 22 augusti 2026\nPlats: Ingarvsvägen 8b\nStart kl 10-11\nSista anmälningsdag: 16/8 2026\nAvgift: 200 kr, mat ingår\n\nAnmälan till Barbro 070-5793767 eller Elisabeth 070-2321626.\nBetalning kontant eller via Swish 123 291 23 35.\n\nSe mer på www.thetwinclub.se/kopparmoppen",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=28374584268816160&set=gm.2763785080669744&idorvanity=224556431259301"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/thetwinclub"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ingarvsvägen+8b+Falun",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/twin-club-kopparmoppen-back-2026-08-22.jpg"
+    },
     {
       "id": "kortkalsongrallyt-garphyttan-2026-08-22",
       "name": "Kortkalsongrallyt",
@@ -6246,11 +6295,11 @@ const EVENTS_DATA = {
       "location": "Ekerö",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Arrangemang med H-DCS DOA från Ekerö. Mötespunkt för Harley-klubben. Mer info på hdcs.se.",
+      "description": "Rundtur med H-DCS Distrikt A. Mer information kommer på hdcs.se närmare eventet.",
       "link": "https://hdcs.se/evenemang/doa-ekero-runt/",
       "region": "Stockholm",
       "source": "hdcs.se",
-      "descriptionFull": "DOA - Ekerö Runt arrangeras av H-DCS.\n\nArrangemang med H-DCS DOA från Ekerö. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Ekerö.",
+      "descriptionFull": "Lördag 22 augusti 2026.\nPlats: Ekerö.\n\nMer information kommer.\n\nArrangör: H-DCS Distrikt A (DOA).",
       "links": [
         {
           "label": "hdcs.se",
@@ -6273,11 +6322,11 @@ const EVENTS_DATA = {
       "location": "Öland",
       "type": "Körning",
       "organizer": "H-DCS",
-      "description": "Arrangemang med H-DCS DOE från Öland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.",
+      "description": "Tvådagarstur på fina Ölandsvägar med Hasse: norrut till Borgholm på lördagen, södra Öland på söndagen. Samling kl 09:45 på Rasta i Kalmar.",
       "link": "https://hdcs.se/evenemang/doe-hasses-olandsrunda-22-23-augusti/",
       "region": "Kalmar",
       "source": "hdcs.se",
-      "descriptionFull": "DOE Hasses Ölandsrunda 22-23 augusti arrangeras av H-DCS.\n\nArrangemang med H-DCS DOE från Öland. Mötespunkt för Harley-klubben. Mer info på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Öland.",
+      "descriptionFull": "Tid: lördag 22 till söndag 23 augusti 2026.\nSamling lördag: Rasta i Kalmar kl 09:45, start kl 10:00.\n\nSamling på Rasta i Kalmar kl 09.45. Samtliga har fulltankade motorcyklar vid starten som är kl 10.00!\n\nHasse tar er med på fina Ölandsvägar norrut med en tank- och fikapaus i Löttorp för den som är sugen. Vi landar in i Borgholm sen eftermiddag där var och en fixar sitt boende för natten.\n\nSöndag samling på parkeringen framför Kapelluddens camping i Borgholm kl 09.15. Samtliga har fulltankade motorcyklar vid avfärden kl 09.30!\n\nNu tar vi fina vägar ner till södra Öland med en fikapaus längs vägen. Vi avslutar dagens tur i Arontorp på Öland där det finns möjlighet att köpa mat för den som vill.\n\nKontakt: ring Hasse på 076-850 76 28.",
       "links": [
         {
           "label": "hdcs.se",
@@ -7003,11 +7052,11 @@ const EVENTS_DATA = {
       "location": "Väringgården, Träkvista torg, Ekerö",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Vi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.",
+      "description": "DOA:s tisdagslunch: vi ses på Väringgårdens Kök och Bar och äter raggmunk varje tisdag, året om. Samling kl 11:30.",
       "link": "https://hdcs.se/evenemang/doa-tisdagslunch/2026-08-25/",
       "region": "Stockholm",
       "source": "hdcs.se",
-      "descriptionFull": "DOA - Tisdagslunch arrangeras av H-DCS.\n\nVi ses på Väringgården’s Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Väringgården, Träkvista torg, Ekerö.",
+      "descriptionFull": "Tid: tisdag 25 augusti 2026 kl 11:30-12:30.\nPlats: Väringgården, Träkvista torg, Jungfrusundsvägen 6, Ekerö.\n\nVi ses på Väringgården's Kök och Bar och äter Raggmunk varje tisdag, året om.\n\nKontakt: Lennart, 0722-126 320.",
       "links": [
         {
           "label": "hdcs.se",
@@ -7559,33 +7608,6 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back-2.jpg"
     },
     {
-      "id": "doa-kvallskörning-uppsala-2026-08-27",
-      "name": "DOA - Kvällskörning Uppsala",
-      "date": "2026-08-27",
-      "dateEnd": "2026-08-27",
-      "location": "Circle K, Rapsgatan 1H, Uppsala",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-      "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-27/",
-      "region": "Uppsala",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-08-27/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K%2C+Rapsgatan+1H%2C+Uppsala",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back-3.jpg"
-    },
-    {
       "id": "doa-kvallstur-skogskyrkogarden-2026-08-27",
       "name": "DOA - Kvällstur Skogskyrkogården",
       "date": "2026-08-27",
@@ -7832,11 +7854,11 @@ const EVENTS_DATA = {
       "location": "Orö, Danmark",
       "type": "Träff",
       "organizer": "H-DCS",
-      "description": "Arrangemang med H-DCS från Orö, Danmark. Mötespunkt för Harley-klubben. Mer information på hdcs.se.",
+      "description": "Blandträff för alla märken på ön Orö med medlemmar från Distrikt B. Ingen samordnad körning dit. Vägfärjan är gratis för träffdeltagare.",
       "link": "https://hdcs.se/evenemang/dsb-oro-traffen-i-dk/",
       "region": "Danmark",
       "source": "hdcs.se",
-      "descriptionFull": "Orö träffen i DK arrangeras av H-DCS.\n\nArrangemang med H-DCS från Orö, Danmark. Mötespunkt för Harley-klubben. Mer information på hdcs.se.\n\nEn träffpunkt för MC-entusiaster. Alla är välkomna oavsett vilken hoj du kör.\n\nPlats: Orö, Danmark.",
+      "descriptionFull": "Tid: fredag 28 till söndag 30 augusti 2026.\nPlats: Orö, Danmark.\n\nOrö träffen är en blandträff för alla märken. Det blir ingen samordnad körning dit utan åk dit och leta upp medlemmar från B.\n\nMer information finns i Facebookgruppen MC Island Orö. Vägfärjan till Orö är gratis för träffdeltagare.\n\nArrangör: H-DCS Distrikt B.",
       "links": [
         {
           "label": "hdcs.se",
@@ -8109,33 +8131,6 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
-    },
-    {
-      "id": "doa-upplandsturen-2026",
-      "name": "DOA - Upplandsturen",
-      "date": "2026-08-29",
-      "dateEnd": "2026-08-29",
-      "location": "Stockholm",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Körtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.",
-      "link": "https://hdcs.se/evenemang/doa-upplandsturen/",
-      "region": "Stockholm",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Upplandsturen arrangeras av H-DCS.\n\nKörtur med H-DCS DOA från Stockholm. Gemensam MC-körning. Samling enligt evenemangsinformation på hdcs.se.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Stockholm.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-upplandsturen/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Stockholm",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back-3.jpg"
     },
     {
       "id": "oamck-kraftkalas-2026",
@@ -8981,33 +8976,6 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back-2.jpg"
-    },
-    {
-      "id": "doa-kvallskörning-uppsala-2026-09-03",
-      "name": "DOA - Kvällskörning Uppsala",
-      "date": "2026-09-03",
-      "dateEnd": "2026-09-03",
-      "location": "Circle K, Rapsgatan 1H, Uppsala",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-      "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-03/",
-      "region": "Uppsala",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-03/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K%2C+Rapsgatan+1H%2C+Uppsala",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back-3.jpg"
     },
     {
       "id": "doa-kvallstur-skogskyrkogarden-2026-09-03",
@@ -10621,33 +10589,6 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back-2.jpg"
     },
     {
-      "id": "doa-kvallskörning-uppsala-2026-09-10",
-      "name": "DOA - Kvällskörning Uppsala",
-      "date": "2026-09-10",
-      "dateEnd": "2026-09-10",
-      "location": "Circle K, Rapsgatan 1H, Uppsala",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-      "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-10/",
-      "region": "Uppsala",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-10/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K%2C+Rapsgatan+1H%2C+Uppsala",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back-3.jpg"
-    },
-    {
       "id": "doa-kvallstur-skogskyrkogarden-2026-09-10",
       "name": "DOA - Kvällstur Skogskyrkogården",
       "date": "2026-09-10",
@@ -11977,33 +11918,6 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
-      "id": "doa-kvallskörning-uppsala-2026-09-17",
-      "name": "DOA - Kvällskörning Uppsala",
-      "date": "2026-09-17",
-      "dateEnd": "2026-09-17",
-      "location": "Circle K, Rapsgatan 1H, Uppsala",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-      "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-17/",
-      "region": "Uppsala",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-17/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K%2C+Rapsgatan+1H%2C+Uppsala",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back-2.jpg"
-    },
-    {
       "id": "doa-kvallstur-skogskyrkogarden-2026-09-17",
       "name": "DOA - Kvällstur Skogskyrkogården",
       "date": "2026-09-17",
@@ -13097,33 +13011,6 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back-3.jpg"
-    },
-    {
-      "id": "doa-kvallskörning-uppsala-2026-09-24",
-      "name": "DOA - Kvällskörning Uppsala",
-      "date": "2026-09-24",
-      "dateEnd": "2026-09-24",
-      "location": "Circle K, Rapsgatan 1H, Uppsala",
-      "type": "Körning",
-      "organizer": "H-DCS",
-      "description": "Välkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.",
-      "link": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-24/",
-      "region": "Uppsala",
-      "source": "hdcs.se",
-      "descriptionFull": "DOA - Kvällskörning Uppsala arrangeras av H-DCS.\n\nVälkomna på torsdagskörning LO Joakim guidar oss på en tur. Samling kl. 17:00 Planerad avfärd kl.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Circle K, Rapsgatan 1H, Uppsala.",
-      "links": [
-        {
-          "label": "hdcs.se",
-          "url": "https://hdcs.se/evenemang/doa-kvallskörning-uppsala-4/2026-09-24/"
-        },
-        {
-          "label": "Karta",
-          "url": "https://www.google.com/maps/search/?api=1&query=Circle+K%2C+Rapsgatan+1H%2C+Uppsala",
-          "type": "map"
-        }
-      ],
-      "organizerIcon": "clubs/normalized/hdcs.png",
-      "backImage": "ads/hd-default-back.jpg"
     },
     {
       "id": "doa-kvallstur-skogskyrkogarden-2026-09-24",
