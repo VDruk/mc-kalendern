@@ -4167,6 +4167,34 @@ const EVENTS_DATA = {
         }
       ]
     },
+        {
+      "id": "slava-till-malaren-runt-2026-08-15",
+      "name": "Från Uppsala till Mälaren Runt",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "08:00",
+      "type": "Körning",
+      "region": "Uppsala",
+      "location": "Eva Lagerwalls väg 1, Uppsala",
+      "organizer": "Slava Druk",
+      "source": "web",
+      "link": "https://www.svmc.se/maelaren-runt-2026/",
+      "_vehicle": "mc",
+      "description": "Slava kör från Uppsala till Mälaren Runts 40-årsjubileum. Samling vid parkeringen Eva Lagerwalls väg 1 kl 08:00 på lördag 15 augusti. Häng på, alla är välkomna!",
+      "descriptionFull": "Jag kör till Mälaren Runt i år, och det går bra att hänga på!\n\nSamling vid parkeringen på Eva Lagerwalls väg 1, Uppsala, kl 08:00 på lördag 15 augusti. Vi kör gemensamt ner mot starten vid Pampas Marina i Solna, där själva Mälaren Runt drar igång kl 11.00.\n\nAlla som vill köra med är varmt välkomna, hör av dig om du vill hänga på!",
+      "links": [
+        {
+          "label": "svmc.se",
+          "url": "https://www.svmc.se/maelaren-runt-2026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Eva+Lagerwalls+väg+1+Uppsala",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/slava-till-malaren-runt-back-2026-08-15.jpg"
+    },
     {
       "id": "tibro-mopperally-rundan-2026-08-15",
       "name": "Mopperally Tibrorundan",
