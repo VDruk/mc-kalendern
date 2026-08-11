@@ -4197,7 +4197,7 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ],
-      "frontImage": "ads/slava-till-malaren-runt-front-2026-08-15.jpg"
+      "backImage": "ads/slava-till-malaren-runt-back-2026-08-15.jpg"
     },
     {
       "id": "tibro-mopperally-rundan-2026-08-15",
