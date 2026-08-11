@@ -3272,10 +3272,10 @@ const EVENTS_DATA = {
     },
     {
       "id": "twin-club-tisdagstur-2026-08-11",
-      "name": "Tisdagstur på motorcykel",
+      "name": "Tisdagstur till Gustavs Bröd",
       "date": "2026-08-11",
       "dateEnd": "2026-08-11",
-      "time": "18:30",
+      "time": "17:45",
       "endTime": "21:00",
       "type": "Körning",
       "region": "Dalarna",
@@ -3284,8 +3284,8 @@ const EVENTS_DATA = {
       "organizerIcon": "clubs/normalized/the-twin-club-falun.png",
       "source": "facebook.com",
       "link": "https://www.facebook.com/events/3976810635786444",
-      "description": "Tisdagstur med The Twin Club Falun. Resmålet meddelas närmare datumet. Avfärd 18:30 från klubbstugan. Alla med MC välkomna, inget krav på medlemskap.",
-      "descriptionFull": "Veckans tisdagstur arrangeras av The Twin Club Falun. Resmålet bestäms närmare datumet och meddelas på thetwinclub.se/tisdagsturer/.\n\nAvfärd från klubbstugan på Ingarvsvägen 8 B, Falun kl 18:30. Var på plats i god tid. Hemfärden sker enskilt.\n\nÖppet för alla med motorcykel, ingen medlemskap krävs. Vi ringer resmålet innan vi åker, så anmäl dig vid ankomst till klubbhuset. Anmälan ger även en lott i gratislotteriet.\n\nVi ställer in vid regn och tar nya tag nästa tisdag.\n\nOss väl och ingen illa.",
+      "description": "Tisdagstur med The Twin Club Falun till Gustavs Bröd, Mora by. Avfärd 17:45 från klubbstugan. Alla med MC välkomna, inget krav på medlemskap.",
+      "descriptionFull": "Tisdagsturen denna vecka går till Gustavs Bröd, Mora by.\n\nAvfärd från klubbstugan på Ingarvsvägen 8 B, Falun kl 17:45. Var på plats i god tid. Hemfärden sker enskilt.\n\nÖppet för alla med motorcykel, ingen medlemskap krävs. Anmäl dig vid ankomst till klubbhuset, det ger även en lott i gratislotteriet.\n\nOss väl och ingen illa.",
       "links": [
         {
           "label": "FB Event",
