@@ -10896,6 +10896,38 @@ const EVENTS_DATA = {
         }
       ]
     },
+        {
+      "id": "moped-rally-nostalgi-2026-09-12",
+      "name": "Moped Rally Nostalgi 2026",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-12",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Östergötland",
+      "location": "Hamnplan, Motala Motormuseum, Motala",
+      "organizer": "Motala Motorveteraner",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=1727758049088053&set=a.587967239733812",
+      "_vehicle": "moped",
+      "description": "Moped Rally Nostalgi 2026, arrangeras av Motala Motorveteraner. Start kl 10:00 vid Hamnplan utanför Motala Motormuseum. Ca 6 mil på blandad väg med fika- och korvstopp. Startavgift 150 kr, anmälan på plats.",
+      "descriptionFull": "12 september, första start kl 10:00 (kom gärna i god tid!).\nAnmäl på plats, startavgift 150 kr.\n\nStartplats: Hamnplan utanför Motala Motormuseum.\n\nSträcka ca 6 mil på blandat vägunderlag, med ett stopp för den obligatoriska fikan och korven! Avslutning på hamnplan.\n\nArrangör: Motala Motorveteraner\nSponsor: Motala Motormuseum\n\nVid frågor ring:\nRagge: 070-217 91 28\nThomas: 070-519 68 85\n\nDela gärna bland dina moppevänner!",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1727758049088053&set=a.587967239733812"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/motalamotormuseum"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Motala+Motormuseum",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/moped-rally-nostalgi-back-2026-09-12.jpg"
+    },
     {
       "id": "riders-mc-grisefest-jubileum-2026-09-12",
       "name": "Grisefest + 45 år Jubilæum",
