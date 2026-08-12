@@ -13823,6 +13823,35 @@ const EVENTS_DATA = {
       "source": "facebook.com",
       "backImage": "ads/rusktraffen-back-2026-10-09.jpg"
     },
+        {
+      "id": "stubbrace-asa-by-2026-10-10",
+      "name": "Stubbrace Åsa By",
+      "date": "2026-10-10",
+      "dateEnd": "2026-10-10",
+      "time": "09:00",
+      "endTime": "23:00",
+      "type": "Racing",
+      "region": "Jönköping",
+      "location": "Stora Åsa, Norrahammar",
+      "organizer": "Jesper Bråtenholme & Henke Söderqvist",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1786893402478605/",
+      "_vehicle": "mc",
+      "description": "Stubbrace motocross i Åsa by, Norrahammar. Klasser: 50cc, 65cc, 80cc, Bredd, Quad och Sidvagn. Priser till 1-2-3 i varje klass. After cross på logen efter racet.",
+      "descriptionFull": "Stubbarace motocross.\n\nKlasser:\n50cc\n65cc\n80cc\nBredd\nQuad\nSidvagn\n\nPriser till 1-2-3 i varje klass.\n\nAfter cross på logen efter racet.\n\nTidsschema kommer längre fram.\n\nSamma åker som förra året.\n\nMed vänlig hälsning, Jesper & Henke",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1786893402478605/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Stora+%C3%85sa+Norrahammar",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/stubbrace-asa-by-back-2026-10-10.jpg"
+    },
     {
       "id": "doa-emilsturen-2026-10-11",
       "name": "DOA - Emilsturen",
