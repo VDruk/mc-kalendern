@@ -8300,11 +8300,13 @@ const EVENTS_DATA = {
       "name": "Nilssons MC Fest",
       "date": "2026-08-29",
       "dateEnd": "2026-08-29",
+      "time": "10:00",
+      "endTime": "16:00",
       "location": "Kanongatan 159, Ödåkra",
       "type": "Show",
       "organizer": "Nilssons MC",
-      "description": "MC-fest hos Nilssons MC i Ödåkra/Helsingborg. Honda- och Suzuki-återförsäljare. Kl 10-16. Mer info kommer!",
-      "descriptionFull": "Nilssons MC Fest 2026 den 29 augusti.\n\nPlats: Kanongatan 159, 254 67 Ödåkra (Helsingborg).\n\nTid: kl 10:00-16:00.\n\nMer info kommer!",
+      "description": "MC-fest hos Nilssons MC i Helsingborg. Provkör motorcyklar, grillad korv, utställare som SMC, Boove och Vartex på plats. Ingen stor mässa, bara hojliv och gemenskap. Kl 10-16, gratis entré.",
+      "descriptionFull": "Den 29 augusti blir det MC-fest hos Nilssons MC i Helsingborg!\n\nIngen stor mässa. Ingen stress. Bara en riktigt härlig dag för dig som gillar motorcyklar, prylar, gemenskap och allt som hör hojlivet till.\n\nKom förbi, snacka hoj, träffa folk från branschen, spana in nya prylar, provkör en hoj, och käka en grillad korv medan du ändå är här!\n\nDet här kan du bland annat uppleva:\n\nMassor av motorcyklar. Ta chansen att provköra våra motorcyklar och kanske hitta just din nästa hoj. Det finns även gott om motorcyklar för dig som går i köptankar.\n\nGrillad korv. En MC-fest behöver såklart korv. Vi fixar grillen, du står för aptiten!\n\nSMC på plats. Sveriges MotorCyklister finns på plats och berättar mer om SMC, medlemskapet och allt som rör ett tryggt och aktivt MC-liv.\n\nBoove. Representanter från Boove kommer och visar upp produkter från bland annat Oxford, Motul, Puig och R&G, perfekt för dig som gillar tillbehör, utrustning och att göra hojen ännu bättre.\n\nVartex. Vartex kommer också finnas på plats med produkter från bland annat Cardo och Knox, tillsammans med mycket annat inom MC-utrustning och tillbehör.\n\nTa hojen, ta polarna och kom förbi på en avslappnad MC-lördag hos oss! Gratis entré.",
       "links": [
         {
           "label": "FB Event",
