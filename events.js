@@ -3943,6 +3943,38 @@ const EVENTS_DATA = {
         }
       ]
     },
+        {
+      "id": "rapido-grillkvall-2026-08-14",
+      "name": "Grillkväll på Rapido",
+      "date": "2026-08-14",
+      "dateEnd": "2026-08-14",
+      "time": "18:30",
+      "type": "Träff",
+      "region": "Stockholm",
+      "location": "Skansbacken 4, Stockholm",
+      "organizer": "Rapido MCK Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2051773619548339",
+      "_vehicle": "mc",
+      "description": "Grillkväll på Rapido i Stockholm. Ta med det du vill äta och dricka, eller köp något av klubben. Grillen är varm från kl 18:30, grillar ute eller äter inne beroende på väder.",
+      "descriptionFull": "På fredag 14/8 är det grillkväll på Rapido.\n\nTa med dig det du vill äta och dricka eller köp något av det klubben erbjuder. Om vädret inte är på topp grillar vi ute och äter inne. Grillen kommer vara varm från kl 18:30.\n\nVi ses,\nKjell och Dan",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2051773619548339"
+        },
+        {
+          "label": "rapido.se",
+          "url": "https://www.rapido.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Skansbacken+4+Stockholm",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/rapido-grillkvall-back-2026-08-14.jpg"
+    },
     {
       "id": "aprilia-bandag-kinnekulle-2026-08-14",
       "name": "Bandagar med Svenska Apriliaklubben",
@@ -6190,7 +6222,36 @@ const EVENTS_DATA = {
       ],
       "backImage": "ads/bmw-default-back.jpg"
     },
+            {
+      "id": "mopperally-munkfors-2026-08-22",
+      "name": "Mopedcruising med tipspromenad i Munkfors",
+      "date": "2026-08-22",
+      "dateEnd": "2026-08-22",
+      "time": "10:00",
+      "endTime": "00:00",
+      "type": "Körning",
+      "region": "Värmland",
+      "location": "Gamla Bruket, Munkfors",
+      "organizer": "Gustav Vennerström & Fredrik Bergman",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1324893552775694",
+      "_vehicle": "moped",
+      "description": "Mopedcruising med tipspromenad i Munkfors. Rullande start 10:00-11:00, samling på caféet vid Gamla Bruket. Avgift 200 kr för allt. Fest på kvällen 20:00-00:00 på Nero'Z.",
+      "descriptionFull": "Inbjudan till mopedcruising med tipspromenad! Ta med gott humör och en laglig moped.\n\n22:e augusti.\nRullande start 10:00-11:00.\nSamling på caféet vid Gamla Bruket i Munkfors.\nSkyltat från 62:an vid Majas/Brandstation.\n\nAvgift för allt: 200 kr.\n\nSkön cruising, tipspromenad, priser och härlig stämning!\n\nFest på kvällen 20:00-00:00 på Nero'Z. 200 kr för cruising och inträde, ta med egen dryck. Vid endast köp av kvällsinträde 120 kr. Gratis för Vaff-medlemmar hela dagen.\n\nKontakt: Fredrik 070 296 95 63.",
+      "links": [
         {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1324893552775694"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Gamla+Bruket+Munkfors",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/munkfors-mopedcruising-back-2026-08-22.jpg"
+    },
+    {
       "id": "twin-club-kopparmoppen-2026-08-22",
       "name": "Kopparmoppen",
       "date": "2026-08-22",
