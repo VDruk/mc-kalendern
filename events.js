@@ -4199,7 +4199,36 @@ const EVENTS_DATA = {
         }
       ]
     },
+            {
+      "id": "tjorn-runt-moped-2026-08-15",
+      "name": "Tjörn runt på moped",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "09:00",
+      "endTime": "14:00",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "Sparbankshallen, Svanvik, Tjörn",
+      "organizer": "Tjörnligan & West Coast Moppers",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=28984444387811967&set=gm.1367237005557316&idorvanity=719934536954236",
+      "_vehicle": "moped",
+      "description": "Mopedrunda runt Tjörn, ca 65 km med två stopp. Samling 09:00 vid Sparbankshallens parkering i Svanvik, start 10:00, målgång ca 14:00. Grillad korv vid mål. Anmälningsavgift går till Barncancerfonden.",
+      "descriptionFull": "Välkomna till Tjörn runt på moped 2026, lördag 15/8.\n\nEn runda på ca 65 km med två stopp. Vi träffas och går i mål på Sparbankshallens parkering i Svanvik (Wallhamnsrakan).\n\nSamling: 09:00\nStart: 10:00\nMålgång: ca 14:00\n\nVid målgången serveras grillad korv & bröd samt dricka. Ta gärna med eget fika till vårt stopp i Skärhamn. Alla anmälningsavgifter går oavkortat till Barncancerfonden.\n\nAnmälan med Swish minst 100 kr (allt går till Barncancerfonden) till Olof Beckman 0733-855438.\n\nArrangörer: Tjörnligan & West Coast Moppers.",
+      "links": [
         {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=28984444387811967&set=gm.1367237005557316&idorvanity=719934536954236"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sparbankshallen+Svanvik+Tj%C3%B6rn",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/tjorn-runt-moped-back-2026-08-15.jpg"
+    },
+    {
       "id": "slava-till-malaren-runt-2026-08-15",
       "name": "Från Uppsala till Mälaren Runt",
       "date": "2026-08-15",
@@ -13691,6 +13720,39 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+        {
+      "id": "roadburners-end-of-sesong-2026-10-02",
+      "name": "End of sesong",
+      "date": "2026-10-02",
+      "dateEnd": "2026-10-04",
+      "time": "18:00",
+      "endTime": "08:00",
+      "type": "Fest",
+      "region": "Norge",
+      "location": "Saltdalveien 46, Fauske, Norge",
+      "organizer": "Roadburners MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1810555096768245",
+      "_vehicle": "mc",
+      "description": "Roadburners MC avslutter sesongen med garasjefest hos klubbhuset i Fauske, 2-4 oktober. To dagers fest på to hjul, god stemning og godt folk.",
+      "descriptionFull": "Fæst - vi avslutter sesongen, på to hjul! Garasjefest hos Roadburners MC.\n\nGod stæmning og godt folk.\n\nPlats: Saltdalveien 46, Fauske.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1810555096768245"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100062954153588"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Saltdalveien+46+Fauske",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/roadburners-end-of-sesong-back-2026-10-02.jpg"
     },
     {
       "id": "doe-asian-food-varnamo-3-oktober-2026",
