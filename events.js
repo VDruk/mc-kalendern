@@ -4950,7 +4950,35 @@ const EVENTS_DATA = {
       ],
       "backImage": "ads/uppsala-american-car-show-back-2026-08-15.jpg"
     },
+    {
+      "id": "malaren-runt-40ar-oamck-2026-08-15",
+      "name": "Gemensam avfärd till Mälaren Runt - ÖAMCK",
+      "date": "2026-08-15",
+      "dateEnd": "2026-08-15",
+      "time": "10:00",
+      "location": "IKEA, Rapsgatan 1L, Uppsala",
+      "type": "Körning",
+      "organizer": "ÖAMCK",
+      "description": "ÖAMCK har ingen officiellt organiserad samåkning till Mälaren Runts 40-årsjubileum, men föreslår gemensam avfärd kl 10:00 från parkeringen vid IKEA i Uppsala, öppet för alla oavsett medlemskap.",
+      "descriptionFull": "ÖAMCK har ingen organiserad samåkning till Mälaren Runts 40-årsjubileum (många vill göra olika saker), men föreslår gemensam avfärd för de som önskar - oavsett om man är medlem eller inte - kl 10:00 från parkeringen vid IKEA i Uppsala.",
+      "links": [
         {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=38219368380994835&set=gm.10164844563699742&idorvanity=157758004741"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Rapsgatan+1L+Uppsala",
+          "type": "map"
+        }
+      ],
+      "link": "https://www.facebook.com/photo/?fbid=38219368380994835&set=gm.10164844563699742&idorvanity=157758004741",
+      "region": "Uppsala",
+      "source": "facebook.com",
+      "organizerIcon": "clubs/normalized/oamck.png",
+      "backImage": "ads/malaren-runt-40ar-oamck-back-2026-08-15.jpg"
+    },
+    {
       "id": "tolg-veteranmoped-mc-rally-2026-08-16",
       "name": "Veteranmoped- och MC-rally i Tolg",
       "date": "2026-08-16",
@@ -10120,6 +10148,35 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/vastmanland-runt-back-2026-09-05.jpg"
+    },
+    {
+      "id": "mopperally-bakluckeloppis-grytgol-2026-09-05",
+      "name": "Mopperally & Bakluckeloppis",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "11:00",
+      "endTime": "00:00",
+      "type": "Körning",
+      "region": "Östergötland",
+      "location": "Björklidens Festplats, Grytgöl",
+      "organizer": "GIK Samhällsektion",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1097620726165264",
+      "_vehicle": "moped",
+      "description": "Mopperally med tipsrunda och Bakluckeloppis vid Björklidens Festplats i Grytgöl. Start 11:00, ingen föranmälan, startavgift 160 kr (Swish eller kontant).",
+      "descriptionFull": "Mopperally med tipsrunda från Björklidens Festplats i Grytgöl. Ingen föranmälan behövs, startavgift 160 kr betalas på plats (Swish eller kontant).\n\nBakluckeloppis öppnar 09:30, ingen avgift för säljare. Arrangörerna finns på plats från ca 08:00.\n\nUnder rallyt körs en tipsrunda med priser, och korv/fika serveras vid ett stopp på vägen av föreningens \"mästerkockar\". En följebil finns med om något mopedhaveri skulle inträffa.\n\nÅskådare ombeds komma i god tid för att inte trängas på startplanen.\n\nFrågor: Pelle 070-537 29 86 eller grytolsik@gmail.com.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1097620726165264"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=58.7955,15.551193",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mopperally-bakluckeloppis-back-2026-09-05.jpg"
     },
     {
       "id": "brunnback-crusaders-mopedrally-fors-2026-09-06",
