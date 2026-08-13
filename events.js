@@ -4199,7 +4199,34 @@ const EVENTS_DATA = {
         }
       ]
     },
-            {
+    {
+      "id": "ride-and-vibe-bike-meet-2026-08-14",
+      "name": "Ride and Vibe - bike meet",
+      "date": "2026-08-14",
+      "dateEnd": "2026-08-14",
+      "time": "19:00",
+      "type": "Träff",
+      "region": "Örebro",
+      "location": "Åbyvägen 1, Örebro",
+      "organizer": "Ronja Fredriksson & Natthaphon Butsee",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2101112507956701",
+      "description": "Bike meet på NetOnNets parkering i Örebro. Ta med hojen, snacka motorcyklar och njut av sommarkvällen. Alla typer av motorcyklar och förare välkomna.",
+      "descriptionFull": "Då var de dax! Ride and vibe första bike meet!\n\nFredag 14 augusti kl. 19:00 på NetOnNets parkering, Örebro.\n\nTa med hojen och kom förbi för en trevlig kväll tillsammans med andra hojåkare. Vi snackar motorcyklar, träffar nytt folk och njuter av en skön sommarkväll.\n\nAlla typer av motorcyklar och förare är välkomna - oavsett om du kör custom, sport, touring eller något helt annat.\n\nVisa hänsyn på plats: ingen burn eller onödig varvning, håll området rent och respektera andra besökare och omgivningen.\n\nDela gärna vidare och bjud in dina hojkompisar - ju fler desto roligare!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2101112507956701"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85byv%C3%A4gen+1+%C3%96rebro",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/ride-and-vibe-back-2026-08-14.jpg"
+    },
+    {
       "id": "tjorn-runt-moped-2026-08-15",
       "name": "Tjörn runt på moped",
       "date": "2026-08-15",
@@ -8680,6 +8707,33 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/bmw-d15-lars-lerin-kabusa-back-2026-08-29.jpg"
+    },
+    {
+      "id": "mmck-resa-storforsen-2026-08-29",
+      "name": "Klubbresa till Storforsen",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "14:00",
+      "type": "Körning",
+      "region": "Norrbotten",
+      "location": "MMCK Klubbkåken, Gällivare",
+      "organizer": "MMCK Touring-vänner",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1356336593332735",
+      "description": "MMCK Touring-vänner kör gemensamt från klubbkåken i Gällivare till Storforsen. God middag och umgänge.",
+      "descriptionFull": "Följ med oss till Storforsen! Ät god middag och umgås!\n\nSamling vid MMCK Klubbkåken i Gällivare, avfärd kl 14:00.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1356336593332735"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=MMCK+Klubbk%C3%A5ken+G%C3%A4llivare",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mmck-storforsen-back-2026-08-29.jpg"
     },
     {
       "id": "full-fart-moppers-lasse-cedergren-minnesrunda-2026-08-30",
