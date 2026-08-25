@@ -7759,6 +7759,35 @@ const EVENTS_DATA = {
       "backImage": "ads/smcboken-default-back.jpg"
     },
     {
+      "id": "scrc-hall-of-odin-onsdagskorning-2026-08-26",
+      "name": "Onsdagskörning",
+      "date": "2026-08-26",
+      "dateEnd": "2026-08-26",
+      "time": "17:45",
+      "type": "Körning",
+      "region": "Halland",
+      "location": "Circle K, Kollavarvsvägen 10, Kungsbacka",
+      "organizer": "SCRC #738 Hall of Odin",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1585300283271702",
+      "_vehicle": "mc",
+      "description": "Onsdagskörning med SCRC #738 Hall of Odin. Samling 17:45, avfärd 18:00 från Circle K, Kollavarvsvägen 10, Kungsbacka. Ta med egen fika, möjlighet till kvällsdopp. Alla välkomna.",
+      "descriptionFull": "Välkommen till SCRC #738 Hall of Odins onsdagskörning där alla är välkomna.\n\nVi träffas 17:45 med avfärd 18:00. Medtag egen fika, det finns även möjlighet för ett kvällsdopp.\n\nVid regn kan turen komma att ställas in, det meddelas i så fall här i evenemanget.\n\nVi ses\n/Iza, RC",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1585300283271702"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kollavarvsvägen+10+Kungsbacka",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/scrc-hall-of-odin.png",
+      "backImage": "ads/scrc-hall-of-odin-onsdagskorning-back-2026-08-26.jpg"
+    },
+    {
       "id": "doa-dagstur-ekero-2026-08-27",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-08-27",
@@ -8734,6 +8763,65 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/mmck-storforsen-back-2026-08-29.jpg"
+    },
+    {
+      "id": "nilsson-run-2026-08-29",
+      "name": "Nilsson run",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Max Burgers, Björkavägen 103, Helsingborg",
+      "organizer": "Peter Persson & Gripens MC Touring",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/28119578380995026/",
+      "description": "Nilsson Run i samband med Nilssons MC Fest 2026. Start på Väla Max kl 10:00, ca 3-4 timmars runda på asfalt, avslutar på Nilssons MC Fest.",
+      "descriptionFull": "Nilsson Run i samband med NILSSONS MC FEST 2026.\n\nUnderlag: Asfalt.\n\nVi kör en runda med start på Väla Max kl 10:00, ca 3-4 h.\n\nAvslutar på NILSSONS MC FEST 2026.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/28119578380995026/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bj%C3%B6rkav%C3%A4gen+103+Helsingborg",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/nilsson-run-back-2026-08-29.jpg"
+    },
+    {
+      "id": "sulas-mc-kladesrea-2026-08-29",
+      "name": "STOR MC REA hos Sulas MC",
+      "date": "2026-08-29",
+      "dateEnd": "2026-08-29",
+      "time": "09:00",
+      "endTime": "14:00",
+      "type": "Show",
+      "region": "Uppsala",
+      "location": "Sulas MC, Säva 17, Uppsala",
+      "organizer": "Sulas MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1107894285000882/",
+      "description": "Stor rea hos Sulas MC på kläder, hjälmar, skydd, handskar, stövlar och regnkläder. 15% på ordinarie pris, upp till 70% på utvalda produkter. Prova på plats och få hjälp av personalen.",
+      "descriptionFull": "STOR REA HOS SULAS MC\n\nNu gör vi plats för nyheter i butiken och det betyder en fantastisk möjlighet för dig att fynda kvalitetsutrustning till riktigt bra priser!\n\nUnder rean (15% på ordinarie pris) hittar du erbjudanden på: MC kläder, hjälmar, skydd, handskar, stövlar, regnkläder, intercom och tillbehör.\n\nUpp till 70% på utvalda produkter.\n\nDet här är ett perfekt tillfälle att prova utrustning på plats och få hjälp av vår kunniga personal att hitta rätt storlek, passform och skyddsnivå.\n\nBegränsat antal på många produkter. Först till kvarn gäller. Fynd som inte kommer tillbaka när de är slut.\n\nTa med en kompis, kika igenom fyndborden och passa på att göra riktigt bra affärer.\n\nVi ses i butiken!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1107894285000882/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/SulasMC"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Säva+17+Uppsala",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/sulas-mc-kladesrea-back-2026-08-29.jpg"
     },
     {
       "id": "full-fart-moppers-lasse-cedergren-minnesrunda-2026-08-30",
@@ -10231,6 +10319,38 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/mopperally-bakluckeloppis-back-2026-09-05.jpg"
+    },
+    {
+      "id": "sulas-mc-provkorningshelg-2026-09-05",
+      "name": "Provkörningshelg hos Sulas MC",
+      "date": "2026-09-05",
+      "dateEnd": "2026-09-05",
+      "time": "10:00",
+      "endTime": "14:00",
+      "type": "Show",
+      "region": "Uppsala",
+      "location": "Sulas MC, Säva 17, Uppsala",
+      "organizer": "Sulas MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2166946068035035/",
+      "description": "Provkörningshelg hos Sulas MC i Uppsala. Provkör utvalda modeller, träffa personalen och ta del av aktuella erbjudanden. Perfekt om du funderar på ny hoj.",
+      "descriptionFull": "Nyfiken på en ny hoj? Då är det dags att testa själv!\n\nDen 5 september bjuder vi in till provkörningshelg hos Sulas MC i Uppsala. Här får du chansen att känna på utvalda modeller, ställa frågor till vår personal och jämföra olika alternativ innan du bestämmer dig.\n\nOavsett om du letar efter din första motorcykel, funderar på att byta upp dig eller vill prova något helt nytt är du varmt välkommen.\n\nProvkör utvalda modeller. Träffa vår kunniga personal. Ta del av aktuella erbjudanden. Få hjälp att hitta rätt hoj.\n\nKom gärna i god tid. Populära modeller kan innebära kö under dagen.\n\nVi ser fram emot att träffa dig och prata hoj!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2166946068035035/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/SulasMC"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Säva+17+Uppsala",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/sulas-mc-provkorningshelg-back-2026-09-05.jpg"
     },
     {
       "id": "brunnback-crusaders-mopedrally-fors-2026-09-06",
