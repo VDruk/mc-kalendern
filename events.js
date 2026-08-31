@@ -13094,6 +13094,38 @@ const EVENTS_DATA = {
       "backImage": "ads/mchk-back-2026.jpg"
     },
     {
+      "id": "eksjo-mopedrally-2026-09-20",
+      "name": "Eksjö mopedrally 2026",
+      "date": "2026-09-20",
+      "dateEnd": "2026-09-20",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Jönköping",
+      "location": "Kvarnarp, Vägverket 1, Eksjö",
+      "organizer": "Raka Rör - Eksjö mopedveteraner",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=1146419175009541&set=a.127481866903282",
+      "_vehicle": "moped",
+      "description": "Eksjö mopedrally 2026. Samling och genomgång med fika 10:00, start 11:00. Startavgift 250 kr inkl pyttipanna. Bana ca 4-5 mil med skamkärra, tips tolva med fina priser.",
+      "descriptionFull": "ÄR DU ÅRETS VINNARE AV MOPEDRALLY?\n\nVälkommen till Eksjö mopedrally 20/9!\n\nSamling & genomgång med fika 10:00.\nStarten går 11:00.\n250 kr startavgift, inkl pyttipanna med ägg samt tillbehör.\n\nBanan är ca 4-5 mil med roliga stopp, klurigheter och skamkärran!\nTips tolva med fina priser!\nMånga deltagare och härlig gemenskap!\n\nEn dag fylld med fart, glädje och nostalgi - missa inte årets mopedrally!\n\nSponsor: MLJ Motor.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1146419175009541&set=a.127481866903282"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100089244070380"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kvarnarp+Vägverket+1+Eksjö",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/eksjo-mopedrally-back-2026-09-20.jpg"
+    },
+    {
       "id": "gota-ms-crosskola-2026-09-21",
       "name": "Crosskolan",
       "date": "2026-09-21",
