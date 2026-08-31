@@ -11874,6 +11874,62 @@ const EVENTS_DATA = {
       "_canary": true
     },
     {
+      "id": "mopedum-tribute-run-2026-09-12",
+      "name": "Mopedum #2 tribute run 2026",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-12",
+      "time": "12:00",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "Vikingavägen 39, Nynäshamn",
+      "organizer": "Haninge Muppeders",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/4158617024411555",
+      "_vehicle": "moped",
+      "description": "Haninge Muppeders kör Mopedum tribute run för andra året, till minne av nostalgimuseet Mopedum. Avfärd 12:00 från Vikingavägen 39, Nynäshamn, i gemensam kortege följt av tipsrunda på ca 7 mil. Startavgift 100 kr.",
+      "descriptionFull": "Detta blir andra året Haninge Muppeders arrangerar Mopedum tribute run till Mopedum's ära och hoppas på att hålla denna tradition i många år framöver.\n\nMopedum va ett nostalgi museum som drevs av Nils Skogmyr fram till december 2022, varje år arrangerades det en träff utanför museet där alla mopedfantaster va välkomna för att delta i en gemensam kortege genom Nynäshamn och fram till starten på tipsrundan.\n\nSåsom Nils har arrangerat tidigare år kommer vi köra i liknande arrangemang. Fina priser och en skön tipsrunda!\n\nAvfärd från samma adress som tidigare år, Vikingavägen 39, Nynäshamn, kl 12:00 i en gemensam kortege genom Nynäshamn för att sedan starta tipsrundan! Vi är på plats från 11:00.\n\nStartavgift: 100 kr. I avgiften ingår läsk och korv med bröd.\n\nRundan är ca 7 mil med 1x2 frågor. I år kommer det finnas mer korv, och vägen märks upp bättre så man kan köra turen utan karta! Det kommer även finnas en penna vid varje kontroll.\n\nVarmt välkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4158617024411555"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vikingav%C3%A4gen+39+Nyn%C3%A4shamn",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mopedum-tribute-run-back-2026-09-12.jpg"
+    },
+    {
+      "id": "huggenas-mopedrally-2026-09-12",
+      "name": "Mopedrally Huggenäs Bygdegård",
+      "date": "2026-09-12",
+      "dateEnd": "2026-09-12",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Värmland",
+      "location": "Huggenäs Bygdegård, Västra Uggelsäter, Säffle",
+      "organizer": "Huggenäs Bygdegård",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2486547675089686",
+      "_vehicle": "moped",
+      "description": "Mopedrally med start och mål vid Huggenäs Bygdegård. Anmälan öppnar 10:00, första start 11:00. Fin och lättkörd sträcka på ca 6 mil. Startavgift 150 kr inkl lättare lunch.",
+      "descriptionFull": "Start och mål Huggenäs Bygdegård.\n\nAnmälan öppnar kl 10:00, första start kl 11:00.\n\nFin och lättkörd sträcka på ca 6 mil.\n\nStartavgift: 150 kr, inkl lättare lunch längs vägen. Fika och kaffe finns att köpa i bygdegården.\n\nFrågor? Kontakta Johanna Carlsson, 070-531 28 89.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2486547675089686"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Huggen%C3%A4s+Bygdeg%C3%A5rd+S%C3%A4ffle",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/huggenas-mopedrally-back-2026-09-12.jpg"
+    },
+    {
       "id": "mackatraffen-vollsjo-avslutning-2026-09-13",
       "name": "Mackaträffen - Säsongsavslutning",
       "date": "2026-09-13",
@@ -13038,6 +13094,34 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/smcboken-default-back.jpg"
+    },
+    {
+      "id": "hallsta-moppers-mopedrally-2026-09-19",
+      "name": "Hallsta Moppers Mopedrally i Bengt Åhs Minne",
+      "date": "2026-09-19",
+      "dateEnd": "2026-09-19",
+      "time": "11:00",
+      "type": "Körning",
+      "region": "Västmanland",
+      "location": "Malmabanan, Malma 9, Västerås",
+      "organizer": "Anders Lavett & Roger Claesson",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1545359780650429",
+      "_vehicle": "moped",
+      "description": "Hallsta Moppers Mopedrally i Bengt Åhs minne. Alla mopeder välkomna. Start kl 11:00 vid Malma motocrossbana, Västerås. Startavgift 150 kr inkl fika. Gåtor och övningar längs vägen.",
+      "descriptionFull": "Mopedrally i Bengt Åhs Minne. För alla slags mopeder.\n\nLördag 19 september 2026, kl 11:00. Start och mål vid Malma motocrossbana (Malma 9), Västerås.\n\nStart kl 11, kom gärna en timme innan så hinner man prata mopeder och strunt innan start. Korv och dricka kommer att finnas till försäljning innan och efter målgång.\n\nStartavgift 150 kr inklusive fika. Gåtor och övningar längs vägen.\n\nMer info på Hallstamoppers.se\nMats 070-692 04 81, Johan 076-407 16 99\n\nPriserna på prisbordet är skänkta av Mopedrenovering.se\n\nVälkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1545359780650429"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Malmabanan+V%C3%A4ster%C3%A5s",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/hallsta-moppers-mopedrally-back-2026-09-19.jpg"
     },
     {
       "id": "doa-emilsturen-2026-09-20",
