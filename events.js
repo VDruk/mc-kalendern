@@ -9545,6 +9545,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "yamaha-store-mora-mc-kvallstur-grusaventyr-2026-09-03",
+      "name": "MC-KVÄLLSTUR – Grusäventyr",
+      "date": "2026-09-03",
+      "dateEnd": "2026-09-03",
+      "time": "18:00",
+      "type": "Körning",
+      "region": "Dalarna",
+      "location": "Mora Motorcenter Fritid, Hindrikesvägen 5, Mora",
+      "organizer": "Yamaha Store Mora",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1761426518352613",
+      "_vehicle": "mc",
+      "description": "MC-kvällstur med grusäventyr, en favorit i repris. Samling kl 17.00, avfärd kl 18.00 från Mora Motorcenter Fritid, Hindrikesvägen 5, Mora. Denna kväll lämnar vi asfalten bakom oss.",
+      "descriptionFull": "Samling från kl. 17.00\nAvfärd kl. 18.00 från Mora Motorcenter Fritid, Hindrikesvägen 5, Mora.\n\nDags för en favorit i repris – grustur!\n\nDen här kvällen lämnar vi asfalten bakom oss.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1761426518352613"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Hindrikesv%C3%A4gen+5+Mora",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mc-kvallstur-grusaventyr-back-2026-09-03.jpg"
+    },
+    {
       "id": "do-c-unnarydstraffen-2026",
       "name": "DO-C Unnarydsträffen",
       "date": "2026-09-04",
