@@ -13686,6 +13686,33 @@ const EVENTS_DATA = {
       "backImage": "ads/mchk-back-2026.jpg"
     },
     {
+      "id": "omcc-country-fest-2026-09-26",
+      "name": "Country fest",
+      "date": "2026-09-26",
+      "dateEnd": "2026-09-26",
+      "time": "18:00",
+      "type": "Fest",
+      "region": "Västernorrland",
+      "location": "Viktoriaesplanaden 3, Örnsköldsvik",
+      "organizer": "Staffan Näsholm & ÖMCC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1093465760303092",
+      "description": "Country fest med ÖMCC i Örnsköldsvik. Bra musik, bra vänner, bra stämning. Pris till bästa cowboy- och cowgirlkostym. Öl, burgare och drinkar. Anmälan inom kort på hemsidan.",
+      "descriptionFull": "Sadla upp för en Country Fest!\n\nBra musik, bra vänner, bra stämning.\n\nPris till bästa cowboy & cowgirl kostym!\n\nÖl, burgare och drinkar.\n\nAnmälan finns inom kort på hemsidan.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1093465760303092"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Viktoriaesplanaden+3+%C3%96rnsk%C3%B6ldsvik",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/omcc-country-fest-back-2026-09-26.jpg"
+    },
+    {
       "id": "tartan-mopedoz-hostmoppis-vastberga-2026-09-27",
       "name": "Höstmoppis i Västberga",
       "date": "2026-09-27",
