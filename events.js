@@ -9250,6 +9250,34 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "east2west-cc-skane-onsdagstraff-2026-09-02",
+      "name": "Motorträff. Onsdagsträff",
+      "date": "2026-09-02",
+      "dateEnd": "2026-09-02",
+      "time": "18:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Industrigatan 10, Tomelilla",
+      "organizer": "East 2 West CC Skåne",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2635063773592548",
+      "_vehicle": "both",
+      "description": "Onsdagsträff där alla fordonsentusiaster är välkomna i stor gemenskap. Alla fordon välkomna, oavsett vilket man kommer med.",
+      "descriptionFull": "Välkomna till Onsdagsträff där alla fordons entusiaster är välkomna i en stor gemenskap. Alla fordon är välkomna oavsett vilket fordon man kommer med.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2635063773592548"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Industrigatan+10+Tomelilla",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/east2west-onsdagstraff-back-2026-09-02.jpg"
+    },
+    {
       "id": "doa-dagstur-ekero-2026-09-03",
       "name": "DOA - Dagstur Ekerö",
       "date": "2026-09-03",
