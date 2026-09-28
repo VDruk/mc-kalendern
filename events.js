@@ -5862,6 +5862,34 @@ const EVENTS_DATA = {
       "backImage": "ads/yamaha-center-nassjo-invigning-back-2026-10-03.jpg"
     },
     {
+      "id": "hdk1930-let-the-thunder-run-swapmeet-2026-10-03",
+      "name": "Let the Thunder Run - MC Parts 35 års jubilæum + Stjerneskud på Mosede havn",
+      "date": "2026-10-03",
+      "dateEnd": "2026-10-03",
+      "time": "10:00",
+      "type": "Träff",
+      "region": "Danmark",
+      "location": "Sydmarken 35, Søborg",
+      "organizer": "Harley-Davidson Klubben af 1930",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1047909134352521/",
+      "_vehicle": "mc",
+      "description": "Träff hos MC Parts Swapmeet i Søborg, med gemensam utfärd kl 12.00 till Mosede havn för stjerneskud. Gör ett fynd eller köp nya reservdelar, sen avslutning vid hamnen.",
+      "descriptionFull": "LET THE THUNDER RUN\n\nVi mødes hos MC Parts Swapmeet og hygger sammen med mange andre bikere! Gør et fund eller køb nye reservedele.\n\nKl. 12.00 Afgang til Mosede havn for et stjerneskud eller hvad man lyster.. to ishuse er også at finde på havnen.\n\nLET THE THUNDER RUN!\n\nDel gerne og tag dem, du vil køre sammen med.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1047909134352521/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Sydmarken+35+S%C3%B8borg",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/hdk1930-thunder-run-swapmeet-back-2026-10-03.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-10-06",
       "name": "DOA - Tisdagslunch",
       "date": "2026-10-06",
@@ -5917,6 +5945,34 @@ const EVENTS_DATA = {
       "region": "Södermanland",
       "source": "facebook.com",
       "backImage": "ads/rusktraffen-back-2026-10-09.jpg"
+    },
+    {
+      "id": "unbroken-heads-mc-oktoberfest-2026-10-09",
+      "name": "Oktoberfest hos Unbroken Heads MC",
+      "date": "2026-10-09",
+      "dateEnd": "2026-10-09",
+      "time": "19:00",
+      "type": "Fest",
+      "region": "Danmark",
+      "location": "Unbroken Heads MC, Nordmarksvej 5, Solrød Strand",
+      "organizer": "Unbroken Heads MC Danmark",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1797374088351635",
+      "_vehicle": "mc",
+      "description": "Oktoberfest i klubhuset hos Unbroken Heads MC Danmark. Kold fadøl, tyske schlagere, snacks og feststemning fra start til slut. Alle er velkomne, tag lederhosen frem!",
+      "descriptionFull": "Vi gentager succesen og skruer op for hyggen, fadøllen og de tyske schlagere! Så find lederhosen og tyrolerhatten frem, og kom til en uforglemmelig aften i klubhuset.\n\nVi sørger for:\nMasser af kold fadøl på hanerne\nLækre snacks og lidt godt til ganen\nSchlager für alle\nHøj stemning og tip-top feststemning fra start til slut\n\nPraktisk info:\nDato: 9. oktober 2026\nTid: Kl. 19:00\nSted: Unbroken Heads MC, Nordmarksvej 5, 2680 Solrød\n\nMedbring dit gode humør, så klarer vi resten. Vi glæder os til at se jer!\n\nProst!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1797374088351635"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Nordmarksvej+5+Solr%C3%B8d+Strand",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/unbroken-heads-oktoberfest-back-2026-10-09.jpg"
     },
     {
       "id": "stubbrace-asa-by-2026-10-10",
@@ -6330,6 +6386,34 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "green-goat-borlange-4ars-jubileum-2026-10-31",
+      "name": "Green Goat Borlänge - 4 års jubileum",
+      "date": "2026-10-31",
+      "dateEnd": "2026-10-31",
+      "time": "22:00",
+      "type": "Fest",
+      "region": "Dalarna",
+      "location": "The Goat Bar, Tunavägen 276, Borlänge",
+      "organizer": "Green Goat Borlänge",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=10163980409603051&set=gm.1072699195631080&idorvanity=212700824964259",
+      "_vehicle": "mc",
+      "description": "Green Goat Borlänge firar 4 år på The Goat Bar. Egen samkväm fram till kl 22.00, sen öppnar dörrarna för alla. Bikers, beer, music, good times.",
+      "descriptionFull": "4 års jubileum - Kom och fira 4 years on the road!\n\nKom och fira 4 år med oss. Vi kommer ha lite egen samkväm fram till kl 22.00 men sen öppnar vi upp dörrarna. Så välkomna!\n\nLördag 31/10. Öppet från kl 22.\n\nThe Goat Bar, Tunavägen 276.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=10163980409603051&set=gm.1072699195631080&idorvanity=212700824964259"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tunav%C3%A4gen+276+Borl%C3%A4nge",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/green-goat-4ars-jubileum-back-2026-10-31.jpg"
     },
     {
       "id": "doa-tisdagslunch-2026-11-03",
