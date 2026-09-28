@@ -5835,6 +5835,33 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "yamaha-center-nassjo-invigning-2026-10-03",
+      "name": "Yamaha Center Nässjö - Invigning",
+      "date": "2026-10-03",
+      "dateEnd": "2026-10-03",
+      "type": "Fest",
+      "region": "Jönköping",
+      "location": "Mascot Motor, Storgatan 48, Nässjö",
+      "organizer": "Mascot Motor",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=122244864884283130&set=a.122102817584283130",
+      "_vehicle": "mc",
+      "description": "Mascot Motor inviger officiellt Yamaha Center Nässjö efter 53 år som Yamaha-handlare. Ny och modernare butik, 260 kvm större, med tydligare fokus på Yamaha. Alla välkomna på invigningen lördag 3 oktober.",
+      "descriptionFull": "1969 startade bröderna Christer och Jan-Erik Mascot Motor och nu efter 53 år med endast Yamaha – Mascot Motor utvecklar konceptet till Yamaha Center Nässjö.\n\nDen 3 oktober 2026 inviger Mascot Motor officiellt Yamaha Center Nässjö och tar därmed nästa steg i företagets långa samarbete med Yamaha.\n\nFör våra kunder innebär satsningen en 260 kvm större och modernare butik med ett ännu tydligare fokus på Yamaha, samtidigt som den personliga servicen, kunskapen och engagemanget som vi har består.\n\nInvigningen lördagen 3 oktober och Du är välkommen!",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122244864884283130&set=a.122102817584283130"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Storgatan+48+N%C3%A4ssj%C3%B6",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/yamaha-center-nassjo-invigning-back-2026-10-03.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-10-06",
       "name": "DOA - Tisdagslunch",
       "date": "2026-10-06",
