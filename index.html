@@ -604,6 +604,14 @@
   .support-text {
     flex: 1;
   }
+  .support-photo {
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
   .support-title {
     font-size: 15px;
     font-weight: 700;
@@ -641,6 +649,14 @@
       text-align: center;
       padding: 18px 16px;
       gap: 14px;
+    }
+    .support-photo {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 3;
+    }
+    .support-text p {
+      text-align: left;
     }
   }
 
@@ -6226,6 +6242,7 @@ function render() {
         const support = document.createElement('div');
         support.className = 'support-section';
         support.innerHTML = `<div class="support-inner">
+          <img class="support-photo" src="ads/slava-tack-2026.webp" alt="Slava Druk bland motorcyklar" width="640" height="480" loading="lazy">
           <div class="support-text">
             <div class="support-title">Tack för säsongen 2026</div>
             <p>Jag startade MC Kalendern i mars 2026 med en enkel idé: samla alla MC-träffar i Sverige på ett ställe, gratis och utan skräpannonser. Det blev cirka 2 000 evenemang från hundratals arrangörer, i alla 21 SMC-distrikt. Sajten fick över 20 000 besök från Google, och i juli kom nästan nio gånger fler besökare än i april. Den 15 augusti kom över 1 000 besökare på en enda dag. Den som googlade ”mc-träffar kalender 2026” hittade oss oftast allra högst upp. Nu slutar jag uppdatera sajten. De evenemang som redan finns ligger kvar här till årets slut. Tack till alla förare och arrangörer! Kör försiktigt. /Slava Druk</p>
