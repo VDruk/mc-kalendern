@@ -5946,6 +5946,38 @@ const EVENTS_DATA = {
       "backImage": "ads/mc-upplevelser-puckons-tur-back-2026-10-03.jpg"
     },
     {
+      "id": "classic-mc-moped-club-end-of-summer-meet-2026-10-04",
+      "name": "End off Summer Meet",
+      "date": "2026-10-04",
+      "dateEnd": "2026-10-04",
+      "time": "14:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Kronetorps mölla, Dalbyvägen 63, Arlöv",
+      "organizer": "Classic MC Moped Club",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/cmmc.se",
+      "_vehicle": "moped",
+      "description": "Classic MC Moped Club bjuder in till medlemsträff vid Kronetorps mölla i Arlöv söndag 4 oktober kl 14-17. Grillbord, kaffe och kaka samt kort info från styrelsen.",
+      "descriptionFull": "Medlemsträff på Kronetorps mölla kommande söndag 4 okt Kl. 14.00 till 17.00.\n\nCMMC bjuder på ett enklare grillbord med hamburgare, korvrätt och karré med potatissallad.\n\nKaffe och kaka efter maten.\n\nDet kommer bli lite kort info från styrelsen om verksamheten.\n\nVälkomna!\n\nStyrelsen",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1418838883715199&set=a.510509844548112"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/cmmc.se"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Dalbyv%C3%A4gen+63+Arl%C3%B6v",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/classic-mc-moped-club-end-of-summer-meet-back-2026-10-04.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-10-06",
       "name": "DOA - Tisdagslunch",
       "date": "2026-10-06",
@@ -6248,6 +6280,38 @@ const EVENTS_DATA = {
         }
       ],
       "backImage": "ads/haskas-mc-eastside-end-of-summer-back-2026-10-17.jpg"
+    },
+    {
+      "id": "mc-for-alla-skane-sasongsavslut-2026-10-18",
+      "name": "Säsongsavslut",
+      "date": "2026-10-18",
+      "dateEnd": "2026-10-18",
+      "time": "11:30",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Motostar, Såggatan 3, Sjöbo",
+      "organizer": "MC för alla - Skåne",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/3322417321320442",
+      "_vehicle": "mc",
+      "description": "MC för alla - Skåne kör ut säsongen med en gemensam runda. Samling vid Motostar i Sjöbo kl 11:30, avfärd 12:00, avslut ca 14:30. Alla välkomna oavsett hoj.",
+      "descriptionFull": "Då börjar säsongen närma sig sitt slut och det ska självklart avslutas med en runda!\n\nVi samlas på Motostar i Sjöbo 11:30\nAvfärd 12:00\nAvslut ca 14:30\n\nTipsa och sprid gärna till era vänner så vi blir så många som möjligt och avslutar säsongen 2026 på bästa sätt tillsammans!\n\nVi ses där!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2948988385446868"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/3322417321320442"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A5ggatan+3+Sj%C3%B6bo",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mc-for-alla-skane-sasongsavslut-back-2026-10-18.jpg"
     },
     {
       "id": "doa-tisdagslunch-2026-10-20",
@@ -7614,6 +7678,38 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "kristianstad-mc-kortege-ahusparken-2027-05-22",
+      "name": "MC-kortege för Bus i Lund och Barnkliniken CSK",
+      "date": "2027-05-22",
+      "dateEnd": "2027-05-22",
+      "time": "11:00",
+      "type": "Körning",
+      "region": "Skåne",
+      "location": "Ishallen Kristianstad, Ishallsvägen 10, Kristianstad",
+      "organizer": "Kristianstad Mc-grupp",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/groups/449573868856971",
+      "_vehicle": "mc",
+      "description": "Öppen MC-kortege i Kristianstad till förmån för Barn- och ungdomssjukhuset i Lund och Barnkliniken CSK. Samling vid Ishallen 11.00-12.45, avfärd 13.00 mot Åhusparken. Deltagaravgift 150 kr/hjälm.",
+      "descriptionFull": "ÖPPEN KORTEGE FÖR INSAMLING TILL Barn och ungdomssjukhuset i Lund/ Barnkliniken CSK\nMC KORTEGEN\nKRISTIANSTAD- ÅHUSPARKEN ÄR TILLBAKA.\n\nSamling 11.00-12.45 med avfärd 13.00\nDeltagaravgift 150 kr /hjälm som går till Bus (barn och ungdomssjukhuset) i Lund/ Barnkliniken på csk. Betalas vid ankomsten till Kristianstad ishallen med kontanter eller swish. KiK kommer hålla deras café öppet för er som vill fika. Här finns även toalett tillgänglig. Alla som deltager kommer var med i en utlottning med fina priser, extra lotter går att köpa för 50kr styck. Åhusparken kommer det att finnas mat till bra priser.\n\nI samarbete med förening Nya Åhusparken.\n\nVälkomna. Tillsammans gör vi skillnad!\n\nVåra sponsorer (kommer uppdateras)\nÅhusparken\nKIK",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1051406070997885/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/groups/449573868856971"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ishallsv%C3%A4gen+10+Kristianstad",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/kristianstad-mc-grupp-kortege-back-2027-05-22.jpg"
     },
     {
       "id": "american-days-oland-2027-06-03",
