@@ -5890,6 +5890,62 @@ const EVENTS_DATA = {
       "backImage": "ads/hdk1930-thunder-run-swapmeet-back-2026-10-03.jpg"
     },
     {
+      "id": "stockholmswingarna-xtra-lordagsstur-norra-sidan-2026-10-03",
+      "name": "X-tra Lördagsstur på Norra sidan",
+      "date": "2026-10-03",
+      "dateEnd": "2026-10-03",
+      "time": "10:00",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "Instrumentvägen 4, Upplands Väsby",
+      "organizer": "Stockholmswingarna",
+      "source": "gwcs.se",
+      "link": "https://gwcs.se/stockholm/",
+      "_vehicle": "mc",
+      "description": "Extra lördagstur med Stockholmswingarna på norra sidan stan, riktning nordost. Trevliga blandade vägar och några stopp. Ny samlingsplats denna gång, avfärd kl 10:00.",
+      "descriptionFull": "Stortomas ger sig inte utan han fortsätter mc-säsongen med ytterligare en mc-tur, nu på lördagen den 3 oktober. Han tänker sig återigen en trevlig mc-tur på norra sidan stan i riktning nordost. Trevliga blandade vägar utlovas samt några passande stopp. Missade du förra helgens tur så får du chansen igen.\n\nOBS Ny samlingsplats denna gång!\n\nVad: X-tra Lördagsstur på Norra sidan\nNär: Lördagen den 3 oktober, avfärd kl. 10:00\nVar: Instrumentvägen 4, Upplands Väsby\nTurledare: Stortomas\nFika: Fika finns att köpa om du inte vill ta med eget fika\nVäder: Ser bra ut, inget regn är beställt.\n\nHar du frågor så kontakta Stortomas på tel: 070 212 1867",
+      "links": [
+        {
+          "label": "gwcs.se",
+          "url": "https://gwcs.se/stockholm/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Instrumentv%C3%A4gen+4+Upplands+V%C3%A4sby",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/stockholmswingarna-xtra-lordagsstur-back-2026-10-03.jpg"
+    },
+    {
+      "id": "mc-upplevelser-stockholm-puckons-tur-2026-10-03",
+      "name": "För alla \"Puckons\" tur",
+      "date": "2026-10-03",
+      "dateEnd": "2026-10-03",
+      "time": "11:01",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "McDonald's, Skarprättarvägen 40, Järfälla",
+      "organizer": "MC-upplevelser Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/3446336735574204/",
+      "_vehicle": "mc",
+      "description": "Gemensam tur med MC-upplevelser Stockholm till Puckons födelseort, med fikastopp på Café Bredsjön. Lugnt tempo genom Fjärdhundraland med stopp längs vägen. Samling vid McDonald's, Järfälla.",
+      "descriptionFull": "Menar inte att ni är \"puckon\"\nVi drar till Puckons födelseort. Käkar på vår vän Daniel på \"Café Bredsjön\". Åker lite bakvägar med grisskit som en del varit med om.\n\nBlir lugnt tempo i \"Fjärdhundraland\" med att stanna emellanåt och spana lite på vad som dyker upp längst vår väg.\n\nVi hörs/störes hoppas jag. Vilsekörning garanteras!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/3446336735574204/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Skarpr%C3%A4ttarv%C3%A4gen+40+J%C3%A4rf%C3%A4lla",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mc-upplevelser-puckons-tur-back-2026-10-03.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-10-06",
       "name": "DOA - Tisdagslunch",
       "date": "2026-10-06",
@@ -6164,6 +6220,34 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "haskas-mc-eastside-end-of-summer-2026-10-17",
+      "name": "BARHÄNG - End of Summer",
+      "date": "2026-10-17",
+      "dateEnd": "2026-10-17",
+      "time": "18:00",
+      "type": "Fest",
+      "region": "Kalmar",
+      "location": "Klubbkåken, Ljungbyholm",
+      "organizer": "Haskas MC Eastside",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=1552228503615089&set=a.569315345239748",
+      "_vehicle": "mc",
+      "description": "Haskas MC Eastside bjuder in till sista sommarträffen på Klubbkåken. Dörrarna öppnas 18:00, fri entré, mat och kalla drycker. Alla är välkomna, övernattningsmöjligheter finns.",
+      "descriptionFull": "Vi önskar Eder Alla en Härlig Helg!\n\noch vill bara påminna om vårt\nBARHÄNG\nEND OF SUMMER\nLördagen den 17 Oktober\nDörrarna Öppnas: 18:00\nEntré: 0 kr\nMat och Kalla Drycker\nAlla är Välkomna\n\n// Haskas MC Eastside\n\nPS\nGilla, dela och kom till festen. Övernattningsmöjligheter finns (kontakta oss).",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1552228503615089&set=a.569315345239748"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Klubbk%C3%A5ken+Ljungbyholm",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/haskas-mc-eastside-end-of-summer-back-2026-10-17.jpg"
     },
     {
       "id": "doa-tisdagslunch-2026-10-20",
@@ -6521,6 +6605,34 @@ const EVENTS_DATA = {
       ],
       "backImage": "ads/korhoj-farsafton-back-2026-11-07.jpg",
       "source": "facebook.com"
+    },
+    {
+      "id": "support-modestus-mc-after-season-party-2026-11-07",
+      "name": "After Season Party",
+      "date": "2026-11-07",
+      "dateEnd": "2026-11-07",
+      "time": "19:00",
+      "type": "Fest",
+      "region": "Stockholm",
+      "location": "Stockholm",
+      "organizer": "Support Modestus MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/4041654199305366",
+      "_vehicle": "mc",
+      "description": "Support Modestus MC stänger hojsäsongen med hårt drag, kallt i glaset och gött tugg. Grillen står glödandes, bra stämning utlovas som alltid.",
+      "descriptionFull": "Vi stänger hojsäsongen som den ska stängas, med hårt drag, kallt i glaset och gött tugg. Grillen kommer stå glödandes och vi bjuder på käket!\n\nBra stämning utlovas som alltid!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/4041654199305366"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Stockholm",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/modestus-mc-after-season-party-back-2026-11-07.jpg"
     },
     {
       "id": "doa-tisdagslunch-2026-11-10",
