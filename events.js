@@ -6092,6 +6092,38 @@ const EVENTS_DATA = {
       "backImage": "ads/stubbrace-asa-by-back-2026-10-10.jpg"
     },
     {
+      "id": "motorklubben-tandstiftet-sasongsavslutning-2026-10-10",
+      "name": "Säsongsavslutning",
+      "date": "2026-10-10",
+      "dateEnd": "2026-10-10",
+      "time": "13:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Malmö Motorstadion, Elisedalsvägen 13, Malmö",
+      "organizer": "Motorklubben Tändstiftet",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/motorklubbentandstiftet",
+      "_vehicle": "mc",
+      "description": "Motorklubben Tändstiftet bjuder in förare, medlemmar, funktionärer och volontärer till säsongsavslutning på Malmö Motorstadion lördag 10 oktober kl 13. Retrospektiv följt av grill. Anmälan krävs.",
+      "descriptionFull": "VÄLKOMMEN ATT AVSLUTA SÄSONGEN MED OSS!\n\nSäsongen är över, nu samlas vi för att summera året och blicka framåt mot nästa!\n\nLördagen den 10 oktober kl. 13.00 bjuder vi in våra förare, medlemmar, funktionärer och volontärer till en gemensam retrospektiv och säsongsavslutning.\n\nTillsammans går vi igenom säsongen:\n- Vad har fungerat bra?\n- Vad kan vi göra bättre?\n- Vad vill vi fokusera på inför nästa säsong?\n\nAlla som på olika sätt varit en del av Gnistorna och MKT under året är välkomna att dela med sig av sina erfarenheter, idéer och tankar. Målet är att ta med oss det bästa från årets säsong och tillsammans skapa ännu bättre förutsättningar inför nästa. Efteråt avslutar vi med grill och umgänge tillsammans!\n\nAnmälan krävs så att vi vet hur många vi blir och kan planera mat och dryck.\n\nAnmäl dig senast 6 oktober via:\ninfo@gnistorna.se\nDM på Instagram eller Messenger på Facebook",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1585053020082908&set=a.756111126310439"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/motorklubbentandstiftet"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Elisedalsv%C3%A4gen+13+Malm%C3%B6",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/motorklubben-tandstiftet-sasongsavslutning-back-2026-10-10.jpg"
+    },
+    {
       "id": "doa-emilsturen-2026-10-11",
       "name": "DOA - Emilsturen",
       "date": "2026-10-11",
@@ -6455,6 +6487,38 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "tomelilla-mk-mx-endagars-hostlovslager-2026-10-28",
+      "name": "Endagars Höstlovsläger",
+      "date": "2026-10-28",
+      "dateEnd": "2026-10-28",
+      "time": "10:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Tomelilla",
+      "organizer": "Tomelilla MK-MX",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/TomelillaMKMX",
+      "_vehicle": "mc",
+      "description": "Tomelilla MK-MX håller endagars höstlovsläger på crossbanan onsdag 28 oktober kl 10-16. Begränsat antal platser, klubbens medlemmar har förtur. 350 kr inkl frukost och lunch. Bindande anmälan.",
+      "descriptionFull": "HÖSTLOVET VECKA 44.\n\nLäger för klubbens medlemmar onsdag 28/10 kl 10.00-16.00. Begränsat antal platser, det måste vara minst 20 st för att lägret ska bli av. Klubbens medlemmar har förtur.\n\nKrav: Du ska kunna köra hela stora banan utan problem.\n\nAvgift: 350 kr inkl frukost och lunch. På lägerdagen går det bra att beställa frukost och lunch även till föräldrar/syskon, uppge det i anmälan.\n\nAnmälan till Ronja: 076-628 79 75. Ange namn på förare och kubik. Först till kvarn, anmälan är bindande.\n\nÖppen träning för alla hålls torsdag 29/10 kl 10.00-15.00.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1535608601702058&set=a.221220446474220"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/TomelillaMKMX"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tomelilla",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/tomelilla-mk-mx-hostlovslager-back-2026-10-28.jpg"
     },
     {
       "id": "doh-fika-lycksele-2026-10-29",
