@@ -6314,6 +6314,38 @@ const EVENTS_DATA = {
       "backImage": "ads/haskas-mc-eastside-end-of-summer-back-2026-10-17.jpg"
     },
     {
+      "id": "black-thunders-mc-barhang-2026-10-17",
+      "name": "Barhäng",
+      "date": "2026-10-17",
+      "dateEnd": "2026-10-17",
+      "time": "19:00",
+      "type": "Fest",
+      "region": "Jönköping",
+      "location": "Harley Creek, Aggarp, Kulltorp",
+      "organizer": "Black Thunders Mc",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1630992825097181/",
+      "_vehicle": "mc",
+      "description": "Black Thunders Mc bjuder in till barhäng i Kulltorp lördag 17 oktober kl 19. Lättare förtäring och Ozzy-musik hela kvällen. Alla välkomna.",
+      "descriptionFull": "Välkomna på barhäng, lättare förtäring och Ozzy musik hela kvällen.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1630992825097181/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=100063676328233"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kulltorp",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/black-thunders-mc-barhang-back-2026-10-17.jpg"
+    },
+    {
       "id": "mc-for-alla-skane-sasongsavslut-2026-10-18",
       "name": "Säsongsavslut",
       "date": "2026-10-18",
