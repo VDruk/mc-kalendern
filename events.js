@@ -6660,6 +6660,39 @@ const EVENTS_DATA = {
       "backImage": "ads/green-goat-4ars-jubileum-back-2026-10-31.jpg"
     },
     {
+      "id": "zatan-cruisers-halloween-2026-10-31",
+      "name": "Halloween",
+      "date": "2026-10-31",
+      "dateEnd": "2026-10-31",
+      "time": "20:00",
+      "type": "Fest",
+      "region": "Halland",
+      "location": "Zatan Cruisers, Lilla Dömestorp 3, Laholm",
+      "organizer": "Zatan Cruisers",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1400803371639168",
+      "_vehicle": "mc",
+      "description": "Zatan Cruisers bjuder in till Halloween-fest lördag 31 oktober kl 20. Hamburgare från köket, bar och go musik. Dra ihop vännerna och kom!",
+      "descriptionFull": "Då är det dags för årets Halloween fest på Zatan Cruisers!\n\nFrån köket finns det goa hamburgare för den som är hungrig och baren är laddad för den som är törstig. Med go musik och ett glatt humör slår vi klackarna i taket och får en go kväll tillsammans. Dra ihop vännerna och kom så gör vi detta till en kanonkväll! Välkomna!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1400803371639168"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/zatancruisers"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lilla+D%C3%B6mestorp+3+Laholm",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/zatan-cruisers.png",
+      "backImage": "ads/zatan-cruisers-halloween-back-2026-10-31.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-11-03",
       "name": "DOA - Tisdagslunch",
       "date": "2026-11-03",
