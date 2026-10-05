@@ -1200,6 +1200,38 @@ const EVENTS_DATA = {
       "backImage": "ads/red-wings-mora-mc-traff-back-2026-10-06.jpg"
     },
     {
+      "id": "spf-seniorerna-borlange-motorlunch-2026-10-06",
+      "name": "Motorlunch",
+      "date": "2026-10-06",
+      "dateEnd": "2026-10-06",
+      "time": "13:00",
+      "type": "Träff",
+      "region": "Dalarna",
+      "location": "Kök Nyström, Röda vägen 1, Borlänge",
+      "organizer": "SPF Seniorerna Borlänge",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=122181238490807758&set=a.122094973388807758",
+      "_vehicle": "mc",
+      "description": "SPF Seniorerna Borlänge bjuder in till höstens första Motorlunch på Kök Nyström tisdag 6 oktober kl 13. Lunchträff för klubbens motorcyklister.",
+      "descriptionFull": "Höstens första \"Motorlunch\" på Kök Nyström tisdag 6/10 kl. 13.00.\n\nEn lunchträff för SPF Seniorerna Borlänges motorcykelintresserade medlemmar.\n\nOBS: Detta är en återkommande träff (höstens första), fler lunchtillfällen kan tillkomma senare under säsongen.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=122181238490807758&set=a.122094973388807758"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/profile.php?id=61574232743563"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=R%C3%B6da+v%C3%A4gen+1+Borl%C3%A4nge",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/spf-seniorerna-borlange-motorlunch-back-2026-10-06.jpg"
+    },
+    {
       "id": "maximus-riders-onsdagshang-2026-10-07",
       "name": "Onsdagshäng",
       "date": "2026-10-07",
