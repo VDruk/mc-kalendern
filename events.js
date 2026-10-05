@@ -1168,6 +1168,70 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "red-wings-mora-mc-traff-2026-10-06",
+      "name": "Klubbträff",
+      "date": "2026-10-06",
+      "dateEnd": "2026-10-06",
+      "time": "18:00",
+      "type": "Träff",
+      "region": "Dalarna",
+      "location": "Klubbstugan, Mora",
+      "organizer": "Red Wings Mora MC Klubb",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=4397874100429675&set=gm.2522374264951979&idorvanity=410100326179394",
+      "_vehicle": "mc",
+      "description": "Red Wings Mora MC Klubb träffas som vanligt vid klubbstugan tisdag 6 oktober från ca kl 18. Mysigt umgänge, fika och brukar dyka upp en hel del motorcyklar. Återkommande informell träff.",
+      "descriptionFull": "Solen skiner och 16 plusgrader är det när detta skrivs. Man kan ju tro att det fortfarande är sommar!\n\nVi fortsätter väl träffas som vanligt vid klubbstugan nu på tisdag den 6 oktober från ca kl. 18.00.\n\nSenast var vi fulla verandan med folk igen. Dessutom var det en hel del motorcyklar.\n\nOBS: Detta är en återkommande, informell klubbträff vid klubbstugan, inte ett engångsevent.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=4397874100429675&set=gm.2522374264951979&idorvanity=410100326179394"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/410100326179394"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mora",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/red-wings-mora-mc-traff-back-2026-10-06.jpg"
+    },
+    {
+      "id": "maximus-riders-onsdagshang-2026-10-07",
+      "name": "Onsdagshäng",
+      "date": "2026-10-07",
+      "dateEnd": "2026-10-07",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Skåne",
+      "location": "Maximus Riders klubblokal, Norra Vallåkravägen 162 1/2, Vallåkra",
+      "organizer": "Maximus Riders",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2531284074033263",
+      "_vehicle": "mc",
+      "description": "Maximus Riders bjuder in till onsdagshäng i klubblokalen i Vallåkra, premiär onsdag 7 oktober kl 17-20. Enklare mat att köpa, kaffe och gemenskap. Ingen körning, bara en trevlig stund med hojkompisar. Återkommer varje onsdag under lågsäsongen.",
+      "descriptionFull": "När Tykarpsgrottan stänger för säsongen behöver gemenskapen på onsdagarna inte göra det.\n\nNär hösten kommer och hojarna så småningom får ställas undan vill vi fortfarande kunna träffa våra hojkompisar, snacka lite skit och umgås.\n\nDärför fortsätter vi onsdagarna hos Maximus Riders i Vallåkra! Premiär onsdag 7 oktober kl. 17.00-20.00, Maximus Riders klubblokal, Norra Vallåkravägen, Vallåkra.\n\nDet här är ingen körning, tanken är inte att man ska komma på hoj. Det kommer finnas enklare mat att köpa, till exempel hamburgare, korv med bröd eller smörgås. Är du inte hungrig är du precis lika välkommen att bara slå dig ner med en kopp kaffe, snacka lite skit och umgås med andra hojfolk.\n\nOBS: Detta är en ny återkommande träff, varje onsdag under hela lågsäsongen, inte bara detta datum.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2531284074033263"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/302865806754277/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Norra+Vall%C3%A5krav%C3%A4gen+162+Vall%C3%A5kra",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/maximus-riders-onsdagshang-back-2026-10-07.jpg"
+    },
+    {
       "id": "rusktraffen-2026",
       "name": "Ruskträffen",
       "date": "2026-10-09",
