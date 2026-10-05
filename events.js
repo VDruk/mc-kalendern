@@ -1856,6 +1856,28 @@ const EVENTS_DATA = {
       "backImage": "ads/zatan-cruisers-halloween-back-2026-10-31.jpg"
     },
     {
+      "id": "stockholm-city-halloween-ride-2026-10-31",
+      "name": "Halloween-Ride",
+      "date": "2026-10-31",
+      "dateEnd": "2026-10-31",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "Stockholm",
+      "organizer": "Robert Lindgren",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/Robban72nacka/",
+      "_vehicle": "mc",
+      "description": "Stockholm City Halloween-Ride lördag 31 oktober. Klä ut dig och följ med på en mc-tur genom Stockholm. Samlingstid och plats meddelas senare. OBS preliminär info, mer detaljer kommer.",
+      "descriptionFull": "En liten heads-up inför Halloween lördag 31 oktober, börja redan nu planera in vad ni ska klä ut er till!\n\nStockholm City Halloween-Ride 2026. Vi kör för gemenskap, glädje, galenskap och en lite mer skräckfylld Halloween i Stockholm. Alla är välkomna, kreativa kostymer får extra uppmärksamhet.\n\nSamlingstid och plats meddelas senare.\n\nOBS: Detta är preliminär information, fler detaljer kommer närmare datumet.",
+      "links": [
+        {
+          "label": "Arrangör (Facebook)",
+          "url": "https://www.facebook.com/Robban72nacka/"
+        }
+      ],
+      "backImage": "ads/stockholm-city-halloween-ride-back-2026-10-31.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-11-03",
       "name": "DOA - Tisdagslunch",
       "date": "2026-11-03",
