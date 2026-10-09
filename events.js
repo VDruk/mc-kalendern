@@ -1383,6 +1383,38 @@ const EVENTS_DATA = {
       "backImage": "ads/motorklubben-tandstiftet-sasongsavslutning-back-2026-10-10.jpg"
     },
     {
+      "id": "pauls-motor-bike-saturday-2026-10-10",
+      "name": "Bike Saturday",
+      "date": "2026-10-10",
+      "dateEnd": "2026-10-10",
+      "time": "10:00",
+      "type": "Träff",
+      "region": "Stockholm",
+      "location": "Pauls Motor, Saldovägen 22, Järfälla",
+      "organizer": "Pauls Motor",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/reel/1517754607051791",
+      "_vehicle": "mc",
+      "description": "Pauls Motor bjuder in till en riktig bike Saturday lördag 10 oktober. Kolla in alla hojar, Zontes nya 2026-modeller på plats, korv till besökare, snacka mc och finansiering. Alla välkomna.",
+      "descriptionFull": "THIS SATURDAY – OCTOBER 10!\n\nBring a buddy and come by Pauls Motor! Vi bjuder på korv till alla besökare, kolla in alla våra hojar, Zontes är på plats och visar upp 2026 års modeller. Snacka med oss, kolla in nyheterna och häng med!\n\nVälkomna till en riktig bike Saturday på Pauls Motor!",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/reel/1517754607051791"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/paulsmotorsweden/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Saldov%C3%A4gen+22+J%C3%A4rf%C3%A4lla",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/pauls-motor-bike-saturday-back-2026-10-10.jpg"
+    },
+    {
       "id": "doa-emilsturen-2026-10-11",
       "name": "DOA - Emilsturen",
       "date": "2026-10-11",
