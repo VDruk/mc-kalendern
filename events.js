@@ -1384,7 +1384,7 @@ const EVENTS_DATA = {
     },
     {
       "id": "pauls-motor-bike-saturday-2026-10-10",
-      "name": "Bike Saturday",
+      "name": "Real Bike Saturday at Pauls Motor!",
       "date": "2026-10-10",
       "dateEnd": "2026-10-10",
       "time": "10:00",
