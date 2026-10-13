@@ -3122,6 +3122,38 @@ const EVENTS_DATA = {
       ]
     },
     {
+      "id": "imrg-big-lake-spring-meet-2027-05-06",
+      "name": "IMRG Big Lake Spring Meet 2027",
+      "date": "2027-05-06",
+      "dateEnd": "2027-05-09",
+      "time": "13:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Kronocamping, Läckögatan 22, Lidköping",
+      "organizer": "IMRG Big Lake & Mc-Konsult i Lidköping",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=1698686705594121&set=a.515472817248855",
+      "_vehicle": "mc",
+      "description": "IMRG Big Lake Spring Meet 6-9 maj 2027 i Lidköping, för alla IMRG-grupper och Victory & Indian Club Sweden. Boende på Kronocamping vid Vänern, mc-turer, middagar. Träffavgift 905 kr/person.",
+      "descriptionFull": "VÄLKOMMEN TILL TRÄFFEN\n\nNu är det dags att börja anmäla sig till IMRG Big Lake Spring Meet den 6-9 maj 2027.\n\nTräffen vänder sig till medlemmar i alla IMRG-grupper i Sverige och Victory & Indian Club Sweden.\n\nTräffen arrangeras av IMRG Big Lake och Mc-Konsult i Lidköping.\n\nTRÄFFAVGIFT: 905 kr/person. I priset ingår 3 frukostar, 3 middagar, 2 enklare luncher, kaffe och aktiviteter. Betalas senast 27 mars 2027 via Swish 0765-81 55 29, märk med deltagarens namn.\n\nPROGRAM\nTorsdag 6 maj: 13.00 vi finns på plats vid campingens reception. 15.00 incheckning på campingen. 17.00 besök på Mc-Konsult med middag, transporter till och från Kronocampingen ordnas, provkörningar av Indian-hojar, 20% rabatt på Indian-kläder.\nFredag 7 maj: 08.00 frukost. 10.00 samling med fulltankad hoj för gemensam MC-tur, samlingsplats bredvid golfbanorna. Under turen serveras enklare lunch och kaffe. 17.00 tipspromenad där ni sätts på prov med Indians historik. 19.00 middag i egen lokal med bar. 21.00 trubadur i restaurangen.\nLördag 8 maj: 08.00 frukost. 10.00 samling med fulltankad hoj för gemensam MC-tur, samlingsplats bredvid golfbanorna, egen tid under turen. 19.00 middag i egen lokal med bar.\nSöndag 9 maj: 08.00 frukost. 11.00 utcheckning. Tack för en fantastisk träff!\n\nBOENDE PÅ KRONOCAMPINGEN\nTräffen är förlagd till femstjärniga Kronocampingen i Lidköping, centralt belägen vid Vänerns strand. Vi har reserverat 96 platser i stugor med hög standard. Det finns också möjlighet att tälta eller bo i egen husvagn/husbil enligt campingens ordinarie priser.\n\nNi bokar själva boendet genom att ringa eller mejla campingen. Uppge att ni bokar för \"IMRG Spring Meet\". Boende kan bokas så länge stugor finns kvar, dock senast 31 januari 2027.\n\nBOKA DIREKT HOS CAMPINGEN\nTelefon: 0510-268 04\nMejl: info@kronocamping.com\nHemsida: www.kronocamping.com\n\nBETALNING AV BOENDE\nEn bokningsavgift på 1 200 kr betalas i samband med bokningen. Resterande belopp betalas 40 dagar före ankomst, den 27 mars 2027. Lakan och handdukar kan hyras för 195 kr/person.\n\nSTUGOR OCH PRISER PER NATT\nDjuröstugan (4 stugor): 2 sovplatser - 713 kr\nLuröstugan (2 stugor): 3-4 sovplatser - 998 kr\nKinnevikstugan (8 stugor): 4 sovplatser - 1 375 kr\nVänerstugan (8 stugor): 4 sovplatser - 1 375 kr\nSnickestugan (4 stugor): 6 sovplatser - 1 995 kr\n\nANMÄLAN TILL TRÄFFEN\nNär ert boende är bokat anmäler ni er till Urban Knutsson: urbanknutsson55@gmail.com\n\nFRÅGOR OCH SPECIALKOST\nUrban Knutsson: 073-545 27 49\nLeif Håkansson: 070-372 95 27\nSpecialkost: stina__knutsson@hotmail.com\n\nVARMT VÄLKOMNA TILL TRÄFFEN!",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1698686705594121&set=a.515472817248855"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/Mckonsult"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=L%C3%A4ck%C3%B6gatan+22+Lidk%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/imrg-big-lake-spring-meet-back-2027-05-06.jpg"
+    },
+    {
       "id": "kristianstad-mc-kortege-ahusparken-2027-05-22",
       "name": "MC-kortege för Bus i Lund och Barnkliniken CSK",
       "date": "2027-05-22",
