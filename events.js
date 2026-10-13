@@ -1618,7 +1618,7 @@ const EVENTS_DATA = {
       "link": "https://www.facebook.com/events/1630992825097181/",
       "_vehicle": "mc",
       "description": "Black Thunders Mc bjuder in till barhäng i Kulltorp lördag 17 oktober kl 19. Lättare förtäring och Ozzy-musik hela kvällen. Alla välkomna.",
-      "descriptionFull": "Välkomna på barhäng, lättare förtäring och Ozzy musik hela kvällen.",
+      "descriptionFull": "Välkomna på barhäng, lättare förtäring och Ozzy musik hela kvällen.\n\nSBM och vänner är med och arrangerar tillsammans med Black Thunders Mc.",
       "links": [
         {
           "label": "FB Event",
