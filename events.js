@@ -1669,6 +1669,34 @@ const EVENTS_DATA = {
       "backImage": "ads/mc-for-alla-skane-sasongsavslut-back-2026-10-18.jpg"
     },
     {
+      "id": "mc-upplevelser-sormland-med-solen-2026-10-18",
+      "name": "Sörmland med solen i ryggen",
+      "date": "2026-10-18",
+      "dateEnd": "2026-10-18",
+      "time": "11:15",
+      "type": "Körning",
+      "region": "Kalmar",
+      "location": "Hotell Post, Östra Torggatan 13, Oskarshamn",
+      "organizer": "MC-upplevelser Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=100009464496014",
+      "_vehicle": "mc",
+      "description": "Mc-tur med MC-upplevelser Stockholm, start från Oskarshamn söndag 18 oktober kl 11.15. Man kör norrut med solen i ryggen för att slippa bli bländad. Vid dåligt väder ställs turen in senast torsdag kväll innan.",
+      "descriptionFull": "Ni vet hur det brukar bli så här års:\n- Startar man för tidigt är vägarna blöta.\n- Kör man norrut får man åka hem efter solnedgången om man inte vill bli bländad. Det tar ungefär lika lång tid att komma hem, även om man tar motorvägen när man väl kommer till den.\n- Kör man söderut har man motljus hela vägen. På vägar som slingrar i skogen ser man inte mycket i skuggan.\n\nDen här turen ändrar på det. Vi startar kl. 11 från Oskarshamn, kör ungefär en timme mot lunch medan vägarna torkar, och sedan vidare med solen i ryggen.\n\nMan tar sig till Oskarshamn på valfritt sätt.\n\nVid skitväder ställs turen in senast kl 19 torsdagen innan.\n\nOBS: Detta är ett privat evenemang skapat inom en sluten Facebook-grupp (MC-upplevelser Stockholm). Länken ovan går till arrangörens profil eftersom gruppen och eventet inte är öppna för allmänheten.",
+      "links": [
+        {
+          "label": "Arrangör (Facebook)",
+          "url": "https://www.facebook.com/profile.php?id=100009464496014"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%96stra+Torggatan+13+Oskarshamn",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mc-upplevelser-sormland-med-solen-back-2026-10-18.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-10-20",
       "name": "DOA - Tisdagslunch",
       "date": "2026-10-20",
