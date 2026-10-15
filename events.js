@@ -1759,6 +1759,38 @@ const EVENTS_DATA = {
       "source": "gotlandgrandnational.se"
     },
     {
+      "id": "jmc-samakning-after-ride-2026-10-23",
+      "name": "After Ride",
+      "date": "2026-10-23",
+      "dateEnd": "2026-10-23",
+      "time": "17:00",
+      "type": "Träff",
+      "region": "Jönköping",
+      "location": "Murphy's, Lundströms Plats 2, Jönköping",
+      "organizer": "JMC Samåkning Småland",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1699106267843093",
+      "_vehicle": "mc",
+      "description": "JMC Samåkning Småland bjuder in till After Ride på Murphy's i Jönköping, fredag 23 oktober kl 17. Ställ hojen, ta en öl, fira av säsongens ride i äkta pubmiljö.",
+      "descriptionFull": "Välkommen till JMC's After Ride!\n\nStäll hojen, ta en öl!\n\nFira av säsongens ride med oss i äkta pubmiljö.\n\nIntresse koll.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1699106267843093"
+        },
+        {
+          "label": "FB Grupp",
+          "url": "https://www.facebook.com/groups/mcsamakning/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lundstr%C3%B6ms+Plats+2+J%C3%B6nk%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/jmc-samakning-after-ride-back-2026-10-23.jpg"
+    },
+    {
       "id": "medlemsmote-2026",
       "name": "Medlemsmöte",
       "date": "2026-10-24",
