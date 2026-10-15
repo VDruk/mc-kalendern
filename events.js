@@ -2094,6 +2094,34 @@ const EVENTS_DATA = {
       "backImage": "ads/stockholm-city-halloween-ride-back-2026-10-31.jpg"
     },
     {
+      "id": "mopedfika-grangesberg-2026-10-31",
+      "name": "Mopedfika #1",
+      "date": "2026-10-31",
+      "dateEnd": "2026-10-31",
+      "time": "10:00",
+      "type": "Träff",
+      "region": "Dalarna",
+      "location": "Lyckans Konditori, Kopparbergsvägen 50, Grängesberg",
+      "organizer": "Grängesmopperz",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1413089303729478",
+      "_vehicle": "moped",
+      "description": "Fikaträff för veteranmopedintresserade på Lyckans Konditori i Grängesberg, lördag 31 oktober kl 10-14. Arrangeras av Grängesmopperz, en klubb för veteranmopeder i Grängesberg/Dalarna.",
+      "descriptionFull": "FIKATRÄFF PÅ LYCKANS KONDITORI\n\nEn riktig fikaträff för alla med intresse för veteranmopeder.\n\nSamlas på Lyckans Konditori i Grängesberg, lördag 31 oktober kl 10.00-14.00.\n\nArrangeras av Joakim Söderlund och Grängesmopperz, en klubb på 307 medlemmar som samlar folk runt Grängesberg/Dalarna med intresse för veteranmopeder.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1413089303729478"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kopparbergsv%C3%A4gen+50+Gr%C3%A4ngesberg",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mopedfika-grangesberg-back-2026-10-31.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-11-03",
       "name": "DOA - Tisdagslunch",
       "date": "2026-11-03",
@@ -3264,6 +3292,34 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "moon-bike-show-2027-03-13",
+      "name": "Moon Bike Show 2027",
+      "date": "2027-03-13",
+      "dateEnd": "2027-03-13",
+      "time": "10:00",
+      "type": "Show",
+      "region": "Dalarna",
+      "location": "Verket/Avesta Art, Kanalvägen 4, Avesta",
+      "organizer": "Mooneyes Sweden",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/868483932958584",
+      "_vehicle": "mc",
+      "description": "Moon Bike Show i gamla ugnshallen på Verket/Avesta Art, lördag 13 mars 2027. Choppers, bobbers, customs och klassiker. Anmäl din hoj genom att skicka bilder till Mooneyes Sweden.",
+      "descriptionFull": "Choppers, Bobbers, customs, och klassiker i den gamla ugnshallen är Moon Bike Show.\n\nAnmäl din hoj med att skicka bilder till: info@mooneyessweden.com\n\nArrangeras av Mooneyes Sweden, som säljer klassiska Moon-produkter till kustoms, hot rods och hojar, och bygger specialbyggda bilar och hojar.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/868483932958584"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kanalv%C3%A4gen+4+Avesta",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/moon-bike-show-back-2027-03-13.jpg"
     },
     {
       "id": "imrg-big-lake-spring-meet-2027-05-06",
