@@ -1791,6 +1791,34 @@ const EVENTS_DATA = {
       "backImage": "ads/jmc-samakning-after-ride-back-2026-10-23.jpg"
     },
     {
+      "id": "bifrost-mc-fredagsmys-2026-10-23",
+      "name": "Fredagsmys",
+      "date": "2026-10-23",
+      "dateEnd": "2026-10-23",
+      "time": "18:00",
+      "type": "Träff",
+      "region": "Östergötland",
+      "location": "Norrköping",
+      "organizer": "Bifrost Mc Norrköping",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/BifrostMC",
+      "_vehicle": "mc",
+      "description": "Bifrost Mc Norrköping bjuder in till fredagsmys fredag 23 oktober kl 18-00. OBS: Endast för SBM och vänner, inte öppet för allmänheten.",
+      "descriptionFull": "Bifrost Mc Norrköping bjuder in till fredagsmys.\n\nFredag 23 oktober kl 18.00-00.00.\n\nOBS: Detta är ett slutet evenemang. ENDAST SBM & VÄNNER, inte öppet för allmänheten.",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/BifrostMC"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Norrk%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bifrost-mc-fredagsmys-back-2026-10-23.jpg"
+    },
+    {
       "id": "medlemsmote-2026",
       "name": "Medlemsmöte",
       "date": "2026-10-24",
@@ -2631,6 +2659,34 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "bifrost-mc-oppethus-2026-11-28",
+      "name": "Öppethus",
+      "date": "2026-11-28",
+      "dateEnd": "2026-11-28",
+      "time": "15:00",
+      "type": "Träff",
+      "region": "Östergötland",
+      "location": "Norrköping",
+      "organizer": "Bifrost Mc Norrköping",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/BifrostMC",
+      "_vehicle": "mc",
+      "description": "Bifrost Mc Norrköping håller öppet hus lördag 28 november kl 15-20. OBS: Trots namnet är det endast för SBM och vänner, inte öppet för allmänheten.",
+      "descriptionFull": "Öppet hus hos Bifrost Mc Norrköping.\n\nLördag 28 november kl 15.00-20.00.\n\nOBS: Trots namnet \"öppet hus\" är detta ENDAST för SBM & VÄNNER, inte öppet för allmänheten.",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/BifrostMC"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Norrk%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bifrost-mc-oppethus-back-2026-11-28.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-12-01",
       "name": "DOA - Tisdagslunch",
       "date": "2026-12-01",
@@ -2952,6 +3008,34 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "bifrost-mc-juldagen-2026-12-25",
+      "name": "Juldagen",
+      "date": "2026-12-25",
+      "dateEnd": "2026-12-25",
+      "time": "18:00",
+      "type": "Träff",
+      "region": "Östergötland",
+      "location": "Norrköping",
+      "organizer": "Bifrost Mc Norrköping",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/BifrostMC",
+      "_vehicle": "mc",
+      "description": "Bifrost Mc Norrköping firar juldagen 25 december kl 18-02. OBS: Endast för SBM och vänner, inte öppet för allmänheten.",
+      "descriptionFull": "Julfirande hos Bifrost Mc Norrköping.\n\nJuldagen 25 december kl 18.00-02.00.\n\nOBS: Detta är ett slutet evenemang. ENDAST SBM & VÄNNER, inte öppet för allmänheten.",
+      "links": [
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/BifrostMC"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Norrk%C3%B6ping",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/bifrost-mc-juldagen-back-2026-12-25.jpg"
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-12-26",
