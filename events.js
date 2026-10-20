@@ -1850,14 +1850,15 @@ const EVENTS_DATA = {
       "name": "Ålandkryss med Eckerölinjen (Viltbord)",
       "date": "2026-10-24",
       "dateEnd": "2026-10-24",
+      "time": "12:30",
       "location": "Grisslehamn",
       "type": "Körning",
       "organizer": "ÖAMCK",
-      "description": "Dagstur med ÖAMCK från Grisslehamn. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.",
+      "description": "Ålandskryss med ÖAMCK och Eckerölinjen, lördag 24 oktober kl 12.30-21.30. Buss från Stationsgatan i Uppsala kl 13, färja från Grisslehamn kl 15. OBS: anmälan stängde 11 oktober.",
       "link": "https://oamck.se/events/alandkryss-med-eckerolinjen-viltbord/",
       "region": "Uppsala",
       "source": "oamck.se",
-      "descriptionFull": "Alandkryss med Eckerolinjen (Viltbord) arrangeras av ÖAMCK.\n\nDagstur med ÖAMCK från Grisslehamn. Trevlig grupptur på vägar genom Sverige. Samling enligt evenemangsinformation.\n\nGemensam MC-tur. Kom i tid för samling. Kontrollera evenemangssidan för exakt avfärdstid och rutt.\n\nPlats: Grisslehamn.",
+      "descriptionFull": "Ålandskryss med ÖAMCK och Eckerölinjen.\n\nLördag 24 oktober kl 12.30-21.30.\n\nBussen avgår kl 13.00 från Stationsgatan i Uppsala. Eckerölinjens eftermiddagstur avgår kl 15.00 från Grisslehamn. Båten är tillbaka i Grisslehamn kl 19.30, därefter bussfärd till Uppsala.\n\nGrundpris per person: 195 kr för båtresa och buss. Viltbuffén kostar 395 kr på lördagar.\n\nOBS: Sista anmälningsdag var 11 oktober. Anmälan skedde via SMS/samtal till Fia Sjunneskog.",
       "links": [
         {
           "label": "oamck.se",
@@ -1870,7 +1871,7 @@ const EVENTS_DATA = {
         }
       ],
       "organizerIcon": "clubs/normalized/oamck.png",
-      "backImage": "ads/oamck-klubbkaken-back.jpg"
+      "backImage": "ads/oamck-alandkryss-back-2026-10-24.jpg"
     },
     {
       "id": "doa-tisdagslunch-2026-10-27",
