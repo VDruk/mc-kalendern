@@ -2716,6 +2716,34 @@ const EVENTS_DATA = {
       "backImage": "ads/bifrost-mc-oppethus-back-2026-11-28.jpg"
     },
     {
+      "id": "tomteturen-2026-11-29",
+      "name": "Tomteturen 2026",
+      "date": "2026-11-29",
+      "dateEnd": "2026-11-29",
+      "time": "12:00",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "Circle K Järva Krog, Vallgatan 6, Solna",
+      "organizer": "MC-upplevelser Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/peter.deleter.31",
+      "_vehicle": "mc",
+      "description": "Tomteturen 2026, första advent 29 november kl 12. Samling vid Circle K Järva Krog i Solna. MC-tur i tomtekostym genom Stockholms gator, godis delas ut till barn längs vägen.",
+      "descriptionFull": "Den sedvanliga Tomteturen är tillbaka! Vi kör genom Stockholms gator i tomtekostym till folks nöje och uppskattning, första advent.\n\nSamling vid Circle K Järva Krog i Solna kl 12.00.\n\nVi delar ut godis till barnen längs vägen.\n\nVäderberoende, turen flyttas framåt om vädret inte tillåter.\n\nOBS: Detta event är skapat inom den slutna Facebook-gruppen MC-upplevelser Stockholm. Länken ovan går till arrangören Peter Deleters profil eftersom eventet och gruppen inte är öppna för allmänheten.",
+      "links": [
+        {
+          "label": "Arrangör (Facebook)",
+          "url": "https://www.facebook.com/peter.deleter.31"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Vallgatan+6+Solna",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/tomteturen-back-2026-11-29.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-12-01",
       "name": "DOA - Tisdagslunch",
       "date": "2026-12-01",
