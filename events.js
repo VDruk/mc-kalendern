@@ -857,6 +857,38 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "novemberkasan-2026-11-07",
+      "name": "Novemberkåsan 2026",
+      "date": "2026-11-07",
+      "dateEnd": "2026-11-08",
+      "time": "08:31",
+      "type": "Racing",
+      "region": "Uppsala",
+      "location": "CIK (Centrum för Idrott och Kultur), Parkvägen 31A, Knivsta",
+      "organizer": "SMK Uppsala",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/photo/?fbid=1587332803433285&set=a.636714495161792",
+      "_vehicle": "mc",
+      "description": "Novemberkåsan 2026, Sveriges äldsta MC-tävling sedan 1915, fyller 100 år. Arrangeras av SMK Uppsala i Knivsta 7-8 november. Dagsetapp start 08.31, nattetapp 16.31 vid CIK.",
+      "descriptionFull": "Knivsta välkomnar Novemberkåsan tillbaka efter tio år!\n\nNovemberkåsan är Sveriges äldsta och mest kända motorcykeltävling. Den kördes första gången 1915, och detta är den 100:e upplagan.\n\nSMK Uppsala arrangerar i år, för 11:e gången sedan klubben började arrangera vart 10:e år med start 1936.\n\nStart, mål och service vid CIK (Centrum för Idrott och Kultur) i Knivsta, ca 3 km från E4-avfart 184, 20 km söder om Uppsala.\n\nLördag 7 november: dagsetappen startar kl 08.31, nattetappen startar kl 16.31 med sammandraget startfält.\n\nPublikfest, leriga förare och nattsudd. Flera restauranger och caféer i centrala Knivsta och Alsike håller öppet under tävlingshelgen.\n\nOBS: Vissa parkeringar i centrala Knivsta stängs torsdag 5 november kl 09.00 till söndag 8 november kl 18.00. Tillfällig parkering öppnar på grusplanen vid Valloxskolan under tävlingshelgen.\n\nFölj tävlingen live via Enduroradio och NTS-Timing, se länkar på novemberkasan.se.",
+      "links": [
+        {
+          "label": "FB Inlägg",
+          "url": "https://www.facebook.com/photo/?fbid=1587332803433285&set=a.636714495161792"
+        },
+        {
+          "label": "novemberkasan.se",
+          "url": "https://novemberkasan.se/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parkv%C3%A4gen+31A+Knivsta",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/novemberkasan-2026-back.jpg"
+    },
+    {
       "id": "oamck-andalusienresa-2026-11-07",
       "name": "Andalusienresa",
       "date": "2026-11-07",
