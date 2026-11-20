@@ -1820,6 +1820,34 @@ const EVENTS_DATA = {
       "backImage": "ads/smc-default-back.jpg"
     },
     {
+      "id": "mopedluciataget-stockholm-2026-12-13",
+      "name": "Mopedluciatåget i Stockholm 2026",
+      "date": "2026-12-13",
+      "dateEnd": "2026-12-13",
+      "time": "19:00",
+      "type": "Körning",
+      "region": "Stockholm",
+      "location": "Liljeholmen, under Liljeholmsbron södra fäste, Stockholm",
+      "organizer": "Mopedluciatåget i Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1843982050239010",
+      "_vehicle": "moped",
+      "description": "Mopedluciatåg genom Stockholm, söndag 13 december kl 19. Cirka 2 timmar med stopp på Medborgarplatsen, Stortorget och Stureplan. Alla välkomna, även plastmoppar om de är dekorerade.",
+      "descriptionFull": "Mopedluciatåg runt stan, cirka 2 timmar med stopp på Medborgarplatsen, Stortorget och Stureplan.\n\nAlla välkomna, även plastmoppar om de är dekorerade.\n\nStart från Liljeholmen, under Liljeholmsbrons södra fäste.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1843982050239010"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=59.312930,18.031020",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/mopedluciataget-stockholm-back-2026-12-13.jpg"
+    },
+    {
       "id": "doa-tisdagslunch-2026-12-15",
       "name": "DOA - Tisdagslunch",
       "date": "2026-12-15",
