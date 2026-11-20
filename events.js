@@ -1510,6 +1510,38 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "sulas-mc-julmingel-2026-12-05",
+      "name": "Julmingel hos Sulas MC",
+      "date": "2026-12-05",
+      "dateEnd": "2026-12-05",
+      "time": "10:00",
+      "type": "Träff",
+      "region": "Uppsala",
+      "location": "Sulas MC, Säva 17, Uppsala",
+      "organizer": "Sulas MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1686850112830566",
+      "_vehicle": "mc",
+      "description": "Julfika hos Sulas MC i Säva utanför Uppsala, lördag 5 december kl 10. Glögg, kaffe, lussekatter och pepparkakor. Perfekt tillfälle att prata hoj, klappar och framtidsplaner mitt i julstöket.",
+      "descriptionFull": "Julfika hos Sulas MC!\n\nVi bjuder på glögg, kaffe, lussekatter och pepparkakor, allt som hör julen till. Perfekt tillfälle att prata hoj, klappar och framtidsplaner mitt i julstöket.\n\nPlats: Sulas MC Uppsala, Säva 17.\n\nTid: Lördag 5 december kl 10.00.\n\nVarmt välkommen till årets mysigaste tradition hos Sulas MC!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1686850112830566"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/SulasMC"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=S%C3%A4va+17+Uppsala",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/sulas-mc-julmingel-back-2026-12-05.jpg"
+    },
+    {
       "id": "gwcs-jultallrik-2026",
       "name": "Stor Jultallrik Sigridslunds Café",
       "date": "2026-12-06",
