@@ -1211,6 +1211,39 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "probike-sprint-440-lanseringsevent-2026-11-21",
+      "name": "Sprint 440 Lanseringsevent",
+      "date": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "time": "09:00",
+      "type": "Show",
+      "region": "Stockholm",
+      "location": "Probike Stockholm, Åkerivägen 6, Täby",
+      "organizer": "Probike Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1650893406510468/",
+      "_vehicle": "mc",
+      "description": "Probike Täby visar upp nya Harley-Davidson Sprint 440, lördag 21 november kl 9-15. Kom in och beskåda den nya modellen.",
+      "descriptionFull": "Välkomna in att beskåda Harley-Davidson Sprint 440.\n\nLördag 21 november kl 9.00-15.00 hos Probike Täby.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1650893406510468/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/probikeStockholm"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85kerivägen+6+T%C3%A4by",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/probike.png",
+      "backImage": "ads/probike-sprint440-back-2026-11-21.jpg"
+    },
+    {
       "id": "oamck-flipperturnering-2026",
       "name": "Flipperturnering",
       "date": "2026-11-21",
@@ -1648,6 +1681,62 @@ const EVENTS_DATA = {
       ],
       "organizerIcon": "clubs/normalized/hdcs.png",
       "backImage": "ads/hd-default-back.jpg"
+    },
+    {
+      "id": "parts-stop-gloggmingel-2026-12-11",
+      "name": "Glöggmingel 2026",
+      "date": "2026-12-11",
+      "dateEnd": "2026-12-11",
+      "time": "18:00",
+      "type": "Träff",
+      "region": "Stockholm",
+      "location": "The Parts Stop Sweden, Överby Ladugården 5, Sollentuna",
+      "organizer": "The Parts Stop Sweden",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2901889646861470/",
+      "_vehicle": "mc",
+      "description": "Glöggmingel hos The Parts Stop i Sollentuna, fredag 11 december kl 18-22. Glögg och pepparkakor, mingel och julklappsfynd i butiken.",
+      "descriptionFull": "Kom förbi och smaka lite glögg och pepparkakor, träffa likasinnade och snacka lite med.\n\nPassa på att köpa några julklappar till dig själv eller kompisen.\n\nVi ses i butiken 11/12 kl 18.00.\n\nVälkomna, Roffe och Fredrik!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2901889646861470/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%96verby+Ladug%C3%A5rden+5+Sollentuna",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/parts-stop-gloggmingel-back-2026-12-11.jpg"
+    },
+    {
+      "id": "lucia-korning-goteborg-2026-12-12",
+      "name": "Lucia Körning 2026",
+      "date": "2026-12-12",
+      "dateEnd": "2026-12-12",
+      "time": "12:00",
+      "type": "Körning",
+      "region": "Västra Götaland",
+      "location": "Götaplatsen, Göteborg",
+      "organizer": "Sporthoj Göteborg",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1045147174702015/",
+      "_vehicle": "both",
+      "description": "Lucia Körning 2026, Sporthoj Göteborgs årliga tradition. Samling på Götaplatsen lördag 12 december kl 12. Alla typer av mc, moped och el-scooter välkomna på den lugna rundturen genom Göteborg.",
+      "descriptionFull": "Luciacruising har blivit en uppskattad tradition, så vi kör precis som alla år tidigare!\n\n12/12-26 | Götaplatsen | kl 12.00\n\nBeroende på väderleken kan även söndagen 13:e vara aktuell, men beslut tas närmare dagen. Tryck \"intresserad\" eller \"kommer\" på eventet för att få notis om ändringar.\n\nAlla typer av motorcyklar, mopeder och el-scooter är välkomna att åka med, det blir i lugnt tempo runt om i Göteborg för att sprida lite julglädje åt folket.\n\nSaknar du hoj? Dyk bara upp på Götaplatsen och mingla med tomtar, nissar och lucior.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1045147174702015/"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=G%C3%B6taplatsen+G%C3%B6teborg",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/lucia-korning-goteborg-back-2026-12-12.jpg"
     },
     {
       "id": "dog-fikatraff-pa-radis-2026-12-12",
@@ -2092,6 +2181,39 @@ const EVENTS_DATA = {
           "type": "map"
         }
       ]
+    },
+    {
+      "id": "probike-massan-2027-02-27",
+      "name": "Probike Mässan 2027",
+      "date": "2027-02-27",
+      "dateEnd": "2027-02-27",
+      "time": "11:00",
+      "type": "Show",
+      "region": "Stockholm",
+      "location": "Probike Stockholm, Åkerivägen 6, Täby",
+      "organizer": "Probike Stockholm",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/2179948182878480/",
+      "_vehicle": "mc",
+      "description": "Probike Mässan 2027 hos Probike Täby, lördag 27 februari kl 11-15. Nyheter, mässerbjudanden, tävlingar och H.O.G. vid grillen.",
+      "descriptionFull": "SAVE THE DATE - PROBIKE MÄSSAN 2027!\n\nDen 27 februari är det äntligen dags! Vi bjuder in till en riktigt härlig MC-dag hos Probike Täby!\n\nKom och upplev årets nyheter, grymma erbjudanden, roliga tävlingar och härlig gemenskap med andra MC-entusiaster!\n\nDet här vill du inte missa:\n- Nyheter och premiärer, upptäck de senaste motorcyklarna\n- Exklusiva mässerbjudanden\n- Tävlingar om fina priser\n- H.O.G. står vid grillen\n- Leverantörer på plats\n\nLördag 27 februari 2027, kl 11.00-15.00, Probike Täby, Åkerivägen 6, Täby.\n\nOavsett om du redan kör hoj eller drömmer om din första är du varmt välkommen!",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/2179948182878480/"
+        },
+        {
+          "label": "FB Sida",
+          "url": "https://www.facebook.com/probikeStockholm"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=%C3%85kerivägen+6+T%C3%A4by",
+          "type": "map"
+        }
+      ],
+      "organizerIcon": "clubs/normalized/probike.png",
+      "backImage": "ads/probike-massan-back-2027-02-27.jpg"
     },
     {
       "id": "moon-bike-show-2027-03-13",
