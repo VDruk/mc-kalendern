@@ -1379,6 +1379,34 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "trollbikers-mc-barhang-2026-11-28",
+      "name": "Barhäng hos Trollbikers MC",
+      "date": "2026-11-28",
+      "dateEnd": "2026-11-28",
+      "time": "19:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Trollbikers MC, Lerum Brunnered 3, Trollhättan",
+      "organizer": "Trollbikers MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1508067991273075",
+      "_vehicle": "mc",
+      "description": "Barhäng hos Trollbikers MC i Brunnered, lördag 28 november kl 19-01. OBS: Inbjudan gäller SBM-anslutna och inbjudna vänner, inte öppet för allmänheten.",
+      "descriptionFull": "Trollbikers MC bjuder in till barhäng.\n\nLördag 28 november kl 19.00-01.00. Baren håller öppet till kl 01.\n\nTrollbikers MC har sedan 25/3 2017 varit med i region 8 inom SBM, stödjer Payback och går efter Bikerkoden.\n\nOBS: Inbjudan gäller ENDAST SBM-anslutna och inbjudna vänner, inte öppet för allmänheten.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1508067991273075"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lerum+Brunnered+3+Trollh%C3%A4ttan",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/trollbikers-mc-barhang-back-2026-11-28.jpg"
+    },
+    {
       "id": "markland-mc-glogg-afton-2026-11-28",
       "name": "Glögg afton",
       "date": "2026-11-28",
