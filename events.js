@@ -1379,6 +1379,34 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "markland-mc-glogg-afton-2026-11-28",
+      "name": "Glögg afton",
+      "date": "2026-11-28",
+      "dateEnd": "2026-11-28",
+      "time": "10:00",
+      "type": "Träff",
+      "region": "Västra Götaland",
+      "location": "Markland MC, Skräddaregården 16, Töllsjö",
+      "organizer": "Markland MC",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1115265547987028",
+      "_vehicle": "mc",
+      "description": "Glögg afton hos Markland MC i Töllsjö, lördag 28 november kl 10. Mysigt mingel i verkstaden hos klubben som bygger trikar och custombyggen.",
+      "descriptionFull": "Markland MC bjuder in till glögg afton.\n\nLördag 28 november från kl 10.00 på Skräddaregården 16 i Töllsjö.\n\nMarkland MC bygger trikar och andra custombyggen, har ett stort utbud av chromtillbehör och full verkstad inklusive försäkringsskador.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1115265547987028"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Skr%C3%A4ddareg%C3%A5rden+16+T%C3%B6llsj%C3%B6",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/markland-mc-glogg-afton-back-2026-11-28.jpg"
+    },
+    {
       "id": "doa-julbordskryssning-2026",
       "name": "DOA - Julbordskryssning",
       "date": "2026-11-28",
