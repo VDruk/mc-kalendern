@@ -1599,6 +1599,34 @@ const EVENTS_DATA = {
       "backImage": "ads/hd-default-back.jpg"
     },
     {
+      "id": "adas-mc-vinterparty-2026-12-04",
+      "name": "Adas VinterParty 2026",
+      "date": "2026-12-04",
+      "dateEnd": "2026-12-06",
+      "time": "18:15",
+      "type": "Fest",
+      "region": "Västernorrland",
+      "location": "Adas Mc Sundsvall, Regementsvägen 12, Sundsvall",
+      "organizer": "Adas Mc Sundsvall",
+      "source": "facebook.com",
+      "link": "https://www.facebook.com/events/1384422567188890",
+      "_vehicle": "mc",
+      "description": "Adas VinterParty 2026 på klubben i Sundsvall, 4-6 december. Bar och dans till rock. OBS: För vänner och inbjudna, inte öppet för allmänheten.",
+      "descriptionFull": "Baluns på klubben, för vänner och inbjudna.\n\nSedvanligt massa surr i baren och dans till rock.\n\nFredag 4 december kl 18.15 till söndag 6 december natt.\n\nDåligt med sängplatser på klubben, men prata med någon i klubben eller skicka meddelande så kanske det går att lösa.\n\nOBS: Inbjudan gäller ENDAST vänner och inbjudna, inte öppet för allmänheten.",
+      "links": [
+        {
+          "label": "FB Event",
+          "url": "https://www.facebook.com/events/1384422567188890"
+        },
+        {
+          "label": "Karta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Regementsv%C3%A4gen+12+Sundsvall",
+          "type": "map"
+        }
+      ],
+      "backImage": "ads/adas-mc-vinterparty-back-2026-12-04.jpg"
+    },
+    {
       "id": "sulas-mc-julmingel-2026-12-05",
       "name": "Julmingel hos Sulas MC",
       "date": "2026-12-05",
