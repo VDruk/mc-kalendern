@@ -16,7 +16,7 @@
 </script>
 <title>MC Kalender 2026 - MC Kalendern | MC-träffar, evenemang & körningar i Sverige</title>
 <meta name="description" content="MC Kalender 2026 med tusentals MC-evenemang i Sverige. Hitta MC-träff idag, MC-kortege i helgen eller planera hela säsongen. Träffar, körningar, mässor, racing, fester och mopedträffar från hundratals arrangörer.">
-<meta name="author" content="Slava Druk">
+<meta name="author" content="MC Kalendern">
 <link rel="canonical" href="https://druk.se/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -737,7 +737,7 @@
   }
 
   /* ===== Like ("Intresserad") pill - hidden until the likes API responds (body.likes-on) =====
-     Style: transparent with star-gray contour (Slava's choice, "style A").
+     Style: transparent with star-gray contour (owner's choice, "style A").
      Desktop white card front: centered on the star column (star center = 32px from card
      right edge; anchor is the transformed .card-front, right inset 21px -> right:11px,
      translateX(50%) keeps the pill centered as the count grows). */
@@ -2942,13 +2942,6 @@
       </span>
       <span class="m-meny-arrow">&rsaquo;</span>
     </button>
-    <button class="m-meny-item" id="mMenyKontakt">
-      <span class="m-meny-item-left">
-        <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 7 9-7"/></svg></span>
-        <span>Kontakta oss</span>
-      </span>
-      <span class="m-meny-arrow">&rsaquo;</span>
-    </button>
     <button class="m-meny-item" id="mMenyTipsa">
       <span class="m-meny-item-left">
         <span class="m-meny-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
@@ -3181,10 +3174,6 @@
           <img src="ads/kofi-logo.webp" alt="Ko-fi" width="24" height="24" style="object-fit:contain;border-radius:0;">
           <span class="share-tooltip">Donera</span>
         </button>
-        <button class="share-btn" id="shareKontakt" onclick="openKontaktModal()">
-          <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="12" rx="2"/><path class="envelope-flap" d="M3 7l9 7 9-7"/></svg>
-          <span class="share-tooltip">Kontakt</span>
-        </button>
         <button class="tipsa-circle-btn" id="tipsaCircleBtn" onclick="document.getElementById('tipsaModal').classList.add('open')">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
           <span class="share-tooltip">Tipsa</span>
@@ -3322,14 +3311,6 @@
 </div>
 
 <!-- ========== CONTACT MODAL ========== -->
-<div class="modal-overlay" id="kontaktModal" onclick="if(event.target===this)closeKontaktModal()">
-  <div class="modal" style="max-width:320px; text-align:center; padding:28px 24px 22px; position:relative;">
-    <button onclick="closeKontaktModal()" style="position:absolute; top:10px; right:12px; background:none; border:none; color:var(--text-muted); font-size:20px; cursor:pointer; line-height:1; padding:4px;">&times;</button>
-    <h2 style="font-size:17px; margin-bottom:8px; font-weight:600;">Skriv till MC&nbsp;Kalendern</h2>
-    <p style="color:var(--text-muted); margin:0 0 22px; font-size:0.84rem; line-height:1.5;">Vi svarar gärna på frågor, förslag och feedback.</p>
-    <button id="kontaktEmailBtn" onclick="window.location.href='mailto:'+['slava','.','druk','@','gmail','.','com'].join('')+'?subject='+encodeURIComponent('MC Kalendern - druk.se')" style="display:inline-block; padding:10px 32px; font-size:14px; font-weight:600; border-radius:24px; border:none; background:var(--accent); color:#fff; cursor:pointer; transition:background 0.15s; letter-spacing:0.3px;" onmouseover="this.style.background='var(--accent-hover)'" onmouseout="this.style.background='var(--accent)'">Öppna mejl</button>
-  </div>
-</div>
 
 <!-- ========== SHARE (DELA) MODAL ========== -->
 <div class="dela-overlay" id="delaOverlay" onclick="if(event.target===this)closeDelaModal()">
@@ -3379,8 +3360,8 @@
   </div>
   <div class="footer-bottom">
     <p>MC Kalender 2026 - MC Kalendern. Sveriges kompletta MC-kalender med MC-träffar, körningar, MC-korteger, mässor, racing, trackdays och mopedträffar. Tusentals motorevenemang från hundratals arrangörer. Hitta MC-träff idag eller se vad som händer just nu.</p>
-    <p style="margin-top: 6px;">Ett projekt av <a href="https://druk.se">druk.se</a> &middot; <a href="mailto:slava.druk@gmail.com">Kontakt</a></p>
-    <p style="margin-top: 6px;">&copy; 2026 Slava Druk, Uppsala. All eventdata tillhör MC Kalendern. Kommersiell användning kräver tillstånd.</p>
+    <p style="margin-top: 6px;">Ett projekt av <a href="https://druk.se">druk.se</a></p>
+    <p style="margin-top: 6px;">&copy; 2026 MC Kalendern. All eventdata tillhör MC Kalendern. Kommersiell användning kräver tillstånd.</p>
   </div>
 </footer>
 
@@ -4798,7 +4779,6 @@ function setupMobileUI() {
   };
   menyWire('mMenyDela', () => { if (typeof openDelaModal === 'function') openDelaModal(); });
   menyWire('mMenyDonera', () => { window.open('https://ko-fi.com/mckalender', '_blank', 'noopener'); });
-  menyWire('mMenyKontakt', () => { if (typeof openKontaktModal === 'function') openKontaktModal(); });
   menyWire('mMenyTipsa', () => {
     const tm = document.getElementById('tipsaModal');
     if (tm) tm.classList.add('open');
@@ -5538,7 +5518,7 @@ const LOCATION_COORDS = {
   'rapsgatan 1l': { lat: 59.8447849, lon: 17.6960792 },
   // Björklidens Festplats, Grytgöl 2026-09-05 (coords from FB event page directly, full precision)
   'björklidens festplats': { lat: 58.7955, lon: 15.551193 }, 'grytgöl': { lat: 58.7955, lon: 15.551193 },
-  // Eva Lagerwalls väg 1, Uppsala 2026-08-15 (corrected by Slava to exact parking spot, full precision)
+  // Eva Lagerwalls väg 1, Uppsala 2026-08-15 (corrected to exact parking spot, full precision)
   'eva lagerwalls väg 1': { lat: 59.828754, lon: 17.648732 },
   // Tolgs Östra Kyrkstall, Tolg 2026-08-16 (coords from Google Maps !3d!4d, full precision; kyrkstallet ligger vid Tolgs kyrka)
   'tolgs östra kyrkstall': { lat: 57.0920332, lon: 14.8246319 },
@@ -6286,10 +6266,10 @@ function render() {
         const support = document.createElement('div');
         support.className = 'support-section';
         support.innerHTML = `<div class="support-inner">
-          <img class="support-photo" src="ads/slava-tack-2026.webp" alt="Slava Druk bland motorcyklar" width="640" height="480" loading="lazy">
+          <img class="support-photo" src="ads/tack-2026.webp" alt="Skaparen av MC Kalendern bland motorcyklar" width="640" height="480" loading="lazy">
           <div class="support-text">
             <div class="support-title">Tack för säsongen 2026</div>
-            <p>Jag startade MC Kalendern i mars 2026 med en enkel idé: samla alla MC-träffar i Sverige på ett ställe, gratis och utan skräpannonser. Det blev över 2 000 evenemang från fler än 600 arrangörer, i alla 21 SMC-distrikt och i tio andra länder. Sajten visades 195 000 gånger i Googles sökresultat och fick över 20 000 klick. Över 14 000 personer har besökt kalendern, med över 29 000 sidvisningar. I juli kom nästan nio gånger fler besökare än i april, och den 15 augusti kom över 1 000 på en enda dag. På sökningar som ”mc-träffar kalender 2026” och ”mc träffar 2026” låg vi oftast etta på Google. Nu slutar jag uppdatera sajten. De evenemang som redan finns ligger kvar här till årets slut. Tack till alla förare och arrangörer! Ha kul på hojen och kom alltid hem hel. /Slava Druk</p>
+            <p>Jag startade MC Kalendern i mars 2026 med en enkel idé: samla alla MC-träffar i Sverige på ett ställe, gratis och utan skräpannonser. Det blev över 2 000 evenemang från fler än 600 arrangörer, i alla 21 SMC-distrikt och i tio andra länder. Sajten visades 195 000 gånger i Googles sökresultat och fick över 20 000 klick. Över 14 000 personer har besökt kalendern, med över 29 000 sidvisningar. I juli kom nästan nio gånger fler besökare än i april, och den 15 augusti kom över 1 000 på en enda dag. På sökningar som ”mc-träffar kalender 2026” och ”mc träffar 2026” låg vi oftast etta på Google. Nu slutar jag uppdatera sajten. De evenemang som redan finns ligger kvar här till årets slut. Tack till alla förare och arrangörer! Ha kul på hojen och kom alltid hem hel.</p>
           </div>
         </div>`;
         grid.appendChild(support);
@@ -6763,12 +6743,6 @@ function updateNearMapLayer() {
   }
 }
 
-function openKontaktModal() {
-  document.getElementById('kontaktModal').classList.add('open');
-}
-function closeKontaktModal() {
-  document.getElementById('kontaktModal').classList.remove('open');
-}
 
 /* ========== DELA (SHARE) MODAL ========== */
 function openDelaModal() {
@@ -6933,7 +6907,7 @@ function toggleEventMap() {
   mapVisible = !mapVisible;
   section.classList.toggle('collapsed', !mapVisible);
   btn.textContent = mapVisible ? 'Dölj karta' : 'Visa karta';
-  // Do not persist visibility — each load starts hidden on mobile (Slava's preference 2026-05-22)
+  // Do not persist visibility — each load starts hidden on mobile (owner's preference 2026-05-22)
   if (mapVisible && eventMap) {
     setTimeout(() => { eventMap.invalidateSize(); render(); }, 100);
   }
@@ -7421,7 +7395,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Logo click = full reset + scroll to top (mobile topbar + desktop hero).
-  // Acts as a "home" button. Slava 2026-05-22.
+  // Acts as a "home" button. owner 2026-05-22.
   function logoResetHome() {
     resetAllFilters();
     updateAllaBtn();
@@ -7633,12 +7607,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('drawer').classList.remove('open');
     document.getElementById('drawerOverlay').classList.remove('open');
   }
-
-  // Kontakt modal email button
-  document.getElementById('kontaktEmailBtn').addEventListener('click', () => {
-    const parts = ['slava','.','druk','@','gmail','.','com'];
-    window.location.href = 'mailto:' + parts.join('') + '?subject=' + encodeURIComponent('MC Kalendern - druk.se');
-  });
 
   // Tipsa modal
   document.getElementById('tipsaBtn').addEventListener('click', () => {

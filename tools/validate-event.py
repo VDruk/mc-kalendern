@@ -2,7 +2,7 @@
 """
 validate-event.py — Pre-flight validator for MC Kalendern events.
 
-Run this BEFORE presenting any new or modified event to Slava.
+Run this BEFORE presenting any new or modified event to the owner.
 If any check fails, fix it first. Never present a failing event.
 
 Usage:
@@ -333,7 +333,7 @@ def main():
 
     if all_errors:
         print(f"RESULT: FAIL ({len(all_errors)} errors, {len(all_warnings)} warnings)")
-        print("Fix all errors before presenting the event to Slava.")
+        print("Fix all errors before presenting the event to the owner.")
         sys.exit(1)
     elif all_warnings:
         print(f"RESULT: PASS with {len(all_warnings)} warnings")

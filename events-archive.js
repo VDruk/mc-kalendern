@@ -1,12 +1,11 @@
 /*
  * MC Kalendern - Event Data
- * Copyright (c) 2026 Slava Druk, Uppsala, Sweden
+ * Copyright (c) 2026 MC Kalendern, Uppsala, Sweden
  * https://druk.se/
  *
  * This data is collected, normalized and maintained by MC Kalendern.
  * All rights reserved. Commercial use, redistribution or republication
  * of this data requires written permission from the copyright holder.
- * Contact: slava.druk@gmail.com
  *
  * Data contains integrity markers for copy detection.
  */
@@ -4060,9 +4059,9 @@ const EVENTS_ARCHIVE = {
       "dateEnd": "2026-04-11",
       "location": "Ulleråkersvägen 58, Uppsala",
       "type": "Körning",
-      "organizer": "MC Kalendern / Slava",
+      "organizer": "MC Kalendern",
       "description": "Ingen klubb, bara frihet. Två Gold Wing-förare drar ut på en runda genom Uppland. Alla välkomna att hänga med!",
-      "descriptionFull": "Ingen klubb, bara frihet. Vi är två Gold Wing-förare som drar ut på en dagstur genom Uppland lördag 11 april. Alla som vill hänga med är välkomna, oavsett hoj.\n\nSamling 11:00 vid Ulleråkersvägen 58, Uppsala. Avfärd 11:30.\n\nRutt: Uppsala - Tärnsjö (lunch) - Heby (tank) - Enköping (fika) - Viks slott - Uppsala. Cirka 200 km, 5 timmar.\n\nKontakt: 076-033 53 68 (Slava, Swenglish speaker)",
+      "descriptionFull": "Ingen klubb, bara frihet. Vi är två Gold Wing-förare som drar ut på en dagstur genom Uppland lördag 11 april. Alla som vill hänga med är välkomna, oavsett hoj.\n\nSamling 11:00 vid Ulleråkersvägen 58, Uppsala. Avfärd 11:30.\n\nRutt: Uppsala - Tärnsjö (lunch) - Heby (tank) - Enköping (fika) - Viks slott - Uppsala. Cirka 200 km, 5 timmar.",
       "frontImage": "ads/bara-kora-front-2026-04-11.jpg",
       "backImage": "ads/bara-kora-back-2026-03-28.jpg",
       "links": [
@@ -44448,7 +44447,7 @@ const EVENTS_ARCHIVE = {
       "backImage": "ads/tjorn-runt-moped-back-2026-08-15.jpg"
     },
     {
-      "id": "slava-till-malaren-runt-2026-08-15",
+      "id": "till-malaren-runt-2026-08-15",
       "name": "Från Uppsala till Mälaren Runt",
       "date": "2026-08-15",
       "dateEnd": "2026-08-15",
@@ -44456,20 +44455,16 @@ const EVENTS_ARCHIVE = {
       "type": "Körning",
       "region": "Uppsala",
       "location": "Eva Lagerwalls väg 1, Uppsala",
-      "organizer": "Slava Druk",
+      "organizer": "MC Kalendern",
       "source": "web",
       "link": "https://www.svmc.se/maelaren-runt-2026/",
       "_vehicle": "mc",
-      "description": "Slava Druk, skapare av mc-kalendern och Goldwing-förare, kör sin första Mälaren Runt. Han lämnar garaget i Uppsala kl 08:00 för att hinna ner till starten vid Pampas Marina kl 11:00. Häng på!",
-      "descriptionFull": "Jag heter Slava Druk, skapare av mc-kalendern och Goldwing-förare. På lördag kör jag min första Mälaren Runt!\n\nJag bor i Uppsala och lämnar garaget kl 08:00. Målet är att hinna ner till det officiella starten vid Pampas Marina i Solna, där Mälaren Runt drar igång kl 11:00.\n\nSamling vid parkeringen på Eva Lagerwalls väg 1, Uppsala, kl 08:00 på lördag 15 augusti. Alla som vill köra med är varmt välkomna, hör av dig om du vill hänga på!\n\nKontakta mig gärna: 076-033 53 68 eller via Facebook.",
+      "description": "Skaparen av mc-kalendern, Goldwing-förare, kör sin första Mälaren Runt. Han lämnar garaget i Uppsala kl 08:00 för att hinna ner till starten vid Pampas Marina kl 11:00. Häng på!",
+      "descriptionFull": "Jag är skaparen av mc-kalendern, Goldwing-förare. På lördag kör jag min första Mälaren Runt!\n\nJag bor i Uppsala och lämnar garaget kl 08:00. Målet är att hinna ner till det officiella starten vid Pampas Marina i Solna, där Mälaren Runt drar igång kl 11:00.\n\nSamling vid parkeringen på Eva Lagerwalls väg 1, Uppsala, kl 08:00 på lördag 15 augusti. Alla som vill köra med är varmt välkomna, hör av dig om du vill hänga på!",
       "links": [
         {
           "label": "svmc.se",
           "url": "https://www.svmc.se/maelaren-runt-2026/"
-        },
-        {
-          "label": "FB Sida",
-          "url": "https://www.facebook.com/slava.druk"
         },
         {
           "label": "Karta",
@@ -44477,7 +44472,7 @@ const EVENTS_ARCHIVE = {
           "type": "map"
         }
       ],
-      "backImage": "ads/slava-till-malaren-runt-back-2026-08-15.jpg"
+      "backImage": "ads/till-malaren-runt-back-2026-08-15.jpg"
     },
     {
       "id": "tibro-mopperally-rundan-2026-08-15",

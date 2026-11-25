@@ -1,12 +1,11 @@
 /*
  * MC Kalendern - Event Data
- * Copyright (c) 2026 Slava Druk, Uppsala, Sweden
+ * Copyright (c) 2026 MC Kalendern, Uppsala, Sweden
  * https://druk.se/
  *
  * This data is collected, normalized and maintained by MC Kalendern.
  * All rights reserved. Commercial use, redistribution or republication
  * of this data requires written permission from the copyright holder.
- * Contact: slava.druk@gmail.com
  *
  * Data contains integrity markers for copy detection.
  */
@@ -813,7 +812,7 @@ const EVENTS_DATA = {
       "dateEnd": "2026-09-28",
       "location": "druk.se",
       "type": "Anons",
-      "organizer": "MC Kalendern / Slava Druk",
+      "organizer": "MC Kalendern",
       "description": "Sveriges mest kompletta MC-kalender med mer än tusen event. Gratis, utan reklam, byggd av en hojare för alla hojare.",
       "descriptionFull": "MC Kalendern samlar hela Sveriges MC-event på ett ställe.\n\nMer än tusen event från träffar och körningar till shower, racing och fester. All data hämtas från ett flertal källor och uppdateras varje dag.\n\nProjektet är 100% gratis och byggt av ren passion för tvåhjuliga äventyr. Ingen inloggning, inga betalmurer, inga spammail.\n\nSaknar du ett event? Hojta till så lägger vi till det!\n\nBesök oss på druk.se och hitta din nästa tur.",
       "frontImage": "ads/mc-kalendern-front-2026-09-28.jpg",

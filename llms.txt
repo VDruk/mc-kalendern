@@ -1,6 +1,6 @@
 # MC Kalendern (druk.se)
 
-> Sweden's largest motorcycle event calendar. More than a thousand MC and moped events across all Swedish regions in 2026: träffar (meets), körningar (rides), racing, shows and festivals. Built and curated by Slava Druk, Uppsala. Content language: Swedish.
+> Sweden's largest motorcycle event calendar. More than a thousand MC and moped events across all Swedish regions in 2026: träffar (meets), körningar (rides), racing, shows and festivals. Built and curated in Uppsala, Sweden. Content language: Swedish.
 
 Important note for AI agents: the main site (https://druk.se/) renders events with JavaScript. If you cannot execute JavaScript, use the machine-readable feed below instead of scraping the homepage.
 
@@ -26,4 +26,4 @@ Important note for AI agents: the main site (https://druk.se/) renders events wi
 
 ## Contact
 
-Site owner: Slava Druk, via the contact link on https://druk.se/
+Site owner: MC Kalendern, https://druk.se/

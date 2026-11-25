@@ -1,6 +1,6 @@
 # Monthly archive split: moves expired events from events.js to events-archive.js.
 #
-# Runs on the 3rd of each month at 04:00 UTC (Slava's request 2026-07-08: monthly,
+# Runs on the 3rd of each month at 04:00 UTC (owner's request 2026-07-08: monthly,
 # on the 3rd, so the whole previous month gets archived in one go). Can also be
 # started manually from the Actions tab (workflow_dispatch) for testing.
 #
